@@ -1,0 +1,591 @@
+##
+# @copyright (c) 2015 commenthol
+# @license CC0-1.0
+#
+# for language codes:
+# <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>
+#
+
+names:
+  # fix day names
+  01-01:
+    name:
+      en: New Year's Day
+      bg: Нова Година
+      bs: Novogodisnji dan
+      ca: Any nou
+      cz: Nový rok
+      de: Neujahr
+      dk: Nytår
+      el: Πρωτοχρονιά
+      es: Año Nuevo
+      et: uusaasta
+      fi: Uudenvuodenpäivä
+      #fr: Jour de l'An
+      fr: Nouvel An
+      hr: Nova godina
+      hu: Újév
+      hy: Ամանոր
+      it: Capodanno
+      is: Nýársdagur
+      jp: 元日
+      lt: Naujieji metai
+      lv: Jaunais Gads
+      mt: L-Ewwel tas-Sena
+      nl: Nieuwjaar
+      no: Første nyttårsdag
+      pl: Nowy Rok
+      pt: Ano Novo
+      ro: Anul nou
+      ru: Новый год
+      sr: Нова година
+      sv: Nyårsdagen
+      tr: Yılbaşı
+  01-06:
+    name:
+      en: Epiphany
+      de: Heilige Drei Könige
+      #de: Erscheinung des Herrn
+      es: Reyes Magos
+      #es: Epifanía del Señor
+      et: kolmekuningapäev
+      fi: Loppiainen
+      fr: l'Épiphanie
+      el: Θεοφάνεια
+      hr: Bogojavljenje, Sveta tri kralja
+      it: Befana
+      #it: Epifania
+      is: Þrettándinn
+      nl: Driekoningen
+      pl: Święto Trzech Króli
+      sv: Trettondedag jul
+  02-02:
+    name:
+      en: Candlemas
+      de: Lichtmess
+  02-14:
+    name:
+      en: Valentine's Day
+      de: Valentinstag
+      fr: Saint-Valentin
+      nl: Valentijnsdag
+  03-19:
+    name:
+      en: Saint Joseph
+      de-at: Josefitag
+      de: Josefstag
+      es: San José
+      mt: San Ġużepp
+  05-01:
+    name:
+      en: Labour Day
+      bg: Ден на труда
+      bs: Radni dan
+      cz: Svátek práce
+      de: Tag der Arbeit
+      el: Εργατική Πρωτομαγιά
+      es: Fiesta del trabajo
+      et: kevadpüha
+      fi: Vappu
+      fr: Fête du travail
+      hr: Praznik rada
+      hu: A munka ünnepe
+      hy: Աշխատանքի օր
+      it: Festa del Lavoro
+      is: Hátíðisdagur Verkamanna
+      lt: Tarptautinė darbo diena
+      lv: Darba svētki
+      nl: Dag van de Arbeid
+      no: Første mai
+      mt: Jum il-Ħaddiem
+      pl: Święto Pracy
+      pt: Dia do trabalhador
+      ro: Ziua muncii
+      sr: Празник рада
+      sv: Första Maj
+  08-15:
+    name:
+      en: Assumption
+      de: Mariä Himmelfahrt
+      es: Asunción
+      fr: Assomption
+      el: Κοίμηση της Θεοτόκου
+      hr: Velika Gospa
+      it: Ferragosto
+      #it: Assunzione di Maria Virgine
+      lt: Žolinė
+      mt: Santa Marija
+      nl: O.L.V. Hemelvaart
+      pl: Wniebowzięcie Najświętszej Maryi Panny
+      pt: Assunção
+      ro: Adormirea Maicii Domnului
+      sq: Shën Mëria e Gushtit
+  11-01:
+    name:
+      en: All Saints' Day
+      bs: Dita e të gjithë Shenjtorëve
+      de: Allerheiligen
+      es: Todos los Santos
+      fi: Pyhäinpäivä
+      fr: Toussaint
+      hr: Svi sveti
+      hu: Mindenszentek
+      it: Ognissanti
+      #it: Tutti i Santi
+      lt: Visų šventųjų diena
+      nl: Allerheiligen
+      pl: Wszystkich Świętych
+      pt: Todos os santos
+      sq: Të gjitha Saints
+      sr: Сви Свети
+      sv: Alla helgons dag
+  11-02:
+    name:
+      en: All Souls' Day
+      de: Allerseelen
+      et: hingedepäev
+      fr: Fête des morts
+      nl: Allerzielen
+      pt: Dia de Finados
+  11-11:
+    name:
+      en: Saint Martin
+      de: Sankt Martin (Faschingsbeginn)
+  12-06:
+    name:
+      de: Sankt Nikolaus
+      fr: Saint-Nicolas
+      nl: Sinterklaas
+  12-08:
+    name:
+      en: Immaculate Conception
+      de: Mariä Empfängnis
+      es: La inmaculada concepción
+      fr: Immaculée Conception
+      it: Immacolata Concezione
+      mt: Il-Kunċizzjoni
+      pt: Imaculada Conceição
+  12-24:
+    name:
+      en: Christmas Eve
+      bg: Бъдни вечер
+      bs: Badnji dan
+      cz: Štědrý den
+      de: Heiliger Abend
+      es: Nochebuena
+      et: jõululaupäev
+      fi: Jouluaatto
+      hr: Badnji dan
+      is: Aðfangadagur
+      lt: Šv. Kūčios
+      lv: Ziemassvētku vakars
+      nl: Kerstavond
+      no: Julaften
+      pt: Noite de Natal
+      sq: Nata e Krishtlindjes
+      sr: Бадњи дан
+      sv: Julafton
+  12-25:
+    name:
+      en: Christmas Day
+      bg: Коледа
+      bs: Božić
+      de-at: Christtag
+      ca: Nadal
+      cz: 1. svátek vánoční
+      de: Weihnachten
+      dk: 1. Juledag
+      el: Χριστούγεννα
+      es: Navidad
+      et: esimene jõulupüha
+      fi: Joulupäivä
+      fr: Noël
+      hr: Božić
+      hu: Karácsony
+      hy: Սուրբ Ծնունդ
+      it: Natale
+      is: Jóladagur
+      jp: ノエル
+      lt: Šv. Kalėdos
+      lv: Ziemassvētki
+      mt: Il-Milied
+      nl: Kerstmis
+      no: Første Juledag
+      pl: Pierwszy dzień Bożego Narodzenia
+      pt: Natal
+      ro: Crăciunul
+      ru: Рождество Христово
+      sq: Krishtlindja
+      sr: Божић
+      sv: Juldagen
+  12-26:
+    name:
+      en: Boxingday
+      de-at: Stefanitag
+      bg: 2-ри ден на Коледа
+      cz: 2. svátek vánoční
+      de: 2ter Weihnachtstag
+      dk: 2. Juledag
+      el: Δεύτερη μέρα των Χριστουγέννων
+      es: San Esteban
+      et: teine jõulupüha
+      fi: 2. joulupäivä
+      fr: Lendemain de Noël
+      #fr: Saint Etienne
+      hr: Svetog Stjepana
+      hu: Karácsony másnapja
+      it: Santo Stefano
+      is: Annar í jólum
+      lt: 2. Kalėdų diena
+      lv: Otrie Ziemassvētki
+      nl: Tweede kerstdag
+      no: Andre juledag
+      pl: Drugi dzień Bożego Narodzenia
+      ro: Două zi de Crăciun
+      sv: Annandag jul
+  12-31:
+    name:
+      en: New Year's Eve
+      de: Silvester
+      es: Fin del Año
+      #es: Nochevieja
+      fi: Uudenvuodenaatto
+      fr: Saint-Sylvestre
+      hu: Szilveszter
+      hy: Նոր տարվա գիշեր
+      is: Gamlársdagur
+      jp: 大晦日
+      lv: Vecgada vakars
+      nl: Oudjaar
+      no: Nyttårsaften
+      pt: Véspera de Ano Novo
+      sv: Nyårsafton
+
+  # moveable days
+  # christian holidays
+  easter -47: # Carnival
+    name:
+      en: Shrove Tuesday
+      es: Carnaval
+      de: Faschingsdienstag
+      #de: Fastnacht
+      hr: Pokladni utorak
+      pt: Carnaval
+  easter -46: # Ash Wednesday
+    name:
+      en: Ash Wednesday
+      de: Aschermittwoch
+      es: Miercoles de Ceniza
+      fr: Mercredi des Cendres
+      it: Ceneri
+      is: Öskudagur
+  easter -7:
+    name:
+      en: Palm Sunday
+      de: Palmsonntag
+      it: Domenica delle Palme
+      is: Pálmasunnudagur
+      no: Palmesøndag
+  easter -3: # Maundy Thursday
+    name:
+      en: Maundy Thursday
+      cz: Zelený čtvrtek
+      de: Gründonnerstag
+      dk: Skærtorsdag
+      es: Jueves Santo
+      fr: Jeudi saint
+      it: Giovedì santo
+      is: Skírdagur
+      no: Skjærtorsdag
+  easter -2: # Good Friday
+    name:
+      en: Good Friday
+      bg: Разпети петък
+      bs: Dobar petak
+      cz: Velikonoční pátek
+      de: Karfreitag
+      dk: Langfredag
+      es: Viernes Santo
+      fi: Pitkäperjantai
+      fr: Vendredi saint
+      el: Μεγάλη Παρασκευή
+      et: suur reede
+      hr: Veliki petak
+      it: Venerdì santo
+      is: Föstudagurinn langi
+      lv: Lielā Piektdiena
+      mt: Il-Ġimgħa l-Kbira
+      nl: Goede Vrijdag
+      no: Langfredag
+      pt: Sexta-Feira Santa
+      sq: E Premtja e Madhe
+      sr: Велики петак
+      sv: Långfredagen
+  easter -1: # Holy Saturday
+    name:
+      en: Easter Saturday
+      cz: Bílá sobota
+      de: Karsamstag
+      es: Sabado Santo
+      fr: Samedi saint
+      it: Sabado santo
+  easter: # Easter
+    name:
+      en: Easter Sunday
+      bg: Великден
+      bs: Vaskrs
+      cz: Neděle velikonoční
+      de: Ostersonntag
+      dk: Påskesøndag
+      el: Πάσχα
+      es: Pascua
+      et: lihavõtted
+      fi: Pääsiäispäivä
+      fr: Pâques
+      hr: Uskrs
+      hu: Húsvétvasárnap
+      it: Domenica di Pasqua
+      is: Páskadagur
+      lt: Velykos
+      lv: Lieldienas
+      nl: Pasen
+      no: Første påskedag
+      pl: Niedziela Wielkanocna
+      pt: Páscoa
+      ro: Paștele
+      sq: Pashkët
+      sr: Васкрс
+      sv: Påsk
+  easter 1: # Easter Monday
+    name:
+      en: Easter Monday
+      bg: Велики понеделник
+      cz: Velikonoční pondělí
+      de: Ostermontag
+      dk: Anden påskedag
+      el: Δευτέρα του Πάσχα
+      es: Lunes de Pascua
+      fi: 2. pääsiäispäivä
+      fr: Lundi de Pâques
+      hr: Drugi dan Uskrsa
+      hu: Húsvéthétfő
+      it: Lunedì dell’Angelo
+      is: Annar í páskum
+      lv: Otrās Lieldienas
+      nl: Paasmaandag
+      no: Andre påskedag
+      pl: Drugi dzień Wielkanocy
+      ro: Două zi de Pasti
+      sv: Annandag påsk
+  easter 39: # Ascension Day
+    name:
+      en: Ascension Day
+      de: Christi Himmelfahrt
+      dk: Kristi Himmelfartsdag
+      es: La Asunción
+      fi: Helatorstai
+      fr: Ascension
+      it: Ascensione
+      is: Uppstigningardagur
+      nl: O.L.H. Hemelvaart
+      no: Kristi himmelfartsdag
+      ro: Ziua Eroilor
+      sv: Kristi himmelfärds dag
+  easter 49: # Pentecost
+    name:
+      en: Pentecost
+      de: Pfingstsonntag
+      dk: Pinsedag
+      el: Αγίου Πνεύματος
+      es: Pentecostés
+      et: nelipühade 1. püha
+      fi: Helluntaipäivä
+      fr: Pentecôte
+      hu: Pünkösdvasárnap
+      it: Pentecoste
+      is: Hvítasunnudagur
+      nl: Pinksteren
+      no: Første pinsedag
+      pl: Zielone Świątki
+      ro: Rusaliile
+      sv: Pingst
+  easter 50: # Whit Monday
+    name:
+      en: Whit Monday
+      de: Pfingstmontag
+      dk: 2. Pinsedag
+      es: Lunes de Pentecostés
+      fr: Lundi de Pentecôte
+      hu: Pünkösdhétfő
+      it: Lunedì di Pentecoste
+      is: Annar í hvítasunnu
+      nl: Pinkstermaandag
+      no: Andre pinsedag
+      ro: Două zi de Rusalii
+  easter 60: # Corpus Christi
+    name:
+      en: Corpus Christi
+      de: Fronleichnam
+      es: Corpus Christi
+      fr: la Fête-Dieu
+      it: Corpus Domini
+      hr: Tijelovo
+      pl: Dzień Bożego Ciała
+      pt: Corpo de Deus
+
+  # muslim holidays
+  1 Muharram:
+    name:
+      en: Islamic New Year
+      bs: Nova hidžretska godina
+      hr: Nova hidžretska godina
+      sq: Viti i Ri hixhri
+  1 Shawwal:
+    name:
+      en: Eid al-Fitr, Bayram
+      bs: Ramazanski bajram
+      sq: Fitër bajrami
+      tr: Bayramı
+  10 Dhu al-Hijjah:
+    name:
+      en: Eid al-Adha, Sacrifice Feast
+      bs: Kurbanski bajram
+      sq: Kurban bajrami
+      tr: Kurban Bayramı
+  12 Rabi al-awwal:
+    name:
+      en: Mawlid
+      bs: Mevlud
+      sq: Mevludi
+  27 Rajab:
+    name:
+      en: Laylat al-Mi'raj
+      bs: Lejletul Mi'radž
+      sq: Nata e Miraxhit
+  15 Shaban:
+    name:
+      en: Laylat al-Bara'at
+      bs: Lejletul berat
+      sq: Nata e Beratit
+  1 Ramadan:
+    name:
+      en: First day of Ramadan
+      bs: Prvi dan posta
+      sq: Dita e parë e agjërimit
+  27 Ramadan:
+    name:
+      en: Laylat al-Qadr
+      bs: Lejletul kadr
+      sq: Nata e Kadrit
+
+  # jewish holidays
+  15 Nisan:
+    name:
+      en: Pesach
+      bs: Pesah
+      de: Pessach
+      hr: Pesač
+      sq: Pesach
+      sr: Песах
+  1 Tishrei:
+    name:
+      en: Rosh Hashanah
+      bs: Roš Hašana
+      de: Rosch Haschana
+      hr: Roš Hašane
+      sq: Rosh Hashanah
+      sr: Рош Хашана
+  10 Tishrei:
+    name:
+      en: Yom Kippur
+      bs: Jom Kipur
+      de: Jom Kippur
+      hr: Jom Kipur
+      sq: Yom Kippur
+      sr: Јом Кипур
+  # Day references
+  Abolition of Slavery:
+    name:
+      en: Abolition of Slavery
+      fr: Abolition de l’esclavage
+  Buß- und Bettag:
+    name:
+      de: Buß- und Bettag
+      en: Day of Prayer and Repentance
+  Constitution Day:
+    name:
+      en: Constitution Day
+      de: Tag des Grundgesetzes
+      dk: Grundlovsdag
+      ca: Dia de la Constitució
+      es: Día de la Constitución
+      hy: Սահմանադրության օր
+      jp: 憲法記念日
+      no: Grunnlovsdagen
+  Fathers Day:
+    name:
+      en: Father's Day
+      et: isadepäev
+      lt: Tėvo diena
+      pt: Dia dos Pais
+  Independence Day:
+    name:
+      en: Independence Day
+      bg: Ден на независимостта
+      bs: Dan nezavisnosti
+      es: Día de la Independencia
+      et: iseseisvuspäev
+      fi: Itsenäisyyspäivä
+      hr: Dan neovisnosti
+      hy: Անկախության օր
+      mt: Jum l-Indipendenza
+      pl: Narodowe Święto Niepodległości
+      pt: Dia da Independência
+      sr: Дан независности
+  Mothers Day:
+    name:
+      en: Mother's Day
+      cz: Den matek
+      de: Muttertag
+      dk: Mors Dag
+      el: Γιορτή της μητέρας
+      es: Día de la Madre
+      et: emadepäev
+      fi: Äitien päivä
+      fr: Fête des Mères
+      hr: Majčin dan
+      hu: Anyák napja
+      hy: Ցեղասպանության զոհերի հիշատակի օր
+      is: Mæðradagurinn
+      it: Festa della mamma
+      lt: Motinos diena
+      lv: Mātes diena
+      nl: Moederdag
+      no: Morsdag
+      pt: Dia das Mães
+      pl: Dzień Matki
+      ro: Ziua Mamei
+      sv: Mors dag
+  National Holiday:
+    name:
+      en: National Holiday
+      de: Nationalfeiertag
+      es: Fiesta Nacional
+      fr: Fête nationale
+      el: εθνική επέτειος
+      nl: Nationale feestdag
+  Reformationstag:
+    name:
+      de: Reformationstag
+      en: Reformation Day
+
+  # internal use
+  substitutes:
+    name:
+      en: substitute day
+      bs: zamjena dan
+      es: día sustituto
+      fr: jour substitut
+      hr: zamjena dan
+      lv: aizstājējs diena
+      sr: замена дан

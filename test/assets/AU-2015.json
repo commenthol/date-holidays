@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T13:00:00.000Z",
+    "end": "2015-01-01T13:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2015-01-26 00:00:00",
+    "start": "2015-01-25T13:00:00.000Z",
+    "end": "2015-01-26T13:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T13:00:00.000Z",
+    "end": "2015-04-03T13:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-04 00:00:00",
+    "start": "2015-04-03T13:00:00.000Z",
+    "end": "2015-04-04T13:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-05 00:00:00",
+    "start": "2015-04-04T13:00:00.000Z",
+    "end": "2015-04-05T14:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-05T14:00:00.000Z",
+    "end": "2015-04-06T14:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-25 00:00:00",
+    "start": "2015-04-24T14:00:00.000Z",
+    "end": "2015-04-25T14:00:00.000Z",
+    "name": "ANZAC Day",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-27 00:00:00",
+    "start": "2015-04-26T14:00:00.000Z",
+    "end": "2015-04-27T14:00:00.000Z",
+    "substitute": true,
+    "name": "ANZAC Day (substitute day)",
+    "type": "public"
+  },
+  {
+    "date": "2015-06-08 00:00:00",
+    "start": "2015-06-07T14:00:00.000Z",
+    "end": "2015-06-08T14:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-24 00:00:00",
+    "start": "2015-12-23T13:00:00.000Z",
+    "end": "2015-12-24T13:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "observance"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T13:00:00.000Z",
+    "end": "2015-12-25T13:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-26 00:00:00",
+    "start": "2015-12-25T13:00:00.000Z",
+    "end": "2015-12-26T13:00:00.000Z",
+    "name": "Boxingday",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-28 00:00:00",
+    "start": "2015-12-27T13:00:00.000Z",
+    "end": "2015-12-28T13:00:00.000Z",
+    "name": "Boxingday (substitute day)",
+    "substitute": true,
+    "type": "public"
+  },
+  {
+    "date": "2015-12-31 00:00:00",
+    "start": "2015-12-30T13:00:00.000Z",
+    "end": "2015-12-31T13:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
+  }
+]

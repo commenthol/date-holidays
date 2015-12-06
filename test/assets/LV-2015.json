@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T22:00:00.000Z",
+    "end": "2015-01-01T22:00:00.000Z",
+    "name": "Jaunais Gads",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T21:00:00.000Z",
+    "end": "2015-04-03T21:00:00.000Z",
+    "name": "Lielā Piektdiena",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-05 00:00:00",
+    "start": "2015-04-04T21:00:00.000Z",
+    "end": "2015-04-05T21:00:00.000Z",
+    "name": "Lieldienas",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-05T21:00:00.000Z",
+    "end": "2015-04-06T21:00:00.000Z",
+    "name": "Otrās Lieldienas",
+    "type": "public"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T21:00:00.000Z",
+    "end": "2015-05-01T21:00:00.000Z",
+    "name": "Darba svētki",
+    "type": "public"
+  },
+  {
+    "date": "2015-05-04 00:00:00",
+    "start": "2015-05-03T21:00:00.000Z",
+    "end": "2015-05-04T21:00:00.000Z",
+    "name": "Latvijas Republikas Neatkarības atjaunošanas diena",
+    "type": "public"
+  },
+  {
+    "date": "2015-05-10 00:00:00",
+    "start": "2015-05-09T21:00:00.000Z",
+    "end": "2015-05-10T21:00:00.000Z",
+    "name": "Mātes diena",
+    "type": "observance"
+  },
+  {
+    "date": "2015-06-23 00:00:00",
+    "start": "2015-06-22T21:00:00.000Z",
+    "end": "2015-06-23T21:00:00.000Z",
+    "name": "Līgo Diena",
+    "type": "public"
+  },
+  {
+    "date": "2015-06-24 00:00:00",
+    "start": "2015-06-23T21:00:00.000Z",
+    "end": "2015-06-24T21:00:00.000Z",
+    "name": "Jāņi",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-18 00:00:00",
+    "start": "2015-11-17T22:00:00.000Z",
+    "end": "2015-11-18T22:00:00.000Z",
+    "name": "Latvijas Republikas proklamēšanas diena",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-24 00:00:00",
+    "start": "2015-12-23T22:00:00.000Z",
+    "end": "2015-12-24T22:00:00.000Z",
+    "name": "Ziemassvētku vakars",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T22:00:00.000Z",
+    "end": "2015-12-25T22:00:00.000Z",
+    "name": "Ziemassvētki",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-26 00:00:00",
+    "start": "2015-12-25T22:00:00.000Z",
+    "end": "2015-12-26T22:00:00.000Z",
+    "name": "Otrie Ziemassvētki",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-31 00:00:00",
+    "start": "2015-12-30T22:00:00.000Z",
+    "end": "2015-12-31T22:00:00.000Z",
+    "name": "Vecgada vakars",
+    "type": "public"
+  }
+]

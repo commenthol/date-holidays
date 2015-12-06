@@ -1,0 +1,6871 @@
+{
+  "version": "2016-01-01",
+  "license": "CC-BY-SA-3",
+  "holidays": {
+    "AD": {
+      "name": "Andorra",
+      "dayoff": "sunday",
+      "langs": [
+        "ca",
+        "es"
+      ],
+      "zones": [
+        "Europe/Andorra"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "03-14": {
+          "_name": "Constitution Day"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "09-08": {
+          "name": {
+            "en": "Our Lady of Meritxell",
+            "es": "Nuestra Sra. De Meritxell",
+            "cat": "Mare de Déu de Meritxell"
+          }
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-24": {
+          "type": "bank",
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "easter -3 14:00": {
+          "type": "bank",
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        }
+      },
+      "regions": {
+        "vella": {
+          "name": "Andorra la Vella",
+          "days": {
+            "1st saturday after 08-01 +3days": {
+              "name": {
+                "en": "Andorra La Vella Festival",
+                "ca": "Andorra La Vella Festival"
+              }
+            }
+          }
+        }
+      }
+    },
+    "AM": {
+      "name": "Armenia",
+      "dayoff": "sunday",
+      "langs": [
+        "hy"
+      ],
+      "zones": [
+        "Asia/Yerevan"
+      ],
+      "days": {
+        "12-31": {
+          "_name": "12-31"
+        },
+        "01-01 +2d": {
+          "_name": "01-01"
+        },
+        "01-03 +3d": {
+          "name": {
+            "en": "Pre-Christmas holidays",
+            "hy": "Նախածննդյան տոներ"
+          }
+        },
+        "01-06": {
+          "_name": "12-25"
+        },
+        "01-28": {
+          "name": {
+            "en": "Army Day",
+            "hy": "Բանակի օր"
+          }
+        },
+        "02-21": {
+          "name": {
+            "en": "Mother Language Day",
+            "hy": "Մայրենի լեզվի օր"
+          },
+          "type": "observance"
+        },
+        "easter -52": {
+          "name": {
+            "en": "St. Vartan the good work and the duty days",
+            "hy": "Սուրբ Վարդանանց տոն՝ բարի գործի եւ ազգային տուրքի օր"
+          },
+          "type": "observance"
+        },
+        "03-08": {
+          "name": {
+            "en": "International Womens Holiday",
+            "hy": "Կանանց տոն"
+          }
+        },
+        "04-07": {
+          "name": {
+            "en": "Motherhood and Beauty Day",
+            "hy": "Մայրության, գեղեցկության եւ սիրո տոն"
+          },
+          "type": "observance"
+        },
+        "04-24": {
+          "_name": "Mothers Day"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-08": {
+          "name": {
+            "en": "Yerkrapah Day",
+            "hy": "Երկրապահի օր"
+          },
+          "type": "observance"
+        },
+        "05-09": {
+          "name": {
+            "en": "Victory and Peace Day",
+            "hy": "Հաղթանակի եւ Խաղաղության տոն"
+          }
+        },
+        "05-28": {
+          "name": {
+            "en": "Republic Day",
+            "hy": "Հանրապետության օր"
+          }
+        },
+        "06-01": {
+          "name": {
+            "en": "The day of protection of children rights",
+            "hy": "Երեխաների իրավունքների պաշտպանության օր"
+          },
+          "type": "observance"
+        },
+        "07-05": {
+          "_name": "Constitution Day"
+        },
+        "09-01": {
+          "name": {
+            "en": "Knowledge, Literacy and Education Day",
+            "hy": "Գիտելիքի, գրի եւ դպրության օր"
+          },
+          "type": "observance"
+        },
+        "09-21": {
+          "_name": "Independence Day"
+        },
+        "2nd saturday after 10-01": {
+          "name": {
+            "en": "Translator's Day",
+            "hy": "Թարգմանչաց տոն"
+          },
+          "type": "observance"
+        },
+        "12-07": {
+          "name": {
+            "en": "Earthquake Remembrance Day",
+            "hy": "Երկրաշարժի զոհերի հիշատակի օր"
+          },
+          "type": "observance"
+        }
+      }
+    },
+    "AR": {
+      "name": "Argentina",
+      "dayoff": "sunday",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "America/Argentina/Buenos_Aires",
+        "America/Argentina/Cordoba",
+        "America/Argentina/Salta",
+        "America/Argentina/Jujuy",
+        "America/Argentina/Tucuman",
+        "America/Argentina/Catamarca",
+        "America/Argentina/La_Rioja",
+        "America/Argentina/San_Juan",
+        "America/Argentina/Mendoza",
+        "America/Argentina/San_Luis",
+        "America/Argentina/Rio_Gallegos",
+        "America/Argentina/Ushuaia"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -48": {
+          "_name": "easter -47"
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "03-24": {
+          "name": {
+            "en": "Day of Remembrance for Truth and Justice",
+            "es": "Día de la Memoria por la Verdad y la Justicia"
+          }
+        },
+        "substitutes 03-24 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "substitutes 03-24 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "04-02": {
+          "name": {
+            "en": "Day of the veterans and the fallen in Malvinas War",
+            "es": "Día del Veterano y de los Caídos en la Guerra de Malvinas"
+          }
+        },
+        "substitutes 04-02 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "substitutes 04-02 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "substitutes 05-01 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "substitutes 05-01 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "05-25": {
+          "name": {
+            "en": "Day of the First National Government",
+            "es": "Primer Gobierno Patrio"
+          }
+        },
+        "substitutes 05-25 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "substitutes 05-25 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "06-20": {
+          "name": {
+            "en": "National Flag Day",
+            "es": "Día de la Bandera"
+          }
+        },
+        "substitutes 06-20 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "substitutes 06-20 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "07-09": {
+          "_name": "Independence Day"
+        },
+        "3rd monday after 08-01": {
+          "name": {
+            "en": "Anniversary of the death of General José de San Martín",
+            "es": "Día del Libertador José de San Martín"
+          }
+        },
+        "10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday": {
+          "name": {
+            "en": "Day of Respect for Cultural Diversity",
+            "es": "Día del Respeto a la Diversidad Cultural"
+          }
+        },
+        "4th monday after 11-01": {
+          "disable": [
+            "2015-11-23"
+          ],
+          "enable": [
+            "2015-11-27"
+          ],
+          "name": {
+            "en": "Day of National Sovereignty",
+            "es": "Día de la Soberanía nacional"
+          }
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "substitutes 12-08 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "substitutes 12-08 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "12-24 12:00": {
+          "_name": "12-24",
+          "type": "optional"
+        },
+        "substitutes 12-24 if tuesday then previous monday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if thursday then next friday": {
+          "name": {
+            "en": "Bridge Day",
+            "es": "Feriado Puente Turístico"
+          }
+        },
+        "12-31 12:00": {
+          "_name": "12-31",
+          "type": "optional"
+        }
+      }
+    },
+    "AT": {
+      "name": "Österreich",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Vienna"
+      ],
+      "langs": [
+        "de-at",
+        "de"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "name": {
+            "de-at": "Staatsfeiertag"
+          }
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "10-26": {
+          "_name": "National Holiday"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-24 14:00 if sunday then 00:00": {
+          "_name": "12-24",
+          "type": "bank"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31 14:00 if sunday then 00:00": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      },
+      "states": {
+        "b": {
+          "name": "Burgenland",
+          "days": {
+            "11-11": {
+              "name": {
+                "de-at": "Martinstag"
+              }
+            }
+          }
+        },
+        "k": {
+          "name": "Kärnten",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            },
+            "10-10": {
+              "name": {
+                "de-at": "Tag der Volksabstimmung"
+              }
+            }
+          }
+        },
+        "n": {
+          "name": "Niederösterreich",
+          "days": {
+            "11-15": {
+              "name": {
+                "de-at": "Leopold"
+              }
+            }
+          }
+        },
+        "o": {
+          "name": "Oberösterreich",
+          "days": {
+            "05-04": {
+              "name": {
+                "de-at": "Florian"
+              }
+            }
+          }
+        },
+        "s": {
+          "name": "Land Salzburg",
+          "days": {
+            "09-24": {
+              "name": {
+                "de-at": "Rupert"
+              }
+            }
+          }
+        },
+        "st": {
+          "name": "Steiermark",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            }
+          }
+        },
+        "t": {
+          "name": "Tirol",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            }
+          }
+        },
+        "v": {
+          "name": "Vorarlberg",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            }
+          }
+        },
+        "w": {
+          "name": "Wien",
+          "days": {
+            "11-15": {
+              "name": {
+                "de-at": "Leopold"
+              }
+            }
+          }
+        }
+      }
+    },
+    "AU": {
+      "name": "Australia",
+      "dayoff": "sunday",
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "Australia/Sydney",
+        "Australia/Lord_Howe",
+        "Antarctica/Macquarie",
+        "Australia/Hobart",
+        "Australia/Currie",
+        "Australia/Melbourne",
+        "Australia/Broken_Hill",
+        "Australia/Brisbane",
+        "Australia/Lindeman",
+        "Australia/Adelaide",
+        "Australia/Darwin",
+        "Australia/Perth",
+        "Australia/Eucla"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if saturday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "01-26": {
+          "name": {
+            "en": "Australia Day"
+          }
+        },
+        "substitutes 01-26 if saturday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Australia Day"
+          }
+        },
+        "substitutes 01-26 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Australia Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter -1": {
+          "_name": "easter -1"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "04-25": {
+          "name": {
+            "en": "ANZAC Day"
+          }
+        },
+        "substitutes 04-25 if saturday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "ANZAC Day"
+          }
+        },
+        "substitutes 04-25 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "ANZAC Day"
+          }
+        },
+        "2nd monday after 06-01": {
+          "name": {
+            "en": "Queen's Birthday"
+          }
+        },
+        "12-24": {
+          "_name": "12-24",
+          "type": "observance"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if saturday then next tuesday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next tuesday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if saturday then next monday": {
+          "substitute": true,
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-26"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "observance"
+        }
+      },
+      "states": {
+        "act": {
+          "name": "Australian Capital Territory",
+          "zones": [
+            "Australia/Sydney"
+          ],
+          "days": {
+            "2nd monday after 03-01": {
+              "name": {
+                "en": "Canberra Day"
+              }
+            },
+            "easter": {
+              "type": "public"
+            },
+            "monday before 10-01": {
+              "name": {
+                "en": "Family & Community Day"
+              },
+              "note": "rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays"
+            },
+            "1st monday after 10-01": {
+              "name": "Labour Day"
+            }
+          }
+        },
+        "nsw": {
+          "name": "New South Wales",
+          "zones": [
+            "Australia/Sydney"
+          ],
+          "days": {
+            "easter": {
+              "type": "public"
+            },
+            "1st monday after 10-01": {
+              "name": "Labour Day"
+            },
+            "12-31": {
+              "type": "public"
+            }
+          }
+        },
+        "nt": {
+          "name": "Northern Territory",
+          "zones": [
+            "Australia/Darwin"
+          ],
+          "days": {
+            "1st monday after 05-01": {
+              "name": {
+                "en": "May Day"
+              }
+            },
+            "1st monday after 08-01": {
+              "name": {
+                "en": "Picnic Day"
+              }
+            }
+          }
+        },
+        "qld": {
+          "name": "Queensland",
+          "zones": [
+            "Australia/Brisbane",
+            "Australia/Lindeman"
+          ],
+          "days": {
+            "1st monday after 05-01": {
+              "name": {
+                "en": "Labour Day"
+              }
+            }
+          }
+        },
+        "sa": {
+          "name": "South Australia",
+          "zones": [
+            "Australia/Adelaide"
+          ],
+          "days": {
+            "2nd monday after 03-01": {
+              "name": {
+                "en": "March public holiday"
+              }
+            },
+            "12-24 19:00": {
+              "_name": "12-24",
+              "type": "public"
+            },
+            "12-31 19:00": {
+              "_name": "12-24",
+              "type": "public"
+            }
+          }
+        },
+        "tas": {
+          "name": "Tasmania",
+          "zones": [
+            "Australia/Hobart"
+          ],
+          "days": {
+            "2nd monday after 03-01": {
+              "name": {
+                "en": "Eight Hours Day"
+              }
+            },
+            "easter -1": {
+              "type": "observance"
+            },
+            "easter 2": {
+              "name": {
+                "en": "Easter Tuesday"
+              },
+              "type": "optional",
+              "note": "Public Service employees or contract dependent"
+            }
+          },
+          "regions": {
+            "h": {
+              "name": "Hobart",
+              "days": {
+                "2nd monday after 02-01": {
+                  "name": {
+                    "en": "Royal Hobart Regatta"
+                  }
+                }
+              }
+            },
+            "nh": {
+              "name": "Non-Hobart",
+              "days": {
+                "1st monday after 11-01": {
+                  "name": {
+                    "en": "Recreation Day"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "vic": {
+          "name": "Victoria",
+          "zones": [
+            "Australia/Melbourne"
+          ],
+          "days": {
+            "2nd monday after 03-01": {
+              "name": {
+                "en": "Labour Day"
+              }
+            },
+            "easter": {
+              "type": "public"
+            },
+            "1st friday before 10-04": {
+              "name": {
+                "en": "Grand Final Friday"
+              },
+              "note": "Date might differ as dependent on AFL schedule"
+            }
+          },
+          "regions": {
+            "m": {
+              "name": "Melbourne",
+              "days": {
+                "1st tuesday after 11-01": {
+                  "name": {
+                    "en": "Melbourne Cup"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "wa": {
+          "name": "Western Australia",
+          "zones": [
+            "Australia/Perth",
+            "Australia/Eucla"
+          ],
+          "days": {
+            "1st monday after 03-01": {
+              "name": {
+                "en": "Labour Day"
+              }
+            },
+            "easter -1": {
+              "type": "observance"
+            },
+            "1st monday after 06-01": {
+              "name": {
+                "en": "Western Australia Day"
+              }
+            },
+            "2nd monday after 06-01": false,
+            "monday before 10-01": {
+              "name": {
+                "en": "Queen's Birthday"
+              },
+              "note": "Might be on a different day; is proclaimed by Governor"
+            }
+          }
+        }
+      }
+    },
+    "BE": {
+      "name": "Belgique",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Brussels"
+      ],
+      "langs": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06",
+          "name": {
+            "de": "Erscheinung des Herrn"
+          },
+          "type": "observance"
+        },
+        "02-14": {
+          "_name": "02-14",
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "07-21": {
+          "_name": "National Holiday"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-02": {
+          "_name": "11-02",
+          "type": "observance"
+        },
+        "11-11": {
+          "name": {
+            "de": "Waffenstillstand",
+            "fr": "Armistice",
+            "nl": "Wapenstilstand"
+          }
+        },
+        "11-15": {
+          "name": {
+            "nl": "Koningsdag",
+            "fr": "Fête du Roi",
+            "de": "Festtag des Königs"
+          },
+          "type": "observance"
+        },
+        "12-06": {
+          "_name": "12-06",
+          "type": "observance"
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      },
+      "states": {
+        "de": {
+          "name": "Deutschsprachige Gemeinschaft",
+          "langs": [
+            "de"
+          ],
+          "days": {
+            "11-15": {
+              "name": {
+                "de": "Tag der Deutschsprachigen Gemeinschaft",
+                "fr": "Jour de la Communauté Germanophone",
+                "nl": "Feestdag van de Duitstalige Gemeenschap"
+              }
+            }
+          }
+        },
+        "fr": {
+          "name": "Communauté française",
+          "langs": [
+            "fr"
+          ],
+          "days": {
+            "09-27": {
+              "name": {
+                "de": "Tag der Französischsprachigen Gemeinschaft",
+                "fr": "La fête de la communauté française",
+                "nl": "Feestdag van de Franse Gemeenschap"
+              }
+            }
+          },
+          "regions": {
+            "br": {
+              "name": "Bruxelles",
+              "days": {
+                "05-08": {
+                  "name": {
+                    "nl": "Feest van de Iris",
+                    "fr": "Fête de l'Iris"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "vl": {
+          "name": "Vlaamse Gemeenschap",
+          "langs": [
+            "nl"
+          ],
+          "days": {
+            "07-11": {
+              "name": {
+                "de": "Festtag der Wallonischen Region",
+                "fr": "Fête de la Région wallonne",
+                "nl": "Feestdag van de Vlaamse Gemeenschap"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BG": {
+      "name": "България",
+      "langs": [
+        "bg"
+      ],
+      "zones": [
+        "Europe/Sofia"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "03-01": {
+          "name": {
+            "bg": "Баба Марта",
+            "en": "Granny March Day"
+          },
+          "type": "observance"
+        },
+        "03-03": {
+          "name": {
+            "bg": "Ден на Освобождението на България от Османската Империя",
+            "en": "Liberation Day"
+          }
+        },
+        "03-08": {
+          "name": {
+            "bg": "Ден на жената",
+            "en": "Women's Day"
+          },
+          "type": "observance"
+        },
+        "orthodox -2": {
+          "_name": "easter -2"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "orthodox 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-06": {
+          "name": {
+            "bg": "Гергьовден",
+            "en": "St. George's Day"
+          }
+        },
+        "05-07": {
+          "name": {
+            "bg": "Ден на радиото и телевизията",
+            "en": "Radio and Television Day"
+          },
+          "type": "observance"
+        },
+        "05-24": {
+          "name": {
+            "bg": "Ден на азбуката, културата и просветата",
+            "en": "Bulgarian Education and Culture, and Slavonic Literature Day"
+          }
+        },
+        "09-06": {
+          "name": {
+            "bg": "Ден на съединението",
+            "en": "Unification Day"
+          }
+        },
+        "09-22": {
+          "_name": "Independence Day"
+        },
+        "11-01": {
+          "name": {
+            "bg": "Ден на народните будители",
+            "en": "Revival Leaders' Day"
+          },
+          "type": "school"
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26",
+          "type": "observance"
+        }
+      }
+    },
+    "BR": {
+      "name": "Brazil",
+      "dayoff": "sunday",
+      "langs": [
+        "pt"
+      ],
+      "zones": [
+        "America/Sao_Paulo",
+        "America/Noronha",
+        "America/Belem",
+        "America/Fortaleza",
+        "America/Recife",
+        "America/Araguaina",
+        "America/Maceio",
+        "America/Bahia",
+        "America/Campo_Grande",
+        "America/Cuiaba",
+        "America/Santarem",
+        "America/Porto_Velho",
+        "America/Boa_Vista",
+        "America/Manaus",
+        "America/Eirunepe",
+        "America/Rio_Branco"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "04-21": {
+          "name": {
+            "pt": "Dia de Tiradentes",
+            "en": "Tiradentes' Day"
+          }
+        },
+        "easter -50 +110h": {
+          "name": {
+            "pt": "Carnaval",
+            "en": "Carnival"
+          },
+          "type": "optional"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 60": {
+          "_name": "easter 60",
+          "type": "optional"
+        },
+        "06-12": {
+          "name": {
+            "pt": "Dia dos Namorados",
+            "en": "Lovers' Day"
+          }
+        },
+        "2nd sunday after 08-01": {
+          "_name": "Fathers Day",
+          "type": "observance"
+        },
+        "09-07": {
+          "_name": "Independence Day"
+        },
+        "10-12": {
+          "name": {
+            "pt": "Nossa Senhora Aparecida",
+            "en": "Our Lady of Aparecida"
+          }
+        },
+        "1st sunday after 10-01 in even years": {
+          "name": {
+            "pt": "Dia de Eleição",
+            "en": "Election Day"
+          }
+        },
+        "1st sunday before 11-01 in even years": {
+          "name": {
+            "pt": "Dia de Eleição",
+            "en": "Election Day"
+          }
+        },
+        "11-02": {
+          "_name": "11-02"
+        },
+        "11-15": {
+          "name": {
+            "pt": "Proclamação da República",
+            "en": "Republic Day"
+          }
+        },
+        "12-24 14:00": {
+          "_name": "12-24",
+          "type": "optional"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-31 14:00": {
+          "_name": "12-31",
+          "type": "optional"
+        }
+      }
+    },
+    "CA": {
+      "name": "Canada",
+      "zones": [
+        "America/Toronto",
+        "America/St_Johns",
+        "America/Halifax",
+        "America/Glace_Bay",
+        "America/Moncton",
+        "America/Goose_Bay",
+        "America/Blanc-Sablon",
+        "America/Nipigon",
+        "America/Thunder_Bay",
+        "America/Iqaluit",
+        "America/Pangnirtung",
+        "America/Resolute",
+        "America/Atikokan",
+        "America/Rankin_Inlet",
+        "America/Winnipeg",
+        "America/Rainy_River",
+        "America/Regina",
+        "America/Swift_Current",
+        "America/Edmonton",
+        "America/Cambridge_Bay",
+        "America/Yellowknife",
+        "America/Inuvik",
+        "America/Creston",
+        "America/Dawson_Creek",
+        "America/Fort_Nelson",
+        "America/Vancouver",
+        "America/Whitehorse",
+        "America/Dawson"
+      ],
+      "langs": [
+        "en",
+        "fr"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "monday before 05-25": {
+          "name": {
+            "en": "Victoria Day",
+            "fr": "Fête de la Reine"
+          }
+        },
+        "07-01": {
+          "name": {
+            "en": "Canada Day",
+            "fr": "Fête du Canada"
+          }
+        },
+        "monday after 07-31": {
+          "name": {
+            "en": "Civic Holiday",
+            "fr": "Premier lundi d’août"
+          }
+        },
+        "monday after 08-31": {
+          "_name": "05-01"
+        },
+        "2nd monday after 10-01": {
+          "name": {
+            "en": "Thanksgiving",
+            "fr": "Action de grâce"
+          }
+        },
+        "11-11": {
+          "name": {
+            "en": "Remembrance Day",
+            "fr": "Jour du Souvenir"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "CH": {
+      "name": "Schweiz",
+      "langs": [
+        "de",
+        "fr",
+        "it"
+      ],
+      "zones": [
+        "Europe/Zurich"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 39": {
+          "_name": "easter 39",
+          "name": {
+            "de": "Auffahrt"
+          }
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "08-01": {
+          "name": {
+            "de": "Bundesfeier"
+          }
+        },
+        "12-25": {
+          "_name": "12-25",
+          "name": {
+            "de": "Weihnachtstag"
+          }
+        },
+        "12-26": {
+          "_name": "12-26",
+          "name": {
+            "de": "Stephanstag"
+          }
+        }
+      },
+      "states": {
+        "zh": {
+          "name": "Kanton Zürich"
+        },
+        "be": {
+          "name": "Kanton Bern",
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag"
+              }
+            }
+          }
+        },
+        "lu": {
+          "name": "Kanton Luzern",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "ur": {
+          "name": "Kanton Uri",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "sz": {
+          "name": "Kanton Schwyz",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "ow": {
+          "name": "Kanton Obwalden",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "nw": {
+          "name": "Kanton Nidwalden",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "gl": {
+          "name": "Kanton Glarus",
+          "days": {
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "zg": {
+          "name": "Kanton Zug",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "fr": {
+          "name": "Kanton Freiburg",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "so": {
+          "name": "Kanton Solothurn",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "bs": {
+          "name": "Kanton Basel-Stadt"
+        },
+        "bl": {
+          "name": "Kanton Basel-Landschaft",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            }
+          }
+        },
+        "sh": {
+          "name": "Kanton Schaffhausen"
+        },
+        "ar": {
+          "name": "Kanton Appenzell Ausserrhoden"
+        },
+        "ai": {
+          "name": "Kanton Appenzell Innerrhoden",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "sg": {
+          "name": "Kanton St. Gallen",
+          "days": {
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "gr": {
+          "name": "Kanton Graubünden",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "ag": {
+          "name": "Kanton Aargau",
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag"
+              }
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "tg": {
+          "name": "Kanton Thurgau",
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag"
+              }
+            }
+          }
+        },
+        "ti": {
+          "name": "Kanton Tessin",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter -2": false,
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            },
+            "12-26": false
+          }
+        },
+        "vd": {
+          "name": "Kanton Waadt",
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag"
+              }
+            },
+            "12-26": false
+          }
+        },
+        "vs": {
+          "name": "Kanton Wallis",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            },
+            "easter -2": false,
+            "easter 1": false,
+            "easter 50": false,
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            },
+            "12-26": false
+          }
+        },
+        "ne": {
+          "name": "Kanton Neuenburg",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "12-26": false
+          }
+        },
+        "ge": {
+          "name": "Kanton Genf",
+          "days": {
+            "12-26": false
+          }
+        },
+        "ju": {
+          "name": "Kanton Jura",
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag"
+              }
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            },
+            "12-26": false
+          }
+        }
+      }
+    },
+    "CY": {
+      "name": "Cyprus",
+      "dayoff": null,
+      "langs": [
+        "el"
+      ],
+      "zones": [
+        "Asia/Nicosia"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "orthodox -48": {
+          "name": {
+            "el": "Καθαρά Δευτέρα",
+            "en": "Ash Sunday"
+          },
+          "type": "observance"
+        },
+        "orthodox -47": {
+          "name": {
+            "el": "Καθαρά Δευτέρα",
+            "en": "Clean Monday"
+          }
+        },
+        "03-25": {
+          "name": {
+            "el": "Ευαγγελισμός, Εθνική Εορτή",
+            "en": "Annunciation, Anniversary of 1821 Revolution"
+          }
+        },
+        "04-01": {
+          "name": {
+            "en": "Cyprus National Day",
+            "el": "Κύπρος Εθνική Εορτή"
+          }
+        },
+        "orthodox -2": {
+          "_name": "easter -2"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "orthodox 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "orthodox 49": {
+          "_name": "easter 49"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "10-01": {
+          "name": {
+            "en": "Cyprus Independence Day",
+            "el": "Ημέρα της Ανεξαρτησίας Κύπρος"
+          }
+        },
+        "10-28": {
+          "_name": "National Holiday",
+          "name": {
+            "el": "Επέτειος του Όχι"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "CZ": {
+      "name": "Česká republika",
+      "langs": [
+        "cz"
+      ],
+      "zones": [
+        "Europe/Prague"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01",
+          "name": {
+            "cz": "Nový rok; Den obnovy samostatného českého státu"
+          }
+        },
+        "easter -4": {
+          "name": {
+            "cz": "Škaredá středa",
+            "en": "Ugly Wednesday"
+          },
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter -1": {
+          "_name": "easter -1",
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-08": {
+          "name": {
+            "cz": "Den vítězství or Den osvobození",
+            "en": "Liberation Day"
+          }
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "07-05": {
+          "name": {
+            "cz": "Den slovanských věrozvěstů Cyrila a Metoděje",
+            "en": "Saints Cyril and Methodius Day"
+          }
+        },
+        "07-06": {
+          "name": {
+            "cz": "Den upálení mistra Jana Husa",
+            "en": "Jan Hus Day"
+          }
+        },
+        "09-28": {
+          "name": {
+            "cz": "Den české státnosti",
+            "en": "St. Wenceslas Day (Czech Statehood Day)"
+          }
+        },
+        "10-28": {
+          "name": {
+            "cz": "Den vzniku samostatného československého státu",
+            "en": "Independent Czechoslovak State Day"
+          }
+        },
+        "11-17": {
+          "name": {
+            "cz": "Den boje za svobodu a demokracii",
+            "en": "Struggle for Freedom and Democracy Day"
+          }
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "DK": {
+      "name": "Danmark",
+      "langs": [
+        "dk"
+      ],
+      "zones": [
+        "Europe/Copenhagen"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -48": {
+          "name": {
+            "dk": "Fastelavn"
+          },
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 26": {
+          "name": {
+            "dk": "Store Bededag",
+            "en": "Day of Atonement",
+            "de": "Buß- und Bettag"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-05": {
+          "_name": "Constitution Day",
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "DE": {
+      "name": "Deutschland",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Berlin"
+      ],
+      "langs": [
+        "de"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-14": {
+          "_name": "02-14",
+          "type": "observance"
+        },
+        "easter -52": {
+          "name": {
+            "de": "Weiberfastnacht",
+            "en": "Women's Carnival Day"
+          },
+          "type": "observance"
+        },
+        "easter -48": {
+          "name": {
+            "de": "Rosenmontag",
+            "en": "Shrove Monday"
+          },
+          "type": "observance"
+        },
+        "easter -47 14:00": {
+          "_name": "easter -47",
+          "type": "bank"
+        },
+        "easter -46": {
+          "_name": "easter -46",
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "de": "Maifeiertag"
+          }
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "10-03": {
+          "_name": "National Holiday",
+          "name": {
+            "de": "Tag der Deutschen Einheit"
+          }
+        },
+        "11-01": {
+          "_name": "11-01",
+          "type": "observance"
+        },
+        "11-02": {
+          "_name": "11-02",
+          "type": "observance"
+        },
+        "11-11": {
+          "_name": "11-11",
+          "type": "observance"
+        },
+        "wednesday before 11-23": {
+          "_name": "Buß- und Bettag",
+          "type": "school"
+        },
+        "12-24 14:00 if sunday then 00:00": {
+          "_name": "12-24",
+          "type": "bank"
+        },
+        "12-25": {
+          "_name": "12-25",
+          "name": {
+            "de": "1. Weihnachtstag"
+          }
+        },
+        "12-26": {
+          "_name": "12-26",
+          "name": {
+            "de": "2. Weihnachtstag"
+          }
+        },
+        "12-31 14:00 if sunday then 00:00": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      },
+      "states": {
+        "bb": {
+          "name": "Brandenburg",
+          "days": {
+            "10-31": {
+              "_name": "Reformationstag"
+            }
+          }
+        },
+        "bw": {
+          "name": "Baden Würtemberg",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "by": {
+          "name": "Bayern",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "02-02": {
+              "_name": "02-02",
+              "type": "observance"
+            },
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          },
+          "regions": {
+            "a": {
+              "name": "Stadt Augsburg",
+              "days": {
+                "08-08": {
+                  "name": {
+                    "de": "Augsburger Friedensfest",
+                    "en": "Augsburg Peace Festival"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hb": {
+          "name": "Hansestadt Bremen",
+          "days": {
+            "12-31 14:00 if sunday then 00:00": {
+              "_name": "12-31",
+              "type": "public"
+            }
+          }
+        },
+        "he": {
+          "name": "Hessen",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "12-31 14:00 if sunday then 00:00": {
+              "_name": "12-31"
+            }
+          }
+        },
+        "hh": {
+          "name": "Hansestadt Hamburg"
+        },
+        "mv": {
+          "name": "Mecklenburg Vorpommern",
+          "days": {
+            "10-31": {
+              "_name": "Reformationstag"
+            }
+          }
+        },
+        "ni": {
+          "name": "Niedersachsen"
+        },
+        "nw": {
+          "name": "Nordrhein-Westfalen",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "rp": {
+          "name": "Rheinland-Pfalz",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "sh": {
+          "name": "Schleswig-Holstein"
+        },
+        "sl": {
+          "name": "Saarland",
+          "days": {
+            "easter 60": {
+              "_name": "easter 60"
+            },
+            "08-15": {
+              "_name": "08-15"
+            },
+            "11-01": {
+              "_name": "11-01"
+            }
+          }
+        },
+        "sn": {
+          "name": "Sachsen",
+          "days": {
+            "10-31": {
+              "_name": "Reformationstag"
+            },
+            "wednesday before 11-23": {
+              "_name": "Buß- und Bettag"
+            }
+          }
+        },
+        "st": {
+          "name": "Sachsen-Anhalt",
+          "days": {
+            "01-06": {
+              "_name": "01-06"
+            },
+            "10-31": {
+              "_name": "Reformationstag"
+            }
+          }
+        },
+        "th": {
+          "name": "Thüringen",
+          "days": {
+            "10-31": {
+              "_name": "Reformationstag"
+            },
+            "12-31 14:00 if sunday then 00:00": {
+              "_name": "12-31"
+            }
+          }
+        }
+      }
+    },
+    "EE": {
+      "name": "Eesti",
+      "dayoff": "sunday",
+      "langs": [
+        "et"
+      ],
+      "zones": [
+        "Europe/Tallinn"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06",
+          "type": "observance"
+        },
+        "02-02": {
+          "name": {
+            "et": "Tartu rahulepingu aastapäev",
+            "en": "Anniversary of the Tartu Peace Treaty"
+          },
+          "type": "observance"
+        },
+        "02-24": {
+          "_name": "Independence Day",
+          "type": "observance"
+        },
+        "03-14": {
+          "name": {
+            "et": "emakeelepäev",
+            "en": "Native Language Day"
+          },
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "06-04": {
+          "name": {
+            "et": "Eesti lipu päev",
+            "en": "National Flag Day"
+          },
+          "type": "observance"
+        },
+        "06-14": {
+          "name": {
+            "et": "leinapäev",
+            "en": "Day of Mourning and Commemoration"
+          },
+          "type": "observance"
+        },
+        "06-23": {
+          "name": {
+            "et": "võidupüha",
+            "en": "Victory Day"
+          }
+        },
+        "06-24": {
+          "name": {
+            "et": "jaanipäev",
+            "en": "Midsummer Day"
+          }
+        },
+        "08-20": {
+          "name": {
+            "et": "taasiseseisvumispäev",
+            "en": "Day of Restoration of Independence"
+          }
+        },
+        "08-23": {
+          "name": {
+            "et": "kommunismi ja natsismi ohvrite mälestuspäev",
+            "en": "European Day of Remembrance for Victims of Stalinism and Nazism"
+          },
+          "type": "observance"
+        },
+        "2nd sunday after 09-01": {
+          "name": {
+            "et": "vanavanemate päev",
+            "en": "Grandparents Day"
+          },
+          "type": "observance"
+        },
+        "09-22": {
+          "name": {
+            "et": "vastupanuvõitluse päev",
+            "en": "Resistance Fighting Day"
+          },
+          "type": "observance"
+        },
+        "11-02": {
+          "_name": "11-02",
+          "type": "observance"
+        },
+        "2nd sunday after 11-01": {
+          "_name": "Fathers Day",
+          "type": "observance"
+        },
+        "11-16": {
+          "name": {
+            "et": "taassünni päev",
+            "en": "Day of Declaration of Sovereignty"
+          },
+          "type": "observance"
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "ES": {
+      "name": "España",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "Europe/Madrid",
+        "Africa/Ceuta",
+        "Atlantic/Canary"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "substitutes 01-06 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-06"
+        },
+        "03-19": {
+          "_name": "03-19"
+        },
+        "substitutes 03-19 if sunday then next monday": {
+          "substitute": true,
+          "_name": "03-19"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "substitutes 05-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "05-01"
+        },
+        "1st sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49",
+          "type": "observance"
+        },
+        "07-25": {
+          "name": {
+            "es": "Santiago Apostol"
+          },
+          "type": "observance",
+          "note": "regional"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "substitutes 08-15 if sunday then next monday": {
+          "substitute": true,
+          "_name": "08-15"
+        },
+        "10-12 if sunday then next monday": {
+          "name": {
+            "es": "Fiesta Nacional de España"
+          }
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "substitutes 11-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "11-01"
+        },
+        "12-06 if sunday then next monday": {
+          "name": {
+            "es": "Día de la Constitución Española"
+          }
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "substitutes 12-08 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-08"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-25"
+        }
+      },
+      "states": {
+        "madrid": {
+          "name": "Comunidad de Madrid",
+          "days": {
+            "05-16": {
+              "name": {
+                "es": "San Isidro Labrador"
+              }
+            },
+            "11-09 if sunday then next monday": {
+              "name": {
+                "es": "Nuestra Señora de la Almudena"
+              }
+            }
+          }
+        }
+      }
+    },
+    "FI": {
+      "name": "Suomi",
+      "dayoff": "sunday",
+      "langs": [
+        "fi"
+      ],
+      "zones": [
+        "Europe/Helsinki"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "friday after 06-19": {
+          "name": {
+            "fi": "Juhannusaatto",
+            "en": "Midsummer Eve",
+            "sv": "Midsommarafton"
+          },
+          "type": "bank"
+        },
+        "saturday after 06-20": {
+          "name": {
+            "fi": "Juhannuspäivä",
+            "en": "Midsummer Day",
+            "sv": "Midsommardagen"
+          }
+        },
+        "saturday after 10-31": {
+          "_name": "11-01"
+        },
+        "12-06": {
+          "_name": "Independence Day"
+        },
+        "12-24": {
+          "_name": "12-24",
+          "type": "bank"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31 14:00 if sunday then 00:00": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      }
+    },
+    "FR": {
+      "name": "France",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Paris"
+      ],
+      "langs": [
+        "fr"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-08": {
+          "name": {
+            "fr": "Fête de la Victoire 1945"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "sunday before 06-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "07-14": {
+          "name": {
+            "fr": "Fête Nationale de la France"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-11": {
+          "name": {
+            "fr": "Armistice 1918"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      },
+      "states": {
+        "basrhin": {
+          "name": "Département Bas-Rhin",
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "12-26": {
+              "_name": "12-26"
+            }
+          }
+        },
+        "hautrhin": {
+          "name": "Département Haut-Rhin",
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "12-26": {
+              "_name": "12-26"
+            }
+          }
+        },
+        "moselle": {
+          "name": "Département Moselle",
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "12-26": {
+              "_name": "12-26"
+            }
+          }
+        },
+        "mayotte": {
+          "name": "Département et région d'outre-mer Mayotte",
+          "zones": [
+            "Indian/Mayotte"
+          ],
+          "days": {
+            "04-27": {
+              "_name": "Abolition of Slavery"
+            }
+          }
+        },
+        "martinique": {
+          "name": "Département et région d'outre-mer Martinique",
+          "zones": [
+            "America/Martinique"
+          ],
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "05-22": {
+              "_name": "Abolition of Slavery"
+            }
+          }
+        },
+        "guadeloupe": {
+          "name": "Département et région d'outre-mer Guadeloupe",
+          "zones": [
+            "America/Guadeloupe"
+          ],
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "05-27": {
+              "_name": "Abolition of Slavery"
+            }
+          }
+        },
+        "guyane": {
+          "name": "Département et région d'outre-mer Guyane",
+          "zones": [
+            "America/Guyana"
+          ],
+          "days": {
+            "06-10": {
+              "_name": "Abolition of Slavery"
+            }
+          }
+        },
+        "reunion": {
+          "name": "Département et région d'outre-mer La Réunion",
+          "zones": [
+            "Indian/Reunion"
+          ],
+          "days": {
+            "12-20": {
+              "_name": "Abolition of Slavery"
+            }
+          }
+        }
+      }
+    },
+    "GB": {
+      "name": "Britain",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/London"
+      ],
+      "langs": [
+        "en"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if saturday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "easter -21": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "1st monday after 05-01": {
+          "name": {
+            "en": "Early May bank holiday"
+          }
+        },
+        "1st monday before 06-01": {
+          "name": {
+            "en": "Spring bank holiday"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if saturday then next tuesday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next tuesday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if saturday then next monday": {
+          "substitute": true,
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-26"
+        },
+        "2012-06-05": {
+          "name": {
+            "en": "Queen’s Diamond Jubilee"
+          }
+        }
+      },
+      "states": {
+        "al": {
+          "name": "Alderney",
+          "zones": [
+            "Europe/Guernsey"
+          ],
+          "days": {
+            "12-15": {
+              "name": {
+                "en": "Homecoming Day"
+              }
+            }
+          }
+        },
+        "en": {
+          "name": "England",
+          "days": {
+            "1st monday before 09-01": {
+              "name": {
+                "en": "Summer bank holiday"
+              }
+            }
+          }
+        },
+        "gu": {
+          "name": "Guernsey",
+          "zones": [
+            "Europe/Guernsey"
+          ],
+          "days": {
+            "05-09": {
+              "name": {
+                "en": "Liberation Day"
+              }
+            }
+          }
+        },
+        "im": {
+          "name": "Isle of Man",
+          "zones": [
+            "Europe/Isle_of_Man"
+          ],
+          "days": {
+            "2nd friday after 06-01": {
+              "name": {
+                "en": "Tourist Trophy, Senior Race Day"
+              }
+            },
+            "07-05": {
+              "name": {
+                "en": "Tynwald Day"
+              }
+            }
+          }
+        },
+        "je": {
+          "name": "Jersey",
+          "zones": [
+            "Europe/Jersey"
+          ],
+          "days": {
+            "05-09": {
+              "name": {
+                "en": "Liberation Day"
+              }
+            }
+          }
+        },
+        "ni": {
+          "name": "Northern Ireland",
+          "zones": [
+            "Europe/Belfast"
+          ],
+          "days": {
+            "03-17": {
+              "name": {
+                "en": "St Patrick's Day"
+              }
+            },
+            "substitutes 03-17 if saturday then next monday": {
+              "substitute": true,
+              "name": {
+                "en": "St Patrick's Day"
+              }
+            },
+            "substitutes 03-17 if sunday then next monday": {
+              "substitute": true,
+              "name": {
+                "en": "St Patrick's Day"
+              }
+            },
+            "07-12": {
+              "name": {
+                "en": "Battle of the Boyne, Orangemen’s Day"
+              }
+            },
+            "substitutes 07-12 if saturday then next monday": {
+              "substitute": true,
+              "name": {
+                "en": "Battle of the Boyne"
+              }
+            },
+            "substitutes 07-12 if sunday then next monday": {
+              "substitute": true,
+              "name": {
+                "en": "Battle of the Boyne"
+              }
+            }
+          }
+        },
+        "sc": {
+          "name": "Scottland",
+          "days": {
+            "substitutes 01-01 if sunday then next monday": false,
+            "substitutes 01-01 if saturday then next monday": false,
+            "substitutes 01-01 if saturday then next tuesday": {
+              "substitute": true,
+              "_name": "01-01"
+            },
+            "substitutes 01-01 if sunday then next tuesday": {
+              "substitute": true,
+              "_name": "01-01"
+            },
+            "01-02": {
+              "name": {
+                "en": "Januar 2nd"
+              }
+            },
+            "substitutes 01-02 if saturday then next monday": {
+              "substitute": true,
+              "name": {
+                "en": "Januar 2nd"
+              }
+            },
+            "substitutes 01-02 if sunday then next monday": {
+              "substitute": true,
+              "name": {
+                "en": "Januar 2nd"
+              }
+            },
+            "easter 1": {
+              "_name": "easter 1"
+            },
+            "1st monday after 08-01": {
+              "name": {
+                "en": "Summer bank holiday"
+              }
+            },
+            "11-30": {
+              "name": {
+                "en": "St Andrew’s Day"
+              }
+            }
+          }
+        },
+        "wa": {
+          "name": "Wales",
+          "days": {
+            "1st monday before 09-01": {
+              "name": {
+                "en": "Summer bank holiday"
+              }
+            }
+          }
+        }
+      }
+    },
+    "GR": {
+      "name": "Ελλάδα",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Athens"
+      ],
+      "langs": [
+        "el"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "orthodox -48": {
+          "name": {
+            "el": "Καθαρά Δευτέρα",
+            "en": "Ash Sunday"
+          }
+        },
+        "03-25": {
+          "name": {
+            "el": "Ευαγγελισμός, Εθνική Εορτή",
+            "en": "Annunciation, Anniversary of 1821 Revolution"
+          }
+        },
+        "orthodox -2": {
+          "_name": "easter -2"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "orthodox 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "orthodox 49": {
+          "_name": "easter 49"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "10-28": {
+          "_name": "National Holiday",
+          "name": {
+            "el": "Επέτειος του Όχι"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "GU": {
+      "name": "Guam",
+      "dayoff": "sunday",
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "Pacific/Guam"
+      ],
+      "_days": [
+        "US"
+      ],
+      "days": {
+        "03-05": {
+          "name": {
+            "en": "Guam Discovery Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "07-21": {
+          "name": {
+            "en": "Liberation Day"
+          }
+        },
+        "11-02": {
+          "_name": "11-02"
+        },
+        "12-08": {
+          "name": {
+            "en": "Lady of Camarin Day"
+          }
+        }
+      }
+    },
+    "HR": {
+      "name": "Hrvatska",
+      "langs": [
+        "hr"
+      ],
+      "zones": [
+        "Europe/Belgrade"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 60": {
+          "_name": "easter 60"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-22": {
+          "name": {
+            "hr": "Dan antifašističke borbe",
+            "en": "Anti-Fascist Struggle Day"
+          }
+        },
+        "06-25": {
+          "name": {
+            "hr": "Dan državnosti",
+            "en": "Statehood Day"
+          }
+        },
+        "08-05": {
+          "name": {
+            "hr": "Dan pobjede i domovinske zahvalnosti",
+            "en": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "10-08": {
+          "_name": "Independence Day"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      },
+      "regions": {
+        "split": {
+          "name": "Split",
+          "days": {
+            "05-07": {
+              "name": {
+                "hr": "Sveti Duje",
+                "en": "Saint Domnius"
+              }
+            }
+          }
+        },
+        "dubrovnik": {
+          "name": "Dubrovnik",
+          "days": {
+            "02-03": {
+              "name": {
+                "hr": "Sveti Vlaho",
+                "en": "Saint Blaise"
+              }
+            }
+          }
+        }
+      }
+    },
+    "HU": {
+      "name": "Magyarország",
+      "langs": [
+        "hu"
+      ],
+      "zones": [
+        "Europe/Budapest"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-01": {
+          "name": {
+            "hu": "A köztársaság emléknapja",
+            "en": "Memorial Day of the Republic"
+          },
+          "type": "observance"
+        },
+        "02-25": {
+          "name": {
+            "hu": "A kommunista diktatúrák áldozatainak emléknapja",
+            "en": "Memorial Day for the Victims of the Communist Dictatorships"
+          },
+          "type": "observance"
+        },
+        "03-08": {
+          "name": {
+            "en": "International Women's Day",
+            "hu": "Nemzetközi nőnap"
+          },
+          "type": "observance"
+        },
+        "03-15": {
+          "name": {
+            "hu": "Nemzeti ünnep",
+            "en": "National Day"
+          }
+        },
+        "04-16": {
+          "name": {
+            "en": "Memorial Day for the Victims of the Holocaust",
+            "hu": "A holokauszt áldozatainak emléknapja"
+          },
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "1st sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "05-21": {
+          "name": {
+            "en": "National Defense Day",
+            "hu": "Honvédelmi nap"
+          },
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "06-04": {
+          "name": {
+            "en": "Day of National Unity",
+            "hu": "A nemzeti összetartozás napja"
+          },
+          "type": "observance"
+        },
+        "06-19": {
+          "name": {
+            "en": "Day of the Independent Hungary",
+            "hu": "A független Magyarország napja"
+          },
+          "type": "observance"
+        },
+        "08-20": {
+          "name": {
+            "hu": "Szent István ünnepe",
+            "en": "Saint Stephen's Day"
+          }
+        },
+        "10-06": {
+          "name": {
+            "en": "Memorial Day for the Martyrs of Arad",
+            "hu": "Az aradi vértanúk emléknapja"
+          },
+          "type": "observance"
+        },
+        "10-23": {
+          "name": {
+            "hu": "Nemzeti ünnep",
+            "en": "National Day"
+          }
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-06": {
+          "name": {
+            "en": "Saint Nicholas Day",
+            "hu": "Mikulás, Télapó"
+          },
+          "type": "observance"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "observance"
+        }
+      }
+    },
+    "IE": {
+      "name": "Ireland",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Dublin"
+      ],
+      "langs": [
+        "en"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "03-17": {
+          "name": {
+            "en": "St. Patrick’s Day"
+          }
+        },
+        "easter -21": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2",
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "1st monday after 05-01": {
+          "name": {
+            "en": "May Day"
+          }
+        },
+        "1st monday after 06-01": {
+          "name": {
+            "en": "First Monday in June"
+          }
+        },
+        "1st monday after 08-01": {
+          "name": {
+            "en": "First Monday in August"
+          }
+        },
+        "1st monday before 10-31": {
+          "name": {
+            "en": "October Bank Holiday"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26",
+          "name": {
+            "en": "St. Stephen's Day"
+          }
+        }
+      }
+    },
+    "IT": {
+      "name": "Italia",
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Rome"
+      ],
+      "langs": [
+        "it"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "04-25": {
+          "name": {
+            "it": "Anniversario della Liberazione"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "2011-03-17": {
+          "name": {
+            "it": "Festa Nazionale 2011"
+          }
+        }
+      },
+      "states": {
+        "suedtirol": {
+          "name": "Südtirol, Alto Adige",
+          "days": {
+            "easter 50": {
+              "_name": "easter 50"
+            }
+          }
+        }
+      }
+    },
+    "IS": {
+      "name": "Iceland",
+      "dayoff": "sunday",
+      "zones": [
+        "Atlantic/Reykjavik"
+      ],
+      "langs": [
+        "is"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06",
+          "type": "observance"
+        },
+        "friday after 01-18": {
+          "name": {
+            "is": "Bóndadagur"
+          },
+          "type": "observance"
+        },
+        "02-18": {
+          "name": {
+            "is": "Konudagur",
+            "en": "Woman's Day"
+          },
+          "type": "observance"
+        },
+        "easter -48": {
+          "name": {
+            "is": "Bolludagur"
+          },
+          "type": "observance"
+        },
+        "easter -47": {
+          "name": {
+            "is": "Sprengidagur"
+          },
+          "type": "observance"
+        },
+        "easter -46": {
+          "_name": "easter -46",
+          "type": "observance"
+        },
+        "easter -7": {
+          "_name": "easter -7",
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "thursday after 04-18": {
+          "name": {
+            "is": "Sumardagurinn fyrsti",
+            "en": "First Day of Summer"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "1st sunday after 06-01": {
+          "name": {
+            "is": "Sjómannadagurinn",
+            "en": "The Seamen's Day"
+          },
+          "type": "observance"
+        },
+        "06-17": {
+          "name": {
+            "is": "Íslenski þjóðhátíðardagurinn",
+            "en": "Icelandic National Day"
+          }
+        },
+        "monday after 08-01": {
+          "name": {
+            "is": "Frídagur verslunarmanna",
+            "en": "Commerce Day"
+          }
+        },
+        "saturday after 10-21": {
+          "name": {
+            "is": "Fyrsti vetrardagur",
+            "en": "First Day of Winter"
+          },
+          "type": "observance"
+        },
+        "11-16": {
+          "name": {
+            "is": "Dagur íslenskrar tungu",
+            "en": "Icelandic Language Day"
+          },
+          "type": "observance"
+        },
+        "12-23": {
+          "name": {
+            "is": "Þorláksmessa",
+            "en": "St Þorlákur's Day"
+          },
+          "type": "observance"
+        },
+        "12-24 13:00 if sunday then 00:00": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31 13:00 if sunday then 00:00": {
+          "_name": "12-31"
+        }
+      }
+    },
+    "JP": {
+      "name": "日本",
+      "dayoff": "sunday",
+      "langs": [
+        "jp"
+      ],
+      "zones": [
+        "Asia/Tokyo"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "01-02": {
+          "name": {
+            "en": "January 2nd",
+            "jp": "銀行休業日"
+          },
+          "type": "bank"
+        },
+        "01-03": {
+          "name": {
+            "en": "January 3rd",
+            "jp": "銀行休業日"
+          },
+          "type": "bank"
+        },
+        "2nd monday after 01-01": {
+          "name": {
+            "en": "Coming of Age Day",
+            "jp": "成人の日"
+          }
+        },
+        "02-11": {
+          "name": {
+            "en": "Foundation Day",
+            "jp": "建国記念の日"
+          }
+        },
+        "substitutes 02-11 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Foundation Day",
+            "jp": "建国記念の日"
+          }
+        },
+        "spring equinox in Asia/Tokyo": {
+          "name": {
+            "en": "Spring Equinox Day",
+            "jp": "春分の日"
+          }
+        },
+        "substitutes 03-21 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Spring Equinox Day",
+            "jp": "春分の日"
+          }
+        },
+        "04-29": {
+          "name": {
+            "en": "Shōwa Day",
+            "jp": "昭和の日"
+          }
+        },
+        "substitutes 04-29 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Showa Day",
+            "jp": "昭和の日"
+          }
+        },
+        "05-03": {
+          "_name": "Constitution Day"
+        },
+        "substitutes 05-03 if sunday then next wednesday": {
+          "substitute": true,
+          "_name": "Constitution Day"
+        },
+        "05-04": {
+          "name": {
+            "en": "Greenery Day",
+            "jp": "みどりの日"
+          }
+        },
+        "substitutes 05-04 if sunday then next tuesday": {
+          "substitute": true,
+          "name": {
+            "en": "Greenery Day",
+            "jp": "みどりの日"
+          }
+        },
+        "05-05": {
+          "name": {
+            "en": "Children's Day",
+            "jp": "こどもの日"
+          }
+        },
+        "substitutes 05-05 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Children's Day",
+            "jp": "こどもの日"
+          }
+        },
+        "3rd monday after 07-01": {
+          "name": {
+            "en": "Marine Day",
+            "jp": "海の日"
+          }
+        },
+        "08-11": {
+          "name": {
+            "en": "Mountain Day",
+            "jp": "山の日"
+          }
+        },
+        "substitutes 08-11 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Mountain Day",
+            "jp": "山の日"
+          }
+        },
+        "3rd monday after 09-01": {
+          "name": {
+            "en": "Respect-for-the-Aged Day",
+            "jp": "敬老の日"
+          }
+        },
+        "09-22 if 09-21 and 09-23 is public holiday": {
+          "name": {
+            "en": "Public Holiday",
+            "jp": "祝日"
+          }
+        },
+        "autumn equinox in Asia/Tokyo": {
+          "name": {
+            "en": "Autumnal Equinox Day",
+            "jp": "秋分の日"
+          }
+        },
+        "substitutes 09-23 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Autumnal Equinox Day",
+            "jp": "秋分の日"
+          }
+        },
+        "2nd monday after 10-01": {
+          "name": {
+            "en": "Sports Day",
+            "jp": "体育の日"
+          }
+        },
+        "11-03": {
+          "name": {
+            "en": "Culture Day",
+            "jp": "文化の日"
+          }
+        },
+        "substitutes 11-03 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Culture Day",
+            "jp": "文化の日"
+          }
+        },
+        "11-15": {
+          "name": {
+            "en": "Seven-Five-Three Festival",
+            "jp": "七五三"
+          },
+          "type": "observance"
+        },
+        "11-23": {
+          "name": {
+            "en": "Labor Thanksgiving Day",
+            "jp": "勤労感謝の日"
+          }
+        },
+        "substitutes 11-23 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Labor Thanksgiving Day",
+            "jp": "勤労感謝の日"
+          }
+        },
+        "12-23": {
+          "name": {
+            "en": "Emperor's Birthday",
+            "jp": "天皇誕生日"
+          }
+        },
+        "substitutes 12-23 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Emperor's Birthday",
+            "jp": "天皇誕生日"
+          }
+        },
+        "12-25": {
+          "_name": "12-25",
+          "type": "observance"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      }
+    },
+    "LI": {
+      "name": "Lichtenstein",
+      "dayoff": "sunday",
+      "langs": [
+        "de"
+      ],
+      "zones": [
+        "Europe/Zurich"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-02": {
+          "name": {
+            "de": "Berchtoldstag",
+            "en": "Berchtold Day"
+          },
+          "type": "bank"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "02-02": {
+          "_name": "02-02",
+          "type": "observance"
+        },
+        "03-19": {
+          "_name": "03-19",
+          "type": "observance"
+        },
+        "easter -47": {
+          "_name": "easter -47",
+          "type": "bank"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39",
+          "name": {
+            "de": "Auffahrt"
+          }
+        },
+        "easter 40": {
+          "name": {
+            "de": "Feiertagsbrücke"
+          }
+        },
+        "easter 49": {
+          "_name": "easter 49",
+          "type": "observance"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "easter 60": {
+          "_name": "easter 60"
+        },
+        "easter 61": {
+          "name": {
+            "de": "Feiertagsbrücke"
+          }
+        },
+        "08-15": {
+          "name": {
+            "de": "Staatsfeiertag"
+          },
+          "type": "observance"
+        },
+        "09-08": {
+          "name": {
+            "de": "Mariä Geburt"
+          }
+        },
+        "11-01": {
+          "_name": "11-01",
+          "type": "observance"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-24": {
+          "_name": "12-24",
+          "type": "bank"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26",
+          "name": {
+            "de": "Stephanstag"
+          }
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      }
+    },
+    "LT": {
+      "name": "Lietuva",
+      "dayoff": "sunday",
+      "langs": [
+        "lt"
+      ],
+      "zones": [
+        "Europe/Vilnius"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-16": {
+          "name": {
+            "en": "Day of Restoration of the State of Lithuania",
+            "lt": "Lietuvos valstybės atkūrimo diena"
+          }
+        },
+        "03-11": {
+          "name": {
+            "en": "Day of Restoration of Independence of Lithuania",
+            "lt": "Lietuvos nepriklausomybės atkūrimo diena"
+          }
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "1st sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "1st sunday after 06-01": {
+          "_name": "Fathers Day",
+          "type": "observance"
+        },
+        "06-24": {
+          "name": {
+            "en": "St. John's Day",
+            "lt": "Joninės, Rasos"
+          }
+        },
+        "07-06": {
+          "name": {
+            "en": "Statehood Day",
+            "lt": "Valstybės diena"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Europe/Luxembourg"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -2": {
+          "_name": "easter -2",
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "fr": "1er mai"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "06-23": {
+          "name": {
+            "fr": "L’anniversaire du Grand-Duc"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-11": {
+          "name": {
+            "fr": "Armistice 1918"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "LV": {
+      "name": "Latvija",
+      "dayoff": "sunday",
+      "langs": [
+        "lv"
+      ],
+      "zones": [
+        "Europe/Riga"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-04": {
+          "name": {
+            "en": "Restoration of Independence day",
+            "lv": "Latvijas Republikas Neatkarības atjaunošanas diena"
+          }
+        },
+        "substitutes 05-04 if saturday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Restoration of Independence day",
+            "lv": "Latvijas Republikas Neatkarības atjaunošanas diena"
+          }
+        },
+        "substitutes 05-04 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Restoration of Independence day",
+            "lv": "Latvijas Republikas Neatkarības atjaunošanas diena"
+          }
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-23": {
+          "name": {
+            "en": "Midsummer Eve",
+            "lv": "Līgo Diena"
+          }
+        },
+        "06-24": {
+          "name": {
+            "en": "Midsummer",
+            "lv": "Jāņi"
+          }
+        },
+        "11-18": {
+          "name": {
+            "en": "Republic Day",
+            "lv": "Latvijas Republikas proklamēšanas diena"
+          }
+        },
+        "substitutes 11-18 if saturday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Republic Day",
+            "lv": "Latvijas Republikas proklamēšanas diena"
+          }
+        },
+        "substitutes 11-18 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Republic Day",
+            "lv": "Latvijas Republikas proklamēšanas diena"
+          }
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31": {
+          "_name": "12-31"
+        }
+      }
+    },
+    "MC": {
+      "name": "Monaco",
+      "dayoff": "sunday",
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Europe/Monaco"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-27": {
+          "name": {
+            "en": "Saint Devota's Day",
+            "fr": "Sainte Dévote"
+          }
+        },
+        "substitutes 01-27 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Saint Devota's Day",
+            "fr": "Sainte Dévote"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2",
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "fr": "1er mai"
+          }
+        },
+        "substitutes 05-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "05-01",
+          "name": {
+            "fr": "1er mai"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "easter 60": {
+          "_name": "easter 60"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-19": {
+          "name": {
+            "en": "H.S.H. the Sovereign Prince's Day",
+            "fr": "La Fête du Prince"
+          }
+        },
+        "substitutes 11-19 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "H.S.H. the Sovereign Prince's Day",
+            "fr": "La Fête du Prince"
+          }
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-25"
+        }
+      }
+    },
+    "ME": {
+      "name": "Crna Gora",
+      "dayoff": "sunday",
+      "langs": [
+        "hr",
+        "sr",
+        "bs",
+        "sq"
+      ],
+      "zones": [
+        "Europe/Belgrade"
+      ],
+      "days": {
+        "05-21": {
+          "_name": "Independence Day"
+        },
+        "substitutes 05-21 if sunday then next tuesday": {
+          "substitute": true,
+          "_name": "Independence Day"
+        },
+        "05-22": {
+          "_name": "Independence Day"
+        },
+        "substitutes 05-22 if sunday then next monday": {
+          "substitute": true,
+          "_name": "Independence Day"
+        },
+        "07-13": {
+          "name": {
+            "sr": "Дан државности",
+            "hr": "Dan državnosti",
+            "en": "Statehood Day"
+          }
+        },
+        "substitutes 07-13 if sunday then next tuesday": {
+          "substitute": true,
+          "name": {
+            "sr": "Дан државности",
+            "hr": "Dan državnosti",
+            "en": "Statehood Day"
+          }
+        },
+        "07-14": {
+          "name": {
+            "sr": "Дан државности",
+            "hr": "Dan državnosti",
+            "en": "Statehood Day"
+          }
+        },
+        "substitutes 07-14 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "sr": "Дан државности",
+            "hr": "Dan državnosti",
+            "en": "Statehood Day"
+          }
+        },
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next tuesday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "01-02": {
+          "_name": "01-01"
+        },
+        "substitutes 01-02 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "substitutes 05-01 if sunday then next tuesday": {
+          "substitute": true,
+          "_name": "05-01"
+        },
+        "05-02": {
+          "_name": "05-01"
+        },
+        "substitutes 05-02 if sunday then next monday": {
+          "substitute": true,
+          "_name": "05-01"
+        },
+        "01-06": {
+          "_name": "12-24"
+        },
+        "01-07": {
+          "_name": "12-25"
+        },
+        "01-08": {
+          "_name": "12-25"
+        },
+        "01-14": {
+          "name": {
+            "en": "Orthodox New Year",
+            "hr": "Pravoslavna Nova godina",
+            "sr": "Православна Нова година"
+          },
+          "type": "observance"
+        },
+        "orthodox -2": {
+          "_name": "easter -2"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-25"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter"
+        },
+        "08-15": {
+          "_name": "08-15",
+          "type": "observance"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "1 Shawwal +3d": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah +3d": {
+          "_name": "10 Dhu al-Hijjah"
+        },
+        "1 Muharram": {
+          "_name": "1 Muharram",
+          "type": "observance"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal",
+          "type": "observance"
+        },
+        "27 Rajab": {
+          "_name": "27 Rajab",
+          "type": "observance"
+        },
+        "15 Shaban": {
+          "_name": "15 Shaban",
+          "type": "observance"
+        },
+        "1 Ramadan": {
+          "_name": "1 Ramadan",
+          "type": "observance"
+        },
+        "27 Ramadan": {
+          "_name": "27 Ramadan",
+          "type": "observance"
+        },
+        "15 Nisan +2d": {
+          "_name": "15 Nisan"
+        },
+        "1 Tishrei": {
+          "_name": "1 Tishrei",
+          "type": "observance"
+        },
+        "10 Tishrei +2d": {
+          "_name": "10 Tishrei"
+        }
+      }
+    },
+    "MX": {
+      "name": "México",
+      "dayoff": "sunday",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "America/Mexico_City",
+        "America/Cancun",
+        "America/Merida",
+        "America/Monterrey",
+        "America/Matamoros",
+        "America/Mazatlan",
+        "America/Chihuahua",
+        "America/Ojinaga",
+        "America/Hermosillo",
+        "America/Tijuana",
+        "America/Santa_Isabel",
+        "America/Bahia_Banderas"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-05": {
+          "_name": "Constitution Day"
+        },
+        "1st monday after 02-01": {
+          "name": {
+            "en": "Constitution Day (day off)",
+            "es": "Día de la Constitución (día libre)"
+          }
+        },
+        "03-21": {
+          "name": {
+            "en": "Benito Juárez's birthday",
+            "es": "Natalicio de Benito Juárez"
+          }
+        },
+        "3rd monday after 03-01": {
+          "name": {
+            "en": "Benito Juárez's birthday (day off)",
+            "es": "Natalicio de Benito Juárez (día libre)"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-10": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "09-16": {
+          "_name": "Independence Day"
+        },
+        "11-20": {
+          "name": {
+            "en": "Revolution Day",
+            "es": "Día de la Revolución"
+          }
+        },
+        "3rd monday after 11-01": {
+          "name": {
+            "en": "Revolution Day (day off)",
+            "es": "Día de la Revolución (día libre)"
+          }
+        },
+        "12-01 every 6 years since 1934": {
+          "name": {
+            "en": "Change of Federal Government",
+            "es": "Transmisión del Poder Ejecutivo Federal"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      }
+    },
+    "MT": {
+      "name": "Malta",
+      "dayoff": "sunday",
+      "langs": [
+        "mt"
+      ],
+      "zones": [
+        "Europe/Malta"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-10": {
+          "name": {
+            "en": "Feast of Saint Paul's Shipwreck in Malta",
+            "mt": "Nawfraġju ta' San Pawl"
+          }
+        },
+        "03-19": {
+          "_name": "03-19"
+        },
+        "03-31": {
+          "name": {
+            "en": "Freedom Day",
+            "mt": "Jum il-Ħelsien"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "06-07": {
+          "name": {
+            "mt": "Sette Giugno",
+            "en": "June 7th"
+          }
+        },
+        "06-29": {
+          "name": {
+            "en": "Saint Peter & Saint Paul",
+            "mt": "L-Imnarja"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "09-08": {
+          "name": {
+            "en": "Victory Day",
+            "mt": "Jum il-Vitorja"
+          }
+        },
+        "09-21": {
+          "_name": "Independence Day"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-13": {
+          "name": {
+            "en": "Republic Day",
+            "mt": "Jum ir-Repubblika"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      }
+    },
+    "NL": {
+      "name": "Nederland",
+      "dayoff": "sunday",
+      "langs": [
+        "nl"
+      ],
+      "zones": [
+        "Europe/Amsterdam"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -2": {
+          "_name": "easter -2",
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "04-27 if sunday then previous saturday": {
+          "name": {
+            "nl": "Koningsdag"
+          }
+        },
+        "05-04": {
+          "name": {
+            "nl": "Nationale Dodenherdenking"
+          }
+        },
+        "05-05": {
+          "name": {
+            "nl": "Bevrijdingsdag"
+          }
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49",
+          "type": "observance"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "12-05": {
+          "name": {
+            "nl": "Sinterklaasavond",
+            "en": "St Nicholas' Eve"
+          },
+          "type": "observance"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      }
+    },
+    "NO": {
+      "name": "Norge",
+      "dayoff": "sunday",
+      "langs": [
+        "no"
+      ],
+      "zones": [
+        "Europe/Oslo"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "2nd sunday after 02-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter -49": {
+          "name": {
+            "no": "Fastelavn",
+            "en": "Carnival"
+          },
+          "type": "observance"
+        },
+        "easter -7": {
+          "_name": "easter -7",
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-08": {
+          "name": {
+            "no": "Frigjøringsdag 1945",
+            "en": "Liberation Day"
+          },
+          "type": "observance"
+        },
+        "05-17": {
+          "_name": "Constitution Day"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "06-23": {
+          "name": {
+            "no": "Sankthansaften",
+            "en": "Midsummar Eve"
+          },
+          "type": "observance"
+        },
+        "4th sunday before 12-24": {
+          "name": {
+            "no": "Første søndag i advent"
+          },
+          "type": "observance"
+        },
+        "12-24": {
+          "_name": "12-24",
+          "type": "bank"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12-31 14:00 if sunday then 00:00": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      }
+    },
+    "PL": {
+      "name": "Polska",
+      "dayoff": "sunday",
+      "langs": [
+        "pl"
+      ],
+      "zones": [
+        "Europe/Warsaw"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "pl": "Święto Państwowe; Święto Pracy"
+          }
+        },
+        "05-03": {
+          "name": {
+            "pl": "Święto Narodowe Trzeciego Maja",
+            "en": "Constitution Day"
+          }
+        },
+        "05-26": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 60": {
+          "_name": "easter 60"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-11": {
+          "_name": "Independence Day"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "PT": {
+      "name": "Portugal",
+      "dayoff": "sunday",
+      "langs": [
+        "pt"
+      ],
+      "zones": [
+        "Europe/Lisbon",
+        "Atlantic/Madeira",
+        "Atlantic/Azores"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -47": {
+          "_name": "easter -47",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "04-25": {
+          "name": {
+            "pt": "Dia da Liberdade",
+            "en": "Liberty Day"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "1st sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "easter 60": {
+          "_name": "easter 60"
+        },
+        "06-10": {
+          "name": {
+            "pt": "Dia de Portugal",
+            "en": "Portugal Day"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "10-05": {
+          "name": {
+            "pt": "Implantação da República"
+          }
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-01": {
+          "name": {
+            "pt": "Restauração da Independência"
+          }
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-24": {
+          "_name": "12-24",
+          "type": "observance"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "observance"
+        }
+      }
+    },
+    "RO": {
+      "name": "Romania",
+      "dayoff": "sunday",
+      "langs": [
+        "ro"
+      ],
+      "zones": [
+        "Europe/Bucharest"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "03-08": {
+          "name": {
+            "ro": "Ziua Mamei"
+          },
+          "type": "observance"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "orthodox 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "orthodox 39": {
+          "_name": "easter 39",
+          "type": "observance"
+        },
+        "orthodox 49": {
+          "_name": "easter 49"
+        },
+        "orthodox 50": {
+          "_name": "easter 50"
+        },
+        "1st sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-01": {
+          "name": {
+            "ro": "Ziua Copilului"
+          },
+          "type": "observance"
+        },
+        "06-26": {
+          "name": {
+            "ro": "Ziua drapelului national"
+          },
+          "type": "observance"
+        },
+        "07-29": {
+          "name": {
+            "ro": "Ziua Imnului național"
+          },
+          "type": "observance"
+        },
+        "12-08": {
+          "name": {
+            "ro": "Ziua Constituției"
+          },
+          "type": "observance"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-30": {
+          "name": {
+            "ro": "Sfântul Andrei"
+          }
+        },
+        "12-01": {
+          "name": {
+            "ro": "Ziua Marii Uniri"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
+    "RU": {
+      "name": "Россия",
+      "dayoff": "sunday",
+      "langs": [
+        "ru"
+      ],
+      "zones": [
+        "Europe/Moscow",
+        "Europe/Kaliningrad",
+        "Europe/Simferopol",
+        "Europe/Volgograd",
+        "Europe/Samara",
+        "Asia/Yekaterinburg",
+        "Asia/Omsk",
+        "Asia/Novosibirsk",
+        "Asia/Novokuznetsk",
+        "Asia/Krasnoyarsk",
+        "Asia/Irkutsk",
+        "Asia/Chita",
+        "Asia/Yakutsk",
+        "Asia/Khandyga",
+        "Asia/Vladivostok",
+        "Asia/Sakhalin",
+        "Asia/Ust-Nera",
+        "Asia/Magadan",
+        "Asia/Srednekolymsk",
+        "Asia/Kamchatka",
+        "Asia/Anadyr"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-02 +5days": {
+          "name": {
+            "ru": "Новогодние каникулы",
+            "en": "New Year Holiday"
+          }
+        },
+        "01-07": {
+          "_name": "12-25"
+        },
+        "01-08": {
+          "name": {
+            "ru": "Новогодние каникулы",
+            "en": "New Year Holiday"
+          }
+        },
+        "02-23": {
+          "name": {
+            "ru": "День защитника Отечества",
+            "en": "Defender of the Fatherland Day"
+          }
+        },
+        "03-08": {
+          "name": {
+            "ru": "Международный женский день",
+            "en": "International Women's Day"
+          }
+        },
+        "08-22": {
+          "name": {
+            "ru": "День Государственного флага",
+            "en": "National Flag Day"
+          }
+        },
+        "05-01": {
+          "name": {
+            "ru": "День весны и труда",
+            "en": "Spring and Labour Day"
+          }
+        },
+        "05-09": {
+          "name": {
+            "ru": "День Победы",
+            "en": "Victory Day"
+          }
+        },
+        "06-12": {
+          "name": {
+            "ru": "День России",
+            "en": "Russia Day"
+          }
+        },
+        "11-04": {
+          "name": {
+            "ru": "День народного единства",
+            "en": "Unity Day"
+          }
+        }
+      }
+    },
+    "SE": {
+      "name": "Sverige",
+      "dayoff": "sunday",
+      "langs": [
+        "sv"
+      ],
+      "zones": [
+        "Europe/Stockholm"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "sunday before 06-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-06": {
+          "name": {
+            "sv": "Sveriges nationaldag",
+            "en": "National Day"
+          }
+        },
+        "saturday after 06-20": {
+          "name": {
+            "sv": "Midsommar"
+          }
+        },
+        "saturday after 10-31": {
+          "name": {
+            "sv": "Alla Helgons dag"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "01-13": {
+          "name": {
+            "sv": "Knut"
+          },
+          "type": "observance"
+        },
+        "sunday after 03-01": {
+          "name": {
+            "sv": "Vasaloppet"
+          },
+          "type": "observance"
+        },
+        "03-25": {
+          "name": {
+            "sv": "Marie Bebådelsedag",
+            "lat": "Annuntiatio Mariæ"
+          },
+          "type": "observance"
+        },
+        "04-30": {
+          "name": {
+            "sv": "Valborgsmässoafton",
+            "en": "Walpurgis Night"
+          },
+          "type": "observance"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49",
+          "type": "observance"
+        },
+        "11-06": {
+          "name": {
+            "sv": "Gustav-Adolf-dagen"
+          },
+          "type": "observance"
+        },
+        "11-11": {
+          "name": {
+            "sv": "Mårtensgås"
+          },
+          "type": "observance"
+        },
+        "12-10": {
+          "name": {
+            "sv": "Nobeldagen"
+          },
+          "type": "observance"
+        },
+        "12-13": {
+          "name": {
+            "sv": "Luciadagen"
+          },
+          "type": "observance"
+        },
+        "12-24": {
+          "_name": "12-24",
+          "type": "observance"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "observance"
+        }
+      }
+    },
+    "TR": {
+      "name": "Türkiye",
+      "dayoff": "saturday",
+      "langs": [
+        "tr"
+      ],
+      "zones": [
+        "Europe/Istanbul"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "04-23": {
+          "name": {
+            "en": "National Sovereignty and Children's Day",
+            "tr": "Ulusal Egemenlik ve Çocuk Bayramı"
+          }
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "en": "Labour and Solidarity Day",
+            "tr": "Emek ve Dayanışma Günü"
+          }
+        },
+        "05-19": {
+          "name": {
+            "en": "Commemoration of Atatürk, Youth and Sports Day",
+            "tr": "Atatürk'ü Anma Gençlik ve Spor Bayramı"
+          }
+        },
+        "08-30": {
+          "name": {
+            "en": "Victory Day",
+            "tr": "Zafer Bayramı"
+          }
+        },
+        "10-29": {
+          "name": {
+            "en": "Republic Day",
+            "tr": "Cumhuriyet Bayramı"
+          }
+        },
+        "1 Shawwal +90h": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah +114h": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
+    "US": {
+      "name": "United States",
+      "dayoff": "sunday",
+      "zones": [
+        "America/New_York",
+        "America/Detroit",
+        "America/Kentucky/Louisville",
+        "America/Kentucky/Monticello",
+        "America/Indiana/Indianapolis",
+        "America/Indiana/Vincennes",
+        "America/Indiana/Winamac",
+        "America/Indiana/Marengo",
+        "America/Indiana/Petersburg",
+        "America/Indiana/Vevay",
+        "America/Chicago",
+        "America/Indiana/Tell_City",
+        "America/Indiana/Knox",
+        "America/Menominee",
+        "America/North_Dakota/Center",
+        "America/North_Dakota/New_Salem",
+        "America/North_Dakota/Beulah",
+        "America/Denver",
+        "America/Boise",
+        "America/Phoenix",
+        "America/Los_Angeles",
+        "America/Metlakatla",
+        "America/Anchorage",
+        "America/Juneau",
+        "America/Sitka",
+        "America/Yakutat",
+        "America/Nome",
+        "America/Adak",
+        "Pacific/Honolulu"
+      ],
+      "langs": [
+        "en"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if saturday then previous friday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "3rd monday after 01-01": {
+          "name": {
+            "en": "Martin Luther King Day"
+          }
+        },
+        "3rd monday after 02-01": {
+          "name": {
+            "en": "Washington’s Birthday"
+          }
+        },
+        "02-14": {
+          "_name": "02-14",
+          "type": "observance"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "monday before 06-01": {
+          "name": {
+            "en": "Memorial Day"
+          }
+        },
+        "3rd sunday after 06-01": {
+          "_name": "Fathers Day",
+          "type": "observance"
+        },
+        "07-04": {
+          "_name": "Independence Day"
+        },
+        "substitutes 07-04 if sunday then next monday": {
+          "substitute": true,
+          "_name": "Independence Day"
+        },
+        "substitutes 07-04 if saturday then previous friday": {
+          "substitute": true,
+          "_name": "Independence Day"
+        },
+        "monday after 09-01": {
+          "_name": "05-01"
+        },
+        "2nd monday after 10-01": {
+          "name": {
+            "en": "Columbus Day"
+          }
+        },
+        "11-11": {
+          "name": {
+            "en": "Veterans Day"
+          }
+        },
+        "4th thursday after 11-01": {
+          "name": {
+            "en": "Thanksgiving Day"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if saturday then previous friday": {
+          "substitute": true,
+          "_name": "12-25"
+        }
+      },
+      "states": {
+        "al": {
+          "name": "Alabama",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "3rd monday after 01-01": {
+              "name": {
+                "en": "Robert E. Lee/ Martin Luther King Birthday"
+              }
+            },
+            "3rd monday after 02-01": {
+              "name": {
+                "en": "George Washington/ Thomas Jefferson Birthday"
+              }
+            },
+            "4th monday after 04-01": {
+              "name": {
+                "en": "Confederate Memorial Day"
+              }
+            },
+            "1st monday after 06-01": {
+              "name": {
+                "en": "Jefferson Davis' birthday"
+              }
+            }
+          }
+        },
+        "ak": {
+          "name": "Alaska",
+          "zones": [
+            "America/Anchorage",
+            "America/Metlakatla",
+            "America/Juneau",
+            "America/Sitka",
+            "America/Yakutat",
+            "America/Nome"
+          ],
+          "days": {
+            "2nd monday after 10-01": false,
+            "monday before 04-01": {
+              "name": {
+                "en": "Seward's Day"
+              }
+            },
+            "10-18": {
+              "name": {
+                "en": "Alaska Day"
+              }
+            }
+          }
+        },
+        "az": {
+          "name": "Arizona",
+          "zones": [
+            "America/Phoenix",
+            "America/Denver"
+          ],
+          "days": {
+            "3rd monday after 01-01": {
+              "name": {
+                "en": "Dr. Martin Luther King Jr./ Civil Rights Day"
+              }
+            }
+          }
+        },
+        "ar": {
+          "name": "Arkansas",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "3rd monday after 01-01": {
+              "name": {
+                "en": "Dr. Martin Luther King Jr./ Robert E. Lee's Birthdays"
+              }
+            },
+            "3rd monday after 02-01": {
+              "name": {
+                "en": "George Washington's Birthday/ Daisy Gatson Bates Day"
+              }
+            },
+            "12-24": {
+              "_name": "12-24"
+            }
+          }
+        },
+        "ca": {
+          "name": "California",
+          "zones": [
+            "America/Los_Angeles"
+          ],
+          "days": {
+            "2nd monday after 10-01": false,
+            "02-15": {
+              "name": {
+                "en": "Susan B. Anthony Day"
+              }
+            },
+            "03-31": {
+              "name": {
+                "en": "César Chávez Day"
+              }
+            },
+            "05-19": {
+              "name": {
+                "en": "Malcolm X Day"
+              }
+            },
+            "05-23": {
+              "name": {
+                "en": "Harvey Milk Day"
+              }
+            }
+          }
+        },
+        "co": {
+          "name": "Colorado",
+          "zones": [
+            "America/Denver"
+          ],
+          "days": {
+            "2nd monday after 10-01": {
+              "type": "observance"
+            }
+          }
+        },
+        "ct": {
+          "name": "Connecticut",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "02-12": {
+              "name": {
+                "en": "Lincoln's Birthday"
+              }
+            },
+            "easter -2": {
+              "_name": "easter -2"
+            }
+          }
+        },
+        "de": {
+          "name": "Delaware",
+          "days": {
+            "2nd monday after 10-01": false,
+            "3rd monday after 02-01": false,
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Day After Thanksgiving"
+              }
+            },
+            "tuesday after 1st monday after 11-01 in even years": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          }
+        },
+        "dc": {
+          "name": "District of Columbia",
+          "days": {
+            "04-16": {
+              "name": {
+                "en": "Emancipation Day"
+              }
+            }
+          }
+        },
+        "fl": {
+          "name": "Florida",
+          "days": {
+            "2nd monday after 10-01": false,
+            "3rd monday after 02-01": false,
+            "02-15": {
+              "name": {
+                "en": "Susan B. Anthony Day"
+              }
+            },
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Day After Thanksgiving"
+              }
+            }
+          }
+        },
+        "ga": {
+          "name": "Georgia",
+          "days": {
+            "3rd monday after 02-01": false,
+            "01-19": {
+              "name": {
+                "en": "Robert E. Lee's Birthday"
+              }
+            },
+            "monday before 05-01": {
+              "name": {
+                "en": "Confederate Memorial Day"
+              }
+            },
+            "12-24": {
+              "name": {
+                "en": "Washington's Birthday"
+              }
+            },
+            "substitutes 12-24 if wednesday then friday": {
+              "substitute": true,
+              "name": {
+                "en": "Washington's Birthday"
+              }
+            }
+          }
+        },
+        "hi": {
+          "name": "Hawaii",
+          "zones": [
+            "Pacific/Honolulu"
+          ],
+          "days": {
+            "3rd monday after 02-01": false,
+            "03-26": {
+              "name": {
+                "en": "Prince Jonah Kuhio Kalanianaole Day"
+              }
+            },
+            "06-11": {
+              "name": {
+                "en": "Kamehameha Day"
+              }
+            },
+            "3rd friday after 08-01": {
+              "name": {
+                "en": "Statehood Day"
+              }
+            },
+            "tuesday after 1st monday after 11-01 in even years": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          }
+        },
+        "id": {
+          "name": "Idaho",
+          "zones": [
+            "America/Boise",
+            "America/Los_Angeles"
+          ],
+          "days": {
+            "3rd monday after 01-01": {
+              "name": {
+                "en": "Martin Luther King, Jr./ Idaho Human Rights Day"
+              }
+            }
+          }
+        },
+        "il": {
+          "name": "Illinois",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "02-12": {
+              "name": {
+                "en": "Lincoln's Birthday"
+              }
+            },
+            "1st monday after 03-01": {
+              "name": {
+                "en": "Casimir Pulaski Day"
+              }
+            },
+            "05-19": {
+              "name": {
+                "en": "Malcolm X Day"
+              }
+            },
+            "tuesday after 1st monday after 11-01 in even years": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          }
+        },
+        "in": {
+          "name": "Indiana",
+          "zones": [
+            "America/Indiana/Indianapolis",
+            "America/Indiana/Vincennes",
+            "America/Indiana/Winamac",
+            "America/Indiana/Marengo",
+            "America/Indiana/Petersburg",
+            "America/Indiana/Vevay",
+            "America/Indiana/Tell_City",
+            "America/Indiana/Knox"
+          ],
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "tuesday after 1st monday after 05-01": {
+              "name": {
+                "en": "Primary Election Day"
+              }
+            },
+            "tuesday after 1st monday after 11-01": {
+              "name": {
+                "en": "Election Day"
+              }
+            },
+            "friday after 4th Thursday after 11-01": {
+              "name": {
+                "en": "Lincoln's Birthday"
+              }
+            }
+          }
+        },
+        "ia": {
+          "name": "Iowa",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "02-12": {
+              "name": {
+                "en": "Lincoln's Birthday"
+              }
+            }
+          }
+        },
+        "ks": {
+          "name": "Kansas",
+          "zones": [
+            "America/Chicago",
+            "America/Denver"
+          ],
+          "days": {
+            "3rd monday after 02-01": false
+          }
+        },
+        "ky": {
+          "name": "Kentucky",
+          "zones": [
+            "America/Kentucky/Louisville",
+            "America/Kentucky/Monticello"
+          ],
+          "days": {
+            "3rd monday after 02-01": false,
+            "easter -2 14:00": {
+              "_name": "easter -2"
+            },
+            "12-24": {
+              "_name": "12-24"
+            },
+            "12-31": {
+              "_name": "12-31"
+            }
+          }
+        },
+        "la": {
+          "name": "Louisiana",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "tuesday after 1st monday after 11-01 in even years": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          },
+          "regions": {
+            "no": {
+              "name": "New Orleans",
+              "days": {
+                "easter -47": {
+                  "_name": "easter -47",
+                  "name": {
+                    "en": "Mardi Gras"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "me": {
+          "name": "Maine",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "3rd monday after 04-01": {
+              "name": {
+                "en": "Patriots' Day"
+              }
+            }
+          }
+        },
+        "md": {
+          "name": "Maryland",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "friday before 1st monday before 06-01": {
+              "name": {
+                "en": "Service Reduction Day"
+              }
+            },
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Native American Heritage Day"
+              }
+            }
+          }
+        },
+        "ma": {
+          "name": "Massachusetts",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "03-17": {
+              "name": {
+                "en": "Evacuation Day"
+              }
+            },
+            "3rd monday after 04-01": {
+              "name": {
+                "en": "Patriots' Day"
+              }
+            },
+            "06-17": {
+              "name": {
+                "en": "Bunker Hill Day"
+              }
+            }
+          }
+        },
+        "mi": {
+          "name": "Michigan",
+          "zones": [
+            "America/Detroit",
+            "America/Menominee"
+          ],
+          "days": {
+            "12-24": {
+              "_name": "12-24"
+            },
+            "12-31": {
+              "_name": "12-31"
+            }
+          }
+        },
+        "mn": {
+          "name": "Minnesota",
+          "zones": [
+            "America/Chicago"
+          ]
+        },
+        "ms": {
+          "name": "Mississippi",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "3rd monday after 01-01": {
+              "name": {
+                "en": "Martin Luther King's and Robert E. Lee's Birthdays"
+              }
+            },
+            "monday before 05-01": {
+              "name": {
+                "en": "Confederate Memorial Day"
+              }
+            }
+          }
+        },
+        "mo": {
+          "name": "Missouri",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "05-08": {
+              "name": {
+                "en": "Truman Day"
+              }
+            }
+          }
+        },
+        "mt": {
+          "name": "Montana",
+          "zones": [
+            "America/Denver"
+          ],
+          "days": {
+            "tuesday after 1st monday after 11-01": {
+              "name": {
+                "en": "Election Day"
+              }
+            },
+            "12-24": {
+              "_name": "12-24"
+            },
+            "12-31": {
+              "_name": "12-31"
+            }
+          }
+        },
+        "ne": {
+          "name": "Nebraska",
+          "zones": [
+            "America/Chicago",
+            "America/Denver"
+          ],
+          "days": {
+            "friday before 05-01": {
+              "name": {
+                "en": "Arbor Day"
+              }
+            }
+          }
+        },
+        "nv": {
+          "name": "Nevada",
+          "zones": [
+            "America/Los_Angeles"
+          ],
+          "days": {
+            "2nd monday after 10-01": false,
+            "friday before 11-01": {
+              "name": {
+                "en": "Nevada Day"
+              }
+            },
+            "4th friday after 11-01": {
+              "name": {
+                "en": "Family Day"
+              }
+            }
+          }
+        },
+        "nh": {
+          "name": "New Hampshire",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "2nd monday after 10-01": {
+              "type": "observance"
+            },
+            "3rd monday after 01-01": {
+              "name": {
+                "en": "Martin Luther King, Jr./ Civil Rights Day"
+              }
+            },
+            "tuesday after 1st monday after 11-01 in even years": {
+              "name": {
+                "en": "Election Day"
+              }
+            },
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Day after Thanksgiving"
+              }
+            }
+          }
+        },
+        "nj": {
+          "name": "New Jersey",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "02-12": {
+              "name": {
+                "en": "Lincoln's Birthday"
+              }
+            },
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "tuesday after 1st monday after 11-01": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          }
+        },
+        "nm": {
+          "name": "New Mexico",
+          "zones": [
+            "America/Denver"
+          ],
+          "days": {
+            "3rd monday after 02-01": false,
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Day after Thanksgiving"
+              }
+            }
+          }
+        },
+        "ny": {
+          "name": "New York",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "02-12": {
+              "name": {
+                "en": "Lincoln's Birthday"
+              }
+            },
+            "02-15": {
+              "name": {
+                "en": "Susan B. Anthony Day"
+              }
+            },
+            "tuesday after 1st monday after 11-01": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          }
+        },
+        "nc": {
+          "name": "North Carolina",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "3rd monday after 02-01": false,
+            "2nd monday after 10-01": false,
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Day after Thanksgiving"
+              }
+            },
+            "12-24": {
+              "_name": "12-24"
+            },
+            "substitutes 12-24 if friday then previous thursday": {
+              "substitute": true,
+              "_name": "12-24"
+            },
+            "substitutes 12-24 if saturday then previous friday": {
+              "substitute": true,
+              "_name": "12-24"
+            },
+            "substitutes 12-24 if sunday then previous friday": {
+              "substitute": true,
+              "_name": "12-24"
+            }
+          }
+        },
+        "nd": {
+          "name": "North Dakota",
+          "zones": [
+            "America/North_Dakota/Center",
+            "America/North_Dakota/New_Salem",
+            "America/North_Dakota/Beulah"
+          ]
+        },
+        "oh": {
+          "name": "Ohio",
+          "zones": [
+            "America/New_York"
+          ]
+        },
+        "ok": {
+          "name": "Oklahoma",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "friday after 4th thursday after 11-01": {
+              "name": {
+                "en": "Day after Thanksgiving"
+              }
+            }
+          }
+        },
+        "or": {
+          "name": "Oregon",
+          "zones": [
+            "America/Los_Angeles"
+          ]
+        },
+        "pa": {
+          "name": "Pennsylvania",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "06-14": {
+              "name": {
+                "en": "Flag Day"
+              }
+            }
+          }
+        },
+        "ri": {
+          "name": "Rhode Island",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "2nd monday in August": {
+              "name": {
+                "en": "Victory Day"
+              }
+            }
+          }
+        },
+        "sc": {
+          "name": "South Carolina",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "05-10": {
+              "name": {
+                "en": "Confederate Memorial Day"
+              }
+            },
+            "12-26": {
+              "_name": "12-26"
+            }
+          }
+        },
+        "sd": {
+          "name": "South Dakota",
+          "zones": [
+            "America/Chicago",
+            "America/Denver"
+          ]
+        },
+        "tn": {
+          "name": "Tennessee",
+          "zones": [
+            "America/Chicago",
+            "America/New_York"
+          ],
+          "days": {
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "12-24": {
+              "_name": "12-24"
+            }
+          }
+        },
+        "tx": {
+          "name": "Texas",
+          "zones": [
+            "America/Chicago",
+            "America/Denver"
+          ],
+          "days": {
+            "01-19": {
+              "name": {
+                "en": "Confederate Heroes Day"
+              },
+              "type": "observance",
+              "note": "state agencies are partially staffed"
+            },
+            "03-02": {
+              "name": {
+                "en": "Texas Independence Day"
+              },
+              "type": "observance",
+              "note": "state agencies are partially staffed"
+            },
+            "03-31": {
+              "name": {
+                "en": "Cesar Chavez Day"
+              },
+              "type": "observance"
+            },
+            "easter -2": {
+              "_name": "easter -2",
+              "type": "observance"
+            },
+            "04-21": {
+              "name": {
+                "en": "San Jacinto Day"
+              },
+              "type": "observance",
+              "note": "state agencies are partially staffed"
+            },
+            "06-19": {
+              "name": {
+                "en": "Emancipation Day In Texas"
+              },
+              "type": "observance",
+              "note": "state agencies are partially staffed"
+            },
+            "08-27": {
+              "name": {
+                "en": "Lyndon Baines Johnson Day"
+              },
+              "type": "observance",
+              "note": "state agencies are partially staffed"
+            },
+            "Friday after 4th Thursday in November": "Friday after Thanksgiving",
+            "12-24": {
+              "_name": "12-24"
+            },
+            "12-26": {
+              "_name": "12-26",
+              "name": {
+                "en": "Day after Christmas"
+              }
+            }
+          }
+        },
+        "ut": {
+          "name": "Utah",
+          "zones": [
+            "America/Denver"
+          ],
+          "days": {
+            "07-24": {
+              "name": {
+                "en": "Pioneer Day"
+              }
+            }
+          }
+        },
+        "vt": {
+          "name": "Vermont",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "1st tuesday after 03-01": {
+              "name": {
+                "en": "Town Meeting Day"
+              }
+            },
+            "3rd monday after 08-01": {
+              "name": {
+                "en": "Bennington Battle Day"
+              }
+            }
+          }
+        },
+        "va": {
+          "name": "Virginia",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "friday before 3rd monday after 01-01": {
+              "name": {
+                "en": "Lee–Jackson Day"
+              }
+            }
+          }
+        },
+        "wa": {
+          "name": "Washington",
+          "zones": [
+            "America/Los_Angeles"
+          ]
+        },
+        "wv": {
+          "name": "West Virginia",
+          "zones": [
+            "America/New_York"
+          ],
+          "days": {
+            "02-15": {
+              "name": {
+                "en": "Susan B. Anthony Day"
+              }
+            },
+            "06-20": {
+              "name": {
+                "en": "West Virginia Day"
+              }
+            },
+            "4th friday after 11-01": {
+              "name": {
+                "en": "Lincoln's Day"
+              }
+            }
+          }
+        },
+        "wi": {
+          "name": "Wisconsin",
+          "zones": [
+            "America/Chicago"
+          ],
+          "days": {
+            "02-15": {
+              "name": {
+                "en": "Susan B. Anthony Day"
+              }
+            },
+            "2nd tuesday after 09-01": {
+              "name": {
+                "en": "Primary Election Day"
+              }
+            },
+            "tuesday after 1st monday after 11-01": {
+              "name": {
+                "en": "Election Day"
+              }
+            }
+          }
+        },
+        "wy": {
+          "name": "Wyoming",
+          "zones": [
+            "America/Denver"
+          ]
+        }
+      }
+    }
+  },
+  "names": {
+    "01-01": {
+      "name": {
+        "en": "New Year's Day",
+        "bg": "Нова Година",
+        "bs": "Novogodisnji dan",
+        "ca": "Any nou",
+        "cz": "Nový rok",
+        "de": "Neujahr",
+        "dk": "Nytår",
+        "el": "Πρωτοχρονιά",
+        "es": "Año Nuevo",
+        "et": "uusaasta",
+        "fi": "Uudenvuodenpäivä",
+        "fr": "Nouvel An",
+        "hr": "Nova godina",
+        "hu": "Újév",
+        "hy": "Ամանոր",
+        "it": "Capodanno",
+        "is": "Nýársdagur",
+        "jp": "元日",
+        "lt": "Naujieji metai",
+        "lv": "Jaunais Gads",
+        "mt": "L-Ewwel tas-Sena",
+        "nl": "Nieuwjaar",
+        "no": "Første nyttårsdag",
+        "pl": "Nowy Rok",
+        "pt": "Ano Novo",
+        "ro": "Anul nou",
+        "ru": "Новый год",
+        "sr": "Нова година",
+        "sv": "Nyårsdagen",
+        "tr": "Yılbaşı"
+      }
+    },
+    "01-06": {
+      "name": {
+        "en": "Epiphany",
+        "de": "Heilige Drei Könige",
+        "es": "Reyes Magos",
+        "et": "kolmekuningapäev",
+        "fi": "Loppiainen",
+        "fr": "l'Épiphanie",
+        "el": "Θεοφάνεια",
+        "hr": "Bogojavljenje, Sveta tri kralja",
+        "it": "Befana",
+        "is": "Þrettándinn",
+        "nl": "Driekoningen",
+        "pl": "Święto Trzech Króli",
+        "sv": "Trettondedag jul"
+      }
+    },
+    "02-02": {
+      "name": {
+        "en": "Candlemas",
+        "de": "Lichtmess"
+      }
+    },
+    "02-14": {
+      "name": {
+        "en": "Valentine's Day",
+        "de": "Valentinstag",
+        "fr": "Saint-Valentin",
+        "nl": "Valentijnsdag"
+      }
+    },
+    "03-19": {
+      "name": {
+        "en": "Saint Joseph",
+        "de-at": "Josefitag",
+        "de": "Josefstag",
+        "es": "San José",
+        "mt": "San Ġużepp"
+      }
+    },
+    "05-01": {
+      "name": {
+        "en": "Labour Day",
+        "bg": "Ден на труда",
+        "bs": "Radni dan",
+        "cz": "Svátek práce",
+        "de": "Tag der Arbeit",
+        "el": "Εργατική Πρωτομαγιά",
+        "es": "Fiesta del trabajo",
+        "et": "kevadpüha",
+        "fi": "Vappu",
+        "fr": "Fête du travail",
+        "hr": "Praznik rada",
+        "hu": "A munka ünnepe",
+        "hy": "Աշխատանքի օր",
+        "it": "Festa del Lavoro",
+        "is": "Hátíðisdagur Verkamanna",
+        "lt": "Tarptautinė darbo diena",
+        "lv": "Darba svētki",
+        "nl": "Dag van de Arbeid",
+        "no": "Første mai",
+        "mt": "Jum il-Ħaddiem",
+        "pl": "Święto Pracy",
+        "pt": "Dia do trabalhador",
+        "ro": "Ziua muncii",
+        "sr": "Празник рада",
+        "sv": "Första Maj"
+      }
+    },
+    "08-15": {
+      "name": {
+        "en": "Assumption",
+        "de": "Mariä Himmelfahrt",
+        "es": "Asunción",
+        "fr": "Assomption",
+        "el": "Κοίμηση της Θεοτόκου",
+        "hr": "Velika Gospa",
+        "it": "Ferragosto",
+        "lt": "Žolinė",
+        "mt": "Santa Marija",
+        "nl": "O.L.V. Hemelvaart",
+        "pl": "Wniebowzięcie Najświętszej Maryi Panny",
+        "pt": "Assunção",
+        "ro": "Adormirea Maicii Domnului",
+        "sq": "Shën Mëria e Gushtit"
+      }
+    },
+    "11-01": {
+      "name": {
+        "en": "All Saints' Day",
+        "bs": "Dita e të gjithë Shenjtorëve",
+        "de": "Allerheiligen",
+        "es": "Todos los Santos",
+        "fi": "Pyhäinpäivä",
+        "fr": "Toussaint",
+        "hr": "Svi sveti",
+        "hu": "Mindenszentek",
+        "it": "Ognissanti",
+        "lt": "Visų šventųjų diena",
+        "nl": "Allerheiligen",
+        "pl": "Wszystkich Świętych",
+        "pt": "Todos os santos",
+        "sq": "Të gjitha Saints",
+        "sr": "Сви Свети",
+        "sv": "Alla helgons dag"
+      }
+    },
+    "11-02": {
+      "name": {
+        "en": "All Souls' Day",
+        "de": "Allerseelen",
+        "et": "hingedepäev",
+        "fr": "Fête des morts",
+        "nl": "Allerzielen",
+        "pt": "Dia de Finados"
+      }
+    },
+    "11-11": {
+      "name": {
+        "en": "Saint Martin",
+        "de": "Sankt Martin (Faschingsbeginn)"
+      }
+    },
+    "12-06": {
+      "name": {
+        "de": "Sankt Nikolaus",
+        "fr": "Saint-Nicolas",
+        "nl": "Sinterklaas"
+      }
+    },
+    "12-08": {
+      "name": {
+        "en": "Immaculate Conception",
+        "de": "Mariä Empfängnis",
+        "es": "La inmaculada concepción",
+        "fr": "Immaculée Conception",
+        "it": "Immacolata Concezione",
+        "mt": "Il-Kunċizzjoni",
+        "pt": "Imaculada Conceição"
+      }
+    },
+    "12-24": {
+      "name": {
+        "en": "Christmas Eve",
+        "bg": "Бъдни вечер",
+        "bs": "Badnji dan",
+        "cz": "Štědrý den",
+        "de": "Heiliger Abend",
+        "es": "Nochebuena",
+        "et": "jõululaupäev",
+        "fi": "Jouluaatto",
+        "hr": "Badnji dan",
+        "is": "Aðfangadagur",
+        "lt": "Šv. Kūčios",
+        "lv": "Ziemassvētku vakars",
+        "nl": "Kerstavond",
+        "no": "Julaften",
+        "pt": "Noite de Natal",
+        "sq": "Nata e Krishtlindjes",
+        "sr": "Бадњи дан",
+        "sv": "Julafton"
+      }
+    },
+    "12-25": {
+      "name": {
+        "en": "Christmas Day",
+        "bg": "Коледа",
+        "bs": "Božić",
+        "de-at": "Christtag",
+        "ca": "Nadal",
+        "cz": "1. svátek vánoční",
+        "de": "Weihnachten",
+        "dk": "1. Juledag",
+        "el": "Χριστούγεννα",
+        "es": "Navidad",
+        "et": "esimene jõulupüha",
+        "fi": "Joulupäivä",
+        "fr": "Noël",
+        "hr": "Božić",
+        "hu": "Karácsony",
+        "hy": "Սուրբ Ծնունդ",
+        "it": "Natale",
+        "is": "Jóladagur",
+        "jp": "ノエル",
+        "lt": "Šv. Kalėdos",
+        "lv": "Ziemassvētki",
+        "mt": "Il-Milied",
+        "nl": "Kerstmis",
+        "no": "Første Juledag",
+        "pl": "Pierwszy dzień Bożego Narodzenia",
+        "pt": "Natal",
+        "ro": "Crăciunul",
+        "ru": "Рождество Христово",
+        "sq": "Krishtlindja",
+        "sr": "Божић",
+        "sv": "Juldagen"
+      }
+    },
+    "12-26": {
+      "name": {
+        "en": "Boxingday",
+        "de-at": "Stefanitag",
+        "bg": "2-ри ден на Коледа",
+        "cz": "2. svátek vánoční",
+        "de": "2ter Weihnachtstag",
+        "dk": "2. Juledag",
+        "el": "Δεύτερη μέρα των Χριστουγέννων",
+        "es": "San Esteban",
+        "et": "teine jõulupüha",
+        "fi": "2. joulupäivä",
+        "fr": "Lendemain de Noël",
+        "hr": "Svetog Stjepana",
+        "hu": "Karácsony másnapja",
+        "it": "Santo Stefano",
+        "is": "Annar í jólum",
+        "lt": "2. Kalėdų diena",
+        "lv": "Otrie Ziemassvētki",
+        "nl": "Tweede kerstdag",
+        "no": "Andre juledag",
+        "pl": "Drugi dzień Bożego Narodzenia",
+        "ro": "Două zi de Crăciun",
+        "sv": "Annandag jul"
+      }
+    },
+    "12-31": {
+      "name": {
+        "en": "New Year's Eve",
+        "de": "Silvester",
+        "es": "Fin del Año",
+        "fi": "Uudenvuodenaatto",
+        "fr": "Saint-Sylvestre",
+        "hu": "Szilveszter",
+        "hy": "Նոր տարվա գիշեր",
+        "is": "Gamlársdagur",
+        "jp": "大晦日",
+        "lv": "Vecgada vakars",
+        "nl": "Oudjaar",
+        "no": "Nyttårsaften",
+        "pt": "Véspera de Ano Novo",
+        "sv": "Nyårsafton"
+      }
+    },
+    "easter -47": {
+      "name": {
+        "en": "Shrove Tuesday",
+        "es": "Carnaval",
+        "de": "Faschingsdienstag",
+        "hr": "Pokladni utorak",
+        "pt": "Carnaval"
+      }
+    },
+    "easter -46": {
+      "name": {
+        "en": "Ash Wednesday",
+        "de": "Aschermittwoch",
+        "es": "Miercoles de Ceniza",
+        "fr": "Mercredi des Cendres",
+        "it": "Ceneri",
+        "is": "Öskudagur"
+      }
+    },
+    "easter -7": {
+      "name": {
+        "en": "Palm Sunday",
+        "de": "Palmsonntag",
+        "it": "Domenica delle Palme",
+        "is": "Pálmasunnudagur",
+        "no": "Palmesøndag"
+      }
+    },
+    "easter -3": {
+      "name": {
+        "en": "Maundy Thursday",
+        "cz": "Zelený čtvrtek",
+        "de": "Gründonnerstag",
+        "dk": "Skærtorsdag",
+        "es": "Jueves Santo",
+        "fr": "Jeudi saint",
+        "it": "Giovedì santo",
+        "is": "Skírdagur",
+        "no": "Skjærtorsdag"
+      }
+    },
+    "easter -2": {
+      "name": {
+        "en": "Good Friday",
+        "bg": "Разпети петък",
+        "bs": "Dobar petak",
+        "cz": "Velikonoční pátek",
+        "de": "Karfreitag",
+        "dk": "Langfredag",
+        "es": "Viernes Santo",
+        "fi": "Pitkäperjantai",
+        "fr": "Vendredi saint",
+        "el": "Μεγάλη Παρασκευή",
+        "et": "suur reede",
+        "hr": "Veliki petak",
+        "it": "Venerdì santo",
+        "is": "Föstudagurinn langi",
+        "lv": "Lielā Piektdiena",
+        "mt": "Il-Ġimgħa l-Kbira",
+        "nl": "Goede Vrijdag",
+        "no": "Langfredag",
+        "pt": "Sexta-Feira Santa",
+        "sq": "E Premtja e Madhe",
+        "sr": "Велики петак",
+        "sv": "Långfredagen"
+      }
+    },
+    "easter -1": {
+      "name": {
+        "en": "Easter Saturday",
+        "cz": "Bílá sobota",
+        "de": "Karsamstag",
+        "es": "Sabado Santo",
+        "fr": "Samedi saint",
+        "it": "Sabado santo"
+      }
+    },
+    "easter": {
+      "name": {
+        "en": "Easter Sunday",
+        "bg": "Великден",
+        "bs": "Vaskrs",
+        "cz": "Neděle velikonoční",
+        "de": "Ostersonntag",
+        "dk": "Påskesøndag",
+        "el": "Πάσχα",
+        "es": "Pascua",
+        "et": "lihavõtted",
+        "fi": "Pääsiäispäivä",
+        "fr": "Pâques",
+        "hr": "Uskrs",
+        "hu": "Húsvétvasárnap",
+        "it": "Domenica di Pasqua",
+        "is": "Páskadagur",
+        "lt": "Velykos",
+        "lv": "Lieldienas",
+        "nl": "Pasen",
+        "no": "Første påskedag",
+        "pl": "Niedziela Wielkanocna",
+        "pt": "Páscoa",
+        "ro": "Paștele",
+        "sq": "Pashkët",
+        "sr": "Васкрс",
+        "sv": "Påsk"
+      }
+    },
+    "easter 1": {
+      "name": {
+        "en": "Easter Monday",
+        "bg": "Велики понеделник",
+        "cz": "Velikonoční pondělí",
+        "de": "Ostermontag",
+        "dk": "Anden påskedag",
+        "el": "Δευτέρα του Πάσχα",
+        "es": "Lunes de Pascua",
+        "fi": "2. pääsiäispäivä",
+        "fr": "Lundi de Pâques",
+        "hr": "Drugi dan Uskrsa",
+        "hu": "Húsvéthétfő",
+        "it": "Lunedì dell’Angelo",
+        "is": "Annar í páskum",
+        "lv": "Otrās Lieldienas",
+        "nl": "Paasmaandag",
+        "no": "Andre påskedag",
+        "pl": "Drugi dzień Wielkanocy",
+        "ro": "Două zi de Pasti",
+        "sv": "Annandag påsk"
+      }
+    },
+    "easter 39": {
+      "name": {
+        "en": "Ascension Day",
+        "de": "Christi Himmelfahrt",
+        "dk": "Kristi Himmelfartsdag",
+        "es": "La Asunción",
+        "fi": "Helatorstai",
+        "fr": "Ascension",
+        "it": "Ascensione",
+        "is": "Uppstigningardagur",
+        "nl": "O.L.H. Hemelvaart",
+        "no": "Kristi himmelfartsdag",
+        "ro": "Ziua Eroilor",
+        "sv": "Kristi himmelfärds dag"
+      }
+    },
+    "easter 49": {
+      "name": {
+        "en": "Pentecost",
+        "de": "Pfingstsonntag",
+        "dk": "Pinsedag",
+        "el": "Αγίου Πνεύματος",
+        "es": "Pentecostés",
+        "et": "nelipühade 1. püha",
+        "fi": "Helluntaipäivä",
+        "fr": "Pentecôte",
+        "hu": "Pünkösdvasárnap",
+        "it": "Pentecoste",
+        "is": "Hvítasunnudagur",
+        "nl": "Pinksteren",
+        "no": "Første pinsedag",
+        "pl": "Zielone Świątki",
+        "ro": "Rusaliile",
+        "sv": "Pingst"
+      }
+    },
+    "easter 50": {
+      "name": {
+        "en": "Whit Monday",
+        "de": "Pfingstmontag",
+        "dk": "2. Pinsedag",
+        "es": "Lunes de Pentecostés",
+        "fr": "Lundi de Pentecôte",
+        "hu": "Pünkösdhétfő",
+        "it": "Lunedì di Pentecoste",
+        "is": "Annar í hvítasunnu",
+        "nl": "Pinkstermaandag",
+        "no": "Andre pinsedag",
+        "ro": "Două zi de Rusalii"
+      }
+    },
+    "easter 60": {
+      "name": {
+        "en": "Corpus Christi",
+        "de": "Fronleichnam",
+        "es": "Corpus Christi",
+        "fr": "la Fête-Dieu",
+        "it": "Corpus Domini",
+        "hr": "Tijelovo",
+        "pl": "Dzień Bożego Ciała",
+        "pt": "Corpo de Deus"
+      }
+    },
+    "1 Muharram": {
+      "name": {
+        "en": "Islamic New Year",
+        "bs": "Nova hidžretska godina",
+        "hr": "Nova hidžretska godina",
+        "sq": "Viti i Ri hixhri"
+      }
+    },
+    "1 Shawwal": {
+      "name": {
+        "en": "Eid al-Fitr, Bayram",
+        "bs": "Ramazanski bajram",
+        "sq": "Fitër bajrami",
+        "tr": "Bayramı"
+      }
+    },
+    "10 Dhu al-Hijjah": {
+      "name": {
+        "en": "Eid al-Adha, Sacrifice Feast",
+        "bs": "Kurbanski bajram",
+        "sq": "Kurban bajrami",
+        "tr": "Kurban Bayramı"
+      }
+    },
+    "12 Rabi al-awwal": {
+      "name": {
+        "en": "Mawlid",
+        "bs": "Mevlud",
+        "sq": "Mevludi"
+      }
+    },
+    "27 Rajab": {
+      "name": {
+        "en": "Laylat al-Mi'raj",
+        "bs": "Lejletul Mi'radž",
+        "sq": "Nata e Miraxhit"
+      }
+    },
+    "15 Shaban": {
+      "name": {
+        "en": "Laylat al-Bara'at",
+        "bs": "Lejletul berat",
+        "sq": "Nata e Beratit"
+      }
+    },
+    "1 Ramadan": {
+      "name": {
+        "en": "First day of Ramadan",
+        "bs": "Prvi dan posta",
+        "sq": "Dita e parë e agjërimit"
+      }
+    },
+    "27 Ramadan": {
+      "name": {
+        "en": "Laylat al-Qadr",
+        "bs": "Lejletul kadr",
+        "sq": "Nata e Kadrit"
+      }
+    },
+    "15 Nisan": {
+      "name": {
+        "en": "Pesach",
+        "bs": "Pesah",
+        "de": "Pessach",
+        "hr": "Pesač",
+        "sq": "Pesach",
+        "sr": "Песах"
+      }
+    },
+    "1 Tishrei": {
+      "name": {
+        "en": "Rosh Hashanah",
+        "bs": "Roš Hašana",
+        "de": "Rosch Haschana",
+        "hr": "Roš Hašane",
+        "sq": "Rosh Hashanah",
+        "sr": "Рош Хашана"
+      }
+    },
+    "10 Tishrei": {
+      "name": {
+        "en": "Yom Kippur",
+        "bs": "Jom Kipur",
+        "de": "Jom Kippur",
+        "hr": "Jom Kipur",
+        "sq": "Yom Kippur",
+        "sr": "Јом Кипур"
+      }
+    },
+    "Abolition of Slavery": {
+      "name": {
+        "en": "Abolition of Slavery",
+        "fr": "Abolition de l’esclavage"
+      }
+    },
+    "Buß- und Bettag": {
+      "name": {
+        "de": "Buß- und Bettag",
+        "en": "Day of Prayer and Repentance"
+      }
+    },
+    "Constitution Day": {
+      "name": {
+        "en": "Constitution Day",
+        "de": "Tag des Grundgesetzes",
+        "dk": "Grundlovsdag",
+        "ca": "Dia de la Constitució",
+        "es": "Día de la Constitución",
+        "hy": "Սահմանադրության օր",
+        "jp": "憲法記念日",
+        "no": "Grunnlovsdagen"
+      }
+    },
+    "Fathers Day": {
+      "name": {
+        "en": "Father's Day",
+        "et": "isadepäev",
+        "lt": "Tėvo diena",
+        "pt": "Dia dos Pais"
+      }
+    },
+    "Independence Day": {
+      "name": {
+        "en": "Independence Day",
+        "bg": "Ден на независимостта",
+        "bs": "Dan nezavisnosti",
+        "es": "Día de la Independencia",
+        "et": "iseseisvuspäev",
+        "fi": "Itsenäisyyspäivä",
+        "hr": "Dan neovisnosti",
+        "hy": "Անկախության օր",
+        "mt": "Jum l-Indipendenza",
+        "pl": "Narodowe Święto Niepodległości",
+        "pt": "Dia da Independência",
+        "sr": "Дан независности"
+      }
+    },
+    "Mothers Day": {
+      "name": {
+        "en": "Mother's Day",
+        "cz": "Den matek",
+        "de": "Muttertag",
+        "dk": "Mors Dag",
+        "el": "Γιορτή της μητέρας",
+        "es": "Día de la Madre",
+        "et": "emadepäev",
+        "fi": "Äitien päivä",
+        "fr": "Fête des Mères",
+        "hr": "Majčin dan",
+        "hu": "Anyák napja",
+        "hy": "Ցեղասպանության զոհերի հիշատակի օր",
+        "is": "Mæðradagurinn",
+        "it": "Festa della mamma",
+        "lt": "Motinos diena",
+        "lv": "Mātes diena",
+        "nl": "Moederdag",
+        "no": "Morsdag",
+        "pt": "Dia das Mães",
+        "pl": "Dzień Matki",
+        "ro": "Ziua Mamei",
+        "sv": "Mors dag"
+      }
+    },
+    "National Holiday": {
+      "name": {
+        "en": "National Holiday",
+        "de": "Nationalfeiertag",
+        "es": "Fiesta Nacional",
+        "fr": "Fête nationale",
+        "el": "εθνική επέτειος",
+        "nl": "Nationale feestdag"
+      }
+    },
+    "Reformationstag": {
+      "name": {
+        "de": "Reformationstag",
+        "en": "Reformation Day"
+      }
+    },
+    "substitutes": {
+      "name": {
+        "en": "substitute day",
+        "bs": "zamjena dan",
+        "es": "día sustituto",
+        "fr": "jour substitut",
+        "hr": "zamjena dan",
+        "lv": "aizstājējs diena",
+        "sr": "замена дан"
+      }
+    }
+  }
+}

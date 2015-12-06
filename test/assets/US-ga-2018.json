@@ -1,0 +1,107 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T05:00:00.000Z",
+    "end": "2018-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-15 00:00:00",
+    "start": "2018-01-15T05:00:00.000Z",
+    "end": "2018-01-16T05:00:00.000Z",
+    "name": "Martin Luther King Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-19 00:00:00",
+    "start": "2018-01-19T05:00:00.000Z",
+    "end": "2018-01-20T05:00:00.000Z",
+    "name": "Robert E. Lee's Birthday",
+    "type": "public"
+  },
+  {
+    "date": "2018-02-14 00:00:00",
+    "start": "2018-02-14T05:00:00.000Z",
+    "end": "2018-02-15T05:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-04-30 00:00:00",
+    "start": "2018-04-30T04:00:00.000Z",
+    "end": "2018-05-01T04:00:00.000Z",
+    "name": "Confederate Memorial Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-13 00:00:00",
+    "start": "2018-05-13T04:00:00.000Z",
+    "end": "2018-05-14T04:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-05-28 00:00:00",
+    "start": "2018-05-28T04:00:00.000Z",
+    "end": "2018-05-29T04:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-06-17 00:00:00",
+    "start": "2018-06-17T04:00:00.000Z",
+    "end": "2018-06-18T04:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-07-04 00:00:00",
+    "start": "2018-07-04T04:00:00.000Z",
+    "end": "2018-07-05T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-09-03 00:00:00",
+    "start": "2018-09-03T04:00:00.000Z",
+    "end": "2018-09-04T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-08 00:00:00",
+    "start": "2018-10-08T04:00:00.000Z",
+    "end": "2018-10-09T04:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-11-11 00:00:00",
+    "start": "2018-11-11T05:00:00.000Z",
+    "end": "2018-11-12T05:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-11-22 00:00:00",
+    "start": "2018-11-22T05:00:00.000Z",
+    "end": "2018-11-23T05:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-24T05:00:00.000Z",
+    "end": "2018-12-25T05:00:00.000Z",
+    "name": "Washington's Birthday",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T05:00:00.000Z",
+    "end": "2018-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  }
+]

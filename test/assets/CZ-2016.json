@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T23:00:00.000Z",
+    "end": "2016-01-01T23:00:00.000Z",
+    "name": "Nový rok; Den obnovy samostatného českého státu",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-23 00:00:00",
+    "start": "2016-03-22T23:00:00.000Z",
+    "end": "2016-03-23T23:00:00.000Z",
+    "name": "Škaredá středa",
+    "type": "observance"
+  },
+  {
+    "date": "2016-03-24 00:00:00",
+    "start": "2016-03-23T23:00:00.000Z",
+    "end": "2016-03-24T23:00:00.000Z",
+    "name": "Zelený čtvrtek",
+    "type": "observance"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-24T23:00:00.000Z",
+    "end": "2016-03-25T23:00:00.000Z",
+    "name": "Velikonoční pátek",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-26 00:00:00",
+    "start": "2016-03-25T23:00:00.000Z",
+    "end": "2016-03-26T23:00:00.000Z",
+    "name": "Bílá sobota",
+    "type": "observance"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-26T23:00:00.000Z",
+    "end": "2016-03-27T22:00:00.000Z",
+    "name": "Neděle velikonoční",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-27T22:00:00.000Z",
+    "end": "2016-03-28T22:00:00.000Z",
+    "name": "Velikonoční pondělí",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T22:00:00.000Z",
+    "end": "2016-05-01T22:00:00.000Z",
+    "name": "Svátek práce",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-08 00:00:00",
+    "start": "2016-05-07T22:00:00.000Z",
+    "end": "2016-05-08T22:00:00.000Z",
+    "name": "Den vítězství or Den osvobození",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-08 00:00:00",
+    "start": "2016-05-07T22:00:00.000Z",
+    "end": "2016-05-08T22:00:00.000Z",
+    "name": "Den matek",
+    "type": "observance"
+  },
+  {
+    "date": "2016-07-05 00:00:00",
+    "start": "2016-07-04T22:00:00.000Z",
+    "end": "2016-07-05T22:00:00.000Z",
+    "name": "Den slovanských věrozvěstů Cyrila a Metoděje",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-06 00:00:00",
+    "start": "2016-07-05T22:00:00.000Z",
+    "end": "2016-07-06T22:00:00.000Z",
+    "name": "Den upálení mistra Jana Husa",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-28 00:00:00",
+    "start": "2016-09-27T22:00:00.000Z",
+    "end": "2016-09-28T22:00:00.000Z",
+    "name": "Den české státnosti",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-28 00:00:00",
+    "start": "2016-10-27T22:00:00.000Z",
+    "end": "2016-10-28T22:00:00.000Z",
+    "name": "Den vzniku samostatného československého státu",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-17 00:00:00",
+    "start": "2016-11-16T23:00:00.000Z",
+    "end": "2016-11-17T23:00:00.000Z",
+    "name": "Den boje za svobodu a demokracii",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-24 00:00:00",
+    "start": "2016-12-23T23:00:00.000Z",
+    "end": "2016-12-24T23:00:00.000Z",
+    "name": "Štědrý den",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T23:00:00.000Z",
+    "end": "2016-12-25T23:00:00.000Z",
+    "name": "1. svátek vánoční",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T23:00:00.000Z",
+    "end": "2016-12-26T23:00:00.000Z",
+    "name": "2. svátek vánoční",
+    "type": "public"
+  }
+]

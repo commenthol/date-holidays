@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2020-01-01 00:00:00",
+    "start": "2020-01-01T06:00:00.000Z",
+    "end": "2020-01-02T06:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-01-20 00:00:00",
+    "start": "2020-01-20T06:00:00.000Z",
+    "end": "2020-01-21T06:00:00.000Z",
+    "name": "Martin Luther King Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-02-14 00:00:00",
+    "start": "2020-02-14T06:00:00.000Z",
+    "end": "2020-02-15T06:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2020-02-17 00:00:00",
+    "start": "2020-02-17T06:00:00.000Z",
+    "end": "2020-02-18T06:00:00.000Z",
+    "name": "Washington’s Birthday",
+    "type": "public"
+  },
+  {
+    "date": "2020-05-10 00:00:00",
+    "start": "2020-05-10T05:00:00.000Z",
+    "end": "2020-05-11T05:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2020-05-25 00:00:00",
+    "start": "2020-05-25T05:00:00.000Z",
+    "end": "2020-05-26T05:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-06-21 00:00:00",
+    "start": "2020-06-21T05:00:00.000Z",
+    "end": "2020-06-22T05:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2020-07-03 00:00:00",
+    "start": "2020-07-03T05:00:00.000Z",
+    "end": "2020-07-04T05:00:00.000Z",
+    "name": "Independence Day (substitute day)",
+    "substitute": true,
+    "type": "public"
+  },
+  {
+    "date": "2020-07-04 00:00:00",
+    "start": "2020-07-04T05:00:00.000Z",
+    "end": "2020-07-05T05:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-09-07 00:00:00",
+    "start": "2020-09-07T05:00:00.000Z",
+    "end": "2020-09-08T05:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-10-12 00:00:00",
+    "start": "2020-10-12T05:00:00.000Z",
+    "end": "2020-10-13T05:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-11-11 00:00:00",
+    "start": "2020-11-11T06:00:00.000Z",
+    "end": "2020-11-12T06:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-11-26 00:00:00",
+    "start": "2020-11-26T06:00:00.000Z",
+    "end": "2020-11-27T06:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-25T06:00:00.000Z",
+    "end": "2020-12-26T06:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  }
+]

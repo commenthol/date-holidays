@@ -1,0 +1,198 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T00:00:00.000Z",
+    "end": "2018-01-02T00:00:00.000Z",
+    "name": "Nýársdagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-06 00:00:00",
+    "start": "2018-01-06T00:00:00.000Z",
+    "end": "2018-01-07T00:00:00.000Z",
+    "name": "Þrettándinn",
+    "type": "observance"
+  },
+  {
+    "date": "2018-01-19 00:00:00",
+    "start": "2018-01-19T00:00:00.000Z",
+    "end": "2018-01-20T00:00:00.000Z",
+    "name": "Bóndadagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-12 00:00:00",
+    "start": "2018-02-12T00:00:00.000Z",
+    "end": "2018-02-13T00:00:00.000Z",
+    "name": "Bolludagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-13 00:00:00",
+    "start": "2018-02-13T00:00:00.000Z",
+    "end": "2018-02-14T00:00:00.000Z",
+    "name": "Sprengidagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-14 00:00:00",
+    "start": "2018-02-14T00:00:00.000Z",
+    "end": "2018-02-15T00:00:00.000Z",
+    "name": "Öskudagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-18 00:00:00",
+    "start": "2018-02-18T00:00:00.000Z",
+    "end": "2018-02-19T00:00:00.000Z",
+    "name": "Konudagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-03-25 00:00:00",
+    "start": "2018-03-25T00:00:00.000Z",
+    "end": "2018-03-26T00:00:00.000Z",
+    "name": "Pálmasunnudagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-03-29 00:00:00",
+    "start": "2018-03-29T00:00:00.000Z",
+    "end": "2018-03-30T00:00:00.000Z",
+    "name": "Skírdagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T00:00:00.000Z",
+    "end": "2018-03-31T00:00:00.000Z",
+    "name": "Föstudagurinn langi",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-01 00:00:00",
+    "start": "2018-04-01T00:00:00.000Z",
+    "end": "2018-04-02T00:00:00.000Z",
+    "name": "Páskadagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-02 00:00:00",
+    "start": "2018-04-02T00:00:00.000Z",
+    "end": "2018-04-03T00:00:00.000Z",
+    "name": "Annar í páskum",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-19 00:00:00",
+    "start": "2018-04-19T00:00:00.000Z",
+    "end": "2018-04-20T00:00:00.000Z",
+    "name": "Sumardagurinn fyrsti",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-05-01T00:00:00.000Z",
+    "end": "2018-05-02T00:00:00.000Z",
+    "name": "Hátíðisdagur Verkamanna",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-10 00:00:00",
+    "start": "2018-05-10T00:00:00.000Z",
+    "end": "2018-05-11T00:00:00.000Z",
+    "name": "Uppstigningardagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-13 00:00:00",
+    "start": "2018-05-13T00:00:00.000Z",
+    "end": "2018-05-14T00:00:00.000Z",
+    "name": "Mæðradagurinn",
+    "type": "observance"
+  },
+  {
+    "date": "2018-05-20 00:00:00",
+    "start": "2018-05-20T00:00:00.000Z",
+    "end": "2018-05-21T00:00:00.000Z",
+    "name": "Hvítasunnudagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-21 00:00:00",
+    "start": "2018-05-21T00:00:00.000Z",
+    "end": "2018-05-22T00:00:00.000Z",
+    "name": "Annar í hvítasunnu",
+    "type": "public"
+  },
+  {
+    "date": "2018-06-03 00:00:00",
+    "start": "2018-06-03T00:00:00.000Z",
+    "end": "2018-06-04T00:00:00.000Z",
+    "name": "Sjómannadagurinn",
+    "type": "observance"
+  },
+  {
+    "date": "2018-06-17 00:00:00",
+    "start": "2018-06-17T00:00:00.000Z",
+    "end": "2018-06-18T00:00:00.000Z",
+    "name": "Íslenski þjóðhátíðardagurinn",
+    "type": "public"
+  },
+  {
+    "date": "2018-08-06 00:00:00",
+    "start": "2018-08-06T00:00:00.000Z",
+    "end": "2018-08-07T00:00:00.000Z",
+    "name": "Frídagur verslunarmanna",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-27 00:00:00",
+    "start": "2018-10-27T00:00:00.000Z",
+    "end": "2018-10-28T00:00:00.000Z",
+    "name": "Fyrsti vetrardagur",
+    "type": "observance"
+  },
+  {
+    "date": "2018-11-16 00:00:00",
+    "start": "2018-11-16T00:00:00.000Z",
+    "end": "2018-11-17T00:00:00.000Z",
+    "name": "Dagur íslenskrar tungu",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-23 00:00:00",
+    "start": "2018-12-23T00:00:00.000Z",
+    "end": "2018-12-24T00:00:00.000Z",
+    "name": "Þorláksmessa",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-24 13:00:00",
+    "start": "2018-12-24T13:00:00.000Z",
+    "end": "2018-12-25T00:00:00.000Z",
+    "name": "Aðfangadagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T00:00:00.000Z",
+    "end": "2018-12-26T00:00:00.000Z",
+    "name": "Jóladagur",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-26 00:00:00",
+    "start": "2018-12-26T00:00:00.000Z",
+    "end": "2018-12-27T00:00:00.000Z",
+    "name": "Annar í jólum",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-31 13:00:00",
+    "start": "2018-12-31T13:00:00.000Z",
+    "end": "2019-01-01T00:00:00.000Z",
+    "name": "Gamlársdagur",
+    "type": "public"
+  }
+]

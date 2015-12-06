@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T22:00:00.000Z",
+    "end": "2016-01-01T22:00:00.000Z",
+    "name": "Anul nou",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-08 00:00:00",
+    "start": "2016-03-07T22:00:00.000Z",
+    "end": "2016-03-08T22:00:00.000Z",
+    "name": "Ziua Mamei",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T21:00:00.000Z",
+    "end": "2016-05-01T21:00:00.000Z",
+    "name": "Paștele",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T21:00:00.000Z",
+    "end": "2016-05-01T21:00:00.000Z",
+    "name": "Ziua muncii",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T21:00:00.000Z",
+    "end": "2016-05-01T21:00:00.000Z",
+    "name": "Ziua Mamei",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-01T21:00:00.000Z",
+    "end": "2016-05-02T21:00:00.000Z",
+    "name": "Două zi de Pasti",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-01 00:00:00",
+    "start": "2016-05-31T21:00:00.000Z",
+    "end": "2016-06-01T21:00:00.000Z",
+    "name": "Ziua Copilului",
+    "type": "observance"
+  },
+  {
+    "date": "2016-06-09 00:00:00",
+    "start": "2016-06-08T21:00:00.000Z",
+    "end": "2016-06-09T21:00:00.000Z",
+    "name": "Ziua Eroilor",
+    "type": "observance"
+  },
+  {
+    "date": "2016-06-19 00:00:00",
+    "start": "2016-06-18T21:00:00.000Z",
+    "end": "2016-06-19T21:00:00.000Z",
+    "name": "Rusaliile",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-20 00:00:00",
+    "start": "2016-06-19T21:00:00.000Z",
+    "end": "2016-06-20T21:00:00.000Z",
+    "name": "Două zi de Rusalii",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-26 00:00:00",
+    "start": "2016-06-25T21:00:00.000Z",
+    "end": "2016-06-26T21:00:00.000Z",
+    "name": "Ziua drapelului national",
+    "type": "observance"
+  },
+  {
+    "date": "2016-07-29 00:00:00",
+    "start": "2016-07-28T21:00:00.000Z",
+    "end": "2016-07-29T21:00:00.000Z",
+    "name": "Ziua Imnului național",
+    "type": "observance"
+  },
+  {
+    "date": "2016-08-15 00:00:00",
+    "start": "2016-08-14T21:00:00.000Z",
+    "end": "2016-08-15T21:00:00.000Z",
+    "name": "Adormirea Maicii Domnului",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-30 00:00:00",
+    "start": "2016-11-29T22:00:00.000Z",
+    "end": "2016-11-30T22:00:00.000Z",
+    "name": "Sfântul Andrei",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-01 00:00:00",
+    "start": "2016-11-30T22:00:00.000Z",
+    "end": "2016-12-01T22:00:00.000Z",
+    "name": "Ziua Marii Uniri",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-08 00:00:00",
+    "start": "2016-12-07T22:00:00.000Z",
+    "end": "2016-12-08T22:00:00.000Z",
+    "name": "Ziua Constituției",
+    "type": "observance"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T22:00:00.000Z",
+    "end": "2016-12-25T22:00:00.000Z",
+    "name": "Crăciunul",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T22:00:00.000Z",
+    "end": "2016-12-26T22:00:00.000Z",
+    "name": "Două zi de Crăciun",
+    "type": "public"
+  }
+]
