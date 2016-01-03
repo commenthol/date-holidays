@@ -1,0 +1,135 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T03:00:00.000Z",
+    "end": "2018-01-02T03:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-06 00:00:00",
+    "start": "2018-01-06T03:00:00.000Z",
+    "end": "2018-01-07T03:00:00.000Z",
+    "name": "Reyes Magos",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-12 00:00:00",
+    "start": "2018-02-12T03:00:00.000Z",
+    "end": "2018-02-13T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-13 00:00:00",
+    "start": "2018-02-13T03:00:00.000Z",
+    "end": "2018-02-14T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "observance"
+  },
+  {
+    "date": "2018-03-26 00:00:00",
+    "start": "2018-03-26T03:00:00.000Z",
+    "end": "2018-03-31T03:00:00.000Z",
+    "name": "Semana de Turismo",
+    "type": "observance"
+  },
+  {
+    "date": "2018-03-29 00:00:00",
+    "start": "2018-03-29T03:00:00.000Z",
+    "end": "2018-03-30T03:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T03:00:00.000Z",
+    "end": "2018-03-31T03:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-01 00:00:00",
+    "start": "2018-04-01T03:00:00.000Z",
+    "end": "2018-04-02T03:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance"
+  },
+  {
+    "date": "2018-04-23 00:00:00",
+    "start": "2018-04-23T03:00:00.000Z",
+    "end": "2018-04-24T03:00:00.000Z",
+    "name": "Desembarco de los 33 Orientales",
+    "type": "observance"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-05-01T03:00:00.000Z",
+    "end": "2018-05-02T03:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-21 00:00:00",
+    "start": "2018-05-21T03:00:00.000Z",
+    "end": "2018-05-22T03:00:00.000Z",
+    "name": "Batalla de las Piedras",
+    "type": "observance"
+  },
+  {
+    "date": "2018-06-19 00:00:00",
+    "start": "2018-06-19T03:00:00.000Z",
+    "end": "2018-06-20T03:00:00.000Z",
+    "name": "Natalicio de Artigas y Día del Nunca Más",
+    "type": "observance"
+  },
+  {
+    "date": "2018-07-18 00:00:00",
+    "start": "2018-07-18T03:00:00.000Z",
+    "end": "2018-07-19T03:00:00.000Z",
+    "name": "Día de la Constitución",
+    "type": "public"
+  },
+  {
+    "date": "2018-08-25 00:00:00",
+    "start": "2018-08-25T03:00:00.000Z",
+    "end": "2018-08-26T03:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-15 00:00:00",
+    "start": "2018-10-15T03:00:00.000Z",
+    "end": "2018-10-16T03:00:00.000Z",
+    "name": "Día de la Raza",
+    "type": "observance"
+  },
+  {
+    "date": "2018-11-02 00:00:00",
+    "start": "2018-11-02T03:00:00.000Z",
+    "end": "2018-11-03T03:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-24T03:00:00.000Z",
+    "end": "2018-12-25T03:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T03:00:00.000Z",
+    "end": "2018-12-26T03:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-31 00:00:00",
+    "start": "2018-12-31T03:00:00.000Z",
+    "end": "2019-01-01T03:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "observance"
+  }
+]
