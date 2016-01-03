@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 51
+Countries: 52
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -113,6 +113,7 @@ Countries: 51
 │   ├── ch: Chillán y Chillán Viejo
 │   ├── pa: Parinacota
 │   └── ta: Tarapacá
+├── CO: Colombia
 ├── CY: Cyprus
 ├── CZ: Česká republika
 ├── DK: Danmark
