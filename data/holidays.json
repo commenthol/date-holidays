@@ -1113,6 +1113,74 @@
         }
       }
     },
+    "BO": {
+      "name": "Bolivia",
+      "dayoff": "sunday",
+      "langs": [
+        "es",
+        "qu",
+        "ay"
+      ],
+      "zones": [
+        "America/La_Paz"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-02": {
+          "name": {
+            "en": "Feast of the Virgin of Candelaria",
+            "qu": "Mamacha Candelaria",
+            "es": "Fiesta de la Virgen de Candelaria"
+          }
+        },
+        "easter -48": {
+          "name": {
+            "en": "Carnival",
+            "es": "Carnaval"
+          }
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "06-21": {
+          "name": {
+            "en": "Andean New Year",
+            "ay": "Willkakuti",
+            "es": "Año Nuevo Andino"
+          }
+        },
+        "08-02": {
+          "name": {
+            "en": "Agrarian Reform Day",
+            "es": "Día de la Revolución Agraria, Productiva y Comunitaria"
+          }
+        },
+        "08-06": {
+          "_name": "Independence Day",
+          "name": {
+            "es": "Día de la Patria"
+          }
+        },
+        "11-02": {
+          "_name": "11-02"
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      }
+    },
     "BR": {
       "name": "Brazil",
       "dayoff": "sunday",
@@ -6480,6 +6548,7 @@
       "name": {
         "en": "All Souls' Day",
         "de": "Allerseelen",
+        "es": "Día de los muertos",
         "et": "hingedepäev",
         "fr": "Fête des morts",
         "nl": "Allerzielen",
