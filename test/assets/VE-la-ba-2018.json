@@ -1,0 +1,199 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T04:30:00.000Z",
+    "end": "2018-01-02T04:30:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-06 00:00:00",
+    "start": "2018-01-06T04:30:00.000Z",
+    "end": "2018-01-07T04:30:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "observance"
+  },
+  {
+    "date": "2018-01-14 00:00:00",
+    "start": "2018-01-14T04:30:00.000Z",
+    "end": "2018-01-15T04:30:00.000Z",
+    "name": "Día de La Divina Pastora",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-15 00:00:00",
+    "start": "2018-01-15T04:30:00.000Z",
+    "end": "2018-01-16T04:30:00.000Z",
+    "name": "Día del Maestro",
+    "type": "optional",
+    "note": "teachers only"
+  },
+  {
+    "date": "2018-02-12 00:00:00",
+    "start": "2018-02-12T04:30:00.000Z",
+    "end": "2018-02-13T04:30:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2018-02-13 00:00:00",
+    "start": "2018-02-13T04:30:00.000Z",
+    "end": "2018-02-14T04:30:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2018-03-19 00:00:00",
+    "start": "2018-03-19T04:30:00.000Z",
+    "end": "2018-03-20T04:30:00.000Z",
+    "name": "San José",
+    "type": "observance"
+  },
+  {
+    "date": "2018-03-26 00:00:00",
+    "start": "2018-03-26T04:30:00.000Z",
+    "end": "2018-04-02T04:30:00.000Z",
+    "name": "Semana Santa",
+    "type": "observance"
+  },
+  {
+    "date": "2018-03-29 00:00:00",
+    "start": "2018-03-29T04:30:00.000Z",
+    "end": "2018-03-30T04:30:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T04:30:00.000Z",
+    "end": "2018-03-31T04:30:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-01 00:00:00",
+    "start": "2018-04-01T04:30:00.000Z",
+    "end": "2018-04-02T04:30:00.000Z",
+    "name": "Pascua",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-19 00:00:00",
+    "start": "2018-04-19T04:30:00.000Z",
+    "end": "2018-04-20T04:30:00.000Z",
+    "name": "Declaración de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-05-01T04:30:00.000Z",
+    "end": "2018-05-02T04:30:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-28 00:00:00",
+    "start": "2018-05-28T04:30:00.000Z",
+    "end": "2018-05-29T04:30:00.000Z",
+    "name": "Natalicio de Jacinto Lara",
+    "type": "public"
+  },
+  {
+    "date": "2018-06-24 00:00:00",
+    "start": "2018-06-24T04:30:00.000Z",
+    "end": "2018-06-25T04:30:00.000Z",
+    "name": "Aniversario de la Batalla de Carabobo",
+    "type": "public"
+  },
+  {
+    "date": "2018-07-05 00:00:00",
+    "start": "2018-07-05T04:30:00.000Z",
+    "end": "2018-07-06T04:30:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2018-07-24 00:00:00",
+    "start": "2018-07-24T04:30:00.000Z",
+    "end": "2018-07-25T04:30:00.000Z",
+    "name": "Natalicio de Simón Bolívar",
+    "type": "public"
+  },
+  {
+    "date": "2018-08-03 00:00:00",
+    "start": "2018-08-03T04:30:00.000Z",
+    "end": "2018-08-04T04:30:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "observance"
+  },
+  {
+    "date": "2018-09-11 00:00:00",
+    "start": "2018-09-11T04:30:00.000Z",
+    "end": "2018-09-12T04:30:00.000Z",
+    "name": "Día de Nuestra Señora de Coromoto",
+    "type": "observance"
+  },
+  {
+    "date": "2018-09-14 00:00:00",
+    "start": "2018-09-14T04:30:00.000Z",
+    "end": "2018-09-15T04:30:00.000Z",
+    "name": "Día de Barquisimeto",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-12 00:00:00",
+    "start": "2018-10-12T04:30:00.000Z",
+    "end": "2018-10-13T04:30:00.000Z",
+    "name": "Día de la resistencia indígena",
+    "type": "public"
+  },
+  {
+    "date": "2018-11-01 00:00:00",
+    "start": "2018-11-01T04:30:00.000Z",
+    "end": "2018-11-02T04:30:00.000Z",
+    "name": "Todos los Santos",
+    "type": "observance"
+  },
+  {
+    "date": "2018-11-02 00:00:00",
+    "start": "2018-11-02T04:30:00.000Z",
+    "end": "2018-11-03T04:30:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-08 00:00:00",
+    "start": "2018-12-08T04:30:00.000Z",
+    "end": "2018-12-09T04:30:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-10 00:00:00",
+    "start": "2018-12-10T04:30:00.000Z",
+    "end": "2018-12-11T04:30:00.000Z",
+    "name": "Día de la Aviación Nacional",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-24T04:30:00.000Z",
+    "end": "2018-12-25T04:30:00.000Z",
+    "name": "Nochebuena",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T04:30:00.000Z",
+    "end": "2018-12-26T04:30:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-31 00:00:00",
+    "start": "2018-12-31T04:30:00.000Z",
+    "end": "2019-01-01T04:30:00.000Z",
+    "name": "Fin del Año",
+    "type": "public"
+  }
+]
