@@ -574,10 +574,11 @@ names:
       fr: Fête nationale
       el: εθνική επέτειος
       nl: Nationale feestdag
-  Reformationstag:
+  Reformation Day:
     name:
-      de: Reformationstag
       en: Reformation Day
+      de: Reformationstag
+      es: Día Nacional de las Iglesias Evangélicas y Protestantes
 
   # internal use
   substitutes:

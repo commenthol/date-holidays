@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 44
+Countries: 45
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -107,6 +107,11 @@ Countries: 44
 │   ├── ne: Kanton Neuenburg
 │   ├── ge: Kanton Genf
 │   └── ju: Kanton Jura
+├── CL: Chile
+│   ├── ar: Arica
+│   ├── ch: Chillán y Chillán Viejo
+│   ├── pa: Parinacota
+│   └── ta: Tarapacá
 ├── CY: Cyprus
 ├── CZ: Česká republika
 ├── DK: Danmark

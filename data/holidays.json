@@ -1710,6 +1710,132 @@
         }
       }
     },
+    "CL": {
+      "name": "Chile",
+      "dayoff": "sunday",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "America/Santiago",
+        "Pacific/Easter"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-21": {
+          "name": {
+            "en": "Navy Day",
+            "es": "Día de las Glorias Navales"
+          }
+        },
+        "06-29": {
+          "name": {
+            "en": "Saint Peter and Saint Paul",
+            "es": "San Pedro y San Pablo"
+          }
+        },
+        "07-16": {
+          "name": {
+            "en": "Our Lady of Mount Carmel",
+            "es": "Virgen del Carmen"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "09-18": {
+          "name": {
+            "en": "National holiday",
+            "es": "Fiestas Patrias"
+          }
+        },
+        "09-19": {
+          "name": {
+            "en": "Army Day",
+            "es": "Día de las Glorias del Ejército"
+          }
+        },
+        "10-12": {
+          "name": {
+            "en": "Columbus Day",
+            "es": "Día del Descubrimiento de Dos Mundos"
+          }
+        },
+        "10-31 if wednesday then next friday if tuesday then previous friday": {
+          "_name": "Reformation Day"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      },
+      "regions": {
+        "ar": {
+          "name": "Arica",
+          "days": {
+            "06-07": {
+              "name": {
+                "en": "Battle of Arica",
+                "es": "Asalto y Toma del Morro de Arica"
+              }
+            }
+          }
+        },
+        "ch": {
+          "name": "Chillán y Chillán Viejo",
+          "days": {
+            "08-20": {
+              "name": {
+                "en": "Nativity of Liberator Bernardo O'Higgins",
+                "es": "Nacimiento del Prócer de la Independencia"
+              }
+            }
+          }
+        },
+        "pa": {
+          "name": "Parinacota",
+          "days": {
+            "06-07": {
+              "name": {
+                "en": "Battle of Arica",
+                "es": "Asalto y Toma del Morro de Arica"
+              }
+            }
+          }
+        },
+        "ta": {
+          "name": "Tarapacá",
+          "days": {
+            "08-10": {
+              "name": {
+                "en": "Saint Lawrence",
+                "es": "San Lorenzo de Tarapacá"
+              }
+            }
+          }
+        }
+      }
+    },
     "CY": {
       "name": "Cyprus",
       "dayoff": null,
@@ -2067,7 +2193,7 @@
           "name": "Brandenburg",
           "days": {
             "10-31": {
-              "_name": "Reformationstag"
+              "_name": "Reformation Day"
             }
           }
         },
@@ -2146,7 +2272,7 @@
           "name": "Mecklenburg Vorpommern",
           "days": {
             "10-31": {
-              "_name": "Reformationstag"
+              "_name": "Reformation Day"
             }
           }
         },
@@ -2196,7 +2322,7 @@
           "name": "Sachsen",
           "days": {
             "10-31": {
-              "_name": "Reformationstag"
+              "_name": "Reformation Day"
             },
             "wednesday before 11-23": {
               "_name": "Buß- und Bettag"
@@ -2210,7 +2336,7 @@
               "_name": "01-06"
             },
             "10-31": {
-              "_name": "Reformationstag"
+              "_name": "Reformation Day"
             }
           }
         },
@@ -2218,7 +2344,7 @@
           "name": "Thüringen",
           "days": {
             "10-31": {
-              "_name": "Reformationstag"
+              "_name": "Reformation Day"
             },
             "12-31 14:00 if sunday then 00:00": {
               "_name": "12-31"
@@ -6850,10 +6976,11 @@
         "nl": "Nationale feestdag"
       }
     },
-    "Reformationstag": {
+    "Reformation Day": {
       "name": {
+        "en": "Reformation Day",
         "de": "Reformationstag",
-        "en": "Reformation Day"
+        "es": "Día Nacional de las Iglesias Evangélicas y Protestantes"
       }
     },
     "substitutes": {

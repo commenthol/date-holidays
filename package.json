@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "worldwide holidays",
   "main": "lib/Holidays.js",
   "directories": {
