@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T05:00:00.000Z",
+    "end": "2016-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-24 00:00:00",
+    "start": "2016-03-24T05:00:00.000Z",
+    "end": "2016-03-25T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T05:00:00.000Z",
+    "end": "2016-03-26T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T05:00:00.000Z",
+    "end": "2016-03-28T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-05-01T05:00:00.000Z",
+    "end": "2016-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-24 00:00:00",
+    "start": "2016-06-24T05:00:00.000Z",
+    "end": "2016-06-25T05:00:00.000Z",
+    "name": "Fiesta Inca del Sol",
+    "type": "observance"
+  },
+  {
+    "date": "2016-06-29 00:00:00",
+    "start": "2016-06-29T05:00:00.000Z",
+    "end": "2016-06-30T05:00:00.000Z",
+    "name": "San Pedro y San Pablo",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-28 00:00:00",
+    "start": "2016-07-28T05:00:00.000Z",
+    "end": "2016-07-29T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-29 00:00:00",
+    "start": "2016-07-29T05:00:00.000Z",
+    "end": "2016-07-30T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2016-08-30 00:00:00",
+    "start": "2016-08-30T05:00:00.000Z",
+    "end": "2016-08-31T05:00:00.000Z",
+    "name": "Día de Santa Rosa de Lima",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-08 00:00:00",
+    "start": "2016-10-08T05:00:00.000Z",
+    "end": "2016-10-09T05:00:00.000Z",
+    "name": "Combate de Angamos",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-01 00:00:00",
+    "start": "2016-11-01T05:00:00.000Z",
+    "end": "2016-11-02T05:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-08 00:00:00",
+    "start": "2016-12-08T05:00:00.000Z",
+    "end": "2016-12-09T05:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T05:00:00.000Z",
+    "end": "2016-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]

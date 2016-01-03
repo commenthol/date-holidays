@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2017-01-01T05:00:00.000Z",
+    "end": "2017-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2017-04-13 00:00:00",
+    "start": "2017-04-13T05:00:00.000Z",
+    "end": "2017-04-14T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2017-04-14 00:00:00",
+    "start": "2017-04-14T05:00:00.000Z",
+    "end": "2017-04-15T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2017-04-16 00:00:00",
+    "start": "2017-04-16T05:00:00.000Z",
+    "end": "2017-04-17T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "public"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-05-01T05:00:00.000Z",
+    "end": "2017-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2017-06-29 00:00:00",
+    "start": "2017-06-29T05:00:00.000Z",
+    "end": "2017-06-30T05:00:00.000Z",
+    "name": "San Pedro y San Pablo",
+    "type": "public"
+  },
+  {
+    "date": "2017-07-28 00:00:00",
+    "start": "2017-07-28T05:00:00.000Z",
+    "end": "2017-07-29T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2017-07-29 00:00:00",
+    "start": "2017-07-29T05:00:00.000Z",
+    "end": "2017-07-30T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2017-08-30 00:00:00",
+    "start": "2017-08-30T05:00:00.000Z",
+    "end": "2017-08-31T05:00:00.000Z",
+    "name": "Día de Santa Rosa de Lima",
+    "type": "public"
+  },
+  {
+    "date": "2017-10-08 00:00:00",
+    "start": "2017-10-08T05:00:00.000Z",
+    "end": "2017-10-09T05:00:00.000Z",
+    "name": "Combate de Angamos",
+    "type": "public"
+  },
+  {
+    "date": "2017-11-01 00:00:00",
+    "start": "2017-11-01T05:00:00.000Z",
+    "end": "2017-11-02T05:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-08 00:00:00",
+    "start": "2017-12-08T05:00:00.000Z",
+    "end": "2017-12-09T05:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-25T05:00:00.000Z",
+    "end": "2017-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]

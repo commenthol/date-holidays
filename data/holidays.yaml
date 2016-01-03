@@ -1279,9 +1279,7 @@ holidays:
           en: Navy Day
           es: Día de las Glorias Navales
       06-29:
-        name:
-          en: Saint Peter and Saint Paul
-          es: San Pedro y San Pablo
+        _name: 06-29
       07-16:
         name:
           en: Our Lady of Mount Carmel
@@ -3274,9 +3272,7 @@ holidays:
           mt: Sette Giugno
           en: June 7th
       06-29:
-        name:
-          en: Saint Peter & Saint Paul
-          mt: L-Imnarja
+        _name: 06-29
       08-15:
         _name: 08-15
       09-08:
@@ -3409,6 +3405,57 @@ holidays:
       '12-31 14:00 if sunday then 00:00':
         _name: 12-31
         type: bank
+
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Peru
+  PE:
+    name: Peru
+    dayoff: sunday
+    langs:
+      - es
+      - qu
+    zones:
+      - America/Lima
+    days:
+      01-01:
+        _name: 01-01
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      05-01:
+        _name: 05-01
+      06-29:
+        _name: 06-29
+      07-28:
+        _name: Independence Day
+      07-29:
+        _name: Independence Day
+      08-30:
+        name:
+          en: Santa Rosa de Lima
+          es: Día de Santa Rosa de Lima
+      10-08:
+        name:
+          en: Battle of Angamos
+          es: Combate de Angamos
+      11-01:
+        _name: 11-01
+      12-08:
+        _name: 12-08
+      12-25:
+        _name: 12-25
+    regions:
+      cu:
+        name: Cuzco
+        days:
+          06-24:
+            name:
+              en: Festival of the Sun
+              es: Fiesta Inca del Sol
+              qu: Inti Raymi
+            type: observance
 
   # @source https://de.wikipedia.org/wiki/Feiertage_in_Polen
   PL:

@@ -1,3 +1,5 @@
+all: yaml writetests docs
+
 yaml: data/holidays.json
 
 data/holidays.json: data/holidays.yaml data/names.yaml
@@ -19,4 +21,4 @@ tree: yaml
 writetests: yaml
 	mocha test/all.mocha.js --writetests
 
-.PHONY: test doc tree writetests yaml
+.PHONY: all test doc tree writetests yaml
