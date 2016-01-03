@@ -4998,6 +4998,73 @@
         }
       }
     },
+    "PY": {
+      "name": "Paraguay",
+      "dayoff": "sunday",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "America/Asuncion"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "04-30": {
+          "name": {
+            "en": "Teacher's Day",
+            "es": "Día del Maestro"
+          },
+          "type": "optional",
+          "note": "Affects educational institutions"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-14": {
+          "_name": "Independence Day"
+        },
+        "05-15": {
+          "_name": "Independence Day"
+        },
+        "06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday": {
+          "name": {
+            "en": "Chaco Armistice",
+            "es": "Día de la Paz del Chaco"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "09-29": {
+          "name": {
+            "en": "Boqueron Battle Victory Day",
+            "es": "Victoria de Boquerón"
+          }
+        },
+        "12-08": {
+          "_name": "12-08",
+          "name": {
+            "en": "Virgin of Caacupe",
+            "es": "Virgen de Caacupé"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-31": {
+          "_name": "12-31",
+          "type": "bank"
+        }
+      }
+    },
     "RO": {
       "name": "Romania",
       "dayoff": "sunday",
