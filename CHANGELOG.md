@@ -1,6 +1,7 @@
 # Changelog
 
 v0.1.2 (2016-01-04)
+* Country Nicaragua added
 * Country Costa Rica added
 * Country Panama added
 * Country Grenada added

@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 55
+Countries: 56
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -179,6 +179,7 @@ Countries: 55
 ├── ME: Crna Gora
 ├── MX: México
 ├── MT: Malta
+├── NI: Nicaragua
 ├── NL: Nederland
 ├── NO: Norge
 ├── PA: Panamá
