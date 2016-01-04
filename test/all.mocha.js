@@ -33,7 +33,7 @@ function writeFile (name, obj) {
 function test (year, country, state, region) {
   var name = country + (state ? '-' + state : '') + (region ? '-' + region : '') + '-' + year
 
-  it(name, function () {
+  it(name, function (done) {
     var hd = new Holidays(country, state, region)
     var res = hd.getHolidays(year)
 
@@ -42,8 +42,11 @@ function test (year, country, state, region) {
     }
 
     writeFile(name, res)
-    var exp = fs.readFileSync(filename(name), 'utf8')
-    assert.equal(JSON.stringify(res, null, 2), exp)
+    fs.readFile(filename(name), 'utf8', function (err, exp) {
+      assert.ok(!err, '' + err)
+      assert.equal(JSON.stringify(res, null, 2), exp)
+      done()
+    })
   })
 }
 
