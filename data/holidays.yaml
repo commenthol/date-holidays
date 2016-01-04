@@ -3597,6 +3597,78 @@ holidays:
         _name: 12-31
         type: bank
 
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Panama
+  # @source https://es.wikipedia.org/wiki/Anexo:Festividades_y_celebraciones#Panam.C3.A1
+  # @source http://www.legalinfo-panama.com/legislacion/laboral/codtrabA1.pdf
+  PA:
+    name: Panamá
+    dayoff: sunday
+    langs:
+      - es
+    zones:
+      - America/Panama
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        _name: 01-01
+        substitute: true
+      01-09:
+        name:
+          en: Martyrs' Day
+          es: Día de los Mártires Caídos en la Gesta Patriótica
+      substitutes 01-09 if sunday then next monday:
+        name:
+          en: Martyrs' Day
+          es: Día de los Mártires Caídos en la Gesta Patriótica
+        substitute: true
+      easter -48:
+        _name: easter -48
+        type: observance
+      easter -47:
+        _name: easter -47
+      easter -2:
+        _name: easter -2
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if sunday then next monday:
+        _name: 05-01
+        substitute: true
+      07-01 every 5 years since 2014:
+        name:
+          en: Presidential Inauguration
+      11-03:
+        name:
+          en: Separation Day (from Columbia)
+          es: Día de la Separación (de Colombia)
+      substitutes 11-03 if sunday then next monday:
+        name:
+          en: Separation Day (from Columbia)
+          es: Día de la Separación (de Colombia)
+        substitute: true
+      11-10:
+        name:
+          es: Primer Grito de Independencia
+      substitutes 11-10 if sunday then next monday:
+        name:
+          es: Primer Grito de Independencia
+        substitute: true
+      11-28:
+        _name: Independence Day
+      substitutes 11-28 if sunday then next monday:
+        _name: Independence Day
+        substitute: true
+      12-08:
+        _name: Mothers Day
+      substitutes 12-08 if sunday then next monday:
+        _name: Mothers Day
+        substitute: true
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if sunday then next monday:
+        _name: 12-25
+        substitute: true
+
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Peru
   PE:
     name: Peru

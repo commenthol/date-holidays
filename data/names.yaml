@@ -269,7 +269,12 @@ names:
 
   # moveable days
   # christian holidays
-  easter -47: # Carnival
+  easter -48: # Carnival Monday
+    name:
+      en: Shrove Monday
+      es: Carnaval
+      de: Rosenmontag
+  easter -47: # Carnival Tuesday
     name:
       en: Shrove Tuesday
       es: Carnaval

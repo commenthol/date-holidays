@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2015-01-01T05:00:00.000Z",
+    "end": "2015-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2015-01-09 00:00:00",
+    "start": "2015-01-09T05:00:00.000Z",
+    "end": "2015-01-10T05:00:00.000Z",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica",
+    "type": "public"
+  },
+  {
+    "date": "2015-02-16 00:00:00",
+    "start": "2015-02-16T05:00:00.000Z",
+    "end": "2015-02-17T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "observance"
+  },
+  {
+    "date": "2015-02-17 00:00:00",
+    "start": "2015-02-17T05:00:00.000Z",
+    "end": "2015-02-18T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-03T05:00:00.000Z",
+    "end": "2015-04-04T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-05-01T05:00:00.000Z",
+    "end": "2015-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-03 00:00:00",
+    "start": "2015-11-03T05:00:00.000Z",
+    "end": "2015-11-04T05:00:00.000Z",
+    "name": "Día de la Separación (de Colombia)",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-10 00:00:00",
+    "start": "2015-11-10T05:00:00.000Z",
+    "end": "2015-11-11T05:00:00.000Z",
+    "name": "Primer Grito de Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-28 00:00:00",
+    "start": "2015-11-28T05:00:00.000Z",
+    "end": "2015-11-29T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-08 00:00:00",
+    "start": "2015-12-08T05:00:00.000Z",
+    "end": "2015-12-09T05:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-25T05:00:00.000Z",
+    "end": "2015-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]
