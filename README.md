@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 57
+Countries: 58
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -192,6 +192,8 @@ Countries: 57
 ├── RO: Romania
 ├── RU: Россия
 ├── SE: Sverige
+├── SV: El Salvador
+│   └── san: San Salvador
 ├── TR: Türkiye
 ├── VE: Venezuela
 │   ├── an: Anzoátegui

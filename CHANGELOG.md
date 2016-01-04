@@ -1,6 +1,7 @@
 # Changelog
 
 v0.1.3 ()
+* Country El Salvador added
 * Country Honduras added
 
 v0.1.2 (2016-01-04)
