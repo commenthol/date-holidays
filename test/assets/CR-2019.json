@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2019-01-01T06:00:00.000Z",
+    "end": "2019-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-11 00:00:00",
+    "start": "2019-04-11T06:00:00.000Z",
+    "end": "2019-04-12T06:00:00.000Z",
+    "name": "Gesta Heroica de Juan Santamaría",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-18 00:00:00",
+    "start": "2019-04-18T06:00:00.000Z",
+    "end": "2019-04-19T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-19T06:00:00.000Z",
+    "end": "2019-04-20T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-21 00:00:00",
+    "start": "2019-04-21T06:00:00.000Z",
+    "end": "2019-04-22T06:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-05-01T06:00:00.000Z",
+    "end": "2019-05-02T06:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2019-07-25 00:00:00",
+    "start": "2019-07-25T06:00:00.000Z",
+    "end": "2019-07-26T06:00:00.000Z",
+    "name": "Anexión del Partido de Nicoya",
+    "type": "public"
+  },
+  {
+    "date": "2019-08-02 00:00:00",
+    "start": "2019-08-02T06:00:00.000Z",
+    "end": "2019-08-03T06:00:00.000Z",
+    "name": "Día de la Virgen de los Ángeles",
+    "type": "public"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-15T06:00:00.000Z",
+    "end": "2019-08-16T06:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "public"
+  },
+  {
+    "date": "2019-09-15 00:00:00",
+    "start": "2019-09-15T06:00:00.000Z",
+    "end": "2019-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2019-10-12 00:00:00",
+    "start": "2019-10-12T06:00:00.000Z",
+    "end": "2019-10-13T06:00:00.000Z",
+    "name": "Día de la Raza",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-25T06:00:00.000Z",
+    "end": "2019-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]
