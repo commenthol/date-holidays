@@ -591,6 +591,10 @@ names:
       en: Reformation Day
       de: Reformationstag
       es: Día Nacional de las Iglesias Evangélicas y Protestantes
+  Revolution Day:
+    name:
+      en: Revolution Day
+      es: Día de la Revolución
 
   # internal use
   substitutes:

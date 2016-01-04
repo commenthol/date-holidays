@@ -3537,6 +3537,55 @@
         }
       }
     },
+    "GT": {
+      "name": "Guatemala",
+      "dayoff": "sunday",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "America/Guatemala"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter -1": {
+          "_name": "easter -1"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "09-15": {
+          "_name": "Independence Day"
+        },
+        "10-20": {
+          "_name": "Revolution Day"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-24 12:00": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-31 12:00": {
+          "_name": "12-31"
+        }
+      }
+    },
     "GU": {
       "name": "Guam",
       "dayoff": "sunday",
@@ -5020,10 +5069,7 @@
           "_name": "Independence Day"
         },
         "11-20": {
-          "name": {
-            "en": "Revolution Day",
-            "es": "Día de la Revolución"
-          }
+          "_name": "Revolution Day"
         },
         "3rd monday after 11-01": {
           "name": {
@@ -8224,6 +8270,12 @@
         "en": "Reformation Day",
         "de": "Reformationstag",
         "es": "Día Nacional de las Iglesias Evangélicas y Protestantes"
+      }
+    },
+    "Revolution Day": {
+      "name": {
+        "en": "Revolution Day",
+        "es": "Día de la Revolución"
       }
     },
     "substitutes": {
