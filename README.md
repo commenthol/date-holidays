@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 56
+Countries: 57
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -162,6 +162,7 @@ Countries: 56
 ├── GD: Grenada
 ├── GR: Ελλάδα
 ├── GU: Guam
+├── HN: Honduras
 ├── HR: Hrvatska
 │   ├── split: Split
 │   └── dubrovnik: Dubrovnik
