@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 52
+Countries: 53
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -158,6 +158,7 @@ Countries: 52
 │   ├── ni: Northern Ireland
 │   ├── sc: Scottland
 │   └── wa: Wales
+├── GD: Grenada
 ├── GR: Ελλάδα
 ├── GU: Guam
 ├── HR: Hrvatska

@@ -1,5 +1,8 @@
 # Changelog
 
+v0.1.2 (2016-01-04)
+* Country Grenada added
+
 v0.1.1 (2016-01-03)
 * Country Colombia added
 * Country Venezuela added
