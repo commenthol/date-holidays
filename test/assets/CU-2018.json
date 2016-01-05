@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T05:00:00.000Z",
+    "end": "2018-01-02T05:00:00.000Z",
+    "name": "Triunfo de la Revolución",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-02 00:00:00",
+    "start": "2018-01-02T05:00:00.000Z",
+    "end": "2018-01-03T05:00:00.000Z",
+    "name": "Día de Victoria de las Fuerzas Armadas",
+    "type": "public"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T04:00:00.000Z",
+    "end": "2018-03-31T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-05-01T04:00:00.000Z",
+    "end": "2018-05-02T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2018-07-25 00:00:00",
+    "start": "2018-07-25T04:00:00.000Z",
+    "end": "2018-07-26T04:00:00.000Z",
+    "name": "Conmemoración del asalto a Moncada",
+    "type": "public"
+  },
+  {
+    "date": "2018-07-26 00:00:00",
+    "start": "2018-07-26T04:00:00.000Z",
+    "end": "2018-07-27T04:00:00.000Z",
+    "name": "Día de la Rebeldía Nacional",
+    "type": "public"
+  },
+  {
+    "date": "2018-07-27 00:00:00",
+    "start": "2018-07-27T04:00:00.000Z",
+    "end": "2018-07-28T04:00:00.000Z",
+    "name": "Conmemoración del asalto a Moncada",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-10 00:00:00",
+    "start": "2018-10-10T04:00:00.000Z",
+    "end": "2018-10-11T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T05:00:00.000Z",
+    "end": "2018-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]

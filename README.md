@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 60
+Countries: 61
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -116,6 +116,7 @@ Countries: 60
 │   └── ta: Tarapacá
 ├── CO: Colombia
 ├── CR: Costa Rica
+├── CU: Cuba
 ├── CY: Cyprus
 ├── CZ: Česká republika
 ├── DK: Danmark
