@@ -7,12 +7,18 @@ var assert = require('assert')
 var Holidays = require('..')
 
 var writetests
+var _countries
 
-for (var i in process.argv) {
+for (var i = 2; i < process.argv.length; i++) {
   // regenerate tests with `mocha test/all.mocha.js --writetests`
-  if (process.argv[i] === '--writetests') {
+  if (process.argv[i] === '--countries') {
+    var c = process.argv[++i].split(',')
+    var _countries = {}
+    for (var j in c) {
+      _countries[c[j]] = c[j]
+    }
+  } else if (process.argv[i] === '--writetests') {
     writetests = true
-    break
   }
 }
 
@@ -52,7 +58,7 @@ function test (year, country, state, region) {
 
 describe('#All Holidays', function () {
   years.forEach(function (year) {
-    var countries = Holidays().getCountries()
+    var countries = _countries || Holidays().getCountries()
 
     Object.keys(countries).forEach(function (country) {
       describe(year + ':' + country, function () {

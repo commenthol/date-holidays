@@ -1,6 +1,7 @@
 # Changelog
 
 v0.1.3 ()
+* Guatemala: Día de las Fuerzas Armadas added
 * Country Belize added
 * Country Guatemala added
 * Country El Salvador added
