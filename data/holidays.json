@@ -5539,6 +5539,212 @@
         }
       }
     },
+    "NZ": {
+      "name": "New Zealand",
+      "dayoff": "sunday",
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "Pacific/Auckland",
+        "Pacific/Chatham"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if saturday then next monday if sunday then next tuesday": {
+          "_name": "01-01",
+          "substitute": true
+        },
+        "01-02": {
+          "name": {
+            "en": "Day after New Year's Day"
+          }
+        },
+        "substitutes 01-02 if saturday,sunday then next monday": {
+          "name": {
+            "en": "Day after New Year's Day"
+          },
+          "substitute": true
+        },
+        "02-06 if saturday,sunday then next monday": {
+          "name": {
+            "en": "Waitangi Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "04-25 if saturday,sunday then next monday": {
+          "name": {
+            "en": "ANZAC Day"
+          }
+        },
+        "1st monday after 06-01": {
+          "name": {
+            "en": "Queen's Birthday"
+          }
+        },
+        "4th monday after 10-01": {
+          "_name": "05-01"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if saturday then next monday if sunday then next tuesday": {
+          "_name": "12-25",
+          "substitute": true
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if saturday,sunday then next monday": {
+          "_name": "12-26",
+          "substitute": true
+        }
+      },
+      "states": {
+        "au": {
+          "name": "Auckland Province",
+          "days": {
+            "01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "ca": {
+          "name": "Canterbury",
+          "days": {
+            "12-16": {
+              "name": {
+                "en": "Christchurch Show Day"
+              }
+            }
+          }
+        },
+        "ch": {
+          "name": "Chatham Islands",
+          "days": {
+            "11-30 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "ha": {
+          "name": "Hawke's Bay",
+          "days": {
+            "friday before 4th monday after 10-01": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "ma": {
+          "name": "Marlborough",
+          "days": {
+            "5th monday after 10-01": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "ne": {
+          "name": "Nelson",
+          "days": {
+            "02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "no": {
+          "name": "Northland",
+          "days": {
+            "01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "ot": {
+          "name": "Otago Province",
+          "days": {
+            "03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              },
+              "note": "varies if coincides with easter monday"
+            }
+          }
+        },
+        "sc": {
+          "name": "South Canterbury",
+          "days": {
+            "4th monday after 09-01": {
+              "name": {
+                "en": "Dominion Day"
+              }
+            }
+          }
+        },
+        "so": {
+          "name": "Southland",
+          "days": {
+            "easter 2": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "ta": {
+          "name": "Taranaki",
+          "days": {
+            "2nd monday after 03-01": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "we": {
+          "name": "Wellington Province",
+          "days": {
+            "01-22 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        },
+        "wd": {
+          "name": "Westland",
+          "days": {
+            "12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday": {
+              "name": {
+                "en": "Provincial anniversary day"
+              }
+            }
+          }
+        }
+      }
+    },
     "PA": {
       "name": "Panamá",
       "dayoff": "sunday",
@@ -7908,6 +8114,7 @@
     },
     "12-06": {
       "name": {
+        "en": "Saint Nicholas",
         "de": "Sankt Nikolaus",
         "fr": "Saint-Nicolas",
         "nl": "Sinterklaas"
@@ -8071,6 +8278,7 @@
         "fr": "Jeudi saint",
         "it": "Giovedì santo",
         "is": "Skírdagur",
+        "nl": "Witte donderdag",
         "no": "Skjærtorsdag"
       }
     },
@@ -8237,14 +8445,16 @@
       "name": {
         "en": "Eid al-Fitr, Bayram",
         "bs": "Ramazanski bajram",
+        "nl": "Suikerfeest (Eid al-Fitr)",
         "sq": "Fitër bajrami",
         "tr": "Bayramı"
       }
     },
     "10 Dhu al-Hijjah": {
       "name": {
-        "en": "Eid al-Adha, Sacrifice Feast",
+        "en": "Feast of Sacrifice (Eid al-Adha)",
         "bs": "Kurbanski bajram",
+        "nl": "Offerfeest (Eid Al-Adha)",
         "sq": "Kurban bajrami",
         "tr": "Kurban Bayramı"
       }
@@ -8317,7 +8527,8 @@
     "Abolition of Slavery": {
       "name": {
         "en": "Abolition of Slavery",
-        "fr": "Abolition de l’esclavage"
+        "fr": "Abolition de l’esclavage",
+        "nl": "Afschaffing van de slavernij"
       }
     },
     "Buß- und Bettag": {
@@ -8357,6 +8568,7 @@
         "hr": "Dan neovisnosti",
         "hy": "Անկախության օր",
         "mt": "Jum l-Indipendenza",
+        "nl": "Onafhankelijkheidsdag",
         "pl": "Narodowe Święto Niepodległości",
         "pt": "Dia da Independência",
         "sr": "Дан независности"
@@ -8408,7 +8620,8 @@
     "Revolution Day": {
       "name": {
         "en": "Revolution Day",
-        "es": "Día de la Revolución"
+        "es": "Día de la Revolución",
+        "nl": "Dag van de revolutie"
       }
     },
     "substitutes": {

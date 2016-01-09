@@ -1,4 +1,4 @@
-all: yaml writetests docs
+all: lint yaml writetests docs
 
 yaml: data/holidays.json
 
@@ -15,10 +15,13 @@ docs: tree README.md
 	markedpp --githubid -i README.md -o README.md
 	jsdox -o docs lib/Holidays.js
 
+lint:
+	npm run lint
+
 tree: yaml
 	node make/addtree.js
 
 writetests: yaml
 	mocha test/all.mocha.js --writetests
 
-.PHONY: all test doc tree writetests yaml
+.PHONY: all doc lint test tree writetests yaml

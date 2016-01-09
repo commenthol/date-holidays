@@ -45,7 +45,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 61
+Countries: 62
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -186,6 +186,20 @@ Countries: 61
 ├── NI: Nicaragua
 ├── NL: Nederland
 ├── NO: Norge
+├── NZ: New Zealand
+│   ├── au: Auckland Province
+│   ├── ca: Canterbury
+│   ├── ch: Chatham Islands
+│   ├── ha: Hawke's Bay
+│   ├── ma: Marlborough
+│   ├── ne: Nelson
+│   ├── no: Northland
+│   ├── ot: Otago Province
+│   ├── sc: South Canterbury
+│   ├── so: Southland
+│   ├── ta: Taranaki
+│   ├── we: Wellington Province
+│   └── wd: Westland
 ├── PA: Panamá
 ├── PE: Perú
 │   └── cu: Cuzco

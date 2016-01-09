@@ -1,5 +1,5 @@
 ##
-# @copyright (c) 2015 commenthol
+# @copyright (c) 2016 commenthol
 # @license CC0-1.0
 #
 # for language codes:
@@ -159,6 +159,7 @@ names:
       de: Sankt Martin (Faschingsbeginn)
   12-06:
     name:
+      en: Saint Nicholas
       de: Sankt Nikolaus
       fr: Saint-Nicolas
       nl: Sinterklaas
@@ -308,6 +309,7 @@ names:
       fr: Jeudi saint
       it: Giovedì santo
       is: Skírdagur
+      nl: Witte donderdag
       no: Skjærtorsdag
   easter -2: # Good Friday
     name:
@@ -456,12 +458,14 @@ names:
     name:
       en: Eid al-Fitr, Bayram
       bs: Ramazanski bajram
+      nl: Suikerfeest (Eid al-Fitr)
       sq: Fitër bajrami
       tr: Bayramı
   10 Dhu al-Hijjah:
     name:
-      en: Eid al-Adha, Sacrifice Feast
+      en: Feast of Sacrifice (Eid al-Adha)
       bs: Kurbanski bajram
+      nl: Offerfeest (Eid Al-Adha)
       sq: Kurban bajrami
       tr: Kurban Bayramı
   12 Rabi al-awwal:
@@ -520,6 +524,7 @@ names:
     name:
       en: Abolition of Slavery
       fr: Abolition de l’esclavage
+      nl: Afschaffing van de slavernij
   Buß- und Bettag:
     name:
       de: Buß- und Bettag
@@ -551,6 +556,7 @@ names:
       hr: Dan neovisnosti
       hy: Անկախության օր
       mt: Jum l-Indipendenza
+      nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
       pt: Dia da Independência
       sr: Дан независности
@@ -595,6 +601,7 @@ names:
     name:
       en: Revolution Day
       es: Día de la Revolución
+      nl: Dag van de revolutie
 
   # internal use
   substitutes:

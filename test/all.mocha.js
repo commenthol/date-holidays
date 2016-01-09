@@ -13,7 +13,7 @@ for (var i = 2; i < process.argv.length; i++) {
   // regenerate tests with `mocha test/all.mocha.js --writetests`
   if (process.argv[i] === '--countries') {
     var c = process.argv[++i].split(',')
-    var _countries = {}
+    _countries = {}
     for (var j in c) {
       _countries[c[j]] = c[j]
     }

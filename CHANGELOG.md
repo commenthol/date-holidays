@@ -1,6 +1,7 @@
 # Changelog
 
-v0.1.3 ()
+v0.1.3 (2016-01-09)
+* Country New Zealand added
 * Country Cuba added
 * Guatemala: Día de las Fuerzas Armadas added
 * Country Belize added
