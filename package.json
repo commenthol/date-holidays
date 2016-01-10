@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "0.1.3",
+  "version": "0.1.4-0",
   "description": "worldwide holidays",
   "main": "lib/Holidays.js",
   "directories": {
@@ -24,7 +24,7 @@
   "scripts": {
     "test": "mocha test/*.mocha.js",
     "prepublish": "npm run yaml && npm run lint && npm test",
-    "yaml": "node make/yaml2json.js",
+    "yaml": "node build/yaml2json.js",
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
     "lint": "eslint --ignore-path .gitignore */*.js **/*.js",
     "watch": "watch-run -p data/*.yaml npm run yaml"

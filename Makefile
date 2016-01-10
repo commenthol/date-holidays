@@ -19,7 +19,7 @@ lint:
 	npm run lint
 
 tree: yaml
-	node make/addtree.js
+	node build/addtree.js
 
 writetests: yaml
 	mocha test/all.mocha.js --writetests
