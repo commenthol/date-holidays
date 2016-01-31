@@ -17,6 +17,7 @@ The features are:
 - uses own grammar for calculation of days
 - support for islamic calendar from 1970 to 2080
 - support for hebrew calendar from 1970 to 2100
+- for generation of iCal calendar check out [date-holidays-ical][]
 
 Happy holidays!
 
@@ -421,6 +422,7 @@ See [LICENSE][] for more information.
 <!-- !ref -->
 
 * [CONTRIBUTING.md][CONTRIBUTING.md]
+* [date-holidays-ical][date-holidays-ical]
 * [Holidays API][Holidays API]
 * [holidays.yaml specification][holidays.yaml specification]
 * [LICENSE][LICENSE]
@@ -431,5 +433,5 @@ See [LICENSE][] for more information.
 [CONTRIBUTING.md]: ./CONTRIBUTING.md
 [holidays.yaml specification]: ./docs/specification.md
 [Holidays API]: ./docs/Holidays.md
-
+[date-holidays-ical]: https://github.com/commenthol/date-holidays-ical
 

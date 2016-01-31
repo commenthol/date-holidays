@@ -118,6 +118,35 @@ describe('#Holidays', function () {
       var exp
       assert.equal(res, exp)
     })
+
+    it('for all countries', function () {
+      var hd = new Holidays()
+      var res = hd.query()
+      assert.ok(typeof res === 'object')
+      assert.equal(res.AT, 'Österreich')
+    })
+
+    it('for all states of AT', function () {
+      var hd = new Holidays()
+      var res = hd.query('AT')
+      assert.ok(typeof res === 'object')
+      assert.equal(res.b, 'Burgenland')
+    })
+
+    it('for all regions of DE by', function () {
+      var hd = new Holidays()
+      var res = hd.query('DE', 'by')
+      assert.ok(typeof res === 'object')
+      assert.equal(res.a, 'Stadt Augsburg')
+    })
+
+    it('for all regions of DE.by', function () {
+      var hd = new Holidays()
+      var res = hd.query('DE.by')
+      assert.ok(typeof res === 'object')
+      console.log(res)
+      assert.equal(res.a, 'Stadt Augsburg')
+    })
   })
 
   describe('can set', function () {

@@ -1,5 +1,8 @@
 # Changelog
 
+v0.1.4 (2016-01-31)
+* New general query function used in `date-holidays-ical`
+
 v0.1.3 (2016-01-09)
 * Country New Zealand added
 * Country Cuba added

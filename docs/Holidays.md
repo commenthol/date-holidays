@@ -94,6 +94,18 @@ move `date` into a different `timezone`
 
 **Returns**: `Date`, moved date
 
+### Holidays.query(country, state) 
+
+Query for available Countries, States, Regions
+
+**Parameters**
+
+**country**: `String`, Query for available Countries, States, Regions
+
+**state**: `String`, Query for available Countries, States, Regions
+
+**Returns**: `Object`, shortcode, name pairs of supported countries, states, regions
+
 ### Holidays.getCountries() 
 
 get supported countries
