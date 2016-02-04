@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 63
+Countries: 64
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -170,6 +170,7 @@ Countries: 63
 ├── HR: Hrvatska
 │   ├── split: Split
 │   └── dubrovnik: Dubrovnik
+├── HT: Haiti
 ├── HU: Magyarország
 ├── IE: Ireland
 ├── IT: Italia
