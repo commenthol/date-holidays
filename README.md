@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 64
+Countries: 65
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -138,6 +138,7 @@ Countries: 64
 │   ├── sn: Sachsen
 │   ├── st: Sachsen-Anhalt
 │   └── th: Thüringen
+├── DO: República Dominicana
 ├── EC: Ecuador
 │   └── qu: Quito
 ├── EE: Eesti

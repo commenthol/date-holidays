@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T04:00:00.000Z",
+    "end": "2018-01-02T04:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-06 00:00:00",
+    "start": "2018-01-06T04:00:00.000Z",
+    "end": "2018-01-07T04:00:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-21 00:00:00",
+    "start": "2018-01-21T04:00:00.000Z",
+    "end": "2018-01-22T04:00:00.000Z",
+    "name": "Nuestra Señora de la Altagracia",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-29 00:00:00",
+    "start": "2018-01-29T04:00:00.000Z",
+    "end": "2018-01-30T04:00:00.000Z",
+    "name": "Día de Duarte",
+    "type": "public"
+  },
+  {
+    "date": "2018-02-27 00:00:00",
+    "start": "2018-02-27T04:00:00.000Z",
+    "end": "2018-02-28T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T04:00:00.000Z",
+    "end": "2018-03-31T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-30 00:00:00",
+    "start": "2018-04-30T04:00:00.000Z",
+    "end": "2018-05-01T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2018-05-31 00:00:00",
+    "start": "2018-05-31T04:00:00.000Z",
+    "end": "2018-06-01T04:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public"
+  },
+  {
+    "date": "2018-08-16 00:00:00",
+    "start": "2018-08-16T04:00:00.000Z",
+    "end": "2018-08-17T04:00:00.000Z",
+    "name": "Día de la Restauración",
+    "type": "public"
+  },
+  {
+    "date": "2018-09-24 00:00:00",
+    "start": "2018-09-24T04:00:00.000Z",
+    "end": "2018-09-25T04:00:00.000Z",
+    "name": "Nuestra Señora de las Mercedes",
+    "type": "public"
+  },
+  {
+    "date": "2018-11-12 00:00:00",
+    "start": "2018-11-12T04:00:00.000Z",
+    "end": "2018-11-13T04:00:00.000Z",
+    "name": "Día de la Constitución",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T04:00:00.000Z",
+    "end": "2018-12-26T04:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]
