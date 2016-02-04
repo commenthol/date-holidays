@@ -26,7 +26,7 @@
     "pack": "npm run yaml && npm run lint && npm test && npm pack",
     "yaml": "node build/yaml2json.js",
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
-    "lint": "eslint --quiet --ignore-path .gitignore *.js **/*.js",
+    "lint": "eslint --quiet --ignore-path .gitignore '*.js' '*/*.js' '*/*/*.js'",
     "watch": "watch-run -p data/*.yaml npm run yaml"
   },
   "repository": {

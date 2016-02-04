@@ -14,15 +14,14 @@
  * > 1936 and 2080 which should be sufficient for our needs
  */
 
-var moment = require('moment-hijri');
-var _ = require('mergee')
+var moment = require('moment-hijri')
 
 var out = {}
 
 // only years 1936 ... 2080 are supported by moment-hijri
 for (let y = 1969; y <= 2080; y++) {
   var iy = y - 580
-  for (let im = 1; im<=12; im++) {
+  for (let im = 1; im <= 12; im++) {
     var m = moment(iy + '/' + im + '/1', 'iYYYY/iM/iD')
 
     var my = m.year()
@@ -39,4 +38,4 @@ for (let y = 1969; y <= 2080; y++) {
     }
   }
 }
-console.log('/*eslint-disable*/\nmodule.exports=' + JSON.stringify(out).replace(/"/g,''))
+console.log('/*eslint-disable*/\nmodule.exports=' + JSON.stringify(out).replace(/"/g, ''))

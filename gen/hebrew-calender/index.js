@@ -11,7 +11,6 @@
  */
 
 var Hebcal = require('hebcal')
-var _ = require('mergee')
 
 var out = {}
 
@@ -20,7 +19,7 @@ for (let y = 1969; y <= 2100; y++) {
   var iy = yd + y
 
   for (let im = 1; im <= 12; im++) {
-    var m = new Hebcal.HDate(1, im, iy).greg();
+    var m = new Hebcal.HDate(1, im, iy).greg()
 
     var my = m.getFullYear()
     var mm = im - 1
@@ -37,7 +36,7 @@ for (let y = 1969; y <= 2100; y++) {
     }
   }
 }
-console.log('/*eslint-disable*/\nmodule.exports=' + JSON.stringify(out).replace(/"/g,''))
+console.log('/*eslint-disable*/\nmodule.exports=' + JSON.stringify(out).replace(/"/g, ''))
 // ~ console.log(out)
 
 process.exit()
