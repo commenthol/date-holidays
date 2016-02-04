@@ -1,0 +1,87 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T05:00:00.000Z",
+    "end": "2016-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-02-10 00:00:00",
+    "start": "2016-02-10T05:00:00.000Z",
+    "end": "2016-02-11T05:00:00.000Z",
+    "name": "Ash Wednesday",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T05:00:00.000Z",
+    "end": "2016-03-26T05:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T05:00:00.000Z",
+    "end": "2016-03-28T05:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-28T05:00:00.000Z",
+    "end": "2016-03-29T05:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-23 00:00:00",
+    "start": "2016-05-23T05:00:00.000Z",
+    "end": "2016-05-24T05:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-08-01 00:00:00",
+    "start": "2016-08-01T05:00:00.000Z",
+    "end": "2016-08-02T05:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-08-06 00:00:00",
+    "start": "2016-08-06T05:00:00.000Z",
+    "end": "2016-08-07T05:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-17 00:00:00",
+    "start": "2016-10-17T05:00:00.000Z",
+    "end": "2016-10-18T05:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T05:00:00.000Z",
+    "end": "2016-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-26T05:00:00.000Z",
+    "end": "2016-12-27T05:00:00.000Z",
+    "name": "Boxingday",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-27 00:00:00",
+    "start": "2016-12-27T05:00:00.000Z",
+    "end": "2016-12-28T05:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "substitute": true,
+    "type": "public"
+  }
+]

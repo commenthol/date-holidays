@@ -291,7 +291,7 @@ names:
       fr: Mercredi des Cendres
       it: Ceneri
       is: Öskudagur
-  easter -7:
+  easter -7:  # Palm Sunday
     name:
       en: Palm Sunday
       de: Palmsonntag
@@ -299,7 +299,7 @@ names:
       it: Domenica delle Palme
       is: Pálmasunnudagur
       no: Palmesøndag
-  easter -3: # Maundy Thursday
+  easter -3:  # Maundy Thursday
     name:
       en: Maundy Thursday
       cz: Zelený čtvrtek
@@ -311,7 +311,7 @@ names:
       is: Skírdagur
       nl: Witte donderdag
       no: Skjærtorsdag
-  easter -2: # Good Friday
+  easter -2:  # Good Friday
     name:
       en: Good Friday
       bg: Разпети петък
@@ -335,7 +335,7 @@ names:
       sq: E Premtja e Madhe
       sr: Велики петак
       sv: Långfredagen
-  easter -1: # Holy Saturday
+  easter -1:  # Holy Saturday
     name:
       en: Easter Saturday
       cz: Bílá sobota
@@ -343,7 +343,7 @@ names:
       es: Sabado Santo
       fr: Samedi saint
       it: Sabado santo
-  easter: # Easter
+  easter:     # Easter
     name:
       en: Easter Sunday
       bg: Великден
@@ -370,7 +370,7 @@ names:
       sq: Pashkët
       sr: Васкрс
       sv: Påsk
-  easter 1: # Easter Monday
+  easter 1:   # Easter Monday
     name:
       en: Easter Monday
       bg: Велики понеделник
@@ -391,7 +391,7 @@ names:
       pl: Drugi dzień Wielkanocy
       ro: Două zi de Pasti
       sv: Annandag påsk
-  easter 39: # Ascension Day
+  easter 39:  # Ascension Day
     name:
       en: Ascension Day
       de: Christi Himmelfahrt
@@ -405,7 +405,7 @@ names:
       no: Kristi himmelfartsdag
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
-  easter 49: # Pentecost
+  easter 49:  # Pentecost
     name:
       en: Pentecost
       de: Pfingstsonntag
@@ -423,7 +423,7 @@ names:
       pl: Zielone Świątki
       ro: Rusaliile
       sv: Pingst
-  easter 50: # Whit Monday
+  easter 50:  # Whit Monday
     name:
       en: Whit Monday
       de: Pfingstmontag
@@ -436,7 +436,7 @@ names:
       nl: Pinkstermaandag
       no: Andre pinsedag
       ro: Două zi de Rusalii
-  easter 60: # Corpus Christi
+  easter 60:  # Corpus Christi
     name:
       en: Corpus Christi
       de: Fronleichnam

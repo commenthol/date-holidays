@@ -4329,6 +4329,72 @@
         }
       }
     },
+    "JM": {
+      "name": "Jamaica",
+      "dayoff": "sunday",
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "America/Jamaica"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "_name": "01-01",
+          "substitute": true
+        },
+        "easter -46": {
+          "_name": "easter -46"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-23 if saturday,sunday then next monday": {
+          "_name": "05-01"
+        },
+        "08-01 if sunday then next monday": {
+          "name": {
+            "en": "Emancipation Day"
+          }
+        },
+        "08-06": {
+          "_name": "Independence Day"
+        },
+        "substitutes 08-06 if sunday then next monday": {
+          "_name": "Independence Day",
+          "substitute": true
+        },
+        "3rd monday after 10-01": {
+          "name": {
+            "en": "National Heroes Day"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next tuesday": {
+          "_name": "12-25",
+          "substitute": true
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if sunday then next monday": {
+          "_name": "12-26",
+          "substitute": true
+        }
+      }
+    },
     "JP": {
       "name": "日本",
       "dayoff": "sunday",

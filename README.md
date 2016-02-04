@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 62
+Countries: 63
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -175,6 +175,7 @@ Countries: 62
 ├── IT: Italia
 │   └── suedtirol: Südtirol, Alto Adige
 ├── IS: Iceland
+├── JM: Jamaica
 ├── JP: 日本
 ├── LI: Lichtenstein
 ├── LT: Lietuva

@@ -1,5 +1,8 @@
 # Changelog
 
+v0.1.5
+* Country Jamaica added
+
 v0.1.4 (2016-01-31)
 * New general query function used in `date-holidays-ical`
 
