@@ -1,11 +1,11 @@
-all: lint yaml writetests docs
+all: lint yaml attributions writetests docs
 
 yaml: data/holidays.json
 
 data/holidays.json: data/holidays.yaml data/names.yaml
 	npm run yaml
 
-test: v0.12 v4.2 v5.2
+test: v0.12 v4.2 v5.5
 
 v%:
 	n $@ && mocha test/*.mocha.js
@@ -23,5 +23,10 @@ tree: yaml
 
 writetests: yaml
 	mocha test/all.mocha.js --writetests
+
+attributions: LICENSE
+
+LICENSE: data/holidays.yaml
+	node build/attributions.js $< $@
 
 .PHONY: all doc lint test tree writetests yaml
