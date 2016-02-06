@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 65
+Countries: 66
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -81,6 +81,7 @@ Countries: 65
 ├── BG: България
 ├── BO: Bolivia
 ├── BR: Brazil
+├── BS: Bahamas
 ├── BZ: Belize
 ├── CA: Canada
 ├── CH: Schweiz

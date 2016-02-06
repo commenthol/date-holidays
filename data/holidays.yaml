@@ -924,6 +924,63 @@ holidays:
       '12-31 14:00':
         _name: 12-31
         type: optional
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Bahamas
+  # @source http://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/1938/1938-0015/PublicHolidaysAct_1.pdf
+  BS:
+    name: Bahamas
+    dayoff: sunday
+    langs: 
+      - en
+    zones:
+      - America/Nassau
+    days:
+      01-01:
+        _name: 01-01
+      01-10:
+        name:
+          en: Majority Rule Day
+      substitutes 01-10 if saturday,sunday then next monday:
+        substitute: true
+        name:
+          en: Majority Rule Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      easter 49:
+        _name: easter 49
+        type: observance
+      easter 50:
+        _name: easter 50
+      1st friday after 06-01:
+        _name: 05-01
+        name:
+          en: Randol Fawkes Labour Day
+      07-10:
+        _name: Independence Day
+      substitutes 07-10 if saturday,sunday then next monday:
+        substitute: true
+        _name: Independence Day
+      1st monday after 08-01:
+        name:
+          en: Emancipation Day
+      10-12:
+        name:
+          en: National Heroes' Day
+      substitutes 10-12 if saturday,sunday then next monday:
+        substitute: true
+        name:
+          en: National Heroes' Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26      
 
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Belize
   BZ:
