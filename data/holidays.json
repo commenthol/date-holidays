@@ -6423,7 +6423,7 @@
         },
         "12-01": {
           "name": {
-            "ro": "Ziua Marii Uniri"
+            "ro": "Ziua națională, Ziua Marii Uniri"
           }
         },
         "12-25": {
@@ -8785,6 +8785,7 @@
         "en": "Independence Day",
         "bg": "Ден на независимостта",
         "bs": "Dan nezavisnosti",
+        "de": "Unabhängigkeitstag",
         "es": "Día de la Independencia",
         "et": "iseseisvuspäev",
         "fi": "Itsenäisyyspäivä",
@@ -8852,9 +8853,11 @@
       "name": {
         "en": "substitute day",
         "bs": "zamjena dan",
+        "de": "Ersatztag",
         "es": "día sustituto",
         "fr": "jour substitut",
         "hr": "zamjena dan",
+        "jp": "代替日",
         "lv": "aizstājējs diena",
         "sr": "замена дан"
       }

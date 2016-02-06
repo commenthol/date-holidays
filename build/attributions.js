@@ -42,7 +42,7 @@ function extract (data) {
 function insert (filename, data) {
   var license = load(filename).join('\n')
   data = data.join('\n')
-  license = license.replace(/<(attribution)>[^.]*<\/\1>/m, '<attribution>\n\n' + data + '\n\n<\/attribution>')
+  license = license.replace(/<(attribution)>[^]*<\/\1>/m, '<attribution>\n\n' + data + '\n\n</attribution>')
   return license
 }
 

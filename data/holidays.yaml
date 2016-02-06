@@ -924,6 +924,7 @@ holidays:
       '12-31 14:00':
         _name: 12-31
         type: optional
+
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Belize
   BZ:
     name: Belize
@@ -4500,10 +4501,7 @@ holidays:
           ro: Sfântul Andrei
       12-01:
         name:
-          ro: Ziua națională
-      12-01:
-        name:
-          ro: Ziua Marii Uniri
+          ro: Ziua națională, Ziua Marii Uniri
       12-25:
         _name: 12-25
       12-26:
