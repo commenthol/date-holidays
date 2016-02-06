@@ -5,23 +5,39 @@
  * e.g.
  * sample.js at.b 2015 1
  */
-if (module === require.main) {
-  var args = process.argv.slice(2)
-  var o
+var Holidays = require('..')
 
-  if (args[2]) {
-    if (/^{/.test(args[2])) {
-      o = JSON.parse(args[2])
-    } else {
-      o = { languages: args[2] }
+if (module === require.main) {
+  var cmd = {}
+  var opts = {}
+  var days = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
+  var args = process.argv.slice(2)
+  var arg
+
+  while ((arg = args.shift())) {
+    if (arg === '--short') {
+      cmd.short = true
+    } else if (arg === '--lang') {
+      opts.languages = args.shift()
+    } else if (/^\d{4}$/.test(arg)) {
+      cmd.year = arg
+    } else if (/^[a-zA-Z]{2}/.test(arg)) {
+      cmd.country = arg
     }
   }
 
-  var Holidays = require('..')
-  var country = args[0] || 'us.Hawaii'
+  cmd.year = cmd.year || (new Date()).getFullYear()
 
-  var hd = new Holidays(country, o)
-  var res = hd.getHolidays(args[1] || (new Date()).getFullYear())
+  var hd = new Holidays(cmd.country, opts)
+  var res = hd.getHolidays(cmd.year)
+
+  if (cmd.short) {
+    res = res.map((i) => {
+      var day = days[i.start.getDay()]
+      i.type += Array(11).join(' ')
+      return [day, i.date, i.type.substr(0, 10), i.name].join('   ')
+    })
+  }
 
   console.log(res)
 }
