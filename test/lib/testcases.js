@@ -298,11 +298,13 @@ var testcases = {
     month: 1,
     day: 1,
     hour: 14,
-    if: [
-      'sunday'
-    ],
-    direction: 'next',
-    then: 'monday',
+    rules: [{
+      if: [
+        'sunday'
+      ],
+      direction: 'next',
+      then: 'monday'
+    }],
     minute: 10,
     ifTime: 'sunday',
     thenHour: 1,
@@ -417,11 +419,13 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
-    if: [
-      'monday'
-    ],
-    direction: 'next',
-    then: 'monday'
+    rules: [{
+      if: [
+        'monday'
+      ],
+      direction: 'next',
+      then: 'monday'
+    }]
   },
   '01-01 if sunday then previous monday': {
     fn: 'dateIfThen',
@@ -429,11 +433,13 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
-    if: [
-      'sunday'
-    ],
-    direction: 'previous',
-    then: 'monday'
+    rules: [{
+      if: [
+        'sunday'
+      ],
+      direction: 'previous',
+      then: 'monday'
+    }]
   },
   '01-01 if sunday then next sunday': {
     fn: 'dateIfThen',
@@ -441,11 +447,13 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
-    if: [
-      'sunday'
-    ],
-    direction: 'next',
-    then: 'sunday'
+    rules: [{
+      if: [
+        'sunday'
+      ],
+      direction: 'next',
+      then: 'sunday'
+    }]
   },
   '01-01 if sunday then previous sunday': {
     fn: 'dateIfThen',
@@ -453,11 +461,13 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
-    if: [
-      'sunday'
-    ],
-    direction: 'previous',
-    then: 'sunday'
+    rules: [{
+      if: [
+        'sunday'
+      ],
+      direction: 'previous',
+      then: 'sunday'
+    }]
   },
   'substitutes 01-01 if sunday then next tuesday': {
     fn: 'dateIfThen',
@@ -465,11 +475,13 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
-    if: [
-      'sunday'
-    ],
-    direction: 'next',
-    then: 'tuesday'
+    rules: [{
+      if: [
+        'sunday'
+      ],
+      direction: 'next',
+      then: 'tuesday'
+    }]
   },
   '10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday': {
     fn: 'dateIfThen',
@@ -477,25 +489,55 @@ var testcases = {
     month: 10,
     day: 12,
     hour: undefined,
-    if: [
-      'tuesday',
-      'wednesday'
-    ],
-    direction: 'previous',
-    then: 'monday',
-    if2: {
-      month: 10,
-      day: 12,
-      hour: undefined,
-      if: [
-        'thursday',
-        'friday',
-        'saturday',
-        'sunday'
-      ],
-      direction: 'next',
-      then: 'monday'
-    }
+    rules: [
+      {
+        if: [
+          'tuesday',
+          'wednesday'
+        ],
+        direction: 'previous',
+        then: 'monday'
+      }, {
+        if: [
+          'thursday',
+          'friday',
+          'saturday',
+          'sunday'
+        ],
+        direction: 'next',
+        then: 'monday'
+      }
+    ]
+  },
+  '01-10 if saturday,sunday then next monday if tuesday then previous monday if wednesday,thursday then next friday': {
+    fn: 'dateIfThen',
+    substitute: false,
+    day: 10,
+    month: 1,
+    hour: undefined,
+    rules: [
+      {
+        if: [
+          'saturday',
+          'sunday'
+        ],
+        direction: 'next',
+        then: 'monday'
+      }, {
+        if: [
+          'tuesday'
+        ],
+        direction: 'previous',
+        then: 'monday'
+      }, {
+        if: [
+          'wednesday',
+          'thursday'
+        ],
+        direction: 'next',
+        then: 'friday'
+      }
+    ]
   },
   '11-01 in even years': {
     year: undefined,
