@@ -594,6 +594,10 @@ names:
       fr: Fête nationale
       el: εθνική επέτειος
       nl: Nationale feestdag
+  Public Holiday:
+    name:
+      en: Public Holiday
+      pt: Feriado Obrigatório
   Reformation Day:
     name:
       en: Reformation Day

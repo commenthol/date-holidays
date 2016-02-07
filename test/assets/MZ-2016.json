@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T22:00:00.000Z",
+    "end": "2016-01-01T22:00:00.000Z",
+    "name": "Dia da Fraternidade universal",
+    "type": "public"
+  },
+  {
+    "date": "2016-02-03 00:00:00",
+    "start": "2016-02-02T22:00:00.000Z",
+    "end": "2016-02-03T22:00:00.000Z",
+    "name": "Dia dos heróis moçambicanos",
+    "type": "public"
+  },
+  {
+    "date": "2016-04-07 00:00:00",
+    "start": "2016-04-06T22:00:00.000Z",
+    "end": "2016-04-07T22:00:00.000Z",
+    "name": "Dia da Mulher Moçambicana",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T22:00:00.000Z",
+    "end": "2016-05-01T22:00:00.000Z",
+    "name": "Dia Internacional dos Trabalhadores",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T22:00:00.000Z",
+    "end": "2016-05-01T22:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-01T22:00:00.000Z",
+    "end": "2016-05-02T22:00:00.000Z",
+    "name": "Feriado Obrigatório",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-25 00:00:00",
+    "start": "2016-06-24T22:00:00.000Z",
+    "end": "2016-06-25T22:00:00.000Z",
+    "name": "Dia da Independência Nacional",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-07 00:00:00",
+    "start": "2016-09-06T22:00:00.000Z",
+    "end": "2016-09-07T22:00:00.000Z",
+    "name": "Dia da Vitória",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-25 00:00:00",
+    "start": "2016-09-24T22:00:00.000Z",
+    "end": "2016-09-25T22:00:00.000Z",
+    "name": "Dia das Forças Armadas de Libertação Nacional",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-26 00:00:00",
+    "start": "2016-09-25T22:00:00.000Z",
+    "end": "2016-09-26T22:00:00.000Z",
+    "name": "Feriado Obrigatório",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-04 00:00:00",
+    "start": "2016-10-03T22:00:00.000Z",
+    "end": "2016-10-04T22:00:00.000Z",
+    "name": "Dia da Paz e Reconciliação",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T22:00:00.000Z",
+    "end": "2016-12-25T22:00:00.000Z",
+    "name": "Dia da Família",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T22:00:00.000Z",
+    "end": "2016-12-26T22:00:00.000Z",
+    "name": "Feriado Obrigatório",
+    "type": "public"
+  }
+]
