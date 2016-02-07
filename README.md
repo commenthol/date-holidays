@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 66
+Countries: 67
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AM: Armenia
@@ -279,7 +279,8 @@ Countries: 66
 │   ├── wv: West Virginia
 │   ├── wi: Wisconsin
 │   └── wy: Wyoming
-└── UY: Uruguay
+├── UY: Uruguay
+└── ZA: South Africa
 ```
 <!-- tree! -->
 
