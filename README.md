@@ -46,9 +46,10 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 70
+Countries: 71
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
+├── AO: Angola
 ├── AM: Հայաստան
 ├── AR: Argentina
 ├── AT: Österreich

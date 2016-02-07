@@ -1,6 +1,14 @@
-# Changelog
+# CHANGELOG
 
 v0.1.5
+* Country Angola added
+* Country Mozambique added
+* Country Botswana added
+* Country Namibia added
+* Country South Africa added
+* Country Bahamas added
+* Country Dominican Republic added
+* Country Haiti added
 * Country Jamaica added
 
 v0.1.4 (2016-01-31)
