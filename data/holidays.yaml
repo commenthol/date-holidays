@@ -982,6 +982,83 @@ holidays:
       12-26:
         _name: 12-26
 
+  # @source http://www.ilo.org/dyn/travail/docs/1766/Public%20Holidays%20Act.pdf
+  BW:
+    name: Botswana
+    dayoff: sunday
+    langs:
+      - en
+    zones:
+      - Africa/Maputo
+    days:
+      01-01:
+        _name: 01-01
+        note: except mining industy
+      01-02:
+        name:
+          en: New Year's Holiday
+        note: except mining industy
+      substitutes 01-02 if monday then next tuesday:
+        name:
+          en: Public Holiday
+        note: except mining industy
+      easter -2:
+        _name: easter -2
+      easter -1:
+        _name: easter -1
+        note: except mining industy
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+        note: except mining industy
+      easter 39:
+        _name: easter 39
+        note: except mining industy
+      05-01:
+        _name: 05-01
+        note: except mining industy
+      substitutes 05-01 if sunday then next monday:
+        name:
+          en: Public Holiday
+        note: except mining industy
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      07-01:
+        name:
+          en: Sir Seretse Khama Day
+        note: except mining industy
+      substitutes 07-01 if sunday then next monday:
+        name:
+          en: Public Holiday
+        note: except mining industy
+      3rd monday after 07-01:
+        name:
+          en: President’s Day
+        note: except mining industy
+      tuesday after 3rd monday after 07-01:
+        name:
+          en: President’s Day Holiday
+        note: except mining industy
+      09-30:
+        name:
+          en: Botswana Day
+      substitutes 09-30 if saturday,sunday then next monday:
+        name:
+          en: Public Holiday
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+        name:
+          en: Family Day
+        note: except mining industy
+      substitutes 12-26 if monday then next tuesday:
+        name:
+          en: Public Holiday
+
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Belize
   BZ:
     name: Belize
