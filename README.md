@@ -49,7 +49,7 @@ If you are missing holidays from your country, state, region please consider [co
 Countries: 70
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
-├── AM: Armenia
+├── AM: Հայաստան
 ├── AR: Argentina
 ├── AT: Österreich
 │   ├── b: Burgenland
@@ -80,7 +80,7 @@ Countries: 70
 │   └── vl: Vlaamse Gemeenschap
 ├── BG: България
 ├── BO: Bolivia
-├── BR: Brazil
+├── BR: Brasil
 ├── BS: Bahamas
 ├── BW: Botswana
 ├── BZ: Belize
@@ -120,7 +120,7 @@ Countries: 70
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba
-├── CY: Cyprus
+├── CY: Κύπρος
 ├── CZ: Česká republika
 ├── DK: Danmark
 ├── DE: Deutschland
@@ -173,12 +173,12 @@ Countries: 70
 ├── HR: Hrvatska
 │   ├── split: Split
 │   └── dubrovnik: Dubrovnik
-├── HT: Haiti
+├── HT: Haïti
 ├── HU: Magyarország
 ├── IE: Ireland
 ├── IT: Italia
 │   └── suedtirol: Südtirol, Alto Adige
-├── IS: Iceland
+├── IS: Ísland
 ├── JM: Jamaica
 ├── JP: 日本
 ├── LI: Lichtenstein
@@ -229,7 +229,7 @@ Countries: 70
 │   ├── mo: Monagas
 │   ├── ta: Táchira
 │   └── zu: Zulia
-├── US: United States
+├── US: United States of America
 │   ├── al: Alabama
 │   ├── ak: Alaska
 │   ├── az: Arizona

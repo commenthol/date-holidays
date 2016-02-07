@@ -106,9 +106,13 @@ Query for available Countries, States, Regions
 
 **Returns**: `Object`, shortcode, name pairs of supported countries, states, regions
 
-### Holidays.getCountries() 
+### Holidays.getCountries(lang) 
 
 get supported countries
+
+**Parameters**
+
+**lang**: `String`, ISO-639 language shortcode
 
 **Returns**: `Object`, shortcode, name pairs of supported countries
 ```js

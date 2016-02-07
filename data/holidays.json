@@ -3,7 +3,11 @@
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
-      "name": "Andorra",
+      "names": {
+        "ca": "Andorra",
+        "es": "Andorra",
+        "en": "Andorra"
+      },
       "dayoff": "sunday",
       "langs": [
         "ca",
@@ -89,7 +93,10 @@
       }
     },
     "AM": {
-      "name": "Armenia",
+      "names": {
+        "hy": "Հայաստան",
+        "en": "Armenia"
+      },
       "dayoff": "sunday",
       "langs": [
         "hy"
@@ -208,7 +215,10 @@
       }
     },
     "AR": {
-      "name": "Argentina",
+      "names": {
+        "es": "Argentina",
+        "en": "Argentina"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -398,7 +408,10 @@
       }
     },
     "AT": {
-      "name": "Österreich",
+      "names": {
+        "de-at": "Österreich",
+        "en": "Austria"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Vienna"
@@ -556,7 +569,9 @@
       }
     },
     "AU": {
-      "name": "Australia",
+      "names": {
+        "en": "Australia"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -878,7 +893,12 @@
       }
     },
     "BE": {
-      "name": "Belgique",
+      "names": {
+        "fr": "Belgique",
+        "nl": "België",
+        "de": "Belgien",
+        "en": "Belgium"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Brussels"
@@ -1023,7 +1043,10 @@
       }
     },
     "BG": {
-      "name": "България",
+      "names": {
+        "bg": "България",
+        "en": "Bulgaria"
+      },
       "langs": [
         "bg"
       ],
@@ -1114,7 +1137,10 @@
       }
     },
     "BO": {
-      "name": "Bolivia",
+      "names": {
+        "es": "Bolivia",
+        "en": "Bolivia"
+      },
       "dayoff": "sunday",
       "langs": [
         "es",
@@ -1182,7 +1208,10 @@
       }
     },
     "BR": {
-      "name": "Brazil",
+      "names": {
+        "pt": "Brasil",
+        "en": "Brazil"
+      },
       "dayoff": "sunday",
       "langs": [
         "pt"
@@ -1294,7 +1323,9 @@
       }
     },
     "BS": {
-      "name": "Bahamas",
+      "names": {
+        "en": "Bahamas"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -1376,7 +1407,9 @@
       }
     },
     "BW": {
-      "name": "Botswana",
+      "names": {
+        "en": "Botswana"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -1486,7 +1519,9 @@
       }
     },
     "BZ": {
-      "name": "Belize",
+      "names": {
+        "en": "Belize"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -1559,7 +1594,10 @@
       }
     },
     "CA": {
-      "name": "Canada",
+      "names": {
+        "en": "Canada",
+        "fr": "Canada"
+      },
       "zones": [
         "America/Toronto",
         "America/St_Johns",
@@ -1653,7 +1691,12 @@
       }
     },
     "CH": {
-      "name": "Schweiz",
+      "names": {
+        "de": "Schweiz",
+        "fr": "Suisse",
+        "it": "Svizzera",
+        "en": "Switzerland"
+      },
       "langs": [
         "de",
         "fr",
@@ -2044,7 +2087,10 @@
       }
     },
     "CL": {
-      "name": "Chile",
+      "names": {
+        "es": "Chile",
+        "en": "Chile"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -2167,7 +2213,10 @@
       }
     },
     "CO": {
-      "name": "Colombia",
+      "names": {
+        "es": "Colombia",
+        "en": "Colombia"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -2252,7 +2301,10 @@
       }
     },
     "CR": {
-      "name": "Costa Rica",
+      "names": {
+        "es": "Costa Rica",
+        "en": "Costa Rica"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -2312,7 +2364,10 @@
       }
     },
     "CU": {
-      "name": "Cuba",
+      "names": {
+        "es": "Cuba",
+        "en": "Cuba"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -2366,7 +2421,10 @@
       }
     },
     "CY": {
-      "name": "Cyprus",
+      "names": {
+        "el": "Κύπρος",
+        "en": "Cyprus"
+      },
       "dayoff": null,
       "langs": [
         "el"
@@ -2449,7 +2507,10 @@
       }
     },
     "CZ": {
-      "name": "Česká republika",
+      "names": {
+        "cz": "Česká republika",
+        "en": "Czech Republic"
+      },
       "langs": [
         "cz"
       ],
@@ -2542,7 +2603,10 @@
       }
     },
     "DK": {
-      "name": "Danmark",
+      "names": {
+        "dk": "Danmark",
+        "en": "Denmark"
+      },
       "langs": [
         "dk"
       ],
@@ -2604,7 +2668,10 @@
       }
     },
     "DE": {
-      "name": "Deutschland",
+      "names": {
+        "de": "Deutschland",
+        "en": "Germany"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Berlin"
@@ -2883,7 +2950,10 @@
       }
     },
     "DO": {
-      "name": "República Dominicana",
+      "names": {
+        "es": "República Dominicana",
+        "en": "Dominican Republic"
+      },
       "dayoff": "sunday",
       "zones": [
         "America/Santo_Domingo"
@@ -2943,7 +3013,10 @@
       }
     },
     "EC": {
-      "name": "Ecuador",
+      "names": {
+        "es": "Ecuador",
+        "en": "Ecuador"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -3043,7 +3116,10 @@
       }
     },
     "EE": {
-      "name": "Eesti",
+      "names": {
+        "et": "Eesti",
+        "en": "Estonia"
+      },
       "dayoff": "sunday",
       "langs": [
         "et"
@@ -3173,7 +3249,10 @@
       }
     },
     "ES": {
-      "name": "España",
+      "names": {
+        "es": "España",
+        "en": "Spain"
+      },
       "langs": [
         "es"
       ],
@@ -3294,7 +3373,10 @@
       }
     },
     "FI": {
-      "name": "Suomi",
+      "names": {
+        "fi": "Suomi",
+        "en": "Finland"
+      },
       "dayoff": "sunday",
       "langs": [
         "fi"
@@ -3369,7 +3451,10 @@
       }
     },
     "FR": {
-      "name": "France",
+      "names": {
+        "fr": "France",
+        "en": "France"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Paris"
@@ -3523,7 +3608,9 @@
       }
     },
     "GB": {
-      "name": "Britain",
+      "names": {
+        "en": "Britain"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/London"
@@ -3762,7 +3849,9 @@
       }
     },
     "GD": {
-      "name": "Grenada",
+      "names": {
+        "en": "Grenada"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -3853,7 +3942,10 @@
       }
     },
     "GR": {
-      "name": "Ελλάδα",
+      "names": {
+        "el": "Ελλάδα",
+        "en": "Greece"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Athens"
@@ -3917,7 +4009,10 @@
       }
     },
     "GT": {
-      "name": "Guatemala",
+      "names": {
+        "es": "Guatemala",
+        "en": "Guatemala"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -3972,7 +4067,9 @@
       }
     },
     "GU": {
-      "name": "Guam",
+      "names": {
+        "en": "Guam"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -4008,7 +4105,10 @@
       }
     },
     "HN": {
-      "name": "Honduras",
+      "names": {
+        "es": "Honduras",
+        "en": "Honduras"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -4094,7 +4194,10 @@
       }
     },
     "HR": {
-      "name": "Hrvatska",
+      "names": {
+        "hr": "Hrvatska",
+        "en": "Croatia"
+      },
       "langs": [
         "hr"
       ],
@@ -4188,7 +4291,10 @@
       }
     },
     "HT": {
-      "name": "Haiti",
+      "names": {
+        "fr": "Haïti",
+        "en": "Haiti"
+      },
       "dayoff": "sunday",
       "langs": [
         "fr"
@@ -4284,7 +4390,10 @@
       }
     },
     "HU": {
-      "name": "Magyarország",
+      "names": {
+        "hu": "Magyarország",
+        "en": "Hungary"
+      },
       "dayoff": "sunday",
       "langs": [
         "hu"
@@ -4412,7 +4521,9 @@
       }
     },
     "IE": {
-      "name": "Ireland",
+      "names": {
+        "en": "Ireland"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Dublin"
@@ -4475,7 +4586,10 @@
       }
     },
     "IT": {
-      "name": "Italia",
+      "names": {
+        "it": "Italia",
+        "en": "Italia"
+      },
       "dayoff": "sunday",
       "zones": [
         "Europe/Rome"
@@ -4541,7 +4655,10 @@
       }
     },
     "IS": {
-      "name": "Iceland",
+      "names": {
+        "is": "Ísland",
+        "en": "Iceland"
+      },
       "dayoff": "sunday",
       "zones": [
         "Atlantic/Reykjavik"
@@ -4679,7 +4796,9 @@
       }
     },
     "JM": {
-      "name": "Jamaica",
+      "names": {
+        "en": "Jamaica"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -4745,7 +4864,10 @@
       }
     },
     "JP": {
-      "name": "日本",
+      "names": {
+        "jp": "日本",
+        "en": "Japan"
+      },
       "dayoff": "sunday",
       "langs": [
         "jp"
@@ -4960,7 +5082,10 @@
       }
     },
     "LI": {
-      "name": "Lichtenstein",
+      "names": {
+        "de": "Lichtenstein",
+        "en": "Lichtenstein"
+      },
       "dayoff": "sunday",
       "langs": [
         "de"
@@ -5075,7 +5200,10 @@
       }
     },
     "LT": {
-      "name": "Lietuva",
+      "names": {
+        "lt": "Lietuva",
+        "en": "Lithuania"
+      },
       "dayoff": "sunday",
       "langs": [
         "lt"
@@ -5143,7 +5271,10 @@
       }
     },
     "LU": {
-      "name": "Luxembourg",
+      "names": {
+        "fr": "Luxembourg",
+        "en": "Luxembourg"
+      },
       "langs": [
         "fr"
       ],
@@ -5202,7 +5333,10 @@
       }
     },
     "LV": {
-      "name": "Latvija",
+      "names": {
+        "lv": "Latvija",
+        "en": "Latvia"
+      },
       "dayoff": "sunday",
       "langs": [
         "lv"
@@ -5297,7 +5431,10 @@
       }
     },
     "MC": {
-      "name": "Monaco",
+      "names": {
+        "fr": "Monaco",
+        "en": "Monaco"
+      },
       "dayoff": "sunday",
       "langs": [
         "fr"
@@ -5387,7 +5524,13 @@
       }
     },
     "ME": {
-      "name": "Crna Gora",
+      "names": {
+        "hr": "Crna Gora",
+        "sr": "Црна Гора",
+        "bs": "Crna Gora",
+        "sq": "Mali i Zi",
+        "en": "Montenegro"
+      },
       "dayoff": "sunday",
       "langs": [
         "hr",
@@ -5562,7 +5705,10 @@
       }
     },
     "MX": {
-      "name": "México",
+      "names": {
+        "es": "México",
+        "en": "Mexico"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -5637,7 +5783,10 @@
       }
     },
     "MT": {
-      "name": "Malta",
+      "names": {
+        "mt": "Malta",
+        "en": "Malta"
+      },
       "dayoff": "sunday",
       "langs": [
         "mt"
@@ -5706,7 +5855,10 @@
       }
     },
     "MZ": {
-      "name": "Moçambique",
+      "names": {
+        "pt": "Moçambique",
+        "en": "Mozambique"
+      },
       "dayoff": "sunday",
       "langs": [
         "pt"
@@ -5805,7 +5957,9 @@
       }
     },
     "NA": {
-      "name": "Namibia",
+      "names": {
+        "en": "Namibia"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -5895,7 +6049,10 @@
       }
     },
     "NI": {
-      "name": "Nicaragua",
+      "names": {
+        "es": "Nicaragua",
+        "en": "Nicaragua"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -5981,7 +6138,10 @@
       }
     },
     "NL": {
-      "name": "Nederland",
+      "names": {
+        "nl": "Nederland",
+        "en": "Netherlands"
+      },
       "dayoff": "sunday",
       "langs": [
         "nl"
@@ -6053,7 +6213,10 @@
       }
     },
     "NO": {
-      "name": "Norge",
+      "names": {
+        "no": "Norge",
+        "en": "Norway"
+      },
       "dayoff": "sunday",
       "langs": [
         "no"
@@ -6144,7 +6307,9 @@
       }
     },
     "NZ": {
-      "name": "New Zealand",
+      "names": {
+        "en": "New Zealand"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
@@ -6350,7 +6515,10 @@
       }
     },
     "PA": {
-      "name": "Panamá",
+      "names": {
+        "es": "Panamá",
+        "en": "Panama"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -6449,7 +6617,10 @@
       }
     },
     "PE": {
-      "name": "Perú",
+      "names": {
+        "es": "Perú",
+        "en": "Peru"
+      },
       "dayoff": "sunday",
       "langs": [
         "es",
@@ -6522,7 +6693,10 @@
       }
     },
     "PL": {
-      "name": "Polska",
+      "names": {
+        "pl": "Polska",
+        "en": "Poland"
+      },
       "dayoff": "sunday",
       "langs": [
         "pl"
@@ -6583,7 +6757,10 @@
       }
     },
     "PT": {
-      "name": "Portugal",
+      "names": {
+        "pt": "Portugal",
+        "en": "Portugal"
+      },
       "dayoff": "sunday",
       "langs": [
         "pt"
@@ -6662,7 +6839,10 @@
       }
     },
     "PY": {
-      "name": "Paraguay",
+      "names": {
+        "es": "Paraguay",
+        "en": "Paraguay"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -6729,7 +6909,10 @@
       }
     },
     "RO": {
-      "name": "Romania",
+      "names": {
+        "ro": "Romania",
+        "en": "Romania"
+      },
       "dayoff": "sunday",
       "langs": [
         "ro"
@@ -6816,7 +6999,10 @@
       }
     },
     "RU": {
-      "name": "Россия",
+      "names": {
+        "ru": "Россия",
+        "en": "Russia"
+      },
       "dayoff": "sunday",
       "langs": [
         "ru"
@@ -6908,7 +7094,10 @@
       }
     },
     "SE": {
-      "name": "Sverige",
+      "names": {
+        "sv": "Sverige",
+        "en": "Sweden"
+      },
       "dayoff": "sunday",
       "langs": [
         "sv"
@@ -7030,7 +7219,10 @@
       }
     },
     "SV": {
-      "name": "El Salvador",
+      "names": {
+        "es": "El Salvador",
+        "en": "El Salvador"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -7128,7 +7320,10 @@
       }
     },
     "TR": {
-      "name": "Türkiye",
+      "names": {
+        "tr": "Türkiye",
+        "en": "Turkey"
+      },
       "dayoff": "saturday",
       "langs": [
         "tr"
@@ -7180,7 +7375,10 @@
       }
     },
     "VE": {
-      "name": "Venezuela",
+      "names": {
+        "es": "Venezuela",
+        "en": "Venezuela"
+      },
       "dayoff": "sundays",
       "langs": [
         "es"
@@ -7401,7 +7599,9 @@
       }
     },
     "US": {
-      "name": "United States",
+      "names": {
+        "en": "United States of America"
+      },
       "dayoff": "sunday",
       "zones": [
         "America/New_York",
@@ -8451,7 +8651,10 @@
       }
     },
     "UY": {
-      "name": "Uruguay",
+      "names": {
+        "es": "Uruguay",
+        "en": "Uruguay"
+      },
       "dayoff": "sunday",
       "langs": [
         "es"
@@ -8550,7 +8753,9 @@
       }
     },
     "ZA": {
-      "name": "South Africa",
+      "names": {
+        "en": "South Africa"
+      },
       "dayoff": "sunday",
       "langs": [
         "en"
