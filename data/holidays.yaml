@@ -929,7 +929,7 @@ holidays:
   BS:
     name: Bahamas
     dayoff: sunday
-    langs: 
+    langs:
       - en
     zones:
       - America/Nassau
@@ -980,7 +980,7 @@ holidays:
       12-25:
         _name: 12-25
       12-26:
-        _name: 12-26      
+        _name: 12-26
 
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Belize
   BZ:
@@ -2841,7 +2841,7 @@ holidays:
             name:
               hr: Sveti Vlaho
               en: Saint Blaise
-              
+
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Haiti
   HT:
     name: Haiti
@@ -3924,6 +3924,68 @@ holidays:
           mt: Jum ir-Repubblika
       12-25:
         _name: 12-25
+
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Namibia
+  # @source http://www.gov.na/holidays
+  NA:
+    name: Namibia
+    dayoff: sunday
+    langs:
+      - en
+    zones:
+      - Africa/Windhoek
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        name: Public Holiday
+      03-21:
+        _name: Independence Day
+      substitutes 03-21 if sunday then next monday:
+        name: Public Holiday
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+        name:
+          en: Workers Day
+      substitutes 05-01 if sunday then next monday:
+        name: Public Holiday
+      05-04:
+        name:
+          en: Cassinga Day
+      substitutes 05-04 if sunday then next monday:
+        name: Public Holiday
+      easter 39:
+        _name: easter 39
+      05-25:
+        name:
+          en: Africa Day
+      substitutes 05-25 if sunday then next monday:
+        name: Public Holiday
+      08-26:
+        name:
+          en: Heroes' Day
+      substitutes 08-26 if sunday then next monday:
+        name: Public Holiday
+      12-10:
+        name:
+          en: Human Rights Day
+      substitutes 12-10 if sunday then next monday:
+        name: Public Holiday
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+        name:
+          en: Day of Goodwill
+      substitutes 12-26 if sunday then next monday:
+        name: Public Holiday
 
   # @source http://www.mitrab.gob.ni/documentos/leyes/Ley185Nic.pdf/at_download/file artículos 66
   NI:
@@ -5748,10 +5810,10 @@ holidays:
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_South_Africa
   # @source http://www.gov.za/about-sa/public-holidays
   # @source http://www.info.gov.za/acts/1994/a36-94.pdf
-  ZA: 
+  ZA:
     name: South Africa
     dayoff: sunday
-    langs: 
+    langs:
       - en
     zones:
       - Africa/Johannesburg
@@ -5759,17 +5821,17 @@ holidays:
       01-01:
         _name: 01-01
       substitutes 01-01 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       03-21:
         name:
           en: Human Rights Day
       substitutes 03-21 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       easter -2:
         _name: easter -2
-      easter: 
+      easter:
         _name: easter
         type: observance
       easter 1:
@@ -5780,32 +5842,32 @@ holidays:
         name:
           en: Freedom Day
       substitutes 04-27 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       05-01:
         _name: 05-01
         name:
           en: Workers' Day
       substitutes 05-01 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       2nd sunday after 05-01:
         _name: Mothers Day
         type: observance
       06-16:
-        name: 
+        name:
           en: Youth Day
       substitutes 06-16 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       3rd sunday after 06-01:
         _name: Fathers Day
-        type: observance        
+        type: observance
       08-09:
         name:
           en: National Women's Day
       substitutes 08-09 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       07-18:
         name:
@@ -5815,13 +5877,13 @@ holidays:
         name:
           en: Heritage Day
       substitutes 09-24 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       12-16:
         name:
           en: Day of Reconciliation
       substitutes 12-16 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
       12-25:
         _name: 12-25
@@ -5833,5 +5895,5 @@ holidays:
         name:
           en: Day of Goodwill
       substitutes 12-26 if sunday then next monday:
-        name: 
+        name:
           en: Public Holiday
