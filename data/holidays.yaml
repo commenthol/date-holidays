@@ -1,4 +1,4 @@
-  ##
+##
 # @author commenthol
 # @license CC-BY-SA-3
 #
@@ -81,12 +81,12 @@ holidays:
               ca: Andorra La Vella Festival
 
   # @source https://pt.wikipedia.org/wiki/Feriados_em_Angola
-  AO: 
+  AO:
     names:
       pt: Angola
       en: Angola
     dayoff: sunday
-    zones: 
+    zones:
       - Africa/Lagos
     langs:
       - pt
@@ -94,7 +94,7 @@ holidays:
       01-01:
         _name: 01-01
       02-04:
-        name: 
+        name:
           pt: Dia do Início da Luta Armada de Libertação Nacional
           en: Liberation Day
       easter -47:
@@ -6229,8 +6229,8 @@ holidays:
       substitutes 12-26 if sunday then next monday:
         name:
           en: Public Holiday
-  
-  ZW: 
+
+  ZW:
     names:
       sn: Nyika yeZimbabwe
       nd: iRiphabhuliki yeZimbabwe
@@ -6244,7 +6244,7 @@ holidays:
       #- xh
       #- kck
       - en
-    zones: 
+    zones:
       - Africa/Maputo
     days:
       01-01:

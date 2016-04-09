@@ -2,8 +2,9 @@
 
 if (module === require.main) {
   var fs = require('fs')
+  var path = require('path')
   var jsyaml = require('js-yaml')
-  var dirname = __dirname + '/../data/'
+  var dirname = path.join(__dirname, '../data/')
 
   var data =
     fs.readFileSync(dirname + 'holidays.yaml', 'utf8') +

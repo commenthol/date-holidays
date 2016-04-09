@@ -1,10 +1,11 @@
-'use strict'
-
 /* eslint
    key-spacing: 0
  */
 
+'use strict'
+
 var fs = require('fs')
+var path = require('path')
 
 var argv = process.argv
   .slice(2)
@@ -13,8 +14,8 @@ var argv = process.argv
   })
 
 var config = {
-  data   : argv[0] || __dirname + '/../data/holidays.yaml',
-  license: argv[1] || __dirname + '/../LICENSE'
+  data   : argv[0] || path.join(__dirname, '../data/holidays.yaml'),
+  license: argv[1] || path.join(__dirname, '../LICENSE')
 }
 
 function load (filename) {

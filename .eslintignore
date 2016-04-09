@@ -1,0 +1,4 @@
+gen/**/node_modules
+attic
+coverage
+tmp
