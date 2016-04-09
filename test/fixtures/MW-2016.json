@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T22:00:00.000Z",
+    "end": "2016-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-01-15 00:00:00",
+    "start": "2016-01-14T22:00:00.000Z",
+    "end": "2016-01-15T22:00:00.000Z",
+    "name": "John Chilembwe Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-03 00:00:00",
+    "start": "2016-03-02T22:00:00.000Z",
+    "end": "2016-03-03T22:00:00.000Z",
+    "name": "Martyrs' Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-24T22:00:00.000Z",
+    "end": "2016-03-25T22:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-26T22:00:00.000Z",
+    "end": "2016-03-27T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-27T22:00:00.000Z",
+    "end": "2016-03-28T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T22:00:00.000Z",
+    "end": "2016-05-01T22:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-01T22:00:00.000Z",
+    "end": "2016-05-02T22:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-14 00:00:00",
+    "start": "2016-05-13T22:00:00.000Z",
+    "end": "2016-05-14T22:00:00.000Z",
+    "name": "Kamuzu Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-16 00:00:00",
+    "start": "2016-05-15T22:00:00.000Z",
+    "end": "2016-05-16T22:00:00.000Z",
+    "substitute": true,
+    "name": "Kamuzu Day (substitute day)",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-05 18:00:00",
+    "start": "2016-07-05T16:00:00.000Z",
+    "end": "2016-07-06T16:00:00.000Z",
+    "name": "Eid al Fitri",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-06 00:00:00",
+    "start": "2016-07-05T22:00:00.000Z",
+    "end": "2016-07-06T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-15 00:00:00",
+    "start": "2016-10-14T22:00:00.000Z",
+    "end": "2016-10-15T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-17 00:00:00",
+    "start": "2016-10-16T22:00:00.000Z",
+    "end": "2016-10-17T22:00:00.000Z",
+    "name": "Mother's Day (substitute day)",
+    "substitute": true,
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T22:00:00.000Z",
+    "end": "2016-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T22:00:00.000Z",
+    "end": "2016-12-26T22:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "substitute": true,
+    "type": "public"
+  }
+]

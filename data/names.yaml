@@ -479,6 +479,7 @@ names:
     name:
       en: Eid al-Fitr, Bayram
       bs: Ramazanski bajram
+      de: Zuckerfest
       fr: Eid al-Fitr
       nl: Suikerfeest (Eid al-Fitr)
       sq: Fitër bajrami
@@ -488,6 +489,7 @@ names:
     name:
       en: Feast of Sacrifice (Eid al-Adha)
       bs: Kurbanski bajram
+      de: Opferfest
       fr: Eid al-Adha
       nl: Offerfeest (Eid Al-Adha)
       sq: Kurban bajrami

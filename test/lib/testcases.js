@@ -298,6 +298,7 @@ var testcases = {
     month: 1,
     day: 1,
     hour: 14,
+    other: undefined,
     rules: [{
       if: [
         'sunday'
@@ -419,6 +420,7 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
+    other: undefined,
     rules: [{
       if: [
         'monday'
@@ -433,6 +435,7 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
+    other: undefined,
     rules: [{
       if: [
         'sunday'
@@ -447,6 +450,7 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
+    other: undefined,
     rules: [{
       if: [
         'sunday'
@@ -461,6 +465,7 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
+    other: undefined,
     rules: [{
       if: [
         'sunday'
@@ -475,6 +480,7 @@ var testcases = {
     month: 1,
     day: 1,
     hour: undefined,
+    other: undefined,
     rules: [{
       if: [
         'sunday'
@@ -483,12 +489,30 @@ var testcases = {
       then: 'tuesday'
     }]
   },
+  'substitutes 1 Shawwal if wednesday,saturday,sunday then next monday': {
+    fn: 'dateIfThen',
+    substitute: true,
+    month: undefined,
+    day: undefined,
+    hour: undefined,
+    other: { fn: 'islamic', day: 1, month: 9 },
+    rules: [{
+      if: [
+        'wednesday',
+        'saturday',
+        'sunday'
+      ],
+      direction: 'next',
+      then: 'monday'
+    }]
+  },
   '10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday': {
     fn: 'dateIfThen',
     substitute: false,
     month: 10,
     day: 12,
     hour: undefined,
+    other: undefined,
     rules: [
       {
         if: [
@@ -515,6 +539,7 @@ var testcases = {
     day: 10,
     month: 1,
     hour: undefined,
+    other: undefined,
     rules: [
       {
         if: [
@@ -649,7 +674,6 @@ var testcases = {
 }
 module.exports = testcases
 
-// ~ module.exports = {
-  // ~ '09-22 if 09-21 and 09-23 is public holiday': testcases['09-22 if 09-21 and 09-23 is public holiday']
-  // ~ '10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday': {}
-// ~ }
+// tests only
+// var tc = 'substitutes 1 Shawwal if tuesday,saturday,sunday then next monday'
+// module.exports[tc] = testcases[tc]
