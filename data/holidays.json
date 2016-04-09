@@ -1,5 +1,5 @@
 {
-  "version": "2016-02-07",
+  "version": "2016-04-09",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -7439,6 +7439,77 @@
         }
       }
     },
+    "RW": {
+      "names": {
+        "rw": "Repubulika y'u Rwanda",
+        "fr": "République du Rwanda",
+        "en": "Rwanda"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "rw",
+        "fr"
+      ],
+      "zones": [
+        "Africa/Maputo"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-02": {
+          "_name": "Public Holiday"
+        },
+        "02-01": {
+          "name": {
+            "en": "Heroes Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "04-07": {
+          "name": {
+            "fr": "Jour de Mémorial du Génocide",
+            "en": "Genocide Memorial Day"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "07-01": {
+          "_name": "Independence Day"
+        },
+        "07-04": {
+          "name": {
+            "fr": "Jour de la Libération",
+            "en": "Liberation Day"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "1st friday after 08-01": {
+          "name": {
+            "rw": "Umuganura",
+            "fr": "Journée nationale de récolte",
+            "en": "National Harvest Day"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
     "SE": {
       "names": {
         "sv": "Sverige",
@@ -10074,6 +10145,7 @@
       "name": {
         "en": "Eid al-Fitr, Bayram",
         "bs": "Ramazanski bajram",
+        "fr": "Eid al-Fitr",
         "nl": "Suikerfeest (Eid al-Fitr)",
         "sq": "Fitër bajrami",
         "tr": "Bayramı",
@@ -10084,6 +10156,7 @@
       "name": {
         "en": "Feast of Sacrifice (Eid al-Adha)",
         "bs": "Kurbanski bajram",
+        "fr": "Eid al-Adha",
         "nl": "Offerfeest (Eid Al-Adha)",
         "sq": "Kurban bajrami",
         "tr": "Kurban Bayramı",

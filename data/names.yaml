@@ -479,6 +479,7 @@ names:
     name:
       en: Eid al-Fitr, Bayram
       bs: Ramazanski bajram
+      fr: Eid al-Fitr
       nl: Suikerfeest (Eid al-Fitr)
       sq: Fitër bajrami
       tr: Bayramı
@@ -487,6 +488,7 @@ names:
     name:
       en: Feast of Sacrifice (Eid al-Adha)
       bs: Kurbanski bajram
+      fr: Eid al-Adha
       nl: Offerfeest (Eid Al-Adha)
       sq: Kurban bajrami
       tr: Kurban Bayramı
