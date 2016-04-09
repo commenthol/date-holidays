@@ -5772,6 +5772,69 @@
         }
       }
     },
+    "MG": {
+      "names": {
+        "mg": "Repoblikan'i Madagasikara",
+        "fr": "République de Madagascar",
+        "en": "Madagascar"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "mg",
+        "fr",
+        "en"
+      ],
+      "zones": [
+        "Africa/Nairobi"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "03-29": {
+          "name": {
+            "mg": "Martioran'ny tolona tamin'ny 1947",
+            "fr": "Commémoration des martyrs de l'insurrection de 1947.",
+            "en": "Martyrs' Day"
+          }
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-25": {
+          "name": {
+            "mg": "Andron'i Afrika",
+            "fr": "Jour de l'Afrique",
+            "en": "Africa Day"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "06-26": {
+          "_name": "Independence Day",
+          "name": {
+            "mg": "Fetim-pirenena",
+            "fr": "Fête Nationale"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      }
+    },
     "MX": {
       "names": {
         "es": "México",
@@ -9225,6 +9288,7 @@
         "jp": "元日",
         "lt": "Naujieji metai",
         "lv": "Jaunais Gads",
+        "mg": "Taom-baovao",
         "mt": "L-Ewwel tas-Sena",
         "nl": "Nieuwjaar",
         "no": "Første nyttårsdag",
@@ -9298,6 +9362,7 @@
         "lv": "Darba svētki",
         "nl": "Dag van de Arbeid",
         "no": "Første mai",
+        "mg": "Fetin'ny asa",
         "mt": "Jum il-Ħaddiem",
         "pl": "Święto Pracy",
         "pt": "Dia do trabalhador",
@@ -9323,6 +9388,7 @@
         "hr": "Velika Gospa",
         "it": "Ferragosto",
         "lt": "Žolinė",
+        "mg": "Asompsiona",
         "mt": "Santa Marija",
         "nl": "O.L.V. Hemelvaart",
         "pl": "Wniebowzięcie Najświętszej Maryi Panny",
@@ -9343,6 +9409,7 @@
         "hu": "Mindenszentek",
         "it": "Ognissanti",
         "lt": "Visų šventųjų diena",
+        "mg": "Fetin'ny olo-masina",
         "nl": "Allerheiligen",
         "pl": "Wszystkich Świętych",
         "pt": "Todos os santos",
@@ -9432,6 +9499,7 @@
         "jp": "ノエル",
         "lt": "Šv. Kalėdos",
         "lv": "Ziemassvētki",
+        "mg": "Krismasy",
         "mt": "Il-Milied",
         "nl": "Kerstmis",
         "no": "Første Juledag",
@@ -9619,6 +9687,7 @@
         "it": "Lunedì dell’Angelo",
         "is": "Annar í páskum",
         "lv": "Otrās Lieldienas",
+        "mg": "Alatsinain'ny Paska",
         "nl": "Paasmaandag",
         "no": "Andre påskedag",
         "pl": "Drugi dzień Wielkanocy",
@@ -9636,6 +9705,7 @@
         "fr": "Ascension",
         "it": "Ascensione",
         "is": "Uppstigningardagur",
+        "mg": "Andro niakarana",
         "nl": "O.L.H. Hemelvaart",
         "no": "Kristi himmelfartsdag",
         "ro": "Ziua Eroilor",
@@ -9672,6 +9742,7 @@
         "hu": "Pünkösdhétfő",
         "it": "Lunedì di Pentecoste",
         "is": "Annar í hvítasunnu",
+        "mg": "Alatsinain'ny Pentekosta",
         "nl": "Pinkstermaandag",
         "no": "Andre pinsedag",
         "ro": "Două zi de Rusalii"

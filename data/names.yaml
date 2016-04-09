@@ -31,6 +31,7 @@ names:
       jp: 元日
       lt: Naujieji metai
       lv: Jaunais Gads
+      mg: Taom-baovao
       mt: L-Ewwel tas-Sena
       nl: Nieuwjaar
       no: Første nyttårsdag
@@ -97,6 +98,7 @@ names:
       lv: Darba svētki
       nl: Dag van de Arbeid
       no: Første mai
+      mg: Fetin'ny asa
       mt: Jum il-Ħaddiem
       pl: Święto Pracy
       pt: Dia do trabalhador
@@ -119,6 +121,7 @@ names:
       it: Ferragosto
       #it: Assunzione di Maria Virgine
       lt: Žolinė
+      mg: Asompsiona
       mt: Santa Marija
       nl: O.L.V. Hemelvaart
       pl: Wniebowzięcie Najświętszej Maryi Panny
@@ -138,6 +141,7 @@ names:
       it: Ognissanti
       #it: Tutti i Santi
       lt: Visų šventųjų diena
+      mg: Fetin'ny olo-masina
       nl: Allerheiligen
       pl: Wszystkich Świętych
       pt: Todos os santos
@@ -215,6 +219,7 @@ names:
       jp: ノエル
       lt: Šv. Kalėdos
       lv: Ziemassvētki
+      mg: Krismasy
       mt: Il-Milied
       nl: Kerstmis
       no: Første Juledag
@@ -386,6 +391,7 @@ names:
       it: Lunedì dell’Angelo
       is: Annar í páskum
       lv: Otrās Lieldienas
+      mg: Alatsinain'ny Paska
       nl: Paasmaandag
       no: Andre påskedag
       pl: Drugi dzień Wielkanocy
@@ -401,6 +407,7 @@ names:
       fr: Ascension
       it: Ascensione
       is: Uppstigningardagur
+      mg: Andro niakarana
       nl: O.L.H. Hemelvaart
       no: Kristi himmelfartsdag
       ro: Ziua Eroilor
@@ -433,6 +440,7 @@ names:
       hu: Pünkösdhétfő
       it: Lunedì di Pentecoste
       is: Annar í hvítasunnu
+      mg: Alatsinain'ny Pentekosta
       nl: Pinkstermaandag
       no: Andre pinsedag
       ro: Două zi de Rusalii
