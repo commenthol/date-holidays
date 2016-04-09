@@ -482,6 +482,7 @@ names:
       nl: Suikerfeest (Eid al-Fitr)
       sq: Fitër bajrami
       tr: Bayramı
+      sw: Idd-ul-Fitr
   10 Dhu al-Hijjah:
     name:
       en: Feast of Sacrifice (Eid al-Adha)
@@ -489,6 +490,7 @@ names:
       nl: Offerfeest (Eid Al-Adha)
       sq: Kurban bajrami
       tr: Kurban Bayramı
+      sw: Idd-ul-Azha
   12 Rabi al-awwal:
     name:
       en: Mawlid

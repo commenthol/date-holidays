@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 76
+Countries: 77
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -182,6 +182,7 @@ Countries: 76
 ├── IS: Ísland
 ├── JM: Jamaica
 ├── JP: 日本
+├── KE: KE
 ├── LI: Lichtenstein
 ├── LT: Lietuva
 ├── LU: Luxembourg

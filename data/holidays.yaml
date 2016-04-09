@@ -12,6 +12,18 @@
 # <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>
 #
 
+  # CC:
+    # names:
+      # en:
+    # dayoff: sunday
+    # langs:
+      # - en
+    # zones:
+      # - Africa/Maputo
+    # days:
+      # 01-01:
+        # _name: 01-01
+
 version: '2016-02-07'
 
 license: CC-BY-SA-3
@@ -3585,6 +3597,86 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
+
+  # @source http://www.kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/PublicHolidaysActCap110.pdf
+  KE:
+    names:
+      en: Kenia
+    dayoff: sunday
+    langs:
+      - sw
+      - en
+    zones:
+      - Africa/Nairobi
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if sunday then next monday:
+        substitute: true
+        _name: 05-01
+      06-01:
+        name:
+          sw: Siku ya Madaraka
+          en: Madaraka Day
+      substitutes 06-01 if sunday then next monday:
+        substitute: true
+        name:
+          sw: Siku ya Madaraka
+          en: Madaraka Day
+      10-10:
+        name:
+          en: Moi Day
+      substitutes 10-10 if sunday then next monday:
+        substitute: true
+        name:
+          en: Moi Day
+      10-20:
+        name:
+          sw: Siku ya Mashujaa
+          en: Mashujaa Day
+      substitutes 10-20 if sunday then next monday:
+        substitute: true
+        name:
+          sw: Siku ya Mashujaa
+          en: Mashujaa Day
+      12-12:
+        name:
+          sw: Siku ya Jamhuri
+          en: Jamhuri Day
+      substitutes 12-12 if sunday then next monday:
+        substitute: true
+        name:
+          sw: Siku ya Jamhuri
+          en: Jamhuri Day
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if sunday then next tuesday:
+        substitute: true
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      substitutes 12-26 if sunday then next monday:
+        substitute: true
+        _name: 12-26
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        note: For all persons belonging to the Islamic faith.
+      # Diwali:
+        # _name: Diwali
+        # note: For all persons belonging to the Hindu faith.
 
   # @source https://de.wikipedia.org/wiki/Feiertage_in_Liechtenstein#Gesetzliche_Feiertage
   # @source http://www.llv.li/files/apo/Feiertage-und-dienstfreie-Tage-LLV.pdf
