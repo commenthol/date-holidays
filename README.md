@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 80
+Countries: 81
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -80,6 +80,7 @@ Countries: 80
 │   │   └── br: Bruxelles
 │   └── vl: Vlaamse Gemeenschap
 ├── BG: България
+├── BI: République du Burundi
 ├── BO: Bolivia
 ├── BR: Brasil
 ├── BS: Bahamas
