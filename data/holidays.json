@@ -1752,6 +1752,124 @@
         }
       }
     },
+    "CD": {
+      "names": {
+        "fr": "République démocratique du Congo",
+        "en": "Democratic Republic of the Congo"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Africa/Maputo",
+        "Africa/Lagos"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "01-04": {
+          "name": {
+            "fr": "Martyrs de l'Indépendance",
+            "en": "Day of the Martyrs"
+          }
+        },
+        "substitutes 01-04 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "fr": "Martyrs de l'Indépendance",
+            "en": "Day of the Martyrs"
+          }
+        },
+        "01-16": {
+          "name": {
+            "fr": "Journée du Héro National Laurent Désiré Kabila",
+            "en": "Anniversary of President Laurent Kabila"
+          }
+        },
+        "substitutes 01-16 if sunday then next tuesday": {
+          "substitute": true,
+          "name": {
+            "fr": "Journée du Héro National Laurent Désiré Kabila",
+            "en": "Anniversary of President Laurent Kabila"
+          }
+        },
+        "01-17": {
+          "name": {
+            "fr": "Journée du Héro National Patrice Emery Lumumba",
+            "en": "Anniversary of Prime Minister Patrice Emery Lumumba"
+          }
+        },
+        "substitutes 01-17 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "fr": "Journée du Héro National Patrice Emery Lumumba",
+            "en": "Anniversary of Prime Minister Patrice Emery Lumumba"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "substitutes 05-01 if sunday then next monday": {
+          "substitute": true,
+          "_name": "05-01"
+        },
+        "05-17": {
+          "name": {
+            "fr": "Journée de la Révolution et des Forces Armées",
+            "en": "Liberation Day"
+          }
+        },
+        "substitutes 05-17 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "fr": "Journée de la Révolution et des Forces Armées",
+            "en": "Liberation Day"
+          }
+        },
+        "06-30": {
+          "_name": "Independence Day",
+          "name": {
+            "fr": "Anniversaire de Indépendance"
+          }
+        },
+        "substitutes 06-30 if sunday then next monday": {
+          "substitute": true,
+          "_name": "Independence Day",
+          "name": {
+            "fr": "Anniversaire de Indépendance"
+          }
+        },
+        "08-01": {
+          "name": {
+            "fr": "Fête des parents",
+            "en": "Parents' Day"
+          }
+        },
+        "substitutes 08-01 if sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "fr": "Fête des parents",
+            "en": "Parents' Day"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if sunday then next monday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "2016-01-15": {
+          "_name": "Public Holiday"
+        }
+      }
+    },
     "CH": {
       "names": {
         "de": "Schweiz",
@@ -10129,6 +10247,7 @@
     "Public Holiday": {
       "name": {
         "en": "Public Holiday",
+        "fr": "Jour férié légaux",
         "pt": "Feriado Obrigatório"
       }
     },

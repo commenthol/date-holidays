@@ -1,0 +1,73 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T22:00:00.000Z",
+    "end": "2019-01-01T22:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public"
+  },
+  {
+    "date": "2019-01-04 00:00:00",
+    "start": "2019-01-03T22:00:00.000Z",
+    "end": "2019-01-04T22:00:00.000Z",
+    "name": "Martyrs de l'Indépendance",
+    "type": "public"
+  },
+  {
+    "date": "2019-01-16 00:00:00",
+    "start": "2019-01-15T22:00:00.000Z",
+    "end": "2019-01-16T22:00:00.000Z",
+    "name": "Journée du Héro National Laurent Désiré Kabila",
+    "type": "public"
+  },
+  {
+    "date": "2019-01-17 00:00:00",
+    "start": "2019-01-16T22:00:00.000Z",
+    "end": "2019-01-17T22:00:00.000Z",
+    "name": "Journée du Héro National Patrice Emery Lumumba",
+    "type": "public"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T22:00:00.000Z",
+    "end": "2019-05-01T22:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public"
+  },
+  {
+    "date": "2019-05-17 00:00:00",
+    "start": "2019-05-16T22:00:00.000Z",
+    "end": "2019-05-17T22:00:00.000Z",
+    "name": "Journée de la Révolution et des Forces Armées",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-30 00:00:00",
+    "start": "2019-06-29T22:00:00.000Z",
+    "end": "2019-06-30T22:00:00.000Z",
+    "name": "Anniversaire de Indépendance",
+    "type": "public"
+  },
+  {
+    "date": "2019-07-01 00:00:00",
+    "start": "2019-06-30T22:00:00.000Z",
+    "end": "2019-07-01T22:00:00.000Z",
+    "name": "Anniversaire de Indépendance (jour substitut)",
+    "substitute": true,
+    "type": "public"
+  },
+  {
+    "date": "2019-08-01 00:00:00",
+    "start": "2019-07-31T22:00:00.000Z",
+    "end": "2019-08-01T22:00:00.000Z",
+    "name": "Fête des parents",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T22:00:00.000Z",
+    "end": "2019-12-25T22:00:00.000Z",
+    "name": "Noël",
+    "type": "public"
+  }
+]

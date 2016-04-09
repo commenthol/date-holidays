@@ -621,6 +621,7 @@ names:
   Public Holiday:
     name:
       en: Public Holiday
+      fr: Jour férié légaux
       pt: Feriado Obrigatório
   Reformation Day:
     name:
