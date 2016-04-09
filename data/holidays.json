@@ -209,10 +209,7 @@
           "type": "observance"
         },
         "03-08": {
-          "name": {
-            "en": "International Womens Holiday",
-            "hy": "Կանանց տոն"
-          }
+          "_name": "03-08"
         },
         "04-07": {
           "name": {
@@ -1139,10 +1136,7 @@
           }
         },
         "03-08": {
-          "name": {
-            "bg": "Ден на жената",
-            "en": "Women's Day"
-          },
+          "_name": "03-08",
           "type": "observance"
         },
         "orthodox -2": {
@@ -4488,10 +4482,7 @@
           "type": "observance"
         },
         "03-08": {
-          "name": {
-            "en": "International Women's Day",
-            "hu": "Nemzetközi nőnap"
-          },
+          "_name": "03-08",
           "type": "observance"
         },
         "03-15": {
@@ -7187,10 +7178,7 @@
           }
         },
         "03-08": {
-          "name": {
-            "ru": "Международный женский день",
-            "en": "International Women's Day"
-          }
+          "_name": "03-08"
         },
         "08-22": {
           "name": {
@@ -7807,6 +7795,78 @@
               }
             }
           }
+        }
+      }
+    },
+    "UG": {
+      "names": {
+        "en": "Uganda"
+      },
+      "dayoff": "sundays",
+      "langs": [
+        "en",
+        "sw"
+      ],
+      "zones": [
+        "Africa/Nairobi"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-26": {
+          "name": {
+            "en": "Liberation Day"
+          }
+        },
+        "02-16": {
+          "name": {
+            "en": "Archbishop Janan Luwum Day"
+          }
+        },
+        "03-08": {
+          "_name": "03-08"
+        },
+        "easter -46": {
+          "_name": "easter -46",
+          "type": "observance"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "06-03": {
+          "name": {
+            "en": "Martyr's Day"
+          }
+        },
+        "06-09": {
+          "name": {
+            "en": "National Heroes Day"
+          }
+        },
+        "10-09": {
+          "_name": "Independence Day"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
         }
       }
     },
@@ -9298,6 +9358,7 @@
         "ru": "Новый год",
         "sr": "Нова година",
         "sv": "Nyårsdagen",
+        "sw": "Mwaka mpya",
         "tr": "Yılbaşı"
       }
     },
@@ -9330,6 +9391,15 @@
         "de": "Valentinstag",
         "fr": "Saint-Valentin",
         "nl": "Valentijnsdag"
+      }
+    },
+    "03-08": {
+      "name": {
+        "en": "International Women's Day",
+        "bg": "Ден на жената",
+        "hu": "Nemzetközi nőnap",
+        "hy": "Կանանց տոն",
+        "ru": "Международный женский день"
       }
     },
     "03-19": {
@@ -9509,7 +9579,8 @@
         "ru": "Рождество Христово",
         "sq": "Krishtlindja",
         "sr": "Божић",
-        "sv": "Juldagen"
+        "sv": "Juldagen",
+        "sw": "Krismasi"
       }
     },
     "12-26": {
@@ -9579,7 +9650,8 @@
         "es": "Miercoles de Ceniza",
         "fr": "Mercredi des Cendres",
         "it": "Ceneri",
-        "is": "Öskudagur"
+        "is": "Öskudagur",
+        "sw": "Jumatano ya Majivu"
       }
     },
     "easter -7": {
@@ -9629,7 +9701,8 @@
         "pt": "Sexta-Feira Santa",
         "sq": "E Premtja e Madhe",
         "sr": "Велики петак",
-        "sv": "Långfredagen"
+        "sv": "Långfredagen",
+        "sw": "Ijumaa Kuu"
       }
     },
     "easter -1": {
@@ -9668,7 +9741,8 @@
         "ro": "Paștele",
         "sq": "Pashkët",
         "sr": "Васкрс",
-        "sv": "Påsk"
+        "sv": "Påsk",
+        "sw": "Pasaka"
       }
     },
     "easter 1": {
@@ -9692,7 +9766,8 @@
         "no": "Andre påskedag",
         "pl": "Drugi dzień Wielkanocy",
         "ro": "Două zi de Pasti",
-        "sv": "Annandag påsk"
+        "sv": "Annandag påsk",
+        "sw": "Jumatatu ya Pasaka"
       }
     },
     "easter 39": {
@@ -9900,7 +9975,8 @@
         "nl": "Onafhankelijkheidsdag",
         "pl": "Narodowe Święto Niepodległości",
         "pt": "Dia da Independência",
-        "sr": "Дан независности"
+        "sr": "Дан независности",
+        "sw": "Siku ya uhuru"
       }
     },
     "Mothers Day": {

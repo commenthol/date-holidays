@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T21:00:00.000Z",
+    "end": "2017-01-01T21:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-01-26 00:00:00",
+    "start": "2017-01-25T21:00:00.000Z",
+    "end": "2017-01-26T21:00:00.000Z",
+    "name": "Liberation Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-02-16 00:00:00",
+    "start": "2017-02-15T21:00:00.000Z",
+    "end": "2017-02-16T21:00:00.000Z",
+    "name": "Archbishop Janan Luwum Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-03-01 00:00:00",
+    "start": "2017-02-28T21:00:00.000Z",
+    "end": "2017-03-01T21:00:00.000Z",
+    "name": "Ash Wednesday",
+    "type": "observance"
+  },
+  {
+    "date": "2017-03-08 00:00:00",
+    "start": "2017-03-07T21:00:00.000Z",
+    "end": "2017-03-08T21:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-04-14 00:00:00",
+    "start": "2017-04-13T21:00:00.000Z",
+    "end": "2017-04-14T21:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public"
+  },
+  {
+    "date": "2017-04-16 00:00:00",
+    "start": "2017-04-15T21:00:00.000Z",
+    "end": "2017-04-16T21:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public"
+  },
+  {
+    "date": "2017-04-17 00:00:00",
+    "start": "2017-04-16T21:00:00.000Z",
+    "end": "2017-04-17T21:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T21:00:00.000Z",
+    "end": "2017-05-01T21:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-06-03 00:00:00",
+    "start": "2017-06-02T21:00:00.000Z",
+    "end": "2017-06-03T21:00:00.000Z",
+    "name": "Martyr's Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-06-09 00:00:00",
+    "start": "2017-06-08T21:00:00.000Z",
+    "end": "2017-06-09T21:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-06-24 18:00:00",
+    "start": "2017-06-24T15:00:00.000Z",
+    "end": "2017-06-25T15:00:00.000Z",
+    "name": "Eid al-Fitr, Bayram",
+    "type": "public"
+  },
+  {
+    "date": "2017-08-31 18:00:00",
+    "start": "2017-08-31T15:00:00.000Z",
+    "end": "2017-09-01T15:00:00.000Z",
+    "name": "Feast of Sacrifice (Eid al-Adha)",
+    "type": "public"
+  },
+  {
+    "date": "2017-10-09 00:00:00",
+    "start": "2017-10-08T21:00:00.000Z",
+    "end": "2017-10-09T21:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T21:00:00.000Z",
+    "end": "2017-12-25T21:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-26 00:00:00",
+    "start": "2017-12-25T21:00:00.000Z",
+    "end": "2017-12-26T21:00:00.000Z",
+    "name": "Boxingday",
+    "type": "public"
+  }
+]

@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 75
+Countries: 76
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -232,6 +232,7 @@ Countries: 75
 │   ├── mo: Monagas
 │   ├── ta: Táchira
 │   └── zu: Zulia
+├── UG: Uganda
 ├── US: United States of America
 │   ├── al: Alabama
 │   ├── ak: Alaska

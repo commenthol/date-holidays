@@ -41,6 +41,7 @@ names:
       ru: Новый год
       sr: Нова година
       sv: Nyårsdagen
+      sw: Mwaka mpya
       tr: Yılbaşı
   01-06:
     name:
@@ -70,6 +71,13 @@ names:
       de: Valentinstag
       fr: Saint-Valentin
       nl: Valentijnsdag
+  03-08:
+    name:
+      en: International Women's Day
+      bg: Ден на жената
+      hu: Nemzetközi nőnap
+      hy: Կանանց տոն
+      ru: Международный женский день
   03-19:
     name:
       en: Saint Joseph
@@ -230,6 +238,7 @@ names:
       sq: Krishtlindja
       sr: Божић
       sv: Juldagen
+      sw: Krismasi
   12-26:
     name:
       en: Boxingday
@@ -296,6 +305,7 @@ names:
       fr: Mercredi des Cendres
       it: Ceneri
       is: Öskudagur
+      sw: Jumatano ya Majivu
   easter -7:  # Palm Sunday
     name:
       en: Palm Sunday
@@ -340,6 +350,7 @@ names:
       sq: E Premtja e Madhe
       sr: Велики петак
       sv: Långfredagen
+      sw: Ijumaa Kuu
   easter -1:  # Holy Saturday
     name:
       en: Easter Saturday
@@ -375,6 +386,7 @@ names:
       sq: Pashkët
       sr: Васкрс
       sv: Påsk
+      sw: Pasaka
   easter 1:   # Easter Monday
     name:
       en: Easter Monday
@@ -397,6 +409,7 @@ names:
       pl: Drugi dzień Wielkanocy
       ro: Două zi de Pasti
       sv: Annandag påsk
+      sw: Jumatatu ya Pasaka
   easter 39:  # Ascension Day
     name:
       en: Ascension Day
@@ -570,6 +583,7 @@ names:
       pl: Narodowe Święto Niepodległości
       pt: Dia da Independência
       sr: Дан независности
+      sw: Siku ya uhuru
   Mothers Day:
     name:
       en: Mother's Day
