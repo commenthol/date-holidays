@@ -15,7 +15,7 @@ The features are:
 - multi-language support for all holiday names
 - setting of custom holidays
 - uses own grammar for calculation of days
-- support for islamic calendar from 1970 to 2080
+- support for islamic calendar from 1970 to 2080 (*islamic dates might not be correct as they are subject to the sighting of the moon)
 - support for hebrew calendar from 1970 to 2100
 - for generation of iCal calendar check out [date-holidays-ical][]
 
@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 72
+Countries: 73
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -221,6 +221,7 @@ Countries: 72
 ├── SV: El Salvador
 │   └── san: San Salvador
 ├── TR: Türkiye
+├── TZ: Tanzania
 ├── VE: Venezuela
 │   ├── an: Anzoátegui
 │   ├── ca: Carabobo
