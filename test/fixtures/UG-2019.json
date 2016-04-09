@@ -73,7 +73,7 @@
     "date": "2019-06-03 18:00:00",
     "start": "2019-06-03T15:00:00.000Z",
     "end": "2019-06-04T15:00:00.000Z",
-    "name": "Eid al-Fitr, Bayram",
+    "name": "Eid al-Fitr (End of Ramadan)",
     "type": "public"
   },
   {
@@ -87,7 +87,7 @@
     "date": "2019-08-10 18:00:00",
     "start": "2019-08-10T15:00:00.000Z",
     "end": "2019-08-11T15:00:00.000Z",
-    "name": "Feast of Sacrifice (Eid al-Adha)",
+    "name": "Eid al-Adha (Feast of the Sacrifice)",
     "type": "public"
   },
   {

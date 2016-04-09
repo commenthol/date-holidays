@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 82
+Countries: 83
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -160,6 +160,7 @@ Countries: 82
 │   ├── guadeloupe: Département et région d'outre-mer Guadeloupe
 │   ├── guyane: Département et région d'outre-mer Guyane
 │   └── reunion: Département et région d'outre-mer La Réunion
+├── GA: Gabon
 ├── GB: Britain
 │   ├── al: Alderney
 │   ├── en: England

@@ -80,14 +80,14 @@
     "date": "2015-07-16 18:00:00",
     "start": "2015-07-16T15:00:00.000Z",
     "end": "2015-07-17T15:00:00.000Z",
-    "name": "Eid al-Fitr, Bayram",
+    "name": "Eid al-Fitr (End of Ramadan)",
     "type": "public"
   },
   {
     "date": "2015-09-22 18:00:00",
     "start": "2015-09-22T15:00:00.000Z",
     "end": "2015-09-23T15:00:00.000Z",
-    "name": "Feast of Sacrifice (Eid al-Adha)",
+    "name": "Eid al-Adha (Feast of the Sacrifice)",
     "type": "public"
   },
   {
