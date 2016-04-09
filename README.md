@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 73
+Countries: 74
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -286,6 +286,7 @@ Countries: 73
 │   └── wy: Wyoming
 ├── UY: Uruguay
 ├── ZA: South Africa
+├── ZM: Zambia
 └── ZW: Zimbabwe
 ```
 <!-- tree! -->

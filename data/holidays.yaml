@@ -5213,7 +5213,6 @@ holidays:
       10 Dhu al-Hijjah +114h:
         _name: 10 Dhu al-Hijjah
 
-
   # @source http://www.ilo.org/dyn/travail/docs/2234/Public%20Holidays%20Ordinance%20-%201966%20Amendment.pdf
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Tanzania
   TZ:
@@ -6287,6 +6286,72 @@ holidays:
       substitutes 12-26 if sunday then next monday:
         name:
           en: Public Holiday
+
+
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Zambia
+  # @source http://www.parliament.gov.zm/sites/default/files/documents/acts/Public%20Holidays%20Act.pdf
+  ZM:
+    names:
+      en: Zambia
+    dayoff: sunday
+    langs:
+      - en
+    zones:
+      - Africa/Maputo
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      03-09:
+        name:
+          en: Women’s Day
+      03-12:
+        name:
+          en: Youth Day
+      substitutes 03-12 if sunday then next monday:
+        substitute: true
+        name:
+          en: Youth Day
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if sunday then next monday:
+        substitute: true
+        _name: 05-01
+      05-25:
+        name:
+          en: African Freedom Day
+      substitutes 05-25 if sunday then next monday:
+        substitute: true
+        name:
+          en: African Freedom Day
+      1st monday after 07-01:
+        name:
+          en: Heroes' Day
+      tuesday after 1st monday after 07-01:
+        name:
+          en: Unity Day
+      1st monday after 08-01:
+        name:
+          en: Farmers' Day
+      '2015-10-18':
+        name:
+          en: National day of Prayers
+      10-24:
+        _name: Independence Day
+      substitutes 10-24 if sunday then next monday:
+        substitute: true
+        _name: Independence Day
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if sunday then next monday:
+        substitute: true
+        _name: 12-25
 
   ZW:
     names:
