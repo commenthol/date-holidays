@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 84
+Countries: 85
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -88,6 +88,7 @@ Countries: 84
 ├── BZ: Belize
 ├── CA: Canada
 ├── CD: République démocratique du Congo
+├── CF: République centrafricaine
 ├── CH: Schweiz
 │   ├── zh: Kanton Zürich
 │   ├── be: Kanton Bern
