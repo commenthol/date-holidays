@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T22:00:00.000Z",
+    "end": "2019-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-01-09 00:00:00",
+    "start": "2019-01-08T22:00:00.000Z",
+    "end": "2019-01-09T22:00:00.000Z",
+    "name": "Peace Agreement Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-03-08 00:00:00",
+    "start": "2019-03-07T22:00:00.000Z",
+    "end": "2019-03-08T22:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-05-16 00:00:00",
+    "start": "2019-05-15T22:00:00.000Z",
+    "end": "2019-05-16T22:00:00.000Z",
+    "name": "SPLA Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-04 18:00:00",
+    "start": "2019-06-04T16:00:00.000Z",
+    "end": "2019-06-05T16:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+  },
+  {
+    "date": "2019-07-01 00:00:00",
+    "start": "2019-06-30T22:00:00.000Z",
+    "end": "2019-07-01T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2019-07-09 00:00:00",
+    "start": "2019-07-08T22:00:00.000Z",
+    "end": "2019-07-09T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-07-30 00:00:00",
+    "start": "2019-07-29T22:00:00.000Z",
+    "end": "2019-07-30T22:00:00.000Z",
+    "name": "Martyrs Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-08-12 18:00:00",
+    "start": "2019-08-12T16:00:00.000Z",
+    "end": "2019-08-13T16:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T22:00:00.000Z",
+    "end": "2019-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-28 00:00:00",
+    "start": "2019-12-27T22:00:00.000Z",
+    "end": "2019-12-28T22:00:00.000Z",
+    "name": "Republic Day",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-31 00:00:00",
+    "start": "2019-12-30T22:00:00.000Z",
+    "end": "2019-12-31T22:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "public"
+  }
+]

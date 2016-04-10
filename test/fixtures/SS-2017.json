@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T22:00:00.000Z",
+    "end": "2017-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-01-09 00:00:00",
+    "start": "2017-01-08T22:00:00.000Z",
+    "end": "2017-01-09T22:00:00.000Z",
+    "name": "Peace Agreement Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-03-08 00:00:00",
+    "start": "2017-03-07T22:00:00.000Z",
+    "end": "2017-03-08T22:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-05-16 00:00:00",
+    "start": "2017-05-15T22:00:00.000Z",
+    "end": "2017-05-16T22:00:00.000Z",
+    "name": "SPLA Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-06-25 18:00:00",
+    "start": "2017-06-25T16:00:00.000Z",
+    "end": "2017-06-26T16:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public"
+  },
+  {
+    "date": "2017-07-03 00:00:00",
+    "start": "2017-07-02T22:00:00.000Z",
+    "end": "2017-07-03T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2017-07-09 00:00:00",
+    "start": "2017-07-08T22:00:00.000Z",
+    "end": "2017-07-09T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-07-30 00:00:00",
+    "start": "2017-07-29T22:00:00.000Z",
+    "end": "2017-07-30T22:00:00.000Z",
+    "name": "Martyrs Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-09-02 18:00:00",
+    "start": "2017-09-02T16:00:00.000Z",
+    "end": "2017-09-03T16:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T22:00:00.000Z",
+    "end": "2017-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-28 00:00:00",
+    "start": "2017-12-27T22:00:00.000Z",
+    "end": "2017-12-28T22:00:00.000Z",
+    "name": "Republic Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-12-31 00:00:00",
+    "start": "2017-12-30T22:00:00.000Z",
+    "end": "2017-12-31T22:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "public"
+  }
+]
