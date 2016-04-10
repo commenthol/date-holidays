@@ -2519,6 +2519,58 @@
         }
       }
     },
+    "CM": {
+      "names": {
+        "fr": "Cameroun",
+        "en": "Cameroon"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "fr",
+        "en"
+      ],
+      "zones": [
+        "Africa/Lagos"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-11": {
+          "name": {
+            "fr": "Fête de la Jeunesse",
+            "en": "Youth Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "05-01 if sunday then next monday": {
+          "_name": "05-01"
+        },
+        "05-20": {
+          "name": {
+            "fr": "Fête nationale ou de l'unité",
+            "en": "National Day"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
     "CO": {
       "names": {
         "es": "Colombia",
@@ -3941,11 +3993,6 @@
         },
         "05-01": {
           "_name": "05-01"
-        },
-        "05-06": {
-          "name": {
-            "en": "Martyr's Day"
-          }
         },
         "easter 50": {
           "_name": "easter 50"
@@ -10429,10 +10476,10 @@
     },
     "1 Shawwal": {
       "name": {
-        "en": "Eid al-Fitr (End of Ramadan)",
+        "en": "End of Ramadan (Eid al-Fitr)",
         "bs": "Ramazanski bajram",
         "de": "Zuckerfest",
-        "fr": "Eid al-Fitr",
+        "fr": "Fête de fin du Ramadan",
         "nl": "Suikerfeest (Eid al-Fitr)",
         "sq": "Fitër bajrami",
         "tr": "Bayramı",
@@ -10441,10 +10488,10 @@
     },
     "10 Dhu al-Hijjah": {
       "name": {
-        "en": "Eid al-Adha (Feast of the Sacrifice)",
+        "en": "Feast of the Sacrifice (Eid al-Adha)",
         "bs": "Kurbanski bajram",
         "de": "Opferfest",
-        "fr": "Eid al-Adha",
+        "fr": "Fête du mouton",
         "nl": "Offerfeest (Eid Al-Adha)",
         "sq": "Kurban bajrami",
         "tr": "Kurban Bayramı",

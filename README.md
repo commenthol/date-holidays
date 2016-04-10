@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 83
+Countries: 84
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -121,6 +121,7 @@ Countries: 83
 │   ├── pa: Parinacota
 │   └── ta: Tarapacá
 ├── CG: République du Congo
+├── CM: Cameroun
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba

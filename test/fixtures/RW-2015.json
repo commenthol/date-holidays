@@ -59,7 +59,7 @@
     "date": "2015-07-16 18:00:00",
     "start": "2015-07-16T16:00:00.000Z",
     "end": "2015-07-17T16:00:00.000Z",
-    "name": "Eid al-Fitr",
+    "name": "Fête de fin du Ramadan",
     "type": "public"
   },
   {
@@ -80,7 +80,7 @@
     "date": "2015-09-22 18:00:00",
     "start": "2015-09-22T16:00:00.000Z",
     "end": "2015-09-23T16:00:00.000Z",
-    "name": "Eid al-Adha",
+    "name": "Fête du mouton",
     "type": "public"
   },
   {

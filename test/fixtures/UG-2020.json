@@ -66,7 +66,7 @@
     "date": "2020-05-23 18:00:00",
     "start": "2020-05-23T15:00:00.000Z",
     "end": "2020-05-24T15:00:00.000Z",
-    "name": "Eid al-Fitr (End of Ramadan)",
+    "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public"
   },
   {
@@ -87,7 +87,7 @@
     "date": "2020-07-30 18:00:00",
     "start": "2020-07-30T15:00:00.000Z",
     "end": "2020-07-31T15:00:00.000Z",
-    "name": "Eid al-Adha (Feast of the Sacrifice)",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public"
   },
   {

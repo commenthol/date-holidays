@@ -59,7 +59,7 @@
     "date": "2017-06-24 18:00:00",
     "start": "2017-06-24T15:00:00.000Z",
     "end": "2017-06-26T15:00:00.000Z",
-    "name": "Eid al-Fitr (End of Ramadan)",
+    "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public"
   },
   {
@@ -80,7 +80,7 @@
     "date": "2017-08-31 18:00:00",
     "start": "2017-08-31T15:00:00.000Z",
     "end": "2017-09-01T15:00:00.000Z",
-    "name": "Eid al-Adha (Feast of the Sacrifice)",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public"
   },
   {

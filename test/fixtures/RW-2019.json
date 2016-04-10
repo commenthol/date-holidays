@@ -45,7 +45,7 @@
     "date": "2019-06-03 18:00:00",
     "start": "2019-06-03T16:00:00.000Z",
     "end": "2019-06-04T16:00:00.000Z",
-    "name": "Eid al-Fitr",
+    "name": "Fête de fin du Ramadan",
     "type": "public"
   },
   {
@@ -73,7 +73,7 @@
     "date": "2019-08-10 18:00:00",
     "start": "2019-08-10T16:00:00.000Z",
     "end": "2019-08-11T16:00:00.000Z",
-    "name": "Eid al-Adha",
+    "name": "Fête du mouton",
     "type": "public"
   },
   {
