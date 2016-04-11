@@ -3793,6 +3793,85 @@
         }
       }
     },
+    "ET": {
+      "names": {
+        "am": "ኢትዮጵያ",
+        "en": "Ethiopia"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "am",
+        "en"
+      ],
+      "zones": [
+        "Africa/Nairobi"
+      ],
+      "days": {
+        "01-06 in non-leap years": {
+          "_name": "12-25"
+        },
+        "01-07 in leap years": {
+          "_name": "12-25"
+        },
+        "01-19": {
+          "_name": "01-06"
+        },
+        "03-02": {
+          "name": {
+            "am": "የዓድዋ ድል በዓል",
+            "en": "Victory at Adwa Day"
+          }
+        },
+        "03-28": {
+          "name": {
+            "am": "የቀይ ሽብር መታሰቢያ ቀን",
+            "en": "Day of Lament"
+          }
+        },
+        "orthodox -2": {
+          "_name": "easter -2"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "05-28": {
+          "name": {
+            "am": "ደርግ የወደቀበት ቀን",
+            "en": "Derg Downfall Day"
+          }
+        },
+        "09-11 in non-leap years": {
+          "_name": "01-01"
+        },
+        "09-12 in leap years": {
+          "_name": "01-01"
+        },
+        "09-27 in non-leap years": {
+          "name": {
+            "am": "ብርሐነ-መስቀል",
+            "en": "Finding of the True Cross"
+          }
+        },
+        "09-28 in leap years": {
+          "name": {
+            "am": "ብርሐነ-መስቀል",
+            "en": "Finding of the True Cross"
+          }
+        },
+        "1 Ramadan": {
+          "_name": "1 Ramadan"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
     "FI": {
       "names": {
         "fi": "Suomi",
@@ -10081,6 +10160,7 @@
     "01-01": {
       "name": {
         "en": "New Year's Day",
+        "am": "እንቁጣጣሽ",
         "bg": "Нова Година",
         "bs": "Novogodisnji dan",
         "ca": "Any nou",
@@ -10117,6 +10197,7 @@
     "01-06": {
       "name": {
         "en": "Epiphany",
+        "am": "ብርሐነ ጥምቀት",
         "de": "Heilige Drei Könige",
         "es": "Día de los Reyes Magos",
         "et": "kolmekuningapäev",
@@ -10301,6 +10382,7 @@
     "12-25": {
       "name": {
         "en": "Christmas Day",
+        "am": "ልደተ-ለእግዚእነ/ ገና",
         "bg": "Коледа",
         "bs": "Božić",
         "de-at": "Christtag",
@@ -10433,6 +10515,7 @@
     "easter -2": {
       "name": {
         "en": "Good Friday",
+        "am": "ስቅለት",
         "bg": "Разпети петък",
         "bs": "Dobar petak",
         "cz": "Velikonoční pátek",
@@ -10470,6 +10553,7 @@
     "easter": {
       "name": {
         "en": "Easter Sunday",
+        "am": "ፋሲካ",
         "bg": "Великден",
         "bs": "Vaskrs",
         "cz": "Neděle velikonoční",
@@ -10598,6 +10682,7 @@
     "1 Shawwal": {
       "name": {
         "en": "End of Ramadan (Eid al-Fitr)",
+        "am": "ዒድ አል ፈጥር",
         "bs": "Ramazanski bajram",
         "de": "Zuckerfest",
         "fr": "Fête de fin du Ramadan",
@@ -10610,6 +10695,7 @@
     "10 Dhu al-Hijjah": {
       "name": {
         "en": "Feast of the Sacrifice (Eid al-Adha)",
+        "am": "ዒድ አል አድሐ",
         "bs": "Kurbanski bajram",
         "de": "Opferfest",
         "fr": "Fête du mouton",
@@ -10622,6 +10708,7 @@
     "12 Rabi al-awwal": {
       "name": {
         "en": "Mawlid",
+        "am": "መውሊድ",
         "bs": "Mevlud",
         "sq": "Mevludi"
       }
@@ -10643,6 +10730,7 @@
     "1 Ramadan": {
       "name": {
         "en": "First day of Ramadan",
+        "am": "ረመዳን",
         "bs": "Prvi dan posta",
         "sq": "Dita e parë e agjërimit"
       }

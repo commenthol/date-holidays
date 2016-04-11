@@ -273,12 +273,14 @@ E.g. "Christmas" becomes "Christmas (substitute day)"
 
 ### Enable Date only for odd/ even numbered years
 
-Rule: `MM-DD in (even|odd) years`
+Rule: `MM-DD in (even|odd|leap|non-leap) years`
 
 **Examples**:
 
 - `03-02 in even years` if year is even numbered (e.g. 2012) then March 2nd will be a holiday
 - `04-03 in odd years` if year is odd numbered (e.g. 2011) then April 3rd will be a holiday
+- `05-04 in leap years` if year is a leap year (e.g. 2012) then May 4th will be a holiday
+- `06-05 in non-leap years` if year is not a leap year (e.g. 2011) then June 5th will be a holiday
 
 ### Enable Date only for certain periods of years
 

@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 86
+Countries: 87
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -152,6 +152,7 @@ Countries: 86
 ├── EE: Eesti
 ├── ES: España
 │   └── madrid: Comunidad de Madrid
+├── ET: ኢትዮጵያ
 ├── FI: Suomi
 ├── FR: France
 │   ├── basrhin: Département Bas-Rhin
@@ -228,7 +229,7 @@ Countries: 86
 ├── RU: Россия
 ├── RW: Repubulika y'u Rwanda
 ├── SE: Sverige
-├── SS: SS
+├── SS: South Sudan
 ├── SV: El Salvador
 │   └── san: San Salvador
 ├── TR: Türkiye

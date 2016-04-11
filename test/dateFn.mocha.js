@@ -408,6 +408,39 @@ describe('#dateFn', function () {
       assert.ok(!res)
     })
 
+    it('11-01 in leap years for 2000', function () {
+      var fn = dateFn(tc('11-01 in leap years'))
+      var res = fn(2000)
+      assert.equal(toIso(res.start), 'wed 2000-11-01 00:00')
+      assert.equal(toIso(res.end), 'thu 2000-11-02 00:00')
+    })
+
+    it('11-01 in leap years for 2012', function () {
+      var fn = dateFn(tc('11-01 in leap years'))
+      var res = fn(2012)
+      assert.equal(toIso(res.start), 'thu 2012-11-01 00:00')
+      assert.equal(toIso(res.end), 'fri 2012-11-02 00:00')
+    })
+
+    it('11-01 in leap years for 2014', function () {
+      var fn = dateFn(tc('11-01 in leap years'))
+      var res = fn(2014)
+      assert.ok(!res)
+    })
+
+    it('11-01 in non-leap years for 2011', function () {
+      var fn = dateFn(tc('11-01 in non-leap years'))
+      var res = fn(2011)
+      assert.equal(toIso(res.start), 'tue 2011-11-01 00:00')
+      assert.equal(toIso(res.end), 'wed 2011-11-02 00:00')
+    })
+
+    it('11-01 in non-leap years for 2012', function () {
+      var fn = dateFn(tc('11-01 in non-leap years'))
+      var res = fn(2012)
+      assert.ok(!res)
+    })
+
     it('tuesday after 1st monday after 11-01 in even years', function () {
       var fn = dateFn(tc('tuesday after 1st monday after 11-01 in even years'))
       var res = fn(2014)

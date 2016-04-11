@@ -586,6 +586,28 @@ var testcases = {
       since: undefined
     }
   },
+  '11-01 in leap years': {
+    year: undefined,
+    month: 11,
+    day: 1,
+    hour: undefined,
+    yearRule: {
+      cardinality: 'leap',
+      every: undefined,
+      since: undefined
+    }
+  },
+  '11-01 in non-leap years': {
+    year: undefined,
+    month: 11,
+    day: 1,
+    hour: undefined,
+    yearRule: {
+      cardinality: 'non-leap',
+      every: undefined,
+      since: undefined
+    }
+  },
   'tuesday after 1st monday after 11-01 in even years': {
     fn: 'dateDir',
     weekday2: 'tuesday',

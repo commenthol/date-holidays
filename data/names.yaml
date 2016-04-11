@@ -11,6 +11,7 @@ names:
   01-01:
     name:
       en: New Year's Day
+      am: እንቁጣጣሽ
       bg: Нова Година
       bs: Novogodisnji dan
       ca: Any nou
@@ -46,6 +47,7 @@ names:
   01-06:
     name:
       en: Epiphany
+      am: ብርሐነ ጥምቀት
       de: Heilige Drei Könige
       #de: Erscheinung des Herrn
       es: Día de los Reyes Magos
@@ -207,6 +209,7 @@ names:
   12-25:
     name:
       en: Christmas Day
+      am: ልደተ-ለእግዚእነ/ ገና
       bg: Коледа
       bs: Božić
       de-at: Christtag
@@ -329,6 +332,7 @@ names:
   easter -2:  # Good Friday
     name:
       en: Good Friday
+      am: ስቅለት
       bg: Разпети петък
       bs: Dobar petak
       cz: Velikonoční pátek
@@ -362,6 +366,7 @@ names:
   easter:     # Easter
     name:
       en: Easter Sunday
+      am: ፋሲካ
       bg: Великден
       bs: Vaskrs
       cz: Neděle velikonoční
@@ -469,15 +474,16 @@ names:
       pt: Corpo de Deus
 
   # muslim holidays
-  1 Muharram:
+  1 Muharram: # Islamic New Year
     name:
       en: Islamic New Year
       bs: Nova hidžretska godina
       hr: Nova hidžretska godina
       sq: Viti i Ri hixhri
-  1 Shawwal:
+  1 Shawwal:  # End of Ramadan
     name:
       en: End of Ramadan (Eid al-Fitr)
+      am: ዒድ አል ፈጥር
       bs: Ramazanski bajram
       de: Zuckerfest
       fr: Fête de fin du Ramadan
@@ -485,9 +491,10 @@ names:
       sq: Fitër bajrami
       tr: Bayramı
       sw: Idd-ul-Fitr
-  10 Dhu al-Hijjah:
+  10 Dhu al-Hijjah: # Feast of the Sacrifice
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
+      am: ዒድ አል አድሐ
       bs: Kurbanski bajram
       de: Opferfest
       fr: Fête du mouton
@@ -495,27 +502,29 @@ names:
       sq: Kurban bajrami
       tr: Kurban Bayramı
       sw: Idd-ul-Azha
-  12 Rabi al-awwal:
+  12 Rabi al-awwal: # Mawlid
     name:
       en: Mawlid
+      am: መውሊድ
       bs: Mevlud
       sq: Mevludi
-  27 Rajab:
+  27 Rajab:   # Laylat al-Mi'raj
     name:
       en: Laylat al-Mi'raj
       bs: Lejletul Mi'radž
       sq: Nata e Miraxhit
-  15 Shaban:
+  15 Shaban:  # Laylat al-Bara'at
     name:
       en: Laylat al-Bara'at
       bs: Lejletul berat
       sq: Nata e Beratit
-  1 Ramadan:
+  1 Ramadan:  # First day of Ramadan
     name:
       en: First day of Ramadan
+      am: ረመዳን
       bs: Prvi dan posta
       sq: Dita e parë e agjërimit
-  27 Ramadan:
+  27 Ramadan: # Laylat al-Qadr
     name:
       en: Laylat al-Qadr
       bs: Lejletul kadr
