@@ -46,7 +46,7 @@ If you are missing holidays from your country, state, region please consider [co
 <!-- !tree -->
 
 ```
-Countries: 87
+Countries: 88
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
 ├── AO: Angola
@@ -232,6 +232,7 @@ Countries: 87
 ├── SS: South Sudan
 ├── SV: El Salvador
 │   └── san: San Salvador
+├── TG: République togolaise
 ├── TR: Türkiye
 ├── TZ: Tanzania
 ├── VE: Venezuela
