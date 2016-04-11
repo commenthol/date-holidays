@@ -3,6 +3,7 @@
 /* global describe, it */
 
 var fs = require('fs')
+var path = require('path')
 var assert = require('assert')
 var Holidays = require('..')
 
@@ -25,7 +26,7 @@ for (var i = 2; i < process.argv.length; i++) {
 var years = [ 2015, 2016, 2017, 2018, 2019, 2020 ]
 
 function filename (name) {
-  var file = __dirname + '/fixtures/' + name + '.json'
+  var file = path.join(__dirname, 'fixtures', name + '.json')
   return file
 }
 

@@ -2,6 +2,7 @@
 
 /* global describe, it */
 
+var path = require('path')
 var assert = require('assert')
 var parser = require('../lib/parser')
 
@@ -23,7 +24,7 @@ for (var i in process.argv) {
 if (writetests) {
   ;(function () {
     var store = {}
-    var filename = __dirname + '/../parser.json'
+    var filename = path.join(__dirname, '../parser.json')
     for (var name in exp) {
       var res = parser(name)
       store[name] = res
