@@ -1,0 +1,73 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T23:00:00.000Z",
+    "end": "2015-01-01T23:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T23:00:00.000Z",
+    "end": "2015-04-03T23:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T23:00:00.000Z",
+    "end": "2015-05-01T23:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2015-06-04 00:00:00",
+    "start": "2015-06-03T23:00:00.000Z",
+    "end": "2015-06-04T23:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public"
+  },
+  {
+    "date": "2015-06-05 00:00:00",
+    "start": "2015-06-04T23:00:00.000Z",
+    "end": "2015-06-05T23:00:00.000Z",
+    "substitute": true,
+    "name": "Natalicio de Teodoro Obiang (día sustituto)",
+    "type": "public"
+  },
+  {
+    "date": "2015-08-03 00:00:00",
+    "start": "2015-08-02T23:00:00.000Z",
+    "end": "2015-08-03T23:00:00.000Z",
+    "name": "Día del Golpe de Libertad",
+    "type": "public"
+  },
+  {
+    "date": "2015-08-15 00:00:00",
+    "start": "2015-08-14T23:00:00.000Z",
+    "end": "2015-08-15T23:00:00.000Z",
+    "name": "Día de la Constitución",
+    "type": "public"
+  },
+  {
+    "date": "2015-10-12 00:00:00",
+    "start": "2015-10-11T23:00:00.000Z",
+    "end": "2015-10-12T23:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-08 00:00:00",
+    "start": "2015-12-07T23:00:00.000Z",
+    "end": "2015-12-08T23:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T23:00:00.000Z",
+    "end": "2015-12-25T23:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]

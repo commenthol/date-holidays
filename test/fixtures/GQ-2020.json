@@ -1,0 +1,73 @@
+[
+  {
+    "date": "2020-01-01 00:00:00",
+    "start": "2019-12-31T23:00:00.000Z",
+    "end": "2020-01-01T23:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-09T23:00:00.000Z",
+    "end": "2020-04-10T23:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2020-05-01 00:00:00",
+    "start": "2020-04-30T23:00:00.000Z",
+    "end": "2020-05-01T23:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2020-06-05 00:00:00",
+    "start": "2020-06-04T23:00:00.000Z",
+    "end": "2020-06-05T23:00:00.000Z",
+    "substitute": true,
+    "name": "Natalicio de Teodoro Obiang (día sustituto)",
+    "type": "public"
+  },
+  {
+    "date": "2020-06-11 00:00:00",
+    "start": "2020-06-10T23:00:00.000Z",
+    "end": "2020-06-11T23:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public"
+  },
+  {
+    "date": "2020-08-03 00:00:00",
+    "start": "2020-08-02T23:00:00.000Z",
+    "end": "2020-08-03T23:00:00.000Z",
+    "name": "Día del Golpe de Libertad",
+    "type": "public"
+  },
+  {
+    "date": "2020-08-15 00:00:00",
+    "start": "2020-08-14T23:00:00.000Z",
+    "end": "2020-08-15T23:00:00.000Z",
+    "name": "Día de la Constitución",
+    "type": "public"
+  },
+  {
+    "date": "2020-10-12 00:00:00",
+    "start": "2020-10-11T23:00:00.000Z",
+    "end": "2020-10-12T23:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2020-12-08 00:00:00",
+    "start": "2020-12-07T23:00:00.000Z",
+    "end": "2020-12-08T23:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-24T23:00:00.000Z",
+    "end": "2020-12-25T23:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]

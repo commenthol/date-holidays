@@ -1,0 +1,81 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T23:00:00.000Z",
+    "end": "2019-01-01T23:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T23:00:00.000Z",
+    "end": "2019-04-19T23:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T23:00:00.000Z",
+    "end": "2019-05-01T23:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-05 00:00:00",
+    "start": "2019-06-04T23:00:00.000Z",
+    "end": "2019-06-05T23:00:00.000Z",
+    "substitute": true,
+    "name": "Natalicio de Teodoro Obiang (día sustituto)",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-20 00:00:00",
+    "start": "2019-06-19T23:00:00.000Z",
+    "end": "2019-06-20T23:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public"
+  },
+  {
+    "date": "2019-08-03 00:00:00",
+    "start": "2019-08-02T23:00:00.000Z",
+    "end": "2019-08-03T23:00:00.000Z",
+    "name": "Día del Golpe de Libertad",
+    "type": "public"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-14T23:00:00.000Z",
+    "end": "2019-08-15T23:00:00.000Z",
+    "name": "Día de la Constitución",
+    "type": "public"
+  },
+  {
+    "date": "2019-10-12 00:00:00",
+    "start": "2019-10-11T23:00:00.000Z",
+    "end": "2019-10-12T23:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-08 00:00:00",
+    "start": "2019-12-07T23:00:00.000Z",
+    "end": "2019-12-08T23:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-09 00:00:00",
+    "start": "2019-12-08T23:00:00.000Z",
+    "end": "2019-12-09T23:00:00.000Z",
+    "name": "La inmaculada concepción (día sustituto)",
+    "substitute": true,
+    "type": "public"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T23:00:00.000Z",
+    "end": "2019-12-25T23:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  }
+]

@@ -24,7 +24,7 @@
       # 01-01:
         # _name: 01-01
 
-version: '2016-04-09'
+version: '2016-04-14'
 
 license: CC-BY-SA-3
 
@@ -3191,6 +3191,80 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
+
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Equatorial_Guinea
+  # @source https://es.wikipedia.org/wiki/Guinea_Ecuatorial
+  # @source https://leydeguinea.files.wordpress.com/2014/08/013_boletin-oficial-del-estado-2.pdf
+  GQ:
+    names:
+      es: República de Guinea Ecuatorial
+      fr: République de Guinée équatoriale
+      pt: República da Guiné Equatorial
+      en: Republic of Equatorial Guinea
+    dayoff: sunday
+    weekend:
+      - saturday
+      - sunday
+    langs:
+      - es
+      - fr
+      - pt
+    zones:
+      - Africa/Lagos
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if sunday then next monday:
+        substitute: true
+        _name: 05-01
+      easter 60:
+        _name: easter 60
+      06-05:
+        substitute: true
+        name:
+          es: Natalicio de Teodoro Obiang
+          en: President's Day
+      substitutes 06-05 if sunday then next monday:
+        substitute: true
+        name:
+          es: Natalicio de Teodoro Obiang
+          en: President's Day
+      08-03:
+        name:
+          es: Día del Golpe de Libertad
+          en: Armed Forces Day
+      substitutes 08-03 if sunday then next monday:
+        substitute: true
+        name:
+          es: Día del Golpe de Libertad
+          en: Armed Forces Day
+      08-15:
+        _name: Constitution Day
+      substitutes 08-15 if sunday then next monday:
+        substitute: true
+        _name: Constitution Day
+      10-12:
+        _name: Independence Day
+      substitutes 10-12 if sunday then next monday:
+        substitute: true
+        _name: Independence Day
+      12-08:
+        _name: 12-08
+      substitutes 12-08 if sunday then next monday:
+        substitute: true
+        _name: 12-08
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if sunday then next monday:
+        substitute: true
+        _name: 12-25
 
   # @source http://www.oj.gob.gt/estadisticalaboral/Leyes%20en%20Materia%20de%20Trabajo%20y%20Prevision%20Social/Leyes%20Nacionales%20en%20Materia%20de%20Trabajo%20y%20Prevision%20Social/63298%20DECRETO%20DEL%20CONGRESO%2042-2010%20Ley%20que%20Promueve%20el%20Turismo%20Interno.pdf
   # @source http://www.oj.gob.gt/es/QueEsOJ/EstructuraOJ/UnidadesAdministrativas/CentroAnalisisDocumentacionJudicial/cds/CDs%20codigos/CODIGO_TRABAJO/codigo.html
