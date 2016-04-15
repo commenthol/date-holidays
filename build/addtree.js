@@ -1,13 +1,14 @@
 'use strict'
 
 var path = require('path')
+
 /**
  * include new generated tree of supported countries to README.md file
  */
 if (module === require.main) {
   var fs = require('fs')
   var tree = require('./tree')
-  var readmeFile = path.join(__dirname, '../README.md')
+  var readmeFile = path.resolve(__dirname, '..', 'README.md')
   var buf = (function () {
     var self = {
       str: '',

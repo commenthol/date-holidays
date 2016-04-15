@@ -2,7 +2,7 @@
 
 /* global describe, it */
 
-var m = require('mergee')
+var _ = require('lodash')
 var assert = require('assert')
 var dateFn = require('../lib/dateFn')
 var toIso = require('./lib/helper').toIso
@@ -10,7 +10,7 @@ var toIso = require('./lib/helper').toIso
 var _tc = require('./lib/testcases.js')
 
 function tc (key) {
-  var o = m.merge({}, _tc[key])
+  var o = _.merge({}, _tc[key])
   assert.ok(o)
   return o
 }

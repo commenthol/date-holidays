@@ -14,8 +14,8 @@ var argv = process.argv
   })
 
 var config = {
-  data   : argv[0] || path.join(__dirname, '../data/holidays.yaml'),
-  license: argv[1] || path.join(__dirname, '../LICENSE')
+  data   : argv[0] || path.resolve(__dirname, '..', 'data/holidays.yaml'),
+  license: argv[1] || path.resolve(__dirname, '..', 'LICENSE')
 }
 
 function load (filename) {

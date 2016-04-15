@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "date-easter": "^0.2.2",
-    "mergee": "^0.2.3",
+    "lodash": "^4.11.1",
     "moment-timezone": "^0.5.3",
     "moonbeams": "^2.0.0"
   },
