@@ -291,51 +291,58 @@ describe('#dateFn', function () {
   describe('Change to different weekday if date falls on a certain weekday', function () {
     it('01-01 if monday then next monday', function () {
       var fn = dateFn(tc('01-01 if monday then next monday'))
-      var res = fn(2018)[0]
-      assert.equal(toIso(res.start), 'mon 2018-01-08 00:00')
-      assert.equal(toIso(res.end), 'tue 2018-01-09 00:00')
+      var res = fn(2018)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'mon 2018-01-08 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2018-01-09 00:00')
     })
 
     it('01-01 if monday then next monday for 2015', function () {
       var fn = dateFn(tc('01-01 if monday then next monday'))
-      var res = fn(2015)[0]
-      assert.equal(toIso(res.start), 'thu 2015-01-01 00:00')
-      assert.equal(toIso(res.end), 'fri 2015-01-02 00:00')
+      var res = fn(2015)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'thu 2015-01-01 00:00')
+      assert.equal(toIso(res[0].end), 'fri 2015-01-02 00:00')
     })
 
     it('01-01 if sunday then previous monday', function () {
       var fn = dateFn(tc('01-01 if sunday then previous monday'))
-      var res = fn(2017)[0]
-      assert.equal(toIso(res.start), 'mon 2016-12-26 00:00')
-      assert.equal(toIso(res.end), 'tue 2016-12-27 00:00')
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'mon 2016-12-26 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2016-12-27 00:00')
     })
 
     it('01-01 if sunday then previous monday for 2016', function () {
       var fn = dateFn(tc('01-01 if sunday then previous monday'))
-      var res = fn(2016)[0]
-      assert.equal(toIso(res.start), 'fri 2016-01-01 00:00')
-      assert.equal(toIso(res.end), 'sat 2016-01-02 00:00')
+      var res = fn(2016)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'fri 2016-01-01 00:00')
+      assert.equal(toIso(res[0].end), 'sat 2016-01-02 00:00')
     })
 
     it('01-01 if sunday then next sunday', function () {
       var fn = dateFn(tc('01-01 if sunday then next sunday'))
-      var res = fn(2017)[0]
-      assert.equal(toIso(res.start), 'sun 2017-01-08 00:00')
-      assert.equal(toIso(res.end), 'mon 2017-01-09 00:00')
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'sun 2017-01-08 00:00')
+      assert.equal(toIso(res[0].end), 'mon 2017-01-09 00:00')
     })
 
     it('01-01 if sunday then previous sunday', function () {
       var fn = dateFn(tc('01-01 if sunday then previous sunday'))
-      var res = fn(2017)[0]
-      assert.equal(toIso(res.start), 'sun 2016-12-25 00:00')
-      assert.equal(toIso(res.end), 'mon 2016-12-26 00:00')
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'sun 2016-12-25 00:00')
+      assert.equal(toIso(res[0].end), 'mon 2016-12-26 00:00')
     })
 
     it('substitutes 01-01 if sunday then next tuesday in 2017', function () {
       var fn = dateFn(tc('substitutes 01-01 if sunday then next tuesday'))
-      var res = fn(2017)[0]
-      assert.equal(toIso(res.start), 'tue 2017-01-03 00:00')
-      assert.equal(toIso(res.end), 'wed 2017-01-04 00:00')
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'tue 2017-01-03 00:00')
+      assert.equal(toIso(res[0].end), 'wed 2017-01-04 00:00')
     })
 
     it('substitutes 01-01 if sunday then next tuesday in 2016', function () {
@@ -346,38 +353,80 @@ describe('#dateFn', function () {
 
     it('substitutes 1 Shawwal if wednesday,saturday,sunday then next monday in 2016', function () {
       var fn = dateFn(tc('substitutes 1 Shawwal if wednesday,saturday,sunday then next monday'))
-      var res = fn(2016)[0]
+      var res = fn(2016)
       // console.log(res)
-      assert.equal(toIso(res.start), 'mon 2016-07-11 00:00')
-      assert.equal(toIso(res.end), 'tue 2016-07-12 00:00')
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'mon 2016-07-11 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2016-07-12 00:00')
     })
 
     it('substitutes 1 Shawwal if wednesday,saturday,sunday then next monday in 2018', function () {
       var fn = dateFn(tc('substitutes 1 Shawwal if wednesday,saturday,sunday then next monday'))
-      var res = fn(2018)[0]
+      var res = fn(2018)
       // console.log(res)
       assert.ok(!res.start)
     })
 
     it('10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday 2015', function () {
       var fn = dateFn(tc('10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday'))
-      var res = fn(2015)[0]
-      assert.equal(toIso(res.start), 'mon 2015-10-12 00:00')
-      assert.equal(toIso(res.end), 'tue 2015-10-13 00:00')
+      var res = fn(2015)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'mon 2015-10-12 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2015-10-13 00:00')
     })
 
     it('10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday 2016', function () {
       var fn = dateFn(tc('10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday'))
-      var res = fn(2016)[0]
-      assert.equal(toIso(res.start), 'mon 2016-10-10 00:00')
-      assert.equal(toIso(res.end), 'tue 2016-10-11 00:00')
+      var res = fn(2016)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'mon 2016-10-10 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2016-10-11 00:00')
     })
 
     it('10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday 2017', function () {
       var fn = dateFn(tc('10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday'))
-      var res = fn(2017)[0]
-      assert.equal(toIso(res.start), 'mon 2017-10-16 00:00')
-      assert.equal(toIso(res.end), 'tue 2017-10-17 00:00')
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'mon 2017-10-16 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2017-10-17 00:00')
+    })
+  })
+
+  describe('Observe up to 2 holidays if date falls on a certain weekday', function () {
+    it('01-01 and if monday then next monday for 2018', function () {
+      var fn = dateFn(tc('01-01 and if monday then next monday'))
+      var res = fn(2018)
+      assert.equal(res.length, 2)
+      assert.equal(toIso(res[0].start), 'mon 2018-01-01 00:00')
+      assert.equal(toIso(res[0].end), 'tue 2018-01-02 00:00')
+      assert.equal(toIso(res[1].start), 'mon 2018-01-08 00:00')
+      assert.equal(toIso(res[1].end), 'tue 2018-01-09 00:00')
+    })
+
+    it('01-01 and if monday then next monday for 2017', function () {
+      var fn = dateFn(tc('01-01 and if monday then next monday'))
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'sun 2017-01-01 00:00')
+      assert.equal(toIso(res[0].end), 'mon 2017-01-02 00:00')
+    })
+
+    it('4 Shawwal and if saturday then next monday for 2016', function () {
+      var fn = dateFn(tc('4 Shawwal and if saturday then next monday'))
+      var res = fn(2016)
+      assert.equal(res.length, 2)
+      assert.equal(toIso(res[0].start), 'fri 2016-07-08 18:00')
+      assert.equal(toIso(res[0].end), 'sat 2016-07-09 18:00')
+      assert.equal(toIso(res[1].start), 'mon 2016-07-11 00:00')
+      assert.equal(toIso(res[1].end), 'tue 2016-07-12 00:00')
+    })
+
+    it('4 Shawwal and if saturday then next monday for 2017', function () {
+      var fn = dateFn(tc('4 Shawwal and if saturday then next monday'))
+      var res = fn(2017)
+      assert.equal(res.length, 1)
+      assert.equal(toIso(res[0].start), 'tue 2017-06-27 18:00')
+      assert.equal(toIso(res[0].end), 'wed 2017-06-28 18:00')
     })
   })
 

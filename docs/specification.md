@@ -271,6 +271,20 @@ E.g. "Christmas" becomes "Christmas (substitute day)"
 - `substitute 03-02 if sunday then next monday` if March 2nd is on a sunday then holiday will be on next monday
 - `substitute 04-13 if friday then previous monday` if Apri 13th is on a friday then holiday falls to previous monday
 
+### Observe the holiday as well as on a substitute day, if date falls on a certain weekday
+
+Rule: `MM-DD and if <weekday> then (next|previous) <weekday>`
+
+This line generates two holidays. One for `MM-DD` plus the observed substitute day following the rule.
+
+If `substitute: true` is given then the translated string from `names.yaml/names/substitutes` will be appended to the name.
+E.g. "Christmas" becomes "Christmas (substitute day)"
+
+**Examples**:
+
+- `03-02 and if sunday then next monday` if March 2nd is on a sunday then holiday will be on next monday
+- `04-13 and if friday then previous monday` if Apri 13th is on a friday then holiday falls to previous monday
+
 ### Enable Date only for odd/ even numbered years
 
 Rule: `MM-DD in (even|odd|leap|non-leap) years`

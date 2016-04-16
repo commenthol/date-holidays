@@ -7,10 +7,26 @@
     "type": "public"
   },
   {
+    "date": "2017-01-02 00:00:00",
+    "start": "2017-01-01T22:00:00.000Z",
+    "end": "2017-01-02T22:00:00.000Z",
+    "name": "New Year's Day (substitute day)",
+    "substitute": true,
+    "type": "public"
+  },
+  {
     "date": "2017-01-15 00:00:00",
     "start": "2017-01-14T22:00:00.000Z",
     "end": "2017-01-15T22:00:00.000Z",
     "name": "John Chilembwe Day",
+    "type": "public"
+  },
+  {
+    "date": "2017-01-16 00:00:00",
+    "start": "2017-01-15T22:00:00.000Z",
+    "end": "2017-01-16T22:00:00.000Z",
+    "substitute": true,
+    "name": "John Chilembwe Day (substitute day)",
     "type": "public"
   },
   {

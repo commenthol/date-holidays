@@ -299,6 +299,7 @@ var testcases = {
     day: 1,
     hour: 14,
     other: undefined,
+    observeBoth: false,
     rules: [{
       if: [
         'sunday'
@@ -421,6 +422,7 @@ var testcases = {
     day: 1,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [{
       if: [
         'monday'
@@ -436,6 +438,7 @@ var testcases = {
     day: 1,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [{
       if: [
         'sunday'
@@ -451,6 +454,7 @@ var testcases = {
     day: 1,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [{
       if: [
         'sunday'
@@ -466,12 +470,29 @@ var testcases = {
     day: 1,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [{
       if: [
         'sunday'
       ],
       direction: 'previous',
       then: 'sunday'
+    }]
+  },
+  '01-01 and if monday then next monday': {
+    fn: 'dateIfThen',
+    substitute: false,
+    month: 1,
+    day: 1,
+    hour: undefined,
+    other: undefined,
+    observeBoth: true,
+    rules: [{
+      if: [
+        'monday'
+      ],
+      direction: 'next',
+      then: 'monday'
     }]
   },
   'substitutes 01-01 if sunday then next tuesday': {
@@ -481,6 +502,7 @@ var testcases = {
     day: 1,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [{
       if: [
         'sunday'
@@ -496,11 +518,28 @@ var testcases = {
     day: undefined,
     hour: undefined,
     other: { fn: 'islamic', day: 1, month: 9 },
+    observeBoth: false,
     rules: [{
       if: [
         'wednesday',
         'saturday',
         'sunday'
+      ],
+      direction: 'next',
+      then: 'monday'
+    }]
+  },
+  '4 Shawwal and if saturday then next monday': {
+    fn: 'dateIfThen',
+    substitute: false,
+    month: undefined,
+    day: undefined,
+    hour: undefined,
+    other: { fn: 'islamic', day: 4, month: 9 },
+    observeBoth: true,
+    rules: [{
+      if: [
+        'saturday'
       ],
       direction: 'next',
       then: 'monday'
@@ -513,6 +552,7 @@ var testcases = {
     day: 12,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [
       {
         if: [
@@ -540,6 +580,7 @@ var testcases = {
     month: 1,
     hour: undefined,
     other: undefined,
+    observeBoth: false,
     rules: [
       {
         if: [

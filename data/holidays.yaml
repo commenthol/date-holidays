@@ -257,11 +257,7 @@ holidays:
         name:
           en: Day of Remembrance for Truth and Justice
           es: Día de la Memoria por la Verdad y la Justicia
-      substitutes 03-24 if tuesday then previous monday:
-        name:
-          en: Bridge Day
-          es: Feriado Puente Turístico
-      substitutes 03-24 if thursday then next friday:
+      substitutes 03-24 if tuesday then previous monday if thursday then next friday:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
@@ -273,21 +269,13 @@ holidays:
         name:
           en: Day of the veterans and the fallen in Malvinas War
           es: Día del Veterano y de los Caídos en la Guerra de Malvinas
-      substitutes 04-02 if tuesday then previous monday:
-        name:
-          en: Bridge Day
-          es: Feriado Puente Turístico
-      substitutes 04-02 if thursday then next friday:
+      substitutes 04-02 if tuesday then previous monday if thursday then next friday:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
       05-01:
         _name: 05-01
-      substitutes 05-01 if tuesday then previous monday:
-        name:
-          en: Bridge Day
-          es: Feriado Puente Turístico
-      substitutes 05-01 if thursday then next friday:
+      substitutes 05-01 if tuesday then previous monday if thursday then next friday:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
@@ -295,11 +283,7 @@ holidays:
         name:
           en: Day of the First National Government
           es: Primer Gobierno Patrio
-      substitutes 05-25 if tuesday then previous monday:
-        name:
-          en: Bridge Day
-          es: Feriado Puente Turístico
-      substitutes 05-25 if thursday then next friday:
+      substitutes 05-25 if tuesday then previous monday if thursday then next friday:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
@@ -307,11 +291,7 @@ holidays:
         name:
           en: National Flag Day
           es: Día de la Bandera
-      substitutes 06-20 if tuesday then previous monday:
-        name:
-          en: Bridge Day
-          es: Feriado Puente Turístico
-      substitutes 06-20 if thursday then next friday:
+      substitutes 06-20 if tuesday then previous monday if thursday then next friday:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
@@ -336,11 +316,7 @@ holidays:
           es: Día de la Soberanía nacional
       12-08:
         _name: 12-08
-      substitutes 12-08 if tuesday then previous monday:
-        name:
-          en: Bridge Day
-          es: Feriado Puente Turístico
-      substitutes 12-08 if thursday then next friday:
+      substitutes 12-08 if tuesday then previous monday if thursday then next friday:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
@@ -489,22 +465,10 @@ holidays:
       - Australia/Perth
       - Australia/Eucla
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if saturday then next monday:
+      01-01 and if saturday,sunday then next monday:
         substitute: true
         _name: 01-01
-      substitutes 01-01 if sunday then next monday:
-        substitute: true
-        _name: 01-01
-      01-26:
-        name:
-          en: Australia Day
-      substitutes 01-26 if saturday then next monday:
-        substitute: true
-        name:
-          en: Australia Day
-      substitutes 01-26 if sunday then next monday:
+      01-26 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: Australia Day
@@ -517,14 +481,7 @@ holidays:
         type: observance
       easter 1:
         _name: easter 1
-      04-25:
-        name:
-          en: ANZAC Day
-      substitutes 04-25 if saturday then next monday:
-        substitute: true
-        name:
-          en: ANZAC Day
-      substitutes 04-25 if sunday then next monday:
+      04-25 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: ANZAC Day
@@ -534,20 +491,13 @@ holidays:
       12-24:
         _name: 12-24
         type: observance
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if saturday then next tuesday:
+      12-25 and if saturday then next monday:
         substitute: true
         _name: 12-25
       substitutes 12-25 if sunday then next tuesday:
         substitute: true
         _name: 12-25
-      12-26:
-        _name: 12-26
-      substitutes 12-26 if saturday then next monday:
-        substitute: true
-        _name: 12-26
-      substitutes 12-26 if sunday then next monday:
+      12-26 and if saturday,sunday then next monday:
         substitute: true
         _name: 12-26
       12-31:
@@ -1068,10 +1018,7 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      01-10:
-        name:
-          en: Majority Rule Day
-      substitutes 01-10 if saturday,sunday then next monday:
+      01-10 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: Majority Rule Day
@@ -1094,18 +1041,13 @@ holidays:
         _name: 05-01
         name:
           en: Randol Fawkes Labour Day
-      07-10:
-        _name: Independence Day
-      substitutes 07-10 if saturday,sunday then next monday:
+      07-10 and if saturday,sunday then next monday:
         substitute: true
         _name: Independence Day
       1st monday after 08-01:
         name:
           en: Emancipation Day
-      10-12:
-        name:
-          en: National Heroes' Day
-      substitutes 10-12 if saturday,sunday then next monday:
+      10-12 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: National Heroes' Day
@@ -1232,14 +1174,10 @@ holidays:
       11-19 if sunday then next monday:
         name:
           en: Garifuna Settlement Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next tuesday:
+      12-25 and if sunday then next tuesday:
         _name: 12-25
         substitute: true
-      12-26:
-        _name: 12-26
-      substitutes 12-26 if sunday then next monday:
+      12-26 and if sunday then next monday:
         _name: 12-26
         substitute: true
 
@@ -1331,73 +1269,43 @@ holidays:
       - Africa/Maputo
       - Africa/Lagos
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
+      01-01 and if sunday then next monday:
         substitute: true
         _name: 01-01
-      01-04:
-        name:
-          fr: Martyrs de l'Indépendance
-          en: Day of the Martyrs
-      substitutes 01-04 if sunday then next monday:
+      01-04 and if sunday then next monday:
         substitute: true
         name:
           fr: Martyrs de l'Indépendance
           en: Day of the Martyrs
-      01-16:
-        name:
-          fr: Journée du Héro National Laurent Désiré Kabila
-          en: Anniversary of President Laurent Kabila
-      substitutes 01-16 if sunday then next tuesday:
+      01-16 and if sunday then next tuesday:
         substitute: true
         name:
           fr: Journée du Héro National Laurent Désiré Kabila
           en: Anniversary of President Laurent Kabila
-      01-17:
-        name:
-          fr: Journée du Héro National Patrice Emery Lumumba
-          en: Anniversary of Prime Minister Patrice Emery Lumumba
-      substitutes 01-17 if sunday then next monday:
+      01-17 and if sunday then next monday:
         substitute: true
         name:
           fr: Journée du Héro National Patrice Emery Lumumba
           en: Anniversary of Prime Minister Patrice Emery Lumumba
-      05-01:
-        _name: 05-01
-      substitutes 05-01 if sunday then next monday:
+      05-01 and if sunday then next monday:
         substitute: true
         _name: 05-01
-      05-17:
-        name:
-          fr: Journée de la Révolution et des Forces Armées
-          en: Liberation Day
-      substitutes 05-17 if sunday then next monday:
+      05-17 and if sunday then next monday:
         substitute: true
         name:
           fr: Journée de la Révolution et des Forces Armées
           en: Liberation Day
-      06-30:
-        _name: Independence Day
-        name:
-          fr: Anniversaire de Indépendance
-      substitutes 06-30 if sunday then next monday:
+      06-30 and if sunday then next monday:
         substitute: true
         _name: Independence Day
         name:
           fr: Anniversaire de Indépendance
-      08-01:
-        name:
-          fr: Fête des parents
-          en: Parents' Day
-      substitutes 08-01 if sunday then next monday:
+      08-01 and if sunday then next monday:
         substitute: true
         name:
           fr: Fête des parents
           en: Parents' Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next monday:
+      12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
       '2016-01-15':
@@ -3212,57 +3120,36 @@ holidays:
     zones:
       - Africa/Lagos
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
+      01-01 and if sunday then next monday:
         substitute: true
         _name: 01-01
       easter -2:
         _name: easter -2
-      05-01:
-        _name: 05-01
-      substitutes 05-01 if sunday then next monday:
+      05-01 and if sunday then next monday:
         substitute: true
         _name: 05-01
       easter 60:
         _name: easter 60
-      06-05:
+      06-05 and if sunday then next monday:
         substitute: true
         name:
           es: Natalicio de Teodoro Obiang
           en: President's Day
-      substitutes 06-05 if sunday then next monday:
-        substitute: true
-        name:
-          es: Natalicio de Teodoro Obiang
-          en: President's Day
-      08-03:
-        name:
-          es: Día del Golpe de Libertad
-          en: Armed Forces Day
-      substitutes 08-03 if sunday then next monday:
+      08-03 and if sunday then next monday:
         substitute: true
         name:
           es: Día del Golpe de Libertad
           en: Armed Forces Day
-      08-15:
-        _name: Constitution Day
-      substitutes 08-15 if sunday then next monday:
+      08-15 and if sunday then next monday:
         substitute: true
         _name: Constitution Day
-      10-12:
-        _name: Independence Day
-      substitutes 10-12 if sunday then next monday:
+      10-12 and if sunday then next monday:
         substitute: true
         _name: Independence Day
-      12-08:
-        _name: 12-08
-      substitutes 12-08 if sunday then next monday:
+      12-08 and if sunday then next monday:
         substitute: true
         _name: 12-08
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next monday:
+      12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
 
@@ -3834,9 +3721,7 @@ holidays:
     zones:
       - America/Jamaica
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
+      01-01 and if sunday then next monday:
         _name: 01-01
         substitute: true
       easter -46:
@@ -3853,22 +3738,16 @@ holidays:
       08-01 if sunday then next monday:
         name:
           en: Emancipation Day
-      08-06:
-        _name: Independence Day
-      substitutes 08-06 if sunday then next monday:
+      08-06 and if sunday then next monday:
         _name: Independence Day
         substitute: true
       3rd monday after 10-01:
         name:
           en: National Heroes Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next tuesday:
+      12-25 and if sunday then next tuesday:
         _name: 12-25
         substitute: true
-      12-26:
-        _name: 12-26
-      substitutes 12-26 if sunday then next monday:
+      12-26 and if sunday then next monday:
         _name: 12-26
         substitute: true
 
@@ -3884,9 +3763,7 @@ holidays:
     zones:
       - Asia/Tokyo
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
+      01-01 and if sunday then next monday:
         substitute: true
         _name: 01-01
       01-02:
@@ -3903,11 +3780,7 @@ holidays:
         name:
           en: Coming of Age Day
           jp: 成人の日
-      02-11:
-        name:
-          en: Foundation Day
-          jp: 建国記念の日
-      substitutes 02-11 if sunday then next monday:
+      02-11 and if sunday then next monday:
         substitute: true
         name:
           en: Foundation Day
@@ -3921,11 +3794,8 @@ holidays:
         name:
           en: Spring Equinox Day
           jp: 春分の日
-      04-29:
-        name:
-          en: Shōwa Day
-          jp: 昭和の日
-      substitutes 04-29 if sunday then next monday:
+        # TODO create rule
+      04-29 and if sunday then next monday:
         substitute: true
         name:
           en: Showa Day
@@ -3935,20 +3805,12 @@ holidays:
       substitutes 05-03 if sunday then next wednesday:
         substitute: true
         _name: Constitution Day
-      05-04:
-        name:
-          en: Greenery Day
-          jp: みどりの日
-      substitutes 05-04 if sunday then next tuesday:
+      05-04 and if sunday then next tuesday:
         substitute: true
         name:
           en: Greenery Day
           jp: みどりの日
-      05-05:
-        name:
-          en: Children's Day
-          jp: こどもの日
-      substitutes 05-05 if sunday then next monday:
+      05-05 and if sunday then next monday:
         substitute: true
         name:
           en: Children's Day
@@ -3957,11 +3819,7 @@ holidays:
         name:
           en: Marine Day
           jp: 海の日
-      08-11:
-        name:
-          en: Mountain Day
-          jp: 山の日
-      substitutes 08-11 if sunday then next monday:
+      08-11 and if sunday then next monday:
         substitute: true
         name:
           en: Mountain Day
@@ -3987,11 +3845,7 @@ holidays:
         name:
           en: Sports Day
           jp: 体育の日
-      11-03:
-        name:
-          en: Culture Day
-          jp: 文化の日
-      substitutes 11-03 if sunday then next monday:
+      11-03 and if sunday then next monday:
         substitute: true
         name:
           en: Culture Day
@@ -4001,20 +3855,12 @@ holidays:
           en: Seven-Five-Three Festival
           jp: 七五三
         type: observance
-      11-23:
-        name:
-          en: Labor Thanksgiving Day
-          jp: 勤労感謝の日
-      substitutes 11-23 if sunday then next monday:
+      11-23 and if sunday then next monday:
         substitute: true
         name:
           en: Labor Thanksgiving Day
           jp: 勤労感謝の日
-      12-23:
-        name:
-          en: Emperor's Birthday
-          jp: 天皇誕生日
-      substitutes 12-23 if sunday then next monday:
+      12-23 and if sunday then next monday:
         substitute: true
         name:
           en: Emperor's Birthday
@@ -4037,9 +3883,7 @@ holidays:
     zones:
       - Africa/Nairobi
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
+      01-01 and if sunday then next monday:
         substitute: true
         _name: 01-01
       easter -2:
@@ -4048,53 +3892,32 @@ holidays:
         _name: easter
       easter 1:
         _name: easter 1
-      05-01:
-        _name: 05-01
-      substitutes 05-01 if sunday then next monday:
+      05-01 and if sunday then next monday:
         substitute: true
         _name: 05-01
-      06-01:
-        name:
-          sw: Siku ya Madaraka
-          en: Madaraka Day
-      substitutes 06-01 if sunday then next monday:
+      06-01 and if sunday then next monday:
         substitute: true
         name:
           sw: Siku ya Madaraka
           en: Madaraka Day
-      10-10:
-        name:
-          en: Moi Day
-      substitutes 10-10 if sunday then next monday:
+      10-10 and if sunday then next monday:
         substitute: true
         name:
           en: Moi Day
-      10-20:
-        name:
-          sw: Siku ya Mashujaa
-          en: Mashujaa Day
-      substitutes 10-20 if sunday then next monday:
+      10-20 and if sunday then next monday:
         substitute: true
         name:
           sw: Siku ya Mashujaa
           en: Mashujaa Day
-      12-12:
-        name:
-          sw: Siku ya Jamhuri
-          en: Jamhuri Day
-      substitutes 12-12 if sunday then next monday:
+      12-12 and if sunday then next monday:
         substitute: true
         name:
           sw: Siku ya Jamhuri
           en: Jamhuri Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next tuesday:
+      12-25 and if sunday then next tuesday:
         substitute: true
         _name: 12-25
-      12-26:
-        _name: 12-26
-      substitutes 12-26 if sunday then next monday:
+      12-26 and if sunday then next monday:
         substitute: true
         _name: 12-26
       1 Shawwal:
@@ -4304,16 +4127,7 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
-      05-04:
-        name:
-          en: Restoration of Independence day
-          lv: Latvijas Republikas Neatkarības atjaunošanas diena
-      substitutes 05-04 if saturday then next monday:
-        substitute: true
-        name:
-          en: Restoration of Independence day
-          lv: Latvijas Republikas Neatkarības atjaunošanas diena
-      substitutes 05-04 if sunday then next monday:
+      05-04 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: Restoration of Independence day
@@ -4329,16 +4143,7 @@ holidays:
         name:
           en: Midsummer
           lv: Jāņi
-      11-18:
-        name:
-          en: Republic Day
-          lv: Latvijas Republikas proklamēšanas diena
-      substitutes 11-18 if saturday then next monday:
-        substitute: true
-        name:
-          en: Republic Day
-          lv: Latvijas Republikas proklamēšanas diena
-      substitutes 11-18 if sunday then next monday:
+      11-18 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: Republic Day
@@ -4365,11 +4170,7 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      01-27:
-        name:
-          en: Saint Devota's Day
-          fr: Sainte Dévote
-      substitutes 01-27 if sunday then next monday:
+      01-27 and if sunday then next monday:
         substitute: true
         name:
           en: Saint Devota's Day
@@ -4382,11 +4183,7 @@ holidays:
         type: observance
       easter 1:
         _name: easter 1
-      05-01:
-        _name: 05-01
-        name:
-          fr: 1er mai
-      substitutes 05-01 if sunday then next monday:
+      05-01 and if sunday then next monday:
         substitute: true
         _name: 05-01
         name:
@@ -4401,20 +4198,14 @@ holidays:
         _name: 08-15
       11-01:
         _name: 11-01
-      11-19:
-        name:
-          en: H.S.H. the Sovereign Prince's Day
-          fr: La Fête du Prince
-      substitutes 11-19 if sunday then next monday:
+      11-19 and if sunday then next monday:
         substitute: true
         name:
           en: H.S.H. the Sovereign Prince's Day
           fr: La Fête du Prince
       12-08:
         _name: 12-08
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next monday:
+      12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
 
@@ -4436,56 +4227,34 @@ holidays:
       - Europe/Belgrade
     days:
       # State and Other holidays
-      05-21:
-        _name: Independence Day
-      substitutes 05-21 if sunday then next tuesday:
+      05-21 and if sunday then next tuesday:
         substitute: true
         _name: Independence Day
-      05-22:
-        _name: Independence Day
-      substitutes 05-22 if sunday then next monday:
+      05-22 and if sunday then next monday:
         substitute: true
         _name: Independence Day
-      07-13:
-        name:
-          sr: Дан државности
-          hr: Dan državnosti
-          en: Statehood Day
-      substitutes 07-13 if sunday then next tuesday:
+      07-13 and if sunday then next tuesday:
         substitute: true
         name:
           sr: Дан државности
           hr: Dan državnosti
           en: Statehood Day
-      07-14:
-        name:
-          sr: Дан државности
-          hr: Dan državnosti
-          en: Statehood Day
-      substitutes 07-14 if sunday then next monday:
+      07-14 and if sunday then next monday:
         substitute: true
         name:
           sr: Дан државности
           hr: Dan državnosti
           en: Statehood Day
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next tuesday:
+      01-01 and if sunday then next tuesday:
         substitute: true
         _name: 01-01
-      01-02:
-        _name: 01-01
-      substitutes 01-02 if sunday then next monday:
+      01-02 and if sunday then next monday:
         substitute: true
         _name: 01-01
-      05-01:
-        _name: 05-01
-      substitutes 05-01 if sunday then next tuesday:
+      05-01 and if sunday then next tuesday:
         substitute: true
         _name: 05-01
-      05-02:
-        _name: 05-01
-      substitutes 05-02 if sunday then next monday:
+      05-02 and if sunday then next monday:
         substitute: true
         _name: 05-01
       # Religious holidays
@@ -4794,22 +4563,14 @@ holidays:
     zones:
       - Africa/Maputo
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if saturday, sunday then next monday:
+      01-01 and if saturday,sunday then next monday:
         substitute: true
         _name: 01-01
-      01-15:
-        name:
-          en: John Chilembwe Day
-      substitutes 01-15 if saturday, sunday then next monday:
+      01-15 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: John Chilembwe Day
-      03-03:
-        name:
-          en: Martyrs' Day
-      substitutes 03-03 if saturday,sunday then next monday:
+      03-03 and if saturday,sunday then next monday:
         name:
           en: Martyrs' Day
       easter -2:
@@ -4819,37 +4580,22 @@ holidays:
         type: observance
       easter 1:
         _name: easter 1
-      05-01:
+      05-01 and if saturday,sunday then next monday:
         _name: 05-01
-      substitutes 05-01 if saturday,sunday then next monday:
-        _name: 05-01
-      05-14:
-        name:
-          en: Kamuzu Day
-      substitutes 05-14 if saturday,sunday then next monday:
+      05-14 and if saturday,sunday then next monday:
         substitute: true
         name:
           en: Kamuzu Day
-      07-06:
-        _name: Independence Day
-      substitutes 07-06 if saturday,sunday then next monday:
+      07-06 and if saturday,sunday then next monday:
         substitute: true
         _name: Independence Day
-      10-15:
-        _name: Mothers Day
-      substitutes 10-15 if saturday,sunday then next monday:
+      10-15 and if saturday,sunday then next monday:
         substitute: true
         _name: Mothers Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if saturday,sunday then next monday:
+      12-25 and if saturday,sunday then next monday:
         substitute: true
         _name: 12-25
-      1 Shawwal:
-        _name: 1 Shawwal
-        name:
-          en: Eid al Fitri
-      substitutes 1 Shawwal if saturday,sunday then next monday:
+      1 Shawwal and if saturday,sunday then next monday:
         substitute: true
         _name: 1 Shawwal
         name:
@@ -5112,18 +4858,13 @@ holidays:
       - Pacific/Auckland
       - Pacific/Chatham
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if saturday then next monday if sunday then next tuesday:
-        _name: 01-01
+      01-01 and if saturday then next monday if sunday then next tuesday:
         substitute: true
-      01-02:
+        _name: 01-01
+      01-02 and if saturday,sunday then next monday:
+        substitute: true
         name:
           en: Day after New Year's Day
-      substitutes 01-02 if saturday,sunday then next monday:
-        name:
-          en: Day after New Year's Day
-        substitute: true
       02-06 if saturday,sunday then next monday:
         name:
           en: Waitangi Day
@@ -5142,16 +4883,12 @@ holidays:
           en: Queen's Birthday
       4th monday after 10-01:
         _name: 05-01
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if saturday then next monday if sunday then next tuesday:
-        _name: 12-25
+      12-25 and if saturday then next monday if sunday then next tuesday:
         substitute: true
-      12-26:
-        _name: 12-26
-      substitutes 12-26 if saturday,sunday then next monday:
-        _name: 12-26
+        _name: 12-25
+      12-26 and if saturday,sunday then next monday:
         substitute: true
+        _name: 12-26
     states:
       au:
         name: Auckland Province
@@ -5246,20 +4983,14 @@ holidays:
     zones:
       - America/Panama
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
-        _name: 01-01
+      01-01 and if sunday then next monday:
         substitute: true
-      01-09:
+        _name: 01-01
+      01-09 and if sunday then next monday:
+        substitute: true
         name:
           en: Martyrs' Day
           es: Día de los Mártires Caídos en la Gesta Patriótica
-      substitutes 01-09 if sunday then next monday:
-        name:
-          en: Martyrs' Day
-          es: Día de los Mártires Caídos en la Gesta Patriótica
-        substitute: true
       easter -48:
         _name: easter -48
         type: observance
@@ -5267,45 +4998,30 @@ holidays:
         _name: easter -47
       easter -2:
         _name: easter -2
-      05-01:
-        _name: 05-01
-      substitutes 05-01 if sunday then next monday:
-        _name: 05-01
+      05-01 and if sunday then next monday:
         substitute: true
+        _name: 05-01
       07-01 every 5 years since 2014:
         name:
           en: Presidential Inauguration
-      11-03:
+      11-03 and if sunday then next monday:
+        substitute: true
         name:
           en: Separation Day (from Columbia)
           es: Día de la Separación (de Colombia)
-      substitutes 11-03 if sunday then next monday:
-        name:
-          en: Separation Day (from Columbia)
-          es: Día de la Separación (de Colombia)
+      11-10 and if sunday then next monday:
         substitute: true
-      11-10:
         name:
           es: Primer Grito de Independencia
-      substitutes 11-10 if sunday then next monday:
-        name:
-          es: Primer Grito de Independencia
+      11-28 and if sunday then next monday:
         substitute: true
-      11-28:
         _name: Independence Day
-      substitutes 11-28 if sunday then next monday:
-        _name: Independence Day
+      12-08 and if sunday then next monday:
         substitute: true
-      12-08:
         _name: Mothers Day
-      substitutes 12-08 if sunday then next monday:
-        _name: Mothers Day
+      12-25 and if sunday then next monday:
         substitute: true
-      12-25:
         _name: 12-25
-      substitutes 12-25 if sunday then next monday:
-        _name: 12-25
-        substitute: true
 
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_Peru
   PE:
@@ -6270,12 +5986,7 @@ holidays:
     langs:
       - en
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
-        substitute: true
-        _name: 01-01
-      substitutes 01-01 if saturday then previous friday:
+      01-01 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: 01-01
       3rd monday after 01-01:
@@ -6297,12 +6008,7 @@ holidays:
       3rd sunday after 06-01:
         _name: Fathers Day
         type: observance
-      07-04:
-        _name: Independence Day
-      substitutes 07-04 if sunday then next monday:
-        substitute: true
-        _name: Independence Day
-      substitutes 07-04 if saturday then previous friday:
+      07-04 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: Independence Day
       monday after 09-01:
@@ -6316,12 +6022,7 @@ holidays:
       4th thursday after 11-01:
         name:
           en: Thanksgiving Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next monday:
-        substitute: true
-        _name: 12-25
-      substitutes 12-25 if saturday then previous friday:
+      12-25 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: 12-25
     states:
@@ -6740,15 +6441,7 @@ holidays:
           friday after 4th thursday after 11-01:
             name:
               en: Day after Thanksgiving
-          12-24:
-            _name: 12-24
-          substitutes 12-24 if friday then previous thursday:
-            substitute: true
-            _name: 12-24
-          substitutes 12-24 if saturday then previous friday:
-            substitute: true
-            _name: 12-24
-          substitutes 12-24 if sunday then previous friday:
+          12-24 and if friday then previous thursday if saturday,sunday then previous friday:
             substitute: true
             _name: 12-24
       nd:
@@ -7109,18 +6802,13 @@ holidays:
     zones:
       - Africa/Maputo
     days:
-      01-01:
-        _name: 01-01
-      substitutes 01-01 if sunday then next monday:
+      01-01 and if sunday then next monday:
         substitute: true
         _name: 01-01
       03-09:
         name:
           en: Women’s Day
-      03-12:
-        name:
-          en: Youth Day
-      substitutes 03-12 if sunday then next monday:
+      03-12 and if sunday then next monday:
         substitute: true
         name:
           en: Youth Day
@@ -7128,15 +6816,10 @@ holidays:
         _name: easter -2
       easter 1:
         _name: easter 1
-      05-01:
-        _name: 05-01
-      substitutes 05-01 if sunday then next monday:
+      05-01 and if sunday then next monday:
         substitute: true
         _name: 05-01
-      05-25:
-        name:
-          en: African Freedom Day
-      substitutes 05-25 if sunday then next monday:
+      05-25 and if sunday then next monday:
         substitute: true
         name:
           en: African Freedom Day
@@ -7152,14 +6835,10 @@ holidays:
       '2015-10-18':
         name:
           en: National day of Prayers
-      10-24:
-        _name: Independence Day
-      substitutes 10-24 if sunday then next monday:
+      10-24 and if sunday then next monday:
         substitute: true
         _name: Independence Day
-      12-25:
-        _name: 12-25
-      substitutes 12-25 if sunday then next monday:
+      12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
 
