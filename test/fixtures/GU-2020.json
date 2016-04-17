@@ -49,6 +49,13 @@
     "type": "observance"
   },
   {
+    "date": "2020-04-22 00:00:00",
+    "start": "2020-04-21T14:00:00.000Z",
+    "end": "2020-04-22T14:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
     "date": "2020-05-10 00:00:00",
     "start": "2020-05-09T14:00:00.000Z",
     "end": "2020-05-10T14:00:00.000Z",
@@ -106,11 +113,25 @@
     "type": "public"
   },
   {
+    "date": "2020-10-31 18:00:00",
+    "start": "2020-10-31T08:00:00.000Z",
+    "end": "2020-10-31T14:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
     "date": "2020-11-02 00:00:00",
     "start": "2020-11-01T14:00:00.000Z",
     "end": "2020-11-02T14:00:00.000Z",
     "name": "All Souls' Day",
     "type": "public"
+  },
+  {
+    "date": "2020-11-03 00:00:00",
+    "start": "2020-11-02T14:00:00.000Z",
+    "end": "2020-11-03T14:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance"
   },
   {
     "date": "2020-11-11 00:00:00",
@@ -125,6 +146,13 @@
     "end": "2020-11-26T14:00:00.000Z",
     "name": "Thanksgiving Day",
     "type": "public"
+  },
+  {
+    "date": "2020-11-27 00:00:00",
+    "start": "2020-11-26T14:00:00.000Z",
+    "end": "2020-11-27T14:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
   },
   {
     "date": "2020-12-08 00:00:00",

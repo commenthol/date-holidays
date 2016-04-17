@@ -49,6 +49,13 @@
     "type": "observance"
   },
   {
+    "date": "2016-04-27 00:00:00",
+    "start": "2016-04-26T14:00:00.000Z",
+    "end": "2016-04-27T14:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T14:00:00.000Z",
     "end": "2016-05-08T14:00:00.000Z",
@@ -98,11 +105,25 @@
     "type": "public"
   },
   {
+    "date": "2016-10-31 18:00:00",
+    "start": "2016-10-31T08:00:00.000Z",
+    "end": "2016-10-31T14:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
     "date": "2016-11-02 00:00:00",
     "start": "2016-11-01T14:00:00.000Z",
     "end": "2016-11-02T14:00:00.000Z",
     "name": "All Souls' Day",
     "type": "public"
+  },
+  {
+    "date": "2016-11-08 00:00:00",
+    "start": "2016-11-07T14:00:00.000Z",
+    "end": "2016-11-08T14:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance"
   },
   {
     "date": "2016-11-11 00:00:00",
@@ -117,6 +138,13 @@
     "end": "2016-11-24T14:00:00.000Z",
     "name": "Thanksgiving Day",
     "type": "public"
+  },
+  {
+    "date": "2016-11-25 00:00:00",
+    "start": "2016-11-24T14:00:00.000Z",
+    "end": "2016-11-25T14:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
   },
   {
     "date": "2016-12-08 00:00:00",

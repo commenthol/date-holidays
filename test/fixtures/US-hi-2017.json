@@ -43,6 +43,13 @@
     "type": "observance"
   },
   {
+    "date": "2017-04-26 00:00:00",
+    "start": "2017-04-26T10:00:00.000Z",
+    "end": "2017-04-27T10:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-14T10:00:00.000Z",
     "end": "2017-05-15T10:00:00.000Z",
@@ -99,6 +106,13 @@
     "type": "public"
   },
   {
+    "date": "2017-10-31 18:00:00",
+    "start": "2017-11-01T04:00:00.000Z",
+    "end": "2017-11-01T10:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
     "date": "2017-11-11 00:00:00",
     "start": "2017-11-11T10:00:00.000Z",
     "end": "2017-11-12T10:00:00.000Z",
@@ -111,6 +125,13 @@
     "end": "2017-11-24T10:00:00.000Z",
     "name": "Thanksgiving Day",
     "type": "public"
+  },
+  {
+    "date": "2017-11-24 00:00:00",
+    "start": "2017-11-24T10:00:00.000Z",
+    "end": "2017-11-25T10:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
   },
   {
     "date": "2017-12-25 00:00:00",

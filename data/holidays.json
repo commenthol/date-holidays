@@ -8501,6 +8501,12 @@
           },
           "type": "observance"
         },
+        "wednesday before 04-28": {
+          "name": {
+            "en": "Administrative Professionals Day"
+          },
+          "type": "observance"
+        },
         "2nd sunday after 05-01": {
           "_name": "Mothers Day",
           "type": "observance"
@@ -8526,19 +8532,41 @@
             "en": "Columbus Day"
           }
         },
+        "10-31 18:00": {
+          "name": {
+            "en": "Halloween"
+          },
+          "type": "observance"
+        },
         "11-11": {
           "name": {
             "en": "Veterans Day"
           }
+        },
+        "tuesday after 1st monday after 11-01 every 4 years since 1848": {
+          "name": {
+            "en": "Election Day"
+          },
+          "type": "observance"
         },
         "4th thursday after 11-01": {
           "name": {
             "en": "Thanksgiving Day"
           }
         },
+        "friday after 4th thursday after 11-01": {
+          "name": {
+            "en": "Day after Thanksgiving Day"
+          },
+          "type": "observance"
+        },
         "12-25 and if sunday then next monday if saturday then previous friday": {
           "substitute": true,
           "_name": "12-25"
+        },
+        "12-31 18:00": {
+          "_name": "12-31",
+          "type": "observed"
         }
       },
       "states": {

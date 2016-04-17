@@ -35,6 +35,13 @@
     "type": "observance"
   },
   {
+    "date": "2016-04-27 00:00:00",
+    "start": "2016-04-27T04:00:00.000Z",
+    "end": "2016-04-28T04:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-08T04:00:00.000Z",
     "end": "2016-05-09T04:00:00.000Z",
@@ -82,6 +89,20 @@
     "end": "2016-10-11T04:00:00.000Z",
     "name": "Columbus Day",
     "type": "public"
+  },
+  {
+    "date": "2016-10-31 18:00:00",
+    "start": "2016-10-31T22:00:00.000Z",
+    "end": "2016-11-01T04:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-08 00:00:00",
+    "start": "2016-11-08T05:00:00.000Z",
+    "end": "2016-11-09T05:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance"
   },
   {
     "date": "2016-11-11 00:00:00",

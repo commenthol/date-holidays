@@ -35,6 +35,13 @@
     "type": "observance"
   },
   {
+    "date": "2019-04-24 00:00:00",
+    "start": "2019-04-24T06:00:00.000Z",
+    "end": "2019-04-25T06:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-12T06:00:00.000Z",
     "end": "2019-05-13T06:00:00.000Z",
@@ -77,6 +84,13 @@
     "type": "public"
   },
   {
+    "date": "2019-10-31 18:00:00",
+    "start": "2019-11-01T00:00:00.000Z",
+    "end": "2019-11-01T06:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
     "date": "2019-11-11 00:00:00",
     "start": "2019-11-11T07:00:00.000Z",
     "end": "2019-11-12T07:00:00.000Z",
@@ -89,6 +103,13 @@
     "end": "2019-11-29T07:00:00.000Z",
     "name": "Thanksgiving Day",
     "type": "public"
+  },
+  {
+    "date": "2019-11-29 00:00:00",
+    "start": "2019-11-29T07:00:00.000Z",
+    "end": "2019-11-30T07:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
   },
   {
     "date": "2019-12-25 00:00:00",
