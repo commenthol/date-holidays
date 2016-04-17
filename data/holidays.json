@@ -8495,6 +8495,12 @@
           "_name": "02-14",
           "type": "observance"
         },
+        "04-15 if friday then next monday if saturday,sunday then next tuesday": {
+          "name": {
+            "en": "Tax Day"
+          },
+          "type": "observance"
+        },
         "2nd sunday after 05-01": {
           "_name": "Mothers Day",
           "type": "observance"

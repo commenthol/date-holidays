@@ -21,6 +21,7 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Change to a different weekday from a changed fixed Date](#change-to-a-different-weekday-from-a-changed-fixed-date)
   * [Change to different weekday if date falls on a certain weekday](#change-to-different-weekday-if-date-falls-on-a-certain-weekday)
   * [Substitute a holiday if date falls on a certain weekday](#substitute-a-holiday-if-date-falls-on-a-certain-weekday)
+  * [Observe the holiday as well as on a substitute day, if date falls on a certain weekday](#observe-the-holiday-as-well-as-on-a-substitute-day-if-date-falls-on-a-certain-weekday)
   * [Enable Date only for odd/ even numbered years](#enable-date-only-for-odd-even-numbered-years)
   * [Enable Date only for certain periods of years](#enable-date-only-for-certain-periods-of-years)
   * [Holiday based on other holidays (bridge days)](#holiday-based-on-other-holidays-bridge-days)
