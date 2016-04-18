@@ -5268,6 +5268,11 @@
           "_name": "Mothers Day",
           "type": "observance"
         },
+        "06-02": {
+          "name": {
+            "it": "Festa della Repubblica"
+          }
+        },
         "08-15": {
           "_name": "08-15"
         },
