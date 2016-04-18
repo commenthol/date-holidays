@@ -1,5 +1,5 @@
 {
-  "version": "2016-04-14",
+  "version": "2016-04-18",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -5258,7 +5258,8 @@
         },
         "04-25": {
           "name": {
-            "it": "Anniversario della Liberazione"
+            "it": "Anniversario della Liberazione",
+            "en": "Liberation Day"
           }
         },
         "05-01": {
@@ -5270,7 +5271,8 @@
         },
         "06-02": {
           "name": {
-            "it": "Festa della Repubblica"
+            "it": "Festa della Repubblica",
+            "en": "Republic Day"
           }
         },
         "08-15": {
@@ -5290,7 +5292,8 @@
         },
         "2011-03-17": {
           "name": {
-            "it": "Festa Nazionale 2011"
+            "it": "Festa Nazionale 2011",
+            "en": "National Day 2011"
           }
         }
       },
