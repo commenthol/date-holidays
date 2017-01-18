@@ -711,11 +711,16 @@
             "easter": {
               "type": "public"
             },
-            "1st monday after 10-01": {
-              "name": "Labour Day"
+            "1st monday after 08-01": {
+              "name": {
+                "en": "Bank Holiday"
+              },
+              "type": "bank"
             },
-            "12-31": {
-              "type": "public"
+            "1st monday after 10-01": {
+              "name": {
+                "en": "Labour Day"
+              }
             }
           }
         },

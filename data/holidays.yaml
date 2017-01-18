@@ -529,10 +529,13 @@ holidays:
         days:
           easter:
             type: public
+          1st monday after 08-01:
+            name:
+              en: Bank Holiday
+            type: bank
           1st monday after 10-01:
-            name: Labour Day
-          12-31:
-            type: public
+            name:
+              en: Labour Day
       # @source http://www.ocpe.nt.gov.au/working_in_the_ntps/legislation/public_holidays
       nt:
         name: Northern Territory
