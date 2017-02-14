@@ -5,3 +5,4 @@ attic/
 tmp/
 *.log
 *.tgz
+.idea/

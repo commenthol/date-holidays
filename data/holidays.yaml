@@ -1185,6 +1185,8 @@ holidays:
         substitute: true
 
   # @source https://de.m.wikipedia.org/wiki/Kanada#Feiertage
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Canada
+  # @source http://manpages.ubuntu.com/manpages/wily/man3/DateTime::TimeZone::Catalog.3pm.html
   CA:
     names:
       en: Canada
@@ -1228,8 +1230,6 @@ holidays:
         _name: easter -2
       easter:
         _name: easter
-      easter 1:
-        _name: easter 1
       2nd sunday after 05-01:
         _name: Mothers Day
         type: observance
@@ -1237,11 +1237,14 @@ holidays:
         name:
           en: Victoria Day
           fr: Fête de la Reine
+      3rd sunday after 06-01:
+        _name: Fathers Day
+        type: observance
       07-01:
         name:
           en: Canada Day
           fr: Fête du Canada
-      monday after 07-31:
+      monday after 08-01:
         name:
           en: Civic Holiday
           fr: Premier lundi d’août
@@ -1259,6 +1262,193 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
+    states:
+      ab:
+        name: Alberta
+        zones:
+          - America/Edmonton
+        days:
+          3rd monday after 02-01:
+            name:
+              en: Family Day
+              fr: Fête de la famille
+          easter 1:
+            _name: easter 1
+            type: optional
+          monday after 08-01:
+            name:
+              en: Heritage Day
+              fr: Fête du patrimoine
+            type: optional
+      bc:
+        name: British Columbia
+        zones:
+          - America/Vancouver
+          - America/Edmonton
+          - America/Creston
+          - America/Dawson_Creek
+        days:
+          2nd monday after 02-01:
+            name:
+              en: Family Day
+              fr: Fête de la famille
+      mb:
+        name: Manitoba
+        zones:
+          - America/Winnipeg
+        days:
+          3rd monday after 02-01:
+            name:
+              en: Louis Riel Day
+              fr: Journée Louis Riel
+      nb:
+        name: New Brunswick
+        zones:
+          - America/Moncton
+        days:
+          monday after 08-01:
+            name:
+              en: New Brunswick Day
+              fr: Jour de Nouveau Brunswick
+      nl:
+        name: Newfoundland and Labrador
+        zones:
+          - America/St_Johns
+          - America/Goose_Bay
+        days:
+          03-17:
+            name:
+              en: Saint Patrick's Day
+              fr: Jour de la Saint-Patrick
+            type: optional
+          04-23:
+            name:
+              en: Saint George's Day
+              fr: Jour de St. George
+            type: optional
+          06-24:
+            name:
+              en: Discovery Day
+              fr: Journée découverte
+            type: optional
+          07-12:
+            name:
+              en: Orangemen's Day
+              fr: Fête des orangistes
+            type: optional
+          11-11:
+            name:
+              en: Armistice Day
+              fr: Jour de l'Armistice
+      ns:
+        name: Nova Scotia
+        zones:
+          - America/Halifax
+          - America/Moncton
+        days:
+          3rd monday after 02-01:
+            name:
+              en: Heritage Day
+              fr: Fête du Patrimoine
+          monday after 08-01:
+            name:
+              en: Natal Day
+              fr: Jour de la Fondation
+      nt:
+        name: Northwest Territories
+        zones:
+          - America/Yellowknife
+          - America/Inuvik
+        days:
+          06-21:
+            name:
+              en: National Aboriginal Day
+              fr: Journée nationale des Autochthones
+      nu:
+        name: Nunavut
+        zones:
+          - America/Iqaluit
+          - America/Pangnirtung
+          - America/Resolute
+          - America/Rankin_Inlet
+          - America/Atikokan
+          - America/Cambridge_Bay
+        days:
+          07-09:
+            name:
+              en: Nunavut Day
+            type: bank
+      on:
+        name: Ontario
+        zones:
+          - America/Toronto
+          - America/Nipigon
+          - America/Thunder_Bay
+          - America/Atikokan
+          - America/Rainy_River
+          - America/Winnipeg
+        days:
+          3rd monday after 02-01:
+            name:
+              en: Family Day
+              fr: Fête de la famille
+          easter 1:
+            _name: easter 1
+      pe:
+        name: Prince Edward Island
+        days:
+          3rd monday after 02-01:
+            name:
+              en: Islander Day
+              fr: Fête des Insulaires
+          easter 1:
+            _name: easter 1
+            type: optional
+          3rd friday after 08-01:
+            name:
+              en: Gold Cup Parade Day
+              fr: "Défilé de la Coupe d'or"
+      qc:
+        name: Quebec
+        zones:
+          - America/Blanc-Sablon
+          - America/Toronto
+          - America/Nipigon
+        days:
+          monday before 05-25:
+            name:
+              en: National Patriots' Day
+              fr: Journée nationale des patriotes
+          06-24:
+            name:
+              en: National Holiday
+              fr: Fête nationale du Québec
+      sk:
+        name: Saskatchewan
+        zones:
+          - America/Regina
+          - America/Swift_Current
+          - America/Edmonton
+        days:
+          3rd monday after 02-01:
+            name:
+              en: Family Day
+              fr: Fête de la famille
+          3rd monday after 08-01:
+            name:
+              en: Saskatchewan Day
+      yt:
+        yukon: Yukon
+        zones:
+          - America/Whitehorse
+          - America/Dawson
+        days:
+          easter 1:
+            _name: easter 1
+          3rd monday after 08-01:
+            name:
+              en: Discovery Day
+              fr: Jour de la Découverte
 
   # @source http://www.ilo.org/dyn/natlex/docs/ELECTRONIC/101405/122159/F1802609849/COD-101405.pdf
   CD:
