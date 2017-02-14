@@ -188,7 +188,7 @@ describe('#Holidays', function () {
   })
 
   describe('can get list of holidays', function () {
-    var exp_de_2015_en = {
+    var expDe2015En = {
       'New Year\'s Day': 'thu 2015-01-01 00:00',
       'Women\'s Carnival Day': 'thu 2015-02-12 00:00',
       'Valentine\'s Day': 'sat 2015-02-14 00:00',
@@ -309,7 +309,7 @@ describe('#Holidays', function () {
       hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
       var res = hd.getHolidays(2015)
       var tmp = {}
-      var exp = exp_de_2015_en
+      var exp = expDe2015En
 
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
@@ -323,7 +323,7 @@ describe('#Holidays', function () {
       hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
       var res = hd.getHolidays(2015, 'en')
       var tmp = {}
-      var exp = exp_de_2015_en
+      var exp = expDe2015En
 
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
@@ -338,7 +338,7 @@ describe('#Holidays', function () {
       hd.setLanguages('en')
       var res = hd.getHolidays(2015)
       var tmp = {}
-      var exp = exp_de_2015_en
+      var exp = expDe2015En
 
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
@@ -450,4 +450,3 @@ describe('#Holidays', function () {
     })
   })
 })
-
