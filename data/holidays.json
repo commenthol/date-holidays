@@ -1993,7 +1993,7 @@
           }
         },
         "yt": {
-          "yukon": "Yukon",
+          "name": "Yukon",
           "zones": [
             "America/Whitehorse",
             "America/Dawson"

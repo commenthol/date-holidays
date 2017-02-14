@@ -87,6 +87,19 @@ Countries: 89
 ├── BW: Botswana
 ├── BZ: Belize
 ├── CA: Canada
+│   ├── ab: Alberta
+│   ├── bc: British Columbia
+│   ├── mb: Manitoba
+│   ├── nb: New Brunswick
+│   ├── nl: Newfoundland and Labrador
+│   ├── ns: Nova Scotia
+│   ├── nt: Northwest Territories
+│   ├── nu: Nunavut
+│   ├── on: Ontario
+│   ├── pe: Prince Edward Island
+│   ├── qc: Quebec
+│   ├── sk: Saskatchewan
+│   └── yt: Yukon
 ├── CD: République démocratique du Congo
 ├── CF: République centrafricaine
 ├── CH: Schweiz
