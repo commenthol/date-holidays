@@ -30,9 +30,9 @@ If you like to add or change data please take a look at [holidays.yaml specifica
 7. If a new country was added there might be failing tests in Step 5.  
    Generate these with:
    ```
-   mocha test/add.mocha.js --writetests
+   mocha test/all.mocha.js --writetests
    ```
-   Now check any changes with `git diff test/assets`. Make sure that your changes did not affect other countries.
+   Now check any changes with `git diff test/fixtures`. Make sure that your changes did not affect other countries.
 8. Push your branch to GitHub and submit a pull request
 9. Monitor the pull request to make sure the Travis build succeeds.
    If it fails simply make the necessary changes to your branch and push it.
