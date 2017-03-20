@@ -18,7 +18,14 @@
     "start": "2017-04-13T22:00:00.000Z",
     "end": "2017-04-14T22:00:00.000Z",
     "name": "Karfreitag",
-    "type": "public"
+    "type": "optional"
+  },
+  {
+    "date": "2017-04-15 00:00:00",
+    "start": "2017-04-14T22:00:00.000Z",
+    "end": "2017-04-15T22:00:00.000Z",
+    "name": "Karsamstag",
+    "type": "observance"
   },
   {
     "date": "2017-04-16 00:00:00",
@@ -67,6 +74,20 @@
     "start": "2017-06-04T22:00:00.000Z",
     "end": "2017-06-05T22:00:00.000Z",
     "name": "Pfingstmontag",
+    "type": "public"
+  },
+  {
+    "date": "2017-06-15 00:00:00",
+    "start": "2017-06-14T22:00:00.000Z",
+    "end": "2017-06-15T22:00:00.000Z",
+    "name": "Fronleichnam",
+    "type": "public"
+  },
+  {
+    "date": "2017-08-15 00:00:00",
+    "start": "2017-08-14T22:00:00.000Z",
+    "end": "2017-08-15T22:00:00.000Z",
+    "name": "Mariä Himmelfahrt",
     "type": "public"
   },
   {

@@ -18,7 +18,14 @@
     "start": "2019-04-18T22:00:00.000Z",
     "end": "2019-04-19T22:00:00.000Z",
     "name": "Karfreitag",
-    "type": "public"
+    "type": "optional"
+  },
+  {
+    "date": "2019-04-20 00:00:00",
+    "start": "2019-04-19T22:00:00.000Z",
+    "end": "2019-04-20T22:00:00.000Z",
+    "name": "Karsamstag",
+    "type": "observance"
   },
   {
     "date": "2019-04-21 00:00:00",
@@ -74,6 +81,20 @@
     "start": "2019-06-09T22:00:00.000Z",
     "end": "2019-06-10T22:00:00.000Z",
     "name": "Pfingstmontag",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-20 00:00:00",
+    "start": "2019-06-19T22:00:00.000Z",
+    "end": "2019-06-20T22:00:00.000Z",
+    "name": "Fronleichnam",
+    "type": "public"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-14T22:00:00.000Z",
+    "end": "2019-08-15T22:00:00.000Z",
+    "name": "Mariä Himmelfahrt",
     "type": "public"
   },
   {

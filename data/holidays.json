@@ -457,7 +457,12 @@
           "_name": "01-06"
         },
         "easter -2": {
-          "_name": "easter -2"
+          "_name": "easter -2",
+          "type": "optional"
+        },
+        "easter -1": {
+          "_name": "easter -1",
+          "type": "observance"
         },
         "easter": {
           "_name": "easter"
@@ -482,6 +487,12 @@
         },
         "easter 50": {
           "_name": "easter 50"
+        },
+        "easter 60": {
+          "_name": "easter 60"
+        },
+        "08-15": {
+          "_name": "08-15"
         },
         "10-26": {
           "_name": "National Holiday"
