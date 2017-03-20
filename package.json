@@ -8,7 +8,8 @@
   },
   "contributors": [
     "Mauro Braggio <m.braggio@e-time.it>",
-    "Quennie <simply.me.queeny@gmail.com>"
+    "Quennie <simply.me.queeny@gmail.com>",
+    "Christian Schinnerl <Schinnerl.Christian@gmail.com>"
   ],
   "dependencies": {
     "date-easter": "^0.2.2",
