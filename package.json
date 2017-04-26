@@ -16,8 +16,8 @@
   ],
   "dependencies": {
     "date-easter": "^0.2.2",
-    "lodash": "^4.17.4",
     "js-yaml": "^3.8.1",
+    "lodash": "^4.17.4",
     "moment-timezone": "^0.5.11",
     "moonbeams": "^2.0.1"
   },
