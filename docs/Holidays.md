@@ -9,7 +9,7 @@
 ## Class: Holidays
 
 
-### Holidays.init(country, state, region, opts, opts.languages, opts.timezone, opts.types) 
+### Holidays.init(country, state, region, opts) 
 
 initialize holidays for a country/state/region
 
@@ -23,14 +23,14 @@ initialize holidays for a country/state/region
 
 **opts**: `Object`, options
 
-**opts.languages**: `Array | String`, set language(s) with ISO 639-1 shortcodes
+ - **opts.languages**: `Array | String`, set language(s) with ISO 639-1 shortcodes
 
-**opts.timezone**: `String`, set timezone
+ - **opts.timezone**: `String`, set timezone
 
-**opts.types**: `Array`, holiday types to consider
+ - **opts.types**: `Array`, holiday types to consider
 
 
-### Holidays.setHoliday(rule, opts, opts.name, opts.type) 
+### Holidays.setHoliday(rule, opts) 
 
 set (custom) holiday
 
@@ -40,9 +40,9 @@ set (custom) holiday
 
 **opts**: `Object | String`, holiday options, if String then opts is used as name
 
-**opts.name**: `Object`, translated holiday names e.g. `{ en: 'name', es: 'nombre', ... }`
+ - **opts.name**: `Object`, translated holiday names e.g. `{ en: 'name', es: 'nombre', ... }`
 
-**opts.type**: `String`, holiday type `public|bank|school|observance`
+ - **opts.type**: `String`, holiday type `public|bank|school|observance`
 
 **Returns**: `Boolean`, if holiday could be set returns `true`
 
