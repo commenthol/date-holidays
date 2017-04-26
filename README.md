@@ -33,6 +33,7 @@ Happy holidays!
   * [Types of holidays](#types-of-holidays)
 * [API](#api)
 * [Data](#data)
+* [Custom builds of `holidays.json`](#custom-builds-of-holidaysjson)
 * [Contribution and License Agreement](#contribution-and-license-agreement)
 * [License](#license)
 * [References](#references)
@@ -438,6 +439,29 @@ All data for the holidays of the different countries is contained in [./data/hol
 
 <a name="contribution"></a>
 
+## Custom builds of `holidays.json`
+
+If only selected countries are required in `data/holidays.json` you can add the following script to your npm scripts section. E.g. for picking just US, Canada, Mexico do the following:
+
+```js
+"scripts": {
+  "build": "holidays2json --pick US,CA,MX"
+},
+```
+
+Alternatively you may use the `--omit` option.
+
+Manually use
+
+```bash
+$(npm bin)/holidays2json --pick US,CA,MX
+```
+
+> **NOTE:** There are some countries which depend on data of others which
+> might render the file useless. e.g. "GU" requires "US", so try
+> to pick or omit both.
+
+
 ## Contribution and License Agreement
 
 You like to contribute please read [CONTRIBUTING.md][].
@@ -474,4 +498,3 @@ See [LICENSE][] for more information.
 [holidays.yaml specification]: ./docs/specification.md
 [Holidays API]: ./docs/Holidays.md
 [date-holidays-ical]: https://github.com/commenthol/date-holidays-ical
-

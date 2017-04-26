@@ -3,6 +3,9 @@
   "version": "0.1.8",
   "description": "worldwide holidays",
   "main": "lib",
+  "bin": {
+    "holidays2json": "./build/holidays2json.js"
+  },
   "directories": {
     "test": "test"
   },
@@ -14,23 +17,25 @@
   "dependencies": {
     "date-easter": "^0.2.2",
     "lodash": "^4.17.4",
+    "js-yaml": "^3.8.1",
     "moment-timezone": "^0.5.11",
     "moonbeams": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "^3.15.0",
-    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^2.0.1",
+    "eslint-plugin-standard": "^3.0.1",
     "istanbul": "^0.4.5",
-    "js-yaml": "^3.8.1",
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4"
   },
   "scripts": {
     "test": "mocha test/*.mocha.js",
-    "pack": "npm run clean && npm i && npm run yaml && npm run lint && npm test && npm pack",
-    "yaml": "node build/yaml2json.js",
+    "all": "npm run clean && npm i && npm run yaml && npm run lint && npm test && npm pack",
+    "yaml": "node build/holidays2json.js",
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
     "lint": "eslint --quiet '**/*.js'",
     "watch": "watch-run -p data/*.yaml npm run yaml",

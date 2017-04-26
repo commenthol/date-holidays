@@ -5,7 +5,7 @@ yaml: data/holidays.json
 data/holidays.json: data/holidays.yaml data/names.yaml
 	npm run yaml
 
-test: v0.12 v4.2 v5.5
+test: v0.12 v4. v6. v7.
 
 v%:
 	n $@ && mocha test/*.mocha.js
