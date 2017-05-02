@@ -8857,7 +8857,7 @@
         },
         "12-31 18:00": {
           "_name": "12-31",
-          "type": "observed"
+          "type": "observance"
         }
       },
       "states": {
