@@ -131,5 +131,12 @@
     "end": "2019-01-01T05:00:00.000Z",
     "name": "New Year's Eve",
     "type": "public"
+  },
+  {
+    "date": "2018-12-31 18:00:00",
+    "start": "2018-12-31T23:00:00.000Z",
+    "end": "2019-01-01T05:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
   }
 ]

@@ -97,16 +97,16 @@
     "date": "2016-06-19 00:00:00",
     "start": "2016-06-19T05:00:00.000Z",
     "end": "2016-06-20T05:00:00.000Z",
-    "name": "Father's Day",
-    "type": "observance"
+    "name": "Emancipation Day In Texas",
+    "type": "observance",
+    "note": "state agencies are partially staffed"
   },
   {
     "date": "2016-06-19 00:00:00",
     "start": "2016-06-19T05:00:00.000Z",
     "end": "2016-06-20T05:00:00.000Z",
-    "name": "Emancipation Day In Texas",
-    "type": "observance",
-    "note": "state agencies are partially staffed"
+    "name": "Father's Day",
+    "type": "observance"
   },
   {
     "date": "2016-07-04 00:00:00",
@@ -200,5 +200,12 @@
     "end": "2016-12-27T06:00:00.000Z",
     "name": "Day after Christmas",
     "type": "public"
+  },
+  {
+    "date": "2016-12-31 18:00:00",
+    "start": "2017-01-01T00:00:00.000Z",
+    "end": "2017-01-01T06:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
   }
 ]

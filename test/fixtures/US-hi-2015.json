@@ -139,5 +139,12 @@
     "end": "2015-12-26T10:00:00.000Z",
     "name": "Christmas Day",
     "type": "public"
+  },
+  {
+    "date": "2015-12-31 18:00:00",
+    "start": "2016-01-01T04:00:00.000Z",
+    "end": "2016-01-01T10:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
   }
 ]
