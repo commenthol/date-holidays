@@ -1,5 +1,22 @@
 # CHANGELOG
 
+v0.1.10
+- fix for US New Years Eve
+- fix for Labor Day spelling in en-us countries
+- new rule for optional Christmas Eve in US
+
+v0.1.9
+- custom builds with holidays2json
+
+v0.1.8
+- missing holidays AT
+
+v0.1.7
+- new holidays for CA states/ provinces
+
+v0.1.6
+- fix AU.nsw bank holidays
+
 v0.1.5
 * Country Angola added
 * Country Mozambique added
