@@ -8851,6 +8851,10 @@
           },
           "type": "observance"
         },
+        "12-24": {
+            "_name": "12-24",
+            "type": "optional"
+        },
         "12-25 and if sunday then next monday if saturday then previous friday": {
           "substitute": true,
           "_name": "12-25"
