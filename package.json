@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "worldwide holidays",
   "main": "lib",
   "bin": {
