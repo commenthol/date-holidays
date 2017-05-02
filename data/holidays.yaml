@@ -1229,6 +1229,7 @@ holidays:
       - America/Whitehorse
       - America/Dawson
     langs:
+      - en-us
       - en
       - fr
     days:
@@ -3403,6 +3404,7 @@ holidays:
       en: Guam
     dayoff: sunday
     langs:
+      - en-us
       - en
     zones:
       - Pacific/Guam
@@ -6185,6 +6187,7 @@ holidays:
       - America/Adak
       - Pacific/Honolulu
     langs:
+      - en-us
       - en
     days:
       01-01 and if sunday then next monday if saturday then previous friday:
