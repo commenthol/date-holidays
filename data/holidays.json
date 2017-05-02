@@ -1687,6 +1687,7 @@
         "America/Dawson"
       ],
       "langs": [
+        "en-us",
         "en",
         "fr"
       ],
@@ -4842,6 +4843,7 @@
       },
       "dayoff": "sunday",
       "langs": [
+        "en-us",
         "en"
       ],
       "zones": [
@@ -8765,6 +8767,7 @@
         "Pacific/Honolulu"
       ],
       "langs": [
+        "en-us",
         "en"
       ],
       "days": {
@@ -10258,6 +10261,7 @@
     "05-01": {
       "name": {
         "en": "Labour Day",
+        "en-us": "Labor Day",
         "bg": "Ден на труда",
         "bs": "Radni dan",
         "cz": "Svátek práce",
