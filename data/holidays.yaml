@@ -2376,6 +2376,8 @@ holidays:
       '12-31 14:00 if sunday then 00:00':
         _name: 12-31
         type: bank
+      '2017-10-31':
+        _name: Reformation Day
     states:
       bb:
         name: Brandenburg
