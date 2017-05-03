@@ -2362,9 +2362,6 @@ holidays:
       11-11:
         _name: 11-11
         type: observance
-      wednesday before 11-23:
-        _name: Buß- und Bettag
-        type: school
       '12-24 14:00 if sunday then 00:00':
         _name: 12-24
         type: bank
@@ -2408,6 +2405,9 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
+          wednesday before 11-23:
+            _name: Buß- und Bettag
+            type: school
         regions:
           a:
             name: Stadt Augsburg
