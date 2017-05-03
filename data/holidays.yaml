@@ -2389,8 +2389,14 @@ holidays:
         days:
           01-06:
             _name: 01-06
+          easter -3:
+            _name: easter -3
+            type: school
           easter 60:
             _name: easter 60
+          10-31:
+            _name: Reformation Day
+            type: school
           11-01:
             _name: 11-01
       by:
