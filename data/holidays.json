@@ -3402,7 +3402,8 @@
               "_name": "easter 60"
             },
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "type": "school"
             },
             "11-01": {
               "_name": "11-01"
@@ -3421,6 +3422,17 @@
                     "de": "Augsburger Friedensfest",
                     "en": "Augsburg Peace Festival"
                   }
+                },
+                "08-15": {
+                  "_name": "08-15"
+                }
+              }
+            },
+            "kath": {
+              "name": "Überwiegend katholische Gemeinden",
+              "days": {
+                "08-15": {
+                  "_name": "08-15"
                 }
               }
             }
