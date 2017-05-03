@@ -2482,10 +2482,19 @@ holidays:
       sn:
         name: Sachsen
         days:
+          easter 60:
+            _name: easter 60
+            type: observance
           10-31:
             _name: Reformation Day
           wednesday before 11-23:
             _name: Buß- und Bettag
+        regions:
+          kath:
+            name: Katholische Gemeinden des LK BZ
+            days:
+              easter 60:
+                _name: easter 60
       st:
         name: Sachsen-Anhalt
         days:
@@ -2496,10 +2505,20 @@ holidays:
       th:
         name: Thüringen
         days:
+          easter 60:
+            _name: easter 60
+            type: observance
           10-31:
             _name: Reformation Day
           '12-31 14:00 if sunday then 00:00':
             _name: 12-31
+        regions:
+          kath:
+            name: Katholische Gemeinden der LK EIC, UH und WAK
+            days:
+              easter 60:
+                _name: easter 60
+
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Dominican_Republic
   # @source http://www.ministeriodetrabajo.gob.do/index.php/noticias/item/ministerio-de-trabajo-publica-calendario-de-dias-feriados-del-ano-2016
   # @source http://docs.republica-dominicana.justia.com/nacionales/leyes/ley-139-97.pdf
