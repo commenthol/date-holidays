@@ -109,7 +109,8 @@
     "start": "2017-06-14T22:00:00.000Z",
     "end": "2017-06-15T22:00:00.000Z",
     "name": "Fronleichnam",
-    "type": "public"
+    "type": "public",
+    "note": "In Anrode (nur in den Ortsteilen Bickenriede und Zella), Dünwald (nur in den Ortsteilen Beberstedt und Hüpstedt), Rodeberg (nur im Ortsteil Struth), Südeichsfeld"
   },
   {
     "date": "2017-10-03 00:00:00",
@@ -158,7 +159,7 @@
     "start": "2017-11-21T23:00:00.000Z",
     "end": "2017-11-22T23:00:00.000Z",
     "name": "Buß- und Bettag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2017-12-24 00:00:00",
@@ -186,6 +187,6 @@
     "start": "2017-12-30T23:00:00.000Z",
     "end": "2017-12-31T23:00:00.000Z",
     "name": "Silvester",
-    "type": "bank"
+    "type": "public"
   }
 ]

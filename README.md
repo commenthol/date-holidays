@@ -147,7 +147,8 @@ Countries: 89
 │   ├── bb: Brandenburg
 │   ├── bw: Baden Würtemberg
 │   ├── by: Bayern
-│   │   └── a: Stadt Augsburg
+│   │   ├── a: Stadt Augsburg
+│   │   └── evang: Überwiegend evangelische Gemeinden
 │   ├── hb: Hansestadt Bremen
 │   ├── he: Hessen
 │   ├── hh: Hansestadt Hamburg
@@ -158,8 +159,12 @@ Countries: 89
 │   ├── sh: Schleswig-Holstein
 │   ├── sl: Saarland
 │   ├── sn: Sachsen
+│   │   └── bz: Landkreis Bautzen
 │   ├── st: Sachsen-Anhalt
 │   └── th: Thüringen
+│       ├── eic: Landkreis Eichfeld
+│       ├── uh: Unstrut-Hainich-Kreis
+│       └── wak: Wartburgkreis
 ├── DO: República Dominicana
 ├── EC: Ecuador
 │   └── qu: Quito

@@ -3333,6 +3333,10 @@
           "_name": "11-11",
           "type": "observance"
         },
+        "wednesday before 11-23": {
+          "_name": "Buß- und Bettag",
+          "type": "observance"
+        },
         "12-24 14:00 if sunday then 00:00": {
           "_name": "12-24",
           "type": "bank"
@@ -3344,10 +3348,7 @@
           }
         },
         "12-26": {
-          "_name": "12-26",
-          "name": {
-            "de": "2. Weihnachtstag"
-          }
+          "_name": "12-26"
         },
         "12-31 14:00 if sunday then 00:00": {
           "_name": "12-31",
@@ -3402,8 +3403,7 @@
               "_name": "easter 60"
             },
             "08-15": {
-              "_name": "08-15",
-              "type": "school"
+              "_name": "08-15"
             },
             "11-01": {
               "_name": "11-01"
@@ -3422,17 +3422,18 @@
                     "de": "Augsburger Friedensfest",
                     "en": "Augsburg Peace Festival"
                   }
-                },
-                "08-15": {
-                  "_name": "08-15"
                 }
               }
             },
-            "kath": {
-              "name": "Überwiegend katholische Gemeinden",
+            "evang": {
+              "name": {
+                "de": "Überwiegend evangelische Gemeinden",
+                "en": "Predominantly protestant communities"
+              },
               "days": {
                 "08-15": {
-                  "_name": "08-15"
+                  "_name": "08-15",
+                  "type": "school"
                 }
               }
             }
@@ -3526,11 +3527,13 @@
             }
           },
           "regions": {
-            "kath": {
-              "name": "Katholische Gemeinden des LK BZ",
+            "bz": {
+              "name": "Landkreis Bautzen",
               "days": {
                 "easter 60": {
-                  "_name": "easter 60"
+                  "_name": "easter 60",
+                  "type": "public",
+                  "note": "Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau."
                 }
               }
             }
@@ -3562,11 +3565,32 @@
             }
           },
           "regions": {
-            "kath": {
-              "name": "Katholische Gemeinden der LK EIC, UH und WAK",
+            "eic": {
+              "name": "Landkreis Eichfeld",
               "days": {
                 "easter 60": {
-                  "_name": "easter 60"
+                  "_name": "easter 60",
+                  "type": "public"
+                }
+              }
+            },
+            "uh": {
+              "name": "Unstrut-Hainich-Kreis",
+              "days": {
+                "easter 60": {
+                  "_name": "easter 60",
+                  "type": "public",
+                  "note": "In Anrode (nur in den Ortsteilen Bickenriede und Zella), Dünwald (nur in den Ortsteilen Beberstedt und Hüpstedt), Rodeberg (nur im Ortsteil Struth), Südeichsfeld"
+                }
+              }
+            },
+            "wak": {
+              "name": "Wartburgkreis",
+              "days": {
+                "easter 60": {
+                  "_name": "easter 60",
+                  "type": "public",
+                  "note": "In Brunnhartshausen (nur in den Ortsteilen Föhlritz und Steinberg), Buttlar, Geisa, Schleid, Zella/Rhön"
                 }
               }
             }
@@ -10854,7 +10878,7 @@
     "Constitution Day": {
       "name": {
         "en": "Constitution Day",
-        "de": "Verfassungstag",
+        "de": "Tag der Verfassung",
         "dk": "Grundlovsdag",
         "ca": "Dia de la Constitució",
         "es": "Día de la Constitución",

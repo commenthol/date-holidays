@@ -151,7 +151,7 @@
     "start": "2016-11-15T23:00:00.000Z",
     "end": "2016-11-16T23:00:00.000Z",
     "name": "Buß- und Bettag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2016-12-24 14:00:00",
@@ -179,6 +179,6 @@
     "start": "2016-12-31T13:00:00.000Z",
     "end": "2016-12-31T23:00:00.000Z",
     "name": "Silvester",
-    "type": "bank"
+    "type": "public"
   }
 ]

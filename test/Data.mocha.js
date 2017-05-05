@@ -55,7 +55,12 @@ describe('#Data', function () {
     it('can get a list of supported regions for de.by', function () {
       var obj = Data().getRegions('de.by')
       assert.equal(typeof obj, 'object')
-      assert.deepEqual(obj, { a: 'Stadt Augsburg', kath: 'Überwiegend katholische Gemeinden' })
+      assert.deepEqual(obj, { a: 'Stadt Augsburg',
+        evang: {
+          de: 'Überwiegend evangelische Gemeinden',
+          en: 'Predominantly protestant communities'
+        }
+      })
     })
   })
 

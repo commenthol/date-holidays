@@ -42,7 +42,11 @@ describe('#Holidays', function () {
     it('for regions', function () {
       var hd = new Holidays()
       var res = hd.getRegions('de', 'by')
-      var exp = { a: 'Stadt Augsburg', kath: 'Überwiegend katholische Gemeinden' }
+      var exp = { a: 'Stadt Augsburg',
+        evang: {
+          de: 'Überwiegend evangelische Gemeinden',
+          en: 'Predominantly protestant communities'
+        }}
       assert.deepEqual(res, exp)
     })
 
@@ -144,7 +148,6 @@ describe('#Holidays', function () {
       var hd = new Holidays()
       var res = hd.query('DE.by')
       assert.ok(typeof res === 'object')
-      console.log(res)
       assert.equal(res.a, 'Stadt Augsburg')
     })
   })
@@ -208,6 +211,7 @@ describe('#Holidays', function () {
       'All Saints\' Day': 'sun 2015-11-01 00:00',
       'All Souls\' Day': 'mon 2015-11-02 00:00',
       'Saint Martin': 'wed 2015-11-11 00:00',
+      'Day of Prayer and Repentance': 'wed 2015-11-18 00:00',
       'Christmas Eve': 'thu 2015-12-24 14:00',
       'Christmas Day': 'fri 2015-12-25 00:00',
       Boxingday: 'sat 2015-12-26 00:00',
@@ -262,6 +266,7 @@ describe('#Holidays', function () {
         Allerheiligen: 'sun 2015-11-01 00:00',
         Allerseelen: 'mon 2015-11-02 00:00',
         'Sankt Martin (Faschingsbeginn)': 'wed 2015-11-11 00:00',
+        'Buß- und Bettag': 'wed 2015-11-18 00:00',
         'Heiliger Abend': 'thu 2015-12-24 14:00',
         '1. Weihnachtstag': 'fri 2015-12-25 00:00',
         '2. Weihnachtstag': 'sat 2015-12-26 00:00',
