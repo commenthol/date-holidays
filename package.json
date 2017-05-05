@@ -4,7 +4,7 @@
   "description": "worldwide holidays",
   "main": "lib",
   "bin": {
-    "holidays2json": "./build/holidays2json.js"
+    "holidays2json": "./scripts/holidays2json.js"
   },
   "directories": {
     "test": "test"
@@ -36,7 +36,7 @@
   "scripts": {
     "test": "mocha test/*.mocha.js",
     "all": "npm run clean && npm i && npm run yaml && npm run lint && npm test && npm pack",
-    "yaml": "node build/holidays2json.js",
+    "yaml": "node scripts/holidays2json.js",
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
     "lint": "eslint --quiet '**/*.js'",
     "watch": "watch-run -p data/*.yaml npm run yaml",

@@ -19,7 +19,7 @@ lint:
 	npm run lint
 
 tree: yaml
-	node build/addtree.js
+	node scripts/addtree.js
 
 writetests: yaml
 	mocha test/all.mocha.js --writetests
@@ -27,6 +27,6 @@ writetests: yaml
 attributions: LICENSE
 
 LICENSE: data/holidays.yaml
-	node build/attributions.js $< $@
+	node scripts/attributions.js $< $@
 
 .PHONY: all doc lint test tree writetests yaml

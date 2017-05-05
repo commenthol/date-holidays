@@ -7,9 +7,9 @@ test/
 docs/
 gen/
 tmp/
-build/addtree.js
-build/attributions.js
-build/tree.js
+scripts/addtree.js
+scripts/attributions.js
+scripts/tree.js
 test/assets/
 test/all.mocha.js
 Makefile
