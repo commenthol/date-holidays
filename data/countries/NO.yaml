@@ -1,0 +1,68 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Norway
+  NO:
+    names:
+      no: Norge
+      en: Norway
+    dayoff: sunday
+    langs:
+      - no
+    zones:
+      - Europe/Oslo
+    days:
+      01-01:
+        _name: 01-01
+      2nd sunday after 02-01:
+        _name: Mothers Day
+        type: observance
+      easter -49:
+        name:
+          no: Fastelavn
+          en: Carnival
+        type: observance
+      easter -7:
+        _name: easter -7
+        type: observance
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      05-08:
+        name:
+          no: Frigjøringsdag 1945
+          en: Liberation Day
+        type: observance
+      05-17:
+        _name: Constitution Day
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      easter 50:
+        _name: easter 50
+      06-23:
+        name:
+          no: Sankthansaften
+          en: Midsummar Eve
+        type: observance
+      4th sunday before 12-24:
+        name:
+          no: Første søndag i advent
+        type: observance
+      12-24:
+        _name: 12-24
+        type: bank
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      '12-31 14:00 if sunday then 00:00':
+        _name: 12-31
+        type: bank
+

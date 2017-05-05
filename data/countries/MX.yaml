@@ -1,0 +1,59 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Mexico
+  MX:
+    names:
+      es: México
+      en: Mexico
+    dayoff: sunday
+    langs:
+      - es
+    zones:
+      - America/Mexico_City
+      - America/Cancun
+      - America/Merida
+      - America/Monterrey
+      - America/Matamoros
+      - America/Mazatlan
+      - America/Chihuahua
+      - America/Ojinaga
+      - America/Hermosillo
+      - America/Tijuana
+      - America/Santa_Isabel
+      - America/Bahia_Banderas
+    days:
+      01-01:
+        _name: 01-01
+      02-05:
+        _name: Constitution Day
+      1st monday after 02-01:
+        name:
+          en: Constitution Day (day off)
+          es: Día de la Constitución (día libre)
+      03-21:
+        name:
+          en: Benito Juárez's birthday
+          es: Natalicio de Benito Juárez
+      3rd monday after 03-01:
+        name:
+          en: Benito Juárez's birthday (day off)
+          es: Natalicio de Benito Juárez (día libre)
+      05-01:
+        _name: 05-01
+      05-10:
+        _name: Mothers Day
+        type: observance
+      09-16:
+        _name: Independence Day
+      11-20:
+        _name: Revolution Day
+      3rd monday after 11-01:
+        name:
+          en: Revolution Day (day off)
+          es: Día de la Revolución (día libre)
+      12-01 every 6 years since 1934:
+        name:
+          en: Change of Federal Government
+          es: Transmisión del Poder Ejecutivo Federal
+      12-25:
+        _name: 12-25
+

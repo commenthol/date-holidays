@@ -1,0 +1,30 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States#Guam
+  GU:
+    names:
+      en: Guam
+    dayoff: sunday
+    langs:
+      - en-us
+      - en
+    zones:
+      - Pacific/Guam
+    # same federal holidays as US
+    _days:
+      - US
+    # additional holidays
+    days:
+      03-05:
+        name:
+          en: Guam Discovery Day
+      easter -2:
+        _name: easter -2
+      07-21:
+        name:
+          en: Liberation Day
+      11-02:
+        _name: 11-02
+      12-08:
+        name:
+          en: Lady of Camarin Day
+

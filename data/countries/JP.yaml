@@ -1,0 +1,122 @@
+holidays:
+  # @source http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+  # Japan
+  JP:
+    names:
+      jp: 日本
+      en: Japan
+    dayoff: sunday
+    langs:
+      - jp
+    zones:
+      - Asia/Tokyo
+    days:
+      01-01 and if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      01-02:
+        name:
+          en: January 2nd
+          jp: 銀行休業日
+        type: bank
+      01-03:
+        name:
+          en: January 3rd
+          jp: 銀行休業日
+        type: bank
+      2nd monday after 01-01:
+        name:
+          en: Coming of Age Day
+          jp: 成人の日
+      02-11 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Foundation Day
+          jp: 建国記念の日
+      spring equinox in Asia/Tokyo:
+        name:
+          en: Spring Equinox Day
+          jp: 春分の日
+      substitutes 03-21 if sunday then next monday:
+        substitute: true
+        name:
+          en: Spring Equinox Day
+          jp: 春分の日
+        # TODO create rule
+      04-29 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Showa Day
+          jp: 昭和の日
+      05-03:
+        _name: Constitution Day
+      substitutes 05-03 if sunday then next wednesday:
+        substitute: true
+        _name: Constitution Day
+      05-04 and if sunday then next tuesday:
+        substitute: true
+        name:
+          en: Greenery Day
+          jp: みどりの日
+      05-05 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Children's Day
+          jp: こどもの日
+      3rd monday after 07-01:
+        name:
+          en: Marine Day
+          jp: 海の日
+      08-11 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Mountain Day
+          jp: 山の日
+      3rd monday after 09-01:
+        name:
+          en: Respect-for-the-Aged Day
+          jp: 敬老の日
+      09-22 if 09-21 and 09-23 is public holiday:
+        name:
+          en: Public Holiday
+          jp: 祝日
+      autumn equinox in Asia/Tokyo:
+        name:
+          en: Autumnal Equinox Day
+          jp: 秋分の日
+      substitutes 09-23 if sunday then next monday:
+        substitute: true
+        name:
+          en: Autumnal Equinox Day
+          jp: 秋分の日
+      2nd monday after 10-01:
+        name:
+          en: Sports Day
+          jp: 体育の日
+      11-03 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Culture Day
+          jp: 文化の日
+      11-15:
+        name:
+          en: Seven-Five-Three Festival
+          jp: 七五三
+        type: observance
+      11-23 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Labor Thanksgiving Day
+          jp: 勤労感謝の日
+      12-23 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Emperor's Birthday
+          jp: 天皇誕生日
+      12-25:
+        _name: 12-25
+        type: observance
+      12-31:
+        _name: 12-31
+        type: bank
+

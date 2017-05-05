@@ -92,74 +92,6 @@
         }
       }
     },
-    "AO": {
-      "names": {
-        "pt": "Angola",
-        "en": "Angola"
-      },
-      "dayoff": "sunday",
-      "zones": [
-        "Africa/Lagos"
-      ],
-      "langs": [
-        "pt"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "02-04": {
-          "name": {
-            "pt": "Dia do Início da Luta Armada de Libertação Nacional",
-            "en": "Liberation Day"
-          }
-        },
-        "easter -47": {
-          "_name": "easter -47"
-        },
-        "03-08": {
-          "name": {
-            "pt": "Dia Internacional da Mulher",
-            "en": "International Woman's Day"
-          }
-        },
-        "easter -2": {
-          "_name": "easter -2"
-        },
-        "easter": {
-          "_name": "easter",
-          "type": "observance"
-        },
-        "04-04": {
-          "name": {
-            "pt": "Dia da Paz",
-            "en": "Peace Day"
-          }
-        },
-        "05-01": {
-          "_name": "05-01"
-        },
-        "1st sunday after 05-01": {
-          "_name": "Mothers Day",
-          "type": "observance"
-        },
-        "09-17": {
-          "name": {
-            "pt": "Fundador da Nação e Dia dos Heróis Nacionais",
-            "en": "National Hero Day"
-          }
-        },
-        "11-02": {
-          "_name": "11-02"
-        },
-        "11-11": {
-          "_name": "Independence Day"
-        },
-        "12-25": {
-          "_name": "12-25"
-        }
-      }
-    },
     "AM": {
       "names": {
         "hy": "Հայաստան",
@@ -276,6 +208,74 @@
             "hy": "Երկրաշարժի զոհերի հիշատակի օր"
           },
           "type": "observance"
+        }
+      }
+    },
+    "AO": {
+      "names": {
+        "pt": "Angola",
+        "en": "Angola"
+      },
+      "dayoff": "sunday",
+      "zones": [
+        "Africa/Lagos"
+      ],
+      "langs": [
+        "pt"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-04": {
+          "name": {
+            "pt": "Dia do Início da Luta Armada de Libertação Nacional",
+            "en": "Liberation Day"
+          }
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "03-08": {
+          "name": {
+            "pt": "Dia Internacional da Mulher",
+            "en": "International Woman's Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "04-04": {
+          "name": {
+            "pt": "Dia da Paz",
+            "en": "Peace Day"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "1st sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "09-17": {
+          "name": {
+            "pt": "Fundador da Nação e Dia dos Heróis Nacionais",
+            "en": "National Hero Day"
+          }
+        },
+        "11-02": {
+          "_name": "11-02"
+        },
+        "11-11": {
+          "_name": "Independence Day"
+        },
+        "12-25": {
+          "_name": "12-25"
         }
       }
     },
@@ -2159,6 +2159,59 @@
         }
       }
     },
+    "CG": {
+      "names": {
+        "fr": "République du Congo",
+        "en": "Republic of the Congo"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "fr",
+        "en"
+      ],
+      "zones": [
+        "Africa/Lagos"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "06-10": {
+          "name": {
+            "fr": "Fête de la commémoration de la conférence nationale souveraine"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-28": {
+          "name": {
+            "fr": "Journée nationale de la République"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      }
+    },
     "CH": {
       "names": {
         "de": "Schweiz",
@@ -2681,59 +2734,6 @@
         }
       }
     },
-    "CG": {
-      "names": {
-        "fr": "République du Congo",
-        "en": "Republic of the Congo"
-      },
-      "dayoff": "sunday",
-      "langs": [
-        "fr",
-        "en"
-      ],
-      "zones": [
-        "Africa/Lagos"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "easter 1": {
-          "_name": "easter 1"
-        },
-        "05-01": {
-          "_name": "05-01"
-        },
-        "easter 39": {
-          "_name": "easter 39"
-        },
-        "easter 49": {
-          "_name": "easter 49"
-        },
-        "easter 50": {
-          "_name": "easter 50"
-        },
-        "06-10": {
-          "name": {
-            "fr": "Fête de la commémoration de la conférence nationale souveraine"
-          }
-        },
-        "08-15": {
-          "_name": "08-15"
-        },
-        "11-01": {
-          "_name": "11-01"
-        },
-        "11-28": {
-          "name": {
-            "fr": "Journée nationale de la République"
-          }
-        },
-        "12-25": {
-          "_name": "12-25"
-        }
-      }
-    },
     "CM": {
       "names": {
         "fr": "Cameroun",
@@ -3176,71 +3176,6 @@
         }
       }
     },
-    "DK": {
-      "names": {
-        "dk": "Danmark",
-        "en": "Denmark"
-      },
-      "langs": [
-        "dk"
-      ],
-      "zones": [
-        "Europe/Copenhagen"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "easter -48": {
-          "name": {
-            "dk": "Fastelavn"
-          },
-          "type": "observance"
-        },
-        "easter -3": {
-          "_name": "easter -3"
-        },
-        "easter -2": {
-          "_name": "easter -2"
-        },
-        "easter": {
-          "_name": "easter"
-        },
-        "easter 1": {
-          "_name": "easter 1"
-        },
-        "easter 26": {
-          "name": {
-            "dk": "Store Bededag",
-            "en": "Day of Atonement",
-            "de": "Buß- und Bettag"
-          }
-        },
-        "easter 39": {
-          "_name": "easter 39"
-        },
-        "2nd sunday after 05-01": {
-          "_name": "Mothers Day",
-          "type": "observance"
-        },
-        "06-05": {
-          "_name": "Constitution Day",
-          "type": "observance"
-        },
-        "easter 49": {
-          "_name": "easter 49"
-        },
-        "easter 50": {
-          "_name": "easter 50"
-        },
-        "12-25": {
-          "_name": "12-25"
-        },
-        "12-26": {
-          "_name": "12-26"
-        }
-      }
-    },
     "DE": {
       "names": {
         "de": "Deutschland",
@@ -3426,7 +3361,7 @@
               }
             },
             "evang": {
-              "name": {
+              "names": {
                 "de": "Überwiegend evangelische Gemeinden",
                 "en": "Predominantly protestant communities"
               },
@@ -3595,6 +3530,71 @@
               }
             }
           }
+        }
+      }
+    },
+    "DK": {
+      "names": {
+        "dk": "Danmark",
+        "en": "Denmark"
+      },
+      "langs": [
+        "dk"
+      ],
+      "zones": [
+        "Europe/Copenhagen"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "easter -48": {
+          "name": {
+            "dk": "Fastelavn"
+          },
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 26": {
+          "name": {
+            "dk": "Store Bededag",
+            "en": "Day of Atonement",
+            "de": "Buß- und Bettag"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-05": {
+          "_name": "Constitution Day",
+          "type": "observance"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
         }
       }
     },
@@ -4720,73 +4720,6 @@
         }
       }
     },
-    "GR": {
-      "names": {
-        "el": "Ελλάδα",
-        "en": "Greece"
-      },
-      "dayoff": "sunday",
-      "zones": [
-        "Europe/Athens"
-      ],
-      "langs": [
-        "el"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "01-06": {
-          "_name": "01-06"
-        },
-        "orthodox -48": {
-          "name": {
-            "el": "Καθαρά Δευτέρα",
-            "en": "Ash Sunday"
-          }
-        },
-        "03-25": {
-          "name": {
-            "el": "Ευαγγελισμός, Εθνική Εορτή",
-            "en": "Annunciation, Anniversary of 1821 Revolution"
-          }
-        },
-        "orthodox -2": {
-          "_name": "easter -2"
-        },
-        "orthodox": {
-          "_name": "easter"
-        },
-        "orthodox 1": {
-          "_name": "easter 1"
-        },
-        "05-01": {
-          "_name": "05-01"
-        },
-        "orthodox 49": {
-          "_name": "easter 49"
-        },
-        "2nd sunday after 05-01": {
-          "_name": "Mothers Day",
-          "type": "observance"
-        },
-        "08-15": {
-          "_name": "08-15"
-        },
-        "10-28": {
-          "_name": "National Holiday",
-          "name": {
-            "el": "Επέτειος του Όχι"
-          }
-        },
-        "12-25": {
-          "_name": "12-25"
-        },
-        "12-26": {
-          "_name": "12-26"
-        }
-      }
-    },
     "GQ": {
       "names": {
         "es": "República de Guinea Ecuatorial",
@@ -4851,6 +4784,73 @@
         "12-25 and if sunday then next monday": {
           "substitute": true,
           "_name": "12-25"
+        }
+      }
+    },
+    "GR": {
+      "names": {
+        "el": "Ελλάδα",
+        "en": "Greece"
+      },
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Athens"
+      ],
+      "langs": [
+        "el"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "orthodox -48": {
+          "name": {
+            "el": "Καθαρά Δευτέρα",
+            "en": "Ash Sunday"
+          }
+        },
+        "03-25": {
+          "name": {
+            "el": "Ευαγγελισμός, Εθνική Εορτή",
+            "en": "Annunciation, Anniversary of 1821 Revolution"
+          }
+        },
+        "orthodox -2": {
+          "_name": "easter -2"
+        },
+        "orthodox": {
+          "_name": "easter"
+        },
+        "orthodox 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "orthodox 49": {
+          "_name": "easter 49"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "10-28": {
+          "_name": "National Holiday",
+          "name": {
+            "el": "Επέτειος του Όχι"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
         }
       }
     },
@@ -5429,83 +5429,6 @@
         }
       }
     },
-    "IT": {
-      "names": {
-        "it": "Italia",
-        "en": "Italia"
-      },
-      "dayoff": "sunday",
-      "zones": [
-        "Europe/Rome"
-      ],
-      "langs": [
-        "it"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "01-06": {
-          "_name": "01-06"
-        },
-        "easter": {
-          "_name": "easter"
-        },
-        "easter 1": {
-          "_name": "easter 1"
-        },
-        "04-25": {
-          "name": {
-            "it": "Anniversario della Liberazione",
-            "en": "Liberation Day"
-          }
-        },
-        "05-01": {
-          "_name": "05-01"
-        },
-        "2nd sunday after 05-01": {
-          "_name": "Mothers Day",
-          "type": "observance"
-        },
-        "06-02": {
-          "name": {
-            "it": "Festa della Repubblica",
-            "en": "Republic Day"
-          }
-        },
-        "08-15": {
-          "_name": "08-15"
-        },
-        "11-01": {
-          "_name": "11-01"
-        },
-        "12-08": {
-          "_name": "12-08"
-        },
-        "12-25": {
-          "_name": "12-25"
-        },
-        "12-26": {
-          "_name": "12-26"
-        },
-        "2011-03-17": {
-          "name": {
-            "it": "Festa Nazionale 2011",
-            "en": "National Day 2011"
-          }
-        }
-      },
-      "states": {
-        "suedtirol": {
-          "name": "Südtirol, Alto Adige",
-          "days": {
-            "easter 50": {
-              "_name": "easter 50"
-            }
-          }
-        }
-      }
-    },
     "IS": {
       "names": {
         "is": "Ísland",
@@ -5644,6 +5567,83 @@
         },
         "12-31 13:00 if sunday then 00:00": {
           "_name": "12-31"
+        }
+      }
+    },
+    "IT": {
+      "names": {
+        "it": "Italia",
+        "en": "Italia"
+      },
+      "dayoff": "sunday",
+      "zones": [
+        "Europe/Rome"
+      ],
+      "langs": [
+        "it"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "04-25": {
+          "name": {
+            "it": "Anniversario della Liberazione",
+            "en": "Liberation Day"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "2nd sunday after 05-01": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "06-02": {
+          "name": {
+            "it": "Festa della Repubblica",
+            "en": "Republic Day"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "2011-03-17": {
+          "name": {
+            "it": "Festa Nazionale 2011",
+            "en": "National Day 2011"
+          }
+        }
+      },
+      "states": {
+        "suedtirol": {
+          "name": "Südtirol, Alto Adige",
+          "days": {
+            "easter 50": {
+              "_name": "easter 50"
+            }
+          }
         }
       }
     },
@@ -6551,6 +6551,145 @@
         }
       }
     },
+    "MT": {
+      "names": {
+        "mt": "Malta",
+        "en": "Malta"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "mt"
+      ],
+      "zones": [
+        "Europe/Malta"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-10": {
+          "name": {
+            "en": "Feast of Saint Paul's Shipwreck in Malta",
+            "mt": "Nawfraġju ta' San Pawl"
+          }
+        },
+        "03-19": {
+          "_name": "03-19"
+        },
+        "03-31": {
+          "name": {
+            "en": "Freedom Day",
+            "mt": "Jum il-Ħelsien"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "06-07": {
+          "name": {
+            "mt": "Sette Giugno",
+            "en": "June 7th"
+          }
+        },
+        "06-29": {
+          "_name": "06-29"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "09-08": {
+          "name": {
+            "en": "Victory Day",
+            "mt": "Jum il-Vitorja"
+          }
+        },
+        "09-21": {
+          "_name": "Independence Day"
+        },
+        "12-08": {
+          "_name": "12-08"
+        },
+        "12-13": {
+          "name": {
+            "en": "Republic Day",
+            "mt": "Jum ir-Repubblika"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      }
+    },
+    "MW": {
+      "names": {
+        "en": "Malawi"
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "Africa/Maputo"
+      ],
+      "days": {
+        "01-01 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "_name": "01-01"
+        },
+        "01-15 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "John Chilembwe Day"
+          }
+        },
+        "03-03 and if saturday,sunday then next monday": {
+          "name": {
+            "en": "Martyrs' Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01 and if saturday,sunday then next monday": {
+          "_name": "05-01"
+        },
+        "05-14 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "name": {
+            "en": "Kamuzu Day"
+          }
+        },
+        "07-06 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "_name": "Independence Day"
+        },
+        "10-15 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "_name": "Mothers Day"
+        },
+        "12-25 and if saturday,sunday then next monday": {
+          "substitute": true,
+          "_name": "12-25"
+        },
+        "1 Shawwal and if saturday,sunday then next monday": {
+          "substitute": true,
+          "_name": "1 Shawwal",
+          "name": {
+            "en": "Eid al Fitri"
+          }
+        }
+      }
+    },
     "MX": {
       "names": {
         "es": "México",
@@ -6622,78 +6761,6 @@
           "name": {
             "en": "Change of Federal Government",
             "es": "Transmisión del Poder Ejecutivo Federal"
-          }
-        },
-        "12-25": {
-          "_name": "12-25"
-        }
-      }
-    },
-    "MT": {
-      "names": {
-        "mt": "Malta",
-        "en": "Malta"
-      },
-      "dayoff": "sunday",
-      "langs": [
-        "mt"
-      ],
-      "zones": [
-        "Europe/Malta"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "02-10": {
-          "name": {
-            "en": "Feast of Saint Paul's Shipwreck in Malta",
-            "mt": "Nawfraġju ta' San Pawl"
-          }
-        },
-        "03-19": {
-          "_name": "03-19"
-        },
-        "03-31": {
-          "name": {
-            "en": "Freedom Day",
-            "mt": "Jum il-Ħelsien"
-          }
-        },
-        "easter -2": {
-          "_name": "easter -2"
-        },
-        "05-01": {
-          "_name": "05-01"
-        },
-        "06-07": {
-          "name": {
-            "mt": "Sette Giugno",
-            "en": "June 7th"
-          }
-        },
-        "06-29": {
-          "_name": "06-29"
-        },
-        "08-15": {
-          "_name": "08-15"
-        },
-        "09-08": {
-          "name": {
-            "en": "Victory Day",
-            "mt": "Jum il-Vitorja"
-          }
-        },
-        "09-21": {
-          "_name": "Independence Day"
-        },
-        "12-08": {
-          "_name": "12-08"
-        },
-        "12-13": {
-          "name": {
-            "en": "Republic Day",
-            "mt": "Jum ir-Repubblika"
           }
         },
         "12-25": {
@@ -6800,73 +6867,6 @@
         },
         "substitutes 12-25 if sunday then next monday": {
           "_name": "Public Holiday"
-        }
-      }
-    },
-    "MW": {
-      "names": {
-        "en": "Malawi"
-      },
-      "dayoff": "sunday",
-      "langs": [
-        "en"
-      ],
-      "zones": [
-        "Africa/Maputo"
-      ],
-      "days": {
-        "01-01 and if saturday,sunday then next monday": {
-          "substitute": true,
-          "_name": "01-01"
-        },
-        "01-15 and if saturday,sunday then next monday": {
-          "substitute": true,
-          "name": {
-            "en": "John Chilembwe Day"
-          }
-        },
-        "03-03 and if saturday,sunday then next monday": {
-          "name": {
-            "en": "Martyrs' Day"
-          }
-        },
-        "easter -2": {
-          "_name": "easter -2"
-        },
-        "easter": {
-          "_name": "easter",
-          "type": "observance"
-        },
-        "easter 1": {
-          "_name": "easter 1"
-        },
-        "05-01 and if saturday,sunday then next monday": {
-          "_name": "05-01"
-        },
-        "05-14 and if saturday,sunday then next monday": {
-          "substitute": true,
-          "name": {
-            "en": "Kamuzu Day"
-          }
-        },
-        "07-06 and if saturday,sunday then next monday": {
-          "substitute": true,
-          "_name": "Independence Day"
-        },
-        "10-15 and if saturday,sunday then next monday": {
-          "substitute": true,
-          "_name": "Mothers Day"
-        },
-        "12-25 and if saturday,sunday then next monday": {
-          "substitute": true,
-          "_name": "12-25"
-        },
-        "1 Shawwal and if saturday,sunday then next monday": {
-          "substitute": true,
-          "_name": "1 Shawwal",
-          "name": {
-            "en": "Eid al Fitri"
-          }
         }
       }
     },
@@ -8509,230 +8509,6 @@
         }
       }
     },
-    "VE": {
-      "names": {
-        "es": "Venezuela",
-        "en": "Venezuela"
-      },
-      "dayoff": "sundays",
-      "langs": [
-        "es"
-      ],
-      "zones": [
-        "America/Caracas"
-      ],
-      "days": {
-        "01-01": {
-          "_name": "01-01"
-        },
-        "01-06": {
-          "_name": "01-06",
-          "type": "observance"
-        },
-        "01-15": {
-          "name": {
-            "es": "Día del Maestro",
-            "en": "Teacher's Day"
-          },
-          "type": "optional",
-          "note": "teachers only"
-        },
-        "03-19": {
-          "_name": "03-19",
-          "type": "observance"
-        },
-        "easter -48": {
-          "name": {
-            "en": "Carnival",
-            "es": "Carnaval"
-          }
-        },
-        "easter -47": {
-          "_name": "easter -47"
-        },
-        "easter -6 +7d": {
-          "name": {
-            "en": "Holy Week",
-            "es": "Semana Santa"
-          },
-          "type": "observance"
-        },
-        "easter -3": {
-          "_name": "easter -3"
-        },
-        "easter -2": {
-          "_name": "easter -2"
-        },
-        "easter": {
-          "_name": "easter"
-        },
-        "04-19": {
-          "name": {
-            "en": "Declaration of Independence",
-            "es": "Declaración de la Independencia"
-          }
-        },
-        "05-01": {
-          "_name": "05-01"
-        },
-        "06-24": {
-          "name": {
-            "en": "Battle of Carabobo",
-            "es": "Aniversario de la Batalla de Carabobo"
-          }
-        },
-        "07-05": {
-          "_name": "Independence Day"
-        },
-        "07-24": {
-          "name": {
-            "en": "Birthday of Simón Bolívar",
-            "es": "Natalicio de Simón Bolívar"
-          }
-        },
-        "08-03": {
-          "name": {
-            "en": "Flag Day",
-            "es": "Día de la Bandera"
-          },
-          "type": "observance"
-        },
-        "09-11": {
-          "name": {
-            "en": "Our Lady of Coromoto",
-            "es": "Día de Nuestra Señora de Coromoto"
-          },
-          "type": "observance"
-        },
-        "10-12": {
-          "name": {
-            "en": "Day of Indigenous Resistance",
-            "es": "Día de la resistencia indígena"
-          }
-        },
-        "11-01": {
-          "_name": "11-01",
-          "type": "observance"
-        },
-        "11-02": {
-          "_name": "11-02",
-          "type": "observance"
-        },
-        "12-08": {
-          "_name": "12-08",
-          "type": "observance"
-        },
-        "12-10": {
-          "name": {
-            "en": "Venezuelan Air Force Day",
-            "es": "Día de la Aviación Nacional"
-          },
-          "type": "observance"
-        },
-        "12-24": {
-          "_name": "12-24"
-        },
-        "12-25": {
-          "_name": "12-25"
-        },
-        "12-31": {
-          "_name": "12-31"
-        }
-      },
-      "states": {
-        "an": {
-          "name": "Anzoátegui",
-          "days": {
-            "11-14": {
-              "name": {
-                "es": "Natalicio de José Antonio Anzoátegui"
-              }
-            }
-          }
-        },
-        "ca": {
-          "name": "Carabobo",
-          "days": {
-            "11-13": {
-              "name": {
-                "es": "Día de la Virgen del Socorro"
-              }
-            }
-          }
-        },
-        "la": {
-          "name": "Lara",
-          "days": {
-            "01-14": {
-              "name": {
-                "es": "Día de La Divina Pastora"
-              }
-            },
-            "05-28": {
-              "name": {
-                "es": "Natalicio de Jacinto Lara"
-              }
-            }
-          },
-          "regions": {
-            "ba": {
-              "name": "Barquisimeto",
-              "days": {
-                "09-14": {
-                  "name": {
-                    "es": "Día de Barquisimeto"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "mi": {
-          "name": "Miranda",
-          "days": {
-            "03-19": {
-              "_name": "03-19"
-            }
-          }
-        },
-        "mo": {
-          "name": "Monagas",
-          "days": {
-            "12-07": {
-              "name": {
-                "es": "Día de Maturin"
-              }
-            }
-          }
-        },
-        "ta": {
-          "name": "Táchira",
-          "days": {
-            "08-15": {
-              "_name": "08-15",
-              "name": {
-                "es": "Día de la Virgen de Consolación"
-              }
-            }
-          }
-        },
-        "zu": {
-          "name": "Zulia",
-          "days": {
-            "10-24": {
-              "name": {
-                "es": "Natalicio de Rafael Urdaneta"
-              }
-            },
-            "11-18": {
-              "name": {
-                "es": "Día de la Virgen de la Chinita"
-              }
-            }
-          }
-        }
-      }
-    },
     "UG": {
       "names": {
         "en": "Uganda"
@@ -9963,6 +9739,230 @@
         "12-31": {
           "_name": "12-31",
           "type": "observance"
+        }
+      }
+    },
+    "VE": {
+      "names": {
+        "es": "Venezuela",
+        "en": "Venezuela"
+      },
+      "dayoff": "sundays",
+      "langs": [
+        "es"
+      ],
+      "zones": [
+        "America/Caracas"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06",
+          "type": "observance"
+        },
+        "01-15": {
+          "name": {
+            "es": "Día del Maestro",
+            "en": "Teacher's Day"
+          },
+          "type": "optional",
+          "note": "teachers only"
+        },
+        "03-19": {
+          "_name": "03-19",
+          "type": "observance"
+        },
+        "easter -48": {
+          "name": {
+            "en": "Carnival",
+            "es": "Carnaval"
+          }
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "easter -6 +7d": {
+          "name": {
+            "en": "Holy Week",
+            "es": "Semana Santa"
+          },
+          "type": "observance"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "04-19": {
+          "name": {
+            "en": "Declaration of Independence",
+            "es": "Declaración de la Independencia"
+          }
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "06-24": {
+          "name": {
+            "en": "Battle of Carabobo",
+            "es": "Aniversario de la Batalla de Carabobo"
+          }
+        },
+        "07-05": {
+          "_name": "Independence Day"
+        },
+        "07-24": {
+          "name": {
+            "en": "Birthday of Simón Bolívar",
+            "es": "Natalicio de Simón Bolívar"
+          }
+        },
+        "08-03": {
+          "name": {
+            "en": "Flag Day",
+            "es": "Día de la Bandera"
+          },
+          "type": "observance"
+        },
+        "09-11": {
+          "name": {
+            "en": "Our Lady of Coromoto",
+            "es": "Día de Nuestra Señora de Coromoto"
+          },
+          "type": "observance"
+        },
+        "10-12": {
+          "name": {
+            "en": "Day of Indigenous Resistance",
+            "es": "Día de la resistencia indígena"
+          }
+        },
+        "11-01": {
+          "_name": "11-01",
+          "type": "observance"
+        },
+        "11-02": {
+          "_name": "11-02",
+          "type": "observance"
+        },
+        "12-08": {
+          "_name": "12-08",
+          "type": "observance"
+        },
+        "12-10": {
+          "name": {
+            "en": "Venezuelan Air Force Day",
+            "es": "Día de la Aviación Nacional"
+          },
+          "type": "observance"
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-31": {
+          "_name": "12-31"
+        }
+      },
+      "states": {
+        "an": {
+          "name": "Anzoátegui",
+          "days": {
+            "11-14": {
+              "name": {
+                "es": "Natalicio de José Antonio Anzoátegui"
+              }
+            }
+          }
+        },
+        "ca": {
+          "name": "Carabobo",
+          "days": {
+            "11-13": {
+              "name": {
+                "es": "Día de la Virgen del Socorro"
+              }
+            }
+          }
+        },
+        "la": {
+          "name": "Lara",
+          "days": {
+            "01-14": {
+              "name": {
+                "es": "Día de La Divina Pastora"
+              }
+            },
+            "05-28": {
+              "name": {
+                "es": "Natalicio de Jacinto Lara"
+              }
+            }
+          },
+          "regions": {
+            "ba": {
+              "name": "Barquisimeto",
+              "days": {
+                "09-14": {
+                  "name": {
+                    "es": "Día de Barquisimeto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "mi": {
+          "name": "Miranda",
+          "days": {
+            "03-19": {
+              "_name": "03-19"
+            }
+          }
+        },
+        "mo": {
+          "name": "Monagas",
+          "days": {
+            "12-07": {
+              "name": {
+                "es": "Día de Maturin"
+              }
+            }
+          }
+        },
+        "ta": {
+          "name": "Táchira",
+          "days": {
+            "08-15": {
+              "_name": "08-15",
+              "name": {
+                "es": "Día de la Virgen de Consolación"
+              }
+            }
+          }
+        },
+        "zu": {
+          "name": "Zulia",
+          "days": {
+            "10-24": {
+              "name": {
+                "es": "Natalicio de Rafael Urdaneta"
+              }
+            },
+            "11-18": {
+              "name": {
+                "es": "Día de la Virgen de la Chinita"
+              }
+            }
+          }
         }
       }
     },

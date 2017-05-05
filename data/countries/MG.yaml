@@ -1,0 +1,47 @@
+holidays:
+  # @source https://fr.wikipedia.org/wiki/Madagascar
+  MG:
+    names:
+      mg: Repoblikan'i Madagasikara
+      fr: République de Madagascar
+      en: Madagascar
+    dayoff: sunday
+    langs:
+      - mg
+      - fr
+      - en
+    zones:
+      - Africa/Nairobi
+    days:
+      01-01:
+        _name: 01-01
+      03-29:
+        name:
+          mg: Martioran'ny tolona tamin'ny 1947
+          fr: Commémoration des martyrs de l'insurrection de 1947.
+          en: Martyrs' Day
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      05-25:
+        name:
+          mg: Andron'i Afrika
+          fr: Jour de l'Afrique
+          en: Africa Day
+      easter 39:
+        _name: easter 39
+      easter 50:
+        _name: easter 50
+      06-26:
+        _name: Independence Day
+        name:
+          mg: Fetim-pirenena
+          fr: Fête Nationale
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      12-25:
+        _name: 12-25
+

@@ -1,0 +1,104 @@
+holidays:
+  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_Frankreich
+  FR:
+    names:
+      fr: France
+      en: France
+    dayoff: sunday
+    zones:
+      - Europe/Paris
+    langs:
+      - fr
+    days:
+      01-01:
+        _name: 01-01
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      05-08:
+        name:
+          fr: Fête de la Victoire 1945
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      easter 50:
+        _name: easter 50
+      sunday before 06-01:
+        _name: Mothers Day
+        type: observance
+      07-14:
+        name:
+          fr: Fête Nationale de la France
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      11-11:
+        name:
+          fr: Armistice 1918
+      12-25:
+        _name: 12-25
+    states:
+      basrhin:
+        name: Département Bas-Rhin
+        days:
+          easter -2:
+            _name: easter -2
+          12-26:
+            _name: 12-26
+      hautrhin:
+        name: Département Haut-Rhin
+        days:
+          easter -2:
+            _name: easter -2
+          12-26:
+            _name: 12-26
+      moselle:
+        name: Département Moselle
+        days:
+          easter -2:
+            _name: easter -2
+          12-26:
+            _name: 12-26
+      mayotte:
+        name: "Département et région d'outre-mer Mayotte"
+        zones:
+          - Indian/Mayotte
+        days:
+          04-27:
+            _name: Abolition of Slavery
+      martinique:
+        name: "Département et région d'outre-mer Martinique"
+        zones:
+          - America/Martinique
+        days:
+          easter -2:
+            _name: easter -2
+          05-22:
+            _name: Abolition of Slavery
+      guadeloupe:
+        name: "Département et région d'outre-mer Guadeloupe"
+        zones:
+          - America/Guadeloupe
+        days:
+          easter -2:
+            _name: easter -2
+          05-27:
+            _name: Abolition of Slavery
+      guyane:
+        name: "Département et région d'outre-mer Guyane"
+        zones:
+          - America/Guyana
+        days:
+          06-10:
+            _name: Abolition of Slavery
+      reunion:
+        name: "Département et région d'outre-mer La Réunion"
+        zones:
+          - Indian/Reunion
+        days:
+          12-20:
+            _name: Abolition of Slavery
+

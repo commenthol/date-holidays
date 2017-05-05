@@ -1,0 +1,51 @@
+holidays:
+  # @source http://www.gov.rw/home/official_holidays/
+  RW:
+    names:
+      rw: Repubulika y'u Rwanda
+      fr: République du Rwanda
+      en: Rwanda
+    dayoff: sunday
+    langs:
+      - rw
+      - fr
+    zones:
+      - Africa/Maputo
+    days:
+      01-01:
+        _name: 01-01
+      01-02:
+        _name: Public Holiday
+      02-01:
+        name:
+          en: Heroes Day
+      easter -2:
+        _name: easter -2
+      04-07:
+        name:
+          fr: Jour de Mémorial du Génocide
+          en: Genocide Memorial Day
+      05-01:
+        _name: 05-01
+      07-01:
+        _name: Independence Day
+      07-04:
+        name:
+          fr: Jour de la Libération
+          en: Liberation Day
+      08-15:
+        _name: 08-15
+      1st friday after 08-01:
+        name:
+          rw: Umuganura
+          fr: Journée nationale de récolte
+          en: National Harvest Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+

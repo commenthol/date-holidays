@@ -2,7 +2,7 @@ all: lint yaml attributions writetests docs
 
 yaml: data/holidays.json
 
-data/holidays.json: data/holidays.yaml data/names.yaml
+data/holidays.json: data/countries/*.yaml data/names.yaml
 	npm run yaml
 
 test: v0.12 v4. v6. v7.
@@ -26,7 +26,7 @@ writetests: yaml
 
 attributions: LICENSE
 
-LICENSE: data/holidays.yaml
-	node scripts/attributions.js $< $@
+LICENSE: data/countries/*.yaml
+	node scripts/attributions.js $@
 
 .PHONY: all doc lint test tree writetests yaml

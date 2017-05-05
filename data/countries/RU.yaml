@@ -1,0 +1,71 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Russia
+  RU:
+    names:
+      ru: Россия
+      en: Russia
+    dayoff: sunday
+    langs:
+      - ru
+    zones:
+      - Europe/Moscow
+      - Europe/Kaliningrad
+      - Europe/Simferopol
+      - Europe/Volgograd
+      - Europe/Samara
+      - Asia/Yekaterinburg
+      - Asia/Omsk
+      - Asia/Novosibirsk
+      - Asia/Novokuznetsk
+      - Asia/Krasnoyarsk
+      - Asia/Irkutsk
+      - Asia/Chita
+      - Asia/Yakutsk
+      - Asia/Khandyga
+      - Asia/Vladivostok
+      - Asia/Sakhalin
+      - Asia/Ust-Nera
+      - Asia/Magadan
+      - Asia/Srednekolymsk
+      - Asia/Kamchatka
+      - Asia/Anadyr
+    days:
+      01-01:
+        _name: 01-01
+      01-02 +5days:
+        name:
+          ru: Новогодние каникулы
+          en: New Year Holiday
+      01-07:
+        _name: 12-25
+      01-08:
+        name:
+          ru: Новогодние каникулы
+          en: New Year Holiday
+      02-23:
+        name:
+          ru: День защитника Отечества
+          en: Defender of the Fatherland Day
+      03-08:
+        _name: 03-08
+      08-22:
+        name:
+          ru: День Государственного флага
+          en: National Flag Day
+      05-01:
+        name:
+          ru: День весны и труда
+          en: Spring and Labour Day
+      05-09:
+        name:
+          ru: День Победы
+          en: Victory Day
+      06-12:
+        name:
+          ru: День России
+          en: Russia Day
+      11-04:
+        name:
+          ru: День народного единства
+          en: Unity Day
+

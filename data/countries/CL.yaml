@@ -1,0 +1,86 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Chile
+  CL:
+    names:
+      es: Chile
+      en: Chile
+    dayoff: sunday
+    langs:
+      - es
+    zones:
+      - America/Santiago
+      - Pacific/Easter
+    days:
+      01-01:
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      05-01:
+        _name: 05-01
+      05-21:
+        name:
+          en: Navy Day
+          es: Día de las Glorias Navales
+      06-29:
+        _name: 06-29
+      07-16:
+        name:
+          en: Our Lady of Mount Carmel
+          es: Virgen del Carmen
+      08-15:
+        _name: 08-15
+      09-18:
+        name:
+          en: National holiday
+          es: Fiestas Patrias
+      09-19:
+        name:
+          en: Army Day
+          es: Día de las Glorias del Ejército
+      10-12:
+        name:
+          en: Columbus Day
+          es: Día del Descubrimiento de Dos Mundos
+      10-31 if wednesday then next friday if tuesday then previous friday:
+        _name: Reformation Day
+      11-01:
+        _name: 11-01
+      12-08:
+        _name: 12-08
+      12-25:
+        _name: 12-25
+      12-31:
+        _name: 12-31
+        type: bank
+    regions:
+      ar:
+        name: Arica
+        days:
+          06-07:
+            name:
+              en: Battle of Arica
+              es: Asalto y Toma del Morro de Arica
+      ch:
+        name: Chillán y Chillán Viejo
+        days:
+          08-20:
+            name:
+              en: Nativity of Liberator Bernardo O'Higgins
+              es: Nacimiento del Prócer de la Independencia
+      pa:
+        name: Parinacota
+        days:
+          06-07:
+            name:
+              en: Battle of Arica
+              es: Asalto y Toma del Morro de Arica
+      ta:
+        name: Tarapacá
+        days:
+          08-10:
+            name:
+              en: Saint Lawrence
+              es: San Lorenzo de Tarapacá
+

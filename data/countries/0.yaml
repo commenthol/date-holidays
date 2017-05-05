@@ -1,0 +1,29 @@
+##
+# @author commenthol
+# @license CC-BY-SA-3
+#
+# for country codes check:
+# <https://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
+#
+# for timezones:
+# <https://github.com/moment/moment-timezone/blob/develop/data/meta/latest.json>
+#
+# for language codes:
+# <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>
+#
+
+  # SAMPLE:
+    # names:
+      # en: name
+    # dayoff: sunday
+    # langs:
+      # - en
+    # zones:
+      # - Africa/Maputo
+    # days:
+      # 01-01:
+        # _name: 01-01
+
+version: '2016-04-18'
+
+license: CC-BY-SA-3

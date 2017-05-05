@@ -42,12 +42,19 @@ describe('#Holidays', function () {
     it('for regions', function () {
       var hd = new Holidays()
       var res = hd.getRegions('de', 'by')
-      var exp = { a: 'Stadt Augsburg',
-        evang: {
-          de: 'Überwiegend evangelische Gemeinden',
-          en: 'Predominantly protestant communities'
-        }}
+      var exp = {
+        a: 'Stadt Augsburg',
+        evang: 'Überwiegend evangelische Gemeinden'
+      }
       assert.deepEqual(res, exp)
+    })
+
+    it('and get list of regions names in default language', function () {
+      var res = new Holidays().getRegions('de', 'by')
+      assert.deepEqual(res, {
+        a: 'Stadt Augsburg',
+        evang: 'Überwiegend evangelische Gemeinden'
+      })
     })
 
     it('for timezones', function () {

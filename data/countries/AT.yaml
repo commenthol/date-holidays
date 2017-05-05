@@ -1,0 +1,114 @@
+holidays:
+  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_%C3%96sterreich
+  AT:
+    names:
+      de-at: Österreich
+      en: Austria
+    dayoff: sunday
+    zones:
+      - Europe/Vienna
+    langs:
+      - de-at
+      - de
+    days:
+      01-01:
+        _name: 01-01
+      01-06:
+        _name: 01-06
+      easter -2:
+        _name: easter -2
+        type: optional
+      easter -1:
+        _name: easter -1
+        type: observance
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      05-01:
+        name:
+          de-at: Staatsfeiertag
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      easter 50:
+        _name: easter 50
+      easter 60:
+        _name: easter 60
+      08-15:
+        _name: 08-15
+      10-26:
+        _name: National Holiday
+      11-01:
+        _name: 11-01
+      12-08:
+        _name: 12-08
+      '12-24 14:00 if sunday then 00:00':
+        _name: 12-24
+        type: bank
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      '12-31 14:00 if sunday then 00:00':
+        _name: 12-31
+        type: bank
+    states:
+      b:
+        name: Burgenland
+        days:
+          11-11:
+            name:
+              de-at: Martinstag
+      k:
+        name: Kärnten
+        days:
+          03-19:
+            _name: 03-19
+          10-10:
+            name:
+              de-at: Tag der Volksabstimmung
+      'n':
+        name: Niederösterreich
+        days:
+          11-15:
+            name:
+              de-at: Leopold
+      o:
+        name: Oberösterreich
+        days:
+          05-04:
+            name:
+              de-at: Florian
+      s:
+        name: Land Salzburg
+        days:
+          09-24:
+            name:
+              de-at: Rupert
+      st:
+        name: Steiermark
+        days:
+          03-19:
+            _name: 03-19
+      t:
+        name: Tirol
+        days:
+          03-19:
+            _name: 03-19
+      v:
+        name: Vorarlberg
+        days:
+          03-19:
+            _name: 03-19
+      w:
+        name: Wien
+        days:
+          11-15:
+            name:
+              de-at: Leopold
+

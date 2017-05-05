@@ -1,33 +1,80 @@
 #!/usr/bin/env node
 
-/* eslint no-multi-str:0 */
 'use strict'
 
-var _ = require('lodash')
 var fs = require('fs')
 var path = require('path')
 var jsyaml = require('js-yaml')
+var _ = require('lodash')
 
-module.exports = holidays2json
+var REGEX = /^([A-Z]+)\.yaml$/
 
-function holidays2json (opts) {
-  var dirname = path.resolve(__dirname, '..', 'data')
-
-  var data =
-    fs.readFileSync(dirname + '/holidays.yaml', 'utf8') +
-    fs.readFileSync(dirname + '/names.yaml', 'utf8')
-
-  var obj = jsyaml.safeLoad(data)
-
-  if (opts.pick) {
-    obj.holidays = _.pick(obj.holidays, opts.pick)
-  } else if (opts.omit) {
-    obj.holidays = _.omit(obj.holidays, opts.omit)
-  }
-  var json = JSON.stringify(obj, null, 2) + '\n'
-
-  fs.writeFileSync(dirname + '/holidays.json', json, 'utf8')
+var config = {
+  dirname: path.resolve(__dirname, '..', 'data'),
+  countries: path.resolve(__dirname, '..', 'data', 'countries')
 }
+
+function Holidays2json (opts) {
+  this.opts = opts || {}
+  this.list = this.opts.list || []
+}
+Holidays2json.prototype = {
+  /**
+   * get list of supported countries from directory
+   */
+  getList: function () {
+    var list = fs.readdirSync(config.countries)
+    list = list
+    .map(function (file) {
+      if (REGEX.test(file)) {
+        return file.replace(REGEX, '$1')
+      }
+    })
+    .filter(function (file) {
+      return file
+    })
+    .sort()
+    this.list = list
+    return this
+  },
+  /**
+   * load a single yaml file
+   */
+  load: function (cc, filename) {
+    filename = filename || path.resolve(config.countries, cc + '.yaml')
+    var data = fs.readFileSync(filename, 'utf8')
+    var obj = jsyaml.safeLoad(data)
+    return obj
+  },
+  /**
+   * build `holidays.json file`
+   */
+  build: function () {
+    var obj = this.load('0')
+    obj.holidays = {}
+    this.list.forEach(function (cc) {
+      Object.assign(obj.holidays, this.load(cc).holidays)
+    }.bind(this))
+    Object.assign(obj, this.load(null, path.resolve(config.dirname, 'names.yaml')))
+
+    if (this.opts.pick) {
+      obj.holidays = _.pick(obj.holidays, this.opts.pick)
+    } else if (this.opts.omit) {
+      obj.holidays = _.omit(obj.holidays, this.opts.omit)
+    }
+
+    this.holidays = obj
+    return this
+  },
+  /**
+   * save holidays
+   */
+  save: function () {
+    var json = JSON.stringify(this.holidays, null, 2) + '\n'
+    fs.writeFileSync(path.resolve(config.dirname, 'holidays.json'), json, 'utf8')
+  }
+}
+module.exports = Holidays2json
 
 if (module === require.main) {
   var args = process.argv.splice(2)
@@ -69,5 +116,5 @@ if (module === require.main) {
     omit: getOption('--omit') || getOption('-o')
   }
 
-  holidays2json(opts)
+  new Holidays2json(opts).getList().build().save()
 }
