@@ -3335,7 +3335,7 @@
         },
         "wednesday before 11-23": {
           "_name": "Buß- und Bettag",
-          "type": "school"
+          "type": "observance"
         },
         "12-24 14:00 if sunday then 00:00": {
           "_name": "12-24",
@@ -3348,14 +3348,14 @@
           }
         },
         "12-26": {
-          "_name": "12-26",
-          "name": {
-            "de": "2. Weihnachtstag"
-          }
+          "_name": "12-26"
         },
         "12-31 14:00 if sunday then 00:00": {
           "_name": "12-31",
           "type": "bank"
+        },
+        "2017-10-31": {
+          "_name": "Reformation Day"
         }
       },
       "states": {
@@ -3373,8 +3373,16 @@
             "01-06": {
               "_name": "01-06"
             },
+            "easter -3": {
+              "_name": "easter -3",
+              "type": "school"
+            },
             "easter 60": {
               "_name": "easter 60"
+            },
+            "10-31": {
+              "_name": "Reformation Day",
+              "type": "school"
             },
             "11-01": {
               "_name": "11-01"
@@ -3399,6 +3407,10 @@
             },
             "11-01": {
               "_name": "11-01"
+            },
+            "wednesday before 11-23": {
+              "_name": "Buß- und Bettag",
+              "type": "school"
             }
           },
           "regions": {
@@ -3410,6 +3422,18 @@
                     "de": "Augsburger Friedensfest",
                     "en": "Augsburg Peace Festival"
                   }
+                }
+              }
+            },
+            "evang": {
+              "name": {
+                "de": "Überwiegend evangelische Gemeinden",
+                "en": "Predominantly protestant communities"
+              },
+              "days": {
+                "08-15": {
+                  "_name": "08-15",
+                  "type": "school"
                 }
               }
             }
@@ -3491,11 +3515,27 @@
         "sn": {
           "name": "Sachsen",
           "days": {
+            "easter 60": {
+              "_name": "easter 60",
+              "type": "observance"
+            },
             "10-31": {
               "_name": "Reformation Day"
             },
             "wednesday before 11-23": {
               "_name": "Buß- und Bettag"
+            }
+          },
+          "regions": {
+            "bz": {
+              "name": "Landkreis Bautzen",
+              "days": {
+                "easter 60": {
+                  "_name": "easter 60",
+                  "type": "public",
+                  "note": "Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau."
+                }
+              }
             }
           }
         },
@@ -3513,11 +3553,46 @@
         "th": {
           "name": "Thüringen",
           "days": {
+            "easter 60": {
+              "_name": "easter 60",
+              "type": "observance"
+            },
             "10-31": {
               "_name": "Reformation Day"
             },
             "12-31 14:00 if sunday then 00:00": {
               "_name": "12-31"
+            }
+          },
+          "regions": {
+            "eic": {
+              "name": "Landkreis Eichfeld",
+              "days": {
+                "easter 60": {
+                  "_name": "easter 60",
+                  "type": "public"
+                }
+              }
+            },
+            "uh": {
+              "name": "Unstrut-Hainich-Kreis",
+              "days": {
+                "easter 60": {
+                  "_name": "easter 60",
+                  "type": "public",
+                  "note": "In Anrode (nur in den Ortsteilen Bickenriede und Zella), Dünwald (nur in den Ortsteilen Beberstedt und Hüpstedt), Rodeberg (nur im Ortsteil Struth), Südeichsfeld"
+                }
+              }
+            },
+            "wak": {
+              "name": "Wartburgkreis",
+              "days": {
+                "easter 60": {
+                  "_name": "easter 60",
+                  "type": "public",
+                  "note": "In Brunnhartshausen (nur in den Ortsteilen Föhlritz und Steinberg), Buttlar, Geisa, Schleid, Zella/Rhön"
+                }
+              }
             }
           }
         }
@@ -10438,7 +10513,7 @@
         "de-at": "Stefanitag",
         "bg": "2-ри ден на Коледа",
         "cz": "2. svátek vánoční",
-        "de": "2ter Weihnachtstag",
+        "de": "2. Weihnachtstag",
         "dk": "2. Juledag",
         "el": "Δεύτερη μέρα των Χριστουγέννων",
         "es": "San Esteban",
@@ -10803,7 +10878,7 @@
     "Constitution Day": {
       "name": {
         "en": "Constitution Day",
-        "de": "Tag des Grundgesetzes",
+        "de": "Tag der Verfassung",
         "dk": "Grundlovsdag",
         "ca": "Dia de la Constitució",
         "es": "Día de la Constitución",

@@ -55,7 +55,12 @@ describe('#Data', function () {
     it('can get a list of supported regions for de.by', function () {
       var obj = Data().getRegions('de.by')
       assert.equal(typeof obj, 'object')
-      assert.deepEqual(obj, { a: 'Stadt Augsburg' })
+      assert.deepEqual(obj, { a: 'Stadt Augsburg',
+        evang: {
+          de: 'Überwiegend evangelische Gemeinden',
+          en: 'Predominantly protestant communities'
+        }
+      })
     })
   })
 
@@ -137,7 +142,8 @@ describe('#Data', function () {
       '02-02': [ 'observance', 'Lichtmess' ],
       'easter 60': [ 'public', 'Fronleichnam' ],
       '08-15': [ 'public', 'Mariä Himmelfahrt' ],
-      '08-08': [ 'public', 'Augsburger Friedensfest' ]
+      '08-08': [ 'public', 'Augsburger Friedensfest' ],
+      '2017-10-31': [ 'public', 'Reformationstag' ],
     }
 
     it('for de by a', function () {
