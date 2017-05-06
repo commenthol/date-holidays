@@ -3226,7 +3226,8 @@
           "_name": "easter -2"
         },
         "easter": {
-          "_name": "easter"
+          "_name": "easter",
+          "type": "observance"
         },
         "easter 1": {
           "_name": "easter 1"
@@ -3245,7 +3246,8 @@
           "_name": "easter 39"
         },
         "easter 49": {
-          "_name": "easter 49"
+          "_name": "easter 49",
+          "type": "observance"
         },
         "easter 50": {
           "_name": "easter 50"
@@ -3297,6 +3299,12 @@
         "bb": {
           "name": "Brandenburg",
           "days": {
+            "easter": {
+              "_name": "easter"
+            },
+            "easter 49": {
+              "_name": "easter 49"
+            },
             "10-31": {
               "_name": "Reformation Day"
             }

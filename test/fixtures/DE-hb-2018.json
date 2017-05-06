@@ -60,7 +60,7 @@
     "start": "2018-03-31T22:00:00.000Z",
     "end": "2018-04-01T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2018-04-02 00:00:00",
@@ -95,7 +95,7 @@
     "start": "2018-05-19T22:00:00.000Z",
     "end": "2018-05-20T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2018-05-21 00:00:00",

@@ -74,7 +74,7 @@
     "start": "2016-03-26T23:00:00.000Z",
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2016-03-28 00:00:00",
@@ -109,7 +109,7 @@
     "start": "2016-05-14T22:00:00.000Z",
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2016-05-16 00:00:00",
