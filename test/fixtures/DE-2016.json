@@ -133,10 +133,24 @@
     "type": "observance"
   },
   {
+    "date": "2016-11-13 00:00:00",
+    "start": "2016-11-12T23:00:00.000Z",
+    "end": "2016-11-13T23:00:00.000Z",
+    "name": "Volkstrauertag",
+    "type": "observance"
+  },
+  {
     "date": "2016-11-16 00:00:00",
     "start": "2016-11-15T23:00:00.000Z",
     "end": "2016-11-16T23:00:00.000Z",
     "name": "Buß- und Bettag",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-20 00:00:00",
+    "start": "2016-11-19T23:00:00.000Z",
+    "end": "2016-11-20T23:00:00.000Z",
+    "name": "Totensonntag",
     "type": "observance"
   },
   {

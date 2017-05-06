@@ -3274,6 +3274,19 @@
           "_name": "Buß- und Bettag",
           "type": "observance"
         },
+        "6th sunday before 12-25": {
+          "name": {
+            "de": "Volkstrauertag",
+            "en": "Memorial Day"
+          },
+          "type": "observance"
+        },
+        "5th sunday before 12-25": {
+          "name": {
+            "de": "Totensonntag"
+          },
+          "type": "observance"
+        },
         "12-24 14:00 if sunday then 00:00": {
           "_name": "12-24",
           "type": "bank"

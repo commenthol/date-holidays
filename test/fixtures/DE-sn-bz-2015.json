@@ -148,11 +148,25 @@
     "type": "observance"
   },
   {
+    "date": "2015-11-15 00:00:00",
+    "start": "2015-11-14T23:00:00.000Z",
+    "end": "2015-11-15T23:00:00.000Z",
+    "name": "Volkstrauertag",
+    "type": "observance"
+  },
+  {
     "date": "2015-11-18 00:00:00",
     "start": "2015-11-17T23:00:00.000Z",
     "end": "2015-11-18T23:00:00.000Z",
     "name": "Buß- und Bettag",
     "type": "public"
+  },
+  {
+    "date": "2015-11-22 00:00:00",
+    "start": "2015-11-21T23:00:00.000Z",
+    "end": "2015-11-22T23:00:00.000Z",
+    "name": "Totensonntag",
+    "type": "observance"
   },
   {
     "date": "2015-12-24 14:00:00",
