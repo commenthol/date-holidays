@@ -1,0 +1,57 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Finland
+  FI:
+    names:
+      fi: Suomi
+      en: Finland
+    dayoff: sunday
+    langs:
+      - fi
+    zones:
+      - Europe/Helsinki
+    days:
+      01-01:
+        _name: 01-01
+      01-06:
+        _name: 01-06
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      friday after 06-19:
+        name:
+          fi: Juhannusaatto
+          en: Midsummer Eve
+          sv: Midsommarafton
+        type: bank
+      saturday after 06-20:
+        name:
+          fi: Juhannuspäivä
+          en: Midsummer Day
+          sv: Midsommardagen
+      saturday after 10-31:
+        _name: 11-01
+      12-06:
+        _name: Independence Day
+      12-24:
+        _name: 12-24
+        type: bank
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      '12-31 14:00 if sunday then 00:00':
+        _name: 12-31
+        type: bank
+

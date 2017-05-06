@@ -1,0 +1,159 @@
+holidays:
+  # @source https://www.gov.uk/bank-holidays
+  GB:
+    names:
+      en: Britain
+    dayoff: sunday
+    zones:
+      - Europe/London
+    langs:
+      - en
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      substitutes 01-01 if saturday then next monday:
+        substitute: true
+        _name: 01-01
+      easter -21:
+        _name: Mothers Day
+        type: observance
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      1st monday after 05-01:
+        name:
+          en: Early May bank holiday
+      1st monday before 06-01:
+        name:
+          en: Spring bank holiday
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if saturday then next tuesday:
+        substitute: true
+        _name: 12-25
+      substitutes 12-25 if sunday then next tuesday:
+        substitute: true
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      substitutes 12-26 if saturday then next monday:
+        substitute: true
+        _name: 12-26
+      substitutes 12-26 if sunday then next monday:
+        substitute: true
+        _name: 12-26
+      '2012-06-05':
+        name:
+          en: Queen’s Diamond Jubilee
+    states:
+      al:
+        name: Alderney
+        zones:
+          - Europe/Guernsey
+        days:
+          12-15:
+            name:
+              en: Homecoming Day
+      en:
+        name: England
+        days:
+          1st monday before 09-01:
+            name:
+              en: Summer bank holiday
+      gu:
+        name: Guernsey
+        zones:
+          - Europe/Guernsey
+        days:
+          05-09:
+            name:
+              en: Liberation Day
+      im:
+        name: Isle of Man
+        zones:
+          - Europe/Isle_of_Man
+        days:
+          2nd friday after 06-01:
+            name:
+              en: 'Tourist Trophy, Senior Race Day'
+          07-05:
+            name:
+              en: Tynwald Day
+      je:
+        name: Jersey
+        zones:
+          - Europe/Jersey
+        days:
+          05-09:
+            name:
+              en: Liberation Day
+      ni:
+        name: Northern Ireland
+        zones:
+          - Europe/Belfast
+        days:
+          03-17:
+            name:
+              en: "St Patrick's Day"
+          substitutes 03-17 if saturday then next monday:
+            substitute: true
+            name:
+              en: "St Patrick's Day"
+          substitutes 03-17 if sunday then next monday:
+            substitute: true
+            name:
+              en: "St Patrick's Day"
+          07-12:
+            name:
+              en: 'Battle of the Boyne, Orangemen’s Day'
+          substitutes 07-12 if saturday then next monday:
+            substitute: true
+            name:
+              en: Battle of the Boyne
+          substitutes 07-12 if sunday then next monday:
+            substitute: true
+            name:
+              en: Battle of the Boyne
+      sc:
+        name: Scottland
+        days:
+          substitutes 01-01 if sunday then next monday: false
+          substitutes 01-01 if saturday then next monday: false
+          substitutes 01-01 if saturday then next tuesday:
+            substitute: true
+            _name: 01-01
+          substitutes 01-01 if sunday then next tuesday:
+            substitute: true
+            _name: 01-01
+          01-02:
+            name:
+              en: Januar 2nd
+          substitutes 01-02 if saturday then next monday:
+            substitute: true
+            name:
+              en: Januar 2nd
+          substitutes 01-02 if sunday then next monday:
+            substitute: true
+            name:
+              en: Januar 2nd
+          easter 1:
+            _name: easter 1
+          1st monday after 08-01:
+            name:
+              en: Summer bank holiday
+          11-30:
+            name:
+              en: St Andrew’s Day
+      wa:
+        name: Wales
+        days:
+          1st monday before 09-01:
+            name:
+              en: Summer bank holiday
+

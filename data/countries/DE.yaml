@@ -1,0 +1,243 @@
+holidays:
+  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_Deutschland
+  DE:
+    names:
+      de: Deutschland
+      en: Germany
+    dayoff: sunday
+    zones:
+      - Europe/Berlin
+    langs:
+      - de
+    days:
+      01-01:
+        _name: 01-01
+      02-14:
+        _name: 02-14
+        type: observance
+      easter -52:
+        name:
+          de: Weiberfastnacht
+          en: Women's Carnival Day
+        type: observance
+      easter -48:
+        name:
+          de: Rosenmontag
+          en: Shrove Monday
+        type: observance
+      'easter -47 14:00':
+        _name: easter -47
+        type: bank
+      easter -46:
+        _name: easter -46
+        type: observance
+      easter -3:
+        _name: easter -3
+        type: observance
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+        name:
+          de: Maifeiertag
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      easter 50:
+        _name: easter 50
+      10-03:
+        _name: National Holiday
+        name:
+          de: Tag der Deutschen Einheit
+      11-01:
+        _name: 11-01
+        type: observance
+      11-02:
+        _name: 11-02
+        type: observance
+      11-11:
+        _name: 11-11
+        type: observance
+      wednesday before 11-23:
+        _name: Buß- und Bettag
+        type: observance
+      '12-24 14:00 if sunday then 00:00':
+        _name: 12-24
+        type: bank
+      12-25:
+        _name: 12-25
+        name:
+          de: 1. Weihnachtstag
+      12-26:
+        _name: 12-26
+      '12-31 14:00 if sunday then 00:00':
+        _name: 12-31
+        type: bank
+      '2017-10-31':
+        _name: Reformation Day
+    states:
+      bb:
+        name: Brandenburg
+        days:
+          10-31:
+            _name: Reformation Day
+      bw:
+        name: Baden Würtemberg
+        days:
+          01-06:
+            _name: 01-06
+          easter -3:
+            _name: easter -3
+            type: school
+          easter 60:
+            _name: easter 60
+          10-31:
+            _name: Reformation Day
+            type: school
+          11-01:
+            _name: 11-01
+      by:
+        name: Bayern
+        days:
+          01-06:
+            _name: 01-06
+          02-02:
+            _name: 02-02
+            type: observance
+          easter 60:
+            _name: easter 60
+          08-15:
+            _name: 08-15
+          11-01:
+            _name: 11-01
+          wednesday before 11-23:
+            _name: Buß- und Bettag
+            type: school
+        regions:
+          a:
+            name: Stadt Augsburg
+            days:
+              08-08:
+                name:
+                  de: Augsburger Friedensfest
+                  en: Augsburg Peace Festival
+          evang:
+            names:
+              de: Überwiegend evangelische Gemeinden
+              en: Predominantly protestant communities
+            days:
+              08-15:
+                _name: 08-15
+                type: school
+      hb:
+        name: Hansestadt Bremen
+        days:
+          '12-31 14:00 if sunday then 00:00':
+            _name: 12-31
+            type: public
+      he:
+        name: Hessen
+        days:
+          easter 60:
+            _name: easter 60
+          '12-31 14:00 if sunday then 00:00':
+            _name: 12-31
+      hh:
+        name: Hansestadt Hamburg
+      mv:
+        name: Mecklenburg Vorpommern
+        days:
+          10-31:
+            _name: Reformation Day
+      ni:
+        name: Niedersachsen
+      nw:
+        name: Nordrhein-Westfalen
+        days:
+          easter 60:
+            _name: easter 60
+          11-01:
+            _name: 11-01
+      rp:
+        name: Rheinland-Pfalz
+        days:
+          easter 60:
+            _name: easter 60
+          11-01:
+            _name: 11-01
+      sh:
+        name: Schleswig-Holstein
+      sl:
+        name: Saarland
+        days:
+          easter 60:
+            _name: easter 60
+          08-15:
+            _name: 08-15
+          11-01:
+            _name: 11-01
+      sn:
+        name: Sachsen
+        days:
+          easter 60:
+            _name: easter 60
+            type: observance
+          10-31:
+            _name: Reformation Day
+          wednesday before 11-23:
+            _name: Buß- und Bettag
+        regions:
+          bz:
+            name: Landkreis Bautzen
+            days:
+              easter 60:
+                _name: easter 60
+                type: public
+                note: Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau.
+      st:
+        name: Sachsen-Anhalt
+        days:
+          01-06:
+            _name: 01-06
+          10-31:
+            _name: Reformation Day
+      th:
+        name: Thüringen
+        days:
+          easter 60:
+            _name: easter 60
+            type: observance
+          10-31:
+            _name: Reformation Day
+          '12-31 14:00 if sunday then 00:00':
+            _name: 12-31
+        regions:
+          eic:
+            name: Landkreis Eichfeld
+            days:
+              easter 60:
+                _name: easter 60
+                type: public
+          uh:
+            name: Unstrut-Hainich-Kreis
+            days:
+              easter 60:
+                _name: easter 60
+                type: public
+                note: In Anrode (nur in den Ortsteilen Bickenriede und Zella), Dünwald (nur in den Ortsteilen Beberstedt und Hüpstedt), Rodeberg (nur im Ortsteil Struth), Südeichsfeld
+
+          wak:
+            name: Wartburgkreis
+            days:
+              easter 60:
+                _name: easter 60
+                type: public
+                note: In Brunnhartshausen (nur in den Ortsteilen Föhlritz und Steinberg), Buttlar, Geisa, Schleid, Zella/Rhön

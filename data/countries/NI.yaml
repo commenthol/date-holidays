@@ -1,0 +1,64 @@
+holidays:
+  # @source http://www.mitrab.gob.ni/documentos/leyes/Ley185Nic.pdf/at_download/file artículos 66
+  NI:
+    names:
+      es: Nicaragua
+      en: Nicaragua
+    dayoff: sunday
+    langs:
+      - es
+    zones:
+      - America/Managua
+    days:
+      01-01:
+        _name: 01-01
+      01-18:
+        name:
+          en: Birthday of Rubén Darío
+          es: Natalicio de Rubén Darío
+        type: observance
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      05-01:
+        _name: 05-01
+      05-30:
+        _name: Mothers Day
+        name:
+          es: Día de la madre nicaragüense
+        type: observance
+      06-01:
+        name:
+          en: Children's Day
+          es: Día del niño
+      06-23:
+        _name: Fathers Day
+        name:
+          es: Día del padre nicaragüense
+        type: observance
+      07-19:
+        name:
+          en: Revolution Day
+          es: Triunfo de la Revolución Popular
+      09-14:
+        name:
+          en: Battle of San Jacinto
+          es: Batalla de San Jacinto
+      09-15:
+        _name: Independence Day
+      10-12:
+        name:
+          en: Indigenous Resistance Day
+          es: Día de la resistencia indígena
+      12-08:
+        _name: 12-08
+      12-24:
+        _name: 12-24
+        type: observance
+      12-25:
+        _name: 12-25
+      12-31:
+        _name: 12-31
+        type: observance
+

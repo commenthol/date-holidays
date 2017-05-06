@@ -1,0 +1,49 @@
+holidays:
+  # @source http://www.malawilii.org/mw/consolidatedlegislation/1805/public_holidays_act_pdf_49780.pdf
+  MW:
+    names:
+      en: Malawi
+    dayoff: sunday
+    langs:
+      - en
+    zones:
+      - Africa/Maputo
+    days:
+      01-01 and if saturday,sunday then next monday:
+        substitute: true
+        _name: 01-01
+      01-15 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          en: John Chilembwe Day
+      03-03 and if saturday,sunday then next monday:
+        name:
+          en: Martyrs' Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01 and if saturday,sunday then next monday:
+        _name: 05-01
+      05-14 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          en: Kamuzu Day
+      07-06 and if saturday,sunday then next monday:
+        substitute: true
+        _name: Independence Day
+      10-15 and if saturday,sunday then next monday:
+        substitute: true
+        _name: Mothers Day
+      12-25 and if saturday,sunday then next monday:
+        substitute: true
+        _name: 12-25
+      1 Shawwal and if saturday,sunday then next monday:
+        substitute: true
+        _name: 1 Shawwal
+        name:
+          en: Eid al Fitri
+

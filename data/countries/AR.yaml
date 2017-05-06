@@ -1,0 +1,113 @@
+holidays:
+  # @source http://www.mininterior.gov.ar/tramitesyservicios/feriados.php
+  AR:
+    names:
+      es: Argentina
+      en: Argentina
+    dayoff: sunday
+    langs:
+      - es
+    zones:
+      - America/Argentina/Buenos_Aires
+      - America/Argentina/Cordoba
+      - America/Argentina/Salta
+      - America/Argentina/Jujuy
+      - America/Argentina/Tucuman
+      - America/Argentina/Catamarca
+      - America/Argentina/La_Rioja
+      - America/Argentina/San_Juan
+      - America/Argentina/Mendoza
+      - America/Argentina/San_Luis
+      - America/Argentina/Rio_Gallegos
+      - America/Argentina/Ushuaia
+    days:
+      01-01:
+        _name: 01-01
+      easter -48:
+        _name: easter -47
+      easter -47:
+        _name: easter -47
+      03-24:
+        name:
+          en: Day of Remembrance for Truth and Justice
+          es: Día de la Memoria por la Verdad y la Justicia
+      substitutes 03-24 if tuesday then previous monday if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      04-02:
+        name:
+          en: Day of the veterans and the fallen in Malvinas War
+          es: Día del Veterano y de los Caídos en la Guerra de Malvinas
+      substitutes 04-02 if tuesday then previous monday if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if tuesday then previous monday if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      05-25:
+        name:
+          en: Day of the First National Government
+          es: Primer Gobierno Patrio
+      substitutes 05-25 if tuesday then previous monday if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      06-20:
+        name:
+          en: National Flag Day
+          es: Día de la Bandera
+      substitutes 06-20 if tuesday then previous monday if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      07-09:
+        _name: Independence Day
+      3rd monday after 08-01:
+        name:
+          en: Anniversary of the death of General José de San Martín
+          es: Día del Libertador José de San Martín
+      10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday:
+        name:
+          en: Day of Respect for Cultural Diversity
+          es: Día del Respeto a la Diversidad Cultural
+      4th monday after 11-01:
+        # @source http://www.mininterior.gov.ar/tramitesyservicios/pdf/feriado-nacional-27-11-2015.pdf
+        disable:
+          - '2015-11-23'
+        enable:
+          - '2015-11-27'
+        name:
+          en: Day of National Sovereignty
+          es: Día de la Soberanía nacional
+      12-08:
+        _name: 12-08
+      substitutes 12-08 if tuesday then previous monday if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      '12-24 12:00':
+        _name: 12-24
+        type: optional
+      substitutes 12-24 if tuesday then previous monday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if thursday then next friday:
+        name:
+          en: Bridge Day
+          es: Feriado Puente Turístico
+      '12-31 12:00':
+        _name: 12-31
+        type: optional
+

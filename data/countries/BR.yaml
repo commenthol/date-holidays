@@ -1,0 +1,87 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Brazil
+  # @source https://pt.wikipedia.org/wiki/Feriados_no_Brasil
+  BR:
+    names:
+      pt: Brasil
+      en: Brazil
+    dayoff: sunday
+    langs:
+      - pt
+    zones:
+      - America/Sao_Paulo
+      - America/Noronha
+      - America/Belem
+      - America/Fortaleza
+      - America/Recife
+      - America/Araguaina
+      - America/Maceio
+      - America/Bahia
+      - America/Campo_Grande
+      - America/Cuiaba
+      - America/Santarem
+      - America/Porto_Velho
+      - America/Boa_Vista
+      - America/Manaus
+      - America/Eirunepe
+      - America/Rio_Branco
+    days:
+      01-01:
+        _name: 01-01
+      04-21:
+        name:
+          pt: Dia de Tiradentes
+          en: Tiradentes' Day
+      easter -50 +110h:
+        name:
+          pt: Carnaval
+          en: Carnival
+        type: optional
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      05-01:
+        _name: 05-01
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      easter 60:
+        _name: easter 60
+        type: optional
+      06-12:
+        name:
+          pt: Dia dos Namorados
+          en: Lovers' Day
+      2nd sunday after 08-01:
+        _name: Fathers Day
+        type: observance
+      09-07:
+        _name: Independence Day
+      10-12:
+        name:
+          pt: Nossa Senhora Aparecida
+          en: Our Lady of Aparecida
+      1st sunday after 10-01 in even years:
+        name:
+          pt: Dia de Eleição
+          en: Election Day
+      1st sunday before 11-01 in even years:
+        name:
+          pt: Dia de Eleição
+          en: Election Day
+      11-02:
+        _name: 11-02
+      11-15:
+        name:
+          pt: Proclamação da República
+          en: Republic Day
+      '12-24 14:00':
+        _name: 12-24
+        type: optional
+      12-25:
+        _name: 12-25
+      '12-31 14:00':
+        _name: 12-31
+        type: optional

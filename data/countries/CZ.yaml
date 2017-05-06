@@ -1,0 +1,68 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Czech_Republic
+  CZ:
+    names:
+      cz: Česká republika
+      en: Czech Republic
+    langs:
+      - cz
+    zones:
+      - Europe/Prague
+    days:
+      01-01:
+        _name: 01-01
+        name:
+          cz: Nový rok; Den obnovy samostatného českého státu
+      easter -4:
+        name:
+          cz: Škaredá středa
+          en: Ugly Wednesday
+        type: observance
+      easter -3:
+        _name: easter -3
+        type: observance
+      easter -2:
+        _name: easter -2
+      easter -1:
+        _name: easter -1
+        type: observance
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      05-08:
+        name:
+          cz: Den vítězství or Den osvobození
+          en: Liberation Day
+      2nd sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      07-05:
+        name:
+          cz: Den slovanských věrozvěstů Cyrila a Metoděje
+          en: Saints Cyril and Methodius Day
+      07-06:
+        name:
+          cz: Den upálení mistra Jana Husa
+          en: Jan Hus Day
+      09-28:
+        name:
+          cz: Den české státnosti
+          en: St. Wenceslas Day (Czech Statehood Day)
+      10-28:
+        name:
+          cz: Den vzniku samostatného československého státu
+          en: Independent Czechoslovak State Day
+      11-17:
+        name:
+          cz: Den boje za svobodu a demokracii
+          en: Struggle for Freedom and Democracy Day
+      12-24:
+        _name: 12-24
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+

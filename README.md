@@ -50,8 +50,8 @@ If you are missing holidays from your country, state, region please consider [co
 Countries: 89
 ├── AD: Andorra
 │   └── vella: Andorra la Vella
-├── AO: Angola
 ├── AM: Հայաստան
+├── AO: Angola
 ├── AR: Argentina
 ├── AT: Österreich
 │   ├── b: Burgenland
@@ -103,6 +103,7 @@ Countries: 89
 │   └── yt: Yukon
 ├── CD: République démocratique du Congo
 ├── CF: République centrafricaine
+├── CG: République du Congo
 ├── CH: Schweiz
 │   ├── zh: Kanton Zürich
 │   ├── be: Kanton Bern
@@ -135,14 +136,12 @@ Countries: 89
 │   ├── ch: Chillán y Chillán Viejo
 │   ├── pa: Parinacota
 │   └── ta: Tarapacá
-├── CG: République du Congo
 ├── CM: Cameroun
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba
 ├── CY: Κύπρος
 ├── CZ: Česká republika
-├── DK: Danmark
 ├── DE: Deutschland
 │   ├── bb: Brandenburg
 │   ├── bw: Baden Würtemberg
@@ -165,6 +164,7 @@ Countries: 89
 │       ├── eic: Landkreis Eichfeld
 │       ├── uh: Unstrut-Hainich-Kreis
 │       └── wak: Wartburgkreis
+├── DK: Danmark
 ├── DO: República Dominicana
 ├── EC: Ecuador
 │   └── qu: Quito
@@ -193,8 +193,8 @@ Countries: 89
 │   ├── sc: Scottland
 │   └── wa: Wales
 ├── GD: Grenada
-├── GR: Ελλάδα
 ├── GQ: República de Guinea Ecuatorial
+├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
 ├── HN: Honduras
@@ -204,12 +204,12 @@ Countries: 89
 ├── HT: Haïti
 ├── HU: Magyarország
 ├── IE: Ireland
+├── IS: Ísland
 ├── IT: Italia
 │   └── suedtirol: Südtirol, Alto Adige
-├── IS: Ísland
 ├── JM: Jamaica
 ├── JP: 日本
-├── KE: KE
+├── KE: Kenia
 ├── LI: Lichtenstein
 ├── LT: Lietuva
 ├── LU: Luxembourg
@@ -217,10 +217,10 @@ Countries: 89
 ├── MC: Monaco
 ├── ME: Crna Gora
 ├── MG: Repoblikan'i Madagasikara
-├── MX: México
 ├── MT: Malta
-├── MZ: Moçambique
 ├── MW: Malawi
+├── MX: México
+├── MZ: Moçambique
 ├── NA: Namibia
 ├── NI: Nicaragua
 ├── NL: Nederland
@@ -255,15 +255,6 @@ Countries: 89
 ├── TG: République togolaise
 ├── TR: Türkiye
 ├── TZ: Tanzania
-├── VE: Venezuela
-│   ├── an: Anzoátegui
-│   ├── ca: Carabobo
-│   ├── la: Lara
-│   │   └── ba: Barquisimeto
-│   ├── mi: Miranda
-│   ├── mo: Monagas
-│   ├── ta: Táchira
-│   └── zu: Zulia
 ├── UG: Uganda
 ├── US: United States of America
 │   ├── al: Alabama
@@ -319,6 +310,15 @@ Countries: 89
 │   ├── wi: Wisconsin
 │   └── wy: Wyoming
 ├── UY: Uruguay
+├── VE: Venezuela
+│   ├── an: Anzoátegui
+│   ├── ca: Carabobo
+│   ├── la: Lara
+│   │   └── ba: Barquisimeto
+│   ├── mi: Miranda
+│   ├── mo: Monagas
+│   ├── ta: Táchira
+│   └── zu: Zulia
 ├── ZA: South Africa
 ├── ZM: Zambia
 └── ZW: Zimbabwe

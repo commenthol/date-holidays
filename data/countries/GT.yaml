@@ -1,0 +1,44 @@
+holidays:
+  # @source http://www.oj.gob.gt/estadisticalaboral/Leyes%20en%20Materia%20de%20Trabajo%20y%20Prevision%20Social/Leyes%20Nacionales%20en%20Materia%20de%20Trabajo%20y%20Prevision%20Social/63298%20DECRETO%20DEL%20CONGRESO%2042-2010%20Ley%20que%20Promueve%20el%20Turismo%20Interno.pdf
+  # @source http://www.oj.gob.gt/es/QueEsOJ/EstructuraOJ/UnidadesAdministrativas/CentroAnalisisDocumentacionJudicial/cds/CDs%20codigos/CODIGO_TRABAJO/codigo.html
+  # Guatemala CODIGO DE TRABAJO Artículo 127.  Son días de asueto con goce de salario
+  GT:
+    names:
+      es: Guatemala
+      en: Guatemala
+    dayoff: sunday
+    langs:
+      - es
+    zones:
+      - America/Guatemala
+    days:
+      01-01:
+        _name: 01-01
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter -1:
+        _name: easter -1
+      easter:
+        _name: easter
+        type: observance
+      05-01:
+        _name: 05-01
+      06-30 if tuesday then previous monday if wednesday,thursday then next friday:
+        name:
+          es: Día de las Fuerzas Armadas
+          en: Army Day
+      09-15:
+        _name: Independence Day
+      10-20:
+        _name: Revolution Day
+      11-01:
+        _name: 11-01
+      '12-24 12:00':
+        _name: 12-24
+      12-25:
+        _name: 12-25
+      '12-31 12:00':
+        _name: 12-31
+

@@ -1,0 +1,88 @@
+holidays:
+  # @source https://es.m.wikipedia.org/wiki/Calendario_laboral
+  ES:
+    names:
+      es: España
+      en: Spain
+    langs:
+      - es
+    zones:
+      - Europe/Madrid
+      - Africa/Ceuta
+      - Atlantic/Canary
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      01-06:
+        _name: 01-06
+      substitutes 01-06 if sunday then next monday:
+        substitute: true
+        _name: 01-06
+      03-19:
+        _name: 03-19
+      substitutes 03-19 if sunday then next monday:
+        substitute: true
+        _name: 03-19
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if sunday then next monday:
+        substitute: true
+        _name: 05-01
+      1st sunday after 05-01:
+        _name: Mothers Day
+        type: observance
+      easter 49:
+        _name: easter 49
+        type: observance
+      07-25:
+        name:
+          es: Santiago Apostol
+        type: observance
+        note: regional
+      08-15:
+        _name: 08-15
+      substitutes 08-15 if sunday then next monday:
+        substitute: true
+        _name: 08-15
+      10-12 if sunday then next monday:
+        name:
+          es: Fiesta Nacional de España
+      11-01:
+        _name: 11-01
+      substitutes 11-01 if sunday then next monday:
+        substitute: true
+        _name: 11-01
+      12-06 if sunday then next monday:
+        name:
+          es: Día de la Constitución Española
+      12-08:
+        _name: 12-08
+      substitutes 12-08 if sunday then next monday:
+        substitute: true
+        _name: 12-08
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if sunday then next monday:
+        substitute: true
+        _name: 12-25
+    states:
+      madrid:
+        name: Comunidad de Madrid
+        days:
+          05-16:
+            name:
+              es: San Isidro Labrador
+          11-09 if sunday then next monday:
+            name:
+              es: Nuestra Señora de la Almudena
+

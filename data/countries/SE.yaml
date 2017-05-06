@@ -1,0 +1,88 @@
+holidays:
+  # @source https://de.wikipedia.org/wiki/Feiertage_in_Schweden
+  SE:
+    names:
+      sv: Sverige
+      en: Sweden
+    dayoff: sunday
+    langs:
+      - sv
+    zones:
+      - Europe/Stockholm
+    days:
+      01-01:
+        _name: 01-01
+      01-06:
+        _name: 01-06
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      sunday before 06-01:
+        _name: Mothers Day
+        type: observance
+      06-06:
+        name:
+          sv: Sveriges nationaldag
+          en: National Day
+      saturday after 06-20:
+        name:
+          sv: Midsommar
+      saturday after 10-31:
+        name:
+          sv: Alla Helgons dag
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+
+      01-13:
+        name:
+          sv: Knut
+        type: observance
+      sunday after 03-01:
+        name:
+          sv: Vasaloppet
+        type: observance
+      03-25:
+        name:
+          sv: Marie Bebådelsedag
+          lat: Annuntiatio Mariæ
+        type: observance
+      04-30:
+        name:
+          sv: Valborgsmässoafton
+          en: Walpurgis Night
+        type: observance
+      easter:
+        _name: easter
+        type: observance
+      easter 49:
+        _name: easter 49
+        type: observance
+      11-06:
+        name:
+          sv: Gustav-Adolf-dagen
+        type: observance
+      11-11:
+        name:
+          sv: Mårtensgås
+        type: observance
+      12-10:
+        name:
+          sv: Nobeldagen
+        type: observance
+      12-13:
+        name:
+          sv: Luciadagen
+        type: observance
+      12-24:
+        _name: 12-24
+        type: observance
+      12-31:
+        _name: 12-31
+        type: observance
