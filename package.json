@@ -2,6 +2,21 @@
   "name": "date-holidays",
   "version": "0.1.10",
   "description": "worldwide holidays",
+  "keywords": [
+    "holidays"
+  ],
+  "homepage": "https://github.com/commenthol/date-holidays",
+  "bugs": {
+    "url": "https://github.com/commenthol/date-holidays/issues"
+  },
+  "license": "ISC",
+  "author": "commenthol <commenthol@gmail.com>",
+  "contributors": [
+    "Mauro Braggio <m.braggio@e-time.it>",
+    "Quennie <simply.me.queeny@gmail.com>",
+    "Christian Schinnerl <Schinnerl.Christian@gmail.com>",
+    "James Dixon <jim.w.dixon@gmail.com>"
+  ],
   "main": "lib",
   "bin": {
     "holidays2json": "./scripts/holidays2json.js"
@@ -9,12 +24,25 @@
   "directories": {
     "test": "test"
   },
-  "contributors": [
-    "Mauro Braggio <m.braggio@e-time.it>",
-    "Quennie <simply.me.queeny@gmail.com>",
-    "Christian Schinnerl <Schinnerl.Christian@gmail.com>",
-    "James Dixon <jim.w.dixon@gmail.com>"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commenthol/date-holidays.git"
+  },
+  "scripts": {
+    "all": "npm run clean && npm i && npm run yaml && npm run lint && npm test && npm pack",
+    "clean": "rimraf coverage node_modules",
+    "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
+    "lint": "eslint --quiet '**/*.js'",
+    "test": "mocha -R dot test/*.mocha.js",
+    "watch": "watch-run -p data/countries/*.yaml npm run yaml",
+    "yaml": "node scripts/holidays2json.js"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "plugins": [
+      "standard"
+    ]
+  },
   "dependencies": {
     "date-easter": "^0.2.2",
     "js-yaml": "^3.8.1",
@@ -33,33 +61,5 @@
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4"
   },
-  "scripts": {
-    "test": "mocha test/*.mocha.js",
-    "all": "npm run clean && npm i && npm run yaml && npm run lint && npm test && npm pack",
-    "yaml": "node scripts/holidays2json.js",
-    "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
-    "lint": "eslint --quiet '**/*.js'",
-    "watch": "watch-run -p data/*.yaml npm run yaml",
-    "clean": "rimraf coverage node_modules"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/commenthol/date-holidays.git"
-  },
-  "keywords": [
-    "holidays"
-  ],
-  "author": "commenthol <commenthol@gmail.com>",
-  "maintainers": "commenthol <commenthol@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/commenthol/date-holidays/issues"
-  },
-  "homepage": "https://github.com/commenthol/date-holidays",
-  "eslintConfig": {
-    "extends": "standard",
-    "plugins": [
-      "standard"
-    ]
-  }
+  "maintainers": "commenthol <commenthol@gmail.com>"
 }
