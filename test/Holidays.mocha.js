@@ -251,6 +251,22 @@ describe('#Holidays', function () {
       assert.equal(toIso(res.start), toIso(exp))
     })
 
+    it('of non-duplicated public German/BW holidays for 2017', function () {
+      var hd = new Holidays('DE', 'bw')
+      hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
+      var res = hd.getHolidays(2017)
+      var tmp = {}
+      res.forEach(function (p) {
+        if (tmp[p.name]) {
+          assert.ok(false, p.name + ' is duplicated')
+        }
+        if (p.name === 'Reformationstag') {
+          assert.equal(p.type, 'public') // is public not school!
+        }
+        tmp[p.name] = true
+      })
+    })
+
     it('of German holidays for 2015', function () {
       var hd = new Holidays('de')
       hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`

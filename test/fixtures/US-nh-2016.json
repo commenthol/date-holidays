@@ -95,13 +95,6 @@
     "start": "2016-11-08T05:00:00.000Z",
     "end": "2016-11-09T05:00:00.000Z",
     "name": "Election Day",
-    "type": "observance"
-  },
-  {
-    "date": "2016-11-08 00:00:00",
-    "start": "2016-11-08T05:00:00.000Z",
-    "end": "2016-11-09T05:00:00.000Z",
-    "name": "Election Day",
     "type": "public"
   },
   {

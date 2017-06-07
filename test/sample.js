@@ -32,7 +32,7 @@ if (module === require.main) {
   var res = hd.getHolidays(cmd.year)
 
   if (cmd.short) {
-    res = res.map((i) => {
+    res = res.map(function (i) {
       var d = new Date(i.date)
       var day = days[d.getDay()]
       i.type += Array(11).join(' ')

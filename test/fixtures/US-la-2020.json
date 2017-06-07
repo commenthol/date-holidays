@@ -110,13 +110,6 @@
     "start": "2020-11-03T06:00:00.000Z",
     "end": "2020-11-04T06:00:00.000Z",
     "name": "Election Day",
-    "type": "observance"
-  },
-  {
-    "date": "2020-11-03 00:00:00",
-    "start": "2020-11-03T06:00:00.000Z",
-    "end": "2020-11-04T06:00:00.000Z",
-    "name": "Election Day",
     "type": "public"
   },
   {
