@@ -120,12 +120,12 @@ describe('#Data', function () {
       'easter -46': [ 'observance', 'Aschermittwoch' ],
       'easter -3': [ 'observance', 'Gründonnerstag' ],
       'easter -2': [ 'public', 'Karfreitag' ],
-      easter: [ 'public', 'Ostersonntag' ],
+      easter: [ 'observance', 'Ostersonntag' ],
       'easter 1': [ 'public', 'Ostermontag' ],
       '05-01': [ 'public', 'Maifeiertag' ],
       '2nd sunday after 05-01': [ 'observance', 'Muttertag' ],
       'easter 39': [ 'public', 'Christi Himmelfahrt' ],
-      'easter 49': [ 'public', 'Pfingstsonntag' ],
+      'easter 49': [ 'observance', 'Pfingstsonntag' ],
       'easter 50': [ 'public', 'Pfingstmontag' ],
       '10-03': [ 'public', 'Tag der Deutschen Einheit' ],
       '11-01': [ 'public', 'Allerheiligen' ],
@@ -141,13 +141,15 @@ describe('#Data', function () {
       'easter 60': [ 'public', 'Fronleichnam' ],
       '08-15': [ 'public', 'Mariä Himmelfahrt' ],
       '08-08': [ 'public', 'Augsburger Friedensfest' ],
+      '6th sunday before 12-25': [ 'observance', 'Volkstrauertag' ],
+      '5th sunday before 12-25': [ 'observance', 'Totensonntag' ],
       '2017-10-31': [ 'public', 'Reformationstag' ]
     }
 
     it('for de by a', function () {
       var obj = Data('de', 'by', 'a').getHolidays()
       var res = getDays(obj, ['de'])
-      // ~ console.log(res)
+      // console.log(res)
       assert.deepEqual(res, exp)
     })
 

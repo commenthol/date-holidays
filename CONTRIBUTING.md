@@ -4,13 +4,13 @@ Any contribution to this project is very welcome, especially holidays from new c
 
 Welcome.
 
-## Contributing changes to `holidays.yaml`
+## Contributing changes
 
 If you like to add or change data please take a look at [holidays.yaml specification].
 
 1. Fork the project
 2. Create a branch for your changes
-3. Modify [`data/holidays.yaml`](./data/holidays.yaml) for holiday data and/or [`data/names.yaml`](.data/names.yaml) for translations as appropriate
+3. Modify the yaml file for the country your changes apply in `./data/countries/<code>.yaml` for holiday data and/or `./data/names.yaml` for translations as appropriate
 4. Generate the Json file from the yaml files with
    ```
    npm run yaml

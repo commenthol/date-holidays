@@ -60,7 +60,7 @@
     "start": "2017-04-15T22:00:00.000Z",
     "end": "2017-04-16T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2017-04-17 00:00:00",
@@ -95,7 +95,7 @@
     "start": "2017-06-03T22:00:00.000Z",
     "end": "2017-06-04T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "public"
+    "type": "observance"
   },
   {
     "date": "2017-06-05 00:00:00",
@@ -155,11 +155,25 @@
     "type": "observance"
   },
   {
+    "date": "2017-11-19 00:00:00",
+    "start": "2017-11-18T23:00:00.000Z",
+    "end": "2017-11-19T23:00:00.000Z",
+    "name": "Volkstrauertag",
+    "type": "observance"
+  },
+  {
     "date": "2017-11-22 00:00:00",
     "start": "2017-11-21T23:00:00.000Z",
     "end": "2017-11-22T23:00:00.000Z",
     "name": "Buß- und Bettag",
     "type": "public"
+  },
+  {
+    "date": "2017-11-26 00:00:00",
+    "start": "2017-11-25T23:00:00.000Z",
+    "end": "2017-11-26T23:00:00.000Z",
+    "name": "Totensonntag",
+    "type": "observance"
   },
   {
     "date": "2017-12-24 00:00:00",

@@ -3226,7 +3226,8 @@
           "_name": "easter -2"
         },
         "easter": {
-          "_name": "easter"
+          "_name": "easter",
+          "type": "observance"
         },
         "easter 1": {
           "_name": "easter 1"
@@ -3245,7 +3246,8 @@
           "_name": "easter 39"
         },
         "easter 49": {
-          "_name": "easter 49"
+          "_name": "easter 49",
+          "type": "observance"
         },
         "easter 50": {
           "_name": "easter 50"
@@ -3270,6 +3272,19 @@
         },
         "wednesday before 11-23": {
           "_name": "Buß- und Bettag",
+          "type": "observance"
+        },
+        "6th sunday before 12-25": {
+          "name": {
+            "de": "Volkstrauertag",
+            "en": "Memorial Day"
+          },
+          "type": "observance"
+        },
+        "5th sunday before 12-25": {
+          "name": {
+            "de": "Totensonntag"
+          },
           "type": "observance"
         },
         "12-24 14:00 if sunday then 00:00": {
@@ -3297,6 +3312,12 @@
         "bb": {
           "name": "Brandenburg",
           "days": {
+            "easter": {
+              "_name": "easter"
+            },
+            "easter 49": {
+              "_name": "easter 49"
+            },
             "10-31": {
               "_name": "Reformation Day"
             }
