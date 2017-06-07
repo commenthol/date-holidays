@@ -16,3 +16,4 @@ Makefile
 *.log
 *.tgz
 .*
+yarn.lock
