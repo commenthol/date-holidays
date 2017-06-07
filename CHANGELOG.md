@@ -1,5 +1,18 @@
 # CHANGELOG
 
+v0.2.0
+- split each country into a single yaml file
+- DE: Correction of holidays in BY, SN, TH
+  - DE-BB: fix easter, pentecoste to "public"
+  - DE-BY: use 08-15 as public in favor of population majority
+  - Set 10-31 to observance
+  - Add missing "Fronleichnam" to regions to DE-SN and DE-TH
+  - Fix DE-BY holiday „Mariä Himmelfahrt“
+  - Add missing school DE-BW holidays
+  - Add missing DE Holiday on 2017-10-31
+  - Fix DE holiday „Buß- und Bettag“
+- DE: Add Totensonntag, Volkstrauertag
+
 v0.1.10
 - fix for US New Years Eve
 - fix for Labor Day spelling in en-us countries
