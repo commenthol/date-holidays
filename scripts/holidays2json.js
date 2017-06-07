@@ -63,6 +63,8 @@ Holidays2json.prototype = {
       obj.holidays = _.omit(obj.holidays, this.opts.omit)
     }
 
+    obj.version = new Date().toISOString().replace(/^(.*)T.*$/, '$1')
+
     this.holidays = obj
     return this
   },
@@ -94,9 +96,9 @@ if (module === require.main) {
       '',
       'translate holidays.yaml data to json',
       '',
-      '-p|--pick   comma seperated list of countries to pick',
+      '-p|--pick   comma separated list of countries to pick',
       '            from holidays.json file',
-      '-o|--omit   comma seperated list of countries to omit',
+      '-o|--omit   comma separated list of countries to omit',
       '            from holidays.json file',
       '',
       'NOTE: There are some countries which depend on data of others which',
