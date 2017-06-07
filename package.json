@@ -15,7 +15,8 @@
     "Mauro Braggio <m.braggio@e-time.it>",
     "Quennie <simply.me.queeny@gmail.com>",
     "Christian Schinnerl <Schinnerl.Christian@gmail.com>",
-    "James Dixon <jim.w.dixon@gmail.com>"
+    "James Dixon <jim.w.dixon@gmail.com>",
+    "Lukas Eipert <git@leipert.io>"
   ],
   "main": "lib",
   "bin": {
