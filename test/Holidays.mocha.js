@@ -332,6 +332,19 @@ describe('#Holidays', function () {
       assert.deepEqual(tmp, exp)
     })
 
+    it('of non-duplicated public German/MV holidays for 2017', function () {
+      var hd = new Holidays('DE', 'mv', {types: ['public']})
+      hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
+      var res = hd.getHolidays(2017)
+      var tmp = {}
+      res.forEach(function (p) {
+        if (tmp[p.name]) {
+          throw new Error(p.name + ' is duplicated');
+        }
+        tmp[p.name] = true
+      })
+    })
+
     it('of German holidays for 2015 in english', function () {
       var hd = new Holidays('de', {languages: ['en']})
       hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
