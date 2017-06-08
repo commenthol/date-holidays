@@ -49,7 +49,7 @@ holidays:
         name:
           es: Día de la Raza
           en: Columbus Day
-      monday after 11-01:
+      1st monday in November:
         _name: 11-01
       monday after 11-11:
         name:

@@ -46,8 +46,8 @@
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
     "name": "1er mai (jour substitut)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-05-05 00:00:00",
@@ -110,7 +110,7 @@
     "start": "2016-12-25T23:00:00.000Z",
     "end": "2016-12-26T23:00:00.000Z",
     "name": "Noël (jour substitut)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   }
 ]

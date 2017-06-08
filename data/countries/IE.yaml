@@ -24,13 +24,13 @@ holidays:
         _name: easter
       easter 1:
         _name: easter 1
-      1st monday after 05-01:
+      1st monday in May:
         name:
           en: May Day
-      1st monday after 06-01:
+      1st monday in June:
         name:
           en: First Monday in June
-      1st monday after 08-01:
+      1st monday in August:
         name:
           en: First Monday in August
       1st monday before 10-31:

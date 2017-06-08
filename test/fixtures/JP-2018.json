@@ -38,9 +38,9 @@
     "date": "2018-02-12 00:00:00",
     "start": "2018-02-11T15:00:00.000Z",
     "end": "2018-02-12T15:00:00.000Z",
-    "substitute": true,
     "name": "建国記念の日 (代替日)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2018-03-21 00:00:00",
@@ -60,9 +60,9 @@
     "date": "2018-04-30 00:00:00",
     "start": "2018-04-29T15:00:00.000Z",
     "end": "2018-04-30T15:00:00.000Z",
-    "substitute": true,
     "name": "昭和の日 (代替日)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2018-05-03 00:00:00",
@@ -117,9 +117,9 @@
     "date": "2018-09-24 00:00:00",
     "start": "2018-09-23T15:00:00.000Z",
     "end": "2018-09-24T15:00:00.000Z",
-    "substitute": true,
     "name": "秋分の日 (代替日)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2018-10-08 00:00:00",
@@ -160,9 +160,9 @@
     "date": "2018-12-24 00:00:00",
     "start": "2018-12-23T15:00:00.000Z",
     "end": "2018-12-24T15:00:00.000Z",
-    "substitute": true,
     "name": "天皇誕生日 (代替日)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2018-12-25 00:00:00",

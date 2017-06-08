@@ -11,8 +11,8 @@
     "start": "2017-01-02T05:00:00.000Z",
     "end": "2017-01-03T05:00:00.000Z",
     "name": "New Year's Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2017-01-16 00:00:00",

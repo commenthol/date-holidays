@@ -1,0 +1,16 @@
+holidays:
+  GG:
+    names:
+      en: Guernsey
+    dayoff: sunday
+    zones:
+      - Europe/Guernsey
+    langs:
+      - en
+    _days:
+      - GB
+    days:
+      05-09:
+        name:
+          en: Liberation Day
+

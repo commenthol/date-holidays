@@ -54,29 +54,25 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
-    regions:
-      ar:
-        name: Arica
+    states:
+      AP:
+        name: Arica y Parinacota
         days:
           06-07:
             name:
               en: Battle of Arica
               es: Asalto y Toma del Morro de Arica
-      ch:
-        name: Chillán y Chillán Viejo
-        days:
-          08-20:
-            name:
-              en: Nativity of Liberator Bernardo O'Higgins
-              es: Nacimiento del Prócer de la Independencia
-      pa:
-        name: Parinacota
-        days:
-          06-07:
-            name:
-              en: Battle of Arica
-              es: Asalto y Toma del Morro de Arica
-      ta:
+      BI:
+        name: Biobío
+        regions:
+          CH:
+            name: Chillán y Chillán Viejo
+            days:
+              08-20:
+                name:
+                  en: Nativity of Liberator Bernardo O'Higgins
+                  es: Nacimiento del Prócer de la Independencia
+      TA:
         name: Tarapacá
         days:
           08-10:

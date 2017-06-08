@@ -1,0 +1,90 @@
+# @source http://www.president.az/pages/7/print
+holidays:
+  AZ:
+    names:
+      az: Azərbaycan Respublikası
+      en: Azerbaijan
+    dayoff: sunday
+    weekend:
+      - saturday
+      - sunday
+    zones:
+      - Asia/Baku
+    langs:
+      - az
+    days:
+      01-01 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 01-01
+      01-02 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 01-01
+      01-20:
+        name:
+          az: Qara Yanvar
+          en: Martyrs' Day
+        type: observance
+      03-08 and if saturday,sunday then next monday:
+        substitute: true
+        _name: 03-08
+      03-20:
+        name:
+          az: Novruz
+          en: Spring Festival
+        active:
+          - from: 2011
+      05-09 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Faşizm üzərində qələbə günü
+          en: Day of Victory over Fascism
+      05-28 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Respublika günü
+          en: Republic Day
+      06-15 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Azərbaycan xalqının Milli Qurtuluş günü
+          en: National Salvation Day
+      06-26 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Azərbaycan Respublikasının Silahlı Qüvvələri günü
+          en: Azerbaijan Armed Forces Day
+      10-18 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Dövlət Müstəqilliyi günü
+          en: Independence Day
+      11-09 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Dövlət Bayrağı günü
+          en: Flag Day
+      11-12:
+        name:
+          az: Konstitusiya günü
+          en: Constitution Day
+      11-17:
+        name:
+          az: Milli Dirçəliş günü
+          en: National Revival Day
+      12-31 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          az: Dünya azərbaycanlıların həmrəyliyi günü
+          en: International Solidarity Day of Azerbaijanis
+      1 Shawwal and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 1 Shawwal
+      2 Shawwal and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 10 Dhu al-Hijjah
+      11 Dhu al-Hijjah and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 10 Dhu al-Hijjah

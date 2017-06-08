@@ -61,13 +61,16 @@ holidays:
       12-31:
         _name: 12-31
         type: observance
-    regions:
-      qu:
-        name: Quito
-        days:
-          12-06:
-            name:
-              en: Foundation of Quito
-              es: Aniversario de la fundación de Quito
-            type: observance
+    states:
+      P:
+        name: Pichincha
+        regions:
+          QU:
+            name: Quito
+            days:
+              12-06:
+                name:
+                  en: Foundation of Quito
+                  es: Aniversario de la fundación de Quito
+                type: observance
 

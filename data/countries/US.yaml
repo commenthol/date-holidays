@@ -42,10 +42,10 @@ holidays:
       01-01 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: 01-01
-      3rd monday after 01-01:
+      3rd monday in January:
         name:
           en: Martin Luther King Day
-      3rd monday after 02-01:
+      3rd monday in February:
         name:
           en: Washington’s Birthday
       02-14:
@@ -59,22 +59,22 @@ holidays:
         name:
           en: Administrative Professionals Day
         type: observance
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       # last monday in may
       monday before 06-01:
         name:
           en: Memorial Day
-      3rd sunday after 06-01:
+      3rd sunday in June:
         _name: Fathers Day
         type: observance
       07-04 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: Independence Day
-      monday after 09-01:
+      monday in September:
         _name: 05-01
-      2nd monday after 10-01:
+      2nd monday in October:
         name:
           en: Columbus Day
       10-31 18:00:
@@ -84,14 +84,14 @@ holidays:
       11-11:
         name:
           en: Veterans Day
-      tuesday after 1st monday after 11-01 every 4 years since 1848:
+      tuesday after 1st monday in November every 4 years since 1848:
         name:
           en: Election Day
         type: observance
-      4th thursday after 11-01:
+      4th thursday in November:
         name:
           en: Thanksgiving Day
-      friday after 4th thursday after 11-01:
+      friday after 4th thursday in November:
         name:
           en: Day after Thanksgiving Day
         type: observance
@@ -105,24 +105,24 @@ holidays:
         _name: 12-31
         type: observance
     states:
-      al:
+      AL:
         name: Alabama
         zones:
           - America/Chicago
         days:
-          3rd monday after 01-01:
+          3rd monday in January:
             name:
               en: 'Robert E. Lee/ Martin Luther King Birthday'
-          3rd monday after 02-01:
+          3rd monday in February:
             name:
               en: George Washington/ Thomas Jefferson Birthday
-          4th monday after 04-01:
+          4th monday in April:
             name:
               en: Confederate Memorial Day
-          1st monday after 06-01:
+          1st monday in June:
             name:
               en: Jefferson Davis' birthday
-      ak:
+      AK:
         name: Alaska
         zones:
           - America/Anchorage
@@ -132,41 +132,41 @@ holidays:
           - America/Yakutat
           - America/Nome
         days:
-          2nd monday after 10-01: false
-          monday before 04-01:
+          2nd monday in October: false
+          monday before April:
             name:
               en: Seward's Day
           10-18:
             name:
               en: Alaska Day
-      az:
+      AZ:
         name: Arizona
         zones:
           - America/Phoenix
           - America/Denver
         days:
-          3rd monday after 01-01:
+          3rd monday in January:
             name:
               en: Dr. Martin Luther King Jr./ Civil Rights Day
-      ar:
+      AR:
         name: Arkansas
         zones:
           - America/Chicago
         days:
-          3rd monday after 01-01:
+          3rd monday in January:
             name:
               en: Dr. Martin Luther King Jr./ Robert E. Lee's Birthdays
-          3rd monday after 02-01:
+          3rd monday in February:
             name:
               en: "George Washington's Birthday/ Daisy Gatson Bates Day"
           12-24:
             _name: 12-24
-      ca:
+      CA:
         name: California
         zones:
           - America/Los_Angeles
         days:
-          2nd monday after 10-01: false
+          2nd monday in October: false
           02-15:
             name:
               en: Susan B. Anthony Day
@@ -179,14 +179,25 @@ holidays:
           05-23:
             name:
               en: Harvey Milk Day
-      co:
+        regions:
+          LA:
+            name: Los Angeles
+            days:
+              08-24:
+                # reference: http://www.latimes.com/sports/sportsnow/la-sp-kobe-bryant-day-20160823-snap-story.html
+                name:
+                  en: Kobe Bryant Day
+                type: observance
+                active:
+                  - from: 2016
+      CO:
         name: Colorado
         zones:
           - America/Denver
         days:
-          2nd monday after 10-01:
+          2nd monday in October:
             type: observance
-      ct:
+      CT:
         name: Connecticut
         zones:
           - America/New_York
@@ -196,40 +207,40 @@ holidays:
               en: Lincoln's Birthday
           easter -2:
             _name: easter -2
-      de:
+      DE:
         name: Delaware
         days:
-          2nd monday after 10-01: false
-          3rd monday after 02-01: false
+          2nd monday in October: false
+          3rd monday in February: false
           easter -2:
             _name: easter -2
-          friday after 4th thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Day After Thanksgiving
-          tuesday after 1st monday after 11-01 in even years:
+          tuesday after 1st monday in November in even years:
             name:
               en: Election Day
-      dc:
+      DC:
         name: District of Columbia
         days:
           04-16:
             name:
               en: Emancipation Day
-      fl:
+      FL:
         name: Florida
         days:
-          2nd monday after 10-01: false
-          3rd monday after 02-01: false
+          2nd monday in October: false
+          3rd monday in February: false
           02-15:
             name:
               en: Susan B. Anthony Day
-          friday after 4th thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Day After Thanksgiving
-      ga:
+      GA:
         name: Georgia
         days:
-          3rd monday after 02-01: false
+          3rd monday in February: false
           01-19:
             name:
               en: Robert E. Lee's Birthday
@@ -239,38 +250,38 @@ holidays:
           12-24:
             name:
               en: Washington's Birthday
-          substitutes 12-24 if wednesday then friday:
+          substitutes 12-24 if wednesday then next friday:
             substitute: true
             name:
               en: Washington's Birthday
-      hi:
+      HI:
         name: Hawaii
         zones:
           - Pacific/Honolulu
         days:
-          3rd monday after 02-01: false
+          3rd monday in February: false
           03-26:
             name:
               en: Prince Jonah Kuhio Kalanianaole Day
           06-11:
             name:
               en: Kamehameha Day
-          3rd friday after 08-01:
+          3rd friday in August:
             name:
               en: Statehood Day
-          tuesday after 1st monday after 11-01 in even years:
+          tuesday after 1st monday in November in even years:
             name:
               en: Election Day
-      id:
+      ID:
         name: Idaho
         zones:
           - America/Boise
           - America/Los_Angeles
         days:
-          3rd monday after 01-01:
+          3rd monday in January:
             name:
               en: 'Martin Luther King, Jr./ Idaho Human Rights Day'
-      il:
+      IL:
         name: Illinois
         zones:
           - America/Chicago
@@ -278,16 +289,16 @@ holidays:
           02-12:
             name:
               en: Lincoln's Birthday
-          1st monday after 03-01:
+          1st monday in March:
             name:
               en: Casimir Pulaski Day
           05-19:
             name:
               en: Malcolm X Day
-          tuesday after 1st monday after 11-01 in even years:
+          tuesday after 1st monday in November in even years:
             name:
               en: Election Day
-      in:
+      IN:
         name: Indiana
         zones:
           - America/Indiana/Indianapolis
@@ -301,16 +312,16 @@ holidays:
         days:
           easter -2:
             _name: easter -2
-          tuesday after 1st monday after 05-01:
+          tuesday after 1st monday in May:
             name:
               en: Primary Election Day
-          tuesday after 1st monday after 11-01:
+          tuesday after 1st monday in November:
             name:
               en: Election Day
-          friday after 4th Thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Lincoln's Birthday
-      ia:
+      IA:
         name: Iowa
         zones:
           - America/Chicago
@@ -318,53 +329,53 @@ holidays:
           02-12:
             name:
               en: Lincoln's Birthday
-      ks:
+      KS:
         name: Kansas
         zones:
           - America/Chicago
           - America/Denver
         days:
-          3rd monday after 02-01: false
-      ky:
+          3rd monday in February: false
+      KY:
         name: Kentucky
         zones:
           - America/Kentucky/Louisville
           - America/Kentucky/Monticello
         days:
-          3rd monday after 02-01: false
+          3rd monday in February: false
           'easter -2 14:00':
             _name: easter -2
           12-24:
             _name: 12-24
           12-31:
             _name: 12-31
-      la:
+      LA:
         name: Louisiana
         zones:
           - America/Chicago
         days:
           easter -2:
             _name: easter -2
-          tuesday after 1st monday after 11-01 in even years:
+          tuesday after 1st monday in November in even years:
             name:
               en: Election Day
         regions:
-          no:
+          NO:
             name: New Orleans
             days:
               easter -47:
                 _name: easter -47
                 name:
                   en: Mardi Gras
-      me:
+      ME:
         name: Maine
         zones:
           - America/New_York
         days:
-          3rd monday after 04-01:
+          3rd monday in April:
             name:
               en: Patriots' Day
-      md:
+      MD:
         name: Maryland
         zones:
           - America/New_York
@@ -372,10 +383,10 @@ holidays:
           friday before 1st monday before 06-01:
             name:
               en: Service Reduction Day
-          friday after 4th thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Native American Heritage Day
-      ma:
+      MA:
         name: Massachusetts
         zones:
           - America/Chicago
@@ -383,13 +394,13 @@ holidays:
           03-17:
             name:
               en: Evacuation Day
-          3rd monday after 04-01:
+          3rd monday in April:
             name:
               en: Patriots' Day
           06-17:
             name:
               en: Bunker Hill Day
-      mi:
+      MI:
         name: Michigan
         zones:
           - America/Detroit
@@ -399,23 +410,23 @@ holidays:
             _name: 12-24
           12-31:
             _name: 12-31
-      mn:
+      MN:
         name: Minnesota
         zones:
           - America/Chicago
         # all federal holidays
-      ms:
+      MS:
         name: Mississippi
         zones:
           - America/Chicago
         days:
-          3rd monday after 01-01:
+          3rd monday in January:
             name:
               en: Martin Luther King's and Robert E. Lee's Birthdays
           monday before 05-01:
             name:
               en: Confederate Memorial Day
-      mo:
+      MO:
         name: Missouri
         zones:
           - America/Chicago
@@ -423,19 +434,19 @@ holidays:
           05-08:
             name:
               en: Truman Day
-      mt:
+      MT:
         name: Montana
         zones:
           - America/Denver
         days:
-          tuesday after 1st monday after 11-01:
+          tuesday after 1st monday in November:
             name:
               en: Election Day
           12-24:
             _name: 12-24
           12-31:
             _name: 12-31
-      ne:
+      NE:
         name: Nebraska
         zones:
           - America/Chicago
@@ -444,35 +455,35 @@ holidays:
           friday before 05-01:
             name:
               en: Arbor Day
-      nv:
+      NV:
         name: Nevada
         zones:
           - America/Los_Angeles
         days:
-          2nd monday after 10-01: false
+          2nd monday in October: false
           friday before 11-01:
             name:
               en: Nevada Day
-          4th friday after 11-01:
+          4th friday in November:
             name:
               en: Family Day
-      nh:
+      NH:
         name: New Hampshire
         zones:
           - America/New_York
         days:
-          2nd monday after 10-01:
+          2nd monday in October:
             type: observance
-          3rd monday after 01-01:
+          3rd monday in January:
             name:
               en: Martin Luther King, Jr./ Civil Rights Day
-          tuesday after 1st monday after 11-01 in even years:
+          tuesday after 1st monday in November in even years:
             name:
               en: Election Day
-          friday after 4th thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
-      nj:
+      NJ:
         name: New Jersey
         zones:
           - America/New_York
@@ -482,19 +493,19 @@ holidays:
               en: Lincoln's Birthday
           easter -2:
             _name: easter -2
-          tuesday after 1st monday after 11-01:
+          tuesday after 1st monday in November:
             name:
               en: Election Day
-      nm:
+      NM:
         name: New Mexico
         zones:
           - America/Denver
         days:
-          3rd monday after 02-01: false
-          friday after 4th thursday after 11-01:
+          3rd monday in February: false
+          friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
-      ny:
+      NY:
         name: New York
         zones:
           - America/New_York
@@ -505,50 +516,50 @@ holidays:
           02-15:
             name:
               en: Susan B. Anthony Day
-          tuesday after 1st monday after 11-01:
+          tuesday after 1st monday in November:
             name:
               en: Election Day
-      nc:
+      NC:
         name: North Carolina
         zones:
           - America/New_York
         days:
-          3rd monday after 02-01: false
-          2nd monday after 10-01: false
+          3rd monday in February: false
+          2nd monday in October: false
           easter -2:
             _name: easter -2
-          friday after 4th thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
           12-24 and if friday then previous thursday if saturday,sunday then previous friday:
             substitute: true
             _name: 12-24
-      nd:
+      ND:
         name: North Dakota
         zones:
           - America/North_Dakota/Center
           - America/North_Dakota/New_Salem
           - America/North_Dakota/Beulah
         # All federal holidays
-      oh:
+      OH:
         name: Ohio
         zones:
           - America/New_York
         # All federal holidays
-      ok:
+      OK:
         name: Oklahoma
         zones:
           - America/Chicago
         days:
-          friday after 4th thursday after 11-01:
+          friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
-      or:
+      OR:
         name: Oregon
         zones:
           - America/Los_Angeles
         # All federal holidays
-      pa:
+      PA:
         name: Pennsylvania
         zones:
           - America/New_York
@@ -556,7 +567,7 @@ holidays:
           06-14:
             name:
               en: Flag Day
-      ri:
+      RI:
         name: Rhode Island
         zones:
           - America/New_York
@@ -564,7 +575,7 @@ holidays:
           2nd monday in August:
             name:
               en: Victory Day
-      sc:
+      SC:
         name: South Carolina
         zones:
           - America/New_York
@@ -574,12 +585,12 @@ holidays:
               en: Confederate Memorial Day
           12-26:
             _name: 12-26
-      sd:
+      SD:
         name: South Dakota
         zones:
           - America/Chicago
           - America/Denver
-      tn:
+      TN:
         name: Tennessee
         zones:
           - America/Chicago
@@ -591,7 +602,7 @@ holidays:
             _name: 12-24
       # @source http://www.hr.sao.state.tx.us/compensation/Holidays2015.pdf
       # @source http://www.hr.sao.state.tx.us/compensation/Holidays2016_2017.pdf
-      tx:
+      TX:
         name: Texas
         zones:
           - America/Chicago
@@ -629,15 +640,16 @@ holidays:
               en: Lyndon Baines Johnson Day
             type: observance
             note: state agencies are partially staffed
-          Friday after 4th Thursday in November:
-              Friday after Thanksgiving
+          friday after 4th thursday in November:
+            name:
+              en: Day after Thanksgiving
           12-24:
             _name: 12-24
           12-26:
             _name: 12-26
             name:
               en: Day after Christmas
-      ut:
+      UT:
         name: Utah
         zones:
           - America/Denver
@@ -645,31 +657,31 @@ holidays:
           07-24:
             name:
               en: Pioneer Day
-      vt:
+      VT:
         name: Vermont
         zones:
           - America/New_York
         days:
-          1st tuesday after 03-01:
+          1st tuesday in March:
             name:
               en: Town Meeting Day
-          3rd monday after 08-01:
+          3rd monday in August:
             name:
               en: Bennington Battle Day
-      va:
+      VA:
         name: Virginia
         zones:
           - America/New_York
         days:
-          friday before 3rd monday after 01-01:
+          friday before 3rd monday in January:
             name:
               en: Lee–Jackson Day
-      wa:
+      WA:
         name: Washington
         zones:
           - America/Los_Angeles
         # All federal holidays
-      wv:
+      WV:
         name: West Virginia
         zones:
           - America/New_York
@@ -680,10 +692,10 @@ holidays:
           06-20:
             name:
               en: West Virginia Day
-          4th friday after 11-01:
+          4th friday in November:
             name:
               en: Lincoln's Day
-      wi:
+      WI:
         name: Wisconsin
         zones:
           - America/Chicago
@@ -691,13 +703,13 @@ holidays:
           02-15:
             name:
               en: Susan B. Anthony Day
-          2nd tuesday after 09-01:
+          2nd tuesday in September:
             name:
               en: Primary Election Day
-          tuesday after 1st monday after 11-01:
+          tuesday after 1st monday in November:
             name:
               en: Election Day
-      wy:
+      WY:
         name: Wyoming
         zones:
           - America/Denver

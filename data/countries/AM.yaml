@@ -12,9 +12,9 @@ holidays:
     days:
       12-31:
         _name: 12-31
-      01-01 +2d:
+      01-01 P2D:
         _name: 01-01
-      01-03 +3d:
+      01-03 P3D:
         name:
           en: Pre-Christmas holidays
           hy: Նախածննդյան տոներ
@@ -73,7 +73,7 @@ holidays:
         type: observance
       09-21:
         _name: Independence Day
-      2nd saturday after 10-01:
+      2nd saturday in October:
         name:
           en: Translator's Day
           hy: Թարգմանչաց տոն
@@ -83,4 +83,37 @@ holidays:
           en: Earthquake Remembrance Day
           hy: Երկրաշարժի զոհերի հիշատակի օր
         type: observance
-
+    # states:
+    #   AG:
+    #     names:
+    #       en: Aragatsotn
+    #   AR:
+    #     names:
+    #       en: Ararat
+    #   AV:
+    #     names:
+    #       en: Armavir
+    #   ER:
+    #     names:
+    #       en: Yerevan
+    #   GR:
+    #     names:
+    #       en: Gegharkunik
+    #   KT:
+    #     names:
+    #       en: Kotayk
+    #   LO:
+    #     names:
+    #       en: Lori
+    #   SH:
+    #     names:
+    #       en: Shirak
+    #   SU:
+    #     names:
+    #       en: Syunik
+    #   TV:
+    #     names:
+    #       en: Tavush
+    #   VD:
+    #     names:
+    #       en: Vayots Dzor

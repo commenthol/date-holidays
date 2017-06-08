@@ -17,16 +17,9 @@
     "date": "2016-01-04 00:00:00",
     "start": "2016-01-03T11:00:00.000Z",
     "end": "2016-01-04T11:00:00.000Z",
-    "substitute": true,
     "name": "Day after New Year's Day (substitute day)",
-    "type": "public"
-  },
-  {
-    "date": "2016-01-25 00:00:00",
-    "start": "2016-01-24T11:00:00.000Z",
-    "end": "2016-01-25T11:00:00.000Z",
-    "name": "Provincial anniversary day",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-02-08 00:00:00",
@@ -78,6 +71,13 @@
     "type": "public"
   },
   {
+    "date": "2016-11-28 00:00:00",
+    "start": "2016-11-27T11:00:00.000Z",
+    "end": "2016-11-28T11:00:00.000Z",
+    "name": "Provincial anniversary day",
+    "type": "public"
+  },
+  {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T11:00:00.000Z",
     "end": "2016-12-25T11:00:00.000Z",
@@ -96,7 +96,7 @@
     "start": "2016-12-26T11:00:00.000Z",
     "end": "2016-12-27T11:00:00.000Z",
     "name": "Christmas Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   }
 ]

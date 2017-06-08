@@ -49,13 +49,13 @@ holidays:
         _name: 05-01
       # Religious holidays
       # Orthodox holidays
-      01-06:
+      julian 12-24:
         _name: 12-24
-      01-07:
+      julian 12-25:
         _name: 12-25
-      01-08:
-        _name: 12-25
-      01-14:
+      julian 12-26:
+        _name: 12-26
+      julian 01-01:
         name:
           en: Orthodox New Year
           hr: Pravoslavna Nova godina
@@ -84,9 +84,9 @@ holidays:
       11-01:
         _name: 11-01
       # Muslim holidays
-      1 Shawwal +3d:
+      1 Shawwal P3D:
         _name: 1 Shawwal
-      10 Dhu al-Hijjah +3d:
+      10 Dhu al-Hijjah P3D:
         _name: 10 Dhu al-Hijjah
       1 Muharram:
         _name: 1 Muharram
@@ -107,11 +107,10 @@ holidays:
         _name: 27 Ramadan
         type: observance
       # Jewish holidays
-      15 Nisan +2d:
+      15 Nisan P2D:
         _name: 15 Nisan
       1 Tishrei:
         _name: 1 Tishrei
         type: observance
-      10 Tishrei +2d:
+      10 Tishrei P2D:
         _name: 10 Tishrei
-

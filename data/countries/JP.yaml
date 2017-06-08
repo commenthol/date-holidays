@@ -1,5 +1,6 @@
 holidays:
   # @source http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+  # @source http://eco.mtk.nao.ac.jp/koyomi/yoko/index.html.en
   # Japan
   JP:
     names:
@@ -24,7 +25,7 @@ holidays:
           en: January 3rd
           jp: 銀行休業日
         type: bank
-      2nd monday after 01-01:
+      2nd monday in January:
         name:
           en: Coming of Age Day
           jp: 成人の日
@@ -33,16 +34,11 @@ holidays:
         name:
           en: Foundation Day
           jp: 建国記念の日
-      spring equinox in Asia/Tokyo:
-        name:
-          en: Spring Equinox Day
-          jp: 春分の日
-      substitutes 03-21 if sunday then next monday:
+      march equinox in +09:00 and if sunday then next monday:
         substitute: true
         name:
           en: Spring Equinox Day
           jp: 春分の日
-        # TODO create rule
       04-29 and if sunday then next monday:
         substitute: true
         name:
@@ -63,7 +59,7 @@ holidays:
         name:
           en: Children's Day
           jp: こどもの日
-      3rd monday after 07-01:
+      3rd monday in July:
         name:
           en: Marine Day
           jp: 海の日
@@ -72,7 +68,7 @@ holidays:
         name:
           en: Mountain Day
           jp: 山の日
-      3rd monday after 09-01:
+      3rd monday in September:
         name:
           en: Respect-for-the-Aged Day
           jp: 敬老の日
@@ -80,7 +76,7 @@ holidays:
         name:
           en: Public Holiday
           jp: 祝日
-      autumn equinox in Asia/Tokyo:
+      september equinox in +09:00:
         name:
           en: Autumnal Equinox Day
           jp: 秋分の日
@@ -89,7 +85,7 @@ holidays:
         name:
           en: Autumnal Equinox Day
           jp: 秋分の日
-      2nd monday after 10-01:
+      2nd monday in October:
         name:
           en: Sports Day
           jp: 体育の日

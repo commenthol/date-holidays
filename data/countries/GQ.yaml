@@ -51,4 +51,3 @@ holidays:
       12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
-

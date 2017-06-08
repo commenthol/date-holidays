@@ -11,8 +11,8 @@
     "start": "2017-01-01T23:00:00.000Z",
     "end": "2017-01-02T23:00:00.000Z",
     "name": "Año Nuevo (día sustituto)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2017-04-14 00:00:00",

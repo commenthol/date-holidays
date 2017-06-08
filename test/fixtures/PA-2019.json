@@ -59,9 +59,9 @@
     "date": "2019-11-04 00:00:00",
     "start": "2019-11-04T05:00:00.000Z",
     "end": "2019-11-05T05:00:00.000Z",
-    "substitute": true,
     "name": "Día de la Separación (de Colombia) (día sustituto)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2019-11-10 00:00:00",
@@ -74,9 +74,9 @@
     "date": "2019-11-11 00:00:00",
     "start": "2019-11-11T05:00:00.000Z",
     "end": "2019-11-12T05:00:00.000Z",
-    "substitute": true,
     "name": "Primer Grito de Independencia (día sustituto)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2019-11-28 00:00:00",
@@ -97,8 +97,8 @@
     "start": "2019-12-09T05:00:00.000Z",
     "end": "2019-12-10T05:00:00.000Z",
     "name": "Día de la Madre (día sustituto)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2019-12-25 00:00:00",

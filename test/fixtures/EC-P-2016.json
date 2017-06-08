@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T05:00:00.000Z",
+    "end": "2016-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2016-02-08 00:00:00",
+    "start": "2016-02-08T05:00:00.000Z",
+    "end": "2016-02-09T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2016-02-09 00:00:00",
+    "start": "2016-02-09T05:00:00.000Z",
+    "end": "2016-02-10T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-24 00:00:00",
+    "start": "2016-03-24T05:00:00.000Z",
+    "end": "2016-03-25T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T05:00:00.000Z",
+    "end": "2016-03-26T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T05:00:00.000Z",
+    "end": "2016-03-28T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-05-01T05:00:00.000Z",
+    "end": "2016-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-24 00:00:00",
+    "start": "2016-05-24T05:00:00.000Z",
+    "end": "2016-05-25T05:00:00.000Z",
+    "name": "Batalla del Pichincha",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-24 00:00:00",
+    "start": "2016-07-24T05:00:00.000Z",
+    "end": "2016-07-25T05:00:00.000Z",
+    "name": "El Natalicio de Simón Bolívar",
+    "type": "observance"
+  },
+  {
+    "date": "2016-08-10 00:00:00",
+    "start": "2016-08-10T05:00:00.000Z",
+    "end": "2016-08-11T05:00:00.000Z",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-10 00:00:00",
+    "start": "2016-09-10T05:00:00.000Z",
+    "end": "2016-09-11T05:00:00.000Z",
+    "name": "Independencia de Guayaquil",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-31 00:00:00",
+    "start": "2016-10-31T05:00:00.000Z",
+    "end": "2016-11-01T05:00:00.000Z",
+    "name": "Dia de La Bandera",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-02 00:00:00",
+    "start": "2016-11-02T05:00:00.000Z",
+    "end": "2016-11-03T05:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-03 00:00:00",
+    "start": "2016-11-03T05:00:00.000Z",
+    "end": "2016-11-04T05:00:00.000Z",
+    "name": "Independencia de Cuenca",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T05:00:00.000Z",
+    "end": "2016-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-31 00:00:00",
+    "start": "2016-12-31T05:00:00.000Z",
+    "end": "2017-01-01T05:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "observance"
+  }
+]

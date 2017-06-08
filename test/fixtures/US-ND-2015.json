@@ -67,8 +67,8 @@
     "start": "2015-07-03T05:00:00.000Z",
     "end": "2015-07-04T05:00:00.000Z",
     "name": "Independence Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2015-07-04 00:00:00",

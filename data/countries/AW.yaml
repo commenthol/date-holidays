@@ -1,0 +1,82 @@
+# @source http://www.ea.aw/pa/calender/vakantie-di-scol
+# @source http://daoaruba.com/pdf/Dia%20nan%20di%20fiesta2016_PAP.pdf
+# @source http://www.gobierno.aw/informacion-tocante-servicio/vakantie-di-scol-inclusivo-e-dianan-di-fiesta_42938/
+holidays:
+  AW:
+    names:
+      pap: Aruba
+      nl: Aruba
+      en: Aruba
+    dayoff: sunday
+    zones:
+      - America/Curacao
+    langs:
+      - pap
+      - nl
+    days:
+      01-01:
+        _name: 01-01
+        name:
+          pap: Aña Nobo
+      01-25:
+        name:
+          pap: Dia di Betico
+          nl: Herdenking G. F. Croes
+          en: Betico Croes Day
+      easter -48:
+        _name: easter -48
+        name:
+          pap: Dialuna di Carnaval
+          nl: Carnavalmaandag
+          en: Carnival Monday
+      03-18 and if saturday then previous friday if sunday then next monday:
+        substitute: true
+        name:
+          pap: Dia di Himno y Bandera
+          nl: Herdenking Vlag en Volkslied
+          en: National Anthem and Flag Day
+      easter -2:
+        _name: easter -2
+        name:
+          pap: Diabierna Santo
+      easter:
+        _name: easter
+        type: observance
+        name:
+          pap: Dia Pasco di Resureccion
+      easter 1:
+        _name: easter 1
+        name:
+          pap: Di dos Dia Pasco di Resureccion
+      04-27:
+        name:
+          pap: Aña di Rey
+          nl: Koningsdag
+          en: Kings Day
+      05-01 if sunday then next monday:
+        _name: 05-01
+        name:
+          pap: Dia di Obrero
+      06-24:
+        name:
+          pap: Dera Gai
+          nl: Dera Gai
+          en: Dera Gai
+        type: observance
+      easter 39:
+        _name: easter 39
+        name:
+          pap: Dia di Asuncion
+      12-05:
+        name:
+          nl: Sinterklaasavond
+          en: St. Nicholas' Eve
+        type: observance
+      12-25:
+        _name: 12-25
+        name:
+          pap: Dia Pasco di Nascimento
+      12-26:
+        _name: 12-26
+        name:
+          pap: Di dos Dia Pasco di Nascimento

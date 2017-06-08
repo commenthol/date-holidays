@@ -162,8 +162,8 @@
     "date": "2018-11-23 00:00:00",
     "start": "2018-11-23T06:00:00.000Z",
     "end": "2018-11-24T06:00:00.000Z",
-    "name": "Day after Thanksgiving Day",
-    "type": "observance"
+    "name": "Day after Thanksgiving",
+    "type": "public"
   },
   {
     "date": "2018-12-24 00:00:00",

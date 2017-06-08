@@ -12,6 +12,9 @@ names:
     name:
       en: New Year's Day
       am: እንቁጣጣሽ
+      ar: 'عيد رأس السنة'
+      az: Yeni il
+      be: Новы год
       bg: Нова Година
       bs: Novogodisnji dan
       ca: Any nou
@@ -22,7 +25,7 @@ names:
       es: Año Nuevo
       et: uusaasta
       fi: Uudenvuodenpäivä
-      #fr: Jour de l'An
+      # fr: Jour de l'An
       fr: Nouvel An
       hr: Nova godina
       hu: Újév
@@ -30,6 +33,7 @@ names:
       it: Capodanno
       is: Nýársdagur
       jp: 元日
+      ko: 신정
       lt: Naujieji metai
       lv: Jaunais Gads
       mg: Taom-baovao
@@ -44,21 +48,23 @@ names:
       sv: Nyårsdagen
       sw: Mwaka mpya
       tr: Yılbaşı
+      vi: Tết dương lịch
+      zh: 元旦
   01-06:
     name:
       en: Epiphany
       am: ብርሐነ ጥምቀት
       de: Heilige Drei Könige
-      #de: Erscheinung des Herrn
+      # de: Erscheinung des Herrn
       es: Día de los Reyes Magos
-      #es: Epifanía del Señor
+      # es: Epifanía del Señor
       et: kolmekuningapäev
       fi: Loppiainen
       fr: l'Épiphanie
       el: Θεοφάνεια
       hr: Bogojavljenje, Sveta tri kralja
       it: Befana
-      #it: Epifania
+      # it: Epifania
       is: Þrettándinn
       nl: Driekoningen
       pl: Święto Trzech Króli
@@ -76,10 +82,14 @@ names:
   03-08:
     name:
       en: International Women's Day
+      az: Qadınlar günü
+      be: Мiжнародны жаночы дзень
       bg: Ден на жената
       hu: Nemzetközi nőnap
       hy: Կանանց տոն
       ru: Международный женский день
+      vi: Quốc tế Phụ nữ
+      zh: 国际妇女节
   03-19:
     name:
       en: Saint Joseph
@@ -91,6 +101,8 @@ names:
     name:
       en: Labour Day
       en-us: Labor Day
+      ar: 'يوم العمال'
+      be: Дзень працы
       bg: Ден на труда
       bs: Radni dan
       cz: Svátek práce
@@ -116,6 +128,8 @@ names:
       ro: Ziua muncii
       sr: Празник рада
       sv: Första Maj
+      vi: Ngày Quốc tế Lao động
+      zh: 劳动节
   06-29:
     name:
       en: Saint Peter and Saint Paul
@@ -130,7 +144,7 @@ names:
       el: Κοίμηση της Θεοτόκου
       hr: Velika Gospa
       it: Ferragosto
-      #it: Assunzione di Maria Virgine
+      # it: Assunzione di Maria Virgine
       lt: Žolinė
       mg: Asompsiona
       mt: Santa Marija
@@ -150,7 +164,7 @@ names:
       hr: Svi sveti
       hu: Mindenszentek
       it: Ognissanti
-      #it: Tutti i Santi
+      # it: Tutti i Santi
       lt: Visų šventųjų diena
       mg: Fetin'ny olo-masina
       nl: Allerheiligen
@@ -172,6 +186,7 @@ names:
     name:
       en: Saint Martin
       de: Sankt Martin (Faschingsbeginn)
+      nl: Sint Maarten
   12-06:
     name:
       en: Saint Nicholas
@@ -229,6 +244,7 @@ names:
       it: Natale
       is: Jóladagur
       jp: ノエル
+      ko: 기독탄신일
       lt: Šv. Kalėdos
       lv: Ziemassvētki
       mg: Krismasy
@@ -256,7 +272,7 @@ names:
       et: teine jõulupüha
       fi: 2. joulupäivä
       fr: Lendemain de Noël
-      #fr: Saint Etienne
+      # fr: Saint Etienne
       hr: Svetog Stjepana
       hu: Karácsony másnapja
       it: Santo Stefano
@@ -273,7 +289,7 @@ names:
       en: New Year's Eve
       de: Silvester
       es: Fin del Año
-      #es: Nochevieja
+      # es: Nochevieja
       fi: Uudenvuodenaatto
       fr: Saint-Sylvestre
       hu: Szilveszter
@@ -292,13 +308,14 @@ names:
     name:
       en: Shrove Monday
       es: Carnaval
+      fr: Lundi de Carnaval
       de: Rosenmontag
   easter -47: # Carnival Tuesday
     name:
       en: Shrove Tuesday
       es: Carnaval
       de: Faschingsdienstag
-      #de: Fastnacht
+      # de: Fastnacht
       hr: Pokladni utorak
       pt: Carnaval
   easter -46: # Ash Wednesday
@@ -478,13 +495,20 @@ names:
   1 Muharram: # Islamic New Year
     name:
       en: Islamic New Year
+      ar: 'رأس السنة الهجرية'
       bs: Nova hidžretska godina
       hr: Nova hidžretska godina
       sq: Viti i Ri hixhri
+  10 Muharram: # Day of Ashura
+    name:
+      en: Day of Ashura
+      ar: 'عاشوراء'
   1 Shawwal:  # End of Ramadan
     name:
       en: End of Ramadan (Eid al-Fitr)
       am: ዒድ አል ፈጥር
+      ar: 'عيد الفطر'
+      az: Ramazan Bayramı
       bs: Ramazanski bajram
       de: Zuckerfest
       fr: Fête de fin du Ramadan
@@ -496,6 +520,8 @@ names:
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
       am: ዒድ አል አድሐ
+      ar: 'عيد الأضحى'
+      az: Qurban Bayramı
       bs: Kurbanski bajram
       de: Opferfest
       fr: Fête du mouton
@@ -503,31 +529,38 @@ names:
       sq: Kurban bajrami
       tr: Kurban Bayramı
       sw: Idd-ul-Azha
-  12 Rabi al-awwal: # Mawlid
+  12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
-      en: Mawlid
+      en: Birthday of Muhammad (Mawlid)
       am: መውሊድ
+      ar: 'المولد النبويّ'
       bs: Mevlud
+      fr: Mawlid
       sq: Mevludi
-  27 Rajab:   # Laylat al-Mi'raj
+  27 Rajab:   # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
     name:
       en: Laylat al-Mi'raj
+      ar: 'الإسراء والمعراج'
       bs: Lejletul Mi'radž
       sq: Nata e Miraxhit
-  15 Shaban:  # Laylat al-Bara'at
+      tr: Miraç Gecesi
+  15 Shaban:  # Laylat al-Bara'at (Bara'at Night)
     name:
       en: Laylat al-Bara'at
+      ar: 'ليلة البراءة'
       bs: Lejletul berat
       sq: Nata e Beratit
   1 Ramadan:  # First day of Ramadan
     name:
       en: First day of Ramadan
       am: ረመዳን
+      ar: 'اليوم الأول من رمضان'
       bs: Prvi dan posta
       sq: Dita e parë e agjërimit
-  27 Ramadan: # Laylat al-Qadr
+  27 Ramadan: # Laylat al-Qadr (Night of Power)
     name:
       en: Laylat al-Qadr
+      ar: 'لیلة القدر'
       bs: Lejletul kadr
       sq: Nata e Kadrit
 
@@ -575,6 +608,7 @@ names:
       es: Día de la Constitución
       hy: Սահմանադրության օր
       jp: 憲法記念日
+      ko: 제헌절
       no: Grunnlovsdagen
       pt: Dia da Constituição
   Fathers Day:
@@ -582,10 +616,13 @@ names:
       en: Father's Day
       et: isadepäev
       lt: Tėvo diena
+      nl: Vaderdag
       pt: Dia dos Pais
   Independence Day:
     name:
       en: Independence Day
+      ar: عيد الاستقلال
+      be: Дзень Незалежнасцi
       bg: Ден на независимостта
       bs: Dan nezavisnosti
       de: Unabhängigkeitstag
@@ -600,6 +637,7 @@ names:
       pl: Narodowe Święto Niepodległości
       pt: Dia da Independência
       sr: Дан независности
+      sv: Självständighetsdagen
       sw: Siku ya uhuru
   Mothers Day:
     name:
@@ -653,10 +691,12 @@ names:
   substitutes:
     name:
       en: substitute day
+      az: əvəz gün
       bs: zamjena dan
       de: Ersatztag
       es: día sustituto
       fr: jour substitut
+      nl: substituut
       hr: zamjena dan
       jp: 代替日
       lv: aizstājējs diena

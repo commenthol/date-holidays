@@ -1,0 +1,71 @@
+holidays:
+  # @source http://www.ab.gov.ag/detail_page.php?page=4
+  # @source http://www.laws.gov.ag/acts/2005/a2005-8.pdf
+  AG:
+    names:
+      en: Antigua & Barbuda
+    langs:
+      - en
+    dayoff: sunday
+    weekend:
+      - saturday
+      - sunday
+    zones:
+      - America/Port_of_Spain
+    days:
+      01-01 and if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 49:
+        _name: easter 49
+        type: observance
+      easter 50:
+        _name: easter 50
+      08-01:
+        name:
+          en: J'Ouvert Morning
+      08-02:
+        name:
+          en: Last Lap
+      11-01 if saturday,sunday then next monday:
+        _name: Independence Day
+      12-09:
+        name:
+          en: V.C Bird Day
+      12-25 and if saturday then next monday if sunday then next tuesday:
+        _name: 12-25
+        substitute: true
+      12-26 and if sunday then next monday:
+        _name: 12-26
+        substitute: true
+    regions:
+      # '3':
+      #   name: Saint George
+      # '4':
+      #   name: Saint John
+      # '5':
+      #   name: Saint Mary
+      # '6':
+      #   name: Saint Paul
+      # '7':
+      #   name: Saint Peter
+      # '8':
+      #   name: Saint Philip
+      '10':
+        name: Barbuda
+        days:
+          easter 47 P4D:
+            name:
+              en: Caribana
+            type: observance
+      # '11':
+      #   name: Redonda

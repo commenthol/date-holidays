@@ -11,8 +11,8 @@
     "start": "2017-01-02T05:00:00.000Z",
     "end": "2017-01-03T05:00:00.000Z",
     "name": "New Year's Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2017-01-16 00:00:00",
@@ -117,8 +117,8 @@
     "start": "2017-12-22T05:00:00.000Z",
     "end": "2017-12-23T05:00:00.000Z",
     "name": "Christmas Eve (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2017-12-24 00:00:00",

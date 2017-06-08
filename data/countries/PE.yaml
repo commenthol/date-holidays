@@ -42,7 +42,7 @@ holidays:
       12-25:
         _name: 12-25
     regions:
-      cu:
+      CUS:
         name: Cuzco
         days:
           06-24:

@@ -116,8 +116,8 @@
     "start": "2016-12-23T05:00:00.000Z",
     "end": "2016-12-24T05:00:00.000Z",
     "name": "Christmas Eve (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-12-24 00:00:00",
@@ -138,8 +138,8 @@
     "start": "2016-12-26T05:00:00.000Z",
     "end": "2016-12-27T05:00:00.000Z",
     "name": "Christmas Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-12-31 18:00:00",

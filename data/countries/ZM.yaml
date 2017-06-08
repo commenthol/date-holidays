@@ -31,13 +31,13 @@ holidays:
         substitute: true
         name:
           en: African Freedom Day
-      1st monday after 07-01:
+      1st monday in July:
         name:
           en: Heroes' Day
-      tuesday after 1st monday after 07-01:
+      tuesday after 1st monday in July:
         name:
           en: Unity Day
-      1st monday after 08-01:
+      1st monday in August:
         name:
           en: Farmers' Day
       '2015-10-18':
@@ -49,56 +49,3 @@ holidays:
       12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
-
-  ZW:
-    names:
-      sn: Nyika yeZimbabwe
-      nd: iRiphabhuliki yeZimbabwe
-      xh: iRiphubliki eyeZimbabwe
-      kck: Nyika yeZimbabwe
-      en: Zimbabwe
-    dayoff: sunday
-    langs:
-      #- sn
-      #- nd
-      #- xh
-      #- kck
-      - en
-    zones:
-      - Africa/Maputo
-    days:
-      01-01:
-        _name: 01-01
-      easter -2:
-        _name: easter -2
-      easter:
-        _name: easter
-        type: observance
-      easter 1:
-        _name: easter 1
-      04-18:
-        _name: Independence Day
-      05-01:
-        _name: 05-01
-      05-25:
-        name:
-          en: Africa Day
-      2nd sunday after 05-01:
-        _name: Mothers Day
-        type: observance
-      3rd sunday after 06-01:
-        _name: Fathers Day
-        type: observance
-      2nd monday after 08-01:
-        name:
-          en: Heroes' Day
-      2nd tuesday after 08-01:
-        name:
-          en: Defence Forces Day
-      12-22:
-        name:
-          en: Unity Day
-      12-25:
-        _name: 12-25
-      12-26:
-        _name: 12-26

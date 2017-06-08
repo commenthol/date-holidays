@@ -1,11 +1,11 @@
-'use strict'
-
 /* global describe, it */
 
-var assert = require('assert')
-var Holidays = require('..')
+'use strict'
 
-var toIso = require('./lib/helper').toIso
+const assert = require('assert')
+const Holidays = require('../src')
+const toIso = require('./lib/helper').toIso
+const moveToTimezone = require('./lib/helper').moveToTimezone
 
 describe('#Holidays', function () {
   describe('can query', function () {
@@ -20,21 +20,21 @@ describe('#Holidays', function () {
       var hd = new Holidays()
       var res = hd.getStates('de')
       var exp = {
-        bb: 'Brandenburg',
-        bw: 'Baden Würtemberg',
-        by: 'Bayern',
-        hb: 'Hansestadt Bremen',
-        he: 'Hessen',
-        hh: 'Hansestadt Hamburg',
-        mv: 'Mecklenburg Vorpommern',
-        ni: 'Niedersachsen',
-        nw: 'Nordrhein-Westfalen',
-        rp: 'Rheinland-Pfalz',
-        sh: 'Schleswig-Holstein',
-        sl: 'Saarland',
-        sn: 'Sachsen',
-        st: 'Sachsen-Anhalt',
-        th: 'Thüringen'
+        BB: 'Brandenburg',
+        BW: 'Baden Würtemberg',
+        BY: 'Bayern',
+        HB: 'Hansestadt Bremen',
+        HE: 'Hessen',
+        HH: 'Hansestadt Hamburg',
+        MV: 'Mecklenburg Vorpommern',
+        NI: 'Niedersachsen',
+        NW: 'Nordrhein-Westfalen',
+        RP: 'Rheinland-Pfalz',
+        SH: 'Schleswig-Holstein',
+        SL: 'Saarland',
+        SN: 'Sachsen',
+        ST: 'Sachsen-Anhalt',
+        TH: 'Thüringen'
       }
       assert.deepEqual(res, exp)
     })
@@ -43,8 +43,8 @@ describe('#Holidays', function () {
       var hd = new Holidays()
       var res = hd.getRegions('de', 'by')
       var exp = {
-        a: 'Stadt Augsburg',
-        evang: 'Überwiegend evangelische Gemeinden'
+        A: 'Stadt Augsburg',
+        EVANG: 'Überwiegend evangelische Gemeinden'
       }
       assert.deepEqual(res, exp)
     })
@@ -52,8 +52,8 @@ describe('#Holidays', function () {
     it('and get list of regions names in default language', function () {
       var res = new Holidays().getRegions('de', 'by')
       assert.deepEqual(res, {
-        a: 'Stadt Augsburg',
-        evang: 'Überwiegend evangelische Gemeinden'
+        A: 'Stadt Augsburg',
+        EVANG: 'Überwiegend evangelische Gemeinden'
       })
     })
 
@@ -141,21 +141,21 @@ describe('#Holidays', function () {
       var hd = new Holidays()
       var res = hd.query('AT')
       assert.ok(typeof res === 'object')
-      assert.equal(res.b, 'Burgenland')
+      assert.equal(res['1'], 'Burgenland')
     })
 
-    it('for all regions of DE by', function () {
+    it('for all regions of DE BY', function () {
       var hd = new Holidays()
-      var res = hd.query('DE', 'by')
+      var res = hd.query('DE', 'BY')
       assert.ok(typeof res === 'object')
-      assert.equal(res.a, 'Stadt Augsburg')
+      assert.equal(res.A, 'Stadt Augsburg')
     })
 
-    it('for all regions of DE.by', function () {
+    it('for all regions of de-', function () {
       var hd = new Holidays()
-      var res = hd.query('DE.by')
+      var res = hd.query('de-by')
       assert.ok(typeof res === 'object')
-      assert.equal(res.a, 'Stadt Augsburg')
+      assert.equal(res.A, 'Stadt Augsburg')
     })
   })
 
@@ -198,7 +198,7 @@ describe('#Holidays', function () {
   })
 
   describe('can get list of holidays', function () {
-    var expDe2015En = {
+    var expDE2015En = {
       'New Year\'s Day': 'thu 2015-01-01 00:00',
       'Women\'s Carnival Day': 'thu 2015-02-12 00:00',
       'Valentine\'s Day': 'sat 2015-02-14 00:00',
@@ -231,7 +231,7 @@ describe('#Holidays', function () {
       var hd = new Holidays('at')
       var res = hd.getHolidays()[0]
       var str = (new Date()).getFullYear() + '-01-01 00:00:00'
-      var exp = hd.moveToTimezone(new Date(str), 'Europe/Vienna')
+      var exp = moveToTimezone(new Date(str), 'Europe/Vienna')
       assert.equal(toIso(res.start), toIso(exp))
     })
 
@@ -239,7 +239,7 @@ describe('#Holidays', function () {
       var hd = new Holidays('at')
       var res = hd.getHolidays('2016')[0]
       var str = '2016-01-01 00:00:00'
-      var exp = hd.moveToTimezone(new Date(str), 'Europe/Vienna')
+      var exp = moveToTimezone(new Date(str), 'Europe/Vienna')
       assert.equal(toIso(res.start), toIso(exp))
     })
 
@@ -247,7 +247,7 @@ describe('#Holidays', function () {
       var hd = new Holidays('at')
       var res = hd.getHolidays(2016)[0]
       var str = '2016-01-01 00:00:00'
-      var exp = hd.moveToTimezone(new Date(str), 'Europe/Vienna')
+      var exp = moveToTimezone(new Date(str), 'Europe/Vienna')
       assert.equal(toIso(res.start), toIso(exp))
     })
 
@@ -304,7 +304,7 @@ describe('#Holidays', function () {
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
       })
-      // ~ console.log(tmp)
+      // console.log(tmp)
       assert.deepEqual(tmp, exp)
     })
 
@@ -328,7 +328,7 @@ describe('#Holidays', function () {
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
       })
-      // ~ console.log(tmp)
+      // console.log(tmp)
       assert.deepEqual(tmp, exp)
     })
 
@@ -337,12 +337,12 @@ describe('#Holidays', function () {
       hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
       var res = hd.getHolidays(2015)
       var tmp = {}
-      var exp = expDe2015En
+      var exp = expDE2015En
 
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
       })
-      // ~ console.log(tmp)
+      // console.log(tmp)
       assert.deepEqual(tmp, exp)
     })
 
@@ -351,12 +351,12 @@ describe('#Holidays', function () {
       hd.setTimezone() // use local time to pass tests in other timezone other than `Europe/Berlin`
       var res = hd.getHolidays(2015, 'en')
       var tmp = {}
-      var exp = expDe2015En
+      var exp = expDE2015En
 
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
       })
-      // ~ console.log(tmp)
+      // console.log(tmp)
       assert.deepEqual(tmp, exp)
     })
 
@@ -366,12 +366,12 @@ describe('#Holidays', function () {
       hd.setLanguages('en')
       var res = hd.getHolidays(2015)
       var tmp = {}
-      var exp = expDe2015En
+      var exp = expDE2015En
 
       res.forEach(function (p) {
         tmp[p.name] = toIso(p.start)
       })
-      // ~ console.log(tmp)
+      // console.log(tmp)
       assert.deepEqual(tmp, exp)
     })
   })

@@ -37,7 +37,7 @@ holidays:
           en: Workers' Day
       substitutes 05-01 if sunday then next monday:
         _name: Public Holiday
-      1st sunday after 05-01:
+      1st sunday in May:
         _name: Mothers Day
         type: observance
       06-25:
@@ -71,5 +71,3 @@ holidays:
           en: Family Day
       substitutes 12-25 if sunday then next monday:
         _name: Public Holiday
-
-

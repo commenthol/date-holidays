@@ -1,0 +1,36 @@
+# @source https://www.anz.com/americansamoa/en/about-us/anz-american-samoa/country-information/public-holidays/
+holidays:
+  AS:
+    names:
+      en: American Samoa
+    dayoff: sunday
+    zones:
+      - Pacific/Pago_Pago
+    langs:
+      - en
+    # same federal holidays as US
+    _days:
+      - US
+    # additional holidays
+    days:
+      04-15 if friday then next monday if saturday,sunday then next tuesday: false
+      04-17 and if sunday then next monday:
+        name:
+          en: American Samoa Flag Day
+        substitute: true
+      07-16:
+        name:
+          en: Manu'a Cession Day
+        type: optional
+        note: Goverment offices closed
+      2nd sunday in October:
+        name:
+          en: White Sunday
+        type: observance
+        note: christian
+      12-24 12:00:
+        _name: 12-24
+        type: bank
+      12-31 12:00:
+        _name: 12-31
+        type: bank

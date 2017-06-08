@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T03:00:00.000Z",
+    "end": "2016-01-02T03:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T03:00:00.000Z",
+    "end": "2016-03-26T03:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T03:00:00.000Z",
+    "end": "2016-03-28T03:00:00.000Z",
+    "name": "Pascua",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-05-01T03:00:00.000Z",
+    "end": "2016-05-02T03:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-21 00:00:00",
+    "start": "2016-05-21T04:00:00.000Z",
+    "end": "2016-05-22T04:00:00.000Z",
+    "name": "Día de las Glorias Navales",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-29 00:00:00",
+    "start": "2016-06-29T04:00:00.000Z",
+    "end": "2016-06-30T04:00:00.000Z",
+    "name": "San Pedro y San Pablo",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-16 00:00:00",
+    "start": "2016-07-16T04:00:00.000Z",
+    "end": "2016-07-17T04:00:00.000Z",
+    "name": "Virgen del Carmen",
+    "type": "public"
+  },
+  {
+    "date": "2016-08-15 00:00:00",
+    "start": "2016-08-15T03:00:00.000Z",
+    "end": "2016-08-16T03:00:00.000Z",
+    "name": "Asunción",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-18 00:00:00",
+    "start": "2016-09-18T03:00:00.000Z",
+    "end": "2016-09-19T03:00:00.000Z",
+    "name": "Fiestas Patrias",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-19 00:00:00",
+    "start": "2016-09-19T03:00:00.000Z",
+    "end": "2016-09-20T03:00:00.000Z",
+    "name": "Día de las Glorias del Ejército",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-12 00:00:00",
+    "start": "2016-10-12T03:00:00.000Z",
+    "end": "2016-10-13T03:00:00.000Z",
+    "name": "Día del Descubrimiento de Dos Mundos",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-31 00:00:00",
+    "start": "2016-10-31T03:00:00.000Z",
+    "end": "2016-11-01T03:00:00.000Z",
+    "name": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-01 00:00:00",
+    "start": "2016-11-01T03:00:00.000Z",
+    "end": "2016-11-02T03:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-08 00:00:00",
+    "start": "2016-12-08T03:00:00.000Z",
+    "end": "2016-12-09T03:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T03:00:00.000Z",
+    "end": "2016-12-26T03:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-31 00:00:00",
+    "start": "2016-12-31T03:00:00.000Z",
+    "end": "2017-01-01T03:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "bank"
+  }
+]

@@ -60,7 +60,7 @@ holidays:
       12-25:
         _name: 12-25
     regions:
-      san:
+      SS:
         name: San Salvador
         days:
           08-03:

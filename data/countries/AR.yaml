@@ -71,7 +71,7 @@ holidays:
           es: Feriado Puente Turístico
       07-09:
         _name: Independence Day
-      3rd monday after 08-01:
+      3rd monday in August:
         name:
           en: Anniversary of the death of General José de San Martín
           es: Día del Libertador José de San Martín
@@ -79,7 +79,7 @@ holidays:
         name:
           en: Day of Respect for Cultural Diversity
           es: Día del Respeto a la Diversidad Cultural
-      4th monday after 11-01:
+      4th monday in November:
         # @source http://www.mininterior.gov.ar/tramitesyservicios/pdf/feriado-nacional-27-11-2015.pdf
         disable:
           - '2015-11-23'

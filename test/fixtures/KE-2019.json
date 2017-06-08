@@ -42,14 +42,14 @@
     "type": "public"
   },
   {
-    "date": "2019-06-03 18:00:00",
+    "date": "2019-06-04 00:00:00 -0600",
     "start": "2019-06-03T15:00:00.000Z",
     "end": "2019-06-04T15:00:00.000Z",
     "name": "Idd-ul-Fitr",
     "type": "public"
   },
   {
-    "date": "2019-08-10 18:00:00",
+    "date": "2019-08-11 00:00:00 -0600",
     "start": "2019-08-10T15:00:00.000Z",
     "end": "2019-08-11T15:00:00.000Z",
     "name": "Idd-ul-Azha",
@@ -74,9 +74,9 @@
     "date": "2019-10-21 00:00:00",
     "start": "2019-10-20T21:00:00.000Z",
     "end": "2019-10-21T21:00:00.000Z",
-    "substitute": true,
     "name": "Siku ya Mashujaa (substitute day)",
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2019-12-12 00:00:00",

@@ -1,0 +1,18 @@
+holidays:
+  IM:
+    names:
+      en: Isle of Man
+    zones:
+      - Europe/Isle_of_Man
+    langs:
+      - en
+    _days:
+      - GB
+    days:
+      2nd friday in June:
+        name:
+          en: 'Tourist Trophy, Senior Race Day'
+      07-05:
+        name:
+          en: Tynwald Day
+

@@ -11,8 +11,8 @@
     "start": "2017-01-01T22:00:00.000Z",
     "end": "2017-01-02T22:00:00.000Z",
     "name": "Nouvel An (jour substitut)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2017-01-04 00:00:00",

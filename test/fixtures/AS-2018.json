@@ -1,0 +1,165 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T11:00:00.000Z",
+    "end": "2018-01-02T11:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-01-15 00:00:00",
+    "start": "2018-01-15T11:00:00.000Z",
+    "end": "2018-01-16T11:00:00.000Z",
+    "name": "Martin Luther King Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-02-14 00:00:00",
+    "start": "2018-02-14T11:00:00.000Z",
+    "end": "2018-02-15T11:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-02-19 00:00:00",
+    "start": "2018-02-19T11:00:00.000Z",
+    "end": "2018-02-20T11:00:00.000Z",
+    "name": "Washington’s Birthday",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-17 00:00:00",
+    "start": "2018-04-17T11:00:00.000Z",
+    "end": "2018-04-18T11:00:00.000Z",
+    "name": "American Samoa Flag Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-04-25 00:00:00",
+    "start": "2018-04-25T11:00:00.000Z",
+    "end": "2018-04-26T11:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-05-13 00:00:00",
+    "start": "2018-05-13T11:00:00.000Z",
+    "end": "2018-05-14T11:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-05-28 00:00:00",
+    "start": "2018-05-28T11:00:00.000Z",
+    "end": "2018-05-29T11:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-06-17 00:00:00",
+    "start": "2018-06-17T11:00:00.000Z",
+    "end": "2018-06-18T11:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-07-04 00:00:00",
+    "start": "2018-07-04T11:00:00.000Z",
+    "end": "2018-07-05T11:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-07-16 00:00:00",
+    "start": "2018-07-16T11:00:00.000Z",
+    "end": "2018-07-17T11:00:00.000Z",
+    "name": "Manu'a Cession Day",
+    "type": "optional",
+    "note": "Goverment offices closed"
+  },
+  {
+    "date": "2018-09-03 00:00:00",
+    "start": "2018-09-03T11:00:00.000Z",
+    "end": "2018-09-04T11:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-08 00:00:00",
+    "start": "2018-10-08T11:00:00.000Z",
+    "end": "2018-10-09T11:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-10-14 00:00:00",
+    "start": "2018-10-14T11:00:00.000Z",
+    "end": "2018-10-15T11:00:00.000Z",
+    "name": "White Sunday",
+    "type": "observance",
+    "note": "christian"
+  },
+  {
+    "date": "2018-10-31 18:00:00",
+    "start": "2018-11-01T05:00:00.000Z",
+    "end": "2018-11-01T11:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
+    "date": "2018-11-11 00:00:00",
+    "start": "2018-11-11T11:00:00.000Z",
+    "end": "2018-11-12T11:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-11-22 00:00:00",
+    "start": "2018-11-22T11:00:00.000Z",
+    "end": "2018-11-23T11:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-11-23 00:00:00",
+    "start": "2018-11-23T11:00:00.000Z",
+    "end": "2018-11-24T11:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-24T11:00:00.000Z",
+    "end": "2018-12-25T11:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional"
+  },
+  {
+    "date": "2018-12-24 12:00:00",
+    "start": "2018-12-24T23:00:00.000Z",
+    "end": "2018-12-25T11:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "bank"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T11:00:00.000Z",
+    "end": "2018-12-26T11:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2018-12-31 12:00:00",
+    "start": "2018-12-31T23:00:00.000Z",
+    "end": "2019-01-01T11:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "bank"
+  },
+  {
+    "date": "2018-12-31 18:00:00",
+    "start": "2019-01-01T05:00:00.000Z",
+    "end": "2019-01-01T11:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
+  }
+]

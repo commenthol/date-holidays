@@ -31,7 +31,7 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 39:
@@ -66,7 +66,17 @@ holidays:
       12-25:
         _name: 12-25
     states:
-      de:
+      BRU:
+        name: Bruxelles
+        langs:
+          - fr
+          - nl
+        days:
+          05-08:
+            name:
+              nl: Feest van de Iris
+              fr: Fête de l'Iris
+      DE:
         name: Deutschsprachige Gemeinschaft
         langs:
           - de
@@ -76,25 +86,7 @@ holidays:
               de: Tag der Deutschsprachigen Gemeinschaft
               fr: Jour de la Communauté Germanophone
               nl: Feestdag van de Duitstalige Gemeenschap
-      fr:
-        name: Communauté française
-        langs:
-          - fr
-        days:
-          09-27:
-            name:
-              de: Tag der Französischsprachigen Gemeinschaft
-              fr: La fête de la communauté française
-              nl: Feestdag van de Franse Gemeenschap
-        regions:
-          br:
-            name: Bruxelles
-            days:
-              05-08:
-                name:
-                  nl: Feest van de Iris
-                  fr: Fête de l'Iris
-      vl:
+      VLG:
         name: Vlaamse Gemeenschap
         langs:
           - nl
@@ -104,4 +96,13 @@ holidays:
               de: Festtag der Wallonischen Region
               fr: Fête de la Région wallonne
               nl: Feestdag van de Vlaamse Gemeenschap
-
+      WAL:
+        name: Communauté française
+        langs:
+          - fr
+        days:
+          09-27:
+            name:
+              de: Tag der Französischsprachigen Gemeinschaft
+              fr: La fête de la communauté française
+              nl: Feestdag van de Franse Gemeenschap

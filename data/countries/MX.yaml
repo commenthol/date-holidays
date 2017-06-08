@@ -25,7 +25,7 @@ holidays:
         _name: 01-01
       02-05:
         _name: Constitution Day
-      1st monday after 02-01:
+      1st monday in February:
         name:
           en: Constitution Day (day off)
           es: Día de la Constitución (día libre)
@@ -33,7 +33,7 @@ holidays:
         name:
           en: Benito Juárez's birthday
           es: Natalicio de Benito Juárez
-      3rd monday after 03-01:
+      3rd monday in March:
         name:
           en: Benito Juárez's birthday (day off)
           es: Natalicio de Benito Juárez (día libre)
@@ -46,7 +46,7 @@ holidays:
         _name: Independence Day
       11-20:
         _name: Revolution Day
-      3rd monday after 11-01:
+      3rd monday in November:
         name:
           en: Revolution Day (day off)
           es: Día de la Revolución (día libre)

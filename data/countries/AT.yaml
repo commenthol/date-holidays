@@ -28,7 +28,7 @@ holidays:
       05-01:
         name:
           de-at: Staatsfeiertag
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 39:
@@ -58,57 +58,70 @@ holidays:
         _name: 12-31
         type: bank
     states:
-      b:
+      '1':
         name: Burgenland
         days:
           11-11:
             name:
               de-at: Martinstag
-      k:
-        name: Kärnten
+      '2':
+        names:
+          de: Kärnten
+          en: Carinthia
         days:
           03-19:
             _name: 03-19
           10-10:
             name:
               de-at: Tag der Volksabstimmung
-      'n':
-        name: Niederösterreich
+      '3':
+        names:
+          de: Niederösterreich
+          en: Lower Austria
         days:
           11-15:
             name:
               de-at: Leopold
-      o:
-        name: Oberösterreich
+      '4':
+        names:
+          de: Oberösterreich
+          en: Upper Austria
         days:
           05-04:
             name:
               de-at: Florian
-      s:
-        name: Land Salzburg
+      '5':
+        names:
+          de: Land Salzburg
+          en: Salzburg
         days:
           09-24:
             name:
               de-at: Rupert
-      st:
-        name: Steiermark
+      '6':
+        names:
+          de: Steiermark
+          en: Styria
         days:
           03-19:
             _name: 03-19
-      t:
-        name: Tirol
+      '7':
+        names:
+          de: Tirol
+          en: Tyrol
         days:
           03-19:
             _name: 03-19
-      v:
+      '8':
         name: Vorarlberg
         days:
           03-19:
             _name: 03-19
-      w:
-        name: Wien
+      '9':
+        names:
+          de: Wien
+          en: Vienna
         days:
           11-15:
             name:
               de-at: Leopold
-

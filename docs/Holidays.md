@@ -82,19 +82,7 @@ check whether `date` is a holiday or not
 {String} type - type of holiday `public|bank|school|observance`
 ```
 
-### Holidays.moveToTimezone(date, timezone) 
-
-move `date` into a different `timezone`
-
-**Parameters**
-
-**date**: `Date`, date to move
-
-**timezone**: `String`, timezone from `moment-timezone`, if omitted initially set timezone is used
-
-**Returns**: `Date`, moved date
-
-### Holidays.query(country, state) 
+### Holidays.query(country, state, lang) 
 
 Query for available Countries, States, Regions
 
@@ -103,6 +91,8 @@ Query for available Countries, States, Regions
 **country**: `String`, Query for available Countries, States, Regions
 
 **state**: `String`, Query for available Countries, States, Regions
+
+**lang**: `String`, ISO-639 language shortcode
 
 **Returns**: `Object`, shortcode, name pairs of supported countries, states, regions
 
@@ -120,7 +110,7 @@ get supported countries
   US: 'United States' }
 ```
 
-### Holidays.getStates(country) 
+### Holidays.getStates(country, lang) 
 
 get supported states for a given country
 
@@ -128,13 +118,15 @@ get supported states for a given country
 
 **country**: `String`, shortcode of country
 
+**lang**: `String`, ISO-639 language shortcode
+
 **Returns**: `Object`, shortcode, name pairs of supported states, regions
 ```js
 { al: 'Alabama', ...
   wy: 'Wyoming' }
 ```
 
-### Holidays.getRegions(country, state) 
+### Holidays.getRegions(country, state, lang) 
 
 get supported regions for a given country, state
 
@@ -143,6 +135,8 @@ get supported regions for a given country, state
 **country**: `String`, shortcode of country
 
 **state**: `String`, shortcode of state
+
+**lang**: `String`, ISO-639 language shortcode
 
 **Returns**: `Object`, shortcode, name pairs of supported regions
 ```js

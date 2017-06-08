@@ -1,0 +1,160 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T20:00:00.000Z",
+    "end": "2016-01-01T20:00:00.000Z",
+    "name": "Yeni il",
+    "type": "public"
+  },
+  {
+    "date": "2016-01-02 00:00:00",
+    "start": "2016-01-01T20:00:00.000Z",
+    "end": "2016-01-02T20:00:00.000Z",
+    "name": "Yeni il",
+    "type": "public"
+  },
+  {
+    "date": "2016-01-04 00:00:00",
+    "start": "2016-01-03T20:00:00.000Z",
+    "end": "2016-01-04T20:00:00.000Z",
+    "name": "Yeni il (əvəz gün)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-01-20 00:00:00",
+    "start": "2016-01-19T20:00:00.000Z",
+    "end": "2016-01-20T20:00:00.000Z",
+    "name": "Qara Yanvar",
+    "type": "observance"
+  },
+  {
+    "date": "2016-03-08 00:00:00",
+    "start": "2016-03-07T20:00:00.000Z",
+    "end": "2016-03-08T20:00:00.000Z",
+    "name": "Qadınlar günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-03-20 00:00:00",
+    "start": "2016-03-19T20:00:00.000Z",
+    "end": "2016-03-20T20:00:00.000Z",
+    "name": "Novruz",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-09 00:00:00",
+    "start": "2016-05-08T20:00:00.000Z",
+    "end": "2016-05-09T20:00:00.000Z",
+    "name": "Faşizm üzərində qələbə günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-28 00:00:00",
+    "start": "2016-05-27T20:00:00.000Z",
+    "end": "2016-05-28T20:00:00.000Z",
+    "name": "Respublika günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-05-30 00:00:00",
+    "start": "2016-05-29T20:00:00.000Z",
+    "end": "2016-05-30T20:00:00.000Z",
+    "name": "Respublika günü (əvəz gün)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-06-15 00:00:00",
+    "start": "2016-06-14T20:00:00.000Z",
+    "end": "2016-06-15T20:00:00.000Z",
+    "name": "Azərbaycan xalqının Milli Qurtuluş günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-26 00:00:00",
+    "start": "2016-06-25T20:00:00.000Z",
+    "end": "2016-06-26T20:00:00.000Z",
+    "name": "Azərbaycan Respublikasının Silahlı Qüvvələri günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-27 00:00:00",
+    "start": "2016-06-26T20:00:00.000Z",
+    "end": "2016-06-27T20:00:00.000Z",
+    "name": "Azərbaycan Respublikasının Silahlı Qüvvələri günü (əvəz gün)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T14:00:00.000Z",
+    "end": "2016-07-06T14:00:00.000Z",
+    "name": "Ramazan Bayramı",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-07 00:00:00 -0600",
+    "start": "2016-07-06T14:00:00.000Z",
+    "end": "2016-07-07T14:00:00.000Z",
+    "name": "Ramazan Bayramı",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T14:00:00.000Z",
+    "end": "2016-09-11T14:00:00.000Z",
+    "name": "Qurban Bayramı",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-12 00:00:00 -0600",
+    "start": "2016-09-11T14:00:00.000Z",
+    "end": "2016-09-12T14:00:00.000Z",
+    "name": "Qurban Bayramı",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-13 00:00:00 -0600",
+    "start": "2016-09-12T14:00:00.000Z",
+    "end": "2016-09-13T14:00:00.000Z",
+    "name": "Qurban Bayramı (əvəz gün)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-10-18 00:00:00",
+    "start": "2016-10-17T20:00:00.000Z",
+    "end": "2016-10-18T20:00:00.000Z",
+    "name": "Dövlət Müstəqilliyi günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-09 00:00:00",
+    "start": "2016-11-08T20:00:00.000Z",
+    "end": "2016-11-09T20:00:00.000Z",
+    "name": "Dövlət Bayrağı günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-12 00:00:00",
+    "start": "2016-11-11T20:00:00.000Z",
+    "end": "2016-11-12T20:00:00.000Z",
+    "name": "Konstitusiya günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-17 00:00:00",
+    "start": "2016-11-16T20:00:00.000Z",
+    "end": "2016-11-17T20:00:00.000Z",
+    "name": "Milli Dirçəliş günü",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-31 00:00:00",
+    "start": "2016-12-30T20:00:00.000Z",
+    "end": "2016-12-31T20:00:00.000Z",
+    "name": "Dünya azərbaycanlıların həmrəyliyi günü",
+    "type": "public"
+  }
+]

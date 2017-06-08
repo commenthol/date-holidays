@@ -24,7 +24,7 @@ holidays:
           en: Liberation Day
       05-01:
         _name: 05-01
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       06-02:
@@ -46,7 +46,7 @@ holidays:
           it: Festa Nazionale 2011
           en: National Day 2011
     states:
-      suedtirol:
+      '32':
         name: Südtirol, Alto Adige
         days:
           easter 50:

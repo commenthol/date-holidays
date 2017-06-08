@@ -129,8 +129,8 @@
     "date": "2018-11-23 00:00:00",
     "start": "2018-11-23T05:00:00.000Z",
     "end": "2018-11-24T05:00:00.000Z",
-    "name": "Day after Thanksgiving Day",
-    "type": "observance"
+    "name": "Lincoln's Birthday",
+    "type": "public"
   },
   {
     "date": "2018-12-24 00:00:00",

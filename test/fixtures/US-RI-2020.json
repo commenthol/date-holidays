@@ -67,14 +67,21 @@
     "start": "2020-07-03T04:00:00.000Z",
     "end": "2020-07-04T04:00:00.000Z",
     "name": "Independence Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2020-07-04 00:00:00",
     "start": "2020-07-04T04:00:00.000Z",
     "end": "2020-07-05T04:00:00.000Z",
     "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2020-08-10 00:00:00",
+    "start": "2020-08-10T04:00:00.000Z",
+    "end": "2020-08-11T04:00:00.000Z",
+    "name": "Victory Day",
     "type": "public"
   },
   {

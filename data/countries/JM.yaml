@@ -29,7 +29,7 @@ holidays:
       08-06 and if sunday then next monday:
         _name: Independence Day
         substitute: true
-      3rd monday after 10-01:
+      3rd monday in October:
         name:
           en: National Heroes Day
       12-25 and if sunday then next tuesday:

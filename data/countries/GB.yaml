@@ -2,7 +2,7 @@ holidays:
   # @source https://www.gov.uk/bank-holidays
   GB:
     names:
-      en: Britain
+      en: United Kingdom
     dayoff: sunday
     zones:
       - Europe/London
@@ -26,7 +26,7 @@ holidays:
         _name: easter
       easter 1:
         _name: easter 1
-      1st monday after 05-01:
+      1st monday in May:
         name:
           en: Early May bank holiday
       1st monday before 06-01:
@@ -52,7 +52,7 @@ holidays:
         name:
           en: Queen’s Diamond Jubilee
     states:
-      al:
+      ALD:
         name: Alderney
         zones:
           - Europe/Guernsey
@@ -60,40 +60,13 @@ holidays:
           12-15:
             name:
               en: Homecoming Day
-      en:
+      ENG:
         name: England
         days:
           1st monday before 09-01:
             name:
               en: Summer bank holiday
-      gu:
-        name: Guernsey
-        zones:
-          - Europe/Guernsey
-        days:
-          05-09:
-            name:
-              en: Liberation Day
-      im:
-        name: Isle of Man
-        zones:
-          - Europe/Isle_of_Man
-        days:
-          2nd friday after 06-01:
-            name:
-              en: 'Tourist Trophy, Senior Race Day'
-          07-05:
-            name:
-              en: Tynwald Day
-      je:
-        name: Jersey
-        zones:
-          - Europe/Jersey
-        days:
-          05-09:
-            name:
-              en: Liberation Day
-      ni:
+      NIR:
         name: Northern Ireland
         zones:
           - Europe/Belfast
@@ -120,7 +93,7 @@ holidays:
             substitute: true
             name:
               en: Battle of the Boyne
-      sc:
+      SCT:
         name: Scottland
         days:
           substitutes 01-01 if sunday then next monday: false
@@ -144,13 +117,13 @@ holidays:
               en: Januar 2nd
           easter 1:
             _name: easter 1
-          1st monday after 08-01:
+          1st monday in August:
             name:
               en: Summer bank holiday
           11-30:
             name:
               en: St Andrew’s Day
-      wa:
+      WLS:
         name: Wales
         days:
           1st monday before 09-01:

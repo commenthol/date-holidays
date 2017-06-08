@@ -32,7 +32,7 @@ holidays:
           es: Carnaval
       easter -47:
         _name: easter -47
-      easter -6 +7d:
+      easter -6 P7D:
         name:
           en: Holy Week
           es: Semana Santa
@@ -94,19 +94,19 @@ holidays:
       12-31:
         _name: 12-31
     states:
-      an:
+      B:
         name: Anzoátegui
         days:
           11-14:
             name:
               es: Natalicio de José Antonio Anzoátegui
-      ca:
+      G:
         name: Carabobo
         days:
           11-13:
             name:
               es: Día de la Virgen del Socorro
-      la:
+      K:
         name: Lara
         days:
           01-14:
@@ -116,31 +116,31 @@ holidays:
             name:
               es: Natalicio de Jacinto Lara
         regions:
-          ba:
+          BA:
             name: Barquisimeto
             days:
               09-14:
                 name:
                   es: Día de Barquisimeto
-      mi:
+      M:
         name: Miranda
         days:
           03-19:
             _name: 03-19
-      mo:
+      N:
         name: Monagas
         days:
           12-07:
             name:
               es: Día de Maturin
-      ta:
+      S:
         name: Táchira
         days:
           08-15:
             _name: 08-15
             name:
               es: Día de la Virgen de Consolación
-      zu:
+      V:
         name: Zulia
         days:
           10-24:

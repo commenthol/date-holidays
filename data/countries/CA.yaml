@@ -79,7 +79,7 @@ holidays:
       12-26:
         _name: 12-26
     states:
-      ab:
+      AB:
         name: Alberta
         zones:
           - America/Edmonton
@@ -96,7 +96,7 @@ holidays:
               en: Heritage Day
               fr: Fête du patrimoine
             type: optional
-      bc:
+      BC:
         name: British Columbia
         zones:
           - America/Vancouver
@@ -108,7 +108,7 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
-      mb:
+      MB:
         name: Manitoba
         zones:
           - America/Winnipeg
@@ -117,7 +117,7 @@ holidays:
             name:
               en: Louis Riel Day
               fr: Journée Louis Riel
-      nb:
+      NB:
         name: New Brunswick
         zones:
           - America/Moncton
@@ -126,7 +126,7 @@ holidays:
             name:
               en: New Brunswick Day
               fr: Jour de Nouveau Brunswick
-      nl:
+      NL:
         name: Newfoundland and Labrador
         zones:
           - America/St_Johns
@@ -156,7 +156,7 @@ holidays:
             name:
               en: Armistice Day
               fr: Jour de l'Armistice
-      ns:
+      NS:
         name: Nova Scotia
         zones:
           - America/Halifax
@@ -170,7 +170,7 @@ holidays:
             name:
               en: Natal Day
               fr: Jour de la Fondation
-      nt:
+      NT:
         name: Northwest Territories
         zones:
           - America/Yellowknife
@@ -180,7 +180,7 @@ holidays:
             name:
               en: National Aboriginal Day
               fr: Journée nationale des Autochthones
-      nu:
+      NU:
         name: Nunavut
         zones:
           - America/Iqaluit
@@ -194,7 +194,7 @@ holidays:
             name:
               en: Nunavut Day
             type: bank
-      on:
+      ON:
         name: Ontario
         zones:
           - America/Toronto
@@ -210,7 +210,7 @@ holidays:
               fr: Fête de la famille
           easter 1:
             _name: easter 1
-      pe:
+      PE:
         name: Prince Edward Island
         days:
           3rd monday after 02-01:
@@ -224,7 +224,7 @@ holidays:
             name:
               en: Gold Cup Parade Day
               fr: "Défilé de la Coupe d'or"
-      qc:
+      QC:
         name: Quebec
         zones:
           - America/Blanc-Sablon
@@ -239,7 +239,7 @@ holidays:
             name:
               en: National Holiday
               fr: Fête nationale du Québec
-      sk:
+      SK:
         name: Saskatchewan
         zones:
           - America/Regina
@@ -253,7 +253,7 @@ holidays:
           3rd monday after 08-01:
             name:
               en: Saskatchewan Day
-      yt:
+      YT:
         name: Yukon
         zones:
           - America/Whitehorse
