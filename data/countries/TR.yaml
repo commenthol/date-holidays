@@ -34,8 +34,8 @@ holidays:
         name:
           en: Republic Day
           tr: Cumhuriyet Bayramı
-      1 Shawwal +90h:
+      1 Shawwal PT90H:
         _name: 1 Shawwal
-      10 Dhu al-Hijjah +114h:
+      10 Dhu al-Hijjah PT114H:
         _name: 10 Dhu al-Hijjah
 

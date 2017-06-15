@@ -25,7 +25,7 @@ holidays:
       easter -47:
         _name: easter -47
         type: observance
-      easter -6 +5d:
+      easter -6 P5D:
         name:
           en: Tourism Week
           es: Semana de Turismo

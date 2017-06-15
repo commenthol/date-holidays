@@ -24,7 +24,7 @@ holidays:
         _name: easter 60
       05-01:
         _name: 05-01
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       06-22:
@@ -50,15 +50,15 @@ holidays:
       12-26:
         _name: 12-26
     regions:
-      split:
-        name: Split
+      '17':
+        name: Split-Dalmatia
         days:
           05-07:
             name:
               hr: Sveti Duje
               en: Saint Domnius
-      dubrovnik:
-        name: Dubrovnik
+      '19':
+        name: Dubrovnik-Neretva
         days:
           02-03:
             name:

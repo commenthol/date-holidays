@@ -5,4 +5,5 @@ attic/
 tmp/
 *.log
 *.tgz
+.eslintcache
 .idea/

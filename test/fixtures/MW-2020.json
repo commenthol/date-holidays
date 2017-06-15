@@ -56,19 +56,19 @@
     "type": "public"
   },
   {
-    "date": "2020-05-23 18:00:00",
+    "date": "2020-05-24 00:00:00 -0600",
     "start": "2020-05-23T16:00:00.000Z",
     "end": "2020-05-24T16:00:00.000Z",
     "name": "Eid al Fitri",
     "type": "public"
   },
   {
-    "date": "2020-05-25 00:00:00",
-    "start": "2020-05-24T22:00:00.000Z",
-    "end": "2020-05-25T22:00:00.000Z",
+    "date": "2020-05-25 00:00:00 -0600",
+    "start": "2020-05-24T16:00:00.000Z",
+    "end": "2020-05-25T16:00:00.000Z",
     "name": "Eid al Fitri (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2020-07-06 00:00:00",

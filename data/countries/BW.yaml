@@ -41,7 +41,7 @@ holidays:
         name:
           en: Public Holiday
         note: except mining industy
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       07-01:
@@ -52,11 +52,11 @@ holidays:
         name:
           en: Public Holiday
         note: except mining industy
-      3rd monday after 07-01:
+      3rd monday in July:
         name:
           en: President’s Day
         note: except mining industy
-      tuesday after 3rd monday after 07-01:
+      tuesday after 3rd monday in July:
         name:
           en: President’s Day Holiday
         note: except mining industy

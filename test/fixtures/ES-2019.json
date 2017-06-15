@@ -18,8 +18,8 @@
     "start": "2019-01-06T23:00:00.000Z",
     "end": "2019-01-07T23:00:00.000Z",
     "name": "Día de los Reyes Magos (día sustituto)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2019-03-19 00:00:00",
@@ -118,8 +118,8 @@
     "start": "2019-12-08T23:00:00.000Z",
     "end": "2019-12-09T23:00:00.000Z",
     "name": "La inmaculada concepción (día sustituto)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2019-12-25 00:00:00",

@@ -1,22 +1,44 @@
 'use strict'
 
-function pre (num, len) {
-  var zero = '0000'
-  var str = '' + zero + num
-  str = str.substr(str.length - len, len)
-  return str
-}
+const moment = require('moment-timezone')
+const pad0 = require('../../src/internal/utils').pad0
 
-function toIso (date) {
+const toIso = exports.toIso = function toIso (date) {
   var days = 'sun,mon,tue,wed,thu,fri,sat'.split(',')
 
-  var y = pre(date.getFullYear(), 4)
-  var m = pre(date.getMonth() + 1, 2)
-  var d = pre(date.getDate(), 2)
-  var H = pre(date.getHours(), 2)
-  var M = pre(date.getMinutes(), 2)
+  var y = pad0(date.getFullYear(), 4)
+  var m = pad0(date.getMonth() + 1, 2)
+  var d = pad0(date.getDate(), 2)
+  var H = pad0(date.getHours(), 2)
+  var M = pad0(date.getMinutes(), 2)
   var t = days[date.getDay()]
 
   return t + ' ' + y + '-' + m + '-' + d + ' ' + H + ':' + M
 }
-exports.toIso = toIso
+
+exports.fixResult = function fixResult (arr) {
+  return arr.map((item) => {
+    return Object.assign({}, item, {
+      start: toIso(item.start),
+      end: toIso(item.end)
+    })
+  })
+}
+
+function toString (date) {
+  var year = pad0(date.getFullYear(), 4)
+  var month = pad0(date.getMonth() + 1)
+  var day = pad0(date.getDate())
+  var hours = pad0(date.getHours())
+  var minutes = pad0(date.getMinutes())
+  var seconds = pad0(date.getSeconds())
+
+  return year + '-' + month + '-' + day + ' ' + hours + ':' + minutes + ':' + seconds
+}
+
+exports.moveToTimezone = function (date, timezone) {
+  if (!timezone) {
+    return date
+  }
+  return new Date(moment.tz(toString(date), timezone).format())
+}

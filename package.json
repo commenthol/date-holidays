@@ -1,15 +1,16 @@
 {
   "name": "date-holidays",
-  "version": "0.2.1",
+  "version": "1.0.0-0",
   "description": "worldwide holidays",
   "keywords": [
-    "holidays"
+    "holidays",
+    "world"
   ],
   "homepage": "https://github.com/commenthol/date-holidays",
   "bugs": {
     "url": "https://github.com/commenthol/date-holidays/issues"
   },
-  "license": "ISC",
+  "license": "(ISC AND CC-BY-3.0)",
   "author": "commenthol <commenthol@gmail.com>",
   "contributors": [
     "Mauro Braggio <m.braggio@e-time.it>",
@@ -19,24 +20,32 @@
     "Lukas Eipert <git@leipert.io>"
   ],
   "main": "lib",
+  "jsnext:main": "src",
   "bin": {
     "holidays2json": "./scripts/holidays2json.js"
   },
   "directories": {
+    "doc": "docs",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/commenthol/date-holidays.git"
+    "url": "git+https://github.com/commenthol/date-holidays.git"
   },
   "scripts": {
-    "all": "npm run clean && npm i && npm run yaml && npm run lint && npm test && npm pack",
-    "clean": "rimraf coverage node_modules",
+    "all": "npm run clean && npm i && npm run lint && npm run transpile && npm run yaml && npm test && npm pack",
+    "clean": "rimraf coverage lib node_modules",
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
     "lint": "eslint --quiet '**/*.js'",
-    "test": "mocha -R dot test/*.mocha.js",
+    "test": "mocha",
+    "transpile": "babel -d lib src",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "yaml": "node scripts/holidays2json.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
   "eslintConfig": {
     "extends": "standard",
@@ -45,22 +54,37 @@
     ]
   },
   "dependencies": {
+    "astronomia": "^1.3.5",
+    "caldate": "^1.0.0",
+    "date-chinese": "^1.0.2",
     "date-easter": "^0.2.2",
-    "js-yaml": "^3.8.1",
-    "lodash": "^4.17.4",
-    "moment-timezone": "^0.5.11",
-    "moonbeams": "^2.0.1"
+    "js-yaml": "^3.8.4",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.0",
+    "lodash.omit": "^4.5.0",
+    "lodash.set": "^4.3.2",
+    "moment-timezone": "^0.5.13",
+    "prepin": "^1.0.1"
   },
   "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.23.0",
     "eslint": "^3.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-standard": "^3.0.1",
+    "hashtree": "^0.7.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.5.4",
+    "serialize-to-js": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "maintainers": "commenthol <commenthol@gmail.com>"
 }

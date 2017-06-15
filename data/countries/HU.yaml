@@ -40,7 +40,7 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
-      1st sunday after 05-01:
+      1st sunday in May:
         _name: Mothers Day
         type: observance
       05-21:

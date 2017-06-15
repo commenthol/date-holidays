@@ -74,8 +74,8 @@
     "start": "2020-05-05T15:00:00.000Z",
     "end": "2020-05-06T15:00:00.000Z",
     "name": "憲法記念日 (代替日)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2020-07-20 00:00:00",

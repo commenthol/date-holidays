@@ -26,7 +26,7 @@ holidays:
         name:
           en: Our Lady of Meritxell
           es: Nuestra Sra. De Meritxell
-          cat: Mare de Déu de Meritxell
+          ca: Mare de Déu de Meritxell
       11-01:
         _name: 11-01
       12-08:
@@ -54,10 +54,20 @@ holidays:
       easter 50:
         _name: easter 50
     regions:
-      vella:
+      # '02':
+      #   name: Canillo
+      # '03':
+      #   name: Encamp
+      # '04':
+      #   name: La Massana
+      # '05':
+      #   name: Ordino
+      # '06':
+      #   name: Sant Julià de Lòria
+      '07':
         name: Andorra la Vella
         days:
-          1st saturday after 08-01 +3days:
+          1st saturday in August P3D:
             name:
               en: Andorra La Vella Festival
               ca: Andorra La Vella Festival

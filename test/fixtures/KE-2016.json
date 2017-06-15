@@ -39,8 +39,8 @@
     "start": "2016-05-01T21:00:00.000Z",
     "end": "2016-05-02T21:00:00.000Z",
     "name": "Labour Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-06-01 00:00:00",
@@ -50,14 +50,14 @@
     "type": "public"
   },
   {
-    "date": "2016-07-05 18:00:00",
+    "date": "2016-07-06 00:00:00 -0600",
     "start": "2016-07-05T15:00:00.000Z",
     "end": "2016-07-06T15:00:00.000Z",
     "name": "Idd-ul-Fitr",
     "type": "public"
   },
   {
-    "date": "2016-09-10 18:00:00",
+    "date": "2016-09-11 00:00:00 -0600",
     "start": "2016-09-10T15:00:00.000Z",
     "end": "2016-09-11T15:00:00.000Z",
     "name": "Idd-ul-Azha",
@@ -104,7 +104,7 @@
     "start": "2016-12-26T21:00:00.000Z",
     "end": "2016-12-27T21:00:00.000Z",
     "name": "Krismasi (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   }
 ]

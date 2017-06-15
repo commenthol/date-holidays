@@ -24,10 +24,10 @@ holidays:
         _name: easter
       05-01:
         _name: 05-01
-      1st sunday after 05-01:
+      1st sunday in May:
         _name: Mothers Day
         type: observance
-      1st sunday after 06-01:
+      1st sunday in June:
         _name: Fathers Day
         type: observance
       06-24:

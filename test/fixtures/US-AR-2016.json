@@ -1,0 +1,150 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T06:00:00.000Z",
+    "end": "2016-01-02T06:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-01-18 00:00:00",
+    "start": "2016-01-18T06:00:00.000Z",
+    "end": "2016-01-19T06:00:00.000Z",
+    "name": "Dr. Martin Luther King Jr./ Robert E. Lee's Birthdays",
+    "type": "public"
+  },
+  {
+    "date": "2016-02-14 00:00:00",
+    "start": "2016-02-14T06:00:00.000Z",
+    "end": "2016-02-15T06:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-02-15 00:00:00",
+    "start": "2016-02-15T06:00:00.000Z",
+    "end": "2016-02-16T06:00:00.000Z",
+    "name": "George Washington's Birthday/ Daisy Gatson Bates Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-04-18 00:00:00",
+    "start": "2016-04-18T05:00:00.000Z",
+    "end": "2016-04-19T05:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-04-27 00:00:00",
+    "start": "2016-04-27T05:00:00.000Z",
+    "end": "2016-04-28T05:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-08 00:00:00",
+    "start": "2016-05-08T05:00:00.000Z",
+    "end": "2016-05-09T05:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-30 00:00:00",
+    "start": "2016-05-30T05:00:00.000Z",
+    "end": "2016-05-31T05:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-19 00:00:00",
+    "start": "2016-06-19T05:00:00.000Z",
+    "end": "2016-06-20T05:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-07-04 00:00:00",
+    "start": "2016-07-04T05:00:00.000Z",
+    "end": "2016-07-05T05:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-09-05 00:00:00",
+    "start": "2016-09-05T05:00:00.000Z",
+    "end": "2016-09-06T05:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-10 00:00:00",
+    "start": "2016-10-10T05:00:00.000Z",
+    "end": "2016-10-11T05:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-31 18:00:00",
+    "start": "2016-10-31T23:00:00.000Z",
+    "end": "2016-11-01T05:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-08 00:00:00",
+    "start": "2016-11-08T06:00:00.000Z",
+    "end": "2016-11-09T06:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-11 00:00:00",
+    "start": "2016-11-11T06:00:00.000Z",
+    "end": "2016-11-12T06:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-24 00:00:00",
+    "start": "2016-11-24T06:00:00.000Z",
+    "end": "2016-11-25T06:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-25 00:00:00",
+    "start": "2016-11-25T06:00:00.000Z",
+    "end": "2016-11-26T06:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-12-24 00:00:00",
+    "start": "2016-12-24T06:00:00.000Z",
+    "end": "2016-12-25T06:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T06:00:00.000Z",
+    "end": "2016-12-26T06:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-26T06:00:00.000Z",
+    "end": "2016-12-27T06:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-12-31 18:00:00",
+    "start": "2017-01-01T00:00:00.000Z",
+    "end": "2017-01-01T06:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
+  }
+]

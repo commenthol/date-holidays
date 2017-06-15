@@ -44,7 +44,7 @@ holidays:
         name:
           sv: Knut
         type: observance
-      sunday after 03-01:
+      sunday in March:
         name:
           sv: Vasaloppet
         type: observance

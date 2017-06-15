@@ -11,8 +11,8 @@
     "start": "2017-01-01T21:00:00.000Z",
     "end": "2017-01-02T21:00:00.000Z",
     "name": "Mwaka mpya (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2017-04-14 00:00:00",
@@ -50,14 +50,14 @@
     "type": "public"
   },
   {
-    "date": "2017-06-24 18:00:00",
+    "date": "2017-06-25 00:00:00 -0600",
     "start": "2017-06-24T15:00:00.000Z",
     "end": "2017-06-25T15:00:00.000Z",
     "name": "Idd-ul-Fitr",
     "type": "public"
   },
   {
-    "date": "2017-08-31 18:00:00",
+    "date": "2017-09-01 00:00:00 -0600",
     "start": "2017-08-31T15:00:00.000Z",
     "end": "2017-09-01T15:00:00.000Z",
     "name": "Idd-ul-Azha",

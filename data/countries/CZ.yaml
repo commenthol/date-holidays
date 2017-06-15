@@ -36,7 +36,7 @@ holidays:
         name:
           cz: Den vítězství or Den osvobození
           en: Liberation Day
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       07-05:

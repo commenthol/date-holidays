@@ -38,7 +38,7 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 39:

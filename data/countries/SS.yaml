@@ -19,7 +19,7 @@ holidays:
       05-16:
         name:
           en: SPLA Day
-      1st monday after 07-01:
+      1st monday in July:
         _name: Mothers Day
         type: observance
       07-09:

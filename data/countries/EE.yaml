@@ -34,7 +34,7 @@ holidays:
         _name: easter
       05-01:
         _name: 05-01
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 49:
@@ -66,7 +66,7 @@ holidays:
           et: kommunismi ja natsismi ohvrite mälestuspäev
           en: European Day of Remembrance for Victims of Stalinism and Nazism
         type: observance
-      2nd sunday after 09-01:
+      2nd sunday in September:
         name:
           et: vanavanemate päev
           en: Grandparents Day
@@ -79,7 +79,7 @@ holidays:
       11-02:
         _name: 11-02
         type: observance
-      2nd sunday after 11-01:
+      2nd sunday in November:
         _name: Fathers Day
         type: observance
       11-16:

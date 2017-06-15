@@ -46,8 +46,8 @@
     "start": "2016-05-02T05:00:00.000Z",
     "end": "2016-05-03T05:00:00.000Z",
     "name": "Fiesta del trabajo (día sustituto)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-11-03 00:00:00",
@@ -89,7 +89,7 @@
     "start": "2016-12-26T05:00:00.000Z",
     "end": "2016-12-27T05:00:00.000Z",
     "name": "Navidad (día sustituto)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   }
 ]

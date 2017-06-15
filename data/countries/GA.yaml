@@ -24,7 +24,7 @@ holidays:
         _name: easter 50
       08-15:
         _name: 08-15
-      08-16 +2d:
+      08-16 P2D:
         _name: Independence Day
       11-01:
         _name: 11-01
@@ -32,6 +32,6 @@ holidays:
         _name: 12-25
       1 Shawwal:
         _name: 1 Shawwal
-      10 Dhu al-Hijjah::
+      10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
 

@@ -1,0 +1,15 @@
+holidays:
+  JE:
+    names:
+      en: Jersey
+    zones:
+      - Europe/Jersey
+    langs:
+      - en
+    _days:
+      - GB
+    days:
+      05-09:
+        name:
+          en: Liberation Day
+

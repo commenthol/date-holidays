@@ -1,0 +1,188 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T11:00:00.000Z",
+    "end": "2016-01-02T11:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-01-18 00:00:00",
+    "start": "2016-01-18T11:00:00.000Z",
+    "end": "2016-01-19T11:00:00.000Z",
+    "name": "Martin Luther King Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-02-14 00:00:00",
+    "start": "2016-02-14T11:00:00.000Z",
+    "end": "2016-02-15T11:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-02-15 00:00:00",
+    "start": "2016-02-15T11:00:00.000Z",
+    "end": "2016-02-16T11:00:00.000Z",
+    "name": "Washington’s Birthday",
+    "type": "public"
+  },
+  {
+    "date": "2016-04-17 00:00:00",
+    "start": "2016-04-17T11:00:00.000Z",
+    "end": "2016-04-18T11:00:00.000Z",
+    "name": "American Samoa Flag Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-04-18 00:00:00",
+    "start": "2016-04-18T11:00:00.000Z",
+    "end": "2016-04-19T11:00:00.000Z",
+    "name": "American Samoa Flag Day (substitute day)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-04-27 00:00:00",
+    "start": "2016-04-27T11:00:00.000Z",
+    "end": "2016-04-28T11:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-08 00:00:00",
+    "start": "2016-05-08T11:00:00.000Z",
+    "end": "2016-05-09T11:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-05-30 00:00:00",
+    "start": "2016-05-30T11:00:00.000Z",
+    "end": "2016-05-31T11:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-06-19 00:00:00",
+    "start": "2016-06-19T11:00:00.000Z",
+    "end": "2016-06-20T11:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-07-04 00:00:00",
+    "start": "2016-07-04T11:00:00.000Z",
+    "end": "2016-07-05T11:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-07-16 00:00:00",
+    "start": "2016-07-16T11:00:00.000Z",
+    "end": "2016-07-17T11:00:00.000Z",
+    "name": "Manu'a Cession Day",
+    "type": "optional",
+    "note": "Goverment offices closed"
+  },
+  {
+    "date": "2016-09-05 00:00:00",
+    "start": "2016-09-05T11:00:00.000Z",
+    "end": "2016-09-06T11:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-09 00:00:00",
+    "start": "2016-10-09T11:00:00.000Z",
+    "end": "2016-10-10T11:00:00.000Z",
+    "name": "White Sunday",
+    "type": "observance",
+    "note": "christian"
+  },
+  {
+    "date": "2016-10-10 00:00:00",
+    "start": "2016-10-10T11:00:00.000Z",
+    "end": "2016-10-11T11:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-10-31 18:00:00",
+    "start": "2016-11-01T05:00:00.000Z",
+    "end": "2016-11-01T11:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-08 00:00:00",
+    "start": "2016-11-08T11:00:00.000Z",
+    "end": "2016-11-09T11:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-11-11 00:00:00",
+    "start": "2016-11-11T11:00:00.000Z",
+    "end": "2016-11-12T11:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-24 00:00:00",
+    "start": "2016-11-24T11:00:00.000Z",
+    "end": "2016-11-25T11:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-11-25 00:00:00",
+    "start": "2016-11-25T11:00:00.000Z",
+    "end": "2016-11-26T11:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance"
+  },
+  {
+    "date": "2016-12-24 00:00:00",
+    "start": "2016-12-24T11:00:00.000Z",
+    "end": "2016-12-25T11:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional"
+  },
+  {
+    "date": "2016-12-24 12:00:00",
+    "start": "2016-12-24T23:00:00.000Z",
+    "end": "2016-12-25T11:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "bank"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T11:00:00.000Z",
+    "end": "2016-12-26T11:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-26T11:00:00.000Z",
+    "end": "2016-12-27T11:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2016-12-31 12:00:00",
+    "start": "2016-12-31T23:00:00.000Z",
+    "end": "2017-01-01T11:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "bank"
+  },
+  {
+    "date": "2016-12-31 18:00:00",
+    "start": "2017-01-01T05:00:00.000Z",
+    "end": "2017-01-01T11:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance"
+  }
+]

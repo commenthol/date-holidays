@@ -5,18 +5,23 @@
 [![NPM version](https://badge.fury.io/js/date-holidays.svg)](https://www.npmjs.com/package/date-holidays/)
 [![Build Status](https://secure.travis-ci.org/commenthol/date-holidays.svg?branch=master)](https://travis-ci.org/commenthol/date-holidays)
 
-This module provides dates of holidays for various countries, states and regions by type while considering the applicable timezone.
+This module provides dates of holidays for various countries, states and regions
+by type while considering the applicable timezone.
 
 The features are:
 
-- calculation of public, bank and observance holidays for different countries, state, region
+- calculation of public, bank and observance holidays for different countries,
+  state, region, following ISO 3166-2
 - consideration of timezones for holiday checks
+- consideration of start and end time dependent on timezone
 - substitute days
 - multi-language support for all holiday names
 - setting of custom holidays
 - uses own grammar for calculation of days
-- support for islamic calendar from 1970 to 2080 (*islamic dates might not be correct as they are subject to the sighting of the moon)
+- support for islamic calendar from 1970 to 2080 (*islamic dates might not be
+  correct as they are subject to the sighting of the moon)
 - support for hebrew calendar from 1970 to 2100
+- support for chinese calendar
 - for generation of iCal calendar check out [date-holidays-ical][]
 
 Happy holidays!
@@ -42,174 +47,192 @@ Happy holidays!
 
 ## Supported Countries, States, Regions
 
-If you are missing holidays from your country, state, region please consider [contributing](#contribution).
+If you are missing holidays from your country, state, region please consider
+[contributing](#contribution).
 
 <!-- !tree -->
 
 ```
-Countries: 89
+Countries: 106
 ├── AD: Andorra
-│   └── vella: Andorra la Vella
+│   └── 07: Andorra la Vella
+├── AG: Antigua & Barbuda
+│   └── 10: Barbuda
+├── AI: Anguilla
 ├── AM: Հայաստան
 ├── AO: Angola
 ├── AR: Argentina
+├── AS: American Samoa
 ├── AT: Österreich
-│   ├── b: Burgenland
-│   ├── k: Kärnten
-│   ├── n: Niederösterreich
-│   ├── o: Oberösterreich
-│   ├── s: Land Salzburg
-│   ├── st: Steiermark
-│   ├── t: Tirol
-│   ├── v: Vorarlberg
-│   └── w: Wien
+│   ├── 1: Burgenland
+│   ├── 2: Kärnten
+│   ├── 3: Niederösterreich
+│   ├── 4: Oberösterreich
+│   ├── 5: Land Salzburg
+│   ├── 6: Steiermark
+│   ├── 7: Tirol
+│   ├── 8: Vorarlberg
+│   └── 9: Wien
 ├── AU: Australia
-│   ├── act: Australian Capital Territory
-│   ├── nsw: New South Wales
-│   ├── nt: Northern Territory
-│   ├── qld: Queensland
-│   ├── sa: South Australia
-│   ├── tas: Tasmania
-│   │   ├── h: Hobart
-│   │   └── nh: Non-Hobart
-│   ├── vic: Victoria
-│   │   └── m: Melbourne
-│   └── wa: Western Australia
+│   ├── ACT: Australian Capital Territory
+│   ├── NSW: New South Wales
+│   ├── NT: Northern Territory
+│   ├── QLD: Queensland
+│   ├── SA: South Australia
+│   ├── TAS: Tasmania
+│   │   ├── H: Hobart
+│   │   └── NH: Non-Hobart
+│   ├── VIC: Victoria
+│   │   └── M: Melbourne
+│   └── WA: Western Australia
+├── AW: Aruba
+├── AX: Landskapet Åland
+├── AZ: Azərbaycan Respublikası
+├── BB: Barbados
 ├── BE: Belgique
-│   ├── de: Deutschsprachige Gemeinschaft
-│   ├── fr: Communauté française
-│   │   └── br: Bruxelles
-│   └── vl: Vlaamse Gemeenschap
+│   ├── BRU: Bruxelles
+│   ├── DE: Deutschsprachige Gemeinschaft
+│   ├── VLG: Vlaamse Gemeenschap
+│   └── WAL: Communauté française
 ├── BG: България
 ├── BI: République du Burundi
+├── BL: St. Barthélemy
 ├── BO: Bolivia
+├── BQ: Caribisch Nederland
+│   ├── BO: Bonaire
+│   ├── SA: Saba
+│   └── SE: Sint Eustatius
 ├── BR: Brasil
 ├── BS: Bahamas
 ├── BW: Botswana
+├── BY: Рэспубліка Беларусь
 ├── BZ: Belize
 ├── CA: Canada
-│   ├── ab: Alberta
-│   ├── bc: British Columbia
-│   ├── mb: Manitoba
-│   ├── nb: New Brunswick
-│   ├── nl: Newfoundland and Labrador
-│   ├── ns: Nova Scotia
-│   ├── nt: Northwest Territories
-│   ├── nu: Nunavut
-│   ├── on: Ontario
-│   ├── pe: Prince Edward Island
-│   ├── qc: Quebec
-│   ├── sk: Saskatchewan
-│   └── yt: Yukon
+│   ├── AB: Alberta
+│   ├── BC: British Columbia
+│   ├── MB: Manitoba
+│   ├── NB: New Brunswick
+│   ├── NL: Newfoundland and Labrador
+│   ├── NS: Nova Scotia
+│   ├── NT: Northwest Territories
+│   ├── NU: Nunavut
+│   ├── ON: Ontario
+│   ├── PE: Prince Edward Island
+│   ├── QC: Quebec
+│   ├── SK: Saskatchewan
+│   └── YT: Yukon
 ├── CD: République démocratique du Congo
 ├── CF: République centrafricaine
 ├── CG: République du Congo
 ├── CH: Schweiz
-│   ├── zh: Kanton Zürich
-│   ├── be: Kanton Bern
-│   ├── lu: Kanton Luzern
-│   ├── ur: Kanton Uri
-│   ├── sz: Kanton Schwyz
-│   ├── ow: Kanton Obwalden
-│   ├── nw: Kanton Nidwalden
-│   ├── gl: Kanton Glarus
-│   ├── zg: Kanton Zug
-│   ├── fr: Kanton Freiburg
-│   ├── so: Kanton Solothurn
-│   ├── bs: Kanton Basel-Stadt
-│   ├── bl: Kanton Basel-Landschaft
-│   ├── sh: Kanton Schaffhausen
-│   ├── ar: Kanton Appenzell Ausserrhoden
-│   ├── ai: Kanton Appenzell Innerrhoden
-│   ├── sg: Kanton St. Gallen
-│   ├── gr: Kanton Graubünden
-│   ├── ag: Kanton Aargau
-│   ├── tg: Kanton Thurgau
-│   ├── ti: Kanton Tessin
-│   ├── vd: Kanton Waadt
-│   ├── vs: Kanton Wallis
-│   ├── ne: Kanton Neuenburg
-│   ├── ge: Kanton Genf
-│   └── ju: Kanton Jura
+│   ├── ZH: Kanton Zürich
+│   ├── BE: Kanton Bern
+│   ├── LU: Kanton Luzern
+│   ├── UR: Kanton Uri
+│   ├── SZ: Kanton Schwyz
+│   ├── OW: Kanton Obwalden
+│   ├── NW: Kanton Nidwalden
+│   ├── GL: Kanton Glarus
+│   ├── ZG: Kanton Zug
+│   ├── FR: Kanton Freiburg
+│   ├── SO: Kanton Solothurn
+│   ├── BS: Kanton Basel-Stadt
+│   ├── BL: Kanton Basel-Landschaft
+│   ├── SH: Kanton Schaffhausen
+│   ├── AR: Kanton Appenzell Ausserrhoden
+│   ├── AI: Kanton Appenzell Innerrhoden
+│   ├── SG: Kanton St. Gallen
+│   ├── GR: Kanton Graubünden
+│   ├── AG: Kanton Aargau
+│   ├── TG: Kanton Thurgau
+│   ├── TI: Kanton Tessin
+│   ├── VD: Kanton Waadt
+│   ├── VS: Kanton Wallis
+│   ├── NE: Kanton Neuenburg
+│   ├── GE: Kanton Genf
+│   └── JU: Kanton Jura
 ├── CL: Chile
-│   ├── ar: Arica
-│   ├── ch: Chillán y Chillán Viejo
-│   ├── pa: Parinacota
-│   └── ta: Tarapacá
+│   ├── AP: Arica y Parinacota
+│   ├── BI: Biobío
+│   │   └── CH: Chillán y Chillán Viejo
+│   └── TA: Tarapacá
 ├── CM: Cameroun
+├── CN: 中华人民共和国
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba
 ├── CY: Κύπρος
 ├── CZ: Česká republika
 ├── DE: Deutschland
-│   ├── bb: Brandenburg
-│   ├── bw: Baden Würtemberg
-│   ├── by: Bayern
-│   │   ├── a: Stadt Augsburg
-│   │   └── evang: Überwiegend evangelische Gemeinden
-│   ├── hb: Hansestadt Bremen
-│   ├── he: Hessen
-│   ├── hh: Hansestadt Hamburg
-│   ├── mv: Mecklenburg Vorpommern
-│   ├── ni: Niedersachsen
-│   ├── nw: Nordrhein-Westfalen
-│   ├── rp: Rheinland-Pfalz
-│   ├── sh: Schleswig-Holstein
-│   ├── sl: Saarland
-│   ├── sn: Sachsen
-│   │   └── bz: Landkreis Bautzen
-│   ├── st: Sachsen-Anhalt
-│   └── th: Thüringen
-│       ├── eic: Landkreis Eichfeld
-│       ├── uh: Unstrut-Hainich-Kreis
-│       └── wak: Wartburgkreis
+│   ├── BB: Brandenburg
+│   ├── BW: Baden Würtemberg
+│   ├── BY: Bayern
+│   │   ├── A: Stadt Augsburg
+│   │   └── EVANG: Überwiegend evangelische Gemeinden
+│   ├── HB: Hansestadt Bremen
+│   ├── HE: Hessen
+│   ├── HH: Hansestadt Hamburg
+│   ├── MV: Mecklenburg Vorpommern
+│   ├── NI: Niedersachsen
+│   ├── NW: Nordrhein-Westfalen
+│   ├── RP: Rheinland-Pfalz
+│   ├── SH: Schleswig-Holstein
+│   ├── SL: Saarland
+│   ├── SN: Sachsen
+│   │   └── BZ: Landkreis Bautzen
+│   ├── ST: Sachsen-Anhalt
+│   └── TH: Thüringen
+│       ├── EIC: Landkreis Eichfeld
+│       ├── UH: Unstrut-Hainich-Kreis
+│       └── WAK: Wartburgkreis
 ├── DK: Danmark
 ├── DO: República Dominicana
 ├── EC: Ecuador
-│   └── qu: Quito
+│   └── P: Pichincha
+│       └── QU: Quito
 ├── EE: Eesti
 ├── ES: España
-│   └── madrid: Comunidad de Madrid
+│   └── MD: Comunidad de Madrid
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
 ├── FR: France
-│   ├── basrhin: Département Bas-Rhin
-│   ├── hautrhin: Département Haut-Rhin
-│   ├── moselle: Département Moselle
-│   ├── mayotte: Département et région d'outre-mer Mayotte
-│   ├── martinique: Département et région d'outre-mer Martinique
-│   ├── guadeloupe: Département et région d'outre-mer Guadeloupe
-│   ├── guyane: Département et région d'outre-mer Guyane
-│   └── reunion: Département et région d'outre-mer La Réunion
+│   ├── 57: Département Moselle
+│   ├── 67: Département Bas-Rhin
+│   ├── 68: Département Haut-Rhin
+│   ├── YT: Département et région d'outre-mer Mayotte
+│   ├── MQ: Département et région d'outre-mer Martinique
+│   ├── GP: Département et région d'outre-mer Guadeloupe
+│   ├── GF: Département et région d'outre-mer Guyane
+│   └── RE: Département et région d'outre-mer La Réunion
 ├── GA: Gabon
-├── GB: Britain
-│   ├── al: Alderney
-│   ├── en: England
-│   ├── gu: Guernsey
-│   ├── im: Isle of Man
-│   ├── je: Jersey
-│   ├── ni: Northern Ireland
-│   ├── sc: Scottland
-│   └── wa: Wales
+├── GB: United Kingdom
+│   ├── ALD: Alderney
+│   ├── ENG: England
+│   ├── NIR: Northern Ireland
+│   ├── SCT: Scottland
+│   └── WLS: Wales
 ├── GD: Grenada
+├── GG: Guernsey
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
 ├── HN: Honduras
 ├── HR: Hrvatska
-│   ├── split: Split
-│   └── dubrovnik: Dubrovnik
+│   ├── 17: Split-Dalmatia
+│   └── 19: Dubrovnik-Neretva
 ├── HT: Haïti
 ├── HU: Magyarország
 ├── IE: Ireland
+├── IM: Isle of Man
 ├── IS: Ísland
 ├── IT: Italia
-│   └── suedtirol: Südtirol, Alto Adige
+│   └── 32: Südtirol, Alto Adige
+├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本
 ├── KE: Kenia
+├── KR: 대한민국
 ├── LI: Lichtenstein
 ├── LT: Lietuva
 ├── LU: Luxembourg
@@ -226,22 +249,22 @@ Countries: 89
 ├── NL: Nederland
 ├── NO: Norge
 ├── NZ: New Zealand
-│   ├── au: Auckland Province
-│   ├── ca: Canterbury
-│   ├── ch: Chatham Islands
-│   ├── ha: Hawke's Bay
-│   ├── ma: Marlborough
-│   ├── ne: Nelson
-│   ├── no: Northland
-│   ├── ot: Otago Province
-│   ├── sc: South Canterbury
-│   ├── so: Southland
-│   ├── ta: Taranaki
-│   ├── we: Wellington Province
-│   └── wd: Westland
+│   ├── AUK: Auckland Province
+│   ├── CAN: Canterbury
+│   │   └── S: South Canterbury
+│   ├── CIT: Chatham Islands
+│   ├── HKB: Hawke's Bay
+│   ├── MBH: Marlborough
+│   ├── NSN: Nelson
+│   ├── NTL: Northland
+│   ├── OTA: Otago Province
+│   ├── STL: Southland
+│   ├── TKI: Taranaki
+│   ├── WGN: Wellington Province
+│   └── WTC: Westland
 ├── PA: Panamá
 ├── PE: Perú
-│   └── cu: Cuzco
+│   └── CUS: Cuzco
 ├── PL: Polska
 ├── PT: Portugal
 ├── PY: Paraguay
@@ -249,76 +272,84 @@ Countries: 89
 ├── RU: Россия
 ├── RW: Repubulika y'u Rwanda
 ├── SE: Sverige
+├── SO: Jamhuuriyadda Federaalka Soomaaliya
+│   ├── AW: Awdal
+│   ├── SA: Sanaag
+│   ├── SO: Sool
+│   ├── TO: Togdheer
+│   └── WO: Woqooyi Galbeed
 ├── SS: South Sudan
 ├── SV: El Salvador
-│   └── san: San Salvador
+│   └── SS: San Salvador
 ├── TG: République togolaise
 ├── TR: Türkiye
 ├── TZ: Tanzania
 ├── UG: Uganda
 ├── US: United States of America
-│   ├── al: Alabama
-│   ├── ak: Alaska
-│   ├── az: Arizona
-│   ├── ar: Arkansas
-│   ├── ca: California
-│   ├── co: Colorado
-│   ├── ct: Connecticut
-│   ├── de: Delaware
-│   ├── dc: District of Columbia
-│   ├── fl: Florida
-│   ├── ga: Georgia
-│   ├── hi: Hawaii
-│   ├── id: Idaho
-│   ├── il: Illinois
-│   ├── in: Indiana
-│   ├── ia: Iowa
-│   ├── ks: Kansas
-│   ├── ky: Kentucky
-│   ├── la: Louisiana
-│   │   └── no: New Orleans
-│   ├── me: Maine
-│   ├── md: Maryland
-│   ├── ma: Massachusetts
-│   ├── mi: Michigan
-│   ├── mn: Minnesota
-│   ├── ms: Mississippi
-│   ├── mo: Missouri
-│   ├── mt: Montana
-│   ├── ne: Nebraska
-│   ├── nv: Nevada
-│   ├── nh: New Hampshire
-│   ├── nj: New Jersey
-│   ├── nm: New Mexico
-│   ├── ny: New York
-│   ├── nc: North Carolina
-│   ├── nd: North Dakota
-│   ├── oh: Ohio
-│   ├── ok: Oklahoma
-│   ├── or: Oregon
-│   ├── pa: Pennsylvania
-│   ├── ri: Rhode Island
-│   ├── sc: South Carolina
-│   ├── sd: South Dakota
-│   ├── tn: Tennessee
-│   ├── tx: Texas
-│   ├── ut: Utah
-│   ├── vt: Vermont
-│   ├── va: Virginia
-│   ├── wa: Washington
-│   ├── wv: West Virginia
-│   ├── wi: Wisconsin
-│   └── wy: Wyoming
+│   ├── AL: Alabama
+│   ├── AK: Alaska
+│   ├── AZ: Arizona
+│   ├── AR: Arkansas
+│   ├── CA: California
+│   │   └── LA: Los Angeles
+│   ├── CO: Colorado
+│   ├── CT: Connecticut
+│   ├── DE: Delaware
+│   ├── DC: District of Columbia
+│   ├── FL: Florida
+│   ├── GA: Georgia
+│   ├── HI: Hawaii
+│   ├── ID: Idaho
+│   ├── IL: Illinois
+│   ├── IN: Indiana
+│   ├── IA: Iowa
+│   ├── KS: Kansas
+│   ├── KY: Kentucky
+│   ├── LA: Louisiana
+│   │   └── NO: New Orleans
+│   ├── ME: Maine
+│   ├── MD: Maryland
+│   ├── MA: Massachusetts
+│   ├── MI: Michigan
+│   ├── MN: Minnesota
+│   ├── MS: Mississippi
+│   ├── MO: Missouri
+│   ├── MT: Montana
+│   ├── NE: Nebraska
+│   ├── NV: Nevada
+│   ├── NH: New Hampshire
+│   ├── NJ: New Jersey
+│   ├── NM: New Mexico
+│   ├── NY: New York
+│   ├── NC: North Carolina
+│   ├── ND: North Dakota
+│   ├── OH: Ohio
+│   ├── OK: Oklahoma
+│   ├── OR: Oregon
+│   ├── PA: Pennsylvania
+│   ├── RI: Rhode Island
+│   ├── SC: South Carolina
+│   ├── SD: South Dakota
+│   ├── TN: Tennessee
+│   ├── TX: Texas
+│   ├── UT: Utah
+│   ├── VT: Vermont
+│   ├── VA: Virginia
+│   ├── WA: Washington
+│   ├── WV: West Virginia
+│   ├── WI: Wisconsin
+│   └── WY: Wyoming
 ├── UY: Uruguay
 ├── VE: Venezuela
-│   ├── an: Anzoátegui
-│   ├── ca: Carabobo
-│   ├── la: Lara
-│   │   └── ba: Barquisimeto
-│   ├── mi: Miranda
-│   ├── mo: Monagas
-│   ├── ta: Táchira
-│   └── zu: Zulia
+│   ├── B: Anzoátegui
+│   ├── G: Carabobo
+│   ├── K: Lara
+│   │   └── BA: Barquisimeto
+│   ├── M: Miranda
+│   ├── N: Monagas
+│   ├── S: Táchira
+│   └── V: Zulia
+├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
 ├── ZA: South Africa
 ├── ZM: Zambia
 └── ZW: Zimbabwe
@@ -396,29 +427,36 @@ hd.isHoliday(new Date('2016-02-09 10:00:00 GMT-0600'))
 
 ## Holiday object
 
-`getHolidays()` as well as a matching `isHoliday()` call return either a list or a single holiday object which consists of:
+`getHolidays()` as well as a matching `isHoliday()` call return either a list or
+a single holiday object which consists of:
 
 * {String} date - ISO Date String of (start)-date in local format
 * {Date} start - start date of holiday
 * {Date} end - end date of holiday
 * {String} name - name of holiday using `language` (if available)
-* {String} type - type of holiday `public|bank|school|observance`
+* {String} type - type of holiday `public|bank|school|optional|observance`
 * {Boolean} substitute - (optional) if true holiday substitutes another holiday`
+* {String} note - (optional) note`
 
 ### Dates
 
-The `date` String represents the start date of the holiday in ISO format without timezone.
-This string it intented for information only.
+The `date` String represents the start date of the holiday in ISO format without
+timezone. This string it intended for information only.
 
-`start` and `end` are the start/end date of the holiday within the selected timezone of the country, state, region.
+`start` and `end` are the start/end date of the holiday within the selected
+timezone of the country, state, region.
 
 ### Name
 
-The `name` names the holiday in the local language of the selected country, state, region. The applied language(s) can be requested using `getLanguages()`.
+The `name` names the holiday in the local language of the selected country,
+state, region. The applied language(s) can be requested using `getLanguages()`.
 
-The language can be changed using the `setLanguages()` method. In case that not translation is available a fallback to the next given language will be made. E.g. local language is "fr", `setLanguages('nl')` was called. For all holidays where no dutch translation is available the french version will be used instead.
+The language can be changed using the `setLanguages()` method. In case that not
+translation is available a fall-back to the next given language will be made.
+E.g. local language is "fr", `setLanguages('nl')` was called. For all holidays
+where no dutch translation is available the French version will be used instead.
 
-All holiday names should support an english translation.
+All holiday names should support an English translation.
 
 ### Types of holidays
 
@@ -440,13 +478,18 @@ See [Holidays API][] for further information.
 
 ## Data
 
-All data for the holidays of the different countries is contained in [./data/holidays.yaml](./data/holidays.yaml). Any details on structure and available grammar for holiday attribution is described in [holidays.yaml specification][].
+All data for the holidays of the different countries is contained in
+[./data/holidays.yaml](./data/holidays.yaml). Any details on structure and
+available grammar for holiday attribution is described in
+[holidays.yaml specification][].
 
 <a name="contribution"></a>
 
 ## Custom builds of `holidays.json`
 
-If only selected countries are required in `data/holidays.json` you can add the following script to your npm scripts section. E.g. for picking just US, Canada, Mexico do the following:
+If only selected countries are required in `data/holidays.json` you can add the
+following script to your npm scripts section. E.g. for picking just US, Canada,
+Mexico do the following:
 
 ```js
 "scripts": {
@@ -474,15 +517,15 @@ You like to contribute please read [CONTRIBUTING.md][].
 If you contribute code to this project, you are implicitly allowing your
 code to be distributed under the ISC license. You are also implicitly
 verifying that all code is your original work or correctly attributed
-with the source of its origin and licence.
+with the source of its origin and license.
 
 ## License
 
-Copyright (c) 2016 commenthol ([ISC License](http://opensource.org/licenses/ISC))
+Copyright (c) 2016- commenthol ([ISC License](http://opensource.org/licenses/ISC))
 
-The data contained in `holidays.yaml` is available under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) as the majority of data obtained relies on wikipedia articles.
-The required attribution can be found inside the file
-[./data/holidays.yaml](./data/holidays.yaml).
+The data contained in `holidays.yaml` is available under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+as the majority of data obtained relies on wikipedia articles. The required
+attribution can be found inside the file [./data/holidays.yaml](./data/holidays.yaml).
 
 See [LICENSE][] for more information.
 

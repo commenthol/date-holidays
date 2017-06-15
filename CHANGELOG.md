@@ -1,5 +1,11 @@
 # CHANGELOG
 
+v1.0.0
+- major refactoring
+- Using ISO 8601 format for time spans
+- Renaming divisions, subdivisions to match [CLDR](http://www.unicode.org/cldr/charts/30/supplemental/territory_subdivisions.html)
+- Adding new countries: AG, AI, AS, AW, AX, AZ, BB, BL, BQ, BY, CN, GG, IM, JE, KR, SO, VN
+
 v0.2.0
 - split each country into a single yaml file
 - DE: Correction of holidays in BY, SN, TH

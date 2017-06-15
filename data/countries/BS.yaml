@@ -23,7 +23,7 @@ holidays:
         type: observance
       easter 1:
         _name: easter 1
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 49:
@@ -31,14 +31,14 @@ holidays:
         type: observance
       easter 50:
         _name: easter 50
-      1st friday after 06-01:
+      1st friday in June:
         _name: 05-01
         name:
           en: Randol Fawkes Labour Day
       07-10 and if saturday,sunday then next monday:
         substitute: true
         _name: Independence Day
-      1st monday after 08-01:
+      1st monday in August:
         name:
           en: Emancipation Day
       10-12 and if saturday,sunday then next monday:

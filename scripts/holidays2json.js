@@ -3,15 +3,20 @@
 'use strict'
 
 var fs = require('fs')
-var path = require('path')
+var resolve = require('path').resolve
 var jsyaml = require('js-yaml')
+var PrePin = require('prepin')
 var _ = require('lodash')
 
 var REGEX = /^([A-Z]+)\.yaml$/
 
 var config = {
-  dirname: path.resolve(__dirname, '..', 'data'),
-  countries: path.resolve(__dirname, '..', 'data', 'countries')
+  dirname: resolve(__dirname, '..', 'data'),
+  countries: resolve(__dirname, '..', 'data', 'countries'),
+  factories: [
+    resolve(__dirname, '..', 'src', 'CalEventFactory.js'),
+    resolve(__dirname, '..', 'lib', 'CalEventFactory.js')
+  ]
 }
 
 function Holidays2json (opts) {
@@ -41,7 +46,7 @@ Holidays2json.prototype = {
    * load a single yaml file
    */
   load: function (cc, filename) {
-    filename = filename || path.resolve(config.countries, cc + '.yaml')
+    filename = filename || resolve(config.countries, cc + '.yaml')
     var data = fs.readFileSync(filename, 'utf8')
     var obj = jsyaml.safeLoad(data)
     return obj
@@ -55,7 +60,7 @@ Holidays2json.prototype = {
     this.list.forEach(function (cc) {
       Object.assign(obj.holidays, this.load(cc).holidays)
     }.bind(this))
-    Object.assign(obj, this.load(null, path.resolve(config.dirname, 'names.yaml')))
+    Object.assign(obj, this.load(null, resolve(config.dirname, 'names.yaml')))
 
     if (this.opts.pick) {
       obj.holidays = _.pick(obj.holidays, this.opts.pick)
@@ -64,8 +69,9 @@ Holidays2json.prototype = {
     }
 
     obj.version = new Date().toISOString().replace(/^(.*)T.*$/, '$1')
-
     this.holidays = obj
+    this.prepin()
+
     return this
   },
   /**
@@ -73,7 +79,16 @@ Holidays2json.prototype = {
    */
   save: function () {
     var json = JSON.stringify(this.holidays, null, 2) + '\n'
-    fs.writeFileSync(path.resolve(config.dirname, 'holidays.json'), json, 'utf8')
+    fs.writeFileSync(resolve(config.dirname, 'holidays.json'), json, 'utf8')
+  },
+  prepin: function () {
+    // reduce final build size
+    var macros = dive(this.holidays)
+    config.factories.forEach(function (fa) {
+      new PrePin({macros: macros, input: fa, output: fa}).proc().catch(function (e) {
+        console.error(e)
+      })
+    })
   }
 }
 module.exports = Holidays2json
@@ -119,4 +134,41 @@ if (module === require.main) {
   }
 
   new Holidays2json(opts).getList().build().save()
+}
+
+/**
+* searches for `days` to obtain macros for prepin
+*/
+function dive (data, macros) {
+  macros = macros || {
+    nojulian: true,
+    nohebrew: true,
+    noislamic: true,
+    nochinese: true,
+    noequinox: true
+  }
+  switch (toString.call(data)) {
+    case '[object Object]':
+      Object.keys(data).forEach(function (key) {
+        if (key === 'days') {
+          Object.keys(data[key]).forEach(function (key) {
+            if (/\b(Muharram|Safar|Rabi al-awwal|Rabi al-thani|Jumada al-awwal|Jumada al-thani|Rajab|Shaban|Ramadan|Shawwal|Dhu al-Qidah|Dhu al-Hijjah)\b/.test(key)) {
+              delete macros.noislamic
+            } else if (/\b(julian)\b/.test(key)) {
+              delete macros.nojulian
+            } else if (/\b(chinese|vietnamese|korean)\b/.test(key)) {
+              delete macros.nochinese
+            } else if (/\b(equinox|solstice)\b/.test(key)) {
+              delete macros.noequinox
+            } else if (/\b(Nisan|Iyyar|Sivan|Tamuz|Av|Elul|Tishrei|Cheshvan|Kislev|Tevet|Shvat|Adar)\b/.test(key)) {
+              delete macros.nohebrew
+            }
+          })
+        } else {
+          dive(data[key], macros)
+        }
+      })
+      break
+  }
+  return macros
 }

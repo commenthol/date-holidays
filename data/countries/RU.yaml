@@ -32,11 +32,12 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      01-02 +5days:
+      01-02 P5D:
         name:
           ru: Новогодние каникулы
           en: New Year Holiday
-      01-07:
+      # Orthodox christmas
+      julian 12-25:
         _name: 12-25
       01-08:
         name:
@@ -68,4 +69,3 @@ holidays:
         name:
           ru: День народного единства
           en: Unity Day
-

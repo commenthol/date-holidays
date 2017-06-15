@@ -1,0 +1,58 @@
+# @source http://www.sparhallen.ax/oppettider
+holidays:
+  AX:
+    names:
+      sv: Landskapet Åland
+      en: Åland Islands
+    dayoff: sunday
+    zones:
+      - Europe/Helsinki
+    langs:
+      - sv
+    days:
+      01-01:
+        _name: 01-01
+      01-06:
+        _name: 01-06
+      03-30:
+        name:
+          sv: Ålands demilitariseringsdag
+          en: Demilitarization Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+        type: observance
+      06-09:
+        name:
+          sv: Självstyrelsedagen
+          en: Autonomy Day
+      3rd friday after 06-01 12:00:
+        name:
+          sv: Midsommarafton
+          en: Midsummer Eve
+      3rd saturday after 06-01:
+        name:
+          sv: Midsommardagen
+          en: Midsummer Day
+      12-06:
+        _name: Independence Day
+      12-24 12:00:
+        _name: 12-24
+        type: bank
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      12-31 12:00:
+        _name: 12-31
+        type: bank

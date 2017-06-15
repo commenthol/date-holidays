@@ -20,7 +20,7 @@ holidays:
         type: observance
       easter 1:
         _name: easter 1
-      04-24 +3d:
+      04-24 P3D:
         name:
           en: Carriacou Maroon and String Band Music Festival
         type: observance
@@ -33,27 +33,27 @@ holidays:
         _name: easter 50
       easter 60:
         _name: easter 60
-      1st monday after 08-01:
+      1st monday in August:
         name:
           en: Emancipation Day
-      2nd monday after 08-01:
+      2nd monday in August:
         name:
           en: Carnival Monday
-      tuesday after 2nd monday after 08-01:
+      tuesday after 2nd monday in August:
         name:
           en: Carnival Tuesday
       09-01:
         name:
           en: Kirani Day
         type: observance
-      10-15 +5d:
+      10-15 P5D:
         name:
           en: Aunty Tek Spice Word Festival
         type: observance
       10-25:
         name:
           en: Thanksgiving Day
-      12-04 +3d:
+      12-04 P3D:
         name:
           en: Camerhogne Folk Festival
         type: observance

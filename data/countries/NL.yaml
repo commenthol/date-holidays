@@ -1,5 +1,6 @@
 holidays:
   # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands
+  # @source https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
   NL:
     names:
       nl: Nederland
@@ -29,8 +30,11 @@ holidays:
       05-05:
         name:
           nl: Bevrijdingsdag
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
+        type: observance
+      3rd sunday in June:
+        _name: Fathers Day
         type: observance
       easter 39:
         _name: easter 39
@@ -39,10 +43,27 @@ holidays:
         type: observance
       easter 50:
         _name: easter 50
+      3rd tuesday in September:
+        name:
+          nl: Prinsjesdag
+        note: Scholen in Den Haag geven meestal 1 dag vrij
+        type: observance
+      10-04:
+        name:
+          nl: Dierendag
+        type: observance
+      11-11:
+        _name: 11-11
+        type: observance
       12-05:
         name:
           nl: Sinterklaasavond
           en: St Nicholas' Eve
+        type: observance
+      12-15:
+        name:
+          nl: Koninkrijksdag
+          en: Kingdom Day
         type: observance
       12-25:
         _name: 12-25
@@ -51,4 +72,3 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
-

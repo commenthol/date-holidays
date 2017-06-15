@@ -1,19 +1,22 @@
-all: lint yaml attributions writetests docs
+all: lint lib yaml attributions writetests docs
 
 yaml: data/holidays.json
 
 data/holidays.json: data/countries/*.yaml data/names.yaml
 	npm run yaml
 
-test: v0.12 v4. v6. v7.
+lib: src/*
+	npm run transpile
+
+test: v4. v6. v8.
 
 v%:
-	n $@ && mocha test/*.mocha.js
+	n $@ && mocha
 
 docs: tree README.md
 	markedpp --githubid -i docs/specification.md -o docs/specification.md
 	markedpp --githubid -i README.md -o README.md
-	jsdox -o docs lib/Holidays.js
+	jsdox -o docs src/Holidays.js
 
 lint:
 	npm run lint

@@ -45,7 +45,7 @@ holidays:
         _name: 05-01
         name:
           de: Maifeiertag
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 39:
@@ -95,7 +95,7 @@ holidays:
       '2017-10-31':
         _name: Reformation Day
     states:
-      bb:
+      BB:
         name: Brandenburg
         days:
           easter:
@@ -104,7 +104,7 @@ holidays:
             _name: easter 49
           10-31:
             _name: Reformation Day
-      bw:
+      BW:
         name: Baden Würtemberg
         days:
           01-06:
@@ -119,7 +119,7 @@ holidays:
             type: school
           11-01:
             _name: 11-01
-      by:
+      BY:
         name: Bayern
         days:
           01-06:
@@ -137,14 +137,14 @@ holidays:
             _name: Buß- und Bettag
             type: school
         regions:
-          a:
+          A:
             name: Stadt Augsburg
             days:
               08-08:
                 name:
                   de: Augsburger Friedensfest
                   en: Augsburg Peace Festival
-          evang:
+          EVANG:
             names:
               de: Überwiegend evangelische Gemeinden
               en: Predominantly protestant communities
@@ -152,13 +152,13 @@ holidays:
               08-15:
                 _name: 08-15
                 type: school
-      hb:
+      HB:
         name: Hansestadt Bremen
         days:
           '12-31 14:00 if sunday then 00:00':
             _name: 12-31
             type: public
-      he:
+      HE:
         # @source http://www.rv.hessenrecht.hessen.de/cgi-bin/lexsoft/capi/hessen.cgi/export_pdf?docid=169523,1&hideVersionDate=1&shortTitleFileName=1&showVersionInfo=1&displayConfig=0&exportLawlist=1&customFooter=Hessische%20Gesetze%20und%20Verwaltungsvorschriften%20in%20Zusammenarbeit%20mit%20Wolters%20Kluwer%20Deutschland%20GmbH&at=1&pid=UAN_nv_3470
         name: Hessen
         days:
@@ -166,32 +166,32 @@ holidays:
             _name: easter 60
           '12-31 14:00 if sunday then 00:00':
             _name: 12-31
-      hh:
+      HH:
         name: Hansestadt Hamburg
-      mv:
+      MV:
         name: Mecklenburg Vorpommern
         days:
           10-31:
             _name: Reformation Day
-      ni:
+      NI:
         name: Niedersachsen
-      nw:
+      NW:
         name: Nordrhein-Westfalen
         days:
           easter 60:
             _name: easter 60
           11-01:
             _name: 11-01
-      rp:
+      RP:
         name: Rheinland-Pfalz
         days:
           easter 60:
             _name: easter 60
           11-01:
             _name: 11-01
-      sh:
+      SH:
         name: Schleswig-Holstein
-      sl:
+      SL:
         name: Saarland
         days:
           easter 60:
@@ -200,7 +200,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      sn:
+      SN:
         name: Sachsen
         days:
           easter 60:
@@ -211,21 +211,21 @@ holidays:
           wednesday before 11-23:
             _name: Buß- und Bettag
         regions:
-          bz:
+          BZ:
             name: Landkreis Bautzen
             days:
               easter 60:
                 _name: easter 60
                 type: public
                 note: Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau.
-      st:
+      ST:
         name: Sachsen-Anhalt
         days:
           01-06:
             _name: 01-06
           10-31:
             _name: Reformation Day
-      th:
+      TH:
         name: Thüringen
         days:
           easter 60:
@@ -236,13 +236,13 @@ holidays:
           '12-31 14:00 if sunday then 00:00':
             _name: 12-31
         regions:
-          eic:
+          EIC:
             name: Landkreis Eichfeld
             days:
               easter 60:
                 _name: easter 60
                 type: public
-          uh:
+          UH:
             name: Unstrut-Hainich-Kreis
             days:
               easter 60:
@@ -250,7 +250,7 @@ holidays:
                 type: public
                 note: In Anrode (nur in den Ortsteilen Bickenriede und Zella), Dünwald (nur in den Ortsteilen Beberstedt und Hüpstedt), Rodeberg (nur im Ortsteil Struth), Südeichsfeld
 
-          wak:
+          WAK:
             name: Wartburgkreis
             days:
               easter 60:

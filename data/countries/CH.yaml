@@ -27,7 +27,7 @@ holidays:
           de: Auffahrt
       easter 50:
         _name: easter 50
-      2nd sunday after 05-01:
+      2nd sunday in May:
         _name: Mothers Day
         type: observance
       08-01:
@@ -42,15 +42,15 @@ holidays:
         name:
           de: Stephanstag
     states:
-      zh:
+      ZH:
         name: Kanton Zürich
-      be:
+      BE:
         name: Kanton Bern
         days:
           01-02:
             name:
               de: Berchtoldstag
-      lu:
+      LU:
         name: Kanton Luzern
         days:
           03-19:
@@ -61,7 +61,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      ur:
+      UR:
         name: Kanton Uri
         days:
           01-06:
@@ -74,7 +74,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      sz:
+      SZ:
         name: Kanton Schwyz
         days:
           01-06:
@@ -87,7 +87,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      ow:
+      OW:
         name: Kanton Obwalden
         days:
           easter 60:
@@ -96,7 +96,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      nw:
+      NW:
         name: Kanton Nidwalden
         days:
           03-19:
@@ -105,14 +105,14 @@ holidays:
             _name: easter 60
           11-01:
             _name: 11-01
-      gl:
+      GL:
         name: Kanton Glarus
         days:
           08-15:
             _name: 08-15
           11-01:
             _name: 11-01
-      zg:
+      ZG:
         name: Kanton Zug
         days:
           03-19:
@@ -123,7 +123,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      fr:
+      FR:
         name: Kanton Freiburg
         days:
           easter 60:
@@ -132,7 +132,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      so:
+      SO:
         name: Kanton Solothurn
         days:
           easter 60:
@@ -141,18 +141,18 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      bs:
+      BS:
         name: Kanton Basel-Stadt
-      bl:
+      BL:
         name: Kanton Basel-Landschaft
         days:
           easter 60:
             _name: easter 60
-      sh:
+      SH:
         name: Kanton Schaffhausen
-      ar:
+      AR:
         name: Kanton Appenzell Ausserrhoden
-      ai:
+      AI:
         name: Kanton Appenzell Innerrhoden
         days:
           easter 60:
@@ -161,14 +161,14 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      sg:
+      SG:
         name: Kanton St. Gallen
         days:
           08-15:
             _name: 08-15
           11-01:
             _name: 11-01
-      gr:
+      GR:
         name: Kanton Graubünden
         days:
           01-06:
@@ -181,7 +181,7 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      ag:
+      AG:
         name: Kanton Aargau
         days:
           01-02:
@@ -193,13 +193,13 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-      tg:
+      TG:
         name: Kanton Thurgau
         days:
           01-02:
             name:
               de: Berchtoldstag
-      ti:
+      TI:
         name: Kanton Tessin
         days:
           01-06:
@@ -214,14 +214,14 @@ holidays:
           11-01:
             _name: 11-01
           12-26: false
-      vd:
+      VD:
         name: Kanton Waadt
         days:
           01-02:
             name:
               de: Berchtoldstag
           12-26: false
-      vs:
+      VS:
         name: Kanton Wallis
         days:
           03-19:
@@ -236,17 +236,17 @@ holidays:
           11-01:
             _name: 11-01
           12-26: false
-      ne:
+      NE:
         name: Kanton Neuenburg
         days:
           easter 60:
             _name: easter 60
           12-26: false
-      ge:
+      GE:
         name: Kanton Genf
         days:
           12-26: false
-      ju:
+      JU:
         name: Kanton Jura
         days:
           01-02:

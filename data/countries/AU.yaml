@@ -42,7 +42,7 @@ holidays:
         substitute: true
         name:
           en: ANZAC Day
-      2nd monday after 06-01:
+      2nd monday in June:
         name:
           en: Queen's Birthday
       12-24:
@@ -62,12 +62,12 @@ holidays:
         type: observance
     states:
       # @source http://www.cmd.act.gov.au/communication/holidays
-      act:
+      ACT:
         name: Australian Capital Territory
         zones:
           - Australia/Sydney
         days:
-          2nd monday after 03-01:
+          2nd monday in March:
             name:
               en: Canberra Day
           easter:
@@ -76,52 +76,52 @@ holidays:
             name:
               en: Family & Community Day
             note: 'rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays'
-          1st monday after 10-01:
+          1st monday in October:
             name: Labour Day
       # @source http://www.industrialrelations.nsw.gov.au/oirwww/NSW_public_holidays/NSW_Public_Holidays.page?
-      nsw:
+      NSW:
         name: New South Wales
         zones:
           - Australia/Sydney
         days:
           easter:
             type: public
-          1st monday after 08-01:
+          1st monday in August:
             name:
               en: Bank Holiday
             type: bank
-          1st monday after 10-01:
+          1st monday in October:
             name:
               en: Labour Day
       # @source http://www.ocpe.nt.gov.au/working_in_the_ntps/legislation/public_holidays
-      nt:
+      NT:
         name: Northern Territory
         zones:
           - Australia/Darwin
         days:
-          1st monday after 05-01:
+          1st monday in May:
             name:
               en: May Day
-          1st monday after 08-01:
+          1st monday in August:
             name:
               en: Picnic Day
       # @source http://www.justice.qld.gov.au/fair-and-safe-work/industrial-relations/public-holidays/dates
-      qld:
+      QLD:
         name: Queensland
         zones:
           - Australia/Brisbane
           - Australia/Lindeman
         days:
-          1st monday after 05-01:
+          1st monday in May:
             name:
               en: Labour Day
       # @source http://www.safework.sa.gov.au/show_page.jsp?id=2483
-      sa:
+      SA:
         name: South Australia
         zones:
           - Australia/Adelaide
         days:
-          2nd monday after 03-01:
+          2nd monday in March:
             name:
               en: March public holiday
           12-24 19:00:
@@ -131,12 +131,12 @@ holidays:
             _name: 12-24
             type: public
       # @source http://worksafe.tas.gov.au/laws/public_holidays
-      tas:
+      TAS:
         name: Tasmania
         zones:
           - Australia/Hobart
         days:
-          2nd monday after 03-01:
+          2nd monday in March:
             name:
               en: Eight Hours Day
           easter -1:
@@ -147,25 +147,25 @@ holidays:
             type: optional
             note: Public Service employees or contract dependent
         regions:
-          h:
+          H:
             name: Hobart
             days:
-              2nd monday after 02-01:
+              2nd monday in February:
                 name:
                   en: Royal Hobart Regatta
-          nh:
+          NH:
             name: Non-Hobart
             days:
-              1st monday after 11-01:
+              1st monday in November:
                 name:
                   en: Recreation Day
       # @source http://www.business.vic.gov.au/victorian-public-holidays-and-daylight-saving/victorian-public-holidays
-      vic:
+      VIC:
         name: Victoria
         zones:
           - Australia/Melbourne
         days:
-          2nd monday after 03-01:
+          2nd monday in March:
             name:
               en: Labour Day
           easter:
@@ -177,28 +177,28 @@ holidays:
               en: Grand Final Friday
             note: Date might differ as dependent on AFL schedule
         regions:
-          m:
+          M:
             name: Melbourne
             days:
-              1st tuesday after 11-01:
+              1st tuesday in November:
                 name:
                   en: Melbourne Cup
       # @source https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia
-      wa:
+      WA:
         name: Western Australia
         zones:
           - Australia/Perth
           - Australia/Eucla
         days:
-          1st monday after 03-01:
+          1st monday in March:
             name:
               en: Labour Day
           easter -1:
             type: observance
-          1st monday after 06-01:
+          1st monday in June:
             name:
               en: Western Australia Day
-          2nd monday after 06-01: false
+          2nd monday in June: false
           monday before 10-01:
             name:
               en: Queen's Birthday

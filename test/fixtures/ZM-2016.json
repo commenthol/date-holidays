@@ -46,8 +46,8 @@
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
     "name": "Labour Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   },
   {
     "date": "2016-05-25 00:00:00",
@@ -96,7 +96,7 @@
     "start": "2016-12-25T22:00:00.000Z",
     "end": "2016-12-26T22:00:00.000Z",
     "name": "Christmas Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   }
 ]

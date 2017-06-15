@@ -81,7 +81,7 @@
     "start": "2016-12-27T05:00:00.000Z",
     "end": "2016-12-28T05:00:00.000Z",
     "name": "Christmas Day (substitute day)",
-    "substitute": true,
-    "type": "public"
+    "type": "public",
+    "substitute": true
   }
 ]

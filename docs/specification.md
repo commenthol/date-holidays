@@ -1,6 +1,6 @@
 # Specification for `holidays.yaml`
 
-Version: 0.1.0
+Version: 1.0.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
@@ -11,13 +11,16 @@ This document describes the data contained within the files `holidays.yaml` and
 
 * [structure of `names.yaml`](#structure-of-namesyaml)
 * [structure of `holidays.yaml`](#structure-of-holidaysyaml)
+* [Types of holidays](#types-of-holidays)
 * [Grammar for day rules](#grammar-for-day-rules)
   * [Fixed Date](#fixed-date)
+  * [Fixed Date at beginning of a Month](#fixed-date-at-beginning-of-a-month)
   * [Movable Date](#movable-date)
   * [Different start-time for Fixed Date other than midnight](#different-start-time-for-fixed-date-other-than-midnight)
   * [Different duration other than 24 hours](#different-duration-other-than-24-hours)
   * [Start-time of holiday changes per weekday](#start-time-of-holiday-changes-per-weekday)
   * [Changes to different weekday from a given fixed Date](#changes-to-different-weekday-from-a-given-fixed-date)
+  * [Changes to different weekday from a given Month](#changes-to-different-weekday-from-a-given-month)
   * [Change to a different weekday from a changed fixed Date](#change-to-a-different-weekday-from-a-changed-fixed-date)
   * [Change to different weekday if date falls on a certain weekday](#change-to-different-weekday-if-date-falls-on-a-certain-weekday)
   * [Substitute a holiday if date falls on a certain weekday](#substitute-a-holiday-if-date-falls-on-a-certain-weekday)
@@ -59,23 +62,23 @@ version: <versionNumber>
 
 holidays:
   <country_code_1>:     # IANA country code
-    name: {String}      # name of country in local language
+    names:              # name of country
     dayoff: {String}    # name of weekday which is a default day off (friday|saturday|sunday|...)
     days:               # see days structure
       ...
     states:             # (optional) specify special holidays per state
-      <state_code_1>:   # short code of state
-        name: {String}  # name of state in local language of country
+      <state_code_1>:   # short code of state (ISO 3166-2)
+        names:          # name of state
         days:           # see days structure
           ...
         regions:        # (optional) specify special holidays per region
-          <region_code_1>:  # short code of region
-            name: {String}  # name of region in local language
+          <region_code_1>:  # short code of region (ISO 3166-2 if applicable)
+            names:      # name of region in local language
             days:       # see days structure
               ...
     regions:            # (optional) specify special holidays per region (for small countries without states)
       <region_code_1>:  # short code of region
-        name: {String}  # name of region in local language
+        names:          # name of region
         days:           # see days structure
           ...
   <country_code_2>:     # next country ...
@@ -86,22 +89,40 @@ holidays:
 - `<state_code_?>` is a short code representing the state (any ascii based string)
 - `<region_code_?>` is a short code representing the region (any ascii based string)
 
+For country codes check:  
+<https://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
+
+For country codes / divisions / subdivisions - ISO 3166-2:  
+<http://www.unicode.org/cldr/charts/30/supplemental/territory_subdivisions.html>
+
+For timezones:  
+<https://github.com/moment/moment-timezone/blob/develop/data/meta/latest.json>
+
+For language codes ISO 639-1:  
+<http://www.unicode.org/cldr/charts/30/supplemental/language_territory_information.html>
+
 To specify the rules to calculate the holidays per country, state, region is as follows:
 
 ```yaml
 <country/state/region>:
-  langs:              # (mandatory for country) list of language codes (ISO 639-1)
-    - <lang_1>        # spoken in country, state, region
-    - <lang_2>
-  zones:              # (mandatory for country) list of timezone(s)
-    - <timezone_1>
-    - <timezone_2>
-  _days:              # (optional) reference days of other country, state, region
+  names:                   # name of country/state/region
+    <lang_1>: {String}     # name in local language
+    <lang_2>: {String}     # name in other language
+  name: {String}           # name of country/state/region in local language of country (use only if `names` not present)
+  langs:                   # (mandatory for country) list of language codes (ISO 639-1)
+    - <lang_1>             # spoken in country, state, region
+    - <lang_2>     
+  zones:                   # (mandatory for country) list of timezone(s)
+    - <timezone_1>     
+    - <timezone_2>     
+  _days:                   # (optional) reference days of other country, state, region
     - <country_code_x>
     - states
     - <state_code_x>
+    - regions
+    - <regions_code_x>
   days:
-    <rule_1>:         # see grammar
+    <rule_1>:              # see grammar
       name:
         <lang_1>: {String} # name of day in language 1
         <lang_2>: {String} # name of day in language 2
@@ -121,6 +142,20 @@ To specify the rules to calculate the holidays per country, state, region is as 
 - `<timezone_?>` is a string representing the timezone. See file `data/meta/latest.json` of [moment-timezone][]
 - `<rule_?>` is the rule for that holiday
 
+## Types of holidays
+
+Currently the following type with their meaning are supported
+
+| type        | meaning                                    |
+| ----------- | ------------------------------------------ |
+| public      | public holiday                             |
+| bank        | bank holiday, banks and offices are closed |
+| school      | school holiday, schools are closed         |
+| optional    | majority of people take a day off          |
+| observance  | optional festivity, no paid day off        |
+
+Additionally a `note` field is sometimes available for further clarification.
+
 ## Grammar for day rules
 
 ### Fixed Date
@@ -135,6 +170,14 @@ A fix day for a given year is attributed with `YYYY-MM-DD`.
 - `12-11` is December 11th
 - `'2015-10-09'` is October 9th of 2015 (Enclose such date in quotes as otherwise it will be expanded to an ISO date by js-yaml)
 
+### Fixed Date at beginning of a Month
+
+Rule: `(January|February|March|April|May|June|July|August|September|October|November|December)`
+
+**Examples**
+
+- `February` equals to `02-01`
+
 ### Movable Date
 
 #### Easter Dates
@@ -145,12 +188,12 @@ Rule: `(easter|orthodox) (+|-)?<number-of-days>`
 
 **Examples**:
 
-- `easter` is Easter sunday
+- `easter` is Easter Sunday
 - `easter -2` is 2 days before Easter Sunday (Good Friday)
 - `easter 49` is 49 days after Easter Sunday (Pentecost)
-- `orthodox` is Easter sunday using the julian Calendar
-- `orthodox -2` is 2 days before Easter Sunday (Good Friday) using the julian calendar
-- `orthodox 49` is 49 days after Easter Sunday (Pentecost) using the julian calendar
+- `orthodox` is Easter Sunday using the Julian Calendar
+- `orthodox -2` is 2 days before Easter Sunday (Good Friday) using the Julian calendar
+- `orthodox 49` is 49 days after Easter Sunday (Pentecost) using the Julian calendar
 
 #### Hijra Dates
 
@@ -179,22 +222,56 @@ Rule: `<day-of-month> (Nisan|Iyyar|Sivan|Tamuz|Av|Elul|Tishrei|Cheshvan|Kislev|T
 
 - `15 Nisan` is 15th day in month Nisan
 
+#### Dates in Chinese calendar (lunar)
+
+Dates in the chines calendar can be attributed using the following rule:
+
+Rule: `chinese <cycle>-<year>-<month>-<leapmonth>-<day>`
+
+Where:
+- `<cycle>` (optional) Chinese cycle - current is 78
+- `<year>` (optional) year in Chinese cycle (1 ... 60)
+- `<month>` (mandatory) lunar month
+- `<leapmonth>` (mandatory) `0|1` - `1` means month is leap month
+- `<day>` (mandatory) day of lunar month
+
+**Examples**:
+
+- `chinese 01-0-01` is 1st day in the 1st lunar month (aka Chinese New Year)
+- `chinese 78-32-08-0-15` is 15th day in the 8th non-leap lunar month in year 32 of 78th cycle
+
+#### Dates in Chinese calendar (solar)
+
+Rule: `chinese <cycle>-<year>-<count>-<day> solarterm`
+
+Where:
+- `<cycle>` (optional) Chinese cycle - current is 78
+- `<year>` (optional) year in Chinese cycle (1 ... 60)
+- `<count>` (mandatory) Number of solar term. (1 .. 24)
+- `<day>` (mandatory) day of lunar month
+
+**Examples**:
+
+- `chinese 5-01 solarterm` is the 1st day in the 5th solarterm (aka Qingming Festival)
+- `chinese 78-32-24-01 solarterm` is the 1st day in the 24th solarterm in year 32 of 78th cycle
+
 #### Equinox, Solstice
 
 To calculate a date from Spring, Autumn Equinox or Summer, Winter Solstice the following rule can be used:
 
-Rule: `(<number-of-days>|<count>? <weekday>) (after|before) (spring|autumn) equinox (in <timezone>)?`
+Rule: `(<number-of-days>|<count>? <weekday>) (after|before) (march|september) equinox (in <timezone>)?`
 
-Rule: `(<number-of-days> (d|days)?|<count>? <weekday>) (after|before) (summer|winter) solstice (in <timezone>)?`
+Rule: `(<number-of-days> (d|days)?|<count>? <weekday>) (after|before) (june|december) solstice (in <timezone>)?`
 
 If `in <timezone>` is missing then GMT is assumed.
 
 **Examples**:
 
-- `winter solstice` is winter solstice in timezone GMT
-- `5 days before autumn equinox` is 5 days before autumn equinox using GMT timezone
-- `spring equinox in Asia/Tokyo` is spring equinox in the timezone "Asia/Tokyo"
-- `3rd sunday after summer solstice in Asia/Tokyo` is 3rd sunday after summer solstice in the timezone "Asia/Tokyo"
+- `december solstice` is December solstice in timezone GMT
+- `5 days before september equinox` is 5 days before September equinox using GMT timezone
+- `march equinox in Asia/Tokyo` is march equinox in the timezone "Asia/Tokyo"
+- `march equinox in +09:00` is march equinox in the timezone "+09:00"
+- `3rd sunday after june solstice in Asia/Tokyo` is 3rd Sunday after June solstice in the timezone "Asia/Tokyo"
 
 ### Different start-time for Fixed Date other than midnight
 
@@ -207,13 +284,19 @@ Rule: append ` HH:MM`
 
 ### Different duration other than 24 hours
 
-A holiday might start in the afternoon of a given day ` HH:MM`
+A holiday last longer/less then the default of one day. For attribution the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Durations) format for durations is used.
 
-Rule: append ` +<number>(d|h|day|hour|days|hours)`
+Rule: append `P0DT0H0M`
+
+- where `0` gets replaced by a number
+- `D` = days
+- `H` = hours
+- `M` = minutes
+- years, months and seconds are not supported
 
 **Examples**:
-- `12-31 14:00 +5h` holiday starts at 14h on December 31st and ends at 21h
-- `easter +14h` holiday starts on midnight Easter Sonday and ends at 14h
+- `12-31 14:00 PT5H` holiday starts at 14h on December 31st and ends at 21h as duration is 5 hours
+- `easter P1DT12H` holiday starts on midnight Easter Sunday and ends at the following Tuesday at 12h
 
 ### Start-time of holiday changes per weekday
 
@@ -222,13 +305,13 @@ A holiday might start in the afternoon of a given day ` HH:MM` but on a differen
 Rule: `MM-DD HH:MM if weekday then HH:MM`
 
 **Examples**:
-- `12-31 14:00 if sunday then 00:00` holiday starts at 14h on December 31st but if December 31st falls on a sunday start date will be 00:00
+- `12-31 14:00 if sunday then 00:00` holiday starts at 14h on December 31st but if December 31st falls on a Sunday start date will be 00:00
 
 ### Changes to different weekday from a given fixed Date
 
 A holiday may change to a weekday starting from a given fixed Date.
 
-Rule: `count weekday after|before MM-DD`
+Rule: `<count> <weekday> (after|before) MM-DD`
 
 "after" means the same day and after
 
@@ -236,11 +319,29 @@ Rule: `count weekday after|before MM-DD`
 
 **Examples**:
 
-- `monday after 02-01` is the monday after February 1st or February 1st if this day is a monday
-- `monday before 02-01` is the monday before February 1st but can never be February 1st
-- `2nd sunday after 05-01` is the 2nd sunday in May
-- `4th thursday after 11-01` is the 4th thursday in November
-- `sunday before 10-01` is the last sunday in September
+- `monday after 02-01` is the Monday after February 1st or February 1st if this day is a Monday
+- `monday before 02-01` is the Monday before February 1st but can never be February 1st
+- `2nd sunday after 05-01` is the 2nd Sunday in May
+- `4th thursday after 11-01` is the 4th Thursday in November
+- `sunday before 10-01` is the last Sunday in September
+
+### Changes to different weekday from a given Month
+
+A holiday may change to a weekday starting from the first day of a month.
+
+Rule: `<count> <weekday> (before|in) <month>`
+
+"in" means the same day and after
+
+"before" means all days before but not the same day
+
+**Examples**:
+
+- `1st monday in February` is the Monday after February 1st or February 1st if this day is a Monday
+- `monday before February` is the Monday before February 1st but can never be February 1st
+- `2nd sunday in May` is the 2nd Sunday in May
+- `4th thursday in November` is the 4th Thursday in November
+- `sunday before October` is the last Sunday in September
 
 ### Change to a different weekday from a changed fixed Date
 
@@ -248,8 +349,8 @@ Rule: `<weekday> (after|before) <count> <weekday> (after|before) MM-DD`
 
 **Examples**:
 
-- `friday after 4th thursday after 11-01` is the friday after the 4th thurday in November
-- `saturday before 2nd sunday after 05-01` is the saturday before the 2nd sunday in May
+- `friday after 4th thursday after 11-01` is the Friday after the 4th Thursday in November
+- `saturday before 2nd sunday after 05-01` is the Saturday before the 2nd Sunday in May
 
 ### Change to different weekday if date falls on a certain weekday
 
@@ -257,8 +358,8 @@ Rule: `MM-DD if <weekday> then (next|previous) <weekday>`
 
 **Examples**:
 
-- `03-02 if sunday then next monday` if March 2nd is on a sunday then holiday will be on next monday
-- `04-13 if friday then previous monday` if Apri 13th is on a friday then holiday falls to previous monday
+- `03-02 if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
+- `04-13 if friday then previous monday` if April 13th is on a Friday then holiday falls to previous Monday
 
 ### Substitute a holiday if date falls on a certain weekday
 
@@ -269,8 +370,8 @@ E.g. "Christmas" becomes "Christmas (substitute day)"
 
 **Examples**:
 
-- `substitute 03-02 if sunday then next monday` if March 2nd is on a sunday then holiday will be on next monday
-- `substitute 04-13 if friday then previous monday` if Apri 13th is on a friday then holiday falls to previous monday
+- `substitute 03-02 if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
+- `substitute 04-13 if friday then previous monday` if Apri 13th is on a Friday then holiday falls to previous Monday
 
 ### Observe the holiday as well as on a substitute day, if date falls on a certain weekday
 
@@ -283,8 +384,8 @@ E.g. "Christmas" becomes "Christmas (substitute day)"
 
 **Examples**:
 
-- `03-02 and if sunday then next monday` if March 2nd is on a sunday then holiday will be on next monday
-- `04-13 and if friday then previous monday` if Apri 13th is on a friday then holiday falls to previous monday
+- `03-02 and if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
+- `04-13 and if friday then previous monday` if April 13th is on a Friday then holiday falls to previous Monday
 
 ### Enable Date only for odd/ even numbered years
 
@@ -318,7 +419,7 @@ Rule: `<date> if MM-DD (and MM-DD)? is (<type>)? holiday`
 
 On any rule it is possible to disable it for a given date. For every year an entry can be applied to the list.
 
-E.g. in case that the 4th Monday in November is the 2015-11-23 then the day will not be an holiday.
+E.g. in case that the 4th Monday in November is the 2015-11-23 then the day will not be a holiday.
 
 ```
 days:
@@ -331,13 +432,13 @@ days:
 
 ### Moving a date
 
-In order to move a date for a rule use `disable` together with `enable`
+In order to move a date for a rule use `disable` together with `enable`.
 
 E.g. in case that the 4th Monday in November is the 2015-11-23 then the day gets moved to 2015-11-27.
 
 ```
 days:
-  4th monday after 11-01:
+  4th monday in November:
     disable:
       - '2015-11-23'
     enable:
@@ -345,7 +446,6 @@ days:
     name:
       en: Day of National Sovereignty
 ```
-
 
 ## Generation of `holidays.json`
 

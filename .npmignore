@@ -16,4 +16,5 @@ Makefile
 *.log
 *.tgz
 .*
+package-lock.json
 yarn.lock

@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2020-01-01 00:00:00",
+    "start": "2020-01-01T05:00:00.000Z",
+    "end": "2020-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public"
+  },
+  {
+    "date": "2020-02-24 00:00:00",
+    "start": "2020-02-24T05:00:00.000Z",
+    "end": "2020-02-25T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2020-02-25 00:00:00",
+    "start": "2020-02-25T05:00:00.000Z",
+    "end": "2020-02-26T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public"
+  },
+  {
+    "date": "2020-04-09 00:00:00",
+    "start": "2020-04-09T05:00:00.000Z",
+    "end": "2020-04-10T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public"
+  },
+  {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-10T05:00:00.000Z",
+    "end": "2020-04-11T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public"
+  },
+  {
+    "date": "2020-04-12 00:00:00",
+    "start": "2020-04-12T05:00:00.000Z",
+    "end": "2020-04-13T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance"
+  },
+  {
+    "date": "2020-05-01 00:00:00",
+    "start": "2020-05-01T05:00:00.000Z",
+    "end": "2020-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public"
+  },
+  {
+    "date": "2020-05-24 00:00:00",
+    "start": "2020-05-24T05:00:00.000Z",
+    "end": "2020-05-25T05:00:00.000Z",
+    "name": "Batalla del Pichincha",
+    "type": "public"
+  },
+  {
+    "date": "2020-07-24 00:00:00",
+    "start": "2020-07-24T05:00:00.000Z",
+    "end": "2020-07-25T05:00:00.000Z",
+    "name": "El Natalicio de Simón Bolívar",
+    "type": "observance"
+  },
+  {
+    "date": "2020-08-10 00:00:00",
+    "start": "2020-08-10T05:00:00.000Z",
+    "end": "2020-08-11T05:00:00.000Z",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "type": "public"
+  },
+  {
+    "date": "2020-09-10 00:00:00",
+    "start": "2020-09-10T05:00:00.000Z",
+    "end": "2020-09-11T05:00:00.000Z",
+    "name": "Independencia de Guayaquil",
+    "type": "public"
+  },
+  {
+    "date": "2020-10-31 00:00:00",
+    "start": "2020-10-31T05:00:00.000Z",
+    "end": "2020-11-01T05:00:00.000Z",
+    "name": "Dia de La Bandera",
+    "type": "observance"
+  },
+  {
+    "date": "2020-11-02 00:00:00",
+    "start": "2020-11-02T05:00:00.000Z",
+    "end": "2020-11-03T05:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "public"
+  },
+  {
+    "date": "2020-11-03 00:00:00",
+    "start": "2020-11-03T05:00:00.000Z",
+    "end": "2020-11-04T05:00:00.000Z",
+    "name": "Independencia de Cuenca",
+    "type": "public"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-25T05:00:00.000Z",
+    "end": "2020-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public"
+  },
+  {
+    "date": "2020-12-31 00:00:00",
+    "start": "2020-12-31T05:00:00.000Z",
+    "end": "2021-01-01T05:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "observance"
+  }
+]

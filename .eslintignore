@@ -1,4 +1,5 @@
 gen/**/node_modules
-attic
-coverage
-tmp
+coverage/
+attic/
+lib/
+tmp/

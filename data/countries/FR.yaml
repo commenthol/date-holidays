@@ -41,35 +41,35 @@ holidays:
       12-25:
         _name: 12-25
     states:
-      basrhin:
+      '67':
         name: Département Bas-Rhin
         days:
           easter -2:
             _name: easter -2
           12-26:
             _name: 12-26
-      hautrhin:
+      '68':
         name: Département Haut-Rhin
         days:
           easter -2:
             _name: easter -2
           12-26:
             _name: 12-26
-      moselle:
+      '57':
         name: Département Moselle
         days:
           easter -2:
             _name: easter -2
           12-26:
             _name: 12-26
-      mayotte:
+      YT:
         name: "Département et région d'outre-mer Mayotte"
         zones:
           - Indian/Mayotte
         days:
           04-27:
             _name: Abolition of Slavery
-      martinique:
+      MQ:
         name: "Département et région d'outre-mer Martinique"
         zones:
           - America/Martinique
@@ -78,7 +78,7 @@ holidays:
             _name: easter -2
           05-22:
             _name: Abolition of Slavery
-      guadeloupe:
+      GP:
         name: "Département et région d'outre-mer Guadeloupe"
         zones:
           - America/Guadeloupe
@@ -87,18 +87,17 @@ holidays:
             _name: easter -2
           05-27:
             _name: Abolition of Slavery
-      guyane:
+      GF:
         name: "Département et région d'outre-mer Guyane"
         zones:
           - America/Guyana
         days:
           06-10:
             _name: Abolition of Slavery
-      reunion:
+      RE:
         name: "Département et région d'outre-mer La Réunion"
         zones:
           - Indian/Reunion
         days:
           12-20:
             _name: Abolition of Slavery
-
