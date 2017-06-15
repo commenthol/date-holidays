@@ -6150,6 +6150,120 @@
         }
       }
     },
+    "GY": {
+      "names": {
+        "en": "Guyana"
+      },
+      "coord": {
+        "lat": 6.8045,
+        "lng": -58.1553
+      },
+      "dayoff": "sunday",
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "America/Guyana"
+      ],
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "02-23": {
+          "name": {
+            "en": "Republic Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-05": {
+          "name": {
+            "en": "Arrival Day"
+          }
+        },
+        "05-26": {
+          "_name": "Independence Day"
+        },
+        "monday after 07-01": {
+          "name": {
+            "en": "CARICOM Day"
+          }
+        },
+        "08-01": {
+          "name": {
+            "en": "Emancipation Day"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal",
+          "name": {
+            "en": "Youman Nabi"
+          },
+          "note": "tentative",
+          "disable": [
+            "2016-12-11",
+            "2015-12-23",
+            "2013-01-24"
+          ],
+          "enable": [
+            "2016-12-12",
+            "2015-12-24",
+            "2013-01-23"
+          ]
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah",
+          "name": {
+            "en": "Eid Ul Adha"
+          },
+          "note": "tentative",
+          "disable": [
+            "2015-09-23"
+          ],
+          "enable": [
+            "2015-09-24"
+          ]
+        },
+        "2017-03-12": {
+          "name": {
+            "en": "Phagwah"
+          }
+        },
+        "2016-03-23": {
+          "name": {
+            "en": "Phagwah"
+          }
+        },
+        "2015-03-05": {
+          "name": {
+            "en": "Phagwah"
+          }
+        },
+        "2017-10-18": {
+          "name": {
+            "en": "Deepavali"
+          }
+        },
+        "2015-11-11": {
+          "name": {
+            "en": "Deepavali"
+          }
+        }
+      }
+    },
     "HN": {
       "names": {
         "es": "Honduras",
