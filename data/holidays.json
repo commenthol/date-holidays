@@ -1,5 +1,5 @@
 {
-  "version": "2017-06-10",
+  "version": "2017-07-01",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -12020,7 +12020,7 @@
     },
     "12-26": {
       "name": {
-        "en": "Boxingday",
+        "en": "Boxing Day",
         "de-at": "Stefanitag",
         "bg": "2-ри ден на Коледа",
         "cz": "2. svátek vánoční",

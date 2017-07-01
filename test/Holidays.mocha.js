@@ -223,7 +223,7 @@ describe('#Holidays', function () {
       'Totensonntag': 'sun 2015-11-22 00:00',
       'Christmas Eve': 'thu 2015-12-24 14:00',
       'Christmas Day': 'fri 2015-12-25 00:00',
-      Boxingday: 'sat 2015-12-26 00:00',
+      'Boxing Day': 'sat 2015-12-26 00:00',
       'New Year\'s Eve': 'thu 2015-12-31 14:00'
     }
 

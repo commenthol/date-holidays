@@ -81,14 +81,14 @@
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-25T13:00:00.000Z",
     "end": "2015-12-26T13:00:00.000Z",
-    "name": "Boxingday",
+    "name": "Boxing Day",
     "type": "public"
   },
   {
     "date": "2015-12-28 00:00:00",
     "start": "2015-12-27T13:00:00.000Z",
     "end": "2015-12-28T13:00:00.000Z",
-    "name": "Boxingday (substitute day)",
+    "name": "Boxing Day (substitute day)",
     "type": "public",
     "substitute": true
   },
