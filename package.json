@@ -38,6 +38,7 @@
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
     "lint": "eslint --quiet '**/*.js'",
     "test": "mocha",
+    "zuul": "zuul test/Holidays.mocha.js",
     "transpile": "babel -d lib src",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "yaml": "node scripts/holidays2json.js"
@@ -71,6 +72,8 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.23.0",
+    "babelify": "^7.3.0",
+    "core-js": "^2.5.0",
     "eslint": "^3.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.2.0",
@@ -81,7 +84,8 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4",
-    "serialize-to-js": "^1.0.0"
+    "serialize-to-js": "^1.0.0",
+    "zuul": "^3.11.1"
   },
   "engines": {
     "node": ">=4.0.0"

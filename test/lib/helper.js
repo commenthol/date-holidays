@@ -42,3 +42,18 @@ exports.moveToTimezone = function (date, timezone) {
   }
   return new Date(moment.tz(toString(date), timezone).format())
 }
+
+function localDate (str) {
+  var m = /^(\d+)-(\d+)-(\d+) (\d+):(\d+):?(\d+)?$/.exec(str)
+  if (m) {
+    m.shift()
+    m = m.map((str) => parseInt(str || 0, 10))
+    var d = new Date(m[0], m[1] - 1, m[2], m[3], m[4], m[5])
+    return d
+  }
+}
+
+exports.localDate = localDate
+
+// console.log(localDate('2017-09-09 01:02'))
+// console.log(localDate('2017-09-09 01:02:03'))

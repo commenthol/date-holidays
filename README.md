@@ -476,10 +476,40 @@ Additionally a `note` field is sometimes available for further clarification.
 
 See [Holidays API][] for further information.
 
+## Browser
+
+This project also runs in all modern browsers. See `./examples/browser`
+
+Browser | Version | Notes
+---     | ---     | ---
+Chrome  | >=45    |
+Firefox | >=45    |
+Safari  | >=10    |
+Edge    | >=13    |
+IE      | >=10    | needs polyfill `core-js/es6`
+
+Please do not forget to set the correct charset!
+
+```html
+<html>
+<head>
+  <!-- set page-wide -->
+  <meta charset="UTF-8">
+  ...
+</head>
+<body>
+  ...
+  <!-- or per script -->
+  <script src="your-bundle.js" charset="UTF-8"></script>
+```
+
+Testing is done with `zuul`. For local browser tests run `npm run zuul -- --local 3000` and open <http://localhost:3000/__zuul>.
+
 ## Data
 
 All data for the holidays of the different countries is contained in
-[./data/holidays.yaml](./data/holidays.yaml). Any details on structure and
+[`./data/holidays.json`](./data/holidays.json). For changing holiday data edit the appropriate country in `./data/countries`.  
+Any details on structure and
 available grammar for holiday attribution is described in
 [holidays.yaml specification][].
 
@@ -523,9 +553,9 @@ with the source of its origin and license.
 
 Copyright (c) 2016- commenthol ([ISC License](http://opensource.org/licenses/ISC))
 
-The data contained in `holidays.yaml` is available under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+The data contained in `holidays.json` and `./data/countries/*.yaml` is available under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 as the majority of data obtained relies on wikipedia articles. The required
-attribution can be found inside the file [./data/holidays.yaml](./data/holidays.yaml).
+attribution can be found inside the files `./data/countries/*.yaml`.
 
 See [LICENSE][] for more information.
 

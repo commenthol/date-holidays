@@ -1,3 +1,4 @@
+-R dot
 --check-leaks
 --colors
--R dot
+--compilers js:babel-register

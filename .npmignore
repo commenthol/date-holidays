@@ -1,5 +1,6 @@
 node_modules
 coverage/
+examples/
 output/
 attic/
 make/
@@ -15,6 +16,7 @@ test/all.mocha.js
 Makefile
 *.log
 *.tgz
+*.sh
 .*
 package-lock.json
 yarn.lock
