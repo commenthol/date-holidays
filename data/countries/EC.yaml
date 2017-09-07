@@ -73,4 +73,49 @@ holidays:
                   en: Foundation of Quito
                   es: Aniversario de la fundación de Quito
                 type: observance
-
+      # A:
+      #   name: Azuay
+      # B:
+      #   name: Bolívar
+      # C:
+      #   name: Carchi
+      # D:
+      #   name: Orellana
+      # E:
+      #   name: Esmeraldas
+      # F:
+      #   name: Cañar
+      # G:
+      #   name: Guayas
+      # H:
+      #   name: Chimborazo
+      # I:
+      #   name: Imbabura
+      # L:
+      #   name: Loja
+      # M:
+      #   name: Manabí
+      # N:
+      #   name: Napo
+      # O:
+      #   name: El Oro
+      # R:
+      #   name: Los Ríos
+      # S:
+      #   name: Morona-Santiago
+      # SD:
+      #   name: Santo Domingo de los Tsáchilas
+      # SE:
+      #   name: Santa Elena
+      # T:
+      #   name: Tungurahua
+      # U:
+      #   name: Sucumbíos
+      # W:
+      #   name: Galápagos
+      # X:
+      #   name: Cotopaxi
+      # Y:
+      #   name: Pastaza
+      # Z:
+      #   name: Zamora-Chinchipe

@@ -58,3 +58,16 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
+    # states:
+      # '01':
+      #   name: Nicosia
+      # '02':
+      #   name: Limassol
+      # '03':
+      #   name: Larnaca
+      # '04':
+      #   name: Famagusta
+      # '05':
+      #   name: Paphos
+      # '06':
+      #   name: Kyrenia

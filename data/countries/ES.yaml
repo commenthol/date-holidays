@@ -85,4 +85,39 @@ holidays:
           11-09 if sunday then next monday:
             name:
               es: Nuestra Señora de la Almudena
-
+      # AN:
+      #   name: Andalusia
+      # AR:
+      #   name: Aragon
+      # AS:
+      #   name: Asturias
+      # CB:
+      #   name: Cantabria
+      # CE:
+      #   name: Ceuta
+      # CL:
+      #   name: Castile and León
+      # CM:
+      #   name: Castile-La Mancha
+      # CN:
+      #   name: Canary Islands
+      # CT:
+      #   name: Catalonia
+      # EX:
+      #   name: Extremadura
+      # GA:
+      #   name: Galicia
+      # IB:
+      #   name: Balearic Islands
+      # MC:
+      #   name: Murcia Region
+      # ML:
+      #   name: Melilla
+      # NC:
+      #   name: Navarra Chartered Community
+      # PV:
+      #   name: Basque Country
+      # RI:
+      #   name: La Rioja
+      # VC:
+      #   name: Valencian Community

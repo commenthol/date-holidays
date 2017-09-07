@@ -61,4 +61,18 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-
+    # regions:
+      # '01':
+      #   name: Saint Andrew
+      # '02':
+      #   name: Saint David
+      # '03':
+      #   name: Saint George
+      # '04':
+      #   name: Saint John
+      # '05':
+      #   name: Saint Mark
+      # '06':
+      #   name: Saint Patrick
+      # '10':
+      #   name: Carriacou and Petite Martinique

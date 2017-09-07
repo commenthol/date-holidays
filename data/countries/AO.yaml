@@ -46,4 +46,40 @@ holidays:
         _name: Independence Day
       12-25:
         _name: 12-25
-
+    # states:
+    #   BGO:
+    #     name: Bengo
+    #   BGU:
+    #     name: Benguela
+    #   BIE:
+    #     name: Bié
+    #   CAB:
+    #     name: Cabinda
+    #   CCU:
+    #     name: Cuando Cubango
+    #   CNN:
+    #     name: Cunene
+    #   CNO:
+    #     name: Cuanza Norte
+    #   CUS:
+    #     name: Cuanza Sul
+    #   HUA:
+    #     name: Huambo
+    #   HUI:
+    #     name: Huíla
+    #   LNO:
+    #     name: Lunda Norte
+    #   LSU:
+    #     name: Lunda Sul
+    #   LUA:
+    #     name: Luanda
+    #   MAL:
+    #     name: Malanje
+    #   MOX:
+    #     name: Moxico
+    #   NAM:
+    #     name: Namibe
+    #   UIG:
+    #     name: Uíge
+    #   ZAI:
+    #     name: Zaire

@@ -110,4 +110,52 @@ holidays:
       '12-31 12:00':
         _name: 12-31
         type: optional
-
+    # states:
+      # A:
+      #   name: Salta
+      # B:
+      #   name: Buenos Aires Province
+      # C:
+      #   name: Buenos Aires
+      # D:
+      #   name: San Luis
+      # E:
+      #   name: Entre Ríos
+      # F:
+      #   name: La Rioja
+      # G:
+      #   name: Santiago del Estero
+      # H:
+      #   name: Chaco
+      # J:
+      #   name: San Juan
+      # K:
+      #   name: Catamarca
+      # L:
+      #   name: La Pampa
+      # M:
+      #   name: Mendoza
+      # N:
+      #   name: Misiones
+      # P:
+      #   name: Formosa
+      # Q:
+      #   name: Neuquén
+      # R:
+      #   name: Río Negro
+      # S:
+      #   name: Santa Fe
+      # T:
+      #   name: Tucumán
+      # U:
+      #   name: Chubut
+      # V:
+      #   name: Tierra del Fuego
+      # W:
+      #   name: Corrientes
+      # X:
+      #   name: Córdoba
+      # Y:
+      #   name: Jujuy
+      # Z:
+      #   name: Santa Cruz

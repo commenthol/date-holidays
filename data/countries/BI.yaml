@@ -52,4 +52,41 @@ holidays:
         _name: Public Holiday
         name:
           fr: Jour l'élection des Sénateurs
-
+    # states:
+      # BB:
+      #   name: Bubanza
+      # BL:
+      #   name: Bujumbura Rural
+      # BM:
+      #   name: Bujumbura
+      # BR:
+      #   name: Bururi
+      # CA:
+      #   name: Cankuzo
+      # CI:
+      #   name: Cibitoke
+      # GI:
+      #   name: Gitega
+      # KI:
+      #   name: Kirundo
+      # KR:
+      #   name: Karuzi
+      # KY:
+      #   name: Kayanza
+      # MA:
+      #   name: Makamba
+      # MU:
+      #   name: Muramvya
+      # MW:
+      #   name: Mwaro
+      # MY:
+      #   name: Muyinga
+      # NG:
+      #   name: Ngozi
+      # RM:
+      #   name: Rumonge
+      # RT:
+      #   name: Rutana
+      # RY:
+      #   name: Ruyigi
+      #

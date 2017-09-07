@@ -76,4 +76,36 @@ holidays:
       substitutes 12-26 if monday then next tuesday:
         name:
           en: Public Holiday
-
+    # states:
+      # CE:
+      #   name: Central
+      # CH:
+      #   name: Chobe
+      # FR:
+      #   name: Francistown
+      # GA:
+      #   name: Gaborone
+      # GH:
+      #   name: Ghanzi
+      # JW:
+      #   name: Jwaneng
+      # KG:
+      #   name: Kgalagadi
+      # KL:
+      #   name: Kgatleng
+      # KW:
+      #   name: Kweneng
+      # LO:
+      #   name: Lobatse
+      # NE:
+      #   name: North East
+      # NW:
+      #   name: North West
+      # SE:
+      #   name: South East
+      # SO:
+      #   name: Southern
+      # SP:
+      #   name: Selibe Phikwe
+      # ST:
+      #   name: Sowa Town
