@@ -54,7 +54,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 107
+Countries: 111
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -90,6 +90,11 @@ Countries: 107
 ├── AW: Aruba
 ├── AX: Landskapet Åland
 ├── AZ: Azərbaycan Respublikası
+├── BA: Bosna i Hercegovina
+│   ├── BIH: Federation of Bosnia and Herzegovina
+│   │   └── W: Western Herzegovina
+│   ├── BRC: Brčko District
+│   └── SRP: Republika Srpska
 ├── BB: Barbados
 ├── BE: Belgique
 │   ├── BRU: Bruxelles
@@ -123,6 +128,7 @@ Countries: 107
 │   ├── QC: Quebec
 │   ├── SK: Saskatchewan
 │   └── YT: Yukon
+├── CC: Cocos (Keeling) Islands
 ├── CD: République démocratique du Congo
 ├── CF: République centrafricaine
 ├── CG: République du Congo
@@ -198,6 +204,7 @@ Countries: 107
 │   └── MD: Comunidad de Madrid
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
+├── FO: Føroyar
 ├── FR: France
 │   ├── 57: Département Moselle
 │   ├── 67: Département Bas-Rhin
@@ -220,6 +227,7 @@ Countries: 107
 ├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
+├── GY: Guyana
 ├── HN: Honduras
 ├── HR: Hrvatska
 │   ├── 17: Split-Dalmatia
