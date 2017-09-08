@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2019-01-01T00:00:00.000Z",
+    "end": "2019-01-02T00:00:00.000Z",
+    "name": "Nýggjársdagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-18 00:00:00",
+    "start": "2019-04-17T23:00:00.000Z",
+    "end": "2019-04-18T23:00:00.000Z",
+    "name": "Skírhósdagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T23:00:00.000Z",
+    "end": "2019-04-19T23:00:00.000Z",
+    "name": "Langafríggjadagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-21 00:00:00",
+    "start": "2019-04-20T23:00:00.000Z",
+    "end": "2019-04-21T23:00:00.000Z",
+    "name": "Páskadagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-21T23:00:00.000Z",
+    "end": "2019-04-22T23:00:00.000Z",
+    "name": "Annar páskadagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-04-24 00:00:00",
+    "start": "2019-04-23T23:00:00.000Z",
+    "end": "2019-04-24T23:00:00.000Z",
+    "name": "Flaggdagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-05-17 00:00:00",
+    "start": "2019-05-16T23:00:00.000Z",
+    "end": "2019-05-17T23:00:00.000Z",
+    "name": "Dýri biðidagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-05-30 00:00:00",
+    "start": "2019-05-29T23:00:00.000Z",
+    "end": "2019-05-30T23:00:00.000Z",
+    "name": "Kristi Himmalsferðardagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-05 12:00:00",
+    "start": "2019-06-05T11:00:00.000Z",
+    "end": "2019-06-05T23:00:00.000Z",
+    "name": "Grundlógardagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-09 00:00:00",
+    "start": "2019-06-08T23:00:00.000Z",
+    "end": "2019-06-09T23:00:00.000Z",
+    "name": "Hvítusunnudagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-06-10 00:00:00",
+    "start": "2019-06-09T23:00:00.000Z",
+    "end": "2019-06-10T23:00:00.000Z",
+    "name": "Annar hvítusunnudagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-07-28 00:00:00",
+    "start": "2019-07-27T23:00:00.000Z",
+    "end": "2019-07-28T23:00:00.000Z",
+    "name": "Sankt Olavsaften",
+    "note": "half-day holiday for some workers' unions",
+    "type": "observance"
+  },
+  {
+    "date": "2019-07-29 00:00:00",
+    "start": "2019-07-28T23:00:00.000Z",
+    "end": "2019-07-29T23:00:00.000Z",
+    "name": "Ólavsøka",
+    "note": "full holiday for most workers' unions",
+    "type": "observance"
+  },
+  {
+    "date": "2019-12-24 00:00:00",
+    "start": "2019-12-24T00:00:00.000Z",
+    "end": "2019-12-25T00:00:00.000Z",
+    "name": "Jólaaftan",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-25T00:00:00.000Z",
+    "end": "2019-12-26T00:00:00.000Z",
+    "name": "Fyrsti jóladagur",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-26 00:00:00",
+    "start": "2019-12-26T00:00:00.000Z",
+    "end": "2019-12-27T00:00:00.000Z",
+    "name": "Fyrsti gerandisdagur eftir jóladag",
+    "type": "public"
+  },
+  {
+    "date": "2019-12-31 12:00:00",
+    "start": "2019-12-31T12:00:00.000Z",
+    "end": "2020-01-01T00:00:00.000Z",
+    "name": "Nýggjársaftan",
+    "type": "public"
+  }
+]
