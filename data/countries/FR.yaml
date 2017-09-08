@@ -1,5 +1,5 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_Frankreich
+  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Frankreich
   FR:
     names:
       fr: France

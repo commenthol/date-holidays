@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Mexico
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Mexico
   MX:
     names:
       es: México

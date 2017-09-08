@@ -1,5 +1,5 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_D%C3%A4nemark
+  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_D%C3%A4nemark
   DK:
     names:
       da: Danmark

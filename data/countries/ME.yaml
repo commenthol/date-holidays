@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Montenegro
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Montenegro
   ME:
     names:
       hr: Crna Gora

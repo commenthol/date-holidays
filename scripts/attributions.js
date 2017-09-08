@@ -61,13 +61,13 @@ Attributions.prototype = {
 
   extract () {
     var data = this.data.filter((d) => {
-      if (/#\s*@source.*wikipedia/.test(d)) {
+      if (/#\s*@attrib\s/.test(d)) {
         return true
       }
     })
     .map((d) => {
       return d
-        .replace(/#\s*@source/, '')
+        .replace(/#\s*@attrib/, '')
         .trim()
     })
     .sort()

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Hungary
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Hungary
   HU:
     names:
       hu: Magyarország

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Croatia
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Croatia
   HR:
     names:
       hr: Hrvatska

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_%C3%96sterreich
+  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_%C3%96sterreich
   AT:
     names:
       de-at: Österreich

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Paraguay
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Paraguay
   PY:
     names:
       es: Paraguay

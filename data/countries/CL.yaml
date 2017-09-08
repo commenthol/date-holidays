@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Chile
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Chile
   CL:
     names:
       es: Chile

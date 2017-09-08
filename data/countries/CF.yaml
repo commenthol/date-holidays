@@ -1,6 +1,6 @@
 holidays:
-  # @source https://fr.wikipedia.org/wiki/R%C3%A9publique_centrafricaine#F.C3.AAtes_et_jours_f.C3.A9ri.C3.A9s
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Central_African_Republic
+  # @attrib https://fr.wikipedia.org/wiki/R%C3%A9publique_centrafricaine#F.C3.AAtes_et_jours_f.C3.A9ri.C3.A9s
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Central_African_Republic
   CF:
     names:
       fr: République centrafricaine

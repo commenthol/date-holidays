@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_New_Zealand
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_New_Zealand
   NZ:
     names:
       en: New Zealand

@@ -1,6 +1,6 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_Belgien
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Belgium
+  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Belgien
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Belgium
   BE:
     names:
       fr: Belgique

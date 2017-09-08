@@ -1,5 +1,5 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_der_Schweiz
+  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_der_Schweiz
   CH:
     names:
       de: Schweiz

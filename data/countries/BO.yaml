@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Bolivia
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bolivia
   BO:
     names:
       es: Bolivia

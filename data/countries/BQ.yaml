@@ -1,5 +1,5 @@
 # @source http://www.bonairegov.nl/nl/onderwijs/primair/vakantierooster
-# @source https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
+# @attrib https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
 # @source https://www.infobonaire.com/annual-events/
 holidays:
   BQ:
@@ -46,7 +46,7 @@ holidays:
         type: observance
       3rd sunday in June:
         _name: Fathers Day
-        type: observance          
+        type: observance
       easter 39:
         _name: easter 39
         name:

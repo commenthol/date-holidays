@@ -1,6 +1,6 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Kanada#Feiertage
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Canada
+  # @attrib https://de.m.wikipedia.org/wiki/Kanada#Feiertage
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Canada
   # @source http://manpages.ubuntu.com/manpages/wily/man3/DateTime::TimeZone::Catalog.3pm.html
   CA:
     names:

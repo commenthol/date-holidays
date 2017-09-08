@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Togo
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Togo
   TG:
     names:
       fr: République togolaise

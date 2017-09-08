@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Costa_Rica
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Costa_Rica
   # @source http://www.tse.go.cr/pdf/normativa/codigodetrabajo.pdf  ARTICULO 148
   CR:
     names:

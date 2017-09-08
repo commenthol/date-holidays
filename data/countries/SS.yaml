@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_South_Sudan
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_South_Sudan
   SS:
     names:
       en: South Sudan

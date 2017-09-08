@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Uganda
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Uganda
   UG:
     names:
       en: Uganda

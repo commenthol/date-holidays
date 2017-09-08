@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Albania
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Albania
   AL:
     names:
       sq: Shqipëri
