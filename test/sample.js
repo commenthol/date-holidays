@@ -7,16 +7,16 @@
  */
 var Holidays = require('..')
 
+var days = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
+function weekday (i) {
+  return days[new Date(i.date).getDay()]
+}
+
 if (module === require.main) {
   var cmd = {}
   var opts = {}
-  var days = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
   var args = process.argv.slice(2)
   var arg
-
-  function weekday (i) {
-    return days[new Date(i.date).getDay()]
-  }
 
   while ((arg = args.shift())) {
     if (arg === '--short') {
