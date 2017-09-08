@@ -1,5 +1,5 @@
 {
-  "version": "2017-07-01",
+  "version": "2017-09-10",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -4353,6 +4353,19 @@
             }
           }
         },
+        "BE": {
+          "name": "Berlin",
+          "days": {
+            "easter": {
+              "_name": "easter",
+              "type": "observance"
+            },
+            "easter 49": {
+              "_name": "easter 49",
+              "type": "observance"
+            }
+          }
+        },
         "BW": {
           "name": "Baden Würtemberg",
           "days": {
@@ -4586,11 +4599,11 @@
     },
     "DK": {
       "names": {
-        "dk": "Danmark",
+        "da": "Danmark",
         "en": "Denmark"
       },
       "langs": [
-        "dk"
+        "da"
       ],
       "zones": [
         "Europe/Copenhagen"
@@ -4601,7 +4614,7 @@
         },
         "easter -48": {
           "name": {
-            "dk": "Fastelavn"
+            "da": "Fastelavn"
           },
           "type": "observance"
         },
@@ -4619,7 +4632,7 @@
         },
         "easter 26": {
           "name": {
-            "dk": "Store Bededag",
+            "da": "Store Bededag",
             "en": "Day of Atonement",
             "de": "Buß- und Bettag"
           }
@@ -11752,12 +11765,13 @@
         "bs": "Novogodisnji dan",
         "ca": "Any nou",
         "cz": "Nový rok",
+        "da": "Nytår",
         "de": "Neujahr",
-        "dk": "Nytår",
         "el": "Πρωτοχρονιά",
         "es": "Año Nuevo",
         "et": "uusaasta",
         "fi": "Uudenvuodenpäivä",
+        "fo": "Nýggjársdagur",
         "fr": "Nouvel An",
         "hr": "Nova godina",
         "hu": "Újév",
@@ -11776,6 +11790,7 @@
         "pt": "Ano Novo",
         "ro": "Anul nou",
         "ru": "Новый год",
+        "sq": "Viti i Ri",
         "sr": "Нова година",
         "sv": "Nyårsdagen",
         "sw": "Mwaka mpya",
@@ -11838,6 +11853,12 @@
         "mt": "San Ġużepp"
       }
     },
+    "04-01": {
+      "name": {
+        "en": "April Fools' Day",
+        "sq": "Dita e Gënjeshtrave"
+      }
+    },
     "05-01": {
       "name": {
         "en": "Labour Day",
@@ -11867,6 +11888,7 @@
         "pl": "Święto Pracy",
         "pt": "Dia do trabalhador",
         "ro": "Ziua muncii",
+        "sq": "Dita Ndërkombëtare e Punonjësve",
         "sr": "Празник рада",
         "sv": "Första Maj",
         "vi": "Ngày Quốc tế Lao động",
@@ -11927,6 +11949,7 @@
         "es": "Día de los Difuntos",
         "et": "hingedepäev",
         "fr": "Fête des morts",
+        "hr": "Dušni dan",
         "nl": "Allerzielen",
         "pt": "Dia de Finados"
       }
@@ -11966,6 +11989,7 @@
         "de": "Heiliger Abend",
         "es": "Nochebuena",
         "et": "jõululaupäev",
+        "fo": "Jólaaftan",
         "fi": "Jouluaatto",
         "hr": "Badnji dan",
         "is": "Aðfangadagur",
@@ -11988,12 +12012,13 @@
         "de-at": "Christtag",
         "ca": "Nadal",
         "cz": "1. svátek vánoční",
+        "da": "1. Juledag",
         "de": "Weihnachten",
-        "dk": "1. Juledag",
         "el": "Χριστούγεννα",
         "es": "Navidad",
         "et": "esimene jõulupüha",
         "fi": "Joulupäivä",
+        "fo": "Fyrsti jóladagur",
         "fr": "Noël",
         "hr": "Božić",
         "hu": "Karácsony",
@@ -12024,12 +12049,13 @@
         "de-at": "Stefanitag",
         "bg": "2-ри ден на Коледа",
         "cz": "2. svátek vánoční",
+        "da": "2. Juledag",
         "de": "2. Weihnachtstag",
-        "dk": "2. Juledag",
         "el": "Δεύτερη μέρα των Χριστουγέννων",
         "es": "San Esteban",
         "et": "teine jõulupüha",
         "fi": "2. joulupäivä",
+        "fo": "Fyrsti gerandisdagur eftir jóladag",
         "fr": "Lendemain de Noël",
         "hr": "Svetog Stjepana",
         "hu": "Karácsony másnapja",
@@ -12047,9 +12073,11 @@
     "12-31": {
       "name": {
         "en": "New Year's Eve",
+        "da": "Nytårsaften",
         "de": "Silvester",
         "es": "Fin del Año",
         "fi": "Uudenvuodenaatto",
+        "fo": "Nýggjársaftan",
         "fr": "Saint-Sylvestre",
         "hu": "Szilveszter",
         "hy": "Նոր տարվա գիշեր",
@@ -12104,9 +12132,10 @@
       "name": {
         "en": "Maundy Thursday",
         "cz": "Zelený čtvrtek",
+        "da": "Skærtorsdag",
         "de": "Gründonnerstag",
-        "dk": "Skærtorsdag",
         "es": "Jueves Santo",
+        "fo": "Skírhósdagur",
         "fr": "Jeudi saint",
         "it": "Giovedì santo",
         "is": "Skírdagur",
@@ -12121,10 +12150,11 @@
         "bg": "Разпети петък",
         "bs": "Dobar petak",
         "cz": "Velikonoční pátek",
+        "da": "Langfredag",
         "de": "Karfreitag",
-        "dk": "Langfredag",
         "es": "Viernes Santo",
         "fi": "Pitkäperjantai",
+        "fo": "Langafríggjadagur",
         "fr": "Vendredi saint",
         "el": "Μεγάλη Παρασκευή",
         "et": "suur reede",
@@ -12159,12 +12189,13 @@
         "bg": "Великден",
         "bs": "Vaskrs",
         "cz": "Neděle velikonoční",
+        "da": "Påskesøndag",
         "de": "Ostersonntag",
-        "dk": "Påskesøndag",
         "el": "Πάσχα",
         "es": "Pascua",
         "et": "lihavõtted",
         "fi": "Pääsiäispäivä",
+        "fo": "Páskadagur",
         "fr": "Pâques",
         "hr": "Uskrs",
         "hu": "Húsvétvasárnap",
@@ -12188,11 +12219,12 @@
         "en": "Easter Monday",
         "bg": "Велики понеделник",
         "cz": "Velikonoční pondělí",
+        "da": "Anden påskedag",
         "de": "Ostermontag",
-        "dk": "Anden påskedag",
         "el": "Δευτέρα του Πάσχα",
         "es": "Lunes de Pascua",
         "fi": "2. pääsiäispäivä",
+        "fo": "Annar páskadagur",
         "fr": "Lundi de Pâques",
         "hr": "Drugi dan Uskrsa",
         "hu": "Húsvéthétfő",
@@ -12211,10 +12243,11 @@
     "easter 39": {
       "name": {
         "en": "Ascension Day",
+        "da": "Kristi Himmelfartsdag",
         "de": "Christi Himmelfahrt",
-        "dk": "Kristi Himmelfartsdag",
         "es": "La Asunción",
         "fi": "Helatorstai",
+        "fo": "Kristi Himmalsferðardagur",
         "fr": "Ascension",
         "it": "Ascensione",
         "is": "Uppstigningardagur",
@@ -12228,12 +12261,13 @@
     "easter 49": {
       "name": {
         "en": "Pentecost",
+        "da": "Pinsedag",
         "de": "Pfingstsonntag",
-        "dk": "Pinsedag",
         "el": "Αγίου Πνεύματος",
         "es": "Pentecostés",
         "et": "nelipühade 1. püha",
         "fi": "Helluntaipäivä",
+        "fo": "Hvítusunnudagur",
         "fr": "Pentecôte",
         "hu": "Pünkösdvasárnap",
         "it": "Pentecoste",
@@ -12248,9 +12282,10 @@
     "easter 50": {
       "name": {
         "en": "Whit Monday",
+        "da": "2. Pinsedag",
         "de": "Pfingstmontag",
-        "dk": "2. Pinsedag",
         "es": "Lunes de Pentecostés",
+        "fo": "Annar hvítusunnudagur",
         "fr": "Lundi de Pentecôte",
         "hu": "Pünkösdhétfő",
         "it": "Lunedì di Pentecoste",
@@ -12298,7 +12333,7 @@
         "de": "Zuckerfest",
         "fr": "Fête de fin du Ramadan",
         "nl": "Suikerfeest (Eid al-Fitr)",
-        "sq": "Fitër bajrami",
+        "sq": "Fitër Bajrami",
         "tr": "Bayramı",
         "sw": "Idd-ul-Fitr"
       }
@@ -12313,7 +12348,7 @@
         "de": "Opferfest",
         "fr": "Fête du mouton",
         "nl": "Offerfeest (Eid Al-Adha)",
-        "sq": "Kurban bajrami",
+        "sq": "Kurban Bajrami",
         "tr": "Kurban Bayramı",
         "sw": "Idd-ul-Azha"
       }
@@ -12408,10 +12443,11 @@
     "Constitution Day": {
       "name": {
         "en": "Constitution Day",
+        "da": "Grundlovsdag",
         "de": "Tag der Verfassung",
-        "dk": "Grundlovsdag",
         "ca": "Dia de la Constitució",
         "es": "Día de la Constitución",
+        "fo": "Grundlógardagur",
         "hy": "Սահմանադրության օր",
         "jp": "憲法記念日",
         "ko": "제헌절",
@@ -12446,17 +12482,24 @@
         "nl": "Onafhankelijkheidsdag",
         "pl": "Narodowe Święto Niepodległości",
         "pt": "Dia da Independência",
+        "sq": "Dita e Pavarësisë",
         "sr": "Дан независности",
         "sv": "Självständighetsdagen",
         "sw": "Siku ya uhuru"
+      }
+    },
+    "Liberation Day": {
+      "name": {
+        "en": "Liberation Day",
+        "sq": "Dita e Çlirimit"
       }
     },
     "Mothers Day": {
       "name": {
         "en": "Mother's Day",
         "cz": "Den matek",
+        "da": "Mors Dag",
         "de": "Muttertag",
-        "dk": "Mors Dag",
         "el": "Γιορτή της μητέρας",
         "es": "Día de la Madre",
         "et": "emadepäev",
@@ -12474,6 +12517,7 @@
         "pt": "Dia das Mães",
         "pl": "Dzień Matki",
         "ro": "Ziua Mamei",
+        "sq": "Dita e Nënës",
         "sv": "Mors dag"
       }
     },
@@ -12520,6 +12564,7 @@
         "hr": "zamjena dan",
         "jp": "代替日",
         "lv": "aizstājējs diena",
+        "sq": "ditë zëvendësuese",
         "sr": "замена дан"
       }
     }

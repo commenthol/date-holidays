@@ -25,6 +25,7 @@ names:
       es: Año Nuevo
       et: uusaasta
       fi: Uudenvuodenpäivä
+      fo: Nýggjársdagur
       # fr: Jour de l'An
       fr: Nouvel An
       hr: Nova godina
@@ -44,6 +45,7 @@ names:
       pt: Ano Novo
       ro: Anul nou
       ru: Новый год
+      sq: Viti i Ri
       sr: Нова година
       sv: Nyårsdagen
       sw: Mwaka mpya
@@ -97,6 +99,10 @@ names:
       de: Josefstag
       es: San José
       mt: San Ġużepp
+  04-01:
+    name:
+      en: April Fools' Day
+      sq: Dita e Gënjeshtrave
   05-01:
     name:
       en: Labour Day
@@ -126,6 +132,7 @@ names:
       pl: Święto Pracy
       pt: Dia do trabalhador
       ro: Ziua muncii
+      sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
       sv: Första Maj
       vi: Ngày Quốc tế Lao động
@@ -180,6 +187,7 @@ names:
       es: Día de los Difuntos
       et: hingedepäev
       fr: Fête des morts
+      hr: Dušni dan
       nl: Allerzielen
       pt: Dia de Finados
   11-11:
@@ -211,6 +219,7 @@ names:
       de: Heiliger Abend
       es: Nochebuena
       et: jõululaupäev
+      fo: Jólaaftan
       fi: Jouluaatto
       hr: Badnji dan
       is: Aðfangadagur
@@ -237,6 +246,7 @@ names:
       es: Navidad
       et: esimene jõulupüha
       fi: Joulupäivä
+      fo: Fyrsti jóladagur
       fr: Noël
       hr: Božić
       hu: Karácsony
@@ -271,6 +281,7 @@ names:
       es: San Esteban
       et: teine jõulupüha
       fi: 2. joulupäivä
+      fo: Fyrsti gerandisdagur eftir jóladag
       fr: Lendemain de Noël
       # fr: Saint Etienne
       hr: Svetog Stjepana
@@ -292,6 +303,7 @@ names:
       es: Fin del Año
       # es: Nochevieja
       fi: Uudenvuodenaatto
+      fo: Nýggjársaftan
       fr: Saint-Sylvestre
       hu: Szilveszter
       hy: Նոր տարվա գիշեր
@@ -343,6 +355,7 @@ names:
       da: Skærtorsdag
       de: Gründonnerstag
       es: Jueves Santo
+      fo: Skírhósdagur
       fr: Jeudi saint
       it: Giovedì santo
       is: Skírdagur
@@ -359,6 +372,7 @@ names:
       de: Karfreitag
       es: Viernes Santo
       fi: Pitkäperjantai
+      fo: Langafríggjadagur
       fr: Vendredi saint
       el: Μεγάλη Παρασκευή
       et: suur reede
@@ -395,6 +409,7 @@ names:
       es: Pascua
       et: lihavõtted
       fi: Pääsiäispäivä
+      fo: Páskadagur
       fr: Pâques
       hr: Uskrs
       hu: Húsvétvasárnap
@@ -421,6 +436,7 @@ names:
       el: Δευτέρα του Πάσχα
       es: Lunes de Pascua
       fi: 2. pääsiäispäivä
+      fo: Annar páskadagur
       fr: Lundi de Pâques
       hr: Drugi dan Uskrsa
       hu: Húsvéthétfő
@@ -441,6 +457,7 @@ names:
       de: Christi Himmelfahrt
       es: La Asunción
       fi: Helatorstai
+      fo: Kristi Himmalsferðardagur
       fr: Ascension
       it: Ascensione
       is: Uppstigningardagur
@@ -458,6 +475,7 @@ names:
       es: Pentecostés
       et: nelipühade 1. püha
       fi: Helluntaipäivä
+      fo: Hvítusunnudagur
       fr: Pentecôte
       hu: Pünkösdvasárnap
       it: Pentecoste
@@ -473,6 +491,7 @@ names:
       da: 2. Pinsedag
       de: Pfingstmontag
       es: Lunes de Pentecostés
+      fo: Annar hvítusunnudagur
       fr: Lundi de Pentecôte
       hu: Pünkösdhétfő
       it: Lunedì di Pentecoste
@@ -514,7 +533,7 @@ names:
       de: Zuckerfest
       fr: Fête de fin du Ramadan
       nl: Suikerfeest (Eid al-Fitr)
-      sq: Fitër bajrami
+      sq: Fitër Bajrami
       tr: Bayramı
       sw: Idd-ul-Fitr
   10 Dhu al-Hijjah: # Feast of the Sacrifice
@@ -527,7 +546,7 @@ names:
       de: Opferfest
       fr: Fête du mouton
       nl: Offerfeest (Eid Al-Adha)
-      sq: Kurban bajrami
+      sq: Kurban Bajrami
       tr: Kurban Bayramı
       sw: Idd-ul-Azha
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
@@ -607,6 +626,7 @@ names:
       de: Tag der Verfassung
       ca: Dia de la Constitució
       es: Día de la Constitución
+      fo: Grundlógardagur
       hy: Սահմանադրության օր
       jp: 憲法記念日
       ko: 제헌절
@@ -637,9 +657,14 @@ names:
       nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
       pt: Dia da Independência
+      sq: Dita e Pavarësisë
       sr: Дан независности
       sv: Självständighetsdagen
       sw: Siku ya uhuru
+  Liberation Day:
+    name:
+      en: Liberation Day
+      sq: Dita e Çlirimit
   Mothers Day:
     name:
       en: Mother's Day
@@ -663,6 +688,7 @@ names:
       pt: Dia das Mães
       pl: Dzień Matki
       ro: Ziua Mamei
+      sq: Dita e Nënës
       sv: Mors dag
   National Holiday:
     name:
@@ -701,4 +727,5 @@ names:
       hr: zamjena dan
       jp: 代替日
       lv: aizstājējs diena
+      sq: ditë zëvendësuese
       sr: замена дан

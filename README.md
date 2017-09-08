@@ -37,6 +37,7 @@ Happy holidays!
   * [Name](#name)
   * [Types of holidays](#types-of-holidays)
 * [API](#api)
+* [Browser](#browser)
 * [Data](#data)
 * [Custom builds of `holidays.json`](#custom-builds-of-holidaysjson)
 * [Contribution and License Agreement](#contribution-and-license-agreement)
@@ -165,6 +166,7 @@ Countries: 106
 ├── CZ: Česká republika
 ├── DE: Deutschland
 │   ├── BB: Brandenburg
+│   ├── BE: Berlin
 │   ├── BW: Baden Würtemberg
 │   ├── BY: Bayern
 │   │   ├── A: Stadt Augsburg
