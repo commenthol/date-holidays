@@ -1,5 +1,5 @@
 ##
-# @copyright (c) 2016 commenthol
+# @copyright (c) 2016- commenthol
 # @license CC0-1.0
 #
 # for language codes:
@@ -19,8 +19,8 @@ names:
       bs: Novogodisnji dan
       ca: Any nou
       cz: Nový rok
+      da: Nytår
       de: Neujahr
-      dk: Nytår
       el: Πρωτοχρονιά
       es: Año Nuevo
       et: uusaasta
@@ -231,8 +231,8 @@ names:
       de-at: Christtag
       ca: Nadal
       cz: 1. svátek vánoční
+      da: 1. Juledag
       de: Weihnachten
-      dk: 1. Juledag
       el: Χριστούγεννα
       es: Navidad
       et: esimene jõulupüha
@@ -265,8 +265,8 @@ names:
       de-at: Stefanitag
       bg: 2-ри ден на Коледа
       cz: 2. svátek vánoční
+      da: 2. Juledag
       de: 2. Weihnachtstag
-      dk: 2. Juledag
       el: Δεύτερη μέρα των Χριστουγέννων
       es: San Esteban
       et: teine jõulupüha
@@ -287,6 +287,7 @@ names:
   12-31:
     name:
       en: New Year's Eve
+      da: Nytårsaften
       de: Silvester
       es: Fin del Año
       # es: Nochevieja
@@ -339,8 +340,8 @@ names:
     name:
       en: Maundy Thursday
       cz: Zelený čtvrtek
+      da: Skærtorsdag
       de: Gründonnerstag
-      dk: Skærtorsdag
       es: Jueves Santo
       fr: Jeudi saint
       it: Giovedì santo
@@ -354,8 +355,8 @@ names:
       bg: Разпети петък
       bs: Dobar petak
       cz: Velikonoční pátek
+      da: Langfredag
       de: Karfreitag
-      dk: Langfredag
       es: Viernes Santo
       fi: Pitkäperjantai
       fr: Vendredi saint
@@ -388,8 +389,8 @@ names:
       bg: Великден
       bs: Vaskrs
       cz: Neděle velikonoční
+      da: Påskesøndag
       de: Ostersonntag
-      dk: Påskesøndag
       el: Πάσχα
       es: Pascua
       et: lihavõtted
@@ -415,8 +416,8 @@ names:
       en: Easter Monday
       bg: Велики понеделник
       cz: Velikonoční pondělí
+      da: Anden påskedag
       de: Ostermontag
-      dk: Anden påskedag
       el: Δευτέρα του Πάσχα
       es: Lunes de Pascua
       fi: 2. pääsiäispäivä
@@ -436,8 +437,8 @@ names:
   easter 39:  # Ascension Day
     name:
       en: Ascension Day
+      da: Kristi Himmelfartsdag
       de: Christi Himmelfahrt
-      dk: Kristi Himmelfartsdag
       es: La Asunción
       fi: Helatorstai
       fr: Ascension
@@ -448,11 +449,11 @@ names:
       no: Kristi himmelfartsdag
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
-  easter 49:  # Pentecost
+  easter 49:  # Pentecost/ Whit Sunday
     name:
       en: Pentecost
+      da: Pinsedag
       de: Pfingstsonntag
-      dk: Pinsedag
       el: Αγίου Πνεύματος
       es: Pentecostés
       et: nelipühade 1. püha
@@ -469,8 +470,8 @@ names:
   easter 50:  # Whit Monday
     name:
       en: Whit Monday
+      da: 2. Pinsedag
       de: Pfingstmontag
-      dk: 2. Pinsedag
       es: Lunes de Pentecostés
       fr: Lundi de Pentecôte
       hu: Pünkösdhétfő
@@ -602,8 +603,8 @@ names:
   Constitution Day:
     name:
       en: Constitution Day
+      da: Grundlovsdag
       de: Tag der Verfassung
-      dk: Grundlovsdag
       ca: Dia de la Constitució
       es: Día de la Constitución
       hy: Սահմանադրության օր
@@ -643,8 +644,8 @@ names:
     name:
       en: Mother's Day
       cz: Den matek
+      da: Mors Dag
       de: Muttertag
-      dk: Mors Dag
       el: Γιορτή της μητέρας
       es: Día de la Madre
       et: emadepäev
