@@ -4,97 +4,111 @@
     "start": "2017-12-31T21:00:00.000Z",
     "end": "2018-01-01T21:00:00.000Z",
     "name": "Nouvel An",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-04-02 00:00:00",
     "start": "2018-04-01T21:00:00.000Z",
     "end": "2018-04-02T21:00:00.000Z",
     "name": "Lundi de Pâques",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-04-27 00:00:00",
     "start": "2018-04-26T21:00:00.000Z",
     "end": "2018-04-27T21:00:00.000Z",
     "name": "Abolition de l’esclavage",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-05-01 00:00:00",
     "start": "2018-04-30T21:00:00.000Z",
     "end": "2018-05-01T21:00:00.000Z",
     "name": "Fête du travail",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-05-08 00:00:00",
     "start": "2018-05-07T21:00:00.000Z",
     "end": "2018-05-08T21:00:00.000Z",
     "name": "Fête de la Victoire 1945",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-05-10 00:00:00",
     "start": "2018-05-09T21:00:00.000Z",
     "end": "2018-05-10T21:00:00.000Z",
     "name": "Ascension",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-05-20 00:00:00",
     "start": "2018-05-19T21:00:00.000Z",
     "end": "2018-05-20T21:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-05-21 00:00:00",
     "start": "2018-05-20T21:00:00.000Z",
     "end": "2018-05-21T21:00:00.000Z",
     "name": "Lundi de Pentecôte",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-05-27 00:00:00",
     "start": "2018-05-26T21:00:00.000Z",
     "end": "2018-05-27T21:00:00.000Z",
     "name": "Fête des Mères",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-07-14 00:00:00",
     "start": "2018-07-13T21:00:00.000Z",
     "end": "2018-07-14T21:00:00.000Z",
     "name": "Fête Nationale de la France",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-08-15 00:00:00",
     "start": "2018-08-14T21:00:00.000Z",
     "end": "2018-08-15T21:00:00.000Z",
     "name": "Assomption",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-11-01 00:00:00",
     "start": "2018-10-31T21:00:00.000Z",
     "end": "2018-11-01T21:00:00.000Z",
     "name": "Toussaint",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-11-11 00:00:00",
     "start": "2018-11-10T21:00:00.000Z",
     "end": "2018-11-11T21:00:00.000Z",
     "name": "Armistice 1918",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T21:00:00.000Z",
     "end": "2018-12-25T21:00:00.000Z",
     "name": "Noël",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]

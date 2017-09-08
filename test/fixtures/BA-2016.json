@@ -4,21 +4,24 @@
     "start": "2015-12-31T23:00:00.000Z",
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Novogodisnji dan",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-01-02 00:00:00",
     "start": "2016-01-01T23:00:00.000Z",
     "end": "2016-01-02T23:00:00.000Z",
     "name": "Drugi dan Nove Godine",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-01-06 00:00:00",
     "start": "2016-01-05T23:00:00.000Z",
     "end": "2016-01-06T23:00:00.000Z",
     "name": "Bogojavljenje, Sveta tri kralja",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-01-14 00:00:00",
@@ -26,7 +29,8 @@
     "end": "2016-01-14T23:00:00.000Z",
     "name": "Novogodisnji dan",
     "note": "orthodox",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-01-20 00:00:00",
@@ -34,28 +38,32 @@
     "end": "2016-01-20T23:00:00.000Z",
     "name": "Božić",
     "note": "orthodox",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-03-27 00:00:00",
     "start": "2016-03-26T23:00:00.000Z",
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Vaskrs",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Drugi dan Uskrsa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T22:00:00.000Z",
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Radni dan",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-01 00:00:00",
@@ -63,14 +71,16 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Vaskrs",
     "note": "orthodox",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-02 00:00:00",
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
     "name": "Drugi dan Dana rada",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-03 00:00:00",
@@ -78,28 +88,32 @@
     "end": "2016-05-03T22:00:00.000Z",
     "name": "Radni dan (zamjena dan)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Tue"
   },
   {
     "date": "2016-05-26 00:00:00",
     "start": "2016-05-25T22:00:00.000Z",
     "end": "2016-05-26T22:00:00.000Z",
     "name": "Tijelovo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-07-06 00:00:00 -0600",
     "start": "2016-07-05T16:00:00.000Z",
     "end": "2016-07-08T16:00:00.000Z",
     "name": "Ramazanski bajram",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-08-15 00:00:00",
     "start": "2016-08-14T22:00:00.000Z",
     "end": "2016-08-15T22:00:00.000Z",
     "name": "Velika Gospa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-08-28 00:00:00",
@@ -107,55 +121,63 @@
     "end": "2016-08-28T22:00:00.000Z",
     "name": "Velika Gospa",
     "note": "orthodox",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-09-11 00:00:00 -0600",
     "start": "2016-09-10T16:00:00.000Z",
     "end": "2016-09-14T16:00:00.000Z",
     "name": "Kurbanski bajram",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-10-02 00:00:00 -0600",
     "start": "2016-10-01T16:00:00.000Z",
     "end": "2016-10-02T16:00:00.000Z",
     "name": "Nova hidžretska godina",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-11-01 00:00:00",
     "start": "2016-10-31T23:00:00.000Z",
     "end": "2016-11-01T23:00:00.000Z",
     "name": "Dita e të gjithë Shenjtorëve",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-11-02 00:00:00",
     "start": "2016-11-01T23:00:00.000Z",
     "end": "2016-11-02T23:00:00.000Z",
     "name": "Dušni dan",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-12-11 00:00:00 -0600",
     "start": "2016-12-10T17:00:00.000Z",
     "end": "2016-12-11T17:00:00.000Z",
     "name": "Mevlud",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T23:00:00.000Z",
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Božić",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T23:00:00.000Z",
     "end": "2016-12-26T23:00:00.000Z",
     "name": "Svetog Stjepana",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

@@ -4,209 +4,239 @@
     "start": "2014-12-31T23:00:00.000Z",
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Neujahr",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-01-06 00:00:00",
     "start": "2015-01-05T23:00:00.000Z",
     "end": "2015-01-06T23:00:00.000Z",
     "name": "Heilige Drei Könige",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-02-02 00:00:00",
     "start": "2015-02-01T23:00:00.000Z",
     "end": "2015-02-02T23:00:00.000Z",
     "name": "Lichtmess",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-02-12 00:00:00",
     "start": "2015-02-11T23:00:00.000Z",
     "end": "2015-02-12T23:00:00.000Z",
     "name": "Weiberfastnacht",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-02-14 00:00:00",
     "start": "2015-02-13T23:00:00.000Z",
     "end": "2015-02-14T23:00:00.000Z",
     "name": "Valentinstag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-02-16 00:00:00",
     "start": "2015-02-15T23:00:00.000Z",
     "end": "2015-02-16T23:00:00.000Z",
     "name": "Rosenmontag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-02-17 14:00:00",
     "start": "2015-02-17T13:00:00.000Z",
     "end": "2015-02-17T23:00:00.000Z",
     "name": "Faschingsdienstag",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-02-18 00:00:00",
     "start": "2015-02-17T23:00:00.000Z",
     "end": "2015-02-18T23:00:00.000Z",
     "name": "Aschermittwoch",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-04-02 00:00:00",
     "start": "2015-04-01T22:00:00.000Z",
     "end": "2015-04-02T22:00:00.000Z",
     "name": "Gründonnerstag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-02T22:00:00.000Z",
     "end": "2015-04-03T22:00:00.000Z",
     "name": "Karfreitag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-05T22:00:00.000Z",
     "end": "2015-04-06T22:00:00.000Z",
     "name": "Ostermontag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T22:00:00.000Z",
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Maifeiertag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-09T22:00:00.000Z",
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Muttertag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-14 00:00:00",
     "start": "2015-05-13T22:00:00.000Z",
     "end": "2015-05-14T22:00:00.000Z",
     "name": "Christi Himmelfahrt",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-05-24 00:00:00",
     "start": "2015-05-23T22:00:00.000Z",
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-24T22:00:00.000Z",
     "end": "2015-05-25T22:00:00.000Z",
     "name": "Pfingstmontag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-04 00:00:00",
     "start": "2015-06-03T22:00:00.000Z",
     "end": "2015-06-04T22:00:00.000Z",
     "name": "Fronleichnam",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-08-15 00:00:00",
     "start": "2015-08-14T22:00:00.000Z",
     "end": "2015-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "school"
+    "type": "school",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-10-03 00:00:00",
     "start": "2015-10-02T22:00:00.000Z",
     "end": "2015-10-03T22:00:00.000Z",
     "name": "Tag der Deutschen Einheit",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-11-01 00:00:00",
     "start": "2015-10-31T23:00:00.000Z",
     "end": "2015-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-11-02 00:00:00",
     "start": "2015-11-01T23:00:00.000Z",
     "end": "2015-11-02T23:00:00.000Z",
     "name": "Allerseelen",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-11-11 00:00:00",
     "start": "2015-11-10T23:00:00.000Z",
     "end": "2015-11-11T23:00:00.000Z",
     "name": "Sankt Martin (Faschingsbeginn)",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-11-15 00:00:00",
     "start": "2015-11-14T23:00:00.000Z",
     "end": "2015-11-15T23:00:00.000Z",
     "name": "Volkstrauertag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-11-18 00:00:00",
     "start": "2015-11-17T23:00:00.000Z",
     "end": "2015-11-18T23:00:00.000Z",
     "name": "Buß- und Bettag",
-    "type": "school"
+    "type": "school",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-11-22 00:00:00",
     "start": "2015-11-21T23:00:00.000Z",
     "end": "2015-11-22T23:00:00.000Z",
     "name": "Totensonntag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-12-24 14:00:00",
     "start": "2015-12-24T13:00:00.000Z",
     "end": "2015-12-24T23:00:00.000Z",
     "name": "Heiliger Abend",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T23:00:00.000Z",
     "end": "2015-12-25T23:00:00.000Z",
     "name": "1. Weihnachtstag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-25T23:00:00.000Z",
     "end": "2015-12-26T23:00:00.000Z",
     "name": "2. Weihnachtstag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-12-31 14:00:00",
     "start": "2015-12-31T13:00:00.000Z",
     "end": "2015-12-31T23:00:00.000Z",
     "name": "Silvester",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Thu"
   }
 ]

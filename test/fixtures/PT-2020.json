@@ -4,118 +4,135 @@
     "start": "2020-01-01T00:00:00.000Z",
     "end": "2020-01-02T00:00:00.000Z",
     "name": "Ano Novo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-02-25 00:00:00",
     "start": "2020-02-25T00:00:00.000Z",
     "end": "2020-02-26T00:00:00.000Z",
     "name": "Carnaval",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-09T23:00:00.000Z",
     "end": "2020-04-10T23:00:00.000Z",
     "name": "Sexta-Feira Santa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-04-12 00:00:00",
     "start": "2020-04-11T23:00:00.000Z",
     "end": "2020-04-12T23:00:00.000Z",
     "name": "Páscoa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-04-25 00:00:00",
     "start": "2020-04-24T23:00:00.000Z",
     "end": "2020-04-25T23:00:00.000Z",
     "name": "Dia da Liberdade",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-05-01 00:00:00",
     "start": "2020-04-30T23:00:00.000Z",
     "end": "2020-05-01T23:00:00.000Z",
     "name": "Dia do trabalhador",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-05-03 00:00:00",
     "start": "2020-05-02T23:00:00.000Z",
     "end": "2020-05-03T23:00:00.000Z",
     "name": "Dia das Mães",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-06-10 00:00:00",
     "start": "2020-06-09T23:00:00.000Z",
     "end": "2020-06-10T23:00:00.000Z",
     "name": "Dia de Portugal",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-06-11 00:00:00",
     "start": "2020-06-10T23:00:00.000Z",
     "end": "2020-06-11T23:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-08-15 00:00:00",
     "start": "2020-08-14T23:00:00.000Z",
     "end": "2020-08-15T23:00:00.000Z",
     "name": "Assunção",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-10-05 00:00:00",
     "start": "2020-10-04T23:00:00.000Z",
     "end": "2020-10-05T23:00:00.000Z",
     "name": "Implantação da República",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-11-01 00:00:00",
     "start": "2020-11-01T00:00:00.000Z",
     "end": "2020-11-02T00:00:00.000Z",
     "name": "Todos os santos",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-12-01 00:00:00",
     "start": "2020-12-01T00:00:00.000Z",
     "end": "2020-12-02T00:00:00.000Z",
     "name": "Restauração da Independência",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-12-08 00:00:00",
     "start": "2020-12-08T00:00:00.000Z",
     "end": "2020-12-09T00:00:00.000Z",
     "name": "Imaculada Conceição",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-12-24 00:00:00",
     "start": "2020-12-24T00:00:00.000Z",
     "end": "2020-12-25T00:00:00.000Z",
     "name": "Noite de Natal",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-25T00:00:00.000Z",
     "end": "2020-12-26T00:00:00.000Z",
     "name": "Natal",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-31 00:00:00",
     "start": "2020-12-31T00:00:00.000Z",
     "end": "2021-01-01T00:00:00.000Z",
     "name": "Véspera de Ano Novo",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   }
 ]

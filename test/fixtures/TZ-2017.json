@@ -4,118 +4,135 @@
     "start": "2016-12-31T21:00:00.000Z",
     "end": "2017-01-01T21:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-01T21:00:00.000Z",
     "end": "2017-01-02T21:00:00.000Z",
     "name": "Zanzibar Revolution Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-04-07 00:00:00",
     "start": "2017-04-06T21:00:00.000Z",
     "end": "2017-04-07T21:00:00.000Z",
     "name": "Karume Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-13T21:00:00.000Z",
     "end": "2017-04-14T21:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-15T21:00:00.000Z",
     "end": "2017-04-16T21:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T21:00:00.000Z",
     "end": "2017-04-17T21:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-04-26 00:00:00",
     "start": "2017-04-25T21:00:00.000Z",
     "end": "2017-04-26T21:00:00.000Z",
     "name": "Union Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-05-01 00:00:00",
     "start": "2017-04-30T21:00:00.000Z",
     "end": "2017-05-01T21:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-06-25 00:00:00 -0600",
     "start": "2017-06-24T15:00:00.000Z",
     "end": "2017-06-26T15:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-07-07 00:00:00",
     "start": "2017-07-06T21:00:00.000Z",
     "end": "2017-07-07T21:00:00.000Z",
     "name": "Saba Saba Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-08-08 00:00:00",
     "start": "2017-08-07T21:00:00.000Z",
     "end": "2017-08-08T21:00:00.000Z",
     "name": "Nane Nane Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-09-01 00:00:00 -0600",
     "start": "2017-08-31T15:00:00.000Z",
     "end": "2017-09-01T15:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-10-14 00:00:00",
     "start": "2017-10-13T21:00:00.000Z",
     "end": "2017-10-14T21:00:00.000Z",
     "name": "Nyerere Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-11-30 00:00:00 -0600",
     "start": "2017-11-29T15:00:00.000Z",
     "end": "2017-11-30T15:00:00.000Z",
     "name": "Maulid Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-12-09 00:00:00",
     "start": "2017-12-08T21:00:00.000Z",
     "end": "2017-12-09T21:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-24T21:00:00.000Z",
     "end": "2017-12-25T21:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-26 00:00:00",
     "start": "2017-12-25T21:00:00.000Z",
     "end": "2017-12-26T21:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]

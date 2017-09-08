@@ -4,188 +4,215 @@
     "start": "2014-12-31T17:00:00.000Z",
     "end": "2015-01-01T17:00:00.000Z",
     "name": "Tết dương lịch",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-02-03 00:00:00",
     "start": "2015-02-02T17:00:00.000Z",
     "end": "2015-02-03T17:00:00.000Z",
     "name": "Ngày thành lập Đảng",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-02-11 00:00:00",
     "start": "2015-02-10T17:00:00.000Z",
     "end": "2015-02-11T17:00:00.000Z",
     "name": "Ông Táo chầu trời",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-02-18 00:00:00",
     "start": "2015-02-17T17:00:00.000Z",
     "end": "2015-02-22T17:00:00.000Z",
     "name": "Tết ngày lễ",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-02-19 00:00:00",
     "start": "2015-02-18T17:00:00.000Z",
     "end": "2015-02-19T17:00:00.000Z",
     "name": "Tết",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-02-23 00:00:00",
     "start": "2015-02-22T17:00:00.000Z",
     "end": "2015-02-23T17:00:00.000Z",
     "name": "Chiến thắng Ngọc Hồi - Đống Đa",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-03-05 00:00:00",
     "start": "2015-03-04T17:00:00.000Z",
     "end": "2015-03-05T17:00:00.000Z",
     "name": "Tết Nguyên Tiêu",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-03-08 00:00:00",
     "start": "2015-03-07T17:00:00.000Z",
     "end": "2015-03-08T17:00:00.000Z",
     "name": "Quốc tế Phụ nữ",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-21 00:00:00",
     "start": "2015-04-20T17:00:00.000Z",
     "end": "2015-04-21T17:00:00.000Z",
     "name": "Ngày sách Việt Nam",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-04-28 00:00:00",
     "start": "2015-04-27T17:00:00.000Z",
     "end": "2015-04-28T17:00:00.000Z",
     "name": "Giỗ tổ Hùng Vương",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-04-30 00:00:00",
     "start": "2015-04-29T17:00:00.000Z",
     "end": "2015-04-30T17:00:00.000Z",
     "name": "Ngày Giải phóng miền Nam",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T17:00:00.000Z",
     "end": "2015-05-01T17:00:00.000Z",
     "name": "Ngày Quốc tế Lao động",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-07 00:00:00",
     "start": "2015-05-06T17:00:00.000Z",
     "end": "2015-05-07T17:00:00.000Z",
     "name": "Ngày Chiến thắng Điện Biện Phủ",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-05-19 00:00:00",
     "start": "2015-05-18T17:00:00.000Z",
     "end": "2015-05-19T17:00:00.000Z",
     "name": "Ngày sinh Chủ tịch Hồ Chí Minh",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T17:00:00.000Z",
     "end": "2015-06-01T17:00:00.000Z",
     "name": "Ngày quốc tế thiếu nhi",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T17:00:00.000Z",
     "end": "2015-06-01T17:00:00.000Z",
     "name": "Lễ Phật đản",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-20 00:00:00",
     "start": "2015-06-19T17:00:00.000Z",
     "end": "2015-06-20T17:00:00.000Z",
     "name": "Tết Đoan ngọ",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-06-28 00:00:00",
     "start": "2015-06-27T17:00:00.000Z",
     "end": "2015-06-28T17:00:00.000Z",
     "name": "Ngày gia đình Việt Nam",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-07-27 00:00:00",
     "start": "2015-07-26T17:00:00.000Z",
     "end": "2015-07-27T17:00:00.000Z",
     "name": "Ngày thương binh liệt sĩ",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-08-19 00:00:00",
     "start": "2015-08-18T17:00:00.000Z",
     "end": "2015-08-19T17:00:00.000Z",
     "name": "Ngày cách mạng tháng 8",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-08-28 00:00:00",
     "start": "2015-08-27T17:00:00.000Z",
     "end": "2015-08-28T17:00:00.000Z",
     "name": "Rằm tháng bảy, Vu Lan",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-09-02 00:00:00",
     "start": "2015-09-01T17:00:00.000Z",
     "end": "2015-09-02T17:00:00.000Z",
     "name": "Quốc khánh",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-09-27 00:00:00",
     "start": "2015-09-26T17:00:00.000Z",
     "end": "2015-09-27T17:00:00.000Z",
     "name": "Tết Trung thu",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-10-10 00:00:00",
     "start": "2015-10-09T17:00:00.000Z",
     "end": "2015-10-10T17:00:00.000Z",
     "name": "Ngày giải phóng thủ đô",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-10-20 00:00:00",
     "start": "2015-10-19T17:00:00.000Z",
     "end": "2015-10-20T17:00:00.000Z",
     "name": "Ngày phụ nữ Việt Nam",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-11-20 00:00:00",
     "start": "2015-11-19T17:00:00.000Z",
     "end": "2015-11-20T17:00:00.000Z",
     "name": "Ngày Nhà giáo Việt Nam",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-22 00:00:00",
     "start": "2015-12-21T17:00:00.000Z",
     "end": "2015-12-22T17:00:00.000Z",
     "name": "Ngày hội quốc phòng toàn dân",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   }
 ]

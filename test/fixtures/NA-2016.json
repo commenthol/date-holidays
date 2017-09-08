@@ -4,97 +4,111 @@
     "start": "2015-12-31T22:00:00.000Z",
     "end": "2016-01-01T22:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-21 00:00:00",
     "start": "2016-03-20T22:00:00.000Z",
     "end": "2016-03-21T22:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-24T22:00:00.000Z",
     "end": "2016-03-25T22:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-27 00:00:00",
     "start": "2016-03-26T22:00:00.000Z",
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T23:00:00.000Z",
     "end": "2016-05-01T23:00:00.000Z",
     "name": "Workers Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-02 00:00:00",
     "start": "2016-05-01T23:00:00.000Z",
     "end": "2016-05-02T23:00:00.000Z",
     "name": "Public Holiday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-04 00:00:00",
     "start": "2016-05-03T23:00:00.000Z",
     "end": "2016-05-04T23:00:00.000Z",
     "name": "Cassinga Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-05-05 00:00:00",
     "start": "2016-05-04T23:00:00.000Z",
     "end": "2016-05-05T23:00:00.000Z",
     "name": "Ascension Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-05-25 00:00:00",
     "start": "2016-05-24T23:00:00.000Z",
     "end": "2016-05-25T23:00:00.000Z",
     "name": "Africa Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-08-26 00:00:00",
     "start": "2016-08-25T23:00:00.000Z",
     "end": "2016-08-26T23:00:00.000Z",
     "name": "Heroes' Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-12-10 00:00:00",
     "start": "2016-12-09T22:00:00.000Z",
     "end": "2016-12-10T22:00:00.000Z",
     "name": "Human Rights Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T22:00:00.000Z",
     "end": "2016-12-25T22:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T22:00:00.000Z",
     "end": "2016-12-26T22:00:00.000Z",
     "name": "Day of Goodwill",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

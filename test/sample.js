@@ -14,6 +14,10 @@ if (module === require.main) {
   var args = process.argv.slice(2)
   var arg
 
+  function weekday (i) {
+    return days[new Date(i.date).getDay()]
+  }
+
   while ((arg = args.shift())) {
     if (arg === '--short') {
       cmd.short = true
@@ -33,10 +37,14 @@ if (module === require.main) {
 
   if (cmd.short) {
     res = res.map(function (i) {
-      var d = new Date(i.date)
-      var day = days[d.getDay()]
+      var day = weekday(i)
       i.type += Array(11).join(' ')
       return [day, i.date, i.type.substr(0, 10), i.name].join('   ')
+    })
+  } else {
+    res = res.map(function (i) {
+      i._weekday = weekday(i)
+      return i
     })
   }
 

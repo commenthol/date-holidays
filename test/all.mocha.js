@@ -12,6 +12,7 @@ var writetests
 var _countries
 
 var years = [ 2015, 2016, 2017, 2018, 2019, 2020 ]
+var WEEKDAYS = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 
 for (var i = 2; i < process.argv.length; i++) {
   // regenerate tests with `mocha test/all.mocha.js --writetests`
@@ -44,6 +45,16 @@ function sorter (a, b) {
   }
 }
 
+function addWeekday (arr) {
+  if (!Array.isArray(arr)) return arr
+  return arr.map((item) => {
+    if (item.date) {
+      item._weekday = WEEKDAYS[new Date(item.date).getDay()]
+    }
+    return item
+  })
+}
+
 function writeFile (name, obj) {
   if (writetests) {
     if (Array.isArray(obj)) {
@@ -68,6 +79,8 @@ function test (year, country, state, region) {
     for (var i in res) {
       assert.ok(typeof res[i].name === 'string', 'translation missing for rule ' + i + ': ' + JSON.stringify(res[i]))
     }
+
+    res = addWeekday(res)
 
     writeFile(name, res)
     fs.readFile(filename(name), 'utf8', function (err, exp) {

@@ -4,118 +4,135 @@
     "start": "2018-12-31T22:00:00.000Z",
     "end": "2019-01-01T22:00:00.000Z",
     "name": "Uudenvuodenpäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-01-06 00:00:00",
     "start": "2019-01-05T22:00:00.000Z",
     "end": "2019-01-06T22:00:00.000Z",
     "name": "Loppiainen",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-18T21:00:00.000Z",
     "end": "2019-04-19T21:00:00.000Z",
     "name": "Pitkäperjantai",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-20T21:00:00.000Z",
     "end": "2019-04-21T21:00:00.000Z",
     "name": "Pääsiäispäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-04-22 00:00:00",
     "start": "2019-04-21T21:00:00.000Z",
     "end": "2019-04-22T21:00:00.000Z",
     "name": "2. pääsiäispäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-05-01 00:00:00",
     "start": "2019-04-30T21:00:00.000Z",
     "end": "2019-05-01T21:00:00.000Z",
     "name": "Vappu",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-11T21:00:00.000Z",
     "end": "2019-05-12T21:00:00.000Z",
     "name": "Äitien päivä",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-05-30 00:00:00",
     "start": "2019-05-29T21:00:00.000Z",
     "end": "2019-05-30T21:00:00.000Z",
     "name": "Helatorstai",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-06-09 00:00:00",
     "start": "2019-06-08T21:00:00.000Z",
     "end": "2019-06-09T21:00:00.000Z",
     "name": "Helluntaipäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-06-21 00:00:00",
     "start": "2019-06-20T21:00:00.000Z",
     "end": "2019-06-21T21:00:00.000Z",
     "name": "Juhannusaatto",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-06-22 00:00:00",
     "start": "2019-06-21T21:00:00.000Z",
     "end": "2019-06-22T21:00:00.000Z",
     "name": "Juhannuspäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-11-02 00:00:00",
     "start": "2019-11-01T22:00:00.000Z",
     "end": "2019-11-02T22:00:00.000Z",
     "name": "Pyhäinpäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-12-06 00:00:00",
     "start": "2019-12-05T22:00:00.000Z",
     "end": "2019-12-06T22:00:00.000Z",
     "name": "Itsenäisyyspäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-12-24 00:00:00",
     "start": "2019-12-23T22:00:00.000Z",
     "end": "2019-12-24T22:00:00.000Z",
     "name": "Jouluaatto",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-24T22:00:00.000Z",
     "end": "2019-12-25T22:00:00.000Z",
     "name": "Joulupäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-12-26 00:00:00",
     "start": "2019-12-25T22:00:00.000Z",
     "end": "2019-12-26T22:00:00.000Z",
     "name": "2. joulupäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-12-31 14:00:00",
     "start": "2019-12-31T12:00:00.000Z",
     "end": "2019-12-31T22:00:00.000Z",
     "name": "Uudenvuodenaatto",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Tue"
   }
 ]

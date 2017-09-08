@@ -4,139 +4,159 @@
     "start": "2018-01-01T05:00:00.000Z",
     "end": "2018-01-02T05:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-01-15 00:00:00",
     "start": "2018-01-15T05:00:00.000Z",
     "end": "2018-01-16T05:00:00.000Z",
     "name": "Martin Luther King Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-02-14 00:00:00",
     "start": "2018-02-14T05:00:00.000Z",
     "end": "2018-02-15T05:00:00.000Z",
     "name": "Valentine's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-02-19 00:00:00",
     "start": "2018-02-19T05:00:00.000Z",
     "end": "2018-02-20T05:00:00.000Z",
     "name": "Washington’s Birthday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-04-16 00:00:00",
     "start": "2018-04-16T04:00:00.000Z",
     "end": "2018-04-17T04:00:00.000Z",
     "name": "Patriots' Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-04-17 00:00:00",
     "start": "2018-04-17T04:00:00.000Z",
     "end": "2018-04-18T04:00:00.000Z",
     "name": "Tax Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-04-25 00:00:00",
     "start": "2018-04-25T04:00:00.000Z",
     "end": "2018-04-26T04:00:00.000Z",
     "name": "Administrative Professionals Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-05-13 00:00:00",
     "start": "2018-05-13T04:00:00.000Z",
     "end": "2018-05-14T04:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-05-28 00:00:00",
     "start": "2018-05-28T04:00:00.000Z",
     "end": "2018-05-29T04:00:00.000Z",
     "name": "Memorial Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-06-17 00:00:00",
     "start": "2018-06-17T04:00:00.000Z",
     "end": "2018-06-18T04:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-07-04 00:00:00",
     "start": "2018-07-04T04:00:00.000Z",
     "end": "2018-07-05T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-09-03 00:00:00",
     "start": "2018-09-03T04:00:00.000Z",
     "end": "2018-09-04T04:00:00.000Z",
     "name": "Labor Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-10-08 00:00:00",
     "start": "2018-10-08T04:00:00.000Z",
     "end": "2018-10-09T04:00:00.000Z",
     "name": "Columbus Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-10-31 18:00:00",
     "start": "2018-10-31T22:00:00.000Z",
     "end": "2018-11-01T04:00:00.000Z",
     "name": "Halloween",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-11-11 00:00:00",
     "start": "2018-11-11T05:00:00.000Z",
     "end": "2018-11-12T05:00:00.000Z",
     "name": "Veterans Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-11-22 00:00:00",
     "start": "2018-11-22T05:00:00.000Z",
     "end": "2018-11-23T05:00:00.000Z",
     "name": "Thanksgiving Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-11-23 00:00:00",
     "start": "2018-11-23T05:00:00.000Z",
     "end": "2018-11-24T05:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-12-24 00:00:00",
     "start": "2018-12-24T05:00:00.000Z",
     "end": "2018-12-25T05:00:00.000Z",
     "name": "Christmas Eve",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-25T05:00:00.000Z",
     "end": "2018-12-26T05:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-31 18:00:00",
     "start": "2018-12-31T23:00:00.000Z",
     "end": "2019-01-01T05:00:00.000Z",
     "name": "New Year's Eve",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   }
 ]

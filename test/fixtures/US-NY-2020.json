@@ -4,77 +4,88 @@
     "start": "2020-01-01T05:00:00.000Z",
     "end": "2020-01-02T05:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-01-20 00:00:00",
     "start": "2020-01-20T05:00:00.000Z",
     "end": "2020-01-21T05:00:00.000Z",
     "name": "Martin Luther King Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-02-12 00:00:00",
     "start": "2020-02-12T05:00:00.000Z",
     "end": "2020-02-13T05:00:00.000Z",
     "name": "Lincoln's Birthday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-02-14 00:00:00",
     "start": "2020-02-14T05:00:00.000Z",
     "end": "2020-02-15T05:00:00.000Z",
     "name": "Valentine's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-02-15 00:00:00",
     "start": "2020-02-15T05:00:00.000Z",
     "end": "2020-02-16T05:00:00.000Z",
     "name": "Susan B. Anthony Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-02-17 00:00:00",
     "start": "2020-02-17T05:00:00.000Z",
     "end": "2020-02-18T05:00:00.000Z",
     "name": "Washington’s Birthday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-04-15 00:00:00",
     "start": "2020-04-15T04:00:00.000Z",
     "end": "2020-04-16T04:00:00.000Z",
     "name": "Tax Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-04-22 00:00:00",
     "start": "2020-04-22T04:00:00.000Z",
     "end": "2020-04-23T04:00:00.000Z",
     "name": "Administrative Professionals Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-05-10 00:00:00",
     "start": "2020-05-10T04:00:00.000Z",
     "end": "2020-05-11T04:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-05-25 00:00:00",
     "start": "2020-05-25T04:00:00.000Z",
     "end": "2020-05-26T04:00:00.000Z",
     "name": "Memorial Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-06-21 00:00:00",
     "start": "2020-06-21T04:00:00.000Z",
     "end": "2020-06-22T04:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-07-03 00:00:00",
@@ -82,83 +93,95 @@
     "end": "2020-07-04T04:00:00.000Z",
     "name": "Independence Day (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Fri"
   },
   {
     "date": "2020-07-04 00:00:00",
     "start": "2020-07-04T04:00:00.000Z",
     "end": "2020-07-05T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-09-07 00:00:00",
     "start": "2020-09-07T04:00:00.000Z",
     "end": "2020-09-08T04:00:00.000Z",
     "name": "Labor Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-10-12 00:00:00",
     "start": "2020-10-12T04:00:00.000Z",
     "end": "2020-10-13T04:00:00.000Z",
     "name": "Columbus Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-10-31 18:00:00",
     "start": "2020-10-31T22:00:00.000Z",
     "end": "2020-11-01T04:00:00.000Z",
     "name": "Halloween",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-11-03 00:00:00",
     "start": "2020-11-03T05:00:00.000Z",
     "end": "2020-11-04T05:00:00.000Z",
     "name": "Election Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-11-11 00:00:00",
     "start": "2020-11-11T05:00:00.000Z",
     "end": "2020-11-12T05:00:00.000Z",
     "name": "Veterans Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-11-26 00:00:00",
     "start": "2020-11-26T05:00:00.000Z",
     "end": "2020-11-27T05:00:00.000Z",
     "name": "Thanksgiving Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-11-27 00:00:00",
     "start": "2020-11-27T05:00:00.000Z",
     "end": "2020-11-28T05:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-24 00:00:00",
     "start": "2020-12-24T05:00:00.000Z",
     "end": "2020-12-25T05:00:00.000Z",
     "name": "Christmas Eve",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-25T05:00:00.000Z",
     "end": "2020-12-26T05:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-31 18:00:00",
     "start": "2020-12-31T23:00:00.000Z",
     "end": "2021-01-01T05:00:00.000Z",
     "name": "New Year's Eve",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   }
 ]

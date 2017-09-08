@@ -4,83 +4,95 @@
     "start": "2014-12-31T23:00:00.000Z",
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Nouvel An",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-03-29 00:00:00",
     "start": "2015-03-28T23:00:00.000Z",
     "end": "2015-03-29T23:00:00.000Z",
     "name": "Décès du Fondateur Barthélémy Boganda",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-05T23:00:00.000Z",
     "end": "2015-04-06T23:00:00.000Z",
     "name": "Lundi de Pâques",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T23:00:00.000Z",
     "end": "2015-05-01T23:00:00.000Z",
     "name": "Fête du travail",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-14 00:00:00",
     "start": "2015-05-13T23:00:00.000Z",
     "end": "2015-05-14T23:00:00.000Z",
     "name": "Ascension",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-24T23:00:00.000Z",
     "end": "2015-05-25T23:00:00.000Z",
     "name": "Lundi de Pentecôte",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-30 00:00:00",
     "start": "2015-06-29T23:00:00.000Z",
     "end": "2015-06-30T23:00:00.000Z",
     "name": "Journée de prière",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-08-13 00:00:00",
     "start": "2015-08-12T23:00:00.000Z",
     "end": "2015-08-13T23:00:00.000Z",
     "name": "Jour de l'Indépendance",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-08-15 00:00:00",
     "start": "2015-08-14T23:00:00.000Z",
     "end": "2015-08-15T23:00:00.000Z",
     "name": "Assomption",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-11-01 00:00:00",
     "start": "2015-10-31T23:00:00.000Z",
     "end": "2015-11-01T23:00:00.000Z",
     "name": "Toussaint",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-12-01 00:00:00",
     "start": "2015-11-30T23:00:00.000Z",
     "end": "2015-12-01T23:00:00.000Z",
     "name": "Jour de la République",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T23:00:00.000Z",
     "end": "2015-12-25T23:00:00.000Z",
     "name": "Noël",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   }
 ]

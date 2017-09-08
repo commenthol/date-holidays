@@ -4,7 +4,8 @@
     "start": "2017-12-31T20:00:00.000Z",
     "end": "2018-01-01T20:00:00.000Z",
     "name": "Yeni il",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-01-01 00:00:00",
@@ -12,70 +13,80 @@
     "end": "2018-01-01T20:00:00.000Z",
     "name": "Dünya azərbaycanlıların həmrəyliyi günü (əvəz gün)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-01-02 00:00:00",
     "start": "2018-01-01T20:00:00.000Z",
     "end": "2018-01-02T20:00:00.000Z",
     "name": "Yeni il",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-01-20 00:00:00",
     "start": "2018-01-19T20:00:00.000Z",
     "end": "2018-01-20T20:00:00.000Z",
     "name": "Qara Yanvar",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-03-08 00:00:00",
     "start": "2018-03-07T20:00:00.000Z",
     "end": "2018-03-08T20:00:00.000Z",
     "name": "Qadınlar günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-03-20 00:00:00",
     "start": "2018-03-19T20:00:00.000Z",
     "end": "2018-03-20T20:00:00.000Z",
     "name": "Novruz",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-05-09 00:00:00",
     "start": "2018-05-08T20:00:00.000Z",
     "end": "2018-05-09T20:00:00.000Z",
     "name": "Faşizm üzərində qələbə günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-05-28 00:00:00",
     "start": "2018-05-27T20:00:00.000Z",
     "end": "2018-05-28T20:00:00.000Z",
     "name": "Respublika günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-06-15 00:00:00 -0600",
     "start": "2018-06-14T14:00:00.000Z",
     "end": "2018-06-15T14:00:00.000Z",
     "name": "Ramazan Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-06-15 00:00:00",
     "start": "2018-06-14T20:00:00.000Z",
     "end": "2018-06-15T20:00:00.000Z",
     "name": "Azərbaycan xalqının Milli Qurtuluş günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-06-16 00:00:00 -0600",
     "start": "2018-06-15T14:00:00.000Z",
     "end": "2018-06-16T14:00:00.000Z",
     "name": "Ramazan Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-06-18 00:00:00 -0600",
@@ -83,62 +94,71 @@
     "end": "2018-06-18T14:00:00.000Z",
     "name": "Ramazan Bayramı (əvəz gün)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-06-26 00:00:00",
     "start": "2018-06-25T20:00:00.000Z",
     "end": "2018-06-26T20:00:00.000Z",
     "name": "Azərbaycan Respublikasının Silahlı Qüvvələri günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-08-21 00:00:00 -0600",
     "start": "2018-08-20T14:00:00.000Z",
     "end": "2018-08-21T14:00:00.000Z",
     "name": "Qurban Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-08-22 00:00:00 -0600",
     "start": "2018-08-21T14:00:00.000Z",
     "end": "2018-08-22T14:00:00.000Z",
     "name": "Qurban Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-10-18 00:00:00",
     "start": "2018-10-17T20:00:00.000Z",
     "end": "2018-10-18T20:00:00.000Z",
     "name": "Dövlət Müstəqilliyi günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-11-09 00:00:00",
     "start": "2018-11-08T20:00:00.000Z",
     "end": "2018-11-09T20:00:00.000Z",
     "name": "Dövlət Bayrağı günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-11-12 00:00:00",
     "start": "2018-11-11T20:00:00.000Z",
     "end": "2018-11-12T20:00:00.000Z",
     "name": "Konstitusiya günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-11-17 00:00:00",
     "start": "2018-11-16T20:00:00.000Z",
     "end": "2018-11-17T20:00:00.000Z",
     "name": "Milli Dirçəliş günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-12-31 00:00:00",
     "start": "2018-12-30T20:00:00.000Z",
     "end": "2018-12-31T20:00:00.000Z",
     "name": "Dünya azərbaycanlıların həmrəyliyi günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

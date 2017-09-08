@@ -4,90 +4,103 @@
     "start": "2019-01-01T05:00:00.000Z",
     "end": "2019-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-04-18 00:00:00",
     "start": "2019-04-18T05:00:00.000Z",
     "end": "2019-04-19T05:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T05:00:00.000Z",
     "end": "2019-04-20T05:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T05:00:00.000Z",
     "end": "2019-04-22T05:00:00.000Z",
     "name": "Pascua",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T05:00:00.000Z",
     "end": "2019-05-02T05:00:00.000Z",
     "name": "Fiesta del trabajo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-06-29 00:00:00",
     "start": "2019-06-29T05:00:00.000Z",
     "end": "2019-06-30T05:00:00.000Z",
     "name": "San Pedro y San Pablo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-07-28 00:00:00",
     "start": "2019-07-28T05:00:00.000Z",
     "end": "2019-07-29T05:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-07-29 00:00:00",
     "start": "2019-07-29T05:00:00.000Z",
     "end": "2019-07-30T05:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-08-30 00:00:00",
     "start": "2019-08-30T05:00:00.000Z",
     "end": "2019-08-31T05:00:00.000Z",
     "name": "Día de Santa Rosa de Lima",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-10-08 00:00:00",
     "start": "2019-10-08T05:00:00.000Z",
     "end": "2019-10-09T05:00:00.000Z",
     "name": "Combate de Angamos",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-11-01 00:00:00",
     "start": "2019-11-01T05:00:00.000Z",
     "end": "2019-11-02T05:00:00.000Z",
     "name": "Todos los Santos",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-12-08 00:00:00",
     "start": "2019-12-08T05:00:00.000Z",
     "end": "2019-12-09T05:00:00.000Z",
     "name": "La inmaculada concepción",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T05:00:00.000Z",
     "end": "2019-12-26T05:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   }
 ]

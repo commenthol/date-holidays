@@ -4,104 +4,119 @@
     "start": "2015-01-01T07:00:00.000Z",
     "end": "2015-01-02T07:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-02-16 00:00:00",
     "start": "2015-02-16T07:00:00.000Z",
     "end": "2015-02-17T07:00:00.000Z",
     "name": "Family Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-03T06:00:00.000Z",
     "end": "2015-04-04T06:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-05T06:00:00.000Z",
     "end": "2015-04-06T06:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-06T06:00:00.000Z",
     "end": "2015-04-07T06:00:00.000Z",
     "name": "Easter Monday",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-10T06:00:00.000Z",
     "end": "2015-05-11T06:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-18 00:00:00",
     "start": "2015-05-18T06:00:00.000Z",
     "end": "2015-05-19T06:00:00.000Z",
     "name": "Victoria Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-21 00:00:00",
     "start": "2015-06-21T06:00:00.000Z",
     "end": "2015-06-22T06:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-07-01 00:00:00",
     "start": "2015-07-01T06:00:00.000Z",
     "end": "2015-07-02T06:00:00.000Z",
     "name": "Canada Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-08-03 00:00:00",
     "start": "2015-08-03T06:00:00.000Z",
     "end": "2015-08-04T06:00:00.000Z",
     "name": "Heritage Day",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-08-31 00:00:00",
     "start": "2015-08-31T06:00:00.000Z",
     "end": "2015-09-01T06:00:00.000Z",
     "name": "Labor Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-10-12 00:00:00",
     "start": "2015-10-12T06:00:00.000Z",
     "end": "2015-10-13T06:00:00.000Z",
     "name": "Thanksgiving",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-11-11 00:00:00",
     "start": "2015-11-11T07:00:00.000Z",
     "end": "2015-11-12T07:00:00.000Z",
     "name": "Remembrance Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-25T07:00:00.000Z",
     "end": "2015-12-26T07:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-26T07:00:00.000Z",
     "end": "2015-12-27T07:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   }
 ]

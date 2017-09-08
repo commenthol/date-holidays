@@ -4,21 +4,24 @@
     "start": "2020-01-01T04:00:00.000Z",
     "end": "2020-01-02T04:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-01-06 00:00:00",
     "start": "2020-01-06T04:00:00.000Z",
     "end": "2020-01-07T04:00:00.000Z",
     "name": "Día de los Reyes Magos",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-01-14 00:00:00",
     "start": "2020-01-14T04:00:00.000Z",
     "end": "2020-01-15T04:00:00.000Z",
     "name": "Día de La Divina Pastora",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-01-15 00:00:00",
@@ -26,174 +29,199 @@
     "end": "2020-01-16T04:00:00.000Z",
     "name": "Día del Maestro",
     "type": "optional",
-    "note": "teachers only"
+    "note": "teachers only",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-02-24 00:00:00",
     "start": "2020-02-24T04:00:00.000Z",
     "end": "2020-02-25T04:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-02-25 00:00:00",
     "start": "2020-02-25T04:00:00.000Z",
     "end": "2020-02-26T04:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-03-19 00:00:00",
     "start": "2020-03-19T04:00:00.000Z",
     "end": "2020-03-20T04:00:00.000Z",
     "name": "San José",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-04-06 00:00:00",
     "start": "2020-04-06T04:00:00.000Z",
     "end": "2020-04-13T04:00:00.000Z",
     "name": "Semana Santa",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-04-09 00:00:00",
     "start": "2020-04-09T04:00:00.000Z",
     "end": "2020-04-10T04:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-10T04:00:00.000Z",
     "end": "2020-04-11T04:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-04-12 00:00:00",
     "start": "2020-04-12T04:00:00.000Z",
     "end": "2020-04-13T04:00:00.000Z",
     "name": "Pascua",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-04-19 00:00:00",
     "start": "2020-04-19T04:00:00.000Z",
     "end": "2020-04-20T04:00:00.000Z",
     "name": "Declaración de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-05-01 00:00:00",
     "start": "2020-05-01T04:00:00.000Z",
     "end": "2020-05-02T04:00:00.000Z",
     "name": "Fiesta del trabajo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-05-28 00:00:00",
     "start": "2020-05-28T04:00:00.000Z",
     "end": "2020-05-29T04:00:00.000Z",
     "name": "Natalicio de Jacinto Lara",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-06-24 00:00:00",
     "start": "2020-06-24T04:00:00.000Z",
     "end": "2020-06-25T04:00:00.000Z",
     "name": "Aniversario de la Batalla de Carabobo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-07-05 00:00:00",
     "start": "2020-07-05T04:00:00.000Z",
     "end": "2020-07-06T04:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-07-24 00:00:00",
     "start": "2020-07-24T04:00:00.000Z",
     "end": "2020-07-25T04:00:00.000Z",
     "name": "Natalicio de Simón Bolívar",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-08-03 00:00:00",
     "start": "2020-08-03T04:00:00.000Z",
     "end": "2020-08-04T04:00:00.000Z",
     "name": "Día de la Bandera",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-09-11 00:00:00",
     "start": "2020-09-11T04:00:00.000Z",
     "end": "2020-09-12T04:00:00.000Z",
     "name": "Día de Nuestra Señora de Coromoto",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-09-14 00:00:00",
     "start": "2020-09-14T04:00:00.000Z",
     "end": "2020-09-15T04:00:00.000Z",
     "name": "Día de Barquisimeto",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-10-12 00:00:00",
     "start": "2020-10-12T04:00:00.000Z",
     "end": "2020-10-13T04:00:00.000Z",
     "name": "Día de la resistencia indígena",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-11-01 00:00:00",
     "start": "2020-11-01T04:00:00.000Z",
     "end": "2020-11-02T04:00:00.000Z",
     "name": "Todos los Santos",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-11-02 00:00:00",
     "start": "2020-11-02T04:00:00.000Z",
     "end": "2020-11-03T04:00:00.000Z",
     "name": "Día de los Difuntos",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-12-08 00:00:00",
     "start": "2020-12-08T04:00:00.000Z",
     "end": "2020-12-09T04:00:00.000Z",
     "name": "La inmaculada concepción",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-12-10 00:00:00",
     "start": "2020-12-10T04:00:00.000Z",
     "end": "2020-12-11T04:00:00.000Z",
     "name": "Día de la Aviación Nacional",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-12-24 00:00:00",
     "start": "2020-12-24T04:00:00.000Z",
     "end": "2020-12-25T04:00:00.000Z",
     "name": "Nochebuena",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-25T04:00:00.000Z",
     "end": "2020-12-26T04:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-31 00:00:00",
     "start": "2020-12-31T04:00:00.000Z",
     "end": "2021-01-01T04:00:00.000Z",
     "name": "Fin del Año",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   }
 ]

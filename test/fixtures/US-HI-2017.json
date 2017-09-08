@@ -4,7 +4,8 @@
     "start": "2017-01-01T10:00:00.000Z",
     "end": "2017-01-02T10:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-01-02 00:00:00",
@@ -12,146 +13,167 @@
     "end": "2017-01-03T10:00:00.000Z",
     "name": "New Year's Day (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2017-01-16 00:00:00",
     "start": "2017-01-16T10:00:00.000Z",
     "end": "2017-01-17T10:00:00.000Z",
     "name": "Martin Luther King Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-02-14 00:00:00",
     "start": "2017-02-14T10:00:00.000Z",
     "end": "2017-02-15T10:00:00.000Z",
     "name": "Valentine's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-03-26 00:00:00",
     "start": "2017-03-26T10:00:00.000Z",
     "end": "2017-03-27T10:00:00.000Z",
     "name": "Prince Jonah Kuhio Kalanianaole Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-04-18 00:00:00",
     "start": "2017-04-18T10:00:00.000Z",
     "end": "2017-04-19T10:00:00.000Z",
     "name": "Tax Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-04-26 00:00:00",
     "start": "2017-04-26T10:00:00.000Z",
     "end": "2017-04-27T10:00:00.000Z",
     "name": "Administrative Professionals Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-14T10:00:00.000Z",
     "end": "2017-05-15T10:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-05-29 00:00:00",
     "start": "2017-05-29T10:00:00.000Z",
     "end": "2017-05-30T10:00:00.000Z",
     "name": "Memorial Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-06-11 00:00:00",
     "start": "2017-06-11T10:00:00.000Z",
     "end": "2017-06-12T10:00:00.000Z",
     "name": "Kamehameha Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-06-18 00:00:00",
     "start": "2017-06-18T10:00:00.000Z",
     "end": "2017-06-19T10:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-07-04 00:00:00",
     "start": "2017-07-04T10:00:00.000Z",
     "end": "2017-07-05T10:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-08-18 00:00:00",
     "start": "2017-08-18T10:00:00.000Z",
     "end": "2017-08-19T10:00:00.000Z",
     "name": "Statehood Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-09-04 00:00:00",
     "start": "2017-09-04T10:00:00.000Z",
     "end": "2017-09-05T10:00:00.000Z",
     "name": "Labor Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-10-09 00:00:00",
     "start": "2017-10-09T10:00:00.000Z",
     "end": "2017-10-10T10:00:00.000Z",
     "name": "Columbus Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-10-31 18:00:00",
     "start": "2017-11-01T04:00:00.000Z",
     "end": "2017-11-01T10:00:00.000Z",
     "name": "Halloween",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-11-11 00:00:00",
     "start": "2017-11-11T10:00:00.000Z",
     "end": "2017-11-12T10:00:00.000Z",
     "name": "Veterans Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-11-23 00:00:00",
     "start": "2017-11-23T10:00:00.000Z",
     "end": "2017-11-24T10:00:00.000Z",
     "name": "Thanksgiving Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-11-24 00:00:00",
     "start": "2017-11-24T10:00:00.000Z",
     "end": "2017-11-25T10:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-12-24 00:00:00",
     "start": "2017-12-24T10:00:00.000Z",
     "end": "2017-12-25T10:00:00.000Z",
     "name": "Christmas Eve",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T10:00:00.000Z",
     "end": "2017-12-26T10:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-31 18:00:00",
     "start": "2018-01-01T04:00:00.000Z",
     "end": "2018-01-01T10:00:00.000Z",
     "name": "New Year's Eve",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   }
 ]

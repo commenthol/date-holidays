@@ -4,90 +4,103 @@
     "start": "2020-01-01T04:00:00.000Z",
     "end": "2020-01-02T04:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-10T04:00:00.000Z",
     "end": "2020-04-11T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-04-12 00:00:00",
     "start": "2020-04-12T04:00:00.000Z",
     "end": "2020-04-13T04:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-04-13 00:00:00",
     "start": "2020-04-13T04:00:00.000Z",
     "end": "2020-04-14T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-05-01 00:00:00",
     "start": "2020-05-01T04:00:00.000Z",
     "end": "2020-05-02T04:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-05-31 00:00:00",
     "start": "2020-05-31T04:00:00.000Z",
     "end": "2020-06-01T04:00:00.000Z",
     "name": "Pentecost",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-06-01 00:00:00",
     "start": "2020-06-01T04:00:00.000Z",
     "end": "2020-06-02T04:00:00.000Z",
     "name": "Whit Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-08-01 00:00:00",
     "start": "2020-08-01T04:00:00.000Z",
     "end": "2020-08-02T04:00:00.000Z",
     "name": "J'Ouvert Morning",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-08-02 00:00:00",
     "start": "2020-08-02T04:00:00.000Z",
     "end": "2020-08-03T04:00:00.000Z",
     "name": "Last Lap",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-11-02 00:00:00",
     "start": "2020-11-02T04:00:00.000Z",
     "end": "2020-11-03T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-12-09 00:00:00",
     "start": "2020-12-09T04:00:00.000Z",
     "end": "2020-12-10T04:00:00.000Z",
     "name": "V.C Bird Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-25T04:00:00.000Z",
     "end": "2020-12-26T04:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-26 00:00:00",
     "start": "2020-12-26T04:00:00.000Z",
     "end": "2020-12-27T04:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   }
 ]

@@ -4,132 +4,151 @@
     "start": "2017-01-01T05:00:00.000Z",
     "end": "2017-01-02T05:00:00.000Z",
     "name": "Jour de l'Indépendance",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-02T05:00:00.000Z",
     "end": "2017-01-03T05:00:00.000Z",
     "name": "Jour des Aieux",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-01-06 00:00:00",
     "start": "2017-01-06T05:00:00.000Z",
     "end": "2017-01-07T05:00:00.000Z",
     "name": "Le Jour des Rois",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-02-27 14:00:00",
     "start": "2017-02-27T19:00:00.000Z",
     "end": "2017-02-28T05:00:00.000Z",
     "name": "Lundi Gras",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-02-28 00:00:00",
     "start": "2017-02-28T05:00:00.000Z",
     "end": "2017-03-01T05:00:00.000Z",
     "name": "Mardi Gras",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-03-01 00:00:00",
     "start": "2017-03-01T05:00:00.000Z",
     "end": "2017-03-02T05:00:00.000Z",
     "name": "Mercredi des Cendres",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-14T04:00:00.000Z",
     "end": "2017-04-15T04:00:00.000Z",
     "name": "Vendredi saint",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-16T04:00:00.000Z",
     "end": "2017-04-17T04:00:00.000Z",
     "name": "Pâques",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-05-01 00:00:00",
     "start": "2017-05-01T04:00:00.000Z",
     "end": "2017-05-02T04:00:00.000Z",
     "name": "Fête du travail",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-05-18 00:00:00",
     "start": "2017-05-18T04:00:00.000Z",
     "end": "2017-05-19T04:00:00.000Z",
     "name": "Jour du Drapeau et de l'Université",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-05-25 00:00:00",
     "start": "2017-05-25T04:00:00.000Z",
     "end": "2017-05-26T04:00:00.000Z",
     "name": "Ascension",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-06-15 00:00:00",
     "start": "2017-06-15T04:00:00.000Z",
     "end": "2017-06-16T04:00:00.000Z",
     "name": "la Fête-Dieu",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-08-15 00:00:00",
     "start": "2017-08-15T04:00:00.000Z",
     "end": "2017-08-16T04:00:00.000Z",
     "name": "Assomption",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-10-17 00:00:00",
     "start": "2017-10-17T04:00:00.000Z",
     "end": "2017-10-18T04:00:00.000Z",
     "name": "Anniversaire de la mort de Dessalines",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-11-01 00:00:00",
     "start": "2017-11-01T04:00:00.000Z",
     "end": "2017-11-02T04:00:00.000Z",
     "name": "Toussaint",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-11-02 00:00:00",
     "start": "2017-11-02T04:00:00.000Z",
     "end": "2017-11-03T04:00:00.000Z",
     "name": "Fête des morts",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-11-18 00:00:00",
     "start": "2017-11-18T05:00:00.000Z",
     "end": "2017-11-19T05:00:00.000Z",
     "name": "Vertières",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-12-05 00:00:00",
     "start": "2017-12-05T05:00:00.000Z",
     "end": "2017-12-06T05:00:00.000Z",
     "name": "Découverte d'Haïti",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T05:00:00.000Z",
     "end": "2017-12-26T05:00:00.000Z",
     "name": "Noël",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

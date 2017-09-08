@@ -4,132 +4,151 @@
     "start": "2014-12-31T23:00:00.000Z",
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Nieuwjaar",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-01-06 00:00:00",
     "start": "2015-01-05T23:00:00.000Z",
     "end": "2015-01-06T23:00:00.000Z",
     "name": "Driekoningen",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-02-14 00:00:00",
     "start": "2015-02-13T23:00:00.000Z",
     "end": "2015-02-14T23:00:00.000Z",
     "name": "Valentijnsdag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Pasen",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-05T22:00:00.000Z",
     "end": "2015-04-06T22:00:00.000Z",
     "name": "Paasmaandag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T22:00:00.000Z",
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Dag van de Arbeid",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-09T22:00:00.000Z",
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Moederdag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-14 00:00:00",
     "start": "2015-05-13T22:00:00.000Z",
     "end": "2015-05-14T22:00:00.000Z",
     "name": "O.L.H. Hemelvaart",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-05-24 00:00:00",
     "start": "2015-05-23T22:00:00.000Z",
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pinksteren",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-24T22:00:00.000Z",
     "end": "2015-05-25T22:00:00.000Z",
     "name": "Pinkstermaandag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-07-11 00:00:00",
     "start": "2015-07-10T22:00:00.000Z",
     "end": "2015-07-11T22:00:00.000Z",
     "name": "Feestdag van de Vlaamse Gemeenschap",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-07-21 00:00:00",
     "start": "2015-07-20T22:00:00.000Z",
     "end": "2015-07-21T22:00:00.000Z",
     "name": "Nationale feestdag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-08-15 00:00:00",
     "start": "2015-08-14T22:00:00.000Z",
     "end": "2015-08-15T22:00:00.000Z",
     "name": "O.L.V. Hemelvaart",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-11-01 00:00:00",
     "start": "2015-10-31T23:00:00.000Z",
     "end": "2015-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-11-02 00:00:00",
     "start": "2015-11-01T23:00:00.000Z",
     "end": "2015-11-02T23:00:00.000Z",
     "name": "Allerzielen",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-11-11 00:00:00",
     "start": "2015-11-10T23:00:00.000Z",
     "end": "2015-11-11T23:00:00.000Z",
     "name": "Wapenstilstand",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-11-15 00:00:00",
     "start": "2015-11-14T23:00:00.000Z",
     "end": "2015-11-15T23:00:00.000Z",
     "name": "Koningsdag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-12-06 00:00:00",
     "start": "2015-12-05T23:00:00.000Z",
     "end": "2015-12-06T23:00:00.000Z",
     "name": "Sinterklaas",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T23:00:00.000Z",
     "end": "2015-12-25T23:00:00.000Z",
     "name": "Kerstmis",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   }
 ]

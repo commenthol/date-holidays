@@ -4,69 +4,79 @@
     "start": "2017-12-31T23:00:00.000Z",
     "end": "2018-01-01T23:00:00.000Z",
     "name": "Nouvel An",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-02-11 00:00:00",
     "start": "2018-02-10T23:00:00.000Z",
     "end": "2018-02-11T23:00:00.000Z",
     "name": "Fête de la Jeunesse",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-03-30 00:00:00",
     "start": "2018-03-29T23:00:00.000Z",
     "end": "2018-03-30T23:00:00.000Z",
     "name": "Vendredi saint",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-05-01 00:00:00",
     "start": "2018-04-30T23:00:00.000Z",
     "end": "2018-05-01T23:00:00.000Z",
     "name": "Fête du travail",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-05-10 00:00:00",
     "start": "2018-05-09T23:00:00.000Z",
     "end": "2018-05-10T23:00:00.000Z",
     "name": "Ascension",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-05-20 00:00:00",
     "start": "2018-05-19T23:00:00.000Z",
     "end": "2018-05-20T23:00:00.000Z",
     "name": "Fête nationale ou de l'unité",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-06-15 00:00:00 -0600",
     "start": "2018-06-14T17:00:00.000Z",
     "end": "2018-06-15T17:00:00.000Z",
     "name": "Fête de fin du Ramadan",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-08-15 00:00:00",
     "start": "2018-08-14T23:00:00.000Z",
     "end": "2018-08-15T23:00:00.000Z",
     "name": "Assomption",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-08-21 00:00:00 -0600",
     "start": "2018-08-20T17:00:00.000Z",
     "end": "2018-08-21T17:00:00.000Z",
     "name": "Fête du mouton",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T23:00:00.000Z",
     "end": "2018-12-25T23:00:00.000Z",
     "name": "Noël",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]

@@ -4,70 +4,80 @@
     "start": "2016-01-01T04:00:00.000Z",
     "end": "2016-01-02T04:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-02-23 00:00:00",
     "start": "2016-02-23T04:00:00.000Z",
     "end": "2016-02-24T04:00:00.000Z",
     "name": "Republic Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-03-23 00:00:00",
     "start": "2016-03-23T04:00:00.000Z",
     "end": "2016-03-24T04:00:00.000Z",
     "name": "Phagwah",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-25T04:00:00.000Z",
     "end": "2016-03-26T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-28T04:00:00.000Z",
     "end": "2016-03-29T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-05-01T04:00:00.000Z",
     "end": "2016-05-02T04:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-05 00:00:00",
     "start": "2016-05-05T04:00:00.000Z",
     "end": "2016-05-06T04:00:00.000Z",
     "name": "Arrival Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-05-26 00:00:00",
     "start": "2016-05-26T04:00:00.000Z",
     "end": "2016-05-27T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-07-04 00:00:00",
     "start": "2016-07-04T04:00:00.000Z",
     "end": "2016-07-05T04:00:00.000Z",
     "name": "CARICOM Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-08-01 00:00:00",
     "start": "2016-08-01T04:00:00.000Z",
     "end": "2016-08-02T04:00:00.000Z",
     "name": "Emancipation Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-09-11 00:00:00 -0600",
@@ -75,7 +85,8 @@
     "end": "2016-09-11T22:00:00.000Z",
     "name": "Eid Ul Adha",
     "note": "tentative",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-12 00:00:00",
@@ -83,20 +94,23 @@
     "end": "2016-12-13T04:00:00.000Z",
     "name": "Youman Nabi",
     "note": "tentative",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-25T04:00:00.000Z",
     "end": "2016-12-26T04:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-26T04:00:00.000Z",
     "end": "2016-12-27T04:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

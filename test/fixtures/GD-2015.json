@@ -4,132 +4,151 @@
     "start": "2015-01-01T04:00:00.000Z",
     "end": "2015-01-02T04:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-02-07 00:00:00",
     "start": "2015-02-07T04:00:00.000Z",
     "end": "2015-02-08T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-03T04:00:00.000Z",
     "end": "2015-04-04T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-05T04:00:00.000Z",
     "end": "2015-04-06T04:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-06T04:00:00.000Z",
     "end": "2015-04-07T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-04-24 00:00:00",
     "start": "2015-04-24T04:00:00.000Z",
     "end": "2015-04-27T04:00:00.000Z",
     "name": "Carriacou Maroon and String Band Music Festival",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-05-01T04:00:00.000Z",
     "end": "2015-05-02T04:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-24 00:00:00",
     "start": "2015-05-24T04:00:00.000Z",
     "end": "2015-05-25T04:00:00.000Z",
     "name": "Pentecost",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-25T04:00:00.000Z",
     "end": "2015-05-26T04:00:00.000Z",
     "name": "Whit Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-04 00:00:00",
     "start": "2015-06-04T04:00:00.000Z",
     "end": "2015-06-05T04:00:00.000Z",
     "name": "Corpus Christi",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-08-03 00:00:00",
     "start": "2015-08-03T04:00:00.000Z",
     "end": "2015-08-04T04:00:00.000Z",
     "name": "Emancipation Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-08-10 00:00:00",
     "start": "2015-08-10T04:00:00.000Z",
     "end": "2015-08-11T04:00:00.000Z",
     "name": "Carnival Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-08-11 00:00:00",
     "start": "2015-08-11T04:00:00.000Z",
     "end": "2015-08-12T04:00:00.000Z",
     "name": "Carnival Tuesday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-09-01 00:00:00",
     "start": "2015-09-01T04:00:00.000Z",
     "end": "2015-09-02T04:00:00.000Z",
     "name": "Kirani Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-10-15 00:00:00",
     "start": "2015-10-15T04:00:00.000Z",
     "end": "2015-10-20T04:00:00.000Z",
     "name": "Aunty Tek Spice Word Festival",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-10-25 00:00:00",
     "start": "2015-10-25T04:00:00.000Z",
     "end": "2015-10-26T04:00:00.000Z",
     "name": "Thanksgiving Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-12-04 00:00:00",
     "start": "2015-12-04T04:00:00.000Z",
     "end": "2015-12-07T04:00:00.000Z",
     "name": "Camerhogne Folk Festival",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-25T04:00:00.000Z",
     "end": "2015-12-26T04:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-26T04:00:00.000Z",
     "end": "2015-12-27T04:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   }
 ]

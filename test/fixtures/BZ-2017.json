@@ -4,97 +4,111 @@
     "start": "2017-01-01T06:00:00.000Z",
     "end": "2017-01-02T06:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-03-06 00:00:00",
     "start": "2017-03-06T06:00:00.000Z",
     "end": "2017-03-07T06:00:00.000Z",
     "name": "Baron Bliss Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-14T06:00:00.000Z",
     "end": "2017-04-15T06:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-15 00:00:00",
     "start": "2017-04-15T06:00:00.000Z",
     "end": "2017-04-16T06:00:00.000Z",
     "name": "Easter Saturday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-16T06:00:00.000Z",
     "end": "2017-04-17T06:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-17T06:00:00.000Z",
     "end": "2017-04-18T06:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-05-01 00:00:00",
     "start": "2017-05-01T06:00:00.000Z",
     "end": "2017-05-02T06:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-05-22 00:00:00",
     "start": "2017-05-22T06:00:00.000Z",
     "end": "2017-05-23T06:00:00.000Z",
     "name": "Commonwealth Day, Sovereign's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-09-11 00:00:00",
     "start": "2017-09-11T06:00:00.000Z",
     "end": "2017-09-12T06:00:00.000Z",
     "name": "Saint George's Caye Day, National Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-09-21 00:00:00",
     "start": "2017-09-21T06:00:00.000Z",
     "end": "2017-09-22T06:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-10-09 00:00:00",
     "start": "2017-10-09T06:00:00.000Z",
     "end": "2017-10-10T06:00:00.000Z",
     "name": "Day of the Americas",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-11-20 00:00:00",
     "start": "2017-11-20T06:00:00.000Z",
     "end": "2017-11-21T06:00:00.000Z",
     "name": "Garifuna Settlement Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T06:00:00.000Z",
     "end": "2017-12-26T06:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-26 00:00:00",
     "start": "2017-12-26T06:00:00.000Z",
     "end": "2017-12-27T06:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]
