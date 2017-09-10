@@ -4,97 +4,111 @@
     "start": "2017-01-01T05:00:00.000Z",
     "end": "2017-01-02T05:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-01-10 00:00:00",
     "start": "2017-01-10T05:00:00.000Z",
     "end": "2017-01-11T05:00:00.000Z",
     "name": "Majority Rule Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-14T04:00:00.000Z",
     "end": "2017-04-15T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-16T04:00:00.000Z",
     "end": "2017-04-17T04:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-17T04:00:00.000Z",
     "end": "2017-04-18T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-14T04:00:00.000Z",
     "end": "2017-05-15T04:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-06-02 00:00:00",
     "start": "2017-06-02T04:00:00.000Z",
     "end": "2017-06-03T04:00:00.000Z",
     "name": "Randol Fawkes Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-06-04 00:00:00",
     "start": "2017-06-04T04:00:00.000Z",
     "end": "2017-06-05T04:00:00.000Z",
     "name": "Pentecost",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-06-05 00:00:00",
     "start": "2017-06-05T04:00:00.000Z",
     "end": "2017-06-06T04:00:00.000Z",
     "name": "Whit Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-07-10 00:00:00",
     "start": "2017-07-10T04:00:00.000Z",
     "end": "2017-07-11T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-08-07 00:00:00",
     "start": "2017-08-07T04:00:00.000Z",
     "end": "2017-08-08T04:00:00.000Z",
     "name": "Emancipation Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-10-12 00:00:00",
     "start": "2017-10-12T04:00:00.000Z",
     "end": "2017-10-13T04:00:00.000Z",
     "name": "National Heroes' Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T05:00:00.000Z",
     "end": "2017-12-26T05:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-26 00:00:00",
     "start": "2017-12-26T05:00:00.000Z",
     "end": "2017-12-27T05:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]

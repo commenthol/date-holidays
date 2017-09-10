@@ -4,111 +4,127 @@
     "start": "2017-12-31T21:00:00.000Z",
     "end": "2018-01-01T21:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-01-26 00:00:00",
     "start": "2018-01-25T21:00:00.000Z",
     "end": "2018-01-26T21:00:00.000Z",
     "name": "Liberation Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-02-14 00:00:00",
     "start": "2018-02-13T21:00:00.000Z",
     "end": "2018-02-14T21:00:00.000Z",
     "name": "Ash Wednesday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-02-16 00:00:00",
     "start": "2018-02-15T21:00:00.000Z",
     "end": "2018-02-16T21:00:00.000Z",
     "name": "Archbishop Janan Luwum Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-03-08 00:00:00",
     "start": "2018-03-07T21:00:00.000Z",
     "end": "2018-03-08T21:00:00.000Z",
     "name": "International Women's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-03-30 00:00:00",
     "start": "2018-03-29T21:00:00.000Z",
     "end": "2018-03-30T21:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-04-01 00:00:00",
     "start": "2018-03-31T21:00:00.000Z",
     "end": "2018-04-01T21:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-04-02 00:00:00",
     "start": "2018-04-01T21:00:00.000Z",
     "end": "2018-04-02T21:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-05-01 00:00:00",
     "start": "2018-04-30T21:00:00.000Z",
     "end": "2018-05-01T21:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-06-03 00:00:00",
     "start": "2018-06-02T21:00:00.000Z",
     "end": "2018-06-03T21:00:00.000Z",
     "name": "Martyr's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-06-09 00:00:00",
     "start": "2018-06-08T21:00:00.000Z",
     "end": "2018-06-09T21:00:00.000Z",
     "name": "National Heroes Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-06-15 00:00:00 -0600",
     "start": "2018-06-14T15:00:00.000Z",
     "end": "2018-06-15T15:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-08-21 00:00:00 -0600",
     "start": "2018-08-20T15:00:00.000Z",
     "end": "2018-08-21T15:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-10-09 00:00:00",
     "start": "2018-10-08T21:00:00.000Z",
     "end": "2018-10-09T21:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T21:00:00.000Z",
     "end": "2018-12-25T21:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-26 00:00:00",
     "start": "2018-12-25T21:00:00.000Z",
     "end": "2018-12-26T21:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   }
 ]

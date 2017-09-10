@@ -4,90 +4,103 @@
     "start": "2015-01-01T04:00:00.000Z",
     "end": "2015-01-02T04:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-03T04:00:00.000Z",
     "end": "2015-04-04T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-05T04:00:00.000Z",
     "end": "2015-04-06T04:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-06T04:00:00.000Z",
     "end": "2015-04-07T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-05-01T04:00:00.000Z",
     "end": "2015-05-02T04:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-24 00:00:00",
     "start": "2015-05-24T04:00:00.000Z",
     "end": "2015-05-25T04:00:00.000Z",
     "name": "Pentecost",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-25T04:00:00.000Z",
     "end": "2015-05-26T04:00:00.000Z",
     "name": "Whit Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-08-01 00:00:00",
     "start": "2015-08-01T04:00:00.000Z",
     "end": "2015-08-02T04:00:00.000Z",
     "name": "J'Ouvert Morning",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-08-02 00:00:00",
     "start": "2015-08-02T04:00:00.000Z",
     "end": "2015-08-03T04:00:00.000Z",
     "name": "Last Lap",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-11-02 00:00:00",
     "start": "2015-11-02T04:00:00.000Z",
     "end": "2015-11-03T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-12-09 00:00:00",
     "start": "2015-12-09T04:00:00.000Z",
     "end": "2015-12-10T04:00:00.000Z",
     "name": "V.C Bird Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-25T04:00:00.000Z",
     "end": "2015-12-26T04:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-26T04:00:00.000Z",
     "end": "2015-12-27T04:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   }
 ]

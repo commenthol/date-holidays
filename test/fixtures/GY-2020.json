@@ -4,56 +4,64 @@
     "start": "2020-01-01T04:00:00.000Z",
     "end": "2020-01-02T04:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-02-23 00:00:00",
     "start": "2020-02-23T04:00:00.000Z",
     "end": "2020-02-24T04:00:00.000Z",
     "name": "Republic Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-10T04:00:00.000Z",
     "end": "2020-04-11T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-04-13 00:00:00",
     "start": "2020-04-13T04:00:00.000Z",
     "end": "2020-04-14T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-05-01 00:00:00",
     "start": "2020-05-01T04:00:00.000Z",
     "end": "2020-05-02T04:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-05-05 00:00:00",
     "start": "2020-05-05T04:00:00.000Z",
     "end": "2020-05-06T04:00:00.000Z",
     "name": "Arrival Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-05-26 00:00:00",
     "start": "2020-05-26T04:00:00.000Z",
     "end": "2020-05-27T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-07-06 00:00:00",
     "start": "2020-07-06T04:00:00.000Z",
     "end": "2020-07-07T04:00:00.000Z",
     "name": "CARICOM Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-07-31 00:00:00 -0600",
@@ -61,14 +69,16 @@
     "end": "2020-07-31T22:00:00.000Z",
     "name": "Eid Ul Adha",
     "note": "tentative",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-08-01 00:00:00",
     "start": "2020-08-01T04:00:00.000Z",
     "end": "2020-08-02T04:00:00.000Z",
     "name": "Emancipation Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-10-29 00:00:00 -0600",
@@ -76,20 +86,23 @@
     "end": "2020-10-29T22:00:00.000Z",
     "name": "Youman Nabi",
     "note": "tentative",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-25T04:00:00.000Z",
     "end": "2020-12-26T04:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-26 00:00:00",
     "start": "2020-12-26T04:00:00.000Z",
     "end": "2020-12-27T04:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   }
 ]

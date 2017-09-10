@@ -4,118 +4,135 @@
     "start": "2016-12-31T22:00:00.000Z",
     "end": "2017-01-01T22:00:00.000Z",
     "name": "Uudenvuodenpäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-01-06 00:00:00",
     "start": "2017-01-05T22:00:00.000Z",
     "end": "2017-01-06T22:00:00.000Z",
     "name": "Loppiainen",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-13T21:00:00.000Z",
     "end": "2017-04-14T21:00:00.000Z",
     "name": "Pitkäperjantai",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-15T21:00:00.000Z",
     "end": "2017-04-16T21:00:00.000Z",
     "name": "Pääsiäispäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T21:00:00.000Z",
     "end": "2017-04-17T21:00:00.000Z",
     "name": "2. pääsiäispäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-05-01 00:00:00",
     "start": "2017-04-30T21:00:00.000Z",
     "end": "2017-05-01T21:00:00.000Z",
     "name": "Vappu",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-13T21:00:00.000Z",
     "end": "2017-05-14T21:00:00.000Z",
     "name": "Äitien päivä",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-05-25 00:00:00",
     "start": "2017-05-24T21:00:00.000Z",
     "end": "2017-05-25T21:00:00.000Z",
     "name": "Helatorstai",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-06-04 00:00:00",
     "start": "2017-06-03T21:00:00.000Z",
     "end": "2017-06-04T21:00:00.000Z",
     "name": "Helluntaipäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-06-23 00:00:00",
     "start": "2017-06-22T21:00:00.000Z",
     "end": "2017-06-23T21:00:00.000Z",
     "name": "Juhannusaatto",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-06-24 00:00:00",
     "start": "2017-06-23T21:00:00.000Z",
     "end": "2017-06-24T21:00:00.000Z",
     "name": "Juhannuspäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-11-04 00:00:00",
     "start": "2017-11-03T22:00:00.000Z",
     "end": "2017-11-04T22:00:00.000Z",
     "name": "Pyhäinpäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-12-06 00:00:00",
     "start": "2017-12-05T22:00:00.000Z",
     "end": "2017-12-06T22:00:00.000Z",
     "name": "Itsenäisyyspäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-12-24 00:00:00",
     "start": "2017-12-23T22:00:00.000Z",
     "end": "2017-12-24T22:00:00.000Z",
     "name": "Jouluaatto",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-24T22:00:00.000Z",
     "end": "2017-12-25T22:00:00.000Z",
     "name": "Joulupäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-26 00:00:00",
     "start": "2017-12-25T22:00:00.000Z",
     "end": "2017-12-26T22:00:00.000Z",
     "name": "2. joulupäivä",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-12-31 00:00:00",
     "start": "2017-12-30T22:00:00.000Z",
     "end": "2017-12-31T22:00:00.000Z",
     "name": "Uudenvuodenaatto",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Sun"
   }
 ]

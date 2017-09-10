@@ -4,118 +4,135 @@
     "start": "2017-01-01T03:30:00.000Z",
     "end": "2017-01-02T03:30:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-03-17 00:00:00",
     "start": "2017-03-17T02:30:00.000Z",
     "end": "2017-03-18T02:30:00.000Z",
     "name": "Saint Patrick's Day",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-14T02:30:00.000Z",
     "end": "2017-04-15T02:30:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-16T02:30:00.000Z",
     "end": "2017-04-17T02:30:00.000Z",
     "name": "Easter Sunday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-04-23 00:00:00",
     "start": "2017-04-23T02:30:00.000Z",
     "end": "2017-04-24T02:30:00.000Z",
     "name": "Saint George's Day",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-14T02:30:00.000Z",
     "end": "2017-05-15T02:30:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-05-22 00:00:00",
     "start": "2017-05-22T02:30:00.000Z",
     "end": "2017-05-23T02:30:00.000Z",
     "name": "Victoria Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-06-18 00:00:00",
     "start": "2017-06-18T02:30:00.000Z",
     "end": "2017-06-19T02:30:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-06-24 00:00:00",
     "start": "2017-06-24T02:30:00.000Z",
     "end": "2017-06-25T02:30:00.000Z",
     "name": "Discovery Day",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-07-01 00:00:00",
     "start": "2017-07-01T02:30:00.000Z",
     "end": "2017-07-02T02:30:00.000Z",
     "name": "Canada Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-07-12 00:00:00",
     "start": "2017-07-12T02:30:00.000Z",
     "end": "2017-07-13T02:30:00.000Z",
     "name": "Orangemen's Day",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-08-07 00:00:00",
     "start": "2017-08-07T02:30:00.000Z",
     "end": "2017-08-08T02:30:00.000Z",
     "name": "Civic Holiday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-09-04 00:00:00",
     "start": "2017-09-04T02:30:00.000Z",
     "end": "2017-09-05T02:30:00.000Z",
     "name": "Labor Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-10-09 00:00:00",
     "start": "2017-10-09T02:30:00.000Z",
     "end": "2017-10-10T02:30:00.000Z",
     "name": "Thanksgiving",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-11-11 00:00:00",
     "start": "2017-11-11T03:30:00.000Z",
     "end": "2017-11-12T03:30:00.000Z",
     "name": "Armistice Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T03:30:00.000Z",
     "end": "2017-12-26T03:30:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-12-26 00:00:00",
     "start": "2017-12-26T03:30:00.000Z",
     "end": "2017-12-27T03:30:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]

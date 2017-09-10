@@ -4,63 +4,72 @@
     "start": "2019-01-01T06:00:00.000Z",
     "end": "2019-01-02T06:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-01-16 00:00:00",
     "start": "2019-01-16T06:00:00.000Z",
     "end": "2019-01-17T06:00:00.000Z",
     "name": "Firma de los Acuerdos de Paz",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-03-08 00:00:00",
     "start": "2019-03-08T06:00:00.000Z",
     "end": "2019-03-09T06:00:00.000Z",
     "name": "Día de la Mujer",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-18 00:00:00",
     "start": "2019-04-18T06:00:00.000Z",
     "end": "2019-04-19T06:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T06:00:00.000Z",
     "end": "2019-04-20T06:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-20 00:00:00",
     "start": "2019-04-20T06:00:00.000Z",
     "end": "2019-04-21T06:00:00.000Z",
     "name": "Sabado Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T06:00:00.000Z",
     "end": "2019-04-22T06:00:00.000Z",
     "name": "Pascua",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T06:00:00.000Z",
     "end": "2019-05-02T06:00:00.000Z",
     "name": "Fiesta del trabajo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-05-07 00:00:00",
     "start": "2019-05-07T06:00:00.000Z",
     "end": "2019-05-08T06:00:00.000Z",
     "name": "Día del Soldado",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-05-10 00:00:00",
@@ -68,14 +77,16 @@
     "end": "2019-05-11T06:00:00.000Z",
     "name": "Día de la Madre",
     "type": "optional",
-    "note": "Public Offices only"
+    "note": "Public Offices only",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-06-17 00:00:00",
     "start": "2019-06-17T06:00:00.000Z",
     "end": "2019-06-18T06:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-06-22 00:00:00",
@@ -83,34 +94,39 @@
     "end": "2019-06-23T06:00:00.000Z",
     "name": "Día del Maestro",
     "type": "optional",
-    "note": "Dayoff for teachers only"
+    "note": "Dayoff for teachers only",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-08-06 00:00:00",
     "start": "2019-08-06T06:00:00.000Z",
     "end": "2019-08-07T06:00:00.000Z",
     "name": "Celebración del Divino Salvador del Mundo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-09-15 00:00:00",
     "start": "2019-09-15T06:00:00.000Z",
     "end": "2019-09-16T06:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-11-02 00:00:00",
     "start": "2019-11-02T06:00:00.000Z",
     "end": "2019-11-03T06:00:00.000Z",
     "name": "Día de los Difuntos",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T06:00:00.000Z",
     "end": "2019-12-26T06:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   }
 ]

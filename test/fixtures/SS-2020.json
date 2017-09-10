@@ -4,83 +4,95 @@
     "start": "2019-12-31T22:00:00.000Z",
     "end": "2020-01-01T22:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-01-09 00:00:00",
     "start": "2020-01-08T22:00:00.000Z",
     "end": "2020-01-09T22:00:00.000Z",
     "name": "Peace Agreement Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-03-08 00:00:00",
     "start": "2020-03-07T22:00:00.000Z",
     "end": "2020-03-08T22:00:00.000Z",
     "name": "International Women's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-05-16 00:00:00",
     "start": "2020-05-15T22:00:00.000Z",
     "end": "2020-05-16T22:00:00.000Z",
     "name": "SPLA Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2020-05-25 00:00:00 -0600",
     "start": "2020-05-24T16:00:00.000Z",
     "end": "2020-05-25T16:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-07-06 00:00:00",
     "start": "2020-07-05T22:00:00.000Z",
     "end": "2020-07-06T22:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-07-09 00:00:00",
     "start": "2020-07-08T22:00:00.000Z",
     "end": "2020-07-09T22:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-07-30 00:00:00",
     "start": "2020-07-29T22:00:00.000Z",
     "end": "2020-07-30T22:00:00.000Z",
     "name": "Martyrs Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-08-02 00:00:00 -0600",
     "start": "2020-08-01T16:00:00.000Z",
     "end": "2020-08-02T16:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-24T22:00:00.000Z",
     "end": "2020-12-25T22:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-12-28 00:00:00",
     "start": "2020-12-27T22:00:00.000Z",
     "end": "2020-12-28T22:00:00.000Z",
     "name": "Republic Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2020-12-31 00:00:00",
     "start": "2020-12-30T22:00:00.000Z",
     "end": "2020-12-31T22:00:00.000Z",
     "name": "New Year's Eve",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   }
 ]

@@ -4,118 +4,135 @@
     "start": "2017-12-31T22:00:00.000Z",
     "end": "2018-01-01T22:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-03-21 00:00:00",
     "start": "2018-03-20T22:00:00.000Z",
     "end": "2018-03-21T22:00:00.000Z",
     "name": "Human Rights Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-03-30 00:00:00",
     "start": "2018-03-29T22:00:00.000Z",
     "end": "2018-03-30T22:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-04-01 00:00:00",
     "start": "2018-03-31T22:00:00.000Z",
     "end": "2018-04-01T22:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-04-02 00:00:00",
     "start": "2018-04-01T22:00:00.000Z",
     "end": "2018-04-02T22:00:00.000Z",
     "name": "Family Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-04-27 00:00:00",
     "start": "2018-04-26T22:00:00.000Z",
     "end": "2018-04-27T22:00:00.000Z",
     "name": "Freedom Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-05-01 00:00:00",
     "start": "2018-04-30T22:00:00.000Z",
     "end": "2018-05-01T22:00:00.000Z",
     "name": "Workers' Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-05-13 00:00:00",
     "start": "2018-05-12T22:00:00.000Z",
     "end": "2018-05-13T22:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-06-16 00:00:00",
     "start": "2018-06-15T22:00:00.000Z",
     "end": "2018-06-16T22:00:00.000Z",
     "name": "Youth Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-06-17 00:00:00",
     "start": "2018-06-16T22:00:00.000Z",
     "end": "2018-06-17T22:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-07-18 00:00:00",
     "start": "2018-07-17T22:00:00.000Z",
     "end": "2018-07-18T22:00:00.000Z",
     "name": "Nelson Mandela Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-08-09 00:00:00",
     "start": "2018-08-08T22:00:00.000Z",
     "end": "2018-08-09T22:00:00.000Z",
     "name": "National Women's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-09-24 00:00:00",
     "start": "2018-09-23T22:00:00.000Z",
     "end": "2018-09-24T22:00:00.000Z",
     "name": "Heritage Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-16 00:00:00",
     "start": "2018-12-15T22:00:00.000Z",
     "end": "2018-12-16T22:00:00.000Z",
     "name": "Day of Reconciliation",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-12-17 00:00:00",
     "start": "2018-12-16T22:00:00.000Z",
     "end": "2018-12-17T22:00:00.000Z",
     "name": "Public Holiday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T22:00:00.000Z",
     "end": "2018-12-25T22:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-26 00:00:00",
     "start": "2018-12-25T22:00:00.000Z",
     "end": "2018-12-26T22:00:00.000Z",
     "name": "Day of Goodwill",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   }
 ]

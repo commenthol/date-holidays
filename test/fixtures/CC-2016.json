@@ -4,70 +4,80 @@
     "start": "2015-12-31T17:30:00.000Z",
     "end": "2016-01-01T17:30:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-01-26 00:00:00",
     "start": "2016-01-25T17:30:00.000Z",
     "end": "2016-01-26T17:30:00.000Z",
     "name": "Australia Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-02-08 00:00:00",
     "start": "2016-02-07T17:30:00.000Z",
     "end": "2016-02-08T17:30:00.000Z",
     "name": "Chinese New Year",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-02-09 00:00:00",
     "start": "2016-02-08T17:30:00.000Z",
     "end": "2016-02-09T17:30:00.000Z",
     "name": "Chinese New Year (2nd Day)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-03-20 00:00:00",
     "start": "2016-03-19T17:30:00.000Z",
     "end": "2016-03-20T17:30:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T17:30:00.000Z",
     "end": "2016-03-28T17:30:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-04-06 00:00:00",
     "start": "2016-04-05T17:30:00.000Z",
     "end": "2016-04-06T17:30:00.000Z",
     "name": "Self Determination Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-04-25 00:00:00",
     "start": "2016-04-24T17:30:00.000Z",
     "end": "2016-04-25T17:30:00.000Z",
     "name": "Anzac Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-07-06 00:00:00 -0600",
     "start": "2016-07-05T11:30:00.000Z",
     "end": "2016-07-06T11:30:00.000Z",
     "name": "Hari Raya Puasa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-09-11 00:00:00 -0600",
     "start": "2016-09-10T11:30:00.000Z",
     "end": "2016-09-11T11:30:00.000Z",
     "name": "Hari Raya Haji",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-09-12 00:00:00 -0600",
@@ -75,14 +85,16 @@
     "end": "2016-09-12T11:30:00.000Z",
     "name": "Hari Raya Haji (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2016-10-02 00:00:00 -0600",
     "start": "2016-10-01T11:30:00.000Z",
     "end": "2016-10-02T11:30:00.000Z",
     "name": "Islamic New Year",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-10-03 00:00:00 -0600",
@@ -90,14 +102,16 @@
     "end": "2016-10-03T11:30:00.000Z",
     "name": "Islamic New Year (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-11 00:00:00 -0600",
     "start": "2016-12-10T11:30:00.000Z",
     "end": "2016-12-11T11:30:00.000Z",
     "name": "Hari Maulaud Nabi",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-12 00:00:00 -0600",
@@ -105,21 +119,24 @@
     "end": "2016-12-12T11:30:00.000Z",
     "name": "Hari Maulaud Nabi (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T17:30:00.000Z",
     "end": "2016-12-25T17:30:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T17:30:00.000Z",
     "end": "2016-12-26T17:30:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-27 00:00:00",
@@ -127,6 +144,7 @@
     "end": "2016-12-27T17:30:00.000Z",
     "name": "Christmas Day (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Tue"
   }
 ]

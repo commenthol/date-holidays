@@ -4,97 +4,111 @@
     "start": "2014-12-31T22:00:00.000Z",
     "end": "2015-01-01T22:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-02T22:00:00.000Z",
     "end": "2015-04-03T22:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-05T22:00:00.000Z",
     "end": "2015-04-06T22:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-04-18 00:00:00",
     "start": "2015-04-17T22:00:00.000Z",
     "end": "2015-04-18T22:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T22:00:00.000Z",
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-09T22:00:00.000Z",
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-24T22:00:00.000Z",
     "end": "2015-05-25T22:00:00.000Z",
     "name": "Africa Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-21 00:00:00",
     "start": "2015-06-20T22:00:00.000Z",
     "end": "2015-06-21T22:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-08-10 00:00:00",
     "start": "2015-08-09T22:00:00.000Z",
     "end": "2015-08-10T22:00:00.000Z",
     "name": "Heroes' Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-08-11 00:00:00",
     "start": "2015-08-10T22:00:00.000Z",
     "end": "2015-08-11T22:00:00.000Z",
     "name": "Defence Forces Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-12-22 00:00:00",
     "start": "2015-12-21T22:00:00.000Z",
     "end": "2015-12-22T22:00:00.000Z",
     "name": "Unity Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T22:00:00.000Z",
     "end": "2015-12-25T22:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-25T22:00:00.000Z",
     "end": "2015-12-26T22:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   }
 ]

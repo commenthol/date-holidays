@@ -4,139 +4,159 @@
     "start": "2016-01-01T03:00:00.000Z",
     "end": "2016-01-02T03:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-02-08 00:00:00",
     "start": "2016-02-08T03:00:00.000Z",
     "end": "2016-02-09T03:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-02-09 00:00:00",
     "start": "2016-02-09T03:00:00.000Z",
     "end": "2016-02-10T03:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-03-24 00:00:00",
     "start": "2016-03-24T03:00:00.000Z",
     "end": "2016-03-25T03:00:00.000Z",
     "name": "Día de la Memoria por la Verdad y la Justicia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-03-24 00:00:00",
     "start": "2016-03-24T03:00:00.000Z",
     "end": "2016-03-25T03:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-25T03:00:00.000Z",
     "end": "2016-03-26T03:00:00.000Z",
     "name": "Feriado Puente Turístico",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-25T03:00:00.000Z",
     "end": "2016-03-26T03:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-04-02 00:00:00",
     "start": "2016-04-02T03:00:00.000Z",
     "end": "2016-04-03T03:00:00.000Z",
     "name": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-05-01T03:00:00.000Z",
     "end": "2016-05-02T03:00:00.000Z",
     "name": "Fiesta del trabajo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-25 00:00:00",
     "start": "2016-05-25T03:00:00.000Z",
     "end": "2016-05-26T03:00:00.000Z",
     "name": "Primer Gobierno Patrio",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-06-20 00:00:00",
     "start": "2016-06-20T03:00:00.000Z",
     "end": "2016-06-21T03:00:00.000Z",
     "name": "Día de la Bandera",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-07-09 00:00:00",
     "start": "2016-07-09T03:00:00.000Z",
     "end": "2016-07-10T03:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-08-15 00:00:00",
     "start": "2016-08-15T03:00:00.000Z",
     "end": "2016-08-16T03:00:00.000Z",
     "name": "Día del Libertador José de San Martín",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-10-10 00:00:00",
     "start": "2016-10-10T03:00:00.000Z",
     "end": "2016-10-11T03:00:00.000Z",
     "name": "Día del Respeto a la Diversidad Cultural",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-11-28 00:00:00",
     "start": "2016-11-28T03:00:00.000Z",
     "end": "2016-11-29T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-08 00:00:00",
     "start": "2016-12-08T03:00:00.000Z",
     "end": "2016-12-09T03:00:00.000Z",
     "name": "La inmaculada concepción",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-12-09 00:00:00",
     "start": "2016-12-09T03:00:00.000Z",
     "end": "2016-12-10T03:00:00.000Z",
     "name": "Feriado Puente Turístico",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-12-24 12:00:00",
     "start": "2016-12-24T15:00:00.000Z",
     "end": "2016-12-25T03:00:00.000Z",
     "name": "Nochebuena",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-25T03:00:00.000Z",
     "end": "2016-12-26T03:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-31 12:00:00",
     "start": "2016-12-31T15:00:00.000Z",
     "end": "2017-01-01T03:00:00.000Z",
     "name": "Fin del Año",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Sat"
   }
 ]

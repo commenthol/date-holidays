@@ -4,35 +4,40 @@
     "start": "2017-12-31T15:00:00.000Z",
     "end": "2018-01-01T15:00:00.000Z",
     "name": "元日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-01-02 00:00:00",
     "start": "2018-01-01T15:00:00.000Z",
     "end": "2018-01-02T15:00:00.000Z",
     "name": "銀行休業日",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-01-03 00:00:00",
     "start": "2018-01-02T15:00:00.000Z",
     "end": "2018-01-03T15:00:00.000Z",
     "name": "銀行休業日",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-01-08 00:00:00",
     "start": "2018-01-07T15:00:00.000Z",
     "end": "2018-01-08T15:00:00.000Z",
     "name": "成人の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-02-11 00:00:00",
     "start": "2018-02-10T15:00:00.000Z",
     "end": "2018-02-11T15:00:00.000Z",
     "name": "建国記念の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-02-12 00:00:00",
@@ -40,21 +45,24 @@
     "end": "2018-02-12T15:00:00.000Z",
     "name": "建国記念の日 (代替日)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-03-21 00:00:00",
     "start": "2018-03-20T15:00:00.000Z",
     "end": "2018-03-21T15:00:00.000Z",
     "name": "春分の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-04-29 00:00:00",
     "start": "2018-04-28T15:00:00.000Z",
     "end": "2018-04-29T15:00:00.000Z",
     "name": "昭和の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-04-30 00:00:00",
@@ -62,56 +70,64 @@
     "end": "2018-04-30T15:00:00.000Z",
     "name": "昭和の日 (代替日)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-05-03 00:00:00",
     "start": "2018-05-02T15:00:00.000Z",
     "end": "2018-05-03T15:00:00.000Z",
     "name": "憲法記念日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-05-04 00:00:00",
     "start": "2018-05-03T15:00:00.000Z",
     "end": "2018-05-04T15:00:00.000Z",
     "name": "みどりの日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-05-05 00:00:00",
     "start": "2018-05-04T15:00:00.000Z",
     "end": "2018-05-05T15:00:00.000Z",
     "name": "こどもの日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-07-16 00:00:00",
     "start": "2018-07-15T15:00:00.000Z",
     "end": "2018-07-16T15:00:00.000Z",
     "name": "海の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-08-11 00:00:00",
     "start": "2018-08-10T15:00:00.000Z",
     "end": "2018-08-11T15:00:00.000Z",
     "name": "山の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-09-17 00:00:00",
     "start": "2018-09-16T15:00:00.000Z",
     "end": "2018-09-17T15:00:00.000Z",
     "name": "敬老の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-09-23 00:00:00",
     "start": "2018-09-22T15:00:00.000Z",
     "end": "2018-09-23T15:00:00.000Z",
     "name": "秋分の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-09-24 00:00:00",
@@ -119,42 +135,48 @@
     "end": "2018-09-24T15:00:00.000Z",
     "name": "秋分の日 (代替日)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-10-08 00:00:00",
     "start": "2018-10-07T15:00:00.000Z",
     "end": "2018-10-08T15:00:00.000Z",
     "name": "体育の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-11-03 00:00:00",
     "start": "2018-11-02T15:00:00.000Z",
     "end": "2018-11-03T15:00:00.000Z",
     "name": "文化の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-11-15 00:00:00",
     "start": "2018-11-14T15:00:00.000Z",
     "end": "2018-11-15T15:00:00.000Z",
     "name": "七五三",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-11-23 00:00:00",
     "start": "2018-11-22T15:00:00.000Z",
     "end": "2018-11-23T15:00:00.000Z",
     "name": "勤労感謝の日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-12-23 00:00:00",
     "start": "2018-12-22T15:00:00.000Z",
     "end": "2018-12-23T15:00:00.000Z",
     "name": "天皇誕生日",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-12-24 00:00:00",
@@ -162,20 +184,23 @@
     "end": "2018-12-24T15:00:00.000Z",
     "name": "天皇誕生日 (代替日)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T15:00:00.000Z",
     "end": "2018-12-25T15:00:00.000Z",
     "name": "ノエル",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-31 00:00:00",
     "start": "2018-12-30T15:00:00.000Z",
     "end": "2018-12-31T15:00:00.000Z",
     "name": "大晦日",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Mon"
   }
 ]

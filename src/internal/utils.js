@@ -70,3 +70,25 @@ exports.toYear = function toYear (year) {
   }
   return year
 }
+
+/**
+* convert string to Date.
+* 2017        : year = 2017, month = 1, day = 1
+* '2017-07'   : year = 2017, month = 7, day = 1
+* '2017-07-03': year = 2017, month = 7, day = 3
+* @param {String} str
+* @param {Boolean} isUTC - return date in UTC
+* @return {Date}
+*/
+exports.toDate = function toDate (str, isUTC) {
+  const m = /^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?.*$/.exec((str || '').toString())
+  if (m) {
+    m.shift()
+    let [year, month, day] = m.map((num) => parseInt(num || 1, 10))
+    if (isUTC) {
+      return new Date(Date.UTC(year, month - 1, day))
+    } else {
+      return new Date(year, month - 1, day)
+    }
+  }
+}

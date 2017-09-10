@@ -36,7 +36,7 @@ class Data {
    */
   getCountries (lang) {
     var o = {}
-    var countries = this.data.holidays
+    var countries = this.data.holidays || {}
     Object.keys(countries).forEach((k) => {
       o[k] = this._name(countries, k, lang)
     })
@@ -131,8 +131,7 @@ class Data {
    */
   getHolidays () {
     var self = this
-    var tmp
-    var o
+    var rules
 
     if (!(this.opts && this.opts.country)) {
       return
@@ -141,28 +140,30 @@ class Data {
     var country = this.opts.country.toUpperCase()
     var state = this.opts.state
     var region = this.opts.region
+    var tmp = _.get(this.data, ['holidays', country])
 
-    if ((tmp = this.data.holidays[country])) {
-      o = {}
-      this._assign(o, tmp)
+    if (tmp) {
+      rules = {}
+      this._assign(rules, tmp)
       if ((state && tmp.regions && (tmp = tmp.regions[state])) ||
           (state && tmp.states && (tmp = tmp.states[state]))
       ) {
-        this._assign(o, tmp)
+        this._assign(rules, tmp)
         if (region && tmp.regions && (tmp = tmp.regions[region])) {
-          this._assign(o, tmp)
+          this._assign(rules, tmp)
         }
       }
-      Object.keys(o).forEach(function (key) {
+      Object.keys(rules).forEach(function (key) {
         // assign name references with `_name`
-        var _name = o[key]._name
+        var _name = rules[key]._name
         if (_name && self.data.names[_name]) {
-          delete o[key]._name
-          o[key] = _.merge({}, self.data.names[_name], o[key])
+          delete rules[key]._name
+          rules[key] = _.merge({}, self.data.names[_name], rules[key])
         }
       })
     }
-    return o
+
+    return rules
   }
 
   /**

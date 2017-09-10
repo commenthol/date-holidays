@@ -4,14 +4,16 @@
     "start": "2014-12-31T16:00:00.000Z",
     "end": "2015-01-01T16:00:00.000Z",
     "name": "元旦",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-02-19 00:00:00",
     "start": "2015-02-18T16:00:00.000Z",
     "end": "2015-02-19T16:00:00.000Z",
     "name": "春节",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2015-03-08 12:00:00",
@@ -19,21 +21,24 @@
     "end": "2015-03-08T16:00:00.000Z",
     "name": "国际妇女节",
     "note": "Women",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-04T16:00:00.000Z",
     "end": "2015-04-05T16:00:00.000Z",
     "name": "清明节 清明節",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T16:00:00.000Z",
     "end": "2015-05-01T16:00:00.000Z",
     "name": "劳动节",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2015-05-04 12:00:00",
@@ -41,7 +46,8 @@
     "end": "2015-05-04T16:00:00.000Z",
     "name": "青年节",
     "note": "Youth from the age of 14 to 28",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-01 00:00:00",
@@ -49,14 +55,16 @@
     "end": "2015-06-01T16:00:00.000Z",
     "name": "六一儿童节",
     "note": "Children below the age of 14",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-06-20 00:00:00",
     "start": "2015-06-19T16:00:00.000Z",
     "end": "2015-06-20T16:00:00.000Z",
     "name": "端午节",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-08-01 12:00:00",
@@ -64,20 +72,23 @@
     "end": "2015-08-01T16:00:00.000Z",
     "name": "建军节",
     "note": "Military personnel in active service",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2015-09-27 00:00:00",
     "start": "2015-09-26T16:00:00.000Z",
     "end": "2015-09-27T16:00:00.000Z",
     "name": "中秋节",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2015-10-01 00:00:00",
     "start": "2015-09-30T16:00:00.000Z",
     "end": "2015-10-01T16:00:00.000Z",
     "name": "国庆节",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   }
 ]

@@ -4,153 +4,175 @@
     "start": "2019-01-01T08:00:00.000Z",
     "end": "2019-01-02T08:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-01-21 00:00:00",
     "start": "2019-01-21T08:00:00.000Z",
     "end": "2019-01-22T08:00:00.000Z",
     "name": "Martin Luther King Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-02-14 00:00:00",
     "start": "2019-02-14T08:00:00.000Z",
     "end": "2019-02-15T08:00:00.000Z",
     "name": "Valentine's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-02-15 00:00:00",
     "start": "2019-02-15T08:00:00.000Z",
     "end": "2019-02-16T08:00:00.000Z",
     "name": "Susan B. Anthony Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-02-18 00:00:00",
     "start": "2019-02-18T08:00:00.000Z",
     "end": "2019-02-19T08:00:00.000Z",
     "name": "Washington’s Birthday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-03-31 00:00:00",
     "start": "2019-03-31T07:00:00.000Z",
     "end": "2019-04-01T07:00:00.000Z",
     "name": "César Chávez Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-04-15 00:00:00",
     "start": "2019-04-15T07:00:00.000Z",
     "end": "2019-04-16T07:00:00.000Z",
     "name": "Tax Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-04-24 00:00:00",
     "start": "2019-04-24T07:00:00.000Z",
     "end": "2019-04-25T07:00:00.000Z",
     "name": "Administrative Professionals Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-12T07:00:00.000Z",
     "end": "2019-05-13T07:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-05-19 00:00:00",
     "start": "2019-05-19T07:00:00.000Z",
     "end": "2019-05-20T07:00:00.000Z",
     "name": "Malcolm X Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-05-23 00:00:00",
     "start": "2019-05-23T07:00:00.000Z",
     "end": "2019-05-24T07:00:00.000Z",
     "name": "Harvey Milk Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-05-27 00:00:00",
     "start": "2019-05-27T07:00:00.000Z",
     "end": "2019-05-28T07:00:00.000Z",
     "name": "Memorial Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-06-16 00:00:00",
     "start": "2019-06-16T07:00:00.000Z",
     "end": "2019-06-17T07:00:00.000Z",
     "name": "Father's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-07-04 00:00:00",
     "start": "2019-07-04T07:00:00.000Z",
     "end": "2019-07-05T07:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-09-02 00:00:00",
     "start": "2019-09-02T07:00:00.000Z",
     "end": "2019-09-03T07:00:00.000Z",
     "name": "Labor Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-10-31 18:00:00",
     "start": "2019-11-01T01:00:00.000Z",
     "end": "2019-11-01T07:00:00.000Z",
     "name": "Halloween",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-11-11 00:00:00",
     "start": "2019-11-11T08:00:00.000Z",
     "end": "2019-11-12T08:00:00.000Z",
     "name": "Veterans Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-11-28 00:00:00",
     "start": "2019-11-28T08:00:00.000Z",
     "end": "2019-11-29T08:00:00.000Z",
     "name": "Thanksgiving Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-11-29 00:00:00",
     "start": "2019-11-29T08:00:00.000Z",
     "end": "2019-11-30T08:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-12-24 00:00:00",
     "start": "2019-12-24T08:00:00.000Z",
     "end": "2019-12-25T08:00:00.000Z",
     "name": "Christmas Eve",
-    "type": "optional"
+    "type": "optional",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T08:00:00.000Z",
     "end": "2019-12-26T08:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-12-31 18:00:00",
     "start": "2020-01-01T02:00:00.000Z",
     "end": "2020-01-01T08:00:00.000Z",
     "name": "New Year's Eve",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   }
 ]

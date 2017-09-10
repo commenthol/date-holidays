@@ -4,83 +4,95 @@
     "start": "2016-01-01T00:00:00.000Z",
     "end": "2016-01-02T00:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-06 00:00:00",
     "start": "2016-03-06T00:00:00.000Z",
     "end": "2016-03-07T00:00:00.000Z",
     "name": "Mother's Day",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-17 00:00:00",
     "start": "2016-03-17T00:00:00.000Z",
     "end": "2016-03-18T00:00:00.000Z",
     "name": "St. Patrick’s Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-25T00:00:00.000Z",
     "end": "2016-03-26T00:00:00.000Z",
     "name": "Good Friday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-27 00:00:00",
     "start": "2016-03-27T00:00:00.000Z",
     "end": "2016-03-27T23:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T23:00:00.000Z",
     "end": "2016-03-28T23:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-02 00:00:00",
     "start": "2016-05-01T23:00:00.000Z",
     "end": "2016-05-02T23:00:00.000Z",
     "name": "May Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-06-06 00:00:00",
     "start": "2016-06-05T23:00:00.000Z",
     "end": "2016-06-06T23:00:00.000Z",
     "name": "First Monday in June",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-08-01 00:00:00",
     "start": "2016-07-31T23:00:00.000Z",
     "end": "2016-08-01T23:00:00.000Z",
     "name": "First Monday in August",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-10-24 00:00:00",
     "start": "2016-10-23T23:00:00.000Z",
     "end": "2016-10-24T23:00:00.000Z",
     "name": "October Bank Holiday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-25T00:00:00.000Z",
     "end": "2016-12-26T00:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-26T00:00:00.000Z",
     "end": "2016-12-27T00:00:00.000Z",
     "name": "St. Stephen's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

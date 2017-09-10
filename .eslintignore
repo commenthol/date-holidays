@@ -1,6 +1,6 @@
-gen/**/node_modules
+node_modules
+examples/browser/bundle.js
 coverage/
 attic/
 lib/
 tmp/
-examples/

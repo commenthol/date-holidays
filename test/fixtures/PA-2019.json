@@ -4,56 +4,64 @@
     "start": "2019-01-01T05:00:00.000Z",
     "end": "2019-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-01-09 00:00:00",
     "start": "2019-01-09T05:00:00.000Z",
     "end": "2019-01-10T05:00:00.000Z",
     "name": "Día de los Mártires Caídos en la Gesta Patriótica",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-03-04 00:00:00",
     "start": "2019-03-04T05:00:00.000Z",
     "end": "2019-03-05T05:00:00.000Z",
     "name": "Carnaval",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-03-05 00:00:00",
     "start": "2019-03-05T05:00:00.000Z",
     "end": "2019-03-06T05:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T05:00:00.000Z",
     "end": "2019-04-20T05:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T05:00:00.000Z",
     "end": "2019-05-02T05:00:00.000Z",
     "name": "Fiesta del trabajo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-07-01 00:00:00",
     "start": "2019-07-01T05:00:00.000Z",
     "end": "2019-07-02T05:00:00.000Z",
     "name": "Presidential Inauguration",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-11-03 00:00:00",
     "start": "2019-11-03T05:00:00.000Z",
     "end": "2019-11-04T05:00:00.000Z",
     "name": "Día de la Separación (de Colombia)",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-11-04 00:00:00",
@@ -61,14 +69,16 @@
     "end": "2019-11-05T05:00:00.000Z",
     "name": "Día de la Separación (de Colombia) (día sustituto)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2019-11-10 00:00:00",
     "start": "2019-11-10T05:00:00.000Z",
     "end": "2019-11-11T05:00:00.000Z",
     "name": "Primer Grito de Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-11-11 00:00:00",
@@ -76,21 +86,24 @@
     "end": "2019-11-12T05:00:00.000Z",
     "name": "Primer Grito de Independencia (día sustituto)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2019-11-28 00:00:00",
     "start": "2019-11-28T05:00:00.000Z",
     "end": "2019-11-29T05:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-12-08 00:00:00",
     "start": "2019-12-08T05:00:00.000Z",
     "end": "2019-12-09T05:00:00.000Z",
     "name": "Día de la Madre",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-12-09 00:00:00",
@@ -98,13 +111,15 @@
     "end": "2019-12-10T05:00:00.000Z",
     "name": "Día de la Madre (día sustituto)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T05:00:00.000Z",
     "end": "2019-12-26T05:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   }
 ]

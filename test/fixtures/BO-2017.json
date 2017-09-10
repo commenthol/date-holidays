@@ -4,83 +4,95 @@
     "start": "2017-01-01T04:00:00.000Z",
     "end": "2017-01-02T04:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-02-02 00:00:00",
     "start": "2017-02-02T04:00:00.000Z",
     "end": "2017-02-03T04:00:00.000Z",
     "name": "Fiesta de la Virgen de Candelaria",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-02-27 00:00:00",
     "start": "2017-02-27T04:00:00.000Z",
     "end": "2017-02-28T04:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-02-28 00:00:00",
     "start": "2017-02-28T04:00:00.000Z",
     "end": "2017-03-01T04:00:00.000Z",
     "name": "Carnaval",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-14T04:00:00.000Z",
     "end": "2017-04-15T04:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-16T04:00:00.000Z",
     "end": "2017-04-17T04:00:00.000Z",
     "name": "Pascua",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-05-25 00:00:00",
     "start": "2017-05-25T04:00:00.000Z",
     "end": "2017-05-26T04:00:00.000Z",
     "name": "La Asunción",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-06-21 00:00:00",
     "start": "2017-06-21T04:00:00.000Z",
     "end": "2017-06-22T04:00:00.000Z",
     "name": "Año Nuevo Andino",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-08-02 00:00:00",
     "start": "2017-08-02T04:00:00.000Z",
     "end": "2017-08-03T04:00:00.000Z",
     "name": "Día de la Revolución Agraria, Productiva y Comunitaria",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-08-06 00:00:00",
     "start": "2017-08-06T04:00:00.000Z",
     "end": "2017-08-07T04:00:00.000Z",
     "name": "Día de la Patria",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-11-02 00:00:00",
     "start": "2017-11-02T04:00:00.000Z",
     "end": "2017-11-03T04:00:00.000Z",
     "name": "Día de los Difuntos",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T04:00:00.000Z",
     "end": "2017-12-26T04:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

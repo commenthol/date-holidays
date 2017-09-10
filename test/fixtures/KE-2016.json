@@ -4,35 +4,40 @@
     "start": "2015-12-31T21:00:00.000Z",
     "end": "2016-01-01T21:00:00.000Z",
     "name": "Mwaka mpya",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-24T21:00:00.000Z",
     "end": "2016-03-25T21:00:00.000Z",
     "name": "Ijumaa Kuu",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-27 00:00:00",
     "start": "2016-03-26T21:00:00.000Z",
     "end": "2016-03-27T21:00:00.000Z",
     "name": "Pasaka",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T21:00:00.000Z",
     "end": "2016-03-28T21:00:00.000Z",
     "name": "Jumatatu ya Pasaka",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T21:00:00.000Z",
     "end": "2016-05-01T21:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-02 00:00:00",
@@ -40,21 +45,24 @@
     "end": "2016-05-02T21:00:00.000Z",
     "name": "Labour Day (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2016-06-01 00:00:00",
     "start": "2016-05-31T21:00:00.000Z",
     "end": "2016-06-01T21:00:00.000Z",
     "name": "Siku ya Madaraka",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-07-06 00:00:00 -0600",
     "start": "2016-07-05T15:00:00.000Z",
     "end": "2016-07-06T15:00:00.000Z",
     "name": "Idd-ul-Fitr",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-09-11 00:00:00 -0600",
@@ -62,42 +70,48 @@
     "end": "2016-09-11T15:00:00.000Z",
     "name": "Idd-ul-Azha",
     "note": "For all persons belonging to the Islamic faith.",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-10-10 00:00:00",
     "start": "2016-10-09T21:00:00.000Z",
     "end": "2016-10-10T21:00:00.000Z",
     "name": "Moi Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-10-20 00:00:00",
     "start": "2016-10-19T21:00:00.000Z",
     "end": "2016-10-20T21:00:00.000Z",
     "name": "Siku ya Mashujaa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-12-12 00:00:00",
     "start": "2016-12-11T21:00:00.000Z",
     "end": "2016-12-12T21:00:00.000Z",
     "name": "Siku ya Jamhuri",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T21:00:00.000Z",
     "end": "2016-12-25T21:00:00.000Z",
     "name": "Krismasi",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T21:00:00.000Z",
     "end": "2016-12-26T21:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-27 00:00:00",
@@ -105,6 +119,7 @@
     "end": "2016-12-27T21:00:00.000Z",
     "name": "Krismasi (substitute day)",
     "type": "public",
-    "substitute": true
+    "substitute": true,
+    "_weekday": "Tue"
   }
 ]

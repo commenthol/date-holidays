@@ -4,97 +4,111 @@
     "start": "2015-12-31T23:00:00.000Z",
     "end": "2016-01-01T23:00:00.000Z",
     "name": "L-Ewwel tas-Sena",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-02-10 00:00:00",
     "start": "2016-02-09T23:00:00.000Z",
     "end": "2016-02-10T23:00:00.000Z",
     "name": "Nawfraġju ta' San Pawl",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-03-19 00:00:00",
     "start": "2016-03-18T23:00:00.000Z",
     "end": "2016-03-19T23:00:00.000Z",
     "name": "San Ġużepp",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-24T23:00:00.000Z",
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Il-Ġimgħa l-Kbira",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-31 00:00:00",
     "start": "2016-03-30T22:00:00.000Z",
     "end": "2016-03-31T22:00:00.000Z",
     "name": "Jum il-Ħelsien",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T22:00:00.000Z",
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Jum il-Ħaddiem",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-06-07 00:00:00",
     "start": "2016-06-06T22:00:00.000Z",
     "end": "2016-06-07T22:00:00.000Z",
     "name": "Sette Giugno",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-06-29 00:00:00",
     "start": "2016-06-28T22:00:00.000Z",
     "end": "2016-06-29T22:00:00.000Z",
     "name": "L-Imnarja",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-08-15 00:00:00",
     "start": "2016-08-14T22:00:00.000Z",
     "end": "2016-08-15T22:00:00.000Z",
     "name": "Santa Marija",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-09-08 00:00:00",
     "start": "2016-09-07T22:00:00.000Z",
     "end": "2016-09-08T22:00:00.000Z",
     "name": "Jum il-Vitorja",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-09-21 00:00:00",
     "start": "2016-09-20T22:00:00.000Z",
     "end": "2016-09-21T22:00:00.000Z",
     "name": "Jum l-Indipendenza",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-12-08 00:00:00",
     "start": "2016-12-07T23:00:00.000Z",
     "end": "2016-12-08T23:00:00.000Z",
     "name": "Il-Kunċizzjoni",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-12-13 00:00:00",
     "start": "2016-12-12T23:00:00.000Z",
     "end": "2016-12-13T23:00:00.000Z",
     "name": "Jum ir-Repubblika",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T23:00:00.000Z",
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Il-Milied",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   }
 ]

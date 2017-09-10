@@ -10,7 +10,7 @@ const _ = {
   omit: require('lodash.omit'),
   set: require('lodash.set')
 }
-const toYear = require('./internal/utils').toYear
+const {toYear, toDate} = require('./internal/utils')
 const Data = require('./Data')
 const DateFn = require('./DateFn')
 
@@ -50,6 +50,7 @@ Holidays.prototype = {
    * @param {Array|String} opts.languages - set language(s) with ISO 639-1 shortcodes
    * @param {String} opts.timezone - set timezone
    * @param {Array} opts.types - holiday types to consider
+   * @param {Object} [opts.data] - holiday data object - see data/holidays.json
    */
   init (country, state, region, opts) {
     var self = this
@@ -96,6 +97,7 @@ Holidays.prototype = {
    * @param {Object|String} [opts] - holiday options, if String then opts is used as name
    * @param {Object} opts.name - translated holiday names e.g. `{ en: 'name', es: 'nombre', ... }`
    * @param {String} opts.type - holiday type `public|bank|school|observance`
+   * @throws {TypeError}
    * @return {Boolean} if holiday could be set returns `true`
    */
   setHoliday (rule, opts) {
@@ -115,6 +117,21 @@ Holidays.prototype = {
       opts = _.set({type: 'public'}, ['name', lang], opts)
     }
 
+    // convert active properties to Date
+    if (opts.active) {
+      if (!Array.isArray(opts.active)) {
+        throw TypeError('.active is not of type Array: ' + rule)
+      }
+      opts.active = opts.active.map((a) => {
+        let from = toDate(a.from)
+        let to = toDate(a.to)
+        if (!(from || to)) {
+          throw TypeError('.active needs .from or .to property: ' + rule)
+        }
+        return {from, to}
+      })
+    }
+
     // check for supported type
     if (!this._hasType(opts.type)) {
       return false
@@ -127,7 +144,8 @@ Holidays.prototype = {
       this.holidays[rule].fn = fn
       return true
     } else {
-      console.error('could not parse rule:', rule)
+      // throw Error('could not parse rule: ' + rule) // NEXT
+      console.log('could not parse rule: ' + rule)
     }
     return false
   },

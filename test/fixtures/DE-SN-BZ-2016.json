@@ -4,105 +4,120 @@
     "start": "2015-12-31T23:00:00.000Z",
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Neujahr",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-02-04 00:00:00",
     "start": "2016-02-03T23:00:00.000Z",
     "end": "2016-02-04T23:00:00.000Z",
     "name": "Weiberfastnacht",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-02-08 00:00:00",
     "start": "2016-02-07T23:00:00.000Z",
     "end": "2016-02-08T23:00:00.000Z",
     "name": "Rosenmontag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-02-09 14:00:00",
     "start": "2016-02-09T13:00:00.000Z",
     "end": "2016-02-09T23:00:00.000Z",
     "name": "Faschingsdienstag",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-02-10 00:00:00",
     "start": "2016-02-09T23:00:00.000Z",
     "end": "2016-02-10T23:00:00.000Z",
     "name": "Aschermittwoch",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-02-14 00:00:00",
     "start": "2016-02-13T23:00:00.000Z",
     "end": "2016-02-14T23:00:00.000Z",
     "name": "Valentinstag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-24 00:00:00",
     "start": "2016-03-23T23:00:00.000Z",
     "end": "2016-03-24T23:00:00.000Z",
     "name": "Gründonnerstag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-24T23:00:00.000Z",
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Karfreitag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-03-27 00:00:00",
     "start": "2016-03-26T23:00:00.000Z",
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Ostermontag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T22:00:00.000Z",
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Maifeiertag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-05 00:00:00",
     "start": "2016-05-04T22:00:00.000Z",
     "end": "2016-05-05T22:00:00.000Z",
     "name": "Christi Himmelfahrt",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T22:00:00.000Z",
     "end": "2016-05-08T22:00:00.000Z",
     "name": "Muttertag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-15 00:00:00",
     "start": "2016-05-14T22:00:00.000Z",
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-16 00:00:00",
     "start": "2016-05-15T22:00:00.000Z",
     "end": "2016-05-16T22:00:00.000Z",
     "name": "Pfingstmontag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-05-26 00:00:00",
@@ -110,90 +125,103 @@
     "end": "2016-05-26T22:00:00.000Z",
     "name": "Fronleichnam",
     "type": "public",
-    "note": "Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau."
+    "note": "Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau.",
+    "_weekday": "Thu"
   },
   {
     "date": "2016-10-03 00:00:00",
     "start": "2016-10-02T22:00:00.000Z",
     "end": "2016-10-03T22:00:00.000Z",
     "name": "Tag der Deutschen Einheit",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-10-31 00:00:00",
     "start": "2016-10-30T23:00:00.000Z",
     "end": "2016-10-31T23:00:00.000Z",
     "name": "Reformationstag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-11-01 00:00:00",
     "start": "2016-10-31T23:00:00.000Z",
     "end": "2016-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Tue"
   },
   {
     "date": "2016-11-02 00:00:00",
     "start": "2016-11-01T23:00:00.000Z",
     "end": "2016-11-02T23:00:00.000Z",
     "name": "Allerseelen",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-11-11 00:00:00",
     "start": "2016-11-10T23:00:00.000Z",
     "end": "2016-11-11T23:00:00.000Z",
     "name": "Sankt Martin (Faschingsbeginn)",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2016-11-13 00:00:00",
     "start": "2016-11-12T23:00:00.000Z",
     "end": "2016-11-13T23:00:00.000Z",
     "name": "Volkstrauertag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-11-16 00:00:00",
     "start": "2016-11-15T23:00:00.000Z",
     "end": "2016-11-16T23:00:00.000Z",
     "name": "Buß- und Bettag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2016-11-20 00:00:00",
     "start": "2016-11-19T23:00:00.000Z",
     "end": "2016-11-20T23:00:00.000Z",
     "name": "Totensonntag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-24 14:00:00",
     "start": "2016-12-24T13:00:00.000Z",
     "end": "2016-12-24T23:00:00.000Z",
     "name": "Heiliger Abend",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Sat"
   },
   {
     "date": "2016-12-25 00:00:00",
     "start": "2016-12-24T23:00:00.000Z",
     "end": "2016-12-25T23:00:00.000Z",
     "name": "1. Weihnachtstag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T23:00:00.000Z",
     "end": "2016-12-26T23:00:00.000Z",
     "name": "2. Weihnachtstag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-12-31 14:00:00",
     "start": "2016-12-31T13:00:00.000Z",
     "end": "2016-12-31T23:00:00.000Z",
     "name": "Silvester",
-    "type": "bank"
+    "type": "bank",
+    "_weekday": "Sat"
   }
 ]

@@ -4,55 +4,63 @@
     "start": "2019-12-31T21:00:00.000Z",
     "end": "2020-01-01T21:00:00.000Z",
     "name": "Yılbaşı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-04-23 00:00:00",
     "start": "2020-04-22T21:00:00.000Z",
     "end": "2020-04-23T21:00:00.000Z",
     "name": "Ulusal Egemenlik ve Çocuk Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-05-01 00:00:00",
     "start": "2020-04-30T21:00:00.000Z",
     "end": "2020-05-01T21:00:00.000Z",
     "name": "Emek ve Dayanışma Günü",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-05-19 00:00:00",
     "start": "2020-05-18T21:00:00.000Z",
     "end": "2020-05-19T21:00:00.000Z",
     "name": "Atatürk'ü Anma Gençlik ve Spor Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-05-24 00:00:00 -0600",
     "start": "2020-05-23T15:00:00.000Z",
     "end": "2020-05-27T09:00:00.000Z",
     "name": "Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-07-31 00:00:00 -0600",
     "start": "2020-07-30T15:00:00.000Z",
     "end": "2020-08-04T09:00:00.000Z",
     "name": "Kurban Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-08-30 00:00:00",
     "start": "2020-08-29T21:00:00.000Z",
     "end": "2020-08-30T21:00:00.000Z",
     "name": "Zafer Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-10-29 00:00:00",
     "start": "2020-10-28T21:00:00.000Z",
     "end": "2020-10-29T21:00:00.000Z",
     "name": "Cumhuriyet Bayramı",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   }
 ]

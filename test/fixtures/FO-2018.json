@@ -4,77 +4,88 @@
     "start": "2018-01-01T00:00:00.000Z",
     "end": "2018-01-02T00:00:00.000Z",
     "name": "Nýggjársdagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-03-29 00:00:00",
     "start": "2018-03-28T23:00:00.000Z",
     "end": "2018-03-29T23:00:00.000Z",
     "name": "Skírhósdagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-03-30 00:00:00",
     "start": "2018-03-29T23:00:00.000Z",
     "end": "2018-03-30T23:00:00.000Z",
     "name": "Langafríggjadagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-04-01 00:00:00",
     "start": "2018-03-31T23:00:00.000Z",
     "end": "2018-04-01T23:00:00.000Z",
     "name": "Páskadagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-04-02 00:00:00",
     "start": "2018-04-01T23:00:00.000Z",
     "end": "2018-04-02T23:00:00.000Z",
     "name": "Annar páskadagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-04-24 00:00:00",
     "start": "2018-04-23T23:00:00.000Z",
     "end": "2018-04-24T23:00:00.000Z",
     "name": "Flaggdagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-04-27 00:00:00",
     "start": "2018-04-26T23:00:00.000Z",
     "end": "2018-04-27T23:00:00.000Z",
     "name": "Dýri biðidagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-05-10 00:00:00",
     "start": "2018-05-09T23:00:00.000Z",
     "end": "2018-05-10T23:00:00.000Z",
     "name": "Kristi Himmalsferðardagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-05-20 00:00:00",
     "start": "2018-05-19T23:00:00.000Z",
     "end": "2018-05-20T23:00:00.000Z",
     "name": "Hvítusunnudagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-05-21 00:00:00",
     "start": "2018-05-20T23:00:00.000Z",
     "end": "2018-05-21T23:00:00.000Z",
     "name": "Annar hvítusunnudagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-06-05 12:00:00",
     "start": "2018-06-05T11:00:00.000Z",
     "end": "2018-06-05T23:00:00.000Z",
     "name": "Grundlógardagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-07-28 12:00:00",
@@ -82,7 +93,8 @@
     "end": "2018-07-28T23:00:00.000Z",
     "name": "Sankt Olavsaften",
     "note": "half-day holiday for some workers' unions",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-07-29 00:00:00",
@@ -90,34 +102,39 @@
     "end": "2018-07-29T23:00:00.000Z",
     "name": "Ólavsøka",
     "note": "full holiday for most workers' unions",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-12-24 00:00:00",
     "start": "2018-12-24T00:00:00.000Z",
     "end": "2018-12-25T00:00:00.000Z",
     "name": "Jólaaftan",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-25T00:00:00.000Z",
     "end": "2018-12-26T00:00:00.000Z",
     "name": "Fyrsti jóladagur",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-12-26 00:00:00",
     "start": "2018-12-26T00:00:00.000Z",
     "end": "2018-12-27T00:00:00.000Z",
     "name": "Fyrsti gerandisdagur eftir jóladag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-12-31 12:00:00",
     "start": "2018-12-31T12:00:00.000Z",
     "end": "2019-01-01T00:00:00.000Z",
     "name": "Nýggjársaftan",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   }
 ]

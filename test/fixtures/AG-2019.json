@@ -4,90 +4,103 @@
     "start": "2019-01-01T04:00:00.000Z",
     "end": "2019-01-02T04:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T04:00:00.000Z",
     "end": "2019-04-20T04:00:00.000Z",
     "name": "Good Friday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T04:00:00.000Z",
     "end": "2019-04-22T04:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-04-22 00:00:00",
     "start": "2019-04-22T04:00:00.000Z",
     "end": "2019-04-23T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T04:00:00.000Z",
     "end": "2019-05-02T04:00:00.000Z",
     "name": "Labour Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-06-09 00:00:00",
     "start": "2019-06-09T04:00:00.000Z",
     "end": "2019-06-10T04:00:00.000Z",
     "name": "Pentecost",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-06-10 00:00:00",
     "start": "2019-06-10T04:00:00.000Z",
     "end": "2019-06-11T04:00:00.000Z",
     "name": "Whit Monday",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-08-01 00:00:00",
     "start": "2019-08-01T04:00:00.000Z",
     "end": "2019-08-02T04:00:00.000Z",
     "name": "J'Ouvert Morning",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-08-02 00:00:00",
     "start": "2019-08-02T04:00:00.000Z",
     "end": "2019-08-03T04:00:00.000Z",
     "name": "Last Lap",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-11-01 00:00:00",
     "start": "2019-11-01T04:00:00.000Z",
     "end": "2019-11-02T04:00:00.000Z",
     "name": "Independence Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-12-09 00:00:00",
     "start": "2019-12-09T04:00:00.000Z",
     "end": "2019-12-10T04:00:00.000Z",
     "name": "V.C Bird Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T04:00:00.000Z",
     "end": "2019-12-26T04:00:00.000Z",
     "name": "Christmas Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-12-26 00:00:00",
     "start": "2019-12-26T04:00:00.000Z",
     "end": "2019-12-27T04:00:00.000Z",
     "name": "Boxing Day",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   }
 ]

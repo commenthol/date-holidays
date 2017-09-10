@@ -1,4 +1,6 @@
-!(function () {
+/* global Holidays */
+
+;(function () {
   var WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   var year = new Date().getFullYear()
   var g = {year: year}
@@ -38,7 +40,7 @@
           Object.keys(obj).map(function (i) {
             return [
               '<option value="', i, '"',
-              i == self.selected ? ' selected' : '',
+              i == self.selected ? ' selected' : '', // eslint-disable-line eqeqeq
               '>', obj[i], '</option>'
             ].join('')
           }).join('')

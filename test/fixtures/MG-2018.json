@@ -4,76 +4,87 @@
     "start": "2017-12-31T21:00:00.000Z",
     "end": "2018-01-01T21:00:00.000Z",
     "name": "Taom-baovao",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-03-29 00:00:00",
     "start": "2018-03-28T21:00:00.000Z",
     "end": "2018-03-29T21:00:00.000Z",
     "name": "Martioran'ny tolona tamin'ny 1947",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-04-02 00:00:00",
     "start": "2018-04-01T21:00:00.000Z",
     "end": "2018-04-02T21:00:00.000Z",
     "name": "Alatsinain'ny Paska",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-05-01 00:00:00",
     "start": "2018-04-30T21:00:00.000Z",
     "end": "2018-05-01T21:00:00.000Z",
     "name": "Fetin'ny asa",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-05-10 00:00:00",
     "start": "2018-05-09T21:00:00.000Z",
     "end": "2018-05-10T21:00:00.000Z",
     "name": "Andro niakarana",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-05-21 00:00:00",
     "start": "2018-05-20T21:00:00.000Z",
     "end": "2018-05-21T21:00:00.000Z",
     "name": "Alatsinain'ny Pentekosta",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-05-25 00:00:00",
     "start": "2018-05-24T21:00:00.000Z",
     "end": "2018-05-25T21:00:00.000Z",
     "name": "Andron'i Afrika",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-06-26 00:00:00",
     "start": "2018-06-25T21:00:00.000Z",
     "end": "2018-06-26T21:00:00.000Z",
     "name": "Fetim-pirenena",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-08-15 00:00:00",
     "start": "2018-08-14T21:00:00.000Z",
     "end": "2018-08-15T21:00:00.000Z",
     "name": "Asompsiona",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-11-01 00:00:00",
     "start": "2018-10-31T21:00:00.000Z",
     "end": "2018-11-01T21:00:00.000Z",
     "name": "Fetin'ny olo-masina",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T21:00:00.000Z",
     "end": "2018-12-25T21:00:00.000Z",
     "name": "Krismasy",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   }
 ]

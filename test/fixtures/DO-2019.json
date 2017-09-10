@@ -4,83 +4,95 @@
     "start": "2019-01-01T04:00:00.000Z",
     "end": "2019-01-02T04:00:00.000Z",
     "name": "Año Nuevo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-01-06 00:00:00",
     "start": "2019-01-06T04:00:00.000Z",
     "end": "2019-01-07T04:00:00.000Z",
     "name": "Día de los Reyes Magos",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-01-21 00:00:00",
     "start": "2019-01-21T04:00:00.000Z",
     "end": "2019-01-22T04:00:00.000Z",
     "name": "Nuestra Señora de la Altagracia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-01-26 00:00:00",
     "start": "2019-01-26T04:00:00.000Z",
     "end": "2019-01-27T04:00:00.000Z",
     "name": "Día de Duarte",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-02-27 00:00:00",
     "start": "2019-02-27T04:00:00.000Z",
     "end": "2019-02-28T04:00:00.000Z",
     "name": "Día de la Independencia",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T04:00:00.000Z",
     "end": "2019-04-20T04:00:00.000Z",
     "name": "Viernes Santo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-29 00:00:00",
     "start": "2019-04-29T04:00:00.000Z",
     "end": "2019-04-30T04:00:00.000Z",
     "name": "Fiesta del trabajo",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-06-20 00:00:00",
     "start": "2019-06-20T04:00:00.000Z",
     "end": "2019-06-21T04:00:00.000Z",
     "name": "Corpus Christi",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-08-16 00:00:00",
     "start": "2019-08-16T04:00:00.000Z",
     "end": "2019-08-17T04:00:00.000Z",
     "name": "Día de la Restauración",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-09-24 00:00:00",
     "start": "2019-09-24T04:00:00.000Z",
     "end": "2019-09-25T04:00:00.000Z",
     "name": "Nuestra Señora de las Mercedes",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-11-11 00:00:00",
     "start": "2019-11-11T04:00:00.000Z",
     "end": "2019-11-12T04:00:00.000Z",
     "name": "Día de la Constitución",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T04:00:00.000Z",
     "end": "2019-12-26T04:00:00.000Z",
     "name": "Navidad",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   }
 ]

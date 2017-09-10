@@ -29,6 +29,8 @@ initialize holidays for a country/state/region
 
  - **opts.types**: `Array`, holiday types to consider
 
+ - **opts.data**: `Object`, holiday data object - see data/holidays.json
+
 
 ### Holidays.setHoliday(rule, opts) 
 

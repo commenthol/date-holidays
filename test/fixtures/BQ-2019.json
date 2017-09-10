@@ -4,90 +4,103 @@
     "start": "2019-01-01T04:00:00.000Z",
     "end": "2019-01-02T04:00:00.000Z",
     "name": "Nieuwjaar",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T04:00:00.000Z",
     "end": "2019-04-20T04:00:00.000Z",
     "name": "Goede Vrijdag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T04:00:00.000Z",
     "end": "2019-04-22T04:00:00.000Z",
     "name": "Pasen",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-04-22 00:00:00",
     "start": "2019-04-22T04:00:00.000Z",
     "end": "2019-04-23T04:00:00.000Z",
     "name": "Paasmaandag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-04-27 00:00:00",
     "start": "2019-04-27T04:00:00.000Z",
     "end": "2019-04-28T04:00:00.000Z",
     "name": "Koningsdag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T04:00:00.000Z",
     "end": "2019-05-02T04:00:00.000Z",
     "name": "Dag van de Arbeid",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-12T04:00:00.000Z",
     "end": "2019-05-13T04:00:00.000Z",
     "name": "Moederdag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-05-30 00:00:00",
     "start": "2019-05-30T04:00:00.000Z",
     "end": "2019-05-31T04:00:00.000Z",
     "name": "O.L.H. Hemelvaart",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-06-16 00:00:00",
     "start": "2019-06-16T04:00:00.000Z",
     "end": "2019-06-17T04:00:00.000Z",
     "name": "Vaderdag",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-12-05 00:00:00",
     "start": "2019-12-05T04:00:00.000Z",
     "end": "2019-12-06T04:00:00.000Z",
     "name": "Sinterklaasavond",
-    "type": "observance"
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2019-12-15 00:00:00",
     "start": "2019-12-15T04:00:00.000Z",
     "end": "2019-12-16T04:00:00.000Z",
     "name": "Koninkrijksdag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-25T04:00:00.000Z",
     "end": "2019-12-26T04:00:00.000Z",
     "name": "Kerstmis",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-12-26 00:00:00",
     "start": "2019-12-26T04:00:00.000Z",
     "end": "2019-12-27T04:00:00.000Z",
     "name": "Tweede kerstdag",
-    "type": "public"
+    "type": "public",
+    "_weekday": "Thu"
   }
 ]
