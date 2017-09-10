@@ -1,0 +1,19 @@
+holidays:
+  CUSTOM:
+    name:
+      en: custom
+    langs:
+      - en
+    ## if zones are missing then only local time is considered
+    # zones:
+    #   - UTC
+    days:
+      01-01:
+        name:
+          en: New Year
+      05-01 P5D:
+        name:
+          en: Laybour Day
+      12-25:
+        name:
+          en: Christmas

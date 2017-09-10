@@ -1,0 +1,4 @@
+-R dot
+--check-leaks
+--colors
+--compilers js:babel-register

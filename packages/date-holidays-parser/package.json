@@ -1,0 +1,83 @@
+{
+  "name": "date-holidays-parser",
+  "version": "1.1.0",
+  "description": "parser for worldwide holidays",
+  "keywords": [
+    "holidays",
+    "world"
+  ],
+  "homepage": "https://github.com/commenthol/date-holidays-parser",
+  "bugs": {
+    "url": "https://github.com/commenthol/date-holidays-parser/issues"
+  },
+  "license": "ISC",
+  "author": "commenthol <commenthol@gmail.com>",
+  "contributors": [],
+  "main": "lib",
+  "module": "src",
+  "jsnext:main": "src",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commenthol/date-holidays-parser.git"
+  },
+  "scripts": {
+    "all": "npm run clean && npm i && npm run lint && npm run transpile && npm run yaml && npm test && npm pack",
+    "clean": "rimraf .nyc_output coverage lib node_modules",
+    "cover": "nyc -r lcov -r text npm test",
+    "lint": "eslint --quiet '**/*.js'",
+    "test": "mocha",
+    "test:tz": "TZ=UTC-10 npm test && TZ=UTC+10 npm test",
+    "transpile": "babel -d lib src",
+    "zuul": "zuul test/Holidays.mocha.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "plugins": [
+      "standard"
+    ]
+  },
+  "dependencies": {
+    "astronomia": "^1.3.5",
+    "caldate": "^1.0.0",
+    "date-chinese": "^1.0.2",
+    "date-easter": "^0.2.2",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.0",
+    "lodash.omit": "^4.5.0",
+    "lodash.set": "^4.3.2",
+    "moment-timezone": "^0.5.13"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^7.3.0",
+    "core-js": "^2.5.1",
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "hashtree": "^0.7.0",
+    "mocha": "^3.5.1",
+    "nyc": "^11.2.1",
+    "rimraf": "^2.6.1",
+    "serialize-to-js": "^1.1.1",
+    "zuul": "^3.11.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "maintainers": "commenthol <commenthol@gmail.com>"
+}
