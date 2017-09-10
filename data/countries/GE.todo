@@ -1,0 +1,34 @@
+holidays:
+  GE:
+    names:
+      en: Georgia
+    langs: []
+    zones:
+      - Asia/Tbilisi
+    dayoff: ''
+    days: {}
+    states:
+      AB:
+        name: Abkhazia
+      AJ:
+        name: Adjara
+      GU:
+        name: Guria
+      IM:
+        name: Imereti
+      KA:
+        name: Kakheti
+      KK:
+        name: Kvemo Kartli
+      MM:
+        name: Mtskheta-Mtianeti
+      RL:
+        name: Racha-Lechkhumi and Kvemo Svaneti
+      SJ:
+        name: Samtskhe-Javakheti
+      SK:
+        name: Shida Kartli
+      SZ:
+        name: Samegrelo-Zemo Svaneti
+      TB:
+        name: Tbilisi

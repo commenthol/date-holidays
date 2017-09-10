@@ -1,0 +1,22 @@
+holidays:
+  KW:
+    names:
+      en: Kuwait
+    langs: []
+    zones:
+      - Asia/Riyadh
+    dayoff: ''
+    days: {}
+    states:
+      AH:
+        name: Al Ahmadi
+      FA:
+        name: Al Farwaniyah
+      HA:
+        name: Hawalli
+      JA:
+        name: Al Jahra
+      KU:
+        name: Al Asimah
+      MU:
+        name: Mubarak Al-Kabeer

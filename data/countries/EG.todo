@@ -1,0 +1,64 @@
+holidays:
+  EG:
+    names:
+      en: Egypt
+    langs: []
+    zones:
+      - Africa/Cairo
+    dayoff: ''
+    days: {}
+    states:
+      ALX:
+        name: Alexandria
+      ASN:
+        name: Aswan
+      AST:
+        name: Asyut
+      BA:
+        name: Red Sea
+      BH:
+        name: Beheira
+      BNS:
+        name: Beni Suef
+      C:
+        name: Cairo
+      DK:
+        name: Dakahlia
+      DT:
+        name: Damietta
+      FYM:
+        name: Faiyum
+      GH:
+        name: Gharbia
+      GZ:
+        name: Giza
+      IS:
+        name: Ismailia
+      JS:
+        name: South Sinai
+      KB:
+        name: Qalyubia
+      KFS:
+        name: Kafr el-Sheikh
+      KN:
+        name: Qena
+      LX:
+        name: Luxor
+      MN:
+        name: Minya
+      MNF:
+        name: Monufia
+      MT:
+        name: Matrouh
+      PTS:
+        name: Port Said
+      SHG:
+        name: Sohag
+      SHR:
+        name: Al Sharqia
+      SIN:
+        name: North Sinai
+      SUZ:
+        name: Suez
+      WAD:
+        name: New Valley

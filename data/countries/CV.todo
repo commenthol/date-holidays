@@ -1,0 +1,60 @@
+holidays:
+  CV:
+    names:
+      en: Cape Verde
+    langs: []
+    zones:
+      - Atlantic/Cape_Verde
+    dayoff: ''
+    days: {}
+    states:
+      B:
+        name: Barlavento Islands
+        regions:
+          BV:
+            name: Boa Vista
+          PA:
+            name: Paul
+          PN:
+            name: Porto Novo
+          RB:
+            name: Ribeira Brava
+          RG:
+            name: Ribeira Grande
+          SL:
+            name: Sal
+          SV:
+            name: São Vicente
+          TS:
+            name: Tarrafal de São Nicolau
+      S:
+        name: Sotavento Islands
+        regions:
+          BR:
+            name: Brava
+          CA:
+            name: Santa Catarina
+          CF:
+            name: Santa Catarina do Fogo
+          CR:
+            name: Santa Cruz
+          MA:
+            name: Maio
+          MO:
+            name: Mosteiros
+          PR:
+            name: Praia
+          RS:
+            name: Ribeira Grande de Santiago
+          SD:
+            name: São Domingos
+          SF:
+            name: São Filipe
+          SM:
+            name: São Miguel
+          SO:
+            name: São Lourenço dos Órgãos
+          SS:
+            name: São Salvador do Mundo
+          TA:
+            name: Tarrafal

@@ -1,0 +1,30 @@
+holidays:
+  SB:
+    names:
+      en: Solomon Islands
+    langs: []
+    zones:
+      - Pacific/Guadalcanal
+    dayoff: ''
+    days: {}
+    states:
+      CE:
+        name: Central
+      CH:
+        name: Choiseul
+      CT:
+        name: Honiara
+      GU:
+        name: Guadalcanal
+      IS:
+        name: Isabel
+      MK:
+        name: Makira-Ulawa
+      ML:
+        name: Malaita
+      RB:
+        name: Rennell and Bellona
+      TE:
+        name: Temotu
+      WE:
+        name: Western

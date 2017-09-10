@@ -1,0 +1,39 @@
+holidays:
+  UZ:
+    names:
+      en: Uzbekistan
+    langs: []
+    zones:
+      - Asia/Samarkand
+      - Asia/Tashkent
+    dayoff: ''
+    days: {}
+    states:
+      AN:
+        name: Andijan
+      BU:
+        name: Bukhara
+      FA:
+        name: Fergana
+      JI:
+        name: Jizzakh
+      NG:
+        name: Namangan
+      NW:
+        name: Navoiy
+      QA:
+        name: Qashqadaryo
+      QR:
+        name: Karakalpakstan
+      SA:
+        name: Samarqand
+      SI:
+        name: Sirdaryo
+      SU:
+        name: Surxondaryo
+      TK:
+        name: Tashkent
+      TO:
+        name: Tashkent Province
+      XO:
+        name: Xorazm

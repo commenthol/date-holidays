@@ -1,0 +1,26 @@
+holidays:
+  NE:
+    names:
+      en: Niger
+    langs: []
+    zones:
+      - Africa/Lagos
+    dayoff: ''
+    days: {}
+    states:
+      '1':
+        name: Agadez
+      '2':
+        name: Diffa
+      '3':
+        name: Dosso
+      '4':
+        name: Maradi
+      '5':
+        name: Tahoua
+      '6':
+        name: Tillabéri
+      '7':
+        name: Zinder
+      '8':
+        name: Niamey

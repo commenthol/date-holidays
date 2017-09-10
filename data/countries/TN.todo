@@ -1,0 +1,58 @@
+holidays:
+  TN:
+    names:
+      en: Tunisia
+    langs: []
+    zones:
+      - Africa/Tunis
+    dayoff: ''
+    days: {}
+    states:
+      '11':
+        name: Tunis
+      '12':
+        name: Ariana
+      '13':
+        name: Ben Arous
+      '14':
+        name: Manouba
+      '21':
+        name: Nabeul
+      '22':
+        name: Zaghouan
+      '23':
+        name: Bizerte
+      '31':
+        name: Béja
+      '32':
+        name: Jendouba
+      '33':
+        name: Kef
+      '34':
+        name: Siliana
+      '41':
+        name: Kairouan
+      '42':
+        name: Kasserine
+      '43':
+        name: Sidi Bouzid
+      '51':
+        name: Sousse
+      '52':
+        name: Monastir
+      '53':
+        name: Mahdia
+      '61':
+        name: Sfax
+      '71':
+        name: Gafsa
+      '72':
+        name: Tozeur
+      '73':
+        name: Kebili
+      '81':
+        name: Gabès
+      '82':
+        name: Medenine
+      '83':
+        name: Tataouine

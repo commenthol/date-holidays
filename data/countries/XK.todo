@@ -1,0 +1,13 @@
+holidays:
+  XK:
+    names:
+      sq: Republika e Kosovës
+      sr: Република Косово
+      en: Kosovo
+    langs:
+      - sq:
+      - sr:
+    zones:
+      - Europe/Belgrade
+    dayoff: ''
+    days: {}

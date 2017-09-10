@@ -1,0 +1,46 @@
+holidays:
+  IQ:
+    names:
+      en: Iraq
+    langs: []
+    zones:
+      - Asia/Baghdad
+    dayoff: ''
+    days: {}
+    states:
+      AN:
+        name: Al Anbar
+      AR:
+        name: Erbil
+      BA:
+        name: Basra
+      BB:
+        name: Babylon
+      BG:
+        name: Baghdad
+      DA:
+        name: Dohuk
+      DI:
+        name: Diyala
+      DQ:
+        name: Dhi Qar
+      KA:
+        name: Karbala
+      KI:
+        name: Kirkuk
+      MA:
+        name: Maysan
+      MU:
+        name: Al Muthanna
+      NA:
+        name: Najaf
+      NI:
+        name: Nineveh
+      QA:
+        name: Al-Qādisiyyah
+      SD:
+        name: Saladin
+      SU:
+        name: Sulaymaniyah
+      WA:
+        name: Wasit

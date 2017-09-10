@@ -1,0 +1,17 @@
+holidays:
+  WF:
+    names:
+      en: Wallis & Futuna
+    langs:
+      - fr
+    zones:
+      - Pacific/Wallis
+    dayoff: ''
+    days: {}
+    states:
+      AL:
+        name: Alo
+      SG:
+        name: Sigave
+      UV:
+        name: Uvea

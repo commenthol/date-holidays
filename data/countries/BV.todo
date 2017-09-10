@@ -1,0 +1,11 @@
+# uninhabited subantarctic high island, dependency of Norway
+holidays:
+  BV:
+    names:
+      en: Bouvet Island
+    langs:
+      - no
+    zones:
+      - UTC
+    dayoff: ''
+    days: {}

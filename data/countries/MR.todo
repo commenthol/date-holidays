@@ -1,0 +1,40 @@
+holidays:
+  MR:
+    names:
+      en: Mauritania
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Guidimaka
+      '11':
+        name: Tiris Zemmour
+      '12':
+        name: Inchiri
+      '13':
+        name: Nouakchott Ouest
+      '14':
+        name: Nouakchott Nord
+      '15':
+        name: Nouakchott Sud
+      '01':
+        name: Hodh Ech Chargui
+      '02':
+        name: Hodh El Gharbi
+      '03':
+        name: Assaba
+      '04':
+        name: Gorgol
+      '05':
+        name: Brakna
+      '06':
+        name: Trarza
+      '07':
+        name: Adrar
+      08:
+        name: Dakhlet Nouadhibou
+      09:
+        name: Tagant

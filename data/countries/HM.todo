@@ -1,0 +1,10 @@
+holidays:
+  HM:
+    names:
+      en: Heard & McDonald Islands
+    langs:
+      - en
+    zones:
+      - UTC+5
+    dayoff: ''
+    days: {}

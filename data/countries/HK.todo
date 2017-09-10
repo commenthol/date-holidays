@@ -1,0 +1,9 @@
+holidays:
+  HK:
+    names:
+      en: Hong Kong SAR China
+    langs: []
+    zones:
+      - Asia/Hong_Kong
+    dayoff: ''
+    days: {}

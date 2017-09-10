@@ -58,105 +58,71 @@ holidays:
           en: Mid-Autumn Festival
           zh: 中秋节
     # states:
-    #   '11':
-    #     names:
-    #       en: Beijing
-    #   '12':
-    #     names:
-    #       en: Tianjin
-    #   '13':
-    #     names:
-    #       en: Hebei
-    #   '14':
-    #     names:
-    #       en: Shanxi
-    #   '15':
-    #     names:
-    #       en: Inner Mongolia
-    #   '21':
-    #     names:
-    #       en: Liaoning
-    #   '22':
-    #     names:
-    #       en: Jilin
-    #   '23':
-    #     names:
-    #       en: Heilongjiang
-    #   '31':
-    #     names:
-    #       en: Shanghai
-    #   '32':
-    #     names:
-    #       en: Jiangsu
-    #   '33':
-    #     names:
-    #       en: Zhejiang
-    #   '34':
-    #     names:
-    #       en: Anhui
-    #   '35':
-    #     names:
-    #       en: Fujian
-    #   '36':
-    #     names:
-    #       en: Jiangxi
-    #   '37':
-    #     names:
-    #       en: Shandong
-    #   '41':
-    #     names:
-    #       en: Henan
-    #   '42':
-    #     names:
-    #       en: Hubei
-    #   '43':
-    #     names:
-    #       en: Hunan
-    #   '44':
-    #     names:
-    #       en: Guangdong
-    #   '45':
-    #     names:
-    #       en: Guangxi
-    #   '46':
-    #     names:
-    #       en: Hainan
-    #   '50':
-    #     names:
-    #       en: Chongqing
-    #   '51':
-    #     names:
-    #       en: Sichuan
-    #   '52':
-    #     names:
-    #       en: Guizhou
-    #   '53':
-    #     names:
-    #       en: Yunnan
-    #   '54':
-    #     names:
-    #       en: Tibet
-    #   '61':
-    #     names:
-    #       en: Shaanxi
-    #   '62':
-    #     names:
-    #       en: Gansu
-    #   '63':
-    #     names:
-    #       en: Qinghai
-    #   '64':
-    #     names:
-    #       en: Ningxia
-    #   '65':
-    #     names:
-    #       en: Xinjiang
-    #   '71':
-    #     names:
-    #       en: Taiwan
-    #   '91':
-    #     names:
-    #       en: Hong Kong SAR China
-    #   '92':
-    #     names:
-    #       en: Macau SAR China
+      # '11':
+      #   name: Beijing
+      # '12':
+      #   name: Tianjin
+      # '13':
+      #   name: Hebei
+      # '14':
+      #   name: Shanxi
+      # '15':
+      #   name: Inner Mongolia
+      # '21':
+      #   name: Liaoning
+      # '22':
+      #   name: Jilin
+      # '23':
+      #   name: Heilongjiang
+      # '31':
+      #   name: Shanghai
+      # '32':
+      #   name: Jiangsu
+      # '33':
+      #   name: Zhejiang
+      # '34':
+      #   name: Anhui
+      # '35':
+      #   name: Fujian
+      # '36':
+      #   name: Jiangxi
+      # '37':
+      #   name: Shandong
+      # '41':
+      #   name: Henan
+      # '42':
+      #   name: Hubei
+      # '43':
+      #   name: Hunan
+      # '44':
+      #   name: Guangdong
+      # '45':
+      #   name: Guangxi
+      # '46':
+      #   name: Hainan
+      # '50':
+      #   name: Chongqing
+      # '51':
+      #   name: Sichuan
+      # '52':
+      #   name: Guizhou
+      # '53':
+      #   name: Yunnan
+      # '54':
+      #   name: Tibet
+      # '61':
+      #   name: Shaanxi
+      # '62':
+      #   name: Gansu
+      # '63':
+      #   name: Qinghai
+      # '64':
+      #   name: Ningxia
+      # '65':
+      #   name: Xinjiang
+      # '71':
+      #   name: Taiwan
+      # '91':
+      #   name: Hong Kong SAR China
+      # '92':
+      #   name: Macau SAR China

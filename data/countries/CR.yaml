@@ -43,3 +43,18 @@ holidays:
           es: Día de la Raza
       12-25:
         _name: 12-25
+    # states:
+      # A:
+      #   name: Alajuela
+      # C:
+      #   name: Cartago
+      # G:
+      #   name: Guanacaste
+      # H:
+      #   name: Heredia
+      # L:
+      #   name: Limón
+      # P:
+      #   name: Puntarenas
+      # SJ:
+      #   name: San José

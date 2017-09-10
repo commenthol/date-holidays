@@ -1,0 +1,9 @@
+holidays:
+  VG:
+    names:
+      en: British Virgin Islands
+    langs: []
+    zones:
+      - America/Port_of_Spain
+    dayoff: ''
+    days: {}

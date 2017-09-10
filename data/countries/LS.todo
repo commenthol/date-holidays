@@ -1,0 +1,30 @@
+holidays:
+  LS:
+    names:
+      en: Lesotho
+    langs: []
+    zones:
+      - Africa/Johannesburg
+    dayoff: ''
+    days: {}
+    states:
+      A:
+        name: Maseru
+      B:
+        name: Butha-Buthe
+      C:
+        name: Leribe
+      D:
+        name: Berea
+      E:
+        name: Mafeteng
+      F:
+        name: Mohale’s Hoek
+      G:
+        name: Quthing
+      H:
+        name: Qacha’s Nek
+      J:
+        name: Mokhotlong
+      K:
+        name: Thaba-Tseka

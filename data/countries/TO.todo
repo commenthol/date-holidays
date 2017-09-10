@@ -1,0 +1,20 @@
+holidays:
+  TO:
+    names:
+      en: Tonga
+    langs: []
+    zones:
+      - Pacific/Tongatapu
+    dayoff: ''
+    days: {}
+    states:
+      '01':
+        name: ʻEua
+      '02':
+        name: Haʻapai
+      '03':
+        name: Niuas
+      '04':
+        name: Tongatapu
+      '05':
+        name: Vavaʻu

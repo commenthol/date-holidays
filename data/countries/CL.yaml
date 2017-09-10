@@ -79,4 +79,27 @@ holidays:
             name:
               en: Saint Lawrence
               es: San Lorenzo de Tarapacá
-
+      # AI:
+      #   name: Aysén
+      # AN:
+      #   name: Antofagasta
+      # AR:
+      #   name: Araucanía
+      # AT:
+      #   name: Atacama
+      # CO:
+      #   name: Coquimbo
+      # LI:
+      #   name: Libertador General Bernardo O’Higgins
+      # LL:
+      #   name: Los Lagos
+      # LR:
+      #   name: Los Ríos
+      # MA:
+      #   name: Magallanes Region
+      # ML:
+      #   name: Maule
+      # RM:
+      #   name: Santiago Metropolitan
+      # VS:
+      #   name: Valparaíso

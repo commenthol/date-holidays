@@ -1,0 +1,32 @@
+holidays:
+  WS:
+    names:
+      en: Samoa
+    langs: []
+    zones:
+      - Pacific/Apia
+    dayoff: ''
+    days: {}
+    states:
+      AA:
+        name: A’ana
+      AL:
+        name: Aiga-i-le-Tai
+      AT:
+        name: Atua
+      FA:
+        name: Fa’asaleleaga
+      GE:
+        name: Gaga’emauga
+      GI:
+        name: Gaga’ifomauga
+      PA:
+        name: Palauli
+      SA:
+        name: Satupa’itea
+      TU:
+        name: Tuamasaga
+      VF:
+        name: Va’a-o-Fonoti
+      VS:
+        name: Vaisigano

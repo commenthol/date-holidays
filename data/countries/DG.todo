@@ -1,0 +1,10 @@
+holidays:
+  DG:
+    names:
+      en: Diego Garcia
+    langs:
+      - en
+    zones:
+      - UTC+6
+    dayoff: ''
+    days: {}

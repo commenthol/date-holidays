@@ -1,0 +1,22 @@
+holidays:
+  IL:
+    names:
+      en: Israel
+    langs: []
+    zones:
+      - Asia/Jerusalem
+    dayoff: ''
+    days: {}
+    states:
+      D:
+        name: Southern District
+      HA:
+        name: Haifa District
+      JM:
+        name: Jerusalem
+      M:
+        name: Central District
+      TA:
+        name: Tel Aviv District
+      Z:
+        name: Northern District

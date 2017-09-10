@@ -1,0 +1,18 @@
+holidays:
+  BN:
+    names:
+      en: Brunei
+    langs: []
+    zones:
+      - Asia/Brunei
+    dayoff: ''
+    days: {}
+    states:
+      BE:
+        name: Belait
+      BM:
+        name: Brunei-Muara
+      TE:
+        name: Temburong
+      TU:
+        name: Tutong

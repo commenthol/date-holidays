@@ -1,0 +1,38 @@
+holidays:
+  CI:
+    names:
+      en: Côte d’Ivoire
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      AB:
+        name: Abidjan
+      BS:
+        name: Bas-Sassandra
+      CM:
+        name: Comoé
+      DN:
+        name: Denguélé
+      GD:
+        name: Gôh-Djiboua
+      LC:
+        name: Lacs
+      LG:
+        name: Lagunes
+      MG:
+        name: Montagnes
+      SM:
+        name: Sassandra-Marahoué
+      SV:
+        name: Savanes
+      VB:
+        name: Vallée du Bandama
+      WR:
+        name: Woroba
+      YM:
+        name: Yamoussoukro
+      ZZ:
+        name: Zanzan

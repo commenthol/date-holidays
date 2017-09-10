@@ -1,0 +1,9 @@
+holidays:
+  MO:
+    names:
+      en: Macau SAR China
+    langs: []
+    zones:
+      - Asia/Macau
+    dayoff: ''
+    days: {}

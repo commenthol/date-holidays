@@ -59,4 +59,70 @@ holidays:
         _name: 12-08
       12-25:
         _name: 12-25
-
+    # states:
+      # AMA:
+      #   name: Amazonas
+      # ANT:
+      #   name: Antioquia
+      # ARA:
+      #   name: Arauca
+      # ATL:
+      #   name: Atlántico
+      # BOL:
+      #   name: Bolívar
+      # BOY:
+      #   name: Boyacá
+      # CAL:
+      #   name: Caldas
+      # CAQ:
+      #   name: Caquetá
+      # CAS:
+      #   name: Casanare
+      # CAU:
+      #   name: Cauca
+      # CES:
+      #   name: Cesar
+      # CHO:
+      #   name: Chocó
+      # COR:
+      #   name: Córdoba
+      # CUN:
+      #   name: Cundinamarca
+      # DC:
+      #   name: Capital District
+      # GUA:
+      #   name: Guainía
+      # GUV:
+      #   name: Guaviare
+      # HUI:
+      #   name: Huila
+      # LAG:
+      #   name: La Guajira
+      # MAG:
+      #   name: Magdalena
+      # MET:
+      #   name: Meta
+      # NAR:
+      #   name: Nariño
+      # NSA:
+      #   name: Norte de Santander
+      # PUT:
+      #   name: Putumayo
+      # QUI:
+      #   name: Quindío
+      # RIS:
+      #   name: Risaralda
+      # SAN:
+      #   name: Santander
+      # SAP:
+      #   name: San Andrés &amp; Providencia
+      # SUC:
+      #   name: Sucre
+      # TOL:
+      #   name: Tolima
+      # VAC:
+      #   name: Valle del Cauca
+      # VAU:
+      #   name: Vaupés
+      # VID:
+      #   name: Vichada

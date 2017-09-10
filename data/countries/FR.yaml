@@ -41,27 +41,6 @@ holidays:
       12-25:
         _name: 12-25
     states:
-      '67':
-        name: Département Bas-Rhin
-        days:
-          easter -2:
-            _name: easter -2
-          12-26:
-            _name: 12-26
-      '68':
-        name: Département Haut-Rhin
-        days:
-          easter -2:
-            _name: easter -2
-          12-26:
-            _name: 12-26
-      '57':
-        name: Département Moselle
-        days:
-          easter -2:
-            _name: easter -2
-          12-26:
-            _name: 12-26
       YT:
         name: "Département et région d'outre-mer Mayotte"
         zones:
@@ -101,3 +80,232 @@ holidays:
         days:
           12-20:
             _name: Abolition of Slavery
+      # name: Alsace
+      '67':
+        name: Département Bas-Rhin
+        days:
+          easter -2:
+            _name: easter -2
+          12-26:
+            _name: 12-26
+      '68':
+        name: Département Haut-Rhin
+        days:
+          easter -2:
+            _name: easter -2
+          12-26:
+            _name: 12-26
+      # name: Aquitaine
+      # '24':
+      #   name: Dordogne
+      # '33':
+      #   name: Gironde
+      # '40':
+      #   name: Landes
+      # '47':
+      #   name: Lot-et-Garonne
+      # '64':
+      #   name: Pyrénées-Atlantiques
+      # name: Auvergne
+      # '15':
+      #   name: Cantal
+      # '43':
+      #   name: Haute-Loire
+      # '63':
+      #   name: Puy-de-Dôme
+      # '03':
+      #   name: Allier
+      # name: Burgundy
+      # '21':
+      #   name: Côte-d’Or
+      # '58':
+      #   name: Nièvre
+      # '71':
+      #   name: Saône-et-Loire
+      # '89':
+      #   name: Yonne
+      # name: Brittany
+      # '22':
+      #   name: Côtes-d’Armor
+      # '29':
+      #   name: Finistère
+      # '35':
+      #   name: Ille-et-Vilaine
+      # '56':
+      #   name: Morbihan
+      # name: Centre-Loire Valley
+      # '18':
+      #   name: Cher
+      # '28':
+      #   name: Eure-et-Loir
+      # '36':
+      #   name: Indre
+      # '37':
+      #   name: Indre-et-Loire
+      # '41':
+      #   name: Loir-et-Cher
+      # '45':
+      #   name: Loiret
+      # name: Champagne-Ardenne
+      # '10':
+      #   name: Aube
+      # '51':
+      #   name: Marne
+      # '52':
+      #   name: Haute-Marne
+      # '08':
+      #   name: Ardennes
+      # name: Corsica
+      # 2A:
+      #   name: Corse-du-Sud
+      # 2B:
+      #   name: Haute-Corse
+      # name: Franche-Comté
+      # '25':
+      #   name: Doubs
+      # '39':
+      #   name: Jura
+      # '70':
+      #   name: Haute-Saône
+      # '90':
+      #   name: Territoire de Belfort
+      # name: Île-de-France
+      # '75':
+      #   name: Paris
+      # '77':
+      #   name: Seine-et-Marne
+      # '78':
+      #   name: Yvelines
+      # '91':
+      #   name: Essonne
+      # '92':
+      #   name: Hauts-de-Seine
+      # '93':
+      #   name: Seine-Saint-Denis
+      # '94':
+      #   name: Val-de-Marne
+      # '95':
+      #   name: Val-d’Oise
+      # name: Languedoc-Roussillon
+      # '11':
+      #   name: Aude
+      # '30':
+      #   name: Gard
+      # '34':
+      #   name: Hérault
+      # '48':
+      #   name: Lozère
+      # '66':
+      #   name: Pyrénées-Orientales
+      # name: Limousin
+      # '19':
+      #   name: Corrèze
+      # '23':
+      #   name: Creuse
+      # '87':
+      #   name: Haute-Vienne
+      # name: Lorraine
+      # '54':
+      #   # name: Meurthe-et-Moselle
+      # '55':
+      #   name: Meuse
+      '57':
+        name: Département Moselle
+        days:
+          easter -2:
+            _name: easter -2
+          12-26:
+            _name: 12-26
+      # '88':
+      #   name: Vosges
+      # name: Midi-Pyrénées
+      # '12':
+      #   name: Aveyron
+      # '31':
+      #   name: Haute-Garonne
+      # '32':
+      #   name: Gers
+      # '46':
+      #   name: Lot
+      # '65':
+      #   name: Hautes-Pyrénées
+      # '81':
+      #   name: Tarn
+      # '82':
+      #   name: Tarn-et-Garonne
+      # '09':
+      #   name: Ariège
+      # name: Nord-Pas-de-Calais
+      # '59':
+      #   name: Nord
+      # '62':
+      #   name: Pas-de-Calais
+      # name: Lower Normandy
+      # '14':
+      #   name: Calvados
+      # '50':
+      #   name: Manche
+      # '61':
+      #   name: Orne
+      # name: Upper Normandy
+      # '27':
+      #   name: Eure
+      # '76':
+      #   name: Seine-Maritime
+      # name: Pays de la Loire
+      # '44':
+      #   name: Loire-Atlantique
+      # '49':
+      #   name: Maine-et-Loire
+      # '53':
+      #   name: Mayenne
+      # '72':
+      #   name: Sarthe
+      # '85':
+      #   name: Vendée
+      # name: Picardy
+      # '60':
+      #   name: Oise
+      # '80':
+      #   name: Somme
+      # '02':
+      #   name: Aisne
+      # name: Poitou-Charentes
+      # '16':
+      #   name: Charente
+      # '17':
+      #   name: Charente-Maritime
+      # '79':
+      #   name: Deux-Sèvres
+      # '86':
+      #   name: Vienne
+      # name: Provence-Alpes-Côte d’Azur
+      # '13':
+      #   name: Bouches-du-Rhône
+      # '83':
+      #   name: Var
+      # '84':
+      #   name: Vaucluse
+      # '04':
+      #   name: Alpes-de-Haute-Provence
+      # '05':
+      #   name: Hautes-Alpes
+      # '06':
+      #   name: Alpes-Maritimes
+      # name: Rhône-Alpes
+      # '26':
+      #   name: Drôme
+      # '38':
+      #   name: Isère
+      # '42':
+      #   name: Loire
+      # '69':
+      #   name: Rhône
+      # '73':
+      #   name: Savoie
+      # '74':
+      #   name: Haute-Savoie
+      # '01':
+      #   name: Ain
+      # '07':
+      #   name: Ardèche

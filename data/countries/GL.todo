@@ -1,0 +1,21 @@
+holidays:
+  GL:
+    names:
+      en: Greenland
+    langs: []
+    zones:
+      - America/Godthab
+      - America/Danmarkshavn
+      - America/Scoresbysund
+      - America/Thule
+    dayoff: ''
+    days: {}
+    states:
+      KU:
+        name: Kujalleq
+      QA:
+        name: Qaasuitsup
+      QE:
+        name: Qeqqata
+      SM:
+        name: Sermersooq

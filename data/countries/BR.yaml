@@ -85,3 +85,58 @@ holidays:
       '12-31 14:00':
         _name: 12-31
         type: optional
+    # states:
+      # AC:
+      #   name: Acre
+      # AL:
+      #   name: Alagoas
+      # AM:
+      #   name: Amazonas
+      # AP:
+      #   name: Amapá
+      # BA:
+      #   name: Bahia
+      # CE:
+      #   name: Ceará
+      # DF:
+      #   name: Federal District
+      # ES:
+      #   name: Espírito Santo
+      # GO:
+      #   name: Goiás
+      # MA:
+      #   name: Maranhão
+      # MG:
+      #   name: Minas Gerais
+      # MS:
+      #   name: Mato Grosso do Sul
+      # MT:
+      #   name: Mato Grosso
+      # PA:
+      #   name: Pará
+      # PB:
+      #   name: Paraíba
+      # PE:
+      #   name: Pernambuco
+      # PI:
+      #   name: Piauí
+      # PR:
+      #   name: Paraná
+      # RJ:
+      #   name: Rio de Janeiro
+      # RN:
+      #   name: Rio Grande do Norte
+      # RO:
+      #   name: Rondônia
+      # RR:
+      #   name: Roraima
+      # RS:
+      #   name: Rio Grande do Sul
+      # SC:
+      #   name: Santa Catarina
+      # SE:
+      #   name: Sergipe
+      # SP:
+      #   name: São Paulo
+      # TO:
+      #   name: Tocantins

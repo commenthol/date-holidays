@@ -1,0 +1,10 @@
+holidays:
+  AC:
+    names:
+      en: Ascension Island
+    langs:
+      - en
+    zones:
+      - UTC
+    dayoff: ''
+    days: {}

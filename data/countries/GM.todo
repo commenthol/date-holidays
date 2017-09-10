@@ -1,0 +1,22 @@
+holidays:
+  GM:
+    names:
+      en: Gambia
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      B:
+        name: Banjul
+      L:
+        name: Lower River Division
+      M:
+        name: Central River Division
+      'N':
+        name: North Bank Division
+      U:
+        name: Upper River Division
+      W:
+        name: West Coast Division

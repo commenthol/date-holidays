@@ -1,0 +1,56 @@
+holidays:
+  MN:
+    names:
+      en: Mongolia
+    langs: []
+    zones:
+      - Asia/Ulaanbaatar
+      - Asia/Hovd
+      - Asia/Choibalsan
+    dayoff: ''
+    days: {}
+    states:
+      '1':
+        name: Ulaanbaatar
+      '035':
+        name: Orkhon
+      '037':
+        name: Darkhan-Uul
+      039:
+        name: Khentii
+      '041':
+        name: Khövsgöl
+      '043':
+        name: Khovd
+      '046':
+        name: Uvs
+      '047':
+        name: Töv
+      049:
+        name: Selenge
+      '051':
+        name: Sükhbaatar
+      '053':
+        name: Ömnögovi
+      '055':
+        name: Övörkhangai
+      '057':
+        name: Zavkhan
+      059:
+        name: Dundgovi
+      '061':
+        name: Dornod
+      '063':
+        name: Dornogovi
+      '064':
+        name: Govisümber
+      '065':
+        name: Govi-Altai
+      '067':
+        name: Bulgan
+      069:
+        name: Bayankhongor
+      '071':
+        name: Bayan-Ölgii
+      '073':
+        name: Arkhangai

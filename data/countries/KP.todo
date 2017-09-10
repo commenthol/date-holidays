@@ -1,0 +1,32 @@
+holidays:
+  KP:
+    names:
+      en: North Korea
+    langs: []
+    zones:
+      - Asia/Pyongyang
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Ryanggang
+      '13':
+        name: Rason
+      '01':
+        name: Pyongyang
+      '02':
+        name: South Pyongan
+      '03':
+        name: North Pyongan
+      '04':
+        name: Chagang
+      '05':
+        name: South Hwanghae
+      '06':
+        name: North Hwanghae
+      '07':
+        name: Kangwon
+      08:
+        name: South Hamgyong
+      09:
+        name: North Hamgyong

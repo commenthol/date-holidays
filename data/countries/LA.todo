@@ -1,0 +1,46 @@
+holidays:
+  LA:
+    names:
+      en: Laos
+    langs: []
+    zones:
+      - Asia/Bangkok
+    dayoff: ''
+    days: {}
+    states:
+      AT:
+        name: Attapeu
+      BK:
+        name: Bokeo
+      BL:
+        name: Bolikhamsai
+      CH:
+        name: Champasak
+      HO:
+        name: Houaphanh
+      KH:
+        name: Khammouane
+      LM:
+        name: Luang Namtha
+      LP:
+        name: Luang Prabang
+      OU:
+        name: Oudomxay
+      PH:
+        name: Phongsaly
+      SL:
+        name: Salavan
+      SV:
+        name: Savannakhet
+      VI:
+        name: Vientiane Province
+      VT:
+        name: Vientiane
+      XA:
+        name: Sainyabuli
+      XE:
+        name: Sekong
+      XI:
+        name: Xiangkhouang
+      XS:
+        name: Xaisomboun

@@ -1,0 +1,10 @@
+holidays:
+  TA:
+    names:
+      en: Tristan da Cunha
+    langs:
+      - en
+    zones:
+      - UTC
+    dayoff: ''
+    days: {}

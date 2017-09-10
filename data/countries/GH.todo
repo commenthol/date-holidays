@@ -1,0 +1,30 @@
+holidays:
+  GH:
+    names:
+      en: Ghana
+    langs: []
+    zones:
+      - Africa/Accra
+    dayoff: ''
+    days: {}
+    states:
+      AA:
+        name: Greater Accra
+      AH:
+        name: Ashanti
+      BA:
+        name: Brong-Ahafo
+      CP:
+        name: Central
+      EP:
+        name: Eastern
+      NP:
+        name: Northern
+      TV:
+        name: Volta
+      UE:
+        name: Upper East
+      UW:
+        name: Upper West
+      WP:
+        name: Western

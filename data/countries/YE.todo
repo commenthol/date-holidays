@@ -1,0 +1,54 @@
+holidays:
+  YE:
+    names:
+      en: Yemen
+    langs: []
+    zones:
+      - Asia/Riyadh
+    dayoff: ''
+    days: {}
+    states:
+      AB:
+        name: Abyan
+      AD:
+        name: ’Adan
+      AM:
+        name: Amran
+      BA:
+        name: Al Bayda
+      DA:
+        name: Dhale
+      DH:
+        name: Dhamar
+      HD:
+        name: Hadramaut
+      HJ:
+        name: Hajjah
+      HU:
+        name: Al Hudaydah
+      IB:
+        name: Ibb
+      JA:
+        name: Al Jawf
+      LA:
+        name: Lahij
+      MA:
+        name: Ma’rib
+      MR:
+        name: Al Mahrah
+      MW:
+        name: Al Mahwit
+      RA:
+        name: Raymah
+      SA:
+        name: Amanat Al Asimah
+      SD:
+        name: Sa’dah
+      SH:
+        name: Shabwah
+      SN:
+        name: Sana’a
+      SU:
+        name: Arkhabil Suqutra
+      TA:
+        name: Taiz

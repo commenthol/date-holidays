@@ -1,0 +1,44 @@
+holidays:
+  MU:
+    names:
+      en: Mauritius
+    langs: []
+    zones:
+      - Indian/Mauritius
+    dayoff: ''
+    days: {}
+    states:
+      AG:
+        name: Agaléga
+      BL:
+        name: Rivière Noire
+      BR:
+        name: Beau-Bassin Rose-Hill
+      CC:
+        name: Cargados Carajos
+      CU:
+        name: Curepipe
+      FL:
+        name: Flacq
+      GP:
+        name: Grand Port
+      MO:
+        name: Moka
+      PA:
+        name: Pamplemousses
+      PL:
+        name: Port Louis District
+      PU:
+        name: Port Louis
+      PW:
+        name: Plaines Wilhems
+      QB:
+        name: Quatre Bornes
+      RO:
+        name: Rodrigues
+      RR:
+        name: Rivière du Rempart
+      SA:
+        name: Savanne
+      VP:
+        name: Vacoas-Phoenix

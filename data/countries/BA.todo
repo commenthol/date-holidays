@@ -1,0 +1,16 @@
+holidays:
+  BA:
+    names:
+      en: Bosnia & Herzegovina
+    langs: []
+    zones:
+      - Europe/Belgrade
+    dayoff: ''
+    days: {}
+    states:
+      BIH:
+        name: Federation of Bosnia and Herzegovina
+      BRC:
+        name: Brčko District
+      SRP:
+        name: Republika Srpska

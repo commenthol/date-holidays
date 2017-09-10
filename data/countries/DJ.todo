@@ -1,0 +1,22 @@
+holidays:
+  DJ:
+    names:
+      en: Djibouti
+    langs: []
+    zones:
+      - Africa/Nairobi
+    dayoff: ''
+    days: {}
+    states:
+      AR:
+        name: Arta
+      AS:
+        name: Ali Sabieh
+      DI:
+        name: Dikhil
+      DJ:
+        name: Djibouti
+      OB:
+        name: Obock
+      TA:
+        name: Tadjourah

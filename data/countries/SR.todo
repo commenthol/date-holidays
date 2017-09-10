@@ -1,0 +1,30 @@
+holidays:
+  SR:
+    names:
+      en: Suriname
+    langs: []
+    zones:
+      - America/Paramaribo
+    dayoff: ''
+    days: {}
+    states:
+      BR:
+        name: Brokopondo
+      CM:
+        name: Commewijne
+      CR:
+        name: Coronie
+      MA:
+        name: Marowijne
+      NI:
+        name: Nickerie
+      PM:
+        name: Paramaribo
+      PR:
+        name: Para
+      SA:
+        name: Saramacca
+      SI:
+        name: Sipaliwini
+      WA:
+        name: Wanica

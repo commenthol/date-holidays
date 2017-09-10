@@ -1,0 +1,22 @@
+holidays:
+  ER:
+    names:
+      en: Eritrea
+    langs: []
+    zones:
+      - Africa/Nairobi
+    dayoff: ''
+    days: {}
+    states:
+      AN:
+        name: Anseba
+      DK:
+        name: Southern Red Sea
+      DU:
+        name: Debub
+      GB:
+        name: Gash-Barka
+      MA:
+        name: Maekel
+      SK:
+        name: Northern Red Sea

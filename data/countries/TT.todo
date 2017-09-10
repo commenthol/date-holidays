@@ -1,0 +1,40 @@
+holidays:
+  TT:
+    names:
+      en: Trinidad & Tobago
+    langs: []
+    zones:
+      - America/Port_of_Spain
+    dayoff: ''
+    days: {}
+    states:
+      ARI:
+        name: Arima
+      CHA:
+        name: Chaguanas
+      CTT:
+        name: Couva-Tabaquite-Talparo
+      DMN:
+        name: Diego Martin
+      MRC:
+        name: Mayaro-Rio Claro
+      PED:
+        name: Penal-Debe
+      POS:
+        name: Port of Spain
+      PRT:
+        name: Princes Town
+      PTF:
+        name: Point Fortin
+      SFO:
+        name: San Fernando
+      SGE:
+        name: Sangre Grande
+      SIP:
+        name: Siparia
+      SJL:
+        name: San Juan-Laventille
+      TOB:
+        name: Tobago
+      TUP:
+        name: Tunapuna-Piarco

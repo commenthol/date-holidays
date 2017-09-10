@@ -1,0 +1,43 @@
+holidays:
+  PS:
+    names:
+      en: Palestinian Territories
+    langs: []
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    dayoff: ''
+    days: {}
+    states:
+      BTH:
+        name: Bethlehem
+      DEB:
+        name: Deir al-Balah
+      GZA:
+        name: Gaza
+      HBN:
+        name: Hebron
+      JEM:
+        name: Jerusalem
+      JEN:
+        name: Jenin
+      JRH:
+        name: Jericho
+      KYS:
+        name: Khan Yunis
+      NBS:
+        name: Nablus
+      NGZ:
+        name: North Gaza
+      QQA:
+        name: Qalqilya
+      RBH:
+        name: Ramallah and al-Bireh
+      RFH:
+        name: Rafah
+      SLT:
+        name: Salfit
+      TBS:
+        name: Tubas
+      TKM:
+        name: Tulkarm

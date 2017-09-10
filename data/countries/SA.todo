@@ -1,0 +1,36 @@
+holidays:
+  SA:
+    names:
+      en: Saudi Arabia
+    langs: []
+    zones:
+      - Asia/Riyadh
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Najran
+      '11':
+        name: Al Bahah
+      '12':
+        name: Al Jawf
+      '14':
+        name: Asir
+      '01':
+        name: Riyadh
+      '02':
+        name: Makkah
+      '03':
+        name: Al Madinah
+      '04':
+        name: Eastern
+      '05':
+        name: Al-Qassim
+      '06':
+        name: Ha’il
+      '07':
+        name: Tabuk
+      08:
+        name: Northern Borders
+      09:
+        name: Jizan

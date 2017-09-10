@@ -43,4 +43,38 @@ holidays:
           en: Republic Day
       12-25:
         _name: 12-25
-
+    # states:
+      # AC:
+      #   name: Ouham
+      # BB:
+      #   name: Bamingui-Bangoran
+      # BGF:
+      #   name: Bangui
+      # BK:
+      #   name: Basse-Kotto
+      # HK:
+      #   name: Haute-Kotto
+      # HM:
+      #   name: Haut-Mbomou
+      # HS:
+      #   name: Mambéré-Kadéï
+      # KB:
+      #   name: Nana-Grébizi
+      # KG:
+      #   name: Kémo
+      # LB:
+      #   name: Lobaye
+      # MB:
+      #   name: Mbomou
+      # MP:
+      #   name: Ombella-M’Poko
+      # NM:
+      #   name: Nana-Mambéré
+      # OP:
+      #   name: Ouham-Pendé
+      # SE:
+      #   name: Sangha-Mbaéré
+      # UK:
+      #   name: Ouaka
+      # VK:
+      #   name: Vakaga

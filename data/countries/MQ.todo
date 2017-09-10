@@ -1,0 +1,10 @@
+holidays:
+  MQ:
+    names:
+      en: Martinique
+    langs:
+      - fr
+    zones:
+      - America/Martinique
+    dayoff: ''
+    days: {}

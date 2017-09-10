@@ -1,0 +1,18 @@
+holidays:
+  AQ:
+    names:
+      en: Antarctica
+    langs: []
+    zones:
+      - Antarctica/Casey
+      - Antarctica/Davis
+      - Antarctica/DumontDUrville
+      - Antarctica/Mawson
+      - Antarctica/Palmer
+      - Antarctica/Rothera
+      - Antarctica/Syowa
+      - Antarctica/Troll
+      - Antarctica/Vostok
+      - Pacific/Auckland
+    dayoff: ''
+    days: {}

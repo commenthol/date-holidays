@@ -1,0 +1,43 @@
+holidays:
+  MY:
+    names:
+      en: Malaysia
+    langs: []
+    zones:
+      - Asia/Kuala_Lumpur
+      - Asia/Kuching
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Selangor
+      '11':
+        name: Terengganu
+      '12':
+        name: Sabah
+      '13':
+        name: Sarawak
+      '14':
+        name: Kuala Lumpur
+      '15':
+        name: Labuan
+      '16':
+        name: Putrajaya
+      '01':
+        name: Johor
+      '02':
+        name: Kedah
+      '03':
+        name: Kelantan
+      '04':
+        name: Malacca
+      '05':
+        name: Negeri Sembilan
+      '06':
+        name: Pahang
+      '07':
+        name: Penang
+      08:
+        name: Perak
+      09:
+        name: Perlis

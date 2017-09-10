@@ -1,0 +1,54 @@
+holidays:
+  LY:
+    names:
+      en: Libya
+    langs: []
+    zones:
+      - Africa/Tripoli
+    dayoff: ''
+    days: {}
+    states:
+      BA:
+        name: Benghazi
+      BU:
+        name: Butnan
+      DR:
+        name: Derna
+      GT:
+        name: Ghat
+      JA:
+        name: Jabal al Akhdar
+      JG:
+        name: Jabal al Gharbi
+      JI:
+        name: Jafara
+      JU:
+        name: Jufra
+      KF:
+        name: Kufra
+      MB:
+        name: Murqub
+      MI:
+        name: Misrata
+      MJ:
+        name: Marj
+      MQ:
+        name: Murzuq
+      NL:
+        name: Nalut
+      NQ:
+        name: Nuqat al Khams
+      SB:
+        name: Sabha
+      SR:
+        name: Sirte
+      TB:
+        name: Tripoli
+      WA:
+        name: Al Wahat
+      WD:
+        name: Wadi al Hayaa
+      WS:
+        name: Wadi al Shatii
+      ZA:
+        name: Zawiya

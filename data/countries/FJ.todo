@@ -1,0 +1,48 @@
+holidays:
+  FJ:
+    names:
+      en: Fiji
+    langs: []
+    zones:
+      - Pacific/Fiji
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Namosi
+      '11':
+        name: Ra
+      '12':
+        name: Rewa
+      '13':
+        name: Serua
+      '14':
+        name: Tailevu
+      '01':
+        name: Ba
+      '02':
+        name: Bua
+      '03':
+        name: Cakaudrove
+      '04':
+        name: Kadavu
+      '05':
+        name: Lau
+      '06':
+        name: Lomaiviti
+      '07':
+        name: Macuata
+      08:
+        name: Nadroga-Navosa
+      09:
+        name: Naitasiri
+      C:
+        name: Central
+      E:
+        name: Eastern
+      'N':
+        name: Northern
+      R:
+        name: Rotuma
+      W:
+        name: Western

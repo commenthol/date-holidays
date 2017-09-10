@@ -1,0 +1,139 @@
+holidays:
+  BF:
+    names:
+      en: Burkina Faso
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Nord
+        regions:
+          LOR:
+            name: Loroum
+          PAS:
+            name: Passoré
+          YAT:
+            name: Yatenga
+          ZON:
+            name: Zondoma
+      '11':
+        name: Plateau-Central
+        regions:
+          GAN:
+            name: Ganzourgou
+          KOW:
+            name: Kourwéogo
+          OUB:
+            name: Oubritenga
+      '12':
+        name: Sahel
+        regions:
+          OUD:
+            name: Oudalan
+          SEN:
+            name: Séno
+          SOM:
+            name: Soum
+          YAG:
+            name: Yagha
+      '13':
+        name: Sud-Ouest
+        regions:
+          BGR:
+            name: Bougouriba
+          IOB:
+            name: Ioba
+          NOU:
+            name: Noumbiel
+          PON:
+            name: Poni
+      '01':
+        name: Boucle du Mouhoun
+        regions:
+          BAL:
+            name: Balé
+          BAN:
+            name: Banwa
+          KOS:
+            name: Kossi
+          MOU:
+            name: Mouhoun
+          NAY:
+            name: Nayala
+          SOR:
+            name: Sourou
+      '02':
+        name: Cascades
+        regions:
+          COM:
+            name: Comoé
+          LER:
+            name: Léraba
+      '03':
+        name: Centre
+        regions:
+          KAD:
+            name: Kadiogo
+      '04':
+        name: Centre-Est
+        regions:
+          BLG:
+            name: Boulgou
+          KOP:
+            name: Koulpélogo
+          KOT:
+            name: Kouritenga
+      '05':
+        name: Centre-Nord
+        regions:
+          BAM:
+            name: Bam
+          NAM:
+            name: Namentenga
+          SMT:
+            name: Sanmatenga
+      '06':
+        name: Centre-Ouest
+        regions:
+          BLK:
+            name: Boulkiemdé
+          SIS:
+            name: Sissili
+          SNG:
+            name: Sanguié
+          ZIR:
+            name: Ziro
+      '07':
+        name: Centre-Sud
+        regions:
+          BAZ:
+            name: Bazèga
+          NAO:
+            name: Nahouri
+          ZOU:
+            name: Zoundwéogo
+      08:
+        name: Est
+        regions:
+          GNA:
+            name: Gnagna
+          GOU:
+            name: Gourma
+          KMD:
+            name: Komondjari
+          KMP:
+            name: Kompienga
+          TAP:
+            name: Tapoa
+      09:
+        name: Hauts-Bassins
+        regions:
+          HOU:
+            name: Houet
+          KEN:
+            name: Kénédougou
+          TUI:
+            name: Tuy

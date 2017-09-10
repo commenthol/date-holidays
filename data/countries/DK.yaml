@@ -44,4 +44,14 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-
+    # states:
+      # '81':
+      #   name: Northern Denmark
+      # '82':
+      #   name: Central Denmark
+      # '83':
+      #   name: Southern Denmark
+      # '84':
+      #   name: Capital Region
+      # '85':
+      #   name: Zealand

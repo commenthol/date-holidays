@@ -1,0 +1,9 @@
+holidays:
+  NF:
+    names:
+      en: Norfolk Island
+    langs: []
+    zones:
+      - Pacific/Norfolk
+    dayoff: ''
+    days: {}

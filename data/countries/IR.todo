@@ -1,0 +1,72 @@
+holidays:
+  IR:
+    names:
+      en: Iran
+    langs: []
+    zones:
+      - Asia/Tehran
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Khuzestan
+      '11':
+        name: Zanjan
+      '12':
+        name: Semnan
+      '13':
+        name: Sistan and Baluchestan
+      '14':
+        name: Fars
+      '15':
+        name: Kerman
+      '16':
+        name: Kurdistan
+      '17':
+        name: Kermanshah
+      '18':
+        name: Kohgiluyeh and Boyer-Ahmad
+      '19':
+        name: Gilan
+      '20':
+        name: Lorestan
+      '21':
+        name: Mazandaran
+      '22':
+        name: Markazi
+      '23':
+        name: Hormozgan
+      '24':
+        name: Hamadan
+      '25':
+        name: Yazd
+      '26':
+        name: Qom
+      '27':
+        name: Golestan
+      '28':
+        name: Qazvin
+      '29':
+        name: South Khorasan
+      '30':
+        name: Razavi Khorasan
+      '31':
+        name: North Khorasan
+      '32':
+        name: Alborz
+      '01':
+        name: East Azerbaijan
+      '02':
+        name: West Azarbaijan
+      '03':
+        name: Ardabil
+      '04':
+        name: Isfahan
+      '05':
+        name: Ilam
+      '06':
+        name: Bushehr
+      '07':
+        name: Tehran
+      08:
+        name: Chaharmahal and Bakhtiari

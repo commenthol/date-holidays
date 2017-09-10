@@ -1,0 +1,18 @@
+holidays:
+  SZ:
+    names:
+      en: Swaziland
+    langs: []
+    zones:
+      - Africa/Johannesburg
+    dayoff: ''
+    days: {}
+    states:
+      HH:
+        name: Hhohho
+      LU:
+        name: Lubombo
+      MA:
+        name: Manzini
+      SH:
+        name: Shiselweni

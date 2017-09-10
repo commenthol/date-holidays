@@ -1,0 +1,26 @@
+holidays:
+  LB:
+    names:
+      en: Lebanon
+    langs: []
+    zones:
+      - Asia/Beirut
+    dayoff: ''
+    days: {}
+    states:
+      AK:
+        name: Akkar
+      AS:
+        name: North
+      BA:
+        name: Beirut
+      BH:
+        name: Baalbek-Hermel
+      BI:
+        name: Beqaa
+      JA:
+        name: South
+      JL:
+        name: Mount Lebanon
+      NA:
+        name: Nabatieh

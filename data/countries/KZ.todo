@@ -1,0 +1,47 @@
+holidays:
+  KZ:
+    names:
+      en: Kazakhstan
+    langs: []
+    zones:
+      - Asia/Almaty
+      - Asia/Qyzylorda
+      - Asia/Aqtobe
+      - Asia/Aqtau
+      - Asia/Atyrau
+      - Asia/Oral
+    dayoff: ''
+    days: {}
+    states:
+      AKM:
+        name: Akmola
+      AKT:
+        name: Aktobe
+      ALA:
+        name: Almaty
+      ALM:
+        name: Almaty Region
+      AST:
+        name: Astana
+      ATY:
+        name: Atyrau
+      KAR:
+        name: Karagandy
+      KUS:
+        name: Kostanay
+      KZY:
+        name: Kyzylorda
+      MAN:
+        name: Mangystau
+      PAV:
+        name: Pavlodar
+      SEV:
+        name: North Kazakhstan
+      VOS:
+        name: East Kazakhstan
+      YUZ:
+        name: South Kazakhstan
+      ZAP:
+        name: West Kazakhstan
+      ZHA:
+        name: Jambyl

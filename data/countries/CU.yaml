@@ -38,4 +38,36 @@ holidays:
         _name: Independence Day
       12-25:
         _name: 12-25
-
+    # states:
+      # '01':
+      #   name: Pinar del Río
+      # '03':
+      #   name: Havana
+      # '04':
+      #   name: Matanzas
+      # '05':
+      #   name: Villa Clara
+      # '06':
+      #   name: Cienfuegos
+      # '07':
+      #   name: Sancti Spíritus
+      # '08':
+      #   name: Ciego de Ávila
+      # '09':
+      #   name: Camagüey
+      # '10':
+      #   name: Las Tunas
+      # '11':
+      #   name: Holguín
+      # '12':
+      #   name: Granma
+      # '13':
+      #   name: Santiago de Cuba
+      # '14':
+      #   name: Guantánamo
+      # '15':
+      #   name: Artemisa
+      # '16':
+      #   name: Mayabeque
+      # '99':
+      #   name: Isla de la Juventud

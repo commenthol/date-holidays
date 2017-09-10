@@ -1,0 +1,9 @@
+holidays:
+  IO:
+    names:
+      en: British Indian Ocean Territory
+    langs: []
+    zones:
+      - Indian/Chagos
+    dayoff: ''
+    days: {}
