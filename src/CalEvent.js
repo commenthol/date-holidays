@@ -1,6 +1,6 @@
 'use strict'
 
-const isDate = require('./internal/utils').isDate
+const {isDate} = require('./internal/utils')
 const CalDate = require('caldate')
 
 class CalEvent {
@@ -40,30 +40,38 @@ class CalEvent {
 
   /**
    * @param {Number} year - year to filter
-   * @param {Object[]} active - definition of active ranges `{from: {Number}, [to]: {Number}}`
+   * @param {Object[]} active - definition of active ranges `{from: {Date}, [to]: {Date}}`
+   * @return {this} for chaining
    */
   filter (year, active) {
-    var diff
-    var isActive = true
-    if (active) {
-      isActive = false
-      active.forEach((a) => {
-        if (
-          (a.from && a.to && a.from <= year && a.to >= year) ||
-          (a.from && !a.to && a.from <= year)
-        ) {
-          isActive = true
+    function isActive (date) {
+      if (!active) {
+        if (date.year === year) {
+          return true
+        } else {
+          return false
         }
-      })
+      }
+      const _date = date.toDate()
+      for (let a of active) {
+        const {from, to} = a
+        if (
+          date.year === year &&
+          ((from && to && from <= _date && to > _date) ||
+          (from && !to && from <= _date))
+        ) {
+          return true
+        }
+      }
     }
+
     this.dates = this.dates.filter((date) => {
-      if (!isActive || year !== date.year || date._filter) {
-        diff = year - date.year
-      } else {
+      if (!date._filter && isActive(date)) {
         return date
       }
     })
-    return diff
+
+    return this
   }
 
   push (calEvent) {

@@ -7,7 +7,6 @@
   - [x] parsing rules, update specification
   - [x] new CalEvent based on results from `date-chinese`
   - [x] other timezone as Asia/Shanghai
-- [ ] New Feature: Calculus for Diwali (KE, SU, IN)
 - [x] New Feature: Change build process for `holidays.json`. Allow building for single countries
   - [X] document in `README.md`
 - [x] Change Rule: Move from `spring equinox` to `march equinox` to avoid confusions between southern/ northern hemisphere
@@ -19,3 +18,9 @@
       en: Spring Equinox Day
       jp: 春分の日
   ```
+- [x] document disabling rule in states/ regions
+- [x] active feature introduced with Kobe Bryant Day (US-CA-LA)
+  - document
+  - write test case
+- [ ] split project in source and data
+- [ ] New Feature: Calculus for Diwali (KE, SU, IN)

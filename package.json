@@ -38,11 +38,11 @@
     "cover": "istanbul cover _mocha --report lcov --report text -- -R dot --check-leaks test/*.mocha.js",
     "lint": "eslint --quiet '**/*.js'",
     "test": "mocha",
-    "zuul": "zuul test/Holidays.mocha.js",
+    "test:all": "npm run yaml && mocha test/all.mocha.js",
     "transpile": "babel -d lib src",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "yaml": "node scripts/holidays2json.js",
-    "test:all": "npm run yaml && mocha test/all.mocha.js"
+    "zuul": "zuul test/Holidays.mocha.js"
   },
   "babel": {
     "presets": [

@@ -1,6 +1,6 @@
 # Specification for `holidays.yaml`
 
-Version: 1.0.0
+Version: 1.1.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
@@ -28,8 +28,10 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Enable Date only for odd/ even numbered years](#enable-date-only-for-odd-even-numbered-years)
   * [Enable Date only for certain periods of years](#enable-date-only-for-certain-periods-of-years)
   * [Holiday based on other holidays (bridge days)](#holiday-based-on-other-holidays-bridge-days)
+  * [Enabling a rule since or in certain years](#enabling-a-rule-since-or-in-certain-years)
   * [Disabling a rule](#disabling-a-rule)
   * [Moving a date](#moving-a-date)
+  * [Disabling a rule in states/ regions](#disabling-a-rule-in-states-regions)
 * [Generation of `holidays.json`](#generation-of-holidaysjson)
 
 <!-- toc! -->
@@ -168,7 +170,7 @@ A fix day for a given year is attributed with `YYYY-MM-DD`.
 
 - `01-01` is January first
 - `12-11` is December 11th
-- `'2015-10-09'` is October 9th of 2015 (Enclose such date in quotes as otherwise it will be expanded to an ISO date by js-yaml)
+- `'2015-10-09'` is October 9th of 2015 (Enclose such date in quotes as otherwise it will be expanded to an ISO date by yaml parser)
 
 ### Fixed Date at beginning of a Month
 
@@ -415,13 +417,36 @@ Rule: `<date> if MM-DD (and MM-DD)? is (<type>)? holiday`
 - `09-22 if 09-21 is holiday` is September 22nd is public holiday only if September 21st is also a holiday
 - `09-22 if 09-21 and 09-23 is public holiday` is September 22nd is public holiday only if September 21st and September 23rd are public holidays
 
+### Enabling a rule since or in certain years
+
+> __Note:__ Use quotes around dates!
+
+```yaml
+days:
+  # rule is active since 2004
+  08-25:
+    active:
+      - from: '2004-01-01'
+  ...
+  # rule is active in years 1990...1999, 2004...2005-08, 2016...
+  08-24:
+    active:
+      - from: '1990-01-01'
+        to: '1999-07-01'
+      - from: '2004-01-01'
+        to: '2005-08-03'
+      - from: '2016-01-01'
+```
+
 ### Disabling a rule
 
 On any rule it is possible to disable it for a given date. For every year an entry can be applied to the list.
 
 E.g. in case that the 4th Monday in November is the 2015-11-23 then the day will not be a holiday.
 
-```
+> __Note__: Use quotes around date!
+
+```yaml
 days:
   4th monday after 11-01:
     disable:
@@ -436,7 +461,9 @@ In order to move a date for a rule use `disable` together with `enable`.
 
 E.g. in case that the 4th Monday in November is the 2015-11-23 then the day gets moved to 2015-11-27.
 
-```
+> __Note__: Use quotes around dates!
+
+```yaml
 days:
   4th monday in November:
     disable:
@@ -445,6 +472,27 @@ days:
       - '2015-11-27'
     name:
       en: Day of National Sovereignty
+```
+
+### Disabling a rule in states/ regions
+
+Sometimes it is necessary to disable a general rule for a single state or region.
+
+```yaml
+holidays:
+  OZ:
+    name:
+      en: Oz
+    ...
+    days:
+      04-01:
+        name:
+          en: 1st of April
+    regions:
+      IX:
+        name: Kingdom of IX
+        days:
+          04-01: false # disables rule
 ```
 
 ## Generation of `holidays.json`

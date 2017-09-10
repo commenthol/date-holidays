@@ -150,6 +150,64 @@ describe('#CalEvent', function () {
     var res = date.isEqualDate(comp)
     assert.strictEqual(res, false)
   })
+
+  describe('filter', function () {
+    function activeFiterTest (event, active, tests) {
+      tests.forEach((test) => {
+        var year = test.year
+        var exp = test.exp
+        it('in year ' + year, function () {
+          var date = new CalEvent(event)
+          date.inYear(year).filter(year, active)
+          var res = date.get()
+          assert.equal(res.length, exp.length)
+          if (exp.length) {
+            assert.equal(res[0].date, exp[0].date)
+          }
+        })
+      })
+    }
+
+    describe('with years', function () {
+      var event = {month: 12, day: 3}
+      var active = [
+        {from: new Date(1990, 0, 1), to: new Date(1999, 0, 1)},
+        {from: new Date(2004, 0, 1), to: new Date(2005, 0, 1)},
+        {from: new Date(2016, 0, 1)}
+      ]
+      var tests = [
+        {year: 1989, exp: []},
+        {year: 1990, exp: [{date: '1990-12-03 00:00:00'}]},
+        {year: 1995, exp: [{date: '1995-12-03 00:00:00'}]},
+        {year: 1999, exp: []},
+        {year: 2000, exp: []},
+        {year: 2003, exp: []},
+        {year: 2016, exp: [{date: '2016-12-03 00:00:00'}]},
+        {year: 2050, exp: [{date: '2050-12-03 00:00:00'}]}
+      ]
+      activeFiterTest(event, active, tests)
+    })
+
+    describe('with dates', function () {
+      var event = {month: 8, day: 3}
+      var active = [
+        {from: new Date(1990, 7, 1), to: new Date(1999, 6, 1)},
+        {from: new Date(2004, 7, 4), to: new Date(2005, 0, 1)},
+        {from: new Date(2016, 7, 3)}
+      ]
+      var tests = [
+        {year: 1989, exp: []},
+        {year: 1990, exp: [{date: '1990-08-03 00:00:00'}]},
+        {year: 1995, exp: [{date: '1995-08-03 00:00:00'}]},
+        {year: 1999, exp: []},
+        {year: 2004, exp: []},
+        {year: 2005, exp: []},
+        {year: 2016, exp: [{date: '2016-08-03 00:00:00'}]},
+        {year: 2050, exp: [{date: '2050-08-03 00:00:00'}]}
+      ]
+      activeFiterTest(event, active, tests)
+    })
+  })
 })
 
 describe('#Easter', function () {
