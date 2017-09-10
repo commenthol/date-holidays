@@ -1,0 +1,26 @@
+holidays:
+  PK:
+    names:
+      en: Pakistan
+    langs: []
+    zones:
+      - Asia/Karachi
+    dayoff: ''
+    days: {}
+    states:
+      BA:
+        name: Balochistan
+      GB:
+        name: Gilgit-Baltistan
+      IS:
+        name: Islamabad
+      JK:
+        name: Azad Kashmir
+      KP:
+        name: Khyber Pakhtunkhwa
+      PB:
+        name: Punjab
+      SD:
+        name: Sindh
+      TA:
+        name: Federally Administered Tribal Areas

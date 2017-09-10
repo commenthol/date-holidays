@@ -1,0 +1,9 @@
+holidays:
+  EH:
+    names:
+      en: Western Sahara
+    langs: []
+    zones:
+      - Africa/El_Aaiun
+    dayoff: ''
+    days: {}

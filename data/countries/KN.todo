@@ -1,0 +1,44 @@
+holidays:
+  KN:
+    names:
+      en: St. Kitts & Nevis
+    langs: []
+    zones:
+      - America/Port_of_Spain
+    dayoff: ''
+    days: {}
+    states:
+      K:
+        name: Saint Kitts
+        regions:
+          '11':
+            name: Saint Peter Basseterre
+          '13':
+            name: Saint Thomas Middle Island
+          '15':
+            name: Trinity Palmetto Point
+          '01':
+            name: Christ Church Nichola Town
+          '02':
+            name: Saint Anne Sandy Point
+          '03':
+            name: Saint George Basseterre
+          '06':
+            name: Saint John Capisterre
+          08:
+            name: Saint Mary Cayon
+          09:
+            name: Saint Paul Capisterre
+      'N':
+        name: Nevis
+        regions:
+          '10':
+            name: Saint Paul Charlestown
+          '12':
+            name: Saint Thomas Lowland
+          '04':
+            name: Saint George Gingerland
+          '05':
+            name: Saint James Windward
+          '07':
+            name: Saint John Figtree

@@ -1,0 +1,152 @@
+holidays:
+  MK:
+    names:
+      en: Macedonia
+    langs: []
+    zones:
+      - Europe/Belgrade
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Valandovo
+      '11':
+        name: Vasilevo
+      '12':
+        name: Vevčani
+      '13':
+        name: Veles
+      '14':
+        name: Vinica
+      '16':
+        name: Vrapčište
+      '18':
+        name: Gevgelija
+      '19':
+        name: Gostivar
+      '20':
+        name: Gradsko
+      '21':
+        name: Debar
+      '22':
+        name: Debarca
+      '23':
+        name: Delčevo
+      '24':
+        name: Demir Kapija
+      '25':
+        name: Demir Hisar
+      '26':
+        name: Dojran
+      '27':
+        name: Dolneni
+      '30':
+        name: Želino
+      '32':
+        name: Zelenikovo
+      '33':
+        name: Zrnovci
+      '34':
+        name: Ilinden
+      '35':
+        name: Jegunovce
+      '36':
+        name: Kavadarci
+      '37':
+        name: Karbinci
+      '40':
+        name: Kičevo
+      '41':
+        name: Konče
+      '42':
+        name: Kočani
+      '43':
+        name: Kratovo
+      '44':
+        name: Kriva Palanka
+      '45':
+        name: Krivogaštani
+      '46':
+        name: Kruševo
+      '47':
+        name: Kumanovo
+      '48':
+        name: Lipkovo
+      '49':
+        name: Lozovo
+      '50':
+        name: Mavrovo and Rostuša
+      '51':
+        name: Makedonska Kamenica
+      '52':
+        name: Makedonski Brod
+      '53':
+        name: Mogila
+      '54':
+        name: Negotino
+      '55':
+        name: Novaci
+      '56':
+        name: Novo Selo
+      '58':
+        name: Ohrid
+      '59':
+        name: Petrovec
+      '60':
+        name: Pehčevo
+      '61':
+        name: Plasnica
+      '62':
+        name: Prilep
+      '63':
+        name: Probištip
+      '64':
+        name: Radoviš
+      '65':
+        name: Rankovce
+      '66':
+        name: Resen
+      '67':
+        name: Rosoman
+      '69':
+        name: Sveti Nikole
+      '70':
+        name: Sopište
+      '71':
+        name: Staro Nagoričane
+      '72':
+        name: Struga
+      '73':
+        name: Strumica
+      '74':
+        name: Studeničani
+      '75':
+        name: Tearce
+      '76':
+        name: Tetovo
+      '78':
+        name: Centar Župa
+      '80':
+        name: Čaška
+      '81':
+        name: Češinovo-Obleševo
+      '82':
+        name: Čučer-Sandevo
+      '83':
+        name: Štip
+      '85':
+        name: Skopje
+      '02':
+        name: Aračinovo
+      '03':
+        name: Berovo
+      '04':
+        name: Bitola
+      '05':
+        name: Bogdanci
+      '06':
+        name: Bogovinje
+      '07':
+        name: Bosilovo
+      08:
+        name: Brvenica

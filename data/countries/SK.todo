@@ -1,0 +1,26 @@
+holidays:
+  SK:
+    names:
+      en: Slovakia
+    langs: []
+    zones:
+      - Europe/Prague
+    dayoff: ''
+    days: {}
+    states:
+      BC:
+        name: Banská Bystrica
+      BL:
+        name: Bratislava
+      KI:
+        name: Košice
+      NI:
+        name: Nitra
+      PV:
+        name: Prešov
+      TA:
+        name: Trnava
+      TC:
+        name: Trenčín
+      ZI:
+        name: Žilina

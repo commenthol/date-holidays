@@ -1,0 +1,9 @@
+holidays:
+  CX:
+    names:
+      en: Christmas Island
+    langs: []
+    zones:
+      - Indian/Christmas
+    dayoff: ''
+    days: {}

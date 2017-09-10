@@ -1,0 +1,28 @@
+holidays:
+  ML:
+    names:
+      en: Mali
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      '1':
+        name: Kayes
+      '2':
+        name: Koulikoro
+      '3':
+        name: Sikasso
+      '4':
+        name: Ségou
+      '5':
+        name: Mopti
+      '6':
+        name: Tombouctou
+      '7':
+        name: Gao
+      '8':
+        name: Kidal
+      BKO:
+        name: Bamako

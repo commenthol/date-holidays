@@ -1,0 +1,73 @@
+holidays:
+  MV:
+    names:
+      en: Maldives
+    langs: []
+    zones:
+      - Indian/Maldives
+    dayoff: ''
+    days: {}
+    states:
+      CE:
+        name: Central Province
+        regions:
+          '12':
+            name: Meemu
+          '14':
+            name: Faafu
+          '17':
+            name: Dhaalu
+      MLE:
+        name: Malé
+      NC:
+        name: North Central Province
+        regions:
+          '26':
+            name: Kaafu
+          '00':
+            name: Alif Dhaal
+          '02':
+            name: Alif Alif
+          '04':
+            name: Vaavu
+      'NO':
+        name: North Province
+        regions:
+          '13':
+            name: Raa
+          '20':
+            name: Baa
+          '25':
+            name: Noonu
+          '03':
+            name: Lhaviyani
+      SC:
+        name: South Central Province
+        regions:
+          '27':
+            name: Gaafu Alif
+          '28':
+            name: Gaafu Dhaalu
+      SU:
+        name: South Province
+        regions:
+          '29':
+            name: Gnaviyani
+          '01':
+            name: Addu
+      UN:
+        name: Upper North Province
+        regions:
+          '23':
+            name: Haa Dhaalu
+          '24':
+            name: Shaviyani
+          '07':
+            name: Haa Alif
+      US:
+        name: Upper South Province
+        regions:
+          '05':
+            name: Laamu
+          08:
+            name: Thaa

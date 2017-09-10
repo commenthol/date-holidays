@@ -1,0 +1,16 @@
+holidays:
+  SH:
+    names:
+      en: St. Helena
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      AC:
+        name: Ascension Island
+      HL:
+        name: Saint Helena
+      TA:
+        name: Tristan da Cunha

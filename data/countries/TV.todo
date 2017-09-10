@@ -1,0 +1,26 @@
+holidays:
+  TV:
+    names:
+      en: Tuvalu
+    langs: []
+    zones:
+      - Pacific/Funafuti
+    dayoff: ''
+    days: {}
+    states:
+      FUN:
+        name: Funafuti
+      NIT:
+        name: Niutao
+      NKF:
+        name: Nukufetau
+      NKL:
+        name: Nukulaelae
+      NMA:
+        name: Nanumea
+      NMG:
+        name: Nanumanga
+      NUI:
+        name: Nui
+      VAI:
+        name: Vaitupu

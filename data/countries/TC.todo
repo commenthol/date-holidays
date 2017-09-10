@@ -1,0 +1,9 @@
+holidays:
+  TC:
+    names:
+      en: Turks & Caicos Islands
+    langs: []
+    zones:
+      - America/Grand_Turk
+    dayoff: ''
+    days: {}

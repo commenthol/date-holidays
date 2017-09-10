@@ -1,0 +1,16 @@
+holidays:
+  KM:
+    names:
+      en: Comoros
+    langs: []
+    zones:
+      - Africa/Nairobi
+    dayoff: ''
+    days: {}
+    states:
+      A:
+        name: Anjouan
+      G:
+        name: Grande Comore
+      M:
+        name: Mohéli

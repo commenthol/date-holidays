@@ -1,0 +1,18 @@
+holidays:
+  BH:
+    names:
+      en: Bahrain
+    langs: []
+    zones:
+      - Asia/Qatar
+    dayoff: ''
+    days: {}
+    regions:
+      '13':
+        name: Capital
+      '14':
+        name: Southern
+      '15':
+        name: Muharraq
+      '17':
+        name: Northern

@@ -1,0 +1,9 @@
+holidays:
+  PR:
+    names:
+      en: Puerto Rico
+    langs: []
+    zones:
+      - America/Puerto_Rico
+    dayoff: ''
+    days: {}

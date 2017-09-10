@@ -1,0 +1,38 @@
+holidays:
+  SY:
+    names:
+      en: Syria
+    langs: []
+    zones:
+      - Asia/Damascus
+    dayoff: ''
+    days: {}
+    states:
+      DI:
+        name: Damascus
+      DR:
+        name: Daraa
+      DY:
+        name: Deir ez-Zor
+      HA:
+        name: Al-Hasakah
+      HI:
+        name: Homs
+      HL:
+        name: Aleppo
+      HM:
+        name: Hama
+      ID:
+        name: Idlib
+      LA:
+        name: Latakia
+      QU:
+        name: Quneitra
+      RA:
+        name: Ar-Raqqah
+      RD:
+        name: Rif Dimashq
+      SU:
+        name: As-Suwayda
+      TA:
+        name: Tartus

@@ -1,0 +1,184 @@
+holidays:
+  MA:
+    names:
+      en: Morocco
+    langs: []
+    zones:
+      - Africa/Casablanca
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Doukkala-Abda
+        regions:
+          JDI:
+            name: El Jadida
+          SAF:
+            name: Safi
+      '11':
+        name: Marrakesh-Tensift-El Haouz
+        regions:
+          CHI:
+            name: Chichaoua
+          ESI:
+            name: Essaouira
+          HAO:
+            name: Al Haouz
+          KES:
+            name: Kelaat Sraghna
+          MMD:
+            name: Marrakech-Medina
+          MMN:
+            name: Marrakech-Menara
+          SYB:
+            name: Sidi Youssef Ben Ali
+      '12':
+        name: Tadla-Azilal
+        regions:
+          AZI:
+            name: Azilal
+          BEM:
+            name: Béni-Mellal
+      '13':
+        name: Souss-Massa-Drâa
+        regions:
+          AGD:
+            name: Agadir-Ida Ou Tanane
+          CHT:
+            name: Chtouka Aït Baha
+          INE:
+            name: Inezgane-Aït Melloul
+          OUA:
+            name: Ouarzazate
+          TAR:
+            name: Taroudant
+          TIZ:
+            name: Tiznit
+          ZAG:
+            name: Zagora
+      '14':
+        name: Guelmim-Es Semara
+        regions:
+          ASZ:
+            name: Assa-Zag
+          ESM:
+            name: Es Semara
+          GUE:
+            name: Guelmim
+          TAT:
+            name: Tata
+          TNT:
+            name: Tan-Tan
+      '15':
+        name: Laâyoune-Boujdour-Sakia El Hamra
+        regions:
+          BOD:
+            name: Boujdour
+          LAA:
+            name: Laâyoune
+      '16':
+        name: Oued Ed-Dahab-Lagouira
+        regions:
+          AOU:
+            name: Aousserd
+          OUD:
+            name: Oued Ed-Dahab
+      '01':
+        name: Tangier-Tétouan
+        regions:
+          CHE:
+            name: Chefchaouen
+          FAH:
+            name: Fahs-Beni Makada
+          LAR:
+            name: Larache
+          TET:
+            name: Tétouan
+          TNG:
+            name: Tangier-Assilah
+      '02':
+        name: Gharb-Chrarda-Béni Hssen
+        regions:
+          KEN:
+            name: Kénitra
+          SIK:
+            name: Sidi Kacem
+      '03':
+        name: Taza-Al Hoceima-Taounate
+        regions:
+          HOC:
+            name: Al Hoceïma
+          TAO:
+            name: Taounate
+          TAZ:
+            name: Taza
+      '04':
+        name: Oriental
+        regions:
+          BER:
+            name: Berkane
+          FIG:
+            name: Figuig
+          JRA:
+            name: Jerada
+          NAD:
+            name: Nador
+          OUJ:
+            name: Oujda-Angad
+          TAI:
+            name: Taourirt
+      '05':
+        name: Fès-Boulemane
+        regions:
+          BOM:
+            name: Boulemane
+          FES:
+            name: Fès-Dar-Dbibegh
+          MOU:
+            name: Moulay Yacoub
+          SEF:
+            name: Sefrou
+      '06':
+        name: Meknès-Tafilalet
+        regions:
+          ERR:
+            name: Errachidia
+          HAJ:
+            name: El Hajeb
+          IFR:
+            name: Ifrane
+          KHN:
+            name: Khénifra
+          MEK:
+            name: Meknès
+      '07':
+        name: Rabat-Salé-Zemmour-Zaer
+        regions:
+          KHE:
+            name: Khemisset
+          RAB:
+            name: Rabat
+          SAL:
+            name: Salé
+          SKH:
+            name: Skhirat-Témara
+      08:
+        name: Grand Casablanca
+        regions:
+          CAS:
+            name: Casablanca
+          MED:
+            name: Médiouna
+          MOH:
+            name: Mohammedia
+          NOU:
+            name: Nouaceur
+      09:
+        name: Chaouia-Ouardigha
+        regions:
+          BES:
+            name: Ben Slimane
+          KHO:
+            name: Khouribga
+          SET:
+            name: Settat

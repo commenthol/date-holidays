@@ -1,0 +1,84 @@
+holidays:
+  NG:
+    names:
+      en: Nigeria
+    langs: []
+    zones:
+      - Africa/Lagos
+    dayoff: ''
+    days: {}
+    states:
+      AB:
+        name: Abia
+      AD:
+        name: Adamawa
+      AK:
+        name: Akwa Ibom
+      AN:
+        name: Anambra
+      BA:
+        name: Bauchi
+      BE:
+        name: Benue
+      BO:
+        name: Borno
+      BY:
+        name: Bayelsa
+      CR:
+        name: Cross River
+      DE:
+        name: Delta
+      EB:
+        name: Ebonyi
+      ED:
+        name: Edo
+      EK:
+        name: Ekiti
+      EN:
+        name: Enugu
+      FC:
+        name: Federal Capital Territory
+      GO:
+        name: Gombe
+      IM:
+        name: Imo
+      JI:
+        name: Jigawa
+      KD:
+        name: Kaduna
+      KE:
+        name: Kebbi
+      KN:
+        name: Kano
+      KO:
+        name: Kogi
+      KT:
+        name: Katsina
+      KW:
+        name: Kwara
+      LA:
+        name: Lagos
+      NA:
+        name: Nasarawa
+      NI:
+        name: Niger
+      OG:
+        name: Ogun
+      'ON':
+        name: Ondo
+      OS:
+        name: Osun
+      OY:
+        name: Oyo
+      PL:
+        name: Plateau
+      RI:
+        name: Rivers
+      SO:
+        name: Sokoto
+      TA:
+        name: Taraba
+      YO:
+        name: Yobe
+      ZA:
+        name: Zamfara

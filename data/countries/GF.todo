@@ -1,0 +1,10 @@
+holidays:
+  GF:
+    names:
+      en: French Guiana
+    langs:
+      - fr
+    zones:
+      - America/Cayenne
+    dayoff: ''
+    days: {}

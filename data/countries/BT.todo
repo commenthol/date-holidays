@@ -1,0 +1,50 @@
+holidays:
+  BT:
+    names:
+      en: Bhutan
+    langs: []
+    zones:
+      - Asia/Thimphu
+    dayoff: ''
+    days: {}
+    states:
+      '11':
+        name: Paro
+      '12':
+        name: Chukha
+      '13':
+        name: Haa
+      '14':
+        name: Samtse
+      '15':
+        name: Thimphu
+      '21':
+        name: Tsirang
+      '22':
+        name: Dagana
+      '23':
+        name: Punakha
+      '24':
+        name: Wangdue Phodrang
+      '31':
+        name: Sarpang
+      '32':
+        name: Trongsa
+      '33':
+        name: Bumthang
+      '34':
+        name: Zhemgang
+      '41':
+        name: Trashigang
+      '42':
+        name: Mongar
+      '43':
+        name: Pemagatshel
+      '44':
+        name: Lhuntse
+      '45':
+        name: Samdrup Jongkhar
+      GA:
+        name: Gasa
+      TY:
+        name: Trashiyangtse

@@ -1,0 +1,12 @@
+holidays:
+  PF:
+    names:
+      en: French Polynesia
+    langs:
+      - fr
+    zones:
+      - Pacific/Tahiti
+      - Pacific/Marquesas
+      - Pacific/Gambier
+    dayoff: ''
+    days: {}

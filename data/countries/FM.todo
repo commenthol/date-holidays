@@ -1,0 +1,20 @@
+holidays:
+  FM:
+    names:
+      en: Micronesia
+    langs: []
+    zones:
+      - Pacific/Chuuk
+      - Pacific/Pohnpei
+      - Pacific/Kosrae
+    dayoff: ''
+    days: {}
+    states:
+      KSA:
+        name: Kosrae
+      PNI:
+        name: Pohnpei
+      TRK:
+        name: Chuuk
+      YAP:
+        name: Yap

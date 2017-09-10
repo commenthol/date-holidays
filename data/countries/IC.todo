@@ -1,0 +1,11 @@
+holidays:
+  IC:
+    names:
+      es: Islas Canarias
+      en: Canary Islands
+    langs:
+      - es
+    zones:
+      - Atlantic/Canary
+    dayoff: sunday
+    days: {}

@@ -1,0 +1,40 @@
+holidays:
+  LR:
+    names:
+      en: Liberia
+    langs: []
+    zones:
+      - Africa/Monrovia
+    dayoff: ''
+    days: {}
+    states:
+      BG:
+        name: Bong
+      BM:
+        name: Bomi
+      CM:
+        name: Grand Cape Mount
+      GB:
+        name: Grand Bassa
+      GG:
+        name: Grand Gedeh
+      GK:
+        name: Grand Kru
+      GP:
+        name: Gbarpolu
+      LO:
+        name: Lofa
+      MG:
+        name: Margibi
+      MO:
+        name: Montserrado
+      MY:
+        name: Maryland
+      NI:
+        name: Nimba
+      RG:
+        name: River Gee
+      RI:
+        name: Rivercess
+      SI:
+        name: Sinoe

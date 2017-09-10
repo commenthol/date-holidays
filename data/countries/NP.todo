@@ -1,0 +1,53 @@
+holidays:
+  NP:
+    names:
+      en: Nepal
+    langs: []
+    zones:
+      - Asia/Kathmandu
+    dayoff: ''
+    days: {}
+    states:
+      '1':
+        name: Central
+        regions:
+          BA:
+            name: Bagmati
+          JA:
+            name: Janakpur
+          NA:
+            name: Narayani
+      '2':
+        name: Madhya Pashchimanchal
+        regions:
+          BH:
+            name: Bheri
+          KA:
+            name: Karnali
+          RA:
+            name: Rapti
+      '3':
+        name: Western
+        regions:
+          DH:
+            name: Dhawalagiri
+          GA:
+            name: Gandaki
+          LU:
+            name: Lumbini
+      '4':
+        name: Purwanchal
+        regions:
+          KO:
+            name: Kosi
+          ME:
+            name: Mechi
+          SA:
+            name: Sagarmatha
+      '5':
+        name: Sudur Pashchimanchal
+        regions:
+          MA:
+            name: Mahakali
+          SE:
+            name: Seti

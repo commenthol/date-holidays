@@ -1,0 +1,24 @@
+holidays:
+  QA:
+    names:
+      en: Qatar
+    langs: []
+    zones:
+      - Asia/Qatar
+    dayoff: ''
+    days: {}
+    states:
+      DA:
+        name: Doha
+      KH:
+        name: Al Khor
+      MS:
+        name: Madinat ash Shamal
+      RA:
+        name: Al Rayyan
+      US:
+        name: Umm Salal
+      WA:
+        name: Al Wakrah
+      ZA:
+        name: Al Daayen

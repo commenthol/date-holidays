@@ -1,0 +1,10 @@
+holidays:
+  YT:
+    names:
+      en: Mayotte
+    langs:
+      - fr
+    zones:
+      - Africa/Nairobi
+    dayoff: ''
+    days: {}

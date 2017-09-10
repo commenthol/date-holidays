@@ -1,0 +1,18 @@
+holidays:
+  KI:
+    names:
+      en: Kiribati
+    langs: []
+    zones:
+      - Pacific/Tarawa
+      - Pacific/Enderbury
+      - Pacific/Kiritimati
+    dayoff: ''
+    days: {}
+    states:
+      G:
+        name: Gilbert Islands
+      L:
+        name: Line Islands
+      P:
+        name: Phoenix Islands

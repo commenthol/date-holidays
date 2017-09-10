@@ -1,0 +1,32 @@
+holidays:
+  OM:
+    names:
+      en: Oman
+    langs: []
+    zones:
+      - Asia/Dubai
+    dayoff: ''
+    days: {}
+    states:
+      BJ:
+        name: Janub al Batinah
+      BS:
+        name: Shamal al Batinah
+      BU:
+        name: Al Buraimi
+      DA:
+        name: Ad Dakhiliyah
+      MA:
+        name: Muscat
+      MU:
+        name: Musandam
+      SJ:
+        name: Janub ash Sharqiyah
+      SS:
+        name: Shamal ash Sharqiyah
+      WU:
+        name: Al Wusta
+      ZA:
+        name: Ad Dhahirah
+      ZU:
+        name: Dhofar

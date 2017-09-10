@@ -1,0 +1,222 @@
+holidays:
+  PH:
+    names:
+      en: Philippines
+    langs: []
+    zones:
+      - Asia/Manila
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Northern Mindanao
+        regions:
+          BUK:
+            name: Bukidnon
+          CAM:
+            name: Camiguin
+          MSC:
+            name: Misamis Occidental
+          MSR:
+            name: Misamis Oriental
+      '11':
+        name: Davao
+        regions:
+          COM:
+            name: Compostela Valley
+          DAO:
+            name: Davao Oriental
+          DAS:
+            name: Davao del Sur
+          DAV:
+            name: Davao del Norte
+          DVO:
+            name: Davao Occidental
+          SAR:
+            name: Sarangani
+          SCO:
+            name: South Cotabato
+      '12':
+        name: Soccsksargen
+        regions:
+          LAN:
+            name: Lanao del Norte
+          NCO:
+            name: Cotabato
+          SUK:
+            name: Sultan Kudarat
+      '13':
+        name: Caraga
+        regions:
+          AGN:
+            name: Agusan del Norte
+          AGS:
+            name: Agusan del Sur
+          DIN:
+            name: Dinagat Islands
+          SUN:
+            name: Surigao del Norte
+          SUR:
+            name: Surigao del Sur
+      '14':
+        name: Muslim Mindanao
+        regions:
+          LAS:
+            name: Lanao del Sur
+          MAG:
+            name: Maguindanao
+          SLU:
+            name: Sulu
+          TAW:
+            name: Tawi-Tawi
+      '15':
+        name: Cordillera Administrative
+        regions:
+          ABR:
+            name: Abra
+          APA:
+            name: Apayao
+          BEN:
+            name: Benguet
+          IFU:
+            name: Ifugao
+          KAL:
+            name: Kalinga
+          MOU:
+            name: Mountain
+      '40':
+        name: Calabarzon
+        regions:
+          BTG:
+            name: Batangas
+          CAV:
+            name: Cavite
+          LAG:
+            name: Laguna
+          QUE:
+            name: Quezon
+          RIZ:
+            name: Rizal
+      '41':
+        name: Mimaropa
+        regions:
+          MAD:
+            name: Marinduque
+          MDC:
+            name: Occidental Mindoro
+          MDR:
+            name: Oriental Mindoro
+          PLW:
+            name: Palawan
+          ROM:
+            name: Romblon
+      '00':
+        name: Metro Manila
+      '01':
+        name: Ilocos
+        regions:
+          ILN:
+            name: Ilocos Norte
+          ILS:
+            name: Ilocos Sur
+          LUN:
+            name: La Union
+          PAN:
+            name: Pangasinan
+      '02':
+        name: Cagayan Valley
+        regions:
+          BTN:
+            name: Batanes
+          CAG:
+            name: Cagayan
+          ISA:
+            name: Isabela
+          NUV:
+            name: Nueva Vizcaya
+          QUI:
+            name: Quirino
+      '03':
+        name: Central Luzon
+        regions:
+          AUR:
+            name: Aurora
+          BAN:
+            name: Bataan
+          BUL:
+            name: Bulacan
+          NUE:
+            name: Nueva Ecija
+          PAM:
+            name: Pampanga
+          TAR:
+            name: Tarlac
+          ZMB:
+            name: Zambales
+      '05':
+        name: Bicol
+        regions:
+          ALB:
+            name: Albay
+          CAN:
+            name: Camarines Norte
+          CAS:
+            name: Camarines Sur
+          CAT:
+            name: Catanduanes
+          MAS:
+            name: Masbate
+          SOR:
+            name: Sorsogon
+      '06':
+        name: Western Visayas
+        regions:
+          AKL:
+            name: Aklan
+          ANT:
+            name: Antique
+          CAP:
+            name: Capiz
+          GUI:
+            name: Guimaras
+          ILI:
+            name: Iloilo
+          NEC:
+            name: Negros Occidental
+      '07':
+        name: Central Visayas
+        regions:
+          BOH:
+            name: Bohol
+          CEB:
+            name: Cebu
+          NER:
+            name: Negros Oriental
+          SIG:
+            name: Siquijor
+      08:
+        name: Eastern Visayas
+        regions:
+          BIL:
+            name: Biliran
+          EAS:
+            name: Eastern Samar
+          LEY:
+            name: Leyte
+          NSA:
+            name: Northern Samar
+          SLE:
+            name: Southern Leyte
+          WSA:
+            name: Samar
+      09:
+        name: Zamboanga Peninsula
+        regions:
+          BAS:
+            name: Basilan
+          ZAN:
+            name: Zamboanga del Norte
+          ZAS:
+            name: Zamboanga del Sur
+          ZSI:
+            name: Zamboanga Sibugay

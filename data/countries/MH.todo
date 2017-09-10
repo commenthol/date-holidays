@@ -1,0 +1,65 @@
+holidays:
+  MH:
+    names:
+      en: Marshall Islands
+    langs: []
+    zones:
+      - Pacific/Majuro
+      - Pacific/Kwajalein
+    dayoff: ''
+    days: {}
+    states:
+      L:
+        name: Ralik Chain
+        regions:
+          ALL:
+            name: Ailinglaplap Atoll
+          EBO:
+            name: Ebon Atoll
+          ENI:
+            name: Enewetak Atoll
+          JAB:
+            name: Jabat Island
+          JAL:
+            name: Jaluit Atoll
+          KIL:
+            name: Kili Island
+          KWA:
+            name: Kwajalein
+          LAE:
+            name: Lae Atoll
+          LIB:
+            name: Lib Island
+          NMK:
+            name: Namdrik Atoll
+          NMU:
+            name: Namu Atoll
+          RON:
+            name: Rongelap Atoll
+          UJA:
+            name: Ujae Atoll
+          WTH:
+            name: Wotho Atoll
+      T:
+        name: Ratak Chain
+        regions:
+          ALK:
+            name: Ailuk Atoll
+          ARN:
+            name: Arno
+          AUR:
+            name: Aur Atoll
+          LIK:
+            name: Likiep Atoll
+          MAJ:
+            name: Majuro
+          MAL:
+            name: Maloelap Atoll
+          MEJ:
+            name: Mejit Island
+          MIL:
+            name: Mili Atoll
+          UTI:
+            name: Utirik Atoll
+          WTJ:
+            name: Wotje Atoll

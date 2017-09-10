@@ -1,0 +1,18 @@
+holidays:
+  SL:
+    names:
+      en: Sierra Leone
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      E:
+        name: Eastern
+      'N':
+        name: Northern
+      S:
+        name: Southern
+      W:
+        name: Western Area

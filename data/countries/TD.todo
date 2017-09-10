@@ -1,0 +1,56 @@
+holidays:
+  TD:
+    names:
+      en: Chad
+    langs: []
+    zones:
+      - Africa/Ndjamena
+    dayoff: ''
+    days: {}
+    states:
+      BA:
+        name: Batha
+      BG:
+        name: Bahr el Gazel
+      BO:
+        name: Borkou
+      CB:
+        name: Chari-Baguirmi
+      EE:
+        name: Ennedi-Est
+      EO:
+        name: Ennedi-Ouest
+      GR:
+        name: Guéra
+      HL:
+        name: Hadjer-Lamis
+      KA:
+        name: Kanem
+      LC:
+        name: Lac
+      LO:
+        name: Logone Occidental
+      LR:
+        name: Logone Oriental
+      MA:
+        name: Mandoul
+      MC:
+        name: Moyen-Chari
+      ME:
+        name: Mayo-Kebbi Est
+      MO:
+        name: Mayo-Kebbi Ouest
+      ND:
+        name: N’Djamena
+      OD:
+        name: Ouaddaï
+      SA:
+        name: Salamat
+      SI:
+        name: Sila
+      TA:
+        name: Tandjilé
+      TI:
+        name: Tibesti
+      WF:
+        name: Wadi Fira

@@ -1,0 +1,36 @@
+holidays:
+  TL:
+    names:
+      en: Timor-Leste
+    langs: []
+    zones:
+      - Asia/Dili
+    dayoff: ''
+    days: {}
+    states:
+      AL:
+        name: Aileu
+      AN:
+        name: Ainaro
+      BA:
+        name: Baucau
+      BO:
+        name: Bobonaro
+      CO:
+        name: Cova Lima
+      DI:
+        name: Dili
+      ER:
+        name: Ermera
+      LA:
+        name: Lautém
+      LI:
+        name: Liquiçá
+      MF:
+        name: Manufahi
+      MT:
+        name: Manatuto
+      OE:
+        name: Oecusse
+      VI:
+        name: Viqueque

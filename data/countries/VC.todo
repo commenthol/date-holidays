@@ -1,0 +1,22 @@
+holidays:
+  VC:
+    names:
+      en: St. Vincent & Grenadines
+    langs: []
+    zones:
+      - America/Port_of_Spain
+    dayoff: ''
+    days: {}
+    states:
+      '01':
+        name: Charlotte
+      '02':
+        name: Saint Andrew
+      '03':
+        name: Saint David
+      '04':
+        name: Saint George
+      '05':
+        name: Saint Patrick
+      '06':
+        name: Grenadines

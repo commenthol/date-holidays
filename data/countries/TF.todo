@@ -1,0 +1,11 @@
+holidays:
+  TF:
+    names:
+      en: French Southern Territories
+    langs:
+      - fr
+    zones:
+      - Indian/Reunion
+      - Indian/Kerguelen
+    dayoff: ''
+    days: {}

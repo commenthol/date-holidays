@@ -1,0 +1,38 @@
+holidays:
+  SN:
+    names:
+      en: Senegal
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      DB:
+        name: Diourbel
+      DK:
+        name: Dakar
+      FK:
+        name: Fatick
+      KA:
+        name: Kaffrine
+      KD:
+        name: Kolda
+      KE:
+        name: Kédougou
+      KL:
+        name: Kaolack
+      LG:
+        name: Louga
+      MT:
+        name: Matam
+      SE:
+        name: Sédhiou
+      SL:
+        name: Saint-Louis
+      TC:
+        name: Tambacounda
+      TH:
+        name: Thiès
+      ZG:
+        name: Ziguinchor

@@ -1,0 +1,10 @@
+holidays:
+  RE:
+    names:
+      en: Réunion
+    langs:
+      - fr
+    zones:
+      - Indian/Reunion
+    dayoff: ''
+    days: {}

@@ -1,0 +1,24 @@
+holidays:
+  AE:
+    names:
+      en: United Arab Emirates
+    langs: []
+    zones:
+      - Asia/Dubai
+    dayoff: ''
+    days: {}
+    states:
+      AJ:
+        name: Ajman
+      AZ:
+        name: Abu Dhabi
+      DU:
+        name: Dubai
+      FU:
+        name: Fujairah
+      RK:
+        name: Ras al-Khaimah
+      SH:
+        name: Sharjah
+      UQ:
+        name: Umm al-Quwain

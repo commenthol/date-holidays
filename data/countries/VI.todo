@@ -1,0 +1,9 @@
+holidays:
+  VI:
+    names:
+      en: U.S. Virgin Islands
+    langs: []
+    zones:
+      - America/Port_of_Spain
+    dayoff: ''
+    days: {}

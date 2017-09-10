@@ -1,0 +1,9 @@
+holidays:
+  SX:
+    names:
+      en: Sint Maarten
+    langs: []
+    zones:
+      - America/Curacao
+    dayoff: ''
+    days: {}

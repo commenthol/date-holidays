@@ -1,0 +1,30 @@
+holidays:
+  GY:
+    names:
+      en: Guyana
+    langs: []
+    zones:
+      - America/Guyana
+    dayoff: ''
+    days: {}
+    states:
+      BA:
+        name: Barima-Waini
+      CU:
+        name: Cuyuni-Mazaruni
+      DE:
+        name: Demerara-Mahaica
+      EB:
+        name: East Berbice-Corentyne
+      ES:
+        name: Essequibo Islands-West Demerara
+      MA:
+        name: Mahaica-Berbice
+      PM:
+        name: Pomeroon-Supenaam
+      PT:
+        name: Potaro-Siparuni
+      UD:
+        name: Upper Demerara-Berbice
+      UT:
+        name: Upper Takutu-Upper Essequibo

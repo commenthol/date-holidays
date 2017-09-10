@@ -1,0 +1,9 @@
+holidays:
+  VA:
+    names:
+      en: Vatican City
+    langs: []
+    zones:
+      - Europe/Rome
+    dayoff: ''
+    days: {}

@@ -1,0 +1,102 @@
+holidays:
+  ID:
+    names:
+      en: Indonesia
+    langs: []
+    zones:
+      - Asia/Jakarta
+      - Asia/Pontianak
+      - Asia/Makassar
+      - Asia/Jayapura
+    dayoff: ''
+    days: {}
+    states:
+      JW:
+        name: Java
+        regions:
+          BT:
+            name: Banten
+          JB:
+            name: West Java
+          JI:
+            name: East Java
+          JK:
+            name: Jakarta
+          JT:
+            name: Central Java
+          YO:
+            name: Yogyakarta
+      KA:
+        name: Kalimantan
+        regions:
+          KB:
+            name: West Kalimantan
+          KI:
+            name: East Kalimantan
+          KS:
+            name: South Kalimantan
+          KT:
+            name: Central Kalimantan
+          KU:
+            name: North Kalimantan
+      ML:
+        name: Maluku Islands
+        regions:
+          MA:
+            name: Maluku
+          MU:
+            name: North Maluku
+      NU:
+        name: Lesser Sunda Islands
+        regions:
+          BA:
+            name: Bali
+          NB:
+            name: West Nusa Tenggara
+          NT:
+            name: East Nusa Tenggara
+      PP:
+        name: Papua Islands
+        regions:
+          PA:
+            name: Papua
+          PB:
+            name: West Papua
+      SL:
+        name: Sulawesi
+        regions:
+          GO:
+            name: Gorontalo
+          SA:
+            name: North Sulawesi
+          SG:
+            name: Southeast Sulawesi
+          SN:
+            name: South Sulawesi
+          SR:
+            name: West Sulawesi
+          ST:
+            name: Central Sulawesi
+      SM:
+        name: Sumatra
+        regions:
+          AC:
+            name: Aceh
+          BB:
+            name: Bangka–Belitung Islands
+          BE:
+            name: Bengkulu
+          JA:
+            name: Jambi
+          KR:
+            name: Riau Islands
+          LA:
+            name: Lampung
+          RI:
+            name: Riau
+          SB:
+            name: West Sumatra
+          SS:
+            name: South Sumatra
+          SU:
+            name: North Sumatra

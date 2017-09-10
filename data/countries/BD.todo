@@ -1,0 +1,159 @@
+holidays:
+  BD:
+    names:
+      en: Bangladesh
+    langs: []
+    zones:
+      - Asia/Dhaka
+    dayoff: ''
+    days: {}
+    states:
+      A:
+        name: Barisal
+        regions:
+          '25':
+            name: Jhalokati
+          '50':
+            name: Pirojpur
+          '51':
+            name: Patuakhali
+          '02':
+            name: Barguna
+          '06':
+            name: Barisal Division
+          '07':
+            name: Bhola
+      B:
+        name: Chittagong Division
+        regions:
+          '10':
+            name: Chittagong
+          '11':
+            name: Cox’s Bazar
+          '16':
+            name: Feni
+          '29':
+            name: Khagrachari
+          '31':
+            name: Lakshmipur
+          '47':
+            name: Noakhali
+          '56':
+            name: Rangamati Hill
+          '01':
+            name: Bandarban
+          '04':
+            name: Brahmanbaria
+          08:
+            name: Comilla
+          09:
+            name: Chandpur
+      C:
+        name: Dhaka Division
+        regions:
+          '13':
+            name: Dhaka
+          '15':
+            name: Faridpur
+          '17':
+            name: Gopalganj
+          '18':
+            name: Gazipur
+          '21':
+            name: Jamalpur
+          '26':
+            name: Kishoreganj
+          '33':
+            name: Manikganj
+          '34':
+            name: Mymensingh
+          '35':
+            name: Munshiganj
+          '36':
+            name: Madaripur
+          '40':
+            name: Narayanganj
+          '41':
+            name: Netrokona
+          '42':
+            name: Narsingdi
+          '53':
+            name: Rajbari
+          '57':
+            name: Sherpur
+          '62':
+            name: Shariatpur
+          '63':
+            name: Tangail
+      D:
+        name: Khulna Division
+        regions:
+          '12':
+            name: Chuadanga
+          '22':
+            name: Jessore
+          '23':
+            name: Jhenaidah
+          '27':
+            name: Khulna
+          '30':
+            name: Kushtia
+          '37':
+            name: Magura
+          '39':
+            name: Meherpur
+          '43':
+            name: Narail
+          '58':
+            name: Satkhira
+          '05':
+            name: Bagerhat
+      E:
+        name: Rajshahi Division
+        regions:
+          '24':
+            name: Joypurhat
+          '44':
+            name: Natore
+          '45':
+            name: Nawabganj
+          '48':
+            name: Naogaon
+          '49':
+            name: Pabna
+          '54':
+            name: Rajshahi
+          '55':
+            name: Rangpur
+          '59':
+            name: Sirajganj
+          '03':
+            name: Bogra
+      F:
+        name: Rangpur Division
+        regions:
+          '14':
+            name: Dinajpur
+          '19':
+            name: Gaibandha
+          '28':
+            name: Kurigram
+          '32':
+            name: Lalmonirhat
+          '46':
+            name: Nilphamari
+          '52':
+            name: Panchagarh
+          '64':
+            name: Thakurgaon
+      G:
+        name: Sylhet Division
+        regions:
+          '20':
+            name: Habiganj
+          '38':
+            name: Maulvi Bazar
+          '60':
+            name: Sylhet
+          '61':
+            name: Sunamganj

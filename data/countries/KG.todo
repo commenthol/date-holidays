@@ -1,0 +1,28 @@
+holidays:
+  KG:
+    names:
+      en: Kyrgyzstan
+    langs: []
+    zones:
+      - Asia/Bishkek
+    dayoff: ''
+    days: {}
+    states:
+      B:
+        name: Batken
+      C:
+        name: Chuy
+      GB:
+        name: Bishkek
+      GO:
+        name: Osh
+      J:
+        name: Jalal-Abad
+      'N':
+        name: Naryn
+      O:
+        name: Osh Region
+      T:
+        name: Talas
+      'Y':
+        name: Issyk-Kul

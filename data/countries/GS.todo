@@ -1,0 +1,9 @@
+holidays:
+  GS:
+    names:
+      en: South Georgia & South Sandwich Islands
+    langs: []
+    zones:
+      - Atlantic/South_Georgia
+    dayoff: ''
+    days: {}

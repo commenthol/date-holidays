@@ -1,0 +1,99 @@
+holidays:
+  GN:
+    names:
+      en: Guinea
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      B:
+        name: Boké Region
+        regions:
+          BF:
+            name: Boffa
+          BK:
+            name: Boké
+          FR:
+            name: Fria
+          GA:
+            name: Gaoual
+          KN:
+            name: Koundara
+      C:
+        name: Conakry
+      D:
+        name: Kindia Region
+        regions:
+          CO:
+            name: Coyah
+          DU:
+            name: Dubréka
+          FO:
+            name: Forécariah
+          KD:
+            name: Kindia
+          TE:
+            name: Télimélé
+      F:
+        name: Faranah Region
+        regions:
+          DB:
+            name: Dabola
+          DI:
+            name: Dinguiraye
+          FA:
+            name: Faranah
+          KS:
+            name: Kissidougou
+      K:
+        name: Kankan Region
+        regions:
+          KA:
+            name: Kankan
+          KE:
+            name: Kérouané
+          KO:
+            name: Kouroussa
+          MD:
+            name: Mandiana
+          SI:
+            name: Siguiri
+      L:
+        name: Labé Region
+        regions:
+          KB:
+            name: Koubia
+          LA:
+            name: Labé
+          LE:
+            name: Lélouma
+          ML:
+            name: Mali
+          TO:
+            name: Tougué
+      M:
+        name: Mamou Region
+        regions:
+          DL:
+            name: Dalaba
+          MM:
+            name: Mamou
+          PI:
+            name: Pita
+      'N':
+        name: Nzérékoré Region
+        regions:
+          BE:
+            name: Beyla
+          GU:
+            name: Guéckédou
+          LO:
+            name: Lola
+          MC:
+            name: Macenta
+          NZ:
+            name: Nzérékoré
+          YO:
+            name: Yomou

@@ -1,0 +1,54 @@
+holidays:
+  TW:
+    names:
+      en: Taiwan
+    langs: []
+    zones:
+      - Asia/Taipei
+    dayoff: ''
+    days: {}
+    states:
+      CHA:
+        name: Changhua
+      CYI:
+        name: Chiayi County
+      CYQ:
+        name: Chiayi
+      HSQ:
+        name: Hsinchu County
+      HSZ:
+        name: Hsinchu
+      HUA:
+        name: Hualien
+      ILA:
+        name: Yilan
+      KEE:
+        name: Keelung
+      KHH:
+        name: Kaohsiung
+      KIN:
+        name: Kinmen
+      LIE:
+        name: Lienchiang
+      MIA:
+        name: Miaoli
+      NAN:
+        name: Nantou
+      NWT:
+        name: New Taipei
+      PEN:
+        name: Penghu
+      PIF:
+        name: Pingtung
+      TAO:
+        name: Taoyuan
+      TNN:
+        name: Tainan
+      TPE:
+        name: Taipei
+      TTT:
+        name: Taitung
+      TXG:
+        name: Taichung
+      YUN:
+        name: Yunlin

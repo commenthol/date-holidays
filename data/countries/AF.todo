@@ -1,0 +1,78 @@
+holidays:
+  AF:
+    names:
+      en: Afghanistan
+    langs: []
+    zones:
+      - Asia/Kabul
+    dayoff: ''
+    days: {}
+    states:
+      BAL:
+        name: Balkh
+      BAM:
+        name: Bamyan
+      BDG:
+        name: Badghis
+      BDS:
+        name: Badakhshan
+      BGL:
+        name: Baghlan
+      DAY:
+        name: Daykundi
+      FRA:
+        name: Farah
+      FYB:
+        name: Faryab
+      GHA:
+        name: Ghazni
+      GHO:
+        name: Ghōr
+      HEL:
+        name: Helmand
+      HER:
+        name: Herat
+      JOW:
+        name: Jowzjan
+      KAB:
+        name: Kabul
+      KAN:
+        name: Kandahar
+      KAP:
+        name: Kapisa
+      KDZ:
+        name: Kunduz
+      KHO:
+        name: Khost
+      KNR:
+        name: Kunar
+      LAG:
+        name: Laghman
+      LOG:
+        name: Logar
+      NAN:
+        name: Nangarhar
+      NIM:
+        name: Nimruz
+      NUR:
+        name: Nuristan
+      PAN:
+        name: Panjshir
+      PAR:
+        name: Parwan
+      PIA:
+        name: Paktia
+      PKA:
+        name: Paktika
+      SAM:
+        name: Samangan
+      SAR:
+        name: Sar-e Pol
+      TAK:
+        name: Takhar
+      URU:
+        name: Urozgan
+      WAR:
+        name: Maidan Wardak
+      ZAB:
+        name: Zabul

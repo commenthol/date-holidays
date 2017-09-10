@@ -1,0 +1,22 @@
+holidays:
+  TM:
+    names:
+      en: Turkmenistan
+    langs: []
+    zones:
+      - Asia/Ashgabat
+    dayoff: ''
+    days: {}
+    states:
+      A:
+        name: Ahal
+      B:
+        name: Balkan
+      D:
+        name: Daşoguz
+      L:
+        name: Lebap
+      M:
+        name: Mary
+      S:
+        name: Aşgabat

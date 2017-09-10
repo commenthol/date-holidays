@@ -1,0 +1,60 @@
+holidays:
+  SC:
+    names:
+      en: Seychelles
+    langs: []
+    zones:
+      - Indian/Mahe
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Bel Ombre
+      '11':
+        name: Cascade
+      '12':
+        name: Glacis
+      '13':
+        name: Grand’Anse Mahé
+      '14':
+        name: Grand’Anse Praslin
+      '15':
+        name: La Digue
+      '16':
+        name: La Rivière Anglaise
+      '17':
+        name: Mont Buxton
+      '18':
+        name: Mont Fleuri
+      '19':
+        name: Plaisance
+      '20':
+        name: Pointe La Rue
+      '21':
+        name: Port Glaud
+      '22':
+        name: Saint Louis
+      '23':
+        name: Takamaka
+      '24':
+        name: Les Mamelles
+      '25':
+        name: Roche Caiman
+      '01':
+        name: Anse aux Pins
+      '02':
+        name: Anse Boileau
+      '03':
+        name: Anse Etoile
+      '04':
+        name: Au Cap
+      '05':
+        name: Anse Royale
+      '06':
+        name: Baie Lazare
+      '07':
+        name: Baie Sainte Anne
+      08:
+        name: Beau Vallon
+      09:
+        name: Bel Air

@@ -1,0 +1,76 @@
+holidays:
+  RS:
+    names:
+      en: Serbia
+    langs: []
+    zones:
+      - Europe/Belgrade
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Podunavlje
+      '11':
+        name: Braničevo
+      '12':
+        name: Šumadija
+      '13':
+        name: Pomoravlje
+      '14':
+        name: Bor
+      '15':
+        name: Zaječar
+      '16':
+        name: Zlatibor
+      '17':
+        name: Moravica
+      '18':
+        name: Raška
+      '19':
+        name: Rasina
+      '20':
+        name: Nišava
+      '21':
+        name: Toplica
+      '22':
+        name: Pirot
+      '23':
+        name: Jablanica
+      '24':
+        name: Pčinja
+      '00':
+        name: Beograd
+      08:
+        name: Mačva
+      09:
+        name: Kolubara
+      KM:
+        name: Kosovo-Metohija
+        regions:
+          '25':
+            name: Kosovo
+          '26':
+            name: Peć
+          '27':
+            name: Prizren
+          '28':
+            name: Kosovska Mitrovica
+          '29':
+            name: Kosovo-Pomoravlje
+      VO:
+        name: Vojvodina
+        regions:
+          '01':
+            name: North Bačka
+          '02':
+            name: Central Banat
+          '03':
+            name: North Banat
+          '04':
+            name: South Banat
+          '05':
+            name: West Bačka
+          '06':
+            name: South Bačka
+          '07':
+            name: Srem

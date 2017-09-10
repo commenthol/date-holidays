@@ -1,0 +1,84 @@
+holidays:
+  MD:
+    names:
+      en: Moldova
+    langs: []
+    zones:
+      - Europe/Chisinau
+    dayoff: ''
+    days: {}
+    states:
+      AN:
+        name: Anenii Noi
+      BA:
+        name: Bălţi
+      BD:
+        name: Bender
+      BR:
+        name: Briceni
+      BS:
+        name: Basarabeasca
+      CA:
+        name: Cahul
+      CL:
+        name: Călărași
+      CM:
+        name: Cimișlia
+      CR:
+        name: Criuleni
+      CS:
+        name: Căușeni
+      CT:
+        name: Cantemir
+      CU:
+        name: Chișinău
+      DO:
+        name: Dondușeni
+      DR:
+        name: Drochia
+      DU:
+        name: Dubăsari
+      ED:
+        name: Edineț
+      FA:
+        name: Fălești
+      FL:
+        name: Florești
+      GA:
+        name: Gagauzia
+      GL:
+        name: Glodeni
+      HI:
+        name: Hîncești
+      IA:
+        name: Ialoveni
+      LE:
+        name: Leova
+      NI:
+        name: Nisporeni
+      OC:
+        name: Ocniţa
+      OR:
+        name: Orhei
+      RE:
+        name: Rezina
+      RI:
+        name: Rîșcani
+      SD:
+        name: Șoldănești
+      SI:
+        name: Sîngerei
+      SN:
+        name: Transnistria
+      SO:
+        name: Soroca
+      ST:
+        name: Strășeni
+      SV:
+        name: Ştefan Vodă
+      TA:
+        name: Taraclia
+      TE:
+        name: Telenești
+      UN:
+        name: Ungheni

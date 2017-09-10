@@ -1,0 +1,34 @@
+holidays:
+  JO:
+    names:
+      en: Jordan
+    langs: []
+    zones:
+      - Asia/Amman
+    dayoff: ''
+    days: {}
+    states:
+      AJ:
+        name: Ajloun
+      AM:
+        name: Amman
+      AQ:
+        name: Aqaba
+      AT:
+        name: Tafilah
+      AZ:
+        name: Zarqa
+      BA:
+        name: Balqa
+      IR:
+        name: Irbid
+      JA:
+        name: Jerash
+      KA:
+        name: Karak
+      MA:
+        name: Mafraq
+      MD:
+        name: Madaba
+      MN:
+        name: Ma’an

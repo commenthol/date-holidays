@@ -1,0 +1,87 @@
+holidays:
+  LK:
+    names:
+      en: Sri Lanka
+    langs: []
+    zones:
+      - Asia/Colombo
+    dayoff: ''
+    days: {}
+    states:
+      '1':
+        name: Western
+        regions:
+          '52':
+            name: Ampara
+          '71':
+            name: Anuradhapura
+          '81':
+            name: Badulla
+      '2':
+        name: Central
+        regions:
+          '11':
+            name: Colombo
+          '31':
+            name: Galle
+          '51':
+            name: Batticaloa
+      '3':
+        name: Southern
+        regions:
+          '12':
+            name: Gampaha
+          '33':
+            name: Hambantota
+          '41':
+            name: Jaffna
+      '4':
+        name: Northern
+        regions:
+          '13':
+            name: Kalutara
+          '21':
+            name: Kandy
+          '42':
+            name: Kilinochchi
+          '61':
+            name: Kurunegala
+          '92':
+            name: Kegalle
+      '5':
+        name: Eastern
+        regions:
+          '22':
+            name: Matale
+          '32':
+            name: Matara
+          '43':
+            name: Mannar
+      '6':
+        name: North Western
+        regions:
+          '45':
+            name: Mullaitivu
+          '82':
+            name: Moneragala
+      '7':
+        name: North Central
+        regions:
+          '23':
+            name: Nuwara Eliya
+          '72':
+            name: Polonnaruwa
+      '8':
+        name: Uva
+        regions:
+          '62':
+            name: Puttalam
+          '91':
+            name: Ratnapura
+      '9':
+        name: Sabaragamuwa
+        regions:
+          '44':
+            name: Vavuniya
+          '53':
+            name: Trincomalee

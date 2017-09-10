@@ -1,0 +1,9 @@
+holidays:
+  GI:
+    names:
+      en: Gibraltar
+    langs: []
+    zones:
+      - Europe/Gibraltar
+    dayoff: ''
+    days: {}

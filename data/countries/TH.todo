@@ -1,0 +1,166 @@
+holidays:
+  TH:
+    names:
+      en: Thailand
+    langs: []
+    zones:
+      - Asia/Bangkok
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Bangkok
+      '11':
+        name: Samut Prakan
+      '12':
+        name: Nonthaburi
+      '13':
+        name: Pathum Thani
+      '14':
+        name: Phra Nakhon Si Ayutthaya
+      '15':
+        name: Ang Thong
+      '16':
+        name: Lopburi
+      '17':
+        name: Sing Buri
+      '18':
+        name: Chai Nat
+      '19':
+        name: Saraburi
+      '20':
+        name: Chon Buri
+      '21':
+        name: Rayong
+      '22':
+        name: Chanthaburi
+      '23':
+        name: Trat
+      '24':
+        name: Chachoengsao
+      '25':
+        name: Prachin Buri
+      '26':
+        name: Nakhon Nayok
+      '27':
+        name: Sa Kaeo
+      '30':
+        name: Nakhon Ratchasima
+      '31':
+        name: Buri Ram
+      '32':
+        name: Surin
+      '33':
+        name: Si Sa Ket
+      '34':
+        name: Ubon Ratchathani
+      '35':
+        name: Yasothon
+      '36':
+        name: Chaiyaphum
+      '37':
+        name: Amnat Charoen
+      '38':
+        name: Bueng Kan
+      '39':
+        name: Nong Bua Lam Phu
+      '40':
+        name: Khon Kaen
+      '41':
+        name: Udon Thani
+      '42':
+        name: Loei
+      '43':
+        name: Nong Khai
+      '44':
+        name: Maha Sarakham
+      '45':
+        name: Roi Et
+      '46':
+        name: Kalasin
+      '47':
+        name: Sakon Nakhon
+      '48':
+        name: Nakhon Phanom
+      '49':
+        name: Mukdahan
+      '50':
+        name: Chiang Mai
+      '51':
+        name: Lamphun
+      '52':
+        name: Lampang
+      '53':
+        name: Uttaradit
+      '54':
+        name: Phrae
+      '55':
+        name: Nan
+      '56':
+        name: Phayao
+      '57':
+        name: Chiang Rai
+      '58':
+        name: Mae Hong Son
+      '60':
+        name: Nakhon Sawan
+      '61':
+        name: Uthai Thani
+      '62':
+        name: Kamphaeng Phet
+      '63':
+        name: Tak
+      '64':
+        name: Sukhothai
+      '65':
+        name: Phitsanulok
+      '66':
+        name: Phichit
+      '67':
+        name: Phetchabun
+      '70':
+        name: Ratchaburi
+      '71':
+        name: Kanchanaburi
+      '72':
+        name: Suphanburi
+      '73':
+        name: Nakhon Pathom
+      '74':
+        name: Samut Sakhon
+      '75':
+        name: Samut Songkhram
+      '76':
+        name: Phetchaburi
+      '77':
+        name: Prachuap Khiri Khan
+      '80':
+        name: Nakhon Si Thammarat
+      '81':
+        name: Krabi
+      '82':
+        name: Phang Nga
+      '83':
+        name: Phuket
+      '84':
+        name: Surat Thani
+      '85':
+        name: Ranong
+      '86':
+        name: Chumphon
+      '90':
+        name: Songkhla
+      '91':
+        name: Satun
+      '92':
+        name: Trang
+      '93':
+        name: Phatthalung
+      '94':
+        name: Pattani
+      '95':
+        name: Yala
+      '96':
+        name: Narathiwat
+      S:
+        name: Pattaya

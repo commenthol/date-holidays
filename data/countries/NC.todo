@@ -1,0 +1,10 @@
+holidays:
+  NC:
+    names:
+      en: New Caledonia
+    langs:
+      - fr
+    zones:
+      - Pacific/Noumea
+    dayoff: ''
+    days: {}

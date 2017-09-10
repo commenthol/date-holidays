@@ -1,0 +1,14 @@
+holidays:
+  ST:
+    names:
+      en: São Tomé & Príncipe
+    langs: []
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days: {}
+    states:
+      P:
+        name: Príncipe
+      S:
+        name: São Tomé

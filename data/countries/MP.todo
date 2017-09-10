@@ -1,0 +1,9 @@
+holidays:
+  MP:
+    names:
+      en: Northern Mariana Islands
+    langs: []
+    zones:
+      - Pacific/Guam
+    dayoff: ''
+    days: {}

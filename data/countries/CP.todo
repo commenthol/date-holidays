@@ -1,0 +1,11 @@
+# Uninhabited
+holidays:
+  CP:
+    names:
+      en: Clipperton Island
+    langs:
+      - fr
+    zones:
+      - UTC-8
+    dayoff: ''
+    days: {}

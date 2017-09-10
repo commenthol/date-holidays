@@ -1,0 +1,18 @@
+holidays:
+  TJ:
+    names:
+      en: Tajikistan
+    langs: []
+    zones:
+      - Asia/Dushanbe
+    dayoff: ''
+    days: {}
+    states:
+      DU:
+        name: Dushanbe
+      GB:
+        name: Gorno-Badakhshan
+      KT:
+        name: Khatlon
+      SU:
+        name: Sughd

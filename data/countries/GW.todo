@@ -1,0 +1,37 @@
+holidays:
+  GW:
+    names:
+      en: Guinea-Bissau
+    langs: []
+    zones:
+      - Africa/Bissau
+    dayoff: ''
+    days: {}
+    states:
+      BS:
+        name: Bissau
+      L:
+        name: Leste
+        regions:
+          BA:
+            name: Bafatá
+          GA:
+            name: Gabú
+      'N':
+        name: Norte
+        regions:
+          BM:
+            name: Biombo
+          CA:
+            name: Cacheu
+          OI:
+            name: Oio
+      S:
+        name: Sul
+        regions:
+          BL:
+            name: Bolama
+          QU:
+            name: Quinara
+          TO:
+            name: Tombali

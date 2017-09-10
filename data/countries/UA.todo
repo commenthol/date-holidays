@@ -1,0 +1,66 @@
+holidays:
+  UA:
+    names:
+      en: Ukraine
+    langs: []
+    zones:
+      - Europe/Kiev
+      - Europe/Uzhgorod
+      - Europe/Zaporozhye
+    dayoff: ''
+    days: {}
+    states:
+      '12':
+        name: Dnipropetrovshchyna
+      '14':
+        name: Donechchyna
+      '18':
+        name: Zhytomyrshchyna
+      '21':
+        name: Zakarpattia
+      '23':
+        name: Zaporizhzhya
+      '26':
+        name: Prykarpattia
+      '30':
+        name: Kiev
+      '32':
+        name: Kyivshchyna
+      '35':
+        name: Kirovohradschyna
+      '40':
+        name: Sevastopol
+      '43':
+        name: Crimea
+      '46':
+        name: Lvivshchyna
+      '48':
+        name: Mykolayivschyna
+      '51':
+        name: Odeshchyna
+      '53':
+        name: Poltavshchyna
+      '56':
+        name: Rivnenshchyna
+      '59':
+        name: Sumshchyna
+      '61':
+        name: Ternopilshchyna
+      '63':
+        name: Kharkivshchyna
+      '65':
+        name: Khersonshchyna
+      '68':
+        name: Khmelnychchyna
+      '71':
+        name: Cherkashchyna
+      '74':
+        name: Chernihivshchyna
+      '77':
+        name: Chernivtsi Oblast
+      '05':
+        name: Vinnychchyna
+      '07':
+        name: Volyn
+      09:
+        name: Luhanshchyna

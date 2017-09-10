@@ -1,0 +1,30 @@
+holidays:
+  LC:
+    names:
+      en: St. Lucia
+    langs: []
+    zones:
+      - America/Port_of_Spain
+    dayoff: ''
+    days: {}
+    states:
+      '10':
+        name: Soufrière
+      '11':
+        name: Vieux Fort
+      '12':
+        name: Canaries
+      '01':
+        name: Anse la Raye
+      '02':
+        name: Castries
+      '03':
+        name: Choiseul
+      '05':
+        name: Dennery
+      '06':
+        name: Gros Islet
+      '07':
+        name: Laborie
+      08:
+        name: Micoud

@@ -1,0 +1,82 @@
+holidays:
+  IN:
+    names:
+      en: India
+    langs: []
+    zones:
+      - Asia/Kolkata
+    dayoff: ''
+    days: {}
+    states:
+      AN:
+        name: Andaman and Nicobar Islands
+      AP:
+        name: Andhra Pradesh
+      AR:
+        name: Arunachal Pradesh
+      AS:
+        name: Assam
+      BR:
+        name: Bihar
+      CH:
+        name: Chandigarh
+      CT:
+        name: Chhattisgarh
+      DD:
+        name: Daman and Diu
+      DL:
+        name: Delhi
+      DN:
+        name: Dadra and Nagar Haveli
+      GA:
+        name: Goa
+      GJ:
+        name: Gujarat
+      HP:
+        name: Himachal Pradesh
+      HR:
+        name: Haryana
+      JH:
+        name: Jharkhand
+      JK:
+        name: Jammu and Kashmir
+      KA:
+        name: Karnataka
+      KL:
+        name: Kerala
+      LD:
+        name: Lakshadweep
+      MH:
+        name: Maharashtra
+      ML:
+        name: Meghalaya
+      MN:
+        name: Manipur
+      MP:
+        name: Madhya Pradesh
+      MZ:
+        name: Mizoram
+      NL:
+        name: Nagaland
+      OR:
+        name: Odisha
+      PB:
+        name: Punjab
+      PY:
+        name: Puducherry
+      RJ:
+        name: Rajasthan
+      SK:
+        name: Sikkim
+      TG:
+        name: Telangana
+      TN:
+        name: Tamil Nadu
+      TR:
+        name: Tripura
+      UP:
+        name: Uttar Pradesh
+      UT:
+        name: Uttarakhand
+      WB:
+        name: West Bengal
