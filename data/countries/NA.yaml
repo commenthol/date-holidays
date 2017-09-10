@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Namibia
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Namibia
   # @source http://www.gov.na/holidays
   NA:
     names:

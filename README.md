@@ -37,6 +37,7 @@ Happy holidays!
   * [Name](#name)
   * [Types of holidays](#types-of-holidays)
 * [API](#api)
+* [Browser](#browser)
 * [Data](#data)
 * [Custom builds of `holidays.json`](#custom-builds-of-holidaysjson)
 * [Contribution and License Agreement](#contribution-and-license-agreement)
@@ -53,12 +54,13 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 106
+Countries: 111
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
 │   └── 10: Barbuda
 ├── AI: Anguilla
+├── AL: Shqipëri
 ├── AM: Հայաստան
 ├── AO: Angola
 ├── AR: Argentina
@@ -88,6 +90,11 @@ Countries: 106
 ├── AW: Aruba
 ├── AX: Landskapet Åland
 ├── AZ: Azərbaycan Respublikası
+├── BA: Bosna i Hercegovina
+│   ├── BIH: Federation of Bosnia and Herzegovina
+│   │   └── W: Western Herzegovina
+│   ├── BRC: Brčko District
+│   └── SRP: Republika Srpska
 ├── BB: Barbados
 ├── BE: Belgique
 │   ├── BRU: Bruxelles
@@ -121,6 +128,7 @@ Countries: 106
 │   ├── QC: Quebec
 │   ├── SK: Saskatchewan
 │   └── YT: Yukon
+├── CC: Cocos (Keeling) Islands
 ├── CD: République démocratique du Congo
 ├── CF: République centrafricaine
 ├── CG: République du Congo
@@ -165,6 +173,7 @@ Countries: 106
 ├── CZ: Česká republika
 ├── DE: Deutschland
 │   ├── BB: Brandenburg
+│   ├── BE: Berlin
 │   ├── BW: Baden Würtemberg
 │   ├── BY: Bayern
 │   │   ├── A: Stadt Augsburg
@@ -195,6 +204,7 @@ Countries: 106
 │   └── MD: Comunidad de Madrid
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
+├── FO: Føroyar
 ├── FR: France
 │   ├── 57: Département Moselle
 │   ├── 67: Département Bas-Rhin
@@ -217,6 +227,7 @@ Countries: 106
 ├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
+├── GY: Guyana
 ├── HN: Honduras
 ├── HR: Hrvatska
 │   ├── 17: Split-Dalmatia

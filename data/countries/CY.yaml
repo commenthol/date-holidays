@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Cyprus
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Cyprus
   CY:
     names:
       el: Κύπρος

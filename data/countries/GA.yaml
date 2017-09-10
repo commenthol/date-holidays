@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Gabon
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Gabon
   GA:
     names:
       fr: Gabon

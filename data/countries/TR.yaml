@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Turkey
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Turkey
   TR:
     names:
       tr: Türkiye

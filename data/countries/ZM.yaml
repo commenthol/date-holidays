@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Zambia
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Zambia
   # @source http://www.parliament.gov.zm/sites/default/files/documents/acts/Public%20Holidays%20Act.pdf
   ZM:
     names:

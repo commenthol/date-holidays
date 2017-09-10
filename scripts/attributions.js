@@ -17,8 +17,16 @@ var argv = process.argv
 
 var config = {
   fileRegex: /^([A-Z]+)\.yaml$/,
-  countries: argv[1] || path.resolve(__dirname, '..', 'data', 'countries'),
-  license: argv[0] || path.resolve(__dirname, '..', 'LICENSE')
+  license: argv[0] || path.resolve(__dirname, '..', 'LICENSE'),
+  countries: argv[1] || path.resolve(__dirname, '..', 'data', 'countries')
+}
+
+function uniq (arr) {
+  var obj = {}
+  arr.forEach((i) => {
+    obj[i] = 1
+  })
+  return Object.keys(obj)
 }
 
 function Attributions () {
@@ -37,6 +45,7 @@ Attributions.prototype = {
   load () {
     var list = fs.readdirSync(config.countries)
     console.log(list.length, 'files read')
+
     this.data = list
     .map((file) => {
       if (config.fileRegex.test(file)) {
@@ -51,16 +60,19 @@ Attributions.prototype = {
   },
 
   extract () {
-    this.data = this.data.filter((d) => {
-      if (/#\s*@source.*wikipedia/.test(d)) return true
+    var data = this.data.filter((d) => {
+      if (/#\s*@attrib\s/.test(d)) {
+        return true
+      }
     })
     .map((d) => {
       return d
-        .replace(/#\s*@source/, '')
+        .replace(/#\s*@attrib/, '')
         .trim()
     })
     .sort()
-    .join('\n')
+
+    this.data = uniq(data).join('\n')
 
     return this
   },
@@ -68,8 +80,7 @@ Attributions.prototype = {
   insert (filename) {
     this.filename = filename
     var license = this._load(filename)
-
-    this.data = license.replace(/<(attribution)>[^]*<\/$1>/m, '<attribution>\n\n' + this.data + '\n\n</attribution>')
+    this.data = license.replace(/<(attribution)>[^]*<\/\1>/m, '<attribution>\n\n' + this.data + '\n\n</attribution>')
     return this
   },
 

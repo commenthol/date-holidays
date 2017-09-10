@@ -1,5 +1,5 @@
 holidays:
-  # @source https://el.wikipedia.org/wiki/Επίσημες_αργίες_στην_Ελλάδα
+  # @attrib https://el.wikipedia.org/wiki/Επίσημες_αργίες_στην_Ελλάδα
   GR:
     names:
       el: Ελλάδα

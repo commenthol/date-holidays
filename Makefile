@@ -1,4 +1,7 @@
-all: lint lib yaml attributions writetests docs
+npmbin := $(shell npm bin)
+
+all: lint lib yaml attributions docs
+	npm test
 
 yaml: data/holidays.json
 
@@ -25,11 +28,11 @@ tree: yaml
 	node scripts/addtree.js
 
 writetests: yaml
-	mocha test/all.mocha.js --writetests
+	$(npmbin)/mocha test/all.mocha.js --writetests
 
 attributions: LICENSE
 
 LICENSE: data/countries/*.yaml
-	node scripts/attributions.js $@
+	node scripts/attributions.js
 
 .PHONY: all doc lint test tree writetests yaml

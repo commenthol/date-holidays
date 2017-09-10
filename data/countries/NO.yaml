@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Norway
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Norway
   NO:
     names:
       no: Norge

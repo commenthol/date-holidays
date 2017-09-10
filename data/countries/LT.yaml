@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Lithuania
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Lithuania
   LT:
     names:
       lt: Lietuva

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Peru
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Peru
   PE:
     names:
       es: Perú

@@ -1,0 +1,131 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Albania
+  AL:
+    names:
+      sq: Shqipëri
+      en: Albania
+    dayoff: sunday
+    langs:
+      - sq
+      - es
+    zones:
+      - Europe/Tirane
+    days:
+      01-01 and if sunday then next tuesday:
+        _name: 01-01
+        substitute: true
+      01-02 and if sunday then next monday:
+        name:
+          sq: Festa e Vitit të Ri
+          en: New Year Holiday
+        substitute: true
+      03-02:
+        name:
+          sq: Dita e Besëlidhjes së Lezhës
+          en: League of Lezhë day
+        type: observance
+      03-07:
+        name:
+          sq: Dita e Mësuesit
+          en: Teacher's Day
+        type: observance
+      03-08:
+        _name: Mothers Day
+        type: observance
+      03-14 and if sunday then next monday:
+        name:
+          sq: Dita e Verës
+          en: Summer Day
+        substitute: true
+      03-22 and if sunday then next monday:
+        name:
+          sq: Dita e Sulltan Nevruzit
+          en: Sultan Nevruz's Day
+        substitute: true
+      04-01:
+        _name: 04-01
+        type: observance
+      easter:
+        name:
+          sq: Pashkët Katolike
+          en: Catholic Easter
+      easter 1:
+        name:
+          sq: Pashkët Katolike
+          en: Catholic Easter
+      orthodox:
+        name:
+          sq: Pashkët Ortodokse
+          en: Orthodox Easter
+      orthodox 1:
+        name:
+          sq: Pashkët Ortodokse
+          en: Orthodox Easter
+      05-01 and if sunday then next monday:
+        _name: 05-01
+        substitute: true
+      06-01:
+        name:
+          sq: Dita Ndërkombëtare e Fëmijëve
+          en: Children's Day
+        type: observance
+      10-19 and if sunday then next monday:
+        name:
+          sq: Dita e Nënë Terezës
+          en: Mother Teresa Day
+        substitute: true
+        active:
+          - from: 2004
+      11-22:
+        name:
+          sq: Dita e Alfabetit
+          en: Alphabet Day
+        type: observance
+      11-28 and if sunday then next monday:
+        _name: Independence Day
+        substitute: true
+      11-29 and if sunday then next monday:
+        _name: Liberation Day
+        substitute: true
+      12-08 and if sunday then next monday:
+        name:
+          sq: Dita Kombëtare e Rinisë
+          en: Youth Day
+        substitute: true
+        active:
+          - from: 2010
+      12-24:
+        _name: 12-24
+        type: bank
+      12-25 and if sunday then next monday:
+        _name: 12-25
+        substitute: true
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    regions:
+      # '01':
+      #   name: Berat County
+      # '02':
+      #   name: Durrës County
+      # '03':
+      #   name: Elbasan County
+      # '04':
+      #   name: Fier County
+      # '05':
+      #   name: Gjirokastër County
+      # '06':
+      #   name: Korçë County
+      # '07':
+      #   name: Kukës County
+      # '08':
+      #   name: Lezhë County
+      # '09':
+      #   name: Dibër County
+      # '10':
+      #   name: Shkodër County
+      # '11':
+      #   name: Tirana County
+      # '12':
+      #   name: Vlorë County

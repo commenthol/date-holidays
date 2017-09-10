@@ -1,6 +1,6 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Panama
-  # @source https://es.wikipedia.org/wiki/Anexo:Festividades_y_celebraciones#Panam.C3.A1
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Panama
+  # @attrib https://es.wikipedia.org/wiki/Anexo:Festividades_y_celebraciones#Panam.C3.A1
   # @source http://www.legalinfo-panama.com/legislacion/laboral/codtrabA1.pdf
   PA:
     names:

@@ -1,6 +1,6 @@
 holidays:
   # @source https://github.com/gudmundur/holidays/blob/master/index.js
-  # @source https://de.wikipedia.org/wiki/Feiertage_in_Island
+  # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Island
   IS:
     names:
       is: Ísland

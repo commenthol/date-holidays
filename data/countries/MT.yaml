@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Malta
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Malta
   MT:
     names:
       mt: Malta

@@ -1,0 +1,63 @@
+# @attrib https://en.wikipedia.org/wiki/Faroe_Islands#Public_holidays
+holidays:
+  FO:
+    names:
+      fo: Føroyar
+      da: Færøerne
+      en: Faroe Islands
+    langs:
+      - fo
+      - da
+    zones:
+      - Atlantic/Faroe
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      04-24:
+        name:
+          fo: Flaggdagur
+          da: Flagdag
+          en: Flag Day
+      # 4th Friday after Easter
+      easter 26:
+        name:
+          fo: Dýri biðidagur
+          en: Great Prayer Day
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      easter 50:
+        _name: easter 50
+      06-05 12:00 if sunday then 00:00:
+        _name: Constitution Day
+      07-28 12:00 if sunday then 00:00:
+        name:
+          da: Sankt Olavsaften
+          en: St.Olav's Eve
+        note: half-day holiday for some workers' unions
+        type: observance
+      07-29:
+        name:
+          fo: Ólavsøka
+          da: Sankt Olavs Dag
+          en: St.Olav's Day
+        note: full holiday for most workers' unions
+        type: observance
+      12-24:
+        _name: 12-24
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      12-31 12:00 if sunday then 00:00:
+        _name: 12-31

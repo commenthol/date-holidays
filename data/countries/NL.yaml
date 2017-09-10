@@ -1,6 +1,6 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands
-  # @source https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands
+  # @attrib https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
   NL:
     names:
       nl: Nederland

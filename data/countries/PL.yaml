@@ -1,5 +1,5 @@
 holidays:
-  # @source https://de.wikipedia.org/wiki/Feiertage_in_Polen
+  # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Polen
   PL:
     names:
       pl: Polska

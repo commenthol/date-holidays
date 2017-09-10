@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States
   # @source www4.law.cornell.edu/uscode/html/uscode05/usc_sec_05_00006103----000-.html
   US:
     names:

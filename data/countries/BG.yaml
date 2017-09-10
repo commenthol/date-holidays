@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Bulgaria
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bulgaria
   BG:
     names:
       bg: България

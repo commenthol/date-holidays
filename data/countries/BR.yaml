@@ -1,6 +1,6 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Brazil
-  # @source https://pt.wikipedia.org/wiki/Feriados_no_Brasil
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Brazil
+  # @attrib https://pt.wikipedia.org/wiki/Feriados_no_Brasil
   BR:
     names:
       pt: Brasil

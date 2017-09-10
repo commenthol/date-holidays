@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Czech_Republic
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Czech_Republic
   CZ:
     names:
       cz: Česká republika

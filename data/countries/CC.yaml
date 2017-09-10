@@ -1,0 +1,69 @@
+# @source http://regional.gov.au/territories/indian_ocean/iot_gazette/index.aspx
+# @source http://regional.gov.au/territories/indian_ocean/iot_bulletins/2017/A31-2017-Cocos-Keeling-Island-Public-Holidays-2018.aspx
+holidays:
+  CC:
+    names:
+      en: Cocos (Keeling) Islands
+    langs:
+      - en
+    zones:
+      - Indian/Cocos
+    dayoff: sunday
+    days:
+      chinese 01-0-01 and if sunday then next tuesday if saturday then next monday:
+        name:
+          en: Chinese New Year
+        substitute: true
+      chinese 01-0-02 and if sunday then next tuesday if saturday then next monday:
+        name:
+          en: Chinese New Year (2nd Day)
+        substitute: true
+      01-01:
+        _name: 01-01
+      01-26:
+        name:
+          en: Australia Day
+      03-20:
+        name:
+          en: Labour Day
+      easter 1:
+        _name: easter 1
+      04-06:
+        name:
+          en: Self Determination Day
+      04-25:
+        name:
+          en: Anzac Day
+      12-25 and if sunday then next tuesday:
+        _name: 12-25
+        substitute: true
+      12-26 and if sunday then next monday:
+        _name: 12-26
+        substitute: true
+      # muslim
+      1 Muharram and if sunday then next monday:
+        substitute: true
+        _name: 1 Muharram
+      1 Shawwal and if sunday then next monday:
+        substitute: true
+        _name: 1 Shawwal
+        name:
+          en: Hari Raya Puasa
+          # - 2016-06-06
+          # - 2017-06-26 in lieu of Sat 2017-06-24
+          # - 2018-06-15
+          # - 2019-06-05
+      10 Dhu al-Hijjah and if sunday then next monday:
+        substitute: true
+        _name: 10 Dhu al-Hijjah
+        name:
+          en: Hari Raya Haji
+          # - 2016-09-13
+          # - 2017-09-02
+          # - 2018-08-22
+          # - 2019-08-12
+      12 Rabi al-awwal and if sunday then next monday:
+        substitute: true
+        _name: 12 Rabi al-awwal
+        name:
+          en: Hari Maulaud Nabi

@@ -1,5 +1,5 @@
+# @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Deutschland
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_Deutschland
   DE:
     names:
       de: Deutschland
@@ -104,6 +104,15 @@ holidays:
             _name: easter 49
           10-31:
             _name: Reformation Day
+      BE:
+        name: Berlin
+        days:
+          easter:
+            _name: easter
+            type: observance
+          easter 49:
+            _name: easter 49
+            type: observance
       BW:
         name: Baden Würtemberg
         days:

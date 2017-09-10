@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Ecuador
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Ecuador
   EC:
     names:
       es: Ecuador

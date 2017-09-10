@@ -1,0 +1,179 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T23:00:00.000Z",
+    "end": "2015-01-01T23:00:00.000Z",
+    "name": "Viti i Ri",
+    "type": "public"
+  },
+  {
+    "date": "2015-01-02 00:00:00",
+    "start": "2015-01-01T23:00:00.000Z",
+    "end": "2015-01-02T23:00:00.000Z",
+    "name": "Festa e Vitit të Ri",
+    "type": "public"
+  },
+  {
+    "date": "2015-03-02 00:00:00",
+    "start": "2015-03-01T23:00:00.000Z",
+    "end": "2015-03-02T23:00:00.000Z",
+    "name": "Dita e Besëlidhjes së Lezhës",
+    "type": "observance"
+  },
+  {
+    "date": "2015-03-07 00:00:00",
+    "start": "2015-03-06T23:00:00.000Z",
+    "end": "2015-03-07T23:00:00.000Z",
+    "name": "Dita e Mësuesit",
+    "type": "observance"
+  },
+  {
+    "date": "2015-03-08 00:00:00",
+    "start": "2015-03-07T23:00:00.000Z",
+    "end": "2015-03-08T23:00:00.000Z",
+    "name": "Dita e Nënës",
+    "type": "observance"
+  },
+  {
+    "date": "2015-03-14 00:00:00",
+    "start": "2015-03-13T23:00:00.000Z",
+    "end": "2015-03-14T23:00:00.000Z",
+    "name": "Dita e Verës",
+    "type": "public"
+  },
+  {
+    "date": "2015-03-22 00:00:00",
+    "start": "2015-03-21T23:00:00.000Z",
+    "end": "2015-03-22T23:00:00.000Z",
+    "name": "Dita e Sulltan Nevruzit",
+    "type": "public"
+  },
+  {
+    "date": "2015-03-23 00:00:00",
+    "start": "2015-03-22T23:00:00.000Z",
+    "end": "2015-03-23T23:00:00.000Z",
+    "name": "Dita e Sulltan Nevruzit (ditë zëvendësuese)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2015-04-01 00:00:00",
+    "start": "2015-03-31T22:00:00.000Z",
+    "end": "2015-04-01T22:00:00.000Z",
+    "name": "Dita e Gënjeshtrave",
+    "type": "observance"
+  },
+  {
+    "date": "2015-04-05 00:00:00",
+    "start": "2015-04-04T22:00:00.000Z",
+    "end": "2015-04-05T22:00:00.000Z",
+    "name": "Pashkët Katolike",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-05T22:00:00.000Z",
+    "end": "2015-04-06T22:00:00.000Z",
+    "name": "Pashkët Katolike",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-12 00:00:00",
+    "start": "2015-04-11T22:00:00.000Z",
+    "end": "2015-04-12T22:00:00.000Z",
+    "name": "Pashkët Ortodokse",
+    "type": "public"
+  },
+  {
+    "date": "2015-04-13 00:00:00",
+    "start": "2015-04-12T22:00:00.000Z",
+    "end": "2015-04-13T22:00:00.000Z",
+    "name": "Pashkët Ortodokse",
+    "type": "public"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T22:00:00.000Z",
+    "end": "2015-05-01T22:00:00.000Z",
+    "name": "Dita Ndërkombëtare e Punonjësve",
+    "type": "public"
+  },
+  {
+    "date": "2015-06-01 00:00:00",
+    "start": "2015-05-31T22:00:00.000Z",
+    "end": "2015-06-01T22:00:00.000Z",
+    "name": "Dita Ndërkombëtare e Fëmijëve",
+    "type": "observance"
+  },
+  {
+    "date": "2015-07-17 00:00:00 -0600",
+    "start": "2015-07-16T16:00:00.000Z",
+    "end": "2015-07-17T16:00:00.000Z",
+    "name": "Fitër Bajrami",
+    "type": "public"
+  },
+  {
+    "date": "2015-09-23 00:00:00 -0600",
+    "start": "2015-09-22T16:00:00.000Z",
+    "end": "2015-09-23T16:00:00.000Z",
+    "name": "Kurban Bajrami",
+    "type": "public"
+  },
+  {
+    "date": "2015-10-19 00:00:00",
+    "start": "2015-10-18T22:00:00.000Z",
+    "end": "2015-10-19T22:00:00.000Z",
+    "name": "Dita e Nënë Terezës",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-22 00:00:00",
+    "start": "2015-11-21T23:00:00.000Z",
+    "end": "2015-11-22T23:00:00.000Z",
+    "name": "Dita e Alfabetit",
+    "type": "observance"
+  },
+  {
+    "date": "2015-11-28 00:00:00",
+    "start": "2015-11-27T23:00:00.000Z",
+    "end": "2015-11-28T23:00:00.000Z",
+    "name": "Dita e Pavarësisë",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-29 00:00:00",
+    "start": "2015-11-28T23:00:00.000Z",
+    "end": "2015-11-29T23:00:00.000Z",
+    "name": "Dita e Çlirimit",
+    "type": "public"
+  },
+  {
+    "date": "2015-11-30 00:00:00",
+    "start": "2015-11-29T23:00:00.000Z",
+    "end": "2015-11-30T23:00:00.000Z",
+    "name": "Dita e Çlirimit (ditë zëvendësuese)",
+    "type": "public",
+    "substitute": true
+  },
+  {
+    "date": "2015-12-08 00:00:00",
+    "start": "2015-12-07T23:00:00.000Z",
+    "end": "2015-12-08T23:00:00.000Z",
+    "name": "Dita Kombëtare e Rinisë",
+    "type": "public"
+  },
+  {
+    "date": "2015-12-24 00:00:00",
+    "start": "2015-12-23T23:00:00.000Z",
+    "end": "2015-12-24T23:00:00.000Z",
+    "name": "Nata e Krishtlindjes",
+    "type": "bank"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T23:00:00.000Z",
+    "end": "2015-12-25T23:00:00.000Z",
+    "name": "Krishtlindja",
+    "type": "public"
+  }
+]

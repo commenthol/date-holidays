@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Haiti
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Haiti
   HT:
     names:
       fr: Haïti

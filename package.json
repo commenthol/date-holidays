@@ -41,7 +41,8 @@
     "zuul": "zuul test/Holidays.mocha.js",
     "transpile": "babel -d lib src",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
-    "yaml": "node scripts/holidays2json.js"
+    "yaml": "node scripts/holidays2json.js",
+    "test:all": "npm run yaml && mocha test/all.mocha.js"
   },
   "babel": {
     "presets": [
@@ -74,15 +75,15 @@
     "babel-register": "^6.23.0",
     "babelify": "^7.3.0",
     "core-js": "^2.5.0",
-    "eslint": "^3.15.0",
+    "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^5.0.0",
-    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "hashtree": "^0.7.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
+    "mocha": "^3.5.0",
     "rimraf": "^2.5.4",
     "serialize-to-js": "^1.0.0",
     "zuul": "^3.11.1"

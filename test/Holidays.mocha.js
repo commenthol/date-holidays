@@ -23,6 +23,7 @@ describe('#Holidays', function () {
       var res = hd.getStates('de')
       var exp = {
         BB: 'Brandenburg',
+        BE: 'Berlin',
         BW: 'Baden Würtemberg',
         BY: 'Bayern',
         HB: 'Hansestadt Bremen',

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Jamaica
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Jamaica
   JM:
     names:
       en: Jamaica

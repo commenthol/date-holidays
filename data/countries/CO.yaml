@@ -1,5 +1,5 @@
 holidays:
-  # @source https://es.wikipedia.org/wiki/Anexo:Dís_festivos_en_Colombia
+  # @attrib https://es.wikipedia.org/wiki/Anexo:Dís_festivos_en_Colombia
   CO:
     names:
       es: Colombia

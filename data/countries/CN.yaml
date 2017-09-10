@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_China
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_China
   CN:
     names:
       en: China

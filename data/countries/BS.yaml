@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_the_Bahamas
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Bahamas
   # @source http://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/1938/1938-0015/PublicHolidaysAct_1.pdf
   BS:
     names:

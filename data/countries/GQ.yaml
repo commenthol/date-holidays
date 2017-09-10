@@ -1,6 +1,6 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Equatorial_Guinea
-  # @source https://es.wikipedia.org/wiki/Guinea_Ecuatorial
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Equatorial_Guinea
+  # @attrib https://es.wikipedia.org/wiki/Guinea_Ecuatorial
   # @source https://leydeguinea.files.wordpress.com/2014/08/013_boletin-oficial-del-estado-2.pdf
   GQ:
     names:

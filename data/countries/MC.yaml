@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Monaco
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Monaco
   MC:
     names:
       fr: Monaco

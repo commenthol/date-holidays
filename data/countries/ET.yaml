@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Ethiopia
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Ethiopia
   ET:
     names:
       am: ኢትዮጵያ

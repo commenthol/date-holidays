@@ -1,5 +1,5 @@
 holidays:
-  # @source https://es.m.wikipedia.org/wiki/Calendario_laboral
+  # @attrib https://es.m.wikipedia.org/wiki/Calendario_laboral
   ES:
     names:
       es: España

@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Estonia
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Estonia
   EE:
     names:
       et: Eesti

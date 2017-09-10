@@ -1,11 +1,11 @@
 holidays:
-  # @source https://de.m.wikipedia.org/wiki/Feiertage_in_D%C3%A4nemark
+  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_D%C3%A4nemark
   DK:
     names:
-      dk: Danmark
+      da: Danmark
       en: Denmark
     langs:
-      - dk
+      - da
     zones:
       - Europe/Copenhagen
     days:
@@ -13,7 +13,7 @@ holidays:
         _name: 01-01
       easter -48:
         name:
-          dk: Fastelavn
+          da: Fastelavn
         type: observance
       easter -3:
         _name: easter -3
@@ -25,7 +25,7 @@ holidays:
         _name: easter 1
       easter 26:
         name:
-          dk: Store Bededag
+          da: Store Bededag
           en: Day of Atonement
           de: Buß- und Bettag
       easter 39:
