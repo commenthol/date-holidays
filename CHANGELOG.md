@@ -1,5 +1,13 @@
 # CHANGELOG
 
+v1.1.0
+- fix DK: Danish lang code
+- fix DE: adding Berlin as state See #27
+- Adding new Countries: AL, GY, FO, BA, CC
+- Adding attribution marker `@attrib`
+- Add country files *.todo which require holiday data
+- refactor `active` property for rules to en-/ disable rule in time periods
+
 v1.0.0
 - major refactoring
 - Using ISO 8601 format for time spans
