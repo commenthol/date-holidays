@@ -70,7 +70,7 @@ Holidays2json.prototype = {
 
     obj.version = new Date().toISOString().replace(/^(.*)T.*$/, '$1')
     this.holidays = obj
-    this.prepin()
+    // this.prepin()
 
     return this
   },

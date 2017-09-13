@@ -1,20 +1,12 @@
 /**
- * @copyright 2016 (c) commenthol
+ * @copyright 2016- (c) commenthol
  * @license ISC
  */
 
 'use strict'
 
-const _ = {
-  merge: require('lodash.merge'),
-  omit: require('lodash.omit'),
-  set: require('lodash.set')
-}
-const {toYear, toDate} = require('./internal/utils')
-const Data = require('./Data')
-const DateFn = require('./DateFn')
-
-var TYPES = ['public', 'bank', 'school', 'optional', 'observance']
+const Parser = require('date-holidays-parser')
+const data = require('../data/holidays.json')
 
 /**
  * @class
@@ -36,8 +28,10 @@ function Holidays (country, state, region, opts) {
   if (!(this instanceof Holidays)) {
     return new Holidays(country, state, region, opts)
   }
+  Parser.apply(this, [data, country, state, region, opts])
   this.init(country, state, region, opts)
 }
+<<<<<<< 0d4e0c9ac803285168b1ef85ec6d56821c3d1d06
 module.exports = Holidays
 
 Holidays.prototype = {
@@ -204,35 +198,12 @@ Holidays.prototype = {
 
     return arr
   },
+=======
+>>>>>>> move to parser
 
-  /**
-   * check whether `date` is a holiday or not
-   * @param {Date} [date]
-   * @return {Object} holiday:
-   * ```
-   * {String} date - ISO Date String of (start)-date in local format
-   * {Date} start - start date of holiday
-   * {Date} end - end date of holiday
-   * {String} name - name of holiday using `language` (if available)
-   * {String} type - type of holiday `public|bank|school|observance`
-   * ```
-   */
-  isHoliday (date) {
-    date = date || new Date()
-    var hd
-    var year = toYear(date)
-    var rules = Object.keys(this.holidays)
-    for (var i in rules) {
-      hd = [].concat(this._dateByRule(year, rules[i]))
-      for (var j in hd) {
-        if (hd[j] && date >= hd[j].start && date < hd[j].end) {
-          return this._translate(hd[j])
-        }
-      }
-    }
-    return false
-  },
+Object.setPrototypeOf(Holidays.prototype, Parser.prototype)
 
+<<<<<<< 0d4e0c9ac803285168b1ef85ec6d56821c3d1d06
   /**
    * Query for available Countries, States, Regions
    * @param {String} [country]
@@ -436,3 +407,6 @@ Holidays.prototype = {
     return !!this.__types[type]
   }
 }
+=======
+module.exports = Holidays
+>>>>>>> move to parser

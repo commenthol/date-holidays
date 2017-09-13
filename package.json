@@ -21,6 +21,7 @@
     "David Álvarez Navarro <david16an@gmail.com>"
   ],
   "main": "lib",
+  "module": "src",
   "jsnext:main": "src",
   "bin": {
     "holidays2json": "./scripts/holidays2json.js"
@@ -61,6 +62,7 @@
     "caldate": "^1.0.0",
     "date-chinese": "^1.0.2",
     "date-easter": "^0.2.2",
+    "date-holidays-parser": "file:packages/date-holidays-parser",
     "js-yaml": "^3.8.4",
     "lodash.get": "^4.4.2",
     "lodash.merge": "^4.6.0",
