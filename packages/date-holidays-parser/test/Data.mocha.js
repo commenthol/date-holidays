@@ -51,11 +51,18 @@ describe('#Data', function () {
     it('should get rules from C.CC', function () {
       var exp = {
         '01-01': { name: {en: '1st Jan'}, type: 'public' },
+        '02-02': { name: {en: '2nd Feb'}, type: 'public' },
         '04-04': { name: {en: '4th Apr'}, type: 'public' }
       }
       var res = d.getRules('C-CC')
       // console.log(res)
       assert.deepEqual(res, exp)
+    })
+
+    it('should throw for rules from D', function () {
+      assert.throws(() => {
+        d.getRules('D')
+      }, /unknown path for _days: holidays.A.unknown.days/)
     })
   })
 

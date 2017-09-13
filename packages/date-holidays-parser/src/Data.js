@@ -25,8 +25,8 @@ class Data {
    * @return {Object} shortcode-name value pairs. E.g. `{ AT: 'Österreich', ... }`
    */
   getCountries (lang) {
-    var o = {}
-    var countries = _.get(this.data, 'holidays', {})
+    const o = {}
+    const countries = _.get(this.data, 'holidays', {})
     Object.keys(countries).forEach((k) => {
       o[k] = this._name(countries, k, lang)
     })
@@ -41,8 +41,8 @@ class Data {
    */
   getStates (country, lang) {
     country = country.toUpperCase()
-    var o = {}
-    var states = _.get(this.data, ['holidays', country, 'states']) || _.get(this.data, ['holidays', country, 'regions'])
+    const o = {}
+    const states = _.get(this.data, ['holidays', country, 'states']) || _.get(this.data, ['holidays', country, 'regions'])
     if (states) {
       Object.keys(states).forEach((k) => {
         o[k] = this._name(states, k, lang)
@@ -59,14 +59,14 @@ class Data {
    * @return {Object} shortcode-name value pairs.
    */
   getRegions (country, state, lang) {
-    var tmp
-    if ((tmp = Data.splitName(country, state))) {
+    let tmp = Data.splitName(country, state)
+    if (tmp) {
       state = tmp.state
       country = tmp.country
     }
     country = country.toUpperCase()
-    var o = {}
-    var regions = _.get(this.data, ['holidays', country, 'states', state, 'regions'])
+    const o = {}
+    const regions = _.get(this.data, ['holidays', country, 'states', state, 'regions'])
 
     if (regions) {
       Object.keys(regions).forEach((k) => {
@@ -82,8 +82,8 @@ class Data {
   _name (obj, key, lang) {
     lang = lang || (obj[key].langs && obj[key].langs[0])
     let name
-    let tmp
-    if ((tmp = obj[key].names)) {
+    let tmp = obj[key].names
+    if (tmp) {
       if (!(lang && (name = tmp[lang]))) {
         name = tmp[Object.keys(tmp)[0]]
       }
@@ -123,13 +123,8 @@ class Data {
    * @return {Object} holidayname <-> unparsed rule or date pairs
    */
   getRules (country, state, region) {
-    let self = this
-    let rules = {}
-
-    let opts = Data.splitName(country, state, region)
-    if (!opts) {
-      opts = this.opts
-    }
+    const rules = {}
+    const opts = Data.splitName(country, state, region) || this.opts
 
     if (!(opts && opts.country)) {
       return rules
@@ -138,10 +133,9 @@ class Data {
     country = opts.country.toUpperCase()
     state = opts.state
     region = opts.region
-    var tmp = _.get(this.data, ['holidays', country])
+    let tmp = _.get(this.data, ['holidays', country])
 
     if (tmp) {
-      rules = {}
       this._assign(rules, tmp)
       if ((state && tmp.regions && (tmp = tmp.regions[state])) ||
           (state && tmp.states && (tmp = tmp.states[state]))
@@ -151,12 +145,12 @@ class Data {
           this._assign(rules, tmp)
         }
       }
-      Object.keys(rules).forEach(function (key) {
+      Object.keys(rules).forEach((key) => {
         // assign name references with `_name`
-        var _name = rules[key]._name
-        if (_name && self.data.names[_name]) {
+        const _name = rules[key]._name
+        if (_name && this.data.names[_name]) {
           delete rules[key]._name
-          rules[key] = _.merge({}, self.data.names[_name], rules[key])
+          rules[key] = _.merge({}, this.data.names[_name], rules[key])
         }
       })
     }
@@ -180,12 +174,15 @@ class Data {
    * @return {Object}
    */
   _assign (out, obj) {
-    var days
+    let days = {}
     if (obj._days) { // resolve reference
-      days = Object.assign({}, _.get(this.data, ['holidays'].concat(obj._days, 'days')), obj.days)
+      const path = ['holidays'].concat(obj._days, 'days')
+      const ref = _.get(this.data, path)
+      if (!ref) throw new Error('unknown path for _days: ' + path.join('.'))
+      days = Object.assign({}, ref)
     }
     if (days || obj.days) {
-      days = Object.assign({}, days, obj.days)
+      days = Object.assign(days, obj.days)
       Object.keys(days).forEach(function (p) {
         if (days[p] === false) { // remove rules
           if (out[p]) {
@@ -231,8 +228,8 @@ Data.splitName = function (country, state, region) {
   } else if (typeof country === 'object' && country.country) {
     return country
   }
-  var o = {}
-  var a = country.split(/[.-]/)
+  const o = {}
+  const a = country.split(/[.-]/)
   o.country = a.shift().toUpperCase()
   o.state = (a.shift() || state || '').toUpperCase()
   o.region = (a.shift() || region || '').toUpperCase()

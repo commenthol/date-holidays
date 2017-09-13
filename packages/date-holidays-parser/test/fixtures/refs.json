@@ -43,14 +43,27 @@
       "states": {
         "CC": {
           "name": "CC",
+          "_days": [
+            "B",
+            "regions",
+            "BB"
+          ],
           "days": {
             "04-04": {
               "_name": "04-04"
-            },
-            "05-05": false
+            }
           }
         }
       }
+    },
+    "D": {
+      "name": {
+        "en": "D"
+      },
+      "_days": [
+        "A",
+        "unknown"
+      ]
     }
   },
   "names": {
