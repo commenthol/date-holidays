@@ -37,14 +37,17 @@ function Holidays (data, country, state, region, opts) {
   if (!(this instanceof Holidays)) {
     return new Holidays(data, country, state, region, opts)
   }
-  this.init(data, country, state, region, opts)
+  if (!data) {
+    throw new TypeError('need holiday data')
+  }
+  this._data = data
+  this.init(country, state, region, opts)
 }
 module.exports = Holidays
 
 Holidays.prototype = {
   /**
    * initialize holidays for a country/state/region
-   * @param {Object} data - holiday data object - see data/holidays.json
    * @param {String|Object} country - if object use `{ country: {String}, state: {String}, region: {String} }`
    * @param {String} [state] - specifies state
    * @param {String} [region] - specifies region
@@ -53,40 +56,29 @@ Holidays.prototype = {
    * @param {String} [opts.timezone] - set timezone
    * @param {Array} [opts.types] - holiday types to consider
    */
-  init (data, country, state, region, opts) {
-    var self = this
+  init (...args) {
+    const [country, state, region, opts] = getArgs(...args)
 
     // reset settings
     this.__conf = null
     this.holidays = {}
     this.setLanguages()
-
-    if (typeof region === 'object') {
-      opts = region
-      region = null
-    } else if (typeof state === 'object') {
-      opts = state
-      state = null
-    } else if (typeof country === 'object') {
-      opts = country
-      country = null
-    }
-
-    opts = opts || {}
     this._setTypes(opts.types)
 
     this.__conf = Data.splitName(country, state, region)
-    this.__data = new Data(data, this.__conf)
+    this.__data = new Data(opts.data || this._data, this.__conf)
+
     if (opts.languages) {
       this.setLanguages(opts.languages)
     } else {
       this.setLanguages(this.__data.getLanguages())
     }
-    var holidays = this.__data.getRules()
+
+    const holidays = this.__data.getRules()
     if (holidays) {
       this.__timezone = opts.timezone || this.__data.getTimezones()[0]
-      Object.keys(holidays).forEach(function (rule) {
-        self.setHoliday(rule, holidays[rule])
+      Object.keys(holidays).forEach((rule) => {
+        this.setHoliday(rule, holidays[rule])
       })
       return true
     }
@@ -436,4 +428,19 @@ Holidays.prototype = {
   _hasType (type) {
     return !!this.__types[type]
   }
+}
+
+function getArgs (country, state, region, opts) {
+  if (typeof region === 'object') {
+    opts = region
+    region = null
+  } else if (typeof state === 'object') {
+    opts = state
+    state = null
+  } else if (typeof country === 'object') {
+    opts = country
+    country = null
+  }
+  opts = opts || {}
+  return [country, state, region, opts]
 }

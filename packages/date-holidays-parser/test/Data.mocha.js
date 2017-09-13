@@ -4,7 +4,10 @@
 
 const assert = require('assert')
 const Data = require('../src/Data')
-const holidaysData = require('./fixtures/holidays.json')
+const fixtures = {
+  holidays: require('./fixtures/holidays.json'),
+  refs: require('./fixtures/refs.json')
+}
 
 describe('#Data', function () {
   describe('without providing data', function () {
@@ -22,9 +25,43 @@ describe('#Data', function () {
     })
   })
 
+  describe('references', function () {
+    var d = new Data(fixtures.refs)
+    it('should get rules from A', function () {
+      var exp = {
+        '01-01': { name: {en: '1st Jan'}, type: 'public' },
+        '05-05': { name: '05-05', type: 'public' }
+      }
+
+      var res = d.getRules('A')
+      assert.deepEqual(res, exp)
+    })
+
+    it('should get rules from B.BB', function () {
+      var exp = {
+        '01-01': { name: {en: '1st Jan'}, type: 'public' },
+        '02-02': { name: {en: '2nd Feb'}, type: 'public' },
+        '03-03': { name: {en: '3rd Mar'}, type: 'public' }
+      }
+      var res = d.getRules('B', 'BB')
+      // console.log(res)
+      assert.deepEqual(res, exp)
+    })
+
+    it('should get rules from C.CC', function () {
+      var exp = {
+        '01-01': { name: {en: '1st Jan'}, type: 'public' },
+        '04-04': { name: {en: '4th Apr'}, type: 'public' }
+      }
+      var res = d.getRules('C-CC')
+      // console.log(res)
+      assert.deepEqual(res, exp)
+    })
+  })
+
   describe('static functions', function () {
     it('can get list of supported countries', function () {
-      var obj = new Data(holidaysData).getCountries()
+      var obj = new Data(fixtures.holidays).getCountries()
       assert.equal(typeof obj, 'object')
       assert.equal(obj.AT, 'Österreich')
       assert.equal(obj.CH, 'Schweiz')
@@ -34,7 +71,7 @@ describe('#Data', function () {
     })
 
     it('can get list of supported states for AT', function () {
-      var obj = new Data(holidaysData).getStates('at')
+      var obj = new Data(fixtures.holidays).getStates('at')
       assert.equal(typeof obj, 'object')
       assert.deepEqual(obj, {
         '1': 'Burgenland',
@@ -50,7 +87,7 @@ describe('#Data', function () {
     })
 
     it('can get list of supported states for AT in en', function () {
-      var obj = new Data(holidaysData).getStates('at', 'en')
+      var obj = new Data(fixtures.holidays).getStates('at', 'en')
       assert.equal(typeof obj, 'object')
       assert.deepEqual(obj, {
         '1': 'Burgenland',
@@ -66,18 +103,27 @@ describe('#Data', function () {
     })
 
     it('can get a list of supported regions for DE-BY', function () {
-      var obj = new Data(holidaysData).getRegions('DE-BY')
+      var obj = new Data(fixtures.holidays).getRegions('DE-BY')
       assert.equal(typeof obj, 'object')
       assert.deepEqual(obj, {
         A: 'Stadt Augsburg',
         EVANG: 'Überwiegend evangelische Gemeinden'
       })
     })
+
+    it('can get substitute names', function () {
+      var obj = new Data(fixtures.refs).getSubstitueNames()
+      assert.deepEqual(obj, { en: 'substitute day',
+        bs: 'zamjena dan',
+        es: 'día sustituto',
+        fr: 'jour substitut' }
+      )
+    })
   })
 
   describe('can get list of holidays for a country', function () {
     it('for FR', function () {
-      var obj = new Data(holidaysData, 'fr').getRules()
+      var obj = new Data(fixtures.holidays, 'fr').getRules()
       var res = getDays(obj, ['fr'])
       var exp = { '01-01': [ 'public', 'Nouvel An' ],
         'easter 1': [ 'public', 'Lundi de Pâques' ],
@@ -100,7 +146,7 @@ describe('#Data', function () {
 
   describe('can get list of holidays for a state', function () {
     it('for FR-67', function () {
-      var obj = new Data(holidaysData, 'FR-67').getRules()
+      var obj = new Data(fixtures.holidays, 'FR-67').getRules()
       var res = getDays(obj, ['fr'])
       var exp = { '01-01': [ 'public', 'Nouvel An' ],
         'easter 1': [ 'public', 'Lundi de Pâques' ],
@@ -160,27 +206,27 @@ describe('#Data', function () {
     }
 
     it('for DE BY A', function () {
-      var obj = new Data(holidaysData, 'DE', 'BY', 'A').getRules()
+      var obj = new Data(fixtures.holidays, 'DE', 'BY', 'A').getRules()
       var res = getDays(obj, ['de'])
       // console.log(res)
       assert.deepEqual(res, exp)
     })
 
     it('for DE-BY-A', function () {
-      var obj = new Data(holidaysData, 'DE-BY-A').getRules()
+      var obj = new Data(fixtures.holidays, 'DE-BY-A').getRules()
       var res = getDays(obj, ['de'])
       assert.deepEqual(res, exp)
     })
 
     it('for {DE BY A}', function () {
-      var obj = new Data(holidaysData, {country: 'DE', state: 'BY', region: 'A'}).getRules()
+      var obj = new Data(fixtures.holidays, {country: 'DE', state: 'BY', region: 'A'}).getRules()
       var res = getDays(obj, ['de'])
       assert.deepEqual(res, exp)
     })
   })
 
   it.skip('devel', function () {
-    var obj = new Data(holidaysData, 'gb.sc').getRules()
+    var obj = new Data(fixtures.holidays, 'gb.sc').getRules()
     console.log(obj)
     var res = getDays(obj, ['en'])
     console.log(res)

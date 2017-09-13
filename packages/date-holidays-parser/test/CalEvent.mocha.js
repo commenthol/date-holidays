@@ -151,6 +151,29 @@ describe('#CalEvent', function () {
     assert.strictEqual(res, false)
   })
 
+  it('can push events', function () {
+    var date = new CalEvent({month: 12, day: 3})
+    var date2 = new CalEvent({month: 12, day: 2})
+      .inYear(2015)
+      .inYear(2016)
+    date.push(date2)
+
+    var res = date.inYear(2015).get()
+    var exp = [
+      { date: '2015-12-02 00:00:00',
+        start: 'wed 2015-12-02 00:00',
+        end: 'thu 2015-12-03 00:00' },
+      { date: '2016-12-02 00:00:00',
+        start: 'fri 2016-12-02 00:00',
+        end: 'sat 2016-12-03 00:00' },
+      { date: '2015-12-03 00:00:00',
+        start: 'thu 2015-12-03 00:00',
+        end: 'fri 2015-12-04 00:00' }
+    ]
+    // console.log(fixResult(res))
+    assert.deepEqual(fixResult(res), exp)
+  })
+
   describe('filter', function () {
     function activeFiterTest (event, active, tests) {
       tests.forEach((test) => {
@@ -168,14 +191,17 @@ describe('#CalEvent', function () {
       })
     }
 
-    describe('with years', function () {
+    describe('with full years', function () {
       var event = {month: 12, day: 3}
       var active = [
+        {to: new Date(1960, 0, 1)},
         {from: new Date(1990, 0, 1), to: new Date(1999, 0, 1)},
         {from: new Date(2004, 0, 1), to: new Date(2005, 0, 1)},
         {from: new Date(2016, 0, 1)}
       ]
       var tests = [
+        {year: 1959, exp: [{date: '1959-12-03 00:00:00'}]},
+        {year: 1960, exp: []},
         {year: 1989, exp: []},
         {year: 1990, exp: [{date: '1990-12-03 00:00:00'}]},
         {year: 1995, exp: [{date: '1995-12-03 00:00:00'}]},
@@ -191,11 +217,14 @@ describe('#CalEvent', function () {
     describe('with dates', function () {
       var event = {month: 8, day: 3}
       var active = [
+        {to: new Date(1960, 7, 1)},
         {from: new Date(1990, 7, 1), to: new Date(1999, 6, 1)},
         {from: new Date(2004, 7, 4), to: new Date(2005, 0, 1)},
         {from: new Date(2016, 7, 3)}
       ]
       var tests = [
+        {year: 1959, exp: [{date: '1959-08-03 00:00:00'}]},
+        {year: 1960, exp: []},
         {year: 1989, exp: []},
         {year: 1990, exp: [{date: '1990-08-03 00:00:00'}]},
         {year: 1995, exp: [{date: '1995-08-03 00:00:00'}]},
@@ -398,6 +427,17 @@ describe('#Hijri', function () {
       start: 'sun 2016-12-25 18:00',
       end: 'mon 2016-12-26 18:00'
     }]
+    // console.log(fixResult(res))
+    assert.deepEqual(fixResult(res), exp)
+  })
+
+  it('27 Rabi al-awwal outside supported range', function () {
+    var date = new Hijri({
+      day: 27,
+      month: 3
+    })
+    var res = date.inYear(1800).get()
+    var exp = []
     // console.log(fixResult(res))
     assert.deepEqual(fixResult(res), exp)
   })

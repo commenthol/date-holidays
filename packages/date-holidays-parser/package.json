@@ -1,9 +1,10 @@
 {
   "name": "date-holidays-parser",
-  "version": "1.1.0",
+  "version": "1.0.0-0",
   "description": "parser for worldwide holidays",
   "keywords": [
     "holidays",
+    "parser",
     "world"
   ],
   "homepage": "https://github.com/commenthol/date-holidays-parser",

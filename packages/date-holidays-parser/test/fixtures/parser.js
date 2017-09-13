@@ -22,6 +22,13 @@ module.exports = {
 		month: 10,
 		day: 9
 	}],
+	"#1111": [],
+	"03-12 #22": [{
+		fn: "gregorian",
+		year: undefined,
+		month: 3,
+		day: 12
+	}],
 	August: [{
 		fn: "gregorian",
 		day: 1,

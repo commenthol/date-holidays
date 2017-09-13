@@ -58,7 +58,8 @@ class CalEvent {
         if (
           date.year === year &&
           ((from && to && from <= _date && to > _date) ||
-          (from && !to && from <= _date))
+          (from && !to && from <= _date) ||
+          (!from && to && to > _date))
         ) {
           return true
         }

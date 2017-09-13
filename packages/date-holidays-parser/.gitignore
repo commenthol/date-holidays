@@ -1,0 +1,11 @@
+node_modules/
+coverage/
+output/
+attic/
+tmp/
+*.log
+*.tgz
+*.sh
+.eslintcache
+.idea/
+.nyc_output/

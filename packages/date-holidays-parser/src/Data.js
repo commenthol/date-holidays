@@ -10,15 +10,11 @@ const _ = {
  * @class
  * @param {Object} [data]
  * @param {Object|String} [country]
- * @param {String} state
- * @param {String} region
+ * @param {String} [state]
+ * @param {String} [region]
  */
 class Data {
   constructor (data, country, state, region) {
-    if (!(this instanceof Data)) {
-      return new Data(data, country, state, region)
-    }
-
     this.opts = Data.splitName(country, state, region) || {}
     this.data = data || {}
   }
@@ -121,19 +117,27 @@ class Data {
 
   /**
    * get list of raw holiday rules for country/ state/ region
+   * @param {Object|String} [country]
+   * @param {String} [state]
+   * @param {String} [region]
    * @return {Object} holidayname <-> unparsed rule or date pairs
    */
-  getRules () {
-    var self = this
-    var rules = {}
+  getRules (country, state, region) {
+    let self = this
+    let rules = {}
 
-    if (!(this.opts && this.opts.country)) {
+    let opts = Data.splitName(country, state, region)
+    if (!opts) {
+      opts = this.opts
+    }
+
+    if (!(opts && opts.country)) {
       return rules
     }
 
-    var country = this.opts.country.toUpperCase()
-    var state = this.opts.state
-    var region = this.opts.region
+    country = opts.country.toUpperCase()
+    state = opts.state
+    region = opts.region
     var tmp = _.get(this.data, ['holidays', country])
 
     if (tmp) {
@@ -180,8 +184,8 @@ class Data {
     if (obj._days) { // resolve reference
       days = Object.assign({}, _.get(this.data, ['holidays'].concat(obj._days, 'days')), obj.days)
     }
-    if (obj.days) {
-      days = days || obj.days
+    if (days || obj.days) {
+      days = Object.assign({}, days, obj.days)
       Object.keys(days).forEach(function (p) {
         if (days[p] === false) { // remove rules
           if (out[p]) {
