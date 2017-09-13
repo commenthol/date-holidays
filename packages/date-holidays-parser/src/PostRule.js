@@ -27,7 +27,7 @@ class PostRule {
   getEvent (year) {
     let active = this.ruleSet && this.ruleSet.active
     this.disable(year)
-    var ev = this.events[0]
+    const ev = this.events[0]
     ev.filter(year, active)
     return ev
   }
@@ -45,17 +45,17 @@ class PostRule {
    * @param {CalEvent} [calEvent]
    */
   bridge (rule, year) {
-    var found = new Array(this.events.length).fill(false)
+    const found = new Array(this.events.length).fill(false)
     found[0] = true
-    var type = rule.type || 'public'
+    const type = rule.type || 'public'
 
     // get all holidays of the given year
-    for (var ruleStr in this.holidays) {
+    for (let ruleStr in this.holidays) {
       let dateFn = this.holidays[ruleStr].fn
       if (dateFn && dateFn.ruleStr !== this.ruleStr) {
         let tmpEv = dateFn.inYear(year)
         let tmpEvType = _.get(tmpEv, 'opts.type') || 'public'
-        for (var i = 1; i < this.events.length; i++) {
+        for (let i = 1; i < this.events.length; i++) {
           if (found[i]) continue
           let isEqualDate = tmpEv.event.isEqualDate(this.events[i])
           if (isEqualDate && tmpEvType === type) {
@@ -74,8 +74,8 @@ class PostRule {
   }
 
   disable (year) {
-    var ev = this.events[0]
-    var tmpEv = this._findEventInYear(year, this.opts.disable)
+    const ev = this.events[0]
+    let tmpEv = this._findEventInYear(year, this.opts.disable)
     if (tmpEv) {
       if (tmpEv.isEqualDate(ev)) {
         ev.reset()
@@ -87,9 +87,9 @@ class PostRule {
 
   _findEventInYear (year, arr) {
     arr = arr || []
-    var parser = new Parser()
-    for (var i in arr) {
-      var p = parser.parse(arr[i])
+    const parser = new Parser()
+    for (let i in arr) {
+      const p = parser.parse(arr[i])
       if (p && p[0] && p[0].year && p[0].year === year) {
         return new CalEvent(p[0]).inYear(p[0].year)
       }

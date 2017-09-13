@@ -28,7 +28,7 @@ const grammar = (function () {
   }
 
   // raw rules
-  var raw = {
+  const raw = {
     _weekdays: 'sunday|monday|tuesday|wednesday|thursday|friday|saturday|day',
     _months: 'January|February|March|April|May|June|July|August|September|October|November|December',
     _islamicMonths: 'Muharram|Safar|Rabi al-awwal|Rabi al-thani|Jumada al-awwal|Jumada al-thani|Rajab|Shaban|Ramadan|Shawwal|Dhu al-Qidah|Dhu al-Hijjah',
@@ -105,7 +105,7 @@ const grammar = (function () {
   (/_days/g, raw._days)
   ()
 
-  var i = 1
+  let i = 1
   raw.months = {}
   raw._months.split('|').forEach(function (m) {
     raw.months[m] = i++
@@ -167,8 +167,8 @@ class Parser {
    * dateIfThen: [fn, dateIfThen1, dateIfThen2] --> [fn, dateIfThen1, dateIfThen2]
    */
   _reorder () {
-    var tmp = []
-    var res = []
+    const tmp = []
+    const res = []
 
     this.tokens.forEach((token) => {
       if (token.rule === 'dateDir') {
@@ -193,9 +193,9 @@ class Parser {
   }
 
   _tokenize (o) {
-    var last
+    let last
     while (o.str) {
-      for (var i = 0; i < this.fns.length; i++) {
+      for (let i = 0; i < this.fns.length; i++) {
         if (this[this.fns[i]](o)) break
       }
       this._space(o)
@@ -214,7 +214,7 @@ class Parser {
   }
 
   _date (o) {
-    var cap
+    let cap
     if ((cap = grammar.date.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -230,7 +230,7 @@ class Parser {
   }
 
   _julian (o) {
-    var cap
+    let cap
     if ((cap = grammar.julian.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -246,7 +246,7 @@ class Parser {
   }
 
   _easter (o) {
-    var cap
+    let cap
     if ((cap = grammar.easter.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -261,7 +261,7 @@ class Parser {
   }
 
   _equinox (o) {
-    var cap
+    let cap
     if ((cap = grammar.equinox.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -276,7 +276,7 @@ class Parser {
   }
 
   _hebrew (o) {
-    var cap
+    let cap
     if ((cap = grammar.hebrew.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -292,7 +292,7 @@ class Parser {
   }
 
   _islamic (o) {
-    var cap
+    let cap
     if ((cap = grammar.islamic.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -308,7 +308,7 @@ class Parser {
   }
 
   _chineseSolar (o) {
-    var cap
+    let cap
     if ((cap = grammar.chineseSolar.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -326,7 +326,7 @@ class Parser {
   }
 
   _chineseLunar (o) {
-    var cap
+    let cap
     if ((cap = grammar.chineseLunar.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -345,7 +345,7 @@ class Parser {
   }
 
   _dateMonth (o) {
-    var cap
+    let cap
     if ((cap = grammar.dateMonth.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -361,7 +361,7 @@ class Parser {
   }
 
   _space (o) {
-    var cap
+    let cap
     if ((cap = grammar.space.exec(o.str))) {
       this._shorten(o, cap[0])
       return true
@@ -369,7 +369,7 @@ class Parser {
   }
 
   _ruleSameDay (o) {
-    var cap
+    let cap
     if ((cap = grammar.rule_same_day.exec(o.str))) {
       this._shorten(o, cap[0])
       return true
@@ -377,7 +377,7 @@ class Parser {
   }
 
   _ruleModifier (o) {
-    var cap
+    let cap
     if ((cap = grammar.modifier.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -390,7 +390,7 @@ class Parser {
   }
 
   _ruleTime (o) {
-    var cap
+    let cap
     if ((cap = grammar.time.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -406,7 +406,7 @@ class Parser {
   }
 
   _ruleDuration (o) {
-    var cap
+    let cap
     if ((cap = grammar.duration.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -426,7 +426,7 @@ class Parser {
   }
 
   _ruleDateIfThen (o) {
-    var cap
+    let cap
     if ((cap = grammar.rule_date_if_then.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -437,7 +437,7 @@ class Parser {
         then: cap.shift()
       }
       // create a sub-parser to only check for time, duration
-      var p = new Parser(['_ruleTime', '_ruleDuration'])
+      const p = new Parser(['_ruleTime', '_ruleDuration'])
       p.parse(o.str)
       if (p.tokens.length) {
         res.rules = p.tokens
@@ -449,7 +449,7 @@ class Parser {
   }
 
   _ruleDateDir (o) {
-    var cap
+    let cap
     if ((cap = grammar.rule_day_dir_date.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -468,7 +468,7 @@ class Parser {
   }
 
   _ruleYear (o) {
-    var cap
+    let cap
     if ((cap = grammar.rule_year.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()
@@ -484,7 +484,7 @@ class Parser {
   }
 
   _ruleBridge (o) {
-    var cap
+    let cap
     if ((cap = grammar.rule_bridge.exec(o.str))) {
       this._shorten(o, cap[0])
       cap.shift()

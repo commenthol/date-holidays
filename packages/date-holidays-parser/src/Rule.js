@@ -65,10 +65,10 @@ class Rule {
    */
   dateDir (rule) {
     this.calEvent.dates.forEach((date) => {
-      var offset
-      var count = rule.count - 1
-      var weekday = date.getDay()
-      var ruleWeekday = DAYS[rule.weekday]
+      let offset
+      let count = rule.count - 1
+      const weekday = date.getDay()
+      const ruleWeekday = DAYS[rule.weekday]
 
       if (rule.weekday === 'day') {
         if (rule.direction === 'before') {
@@ -102,13 +102,13 @@ class Rule {
    * }
    */
   dateIfThen (rule) {
-    var dates = []
+    const dates = []
 
     this.calEvent.dates = this.calEvent.dates.map((date) => {
       if (date._lock) {
         return date
       }
-      var weekday = date.getDay()
+      const weekday = date.getDay()
       if (~(rule.if).indexOf(DAYS[weekday])) {
         if (this.modifier === 'and') {
           dates.push(new CalDate(date))

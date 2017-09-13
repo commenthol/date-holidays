@@ -18,7 +18,7 @@ class CalEventMap extends CalEvent {
       return this
     }
 
-    for (var y = year - 1; y <= year + 1; y++) {
+    for (let y = year - 1; y <= year + 1; y++) {
       // resolve date in `calendar` as gregorian date
       let firstDays = this.calendar[y][this.opts.month - 1]
       // firstDays `[M, D, diffYear]`
@@ -29,7 +29,7 @@ class CalEventMap extends CalEvent {
             break
           }
         }
-        var d = (new CalDate({
+        const d = (new CalDate({
           year: y,
           month: firstDays[i] + 1,
           day: firstDays[i + 1]

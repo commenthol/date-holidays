@@ -21,7 +21,7 @@ class Easter extends CalEvent {
   }
 
   inYear (year) {
-    var d = (new CalDate(this._fn(year))).setOffset(this.offset)
+    const d = (new CalDate(this._fn(year))).setOffset(this.offset)
     this.dates.push(d)
     return this
   }

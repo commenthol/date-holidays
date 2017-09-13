@@ -14,7 +14,7 @@ class DateFn {
    * @param {array} holidays - all holidays rules (required for bridge day calculations)
    */
   constructor (ruleStr, holidays) {
-    var parser = new Parser()
+    const parser = new Parser()
     this.ruleStr = ruleStr
     this.rules = parser.parse(ruleStr)
     this.ok = !parser.error
@@ -24,11 +24,11 @@ class DateFn {
   }
 
   inYear (year) {
-    var ruleFn // current rule
-    var postProc = new PostRule(this.ruleStr, this.opts, this.holidays)
+    let ruleFn // current rule
+    const postProc = new PostRule(this.ruleStr, this.opts, this.holidays)
 
     this.rules.forEach((rule) => {
-      var calEvent
+      let calEvent
       if (rule.fn) {
         calEvent = new CalEventFactory(rule)
           .inYear(year - 1) // run over neighboring dates to catch overlaps
@@ -48,8 +48,7 @@ class DateFn {
   }
 
   get (timezone) {
-    var res = this.event.get(timezone)
-    return res
+    return this.event.get(timezone)
   }
 }
 module.exports = DateFn

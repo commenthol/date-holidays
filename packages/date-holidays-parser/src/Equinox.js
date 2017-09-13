@@ -24,7 +24,7 @@ class Equinox extends CalEvent {
   }
 
   inYear (year) {
-    var jde
+    let jde
     switch (this._season) {
       case 'march': {
         jde = solstice.march2(year, earth)
@@ -44,21 +44,21 @@ class Equinox extends CalEvent {
       }
     }
 
-    var str = new julian.Calendar().fromJDE(jde).toDate().toISOString()
-    var date
+    const str = new julian.Calendar().fromJDE(jde).toDate().toISOString()
+    let date
     if (/^[+-]\d{2}:\d{2}?$/.test(this._timezone)) { // for '+08:00' formats
       date = moment(str).utcOffset(this._timezone)
     } else { // for 'Asia/Shanghai' formats
       date = moment(str).tz(this._timezone) // move to timezone
     }
 
-    var floorDate = {
+    const floorDate = {
       year: year,
       month: date.month() + 1,
       day: date.date()
     }
 
-    var d = new CalDate(floorDate).setOffset(this.offset)
+    const d = new CalDate(floorDate).setOffset(this.offset)
     this.dates.push(d)
     return this
   }

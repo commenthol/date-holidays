@@ -16,7 +16,7 @@ class CalEvent {
   }
 
   inYear (year) {
-    var d = (new CalDate(this.opts)).setOffset(this.offset)
+    const d = (new CalDate(this.opts)).setOffset(this.offset)
     if (!(d.year && d.year !== year)) {
       d.year = year
       this.dates.push(d)
@@ -29,9 +29,9 @@ class CalEvent {
   }
 
   isEqualDate (calEvent) {
-    var res = false
-    for (var thisDate of this.dates) {
-      for (var date of calEvent.dates) {
+    let res = false
+    for (const thisDate of this.dates) {
+      for (const date of calEvent.dates) {
         res |= thisDate.isEqualDate(date)
       }
     }
@@ -82,8 +82,8 @@ class CalEvent {
   }
 
   get (timezone) {
-    var arr = this.dates.map((date) => {
-      var o = {
+    const arr = this.dates.map((date) => {
+      const o = {
         date: date.toString(),
         start: date.toTimezone(timezone),
         end: date.toEndDate().toTimezone(timezone)

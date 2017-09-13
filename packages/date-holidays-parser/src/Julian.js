@@ -9,8 +9,8 @@ class Julian extends CalEvent {
     if (this.opts.year && this.opts.year !== year) {
       return this
     }
-    var cal = new julian.CalendarJulian(year, this.opts.month, this.opts.day).toGregorian()
-    var d = (new CalDate(cal)).setOffset(this.offset)
+    const cal = new julian.CalendarJulian(year, this.opts.month, this.opts.day).toGregorian()
+    const d = (new CalDate(cal)).setOffset(this.offset)
     this.dates.push(d)
     return this
   }
