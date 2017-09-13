@@ -26,8 +26,8 @@
     "url": "git+https://github.com/commenthol/date-holidays-parser.git"
   },
   "scripts": {
-    "all": "npm run clean && npm i && npm run lint && npm run transpile && npm run yaml && npm test && npm pack",
-    "clean": "rimraf .nyc_output coverage lib node_modules",
+    "all": "npm run clean && npm i && npm run lint && npm run transpile && npm test && npm pack",
+    "clean": "rimraf .nyc_output coverage lib",
     "cover": "nyc -r lcov -r text npm test",
     "lint": "eslint --quiet '**/*.js'",
     "test": "mocha",

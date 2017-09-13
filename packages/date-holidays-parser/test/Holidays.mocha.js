@@ -18,7 +18,7 @@ describe('#Holidays', function () {
   describe('creation', function () {
     it('throws if instantiating without data', function () {
       assert.throws(() => {
-        const hd = new Holidays()
+        const hd = new Holidays() // eslint-disable-line no-unused-vars
       }, /need holiday data/)
     })
 
@@ -178,7 +178,6 @@ describe('#Holidays', function () {
       assert.ok(typeof res === 'object')
       assert.equal(res.A, 'Stadt Augsburg')
     })
-
   })
 
   describe('can set', function () {
@@ -248,7 +247,7 @@ describe('#Holidays', function () {
 
     it('can set a holiday with .active array', function () {
       var hd = new Holidays(fixtures.holidays, 'it')
-      var x = hd.setHoliday('01-07', {
+      hd.setHoliday('01-07', {
         name: {it: 'ok'},
         type: 'optional',
         active: [{to: 2001}, {from: 2010, to: 2015}, {from: 2017}]
