@@ -10215,6 +10215,19 @@
         }
       }
     },
+    "SJ": {
+      "names": {
+        "en": "Svalbard & Jan Mayen"
+      },
+      "langs": [
+        "no"
+      ],
+      "zones": [
+        "Europe/Oslo"
+      ],
+      "dayoff": "sunday",
+      "_days": "NO"
+    },
     "SM": {
       "names": {
         "it": "San Marino",

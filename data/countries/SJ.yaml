@@ -2,8 +2,9 @@ holidays:
   SJ:
     names:
       en: Svalbard & Jan Mayen
-    langs: []
+    langs:
+      - no
     zones:
       - Europe/Oslo
-    dayoff: ''
-    days: {}
+    dayoff: sunday
+    _days: NO
