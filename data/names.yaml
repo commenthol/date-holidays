@@ -38,6 +38,7 @@ names:
       lt: Naujieji metai
       lv: Jaunais Gads
       mg: Taom-baovao
+      mk: Нова Година
       mt: L-Ewwel tas-Sena
       nl: Nieuwjaar
       no: Første nyttårsdag
@@ -69,6 +70,7 @@ names:
       # it: Epifania
       is: Þrettándinn
       nl: Driekoningen
+      mk: Богојавление
       pl: Święto Trzech Króli
       sv: Trettondedag jul
   02-02:
@@ -128,6 +130,7 @@ names:
       nl: Dag van de Arbeid
       no: Første mai
       mg: Fetin'ny asa
+      mk: Ден на трудот
       mt: Jum il-Ħaddiem
       pl: Święto Pracy
       pt: Dia do trabalhador
@@ -154,6 +157,7 @@ names:
       # it: Assunzione di Maria Virgine
       lt: Žolinė
       mg: Asompsiona
+      mk: Успение на Пресвета Богородица
       mt: Santa Marija
       nl: O.L.V. Hemelvaart
       pl: Wniebowzięcie Najświętszej Maryi Panny
@@ -174,6 +178,7 @@ names:
       # it: Tutti i Santi
       lt: Visų šventųjų diena
       mg: Fetin'ny olo-masina
+      mk: Празникот на сите светци
       nl: Allerheiligen
       pl: Wszystkich Świętych
       pt: Todos os santos
@@ -258,6 +263,7 @@ names:
       lt: Šv. Kalėdos
       lv: Ziemassvētki
       mg: Krismasy
+      mk: Католички Божиќ
       mt: Il-Milied
       nl: Kerstmis
       no: Første Juledag
@@ -444,6 +450,7 @@ names:
       is: Annar í páskum
       lv: Otrās Lieldienas
       mg: Alatsinain'ny Paska
+      mk: вториот ден на Велигден
       nl: Paasmaandag
       no: Andre påskedag
       pl: Drugi dzień Wielkanocy
@@ -482,6 +489,7 @@ names:
       is: Hvítasunnudagur
       nl: Pinksteren
       no: Første pinsedag
+      mk: Духовден
       pl: Zielone Świątki
       ro: Rusaliile
       sv: Pingst
@@ -511,13 +519,22 @@ names:
       pl: Dzień Bożego Ciała
       pt: Corpo de Deus
 
+  orthodox -2:
+    name:
+      en: Orthodox Good Friday
+      mk: Велики Петок
   orthodox:
     name:
       en: Orthodox Easter
       bs: Pravoslavni Vaskrs
       hr: Pravoslavni Uskrs
+      mk: Прв ден Велигден
       sq: Pashkët Ortodokse
       sr: Ускрс
+  orthodox 1:
+    name:
+      en: Orthodox Easter Monday
+      mk: Втор ден Велигден
   julian 01-01:
     name:
       en: Orthodox New Year
@@ -525,11 +542,16 @@ names:
       hr: Pravoslavna Nova Godina
       sq: Viti i Ri Ortodoks
       sr: Православна Нова година
+  julian 12-24:
+    name:
+      en: Orthodox Christmas Eve
+      mk: Бадник
   julian 12-25:
     name:
       en: Orthodox Christmas
       bs: Pravoslavni Božić
       hr: Pravoslavni Božić
+      mk: Прв ден Божик
       sq: Krishtlindjet Ortodokse
       sr: Божић
 
@@ -555,6 +577,7 @@ names:
       de: Zuckerfest
       fr: Fête de fin du Ramadan
       nl: Suikerfeest (Eid al-Fitr)
+      mk: Рамазан Бајрам
       sq: Fitër Bajrami
       tr: Bayramı
       sw: Idd-ul-Fitr
@@ -568,6 +591,7 @@ names:
       de: Opferfest
       fr: Fête du mouton
       nl: Offerfeest (Eid Al-Adha)
+      mk: Курбан Бајрам
       sq: Kurban Bajrami
       tr: Kurban Bayramı
       sw: Idd-ul-Azha
@@ -607,7 +631,7 @@ names:
       sq: Nata e Kadrit
 
   # jewish holidays
-  15 Nisan:
+  15 Nisan: # Pesach
     name:
       en: Pesach
       bs: Pesah
@@ -615,7 +639,7 @@ names:
       hr: Pesač
       sq: Pesach
       sr: Песах
-  1 Tishrei:
+  1 Tishrei: # Rosh Hashanah
     name:
       en: Rosh Hashanah
       bs: Roš Hašana
@@ -623,12 +647,13 @@ names:
       hr: Roš Hašane
       sq: Rosh Hashanah
       sr: Рош Хашана
-  10 Tishrei:
+  10 Tishrei: # Yom Kippur
     name:
       en: Yom Kippur
       bs: Jom Kipur
       de: Jom Kippur
       hr: Jom Kipur
+      mk: Јом Кипур
       sq: Yom Kippur
       sr: Јом Кипур
   # Day references
@@ -676,6 +701,7 @@ names:
       fr: Jour de l'Indépendance
       hr: Dan neovisnosti
       hy: Անկախության օր
+      mk: Ден на независноста
       mt: Jum l-Indipendenza
       nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
@@ -746,9 +772,10 @@ names:
       de: Ersatztag
       es: día sustituto
       fr: jour substitut
-      nl: substituut
       hr: zamjena dan
       jp: 代替日
       lv: aizstājējs diena
+      mk: заменет ден
+      nl: substituut
       sq: ditë zëvendësuese
       sr: замена дан

@@ -1,0 +1,287 @@
+# @source http://www.mtsp.gov.mk/WBStorage/Files/zakon_praznici.pdf
+holidays:
+  MK:
+    names:
+      mk: Република Македонија
+      en: Macedonia
+    langs:
+      - mk
+    zones:
+      - Europe/Belgrade
+    dayoff: sunday
+    days:
+      01-01 and if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      julian 12-25 and if sunday then next monday:
+        substitute: true
+        _name: julian 12-25
+      orthodox:
+        _name: orthodox
+      orthodox 1:
+        _name: orthodox 1
+      05-01 and if sunday then next monday:
+        substitute: true
+        _name: 05-01
+      05-24 and if sunday then next monday:
+        substitute: true
+        name:
+          mk: Св. Кирил и Методиј
+          en: Saints Cyril and Methodius Day
+      08-02 and if sunday then next monday:
+        substitute: true
+        name:
+          mk: Ден на Републиката
+          en: Day of the Republic
+      09-08 and if sunday then next monday:
+        substitute: true
+        _name: Independence Day
+      10-11 and if sunday then next monday:
+        substitute: true
+        name:
+          mk: Ден на востанието
+          en: Revolution Day
+      10-23 and if sunday then next monday:
+        substitute: true
+        name:
+          mk: Ден на македонската револуционерна борба
+          en: Day of the Macedonian Revolutionary Struggle
+      12-08 and if sunday then next monday:
+        substitute: true
+        name:
+          mk: Св. Климент Охридски
+          en: Saint Clement of Ohrid Day
+      1 Shawwal and if sunday then next monday:
+        substitute: true
+        _name: 1 Shawwal
+
+      julian 12-24:
+        _name: julian 12-24
+        type: optional
+        note: Orthodox believers
+      julian 01-06:
+        _name: 01-06
+        type: optional
+        note: Orthodox believers
+      orthodox -2:
+        _name: orthodox -2
+        type: optional
+        note: Orthodox believers
+      orthodox 47:
+        name:
+          mk: петок пред Духовден
+          en: Friday before Pentecost
+        type: optional
+        note: Orthodox believers
+      orthodox 49:
+        _name: easter 49
+        type: optional
+        note: Orthodox believers
+      julian 08-15:
+        _name: 08-15
+        type: optional
+        note: Orthodox believers
+
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        type: optional
+        note: Muslim believers
+
+      10 Tishrei:
+        _name: 10 Tishrei
+        type: optional
+        note: Jewish believers
+
+      easter 1:
+        _name: easter 1
+        type: optional
+        note: Catholic believers
+      11-01:
+        _name: 11-01
+        type: optional
+        note: Catholic believers
+      12-25:
+        _name: 12-25
+        type: optional
+        note: Catholic believers
+
+      11-22:
+        name:
+          mk: Ден на Албанската азбука
+          en: Day of the Albanian Alphabet
+        type: optional
+        note: For members of the Albanian community
+      12-21:
+        name:
+          mk: Ден на настава на турски јазик
+          en: Turkish Language Day
+        type: optional
+        note: For members of the the Turkish community
+      01-27:
+        name:
+          mk: Свети Сава
+          en: St. Sava
+        type: optional
+        note: For members of the Serbian community
+      04-08:
+        name:
+          mk: Меѓународен ден на Ромите
+          en: International Roma Day
+        type: optional
+        note: For members of the the Roma community
+      05-23:
+        name:
+          mk: Национален ден на Властите
+          en: National Day of Authorities
+        type: optional
+        note: For members of the Vlach community
+      09-28:
+        name:
+          mk: Меѓународен ден на Бошњаците
+          en: International Day of Bosniaks
+        type: optional
+        note: For Members of the Bosniak community.
+
+    # states:
+      # '02':
+      #   name: Aračinovo
+      # '03':
+      #   name: Berovo
+      # '04':
+      #   name: Bitola
+      # '05':
+      #   name: Bogdanci
+      # '06':
+      #   name: Bogovinje
+      # '07':
+      #   name: Bosilovo
+      # '08':
+      #   name: Brvenica
+      # '10':
+      #   name: Valandovo
+      # '11':
+      #   name: Vasilevo
+      # '12':
+      #   name: Vevčani
+      # '13':
+      #   name: Veles
+      # '14':
+      #   name: Vinica
+      # '16':
+      #   name: Vrapčište
+      # '18':
+      #   name: Gevgelija
+      # '19':
+      #   name: Gostivar
+      # '20':
+      #   name: Gradsko
+      # '21':
+      #   name: Debar
+      # '22':
+      #   name: Debarca
+      # '23':
+      #   name: Delčevo
+      # '24':
+      #   name: Demir Kapija
+      # '25':
+      #   name: Demir Hisar
+      # '26':
+      #   name: Dojran
+      # '27':
+      #   name: Dolneni
+      # '30':
+      #   name: Želino
+      # '32':
+      #   name: Zelenikovo
+      # '33':
+      #   name: Zrnovci
+      # '34':
+      #   name: Ilinden
+      # '35':
+      #   name: Jegunovce
+      # '36':
+      #   name: Kavadarci
+      # '37':
+      #   name: Karbinci
+      # '40':
+      #   name: Kičevo
+      # '41':
+      #   name: Konče
+      # '42':
+      #   name: Kočani
+      # '43':
+      #   name: Kratovo
+      # '44':
+      #   name: Kriva Palanka
+      # '45':
+      #   name: Krivogaštani
+      # '46':
+      #   name: Kruševo
+      # '47':
+      #   name: Kumanovo
+      # '48':
+      #   name: Lipkovo
+      # '49':
+      #   name: Lozovo
+      # '50':
+      #   name: Mavrovo and Rostuša
+      # '51':
+      #   name: Makedonska Kamenica
+      # '52':
+      #   name: Makedonski Brod
+      # '53':
+      #   name: Mogila
+      # '54':
+      #   name: Negotino
+      # '55':
+      #   name: Novaci
+      # '56':
+      #   name: Novo Selo
+      # '58':
+      #   name: Ohrid
+      # '59':
+      #   name: Petrovec
+      # '60':
+      #   name: Pehčevo
+      # '61':
+      #   name: Plasnica
+      # '62':
+      #   name: Prilep
+      # '63':
+      #   name: Probištip
+      # '64':
+      #   name: Radoviš
+      # '65':
+      #   name: Rankovce
+      # '66':
+      #   name: Resen
+      # '67':
+      #   name: Rosoman
+      # '69':
+      #   name: Sveti Nikole
+      # '70':
+      #   name: Sopište
+      # '71':
+      #   name: Staro Nagoričane
+      # '72':
+      #   name: Struga
+      # '73':
+      #   name: Strumica
+      # '74':
+      #   name: Studeničani
+      # '75':
+      #   name: Tearce
+      # '76':
+      #   name: Tetovo
+      # '78':
+      #   name: Centar Župa
+      # '80':
+      #   name: Čaška
+      # '81':
+      #   name: Češinovo-Obleševo
+      # '82':
+      #   name: Čučer-Sandevo
+      # '83':
+      #   name: Štip
+      # '85':
+      #   name: Skopje
