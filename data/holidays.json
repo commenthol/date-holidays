@@ -10228,6 +10228,92 @@
       "dayoff": "sunday",
       "_days": "NO"
     },
+    "SK": {
+      "names": {
+        "sk": "Slovenská republika",
+        "en": "Slovakia"
+      },
+      "langs": [
+        "sk"
+      ],
+      "zones": [
+        "Europe/Prague"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01": {
+          "_name": "01-01",
+          "name": {
+            "sk": "Deň vzniku Slovenskej republiky"
+          }
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "05-08": {
+          "name": {
+            "sk": "Deň víťazstva nad fašizmom",
+            "en": "Day of victory over fascism"
+          }
+        },
+        "2nd sunday in May": {
+          "_name": "Mothers Day",
+          "type": "observance"
+        },
+        "07-05": {
+          "name": {
+            "sk": "Sviatok svätého Cyrila a Metoda",
+            "en": "Saints Cyril and Methodius Day"
+          }
+        },
+        "08-29": {
+          "name": {
+            "sk": "Výročie Slovenského národného povstania",
+            "en": "Slovak National Uprising anniversary"
+          }
+        },
+        "09-01": {
+          "_name": "Constitution Day"
+        },
+        "09-15": {
+          "name": {
+            "sk": "Sviatok Panny Márie Sedembolestnej",
+            "en": "Day of Our Lady of the Seven Sorrows"
+          }
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "11-17": {
+          "name": {
+            "sk": "Deň boja za slobodu a demokraciu",
+            "en": "Struggle for Freedom and Democracy Day"
+          }
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
     "SM": {
       "names": {
         "it": "San Marino",
@@ -12848,6 +12934,7 @@
         "nl": "Driekoningen",
         "mk": "Богојавление",
         "pl": "Święto Trzech Króli",
+        "sk": "Zjavenie Pána",
         "sv": "Trettondedag jul"
       }
     },
@@ -12923,6 +13010,7 @@
         "pl": "Święto Pracy",
         "pt": "Dia do trabalhador",
         "ro": "Ziua muncii",
+        "sk": "Sviatok práce",
         "sq": "Dita Ndërkombëtare e Punonjësve",
         "sr": "Празник рада",
         "sv": "Första Maj",
@@ -12974,6 +13062,7 @@
         "nl": "Allerheiligen",
         "pl": "Wszystkich Świętych",
         "pt": "Todos os santos",
+        "sk": "Sviatok všetkých svätých",
         "sq": "Të gjitha Saints",
         "sr": "Сви Свети",
         "sv": "Alla helgons dag"
@@ -13035,6 +13124,7 @@
         "nl": "Kerstavond",
         "no": "Julaften",
         "pt": "Noite de Natal",
+        "sk": "Štedrý deň",
         "sq": "Nata e Krishtlindjes",
         "sr": "Бадњи дан",
         "sv": "Julafton"
@@ -13075,6 +13165,7 @@
         "pt": "Natal",
         "ro": "Crăciunul",
         "ru": "Рождество Христово",
+        "sk": "Prvý sviatok vianočný",
         "sq": "Krishtlindja",
         "sr": "Католички Божић",
         "sv": "Juldagen",
@@ -13105,6 +13196,7 @@
         "no": "Andre juledag",
         "pl": "Drugi dzień Bożego Narodzenia",
         "ro": "Două zi de Crăciun",
+        "sk": "Druhý sviatok vianočný",
         "sv": "Annandag jul"
       }
     },
@@ -13205,6 +13297,7 @@
         "nl": "Goede Vrijdag",
         "no": "Langfredag",
         "pt": "Sexta-Feira Santa",
+        "sk": "Veľkonočný piatok",
         "sq": "E Premtja e Madhe",
         "sr": "Велики петак",
         "sv": "Långfredagen",
@@ -13247,6 +13340,7 @@
         "pl": "Niedziela Wielkanocna",
         "pt": "Páscoa",
         "ro": "Paștele",
+        "sk": "Veľká noc",
         "sq": "Pashkët Katolike",
         "sr": "Католички Ускрс",
         "sv": "Påsk",
@@ -13276,6 +13370,7 @@
         "no": "Andre påskedag",
         "pl": "Drugi dzień Wielkanocy",
         "ro": "Două zi de Pasti",
+        "sk": "Veľkonočný pondelok",
         "sv": "Annandag påsk",
         "sw": "Jumatatu ya Pasaka"
       }
@@ -13544,6 +13639,7 @@
         "ko": "제헌절",
         "no": "Grunnlovsdagen",
         "pt": "Dia da Constituição",
+        "sk": "Deň Ústavy",
         "sq": "Dita e Kushtetutës"
       }
     },

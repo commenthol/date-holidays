@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T23:00:00.000Z",
+    "end": "2016-01-01T23:00:00.000Z",
+    "name": "Deň vzniku Slovenskej republiky",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-01-06 00:00:00",
+    "start": "2016-01-05T23:00:00.000Z",
+    "end": "2016-01-06T23:00:00.000Z",
+    "name": "Zjavenie Pána",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-24T23:00:00.000Z",
+    "end": "2016-03-25T23:00:00.000Z",
+    "name": "Veľkonočný piatok",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-26T23:00:00.000Z",
+    "end": "2016-03-27T22:00:00.000Z",
+    "name": "Veľká noc",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-27T22:00:00.000Z",
+    "end": "2016-03-28T22:00:00.000Z",
+    "name": "Veľkonočný pondelok",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T22:00:00.000Z",
+    "end": "2016-05-01T22:00:00.000Z",
+    "name": "Sviatok práce",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-08 00:00:00",
+    "start": "2016-05-07T22:00:00.000Z",
+    "end": "2016-05-08T22:00:00.000Z",
+    "name": "Deň víťazstva nad fašizmom",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-08 00:00:00",
+    "start": "2016-05-07T22:00:00.000Z",
+    "end": "2016-05-08T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-07-05 00:00:00",
+    "start": "2016-07-04T22:00:00.000Z",
+    "end": "2016-07-05T22:00:00.000Z",
+    "name": "Sviatok svätého Cyrila a Metoda",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-08-29 00:00:00",
+    "start": "2016-08-28T22:00:00.000Z",
+    "end": "2016-08-29T22:00:00.000Z",
+    "name": "Výročie Slovenského národného povstania",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-09-01 00:00:00",
+    "start": "2016-08-31T22:00:00.000Z",
+    "end": "2016-09-01T22:00:00.000Z",
+    "name": "Deň Ústavy",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-09-15 00:00:00",
+    "start": "2016-09-14T22:00:00.000Z",
+    "end": "2016-09-15T22:00:00.000Z",
+    "name": "Sviatok Panny Márie Sedembolestnej",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-11-01 00:00:00",
+    "start": "2016-10-31T23:00:00.000Z",
+    "end": "2016-11-01T23:00:00.000Z",
+    "name": "Sviatok všetkých svätých",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-11-17 00:00:00",
+    "start": "2016-11-16T23:00:00.000Z",
+    "end": "2016-11-17T23:00:00.000Z",
+    "name": "Deň boja za slobodu a demokraciu",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-12-24 00:00:00",
+    "start": "2016-12-23T23:00:00.000Z",
+    "end": "2016-12-24T23:00:00.000Z",
+    "name": "Štedrý deň",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T23:00:00.000Z",
+    "end": "2016-12-25T23:00:00.000Z",
+    "name": "Prvý sviatok vianočný",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T23:00:00.000Z",
+    "end": "2016-12-26T23:00:00.000Z",
+    "name": "Druhý sviatok vianočný",
+    "type": "public",
+    "_weekday": "Mon"
+  }
+]

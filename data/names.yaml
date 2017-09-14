@@ -72,6 +72,7 @@ names:
       nl: Driekoningen
       mk: Богојавление
       pl: Święto Trzech Króli
+      sk: Zjavenie Pána
       sv: Trettondedag jul
   02-02:
     name:
@@ -135,6 +136,7 @@ names:
       pl: Święto Pracy
       pt: Dia do trabalhador
       ro: Ziua muncii
+      sk: Sviatok práce
       sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
       sv: Första Maj
@@ -182,6 +184,7 @@ names:
       nl: Allerheiligen
       pl: Wszystkich Świętych
       pt: Todos os santos
+      sk: Sviatok všetkých svätých
       sq: Të gjitha Saints
       sr: Сви Свети
       sv: Alla helgons dag
@@ -233,6 +236,7 @@ names:
       nl: Kerstavond
       no: Julaften
       pt: Noite de Natal
+      sk: Štedrý deň
       sq: Nata e Krishtlindjes
       sr: Бадњи дан
       sv: Julafton
@@ -271,6 +275,7 @@ names:
       pt: Natal
       ro: Crăciunul
       ru: Рождество Христово
+      sk: Prvý sviatok vianočný
       sq: Krishtlindja
       sr: Католички Божић
       sv: Juldagen
@@ -300,6 +305,7 @@ names:
       no: Andre juledag
       pl: Drugi dzień Bożego Narodzenia
       ro: Două zi de Crăciun
+      sk: Druhý sviatok vianočný
       sv: Annandag jul
   12-31:
     name:
@@ -391,6 +397,7 @@ names:
       nl: Goede Vrijdag
       no: Langfredag
       pt: Sexta-Feira Santa
+      sk: Veľkonočný piatok
       sq: E Premtja e Madhe
       sr: Велики петак
       sv: Långfredagen
@@ -429,6 +436,7 @@ names:
       pl: Niedziela Wielkanocna
       pt: Páscoa
       ro: Paștele
+      sk: Veľká noc
       sq: Pashkët Katolike
       sr: Католички Ускрс
       sv: Påsk
@@ -456,6 +464,7 @@ names:
       no: Andre påskedag
       pl: Drugi dzień Wielkanocy
       ro: Două zi de Pasti
+      sk: Veľkonočný pondelok
       sv: Annandag påsk
       sw: Jumatatu ya Pasaka
   easter 39:  # Ascension Day
@@ -680,6 +689,7 @@ names:
       ko: 제헌절
       no: Grunnlovsdagen
       pt: Dia da Constituição
+      sk: Deň Ústavy
       sq: Dita e Kushtetutës
   Fathers Day:
     name:
