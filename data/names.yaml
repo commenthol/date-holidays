@@ -439,13 +439,14 @@ names:
       ro: Paștele
       sk: Veľká noc
       sq: Pashkët Katolike
-      sr: Католички Ускрс
+      sr: Католички Васкрс
       sv: Påsk
       sw: Pasaka
   easter 1:   # Easter Monday
     name:
       en: Easter Monday
       bg: Велики понеделник
+      bs: Uskrsni ponedjeljak
       cz: Velikonoční pondělí
       da: Anden påskedag
       de: Ostermontag
@@ -466,6 +467,7 @@ names:
       pl: Drugi dzień Wielkanocy
       ro: Două zi de Pasti
       sk: Veľkonočný pondelok
+      sr: Католички Васкрсни понедељак
       sv: Annandag påsk
       sw: Jumatatu ya Pasaka
   easter 39:  # Ascension Day
@@ -530,22 +532,6 @@ names:
       pl: Dzień Bożego Ciała
       pt: Corpo de Deus
 
-  orthodox -2:
-    name:
-      en: Orthodox Good Friday
-      mk: Велики Петок
-  orthodox:
-    name:
-      en: Orthodox Easter
-      bs: Pravoslavni Vaskrs
-      hr: Pravoslavni Uskrs
-      mk: Прв ден Велигден
-      sq: Pashkët Ortodokse
-      sr: Ускрс
-  orthodox 1:
-    name:
-      en: Orthodox Easter Monday
-      mk: Втор ден Велигден
   julian 01-01:
     name:
       en: Orthodox New Year
@@ -566,6 +552,24 @@ names:
       ro: Craciun pe Rit Vechi
       sq: Krishtlindjet Ortodokse
       sr: Божић
+  orthodox -2:
+    name:
+      en: Orthodox Good Friday
+      mk: Велики Петок
+      sr: Велики петак
+  orthodox:
+    name:
+      en: Orthodox Easter
+      bs: Pravoslavni Vaskrs
+      hr: Pravoslavni Uskrs
+      mk: Прв ден Велигден
+      sq: Pashkët Ortodokse
+      sr: Васкрс
+  orthodox 1:
+    name:
+      en: Orthodox Easter Monday
+      mk: Втор ден Велигден
+      sr: Васкрсни понедељак
 
   # muslim holidays
   1 Muharram: # Islamic New Year
@@ -588,10 +592,12 @@ names:
       bs: Ramazanski bajram
       de: Zuckerfest
       fr: Fête de fin du Ramadan
+      hr: Ramazanski bajram
       nl: Suikerfeest (Eid al-Fitr)
       mk: Рамазан Бајрам
       sq: Fitër Bajrami
       tr: Bayramı
+      sr: Рамазански Бајрам
       sw: Idd-ul-Fitr
   10 Dhu al-Hijjah: # Feast of the Sacrifice
     name:
@@ -602,10 +608,12 @@ names:
       bs: Kurbanski bajram
       de: Opferfest
       fr: Fête du mouton
+      hr: Kurban-bajram
       nl: Offerfeest (Eid Al-Adha)
       mk: Курбан Бајрам
       sq: Kurban Bajrami
       tr: Kurban Bayramı
+      sr: Курбански Бајрам
       sw: Idd-ul-Azha
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
@@ -668,6 +676,7 @@ names:
       mk: Јом Кипур
       sq: Yom Kippur
       sr: Јом Кипур
+
   # Day references
   Abolition of Slavery:
     name:

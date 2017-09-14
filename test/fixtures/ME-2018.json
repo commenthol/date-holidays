@@ -43,7 +43,7 @@
     "date": "2018-01-14 00:00:00",
     "start": "2018-01-13T23:00:00.000Z",
     "end": "2018-01-14T23:00:00.000Z",
-    "name": "Pravoslavna Nova godina",
+    "name": "Pravoslavna Nova Godina",
     "type": "observance",
     "_weekday": "Sun"
   },
@@ -195,7 +195,7 @@
     "date": "2018-08-21 00:00:00 -0600",
     "start": "2018-08-20T16:00:00.000Z",
     "end": "2018-08-23T16:00:00.000Z",
-    "name": "Kurbanski bajram",
+    "name": "Kurban-bajram",
     "type": "public",
     "_weekday": "Tue"
   },

@@ -8316,16 +8316,16 @@
         "07-13 and if sunday then next tuesday": {
           "substitute": true,
           "name": {
-            "sr": "Дан државности",
             "hr": "Dan državnosti",
+            "sr": "Дан државности",
             "en": "Statehood Day"
           }
         },
         "07-14 and if sunday then next monday": {
           "substitute": true,
           "name": {
-            "sr": "Дан државности",
             "hr": "Dan državnosti",
+            "sr": "Дан државности",
             "en": "Statehood Day"
           }
         },
@@ -8355,11 +8355,7 @@
           "_name": "12-26"
         },
         "julian 01-01": {
-          "name": {
-            "en": "Orthodox New Year",
-            "hr": "Pravoslavna Nova godina",
-            "sr": "Православна Нова година"
-          },
+          "_name": "julian 01-01",
           "type": "observance"
         },
         "orthodox -2": {
@@ -10028,7 +10024,7 @@
     },
     "RS": {
       "names": {
-        "sr": null,
+        "sr": "Република Србија",
         "en": "Serbia"
       },
       "langs": [
@@ -10038,7 +10034,120 @@
         "Europe/Belgrade"
       ],
       "dayoff": "sunday",
-      "days": {}
+      "days": {
+        "01-01 if sunday then next tuesday": {
+          "_name": "01-01"
+        },
+        "01-02 if sunday then next monday": {
+          "_name": "01-01"
+        },
+        "julian 12-25": {
+          "_name": "julian 12-25"
+        },
+        "02-15 if sunday then next tuesday": {
+          "name": {
+            "sr": "Дан државности Србије",
+            "en": "Statehood Day"
+          }
+        },
+        "02-16 if sunday then next monday": {
+          "name": {
+            "sr": "Дан државности Србије",
+            "en": "Statehood Day"
+          }
+        },
+        "orthodox -2": {
+          "_name": "orthodox -2"
+        },
+        "orthodox": {
+          "_name": "orthodox"
+        },
+        "orthodox 1": {
+          "_name": "orthodox 1"
+        },
+        "05-01 if sunday then next tuesday": {
+          "_name": "05-01"
+        },
+        "05-02 if sunday then next monday": {
+          "_name": "05-01"
+        },
+        "11-11 if sunday then next monday": {
+          "name": {
+            "sr": "Дан примирја",
+            "en": "Armistice Day"
+          }
+        },
+        "easter -2": {
+          "_name": "easter -2",
+          "type": "optional",
+          "note": "Catholic believers"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "optional",
+          "note": "Catholic believers"
+        },
+        "easter 1": {
+          "_name": "easter 1",
+          "type": "optional",
+          "note": "Catholic believers"
+        },
+        "12-25": {
+          "_name": "12-25",
+          "type": "optional",
+          "note": "Catholic believers"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah",
+          "type": "optional",
+          "note": "Muslim believers"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal",
+          "type": "optional",
+          "note": "Muslim believers"
+        },
+        "10 Tishrei": {
+          "_name": "10 Tishrei",
+          "type": "optional",
+          "note": "Jewish believers"
+        },
+        "julian 01-14": {
+          "name": {
+            "sr": "Свети Сава",
+            "en": "Saint Sava Day"
+          },
+          "type": "observance"
+        },
+        "04-22": {
+          "name": {
+            "sr": "Дан сећања на жртве холокауста",
+            "en": "Holocaust Remembrance Day"
+          },
+          "type": "observance"
+        },
+        "05-09": {
+          "name": {
+            "sr": "Дан победе",
+            "en": "Victory Day"
+          },
+          "type": "observance"
+        },
+        "julian 06-15": {
+          "name": {
+            "sr": "Видовдан",
+            "en": "Saint Vitus Day"
+          },
+          "type": "observance"
+        },
+        "10-21": {
+          "name": {
+            "sr": "Дан сећања на српске жртве у Другом светском рату",
+            "en": "World War II Serbian Victims Remembrance Day"
+          },
+          "type": "observance"
+        }
+      }
     },
     "RU": {
       "names": {
@@ -13456,7 +13565,7 @@
         "ro": "Paștele",
         "sk": "Veľká noc",
         "sq": "Pashkët Katolike",
-        "sr": "Католички Ускрс",
+        "sr": "Католички Васкрс",
         "sv": "Påsk",
         "sw": "Pasaka"
       }
@@ -13465,6 +13574,7 @@
       "name": {
         "en": "Easter Monday",
         "bg": "Велики понеделник",
+        "bs": "Uskrsni ponedjeljak",
         "cz": "Velikonoční pondělí",
         "da": "Anden påskedag",
         "de": "Ostermontag",
@@ -13485,6 +13595,7 @@
         "pl": "Drugi dzień Wielkanocy",
         "ro": "Două zi de Pasti",
         "sk": "Veľkonočný pondelok",
+        "sr": "Католички Васкрсни понедељак",
         "sv": "Annandag påsk",
         "sw": "Jumatatu ya Pasaka"
       }
@@ -13558,28 +13669,6 @@
         "pt": "Corpo de Deus"
       }
     },
-    "orthodox -2": {
-      "name": {
-        "en": "Orthodox Good Friday",
-        "mk": "Велики Петок"
-      }
-    },
-    "orthodox": {
-      "name": {
-        "en": "Orthodox Easter",
-        "bs": "Pravoslavni Vaskrs",
-        "hr": "Pravoslavni Uskrs",
-        "mk": "Прв ден Велигден",
-        "sq": "Pashkët Ortodokse",
-        "sr": "Ускрс"
-      }
-    },
-    "orthodox 1": {
-      "name": {
-        "en": "Orthodox Easter Monday",
-        "mk": "Втор ден Велигден"
-      }
-    },
     "julian 01-01": {
       "name": {
         "en": "Orthodox New Year",
@@ -13606,6 +13695,30 @@
         "sr": "Божић"
       }
     },
+    "orthodox -2": {
+      "name": {
+        "en": "Orthodox Good Friday",
+        "mk": "Велики Петок",
+        "sr": "Велики петак"
+      }
+    },
+    "orthodox": {
+      "name": {
+        "en": "Orthodox Easter",
+        "bs": "Pravoslavni Vaskrs",
+        "hr": "Pravoslavni Uskrs",
+        "mk": "Прв ден Велигден",
+        "sq": "Pashkët Ortodokse",
+        "sr": "Васкрс"
+      }
+    },
+    "orthodox 1": {
+      "name": {
+        "en": "Orthodox Easter Monday",
+        "mk": "Втор ден Велигден",
+        "sr": "Васкрсни понедељак"
+      }
+    },
     "1 Muharram": {
       "name": {
         "en": "Islamic New Year",
@@ -13630,10 +13743,12 @@
         "bs": "Ramazanski bajram",
         "de": "Zuckerfest",
         "fr": "Fête de fin du Ramadan",
+        "hr": "Ramazanski bajram",
         "nl": "Suikerfeest (Eid al-Fitr)",
         "mk": "Рамазан Бајрам",
         "sq": "Fitër Bajrami",
         "tr": "Bayramı",
+        "sr": "Рамазански Бајрам",
         "sw": "Idd-ul-Fitr"
       }
     },
@@ -13646,10 +13761,12 @@
         "bs": "Kurbanski bajram",
         "de": "Opferfest",
         "fr": "Fête du mouton",
+        "hr": "Kurban-bajram",
         "nl": "Offerfeest (Eid Al-Adha)",
         "mk": "Курбан Бајрам",
         "sq": "Kurban Bajrami",
         "tr": "Kurban Bayramı",
+        "sr": "Курбански Бајрам",
         "sw": "Idd-ul-Azha"
       }
     },

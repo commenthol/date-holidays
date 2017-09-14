@@ -1,5 +1,5 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Montenegro
 holidays:
-  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Montenegro
   ME:
     names:
       hr: Crna Gora
@@ -26,14 +26,14 @@ holidays:
       07-13 and if sunday then next tuesday:
         substitute: true
         name:
-          sr: Дан државности
           hr: Dan državnosti
+          sr: Дан државности
           en: Statehood Day
       07-14 and if sunday then next monday:
         substitute: true
         name:
-          sr: Дан државности
           hr: Dan državnosti
+          sr: Дан државности
           en: Statehood Day
       01-01 and if sunday then next tuesday:
         substitute: true
@@ -56,10 +56,7 @@ holidays:
       julian 12-26:
         _name: 12-26
       julian 01-01:
-        name:
-          en: Orthodox New Year
-          hr: Pravoslavna Nova godina
-          sr: Православна Нова година
+        _name: julian 01-01
         type: observance
       orthodox -2:
         _name: easter -2

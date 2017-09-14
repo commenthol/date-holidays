@@ -1,14 +1,100 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Serbia
 holidays:
   RS:
     names:
-      sr: 
+      sr: Република Србија
       en: Serbia
     langs:
       - sr
     zones:
       - Europe/Belgrade
     dayoff: sunday
-    days: {}
+    days:
+      01-01 if sunday then next tuesday:
+        _name: 01-01
+      01-02 if sunday then next monday:
+        _name: 01-01
+      julian 12-25:
+        _name: julian 12-25
+      02-15 if sunday then next tuesday:
+        name:
+          sr: Дан државности Србије
+          en: Statehood Day
+      02-16 if sunday then next monday:
+        name:
+          sr: Дан државности Србије
+          en: Statehood Day
+      orthodox -2:
+        _name: orthodox -2
+      orthodox:
+        _name: orthodox
+      orthodox 1:
+        _name: orthodox 1
+      05-01 if sunday then next tuesday:
+        _name: 05-01
+      05-02 if sunday then next monday:
+        _name: 05-01
+      11-11 if sunday then next monday:
+        name:
+          sr: Дан примирја
+          en: Armistice Day
+
+      easter -2:
+        _name: easter -2
+        type: optional
+        note: Catholic believers
+      easter:
+        _name: easter
+        type: optional
+        note: Catholic believers
+      easter 1:
+        _name: easter 1
+        type: optional
+        note: Catholic believers
+      12-25:
+        _name: 12-25
+        type: optional
+        note: Catholic believers
+
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        type: optional
+        note: Muslim believers
+      1 Shawwal:
+        _name: 1 Shawwal
+        type: optional
+        note: Muslim believers
+
+      10 Tishrei:
+        _name: 10 Tishrei
+        type: optional
+        note: Jewish believers
+
+      julian 01-14:
+        name:
+          sr: Свети Сава
+          en: Saint Sava Day
+        type: observance
+      04-22:
+        name:
+          sr: Дан сећања на жртве холокауста
+          en: Holocaust Remembrance Day
+        type: observance
+      05-09:
+        name:
+          sr: Дан победе
+          en: Victory Day
+        type: observance
+      julian 06-15:
+        name:
+          sr: Видовдан
+          en: Saint Vitus Day
+        type: observance
+      10-21:
+        name:
+          sr: Дан сећања на српске жртве у Другом светском рату
+          en: World War II Serbian Victims Remembrance Day
+        type: observance
     # states:
       # '10':
       #   name: Podunavlje
