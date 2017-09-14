@@ -53,18 +53,15 @@ holidays:
         _name: 12-26
       # Orthodox
       # public holiday in municipalities in which Serbs are majority
-      julian 01-07:
-        _name: 12-25
-        note: orthodox
       julian 01-01:
-        _name: 01-01
-        note: orthodox
+        _name: julian 01-01
       orthodox:
-        _name: easter
-        note: orthodox
+        _name: orthodox
       julian 08-15:
         _name: 08-15
         note: orthodox
+      julian 12-25:
+        _name: julian 12-25
       # Muslim
       # note: public holiday in counties and municipalities in which Bosniaks are majority
       1 Muharram:

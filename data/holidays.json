@@ -1665,21 +1665,18 @@
         "12-26": {
           "_name": "12-26"
         },
-        "julian 01-07": {
-          "_name": "12-25",
-          "note": "orthodox"
-        },
         "julian 01-01": {
-          "_name": "01-01",
-          "note": "orthodox"
+          "_name": "julian 01-01"
         },
         "orthodox": {
-          "_name": "easter",
-          "note": "orthodox"
+          "_name": "orthodox"
         },
         "julian 08-15": {
           "_name": "08-15",
           "note": "orthodox"
+        },
+        "julian 12-25": {
+          "_name": "julian 12-25"
         },
         "1 Muharram": {
           "_name": "1 Muharram"
@@ -12722,7 +12719,7 @@
         "ro": "Crăciunul",
         "ru": "Рождество Христово",
         "sq": "Krishtlindja",
-        "sr": "Божић",
+        "sr": "Католички Божић",
         "sv": "Juldagen",
         "sw": "Krismasi"
       }
@@ -12892,8 +12889,8 @@
         "pl": "Niedziela Wielkanocna",
         "pt": "Páscoa",
         "ro": "Paștele",
-        "sq": "Pashkët",
-        "sr": "Васкрс",
+        "sq": "Pashkët Katolike",
+        "sr": "Католички Ускрс",
         "sv": "Påsk",
         "sw": "Pasaka"
       }
@@ -12990,6 +12987,33 @@
         "hr": "Tijelovo",
         "pl": "Dzień Bożego Ciała",
         "pt": "Corpo de Deus"
+      }
+    },
+    "orthodox": {
+      "name": {
+        "en": "Orthodox Easter",
+        "bs": "Pravoslavni Vaskrs",
+        "hr": "Pravoslavni Uskrs",
+        "sq": "Pashkët Ortodokse",
+        "sr": "Ускрс"
+      }
+    },
+    "julian 01-01": {
+      "name": {
+        "en": "Orthodox New Year",
+        "bs": "Pravoslavni novogodišnji dan",
+        "hr": "Pravoslavna Nova Godina",
+        "sq": "Viti i Ri Ortodoks",
+        "sr": "Православна Нова година"
+      }
+    },
+    "julian 12-25": {
+      "name": {
+        "en": "Orthodox Christmas",
+        "bs": "Pravoslavni Božić",
+        "hr": "Pravoslavni Božić",
+        "sq": "Krishtlindjet Ortodokse",
+        "sr": "Божић"
       }
     },
     "1 Muharram": {
@@ -13136,7 +13160,8 @@
         "jp": "憲法記念日",
         "ko": "제헌절",
         "no": "Grunnlovsdagen",
-        "pt": "Dia da Constituição"
+        "pt": "Dia da Constituição",
+        "sq": "Dita e Kushtetutës"
       }
     },
     "Fathers Day": {

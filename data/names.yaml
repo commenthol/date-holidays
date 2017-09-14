@@ -266,7 +266,7 @@ names:
       ro: Crăciunul
       ru: Рождество Христово
       sq: Krishtlindja
-      sr: Божић
+      sr: Католички Божић
       sv: Juldagen
       sw: Krismasi
   12-26:
@@ -422,8 +422,8 @@ names:
       pl: Niedziela Wielkanocna
       pt: Páscoa
       ro: Paștele
-      sq: Pashkët
-      sr: Васкрс
+      sq: Pashkët Katolike
+      sr: Католички Ускрс
       sv: Påsk
       sw: Pasaka
   easter 1:   # Easter Monday
@@ -510,6 +510,28 @@ names:
       hr: Tijelovo
       pl: Dzień Bożego Ciała
       pt: Corpo de Deus
+
+  orthodox:
+    name:
+      en: Orthodox Easter
+      bs: Pravoslavni Vaskrs
+      hr: Pravoslavni Uskrs
+      sq: Pashkët Ortodokse
+      sr: Ускрс
+  julian 01-01:
+    name:
+      en: Orthodox New Year
+      bs: Pravoslavni novogodišnji dan
+      hr: Pravoslavna Nova Godina
+      sq: Viti i Ri Ortodoks
+      sr: Православна Нова година
+  julian 12-25:
+    name:
+      en: Orthodox Christmas
+      bs: Pravoslavni Božić
+      hr: Pravoslavni Božić
+      sq: Krishtlindjet Ortodokse
+      sr: Божић
 
   # muslim holidays
   1 Muharram: # Islamic New Year
@@ -632,6 +654,7 @@ names:
       ko: 제헌절
       no: Grunnlovsdagen
       pt: Dia da Constituição
+      sq: Dita e Kushtetutës
   Fathers Day:
     name:
       en: Father's Day

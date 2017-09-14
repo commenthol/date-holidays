@@ -32,6 +32,14 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2015-01-07 00:00:00",
+    "start": "2015-01-06T23:00:00.000Z",
+    "end": "2015-01-07T23:00:00.000Z",
+    "name": "Pravoslavni Božić",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
     "date": "2015-01-09 00:00:00",
     "start": "2015-01-08T23:00:00.000Z",
     "end": "2015-01-09T23:00:00.000Z",
@@ -43,19 +51,9 @@
     "date": "2015-01-14 00:00:00",
     "start": "2015-01-13T23:00:00.000Z",
     "end": "2015-01-14T23:00:00.000Z",
-    "name": "Novogodisnji dan",
-    "note": "orthodox",
+    "name": "Pravoslavni novogodišnji dan",
     "type": "public",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2015-01-20 00:00:00",
-    "start": "2015-01-19T23:00:00.000Z",
-    "end": "2015-01-20T23:00:00.000Z",
-    "name": "Božić",
-    "note": "orthodox",
-    "type": "public",
-    "_weekday": "Tue"
   },
   {
     "date": "2015-04-05 00:00:00",
@@ -77,8 +75,7 @@
     "date": "2015-04-12 00:00:00",
     "start": "2015-04-11T22:00:00.000Z",
     "end": "2015-04-12T22:00:00.000Z",
-    "name": "Vaskrs",
-    "note": "orthodox",
+    "name": "Pravoslavni Vaskrs",
     "type": "public",
     "_weekday": "Sun"
   },
