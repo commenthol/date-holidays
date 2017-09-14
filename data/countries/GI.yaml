@@ -1,0 +1,53 @@
+# @source https://www.gibraltar.gov.gi/new/bank-public-holidays-2015
+# @source https://www.gibraltar.gov.gi/new/bank-public-holidays-2016
+# @source https://www.gibraltar.gov.gi/new/bank-holidays-2017
+holidays:
+  GI:
+    names:
+      en: Gibraltar
+    langs:
+      - en
+    zones:
+      - Europe/Gibraltar
+    dayoff: sunday
+    _days: GB
+    days:
+      2nd monday in March:
+        name:
+          en: Commonwealth Day
+      easter:
+        _name: easter
+        type: observance
+      04-28:
+        name:
+          en: Workers Memorial Day
+        disable:
+          - '2015-04-28'
+        enable:
+          - '2015-04-27'
+      05-01 if sunday, saturday then next monday:
+        substitute: true
+        name:
+          en: May Day
+      1st monday in May: false
+      monday before 06-20:
+        name:
+          en: Queen's Birthday
+      monday before September:
+        name:
+          en: Late Summer Bank Holiday
+      09-10:
+        name:
+          en: Gibraltar National Day
+        active:
+          - to: 2015
+      09-10 and if sunday, saturday then previous monday:
+        substitute: true
+        name:
+          en: Gibraltar National Day
+        active:
+          - from: 2015
+        # TODO: Not sure if this rule is correct - Reference needed
+        #   For 2016 -> Monday 5th
+        #   For 2015 -> Monday 4th (substitute)
+        #   Next applicable in 2022

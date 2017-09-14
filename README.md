@@ -54,7 +54,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 111
+Countries: 112
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -225,6 +225,7 @@ Countries: 111
 │   └── WLS: Wales
 ├── GD: Grenada
 ├── GG: Guernsey
+├── GI: Gibraltar
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
 ├── GT: Guatemala
