@@ -10437,6 +10437,190 @@
         }
       }
     },
+    "SI": {
+      "names": {
+        "sl": "Republika Slovenija",
+        "en": "Slovenia"
+      },
+      "langs": [
+        "sl"
+      ],
+      "zones": [
+        "Europe/Belgrade"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-02": {
+          "_name": "01-01",
+          "active": [
+            {
+              "to": 1955
+            },
+            {
+              "from": 2017
+            }
+          ]
+        },
+        "02-08": {
+          "name": {
+            "en": "Prešeren Day",
+            "sl": "Prešernov dan"
+          },
+          "active": [
+            {
+              "from": 1991
+            }
+          ]
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "04-27": {
+          "name": {
+            "sl": "dan upora proti okupatorju",
+            "en": "Day of Uprising Against Occupation"
+          }
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "en": "May Day Holiday"
+          },
+          "active": [
+            {
+              "from": 1949
+            }
+          ]
+        },
+        "05-02": {
+          "_name": "05-01",
+          "name": {
+            "en": "May Day Holiday"
+          },
+          "active": [
+            {
+              "from": 1949
+            }
+          ]
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "06-08": {
+          "name": {
+            "sl": "dan Primoža Trubarja",
+            "en": "Primož Trubar Day"
+          },
+          "active": [
+            {
+              "from": 2010
+            }
+          ]
+        },
+        "06-25": {
+          "name": {
+            "sl": "dan državnosti",
+            "en": "Statehood Day"
+          },
+          "active": [
+            {
+              "from": 1991
+            }
+          ]
+        },
+        "08-15": {
+          "_name": "08-15",
+          "active": [
+            {
+              "from": 1992
+            }
+          ]
+        },
+        "08-17": {
+          "name": {
+            "sl": "združitev prekmurskih Slovencev z matičnim narodom",
+            "en": "Day of the Prekmurje Slovenes'"
+          },
+          "type": "observance",
+          "active": [
+            {
+              "from": 2006
+            }
+          ]
+        },
+        "09-15": {
+          "name": {
+            "sl": "vrnitev Primorske k matični domovini",
+            "en": "Day of Restoration of the Littoral Region to the Motherland"
+          },
+          "type": "observance",
+          "active": [
+            {
+              "from": 2005
+            }
+          ]
+        },
+        "10-25": {
+          "name": {
+            "sl": "dan suverenosti",
+            "en": "Sovereignty Day"
+          },
+          "type": "observance",
+          "active": [
+            {
+              "from": 2015
+            }
+          ]
+        },
+        "10-31": {
+          "name": {
+            "sl": "dan reformacije",
+            "en": "Reformation Day"
+          }
+        },
+        "11-01": {
+          "name": {
+            "sl": "dan spomina na mrtve or dan mrtvih",
+            "en": "Day (of Remembrance) of the Dead"
+          }
+        },
+        "11-23": {
+          "name": {
+            "sl": "dan Rudolfa Maistra",
+            "en": "Rudolf Maister Day \tdan Rudolfa Maistra"
+          },
+          "type": "observance",
+          "active": [
+            {
+              "from": 2015
+            }
+          ]
+        },
+        "12-25": {
+          "_name": "12-25",
+          "active": [
+            {
+              "to": 1953
+            },
+            {
+              "from": 1991
+            }
+          ]
+        },
+        "12-26": {
+          "name": {
+            "sl": "dan samostojnosti in enotnosti",
+            "en": "Independence and Unity Day"
+          }
+        }
+      }
+    },
     "SJ": {
       "names": {
         "en": "Svalbard & Jan Mayen"
@@ -13131,6 +13315,7 @@
         "pt": "Ano Novo",
         "ro": "Anul nou",
         "ru": "Новый год",
+        "sl": "novo leto",
         "sq": "Viti i Ri",
         "sr": "Нова година",
         "sv": "Nyårsdagen",
@@ -13234,6 +13419,7 @@
         "pt": "Dia do trabalhador",
         "ro": "Ziua muncii",
         "sk": "Sviatok práce",
+        "sl": "praznik dela",
         "sq": "Dita Ndërkombëtare e Punonjësve",
         "sr": "Празник рада",
         "sv": "Första Maj",
@@ -13265,6 +13451,7 @@
         "pl": "Wniebowzięcie Najświętszej Maryi Panny",
         "pt": "Assunção",
         "ro": "Adormirea Maicii Domnului",
+        "sl": "Marijino vnebovzetje",
         "sq": "Shën Mëria e Gushtit"
       }
     },
@@ -13389,6 +13576,7 @@
         "ro": "Crăciunul",
         "ru": "Рождество Христово",
         "sk": "Prvý sviatok vianočný",
+        "sl": "božič",
         "sq": "Krishtlindja",
         "sr": "Католички Божић",
         "sv": "Juldagen",
@@ -13564,6 +13752,7 @@
         "pt": "Páscoa",
         "ro": "Paștele",
         "sk": "Veľká noc",
+        "sl": "velika noč",
         "sq": "Pashkët Katolike",
         "sr": "Католички Васкрс",
         "sv": "Påsk",
@@ -13595,6 +13784,7 @@
         "pl": "Drugi dzień Wielkanocy",
         "ro": "Două zi de Pasti",
         "sk": "Veľkonočný pondelok",
+        "sl": "Velikonočni ponedeljek",
         "sr": "Католички Васкрсни понедељак",
         "sv": "Annandag påsk",
         "sw": "Jumatatu ya Pasaka"
@@ -13637,6 +13827,7 @@
         "mk": "Духовден",
         "pl": "Zielone Świątki",
         "ro": "Rusaliile",
+        "sl": "binkošti",
         "sv": "Pingst"
       }
     },

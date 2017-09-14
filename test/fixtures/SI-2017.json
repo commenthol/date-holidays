@@ -1,0 +1,162 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T23:00:00.000Z",
+    "end": "2017-01-01T23:00:00.000Z",
+    "name": "novo leto",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-01-02 00:00:00",
+    "start": "2017-01-01T23:00:00.000Z",
+    "end": "2017-01-02T23:00:00.000Z",
+    "name": "novo leto",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-02-08 00:00:00",
+    "start": "2017-02-07T23:00:00.000Z",
+    "end": "2017-02-08T23:00:00.000Z",
+    "name": "Prešernov dan",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-04-16 00:00:00",
+    "start": "2017-04-15T22:00:00.000Z",
+    "end": "2017-04-16T22:00:00.000Z",
+    "name": "velika noč",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-04-17 00:00:00",
+    "start": "2017-04-16T22:00:00.000Z",
+    "end": "2017-04-17T22:00:00.000Z",
+    "name": "Velikonočni ponedeljek",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-04-27 00:00:00",
+    "start": "2017-04-26T22:00:00.000Z",
+    "end": "2017-04-27T22:00:00.000Z",
+    "name": "dan upora proti okupatorju",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T22:00:00.000Z",
+    "end": "2017-05-01T22:00:00.000Z",
+    "name": "praznik dela",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-02 00:00:00",
+    "start": "2017-05-01T22:00:00.000Z",
+    "end": "2017-05-02T22:00:00.000Z",
+    "name": "praznik dela",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-06-04 00:00:00",
+    "start": "2017-06-03T22:00:00.000Z",
+    "end": "2017-06-04T22:00:00.000Z",
+    "name": "binkošti",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-06-08 00:00:00",
+    "start": "2017-06-07T22:00:00.000Z",
+    "end": "2017-06-08T22:00:00.000Z",
+    "name": "dan Primoža Trubarja",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-06-25 00:00:00",
+    "start": "2017-06-24T22:00:00.000Z",
+    "end": "2017-06-25T22:00:00.000Z",
+    "name": "dan državnosti",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-08-15 00:00:00",
+    "start": "2017-08-14T22:00:00.000Z",
+    "end": "2017-08-15T22:00:00.000Z",
+    "name": "Marijino vnebovzetje",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-08-17 00:00:00",
+    "start": "2017-08-16T22:00:00.000Z",
+    "end": "2017-08-17T22:00:00.000Z",
+    "name": "združitev prekmurskih Slovencev z matičnim narodom",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-09-15 00:00:00",
+    "start": "2017-09-14T22:00:00.000Z",
+    "end": "2017-09-15T22:00:00.000Z",
+    "name": "vrnitev Primorske k matični domovini",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-10-25 00:00:00",
+    "start": "2017-10-24T22:00:00.000Z",
+    "end": "2017-10-25T22:00:00.000Z",
+    "name": "dan suverenosti",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-10-31 00:00:00",
+    "start": "2017-10-30T23:00:00.000Z",
+    "end": "2017-10-31T23:00:00.000Z",
+    "name": "dan reformacije",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-11-01 00:00:00",
+    "start": "2017-10-31T23:00:00.000Z",
+    "end": "2017-11-01T23:00:00.000Z",
+    "name": "dan spomina na mrtve or dan mrtvih",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-11-23 00:00:00",
+    "start": "2017-11-22T23:00:00.000Z",
+    "end": "2017-11-23T23:00:00.000Z",
+    "name": "dan Rudolfa Maistra",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T23:00:00.000Z",
+    "end": "2017-12-25T23:00:00.000Z",
+    "name": "božič",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-12-26 00:00:00",
+    "start": "2017-12-25T23:00:00.000Z",
+    "end": "2017-12-26T23:00:00.000Z",
+    "name": "dan samostojnosti in enotnosti",
+    "type": "public",
+    "_weekday": "Tue"
+  }
+]
