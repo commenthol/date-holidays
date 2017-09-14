@@ -3,19 +3,22 @@
 'use strict'
 
 var fs = require('fs')
-var resolve = require('path').resolve
+var path = require('path')
+var resolve = path.resolve
 var jsyaml = require('js-yaml')
 var PrePin = require('prepin')
 var _ = require('lodash')
 
 var REGEX = /^([A-Z]+)\.yaml$/
 
+var dirParser = path.dirname(require.resolve('date-holidays-parser'))
+
 var config = {
   dirname: resolve(__dirname, '..', 'data'),
   countries: resolve(__dirname, '..', 'data', 'countries'),
   factories: [
-    resolve(__dirname, '..', 'src', 'CalEventFactory.js'),
-    resolve(__dirname, '..', 'lib', 'CalEventFactory.js')
+    resolve(dirParser, '..', 'src', 'CalEventFactory.js'),
+    resolve(dirParser, '..', 'lib', 'CalEventFactory.js')
   ]
 }
 
@@ -70,7 +73,8 @@ Holidays2json.prototype = {
 
     obj.version = new Date().toISOString().replace(/^(.*)T.*$/, '$1')
     this.holidays = obj
-    // this.prepin()
+
+    if (this.opts.min) this.prepin()
 
     return this
   },
@@ -81,6 +85,9 @@ Holidays2json.prototype = {
     var json = JSON.stringify(this.holidays, null, 2) + '\n'
     fs.writeFileSync(resolve(config.dirname, 'holidays.json'), json, 'utf8')
   },
+  /**
+   * modify the factories to require only the minimum required packages
+   */
   prepin: function () {
     // reduce final build size
     var macros = dive(this.holidays)
@@ -99,12 +106,13 @@ if (module === require.main) {
   var getOption = function (option) {
     var i = args.indexOf(option)
     if (i !== -1) {
-      var list = args[i + 1].toUpperCase().split(',').sort()
+      var list = (args[i + 1] || '').toUpperCase().split(',').sort()
       if (list && list.length) return list
+      return true
     }
   }
 
-  if (args.indexOf('-h') !== -1 || args.indexOf('--help') !== -1) {
+  if (getOption('-h') || getOption('--help')) {
     console.log([
       '',
       'holidays2json [options]',
@@ -115,6 +123,8 @@ if (module === require.main) {
       '            from holidays.json file',
       '-o|--omit   comma separated list of countries to omit',
       '            from holidays.json file',
+      '-m|--min    minimize the package dependencies - e.g. if using webpack or',
+      '            browserify',
       '',
       'NOTE: There are some countries which depend on data of others which',
       '      might render the file useless. e.g. "GU" requires "US", so try',
@@ -122,7 +132,7 @@ if (module === require.main) {
       '',
       'Use in your build process in package.json "scripts" section.',
       '      "build" : "holidays2json -p US,CA,GU"',
-      '      and run then with `npm run build`',
+      'and run then with `npm run build`',
       ''
     ].join('\n    '))
     process.exit(0)
@@ -130,7 +140,8 @@ if (module === require.main) {
 
   var opts = {
     pick: getOption('--pick') || getOption('-p'),
-    omit: getOption('--omit') || getOption('-o')
+    omit: getOption('--omit') || getOption('-o'),
+    min: getOption('--min') || getOption('-m')
   }
 
   new Holidays2json(opts).getList().build().save()

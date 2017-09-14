@@ -28,6 +28,7 @@
   "scripts": {
     "all": "npm run clean && npm i && npm run lint && npm run transpile && npm test && npm pack",
     "clean": "rimraf .nyc_output coverage lib",
+    "doc": "jsdox -o docs src/Holidays.js",
     "cover": "nyc -r lcov -r text npm test",
     "lint": "eslint --quiet '**/*.js'",
     "test": "mocha",

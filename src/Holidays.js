@@ -201,7 +201,8 @@ Holidays.prototype = {
 =======
 >>>>>>> move to parser
 
-Object.setPrototypeOf(Holidays.prototype, Parser.prototype)
+Holidays.prototype = Object.create(Parser.prototype)
+Holidays.prototype.constructor = Holidays
 
 <<<<<<< 0d4e0c9ac803285168b1ef85ec6d56821c3d1d06
   /**
