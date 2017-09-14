@@ -24,6 +24,22 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2018-02-11 00:00:00",
+    "start": "2018-02-10T23:00:00.000Z",
+    "end": "2018-02-11T23:00:00.000Z",
+    "name": "pust",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-03-08 00:00:00",
+    "start": "2018-03-07T23:00:00.000Z",
+    "end": "2018-03-08T23:00:00.000Z",
+    "name": "Mednarodni dan žena",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2018-04-01 00:00:00",
     "start": "2018-03-31T22:00:00.000Z",
     "end": "2018-04-01T22:00:00.000Z",
@@ -37,6 +53,14 @@
     "end": "2018-04-02T22:00:00.000Z",
     "name": "Velikonočni ponedeljek",
     "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-04-23 00:00:00",
+    "start": "2018-04-22T22:00:00.000Z",
+    "end": "2018-04-23T22:00:00.000Z",
+    "name": "jurjevanje",
+    "type": "observance",
     "_weekday": "Mon"
   },
   {
@@ -88,6 +112,14 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2018-07-22 00:00:00",
+    "start": "2018-07-21T22:00:00.000Z",
+    "end": "2018-07-22T22:00:00.000Z",
+    "name": "dan vstaje",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-08-15 00:00:00",
     "start": "2018-08-14T22:00:00.000Z",
     "end": "2018-08-15T22:00:00.000Z",
@@ -136,12 +168,28 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2018-11-11 00:00:00",
+    "start": "2018-11-10T23:00:00.000Z",
+    "end": "2018-11-11T23:00:00.000Z",
+    "name": "martinovanje",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-11-23 00:00:00",
     "start": "2018-11-22T23:00:00.000Z",
     "end": "2018-11-23T23:00:00.000Z",
     "name": "dan Rudolfa Maistra",
     "type": "observance",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2018-12-06 00:00:00",
+    "start": "2018-12-05T23:00:00.000Z",
+    "end": "2018-12-06T23:00:00.000Z",
+    "name": "miklavž",
+    "type": "observance",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-12-25 00:00:00",

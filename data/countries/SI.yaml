@@ -23,6 +23,19 @@ holidays:
           sl: Prešernov dan
         active:
           - from: 1991
+      03-08:
+        _name: 03-08
+        type: observance
+      04-23:
+        name:
+          sl: jurjevanje
+          en: St. George's Day
+        type: observance
+      easter -49:
+        name:
+          sl: pust
+          en: Carnival
+        type: observance
       easter:
         _name: easter
       easter 1:
@@ -57,6 +70,11 @@ holidays:
           en: Statehood Day
         active:
           - from: 1991
+      07-22:
+        name:
+          sl: dan vstaje
+          en: Insurrection Day
+        type: observance
       08-15:
         _name: 08-15
         active:
@@ -90,6 +108,11 @@ holidays:
         name:
           sl: dan spomina na mrtve or dan mrtvih
           en: Day (of Remembrance) of the Dead
+      11-11:
+        name:
+          sl: martinovanje
+          en: St. Martin's Day
+        type: observance
       11-23:
         name:
           sl: dan Rudolfa Maistra
@@ -97,6 +120,11 @@ holidays:
         type: observance
         active:
           - from: 2015
+      12-06:
+        name:
+          sl: miklavž
+          en: Saint Nicholas Day
+        type: observance
       12-25:
         _name: 12-25
         active:

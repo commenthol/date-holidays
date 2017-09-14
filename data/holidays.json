@@ -10475,6 +10475,24 @@
             }
           ]
         },
+        "03-08": {
+          "_name": "03-08",
+          "type": "observance"
+        },
+        "04-23": {
+          "name": {
+            "sl": "jurjevanje",
+            "en": "St. George's Day"
+          },
+          "type": "observance"
+        },
+        "easter -49": {
+          "name": {
+            "sl": "pust",
+            "en": "Carnival"
+          },
+          "type": "observance"
+        },
         "easter": {
           "_name": "easter"
         },
@@ -10534,6 +10552,13 @@
             }
           ]
         },
+        "07-22": {
+          "name": {
+            "sl": "dan vstaje",
+            "en": "Insurrection Day"
+          },
+          "type": "observance"
+        },
         "08-15": {
           "_name": "08-15",
           "active": [
@@ -10590,6 +10615,13 @@
             "en": "Day (of Remembrance) of the Dead"
           }
         },
+        "11-11": {
+          "name": {
+            "sl": "martinovanje",
+            "en": "St. Martin's Day"
+          },
+          "type": "observance"
+        },
         "11-23": {
           "name": {
             "sl": "dan Rudolfa Maistra",
@@ -10601,6 +10633,13 @@
               "from": 2015
             }
           ]
+        },
+        "12-06": {
+          "name": {
+            "sl": "miklavž",
+            "en": "Saint Nicholas Day"
+          },
+          "type": "observance"
         },
         "12-25": {
           "_name": "12-25",
@@ -13369,6 +13408,7 @@
         "hy": "Կանանց տոն",
         "ro": "Ziua Internationala a Femeii",
         "ru": "Международный женский день",
+        "sl": "Mednarodni dan žena",
         "vi": "Quốc tế Phụ nữ",
         "zh": "国际妇女节"
       }
