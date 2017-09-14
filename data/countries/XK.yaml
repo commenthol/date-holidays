@@ -1,0 +1,38 @@
+# @source https://www.rks-gov.net/sq-AL/vegeza/Pages/FestatZyrtare.aspx
+holidays:
+  XK:
+    names:
+      sq: Republika e Kosovës
+      sr: Република Косово
+      en: Kosovo
+    langs:
+      - sq
+      - sr
+    zones:
+      - Europe/Belgrade
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      julian 12-25:
+        _name: julian 12-25
+      02-17:
+        _name: Independence Day
+      04-09:
+        _name: Constitution Day
+      easter:
+        _name: easter
+      orthodox:
+        _name: orthodox
+      05-01:
+        _name: 05-01
+      05-09:
+        name:
+          sq: Dita e Evropës
+          en: Europe Day
+      12-25:
+        _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
