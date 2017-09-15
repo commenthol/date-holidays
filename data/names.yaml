@@ -106,6 +106,7 @@ names:
       de-at: Josefitag
       de: Josefstag
       es: San José
+      it: San Giuseppe
       mt: San Ġużepp
   04-01:
     name:
@@ -151,8 +152,9 @@ names:
       zh: 劳动节
   06-29:
     name:
-      en: Saint Peter and Saint Paul
+      en: Saints Peter and Paul
       es: San Pedro y San Pablo
+      it: Santi Pietro e Paolo
       mt: L-Imnarja
   08-15:
     name:
