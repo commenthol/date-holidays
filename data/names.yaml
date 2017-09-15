@@ -52,6 +52,7 @@ names:
       sv: Nyårsdagen
       sw: Mwaka mpya
       tr: Yılbaşı
+      uk: Новий Рік
       vi: Tết dương lịch
       zh: 元旦
   01-06:
@@ -96,6 +97,7 @@ names:
       ro: Ziua Internationala a Femeii
       ru: Международный женский день
       sl: Mednarodni dan žena
+      uk: Міжнародний жіночий день
       vi: Quốc tế Phụ nữ
       zh: 国际妇女节
   03-19:
@@ -144,6 +146,7 @@ names:
       sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
       sv: Första Maj
+      uk: День міжнародної солідарності трудящих
       vi: Ngày Quốc tế Lao động
       zh: 劳动节
   06-29:
@@ -514,6 +517,7 @@ names:
       ro: Rusaliile
       sl: binkošti
       sv: Pingst
+      uk: Трійця
   easter 50:  # Whit Monday
     name:
       en: Whit Monday
@@ -560,6 +564,7 @@ names:
       ro: Craciun pe Rit Vechi
       sq: Krishtlindjet Ortodokse
       sr: Божић
+      uk: Різдво
   orthodox -2:
     name:
       en: Orthodox Good Friday
@@ -573,6 +578,7 @@ names:
       mk: Прв ден Велигден
       sq: Pashkët Ortodokse
       sr: Васкрс
+      uk: Великдень
   orthodox 1:
     name:
       en: Orthodox Easter Monday
@@ -710,6 +716,7 @@ names:
       pt: Dia da Constituição
       sk: Deň Ústavy
       sq: Dita e Kushtetutës
+      uk: День Конституції
   Fathers Day:
     name:
       en: Father's Day
@@ -741,6 +748,7 @@ names:
       sr: Дан независности
       sv: Självständighetsdagen
       sw: Siku ya uhuru
+      uk: День Незалежності
   Liberation Day:
     name:
       en: Liberation Day
@@ -810,3 +818,4 @@ names:
       nl: substituut
       sq: ditë zëvendësuese
       sr: замена дан
+      uk: замінити день

@@ -11316,6 +11316,85 @@
         }
       }
     },
+    "UA": {
+      "names": {
+        "uk": "Україна",
+        "en": "Ukraine"
+      },
+      "langs": [
+        "uk"
+      ],
+      "zones": [
+        "Europe/Kiev",
+        "Europe/Uzhgorod",
+        "Europe/Zaporozhye"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01 and if saturday, sunday then next tuesday": {
+          "_name": "01-01",
+          "name": {
+            "en": "New Year"
+          },
+          "substitute": true
+        },
+        "01-02 and if saturday, sunday then next monday": {
+          "_name": "01-01",
+          "name": {
+            "en": "New Year"
+          },
+          "substitute": true
+        },
+        "julian 12-25 and if saturday, sunday then next monday": {
+          "_name": "julian 12-25",
+          "substitute": true
+        },
+        "03-08 and if saturday, sunday then next monday": {
+          "_name": "03-08"
+        },
+        "orthodox and if sunday then next monday": {
+          "_name": "orthodox"
+        },
+        "orthodox 49 and if sunday then next monday": {
+          "_name": "easter 49"
+        },
+        "05-01 and if saturday, sunday then next tuesday": {
+          "_name": "05-01",
+          "substitute": true
+        },
+        "05-02 and if saturday, sunday then next monday": {
+          "_name": "05-01",
+          "substitute": true
+        },
+        "05-09 and if saturday, sunday then next monday": {
+          "name": {
+            "uk": "День перемоги над нацизмом у Другій світовій війні",
+            "en": "Victory Day"
+          },
+          "substitute": true
+        },
+        "06-28 and if saturday, sunday then next monday": {
+          "_name": "Constitution Day",
+          "substitute": true
+        },
+        "08-24 and if saturday, sunday then next monday": {
+          "_name": "Independence Day",
+          "substitute": true
+        },
+        "10-14 and if saturday, sunday then next monday": {
+          "name": {
+            "uk": "День захисника України",
+            "en": "Defender of Ukraine Day"
+          },
+          "substitute": true,
+          "active": [
+            {
+              "from": "2015-03-05"
+            }
+          ]
+        }
+      }
+    },
     "UG": {
       "names": {
         "en": "Uganda"
@@ -13360,6 +13439,7 @@
         "sv": "Nyårsdagen",
         "sw": "Mwaka mpya",
         "tr": "Yılbaşı",
+        "uk": "Новий Рік",
         "vi": "Tết dương lịch",
         "zh": "元旦"
       }
@@ -13409,6 +13489,7 @@
         "ro": "Ziua Internationala a Femeii",
         "ru": "Международный женский день",
         "sl": "Mednarodni dan žena",
+        "uk": "Міжнародний жіночий день",
         "vi": "Quốc tế Phụ nữ",
         "zh": "国际妇女节"
       }
@@ -13463,6 +13544,7 @@
         "sq": "Dita Ndërkombëtare e Punonjësve",
         "sr": "Празник рада",
         "sv": "Första Maj",
+        "uk": "День міжнародної солідарності трудящих",
         "vi": "Ngày Quốc tế Lao động",
         "zh": "劳动节"
       }
@@ -13868,7 +13950,8 @@
         "pl": "Zielone Świątki",
         "ro": "Rusaliile",
         "sl": "binkošti",
-        "sv": "Pingst"
+        "sv": "Pingst",
+        "uk": "Трійця"
       }
     },
     "easter 50": {
@@ -13923,7 +14006,8 @@
         "mk": "Прв ден Божик",
         "ro": "Craciun pe Rit Vechi",
         "sq": "Krishtlindjet Ortodokse",
-        "sr": "Божић"
+        "sr": "Божић",
+        "uk": "Різдво"
       }
     },
     "orthodox -2": {
@@ -13940,7 +14024,8 @@
         "hr": "Pravoslavni Uskrs",
         "mk": "Прв ден Велигден",
         "sq": "Pashkët Ortodokse",
-        "sr": "Васкрс"
+        "sr": "Васкрс",
+        "uk": "Великдень"
       }
     },
     "orthodox 1": {
@@ -14103,7 +14188,8 @@
         "no": "Grunnlovsdagen",
         "pt": "Dia da Constituição",
         "sk": "Deň Ústavy",
-        "sq": "Dita e Kushtetutës"
+        "sq": "Dita e Kushtetutës",
+        "uk": "День Конституції"
       }
     },
     "Fathers Day": {
@@ -14138,7 +14224,8 @@
         "sq": "Dita e Pavarësisë",
         "sr": "Дан независности",
         "sv": "Självständighetsdagen",
-        "sw": "Siku ya uhuru"
+        "sw": "Siku ya uhuru",
+        "uk": "День Незалежності"
       }
     },
     "Liberation Day": {
@@ -14219,7 +14306,8 @@
         "mk": "заменет ден",
         "nl": "substituut",
         "sq": "ditë zëvendësuese",
-        "sr": "замена дан"
+        "sr": "замена дан",
+        "uk": "замінити день"
       }
     }
   }
