@@ -6426,6 +6426,76 @@
         }
       }
     },
+    "GL": {
+      "names": {
+        "kl": "Kalaallit Nunaat",
+        "da": "Grønland",
+        "en": "Greenland"
+      },
+      "langs": [
+        "kl",
+        "da"
+      ],
+      "zones": [
+        "America/Godthab",
+        "America/Danmarkshavn",
+        "America/Scoresbysund",
+        "America/Thule"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-06": {
+          "_name": "01-06"
+        },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 26": {
+          "name": {
+            "kl": "tussiarfissuaq",
+            "da": "Store Bededag",
+            "en": "Day of Atonement"
+          }
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "06-21": {
+          "name": {
+            "kl": "ullortuneq",
+            "da": "Nationaldag",
+            "en": "National Day"
+          }
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "12-24": {
+          "_name": "12-24"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
+        }
+      }
+    },
     "GP": {
       "names": {
         "fr": "Guadeloupe",
@@ -13758,6 +13828,7 @@
         "it": "Capodanno",
         "is": "Nýársdagur",
         "jp": "元日",
+        "kl": "ukiortaaq",
         "ko": "신정",
         "lt": "Naujieji metai",
         "lv": "Jaunais Gads",
@@ -13786,6 +13857,7 @@
       "name": {
         "en": "Epiphany",
         "am": "ብርሐነ ጥምቀት",
+        "da": "Åbenbaring",
         "de": "Heilige Drei Könige",
         "es": "Día de los Reyes Magos",
         "et": "kolmekuningapäev",
@@ -13985,6 +14057,7 @@
         "bg": "Бъдни вечер",
         "bs": "Badnji dan",
         "cz": "Štědrý den",
+        "da": "Juleaften",
         "de": "Heiliger Abend",
         "es": "Nochebuena",
         "et": "jõululaupäev",
@@ -13992,6 +14065,7 @@
         "fi": "Jouluaatto",
         "hr": "Badnji dan",
         "is": "Aðfangadagur",
+        "kl": "juulliaraq",
         "lt": "Šv. Kūčios",
         "lv": "Ziemassvētku vakars",
         "nl": "Kerstavond",
@@ -14026,6 +14100,7 @@
         "it": "Natale",
         "is": "Jóladagur",
         "jp": "ノエル",
+        "kl": "juullerujussuaq",
         "ko": "기독탄신일",
         "lt": "Šv. Kalėdos",
         "lv": "Ziemassvētki",
@@ -14065,6 +14140,7 @@
         "hu": "Karácsony másnapja",
         "it": "Santo Stefano",
         "is": "Annar í jólum",
+        "kl": "juullip aappaa",
         "lt": "2. Kalėdų diena",
         "lv": "Otrie Ziemassvētki",
         "nl": "Tweede kerstdag",
@@ -14148,6 +14224,7 @@
         "fr": "Jeudi saint",
         "it": "Giovedì santo",
         "is": "Skírdagur",
+        "kl": "sisamanngortoq illernartoq",
         "nl": "Witte donderdag",
         "no": "Skjærtorsdag"
       }
@@ -14170,6 +14247,7 @@
         "hr": "Veliki petak",
         "it": "Venerdì santo",
         "is": "Föstudagurinn langi",
+        "kl": "tallimanngornersuaq",
         "lv": "Lielā Piektdiena",
         "mt": "Il-Ġimgħa l-Kbira",
         "nl": "Goede Vrijdag",
@@ -14212,6 +14290,7 @@
         "hu": "Húsvétvasárnap",
         "it": "Domenica di Pasqua",
         "is": "Páskadagur",
+        "kl": "poorskip-ullua",
         "lt": "Velykos",
         "lv": "Lieldienas",
         "nl": "Pasen",
@@ -14245,6 +14324,7 @@
         "hu": "Húsvéthétfő",
         "it": "Lunedì dell’Angelo",
         "is": "Annar í páskum",
+        "kl": "poorskip-aappaa",
         "lv": "Otrās Lieldienas",
         "mg": "Alatsinain'ny Paska",
         "mk": "вториот ден на Велигден",
@@ -14271,6 +14351,7 @@
         "fr": "Ascension",
         "it": "Ascensione",
         "is": "Uppstigningardagur",
+        "kl": "qilaliarfik",
         "mg": "Andro niakarana",
         "nl": "O.L.H. Hemelvaart",
         "no": "Kristi himmelfartsdag",
@@ -14293,6 +14374,7 @@
         "hu": "Pünkösdvasárnap",
         "it": "Pentecoste",
         "is": "Hvítasunnudagur",
+        "kl": "piinsip ullua",
         "nl": "Pinksteren",
         "no": "Første pinsedag",
         "mk": "Духовден",
@@ -14314,6 +14396,7 @@
         "hu": "Pünkösdhétfő",
         "it": "Lunedì di Pentecoste",
         "is": "Annar í hvítasunnu",
+        "kl": "piinsip aappaa",
         "mg": "Alatsinain'ny Pentekosta",
         "nl": "Pinkstermaandag",
         "no": "Andre pinsedag",

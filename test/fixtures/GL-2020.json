@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2020-01-01 00:00:00",
+    "start": "2020-01-01T03:00:00.000Z",
+    "end": "2020-01-02T03:00:00.000Z",
+    "name": "ukiortaaq",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2020-01-06 00:00:00",
+    "start": "2020-01-06T03:00:00.000Z",
+    "end": "2020-01-07T03:00:00.000Z",
+    "name": "Åbenbaring",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-04-09 00:00:00",
+    "start": "2020-04-09T02:00:00.000Z",
+    "end": "2020-04-10T02:00:00.000Z",
+    "name": "sisamanngortoq illernartoq",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-10T02:00:00.000Z",
+    "end": "2020-04-11T02:00:00.000Z",
+    "name": "tallimanngornersuaq",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-04-12 00:00:00",
+    "start": "2020-04-12T02:00:00.000Z",
+    "end": "2020-04-13T02:00:00.000Z",
+    "name": "poorskip-ullua",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-04-13 00:00:00",
+    "start": "2020-04-13T02:00:00.000Z",
+    "end": "2020-04-14T02:00:00.000Z",
+    "name": "poorskip-aappaa",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-05-08 00:00:00",
+    "start": "2020-05-08T02:00:00.000Z",
+    "end": "2020-05-09T02:00:00.000Z",
+    "name": "tussiarfissuaq",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-05-21 00:00:00",
+    "start": "2020-05-21T02:00:00.000Z",
+    "end": "2020-05-22T02:00:00.000Z",
+    "name": "qilaliarfik",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-05-31 00:00:00",
+    "start": "2020-05-31T02:00:00.000Z",
+    "end": "2020-06-01T02:00:00.000Z",
+    "name": "piinsip ullua",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-06-01 00:00:00",
+    "start": "2020-06-01T02:00:00.000Z",
+    "end": "2020-06-02T02:00:00.000Z",
+    "name": "piinsip aappaa",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-06-21 00:00:00",
+    "start": "2020-06-21T02:00:00.000Z",
+    "end": "2020-06-22T02:00:00.000Z",
+    "name": "ullortuneq",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-12-24 00:00:00",
+    "start": "2020-12-24T03:00:00.000Z",
+    "end": "2020-12-25T03:00:00.000Z",
+    "name": "juulliaraq",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-25T03:00:00.000Z",
+    "end": "2020-12-26T03:00:00.000Z",
+    "name": "juullerujussuaq",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-12-26 00:00:00",
+    "start": "2020-12-26T03:00:00.000Z",
+    "end": "2020-12-27T03:00:00.000Z",
+    "name": "juullip aappaa",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]

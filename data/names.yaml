@@ -34,6 +34,7 @@ names:
       it: Capodanno
       is: Nýársdagur
       jp: 元日
+      kl: ukiortaaq
       ko: 신정
       lt: Naujieji metai
       lv: Jaunais Gads
@@ -60,6 +61,7 @@ names:
     name:
       en: Epiphany
       am: ብርሐነ ጥምቀት
+      da: Åbenbaring
       de: Heilige Drei Könige
       # de: Erscheinung des Herrn
       es: Día de los Reyes Magos
@@ -236,6 +238,7 @@ names:
       bg: Бъдни вечер
       bs: Badnji dan
       cz: Štědrý den
+      da: Juleaften
       de: Heiliger Abend
       es: Nochebuena
       et: jõululaupäev
@@ -243,6 +246,7 @@ names:
       fi: Jouluaatto
       hr: Badnji dan
       is: Aðfangadagur
+      kl: juulliaraq
       lt: Šv. Kūčios
       lv: Ziemassvētku vakars
       nl: Kerstavond
@@ -275,6 +279,7 @@ names:
       it: Natale
       is: Jóladagur
       jp: ノエル
+      kl: juullerujussuaq
       ko: 기독탄신일
       lt: Šv. Kalėdos
       lv: Ziemassvētki
@@ -313,6 +318,7 @@ names:
       hu: Karácsony másnapja
       it: Santo Stefano
       is: Annar í jólum
+      kl: juullip aappaa
       lt: 2. Kalėdų diena
       lv: Otrie Ziemassvētki
       nl: Tweede kerstdag
@@ -389,6 +395,7 @@ names:
       fr: Jeudi saint
       it: Giovedì santo
       is: Skírdagur
+      kl: sisamanngortoq illernartoq
       nl: Witte donderdag
       no: Skjærtorsdag
   easter -2:  # Good Friday
@@ -409,6 +416,7 @@ names:
       hr: Veliki petak
       it: Venerdì santo
       is: Föstudagurinn langi
+      kl: tallimanngornersuaq
       lv: Lielā Piektdiena
       mt: Il-Ġimgħa l-Kbira
       nl: Goede Vrijdag
@@ -447,6 +455,7 @@ names:
       hu: Húsvétvasárnap
       it: Domenica di Pasqua
       is: Páskadagur
+      kl: poorskip-ullua
       lt: Velykos
       lv: Lieldienas
       nl: Pasen
@@ -478,6 +487,7 @@ names:
       hu: Húsvéthétfő
       it: Lunedì dell’Angelo
       is: Annar í páskum
+      kl: poorskip-aappaa
       lv: Otrās Lieldienas
       mg: Alatsinain'ny Paska
       mk: вториот ден на Велигден
@@ -502,6 +512,7 @@ names:
       fr: Ascension
       it: Ascensione
       is: Uppstigningardagur
+      kl: qilaliarfik
       mg: Andro niakarana
       nl: O.L.H. Hemelvaart
       no: Kristi himmelfartsdag
@@ -522,6 +533,7 @@ names:
       hu: Pünkösdvasárnap
       it: Pentecoste
       is: Hvítasunnudagur
+      kl: piinsip ullua
       nl: Pinksteren
       no: Første pinsedag
       mk: Духовден
@@ -541,6 +553,7 @@ names:
       hu: Pünkösdhétfő
       it: Lunedì di Pentecoste
       is: Annar í hvítasunnu
+      kl: piinsip aappaa
       mg: Alatsinain'ny Pentekosta
       nl: Pinkstermaandag
       no: Andre pinsedag
