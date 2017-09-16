@@ -1,3 +1,4 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Greenland
 # translations from https://oqaasileriffik.gl/
 holidays:
   GL:
@@ -31,7 +32,7 @@ holidays:
         name:
           kl: tussiarfissuaq
           da: Store Bededag
-          en: Day of Atonement
+          en: Prayer Day
       easter 39:
         _name: easter 39
       06-21:

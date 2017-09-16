@@ -22,5 +22,5 @@
 - [x] active feature introduced with Kobe Bryant Day (US-CA-LA)
   - document
   - write test case
-- [ ] split project in source and data
+- [x] split project in source and data
 - [ ] New Feature: Calculus for Diwali (KE, SU, IN)

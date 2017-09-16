@@ -3,14 +3,7 @@ language: node_js
 node_js:
   - "4.8"
   - "6.11"
+  - "8.9"
   - node
-# Does not work with node v8 
-#cache:
-#  directories:
-#    - node_modules
-before_install:
-  # Update Node.js modules
-  #- "test ! -d node_modules || npm prune"
-  #- "test ! -d node_modules || npm rebuild"
 script:
-  - npm test
+  - npm run test:ci

@@ -54,7 +54,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 112
+Countries: 130
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -169,6 +169,7 @@ Countries: 112
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba
+├── CW: Curaçao
 ├── CY: Κύπρος
 ├── CZ: Česká republika
 ├── DE: Deutschland
@@ -195,6 +196,7 @@ Countries: 112
 │       ├── UH: Unstrut-Hainich-Kreis
 │       └── WAK: Wartburgkreis
 ├── DK: Danmark
+├── DM: Dominica
 ├── DO: República Dominicana
 ├── EC: Ecuador
 │   └── P: Pichincha
@@ -224,8 +226,11 @@ Countries: 112
 │   ├── SCT: Scottland
 │   └── WLS: Wales
 ├── GD: Grenada
+├── GF: Guyane
 ├── GG: Guernsey
 ├── GI: Gibraltar
+├── GL: Kalaallit Nunaat
+├── GP: Guadeloupe
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
 ├── GT: Guatemala
@@ -252,8 +257,13 @@ Countries: 112
 ├── LU: Luxembourg
 ├── LV: Latvija
 ├── MC: Monaco
+├── MD: Republica Moldova
+│   ├── CA: Cahul
+│   └── CU: Chișinău
 ├── ME: Crna Gora
 ├── MG: Repoblikan'i Madagasikara
+├── MK: Република Македонија
+├── MQ: Martinique
 ├── MT: Malta
 ├── MW: Malawi
 ├── MX: México
@@ -282,10 +292,16 @@ Countries: 112
 ├── PL: Polska
 ├── PT: Portugal
 ├── PY: Paraguay
+├── RE: Réunion
 ├── RO: Romania
+├── RS: Република Србија
 ├── RU: Россия
 ├── RW: Repubulika y'u Rwanda
 ├── SE: Sverige
+├── SI: Republika Slovenija
+├── SJ: Svalbard & Jan Mayen
+├── SK: Slovenská republika
+├── SM: San Marino
 ├── SO: Jamhuuriyadda Federaalka Soomaaliya
 │   ├── AW: Awdal
 │   ├── SA: Sanaag
@@ -298,6 +314,7 @@ Countries: 112
 ├── TG: République togolaise
 ├── TR: Türkiye
 ├── TZ: Tanzania
+├── UA: Україна
 ├── UG: Uganda
 ├── US: United States of America
 │   ├── AL: Alabama
@@ -354,6 +371,7 @@ Countries: 112
 │   ├── WI: Wisconsin
 │   └── WY: Wyoming
 ├── UY: Uruguay
+├── VA: Stato della Città del Vaticano
 ├── VE: Venezuela
 │   ├── B: Anzoátegui
 │   ├── G: Carabobo
@@ -364,6 +382,8 @@ Countries: 112
 │   ├── S: Táchira
 │   └── V: Zulia
 ├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
+├── XK: Republika e Kosovës
+├── YT: Mayotte
 ├── ZA: South Africa
 ├── ZM: Zambia
 └── ZW: Zimbabwe
@@ -494,13 +514,13 @@ See [Holidays API][] for further information.
 
 This project also runs in all modern browsers. See `./examples/browser`
 
-Browser | Version | Notes
----     | ---     | ---
-Chrome  | >=45    |
-Firefox | >=45    |
-Safari  | >=10    |
-Edge    | >=13    |
-IE      | >=10    | needs polyfill `core-js/es6`
+| Browser | Version | Notes                        |            
+| ------- | :-----: | ---------------------------- |          
+| Chrome  | >=45    |                              |      
+| Firefox | >=45    |                              |      
+| Safari  | >=10    |                              |      
+| Edge    | >=13    |                              |      
+| IE      | >=10    | needs polyfill `core-js/es6` |                                   
 
 Please do not forget to set the correct charset!
 
@@ -537,9 +557,11 @@ Mexico do the following:
 
 ```js
 "scripts": {
-  "build": "holidays2json --pick US,CA,MX"
+  "build": "holidays2json --pick US,CA,MX --min"
 },
 ```
+
+The `--min` switch removes dependencies which are not required for the countries selected. You may not be able to use the full set of rules in case you want to add custom rules.
 
 Alternatively you may use the `--omit` option.
 
@@ -579,6 +601,7 @@ See [LICENSE][] for more information.
 
 * [CONTRIBUTING.md][CONTRIBUTING.md]
 * [date-holidays-ical][date-holidays-ical]
+* [date-holidays-parser][date-holidays-parser]
 * [Holidays API][Holidays API]
 * [holidays.yaml specification][holidays.yaml specification]
 * [LICENSE][LICENSE]
@@ -587,6 +610,7 @@ See [LICENSE][] for more information.
 
 [LICENSE]: ./LICENSE
 [CONTRIBUTING.md]: ./CONTRIBUTING.md
-[holidays.yaml specification]: ./docs/specification.md
-[Holidays API]: ./docs/Holidays.md
+[holidays.yaml specification]: https://github.com/commenthol/date-holidays/blob/master/docs/specification.md
+[Holidays API]: https://github.com/commenthol/date-holidays-parser/blob/master/docs/Holidays.md
+[date-holidays-parser]: https://github.com/commenthol/date-holidays-parser
 [date-holidays-ical]: https://github.com/commenthol/date-holidays-ical

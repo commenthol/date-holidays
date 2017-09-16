@@ -7,7 +7,8 @@ var path = require('path')
 var resolve = path.resolve
 var jsyaml = require('js-yaml')
 var PrePin = require('prepin')
-var _ = require('lodash')
+var _pick = require('lodash.pick')
+var _omit = require('lodash.omit')
 
 var REGEX = /^([A-Z]+)\.yaml$/
 
@@ -66,9 +67,9 @@ Holidays2json.prototype = {
     Object.assign(obj, this.load(null, resolve(config.dirname, 'names.yaml')))
 
     if (this.opts.pick) {
-      obj.holidays = _.pick(obj.holidays, this.opts.pick)
+      obj.holidays = _pick(obj.holidays, this.opts.pick)
     } else if (this.opts.omit) {
-      obj.holidays = _.omit(obj.holidays, this.opts.omit)
+      obj.holidays = _omit(obj.holidays, this.opts.omit)
     }
 
     obj.version = new Date().toISOString().replace(/^(.*)T.*$/, '$1')

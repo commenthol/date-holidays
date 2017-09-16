@@ -1,5 +1,26 @@
 # CHANGELOG
 
+v1.2.0
+- Parser is moved into new repo [date-holidays-parser](https://github.com/commenthol/date-holidays-parser)
+- Minimizing data files and build requires `--min` on `holidays2json` script
+- New Countries
+  - Greenland
+  - Domenica
+  - Curacao
+  - Vatikan City
+  - Ukraine
+  - Slovenia
+  - Serbia
+  - Moldavia
+  - Slovakia
+  - Svalbard & Jan Mayen
+  - San Marino
+  - Macedonia
+  - Kosovo
+  - Gibraltar
+- Moving French oversee departments to own Country-Code
+- Fix Bosnia and Herzegovina orthodox christmas and names
+
 v1.1.1
 - Adding ES Andalucía, Andalucía
 

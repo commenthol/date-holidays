@@ -1,7 +1,0 @@
-node_modules
-examples/browser/bundle.js
-coverage/
-attic/
-lib/
-tmp/
-.nyc_output/

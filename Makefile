@@ -14,12 +14,11 @@ lib: src/*
 test: v4. v6. v8.
 
 v%:
-	n $@ && mocha
+	n $@ && npm test
 
 docs: tree README.md
 	markedpp --githubid -i docs/specification.md -o docs/specification.md
 	markedpp --githubid -i README.md -o README.md
-	jsdox -o docs src/Holidays.js
 
 lint:
 	npm run lint
