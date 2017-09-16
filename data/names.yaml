@@ -42,6 +42,7 @@ names:
       mt: L-Ewwel tas-Sena
       nl: Nieuwjaar
       no: Første nyttårsdag
+      pap: Aña Nobo
       pl: Nowy Rok
       pt: Ano Novo
       ro: Anul nou
@@ -139,6 +140,7 @@ names:
       mg: Fetin'ny asa
       mk: Ден на трудот
       mt: Jum il-Ħaddiem
+      pap: Dia di Obrero
       pl: Święto Pracy
       pt: Dia do trabalhador
       ro: Ziua muncii
@@ -281,6 +283,7 @@ names:
       mt: Il-Milied
       nl: Kerstmis
       no: Første Juledag
+      pap: Dia Pasco di Nascimento
       pl: Pierwszy dzień Bożego Narodzenia
       pt: Natal
       ro: Crăciunul
@@ -314,6 +317,7 @@ names:
       lv: Otrie Ziemassvētki
       nl: Tweede kerstdag
       no: Andre juledag
+      pap: Di dos Dia Pasco di Nascimento
       pl: Drugi dzień Bożego Narodzenia
       ro: Două zi de Crăciun
       sk: Druhý sviatok vianočný
@@ -334,7 +338,7 @@ names:
       it: Ultimo dell’anno
       jp: 大晦日
       lv: Vecgada vakars
-      nl: Oudjaar
+      nl: Oudejaarsavond
       no: Nyttårsaften
       pt: Véspera de Ano Novo
       sv: Nyårsafton
@@ -344,9 +348,11 @@ names:
   easter -48: # Carnival Monday
     name:
       en: Shrove Monday
+      de: Rosenmontag
       es: Carnaval
       fr: Lundi de Carnaval
-      de: Rosenmontag
+      nl: Carnavalmaandag
+      pap: Dialuna di Carnaval
   easter -47: # Carnival Tuesday
     name:
       en: Shrove Tuesday
@@ -407,6 +413,7 @@ names:
       mt: Il-Ġimgħa l-Kbira
       nl: Goede Vrijdag
       no: Langfredag
+      pap: Diabierna Santo
       pt: Sexta-Feira Santa
       sk: Veľkonočný piatok
       sq: E Premtja e Madhe
@@ -444,6 +451,7 @@ names:
       lv: Lieldienas
       nl: Pasen
       no: Første påskedag
+      pap: Dia Pasco di Resureccion
       pl: Niedziela Wielkanocna
       pt: Páscoa
       ro: Paștele
@@ -475,6 +483,7 @@ names:
       mk: вториот ден на Велигден
       nl: Paasmaandag
       no: Andre påskedag
+      pap: Di dos Dia Pasco di Resureccion
       pl: Drugi dzień Wielkanocy
       ro: Două zi de Pasti
       sk: Veľkonočný pondelok
@@ -496,6 +505,7 @@ names:
       mg: Andro niakarana
       nl: O.L.H. Hemelvaart
       no: Kristi himmelfartsdag
+      pap: Dia di Asuncion
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
   easter 49:  # Pentecost/ Whit Sunday

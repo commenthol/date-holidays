@@ -1,9 +1,0 @@
-holidays:
-  CW:
-    names:
-      en: Curaçao
-    langs: []
-    zones:
-      - America/Curacao
-    dayoff: ''
-    days: {}
