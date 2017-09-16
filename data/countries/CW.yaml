@@ -1,3 +1,4 @@
+# Curaçao Officiële vrije dagen
 # @source https://loketdigital.gobiernu.cw/Loket/prodcat/products/getProductDetailsAction.do?id=437
 holidays:
   CW:
@@ -17,8 +18,8 @@ holidays:
         _name: 01-01
       easter -48:
         _name: easter -48
-        name: 
-          en: Carnival Monday 
+        name:
+          en: Carnival Monday
       easter -2:
         _name: easter -2
       easter:
