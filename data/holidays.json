@@ -5936,63 +5936,37 @@
         "YT": {
           "name": "Département et région d'outre-mer Mayotte",
           "zones": [
-            "Indian/Mayotte"
+            "Africa/Nairobi"
           ],
-          "days": {
-            "04-27": {
-              "_name": "Abolition of Slavery"
-            }
-          }
+          "_days": "YT"
         },
         "MQ": {
           "name": "Département et région d'outre-mer Martinique",
           "zones": [
             "America/Martinique"
           ],
-          "days": {
-            "easter -2": {
-              "_name": "easter -2"
-            },
-            "05-22": {
-              "_name": "Abolition of Slavery"
-            }
-          }
+          "_days": "MQ"
         },
         "GP": {
           "name": "Département et région d'outre-mer Guadeloupe",
           "zones": [
-            "America/Guadeloupe"
+            "America/Port_of_Spain"
           ],
-          "days": {
-            "easter -2": {
-              "_name": "easter -2"
-            },
-            "05-27": {
-              "_name": "Abolition of Slavery"
-            }
-          }
+          "_days": "GP"
         },
         "GF": {
           "name": "Département et région d'outre-mer Guyane",
           "zones": [
-            "America/Guyana"
+            "America/Cayenne"
           ],
-          "days": {
-            "06-10": {
-              "_name": "Abolition of Slavery"
-            }
-          }
+          "_days": "GF"
         },
         "RE": {
           "name": "Département et région d'outre-mer La Réunion",
           "zones": [
             "Indian/Reunion"
           ],
-          "days": {
-            "12-20": {
-              "_name": "Abolition of Slavery"
-            }
-          }
+          "_days": "RE"
         }
       }
     },
@@ -6338,6 +6312,25 @@
         }
       }
     },
+    "GF": {
+      "names": {
+        "fr": "Guyane",
+        "en": "French Guiana"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "America/Cayenne"
+      ],
+      "dayoff": "sunday",
+      "_days": "FR",
+      "days": {
+        "06-10": {
+          "_name": "Abolition of Slavery"
+        }
+      }
+    },
     "GG": {
       "names": {
         "en": "Guernsey"
@@ -6430,6 +6423,28 @@
               "from": 2015
             }
           ]
+        }
+      }
+    },
+    "GP": {
+      "names": {
+        "fr": "Guadeloupe",
+        "en": "Guadeloupe"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "America/Port_of_Spain"
+      ],
+      "dayoff": "sunday",
+      "_days": "FR",
+      "days": {
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "05-27": {
+          "_name": "Abolition of Slavery"
         }
       }
     },
@@ -8775,6 +8790,28 @@
         }
       }
     },
+    "MQ": {
+      "names": {
+        "fr": "Martinique",
+        "en": "Martinique"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "America/Martinique"
+      ],
+      "dayoff": "sunday",
+      "_days": "FR",
+      "days": {
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "05-22": {
+          "_name": "Abolition of Slavery"
+        }
+      }
+    },
     "MT": {
       "names": {
         "mt": "Malta",
@@ -10028,6 +10065,25 @@
         "12-31": {
           "_name": "12-31",
           "type": "bank"
+        }
+      }
+    },
+    "RE": {
+      "names": {
+        "fr": "Réunion",
+        "en": "Réunion"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Indian/Reunion"
+      ],
+      "dayoff": "",
+      "_days": "FR",
+      "days": {
+        "12-20": {
+          "_name": "Abolition of Slavery"
         }
       }
     },
@@ -13375,6 +13431,25 @@
         },
         "10 Dhu al-Hijjah": {
           "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
+    "YT": {
+      "names": {
+        "fr": "Mayotte",
+        "en": "Mayotte"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Africa/Nairobi"
+      ],
+      "dayoff": "sunday",
+      "_days": "FR",
+      "days": {
+        "04-27": {
+          "_name": "Abolition of Slavery"
         }
       }
     },

@@ -1,10 +1,14 @@
 holidays:
   RE:
     names:
+      fr: Réunion
       en: Réunion
     langs:
       - fr
     zones:
       - Indian/Reunion
     dayoff: ''
-    days: {}
+    _days: FR
+    days:
+      12-20:
+        _name: Abolition of Slavery

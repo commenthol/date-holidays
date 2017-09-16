@@ -44,42 +44,28 @@ holidays:
       YT:
         name: "Département et région d'outre-mer Mayotte"
         zones:
-          - Indian/Mayotte
-        days:
-          04-27:
-            _name: Abolition of Slavery
+          - Africa/Nairobi
+        _days: YT
       MQ:
         name: "Département et région d'outre-mer Martinique"
         zones:
           - America/Martinique
-        days:
-          easter -2:
-            _name: easter -2
-          05-22:
-            _name: Abolition of Slavery
+        _days: MQ
       GP:
         name: "Département et région d'outre-mer Guadeloupe"
         zones:
-          - America/Guadeloupe
-        days:
-          easter -2:
-            _name: easter -2
-          05-27:
-            _name: Abolition of Slavery
+          - America/Port_of_Spain
+        _days: GP
       GF:
         name: "Département et région d'outre-mer Guyane"
         zones:
-          - America/Guyana
-        days:
-          06-10:
-            _name: Abolition of Slavery
+          - America/Cayenne
+        _days: GF
       RE:
         name: "Département et région d'outre-mer La Réunion"
         zones:
           - Indian/Reunion
-        days:
-          12-20:
-            _name: Abolition of Slavery
+        _days: RE
       # name: Alsace
       '67':
         name: Département Bas-Rhin

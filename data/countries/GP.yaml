@@ -1,0 +1,16 @@
+holidays:
+  GP:
+    names:
+      fr: Guadeloupe
+      en: Guadeloupe
+    langs:
+      - fr
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    _days: FR
+    days:
+      easter -2:
+        _name: easter -2
+      05-27:
+        _name: Abolition of Slavery

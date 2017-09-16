@@ -1,0 +1,14 @@
+holidays:
+  YT:
+    names:
+      fr: Mayotte
+      en: Mayotte
+    langs:
+      - fr
+    zones:
+      - Africa/Nairobi
+    dayoff: sunday
+    _days: FR
+    days:
+      04-27:
+        _name: Abolition of Slavery

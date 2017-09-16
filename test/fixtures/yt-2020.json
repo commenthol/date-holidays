@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2020-01-01 00:00:00",
+    "start": "2019-12-31T21:00:00.000Z",
+    "end": "2020-01-01T21:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2020-04-13 00:00:00",
+    "start": "2020-04-12T21:00:00.000Z",
+    "end": "2020-04-13T21:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-04-27 00:00:00",
+    "start": "2020-04-26T21:00:00.000Z",
+    "end": "2020-04-27T21:00:00.000Z",
+    "name": "Abolition de l’esclavage",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-05-01 00:00:00",
+    "start": "2020-04-30T21:00:00.000Z",
+    "end": "2020-05-01T21:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-05-08 00:00:00",
+    "start": "2020-05-07T21:00:00.000Z",
+    "end": "2020-05-08T21:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-05-21 00:00:00",
+    "start": "2020-05-20T21:00:00.000Z",
+    "end": "2020-05-21T21:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-05-31 00:00:00",
+    "start": "2020-05-30T21:00:00.000Z",
+    "end": "2020-05-31T21:00:00.000Z",
+    "name": "Fête des Mères",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-05-31 00:00:00",
+    "start": "2020-05-30T21:00:00.000Z",
+    "end": "2020-05-31T21:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-06-01 00:00:00",
+    "start": "2020-05-31T21:00:00.000Z",
+    "end": "2020-06-01T21:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-07-14 00:00:00",
+    "start": "2020-07-13T21:00:00.000Z",
+    "end": "2020-07-14T21:00:00.000Z",
+    "name": "Fête Nationale de la France",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2020-08-15 00:00:00",
+    "start": "2020-08-14T21:00:00.000Z",
+    "end": "2020-08-15T21:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2020-11-01 00:00:00",
+    "start": "2020-10-31T21:00:00.000Z",
+    "end": "2020-11-01T21:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-11-11 00:00:00",
+    "start": "2020-11-10T21:00:00.000Z",
+    "end": "2020-11-11T21:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-24T21:00:00.000Z",
+    "end": "2020-12-25T21:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2015-01-01T03:00:00.000Z",
+    "end": "2015-01-02T03:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-06T03:00:00.000Z",
+    "end": "2015-04-07T03:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-05-01T03:00:00.000Z",
+    "end": "2015-05-02T03:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-08 00:00:00",
+    "start": "2015-05-08T03:00:00.000Z",
+    "end": "2015-05-09T03:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-14 00:00:00",
+    "start": "2015-05-14T03:00:00.000Z",
+    "end": "2015-05-15T03:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-05-24 00:00:00",
+    "start": "2015-05-24T03:00:00.000Z",
+    "end": "2015-05-25T03:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-05-25 00:00:00",
+    "start": "2015-05-25T03:00:00.000Z",
+    "end": "2015-05-26T03:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-05-31 00:00:00",
+    "start": "2015-05-31T03:00:00.000Z",
+    "end": "2015-06-01T03:00:00.000Z",
+    "name": "Fête des Mères",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-06-10 00:00:00",
+    "start": "2015-06-10T03:00:00.000Z",
+    "end": "2015-06-11T03:00:00.000Z",
+    "name": "Abolition de l’esclavage",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-07-14 00:00:00",
+    "start": "2015-07-14T03:00:00.000Z",
+    "end": "2015-07-15T03:00:00.000Z",
+    "name": "Fête Nationale de la France",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-08-15 00:00:00",
+    "start": "2015-08-15T03:00:00.000Z",
+    "end": "2015-08-16T03:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-11-01 00:00:00",
+    "start": "2015-11-01T03:00:00.000Z",
+    "end": "2015-11-02T03:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-11-11 00:00:00",
+    "start": "2015-11-11T03:00:00.000Z",
+    "end": "2015-11-12T03:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-25T03:00:00.000Z",
+    "end": "2015-12-26T03:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

@@ -1,0 +1,17 @@
+holidays:
+  MQ:
+    names:
+      fr: Martinique
+      en: Martinique
+    langs:
+      - fr
+    zones:
+      - America/Martinique
+    dayoff: sunday
+    _days: FR
+    days:
+      easter -2:
+        _name: easter -2
+      05-22:
+        _name: Abolition of Slavery
+      
