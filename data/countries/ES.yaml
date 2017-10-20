@@ -85,8 +85,12 @@ holidays:
           11-09 if sunday then next monday:
             name:
               es: Nuestra Señora de la Almudena
-      # AN:
-      #   name: Andalusia
+      AN:
+        name: Andalucía
+        days:
+          02-28:
+            name:
+              es: Día de Andalucía
       # AR:
       #   name: Aragon
       # AS:
