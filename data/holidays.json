@@ -1,5 +1,5 @@
 {
-  "version": "2017-09-10",
+  "version": "2017-10-20",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -5474,6 +5474,16 @@
             "11-09 if sunday then next monday": {
               "name": {
                 "es": "Nuestra Señora de la Almudena"
+              }
+            }
+          }
+        },
+        "AN": {
+          "name": "Andalucía",
+          "days": {
+            "02-28": {
+              "name": {
+                "es": "Día de Andalucía"
               }
             }
           }
