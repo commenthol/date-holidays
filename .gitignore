@@ -8,3 +8,4 @@ tmp/
 *.sh
 .eslintcache
 .idea/
+.DS_Store
