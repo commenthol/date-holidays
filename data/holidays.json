@@ -1,5 +1,5 @@
 {
-  "version": "2017-10-20",
+  "version": "2017-11-02",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -5484,6 +5484,16 @@
             "02-28": {
               "name": {
                 "es": "Día de Andalucía"
+              }
+            }
+          }
+        },
+        "AR": {
+          "name": "Aragón",
+          "days": {
+            "04-23 if sunday then next monday": {
+              "name": {
+                "es": "Día de Aragón"
               }
             }
           }
