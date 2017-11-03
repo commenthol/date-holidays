@@ -9,11 +9,11 @@
 exports.DAYS = (function () {
   var o = {}
   'sunday|monday|tuesday|wednesday|thursday|friday|saturday'
-  .split('|')
-  .forEach((name, idx) => {
-    o[name] = idx
-    o[idx] = name
-  })
+    .split('|')
+    .forEach((name, idx) => {
+      o[name] = idx
+      o[idx] = name
+    })
   return o
 })()
 

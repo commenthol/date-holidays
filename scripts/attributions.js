@@ -47,14 +47,14 @@ Attributions.prototype = {
     console.log(list.length, 'files read')
 
     this.data = list
-    .map((file) => {
-      if (config.fileRegex.test(file)) {
-        return this._load(path.resolve(config.countries, file))
-      }
-      return ''
-    })
-    .join('')
-    .split(/[\n\r]/)
+      .map((file) => {
+        if (config.fileRegex.test(file)) {
+          return this._load(path.resolve(config.countries, file))
+        }
+        return ''
+      })
+      .join('')
+      .split(/[\n\r]/)
 
     return this
   },
@@ -65,12 +65,12 @@ Attributions.prototype = {
         return true
       }
     })
-    .map((d) => {
-      return d
-        .replace(/#\s*@attrib/, '')
-        .trim()
-    })
-    .sort()
+      .map((d) => {
+        return d
+          .replace(/#\s*@attrib/, '')
+          .trim()
+      })
+      .sort()
 
     this.data = uniq(data).join('\n')
 

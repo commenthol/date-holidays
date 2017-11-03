@@ -48,8 +48,8 @@ class Equinox extends CalEvent {
     var date
     if (/^[+-]\d{2}:\d{2}?$/.test(this._timezone)) { // for '+08:00' formats
       date = moment(str).utcOffset(this._timezone)
-    } else {                                        // for 'Asia/Shanghai' formats
-      date = moment(str).tz(this._timezone)         // move to timezone
+    } else { // for 'Asia/Shanghai' formats
+      date = moment(str).tz(this._timezone) // move to timezone
     }
 
     var floorDate = {

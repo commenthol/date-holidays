@@ -30,15 +30,15 @@ Holidays2json.prototype = {
   getList: function () {
     var list = fs.readdirSync(config.countries)
     list = list
-    .map(function (file) {
-      if (REGEX.test(file)) {
-        return file.replace(REGEX, '$1')
-      }
-    })
-    .filter(function (file) {
-      return file
-    })
-    .sort()
+      .map(function (file) {
+        if (REGEX.test(file)) {
+          return file.replace(REGEX, '$1')
+        }
+      })
+      .filter(function (file) {
+        return file
+      })
+      .sort()
     this.list = list
     return this
   },

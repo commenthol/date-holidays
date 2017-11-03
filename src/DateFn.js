@@ -31,9 +31,9 @@ class DateFn {
       var calEvent
       if (rule.fn) {
         calEvent = new CalEventFactory(rule)
-        .inYear(year - 1) // run over neighboring dates to catch overlaps
-        .inYear(year)
-        .inYear(year + 1)
+          .inYear(year - 1) // run over neighboring dates to catch overlaps
+          .inYear(year)
+          .inYear(year + 1)
         postProc.push(calEvent)
         ruleFn = new Rule(calEvent)
       } else {

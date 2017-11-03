@@ -185,22 +185,22 @@ Holidays.prototype = {
     arr = arr.sort(function (a, b) {
       return (+a.start) - (+b.start)
     })
-    .map(function (a, i) {
-      var b = arr[i + 1]
-      if (b && (a.name === b.name) && (+a.start) === (+b.start)) {
-        for (var type of TYPES) {
-          if (type === a.type || type === b.type) {
-            a.filter = true
-            b.type = type
-            break
+      .map(function (a, i) {
+        var b = arr[i + 1]
+        if (b && (a.name === b.name) && (+a.start) === (+b.start)) {
+          for (var type of TYPES) {
+            if (type === a.type || type === b.type) {
+              a.filter = true
+              b.type = type
+              break
+            }
           }
         }
-      }
-      return a
-    })
-    .filter(function (a) {
-      if (!a.filter) return a
-    })
+        return a
+      })
+      .filter(function (a) {
+        if (!a.filter) return a
+      })
 
     return arr
   },
@@ -330,16 +330,16 @@ Holidays.prototype = {
     }
     var tmp = {}
     this.__languages = [].concat(
-        language,
-        'en',
-        (this.__conf ? this.__data.getLanguages() : [])
-      ).filter(function (l) { // filter out duplicates
-        if (!l || tmp[l]) {
-          return false
-        }
-        tmp[l] = 1
-        return true
-      })
+      language,
+      'en',
+      (this.__conf ? this.__data.getLanguages() : [])
+    ).filter(function (l) { // filter out duplicates
+      if (!l || tmp[l]) {
+        return false
+      }
+      tmp[l] = 1
+      return true
+    })
   },
 
   /**
