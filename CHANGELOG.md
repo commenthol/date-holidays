@@ -1,5 +1,8 @@
 # CHANGELOG
 
+v1.1.1
+- Adding ES Andalucía, Andalucía
+
 v1.1.0
 - fix DK: Danish lang code
 - fix DE: adding Berlin as state See #27

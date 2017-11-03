@@ -14,6 +14,8 @@ scripts/tree.js
 test/assets/
 test/all.mocha.js
 Makefile
+TODO.md
+CONTRIBUTING.md
 *.log
 *.tgz
 *.sh

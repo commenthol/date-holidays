@@ -9,3 +9,4 @@ tmp/
 .eslintcache
 .idea/
 .DS_Store
+yarn.lock
