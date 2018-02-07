@@ -1,5 +1,5 @@
 {
-  "version": "2017-11-03",
+  "version": "2018-02-06",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -2523,6 +2523,132 @@
         "12-31 14:00": {
           "_name": "12-31",
           "type": "optional"
+        }
+      },
+      "states": {
+        "DF": {
+          "name": "Distrito Federal",
+          "zones": [
+            "America/Sao_Paulo"
+          ],
+          "days": {
+            "11-30": {
+              "name": {
+                "pt": "Dia do Evangélico",
+                "en": null
+              },
+              "type": "public"
+            }
+          }
+        },
+        "MG": {
+          "name": "Minas Gerais",
+          "zones": [
+            "America/Sao_Paulo"
+          ],
+          "regions": {
+            "BH": {
+              "name": "Belo Horizonte",
+              "days": {
+                "08-15": {
+                  "name": {
+                    "pt": "Assunção de Nossa Senhora",
+                    "en": null
+                  },
+                  "type": "public"
+                },
+                "12-08": {
+                  "name": {
+                    "pt": "Imaculada Conceição",
+                    "en": null
+                  },
+                  "type": "public"
+                }
+              }
+            }
+          }
+        },
+        "PE": {
+          "name": "Pernambuco",
+          "zones": [
+            "America/Recife"
+          ],
+          "regions": {
+            "RE": {
+              "name": "Recife",
+              "days": {
+                "06-24": {
+                  "name": {
+                    "pt": "São João",
+                    "en": null
+                  },
+                  "type": "public"
+                },
+                "07-16": {
+                  "name": {
+                    "pt": "Nossa Senhora do Carmo",
+                    "en": null
+                  },
+                  "type": "public"
+                },
+                "12-08": {
+                  "name": {
+                    "pt": "Nossa Senhora da Conceição",
+                    "en": null
+                  },
+                  "type": "public"
+                }
+              }
+            }
+          }
+        },
+        "PR": {
+          "name": "Paraná",
+          "zones": [
+            "America/Sao_Paulo"
+          ],
+          "regions": {
+            "CU": {
+              "name": "Curitiba",
+              "days": {
+                "09-08": {
+                  "name": {
+                    "pt": "Nossa Senhora da Luz dos Pinhais",
+                    "en": null
+                  },
+                  "type": "public"
+                }
+              }
+            }
+          }
+        },
+        "SP": {
+          "name": "São Paulo",
+          "zones": [
+            "America/Sao_Paulo"
+          ],
+          "days": {
+            "09-07": {
+              "name": {
+                "pt": "Revolução Constitucionalista",
+                "en": null
+              }
+            }
+          },
+          "regions": {
+            "SP": {
+              "name": "São Paulo",
+              "days": {
+                "01-25": {
+                  "name": {
+                    "pt": "Aniversário da Cidade",
+                    "en": null
+                  },
+                  "type": "public"
+                }
+              }
+            }
+          }
         }
       }
     },

@@ -85,7 +85,7 @@ holidays:
       '12-31 14:00':
         _name: 12-31
         type: optional
-    # states:
+    states:
       # AC:
       #   name: Acre
       # AL:
@@ -98,16 +98,40 @@ holidays:
       #   name: Bahia
       # CE:
       #   name: Ceará
-      # DF:
-      #   name: Federal District
+      DF:
+        name: Distrito Federal
+        zones:
+          - America/Sao_Paulo
+        days:
+          11-30:
+            name:
+              pt: Dia do Evangélico
+              en:
+            type: public
       # ES:
       #   name: Espírito Santo
       # GO:
       #   name: Goiás
       # MA:
       #   name: Maranhão
-      # MG:
-      #   name: Minas Gerais
+      MG:
+        name: Minas Gerais
+        zones:
+          - America/Sao_Paulo
+        regions:
+          BH:
+            name: Belo Horizonte
+            days:
+              08-15:
+                name:
+                  pt: Assunção de Nossa Senhora
+                  en:
+                type: public            
+              12-08:
+                name:
+                  pt: Imaculada Conceição
+                  en:
+                type: public
       # MS:
       #   name: Mato Grosso do Sul
       # MT:
@@ -116,12 +140,44 @@ holidays:
       #   name: Pará
       # PB:
       #   name: Paraíba
-      # PE:
-      #   name: Pernambuco
+      PE:
+        name: Pernambuco
+        zones:
+          - America/Recife
+        regions:
+          RE:
+            name: Recife
+            days:
+              06-24:
+                name:
+                  pt: São João
+                  en:
+                type: public
+              07-16:
+                name:
+                  pt: Nossa Senhora do Carmo
+                  en:
+                type: public
+              12-08:
+                name:
+                  pt: Nossa Senhora da Conceição
+                  en:
+                type: public
       # PI:
       #   name: Piauí
-      # PR:
-      #   name: Paraná
+      PR:
+        name: Paraná
+        zones:
+          - America/Sao_Paulo
+        regions:
+          CU:
+            name: Curitiba
+            days:
+              09-08:
+                name:
+                  pt: Nossa Senhora da Luz dos Pinhais
+                  en:
+                type: public
       # RJ:
       #   name: Rio de Janeiro
       # RN:
@@ -136,7 +192,23 @@ holidays:
       #   name: Santa Catarina
       # SE:
       #   name: Sergipe
-      # SP:
-      #   name: São Paulo
+      SP:
+        name: São Paulo
+        zones:
+          - America/Sao_Paulo
+        days:
+          09-07:
+            name:
+              pt: Revolução Constitucionalista
+              en:           
+        regions:
+          SP:
+            name: São Paulo
+            days:
+              01-25:
+                name:
+                  pt: Aniversário da Cidade
+                  en:
+                type: public
       # TO:
       #   name: Tocantins
