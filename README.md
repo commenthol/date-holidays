@@ -110,6 +110,15 @@ Countries: 130
 │   ├── SA: Saba
 │   └── SE: Sint Eustatius
 ├── BR: Brasil
+│   ├── DF: Distrito Federal
+│   ├── MG: Minas Gerais
+│   │   └── BH: Belo Horizonte
+│   ├── PE: Pernambuco
+│   │   └── RE: Recife
+│   ├── PR: Paraná
+│   │   └── CU: Curitiba
+│   └── SP: São Paulo
+│       └── SP: São Paulo
 ├── BS: Bahamas
 ├── BW: Botswana
 ├── BY: Рэспубліка Беларусь

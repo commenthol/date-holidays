@@ -1,5 +1,5 @@
 {
-  "version": "2018-02-06",
+  "version": "2018-02-07",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -2534,8 +2534,7 @@
           "days": {
             "11-30": {
               "name": {
-                "pt": "Dia do Evangélico",
-                "en": null
+                "pt": "Dia do Evangélico"
               },
               "type": "public"
             }
@@ -2551,17 +2550,14 @@
               "name": "Belo Horizonte",
               "days": {
                 "08-15": {
+                  "_name": "08-15",
                   "name": {
-                    "pt": "Assunção de Nossa Senhora",
-                    "en": null
+                    "pt": "Assunção de Nossa Senhora"
                   },
                   "type": "public"
                 },
                 "12-08": {
-                  "name": {
-                    "pt": "Imaculada Conceição",
-                    "en": null
-                  },
+                  "_name": "12-08",
                   "type": "public"
                 }
               }
@@ -2580,21 +2576,20 @@
                 "06-24": {
                   "name": {
                     "pt": "São João",
-                    "en": null
+                    "en": "Saint John's Day"
                   },
                   "type": "public"
                 },
                 "07-16": {
                   "name": {
-                    "pt": "Nossa Senhora do Carmo",
-                    "en": null
+                    "pt": "Nossa Senhora do Carmo"
                   },
                   "type": "public"
                 },
                 "12-08": {
+                  "_name": "12-08",
                   "name": {
-                    "pt": "Nossa Senhora da Conceição",
-                    "en": null
+                    "pt": "Nossa Senhora da Conceição"
                   },
                   "type": "public"
                 }
@@ -2613,8 +2608,7 @@
               "days": {
                 "09-08": {
                   "name": {
-                    "pt": "Nossa Senhora da Luz dos Pinhais",
-                    "en": null
+                    "pt": "Nossa Senhora da Luz dos Pinhais"
                   },
                   "type": "public"
                 }
@@ -2630,8 +2624,7 @@
           "days": {
             "09-07": {
               "name": {
-                "pt": "Revolução Constitucionalista",
-                "en": null
+                "pt": "Revolução Constitucionalista"
               }
             }
           },
@@ -2642,7 +2635,7 @@
                 "01-25": {
                   "name": {
                     "pt": "Aniversário da Cidade",
-                    "en": null
+                    "en": "City Birthday"
                   },
                   "type": "public"
                 }

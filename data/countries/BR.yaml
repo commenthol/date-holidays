@@ -106,7 +106,6 @@ holidays:
           11-30:
             name:
               pt: Dia do Evangélico
-              en:
             type: public
       # ES:
       #   name: Espírito Santo
@@ -123,14 +122,12 @@ holidays:
             name: Belo Horizonte
             days:
               08-15:
+                _name: 08-15
                 name:
                   pt: Assunção de Nossa Senhora
-                  en:
                 type: public            
               12-08:
-                name:
-                  pt: Imaculada Conceição
-                  en:
+                _name: 12-08
                 type: public
       # MS:
       #   name: Mato Grosso do Sul
@@ -151,17 +148,16 @@ holidays:
               06-24:
                 name:
                   pt: São João
-                  en:
+                  en: Saint John's Day
                 type: public
               07-16:
                 name:
                   pt: Nossa Senhora do Carmo
-                  en:
                 type: public
               12-08:
+                _name: 12-08
                 name:
                   pt: Nossa Senhora da Conceição
-                  en:
                 type: public
       # PI:
       #   name: Piauí
@@ -176,7 +172,6 @@ holidays:
               09-08:
                 name:
                   pt: Nossa Senhora da Luz dos Pinhais
-                  en:
                 type: public
       # RJ:
       #   name: Rio de Janeiro
@@ -200,7 +195,6 @@ holidays:
           09-07:
             name:
               pt: Revolução Constitucionalista
-              en:           
         regions:
           SP:
             name: São Paulo
@@ -208,7 +202,7 @@ holidays:
               01-25:
                 name:
                   pt: Aniversário da Cidade
-                  en:
+                  en: City Birthday
                 type: public
       # TO:
       #   name: Tocantins
