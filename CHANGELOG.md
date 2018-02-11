@@ -1,4 +1,11 @@
 # CHANGELOG
+v1.2.2
+
+- New states: Brasil
+- fix BR-SP Revolução Constitucionalista to 9th July
+
+v1.2.1
+- New regions: Brasil
 
 v1.2.0
 - Parser is moved into new repo [date-holidays-parser](https://github.com/commenthol/date-holidays-parser)

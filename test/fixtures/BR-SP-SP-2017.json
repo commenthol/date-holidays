@@ -80,6 +80,14 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2017-07-09 00:00:00",
+    "start": "2017-07-09T03:00:00.000Z",
+    "end": "2017-07-10T03:00:00.000Z",
+    "name": "Revolução Constitucionalista",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2017-08-13 00:00:00",
     "start": "2017-08-13T03:00:00.000Z",
     "end": "2017-08-14T03:00:00.000Z",
@@ -91,7 +99,7 @@
     "date": "2017-09-07 00:00:00",
     "start": "2017-09-07T03:00:00.000Z",
     "end": "2017-09-08T03:00:00.000Z",
-    "name": "Revolução Constitucionalista",
+    "name": "Dia da Independência",
     "type": "public",
     "_weekday": "Thu"
   },

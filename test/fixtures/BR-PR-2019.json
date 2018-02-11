@@ -112,6 +112,14 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2019-12-19 00:00:00",
+    "start": "2019-12-19T02:00:00.000Z",
+    "end": "2019-12-20T02:00:00.000Z",
+    "name": "Emancipação política do estado do Paraná",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2019-12-24 14:00:00",
     "start": "2019-12-24T16:00:00.000Z",
     "end": "2019-12-25T02:00:00.000Z",

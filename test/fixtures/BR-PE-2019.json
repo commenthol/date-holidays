@@ -16,6 +16,14 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2019-03-03 00:00:00",
+    "start": "2019-03-03T03:00:00.000Z",
+    "end": "2019-03-04T03:00:00.000Z",
+    "name": "Revolução Pernambucana de 1817",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-19T03:00:00.000Z",
     "end": "2019-04-20T03:00:00.000Z",
@@ -27,16 +35,16 @@
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T03:00:00.000Z",
     "end": "2019-04-22T03:00:00.000Z",
-    "name": "Páscoa",
-    "type": "observance",
+    "name": "Dia de Tiradentes",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T03:00:00.000Z",
     "end": "2019-04-22T03:00:00.000Z",
-    "name": "Dia de Tiradentes",
-    "type": "public",
+    "name": "Páscoa",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {

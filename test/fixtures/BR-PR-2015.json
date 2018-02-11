@@ -112,6 +112,14 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2015-12-19 00:00:00",
+    "start": "2015-12-19T02:00:00.000Z",
+    "end": "2015-12-20T02:00:00.000Z",
+    "name": "Emancipação política do estado do Paraná",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2015-12-24 14:00:00",
     "start": "2015-12-24T16:00:00.000Z",
     "end": "2015-12-25T02:00:00.000Z",

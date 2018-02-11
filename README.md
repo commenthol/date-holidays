@@ -110,15 +110,35 @@ Countries: 130
 │   ├── SA: Saba
 │   └── SE: Sint Eustatius
 ├── BR: Brasil
+│   ├── AC: Acre
+│   ├── AL: Alagoas
+│   ├── AM: Amazonas
+│   ├── AP: Amapá
+│   ├── BA: Bahia
+│   ├── CE: Ceará
 │   ├── DF: Distrito Federal
+│   ├── MA: Maranhão
 │   ├── MG: Minas Gerais
 │   │   └── BH: Belo Horizonte
+│   ├── MS: Mato Grosso do Sul
+│   ├── MT: Mato Grosso
+│   ├── PA: Pará
+│   ├── PB: Paraíba
 │   ├── PE: Pernambuco
 │   │   └── RE: Recife
+│   ├── PI: Piauí
 │   ├── PR: Paraná
 │   │   └── CU: Curitiba
-│   └── SP: São Paulo
-│       └── SP: São Paulo
+│   ├── RJ: Rio de Janeiro
+│   ├── RN: Rio Grande do Norte
+│   ├── RO: Rondônia
+│   ├── RR: Roraima
+│   ├── RS: Rio Grande do Sul
+│   ├── SC: Santa Catarina
+│   ├── SE: Sergipe
+│   ├── SP: São Paulo
+│   │   └── SP: São Paulo
+│   └── TO: Tocantins
 ├── BS: Bahamas
 ├── BW: Botswana
 ├── BY: Рэспубліка Беларусь
