@@ -30,7 +30,7 @@ If you like to add or change data please take a look at [holidays.yaml specifica
 7. If a new country was added there might be failing tests in Step 5.  
    Generate these with:
    ```
-   mocha test/all.mocha.js --writetests
+   npm test -- test/all.mocha.js --writetests
    ```
    Now check any changes with `git diff test/fixtures`. Make sure that your changes did not affect other countries.
 8. Push your branch to GitHub and submit a pull request
