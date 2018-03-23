@@ -2,5 +2,6 @@ node_modules
 examples/browser/bundle.js
 coverage/
 attic/
+dist/
 lib/
 tmp/

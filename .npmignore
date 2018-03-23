@@ -6,6 +6,7 @@ attic/
 make/
 test/
 docs/
+dist/
 gen/
 tmp/
 scripts/addtree.js
@@ -22,3 +23,4 @@ CONTRIBUTING.md
 .*
 package-lock.json
 yarn.lock
+webpack.config.js

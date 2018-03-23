@@ -43,6 +43,7 @@
     "test:ci": "npm run transpile && npm run yaml && npm test",
     "transpile": "babel -d lib src",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
+    "webpack": "webpack",
     "yaml": "node scripts/holidays2json.js"
   },
   "babel": {
@@ -66,6 +67,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.23.1",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.23.0",
     "babelify": "^8.0.0",
@@ -79,7 +81,11 @@
     "hashtree": "^0.7.0",
     "mocha": "^4.0.1",
     "rimraf": "^2.5.4",
-    "serialize-to-js": "^1.0.0"
+    "serialize-to-js": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.1.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.12"
   },
   "engines": {
     "node": ">=4.0.0"

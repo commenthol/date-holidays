@@ -16,6 +16,9 @@ test: v4. v6. v8.
 v%:
 	n $@ && npm test
 
+dist:
+	npm run webpack
+
 docs: tree README.md
 	markedpp --githubid -i docs/specification.md -o docs/specification.md
 	markedpp --githubid -i README.md -o README.md
@@ -34,4 +37,4 @@ attributions: LICENSE
 LICENSE: data/countries/*.yaml
 	node scripts/attributions.js
 
-.PHONY: all doc lint test tree writetests yaml
+.PHONY: all doc lint test tree writetests yaml dist

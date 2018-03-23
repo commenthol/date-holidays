@@ -40,6 +40,7 @@ Happy holidays!
 * [Browser](#browser)
 * [Data](#data)
 * [Custom builds of `holidays.json`](#custom-builds-of-holidaysjson)
+* [Bundling with webpack](#bundling-with-webpack)
 * [Contribution and License Agreement](#contribution-and-license-agreement)
 * [License](#license)
 * [References](#references)
@@ -543,13 +544,13 @@ See [Holidays API][] for further information.
 
 This project also runs in all modern browsers. See `./examples/browser`
 
-| Browser | Version | Notes                        |            
-| ------- | :-----: | ---------------------------- |          
-| Chrome  | >=45    |                              |      
-| Firefox | >=45    |                              |      
-| Safari  | >=10    |                              |      
-| Edge    | >=13    |                              |      
-| IE      | >=10    | needs polyfill `core-js/es6` |                                   
+| Browser | Version | Notes                        |
+| ------- | :-----: | ---------------------------- |
+| Chrome  | >=45    |                              |
+| Firefox | >=45    |                              |
+| Safari  | >=10    |                              |
+| Edge    | >=13    |                              |
+| IE      | >=10    | needs polyfill `core-js/es6` |
 
 Please do not forget to set the correct charset!
 
@@ -571,7 +572,7 @@ Testing is done with `zuul`. For local browser tests run `npm run zuul -- --loca
 ## Data
 
 All data for the holidays of the different countries is contained in
-[`./data/holidays.json`](./data/holidays.json). For changing holiday data edit the appropriate country in `./data/countries`.  
+[`./data/holidays.json`](./data/holidays.json). For changing holiday data edit the appropriate country in `./data/countries`.
 Any details on structure and
 available grammar for holiday attribution is described in
 [holidays.yaml specification][].
@@ -603,6 +604,21 @@ $(npm bin)/holidays2json --pick US,CA,MX
 > **NOTE:** There are some countries which depend on data of others which
 > might render the file useless. e.g. "GU" requires "US", so try
 > to pick or omit both.
+
+## Bundling with webpack
+
+To minimize bundle sizes consider adding the following lines in your webpack config.
+Please take a look at `./webpack.config.js`. To further reduce size consider custom builds by only selecting required countries.
+
+```js
+...
+  plugins: [
+    // ---- do not bundle moment locales
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+    // ---- do not bundle astronomia vsop planet data
+    new webpack.IgnorePlugin(/^\.\/vsop87B.*$/)
+    ...
+```
 
 
 ## Contribution and License Agreement
