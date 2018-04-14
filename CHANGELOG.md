@@ -1,4 +1,13 @@
 # CHANGELOG
+
+v1.2.5
+- keep bundle sizes small
+
+v1.2.4
+v1.2.3
+- removing module, jsnext:main exports
+- bundle example with webpack
+
 v1.2.2
 
 - New states: Brasil
