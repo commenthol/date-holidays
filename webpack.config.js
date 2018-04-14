@@ -17,6 +17,9 @@ module.exports = {
     library: 'Holidays',
     libraryTarget: 'commonjs2'
   },
+  resolve: {
+    // mainFields: ['browser', 'main', 'module']
+  },
   module: {
     rules: [{
       test: /\.(js|jsx)$/,
@@ -28,7 +31,7 @@ module.exports = {
     // ---- do not bundle moment locales
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     // ---- do not bundle astronomia vsop planet data
-    new webpack.IgnorePlugin(/^\.\/vsop87B.*$/)
+    new webpack.IgnorePlugin(/^\.\/vsop87B[^e].*$/)
     // ---- using a custom set of timezones
     // new webpack.NormalModuleReplacementPlugin(
     //   /moment-timezone\/data\/packed\/latest\.json/,
