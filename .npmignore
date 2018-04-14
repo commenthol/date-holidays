@@ -12,8 +12,6 @@ tmp/
 scripts/addtree.js
 scripts/attributions.js
 scripts/tree.js
-test/assets/
-test/all.mocha.js
 Makefile
 TODO.md
 CONTRIBUTING.md

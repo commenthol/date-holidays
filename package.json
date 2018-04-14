@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "1.2.2",
+  "version": "1.2.3-0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -22,8 +22,6 @@
     "Tiago <tiago.peliciari@gmail.com>"
   ],
   "main": "lib",
-  "module": "src",
-  "jsnext:main": "src",
   "bin": {
     "holidays2json": "./scripts/holidays2json.js"
   },
@@ -36,12 +34,13 @@
     "url": "git+https://github.com/commenthol/date-holidays.git"
   },
   "scripts": {
-    "all": "npm run clean && npm i && npm run lint && npm run transpile && npm run yaml && npm test && npm pack",
-    "clean": "rimraf lib node_modules",
+    "all": "npm run clean && npm run lint && npm run build && npm run yaml && npm test",
+    "build": "babel -d lib src",
+    "clean": "rimraf lib",
+    "clean:all": "rimraf node_modules && npm run clean",
     "lint": "eslint '**/*.js'",
     "test": "mocha",
     "test:ci": "npm run transpile && npm run yaml && npm test",
-    "transpile": "babel -d lib src",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
     "yaml": "node scripts/holidays2json.js"
@@ -58,7 +57,7 @@
     ]
   },
   "dependencies": {
-    "date-holidays-parser": "^1.2.0",
+    "date-holidays-parser": "^1.2.1-0",
     "js-yaml": "^3.10.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
@@ -90,5 +89,7 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "maintainers": "commenthol <commenthol@gmail.com>"
+  "maintainers": [
+    "commenthol <commenthol@gmail.com>"
+  ]
 }

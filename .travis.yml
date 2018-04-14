@@ -1,9 +1,17 @@
 sudo: false
 language: node_js
+
 node_js:
-  - "4.8"
-  - "6.11"
-  - "8.9"
+  - 4
+  - 6
+  - 8
   - node
+
+install:
+  - npm install
+
+before_script:
+  - npm run build
+
 script:
-  - npm run test:ci
+  - npm test

@@ -4,6 +4,7 @@ output/
 attic/
 dist/
 tmp/
+lib/
 *.log
 *.tgz
 *.sh
