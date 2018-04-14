@@ -39,7 +39,7 @@
     "clean": "rimraf lib",
     "clean:all": "rimraf node_modules && npm run clean",
     "lint": "eslint '**/*.js'",
-    "prepubishOnly": "npm run all",
+    "prepublishOnly": "npm run all",
     "test": "mocha",
     "test:ci": "npm run transpile && npm run yaml && npm test",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
