@@ -39,6 +39,7 @@
     "clean": "rimraf lib",
     "clean:all": "rimraf node_modules && npm run clean",
     "lint": "eslint '**/*.js'",
+    "prepubishOnly": "npm run all",
     "test": "mocha",
     "test:ci": "npm run transpile && npm run yaml && npm test",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
@@ -57,7 +58,7 @@
     ]
   },
   "dependencies": {
-    "date-holidays-parser": "^1.2.1-0",
+    "date-holidays-parser": "^1.2.1",
     "js-yaml": "^3.10.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
