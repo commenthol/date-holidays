@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T22:00:00.000Z",
+    "end": "2019-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-03-11 00:00:00",
+    "start": "2019-03-10T22:00:00.000Z",
+    "end": "2019-03-11T22:00:00.000Z",
+    "name": "Moshoeshoe Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T22:00:00.000Z",
+    "end": "2019-04-19T22:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-21T22:00:00.000Z",
+    "end": "2019-04-22T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T22:00:00.000Z",
+    "end": "2019-05-01T22:00:00.000Z",
+    "name": "Workers' Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-05-25 00:00:00",
+    "start": "2019-05-24T22:00:00.000Z",
+    "end": "2019-05-25T22:00:00.000Z",
+    "name": "Africa Day/ Heroes' Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-05-30 00:00:00",
+    "start": "2019-05-29T22:00:00.000Z",
+    "end": "2019-05-30T22:00:00.000Z",
+    "name": "Ascension Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-07-17 00:00:00",
+    "start": "2019-07-16T22:00:00.000Z",
+    "end": "2019-07-17T22:00:00.000Z",
+    "name": "King Letsie III's Birthday",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-10-04 00:00:00",
+    "start": "2019-10-03T22:00:00.000Z",
+    "end": "2019-10-04T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T22:00:00.000Z",
+    "end": "2019-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-12-26 00:00:00",
+    "start": "2019-12-25T22:00:00.000Z",
+    "end": "2019-12-26T22:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]

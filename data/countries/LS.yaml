@@ -1,0 +1,61 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Lesotho
+  LS:
+    names:
+      st: \'Muso oa Lesotho
+      en: Lesotho
+    langs:
+      - st
+      - en
+    zones:
+      - Africa/Johannesburg
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      03-11:
+        name:
+          en: Moshoeshoe Day
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+        name:
+          en: Workers' Day
+      easter 39:
+        _name: easter 39
+      05-25:
+        name:
+          en: Africa Day/ Heroes' Day
+      07-17:
+        name:
+          en: King Letsie III's Birthday
+      10-04:
+        _name: Independence Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+    # states:
+    #   A:
+    #     name: Maseru
+    #   B:
+    #     name: Butha-Buthe
+    #   C:
+    #     name: Leribe
+    #   D:
+    #     name: Berea
+    #   E:
+    #     name: Mafeteng
+    #   F:
+    #     name: Mohale’s Hoek
+    #   G:
+    #     name: Quthing
+    #   H:
+    #     name: Qacha’s Nek
+    #   J:
+    #     name: Mokhotlong
+    #   K:
+    #     name: Thaba-Tseka

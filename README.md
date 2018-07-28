@@ -55,7 +55,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 131
+Countries: 132
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -283,6 +283,7 @@ Countries: 131
 ├── KE: Kenia
 ├── KR: 대한민국
 ├── LI: Lichtenstein
+├── LS: \'Muso oa Lesotho
 ├── LT: Lietuva
 ├── LU: Luxembourg
 ├── LV: Latvija

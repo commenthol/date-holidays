@@ -4,6 +4,7 @@ v1.2.7-0
 - Fix norwegian holiday names
 - New Country Ascension Island
 - New Country St. Helena
+- New Country Lesotho
 
 v1.2.6
 - New holiday Turkey Democracy and National Unity Day
