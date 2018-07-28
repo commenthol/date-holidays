@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T11:00:00.000Z",
+    "end": "2019-01-01T11:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T11:00:00.000Z",
+    "end": "2019-04-19T11:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-21T11:00:00.000Z",
+    "end": "2019-04-22T11:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-04-25 00:00:00",
+    "start": "2019-04-24T11:00:00.000Z",
+    "end": "2019-04-25T11:00:00.000Z",
+    "name": "ANZAC Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-06-03 00:00:00",
+    "start": "2019-06-02T11:00:00.000Z",
+    "end": "2019-06-03T11:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-06-04 00:00:00",
+    "start": "2019-06-03T11:00:00.000Z",
+    "end": "2019-06-04T11:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-07-04 00:00:00",
+    "start": "2019-07-03T11:00:00.000Z",
+    "end": "2019-07-04T11:00:00.000Z",
+    "name": "Official Birthday of His Majesty King Tupou VI",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-09-16 00:00:00",
+    "start": "2019-09-15T11:00:00.000Z",
+    "end": "2019-09-16T11:00:00.000Z",
+    "name": "Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-09-17 00:00:00",
+    "start": "2019-09-16T11:00:00.000Z",
+    "end": "2019-09-17T11:00:00.000Z",
+    "name": "Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-11-04 00:00:00",
+    "start": "2019-11-03T11:00:00.000Z",
+    "end": "2019-11-04T11:00:00.000Z",
+    "name": "Constitutional Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-12-04 00:00:00",
+    "start": "2019-12-03T11:00:00.000Z",
+    "end": "2019-12-04T11:00:00.000Z",
+    "name": "Tupou I Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T11:00:00.000Z",
+    "end": "2019-12-25T11:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-12-26 00:00:00",
+    "start": "2019-12-25T11:00:00.000Z",
+    "end": "2019-12-26T11:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]

@@ -1,10 +1,10 @@
 # CHANGELOG
 
-v1.2.7-0
-- Fix norwegian holiday names
-- New Country Ascension Island
-- New Country St. Helena
-- New Country Lesotho
+v1.2.7
+- Fix Norwegian holiday names
+- New country St. Helena
+- New country Lesotho
+- New country Tonga
 
 v1.2.6
 - New holiday Turkey Democracy and National Unity Day
@@ -18,6 +18,7 @@ v1.2.3
 - bundle example with webpack
 
 v1.2.2
+
 - New states: Brasil
 - fix BR-SP Revolução Constitucionalista to 9th July
 

@@ -1,0 +1,53 @@
+holidays:
+  # @source http://www.mic.gov.to/news-today/press-releases/7066-tonga-public-holidays-for-2018-
+  TO:
+    names:
+      to: Puleʻanga Fakatuʻi ʻo Tonga
+      en: Tonga
+    langs:
+      - to
+      - en
+    zones:
+      - Pacific/Tongatapu
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      04-25:
+        name:
+          en: ANZAC Day
+      06-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
+        name:
+          en: Emancipation Day
+      07-04:
+        name:
+          en: Official Birthday of His Majesty King Tupou VI
+      09-17 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
+        name:
+          en: Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala
+      11-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
+        _name: Constitution Day
+        name:
+          en: Constitutional Day
+      12-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
+        name:
+          en: Tupou I Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+    # states:
+    #   '01':
+    #     name: ʻEua
+    #   '02':
+    #     name: Haʻapai
+    #   '03':
+    #     name: Niuas
+    #   '04':
+    #     name: Tongatapu
+    #   '05':
+    #     name: Vavaʻu

@@ -55,7 +55,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 132
+Countries: 133
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -347,6 +347,7 @@ Countries: 132
 ├── SV: El Salvador
 │   └── SS: San Salvador
 ├── TG: République togolaise
+├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
 ├── TZ: Tanzania
 ├── UA: Україна

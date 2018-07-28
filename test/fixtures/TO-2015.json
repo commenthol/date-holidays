@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T11:00:00.000Z",
+    "end": "2015-01-01T11:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T11:00:00.000Z",
+    "end": "2015-04-03T11:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-05T11:00:00.000Z",
+    "end": "2015-04-06T11:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-04-25 00:00:00",
+    "start": "2015-04-24T11:00:00.000Z",
+    "end": "2015-04-25T11:00:00.000Z",
+    "name": "ANZAC Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-06-08 00:00:00",
+    "start": "2015-06-07T11:00:00.000Z",
+    "end": "2015-06-08T11:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-07-04 00:00:00",
+    "start": "2015-07-03T11:00:00.000Z",
+    "end": "2015-07-04T11:00:00.000Z",
+    "name": "Official Birthday of His Majesty King Tupou VI",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-09-21 00:00:00",
+    "start": "2015-09-20T11:00:00.000Z",
+    "end": "2015-09-21T11:00:00.000Z",
+    "name": "Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-11-04 00:00:00",
+    "start": "2015-11-03T11:00:00.000Z",
+    "end": "2015-11-04T11:00:00.000Z",
+    "name": "Constitutional Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-07 00:00:00",
+    "start": "2015-12-06T11:00:00.000Z",
+    "end": "2015-12-07T11:00:00.000Z",
+    "name": "Tupou I Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T11:00:00.000Z",
+    "end": "2015-12-25T11:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-12-26 00:00:00",
+    "start": "2015-12-25T11:00:00.000Z",
+    "end": "2015-12-26T11:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]
