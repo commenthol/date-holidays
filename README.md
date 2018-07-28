@@ -55,7 +55,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 130
+Countries: 131
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -328,6 +328,10 @@ Countries: 130
 ├── RU: Россия
 ├── RW: Repubulika y'u Rwanda
 ├── SE: Sverige
+├── SH: St. Helena
+│   ├── AC: Ascension Island
+│   ├── HL: Saint Helena
+│   └── TA: Tristan da Cunha
 ├── SI: Republika Slovenija
 ├── SJ: Svalbard & Jan Mayen
 ├── SK: Slovenská republika

@@ -1,0 +1,93 @@
+holidays:
+  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Saint_Helena,_Ascension_and_Tristan_da_Cunha
+  SH:
+    names:
+      en: St. Helena
+    langs:
+      - en
+    zones:
+      - Africa/Abidjan
+    dayoff: 'sunday'
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      substitutes 01-01 if saturday then next monday:
+        substitute: true
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      3rd monday in April:
+        name:
+          en: Queen's Birthday
+      05-21:
+        name:
+          en: Saint Helena Day
+      easter 50:
+        _name: easter 50
+      monday before 09-01:
+        name:
+          en: August Bank Holiday
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if saturday then next tuesday:
+        substitute: true
+        _name: 12-25
+      substitutes 12-25 if sunday then next tuesday:
+        substitute: true
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      substitutes 12-26 if saturday then next monday:
+        substitute: true
+        _name: 12-26
+      substitutes 12-26 if sunday then next monday:
+        substitute: true
+        _name: 12-26
+    states:
+      AC:
+        name: Ascension Island
+        days:
+          easter 39:
+            _name: easter 39
+      HL:
+        name: Saint Helena
+        days: {}
+      TA:
+        name: Tristan da Cunha
+        days:
+          easter 39:
+            _name: easter 39
+          # @source http://www.tristandc.com/newsratting.php
+          '2012-04-23':
+            name:
+              en: Ratting Day
+          '2013-05-03':
+            name:
+              en: Ratting Day
+          '2014-05-02':
+            name:
+              en: Ratting Day
+          '2015-05-16':
+            name:
+              en: Ratting Day
+          '2016-04-30':
+            name:
+              en: Ratting Day
+          '2017-05-26':
+            name:
+              en: Ratting Day
+          '2018-06-02':
+            name:
+              en: Ratting Day
+          08-14:
+            name:
+              en: Anniversary Day
+          monday before 09-01: false

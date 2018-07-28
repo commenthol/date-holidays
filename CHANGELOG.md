@@ -1,10 +1,12 @@
 # CHANGELOG
 
-v1.2.7
-- fix norwegian holiday names
+v1.2.7-0
+- Fix norwegian holiday names
+- New Country Ascension Island
+- New Country St. Helena
 
 v1.2.6
-- fix turkish holidays
+- New holiday Turkey Democracy and National Unity Day
 
 v1.2.5
 - keep bundle sizes small

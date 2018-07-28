@@ -1,0 +1,91 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2015-01-01T00:00:00.000Z",
+    "end": "2015-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-03T00:00:00.000Z",
+    "end": "2015-04-04T00:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-04-05 00:00:00",
+    "start": "2015-04-05T00:00:00.000Z",
+    "end": "2015-04-06T00:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-06T00:00:00.000Z",
+    "end": "2015-04-07T00:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-04-20 00:00:00",
+    "start": "2015-04-20T00:00:00.000Z",
+    "end": "2015-04-21T00:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-05-21 00:00:00",
+    "start": "2015-05-21T00:00:00.000Z",
+    "end": "2015-05-22T00:00:00.000Z",
+    "name": "Saint Helena Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-05-25 00:00:00",
+    "start": "2015-05-25T00:00:00.000Z",
+    "end": "2015-05-26T00:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-08-31 00:00:00",
+    "start": "2015-08-31T00:00:00.000Z",
+    "end": "2015-09-01T00:00:00.000Z",
+    "name": "August Bank Holiday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-25T00:00:00.000Z",
+    "end": "2015-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-12-26 00:00:00",
+    "start": "2015-12-26T00:00:00.000Z",
+    "end": "2015-12-27T00:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-12-28 00:00:00",
+    "start": "2015-12-28T00:00:00.000Z",
+    "end": "2015-12-29T00:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  }
+]
