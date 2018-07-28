@@ -26,6 +26,10 @@ holidays:
         name:
           en: Commemoration of Atatürk, Youth and Sports Day
           tr: Atatürk'ü Anma Gençlik ve Spor Bayramı
+      07-15:
+        name:
+          en: Democracy and National Unity Day
+          tr: Demokrasi ve Millî Birlik Günü
       08-30:
         name:
           en: Victory Day

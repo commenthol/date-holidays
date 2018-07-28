@@ -1,5 +1,5 @@
 {
-  "version": "2018-04-14",
+  "version": "2018-07-27",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -12123,6 +12123,12 @@
             "tr": "Atatürk'ü Anma Gençlik ve Spor Bayramı"
           }
         },
+        "07-15": {
+          "name": {
+            "en": "Democracy and National Unity Day",
+            "tr": "Demokrasi ve Millî Birlik Günü"
+          }
+        },
         "08-30": {
           "name": {
             "en": "Victory Day",
@@ -15178,7 +15184,7 @@
         "nl": "Suikerfeest (Eid al-Fitr)",
         "mk": "Рамазан Бајрам",
         "sq": "Fitër Bajrami",
-        "tr": "Bayramı",
+        "tr": "Ramazan Bayramı",
         "sr": "Рамазански Бајрам",
         "sw": "Idd-ul-Fitr"
       }
