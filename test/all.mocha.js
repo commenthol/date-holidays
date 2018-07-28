@@ -92,7 +92,7 @@ function test (year, country, state, region) {
     writeFile(name, res)
     fs.readFile(filename(name), 'utf8', function (err, exp) {
       assert.ok(!err, '' + err)
-      assert.equal(JSON.stringify(res, null, 2), exp)
+      assert.strictEqual(JSON.stringify(res, null, 2), exp)
       done()
     })
   })

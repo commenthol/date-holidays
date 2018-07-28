@@ -10,6 +10,10 @@
   "bugs": {
     "url": "https://github.com/commenthol/date-holidays/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commenthol/date-holidays.git"
+  },
   "license": "(ISC AND CC-BY-3.0)",
   "author": "commenthol <commenthol@gmail.com>",
   "contributors": [
@@ -19,7 +23,8 @@
     "James Dixon <jim.w.dixon@gmail.com>",
     "Lukas Eipert <git@leipert.io>",
     "David Álvarez Navarro <david16an@gmail.com>",
-    "Tiago <tiago.peliciari@gmail.com>"
+    "Tiago <tiago.peliciari@gmail.com>",
+    "Bilal Gültekin"
   ],
   "main": "lib",
   "bin": {
@@ -28,10 +33,6 @@
   "directories": {
     "doc": "docs",
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/commenthol/date-holidays.git"
   },
   "scripts": {
     "all": "npm run clean && npm run lint && npm run build && npm run yaml && npm test",
@@ -62,33 +63,33 @@
   },
   "dependencies": {
     "date-holidays-parser": "^1.2.2",
-    "js-yaml": "^3.11.0",
+    "js-yaml": "^3.12.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "prepin": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "babelify": "^8.0.0",
-    "core-js": "^2.5.5",
-    "eslint": "^4.19.1",
+    "core-js": "^2.5.7",
+    "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
     "hashtree": "^0.7.0",
-    "mocha": "^5.1.0",
+    "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
-    "serialize-to-js": "^1.2.0",
-    "uglifyjs-webpack-plugin": "^1.2.4",
-    "webpack": "^4.5.0",
-    "webpack-bundle-analyzer": "^2.11.1",
-    "webpack-cli": "^2.0.14"
+    "serialize-to-js": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.3",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.1.0"
   },
   "engines": {
     "node": ">=4.0.0"
