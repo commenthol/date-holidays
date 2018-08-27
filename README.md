@@ -55,7 +55,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 133
+Countries: 134
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AG: Antigua & Barbuda
@@ -199,6 +199,9 @@ Countries: 133
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba
+├── CV: República de Cabo Verde
+│   └── S: Sotavento Islands
+│       └── PR: Praia
 ├── CW: Curaçao
 ├── CY: Κύπρος
 ├── CZ: Česká republika

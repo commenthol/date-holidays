@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2019-01-01T01:00:00.000Z",
+    "end": "2019-01-02T01:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-01-13 00:00:00",
+    "start": "2019-01-13T01:00:00.000Z",
+    "end": "2019-01-14T01:00:00.000Z",
+    "name": "Dia da Democracia",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-01-20 00:00:00",
+    "start": "2019-01-20T01:00:00.000Z",
+    "end": "2019-01-21T01:00:00.000Z",
+    "name": "Dia dos Heróis Nacionais",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-03-05 00:00:00",
+    "start": "2019-03-05T01:00:00.000Z",
+    "end": "2019-03-06T01:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-03-06 00:00:00",
+    "start": "2019-03-06T01:00:00.000Z",
+    "end": "2019-03-07T01:00:00.000Z",
+    "name": "Quarta-feira de Cinzas",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-19T01:00:00.000Z",
+    "end": "2019-04-20T01:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-21 00:00:00",
+    "start": "2019-04-21T01:00:00.000Z",
+    "end": "2019-04-22T01:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-05-01T01:00:00.000Z",
+    "end": "2019-05-02T01:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-06-01 00:00:00",
+    "start": "2019-06-01T01:00:00.000Z",
+    "end": "2019-06-02T01:00:00.000Z",
+    "name": "Dia das Crianças",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-07-05 00:00:00",
+    "start": "2019-07-05T01:00:00.000Z",
+    "end": "2019-07-06T01:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-15T01:00:00.000Z",
+    "end": "2019-08-16T01:00:00.000Z",
+    "name": "Dia da Padroeira Nacional",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-09-12 00:00:00",
+    "start": "2019-09-12T01:00:00.000Z",
+    "end": "2019-09-13T01:00:00.000Z",
+    "name": "Dia Nacional",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-11-01 00:00:00",
+    "start": "2019-11-01T01:00:00.000Z",
+    "end": "2019-11-02T01:00:00.000Z",
+    "name": "Todos os santos",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-25T01:00:00.000Z",
+    "end": "2019-12-26T01:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]
