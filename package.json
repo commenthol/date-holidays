@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "1.2.6",
+  "version": "1.2.7-0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -24,7 +24,8 @@
     "Lukas Eipert <git@leipert.io>",
     "David Álvarez Navarro <david16an@gmail.com>",
     "Tiago <tiago.peliciari@gmail.com>",
-    "Bilal Gültekin"
+    "Bilal Gültekin",
+    "John-Olav Storvold <johsto@knowit.no>"
   ],
   "main": "lib",
   "bin": {

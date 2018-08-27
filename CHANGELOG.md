@@ -1,5 +1,11 @@
 # CHANGELOG
 
+v1.2.7
+- fix norwegian holiday names
+
+v1.2.6
+- fix turkish holidays
+
 v1.2.5
 - keep bundle sizes small
 
@@ -9,7 +15,6 @@ v1.2.3
 - bundle example with webpack
 
 v1.2.2
-
 - New states: Brasil
 - fix BR-SP Revolução Constitucionalista to 9th July
 

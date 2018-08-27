@@ -10215,21 +10215,15 @@
           "_name": "easter 1"
         },
         "05-01": {
-          "name": {
-            "no": "Arbeidernes dag",
-            "en": "Labour Day"
-          }
+          "_name": "05-01"
         },
         "05-08": {
-          "name": {
-            "no": "Frigjøringsdagen",
-            "en": "Liberation Day"
-          }
+          "_name": "Liberation Day"
         },
         "05-17": {
+          "_name": "Constitution Day",
           "name": {
-            "no": "17.mai",
-            "en": "Constitution Day"
+            "no": "17. mai"
           }
         },
         "easter 39": {
@@ -14666,7 +14660,7 @@
         "lt": "Tarptautinė darbo diena",
         "lv": "Darba svētki",
         "nl": "Dag van de Arbeid",
-        "no": "Første mai",
+        "no": "Arbeidernes dag",
         "mg": "Fetin'ny asa",
         "mk": "Ден на трудот",
         "mt": "Jum il-Ħaddiem",
@@ -15388,6 +15382,7 @@
     "Liberation Day": {
       "name": {
         "en": "Liberation Day",
+        "no": "Frigjøringsdagen",
         "sq": "Dita e Çlirimit"
       }
     },
