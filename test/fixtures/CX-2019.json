@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T17:00:00.000Z",
+    "end": "2019-01-01T17:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-01-26 00:00:00",
+    "start": "2019-01-25T17:00:00.000Z",
+    "end": "2019-01-26T17:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-02-05 00:00:00",
+    "start": "2019-02-04T17:00:00.000Z",
+    "end": "2019-02-06T17:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-03-25 00:00:00",
+    "start": "2019-03-24T17:00:00.000Z",
+    "end": "2019-03-25T17:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T17:00:00.000Z",
+    "end": "2019-04-19T17:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-25 00:00:00",
+    "start": "2019-04-24T17:00:00.000Z",
+    "end": "2019-04-25T17:00:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-06-04 00:00:00 -0600",
+    "start": "2019-06-03T11:00:00.000Z",
+    "end": "2019-06-04T11:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-08-11 00:00:00 -0600",
+    "start": "2019-08-10T11:00:00.000Z",
+    "end": "2019-08-11T11:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-10-06 00:00:00",
+    "start": "2019-10-05T17:00:00.000Z",
+    "end": "2019-10-06T17:00:00.000Z",
+    "name": "Territory Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T17:00:00.000Z",
+    "end": "2019-12-25T17:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-12-26 00:00:00",
+    "start": "2019-12-25T17:00:00.000Z",
+    "end": "2019-12-26T17:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]
