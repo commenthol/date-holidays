@@ -27,6 +27,8 @@ holidays:
         _name: easter -3
       easter -2:
         _name: easter -2
+      easter -1:
+        _name: easter -1
       easter:
         _name: easter
       easter 1:
@@ -35,11 +37,12 @@ holidays:
         _name: 05-01
       05-08:
         name:
-          no: Frigjøringsdag 1945
+          no: Frigjøringsdagen
           en: Liberation Day
-        type: observance
       05-17:
-        _name: Constitution Day
+        name:
+          no: 17. mai
+          en: Constitution Day
       easter 39:
         _name: easter 39
       easter 49:
@@ -51,9 +54,28 @@ holidays:
           no: Sankthansaften
           en: Midsummar Eve
         type: observance
+      2nd sunday in November:
+        _name: Fathers Day
+        type: observance
       4th sunday before 12-24:
         name:
           no: Første søndag i advent
+          en: First Sunday of Advent
+        type: observance
+      3rd sunday before 12-24:
+        name:
+          no: Andre søndag i advent
+          en: Second Sunday of Advent
+        type: observance
+      2nd sunday before 12-24:
+        name:
+          no: Tredje søndag i advent
+          en: Third Sunday of Advent
+        type: observance
+      1st sunday before 12-24:
+        name:
+          no: Fjerde søndag i advent
+          en: Fourth Sunday of Advent
         type: observance
       12-24:
         _name: 12-24

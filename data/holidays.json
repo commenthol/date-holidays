@@ -1,5 +1,5 @@
 {
-  "version": "2018-07-28",
+  "version": "2018-08-27",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -10205,6 +10205,9 @@
         "easter -2": {
           "_name": "easter -2"
         },
+        "easter -1": {
+          "_name": "easter -1"
+        },
         "easter": {
           "_name": "easter"
         },
@@ -10212,17 +10215,22 @@
           "_name": "easter 1"
         },
         "05-01": {
-          "_name": "05-01"
+          "name": {
+            "no": "Arbeidernes dag",
+            "en": "Labour Day"
+          }
         },
         "05-08": {
           "name": {
-            "no": "Frigjøringsdag 1945",
+            "no": "Frigjøringsdagen",
             "en": "Liberation Day"
-          },
-          "type": "observance"
+          }
         },
         "05-17": {
-          "_name": "Constitution Day"
+          "name": {
+            "no": "17.mai",
+            "en": "Constitution Day"
+          }
         },
         "easter 39": {
           "_name": "easter 39"
@@ -10240,9 +10248,35 @@
           },
           "type": "observance"
         },
+        "2nd sunday in November": {
+          "_name": "Fathers Day",
+          "type": "observance"
+        },
         "4th sunday before 12-24": {
           "name": {
-            "no": "Første søndag i advent"
+            "no": "Første søndag i advent",
+            "en": "First Sunday of Advent"
+          },
+          "type": "observance"
+        },
+        "3rd sunday before 12-24": {
+          "name": {
+            "no": "Andre søndag i advent",
+            "en": "Second Sunday of Advent"
+          },
+          "type": "observance"
+        },
+        "2nd sunday before 12-24": {
+          "name": {
+            "no": "Tredje søndag i advent",
+            "en": "Third Sunday of Advent"
+          },
+          "type": "observance"
+        },
+        "1st sunday before 12-24": {
+          "name": {
+            "no": "Fjerde søndag i advent",
+            "en": "Fourth Sunday of Advent"
           },
           "type": "observance"
         },
@@ -14957,7 +14991,8 @@
         "de": "Karsamstag",
         "es": "Sabado Santo",
         "fr": "Samedi saint",
-        "it": "Sabado santo"
+        "it": "Sabado santo",
+        "no": "Påskeaften"
       }
     },
     "easter": {
@@ -15319,7 +15354,8 @@
         "et": "isadepäev",
         "lt": "Tėvo diena",
         "nl": "Vaderdag",
-        "pt": "Dia dos Pais"
+        "pt": "Dia dos Pais",
+        "no": "Farsdag"
       }
     },
     "Independence Day": {
