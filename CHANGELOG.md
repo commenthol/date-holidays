@@ -1,5 +1,8 @@
 # CHANGELOG
 
+v1.2.8-0
+- Fix name "Assunção de Maria" for "pt"
+
 v1.2.7
 - Fix Norwegian holiday names
 - New country St. Helena
