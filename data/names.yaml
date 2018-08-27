@@ -138,7 +138,7 @@ names:
       lt: Tarptautinė darbo diena
       lv: Darba svētki
       nl: Dag van de Arbeid
-      no: Første mai
+      no: Arbeidernes dag
       mg: Fetin'ny asa
       mk: Ден на трудот
       mt: Jum il-Ħaddiem
@@ -436,6 +436,7 @@ names:
       es: Sabado Santo
       fr: Samedi saint
       it: Sabado santo
+      no: Påskeaften
   easter:     # Easter
     name:
       en: Easter Sunday
@@ -749,6 +750,7 @@ names:
       lt: Tėvo diena
       nl: Vaderdag
       pt: Dia dos Pais
+      no: Farsdag
   Independence Day:
     name:
       en: Independence Day
