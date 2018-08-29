@@ -28,6 +28,7 @@
     "John-Olav Storvold <johsto@knowit.no>"
   ],
   "main": "lib",
+  "typings": "types",
   "bin": {
     "holidays2json": "./scripts/holidays2json.js"
   },
@@ -44,6 +45,7 @@
     "prepublishOnly": "npm run all",
     "test": "mocha",
     "test:ci": "npm run transpile && npm run yaml && npm test",
+    "test:ts": "dtslint types",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
     "yaml": "node scripts/holidays2json.js"
@@ -64,6 +66,7 @@
   },
   "dependencies": {
     "date-holidays-parser": "^1.2.2",
+    "dtslint": "^0.3.0",
     "js-yaml": "^3.12.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
