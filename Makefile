@@ -11,7 +11,7 @@ data/holidays.json: data/countries/*.yaml data/names.yaml
 lib: src/*
 	npm run transpile
 
-test: v4. v6. v8.
+test: v6. v8. v10.
 
 v%:
 	n $@ && npm test

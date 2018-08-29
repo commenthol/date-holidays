@@ -9,6 +9,7 @@ docs/
 dist/
 gen/
 tmp/
+data/countries/*.todo
 scripts/addtree.js
 scripts/attributions.js
 scripts/tree.js

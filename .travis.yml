@@ -8,6 +8,7 @@ node_js:
 
 install:
   - npm install
+  - npm install https://github.com/Microsoft/definitelytyped-header-parser
 
 before_script:
   - npm run build
