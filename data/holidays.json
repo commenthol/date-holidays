@@ -1,5 +1,5 @@
 {
-  "version": "2018-08-27",
+  "version": "2018-11-14",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -4186,10 +4186,10 @@
     },
     "CH": {
       "names": {
+        "en": "Switzerland",
         "de": "Schweiz",
         "fr": "Suisse",
-        "it": "Svizzera",
-        "en": "Switzerland"
+        "it": "Svizzera"
       },
       "langs": [
         "de",
@@ -4221,13 +4221,10 @@
         "easter 50": {
           "_name": "easter 50"
         },
-        "2nd sunday in May": {
-          "_name": "Mothers Day",
-          "type": "observance"
-        },
         "08-01": {
           "name": {
-            "de": "Bundesfeier"
+            "de": "Bundesfeier",
+            "fr": "Fête nationnale"
           }
         },
         "12-25": {
@@ -4260,8 +4257,23 @@
         "LU": {
           "name": "Kanton Luzern",
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
             "03-19": {
               "_name": "03-19"
+            },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
             },
             "easter 60": {
               "_name": "easter 60"
@@ -4271,6 +4283,9 @@
             },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
             }
           }
         },
@@ -4291,6 +4306,9 @@
             },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
             }
           }
         },
@@ -4310,21 +4328,51 @@
               "_name": "08-15"
             },
             "11-01": {
-              "_name": "11-01"
+              "_name": "11-01",
+              "type": "optional"
             }
           }
         },
         "OW": {
           "name": "Kanton Obwalden",
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
+            },
             "easter 60": {
               "_name": "easter 60"
             },
             "08-15": {
               "_name": "08-15"
             },
+            "09-25": {
+              "name": {
+                "de": "Niklaus von Flüe",
+                "fr": "Saint-Nicholas-de-Flüe",
+                "en": "Saint Nicholas of Flüe"
+              }
+            },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
+            },
+            "12-26": {
+              "_name": "12-26",
+              "type": "optional"
             }
           }
         },
@@ -4334,30 +4382,83 @@
             "03-19": {
               "_name": "03-19"
             },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
+            },
             "easter 60": {
               "_name": "easter 60"
             },
+            "08-15": {
+              "_name": "08-15"
+            },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
+            },
+            "12-26": {
+              "_name": "12-26",
+              "type": "optional"
             }
           }
         },
         "GL": {
           "name": "Kanton Glarus",
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
+            "thursday after 04-01": {
+              "name": {
+                "de": "Fahrtsfest",
+                "fr": "Bataille de Näfels"
+              }
+            },
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "type": "optional"
+            },
+            "monday after 3 sunday after 09-01": {
+              "name": {
+                "de": "Federal Fast Montag",
+                "fr": "Lundi du Jeûne Fédéral",
+                "en": "Federal Fast Monday"
+              },
+              "type": "optional"
             },
             "11-01": {
-              "_name": "11-01"
+              "_name": "11-01",
+              "type": "optional"
             }
           }
         },
         "ZG": {
           "name": "Kanton Zug",
           "days": {
-            "03-19": {
-              "_name": "03-19"
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
             },
             "easter 60": {
               "_name": "easter 60"
@@ -4367,26 +4468,71 @@
             },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
+            },
+            "12-26": {
+              "_name": "12-26",
+              "type": "optional"
             }
           }
         },
         "FR": {
           "name": "Kanton Freiburg",
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
+            },
             "easter 60": {
               "_name": "easter 60"
             },
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "type": "optional"
             },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
+            },
+            "12-26": {
+              "_name": "12-26",
+              "type": "optional"
             }
           }
         },
         "SO": {
           "name": "Kanton Solothurn",
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
+            },
             "easter 60": {
               "_name": "easter 60"
             },
@@ -4395,6 +4541,10 @@
             },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-26": {
+              "_name": "12-26",
+              "type": "optional"
             }
           }
         },
@@ -4405,12 +4555,22 @@
           "name": "Kanton Basel-Landschaft",
           "days": {
             "easter 60": {
-              "_name": "easter 60"
+              "_name": "easter 60",
+              "type": "optional"
             }
           }
         },
         "SH": {
-          "name": "Kanton Schaffhausen"
+          "name": "Kanton Schaffhausen",
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            }
+          }
         },
         "AR": {
           "name": "Kanton Appenzell Ausserrhoden"
@@ -4433,7 +4593,8 @@
           "name": "Kanton St. Gallen",
           "days": {
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "type": "optional"
             },
             "11-01": {
               "_name": "11-01"
@@ -4447,16 +4608,20 @@
               "_name": "01-06"
             },
             "03-19": {
-              "_name": "03-19"
+              "_name": "03-19",
+              "type": "optional"
             },
             "easter 60": {
-              "_name": "easter 60"
+              "_name": "easter 60",
+              "type": "optional"
             },
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "type": "optional"
             },
             "11-01": {
-              "_name": "11-01"
+              "_name": "11-01",
+              "type": "optional"
             }
           }
         },
@@ -4475,7 +4640,8 @@
               "_name": "08-15"
             },
             "11-01": {
-              "_name": "11-01"
+              "_name": "11-01",
+              "type": "optional"
             }
           }
         },
@@ -4502,21 +4668,40 @@
             "easter 60": {
               "_name": "easter 60"
             },
+            "06-29": {
+              "_name": "06-29"
+            },
             "08-15": {
               "_name": "08-15"
             },
             "11-01": {
               "_name": "11-01"
             },
+            "12-08": {
+              "_name": "12-08"
+            },
             "12-26": false
           }
         },
         "VD": {
           "name": "Kanton Waadt",
+          "names": {
+            "de": "Kanton Waadt",
+            "en": "Canton of Vaud",
+            "fr": "Canton de Vaud"
+          },
           "days": {
             "01-02": {
               "name": {
-                "de": "Berchtoldstag"
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              }
+            },
+            "monday after 3 sunday after 09-01": {
+              "name": {
+                "de": "Federal Fast Montag",
+                "fr": "Lundi du Jeûne Fédéral",
+                "en": "Federal Fast Monday"
               }
             },
             "12-26": false
@@ -4529,8 +4714,14 @@
               "_name": "03-19"
             },
             "easter -2": false,
-            "easter 1": false,
-            "easter 50": false,
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
+            },
             "easter 60": {
               "_name": "easter 60"
             },
@@ -4540,26 +4731,69 @@
             "11-01": {
               "_name": "11-01"
             },
+            "12-08": {
+              "_name": "12-08"
+            },
             "12-26": false
           }
         },
         "NE": {
           "name": "Kanton Neuenburg",
           "days": {
-            "easter 60": {
-              "_name": "easter 60"
+            "01-01": {
+              "_name": "01-01"
             },
-            "12-26": false
+            "01-01 if sunday then next monday": {
+              "_name": "02-01"
+            },
+            "easter 1": {
+              "_name": "easter 1",
+              "type": "optional"
+            },
+            "easter 50": {
+              "_name": "easter 50",
+              "type": "optional"
+            },
+            "easter 60": {
+              "_name": "easter 60",
+              "type": "optional"
+            },
+            "12-25 if sunday then next monday": {
+              "_name": "12-16"
+            }
           }
         },
         "GE": {
           "name": "Kanton Genf",
+          "names": {
+            "de": "Kanton Genf",
+            "en": "Canton of Geneva",
+            "fr": "Canton de Genève"
+          },
           "days": {
-            "12-26": false
+            "12-26": false,
+            "thursday after 1 sunday after 09-01": {
+              "name": {
+                "de": "Genf schnell",
+                "fr": "Jeûne Genevois",
+                "en": "Geneva fast"
+              }
+            },
+            "12-31": {
+              "name": {
+                "de": "Wiederherstellung der Republik",
+                "fr": "Restauration de la République",
+                "en": "Restoration of the Republic"
+              }
+            }
           }
         },
         "JU": {
-          "name": "Kanton Jura",
+          "names": {
+            "de": "Kanton Jura",
+            "fr": "Canton du Jura",
+            "en": "Canton of Jura"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4568,6 +4802,13 @@
             },
             "easter 60": {
               "_name": "easter 60"
+            },
+            "06-23": {
+              "name": {
+                "fr": "Plébiscite jurassien",
+                "en": "Jura Plebiscite",
+                "de": "Jura Volksabstimmung"
+              }
             },
             "08-15": {
               "_name": "08-15"
@@ -14940,6 +15181,7 @@
       "name": {
         "en": "Saints Peter and Paul",
         "es": "San Pedro y San Pablo",
+        "fr": "Saint Pierre et Paul",
         "it": "Santi Pietro e Paolo",
         "mt": "L-Imnarja"
       }
@@ -15110,7 +15352,7 @@
         "et": "teine jõulupüha",
         "fi": "2. joulupäivä",
         "fo": "Fyrsti gerandisdagur eftir jóladag",
-        "fr": "Lendemain de Noël",
+        "fr": "Saint Etienne",
         "hr": "Svetog Stjepana",
         "hu": "Karácsony másnapja",
         "it": "Santo Stefano",
