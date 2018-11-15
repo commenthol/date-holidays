@@ -100,7 +100,7 @@
     "start": "2020-10-31T23:00:00.000Z",
     "end": "2020-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Sun"
   },
   {

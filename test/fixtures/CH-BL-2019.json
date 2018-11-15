@@ -60,7 +60,7 @@
     "start": "2019-06-19T22:00:00.000Z",
     "end": "2019-06-20T22:00:00.000Z",
     "name": "Fronleichnam",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {

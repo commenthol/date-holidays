@@ -60,7 +60,7 @@
     "start": "2015-06-03T22:00:00.000Z",
     "end": "2015-06-04T22:00:00.000Z",
     "name": "Fronleichnam",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {
