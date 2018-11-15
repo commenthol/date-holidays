@@ -1,5 +1,5 @@
 {
-  "version": "2018-11-14",
+  "version": "2018-11-15",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -4186,10 +4186,10 @@
     },
     "CH": {
       "names": {
-        "en": "Switzerland",
         "de": "Schweiz",
         "fr": "Suisse",
-        "it": "Svizzera"
+        "it": "Svizzera",
+        "en": "Switzerland"
       },
       "langs": [
         "de",
@@ -4220,6 +4220,10 @@
         },
         "easter 50": {
           "_name": "easter 50"
+        },
+        "2nd sunday in May": {
+          "_name": "Mothers Day",
+          "type": "observance"
         },
         "08-01": {
           "name": {
@@ -15352,7 +15356,7 @@
         "et": "teine jõulupüha",
         "fi": "2. joulupäivä",
         "fo": "Fyrsti gerandisdagur eftir jóladag",
-        "fr": "Saint Etienne",
+        "fr": "Lendemain de Noël",
         "hr": "Svetog Stjepana",
         "hu": "Karácsony másnapja",
         "it": "Santo Stefano",
