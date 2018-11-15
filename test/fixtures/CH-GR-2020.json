@@ -20,7 +20,7 @@
     "start": "2020-03-18T23:00:00.000Z",
     "end": "2020-03-19T23:00:00.000Z",
     "name": "Josefstag",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {
@@ -76,7 +76,7 @@
     "start": "2020-06-10T22:00:00.000Z",
     "end": "2020-06-11T22:00:00.000Z",
     "name": "Fronleichnam",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {
@@ -92,7 +92,7 @@
     "start": "2020-08-14T22:00:00.000Z",
     "end": "2020-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Sat"
   },
   {
@@ -100,7 +100,7 @@
     "start": "2020-10-31T23:00:00.000Z",
     "end": "2020-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Sun"
   },
   {

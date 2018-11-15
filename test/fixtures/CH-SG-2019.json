@@ -68,7 +68,7 @@
     "start": "2019-08-14T22:00:00.000Z",
     "end": "2019-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {

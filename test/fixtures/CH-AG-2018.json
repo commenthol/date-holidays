@@ -92,7 +92,7 @@
     "start": "2018-10-31T23:00:00.000Z",
     "end": "2018-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {
