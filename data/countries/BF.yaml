@@ -1,0 +1,176 @@
+# @attrib https://fr.wikipedia.org/wiki/Burkina_Faso#F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s
+holidays:
+  BF:
+    names:
+      fr: Burkina Faso
+      en: Burkina Faso
+    langs:
+      - fr
+    zones:
+      - Africa/Abidjan
+    dayoff: ''
+    days:
+      01-01:
+        _name: 01-01
+      01-03:
+        name:
+          fr: Soulèvement populaire
+          en: Anniversary of the 1966 Upper Voltan coup d'état
+      03-08:
+        _name: 03-08
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      05-01:
+        _name: 05-01
+      08-05:
+        _name: Independence Day
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      12-11:
+        name:
+          fr: Fête nationale
+          en: Proclamation of the Republic
+      12-25:
+        _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    # states:
+      # '10':
+      #   name: Nord
+      #   regions:
+      #     LOR:
+      #       name: Loroum
+      #     PAS:
+      #       name: Passoré
+      #     YAT:
+      #       name: Yatenga
+      #     ZON:
+      #       name: Zondoma
+      # '11':
+      #   name: Plateau-Central
+      #   regions:
+      #     GAN:
+      #       name: Ganzourgou
+      #     KOW:
+      #       name: Kourwéogo
+      #     OUB:
+      #       name: Oubritenga
+      # '12':
+      #   name: Sahel
+      #   regions:
+      #     OUD:
+      #       name: Oudalan
+      #     SEN:
+      #       name: Séno
+      #     SOM:
+      #       name: Soum
+      #     YAG:
+      #       name: Yagha
+      # '13':
+      #   name: Sud-Ouest
+      #   regions:
+      #     BGR:
+      #       name: Bougouriba
+      #     IOB:
+      #       name: Ioba
+      #     NOU:
+      #       name: Noumbiel
+      #     PON:
+      #       name: Poni
+      # '01':
+      #   name: Boucle du Mouhoun
+      #   regions:
+      #     BAL:
+      #       name: Balé
+      #     BAN:
+      #       name: Banwa
+      #     KOS:
+      #       name: Kossi
+      #     MOU:
+      #       name: Mouhoun
+      #     NAY:
+      #       name: Nayala
+      #     SOR:
+      #       name: Sourou
+      # '02':
+      #   name: Cascades
+      #   regions:
+      #     COM:
+      #       name: Comoé
+      #     LER:
+      #       name: Léraba
+      # '03':
+      #   name: Centre
+      #   regions:
+      #     KAD:
+      #       name: Kadiogo
+      # '04':
+      #   name: Centre-Est
+      #   regions:
+      #     BLG:
+      #       name: Boulgou
+      #     KOP:
+      #       name: Koulpélogo
+      #     KOT:
+      #       name: Kouritenga
+      # '05':
+      #   name: Centre-Nord
+      #   regions:
+      #     BAM:
+      #       name: Bam
+      #     NAM:
+      #       name: Namentenga
+      #     SMT:
+      #       name: Sanmatenga
+      # '06':
+      #   name: Centre-Ouest
+      #   regions:
+      #     BLK:
+      #       name: Boulkiemdé
+      #     SIS:
+      #       name: Sissili
+      #     SNG:
+      #       name: Sanguié
+      #     ZIR:
+      #       name: Ziro
+      # '07':
+      #   name: Centre-Sud
+      #   regions:
+      #     BAZ:
+      #       name: Bazèga
+      #     NAO:
+      #       name: Nahouri
+      #     ZOU:
+      #       name: Zoundwéogo
+      # 08:
+      #   name: Est
+      #   regions:
+      #     GNA:
+      #       name: Gnagna
+      #     GOU:
+      #       name: Gourma
+      #     KMD:
+      #       name: Komondjari
+      #     KMP:
+      #       name: Kompienga
+      #     TAP:
+      #       name: Tapoa
+      # 09:
+      #   name: Hauts-Bassins
+      #   regions:
+      #     HOU:
+      #       name: Houet
+      #     KEN:
+      #       name: Kénédougou
+      #     TUI:
+      #       name: Tuy
