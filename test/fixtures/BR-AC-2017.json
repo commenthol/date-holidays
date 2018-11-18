@@ -83,16 +83,16 @@
     "date": "2017-06-15 00:00:00",
     "start": "2017-06-15T05:00:00.000Z",
     "end": "2017-06-16T05:00:00.000Z",
-    "name": "Aniversário do estado",
-    "type": "public",
+    "name": "Corpo de Deus",
+    "type": "optional",
     "_weekday": "Thu"
   },
   {
     "date": "2017-06-15 00:00:00",
     "start": "2017-06-15T05:00:00.000Z",
     "end": "2017-06-16T05:00:00.000Z",
-    "name": "Corpo de Deus",
-    "type": "optional",
+    "name": "Aniversário do estado",
+    "type": "public",
     "_weekday": "Thu"
   },
   {

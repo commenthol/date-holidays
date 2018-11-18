@@ -59,16 +59,16 @@
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T22:00:00.000Z",
     "end": "2016-05-08T22:00:00.000Z",
-    "name": "Fête de l'Iris",
-    "type": "public",
+    "name": "Fête des Mères",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T22:00:00.000Z",
     "end": "2016-05-08T22:00:00.000Z",
-    "name": "Fête des Mères",
-    "type": "observance",
+    "name": "Fête de l'Iris",
+    "type": "public",
     "_weekday": "Sun"
   },
   {

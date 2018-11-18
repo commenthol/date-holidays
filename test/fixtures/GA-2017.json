@@ -11,7 +11,7 @@
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T23:00:00.000Z",
     "end": "2017-04-17T23:00:00.000Z",
-    "name": "Journée des droits de la femme",
+    "name": "Lundi de Pâques",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -19,7 +19,7 @@
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T23:00:00.000Z",
     "end": "2017-04-17T23:00:00.000Z",
-    "name": "Lundi de Pâques",
+    "name": "Journée des droits de la femme",
     "type": "public",
     "_weekday": "Mon"
   },

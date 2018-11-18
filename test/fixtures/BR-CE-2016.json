@@ -19,7 +19,7 @@
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-25T03:00:00.000Z",
     "end": "2016-03-26T03:00:00.000Z",
-    "name": "Data magna do estado",
+    "name": "Sexta-Feira Santa",
     "type": "public",
     "_weekday": "Fri"
   },
@@ -27,7 +27,7 @@
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-25T03:00:00.000Z",
     "end": "2016-03-26T03:00:00.000Z",
-    "name": "Sexta-Feira Santa",
+    "name": "Data magna do estado",
     "type": "public",
     "_weekday": "Fri"
   },

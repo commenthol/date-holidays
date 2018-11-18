@@ -131,16 +131,16 @@
     "date": "2017-06-04 00:00:00",
     "start": "2017-06-04T00:00:00.000Z",
     "end": "2017-06-05T00:00:00.000Z",
-    "name": "Sjómannadagurinn",
-    "type": "observance",
+    "name": "Hvítasunnudagur",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2017-06-04 00:00:00",
     "start": "2017-06-04T00:00:00.000Z",
     "end": "2017-06-05T00:00:00.000Z",
-    "name": "Hvítasunnudagur",
-    "type": "public",
+    "name": "Sjómannadagurinn",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {

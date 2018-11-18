@@ -60,7 +60,7 @@
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-15T22:00:00.000Z",
     "end": "2017-04-16T22:00:00.000Z",
-    "name": "Pravoslavni Vaskrs",
+    "name": "Vaskrs",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -68,7 +68,7 @@
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-15T22:00:00.000Z",
     "end": "2017-04-16T22:00:00.000Z",
-    "name": "Vaskrs",
+    "name": "Pravoslavni Vaskrs",
     "type": "public",
     "_weekday": "Sun"
   },

@@ -81,17 +81,17 @@
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T22:00:00.000Z",
     "end": "2017-04-17T22:00:00.000Z",
-    "name": "вториот ден на Велигден",
-    "type": "optional",
-    "note": "Catholic believers",
+    "name": "Втор ден Велигден",
+    "type": "public",
     "_weekday": "Mon"
   },
   {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T22:00:00.000Z",
     "end": "2017-04-17T22:00:00.000Z",
-    "name": "Втор ден Велигден",
-    "type": "public",
+    "name": "вториот ден на Велигден",
+    "type": "optional",
+    "note": "Catholic believers",
     "_weekday": "Mon"
   },
   {

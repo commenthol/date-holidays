@@ -92,7 +92,7 @@
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T22:00:00.000Z",
     "end": "2017-04-17T22:00:00.000Z",
-    "name": "Pashkët Ortodokse",
+    "name": "Pashkët Katolike",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -100,7 +100,7 @@
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T22:00:00.000Z",
     "end": "2017-04-17T22:00:00.000Z",
-    "name": "Pashkët Katolike",
+    "name": "Pashkët Ortodokse",
     "type": "public",
     "_weekday": "Mon"
   },
