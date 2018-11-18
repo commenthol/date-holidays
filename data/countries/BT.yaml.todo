@@ -1,0 +1,103 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bhutan
+holidays:
+  BT:
+    names:
+      dz: འབྲུག་རྒྱལ་ཁབ་,
+      en: Kingdom of Bhutan
+    langs:
+      - dz
+    zones:
+      - Asia/Thimphu
+    dayoff: ''
+    days:
+      01-02:
+        name:
+          dz: ཉིན་ལོང་,
+          en: Winter solstice
+      02-21 P3D:
+        name:
+          en: King's Birthday
+      05-02:
+        name:
+          en: King Jigme Dorji Wangchuck's Birthday
+      06-02:
+        name:
+          en: Coronation of King Jigme Singye Wangchuck
+      06-15:
+        name:
+          en: Parinirvana of Buddha
+      07-10:
+        name:
+          en: Birthday of Guru Rinpoche
+      08-03:
+        name:
+          en: First Sermon of Buddha
+      september equinox:
+        name:
+          en: Blessed Rainy Day
+      10-06:
+        name:
+          en: Dashain
+      11-01:
+        name:
+          en: Coronation of King Jigme Khesar Namgyel Wangchuck
+      11-11:
+        name:
+          en: Birthday of King Jigme Singye Wangchuck
+      12-17:
+        name:
+          en: National Day
+      bhutanese 12-01:
+        name:
+          en: Traditional Day of Offering
+      bhutanese 01-01 P2D:
+        name:
+          dz: ལོ་གསར་,
+          en: Losar
+      bhutanese 04-10:
+        name:
+          en: Shabdrung Kuchoe
+      tibetan 09-22:
+        name:
+          en: Lhabab Duchen
+    # states:
+      # '11':
+      #   name: Paro
+      # '12':
+      #   name: Chukha
+      # '13':
+      #   name: Haa
+      # '14':
+      #   name: Samtse
+      # '15':
+      #   name: Thimphu
+      # '21':
+      #   name: Tsirang
+      # '22':
+      #   name: Dagana
+      # '23':
+      #   name: Punakha
+      # '24':
+      #   name: Wangdue Phodrang
+      # '31':
+      #   name: Sarpang
+      # '32':
+      #   name: Trongsa
+      # '33':
+      #   name: Bumthang
+      # '34':
+      #   name: Zhemgang
+      # '41':
+      #   name: Trashigang
+      # '42':
+      #   name: Mongar
+      # '43':
+      #   name: Pemagatshel
+      # '44':
+      #   name: Lhuntse
+      # '45':
+      #   name: Samdrup Jongkhar
+      # GA:
+      #   name: Gasa
+      # TY:
+      #   name: Trashiyangtse

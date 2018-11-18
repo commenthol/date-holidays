@@ -1,0 +1,116 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Afghanistan
+holidays:
+  AF:
+    names:
+      prs: جمهوری اسلامی افغانستان‬
+      ps: افغانستان اسلامي جمهوریت‬
+      en: Afghanistan
+    langs:
+      - prs
+      - ps
+    zones:
+      - Asia/Kabul
+    dayoff: ''
+    days:
+      02-15:
+        name:
+          en: Liberation Day
+      04-28:
+        name:
+          en: Mujahideen Victory Day
+          ps: سالروز پیروزی مجاهدین
+      05-01:
+        _name: 05-01
+      08-19:
+        name:
+          en: Afghan Independence Day
+          ps: د افغانستان د ازادی ورځ‬
+          prs: روز پیروزی افغانستان‬
+      # https://en.wikipedia.org/wiki/Solar_Hijri_calendar
+      solar hijri Farvardin 1:
+        name:
+          en: New Year's Day (Nowruz)
+      solar hijri Shahrivar 18:
+        name:
+          en: Martyrs' Day
+          ps: روز شهیدان
+      1 Muharram:
+        _name: 1 Muharram
+      10 Muharram:
+        _name: 10 Muharram
+      1 Shawwal:
+        _name: 1 Shawwal
+      9 Dhu al-Hijjah:
+        name:
+          en: Day of Arafa
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    # states:
+      # BAL:
+      #   name: Balkh
+      # BAM:
+      #   name: Bamyan
+      # BDG:
+      #   name: Badghis
+      # BDS:
+      #   name: Badakhshan
+      # BGL:
+      #   name: Baghlan
+      # DAY:
+      #   name: Daykundi
+      # FRA:
+      #   name: Farah
+      # FYB:
+      #   name: Faryab
+      # GHA:
+      #   name: Ghazni
+      # GHO:
+      #   name: Ghōr
+      # HEL:
+      #   name: Helmand
+      # HER:
+      #   name: Herat
+      # JOW:
+      #   name: Jowzjan
+      # KAB:
+      #   name: Kabul
+      # KAN:
+      #   name: Kandahar
+      # KAP:
+      #   name: Kapisa
+      # KDZ:
+      #   name: Kunduz
+      # KHO:
+      #   name: Khost
+      # KNR:
+      #   name: Kunar
+      # LAG:
+      #   name: Laghman
+      # LOG:
+      #   name: Logar
+      # NAN:
+      #   name: Nangarhar
+      # NIM:
+      #   name: Nimruz
+      # NUR:
+      #   name: Nuristan
+      # PAN:
+      #   name: Panjshir
+      # PAR:
+      #   name: Parwan
+      # PIA:
+      #   name: Paktia
+      # PKA:
+      #   name: Paktika
+      # SAM:
+      #   name: Samangan
+      # SAR:
+      #   name: Sar-e Pol
+      # TAK:
+      #   name: Takhar
+      # URU:
+      #   name: Urozgan
+      # WAR:
+      #   name: Maidan Wardak
+      # ZAB:
+      #   name: Zabul
