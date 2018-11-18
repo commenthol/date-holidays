@@ -1,0 +1,58 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bermuda
+holidays:
+  BM:
+    names:
+      en: Bermuda
+    langs:
+      - en
+    zones:
+      - Atlantic/Bermuda
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if saturday, sunday then next monday:
+        _name: 01-01
+        substitute: true
+        type: bank
+        note: Goverment offices close
+      easter -2:
+        _name: easter -2
+      friday before 06-01:
+        name:
+          en: Bermuda Day
+      3nd monday in June:
+        name:
+          en: National Heroes Day
+      thursday before 08-04:
+        name:
+          en: Emancipation Day
+      friday before 08-05:
+        name:
+          en: Somers' Day
+      monday after 09-01:
+        name:
+          en: Labour Day
+      11-11:
+        name:
+          en: Remembrance Day
+      substitutes 11-11 if saturday, sunday then next monday:
+        name:
+          en: Remembrance Day
+        substitute: true
+        type: bank
+        note: Goverment offices close
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if saturday then next monday if sunday then next tuesday:
+        _name: 12-25
+        substitute: true
+        type: bank
+        note: Goverment offices close
+      12-26:
+        _name: 12-26
+      substitutes 12-26 if saturday then next monday if sunday then next tuesday:
+        _name: 12-26
+        substitute: true
+        type: bank
+        note: Goverment offices close
