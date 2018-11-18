@@ -2147,6 +2147,60 @@
         }
       }
     },
+    "BH": {
+      "names": {
+        "ar": "مملكة البحرين",
+        "en": "Bahrain"
+      },
+      "langs": [
+        "ar"
+      ],
+      "zones": [
+        "Asia/Qatar"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "ar": "يوم العمال"
+          }
+        },
+        "12-16": {
+          "name": {
+            "ar": "اليوم الوطني",
+            "en": "National Day"
+          }
+        },
+        "12-17": {
+          "name": {
+            "ar": "يوم الجلوس",
+            "en": "Accession Day"
+          }
+        },
+        "1 Muharram": {
+          "_name": "1 Muharram"
+        },
+        "10 Muharram": {
+          "_name": "10 Muharram"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "9 Dhu al-Hijjah": {
+          "_name": "9 Dhu al-Hijjah"
+        },
+        "10 Dhu al-Hijjah P3D": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
     "BI": {
       "names": {
         "rn": "Republika y'Uburundi",
@@ -15369,6 +15423,7 @@
         "lv": "Ziemassvētki",
         "mg": "Krismasy",
         "mk": "Католички Божиќ",
+        "ms": "Hari Natal",
         "mt": "Il-Milied",
         "nl": "Kerstmis",
         "no": "Første Juledag",
@@ -15738,6 +15793,7 @@
         "ar": "رأس السنة الهجرية",
         "bs": "Nova hidžretska godina",
         "hr": "Nova hidžretska godina",
+        "ms": "Awal Tahun Hijrah",
         "sq": "Viti i Ri hixhri"
       }
     },
@@ -15747,42 +15803,6 @@
         "ar": "عاشوراء"
       }
     },
-    "1 Shawwal": {
-      "name": {
-        "en": "End of Ramadan (Eid al-Fitr)",
-        "am": "ዒድ አል ፈጥር",
-        "ar": "عيد الفطر",
-        "az": "Ramazan Bayramı",
-        "bs": "Ramazanski bajram",
-        "de": "Zuckerfest",
-        "fr": "Fête de fin du Ramadan",
-        "hr": "Ramazanski bajram",
-        "nl": "Suikerfeest (Eid al-Fitr)",
-        "mk": "Рамазан Бајрам",
-        "sq": "Fitër Bajrami",
-        "tr": "Ramazan Bayramı",
-        "sr": "Рамазански Бајрам",
-        "sw": "Idd-ul-Fitr"
-      }
-    },
-    "10 Dhu al-Hijjah": {
-      "name": {
-        "en": "Feast of the Sacrifice (Eid al-Adha)",
-        "am": "ዒድ አል አድሐ",
-        "ar": "عيد الأضحى",
-        "az": "Qurban Bayramı",
-        "bs": "Kurbanski bajram",
-        "de": "Opferfest",
-        "fr": "Fête du mouton",
-        "hr": "Kurban-bajram",
-        "nl": "Offerfeest (Eid Al-Adha)",
-        "mk": "Курбан Бајрам",
-        "sq": "Kurban Bajrami",
-        "tr": "Kurban Bayramı",
-        "sr": "Курбански Бајрам",
-        "sw": "Idd-ul-Azha"
-      }
-    },
     "12 Rabi al-awwal": {
       "name": {
         "en": "Birthday of Muhammad (Mawlid)",
@@ -15790,6 +15810,7 @@
         "ar": "المولد النبويّ",
         "bs": "Mevlud",
         "fr": "Mawlid",
+        "ms": "Maulidur Rasul",
         "sq": "Mevludi"
       }
     },
@@ -15798,6 +15819,7 @@
         "en": "Laylat al-Mi'raj",
         "ar": "الإسراء والمعراج",
         "bs": "Lejletul Mi'radž",
+        "ms": "Israk dan Mikraj",
         "sq": "Nata e Miraxhit",
         "tr": "Miraç Gecesi"
       }
@@ -15816,6 +15838,7 @@
         "am": "ረመዳን",
         "ar": "اليوم الأول من رمضان",
         "bs": "Prvi dan posta",
+        "ms": "Hari Pertama Berpuasa",
         "sq": "Dita e parë e agjërimit"
       }
     },
@@ -15825,6 +15848,50 @@
         "ar": "لیلة القدر",
         "bs": "Lejletul kadr",
         "sq": "Nata e Kadrit"
+      }
+    },
+    "1 Shawwal": {
+      "name": {
+        "en": "End of Ramadan (Eid al-Fitr)",
+        "am": "ዒድ አል ፈጥር",
+        "ar": "عيد الفطر",
+        "az": "Ramazan Bayramı",
+        "bs": "Ramazanski bajram",
+        "de": "Zuckerfest",
+        "fr": "Fête de fin du Ramadan",
+        "hr": "Ramazanski bajram",
+        "nl": "Suikerfeest (Eid al-Fitr)",
+        "mk": "Рамазан Бајрам",
+        "ms": "Hari Raya Aidil Fitri",
+        "sq": "Fitër Bajrami",
+        "tr": "Ramazan Bayramı",
+        "sr": "Рамазански Бајрам",
+        "sw": "Idd-ul-Fitr"
+      }
+    },
+    "9 Dhu al-Hijjah": {
+      "name": {
+        "en": "Arafat Day",
+        "ar": "يوم عرفة"
+      }
+    },
+    "10 Dhu al-Hijjah": {
+      "name": {
+        "en": "Feast of the Sacrifice (Eid al-Adha)",
+        "am": "ዒድ አል አድሐ",
+        "ar": "عيد الأضحى",
+        "az": "Qurban Bayramı",
+        "bs": "Kurbanski bajram",
+        "de": "Opferfest",
+        "fr": "Fête du mouton",
+        "hr": "Kurban-bajram",
+        "nl": "Offerfeest (Eid Al-Adha)",
+        "mk": "Курбан Бајрам",
+        "ms": "Hari Raya Aidil Adha",
+        "sq": "Kurban Bajrami",
+        "tr": "Kurban Bayramı",
+        "sr": "Курбански Бајрам",
+        "sw": "Idd-ul-Azha"
       }
     },
     "15 Nisan": {

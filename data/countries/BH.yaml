@@ -1,0 +1,47 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bahrain
+holidays:
+  BH:
+    names:
+      ar: مملكة البحرين
+      en: Bahrain
+    langs:
+      - ar
+    zones:
+      - Asia/Qatar
+    dayoff: ''
+    days:
+      01-01:
+        _name: 01-01
+      05-01:
+        _name: 05-01
+        name:
+          ar: يوم العمال
+      12-16:
+        name:
+          ar: اليوم الوطني
+          en: National Day
+      12-17:
+        name:
+          ar: يوم الجلوس
+          en: Accession Day
+      1 Muharram:
+        _name: 1 Muharram
+      10 Muharram:
+        _name: 10 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal:
+        _name: 1 Shawwal
+      9 Dhu al-Hijjah:
+        _name: 9 Dhu al-Hijjah
+      10 Dhu al-Hijjah P3D:
+        _name: 10 Dhu al-Hijjah
+    # regions:
+    #   '13':
+    #     name: Capital
+    #   '14':
+    #     name: Southern
+    #   '15':
+    #     name: Muharraq
+    #   '17':
+    #     name: Northern
