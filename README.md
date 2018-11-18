@@ -55,9 +55,10 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 135
+Countries: 136
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
+├── AE: دولة الإمارات العربية المتحدة
 ├── AG: Antigua & Barbuda
 │   └── 10: Barbuda
 ├── AI: Anguilla

@@ -1,5 +1,5 @@
 {
-  "version": "2018-08-27",
+  "version": "2018-11-18",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -89,6 +89,51 @@
               }
             }
           }
+        }
+      }
+    },
+    "AE": {
+      "names": {
+        "en": "United Arab Emirates",
+        "ar": "دولة الإمارات العربية المتحدة"
+      },
+      "langs": [
+        "ar"
+      ],
+      "zones": [
+        "Asia/Dubai"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01",
+          "name": {
+            "ar": "رأس السنة الميلادية"
+          }
+        },
+        "12-02": {
+          "name": {
+            "en": "National Day",
+            "ar": "اليوم الوطني"
+          }
+        },
+        "1 Muharram": {
+          "_name": "1 Muharram"
+        },
+        "1 Shawwal P3D": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah P3D": {
+          "_name": "10 Dhu al-Hijjah"
+        },
+        "27 Rajab": {
+          "_name": "27 Rajab"
+        },
+        "1 Ramadan": {
+          "_name": "1 Ramadan"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
         }
       }
     },
