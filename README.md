@@ -55,7 +55,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 138
+Countries: 139
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -107,6 +107,7 @@ Countries: 138
 ├── BG: България
 ├── BH: مملكة البحرين
 ├── BI: République du Burundi
+├── BJ: République du Bénin
 ├── BL: St. Barthélemy
 ├── BO: Bolivia
 ├── BQ: Caribisch Nederland
