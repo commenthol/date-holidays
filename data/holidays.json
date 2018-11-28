@@ -4633,10 +4633,20 @@
       },
       "states": {
         "ZH": {
-          "name": "Kanton Zürich"
+          "names": {
+            "en": "Canton of Zürich",
+            "de": "Kanton Zürich",
+            "fr": "Canton de Zurich",
+            "it": "Canton Zurigo"
+          }
         },
         "BE": {
-          "name": "Kanton Bern",
+          "names": {
+            "en": "Canton of Bern",
+            "de": "Kanton Bern",
+            "fr": "Canton de Berne",
+            "it": "Canton Berna"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4646,7 +4656,12 @@
           }
         },
         "LU": {
-          "name": "Kanton Luzern",
+          "names": {
+            "en": "Canton of Lucerne",
+            "de": "Kanton Luzern",
+            "fr": "Canton de Lucerne",
+            "it": "Canton Lucerna"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4681,7 +4696,12 @@
           }
         },
         "UR": {
-          "name": "Kanton Uri",
+          "names": {
+            "en": "Canton of Uri",
+            "de": "Kanton Uri",
+            "fr": "Canton d'Uri",
+            "it": "Canton Uri"
+          },
           "days": {
             "01-06": {
               "_name": "01-06"
@@ -4704,7 +4724,12 @@
           }
         },
         "SZ": {
-          "name": "Kanton Schwyz",
+          "names": {
+            "en": "Canton of Schwyz",
+            "de": "Kanton Schwyz",
+            "fr": "Canton de Schwytz",
+            "it": "Canton Svitto"
+          },
           "days": {
             "01-06": {
               "_name": "01-06"
@@ -4725,7 +4750,12 @@
           }
         },
         "OW": {
-          "name": "Kanton Obwalden",
+          "names": {
+            "en": "Canton of Obwalden",
+            "de": "Kanton Obwalden",
+            "fr": "Canton d'Obwald",
+            "it": "Canton Obvaldo"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4768,7 +4798,12 @@
           }
         },
         "NW": {
-          "name": "Kanton Nidwalden",
+          "names": {
+            "en": "Canton of Nidwalden",
+            "de": "Kanton Nidwalden",
+            "fr": "Canton de Nidwald",
+            "it": "Canton Nidvaldo"
+          },
           "days": {
             "03-19": {
               "_name": "03-19"
@@ -4800,7 +4835,12 @@
           }
         },
         "GL": {
-          "name": "Kanton Glarus",
+          "names": {
+            "en": "Canton of Glarus",
+            "de": "Kanton Glarus",
+            "fr": "Canton de Glaris",
+            "it": "Canton Glarona"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4834,7 +4874,12 @@
           }
         },
         "ZG": {
-          "name": "Kanton Zug",
+          "names": {
+            "en": "Canton of Zug",
+            "de": "Kanton Zug",
+            "fr": "Canton de Zoug",
+            "it": "Canton Zugo"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4870,7 +4915,12 @@
           }
         },
         "FR": {
-          "name": "Kanton Freiburg",
+          "names": {
+            "en": "Canton of Fribourg",
+            "de": "Kanton Freiburg",
+            "fr": "Canton de Fribourg",
+            "it": "Canton Friburgo"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4907,7 +4957,12 @@
           }
         },
         "SO": {
-          "name": "Kanton Solothurn",
+          "names": {
+            "en": "Canton of Solothurn",
+            "de": "Kanton Solothurn",
+            "fr": "Canton de Soleure",
+            "it": "Canton Soletta"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4940,10 +4995,20 @@
           }
         },
         "BS": {
-          "name": "Kanton Basel-Stadt"
+          "names": {
+            "en": "Canton of Basel-City",
+            "de": "Kanton Basel-Stadt",
+            "fr": "Canton de Bâle-Ville",
+            "it": "Canton Basilea Città"
+          }
         },
         "BL": {
-          "name": "Kanton Basel-Landschaft",
+          "names": {
+            "en": "Canton of Basel-Country",
+            "de": "Kanton Basel-Landschaft",
+            "fr": "Canton de Bâle-Campagne",
+            "it": "Canton Basilea Campagna"
+          },
           "days": {
             "easter 60": {
               "_name": "easter 60",
@@ -4952,7 +5017,12 @@
           }
         },
         "SH": {
-          "name": "Kanton Schaffhausen",
+          "names": {
+            "en": "Canton of Schaffhausen",
+            "de": "Kanton Schaffhausen",
+            "fr": "Canton de Schaffhouse",
+            "it": "Canton Sciaffusa"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -4964,10 +5034,20 @@
           }
         },
         "AR": {
-          "name": "Kanton Appenzell Ausserrhoden"
+          "names": {
+            "en": "Canton of Appenzell Outer Rhodes",
+            "de": "Kanton Appenzell Ausserrhoden",
+            "fr": "Canton d'Appenzell Rhodes-Extérieures",
+            "it": "Canton Appenzello Esterno"
+          }
         },
         "AI": {
-          "name": "Kanton Appenzell Innerrhoden",
+          "names": {
+            "en": "Canton of Appenzell Inner-Rhodes",
+            "de": "Kanton Appenzell Innerrhoden",
+            "fr": "Canton d'Appenzell Rhodes-Intérieures",
+            "it": "Canton Appenzello Interno"
+          },
           "days": {
             "easter 60": {
               "_name": "easter 60"
@@ -4981,7 +5061,12 @@
           }
         },
         "SG": {
-          "name": "Kanton St. Gallen",
+          "names": {
+            "en": "Canton of St. Gallen",
+            "de": "Kanton St. Gallen",
+            "fr": "Canton de Saint-Gall",
+            "it": "Canton San Gallo"
+          },
           "days": {
             "08-15": {
               "_name": "08-15",
@@ -4993,7 +5078,12 @@
           }
         },
         "GR": {
-          "name": "Kanton Graubünden",
+          "names": {
+            "en": "Canton of Grisons",
+            "de": "Kanton Graubünden",
+            "fr": "Canton des Grisons",
+            "it": "Cantone dei Grigioni"
+          },
           "days": {
             "01-06": {
               "_name": "01-06"
@@ -5017,7 +5107,12 @@
           }
         },
         "AG": {
-          "name": "Kanton Aargau",
+          "names": {
+            "en": "Canton of Aargau",
+            "de": "Kanton Aargau",
+            "fr": "Canton d'Argovie",
+            "it": "Canton Argovia"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -5037,7 +5132,12 @@
           }
         },
         "TG": {
-          "name": "Kanton Thurgau",
+          "names": {
+            "en": "Canton of Thurgau",
+            "de": "Kanton Thurgau",
+            "fr": "Canton de Thurgovie",
+            "it": "Canton Turgovia"
+          },
           "days": {
             "01-02": {
               "name": {
@@ -5047,7 +5147,12 @@
           }
         },
         "TI": {
-          "name": "Kanton Tessin",
+          "names": {
+            "en": "Canton of Ticino",
+            "de": "Kanton Tessin",
+            "fr": "Canton du Tessin",
+            "it": "Canton Ticino"
+          },
           "days": {
             "01-06": {
               "_name": "01-06"
@@ -5075,11 +5180,11 @@
           }
         },
         "VD": {
-          "name": "Kanton Waadt",
           "names": {
-            "de": "Kanton Waadt",
             "en": "Canton of Vaud",
-            "fr": "Canton de Vaud"
+            "de": "Kanton Waadt",
+            "fr": "Canton de Vaud",
+            "it": "Canton Vaud"
           },
           "days": {
             "01-02": {
@@ -5099,7 +5204,12 @@
           }
         },
         "VS": {
-          "name": "Kanton Wallis",
+          "names": {
+            "en": "Canton of Valais",
+            "de": "Kanton Wallis",
+            "fr": "Canton du Valais",
+            "it": "Canton Vallese"
+          },
           "days": {
             "03-19": {
               "_name": "03-19"
@@ -5129,7 +5239,12 @@
           }
         },
         "NE": {
-          "name": "Kanton Neuenburg",
+          "names": {
+            "en": "Canton of Neuchâtel",
+            "de": "Kanton Neuenburg",
+            "fr": "Canton de Neuchâtel",
+            "it": "Canton Neuchâtel"
+          },
           "days": {
             "01-01": {
               "_name": "01-01"
@@ -5155,11 +5270,11 @@
           }
         },
         "GE": {
-          "name": "Kanton Genf",
           "names": {
             "de": "Kanton Genf",
             "en": "Canton of Geneva",
-            "fr": "Canton de Genève"
+            "fr": "Canton de Genève",
+            "it": "Canton Ginevra"
           },
           "days": {
             "12-26": false,
@@ -5181,9 +5296,10 @@
         },
         "JU": {
           "names": {
+            "en": "Canton of Jura",
             "de": "Kanton Jura",
             "fr": "Canton du Jura",
-            "en": "Canton of Jura"
+            "it": "Canton Giura"
           },
           "days": {
             "01-02": {
