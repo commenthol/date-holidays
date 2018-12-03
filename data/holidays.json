@@ -10705,98 +10705,98 @@
       "dayoff": "sunday",
       "days": {
         "01-01": {
-          "_name": {
+          "name": {
             "en": "New Year's Day",
             "ph": "Araw ng Bagong Taon"
           },
           "note": "Regular Holiday"
         },
         "25-02": {
-          "_name": {
+          "name": {
             "en": "EDSA Revolution Anniversary",
             "ph": "Anibersaryo ng Rebolusyon sa EDSA"
           },
           "note": "Non-working Day"
         },
         "09-04": {
-          "_name": {
+          "name": {
             "en": "Day of Valor",
             "ph": "Araw ng Kagitingan"
           },
           "note": "Regular Holiday"
         },
         "01-05": {
-          "_name": {
+          "name": {
             "en": "Labour Day",
             "ph": "Araw ng mga Manggagawa"
           },
           "note": "Regular Holiday"
         },
         "12-06": {
-          "_name": {
+          "name": {
             "en": "Independence Day",
             "ph": "Araw ng Kalayaan"
           },
           "note": "Regular Holiday"
         },
         "21-08": {
-          "_name": {
+          "name": {
             "en": "Ninoy Aquino Day",
             "ph": "Araw ng Kabayanihan ni Ninoy Aquino"
           },
           "note": "Non-working Day"
         },
         "27-08": {
-          "_name": {
+          "name": {
             "en": "National Heroes' Day",
             "ph": "Araw ng mga Bayani"
           },
           "note": "Regular Holiday"
         },
         "01-11": {
-          "_name": {
+          "name": {
             "en": "All Saints' Day",
             "ph": "Undás; Todos los Santos; Araw ng mga Santo"
           },
           "note": "Non-working Day"
         },
         "02-11": {
-          "_name": {
+          "name": {
             "en": "All Souls Day",
             "ph": "Araw ng mga Kaluluwa"
           },
           "note": "Non-working Day"
         },
         "30-11": {
-          "_name": {
+          "name": {
             "en": "Bonifacio Day",
             "ph": "Araw ng Kapanganakan ni Bonifacio"
           },
           "note": "Regular Holiday"
         },
         "08-12": {
-          "_name": {
+          "name": {
             "en": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
             "ph": "Pagdiriwang ng Kalinis-linisang Paglilihi sa Mahal na Birheng Maria"
           },
           "note": "Non-working Day"
         },
         "25-12": {
-          "_name": {
+          "name": {
             "en": "Christmas Day",
             "ph": "Araw ng Pasko"
           },
           "note": "Regular Holiday"
         },
         "30-12": {
-          "_name": {
+          "name": {
             "en": "Rizal Day",
             "ph": "Paggunita sa Kamatayan ni Dr. Jose Rizal"
           },
           "note": "Regular Holiday"
         },
         "31-12": {
-          "_name": {
+          "name": {
             "en": "New Year's Eve",
             "ph": "Bisperas ng Bagong Taon"
           },
