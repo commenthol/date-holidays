@@ -1,9 +1,0 @@
-holidays:
-  BM:
-    names:
-      en: Bermuda
-    langs: []
-    zones:
-      - Atlantic/Bermuda
-    dayoff: ''
-    days: {}

@@ -1,0 +1,43 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Christmas_Island
+holidays:
+  CX:
+    names:
+      en: Christmas Island
+    langs:
+      - en
+      - ms
+    zones:
+      - Indian/Christmas
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      01-26:
+        name:
+          en: Australia Day
+      chinese 01-0-01 P2D:
+        name:
+          en: Chinese New Year
+          zh: 春节
+      4th monday in March:
+        _name: 05-01
+      easter -2:
+        _name: easter -2
+      04-25:
+        name:
+          en: Anzac Day
+      1 Shawwal:
+        _name: 1 Shawwal
+        name:
+          ms: Hari Raya Puasa
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        name:
+          ms: Hari Raya Haji
+      10-06:
+        name:
+          en: Territory Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26

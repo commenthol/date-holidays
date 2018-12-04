@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T16:00:00.000Z",
+    "end": "2016-01-01T16:00:00.000Z",
+    "name": "Awal Tahun Masihi",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-02-08 00:00:00",
+    "start": "2016-02-07T16:00:00.000Z",
+    "end": "2016-02-08T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-02-23 00:00:00",
+    "start": "2016-02-22T16:00:00.000Z",
+    "end": "2016-02-23T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-03-31 00:00:00",
+    "start": "2016-03-30T16:00:00.000Z",
+    "end": "2016-03-31T16:00:00.000Z",
+    "name": "Hari Angkatan Bersenjata Diraja Brunei",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-05-04 00:00:00 -0600",
+    "start": "2016-05-03T10:00:00.000Z",
+    "end": "2016-05-04T10:00:00.000Z",
+    "name": "Israk dan Mikraj",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-06-06 00:00:00 -0600",
+    "start": "2016-06-05T10:00:00.000Z",
+    "end": "2016-06-06T10:00:00.000Z",
+    "name": "Hari Pertama Berpuasa",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-06-22 00:00:00 -0600",
+    "start": "2016-06-21T10:00:00.000Z",
+    "end": "2016-06-22T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T10:00:00.000Z",
+    "end": "2016-07-08T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-07-15 00:00:00",
+    "start": "2016-07-14T16:00:00.000Z",
+    "end": "2016-07-15T16:00:00.000Z",
+    "name": "Hari Keputeraan KDYMM Sultan Brunei",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T10:00:00.000Z",
+    "end": "2016-09-11T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-10-02 00:00:00 -0600",
+    "start": "2016-10-01T10:00:00.000Z",
+    "end": "2016-10-02T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-11 00:00:00 -0600",
+    "start": "2016-12-10T10:00:00.000Z",
+    "end": "2016-12-11T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T16:00:00.000Z",
+    "end": "2016-12-25T16:00:00.000Z",
+    "name": "Hari Natal",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

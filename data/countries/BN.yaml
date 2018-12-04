@@ -1,0 +1,60 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Brunei
+holidays:
+  BN:
+    names:
+      ms: Negara Brunei Darussalam
+      en: Brunei
+    langs:
+      - ms
+      - en
+    zones:
+      - Asia/Brunei
+    dayoff: ''
+    days:
+      01-01:
+        _name: 01-01
+        name:
+          ms: Awal Tahun Masihi
+      02-23:
+        name:
+          en: National Day
+          ms: Hari Kebangsaan
+      03-31:
+        name:
+          en: Armed Forces Day
+          ms: Hari Angkatan Bersenjata Diraja Brunei
+      07-15:
+        name:
+          en: Sultan's Birthday
+          ms: Hari Keputeraan KDYMM Sultan Brunei
+      1 Ramadan:
+        _name: 1 Ramadan
+      17 Ramadan:
+        name:
+          en: Nuzul Al-Quran
+          ms: Hari Nuzul Al-Quran
+      1 Shawwal P3D:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      27 Rajab:
+        _name: 27 Rajab
+      12-25:
+        _name: 12-25
+      chinese 01-0-01:
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
+    # states:
+      # BE:
+      #   name: Belait
+      # BM:
+      #   name: Brunei-Muara
+      # TE:
+      #   name: Temburong
+      # TU:
+      #   name: Tutong

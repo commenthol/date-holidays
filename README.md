@@ -55,9 +55,10 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 133
+Countries: 141
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
+├── AE: دولة الإمارات العربية المتحدة
 ├── AG: Antigua & Barbuda
 │   └── 10: Barbuda
 ├── AI: Anguilla
@@ -102,9 +103,14 @@ Countries: 133
 │   ├── DE: Deutschsprachige Gemeinschaft
 │   ├── VLG: Vlaamse Gemeenschap
 │   └── WAL: Communauté française
+├── BF: Burkina Faso
 ├── BG: България
+├── BH: مملكة البحرين
 ├── BI: République du Burundi
+├── BJ: République du Bénin
 ├── BL: St. Barthélemy
+├── BM: Bermuda
+├── BN: Negara Brunei Darussalam
 ├── BO: Bolivia
 ├── BQ: Caribisch Nederland
 │   ├── BO: Bonaire
@@ -199,7 +205,11 @@ Countries: 133
 ├── CO: Colombia
 ├── CR: Costa Rica
 ├── CU: Cuba
+├── CV: República de Cabo Verde
+│   └── S: Sotavento Islands
+│       └── PR: Praia
 ├── CW: Curaçao
+├── CX: Christmas Island
 ├── CY: Κύπρος
 ├── CZ: Česká republika
 ├── DE: Deutschland

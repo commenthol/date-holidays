@@ -96,6 +96,7 @@ names:
       az: Qadınlar günü
       be: Мiжнародны жаночы дзень
       bg: Ден на жената
+      fr: Journée internationale des femmes
       hu: Nemzetközi nőnap
       hy: Կանանց տոն
       ro: Ziua Internationala a Femeii
@@ -178,7 +179,7 @@ names:
       mt: Santa Marija
       nl: O.L.V. Hemelvaart
       pl: Wniebowzięcie Najświętszej Maryi Panny
-      pt: Assunção
+      pt: Assunção de Maria
       ro: Adormirea Maicii Domnului
       sl: Marijino vnebovzetje
       sq: Shën Mëria e Gushtit
@@ -289,6 +290,7 @@ names:
       lv: Ziemassvētki
       mg: Krismasy
       mk: Католички Божиќ
+      ms: Hari Natal
       mt: Il-Milied
       nl: Kerstmis
       no: Første Juledag
@@ -381,6 +383,7 @@ names:
       fr: Mercredi des Cendres
       it: Ceneri
       is: Öskudagur
+      pt: Quarta-feira de Cinzas
       sw: Jumatano ya Majivu
   easter -7:  # Palm Sunday
     name:
@@ -624,43 +627,12 @@ names:
       ar: 'رأس السنة الهجرية'
       bs: Nova hidžretska godina
       hr: Nova hidžretska godina
+      ms: Awal Tahun Hijrah
       sq: Viti i Ri hixhri
   10 Muharram: # Day of Ashura
     name:
       en: Day of Ashura
       ar: 'عاشوراء'
-  1 Shawwal:  # End of Ramadan
-    name:
-      en: End of Ramadan (Eid al-Fitr)
-      am: ዒድ አል ፈጥር
-      ar: 'عيد الفطر'
-      az: Ramazan Bayramı
-      bs: Ramazanski bajram
-      de: Zuckerfest
-      fr: Fête de fin du Ramadan
-      hr: Ramazanski bajram
-      nl: Suikerfeest (Eid al-Fitr)
-      mk: Рамазан Бајрам
-      sq: Fitër Bajrami
-      tr: Ramazan Bayramı
-      sr: Рамазански Бајрам
-      sw: Idd-ul-Fitr
-  10 Dhu al-Hijjah: # Feast of the Sacrifice
-    name:
-      en: Feast of the Sacrifice (Eid al-Adha)
-      am: ዒድ አል አድሐ
-      ar: 'عيد الأضحى'
-      az: Qurban Bayramı
-      bs: Kurbanski bajram
-      de: Opferfest
-      fr: Fête du mouton
-      hr: Kurban-bajram
-      nl: Offerfeest (Eid Al-Adha)
-      mk: Курбан Бајрам
-      sq: Kurban Bajrami
-      tr: Kurban Bayramı
-      sr: Курбански Бајрам
-      sw: Idd-ul-Azha
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
       en: Birthday of Muhammad (Mawlid)
@@ -668,12 +640,14 @@ names:
       ar: 'المولد النبويّ'
       bs: Mevlud
       fr: Mawlid
+      ms: Maulidur Rasul
       sq: Mevludi
   27 Rajab:   # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
     name:
       en: Laylat al-Mi'raj
       ar: 'الإسراء والمعراج'
       bs: Lejletul Mi'radž
+      ms: Israk dan Mikraj
       sq: Nata e Miraxhit
       tr: Miraç Gecesi
   15 Shaban:  # Laylat al-Bara'at (Bara'at Night)
@@ -688,6 +662,7 @@ names:
       am: ረመዳን
       ar: 'اليوم الأول من رمضان'
       bs: Prvi dan posta
+      ms: Hari Pertama Berpuasa
       sq: Dita e parë e agjërimit
   27 Ramadan: # Laylat al-Qadr (Night of Power)
     name:
@@ -695,6 +670,44 @@ names:
       ar: 'لیلة القدر'
       bs: Lejletul kadr
       sq: Nata e Kadrit
+  1 Shawwal:  # End of Ramadan
+    name:
+      en: End of Ramadan (Eid al-Fitr)
+      am: ዒድ አል ፈጥር
+      ar: 'عيد الفطر'
+      az: Ramazan Bayramı
+      bs: Ramazanski bajram
+      de: Zuckerfest
+      fr: Fête de fin du Ramadan
+      hr: Ramazanski bajram
+      nl: Suikerfeest (Eid al-Fitr)
+      mk: Рамазан Бајрам
+      ms: Hari Raya Aidil Fitri
+      sq: Fitër Bajrami
+      tr: Ramazan Bayramı
+      sr: Рамазански Бајрам
+      sw: Idd-ul-Fitr
+  9 Dhu al-Hijjah: # Arafat Day
+    name:
+      en: Arafat Day
+      ar: يوم عرفة
+  10 Dhu al-Hijjah: # Feast of the Sacrifice
+    name:
+      en: Feast of the Sacrifice (Eid al-Adha)
+      am: ዒድ አል አድሐ
+      ar: 'عيد الأضحى'
+      az: Qurban Bayramı
+      bs: Kurbanski bajram
+      de: Opferfest
+      fr: Fête du mouton
+      hr: Kurban-bajram
+      nl: Offerfeest (Eid Al-Adha)
+      mk: Курбан Бајрам
+      ms: Hari Raya Aidil Adha
+      sq: Kurban Bajrami
+      tr: Kurban Bayramı
+      sr: Курбански Бајрам
+      sw: Idd-ul-Azha
 
   # jewish holidays
   15 Nisan: # Pesach

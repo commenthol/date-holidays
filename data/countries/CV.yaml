@@ -1,0 +1,107 @@
+# @attrib https://pt.wikipedia.org/wiki/Cabo_Verde#Feriados
+# @source http://www.governo.cv/documents/dia_do_municpio_da_praia.pdf
+holidays:
+  CV:
+    names:
+      pt: República de Cabo Verde
+      en: Cape Verde
+    langs:
+      - pt
+    zones:
+      - Atlantic/Cape_Verde
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      01-13:
+        name:
+          pt: Dia da Democracia
+          en: Democracy Day
+      01-20:
+        name:
+          pt: Dia dos Heróis Nacionais
+          en: Heroes' Day
+      easter -47:
+        _name: easter -47
+      easter -46:
+        _name: easter -46
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      05-01:
+        _name: 05-01
+      06-01:
+        name:
+          pt: Dia das Crianças
+          en: Children's Day
+      07-05:
+        _name: Independence Day
+      08-15:
+        _name: 08-15
+        name:
+          pt: Dia da Padroeira Nacional
+      09-12:
+        name:
+          pt: Dia Nacional
+          en: National Day
+      11-01:
+        _name: 11-01
+      12-25:
+        _name: 12-25
+    states:
+      # B:
+      #   name: Barlavento Islands
+      #   regions:
+      #     BV:
+      #       name: Boa Vista
+      #     PA:
+      #       name: Paul
+      #     PN:
+      #       name: Porto Novo
+      #     RB:
+      #       name: Ribeira Brava
+      #     RG:
+      #       name: Ribeira Grande
+      #     SL:
+      #       name: Sal
+      #     SV:
+      #       name: São Vicente
+      #     TS:
+      #       name: Tarrafal de São Nicolau
+      S:
+        name: Sotavento Islands
+        regions:
+          # BR:
+          #   name: Brava
+          # CA:
+          #   name: Santa Catarina
+          # CF:
+          #   name: Santa Catarina do Fogo
+          # CR:
+          #   name: Santa Cruz
+          # MA:
+          #   name: Maio
+          # MO:
+          #   name: Mosteiros
+          PR:
+            name: Praia
+            days:
+              05-19:
+                name:
+                  pt: Dia do Município da Praia
+          # RS:
+          #   name: Ribeira Grande de Santiago
+          # SD:
+          #   name: São Domingos
+          # SF:
+          #   name: São Filipe
+          # SM:
+          #   name: São Miguel
+          # SO:
+          #   name: São Lourenço dos Órgãos
+          # SS:
+          #   name: São Salvador do Mundo
+          # TA:
+          #   name: Tarrafal

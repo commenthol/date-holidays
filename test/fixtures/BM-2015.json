@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2015-01-01T04:00:00.000Z",
+    "end": "2015-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-03T03:00:00.000Z",
+    "end": "2015-04-04T03:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-29 00:00:00",
+    "start": "2015-05-29T03:00:00.000Z",
+    "end": "2015-05-30T03:00:00.000Z",
+    "name": "Bermuda Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-06-15 00:00:00",
+    "start": "2015-06-15T03:00:00.000Z",
+    "end": "2015-06-16T03:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-07-30 00:00:00",
+    "start": "2015-07-30T03:00:00.000Z",
+    "end": "2015-07-31T03:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-07-31 00:00:00",
+    "start": "2015-07-31T03:00:00.000Z",
+    "end": "2015-08-01T03:00:00.000Z",
+    "name": "Somers' Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-09-07 00:00:00",
+    "start": "2015-09-07T03:00:00.000Z",
+    "end": "2015-09-08T03:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-11-11 00:00:00",
+    "start": "2015-11-11T04:00:00.000Z",
+    "end": "2015-11-12T04:00:00.000Z",
+    "name": "Remembrance Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-25T04:00:00.000Z",
+    "end": "2015-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-12-26 00:00:00",
+    "start": "2015-12-26T04:00:00.000Z",
+    "end": "2015-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-12-28 00:00:00",
+    "start": "2015-12-28T04:00:00.000Z",
+    "end": "2015-12-29T04:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "bank",
+    "note": "Goverment offices close",
+    "substitute": true,
+    "_weekday": "Mon"
+  }
+]

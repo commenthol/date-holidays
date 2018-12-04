@@ -1,5 +1,11 @@
 # CHANGELOG
 
+v1.2.8-0
+- Fix name "Assunção de Maria" for "pt"
+- New country Cape Verde
+- New country Christmas Island
+- Add observed Advent Sundays to DE
+
 v1.2.7
 - Fix Norwegian holiday names
 - New country St. Helena

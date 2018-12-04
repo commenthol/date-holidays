@@ -92,6 +92,51 @@
         }
       }
     },
+    "AE": {
+      "names": {
+        "en": "United Arab Emirates",
+        "ar": "دولة الإمارات العربية المتحدة"
+      },
+      "langs": [
+        "ar"
+      ],
+      "zones": [
+        "Asia/Dubai"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01",
+          "name": {
+            "ar": "رأس السنة الميلادية"
+          }
+        },
+        "12-02": {
+          "name": {
+            "en": "National Day",
+            "ar": "اليوم الوطني"
+          }
+        },
+        "1 Muharram": {
+          "_name": "1 Muharram"
+        },
+        "1 Shawwal P3D": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah P3D": {
+          "_name": "10 Dhu al-Hijjah"
+        },
+        "27 Rajab": {
+          "_name": "27 Rajab"
+        },
+        "1 Ramadan": {
+          "_name": "1 Ramadan"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
+        }
+      }
+    },
     "AG": {
       "names": {
         "en": "Antigua & Barbuda"
@@ -1945,6 +1990,72 @@
         }
       }
     },
+    "BF": {
+      "names": {
+        "fr": "Burkina Faso",
+        "en": "Burkina Faso"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Africa/Abidjan"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-03": {
+          "name": {
+            "fr": "Soulèvement populaire",
+            "en": "Anniversary of the 1966 Upper Voltan coup d'état"
+          }
+        },
+        "03-08": {
+          "_name": "03-08"
+        },
+        "easter": {
+          "_name": "easter"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "08-05": {
+          "_name": "Independence Day"
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-11": {
+          "name": {
+            "fr": "Fête nationale",
+            "en": "Proclamation of the Republic"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
     "BG": {
       "names": {
         "bg": "България",
@@ -2036,6 +2147,60 @@
         }
       }
     },
+    "BH": {
+      "names": {
+        "ar": "مملكة البحرين",
+        "en": "Bahrain"
+      },
+      "langs": [
+        "ar"
+      ],
+      "zones": [
+        "Asia/Qatar"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "05-01": {
+          "_name": "05-01",
+          "name": {
+            "ar": "يوم العمال"
+          }
+        },
+        "12-16": {
+          "name": {
+            "ar": "اليوم الوطني",
+            "en": "National Day"
+          }
+        },
+        "12-17": {
+          "name": {
+            "ar": "يوم الجلوس",
+            "en": "Accession Day"
+          }
+        },
+        "1 Muharram": {
+          "_name": "1 Muharram"
+        },
+        "10 Muharram": {
+          "_name": "10 Muharram"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "9 Dhu al-Hijjah": {
+          "_name": "9 Dhu al-Hijjah"
+        },
+        "10 Dhu al-Hijjah P3D": {
+          "_name": "10 Dhu al-Hijjah"
+        }
+      }
+    },
     "BI": {
       "names": {
         "rn": "Republika y'Uburundi",
@@ -2107,6 +2272,73 @@
           "name": {
             "fr": "Jour l'élection des Sénateurs"
           }
+        }
+      }
+    },
+    "BJ": {
+      "names": {
+        "fr": "République du Bénin",
+        "en": "Benin"
+      },
+      "langs": [
+        "fr"
+      ],
+      "zones": [
+        "Africa/Lagos"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-10": {
+          "name": {
+            "fr": "Fête du Vodoun"
+          }
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "easter 1": {
+          "_name": "easter 1"
+        },
+        "easter 39": {
+          "_name": "easter 39"
+        },
+        "easter 49": {
+          "_name": "easter 49",
+          "type": "observance"
+        },
+        "easter 50": {
+          "_name": "easter 50"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "08-01": {
+          "_name": "Independence Day",
+          "name": {
+            "fr": "Fête Nationale"
+          }
+        },
+        "08-15": {
+          "_name": "08-15"
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
         }
       }
     },
@@ -2208,6 +2440,161 @@
         },
         "12-26": {
           "_name": "12-26"
+        }
+      }
+    },
+    "BM": {
+      "names": {
+        "en": "Bermuda"
+      },
+      "langs": [
+        "en"
+      ],
+      "zones": [
+        "Atlantic/Bermuda"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "substitutes 01-01 if saturday, sunday then next monday": {
+          "_name": "01-01",
+          "substitute": true,
+          "type": "bank",
+          "note": "Goverment offices close"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "friday before 06-01": {
+          "name": {
+            "en": "Bermuda Day"
+          }
+        },
+        "3nd monday in June": {
+          "name": {
+            "en": "National Heroes Day"
+          }
+        },
+        "thursday before 08-04": {
+          "name": {
+            "en": "Emancipation Day"
+          }
+        },
+        "friday before 08-05": {
+          "name": {
+            "en": "Somers' Day"
+          }
+        },
+        "monday after 09-01": {
+          "name": {
+            "en": "Labour Day"
+          }
+        },
+        "11-11": {
+          "name": {
+            "en": "Remembrance Day"
+          }
+        },
+        "substitutes 11-11 if saturday, sunday then next monday": {
+          "name": {
+            "en": "Remembrance Day"
+          },
+          "substitute": true,
+          "type": "bank",
+          "note": "Goverment offices close"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "substitutes 12-25 if saturday then next monday if sunday then next tuesday": {
+          "_name": "12-25",
+          "substitute": true,
+          "type": "bank",
+          "note": "Goverment offices close"
+        },
+        "12-26": {
+          "_name": "12-26"
+        },
+        "substitutes 12-26 if saturday then next monday if sunday then next tuesday": {
+          "_name": "12-26",
+          "substitute": true,
+          "type": "bank",
+          "note": "Goverment offices close"
+        }
+      }
+    },
+    "BN": {
+      "names": {
+        "ms": "Negara Brunei Darussalam",
+        "en": "Brunei"
+      },
+      "langs": [
+        "ms",
+        "en"
+      ],
+      "zones": [
+        "Asia/Brunei"
+      ],
+      "dayoff": "",
+      "days": {
+        "01-01": {
+          "_name": "01-01",
+          "name": {
+            "ms": "Awal Tahun Masihi"
+          }
+        },
+        "02-23": {
+          "name": {
+            "en": "National Day",
+            "ms": "Hari Kebangsaan"
+          }
+        },
+        "03-31": {
+          "name": {
+            "en": "Armed Forces Day",
+            "ms": "Hari Angkatan Bersenjata Diraja Brunei"
+          }
+        },
+        "07-15": {
+          "name": {
+            "en": "Sultan's Birthday",
+            "ms": "Hari Keputeraan KDYMM Sultan Brunei"
+          }
+        },
+        "1 Ramadan": {
+          "_name": "1 Ramadan"
+        },
+        "17 Ramadan": {
+          "name": {
+            "en": "Nuzul Al-Quran",
+            "ms": "Hari Nuzul Al-Quran"
+          }
+        },
+        "1 Shawwal P3D": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
+        },
+        "1 Muharram": {
+          "_name": "1 Muharram"
+        },
+        "12 Rabi al-awwal": {
+          "_name": "12 Rabi al-awwal"
+        },
+        "27 Rajab": {
+          "_name": "27 Rajab"
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "chinese 01-0-01": {
+          "name": {
+            "en": "Chinese New Year",
+            "ms": "Tahun Baru Cina"
+          }
         }
       }
     },
@@ -5038,6 +5425,96 @@
         }
       }
     },
+    "CV": {
+      "names": {
+        "pt": "República de Cabo Verde",
+        "en": "Cape Verde"
+      },
+      "langs": [
+        "pt"
+      ],
+      "zones": [
+        "Atlantic/Cape_Verde"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-13": {
+          "name": {
+            "pt": "Dia da Democracia",
+            "en": "Democracy Day"
+          }
+        },
+        "01-20": {
+          "name": {
+            "pt": "Dia dos Heróis Nacionais",
+            "en": "Heroes' Day"
+          }
+        },
+        "easter -47": {
+          "_name": "easter -47"
+        },
+        "easter -46": {
+          "_name": "easter -46"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter": {
+          "_name": "easter",
+          "type": "observance"
+        },
+        "05-01": {
+          "_name": "05-01"
+        },
+        "06-01": {
+          "name": {
+            "pt": "Dia das Crianças",
+            "en": "Children's Day"
+          }
+        },
+        "07-05": {
+          "_name": "Independence Day"
+        },
+        "08-15": {
+          "_name": "08-15",
+          "name": {
+            "pt": "Dia da Padroeira Nacional"
+          }
+        },
+        "09-12": {
+          "name": {
+            "pt": "Dia Nacional",
+            "en": "National Day"
+          }
+        },
+        "11-01": {
+          "_name": "11-01"
+        },
+        "12-25": {
+          "_name": "12-25"
+        }
+      },
+      "states": {
+        "S": {
+          "name": "Sotavento Islands",
+          "regions": {
+            "PR": {
+              "name": "Praia",
+              "days": {
+                "05-19": {
+                  "name": {
+                    "pt": "Dia do Município da Praia"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "CW": {
       "names": {
         "nl": "Curaçao",
@@ -5119,6 +5596,69 @@
         },
         "12-31 12:00": {
           "_name": "12-31"
+        }
+      }
+    },
+    "CX": {
+      "names": {
+        "en": "Christmas Island"
+      },
+      "langs": [
+        "en",
+        "ms"
+      ],
+      "zones": [
+        "Indian/Christmas"
+      ],
+      "dayoff": "sunday",
+      "days": {
+        "01-01": {
+          "_name": "01-01"
+        },
+        "01-26": {
+          "name": {
+            "en": "Australia Day"
+          }
+        },
+        "chinese 01-0-01 P2D": {
+          "name": {
+            "en": "Chinese New Year",
+            "zh": "春节"
+          }
+        },
+        "4th monday in March": {
+          "_name": "05-01"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "04-25": {
+          "name": {
+            "en": "Anzac Day"
+          }
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal",
+          "name": {
+            "ms": "Hari Raya Puasa"
+          }
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah",
+          "name": {
+            "ms": "Hari Raya Haji"
+          }
+        },
+        "10-06": {
+          "name": {
+            "en": "Territory Day"
+          }
+        },
+        "12-25": {
+          "_name": "12-25"
+        },
+        "12-26": {
+          "_name": "12-26"
         }
       }
     },
@@ -5412,6 +5952,30 @@
         "5th sunday before 12-25": {
           "name": {
             "de": "Totensonntag"
+          },
+          "type": "observance"
+        },
+        "4th sunday before 12-25": {
+          "name": {
+            "de": "1. Advent"
+          },
+          "type": "observance"
+        },
+        "3th sunday before 12-25": {
+          "name": {
+            "de": "2. Advent"
+          },
+          "type": "observance"
+        },
+        "2nd sunday before 12-25": {
+          "name": {
+            "de": "3. Advent"
+          },
+          "type": "observance"
+        },
+        "1st sunday before 12-25": {
+          "name": {
+            "de": "4. Advent"
           },
           "type": "observance"
         },
@@ -14965,6 +15529,7 @@
         "az": "Qadınlar günü",
         "be": "Мiжнародны жаночы дзень",
         "bg": "Ден на жената",
+        "fr": "Journée internationale des femmes",
         "hu": "Nemzetközi nőnap",
         "hy": "Կանանց տոն",
         "ro": "Ziua Internationala a Femeii",
@@ -15056,7 +15621,7 @@
         "mt": "Santa Marija",
         "nl": "O.L.V. Hemelvaart",
         "pl": "Wniebowzięcie Najświętszej Maryi Panny",
-        "pt": "Assunção",
+        "pt": "Assunção de Maria",
         "ro": "Adormirea Maicii Domnului",
         "sl": "Marijino vnebovzetje",
         "sq": "Shën Mëria e Gushtit"
@@ -15180,6 +15745,7 @@
         "lv": "Ziemassvētki",
         "mg": "Krismasy",
         "mk": "Католички Божиќ",
+        "ms": "Hari Natal",
         "mt": "Il-Milied",
         "nl": "Kerstmis",
         "no": "Første Juledag",
@@ -15276,6 +15842,7 @@
         "fr": "Mercredi des Cendres",
         "it": "Ceneri",
         "is": "Öskudagur",
+        "pt": "Quarta-feira de Cinzas",
         "sw": "Jumatano ya Majivu"
       }
     },
@@ -15550,6 +16117,7 @@
         "ar": "رأس السنة الهجرية",
         "bs": "Nova hidžretska godina",
         "hr": "Nova hidžretska godina",
+        "ms": "Awal Tahun Hijrah",
         "sq": "Viti i Ri hixhri"
       }
     },
@@ -15559,42 +16127,6 @@
         "ar": "عاشوراء"
       }
     },
-    "1 Shawwal": {
-      "name": {
-        "en": "End of Ramadan (Eid al-Fitr)",
-        "am": "ዒድ አል ፈጥር",
-        "ar": "عيد الفطر",
-        "az": "Ramazan Bayramı",
-        "bs": "Ramazanski bajram",
-        "de": "Zuckerfest",
-        "fr": "Fête de fin du Ramadan",
-        "hr": "Ramazanski bajram",
-        "nl": "Suikerfeest (Eid al-Fitr)",
-        "mk": "Рамазан Бајрам",
-        "sq": "Fitër Bajrami",
-        "tr": "Ramazan Bayramı",
-        "sr": "Рамазански Бајрам",
-        "sw": "Idd-ul-Fitr"
-      }
-    },
-    "10 Dhu al-Hijjah": {
-      "name": {
-        "en": "Feast of the Sacrifice (Eid al-Adha)",
-        "am": "ዒድ አል አድሐ",
-        "ar": "عيد الأضحى",
-        "az": "Qurban Bayramı",
-        "bs": "Kurbanski bajram",
-        "de": "Opferfest",
-        "fr": "Fête du mouton",
-        "hr": "Kurban-bajram",
-        "nl": "Offerfeest (Eid Al-Adha)",
-        "mk": "Курбан Бајрам",
-        "sq": "Kurban Bajrami",
-        "tr": "Kurban Bayramı",
-        "sr": "Курбански Бајрам",
-        "sw": "Idd-ul-Azha"
-      }
-    },
     "12 Rabi al-awwal": {
       "name": {
         "en": "Birthday of Muhammad (Mawlid)",
@@ -15602,6 +16134,7 @@
         "ar": "المولد النبويّ",
         "bs": "Mevlud",
         "fr": "Mawlid",
+        "ms": "Maulidur Rasul",
         "sq": "Mevludi"
       }
     },
@@ -15610,6 +16143,7 @@
         "en": "Laylat al-Mi'raj",
         "ar": "الإسراء والمعراج",
         "bs": "Lejletul Mi'radž",
+        "ms": "Israk dan Mikraj",
         "sq": "Nata e Miraxhit",
         "tr": "Miraç Gecesi"
       }
@@ -15628,6 +16162,7 @@
         "am": "ረመዳን",
         "ar": "اليوم الأول من رمضان",
         "bs": "Prvi dan posta",
+        "ms": "Hari Pertama Berpuasa",
         "sq": "Dita e parë e agjërimit"
       }
     },
@@ -15637,6 +16172,50 @@
         "ar": "لیلة القدر",
         "bs": "Lejletul kadr",
         "sq": "Nata e Kadrit"
+      }
+    },
+    "1 Shawwal": {
+      "name": {
+        "en": "End of Ramadan (Eid al-Fitr)",
+        "am": "ዒድ አል ፈጥር",
+        "ar": "عيد الفطر",
+        "az": "Ramazan Bayramı",
+        "bs": "Ramazanski bajram",
+        "de": "Zuckerfest",
+        "fr": "Fête de fin du Ramadan",
+        "hr": "Ramazanski bajram",
+        "nl": "Suikerfeest (Eid al-Fitr)",
+        "mk": "Рамазан Бајрам",
+        "ms": "Hari Raya Aidil Fitri",
+        "sq": "Fitër Bajrami",
+        "tr": "Ramazan Bayramı",
+        "sr": "Рамазански Бајрам",
+        "sw": "Idd-ul-Fitr"
+      }
+    },
+    "9 Dhu al-Hijjah": {
+      "name": {
+        "en": "Arafat Day",
+        "ar": "يوم عرفة"
+      }
+    },
+    "10 Dhu al-Hijjah": {
+      "name": {
+        "en": "Feast of the Sacrifice (Eid al-Adha)",
+        "am": "ዒድ አል አድሐ",
+        "ar": "عيد الأضحى",
+        "az": "Qurban Bayramı",
+        "bs": "Kurbanski bajram",
+        "de": "Opferfest",
+        "fr": "Fête du mouton",
+        "hr": "Kurban-bajram",
+        "nl": "Offerfeest (Eid Al-Adha)",
+        "mk": "Курбан Бајрам",
+        "ms": "Hari Raya Aidil Adha",
+        "sq": "Kurban Bajrami",
+        "tr": "Kurban Bayramı",
+        "sr": "Курбански Бајрам",
+        "sw": "Idd-ul-Azha"
       }
     },
     "15 Nisan": {

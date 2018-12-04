@@ -1,0 +1,72 @@
+# @attrib https://fr.wikipedia.org/wiki/B%C3%A9nin#F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s
+holidays:
+  BJ:
+    names:
+      fr: République du Bénin
+      en: Benin
+    langs:
+      - fr
+    zones:
+      - Africa/Lagos
+    dayoff: ''
+    days:
+      01-01:
+        _name: 01-01
+      01-10:
+        name:
+          fr: Fête du Vodoun
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+        type: observance
+      easter 50:
+        _name: easter 50
+      05-01:
+        _name: 05-01
+      08-01:
+        _name: Independence Day
+        name:
+          fr: Fête Nationale
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      12-25:
+        _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+    # states:
+      # AK:
+      #   name: Atakora
+      # AL:
+      #   name: Alibori
+      # AQ:
+      #   name: Atlantique
+      # BO:
+      #   name: Borgou
+      # CO:
+      #   name: Collines
+      # DO:
+      #   name: Donga
+      # KO:
+      #   name: Kouffo
+      # LI:
+      #   name: Littoral
+      # MO:
+      #   name: Mono
+      # OU:
+      #   name: Ouémé
+      # PL:
+      #   name: Plateau
+      # ZO:
+      #   name: Zou
