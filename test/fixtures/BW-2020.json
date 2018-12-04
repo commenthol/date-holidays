@@ -4,8 +4,8 @@
     "start": "2019-12-31T22:00:00.000Z",
     "end": "2020-01-01T22:00:00.000Z",
     "name": "New Year's Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Wed"
   },
   {
@@ -13,8 +13,8 @@
     "start": "2020-01-01T22:00:00.000Z",
     "end": "2020-01-02T22:00:00.000Z",
     "name": "New Year's Holiday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Thu"
   },
   {
@@ -30,8 +30,8 @@
     "start": "2020-04-10T22:00:00.000Z",
     "end": "2020-04-11T22:00:00.000Z",
     "name": "Easter Saturday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Sat"
   },
   {
@@ -47,8 +47,8 @@
     "start": "2020-04-12T22:00:00.000Z",
     "end": "2020-04-13T22:00:00.000Z",
     "name": "Easter Monday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Mon"
   },
   {
@@ -56,8 +56,8 @@
     "start": "2020-04-30T22:00:00.000Z",
     "end": "2020-05-01T22:00:00.000Z",
     "name": "Labour Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Fri"
   },
   {
@@ -73,8 +73,8 @@
     "start": "2020-05-20T22:00:00.000Z",
     "end": "2020-05-21T22:00:00.000Z",
     "name": "Ascension Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Thu"
   },
   {
@@ -82,8 +82,8 @@
     "start": "2020-06-30T22:00:00.000Z",
     "end": "2020-07-01T22:00:00.000Z",
     "name": "Sir Seretse Khama Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Wed"
   },
   {
@@ -91,8 +91,8 @@
     "start": "2020-07-19T22:00:00.000Z",
     "end": "2020-07-20T22:00:00.000Z",
     "name": "President’s Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Mon"
   },
   {
@@ -100,8 +100,8 @@
     "start": "2020-07-20T22:00:00.000Z",
     "end": "2020-07-21T22:00:00.000Z",
     "name": "President’s Day Holiday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Tue"
   },
   {
@@ -125,8 +125,8 @@
     "start": "2020-12-25T22:00:00.000Z",
     "end": "2020-12-26T22:00:00.000Z",
     "name": "Family Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Sat"
   }
 ]

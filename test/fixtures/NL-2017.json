@@ -100,8 +100,8 @@
     "start": "2017-09-18T22:00:00.000Z",
     "end": "2017-09-19T22:00:00.000Z",
     "name": "Prinsjesdag",
-    "note": "Scholen in Den Haag geven meestal 1 dag vrij",
     "type": "observance",
+    "note": "Scholen in Den Haag geven meestal 1 dag vrij",
     "_weekday": "Tue"
   },
   {

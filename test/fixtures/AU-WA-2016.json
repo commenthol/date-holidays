@@ -76,8 +76,8 @@
     "start": "2016-09-25T16:00:00.000Z",
     "end": "2016-09-26T16:00:00.000Z",
     "name": "Queen's Birthday",
-    "note": "Might be on a different day; is proclaimed by Governor",
     "type": "public",
+    "note": "Might be on a different day; is proclaimed by Governor",
     "_weekday": "Mon"
   },
   {

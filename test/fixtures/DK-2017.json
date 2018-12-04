@@ -83,16 +83,16 @@
     "date": "2017-06-05 00:00:00",
     "start": "2017-06-04T22:00:00.000Z",
     "end": "2017-06-05T22:00:00.000Z",
-    "name": "Grundlovsdag",
-    "type": "observance",
+    "name": "2. Pinsedag",
+    "type": "public",
     "_weekday": "Mon"
   },
   {
     "date": "2017-06-05 00:00:00",
     "start": "2017-06-04T22:00:00.000Z",
     "end": "2017-06-05T22:00:00.000Z",
-    "name": "2. Pinsedag",
-    "type": "public",
+    "name": "Grundlovsdag",
+    "type": "observance",
     "_weekday": "Mon"
   },
   {

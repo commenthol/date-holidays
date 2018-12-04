@@ -35,16 +35,16 @@
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T21:00:00.000Z",
     "end": "2016-05-01T21:00:00.000Z",
-    "name": "Tarptautinė darbo diena",
-    "type": "public",
+    "name": "Motinos diena",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T21:00:00.000Z",
     "end": "2016-05-01T21:00:00.000Z",
-    "name": "Motinos diena",
-    "type": "observance",
+    "name": "Tarptautinė darbo diena",
+    "type": "public",
     "_weekday": "Sun"
   },
   {

@@ -11,7 +11,7 @@
     "date": "2018-02-11 00:00:00",
     "start": "2018-02-10T23:00:00.000Z",
     "end": "2018-02-11T23:00:00.000Z",
-    "name": "Morsdag",
+    "name": "Fastelavn",
     "type": "observance",
     "_weekday": "Sun"
   },
@@ -19,7 +19,7 @@
     "date": "2018-02-11 00:00:00",
     "start": "2018-02-10T23:00:00.000Z",
     "end": "2018-02-11T23:00:00.000Z",
-    "name": "Fastelavn",
+    "name": "Morsdag",
     "type": "observance",
     "_weekday": "Sun"
   },

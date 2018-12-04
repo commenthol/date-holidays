@@ -76,8 +76,8 @@
     "start": "2019-08-10T22:00:00.000Z",
     "end": "2019-08-11T22:00:00.000Z",
     "name": "Eid Ul Adha",
-    "note": "tentative",
     "type": "public",
+    "note": "tentative",
     "_weekday": "Sun"
   },
   {
@@ -85,8 +85,8 @@
     "start": "2019-11-08T22:00:00.000Z",
     "end": "2019-11-09T22:00:00.000Z",
     "name": "Youman Nabi",
-    "note": "tentative",
     "type": "public",
+    "note": "tentative",
     "_weekday": "Sat"
   },
   {

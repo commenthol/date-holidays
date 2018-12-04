@@ -43,7 +43,7 @@
     "date": "2015-04-02 00:00:00",
     "start": "2015-04-02T03:00:00.000Z",
     "end": "2015-04-03T03:00:00.000Z",
-    "name": "Jueves Santo",
+    "name": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -51,7 +51,7 @@
     "date": "2015-04-02 00:00:00",
     "start": "2015-04-02T03:00:00.000Z",
     "end": "2015-04-03T03:00:00.000Z",
-    "name": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+    "name": "Jueves Santo",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -59,7 +59,7 @@
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-03T03:00:00.000Z",
     "end": "2015-04-04T03:00:00.000Z",
-    "name": "Viernes Santo",
+    "name": "Feriado Puente Turístico",
     "type": "public",
     "_weekday": "Fri"
   },
@@ -67,7 +67,7 @@
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-03T03:00:00.000Z",
     "end": "2015-04-04T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
+    "name": "Viernes Santo",
     "type": "public",
     "_weekday": "Fri"
   },

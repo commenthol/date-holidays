@@ -27,16 +27,16 @@
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T03:00:00.000Z",
     "end": "2019-04-22T03:00:00.000Z",
-    "name": "Páscoa",
-    "type": "observance",
+    "name": "Dia de Tiradentes",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2019-04-21 00:00:00",
     "start": "2019-04-21T03:00:00.000Z",
     "end": "2019-04-22T03:00:00.000Z",
-    "name": "Dia de Tiradentes",
-    "type": "public",
+    "name": "Páscoa",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
@@ -84,8 +84,8 @@
     "start": "2019-08-05T03:00:00.000Z",
     "end": "2019-08-06T03:00:00.000Z",
     "name": "Nossa Senhora das Neves",
-    "note": "Fundação do Estado em 1585 e dia da sua padroeira",
     "type": "public",
+    "note": "Fundação do Estado em 1585 e dia da sua padroeira",
     "_weekday": "Mon"
   },
   {

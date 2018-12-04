@@ -20,8 +20,8 @@
     "start": "2019-03-08T04:00:00.000Z",
     "end": "2019-03-08T16:00:00.000Z",
     "name": "国际妇女节",
-    "note": "Women",
     "type": "public",
+    "note": "Women",
     "_weekday": "Fri"
   },
   {
@@ -45,8 +45,8 @@
     "start": "2019-05-04T04:00:00.000Z",
     "end": "2019-05-04T16:00:00.000Z",
     "name": "青年节",
-    "note": "Youth from the age of 14 to 28",
     "type": "public",
+    "note": "Youth from the age of 14 to 28",
     "_weekday": "Sat"
   },
   {
@@ -54,8 +54,8 @@
     "start": "2019-05-31T16:00:00.000Z",
     "end": "2019-06-01T16:00:00.000Z",
     "name": "六一儿童节",
-    "note": "Children below the age of 14",
     "type": "public",
+    "note": "Children below the age of 14",
     "_weekday": "Sat"
   },
   {
@@ -71,8 +71,8 @@
     "start": "2019-08-01T04:00:00.000Z",
     "end": "2019-08-01T16:00:00.000Z",
     "name": "建军节",
-    "note": "Military personnel in active service",
     "type": "public",
+    "note": "Military personnel in active service",
     "_weekday": "Thu"
   },
   {

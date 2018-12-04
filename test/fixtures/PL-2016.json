@@ -59,16 +59,16 @@
     "date": "2016-05-26 00:00:00",
     "start": "2016-05-25T22:00:00.000Z",
     "end": "2016-05-26T22:00:00.000Z",
-    "name": "Dzień Matki",
-    "type": "observance",
+    "name": "Dzień Bożego Ciała",
+    "type": "public",
     "_weekday": "Thu"
   },
   {
     "date": "2016-05-26 00:00:00",
     "start": "2016-05-25T22:00:00.000Z",
     "end": "2016-05-26T22:00:00.000Z",
-    "name": "Dzień Bożego Ciała",
-    "type": "public",
+    "name": "Dzień Matki",
+    "type": "observance",
     "_weekday": "Thu"
   },
   {

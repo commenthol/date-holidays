@@ -94,8 +94,8 @@
     "start": "2020-09-27T14:00:00.000Z",
     "end": "2020-09-28T14:00:00.000Z",
     "name": "Family & Community Day",
-    "note": "rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays",
     "type": "public",
+    "note": "rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays",
     "_weekday": "Mon"
   },
   {

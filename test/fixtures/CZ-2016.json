@@ -67,16 +67,16 @@
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T22:00:00.000Z",
     "end": "2016-05-08T22:00:00.000Z",
-    "name": "Den vítězství or Den osvobození",
-    "type": "public",
+    "name": "Den matek",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T22:00:00.000Z",
     "end": "2016-05-08T22:00:00.000Z",
-    "name": "Den matek",
-    "type": "observance",
+    "name": "Den vítězství or Den osvobození",
+    "type": "public",
     "_weekday": "Sun"
   },
   {

@@ -68,8 +68,8 @@
     "start": "2020-07-30T22:00:00.000Z",
     "end": "2020-07-31T22:00:00.000Z",
     "name": "Eid Ul Adha",
-    "note": "tentative",
     "type": "public",
+    "note": "tentative",
     "_weekday": "Fri"
   },
   {
@@ -85,8 +85,8 @@
     "start": "2020-10-28T22:00:00.000Z",
     "end": "2020-10-29T22:00:00.000Z",
     "name": "Youman Nabi",
-    "note": "tentative",
     "type": "public",
+    "note": "tentative",
     "_weekday": "Thu"
   },
   {

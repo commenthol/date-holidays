@@ -84,8 +84,8 @@
     "start": "2015-09-24T04:00:00.000Z",
     "end": "2015-09-25T04:00:00.000Z",
     "name": "Eid Ul Adha",
-    "note": "tentative",
     "type": "public",
+    "note": "tentative",
     "_weekday": "Thu"
   },
   {
@@ -101,8 +101,8 @@
     "start": "2015-12-24T04:00:00.000Z",
     "end": "2015-12-25T04:00:00.000Z",
     "name": "Youman Nabi",
-    "note": "tentative",
     "type": "public",
+    "note": "tentative",
     "_weekday": "Thu"
   },
   {

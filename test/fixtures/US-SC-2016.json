@@ -163,17 +163,17 @@
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-26T05:00:00.000Z",
     "end": "2016-12-27T05:00:00.000Z",
-    "name": "Christmas Day (substitute day)",
+    "name": "Boxing Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-26T05:00:00.000Z",
     "end": "2016-12-27T05:00:00.000Z",
-    "name": "Boxing Day",
+    "name": "Christmas Day (substitute day)",
     "type": "public",
+    "substitute": true,
     "_weekday": "Mon"
   },
   {

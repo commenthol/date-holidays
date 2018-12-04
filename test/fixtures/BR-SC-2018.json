@@ -75,16 +75,16 @@
     "date": "2018-08-12 00:00:00",
     "start": "2018-08-12T03:00:00.000Z",
     "end": "2018-08-13T03:00:00.000Z",
-    "name": "Dia dos Pais",
-    "type": "observance",
+    "name": "Dia de Santa Catarina",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2018-08-12 00:00:00",
     "start": "2018-08-12T03:00:00.000Z",
     "end": "2018-08-13T03:00:00.000Z",
-    "name": "Dia de Santa Catarina",
-    "type": "public",
+    "name": "Dia dos Pais",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {

@@ -6,7 +6,6 @@ const fs = require('fs')
 const path = require('path')
 const assert = require('assert')
 const Holidays = require('..')
-const ht = require('hashtree').hashTree
 
 var writetests
 var _countries
@@ -41,16 +40,31 @@ function filename (name) {
   return file
 }
 
-var SORTORDER = [ 'date', 'start', 'end', 'name', 'type', 'substitute' ]
-function sorter (a, b) {
-  var _a = SORTORDER.indexOf(a)
-  var _b = SORTORDER.indexOf(b)
-  if (_a >= 0 && _b >= 0) {
-    return _a - _b
-  } else {
-    return a - b
-  }
+var SORTORDER = [ 'date', 'start', 'end', 'name', 'type', 'note', 'substitute' ]
+
+const sortObj = item => {
+  const o = {}
+  const keys = Object.keys(item).sort()
+  SORTORDER.forEach(key => {
+    if (key in item) o[key] = item[key]
+  })
+  keys.forEach(key => {
+    if (!o[key]) o[key] = item[key]
+  })
+  return o
 }
+
+const sortItems = (items) => items
+  .map(sortObj)
+  .sort((a, b) => {
+    const aStart = +a.start
+    const bStart = +b.start
+    if (aStart === bStart) {
+      return a.name.localeCompare(b.name)
+    } else {
+      return aStart - bStart
+    }
+  })
 
 function addWeekday (arr) {
   if (!Array.isArray(arr)) return arr
@@ -64,13 +78,6 @@ function addWeekday (arr) {
 
 function writeFile (name, obj) {
   if (writetests) {
-    if (Array.isArray(obj)) {
-      obj = obj.map((item) => {
-        item = JSON.parse(JSON.stringify(item))
-        return ht.sort(item, sorter)
-      })
-    }
-
     var file = filename(name)
     fs.writeFileSync(file, JSON.stringify(obj, null, 2), 'utf8')
   }
@@ -87,7 +94,8 @@ function test (year, country, state, region) {
       assert.ok(typeof res[i].name === 'string', 'translation missing for rule ' + i + ': ' + JSON.stringify(res[i]))
     }
 
-    res = addWeekday(res)
+    res = addWeekday(sortItems(res))
+    // res = addWeekday(res)
 
     writeFile(name, res)
     fs.readFile(filename(name), 'utf8', function (err, exp) {

@@ -67,16 +67,16 @@
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T21:00:00.000Z",
     "end": "2015-06-01T21:00:00.000Z",
-    "name": "Ziua Copilului",
-    "type": "observance",
+    "name": "Două zi de Rusalii",
+    "type": "public",
     "_weekday": "Mon"
   },
   {
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T21:00:00.000Z",
     "end": "2015-06-01T21:00:00.000Z",
-    "name": "Două zi de Rusalii",
-    "type": "public",
+    "name": "Ziua Copilului",
+    "type": "observance",
     "_weekday": "Mon"
   },
   {

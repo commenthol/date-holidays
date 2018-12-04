@@ -183,18 +183,18 @@
     "date": "2015-09-23 00:00:00 -0600",
     "start": "2015-09-22T16:00:00.000Z",
     "end": "2015-09-23T16:00:00.000Z",
-    "name": "Курбан Бајрам",
+    "name": "Јом Кипур",
     "type": "optional",
-    "note": "Muslim believers",
+    "note": "Jewish believers",
     "_weekday": "Wed"
   },
   {
     "date": "2015-09-23 00:00:00 -0600",
     "start": "2015-09-22T16:00:00.000Z",
     "end": "2015-09-23T16:00:00.000Z",
-    "name": "Јом Кипур",
+    "name": "Курбан Бајрам",
     "type": "optional",
-    "note": "Jewish believers",
+    "note": "Muslim believers",
     "_weekday": "Wed"
   },
   {

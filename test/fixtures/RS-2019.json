@@ -51,7 +51,7 @@
     "date": "2019-04-19 00:00:00",
     "start": "2019-04-18T22:00:00.000Z",
     "end": "2019-04-19T22:00:00.000Z",
-    "name": "Велики петак",
+    "name": "Католички Велики петак",
     "type": "optional",
     "note": "Catholic believers",
     "_weekday": "Fri"
@@ -69,17 +69,17 @@
     "date": "2019-04-22 00:00:00",
     "start": "2019-04-21T22:00:00.000Z",
     "end": "2019-04-22T22:00:00.000Z",
-    "name": "Католички Васкрсни понедељак",
-    "type": "optional",
-    "note": "Catholic believers",
+    "name": "Дан сећања на жртве холокауста",
+    "type": "observance",
     "_weekday": "Mon"
   },
   {
     "date": "2019-04-22 00:00:00",
     "start": "2019-04-21T22:00:00.000Z",
     "end": "2019-04-22T22:00:00.000Z",
-    "name": "Дан сећања на жртве холокауста",
-    "type": "observance",
+    "name": "Католички Васкрсни понедељак",
+    "type": "optional",
+    "note": "Catholic believers",
     "_weekday": "Mon"
   },
   {

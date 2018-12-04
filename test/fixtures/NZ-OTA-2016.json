@@ -37,8 +37,8 @@
     "start": "2016-03-20T11:00:00.000Z",
     "end": "2016-03-21T11:00:00.000Z",
     "name": "Provincial anniversary day",
-    "note": "varies if coincides with easter monday",
     "type": "public",
+    "note": "varies if coincides with easter monday",
     "_weekday": "Mon"
   },
   {

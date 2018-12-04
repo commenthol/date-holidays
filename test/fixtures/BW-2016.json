@@ -4,8 +4,8 @@
     "start": "2015-12-31T22:00:00.000Z",
     "end": "2016-01-01T22:00:00.000Z",
     "name": "New Year's Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Fri"
   },
   {
@@ -13,8 +13,8 @@
     "start": "2016-01-01T22:00:00.000Z",
     "end": "2016-01-02T22:00:00.000Z",
     "name": "New Year's Holiday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Sat"
   },
   {
@@ -30,8 +30,8 @@
     "start": "2016-03-25T22:00:00.000Z",
     "end": "2016-03-26T22:00:00.000Z",
     "name": "Easter Saturday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Sat"
   },
   {
@@ -47,8 +47,8 @@
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Easter Monday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Mon"
   },
   {
@@ -56,8 +56,8 @@
     "start": "2016-04-30T22:00:00.000Z",
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Labour Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Sun"
   },
   {
@@ -65,8 +65,8 @@
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
     "name": "Public Holiday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Mon"
   },
   {
@@ -74,8 +74,8 @@
     "start": "2016-05-04T22:00:00.000Z",
     "end": "2016-05-05T22:00:00.000Z",
     "name": "Ascension Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Thu"
   },
   {
@@ -91,8 +91,8 @@
     "start": "2016-06-30T22:00:00.000Z",
     "end": "2016-07-01T22:00:00.000Z",
     "name": "Sir Seretse Khama Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Fri"
   },
   {
@@ -100,8 +100,8 @@
     "start": "2016-07-17T22:00:00.000Z",
     "end": "2016-07-18T22:00:00.000Z",
     "name": "President’s Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Mon"
   },
   {
@@ -109,8 +109,8 @@
     "start": "2016-07-18T22:00:00.000Z",
     "end": "2016-07-19T22:00:00.000Z",
     "name": "President’s Day Holiday",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Tue"
   },
   {
@@ -134,8 +134,8 @@
     "start": "2016-12-25T22:00:00.000Z",
     "end": "2016-12-26T22:00:00.000Z",
     "name": "Family Day",
-    "note": "except mining industy",
     "type": "public",
+    "note": "except mining industy",
     "_weekday": "Mon"
   },
   {

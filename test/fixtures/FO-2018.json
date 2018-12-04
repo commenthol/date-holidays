@@ -92,8 +92,8 @@
     "start": "2018-07-28T11:00:00.000Z",
     "end": "2018-07-28T23:00:00.000Z",
     "name": "Sankt Olavsaften",
-    "note": "half-day holiday for some workers' unions",
     "type": "observance",
+    "note": "half-day holiday for some workers' unions",
     "_weekday": "Sat"
   },
   {
@@ -101,8 +101,8 @@
     "start": "2018-07-28T23:00:00.000Z",
     "end": "2018-07-29T23:00:00.000Z",
     "name": "Ólavsøka",
-    "note": "full holiday for most workers' unions",
     "type": "observance",
+    "note": "full holiday for most workers' unions",
     "_weekday": "Sun"
   },
   {
