@@ -45,6 +45,7 @@ names:
       no: Første nyttårsdag
       pap: Aña Nobo
       pl: Nowy Rok
+      ph: Araw ng Bagong Taon
       pt: Ano Novo
       ro: Anul nou
       ru: Новый год
@@ -144,6 +145,7 @@ names:
       mt: Jum il-Ħaddiem
       pap: Dia di Obrero
       pl: Święto Pracy
+      ph: Araw ng mga Manggagawa
       pt: Dia do trabalhador
       ro: Ziua muncii
       sk: Sviatok práce
@@ -197,6 +199,7 @@ names:
       mk: Празникот на сите светци
       nl: Allerheiligen
       pl: Wszystkich Świętych
+      ph: Undás; Todos los Santos; Araw ng mga Santo
       pt: Todos os santos
       sk: Sviatok všetkých svätých
       sq: Të gjitha Saints
@@ -211,6 +214,7 @@ names:
       fr: Fête des morts
       hr: Dušni dan
       nl: Allerzielen
+      ph: Araw ng mga Kaluluwa
       pt: Dia de Finados
   11-11:
     name:
@@ -290,6 +294,7 @@ names:
       no: Første Juledag
       pap: Dia Pasco di Nascimento
       pl: Pierwszy dzień Bożego Narodzenia
+      ph: Araw ng Pasko
       pt: Natal
       ro: Crăciunul
       ru: Рождество Христово
@@ -346,6 +351,7 @@ names:
       lv: Vecgada vakars
       nl: Oudejaarsavond
       no: Nyttårsaften
+      ph: Bisperas ng Bagong Taon
       pt: Véspera de Ano Novo
       sv: Nyårsafton
 
@@ -769,6 +775,7 @@ names:
       mt: Jum l-Indipendenza
       nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
+      ph: Araw ng Kalayaan
       pt: Dia da Independência
       ro: Ziua Independentei
       sq: Dita e Pavarësisë

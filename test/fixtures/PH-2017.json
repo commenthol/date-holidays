@@ -1,0 +1,120 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T16:00:00.000Z",
+    "end": "2017-01-01T16:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-02-25 00:00:00",
+    "start": "2017-02-24T16:00:00.000Z",
+    "end": "2017-02-25T16:00:00.000Z",
+    "name": "EDSA Revolution Anniversary",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-04-09 00:00:00",
+    "start": "2017-04-08T16:00:00.000Z",
+    "end": "2017-04-09T16:00:00.000Z",
+    "name": "Day of Valor",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T16:00:00.000Z",
+    "end": "2017-05-01T16:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-06-12 00:00:00",
+    "start": "2017-06-11T16:00:00.000Z",
+    "end": "2017-06-12T16:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-08-21 00:00:00",
+    "start": "2017-08-20T16:00:00.000Z",
+    "end": "2017-08-21T16:00:00.000Z",
+    "name": "Ninoy Aquino Day",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-08-27 00:00:00",
+    "start": "2017-08-26T16:00:00.000Z",
+    "end": "2017-08-27T16:00:00.000Z",
+    "name": "National Heroes' Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-11-01 00:00:00",
+    "start": "2017-10-31T16:00:00.000Z",
+    "end": "2017-11-01T16:00:00.000Z",
+    "name": "All Saints' Day",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-11-02 00:00:00",
+    "start": "2017-11-01T16:00:00.000Z",
+    "end": "2017-11-02T16:00:00.000Z",
+    "name": "All Souls' Day",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-11-30 00:00:00",
+    "start": "2017-11-29T16:00:00.000Z",
+    "end": "2017-11-30T16:00:00.000Z",
+    "name": "Bonifacio Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-08 00:00:00",
+    "start": "2017-12-07T16:00:00.000Z",
+    "end": "2017-12-08T16:00:00.000Z",
+    "name": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T16:00:00.000Z",
+    "end": "2017-12-25T16:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-12-30 00:00:00",
+    "start": "2017-12-29T16:00:00.000Z",
+    "end": "2017-12-30T16:00:00.000Z",
+    "name": "Rizal Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-12-31 00:00:00",
+    "start": "2017-12-30T16:00:00.000Z",
+    "end": "2017-12-31T16:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Sun"
+  }
+]
