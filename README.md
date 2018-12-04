@@ -55,7 +55,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 141
+Countries: 142
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -330,6 +330,7 @@ Countries: 141
 ├── PA: Panamá
 ├── PE: Perú
 │   └── CUS: Cuzco
+├── PH: Philippines
 ├── PL: Polska
 ├── PT: Portugal
 ├── PY: Paraguay
