@@ -27,7 +27,7 @@ If you like to add or change data please take a look at [holidays.yaml specifica
    ```
    npm test
    ```
-7. If a new country was added there might be failing tests in Step 5.  
+7. If a new country was added there might be failing tests in Step 6.
    Generate these with:
    ```
    npx mocha test/all.mocha.js --writetests
