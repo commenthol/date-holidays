@@ -1,5 +1,5 @@
 {
-  "version": "2018-12-04",
+  "version": "2018-12-11",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -7404,6 +7404,11 @@
               "substitute": true,
               "name": {
                 "en": "Battle of the Boyne"
+              }
+            },
+            "1st monday before 09-01": {
+              "name": {
+                "en": "Summer bank holiday"
               }
             }
           }

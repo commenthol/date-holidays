@@ -398,6 +398,9 @@ holidays:
             substitute: true
             name:
               en: Battle of the Boyne
+          1st monday before 09-01:
+            name:
+              en: Summer bank holiday
         # regions:
           # ABC:
           #   name: 'Armagh, Banbridge and Craigavon'
