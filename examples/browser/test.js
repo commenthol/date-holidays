@@ -3,7 +3,7 @@
 ;(function () {
   var WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   var year = new Date().getFullYear()
-  var g = {year: year}
+  var g = { year: year }
 
   function select (id, fn) {
     var el = document.getElementById(id)
@@ -63,7 +63,7 @@
     var cs = hd.getCountries()
     var s = select('country', selectState)
     s.render(cs, code)
-    if (code) s.onChange({target: {value: code}})
+    if (code) s.onChange({ target: { value: code } })
   }
   function selectState () {
     var hd = new Holidays()
