@@ -1,6 +1,6 @@
 # Specification for `holidays.yaml`
 
-Version: 1.1.0
+Version: 1.3.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
@@ -27,6 +27,7 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Observe the holiday as well as on a substitute day, if date falls on a certain weekday](#observe-the-holiday-as-well-as-on-a-substitute-day-if-date-falls-on-a-certain-weekday)
   * [Enable Date only for odd/ even numbered years](#enable-date-only-for-odd-even-numbered-years)
   * [Enable Date only for certain periods of years](#enable-date-only-for-certain-periods-of-years)
+  * [Enable Date only for certain weekdays](#enable-date-only-for-certain-weekdays)
   * [Holiday based on other holidays (bridge days)](#holiday-based-on-other-holidays-bridge-days)
   * [Enabling a rule since or in certain years](#enabling-a-rule-since-or-in-certain-years)
   * [Disabling a rule](#disabling-a-rule)
@@ -407,6 +408,15 @@ Rule: `MM-DD every <count> years since <year>`
 **Examples**:
 
 - `12-01 every 6 years since 1980` if year is within a 6 years period from 1980 on December 1st will be a holiday (e.g. for 1986, 1992, 1998, ...)
+
+### Enable Date only for certain weekdays
+
+Rule: `MM-DD (not) on <weekday>`
+
+**Examples**:
+
+- `02-01 on monday, tuesday` February, 1st is a holiday only if weekday is a Monday or Tuesday
+- `12-26 not on friday, monday` December, 26nd is a holiday only if weekday is *not* Monday or Friday
 
 ### Holiday based on other holidays (bridge days)
 
