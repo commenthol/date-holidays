@@ -5246,11 +5246,8 @@
             "it": "Canton Neuchâtel"
           },
           "days": {
-            "01-01": {
-              "_name": "01-01"
-            },
             "01-01 if sunday then next monday": {
-              "_name": "02-01"
+              "_name": "01-01"
             },
             "easter 1": {
               "_name": "easter 1",
@@ -5265,7 +5262,7 @@
               "type": "optional"
             },
             "12-25 if sunday then next monday": {
-              "_name": "12-16"
+              "_name": "12-26"
             }
           }
         },
