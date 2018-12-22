@@ -8,6 +8,22 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2016-01-02 00:00:00",
+    "start": "2016-01-01T23:00:00.000Z",
+    "end": "2016-01-02T23:00:00.000Z",
+    "name": "Berchtoldstag",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-03-01 00:00:00",
+    "start": "2016-02-29T23:00:00.000Z",
+    "end": "2016-03-01T23:00:00.000Z",
+    "name": "Jahrestag Ausrufung der Republik",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2016-03-25 00:00:00",
     "start": "2016-03-24T23:00:00.000Z",
     "end": "2016-03-25T23:00:00.000Z",
@@ -28,8 +44,16 @@
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Ostermontag",
-    "type": "optional",
+    "type": "public",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T22:00:00.000Z",
+    "end": "2016-05-01T22:00:00.000Z",
+    "name": "Tag der Arbeit",
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-05-05 00:00:00",
@@ -48,11 +72,19 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2016-05-15 00:00:00",
+    "start": "2016-05-14T22:00:00.000Z",
+    "end": "2016-05-15T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2016-05-16 00:00:00",
     "start": "2016-05-15T22:00:00.000Z",
     "end": "2016-05-16T22:00:00.000Z",
     "name": "Pfingstmontag",
-    "type": "optional",
+    "type": "observance",
     "_weekday": "Mon"
   },
   {
@@ -60,15 +92,39 @@
     "start": "2016-05-25T22:00:00.000Z",
     "end": "2016-05-26T22:00:00.000Z",
     "name": "Fronleichnam",
-    "type": "optional",
+    "type": "public",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2016-06-05 00:00:00",
+    "start": "2016-06-04T22:00:00.000Z",
+    "end": "2016-06-05T22:00:00.000Z",
+    "name": "Vätertag",
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-08-01 00:00:00",
     "start": "2016-07-31T22:00:00.000Z",
     "end": "2016-08-01T22:00:00.000Z",
-    "name": "Bundesfeier",
+    "name": "Bundesfeiertag",
     "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-09-18 00:00:00",
+    "start": "2016-09-17T22:00:00.000Z",
+    "end": "2016-09-18T22:00:00.000Z",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-09-19 00:00:00",
+    "start": "2016-09-18T22:00:00.000Z",
+    "end": "2016-09-19T22:00:00.000Z",
+    "name": "Bettagsmontag",
+    "type": "optional",
     "_weekday": "Mon"
   },
   {
@@ -78,14 +134,6 @@
     "name": "Weihnachtstag",
     "type": "public",
     "_weekday": "Sun"
-  },
-  {
-    "date": "2016-12-26 00:00:00",
-    "start": "2016-12-25T23:00:00.000Z",
-    "end": "2016-12-26T23:00:00.000Z",
-    "name": "2. Weihnachtstag",
-    "type": "public",
-    "_weekday": "Mon"
   },
   {
     "date": "2016-12-26 00:00:00",

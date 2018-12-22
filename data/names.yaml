@@ -65,6 +65,7 @@ names:
       da: Åbenbaring
       de: Heilige Drei Könige
       # de: Erscheinung des Herrn
+      de-ch: Dreikönigstag
       es: Día de los Reyes Magos
       # es: Epifanía del Señor
       et: kolmekuningapäev
@@ -160,6 +161,7 @@ names:
   06-29:
     name:
       en: Saints Peter and Paul
+      de: Peter und Paul
       es: San Pedro y San Pablo
       fr: Saint Pierre et Paul
       it: Santi Pietro e Paolo
@@ -250,6 +252,7 @@ names:
       et: jõululaupäev
       fo: Jólaaftan
       fi: Jouluaatto
+      fr: Veille de Noël
       hr: Badnji dan
       is: Aðfangadagur
       kl: juulliaraq
@@ -273,6 +276,7 @@ names:
       cz: 1. svátek vánoční
       da: 1. Juledag
       de: Weihnachten
+      de-ch: Weihnachtstag
       el: Χριστούγεννα
       es: Navidad
       et: esimene jõulupüha
@@ -310,11 +314,12 @@ names:
   12-26:
     name:
       en: Boxing Day
-      de-at: Stefanitag
       bg: 2-ри ден на Коледа
       cz: 2. svátek vánoční
       da: 2. Juledag
       de: 2. Weihnachtstag
+      de-at: Stefanitag
+      de-ch: Stephanstag
       el: Δεύτερη μέρα των Χριστουγέννων
       es: San Esteban
       et: teine jõulupüha

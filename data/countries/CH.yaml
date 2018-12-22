@@ -1,5 +1,10 @@
 holidays:
+  # @source http://www.datumsrechner.de/FeiertageSchweiz.pdf
+  # @source https://www.ch.ch/de/ferien-und-feiertage/
+  # @source https://www.ejpd.admin.ch/dam/data/bj/publiservice/service/zivilprozessrecht/kant-feiertage.pdf
+  # @attrib https://fr.wikipedia.org/wiki/Jours_f%C3%A9ri%C3%A9s_en_Suisse
   # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_der_Schweiz
+  # @source https://fr.wikipedia.org/wiki/Berchtoldstag
   CH:
     names:
       de: Schweiz
@@ -7,6 +12,7 @@ holidays:
       it: Svizzera
       en: Switzerland
     langs:
+      - de-ch
       - de
       - fr
       - it
@@ -25,15 +31,31 @@ holidays:
         _name: easter 39
         name:
           de: Auffahrt
+      easter 49:
+        _name: easter 49
       easter 50:
         _name: easter 50
       2nd sunday in May:
         _name: Mothers Day
         type: observance
+      1st sunday in June:
+        name:
+          de: Vätertag
+          fr: fête des pères
+        type: observance
+        active:
+          - from: '2009-01-01'
       08-01:
         name:
-          de: Bundesfeier
+          de: Bundesfeiertag
           fr: Fête nationnale
+          it: Giorno festivo federale
+      3 sunday after 09-01:
+        name:
+          de: Eidg. Dank-, Buss- und Bettag
+          fr: Jeûne fédéral
+          it: Digiuno federale
+          en: Federal Prayday
       12-25:
         _name: 12-25
         name:
@@ -42,6 +64,7 @@ holidays:
         _name: 12-26
         name:
           de: Stephanstag
+          fr: Saint-Etienne
     states:
       ZH:
         names:
@@ -49,6 +72,20 @@ holidays:
           de: Kanton Zürich
           fr: Canton de Zurich
           it: Canton Zurigo
+        days:
+          01-02:
+            name:
+              de: Berchtoldstag
+              fr: Saint-Berthold
+            type: optional
+          05-01:
+            _name: 05-01
+          easter 50:
+            _name: easter 50
+          monday after 2nd saturday in September 13:00:
+            name:
+              de: Knabenschiessen
+            type: optional
       BE:
         names:
           en: Canton of Bern
@@ -59,6 +96,7 @@ holidays:
           01-02:
             name:
               de: Berchtoldstag
+              fr: 2 janvier
       LU:
         names:
           en: Canton of Lucerne
@@ -73,6 +111,7 @@ holidays:
             type: optional
           03-19:
             _name: 03-19
+            type: observance
           easter 1:
             _name: easter 1
             type: optional
@@ -106,6 +145,9 @@ holidays:
             _name: 11-01
           12-08:
             _name: 12-08
+          12-26: false
+          12-26 not on monday, friday:
+            _name: 12-26
       SZ:
         names:
           en: Canton of Schwyz
@@ -123,7 +165,8 @@ holidays:
             _name: 08-15
           11-01:
             _name: 11-01
-            type: optional
+          12-08:
+            _name: 12-08
       OW:
         names:
           en: Canton of Obwalden
@@ -148,7 +191,7 @@ holidays:
             _name: 08-15
           09-25:
             name:
-              de: Niklaus von Flüe
+              de: Bruderklausenfest
               fr: Saint-Nicholas-de-Flüe
               en: Saint Nicholas of Flüe
           11-01:
@@ -165,6 +208,11 @@ holidays:
           fr: Canton de Nidwald
           it: Canton Nidvaldo
         days:
+          01-02:
+            name:
+              de: Berchtoldstag
+              fr: Saint-Berthold
+            type: bank
           03-19:
             _name: 03-19
           easter 1:
@@ -200,18 +248,8 @@ holidays:
             name:
               de: Fahrtsfest
               fr: Bataille de Näfels
-          08-15:
-            _name: 08-15
-            type: optional
-          monday after 3 sunday after 09-01:
-            name:
-              de: Federal Fast Montag
-              fr: Lundi du Jeûne Fédéral
-              en: Federal Fast Monday
-            type: optional
           11-01:
             _name: 11-01
-            type: optional
       ZG:
         names:
           en: Canton of Zug
@@ -261,13 +299,20 @@ holidays:
             type: optional
           easter 60:
             _name: easter 60
+            note: >
+              excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully
           08-15:
             _name: 08-15
-            type: optional
+            note: >
+              excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully
           11-01:
             _name: 11-01
+            note: >
+              excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully
           12-08:
             _name: 12-08
+            note: >
+              excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully
           12-26:
             _name: 12-26
             type: optional
@@ -283,18 +328,27 @@ holidays:
               de: Berchtoldstag
               fr: Saint-Berthold
             type: optional
+          03-19:
+            _name: 03-19
+            note: >
+              Only in communities: Fulenbach, Walterswil, Wisen, Metzerlen, Nulgar-St. Pantaleon, Rodersdorf, Bärschwil, Büsserach
           easter 1:
             _name: easter 1
             type: optional
+          05-01 12:00:
+            _name: 05-01
           easter 50:
             _name: easter 50
             type: optional
           easter 60:
             _name: easter 60
+            note: is optional in Bucheggberg
           08-15:
             _name: 08-15
+            note: is optional in Bucheggberg
           11-01:
             _name: 11-01
+            note: is optional in Bucheggberg
           12-26:
             _name: 12-26
             type: optional
@@ -304,6 +358,9 @@ holidays:
           de: Kanton Basel-Stadt
           fr: Canton de Bâle-Ville
           it: Canton Basilea Città
+        days:
+          05-01:
+            _name: 05-01
       BL:
         names:
           en: Canton of Basel-Country
@@ -311,9 +368,11 @@ holidays:
           fr: Canton de Bâle-Campagne
           it: Canton Basilea Campagna
         days:
+          05-01:
+            _name: 05-01
           easter 60:
             _name: easter 60
-            type: optional
+            type: observance
       SH:
         names:
           en: Canton of Schaffhausen
@@ -326,12 +385,18 @@ holidays:
               de: Berchtoldstag
               fr: Saint-Berthold
             type: optional
+          05-01:
+            _name: 05-01
       AR:
         names:
           en: Canton of Appenzell Outer Rhodes
           de: Kanton Appenzell Ausserrhoden
           fr: Canton d'Appenzell Rhodes-Extérieures
           it: Canton Appenzello Esterno
+        days:
+          12-26: false
+          12-26 not on monday:
+            _name: 12-26
       AI:
         names:
           en: Canton of Appenzell Inner-Rhodes
@@ -343,8 +408,17 @@ holidays:
             _name: easter 60
           08-15:
             _name: 08-15
+          09-22:
+            name:
+              de: Mauritiustag
+            note: >
+              excluding: Bezirk Oberegg
           11-01:
             _name: 11-01
+          12-26:
+             type: observance
+          12-26 not on tuesday, saturday:
+            _name: 12-26
       SG:
         names:
           en: Canton of St. Gallen
@@ -352,9 +426,6 @@ holidays:
           fr: Canton de Saint-Gall
           it: Canton San Gallo
         days:
-          08-15:
-            _name: 08-15
-            type: optional
           11-01:
             _name: 11-01
       GR:
@@ -366,18 +437,25 @@ holidays:
         days:
           01-06:
             _name: 01-06
+            type: observance
           03-19:
             _name: 03-19
+            type: observance
+          easter -2:
+            _name: easter -2
             type: optional
           easter 60:
             _name: easter 60
-            type: optional
+            type: observance
           08-15:
             _name: 08-15
-            type: optional
+            type: observance
           11-01:
             _name: 11-01
-            type: optional
+            type: observance
+          12-08:
+            _name: 12-08
+            type: observance
       AG:
         names:
           en: Canton of Aargau
@@ -388,13 +466,17 @@ holidays:
           01-02:
             name:
               de: Berchtoldstag
+              fr: Saint-Berthold
+          05-01:
+            _name: 05-01
           easter 60:
             _name: easter 60
           08-15:
             _name: 08-15
           11-01:
             _name: 11-01
-            type: optional
+          12-08:
+            _name: 12-08
       TG:
         names:
           en: Canton of Thurgau
@@ -405,6 +487,9 @@ holidays:
           01-02:
             name:
               de: Berchtoldstag
+              fr: Saint-Berthold
+          05-01:
+            _name: 05-01
       TI:
         names:
           en: Canton of Ticino
@@ -412,22 +497,34 @@ holidays:
           fr: Canton du Tessin
           it: Canton Ticino
         days:
+          01-02:
+            name:
+              de: Berchtoldstag
+              fr: Saint-Berthold
+            type: bank
           01-06:
             _name: 01-06
+            name:
+              it: Epifania
           03-19:
             _name: 03-19
           easter -2: false
           easter 60:
             _name: easter 60
+          05-01:
+            _name: 05-01
           06-29:
             _name: 06-29
+          # Vätertag is observed on 03-19
+          1st sunday in June: false
           08-15:
             _name: 08-15
+            name:
+              it: Assunzione
           11-01:
             _name: 11-01
           12-08:
             _name: 12-08
-          12-26: false
       VD:
         names:
           en: Canton of Vaud
@@ -438,13 +535,14 @@ holidays:
           01-02:
             name:
               de: Berchtoldstag
-              fr: Saint-Berthold
-          monday after 3 sunday after 09-01:
+              fr: 2 Janvier
+          monday after 3 sunday in September:
             name:
-              de: Federal Fast Montag
+              de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
-              en: Federal Fast Monday
+              en: Monday after Federal Prayday
           12-26: false
+      # @source https://www.vs.ch/fr/web/srh/plan-de-travail
       VS:
         names:
           en: Canton of Valais
@@ -452,24 +550,39 @@ holidays:
           fr: Canton du Valais
           it: Canton Vallese
         days:
+          01-02:
+            name:
+              de: Berchtoldstag
+              fr: Saint-Berthold
+            type: bank
           03-19:
             _name: 03-19
           easter -2: false
           easter 1:
             _name: easter 1
             type: optional
+          05-01 12:00:
+            _name: 05-01
           easter 50:
             _name: easter 50
-            type: optional
           easter 60:
             _name: easter 60
           08-15:
             _name: 08-15
+          monday after 3 sunday after 09-01:
+            name:
+              de: Bettagsmontag
+              fr: Lundi du Jeûne Fédéral
+              en: Monday after Federal Prayday
+            type: bank
           11-01:
             _name: 11-01
           12-08:
             _name: 12-08
-          12-26: false
+          12-24 12:00:
+            _name: 12-24
+          12-26:
+            type: optional
       NE:
         names:
           en: Canton of Neuchâtel
@@ -477,18 +590,37 @@ holidays:
           fr: Canton de Neuchâtel
           it: Canton Neuchâtel
         days:
-          01-01 if sunday then next monday:
-            _name: 01-01
-          easter 1:
-            _name: easter 1
-            type: optional
+          01-02 on monday:
+            name:
+              de: Berchtoldstag
+              fr: 2 Janvier
+          01-02:
+            name:
+              de: Berchtoldstag
+              fr: 2 Janvier
+            type: observance
+          03-01:
+            name:
+              fr: Instauration de la République
+              de: Jahrestag Ausrufung der Republik
+          easter -2:
+            _name: easter -2
+          05-01:
+            _name: 05-01
           easter 50:
             _name: easter 50
-            type: optional
+            type: observance
           easter 60:
             _name: easter 60
+          monday after 3 sunday in September:
+            name:
+              de: Bettagsmontag
+              fr: Lundi du Jeûne Fédéral
+              en: Monday after Federal Prayday
             type: optional
-          12-25 if sunday then next monday:
+          12-26:
+            type: observance
+          12-26 on monday:
             _name: 12-26
       GE:
         names:
@@ -497,12 +629,17 @@ holidays:
           fr: Canton de Genève
           it: Canton Ginevra
         days:
-          12-26: false
+          01-02:
+            name:
+              de: Berchtoldstag
+              fr: 2 Janvier
+            type: bank
           thursday after 1 sunday after 09-01:
             name:
-              de: Genf schnell
+              de: Genfer Bettag
               fr: Jeûne Genevois
-              en: Geneva fast
+          12-26:
+            type: bank
           12-31:
             name:
               de: Wiederherstellung der Republik
@@ -518,13 +655,16 @@ holidays:
           01-02:
             name:
               de: Berchtoldstag
+              fr: 2 Janvier
+          05-01:
+            _name: 05-01
           easter 60:
             _name: easter 60
           06-23:
             name:
               fr: Plébiscite jurassien
               en: Jura Plebiscite
-              de: Jura Volksabstimmung
+              de: Fest der Unabhängigkeit
           08-15:
             _name: 08-15
           11-01:

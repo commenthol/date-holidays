@@ -1,5 +1,5 @@
 {
-  "version": "2018-12-22",
+  "version": "2018-12-23",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -4579,6 +4579,7 @@
         "en": "Switzerland"
       },
       "langs": [
+        "de-ch",
         "de",
         "fr",
         "it"
@@ -4605,6 +4606,9 @@
             "de": "Auffahrt"
           }
         },
+        "easter 49": {
+          "_name": "easter 49"
+        },
         "easter 50": {
           "_name": "easter 50"
         },
@@ -4612,10 +4616,31 @@
           "_name": "Mothers Day",
           "type": "observance"
         },
+        "1st sunday in June": {
+          "name": {
+            "de": "Vätertag",
+            "fr": "fête des pères"
+          },
+          "type": "observance",
+          "active": [
+            {
+              "from": "2009-01-01"
+            }
+          ]
+        },
         "08-01": {
           "name": {
-            "de": "Bundesfeier",
-            "fr": "Fête nationnale"
+            "de": "Bundesfeiertag",
+            "fr": "Fête nationnale",
+            "it": "Giorno festivo federale"
+          }
+        },
+        "3 sunday after 09-01": {
+          "name": {
+            "de": "Eidg. Dank-, Buss- und Bettag",
+            "fr": "Jeûne fédéral",
+            "it": "Digiuno federale",
+            "en": "Federal Prayday"
           }
         },
         "12-25": {
@@ -4627,7 +4652,8 @@
         "12-26": {
           "_name": "12-26",
           "name": {
-            "de": "Stephanstag"
+            "de": "Stephanstag",
+            "fr": "Saint-Etienne"
           }
         }
       },
@@ -4638,6 +4664,27 @@
             "de": "Kanton Zürich",
             "fr": "Canton de Zurich",
             "it": "Canton Zurigo"
+          },
+          "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "optional"
+            },
+            "05-01": {
+              "_name": "05-01"
+            },
+            "easter 50": {
+              "_name": "easter 50"
+            },
+            "monday after 2nd saturday in September 13:00": {
+              "name": {
+                "de": "Knabenschiessen"
+              },
+              "type": "optional"
+            }
           }
         },
         "BE": {
@@ -4650,7 +4697,8 @@
           "days": {
             "01-02": {
               "name": {
-                "de": "Berchtoldstag"
+                "de": "Berchtoldstag",
+                "fr": "2 janvier"
               }
             }
           }
@@ -4671,7 +4719,8 @@
               "type": "optional"
             },
             "03-19": {
-              "_name": "03-19"
+              "_name": "03-19",
+              "type": "observance"
             },
             "easter 1": {
               "_name": "easter 1",
@@ -4720,6 +4769,10 @@
             },
             "12-08": {
               "_name": "12-08"
+            },
+            "12-26": false,
+            "12-26 not on monday, friday": {
+              "_name": "12-26"
             }
           }
         },
@@ -4744,8 +4797,10 @@
               "_name": "08-15"
             },
             "11-01": {
-              "_name": "11-01",
-              "type": "optional"
+              "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
             }
           }
         },
@@ -4780,7 +4835,7 @@
             },
             "09-25": {
               "name": {
-                "de": "Niklaus von Flüe",
+                "de": "Bruderklausenfest",
                 "fr": "Saint-Nicholas-de-Flüe",
                 "en": "Saint Nicholas of Flüe"
               }
@@ -4805,6 +4860,13 @@
             "it": "Canton Nidvaldo"
           },
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "bank"
+            },
             "03-19": {
               "_name": "03-19"
             },
@@ -4855,21 +4917,8 @@
                 "fr": "Bataille de Näfels"
               }
             },
-            "08-15": {
-              "_name": "08-15",
-              "type": "optional"
-            },
-            "monday after 3 sunday after 09-01": {
-              "name": {
-                "de": "Federal Fast Montag",
-                "fr": "Lundi du Jeûne Fédéral",
-                "en": "Federal Fast Monday"
-              },
-              "type": "optional"
-            },
             "11-01": {
-              "_name": "11-01",
-              "type": "optional"
+              "_name": "11-01"
             }
           }
         },
@@ -4938,17 +4987,20 @@
               "type": "optional"
             },
             "easter 60": {
-              "_name": "easter 60"
+              "_name": "easter 60",
+              "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n"
             },
             "08-15": {
               "_name": "08-15",
-              "type": "optional"
+              "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n"
             },
             "11-01": {
-              "_name": "11-01"
+              "_name": "11-01",
+              "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n"
             },
             "12-08": {
-              "_name": "12-08"
+              "_name": "12-08",
+              "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n"
             },
             "12-26": {
               "_name": "12-26",
@@ -4971,22 +5023,32 @@
               },
               "type": "optional"
             },
+            "03-19": {
+              "_name": "03-19",
+              "note": "Only in communities: Fulenbach, Walterswil, Wisen, Metzerlen, Nulgar-St. Pantaleon, Rodersdorf, Bärschwil, Büsserach\n"
+            },
             "easter 1": {
               "_name": "easter 1",
               "type": "optional"
+            },
+            "05-01 12:00": {
+              "_name": "05-01"
             },
             "easter 50": {
               "_name": "easter 50",
               "type": "optional"
             },
             "easter 60": {
-              "_name": "easter 60"
+              "_name": "easter 60",
+              "note": "is optional in Bucheggberg"
             },
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "note": "is optional in Bucheggberg"
             },
             "11-01": {
-              "_name": "11-01"
+              "_name": "11-01",
+              "note": "is optional in Bucheggberg"
             },
             "12-26": {
               "_name": "12-26",
@@ -5000,6 +5062,11 @@
             "de": "Kanton Basel-Stadt",
             "fr": "Canton de Bâle-Ville",
             "it": "Canton Basilea Città"
+          },
+          "days": {
+            "05-01": {
+              "_name": "05-01"
+            }
           }
         },
         "BL": {
@@ -5010,9 +5077,12 @@
             "it": "Canton Basilea Campagna"
           },
           "days": {
+            "05-01": {
+              "_name": "05-01"
+            },
             "easter 60": {
               "_name": "easter 60",
-              "type": "optional"
+              "type": "observance"
             }
           }
         },
@@ -5030,6 +5100,9 @@
                 "fr": "Saint-Berthold"
               },
               "type": "optional"
+            },
+            "05-01": {
+              "_name": "05-01"
             }
           }
         },
@@ -5039,6 +5112,12 @@
             "de": "Kanton Appenzell Ausserrhoden",
             "fr": "Canton d'Appenzell Rhodes-Extérieures",
             "it": "Canton Appenzello Esterno"
+          },
+          "days": {
+            "12-26": false,
+            "12-26 not on monday": {
+              "_name": "12-26"
+            }
           }
         },
         "AI": {
@@ -5055,8 +5134,20 @@
             "08-15": {
               "_name": "08-15"
             },
+            "09-22": {
+              "name": {
+                "de": "Mauritiustag"
+              },
+              "note": "excluding: Bezirk Oberegg\n"
+            },
             "11-01": {
               "_name": "11-01"
+            },
+            "12-26": {
+              "type": "observance"
+            },
+            "12-26 not on tuesday, saturday": {
+              "_name": "12-26"
             }
           }
         },
@@ -5068,10 +5159,6 @@
             "it": "Canton San Gallo"
           },
           "days": {
-            "08-15": {
-              "_name": "08-15",
-              "type": "optional"
-            },
             "11-01": {
               "_name": "11-01"
             }
@@ -5086,23 +5173,32 @@
           },
           "days": {
             "01-06": {
-              "_name": "01-06"
+              "_name": "01-06",
+              "type": "observance"
             },
             "03-19": {
               "_name": "03-19",
+              "type": "observance"
+            },
+            "easter -2": {
+              "_name": "easter -2",
               "type": "optional"
             },
             "easter 60": {
               "_name": "easter 60",
-              "type": "optional"
+              "type": "observance"
             },
             "08-15": {
               "_name": "08-15",
-              "type": "optional"
+              "type": "observance"
             },
             "11-01": {
               "_name": "11-01",
-              "type": "optional"
+              "type": "observance"
+            },
+            "12-08": {
+              "_name": "12-08",
+              "type": "observance"
             }
           }
         },
@@ -5116,8 +5212,12 @@
           "days": {
             "01-02": {
               "name": {
-                "de": "Berchtoldstag"
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
               }
+            },
+            "05-01": {
+              "_name": "05-01"
             },
             "easter 60": {
               "_name": "easter 60"
@@ -5126,8 +5226,10 @@
               "_name": "08-15"
             },
             "11-01": {
-              "_name": "11-01",
-              "type": "optional"
+              "_name": "11-01"
+            },
+            "12-08": {
+              "_name": "12-08"
             }
           }
         },
@@ -5141,8 +5243,12 @@
           "days": {
             "01-02": {
               "name": {
-                "de": "Berchtoldstag"
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
               }
+            },
+            "05-01": {
+              "_name": "05-01"
             }
           }
         },
@@ -5154,8 +5260,18 @@
             "it": "Canton Ticino"
           },
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "bank"
+            },
             "01-06": {
-              "_name": "01-06"
+              "_name": "01-06",
+              "name": {
+                "it": "Epifania"
+              }
             },
             "03-19": {
               "_name": "03-19"
@@ -5164,19 +5280,25 @@
             "easter 60": {
               "_name": "easter 60"
             },
+            "05-01": {
+              "_name": "05-01"
+            },
             "06-29": {
               "_name": "06-29"
             },
+            "1st sunday in June": false,
             "08-15": {
-              "_name": "08-15"
+              "_name": "08-15",
+              "name": {
+                "it": "Assunzione"
+              }
             },
             "11-01": {
               "_name": "11-01"
             },
             "12-08": {
               "_name": "12-08"
-            },
-            "12-26": false
+            }
           }
         },
         "VD": {
@@ -5190,14 +5312,14 @@
             "01-02": {
               "name": {
                 "de": "Berchtoldstag",
-                "fr": "Saint-Berthold"
+                "fr": "2 Janvier"
               }
             },
-            "monday after 3 sunday after 09-01": {
+            "monday after 3 sunday in September": {
               "name": {
-                "de": "Federal Fast Montag",
+                "de": "Bettagsmontag",
                 "fr": "Lundi du Jeûne Fédéral",
-                "en": "Federal Fast Monday"
+                "en": "Monday after Federal Prayday"
               }
             },
             "12-26": false
@@ -5211,6 +5333,13 @@
             "it": "Canton Vallese"
           },
           "days": {
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "Saint-Berthold"
+              },
+              "type": "bank"
+            },
             "03-19": {
               "_name": "03-19"
             },
@@ -5219,9 +5348,11 @@
               "_name": "easter 1",
               "type": "optional"
             },
+            "05-01 12:00": {
+              "_name": "05-01"
+            },
             "easter 50": {
-              "_name": "easter 50",
-              "type": "optional"
+              "_name": "easter 50"
             },
             "easter 60": {
               "_name": "easter 60"
@@ -5229,13 +5360,26 @@
             "08-15": {
               "_name": "08-15"
             },
+            "monday after 3 sunday after 09-01": {
+              "name": {
+                "de": "Bettagsmontag",
+                "fr": "Lundi du Jeûne Fédéral",
+                "en": "Monday after Federal Prayday"
+              },
+              "type": "bank"
+            },
             "11-01": {
               "_name": "11-01"
             },
             "12-08": {
               "_name": "12-08"
             },
-            "12-26": false
+            "12-24 12:00": {
+              "_name": "12-24"
+            },
+            "12-26": {
+              "type": "optional"
+            }
           }
         },
         "NE": {
@@ -5246,22 +5390,50 @@
             "it": "Canton Neuchâtel"
           },
           "days": {
-            "01-01 if sunday then next monday": {
-              "_name": "01-01"
+            "01-02 on monday": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "2 Janvier"
+              }
             },
-            "easter 1": {
-              "_name": "easter 1",
-              "type": "optional"
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "2 Janvier"
+              },
+              "type": "observance"
+            },
+            "03-01": {
+              "name": {
+                "fr": "Instauration de la République",
+                "de": "Jahrestag Ausrufung der Republik"
+              }
+            },
+            "easter -2": {
+              "_name": "easter -2"
+            },
+            "05-01": {
+              "_name": "05-01"
             },
             "easter 50": {
               "_name": "easter 50",
-              "type": "optional"
+              "type": "observance"
             },
             "easter 60": {
-              "_name": "easter 60",
+              "_name": "easter 60"
+            },
+            "monday after 3 sunday in September": {
+              "name": {
+                "de": "Bettagsmontag",
+                "fr": "Lundi du Jeûne Fédéral",
+                "en": "Monday after Federal Prayday"
+              },
               "type": "optional"
             },
-            "12-25 if sunday then next monday": {
+            "12-26": {
+              "type": "observance"
+            },
+            "12-26 on monday": {
               "_name": "12-26"
             }
           }
@@ -5274,13 +5446,21 @@
             "it": "Canton Ginevra"
           },
           "days": {
-            "12-26": false,
+            "01-02": {
+              "name": {
+                "de": "Berchtoldstag",
+                "fr": "2 Janvier"
+              },
+              "type": "bank"
+            },
             "thursday after 1 sunday after 09-01": {
               "name": {
-                "de": "Genf schnell",
-                "fr": "Jeûne Genevois",
-                "en": "Geneva fast"
+                "de": "Genfer Bettag",
+                "fr": "Jeûne Genevois"
               }
+            },
+            "12-26": {
+              "type": "bank"
             },
             "12-31": {
               "name": {
@@ -5301,8 +5481,12 @@
           "days": {
             "01-02": {
               "name": {
-                "de": "Berchtoldstag"
+                "de": "Berchtoldstag",
+                "fr": "2 Janvier"
               }
+            },
+            "05-01": {
+              "_name": "05-01"
             },
             "easter 60": {
               "_name": "easter 60"
@@ -5311,7 +5495,7 @@
               "name": {
                 "fr": "Plébiscite jurassien",
                 "en": "Jura Plebiscite",
-                "de": "Jura Volksabstimmung"
+                "de": "Fest der Unabhängigkeit"
               }
             },
             "08-15": {
@@ -15857,6 +16041,7 @@
         "am": "ብርሐነ ጥምቀት",
         "da": "Åbenbaring",
         "de": "Heilige Drei Könige",
+        "de-ch": "Dreikönigstag",
         "es": "Día de los Reyes Magos",
         "et": "kolmekuningapäev",
         "fi": "Loppiainen",
@@ -15964,6 +16149,7 @@
     "06-29": {
       "name": {
         "en": "Saints Peter and Paul",
+        "de": "Peter und Paul",
         "es": "San Pedro y San Pablo",
         "fr": "Saint Pierre et Paul",
         "it": "Santi Pietro e Paolo",
@@ -16066,6 +16252,7 @@
         "et": "jõululaupäev",
         "fo": "Jólaaftan",
         "fi": "Jouluaatto",
+        "fr": "Veille de Noël",
         "hr": "Badnji dan",
         "is": "Aðfangadagur",
         "kl": "juulliaraq",
@@ -16091,6 +16278,7 @@
         "cz": "1. svátek vánoční",
         "da": "1. Juledag",
         "de": "Weihnachten",
+        "de-ch": "Weihnachtstag",
         "el": "Χριστούγεννα",
         "es": "Navidad",
         "et": "esimene jõulupüha",
@@ -16130,11 +16318,12 @@
     "12-26": {
       "name": {
         "en": "Boxing Day",
-        "de-at": "Stefanitag",
         "bg": "2-ри ден на Коледа",
         "cz": "2. svátek vánoční",
         "da": "2. Juledag",
         "de": "2. Weihnachtstag",
+        "de-at": "Stefanitag",
+        "de-ch": "Stephanstag",
         "el": "Δεύτερη μέρα των Χριστουγέννων",
         "es": "San Esteban",
         "et": "teine jõulupüha",

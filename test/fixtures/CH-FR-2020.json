@@ -56,6 +56,14 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2020-05-31 00:00:00",
+    "start": "2020-05-30T22:00:00.000Z",
+    "end": "2020-05-31T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2020-06-01 00:00:00",
     "start": "2020-05-31T22:00:00.000Z",
     "end": "2020-06-01T22:00:00.000Z",
@@ -64,18 +72,27 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2020-06-07 00:00:00",
+    "start": "2020-06-06T22:00:00.000Z",
+    "end": "2020-06-07T22:00:00.000Z",
+    "name": "Vätertag",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2020-06-11 00:00:00",
     "start": "2020-06-10T22:00:00.000Z",
     "end": "2020-06-11T22:00:00.000Z",
     "name": "Fronleichnam",
     "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Thu"
   },
   {
     "date": "2020-08-01 00:00:00",
     "start": "2020-07-31T22:00:00.000Z",
     "end": "2020-08-01T22:00:00.000Z",
-    "name": "Bundesfeier",
+    "name": "Bundesfeiertag",
     "type": "public",
     "_weekday": "Sat"
   },
@@ -84,8 +101,17 @@
     "start": "2020-08-14T22:00:00.000Z",
     "end": "2020-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "optional",
+    "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2020-09-20 00:00:00",
+    "start": "2020-09-19T22:00:00.000Z",
+    "end": "2020-09-20T22:00:00.000Z",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2020-11-01 00:00:00",
@@ -93,6 +119,7 @@
     "end": "2020-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
     "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Sun"
   },
   {
@@ -101,6 +128,7 @@
     "end": "2020-12-08T23:00:00.000Z",
     "name": "Mariä Empfängnis",
     "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Tue"
   },
   {

@@ -56,6 +56,22 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2017-06-04 00:00:00",
+    "start": "2017-06-03T22:00:00.000Z",
+    "end": "2017-06-04T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-06-04 00:00:00",
+    "start": "2017-06-03T22:00:00.000Z",
+    "end": "2017-06-04T22:00:00.000Z",
+    "name": "Vätertag",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2017-06-05 00:00:00",
     "start": "2017-06-04T22:00:00.000Z",
     "end": "2017-06-05T22:00:00.000Z",
@@ -69,13 +85,14 @@
     "end": "2017-06-15T22:00:00.000Z",
     "name": "Fronleichnam",
     "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Thu"
   },
   {
     "date": "2017-08-01 00:00:00",
     "start": "2017-07-31T22:00:00.000Z",
     "end": "2017-08-01T22:00:00.000Z",
-    "name": "Bundesfeier",
+    "name": "Bundesfeiertag",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -84,8 +101,17 @@
     "start": "2017-08-14T22:00:00.000Z",
     "end": "2017-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "optional",
+    "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-09-17 00:00:00",
+    "start": "2017-09-16T22:00:00.000Z",
+    "end": "2017-09-17T22:00:00.000Z",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-11-01 00:00:00",
@@ -93,6 +119,7 @@
     "end": "2017-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
     "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Wed"
   },
   {
@@ -101,6 +128,7 @@
     "end": "2017-12-08T23:00:00.000Z",
     "name": "Mariä Empfängnis",
     "type": "public",
+    "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
     "_weekday": "Fri"
   },
   {
