@@ -4640,7 +4640,7 @@
             "de": "Eidg. Dank-, Buss- und Bettag",
             "fr": "Jeûne fédéral",
             "it": "Digiuno federale",
-            "en": "Federal Prayday"
+            "en": "Federal Day of Thanksgiving, Repentance and Prayer"
           }
         },
         "12-25": {
@@ -5319,7 +5319,7 @@
               "name": {
                 "de": "Bettagsmontag",
                 "fr": "Lundi du Jeûne Fédéral",
-                "en": "Monday after Federal Prayday"
+                "en": "Monday after Federal Day of Thanksgiving, Repentance and Prayer"
               }
             },
             "12-26": false
@@ -5364,7 +5364,7 @@
               "name": {
                 "de": "Bettagsmontag",
                 "fr": "Lundi du Jeûne Fédéral",
-                "en": "Monday after Federal Prayday"
+                "en": "Monday after Federal Day of Thanksgiving, Repentance and Prayer"
               },
               "type": "bank"
             },
@@ -5426,7 +5426,7 @@
               "name": {
                 "de": "Bettagsmontag",
                 "fr": "Lundi du Jeûne Fédéral",
-                "en": "Monday after Federal Prayday"
+                "en": "Monday after Federal Day of Thanksgiving, Repentance and Prayer"
               },
               "type": "optional"
             },

@@ -55,7 +55,7 @@ holidays:
           de: Eidg. Dank-, Buss- und Bettag
           fr: Jeûne fédéral
           it: Digiuno federale
-          en: Federal Prayday
+          en: Federal Day of Thanksgiving, Repentance and Prayer
       12-25:
         _name: 12-25
         name:
@@ -540,7 +540,7 @@ holidays:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
-              en: Monday after Federal Prayday
+              en: Monday after Federal Day of Thanksgiving, Repentance and Prayer
           12-26: false
       # @source https://www.vs.ch/fr/web/srh/plan-de-travail
       VS:
@@ -573,7 +573,7 @@ holidays:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
-              en: Monday after Federal Prayday
+              en: Monday after Federal Day of Thanksgiving, Repentance and Prayer
             type: bank
           11-01:
             _name: 11-01
@@ -616,7 +616,7 @@ holidays:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
-              en: Monday after Federal Prayday
+              en: Monday after Federal Day of Thanksgiving, Repentance and Prayer
             type: optional
           12-26:
             type: observance
