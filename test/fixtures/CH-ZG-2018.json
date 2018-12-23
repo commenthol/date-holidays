@@ -8,12 +8,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2018-03-19 00:00:00",
-    "start": "2018-03-18T23:00:00.000Z",
-    "end": "2018-03-19T23:00:00.000Z",
-    "name": "Josefstag",
-    "type": "public",
-    "_weekday": "Mon"
+    "date": "2018-01-02 00:00:00",
+    "start": "2018-01-01T23:00:00.000Z",
+    "end": "2018-01-02T23:00:00.000Z",
+    "name": "Berchtoldstag",
+    "type": "optional",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-03-30 00:00:00",
@@ -36,7 +36,7 @@
     "start": "2018-04-01T22:00:00.000Z",
     "end": "2018-04-02T22:00:00.000Z",
     "name": "Ostermontag",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Mon"
   },
   {
@@ -56,11 +56,19 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2018-05-20 00:00:00",
+    "start": "2018-05-19T22:00:00.000Z",
+    "end": "2018-05-20T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-05-21 00:00:00",
     "start": "2018-05-20T22:00:00.000Z",
     "end": "2018-05-21T22:00:00.000Z",
     "name": "Pfingstmontag",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Mon"
   },
   {
@@ -72,10 +80,18 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2018-06-03 00:00:00",
+    "start": "2018-06-02T22:00:00.000Z",
+    "end": "2018-06-03T22:00:00.000Z",
+    "name": "Vätertag",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-08-01 00:00:00",
     "start": "2018-07-31T22:00:00.000Z",
     "end": "2018-08-01T22:00:00.000Z",
-    "name": "Bundesfeier",
+    "name": "Bundesfeiertag",
     "type": "public",
     "_weekday": "Wed"
   },
@@ -88,12 +104,28 @@
     "_weekday": "Wed"
   },
   {
+    "date": "2018-09-16 00:00:00",
+    "start": "2018-09-15T22:00:00.000Z",
+    "end": "2018-09-16T22:00:00.000Z",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-11-01 00:00:00",
     "start": "2018-10-31T23:00:00.000Z",
     "end": "2018-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
     "type": "public",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2018-12-08 00:00:00",
+    "start": "2018-12-07T23:00:00.000Z",
+    "end": "2018-12-08T23:00:00.000Z",
+    "name": "Mariä Empfängnis",
+    "type": "public",
+    "_weekday": "Sat"
   },
   {
     "date": "2018-12-25 00:00:00",
@@ -108,7 +140,7 @@
     "start": "2018-12-25T23:00:00.000Z",
     "end": "2018-12-26T23:00:00.000Z",
     "name": "Stephanstag",
-    "type": "public",
+    "type": "optional",
     "_weekday": "Wed"
   }
 ]

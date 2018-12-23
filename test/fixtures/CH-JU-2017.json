@@ -40,6 +40,14 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T22:00:00.000Z",
+    "end": "2017-05-01T22:00:00.000Z",
+    "name": "Tag der Arbeit",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-13T22:00:00.000Z",
     "end": "2017-05-14T22:00:00.000Z",
@@ -54,6 +62,22 @@
     "name": "Auffahrt",
     "type": "public",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2017-06-04 00:00:00",
+    "start": "2017-06-03T22:00:00.000Z",
+    "end": "2017-06-04T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-06-04 00:00:00",
+    "start": "2017-06-03T22:00:00.000Z",
+    "end": "2017-06-04T22:00:00.000Z",
+    "name": "Vätertag",
+    "type": "observance",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-06-05 00:00:00",
@@ -72,10 +96,18 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2017-06-23 00:00:00",
+    "start": "2017-06-22T22:00:00.000Z",
+    "end": "2017-06-23T22:00:00.000Z",
+    "name": "Fest der Unabhängigkeit",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2017-08-01 00:00:00",
     "start": "2017-07-31T22:00:00.000Z",
     "end": "2017-08-01T22:00:00.000Z",
-    "name": "Bundesfeier",
+    "name": "Bundesfeiertag",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -86,6 +118,14 @@
     "name": "Mariä Himmelfahrt",
     "type": "public",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-09-17 00:00:00",
+    "start": "2017-09-16T22:00:00.000Z",
+    "end": "2017-09-17T22:00:00.000Z",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "type": "public",
+    "_weekday": "Sun"
   },
   {
     "date": "2017-11-01 00:00:00",
