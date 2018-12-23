@@ -68,10 +68,10 @@ holidays:
     states:
       ZH:
         names:
-          en: Canton of Zürich
           de: Kanton Zürich
           fr: Canton de Zurich
           it: Canton Zurigo
+          en: Canton of Zürich
         days:
           01-02:
             name:
@@ -88,10 +88,10 @@ holidays:
             type: optional
       BE:
         names:
-          en: Canton of Bern
           de: Kanton Bern
           fr: Canton de Berne
           it: Canton Berna
+          en: Canton of Bern
         days:
           01-02:
             name:
@@ -99,10 +99,10 @@ holidays:
               fr: 2 janvier
       LU:
         names:
-          en: Canton of Lucerne
           de: Kanton Luzern
           fr: Canton de Lucerne
           it: Canton Lucerna
+          en: Canton of Lucerne
         days:
           01-02:
             name:
@@ -128,10 +128,10 @@ holidays:
             _name: 12-08
       UR:
         names:
-          en: Canton of Uri
           de: Kanton Uri
           fr: Canton d'Uri
           it: Canton Uri
+          en: Canton of Uri
         days:
           01-06:
             _name: 01-06
@@ -150,10 +150,10 @@ holidays:
             _name: 12-26
       SZ:
         names:
-          en: Canton of Schwyz
           de: Kanton Schwyz
           fr: Canton de Schwytz
           it: Canton Svitto
+          en: Canton of Schwyz
         days:
           01-06:
             _name: 01-06
@@ -169,10 +169,10 @@ holidays:
             _name: 12-08
       OW:
         names:
-          en: Canton of Obwalden
           de: Kanton Obwalden
           fr: Canton d'Obwald
           it: Canton Obvaldo
+          en: Canton of Obwalden
         days:
           01-02:
             name:
@@ -203,10 +203,10 @@ holidays:
             type: optional
       NW:
         names:
-          en: Canton of Nidwalden
           de: Kanton Nidwalden
           fr: Canton de Nidwald
           it: Canton Nidvaldo
+          en: Canton of Nidwalden
         days:
           01-02:
             name:
@@ -234,10 +234,10 @@ holidays:
             type: optional
       GL:
         names:
-          en: Canton of Glarus
           de: Kanton Glarus
           fr: Canton de Glaris
           it: Canton Glarona
+          en: Canton of Glarus
         days:
           01-02:
             name:
@@ -252,10 +252,10 @@ holidays:
             _name: 11-01
       ZG:
         names:
-          en: Canton of Zug
           de: Kanton Zug
           fr: Canton de Zoug
           it: Canton Zugo
+          en: Canton of Zug
         days:
           01-02:
             name:
@@ -281,10 +281,10 @@ holidays:
             type: optional
       FR:
         names:
-          en: Canton of Fribourg
-          de: Kanton Freiburg
           fr: Canton de Fribourg
+          de: Kanton Freiburg
           it: Canton Friburgo
+          en: Canton of Fribourg
         days:
           01-02:
             name:
@@ -318,10 +318,10 @@ holidays:
             type: optional
       SO:
         names:
-          en: Canton of Solothurn
           de: Kanton Solothurn
           fr: Canton de Soleure
           it: Canton Soletta
+          en: Canton of Solothurn
         days:
           01-02:
             name:
@@ -354,19 +354,19 @@ holidays:
             type: optional
       BS:
         names:
-          en: Canton of Basel-City
           de: Kanton Basel-Stadt
           fr: Canton de Bâle-Ville
           it: Canton Basilea Città
+          en: Canton of Basel-City
         days:
           05-01:
             _name: 05-01
       BL:
         names:
-          en: Canton of Basel-Country
           de: Kanton Basel-Landschaft
           fr: Canton de Bâle-Campagne
           it: Canton Basilea Campagna
+          en: Canton of Basel-Country
         days:
           05-01:
             _name: 05-01
@@ -375,10 +375,10 @@ holidays:
             type: observance
       SH:
         names:
-          en: Canton of Schaffhausen
           de: Kanton Schaffhausen
           fr: Canton de Schaffhouse
           it: Canton Sciaffusa
+          en: Canton of Schaffhausen
         days:
           01-02:
             name:
@@ -389,20 +389,20 @@ holidays:
             _name: 05-01
       AR:
         names:
-          en: Canton of Appenzell Outer Rhodes
           de: Kanton Appenzell Ausserrhoden
           fr: Canton d'Appenzell Rhodes-Extérieures
           it: Canton Appenzello Esterno
+          en: Canton of Appenzell Outer Rhodes
         days:
           12-26: false
           12-26 not on monday:
             _name: 12-26
       AI:
         names:
-          en: Canton of Appenzell Inner-Rhodes
           de: Kanton Appenzell Innerrhoden
           fr: Canton d'Appenzell Rhodes-Intérieures
           it: Canton Appenzello Interno
+          en: Canton of Appenzell Inner-Rhodes
         days:
           easter 60:
             _name: easter 60
@@ -421,19 +421,19 @@ holidays:
             _name: 12-26
       SG:
         names:
-          en: Canton of St. Gallen
           de: Kanton St. Gallen
           fr: Canton de Saint-Gall
           it: Canton San Gallo
+          en: Canton of St. Gallen
         days:
           11-01:
             _name: 11-01
       GR:
         names:
-          en: Canton of Grisons
           de: Kanton Graubünden
-          fr: Canton des Grisons
           it: Cantone dei Grigioni
+          fr: Canton des Grisons
+          en: Canton of Grisons
         days:
           01-06:
             _name: 01-06
@@ -458,10 +458,10 @@ holidays:
             type: observance
       AG:
         names:
-          en: Canton of Aargau
           de: Kanton Aargau
           fr: Canton d'Argovie
           it: Canton Argovia
+          en: Canton of Aargau
         days:
           01-02:
             name:
@@ -479,10 +479,10 @@ holidays:
             _name: 12-08
       TG:
         names:
-          en: Canton of Thurgau
           de: Kanton Thurgau
           fr: Canton de Thurgovie
           it: Canton Turgovia
+          en: Canton of Thurgau
         days:
           01-02:
             name:
@@ -492,10 +492,10 @@ holidays:
             _name: 05-01
       TI:
         names:
-          en: Canton of Ticino
+          it: Canton Ticino
           de: Kanton Tessin
           fr: Canton du Tessin
-          it: Canton Ticino
+          en: Canton of Ticino
         days:
           01-02:
             name:
@@ -527,10 +527,10 @@ holidays:
             _name: 12-08
       VD:
         names:
-          en: Canton of Vaud
-          de: Kanton Waadt
           fr: Canton de Vaud
+          de: Kanton Waadt
           it: Canton Vaud
+          en: Canton of Vaud
         days:
           01-02:
             name:
@@ -545,10 +545,10 @@ holidays:
       # @source https://www.vs.ch/fr/web/srh/plan-de-travail
       VS:
         names:
-          en: Canton of Valais
-          de: Kanton Wallis
           fr: Canton du Valais
+          de: Kanton Wallis
           it: Canton Vallese
+          en: Canton of Valais
         days:
           01-02:
             name:
@@ -585,10 +585,10 @@ holidays:
             type: optional
       NE:
         names:
-          en: Canton of Neuchâtel
-          de: Kanton Neuenburg
           fr: Canton de Neuchâtel
+          de: Kanton Neuenburg
           it: Canton Neuchâtel
+          en: Canton of Neuchâtel
         days:
           01-02 on monday:
             name:
@@ -624,10 +624,10 @@ holidays:
             _name: 12-26
       GE:
         names:
-          de: Kanton Genf
-          en: Canton of Geneva
           fr: Canton de Genève
+          de: Kanton Genf
           it: Canton Ginevra
+          en: Canton of Geneva
         days:
           01-02:
             name:
@@ -647,10 +647,10 @@ holidays:
               en: Restoration of the Republic
       JU:
         names:
-          en: Canton of Jura
-          de: Kanton Jura
           fr: Canton du Jura
+          de: Kanton Jura
           it: Canton Giura
+          en: Canton of Jura
         days:
           01-02:
             name:

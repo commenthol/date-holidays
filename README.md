@@ -178,7 +178,7 @@ Countries: 142
 │   ├── NW: Kanton Nidwalden
 │   ├── GL: Kanton Glarus
 │   ├── ZG: Kanton Zug
-│   ├── FR: Kanton Freiburg
+│   ├── FR: Canton de Fribourg
 │   ├── SO: Kanton Solothurn
 │   ├── BS: Kanton Basel-Stadt
 │   ├── BL: Kanton Basel-Landschaft
@@ -189,12 +189,12 @@ Countries: 142
 │   ├── GR: Kanton Graubünden
 │   ├── AG: Kanton Aargau
 │   ├── TG: Kanton Thurgau
-│   ├── TI: Kanton Tessin
-│   ├── VD: Kanton Waadt
-│   ├── VS: Kanton Wallis
-│   ├── NE: Kanton Neuenburg
-│   ├── GE: Kanton Genf
-│   └── JU: Kanton Jura
+│   ├── TI: Canton Ticino
+│   ├── VD: Canton de Vaud
+│   ├── VS: Canton du Valais
+│   ├── NE: Canton de Neuchâtel
+│   ├── GE: Canton de Genève
+│   └── JU: Canton du Jura
 ├── CL: Chile
 │   ├── AP: Arica y Parinacota
 │   ├── BI: Biobío
