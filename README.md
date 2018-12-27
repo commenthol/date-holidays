@@ -642,7 +642,7 @@ Minified distribution bundles are available via https://unpkg.com
 
 > **NOTE:** dist-bundles are quite huge in size ~1.5MByte so use [custom](#custom) builds instead.
 
-See https://unpkg.com/date-holidays-parser/dist/
+See https://unpkg.com/date-holidays/dist/
 
 - `index.min.js`: commonjs2 bundle
 - `umd.min.js`: umd bundle
