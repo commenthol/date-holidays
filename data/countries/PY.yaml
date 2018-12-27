@@ -12,6 +12,10 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      03-01:
+        name:
+          en: Heroes' Day
+          es: Dia de los héroes
       easter -3:
         _name: easter -3
       easter -2:
@@ -48,4 +52,3 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
-
