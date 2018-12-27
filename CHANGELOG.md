@@ -1,6 +1,32 @@
 # CHANGELOG
 
-v1.2.8-0
+v1.3.1
+- Fix attribution typo for Vatican City.
+- Fix CH holiday names in default language
+- Fix CH holidays in different cantons
+- Fix CH All Swiss cantons with their names in en, de, fr, it
+
+v1.3.0
+- New weekday rule
+
+v1.2.10
+- Fix: Add Summer bank holiday to GB-NIR.
+
+v1.2.9
+- Update docs
+- New Country Phillipines
+- New country Brunei
+- New country Bermuda
+- New country Benin
+- New country Bahrain
+- New country Burkina Faso
+- New country United Arab Emirates
+- DE: Add Advent sundays
+- New country Christmas Island
+- New country Cape Verde
+- Fix name "Assunção de Maria" for "pt"
+
+v1.2.8
 - Fix name "Assunção de Maria" for "pt"
 - New country Cape Verde
 - New country Christmas Island
