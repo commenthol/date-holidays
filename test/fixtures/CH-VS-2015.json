@@ -3,7 +3,7 @@
     "date": "2015-01-01 00:00:00",
     "start": "2014-12-31T23:00:00.000Z",
     "end": "2015-01-01T23:00:00.000Z",
-    "name": "Neujahr",
+    "name": "Nouvel An",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -11,7 +11,7 @@
     "date": "2015-01-02 00:00:00",
     "start": "2015-01-01T23:00:00.000Z",
     "end": "2015-01-02T23:00:00.000Z",
-    "name": "Berchtoldstag",
+    "name": "Saint-Berthold",
     "type": "bank",
     "_weekday": "Fri"
   },
@@ -27,7 +27,7 @@
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
-    "name": "Ostersonntag",
+    "name": "Pâques",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -35,7 +35,7 @@
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-05T22:00:00.000Z",
     "end": "2015-04-06T22:00:00.000Z",
-    "name": "Ostermontag",
+    "name": "Lundi de Pâques",
     "type": "optional",
     "_weekday": "Mon"
   },
@@ -43,7 +43,7 @@
     "date": "2015-05-01 12:00:00",
     "start": "2015-05-01T10:00:00.000Z",
     "end": "2015-05-01T22:00:00.000Z",
-    "name": "Tag der Arbeit",
+    "name": "Fête du travail",
     "type": "public",
     "_weekday": "Fri"
   },
@@ -51,7 +51,7 @@
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-09T22:00:00.000Z",
     "end": "2015-05-10T22:00:00.000Z",
-    "name": "Muttertag",
+    "name": "Fête des Mères",
     "type": "observance",
     "_weekday": "Sun"
   },
@@ -59,7 +59,7 @@
     "date": "2015-05-14 00:00:00",
     "start": "2015-05-13T22:00:00.000Z",
     "end": "2015-05-14T22:00:00.000Z",
-    "name": "Auffahrt",
+    "name": "Ascension",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -67,7 +67,7 @@
     "date": "2015-05-24 00:00:00",
     "start": "2015-05-23T22:00:00.000Z",
     "end": "2015-05-24T22:00:00.000Z",
-    "name": "Pfingstsonntag",
+    "name": "Pentecôte",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -75,7 +75,7 @@
     "date": "2015-05-25 00:00:00",
     "start": "2015-05-24T22:00:00.000Z",
     "end": "2015-05-25T22:00:00.000Z",
-    "name": "Pfingstmontag",
+    "name": "Lundi de Pentecôte",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -83,7 +83,7 @@
     "date": "2015-06-04 00:00:00",
     "start": "2015-06-03T22:00:00.000Z",
     "end": "2015-06-04T22:00:00.000Z",
-    "name": "Fronleichnam",
+    "name": "la Fête-Dieu",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -91,7 +91,7 @@
     "date": "2015-06-07 00:00:00",
     "start": "2015-06-06T22:00:00.000Z",
     "end": "2015-06-07T22:00:00.000Z",
-    "name": "Vätertag",
+    "name": "Fête des pères",
     "type": "observance",
     "_weekday": "Sun"
   },
@@ -99,7 +99,7 @@
     "date": "2015-08-01 00:00:00",
     "start": "2015-07-31T22:00:00.000Z",
     "end": "2015-08-01T22:00:00.000Z",
-    "name": "Bundesfeiertag",
+    "name": "Fête nationnale",
     "type": "public",
     "_weekday": "Sat"
   },
@@ -107,7 +107,7 @@
     "date": "2015-08-15 00:00:00",
     "start": "2015-08-14T22:00:00.000Z",
     "end": "2015-08-15T22:00:00.000Z",
-    "name": "Mariä Himmelfahrt",
+    "name": "Assomption",
     "type": "public",
     "_weekday": "Sat"
   },
@@ -115,7 +115,7 @@
     "date": "2015-09-20 00:00:00",
     "start": "2015-09-19T22:00:00.000Z",
     "end": "2015-09-20T22:00:00.000Z",
-    "name": "Eidg. Dank-, Buss- und Bettag",
+    "name": "Jeûne fédéral",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -123,7 +123,7 @@
     "date": "2015-09-21 00:00:00",
     "start": "2015-09-20T22:00:00.000Z",
     "end": "2015-09-21T22:00:00.000Z",
-    "name": "Bettagsmontag",
+    "name": "Lundi du Jeûne Fédéral",
     "type": "bank",
     "_weekday": "Mon"
   },
@@ -131,7 +131,7 @@
     "date": "2015-11-01 00:00:00",
     "start": "2015-10-31T23:00:00.000Z",
     "end": "2015-11-01T23:00:00.000Z",
-    "name": "Allerheiligen",
+    "name": "Toussaint",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -139,7 +139,7 @@
     "date": "2015-12-08 00:00:00",
     "start": "2015-12-07T23:00:00.000Z",
     "end": "2015-12-08T23:00:00.000Z",
-    "name": "Mariä Empfängnis",
+    "name": "Immaculée Conception",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -147,7 +147,7 @@
     "date": "2015-12-24 12:00:00",
     "start": "2015-12-24T11:00:00.000Z",
     "end": "2015-12-24T23:00:00.000Z",
-    "name": "Heiliger Abend",
+    "name": "Veille de Noël",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -155,7 +155,7 @@
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T23:00:00.000Z",
     "end": "2015-12-25T23:00:00.000Z",
-    "name": "Weihnachtstag",
+    "name": "Noël",
     "type": "public",
     "_weekday": "Fri"
   },
@@ -163,7 +163,7 @@
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-25T23:00:00.000Z",
     "end": "2015-12-26T23:00:00.000Z",
-    "name": "Stephanstag",
+    "name": "Saint-Etienne",
     "type": "optional",
     "_weekday": "Sat"
   }

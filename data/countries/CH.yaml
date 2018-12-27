@@ -41,7 +41,7 @@ holidays:
       1st sunday in June:
         name:
           de: Vätertag
-          fr: fête des pères
+          fr: Fête des pères
         type: observance
         active:
           - from: '2009-01-01'
@@ -285,6 +285,11 @@ holidays:
           de: Kanton Freiburg
           it: Canton Friburgo
           en: Canton of Fribourg
+        langs:
+          - fr
+          - de-ch
+          - de
+          - it
         days:
           01-02:
             name:
@@ -434,6 +439,11 @@ holidays:
           it: Cantone dei Grigioni
           fr: Canton des Grisons
           en: Canton of Grisons
+        langs:
+          - de-ch
+          - de
+          - it
+          - fr
         days:
           01-06:
             _name: 01-06
@@ -496,6 +506,11 @@ holidays:
           de: Kanton Tessin
           fr: Canton du Tessin
           en: Canton of Ticino
+        langs:
+          - it
+          - de-ch
+          - de
+          - fr
         days:
           01-02:
             name:
@@ -531,6 +546,11 @@ holidays:
           de: Kanton Waadt
           it: Canton Vaud
           en: Canton of Vaud
+        langs:
+          - fr
+          - de-ch
+          - de
+          - it
         days:
           01-02:
             name:
@@ -549,6 +569,11 @@ holidays:
           de: Kanton Wallis
           it: Canton Vallese
           en: Canton of Valais
+        langs:
+          - fr
+          - de-ch
+          - de
+          - it
         days:
           01-02:
             name:
@@ -589,6 +614,11 @@ holidays:
           de: Kanton Neuenburg
           it: Canton Neuchâtel
           en: Canton of Neuchâtel
+        langs:
+          - fr
+          - de-ch
+          - de
+          - it
         days:
           01-02 on monday:
             name:
@@ -628,6 +658,11 @@ holidays:
           de: Kanton Genf
           it: Canton Ginevra
           en: Canton of Geneva
+        langs:
+          - fr
+          - de-ch
+          - de
+          - it
         days:
           01-02:
             name:
@@ -651,6 +686,11 @@ holidays:
           de: Kanton Jura
           it: Canton Giura
           en: Canton of Jura
+        langs:
+          - fr
+          - de-ch
+          - de
+          - it
         days:
           01-02:
             name:

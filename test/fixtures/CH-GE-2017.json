@@ -3,7 +3,7 @@
     "date": "2017-01-01 00:00:00",
     "start": "2016-12-31T23:00:00.000Z",
     "end": "2017-01-01T23:00:00.000Z",
-    "name": "Neujahr",
+    "name": "Nouvel An",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -11,7 +11,7 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-01T23:00:00.000Z",
     "end": "2017-01-02T23:00:00.000Z",
-    "name": "Berchtoldstag",
+    "name": "2 Janvier",
     "type": "bank",
     "_weekday": "Mon"
   },
@@ -19,7 +19,7 @@
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-13T22:00:00.000Z",
     "end": "2017-04-14T22:00:00.000Z",
-    "name": "Karfreitag",
+    "name": "Vendredi saint",
     "type": "public",
     "_weekday": "Fri"
   },
@@ -27,7 +27,7 @@
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-15T22:00:00.000Z",
     "end": "2017-04-16T22:00:00.000Z",
-    "name": "Ostersonntag",
+    "name": "Pâques",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -35,7 +35,7 @@
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T22:00:00.000Z",
     "end": "2017-04-17T22:00:00.000Z",
-    "name": "Ostermontag",
+    "name": "Lundi de Pâques",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -43,7 +43,7 @@
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-13T22:00:00.000Z",
     "end": "2017-05-14T22:00:00.000Z",
-    "name": "Muttertag",
+    "name": "Fête des Mères",
     "type": "observance",
     "_weekday": "Sun"
   },
@@ -51,7 +51,7 @@
     "date": "2017-05-25 00:00:00",
     "start": "2017-05-24T22:00:00.000Z",
     "end": "2017-05-25T22:00:00.000Z",
-    "name": "Auffahrt",
+    "name": "Ascension",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -59,23 +59,23 @@
     "date": "2017-06-04 00:00:00",
     "start": "2017-06-03T22:00:00.000Z",
     "end": "2017-06-04T22:00:00.000Z",
-    "name": "Pfingstsonntag",
-    "type": "public",
+    "name": "Fête des pères",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
     "date": "2017-06-04 00:00:00",
     "start": "2017-06-03T22:00:00.000Z",
     "end": "2017-06-04T22:00:00.000Z",
-    "name": "Vätertag",
-    "type": "observance",
+    "name": "Pentecôte",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2017-06-05 00:00:00",
     "start": "2017-06-04T22:00:00.000Z",
     "end": "2017-06-05T22:00:00.000Z",
-    "name": "Pfingstmontag",
+    "name": "Lundi de Pentecôte",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -83,7 +83,7 @@
     "date": "2017-08-01 00:00:00",
     "start": "2017-07-31T22:00:00.000Z",
     "end": "2017-08-01T22:00:00.000Z",
-    "name": "Bundesfeiertag",
+    "name": "Fête nationnale",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -91,7 +91,7 @@
     "date": "2017-09-07 00:00:00",
     "start": "2017-09-06T22:00:00.000Z",
     "end": "2017-09-07T22:00:00.000Z",
-    "name": "Genfer Bettag",
+    "name": "Jeûne Genevois",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -99,7 +99,7 @@
     "date": "2017-09-17 00:00:00",
     "start": "2017-09-16T22:00:00.000Z",
     "end": "2017-09-17T22:00:00.000Z",
-    "name": "Eidg. Dank-, Buss- und Bettag",
+    "name": "Jeûne fédéral",
     "type": "public",
     "_weekday": "Sun"
   },
@@ -107,7 +107,7 @@
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-24T23:00:00.000Z",
     "end": "2017-12-25T23:00:00.000Z",
-    "name": "Weihnachtstag",
+    "name": "Noël",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -115,7 +115,7 @@
     "date": "2017-12-26 00:00:00",
     "start": "2017-12-25T23:00:00.000Z",
     "end": "2017-12-26T23:00:00.000Z",
-    "name": "Stephanstag",
+    "name": "Saint-Etienne",
     "type": "bank",
     "_weekday": "Tue"
   },
@@ -123,7 +123,7 @@
     "date": "2017-12-31 00:00:00",
     "start": "2017-12-30T23:00:00.000Z",
     "end": "2017-12-31T23:00:00.000Z",
-    "name": "Wiederherstellung der Republik",
+    "name": "Restauration de la République",
     "type": "public",
     "_weekday": "Sun"
   }

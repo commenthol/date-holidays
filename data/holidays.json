@@ -1,5 +1,5 @@
 {
-  "version": "2018-12-23",
+  "version": "2018-12-27",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -4619,7 +4619,7 @@
         "1st sunday in June": {
           "name": {
             "de": "Vätertag",
-            "fr": "fête des pères"
+            "fr": "Fête des pères"
           },
           "type": "observance",
           "active": [
@@ -4970,6 +4970,12 @@
             "it": "Canton Friburgo",
             "en": "Canton of Fribourg"
           },
+          "langs": [
+            "fr",
+            "de-ch",
+            "de",
+            "it"
+          ],
           "days": {
             "01-02": {
               "name": {
@@ -5171,6 +5177,12 @@
             "fr": "Canton des Grisons",
             "en": "Canton of Grisons"
           },
+          "langs": [
+            "de-ch",
+            "de",
+            "it",
+            "fr"
+          ],
           "days": {
             "01-06": {
               "_name": "01-06",
@@ -5259,6 +5271,12 @@
             "fr": "Canton du Tessin",
             "en": "Canton of Ticino"
           },
+          "langs": [
+            "it",
+            "de-ch",
+            "de",
+            "fr"
+          ],
           "days": {
             "01-02": {
               "name": {
@@ -5308,6 +5326,12 @@
             "it": "Canton Vaud",
             "en": "Canton of Vaud"
           },
+          "langs": [
+            "fr",
+            "de-ch",
+            "de",
+            "it"
+          ],
           "days": {
             "01-02": {
               "name": {
@@ -5332,6 +5356,12 @@
             "it": "Canton Vallese",
             "en": "Canton of Valais"
           },
+          "langs": [
+            "fr",
+            "de-ch",
+            "de",
+            "it"
+          ],
           "days": {
             "01-02": {
               "name": {
@@ -5389,6 +5419,12 @@
             "it": "Canton Neuchâtel",
             "en": "Canton of Neuchâtel"
           },
+          "langs": [
+            "fr",
+            "de-ch",
+            "de",
+            "it"
+          ],
           "days": {
             "01-02 on monday": {
               "name": {
@@ -5445,6 +5481,12 @@
             "it": "Canton Ginevra",
             "en": "Canton of Geneva"
           },
+          "langs": [
+            "fr",
+            "de-ch",
+            "de",
+            "it"
+          ],
           "days": {
             "01-02": {
               "name": {
@@ -5478,6 +5520,12 @@
             "it": "Canton Giura",
             "en": "Canton of Jura"
           },
+          "langs": [
+            "fr",
+            "de-ch",
+            "de",
+            "it"
+          ],
           "days": {
             "01-02": {
               "name": {
