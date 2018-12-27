@@ -37,10 +37,11 @@ Happy holidays!
   * [Name](#name)
   * [Types of holidays](#types-of-holidays)
 * [API](#api)
-* [Browser](#browser)
 * [Data](#data)
 * [Custom builds of `holidays.json`](#custom-builds-of-holidaysjson)
 * [Bundling with webpack](#bundling-with-webpack)
+* [Browser](#browser)
+* [CDN](#cdn)
 * [Contribution and License Agreement](#contribution-and-license-agreement)
 * [License](#license)
 * [References](#references)
@@ -557,35 +558,6 @@ Additionally a `note` field is sometimes available for further clarification.
 
 See [Holidays API][] for further information.
 
-## Browser
-
-This project also runs in all modern browsers. See `./examples/browser`
-
-| Browser | Version | Notes                        |
-| ------- | :-----: | ---------------------------- |
-| Chrome  | >=45    |                              |
-| Firefox | >=45    |                              |
-| Safari  | >=10    |                              |
-| Edge    | >=13    |                              |
-| IE      | >=10    | needs polyfill `core-js/es6` |
-
-Please do not forget to set the correct charset!
-
-```html
-<html>
-<head>
-  <!-- set page-wide -->
-  <meta charset="UTF-8">
-  ...
-</head>
-<body>
-  ...
-  <!-- or per script -->
-  <script src="your-bundle.js" charset="UTF-8"></script>
-```
-
-Testing is done with `zuul`. For local browser tests run `npm run zuul -- --local 3000` and open <http://localhost:3000/__zuul>.
-
 ## Data
 
 All data for the holidays of the different countries is contained in
@@ -594,7 +566,7 @@ Any details on structure and
 available grammar for holiday attribution is described in
 [holidays.yaml specification][].
 
-<a name="contribution"></a>
+<a name="custom"></a>
 
 ## Custom builds of `holidays.json`
 
@@ -615,7 +587,7 @@ Alternatively you may use the `--omit` option.
 Manually use
 
 ```bash
-$(npm bin)/holidays2json --pick US,CA,MX
+npx holidays2json --pick US,CA,MX
 ```
 
 > **NOTE:** There are some countries which depend on data of others which
@@ -637,6 +609,45 @@ Please take a look at `./webpack.config.js`. To further reduce size consider cus
     ...
 ```
 
+## Browser
+
+This project also runs in all modern browsers. See `./examples/browser`
+
+| Browser | Version | Notes                        |
+| ------- | :-----: | ---------------------------- |
+| Chrome  | >=45    |                              |
+| Firefox | >=45    |                              |
+| Safari  | >=10    |                              |
+| Edge    | >=13    |                              |
+| IE      | >=11    | needs polyfill `core-js/es6` |
+
+Please do not forget to set the correct charset!
+
+```html
+<html>
+<head>
+  <!-- set page-wide -->
+  <meta charset="UTF-8">
+  ...
+</head>
+<body>
+  ...
+  <!-- or per script -->
+  <script src="your-bundle.js" charset="UTF-8"></script>
+```
+
+## CDN
+
+Minified distribution bundles are available via https://unpkg.com
+
+> **NOTE:** dist-bundles are quite huge in size ~1.5MByte so use [custom](#custom) builds instead.
+
+See https://unpkg.com/date-holidays-parser/dist/
+
+- `index.min.js`: commonjs2 bundle
+- `umd.min.js`: umd bundle
+
+<a name="contribution"></a>
 
 ## Contribution and License Agreement
 
