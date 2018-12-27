@@ -1,22 +1,20 @@
 #!/usr/bin/env node
 
-'use strict'
-
 /**
  * draw tree of supported countries, states, regions
  */
 function tree (stream) {
-  var draw = [
+  const draw = [
     '├── ',
     '└── ',
     '│   ',
     '    '
   ]
 
-  var Holidays = require('..')
+  const Holidays = require('..')
 
-  var countries = Holidays().getCountries()
-  var countriesLen = Object.keys(countries).length - 1
+  const countries = Holidays().getCountries()
+  const countriesLen = Object.keys(countries).length - 1
 
   stream.write('Countries: ' + (countriesLen + 1) + '\n')
 

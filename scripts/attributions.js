@@ -4,25 +4,23 @@
    key-spacing: 0
  */
 
-'use strict'
+const fs = require('fs')
+const path = require('path')
 
-var fs = require('fs')
-var path = require('path')
-
-var argv = process.argv
+const argv = process.argv
   .slice(2)
   .map((f) => {
     return process.cwd() + '/' + f
   })
 
-var config = {
+const config = {
   fileRegex: /^([A-Z]+)\.yaml$/,
   license: argv[0] || path.resolve(__dirname, '..', 'LICENSE'),
   countries: argv[1] || path.resolve(__dirname, '..', 'data', 'countries')
 }
 
 function uniq (arr) {
-  var obj = {}
+  const obj = {}
   arr.forEach((i) => {
     obj[i] = 1
   })
@@ -43,7 +41,7 @@ Attributions.prototype = {
   },
 
   load () {
-    var list = fs.readdirSync(config.countries)
+    const list = fs.readdirSync(config.countries)
     console.log(list.length, 'files read')
 
     this.data = list
@@ -60,7 +58,7 @@ Attributions.prototype = {
   },
 
   extract () {
-    var data = this.data.filter((d) => {
+    const data = this.data.filter((d) => {
       if (/#\s*@attrib\s/.test(d)) {
         return true
       }
@@ -79,7 +77,7 @@ Attributions.prototype = {
 
   insert (filename) {
     this.filename = filename
-    var license = this._load(filename)
+    const license = this._load(filename)
     this.data = license.replace(/<(attribution)>[^]*<\/\1>/m, '<attribution>\n\n' + this.data + '\n\n</attribution>')
     return this
   },
@@ -90,6 +88,6 @@ Attributions.prototype = {
 }
 
 if (module === require.main) {
-  var a = new Attributions()
+  const a = new Attributions()
   a.load().extract().insert(config.license).save()
 }
