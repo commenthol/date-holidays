@@ -40,11 +40,12 @@
     "test": "test"
   },
   "scripts": {
-    "all": "npm-run-all clean lint build yaml test",
+    "all": "npm-run-all clean lint build yaml doc:tree webpack test",
     "build": "babel -d lib src",
-    "clean": "rimraf lib",
+    "clean": "rimraf lib dist",
     "clean:all": "npm-run-all clean clean:modules",
     "clean:modules": "rimraf node_modules",
+    "doc:tree": "node scripts/addtree.js",
     "lint": "eslint --fix '**/*.js'",
     "prepublishOnly": "npm run all",
     "test": "npm-run-all test:*",

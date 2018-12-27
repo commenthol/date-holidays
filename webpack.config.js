@@ -4,57 +4,76 @@
 
 const path = require('path')
 const webpack = require('webpack')
-const createVariants = require('parallel-webpack').createVariants
-// const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer') // eslint-disable-line
+const { createVariants } = require('parallel-webpack')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const rimraf = require('rimraf').sync
+
+const doAnalyze = process.env.npm_lifecycle_event === 'webpack:analyze'
+
+const variants = doAnalyze
+  ? {
+    target: ['commonjs2']
+  }
+  : {
+    minified: [true],
+    target: [
+      ['commonjs2', 'index'],
+      ['umd', 'umd']
+    ]
+  }
+
+rimraf('./dist')
 
 function createConfig (options) {
+  const plugins = [
+    // ---- do not bundle moment locales
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+    // ---- do not bundle astronomia vsop planet data
+    new webpack.IgnorePlugin(/^\.\/vsop87B[^e].*$/)
+    // ---- using a custom set of timezones
+    // new webpack.NormalModuleReplacementPlugin(
+    //   /moment-timezone\/data\/packed\/latest\.json/,
+    //   require.resolve('./timezones.json')
+    // )
+  ]
+  if (doAnalyze) {
+    plugins.push(new BundleAnalyzerPlugin())
+  }
+
   return {
     mode: 'production',
-    // mode: 'development',
     devtool: 'sourcemap',
     entry: {
       'date.holidays': ['babel-polyfill', './src/index.js']
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'date.holidays.' + options.target + '.js',
+      filename: options.target[1] +
+                (options.minified ? '.min' : '') +
+                '.js',
       library: 'Holidays',
-      libraryTarget: options.target
+      libraryTarget: options.target[0]
     },
     resolve: {
       // mainFields: ['browser', 'main', 'module']
+    },
+    optimization: {
+      minimize: options.minified
     },
     module: {
       rules: [{
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-            loader: 'babel-loader',
-            options: {
-              presets: ['babel-preset-env']
-            }
+          loader: 'babel-loader',
+          options: {
+            presets: ['babel-preset-env']
           }
         }
-      ]
+      }]
     },
-    plugins: [
-      // new BundleAnalyzerPlugin(),
-      // ---- do not bundle moment locales
-      new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-      // ---- do not bundle astronomia vsop planet data
-      new webpack.IgnorePlugin(/^\.\/vsop87B[^e].*$/)
-      // ---- using a custom set of timezones
-      // new webpack.NormalModuleReplacementPlugin(
-      //   /moment-timezone\/data\/packed\/latest\.json/,
-      //   require.resolve('./timezones.json')
-      // )
-    ]
+    plugins
   }
 }
 
-module.exports = createVariants({
-  target: [
-    'commonjs2',
-    'umd'
-  ]
-}, createConfig)
+module.exports = createVariants(variants, createConfig)

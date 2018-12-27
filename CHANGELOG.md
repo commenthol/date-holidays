@@ -1,5 +1,8 @@
 # CHANGELOG
 
+v1.3.2
+- Add dist bundles for unpkg CDN
+
 v1.3.1
 - Fix attribution typo for Vatican City.
 - Fix CH holiday names in default language

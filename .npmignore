@@ -6,7 +6,6 @@ attic/
 make/
 test/
 docs/
-dist/
 gen/
 tmp/
 data/countries/*.todo
