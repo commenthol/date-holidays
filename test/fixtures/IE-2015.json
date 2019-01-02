@@ -28,7 +28,7 @@
     "start": "2015-04-02T23:00:00.000Z",
     "end": "2015-04-03T23:00:00.000Z",
     "name": "Good Friday",
-    "type": "observance",
+    "type": "bank",
     "_weekday": "Fri"
   },
   {

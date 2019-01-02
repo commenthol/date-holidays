@@ -28,7 +28,7 @@
     "start": "2020-04-09T23:00:00.000Z",
     "end": "2020-04-10T23:00:00.000Z",
     "name": "Good Friday",
-    "type": "observance",
+    "type": "bank",
     "_weekday": "Fri"
   },
   {

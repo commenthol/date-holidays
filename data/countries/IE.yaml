@@ -1,5 +1,6 @@
 holidays:
   # @source http://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/public_holidays_in_ireland.html
+  # @source https://www.bpfi.ie/wp-content/uploads/2017/10/Bank20Holidays202017-20.pdf
   IE:
     names:
       en: Ireland
@@ -14,12 +15,17 @@ holidays:
       03-17:
         name:
           en: St. Patrick’s Day
+      03-17 and if saturday then next monday if sunday then next monday:
+        name:
+          en: St. Patrick’s Day
+        substitute: true
+        type: bank
       easter -21:
         _name: Mothers Day
         type: observance
       easter -2:
         _name: easter -2
-        type: observance
+        type: bank
       easter:
         _name: easter
       easter 1:
@@ -36,10 +42,10 @@ holidays:
       1st monday before 10-31:
         name:
           en: October Bank Holiday
+          type: bank
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
         name:
           en: St. Stephen's Day
-
