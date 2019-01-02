@@ -64,6 +64,9 @@ holidays:
         type: observance
       09-16:
         _name: Independence Day
+      11-2:
+        _name: 11-02
+        type: bank
       11-20:
         _name: Revolution Day
       3rd monday in November:
@@ -74,5 +77,10 @@ holidays:
         name:
           en: Change of Federal Government
           es: Transmisión del Poder Ejecutivo Federal
+      12-12:
+        name:
+          en: Day of the Virgin of Guadalupe
+          es: Día de la Virgen de Guadalupe
+        type: bank
       12-25:
         _name: 12-25
