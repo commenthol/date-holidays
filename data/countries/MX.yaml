@@ -1,5 +1,19 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Mexico
+  #
+  # Bank Holidays:
+  # The following is the federal legislation, in Spanish, defining when banks
+  # must be closed for 2017 - 2019:
+  # @source http://www.dof.gob.mx/nota_detalle.php?codigo=5466056&fecha=20/12/2016
+  # @source http://www.dof.gob.mx/nota_detalle.php?codigo=5508103&fecha=18/12/2017
+  # @source http://www.dof.gob.mx/nota_detalle.php?codigo=5546178&fecha=11/12/2018
+  #
+  # PDF versions of the above can be also found from the Bank of Mexico's
+  # website (http://www.banxico.org.mx/) by going to "Sistema financiero" /
+  # "Estabilidad financiera".
+  #
+  # For convenience, here is the same 2019 bank information condensed and in English:
+  # @source http://www.banxico.org.mx/financial-system/d/%7B78042524-F8E9-89EB-9A8E-FD40D0CBCF40%7D.pdf
   MX:
     names:
       es: México
@@ -37,6 +51,12 @@ holidays:
         name:
           en: Benito Juárez's birthday (day off)
           es: Natalicio de Benito Juárez (día libre)
+      easter -3:
+        _name: easter -3
+        type: bank
+      easter -2:
+        _name: easter -2
+        type: bank
       05-01:
         _name: 05-01
       05-10:
@@ -56,4 +76,3 @@ holidays:
           es: Transmisión del Poder Ejecutivo Federal
       12-25:
         _name: 12-25
-
