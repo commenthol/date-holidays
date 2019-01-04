@@ -9221,6 +9221,20 @@
           "name": {
             "en": "St. Stephen's Day"
           }
+        },
+        "12-26 and if saturday then next monday if sunday then next monday": {
+          "_name": "12-26",
+          "name": {
+            "en": "St. Stephen's Day"
+          },
+          "substitute": true,
+          "type": "bank"
+        },
+        "12-27 if saturday then next monday if sunday then next tuesday": {
+          "name": {
+            "en": "Christmas Bank Holiday"
+          },
+          "type": "bank"
         }
       }
     },
