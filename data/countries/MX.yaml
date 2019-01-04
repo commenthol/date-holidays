@@ -64,7 +64,7 @@ holidays:
         type: observance
       09-16:
         _name: Independence Day
-      11-2:
+      11-02:
         _name: 11-02
         type: bank
       11-20:

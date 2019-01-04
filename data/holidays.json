@@ -1,5 +1,5 @@
 {
-  "version": "2019-01-02",
+  "version": "2019-01-04",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -10987,7 +10987,7 @@
         "09-16": {
           "_name": "Independence Day"
         },
-        "11-2": {
+        "11-02": {
           "_name": "11-02",
           "type": "bank"
         },
