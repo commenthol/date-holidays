@@ -1,5 +1,5 @@
 {
-  "version": "2018-12-27",
+  "version": "2019-01-04",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -1187,10 +1187,45 @@
             "Australia/Lindeman"
           ],
           "days": {
+            "1st monday in October every 1 years since 2013": {
+              "name": {
+                "en": "Labour Day"
+              },
+              "active": [
+                {
+                  "from": "2013-01-01"
+                },
+                {
+                  "to": "2015-12-31"
+                }
+              ]
+            },
             "1st monday in May": {
               "name": {
                 "en": "Labour Day"
-              }
+              },
+              "active": [
+                {
+                  "from": "2016-01-01"
+                }
+              ]
+            },
+            "2nd monday in June": {
+              "active": [
+                {
+                  "to": "2015-12-31"
+                }
+              ]
+            },
+            "1st monday in October every 1 years since 2016": {
+              "name": {
+                "en": "Queen's Birthday"
+              },
+              "active": [
+                {
+                  "from": "2016-01-01"
+                }
+              ]
             }
           }
         },
