@@ -33,6 +33,7 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Disabling a rule](#disabling-a-rule)
   * [Moving a date](#moving-a-date)
   * [Disabling a rule in states/ regions](#disabling-a-rule-in-states-regions)
+  * [Renaming holidays](#renaming-holidays)
 * [Generation of `holidays.json`](#generation-of-holidaysjson)
 
 <!-- toc! -->
@@ -492,7 +493,7 @@ Sometimes it is necessary to disable a general rule for a single state or region
 holidays:
   OZ:
     name:
-      en: Oz
+      en: Land of Oz
     ...
     days:
       04-01:
@@ -504,6 +505,28 @@ holidays:
         days:
           04-01: false # disables rule
 ```
+
+### Renaming holidays
+
+In cases where holiday names get replaced the same rule may be required more than once.
+Here add ` #<0-9>` to that rule and enclose it in quotes.
+
+In this example `Fool's Day` was renamed to `1st of April` in year 1900.
+
+```yaml
+days:
+  04-01:
+    name:
+      en: 1st of April
+    active:
+      - from: 1900-01-01
+  '04-01 #1':
+    name:
+      en: Fool's Day
+    active:
+      - to: 1900-01-01
+```
+
 
 ## Generation of `holidays.json`
 
