@@ -117,7 +117,7 @@ holidays:
               en: Labour Day
             active:
               - from: '2013-01-01'
-              - to: '2015-12-31'
+                to: '2015-12-31'
           1st monday in May:
             name:
               en: Labour Day
