@@ -8,6 +8,30 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2018-01-23 00:00:00",
+    "start": "2018-01-22T16:00:00.000Z",
+    "end": "2018-01-23T16:00:00.000Z",
+    "name": "First Philippine Republic Day",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-02-02 00:00:00",
+    "start": "2018-02-01T16:00:00.000Z",
+    "end": "2018-02-02T16:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-02-16 00:00:00",
+    "start": "2018-02-15T16:00:00.000Z",
+    "end": "2018-02-16T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "optional",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2018-02-25 00:00:00",
     "start": "2018-02-24T16:00:00.000Z",
     "end": "2018-02-25T16:00:00.000Z",
@@ -17,12 +41,61 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2018-03-02 00:00:00",
+    "start": "2018-03-01T16:00:00.000Z",
+    "end": "2018-03-02T16:00:00.000Z",
+    "name": "Lantern Festival",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-03-29 00:00:00",
+    "start": "2018-03-28T16:00:00.000Z",
+    "end": "2018-03-29T16:00:00.000Z",
+    "name": "Maundy Thursday",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-29T16:00:00.000Z",
+    "end": "2018-03-30T16:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-03-31 00:00:00",
+    "start": "2018-03-30T16:00:00.000Z",
+    "end": "2018-03-31T16:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-04-01 00:00:00",
+    "start": "2018-03-31T16:00:00.000Z",
+    "end": "2018-04-01T16:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-04-09 00:00:00",
     "start": "2018-04-08T16:00:00.000Z",
     "end": "2018-04-09T16:00:00.000Z",
     "name": "Day of Valor",
     "type": "public",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2018-04-27 00:00:00",
+    "start": "2018-04-26T16:00:00.000Z",
+    "end": "2018-04-27T16:00:00.000Z",
+    "name": "Lapu-Lapu Day",
+    "type": "observance",
+    "_weekday": "Fri"
   },
   {
     "date": "2018-05-01 00:00:00",
@@ -37,6 +110,38 @@
     "start": "2018-06-11T16:00:00.000Z",
     "end": "2018-06-12T16:00:00.000Z",
     "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-06-15 00:00:00 -0600",
+    "start": "2018-06-14T10:00:00.000Z",
+    "end": "2018-06-15T10:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-06-19 00:00:00",
+    "start": "2018-06-18T16:00:00.000Z",
+    "end": "2018-06-19T16:00:00.000Z",
+    "name": "José Rizal's birthday",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-07-27 00:00:00",
+    "start": "2018-07-26T16:00:00.000Z",
+    "end": "2018-07-27T16:00:00.000Z",
+    "name": "Iglesia ni Cristo Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-08-21 00:00:00 -0600",
+    "start": "2018-08-20T10:00:00.000Z",
+    "end": "2018-08-21T10:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -58,6 +163,22 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2018-09-11 00:00:00 -0600",
+    "start": "2018-09-10T10:00:00.000Z",
+    "end": "2018-09-11T10:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-09-24 00:00:00",
+    "start": "2018-09-23T16:00:00.000Z",
+    "end": "2018-09-24T16:00:00.000Z",
+    "name": "Mid-Autumn Festival",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2018-11-01 00:00:00",
     "start": "2018-10-31T16:00:00.000Z",
     "end": "2018-11-01T16:00:00.000Z",
@@ -76,6 +197,14 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2018-11-20 00:00:00 -0600",
+    "start": "2018-11-19T10:00:00.000Z",
+    "end": "2018-11-20T10:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2018-11-30 00:00:00",
     "start": "2018-11-29T16:00:00.000Z",
     "end": "2018-11-30T16:00:00.000Z",
@@ -91,6 +220,15 @@
     "type": "optional",
     "note": "Non-working Day",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-23T16:00:00.000Z",
+    "end": "2018-12-24T16:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "note": "Non-working Day",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-25 00:00:00",
