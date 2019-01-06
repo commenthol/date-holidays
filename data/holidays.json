@@ -11002,6 +11002,14 @@
             "es": "Natalicio de Benito Juárez (día libre)"
           }
         },
+        "easter -3": {
+          "_name": "easter -3",
+          "type": "bank"
+        },
+        "easter -2": {
+          "_name": "easter -2",
+          "type": "bank"
+        },
         "05-01": {
           "_name": "05-01"
         },
@@ -11011,6 +11019,10 @@
         },
         "09-16": {
           "_name": "Independence Day"
+        },
+        "11-02": {
+          "_name": "11-02",
+          "type": "bank"
         },
         "11-20": {
           "_name": "Revolution Day"
@@ -11026,6 +11038,13 @@
             "en": "Change of Federal Government",
             "es": "Transmisión del Poder Ejecutivo Federal"
           }
+        },
+        "12-12": {
+          "name": {
+            "en": "Day of the Virgin of Guadalupe",
+            "es": "Día de la Virgen de Guadalupe"
+          },
+          "type": "bank"
         },
         "12-25": {
           "_name": "12-25"
