@@ -112,12 +112,12 @@ holidays:
           - Australia/Brisbane
           - Australia/Lindeman
         days:
-          1st monday in October every 1 years since 2013:
+          '1st monday in October #1':
             name:
               en: Labour Day
             active:
               - from: '2013-01-01'
-                to: '2015-12-31'
+                to: '2016-01-01'
           1st monday in May:
             name:
               en: Labour Day
@@ -125,8 +125,8 @@ holidays:
               - from: '2016-01-01'
           2nd monday in June: 
             active:
-              - to: '2015-12-31'
-          1st monday in October every 1 years since 2016:
+              - to: '2016-01-01'
+          '1st monday in October #2':
             name:
               en: Queen's Birthday
             active:
