@@ -1,5 +1,14 @@
 # CHANGELOG
 
+v1.3.3
+- HR: Fix easter holidays
+- PH: Adding optional and observed holidays
+- AU-QLD: Fix holidays
+- doc: Update spec with "Renaming holidays" section
+- MX: Adding bank holidays
+- PY: Update Hero's Day and 2017 holidays
+- KR: Fix test
+
 v1.3.2
 - Add dist bundles for unpkg CDN
 
