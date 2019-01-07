@@ -28,7 +28,7 @@
     "start": "2017-02-27T23:00:00.000Z",
     "end": "2017-02-28T23:00:00.000Z",
     "name": "Pokladni utorak",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Tue"
   },
   {
@@ -36,14 +36,14 @@
     "start": "2017-04-15T22:00:00.000Z",
     "end": "2017-04-16T22:00:00.000Z",
     "name": "Uskrs",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-16T22:00:00.000Z",
     "end": "2017-04-17T22:00:00.000Z",
-    "name": "Drugi dan Uskrsa",
+    "name": "Uskršnji ponedjeljak",
     "type": "public",
     "_weekday": "Mon"
   },

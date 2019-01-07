@@ -1,5 +1,5 @@
 {
-  "version": "2019-01-04",
+  "version": "2019-01-07",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -8813,11 +8813,11 @@
           "_name": "01-06"
         },
         "easter -47": {
-          "_name": "easter -47"
+          "_name": "easter -47",
+          "type": "observance"
         },
         "easter": {
-          "_name": "easter",
-          "type": "observance"
+          "_name": "easter"
         },
         "easter 1": {
           "_name": "easter 1"
@@ -16608,7 +16608,7 @@
         "fi": "2. pääsiäispäivä",
         "fo": "Annar páskadagur",
         "fr": "Lundi de Pâques",
-        "hr": "Drugi dan Uskrsa",
+        "hr": "Uskršnji ponedjeljak",
         "hu": "Húsvéthétfő",
         "it": "Lunedì dell’Angelo",
         "is": "Annar í páskum",
