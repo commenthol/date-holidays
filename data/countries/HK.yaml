@@ -1,0 +1,17 @@
+# @source https://www.gov.hk/en/about/abouthk/holiday
+# Note that specific years, down to 2007, are available by appending the year.
+# For example: https://www.gov.hk/en/about/abouthk/holiday/2019.htm
+# Statitory holidays:
+# @source https://www.labour.gov.hk/eng/news/latest_holidays2019.htm
+#
+# Note that the Hong Kong Monetary Authority is the central bank
+# (https://www.hkma.gov.hk/). It appears to follow the same public holidays as
+# the rest of Hong Kong.
+holidays:
+    names:
+      en: Hong Kong SAR China
+    langs: []
+    zones:
+      - Asia/Hong_Kong
+    dayoff: '' # I am pretty sure this is both Saturday and Sunday but that needs to be checked.
+    days: {}
