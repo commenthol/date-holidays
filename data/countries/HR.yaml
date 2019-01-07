@@ -15,9 +15,9 @@ holidays:
         _name: 01-06
       easter -47:
         _name: easter -47
+        type: observance
       easter:
         _name: easter
-        type: observance
       easter 1:
         _name: easter 1
       easter 60:
@@ -64,4 +64,3 @@ holidays:
             name:
               hr: Sveti Vlaho
               en: Saint Blaise
-
