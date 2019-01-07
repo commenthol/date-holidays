@@ -25,6 +25,7 @@ names:
       es: Año Nuevo
       et: uusaasta
       fi: Uudenvuodenpäivä
+      fil: Araw ng Bagong Taon
       fo: Nýggjársdagur
       # fr: Jour de l'An
       fr: Nouvel An
@@ -45,7 +46,6 @@ names:
       no: Første nyttårsdag
       pap: Aña Nobo
       pl: Nowy Rok
-      ph: Araw ng Bagong Taon
       pt: Ano Novo
       ro: Anul nou
       ru: Новый год
@@ -132,6 +132,7 @@ names:
       es: Fiesta del trabajo
       et: kevadpüha
       fi: Vappu
+      fil: Araw ng mga Manggagawa
       fr: Fête du travail
       hr: Praznik rada
       hu: A munka ünnepe
@@ -147,7 +148,6 @@ names:
       mt: Jum il-Ħaddiem
       pap: Dia di Obrero
       pl: Święto Pracy
-      ph: Araw ng mga Manggagawa
       pt: Dia do trabalhador
       ro: Ziua muncii
       sk: Sviatok práce
@@ -193,6 +193,7 @@ names:
       de: Allerheiligen
       es: Todos los Santos
       fi: Pyhäinpäivä
+      fil: Undás; Todos los Santos; Araw ng mga Santo
       fr: Toussaint
       hr: Svi sveti
       hu: Mindenszentek
@@ -203,7 +204,6 @@ names:
       mk: Празникот на сите светци
       nl: Allerheiligen
       pl: Wszystkich Świętych
-      ph: Undás; Todos los Santos; Araw ng mga Santo
       pt: Todos os santos
       sk: Sviatok všetkých svätých
       sq: Të gjitha Saints
@@ -215,10 +215,10 @@ names:
       de: Allerseelen
       es: Día de los Difuntos
       et: hingedepäev
+      fil: Araw ng mga Kaluluwa
       fr: Fête des morts
       hr: Dušni dan
       nl: Allerzielen
-      ph: Araw ng mga Kaluluwa
       pt: Dia de Finados
   11-11:
     name:
@@ -252,6 +252,7 @@ names:
       et: jõululaupäev
       fo: Jólaaftan
       fi: Jouluaatto
+      fil: Bisperas ng Pasko
       fr: Veille de Noël
       hr: Badnji dan
       is: Aðfangadagur
@@ -281,6 +282,7 @@ names:
       es: Navidad
       et: esimene jõulupüha
       fi: Joulupäivä
+      fil: Araw ng Pasko
       fo: Fyrsti jóladagur
       fr: Noël
       hr: Božić
@@ -301,7 +303,6 @@ names:
       no: Første Juledag
       pap: Dia Pasco di Nascimento
       pl: Pierwszy dzień Bożego Narodzenia
-      ph: Araw ng Pasko
       pt: Natal
       ro: Crăciunul
       ru: Рождество Христово
@@ -349,6 +350,7 @@ names:
       es: Fin del Año
       # es: Nochevieja
       fi: Uudenvuodenaatto
+      fil: Bisperas ng Bagong Taon
       fo: Nýggjársaftan
       fr: Saint-Sylvestre
       hu: Szilveszter
@@ -359,7 +361,6 @@ names:
       lv: Vecgada vakars
       nl: Oudejaarsavond
       no: Nyttårsaften
-      ph: Bisperas ng Bagong Taon
       pt: Véspera de Ano Novo
       sv: Nyårsafton
 
@@ -406,6 +407,7 @@ names:
       da: Skærtorsdag
       de: Gründonnerstag
       es: Jueves Santo
+      fil: Huwebes Santo
       fo: Skírhósdagur
       fr: Jeudi saint
       it: Giovedì santo
@@ -424,6 +426,7 @@ names:
       de: Karfreitag
       es: Viernes Santo
       fi: Pitkäperjantai
+      fil: Biyernes Santo
       fo: Langafríggjadagur
       fr: Vendredi saint
       el: Μεγάλη Παρασκευή
@@ -449,6 +452,7 @@ names:
       cz: Bílá sobota
       de: Karsamstag
       es: Sabado Santo
+      fil: Sabado de Gloria
       fr: Samedi saint
       it: Sabado santo
       no: Påskeaften
@@ -465,6 +469,7 @@ names:
       es: Pascua
       et: lihavõtted
       fi: Pääsiäispäivä
+      fil: Pasko ng Pagkabuhay
       fo: Páskadagur
       fr: Pâques
       hr: Uskrs
@@ -632,6 +637,7 @@ names:
       en: Islamic New Year
       ar: 'رأس السنة الهجرية'
       bs: Nova hidžretska godina
+      fil: Unang Araw ng Muharram
       hr: Nova hidžretska godina
       ms: Awal Tahun Hijrah
       sq: Viti i Ri hixhri
@@ -684,6 +690,7 @@ names:
       az: Ramazan Bayramı
       bs: Ramazanski bajram
       de: Zuckerfest
+      fil: Pagwawakas ng Ramadan
       fr: Fête de fin du Ramadan
       hr: Ramazanski bajram
       nl: Suikerfeest (Eid al-Fitr)
@@ -705,6 +712,7 @@ names:
       az: Qurban Bayramı
       bs: Kurbanski bajram
       de: Opferfest
+      fil: Eidul Adha
       fr: Fête du mouton
       hr: Kurban-bajram
       nl: Offerfeest (Eid Al-Adha)
@@ -759,6 +767,7 @@ names:
       de: Tag der Verfassung
       ca: Dia de la Constitució
       es: Día de la Constitución
+      fil: Araw ng Saligang Batas
       fo: Grundlógardagur
       hy: Սահմանադրության օր
       jp: 憲法記念日
@@ -787,6 +796,7 @@ names:
       es: Día de la Independencia
       et: iseseisvuspäev
       fi: Itsenäisyyspäivä
+      fil: Araw ng Kalayaan
       fr: Jour de l'Indépendance
       hr: Dan neovisnosti
       hy: Անկախության օր
@@ -794,7 +804,6 @@ names:
       mt: Jum l-Indipendenza
       nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
-      ph: Araw ng Kalayaan
       pt: Dia da Independência
       ro: Ziua Independentei
       sq: Dita e Pavarësisë

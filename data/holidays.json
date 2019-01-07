@@ -1187,10 +1187,43 @@
             "Australia/Lindeman"
           ],
           "days": {
+            "1st monday in October #1": {
+              "name": {
+                "en": "Labour Day"
+              },
+              "active": [
+                {
+                  "from": "2013-01-01",
+                  "to": "2016-01-01"
+                }
+              ]
+            },
             "1st monday in May": {
               "name": {
                 "en": "Labour Day"
-              }
+              },
+              "active": [
+                {
+                  "from": "2016-01-01"
+                }
+              ]
+            },
+            "2nd monday in June": {
+              "active": [
+                {
+                  "to": "2016-01-01"
+                }
+              ]
+            },
+            "1st monday in October #2": {
+              "name": {
+                "en": "Queen's Birthday"
+              },
+              "active": [
+                {
+                  "from": "2016-01-01"
+                }
+              ]
             }
           }
         },
@@ -11875,7 +11908,7 @@
       },
       "langs": [
         "en",
-        "ph"
+        "fil"
       ],
       "zones": [
         "Asia/Manila"
@@ -11885,42 +11918,123 @@
         "01-01": {
           "_name": "01-01"
         },
+        "01-23": {
+          "type": "observance",
+          "name": {
+            "en": "First Philippine Republic Day",
+            "fil": "Araw ng Unang Republika ng Pilipinas"
+          }
+        },
+        "chinese 01-0-01": {
+          "type": "optional",
+          "name": {
+            "en": "Chinese New Year",
+            "fil": "Bagong Taon ng mga Tsino"
+          }
+        },
+        "02-02": {
+          "type": "observance",
+          "_name": "Constitution Day"
+        },
+        "chinese 01-0-15": {
+          "type": "observance",
+          "name": {
+            "en": "Lantern Festival",
+            "fil": "Piyesta ng mga Parol Tsino"
+          }
+        },
         "02-25": {
           "name": {
             "en": "EDSA Revolution Anniversary",
-            "ph": "Anibersaryo ng Rebolusyon sa EDSA"
+            "fil": "Anibersaryo ng Rebolusyon sa EDSA"
           },
           "type": "optional",
           "note": "Non-working Day"
         },
+        "easter -3": {
+          "_name": "easter -3"
+        },
+        "easter -2": {
+          "_name": "easter -2"
+        },
+        "easter -1": {
+          "_name": "easter -1",
+          "type": "optional",
+          "note": "Non-working Day"
+        },
+        "easter": {
+          "_name": "easter"
+        },
         "04-09": {
           "name": {
             "en": "Day of Valor",
-            "ph": "Araw ng Kagitingan"
+            "fil": "Araw ng Kagitingan"
+          }
+        },
+        "04-27": {
+          "type": "observance",
+          "name": {
+            "en": "Lapu-Lapu Day",
+            "fil": "Araw ni Lapu-Lapu"
           }
         },
         "05-01": {
           "_name": "05-01",
           "name": {
             "en": "Labour Day",
-            "ph": "Araw ng mga Manggagawa"
+            "fil": "Araw ng mga Manggagawa"
           }
         },
         "06-12": {
           "_name": "Independence Day"
         },
+        "06-19": {
+          "type": "observance",
+          "name": {
+            "en": "José Rizal's birthday",
+            "fil": "Araw ng Kapanganakan ni José Rizal"
+          },
+          "active": [
+            {
+              "from": "1961-01-01T00:00:00.000Z"
+            }
+          ],
+          "disable": [
+            "2011-06-19"
+          ]
+        },
+        "2011-06-19": {
+          "name": {
+            "en": "José Rizal's birthday",
+            "fil": "Araw ng Kapanganakan ni José Rizal"
+          }
+        },
+        "07-27": {
+          "type": "observance",
+          "name": {
+            "en": "Iglesia ni Cristo Day",
+            "fil": "Araw ng Iglesia ni Cristo"
+          }
+        },
         "08-21": {
           "name": {
             "en": "Ninoy Aquino Day",
-            "ph": "Araw ng Kabayanihan ni Ninoy Aquino"
+            "fil": "Araw ng Kabayanihan ni Ninoy Aquino"
           },
           "type": "optional",
           "note": "Non-working Day"
         },
-        "08-27": {
+        "1st monday before September": {
           "name": {
             "en": "National Heroes' Day",
-            "ph": "Araw ng mga Bayani"
+            "fil": "Araw ng mga Bayani"
+          }
+        },
+        "chinese 08-0-15": {
+          "type": "observance",
+          "name": {
+            "en": "Mid-Autumn Festival",
+            "fil": "Piyestang Zhōngqiū Jié"
           }
         },
         "11-01": {
@@ -11936,15 +12050,20 @@
         "11-30": {
           "name": {
             "en": "Bonifacio Day",
-            "ph": "Araw ng Kapanganakan ni Bonifacio"
+            "fil": "Araw ng Kapanganakan ni Bonifacio"
           }
         },
         "12-08": {
           "_name": "12-08",
           "name": {
             "en": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
-            "ph": "Pagdiriwang ng Kalinis-linisang Paglilihi sa Mahal na Birheng Maria"
+            "fil": "Pagdiriwang ng Kalinis-linisang Paglilihi sa Mahal na Birheng Maria"
           },
+          "type": "optional",
+          "note": "Non-working Day"
+        },
+        "12-24": {
+          "_name": "12-24",
           "type": "optional",
           "note": "Non-working Day"
         },
@@ -11954,13 +12073,27 @@
         "12-30": {
           "name": {
             "en": "Rizal Day",
-            "ph": "Paggunita sa Kamatayan ni Dr. Jose Rizal"
+            "fil": "Paggunita sa Kamatayan ni Dr. Jose Rizal"
           }
         },
         "12-31": {
           "_name": "12-31",
           "type": "optional",
           "note": "Non-working Day"
+        },
+        "1 Muharram": {
+          "type": "observance",
+          "_name": "1 Muharram"
+        },
+        "12 Rabi al-awwal": {
+          "type": "observance",
+          "_name": "12 Rabi al-awwal"
+        },
+        "1 Shawwal": {
+          "_name": "1 Shawwal"
+        },
+        "10 Dhu al-Hijjah": {
+          "_name": "10 Dhu al-Hijjah"
         }
       }
     },
@@ -16092,6 +16225,7 @@
         "es": "Año Nuevo",
         "et": "uusaasta",
         "fi": "Uudenvuodenpäivä",
+        "fil": "Araw ng Bagong Taon",
         "fo": "Nýggjársdagur",
         "fr": "Nouvel An",
         "hr": "Nova godina",
@@ -16111,7 +16245,6 @@
         "no": "Første nyttårsdag",
         "pap": "Aña Nobo",
         "pl": "Nowy Rok",
-        "ph": "Araw ng Bagong Taon",
         "pt": "Ano Novo",
         "ro": "Anul nou",
         "ru": "Новый год",
@@ -16209,6 +16342,7 @@
         "es": "Fiesta del trabajo",
         "et": "kevadpüha",
         "fi": "Vappu",
+        "fil": "Araw ng mga Manggagawa",
         "fr": "Fête du travail",
         "hr": "Praznik rada",
         "hu": "A munka ünnepe",
@@ -16224,7 +16358,6 @@
         "mt": "Jum il-Ħaddiem",
         "pap": "Dia di Obrero",
         "pl": "Święto Pracy",
-        "ph": "Araw ng mga Manggagawa",
         "pt": "Dia do trabalhador",
         "ro": "Ziua muncii",
         "sk": "Sviatok práce",
@@ -16275,6 +16408,7 @@
         "de": "Allerheiligen",
         "es": "Todos los Santos",
         "fi": "Pyhäinpäivä",
+        "fil": "Undás; Todos los Santos; Araw ng mga Santo",
         "fr": "Toussaint",
         "hr": "Svi sveti",
         "hu": "Mindenszentek",
@@ -16284,7 +16418,6 @@
         "mk": "Празникот на сите светци",
         "nl": "Allerheiligen",
         "pl": "Wszystkich Świętych",
-        "ph": "Undás; Todos los Santos; Araw ng mga Santo",
         "pt": "Todos os santos",
         "sk": "Sviatok všetkých svätých",
         "sq": "Të gjitha Saints",
@@ -16298,10 +16431,10 @@
         "de": "Allerseelen",
         "es": "Día de los Difuntos",
         "et": "hingedepäev",
+        "fil": "Araw ng mga Kaluluwa",
         "fr": "Fête des morts",
         "hr": "Dušni dan",
         "nl": "Allerzielen",
-        "ph": "Araw ng mga Kaluluwa",
         "pt": "Dia de Finados"
       }
     },
@@ -16343,6 +16476,7 @@
         "et": "jõululaupäev",
         "fo": "Jólaaftan",
         "fi": "Jouluaatto",
+        "fil": "Bisperas ng Pasko",
         "fr": "Veille de Noël",
         "hr": "Badnji dan",
         "is": "Aðfangadagur",
@@ -16374,6 +16508,7 @@
         "es": "Navidad",
         "et": "esimene jõulupüha",
         "fi": "Joulupäivä",
+        "fil": "Araw ng Pasko",
         "fo": "Fyrsti jóladagur",
         "fr": "Noël",
         "hr": "Božić",
@@ -16394,7 +16529,6 @@
         "no": "Første Juledag",
         "pap": "Dia Pasco di Nascimento",
         "pl": "Pierwszy dzień Bożego Narodzenia",
-        "ph": "Araw ng Pasko",
         "pt": "Natal",
         "ro": "Crăciunul",
         "ru": "Рождество Христово",
@@ -16444,6 +16578,7 @@
         "de": "Silvester",
         "es": "Fin del Año",
         "fi": "Uudenvuodenaatto",
+        "fil": "Bisperas ng Bagong Taon",
         "fo": "Nýggjársaftan",
         "fr": "Saint-Sylvestre",
         "hu": "Szilveszter",
@@ -16454,7 +16589,6 @@
         "lv": "Vecgada vakars",
         "nl": "Oudejaarsavond",
         "no": "Nyttårsaften",
-        "ph": "Bisperas ng Bagong Taon",
         "pt": "Véspera de Ano Novo",
         "sv": "Nyårsafton"
       }
@@ -16507,6 +16641,7 @@
         "da": "Skærtorsdag",
         "de": "Gründonnerstag",
         "es": "Jueves Santo",
+        "fil": "Huwebes Santo",
         "fo": "Skírhósdagur",
         "fr": "Jeudi saint",
         "it": "Giovedì santo",
@@ -16527,6 +16662,7 @@
         "de": "Karfreitag",
         "es": "Viernes Santo",
         "fi": "Pitkäperjantai",
+        "fil": "Biyernes Santo",
         "fo": "Langafríggjadagur",
         "fr": "Vendredi saint",
         "el": "Μεγάλη Παρασκευή",
@@ -16554,6 +16690,7 @@
         "cz": "Bílá sobota",
         "de": "Karsamstag",
         "es": "Sabado Santo",
+        "fil": "Sabado de Gloria",
         "fr": "Samedi saint",
         "it": "Sabado santo",
         "no": "Påskeaften"
@@ -16572,6 +16709,7 @@
         "es": "Pascua",
         "et": "lihavõtted",
         "fi": "Pääsiäispäivä",
+        "fil": "Pasko ng Pagkabuhay",
         "fo": "Páskadagur",
         "fr": "Pâques",
         "hr": "Uskrs",
@@ -16760,6 +16898,7 @@
         "en": "Islamic New Year",
         "ar": "رأس السنة الهجرية",
         "bs": "Nova hidžretska godina",
+        "fil": "Unang Araw ng Muharram",
         "hr": "Nova hidžretska godina",
         "ms": "Awal Tahun Hijrah",
         "sq": "Viti i Ri hixhri"
@@ -16826,6 +16965,7 @@
         "az": "Ramazan Bayramı",
         "bs": "Ramazanski bajram",
         "de": "Zuckerfest",
+        "fil": "Pagwawakas ng Ramadan",
         "fr": "Fête de fin du Ramadan",
         "hr": "Ramazanski bajram",
         "nl": "Suikerfeest (Eid al-Fitr)",
@@ -16851,6 +16991,7 @@
         "az": "Qurban Bayramı",
         "bs": "Kurbanski bajram",
         "de": "Opferfest",
+        "fil": "Eidul Adha",
         "fr": "Fête du mouton",
         "hr": "Kurban-bajram",
         "nl": "Offerfeest (Eid Al-Adha)",
@@ -16913,6 +17054,7 @@
         "de": "Tag der Verfassung",
         "ca": "Dia de la Constitució",
         "es": "Día de la Constitución",
+        "fil": "Araw ng Saligang Batas",
         "fo": "Grundlógardagur",
         "hy": "Սահմանադրության օր",
         "jp": "憲法記念日",
@@ -16945,6 +17087,7 @@
         "es": "Día de la Independencia",
         "et": "iseseisvuspäev",
         "fi": "Itsenäisyyspäivä",
+        "fil": "Araw ng Kalayaan",
         "fr": "Jour de l'Indépendance",
         "hr": "Dan neovisnosti",
         "hy": "Անկախության օր",
@@ -16952,7 +17095,6 @@
         "mt": "Jum l-Indipendenza",
         "nl": "Onafhankelijkheidsdag",
         "pl": "Narodowe Święto Niepodległości",
-        "ph": "Araw ng Kalayaan",
         "pt": "Dia da Independência",
         "ro": "Ziua Independentei",
         "sq": "Dita e Pavarësisë",
