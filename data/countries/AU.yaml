@@ -105,16 +105,32 @@ holidays:
           1st monday in August:
             name:
               en: Picnic Day
-      # @source http://www.justice.qld.gov.au/fair-and-safe-work/industrial-relations/public-holidays/dates
+      # @source https://www.qld.gov.au/recreation/travel/holidays/public
       QLD:
         name: Queensland
         zones:
           - Australia/Brisbane
           - Australia/Lindeman
         days:
+          '1st monday in October #1':
+            name:
+              en: Labour Day
+            active:
+              - from: '2013-01-01'
+                to: '2016-01-01'
           1st monday in May:
             name:
               en: Labour Day
+            active:
+              - from: '2016-01-01'
+          2nd monday in June: 
+            active:
+              - to: '2016-01-01'
+          '1st monday in October #2':
+            name:
+              en: Queen's Birthday
+            active:
+              - from: '2016-01-01'
       # @source http://www.safework.sa.gov.au/show_page.jsp?id=2483
       SA:
         name: South Australia
