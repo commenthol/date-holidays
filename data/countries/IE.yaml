@@ -1,6 +1,10 @@
 holidays:
   # @source http://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/public_holidays_in_ireland.html
   # @source https://www.bpfi.ie/wp-content/uploads/2017/10/Bank20Holidays202017-20.pdf
+  #
+  # Note that the "Bank of Ireland" is not the official national bank playes a
+  # somewhat similar role (https://en.wikipedia.org/wiki/Bank_of_Ireland#Role_as_government_banker).
+  # @source https://personalbanking.bankofireland.com/app/uploads/2018/11/OMI021897-CHRISTMAS-2018-CAMPAIGN-Opening-Hours-A1-Generic_v3.v2-compressed.pdf
   IE:
     names:
       en: Ireland
