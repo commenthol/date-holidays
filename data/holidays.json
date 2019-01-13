@@ -1,5 +1,5 @@
 {
-  "version": "2019-01-07",
+  "version": "2019-01-13",
   "license": "CC-BY-SA-3",
   "holidays": {
     "AD": {
@@ -14229,7 +14229,7 @@
           "substitute": true,
           "_name": "12-25"
         },
-        "12-31 18:00": {
+        "12-31": {
           "_name": "12-31",
           "type": "observance"
         }
