@@ -1,5 +1,10 @@
 holidays:
   # @source http://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/public_holidays_in_ireland.html
+  # @source https://www.bpfi.ie/wp-content/uploads/2017/10/Bank20Holidays202017-20.pdf
+  #
+  # Note that the "Bank of Ireland" is not the official national bank playes a
+  # somewhat similar role (https://en.wikipedia.org/wiki/Bank_of_Ireland#Role_as_government_banker).
+  # @source https://personalbanking.bankofireland.com/app/uploads/2018/11/OMI021897-CHRISTMAS-2018-CAMPAIGN-Opening-Hours-A1-Generic_v3.v2-compressed.pdf
   IE:
     names:
       en: Ireland
@@ -14,12 +19,17 @@ holidays:
       03-17:
         name:
           en: St. Patrick’s Day
+      03-17 and if saturday then next monday if sunday then next monday:
+        name:
+          en: St. Patrick’s Day
+        substitute: true
+        type: bank
       easter -21:
         _name: Mothers Day
         type: observance
       easter -2:
         _name: easter -2
-        type: observance
+        type: bank
       easter:
         _name: easter
       easter 1:
@@ -36,10 +46,23 @@ holidays:
       1st monday before 10-31:
         name:
           en: October Bank Holiday
+          type: bank
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
         name:
           en: St. Stephen's Day
-
+      12-26 and if saturday then next monday if sunday then next monday:
+        _name: 12-26
+        name:
+          en: St. Stephen's Day
+        substitute: true
+        type: bank
+      # Note that this is NOT "12-27 and if saturday..." (no and). This is
+      # becuase this is not a substitute for another holiday but a bank holiday
+      # in its own right which always falls on the work week.
+      12-27 if saturday then next monday if sunday then next tuesday:
+        name:
+          en: Christmas Bank Holiday
+        type: bank
