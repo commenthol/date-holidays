@@ -216,7 +216,7 @@ Countries: 142
 ├── DE: Deutschland
 │   ├── BB: Brandenburg
 │   ├── BE: Berlin
-│   ├── BW: Baden Würtemberg
+│   ├── BW: Baden-Württemberg
 │   ├── BY: Bayern
 │   │   ├── A: Stadt Augsburg
 │   │   └── EVANG: Überwiegend evangelische Gemeinden
