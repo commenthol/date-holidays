@@ -28,7 +28,7 @@ declare module 'date-holidays' {
         type: HolidayType;
     }
 
-    interface HolidaysInterface {
+    export interface HolidaysInterface {
         init(country?: Country | string, opts?: Options): void;
 
         init(country?: string, state?: string, opts?: Options): void;
