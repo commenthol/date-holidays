@@ -13,10 +13,16 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      01-24:
+        name:
+          ro: Ziua Unirii
+          en: Unification Day
       03-08:
         name:
           ro: Ziua Mamei
         type: observance
+      orthodox -2:
+        _name: easter -2
       orthodox:
         _name: easter
       orthodox 1:
@@ -36,27 +42,31 @@ holidays:
       06-01:
         name:
           ro: Ziua Copilului
+          en: Children's Day
         type: observance
       06-26:
         name:
           ro: Ziua drapelului national
+          en: Flag Day
         type: observance
       07-29:
         name:
           ro: Ziua Imnului național
-        type: observance
-      12-08:
-        name:
-          ro: Ziua Constituției
+          en: National Anthem Day
         type: observance
       08-15:
         _name: 08-15
       11-30:
         name:
           ro: Sfântul Andrei
+          en: St Andrew's Day
       12-01:
         name:
           ro: Ziua națională, Ziua Marii Uniri
+          en: National holiday
+      12-08:
+        _name: Constitution Day
+        type: observance
       12-25:
         _name: 12-25
       12-26:
