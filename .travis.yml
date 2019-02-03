@@ -12,6 +12,7 @@ install:
 
 before_script:
   - npm run build
+  - npm run yaml
 
 script:
   - npm test
