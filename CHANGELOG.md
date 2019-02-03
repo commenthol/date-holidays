@@ -1,5 +1,19 @@
 # CHANGELOG
 
+v1.3.6
+- RO: Add Unification Day and Orthodox Good Friday
+- git: ignore compiled holidays.json
+
+v1.3.5
+- Typescript: Interface export
+- DE: misspelling corrected "Baden Würtemberg" -> "Baden-Württemberg"
+
+v1.3.4
+- US: Modify New Year's Eve in the US to be an all day holiday.
+- IE: Adding another banking source for IE.
+- IE: adding Christmas time bank holidays.
+- IE: adding a substitute bank holiday for St. Patrick's and two refinements
+
 v1.3.3
 - HR: Fix easter holidays
 - PH: Adding optional and observed holidays
