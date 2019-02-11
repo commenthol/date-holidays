@@ -69,6 +69,11 @@
       "stage-2"
     ]
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
   "eslintConfig": {
     "extends": "standard",
     "plugins": [
@@ -114,12 +119,8 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 10"
-  ],
   "maintainers": [
-    "commenthol <commenthol@gmail.com>"
+    "commenthol <commenthol@gmail.com>",
+    "Ryan Gerry <rgerry@bluemarblepayroll.com>"
   ]
 }
