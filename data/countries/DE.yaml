@@ -123,6 +123,10 @@ holidays:
       BE:
         name: Berlin
         days:
+          03-08:
+            _name: 03-08
+            active:
+              - from: 2019-01-01
           easter:
             _name: easter
             type: observance
@@ -183,6 +187,10 @@ holidays:
           '12-31 14:00 if sunday then 00:00':
             _name: 12-31
             type: public
+          10-31:
+            _name: Reformation Day
+            active:
+              - from: 2018-01-01
       HE:
         # @source http://www.rv.hessenrecht.hessen.de/cgi-bin/lexsoft/capi/hessen.cgi/export_pdf?docid=169523,1&hideVersionDate=1&shortTitleFileName=1&showVersionInfo=1&displayConfig=0&exportLawlist=1&customFooter=Hessische%20Gesetze%20und%20Verwaltungsvorschriften%20in%20Zusammenarbeit%20mit%20Wolters%20Kluwer%20Deutschland%20GmbH&at=1&pid=UAN_nv_3470
         name: Hessen
@@ -193,6 +201,11 @@ holidays:
             _name: 12-31
       HH:
         name: Hansestadt Hamburg
+        days:
+          10-31:
+            _name: Reformation Day
+            active:
+              - from: 2018-01-01
       MV:
         name: Mecklenburg Vorpommern
         days:
@@ -200,6 +213,11 @@ holidays:
             _name: Reformation Day
       NI:
         name: Niedersachsen
+        days:
+          10-31:
+            _name: Reformation Day
+            active:
+              - from: 2018-01-01
       NW:
         name: Nordrhein-Westfalen
         days:
@@ -216,6 +234,11 @@ holidays:
             _name: 11-01
       SH:
         name: Schleswig-Holstein
+        days:
+          10-31:
+            _name: Reformation Day
+            active:
+              - from: 2018-01-01
       SL:
         name: Saarland
         days:
