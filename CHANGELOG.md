@@ -1,5 +1,9 @@
 # CHANGELOG
 
+v1.3.7
+- DE: Reformation Day for DE-HB DE-HH DE-NI DE-SH and International Women's Day for DE-BE
+- new maintainer Ryan Gerry
+
 v1.3.6
 - RO: Add Unification Day and Orthodox Good Friday
 - git: ignore compiled holidays.json
