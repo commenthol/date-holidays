@@ -84,7 +84,7 @@
     "start": "2018-05-07T22:00:00.000Z",
     "end": "2018-05-08T22:00:00.000Z",
     "name": "Frigjøringsdagen",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Tue"
   },
   {
