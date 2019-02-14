@@ -40,6 +40,7 @@ holidays:
         _name: 05-01
       05-08:
         _name: Liberation Day
+        type: observance
       05-17:
         _name: Constitution Day
         name:
