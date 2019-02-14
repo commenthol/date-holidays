@@ -34,7 +34,24 @@ writetests: yaml
 
 attributions: LICENSE
 
+gitChanges:
+	@git diff-files --quiet # fail if unstaged changes
+	@git diff-index --quiet HEAD # fail if uncommited changes
+
+gh-pages: gitChanges
+	git branch -f gh-pages
+	git checkout gh-pages
+	git reset --hard master
+	cp -r examples/browser/index* .
+	git add .
+	git commit -a -m 'build(gh-pages): update'
+	git checkout master
+
+push: gitChanges
+	git push origin master
+	git push origin gh-pages -f
+
 LICENSE: data/countries/*.yaml
 	node scripts/attributions.js
 
-.PHONY: all doc lint test tree writetests yaml dist
+.PHONY: all doc lint test tree writetests yaml dist gitChanges gh-pages push
