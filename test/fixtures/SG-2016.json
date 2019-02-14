@@ -1,0 +1,108 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T16:00:00.000Z",
+    "end": "2016-01-01T16:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-02-08 00:00:00",
+    "start": "2016-02-07T16:00:00.000Z",
+    "end": "2016-02-08T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-02-09 00:00:00",
+    "start": "2016-02-08T16:00:00.000Z",
+    "end": "2016-02-09T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-24T16:00:00.000Z",
+    "end": "2016-03-25T16:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T16:00:00.000Z",
+    "end": "2016-05-01T16:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-01T16:00:00.000Z",
+    "end": "2016-05-02T16:00:00.000Z",
+    "name": "Labour Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-21 00:00:00",
+    "start": "2016-05-20T16:00:00.000Z",
+    "end": "2016-05-21T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T10:00:00.000Z",
+    "end": "2016-07-06T10:00:00.000Z",
+    "name": "Hari Raya Puasa",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-08-09 00:00:00",
+    "start": "2016-08-08T16:00:00.000Z",
+    "end": "2016-08-09T16:00:00.000Z",
+    "name": "National Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T10:00:00.000Z",
+    "end": "2016-09-11T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-10-29 00:00:00",
+    "start": "2016-10-28T16:00:00.000Z",
+    "end": "2016-10-29T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T16:00:00.000Z",
+    "end": "2016-12-25T16:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T16:00:00.000Z",
+    "end": "2016-12-26T16:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  }
+]

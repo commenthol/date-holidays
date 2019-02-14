@@ -1,0 +1,99 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T16:00:00.000Z",
+    "end": "2015-01-01T16:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-02-19 00:00:00",
+    "start": "2015-02-18T16:00:00.000Z",
+    "end": "2015-02-19T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-02-20 00:00:00",
+    "start": "2015-02-19T16:00:00.000Z",
+    "end": "2015-02-20T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T16:00:00.000Z",
+    "end": "2015-04-03T16:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T16:00:00.000Z",
+    "end": "2015-05-01T16:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-06-01 00:00:00",
+    "start": "2015-05-31T16:00:00.000Z",
+    "end": "2015-06-01T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-07-17 00:00:00 -0600",
+    "start": "2015-07-16T10:00:00.000Z",
+    "end": "2015-07-17T10:00:00.000Z",
+    "name": "Hari Raya Puasa",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-08-09 00:00:00",
+    "start": "2015-08-08T16:00:00.000Z",
+    "end": "2015-08-09T16:00:00.000Z",
+    "name": "National Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-08-10 00:00:00",
+    "start": "2015-08-09T16:00:00.000Z",
+    "end": "2015-08-10T16:00:00.000Z",
+    "name": "National Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-09-23 00:00:00 -0600",
+    "start": "2015-09-22T10:00:00.000Z",
+    "end": "2015-09-23T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-11-10 00:00:00",
+    "start": "2015-11-09T16:00:00.000Z",
+    "end": "2015-11-10T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T16:00:00.000Z",
+    "end": "2015-12-25T16:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

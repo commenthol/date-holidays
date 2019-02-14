@@ -752,6 +752,14 @@ names:
       sq: Yom Kippur
       sr: Јом Кипур
 
+  # other movable dates
+  Deepavali:
+    name:
+      en: Deepavali
+  Vesak:
+    name:
+      en: Vesak Day
+
   # Day references
   Abolition of Slavery:
     name:

@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 142
+Countries: 143
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -341,6 +341,7 @@ Countries: 142
 ├── RU: Россия
 ├── RW: Repubulika y'u Rwanda
 ├── SE: Sverige
+├── SG: Singapore
 ├── SH: St. Helena
 │   ├── AC: Ascension Island
 │   ├── HL: Saint Helena
