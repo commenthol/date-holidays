@@ -56,7 +56,7 @@ holidays:
         _name: 10 Dhu al-Hijjah
         name:
           en: Hari Raya Haji
-      # https://en.wikipedia.org/wiki/Vesak
+      # @attrib https://en.wikipedia.org/wiki/Vesak
       '2001-05-07':
         _name: Vesak
       '2002-05-27':
