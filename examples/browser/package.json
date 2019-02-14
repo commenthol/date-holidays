@@ -5,18 +5,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && npm run build && npm run hs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -o bundle.js index.js",
-    "hs": "http-server -p 3000"
+    "build": "browserify -o index.js test.js"
   },
   "author": "commenthol <commenthol@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^14.4.0",
-    "http-server": "^0.10.0"
-  },
-  "dependencies": {
-    "core-js": "^2.5.0"
+    "date-holidays-ical": "^0.1.2"
   }
 }
