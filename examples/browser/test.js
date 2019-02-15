@@ -1,9 +1,12 @@
 /* global Holidays */
 
 ;(function () {
+  var vcalendar = require('date-holidays-ical/lib/vcalendar')
+
   var WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   var year = new Date().getFullYear()
   var g = { year: year }
+  var n = {}
 
   function select (id, fn) {
     var el = document.getElementById(id)
@@ -12,14 +15,15 @@
       onChange: function (ev) {
         self.selected = ev.target.value
         g[id] = self.selected
+        n[id] = ev.target.selectedOptions && ev.target.selectedOptions[0].text
         if (id === 'country') {
           ;['state', 'region'].forEach(function (i) {
-            g[i] = undefined
+            n[i] = g[i] = undefined
             select(i).disable()
           })
         } else if (id === 'state') {
           ;['region'].forEach(function (i) {
-            g[i] = undefined
+            n[i] = g[i] = undefined
             select(i).disable()
           })
         }
@@ -58,12 +62,12 @@
     }
     select('year').render(obj, year)
   }
-  function selectCountry (code) {
+  function selectCountry (code, name) {
     var hd = new Holidays()
     var cs = hd.getCountries()
     var s = select('country', selectState)
     s.render(cs, code)
-    if (code) s.onChange({ target: { value: code } })
+    if (code) s.onChange({ target: { value: code, selectedOptions: [ { text: name } ] } })
   }
   function selectState () {
     var hd = new Holidays()
@@ -78,7 +82,7 @@
 
   function renderContent () {
     var hd = new Holidays(g.country, g.state, g.region)
-    var holidays = hd.getHolidays(g.year)
+    var holidays = g.holidays = hd.getHolidays(g.year)
     var count = 0
     var table = [
       '<table>',
@@ -97,11 +101,34 @@
         ].join('</td><td>') + '</td></tr>'
       }).join(''),
       '</tbody>',
-      '</table>'
+      '</table>',
+      '<p class="download">',
+      '<label for="fullday"><input id="fullday" checked type="checkbox">Full day entries</label><br>',
+      '<a id="download">Download calendar!</a>',
+      '</p>'
     ].join('')
     document.getElementById('content').innerHTML = table
+    document.getElementById('download').addEventListener('click', onDownload)
+  }
+
+  function download (filename, dates) {
+    var fullday = document.getElementById('fullday').checked
+    var el = document.createElement('a')
+    el.setAttribute('href', 'data:text/calendar;charset=utf-8,' +
+      encodeURIComponent(vcalendar(dates, { fullday: fullday })))
+    el.setAttribute('download', filename)
+
+    el.style.display = 'none'
+    document.body.appendChild(el)
+    el.click()
+    document.body.removeChild(el)
+  }
+  function onDownload () {
+    var filename = [g.year, n.country, n.state, n.region]
+      .filter(function (i) { return i }).join('-') + '.ics'
+    download(filename, g.holidays)
   }
 
   selectYear()
-  selectCountry('CA')
+  selectCountry('CA', 'Canada')
 }())
