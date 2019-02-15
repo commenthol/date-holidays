@@ -18,12 +18,12 @@
         n[id] = ev.target.selectedOptions && ev.target.selectedOptions[0].text
         if (id === 'country') {
           ;['state', 'region'].forEach(function (i) {
-            g[i] = undefined
+            n[i] = g[i] = undefined
             select(i).disable()
           })
         } else if (id === 'state') {
           ;['region'].forEach(function (i) {
-            g[i] = undefined
+            n[i] = g[i] = undefined
             select(i).disable()
           })
         }
@@ -102,23 +102,25 @@
       }).join(''),
       '</tbody>',
       '</table>',
-      '<p id="download"><a>Download calendar!</a></p>'
+      '<p class="download">',
+      '<label for="fullday"><input id="fullday" checked type="checkbox">Full day entries</label><br>',
+      '<a id="download">Download calendar!</a>',
+      '</p>'
     ].join('')
     document.getElementById('content').innerHTML = table
     document.getElementById('download').addEventListener('click', onDownload)
   }
 
   function download (filename, dates) {
+    var fullday = document.getElementById('fullday').checked
     var el = document.createElement('a')
     el.setAttribute('href', 'data:text/calendar;charset=utf-8,' +
-      encodeURIComponent(vcalendar(dates)))
+      encodeURIComponent(vcalendar(dates, { fullday: fullday })))
     el.setAttribute('download', filename)
 
     el.style.display = 'none'
     document.body.appendChild(el)
-
     el.click()
-
     document.body.removeChild(el)
   }
   function onDownload () {
