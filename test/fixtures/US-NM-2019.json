@@ -11,7 +11,7 @@
     "date": "2019-01-21 00:00:00",
     "start": "2019-01-21T07:00:00.000Z",
     "end": "2019-01-22T07:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -22,6 +22,14 @@
     "name": "Valentine's Day",
     "type": "observance",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2019-02-18 00:00:00",
+    "start": "2019-02-18T07:00:00.000Z",
+    "end": "2019-02-19T07:00:00.000Z",
+    "name": "Presidents' Day",
+    "type": "public",
+    "_weekday": "Mon"
   },
   {
     "date": "2019-04-15 00:00:00",
