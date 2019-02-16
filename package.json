@@ -47,12 +47,13 @@
     "test": "test"
   },
   "scripts": {
-    "all": "npm-run-all clean lint build yaml test doc:tree webpack",
+    "all": "npm-run-all clean lint build yaml test doc:tree doc:attrib webpack",
     "build": "babel -d lib src",
     "clean": "rimraf lib dist",
     "clean:all": "npm-run-all clean clean:modules",
     "clean:modules": "rimraf node_modules",
     "doc:tree": "node scripts/addtree.js",
+    "doc:attrib": "node scripts/attributions.js",
     "lint": "eslint --fix '**/*.js'",
     "prepublishOnly": "npm run all",
     "ci": "npm-run-all build yaml test",
