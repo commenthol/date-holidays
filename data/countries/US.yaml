@@ -297,6 +297,7 @@ holidays:
               en: Washington's Birthday
       HI:
         # @source http://dhrd.hawaii.gov/state-observed-holidays/
+        # @source https://dhrd.hawaii.gov/wp-content/uploads/2012/10/State-Holidays-2016-2017.pdf
         name: Hawaii
         zones:
           - Pacific/Honolulu
@@ -304,18 +305,23 @@ holidays:
           3rd monday in February:
             name:
               en: Presidents' Day
-          03-26:
+          03-26 and if saturday then previous friday if sunday then next monday:
+            substitute: true
             name:
               en: Prince Jonah Kuhio Kalanianaole Day
-          06-11:
+          easter -2:
+            _name: easter -2
+          06-11 and if saturday then previous friday if sunday then next monday:
+            substitute: true
             name:
               en: Kamehameha Day
           3rd friday in August:
             name:
               en: Statehood Day
+          2nd monday in October: false
           tuesday after 1st monday in November in even years:
             name:
-              en: Election Day
+              en: General Election Day
       ID:
         name: Idaho
         zones:
