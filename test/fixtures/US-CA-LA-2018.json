@@ -28,7 +28,7 @@
     "start": "2018-02-15T08:00:00.000Z",
     "end": "2018-02-16T08:00:00.000Z",
     "name": "Susan B. Anthony Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Thu"
   },
   {
@@ -76,7 +76,7 @@
     "start": "2018-05-19T07:00:00.000Z",
     "end": "2018-05-20T07:00:00.000Z",
     "name": "Malcolm X Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Sat"
   },
   {
@@ -84,7 +84,7 @@
     "start": "2018-05-23T07:00:00.000Z",
     "end": "2018-05-24T07:00:00.000Z",
     "name": "Harvey Milk Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Wed"
   },
   {
@@ -166,7 +166,7 @@
     "start": "2018-11-23T08:00:00.000Z",
     "end": "2018-11-24T08:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Fri"
   },
   {

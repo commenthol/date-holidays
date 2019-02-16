@@ -185,6 +185,8 @@ holidays:
           12-24:
             _name: 12-24
       CA:
+        # @source http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700.
+        # @source http://www.calhr.ca.gov/employees/pages/state-holidays.aspx
         name: California
         zones:
           - America/Los_Angeles
@@ -194,17 +196,27 @@ holidays:
               en: The third Monday in February
           2nd monday in October: false
           02-15:
+            type: observance
             name:
               en: Susan B. Anthony Day
-          03-31:
+          03-31 and if sunday then next monday:
+            substitute: true
             name:
               en: César Chávez Day
+          # easter -2 12:00 PT3H:
+          #  _name: easter -2
           05-19:
+            type: observance
             name:
               en: Malcolm X Day
           05-23:
+            type: observance
             name:
               en: Harvey Milk Day
+          friday after 4th thursday in November:
+            name:
+              en: Day after Thanksgiving Day
+            type: public
         regions:
           LA:
             name: Los Angeles
