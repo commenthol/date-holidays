@@ -85,6 +85,12 @@ holidays:
       11-11:
         name:
           en: Veterans Day
+      11-11 and if sunday then next monday if saturday then previous friday:
+        substitute: true
+        name:
+          en: Veterans Day
+        type: bank
+        note: Federal Government offices are closed
       tuesday after 1st monday in November every 4 years since 1848:
         name:
           en: Election Day

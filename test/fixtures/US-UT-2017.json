@@ -121,11 +121,22 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2017-11-10 00:00:00",
+    "start": "2017-11-10T07:00:00.000Z",
+    "end": "2017-11-11T07:00:00.000Z",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "note": "Federal Government offices are closed",
+    "substitute": true,
+    "_weekday": "Fri"
+  },
+  {
     "date": "2017-11-11 00:00:00",
     "start": "2017-11-11T07:00:00.000Z",
     "end": "2017-11-12T07:00:00.000Z",
     "name": "Veterans Day",
     "type": "public",
+    "note": "Federal Government offices are closed",
     "_weekday": "Sat"
   },
   {
