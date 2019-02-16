@@ -145,6 +145,17 @@ holidays:
           monday before April:
             name:
               en: Seward's Day
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: '2015-01-01'
+          # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
+          '2nd monday in October #1':
+            name:
+              en: Indigenous Peoples Day
+            active:
+              - from: '2015-01-01'
           10-18:
             name:
               en: Alaska Day
