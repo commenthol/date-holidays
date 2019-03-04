@@ -459,6 +459,9 @@ holidays:
         zones:
           - America/Chicago
         days:
+          02-12:
+            name:
+              en: Lincoln's Birthday
           05-08:
             name:
               en: Truman Day
