@@ -55,6 +55,7 @@
     "doc:tree": "node scripts/addtree.js",
     "lint": "eslint --fix '**/*.js'",
     "prepublishOnly": "npm run all",
+    "ci": "npm-run-all build yaml test",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
     "test:ts": "dtslint types",
