@@ -267,11 +267,14 @@ holidays:
             name:
               en: Washington's Birthday
       HI:
+        # @source http://dhrd.hawaii.gov/state-observed-holidays/
         name: Hawaii
         zones:
           - Pacific/Honolulu
         days:
-          3rd monday in February: false
+          3rd monday in February:
+            name:
+              en: Presidents' Day
           03-26:
             name:
               en: Prince Jonah Kuhio Kalanianaole Day
