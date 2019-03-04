@@ -39,9 +39,11 @@ gitChanges:
 	@git diff-index --quiet HEAD # fail if uncommited changes
 
 gh-pages: gitChanges
-	git branch -f gh-pages
+	#git branch -f gh-pages
 	git checkout gh-pages
-	git reset --hard master
+	#git reset --hard master
+	git merge master --no-ff
+	cd examples/browser && npm run build && cd ../..
 	cp -r examples/browser/index* .
 	git add .
 	git commit -a -m 'build(gh-pages): update'
