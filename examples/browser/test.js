@@ -8,6 +8,14 @@
   var g = { year: year }
   var n = {}
 
+  function duration (ms) {
+    var days = (ms / 86400000) | 0
+    var hours = (ms - (days * 86400000)) / 3600000 | 0
+    var str = days ? days + 'd ' : ''
+    str += hours ? hours + 'h' : ''
+    return str
+  }
+
   function select (id, fn) {
     var el = document.getElementById(id)
     var self = {
@@ -87,15 +95,16 @@
     var table = [
       '<table>',
       '<thead><tr><th>',
-      ['#', 'weekday', 'date', 'name', 'type'].join('</th><th>'),
+      ['#', 'weekday', 'date', 'duration', 'name', 'type'].join('</th><th>'),
       '</th></tr></thead>',
       '<tbody>',
       Object.keys(holidays).map(function (i) {
         var d = holidays[i]
         return '<tr><td>' + [
           count++,
-          WEEKDAYS[d.start.getDay()],
+          WEEKDAYS[new Date(d.date).getDay()],
           d.date,
+          duration(d.end - d.start),
           d.name,
           d.type
         ].join('</td><td>') + '</td></tr>'

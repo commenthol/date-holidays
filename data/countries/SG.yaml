@@ -1,0 +1,130 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Singapore
+
+holidays:
+  SG:
+    names:
+      en: Singapore
+    langs:
+      - en
+    zones:
+      - Asia/Singapore
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
+        substitute: true
+        _name: 01-01
+      chinese 01-0-01:
+        name:
+          en: Chinese New Year
+      chinese 01-0-02:
+        name:
+          en: Chinese New Year
+      substitutes chinese 01-0-01 if sunday then next tuesday:
+        substitute: true
+        name:
+          en: Chinese New Year
+      substitutes chinese 01-0-02 if sunday then next monday:
+        substitute: true
+        name:
+          en: Chinese New Year
+      easter -2:
+        _name: easter -2
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if sunday then next monday:
+        substitute: true
+        _name: 05-01
+      08-09:
+        name:
+          en: National Day
+      substitutes 08-09 if sunday then next monday:
+        substitute: true
+        name:
+          en: National Day
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if sunday then next monday:
+        substitute: true
+        _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+        name:
+          en: Hari Raya Puasa
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        name:
+          en: Hari Raya Haji
+      # @attrib https://en.wikipedia.org/wiki/Vesak
+      '2001-05-07':
+        _name: Vesak
+      '2002-05-27':
+        _name: Vesak
+      '2003-05-15':
+        _name: Vesak
+      '2004-06-02':
+        _name: Vesak
+      '2005-05-23':
+        _name: Vesak
+      '2006-05-12':
+        _name: Vesak
+      '2007-05-31':
+        _name: Vesak
+      '2008-05-19':
+        _name: Vesak
+      '2009-05-09':
+        _name: Vesak
+      '2010-05-28':
+        _name: Vesak
+      '2011-05-17':
+        _name: Vesak
+      '2012-05-05':
+        _name: Vesak
+      '2013-05-24':
+        _name: Vesak
+      '2014-05-13':
+        _name: Vesak
+      '2015-06-01':
+        _name: Vesak
+      '2016-05-21':
+        _name: Vesak
+      '2017-05-10':
+        _name: Vesak
+      '2018-05-29':
+        _name: Vesak
+      '2019-05-19':
+        _name: Vesak
+      '2019-05-20':
+        substitute: true
+        _name: Vesak
+      '2020-05-07':
+        _name: Vesak
+      '2014-10-22':
+        _name: Deepavali
+      '2015-11-10':
+        _name: Deepavali
+      '2016-10-29':
+        _name: Deepavali
+      '2017-10-18':
+        _name: Deepavali
+      '2018-11-06':
+        _name: Deepavali
+      '2019-10-27':
+        _name: Deepavali
+      '2019-10-28':
+        substitute: true
+        _name: Deepavali
+      '2020-11-14':
+        _name: Deepavali
+    # states:
+    #   '01':
+    #     name: Central Singapore
+    #   '02':
+    #     name: North East
+    #   '03':
+    #     name: North West
+    #   '04':
+    #     name: South East
+    #   '05':
+    #     name: South West
