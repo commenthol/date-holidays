@@ -47,7 +47,7 @@
     "test": "test"
   },
   "scripts": {
-    "all": "npm-run-all clean lint build yaml doc:tree webpack test",
+    "all": "npm-run-all clean lint build yaml test doc:tree webpack",
     "build": "babel -d lib src",
     "clean": "rimraf lib dist",
     "clean:all": "npm-run-all clean clean:modules",

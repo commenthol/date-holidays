@@ -19,7 +19,7 @@
     "date": "2020-01-20 00:00:00",
     "start": "2020-01-20T05:00:00.000Z",
     "end": "2020-01-21T05:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -35,7 +35,7 @@
     "date": "2020-02-17 00:00:00",
     "start": "2020-02-17T05:00:00.000Z",
     "end": "2020-02-18T05:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "George Washington Day",
     "type": "public",
     "_weekday": "Mon"
   },

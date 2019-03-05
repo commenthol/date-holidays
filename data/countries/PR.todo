@@ -6,4 +6,7 @@ holidays:
     zones:
       - America/Puerto_Rico
     dayoff: ''
-    days: {}
+    days:
+      3rd monday in February:
+        name:
+          en: Presidents' Day

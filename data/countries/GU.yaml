@@ -1,5 +1,7 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States#Guam
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Guam
+  # @source https://www.guamtax.com/help/holidays.html
   GU:
     names:
       en: Guam
@@ -14,6 +16,7 @@ holidays:
       - US
     # additional holidays
     days:
+      3rd monday in February: false
       03-05:
         name:
           en: Guam Discovery Day

@@ -1,5 +1,5 @@
 node_modules
-examples/browser/bundle.js
+examples/browser/index.js
 coverage/
 attic/
 dist/

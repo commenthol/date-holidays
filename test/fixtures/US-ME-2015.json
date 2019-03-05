@@ -11,7 +11,7 @@
     "date": "2015-01-19 00:00:00",
     "start": "2015-01-19T05:00:00.000Z",
     "end": "2015-01-20T05:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -27,7 +27,7 @@
     "date": "2015-02-16 00:00:00",
     "start": "2015-02-16T05:00:00.000Z",
     "end": "2015-02-17T05:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "Washington's Birthday/President's Day",
     "type": "public",
     "_weekday": "Mon"
   },
