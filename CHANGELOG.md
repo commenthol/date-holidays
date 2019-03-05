@@ -1,5 +1,15 @@
 # CHANGELOG
 
+v1.3.8
+
+- bb38450 test(KR): failing test due to deltat update in astronomia
+- c3d0ab5 fix(US-MO): Add Lincoln's Birthday
+- eca1216 fix(US-HI): Add Presidents' Day in Hawaii
+- 6b3c82d fix(example): use local date for weekday
+- b361f0c fix(US): Different names for Washington's Birthday
+- 9d290c6 feat(SG): New Country Singapore
+- ece44e7 fix(NO): Frigjøringsdagen type observance
+
 v1.3.7
 - DE: Reformation Day for DE-HB DE-HH DE-NI DE-SH and International Women's Day for DE-BE
 - new maintainer Ryan Gerry
