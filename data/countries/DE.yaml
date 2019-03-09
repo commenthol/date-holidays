@@ -279,6 +279,13 @@ holidays:
           easter 60:
             _name: easter 60
             type: observance
+          09-20:
+            # @source https://www.thueringer-landtag.de/service/presse/pressemitteilungen/weltkindertag-am-20-september-wird-gesetzlicher-feiertag/
+            name:
+              de: Weltkindertag
+              en: International Children's Day
+            active:
+              - from: 2019
           10-31:
             _name: Reformation Day
           '12-31 14:00 if sunday then 00:00':
