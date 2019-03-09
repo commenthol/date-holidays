@@ -11,6 +11,7 @@ holidays:
       fr: Suisse
       it: Svizzera
       en: Switzerland
+    dayoff: sunday
     langs:
       - de-ch
       - de
