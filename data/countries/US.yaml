@@ -448,7 +448,7 @@ holidays:
       MA:
         name: Massachusetts
         zones:
-          - America/Chicago
+          - America/New_York
         days:
           03-17:
             name:
