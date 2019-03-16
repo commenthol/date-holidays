@@ -13,9 +13,13 @@ holidays:
     zones:
       - Asia/Tokyo
     days:
-      01-01 and if sunday then next monday:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if sunday then next monday:
         substitute: true
         _name: 01-01
+        active:
+          - from: 1973-04-12
       01-02:
         name:
           en: January 2nd
@@ -26,13 +30,20 @@ holidays:
           en: January 3rd
           jp: 銀行休業日
         type: bank
-      01-15 and if sunday then next monday:
-        substitute: true
+      01-15:
         name:
           en: Coming of Age Day
           jp: 成人の日
         active:
           - from: 1948-07-20
+            to: 1999-12-31
+      substitutes 01-15 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Coming of Age Day
+          jp: 成人の日
+        active:
+          - from: 1973-04-12
             to: 1999-12-31
       2nd monday in January:
         name:
@@ -40,13 +51,19 @@ holidays:
           jp: 成人の日
         active:
           - from: 2000-01-01
-      02-11 and if sunday then next monday:
-        substitute: true
+      02-11:
         name:
           en: Foundation Day
           jp: 建国記念の日
         active:
           - from: 1967-01-01
+      substitutes 02-11 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Foundation Day
+          jp: 建国記念の日
+        active:
+          - from: 1973-04-12
       02-23 and if sunday then next monday:
         substitute: true
         name:
@@ -54,20 +71,35 @@ holidays:
           jp: 天皇誕生日
         active:
           - from: 2020-01-01
-      march equinox in +09:00 and if sunday then next monday:
+      march equinox in +09:00:
+        name:
+          en: Spring Equinox Day
+          jp: 春分の日
+        active:
+          - from: 1948-07-20
+      substitutes march equinox in +09:00 and if sunday then next monday:
         substitute: true
         name:
           en: Spring Equinox Day
           jp: 春分の日
-      '04-29 and if sunday then next monday #1':
-        substitute: true
+        active:
+          - from: 1973-04-12
+      '04-29':
         name:
           en: Emperor's Birthday
           jp: 天皇誕生日
         active:
           - from: 1948-07-20
             to: 1988-12-31
-      '04-29 and if sunday then next monday #2':
+      'substitutes 04-29 and if sunday then next monday':
+        substitute: true
+        name:
+          en: Emperor's Birthday
+          jp: 天皇誕生日
+        active:
+          - from: 1973-04-12
+            to: 1988-12-31
+      '04-29 and if sunday then next monday #1':
         substitute: true
         name:
           en: Greenery Day
@@ -75,7 +107,7 @@ holidays:
         active:
           - from: 1989-01-01
             to: 2006-12-31
-      '04-29 and if sunday then next monday #3':
+      '04-29 and if sunday then next monday #2':
         substitute: true
         name:
           en: Showa Day
@@ -96,10 +128,18 @@ holidays:
           jp: 国民の休日
       05-03:
         _name: Constitution Day
+      substitutes 05-03 if sunday then next monday:
+        substitute: true
+        _name: Constitution Day
+        active:
+          - from: 1973-04-12
+            to: 2006-12-31
       substitutes 05-03 if sunday then next wednesday:
         substitute: true
         _name: Constitution Day
-      05-04:
+        active:
+          - from: 2007-01-01
+      05-04 not on sunday, monday:
         name:
           en: Citizens' Holiday
           jp: 国民の休日
@@ -113,11 +153,17 @@ holidays:
           jp: みどりの日
         active:
           - from: 2007-01-01
-      05-05 and if sunday then next monday:
+      05-05:
+        name:
+          en: Children's Day
+          jp: こどもの日
+      substitutes 05-05 if sunday then next monday:
         substitute: true
         name:
           en: Children's Day
           jp: こどもの日
+        active:
+          - from: 1973-04-12
       07-20:
         substitute: true
         name:
@@ -147,13 +193,20 @@ holidays:
           - '2020-08-10'
         active:
           - from: 2016-01-01
-      09-15 and if sunday then next monday:
-        substitute: true
+      09-15:
         name:
           en: Respect-for-the-Aged Day
           jp: 敬老の日
         active:
           - from: 1966-01-01
+            to: 2002-12-31
+      substitutes 09-15 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Respect-for-the-Aged Day
+          jp: 敬老の日
+        active:
+          - from: 1973-04-12
             to: 2002-12-31
       3rd monday in September:
         name:
@@ -169,18 +222,29 @@ holidays:
         name:
           en: Autumnal Equinox Day
           jp: 秋分の日
-      substitutes 09-23 if sunday then next monday:
+        active:
+          - from: 1948-07-20
+      substitutes september equinox in +09:00 and if sunday then next monday:
         substitute: true
         name:
           en: Autumnal Equinox Day
           jp: 秋分の日
-      10-10 and if sunday then next monday:
-        substitute: true
+        active:
+          - from: 1973-04-12
+      10-10:
         name:
           en: Sports Day
           jp: 体育の日
         active:
           - from: 1966-01-01
+            to: 1999-12-31
+      substitutes 10-10 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Sports Day
+          jp: 体育の日
+        active:
+          - from: 1973-04-12
             to: 1999-12-31
       '2nd monday in October #1':
         name:
@@ -203,21 +267,38 @@ holidays:
         name:
           en: Enthronement Ceremony Day
           jp: 即位礼正殿の儀
-      11-03 and if sunday then next monday:
+      11-03:
         substitute: true
         name:
           en: Culture Day
           jp: 文化の日
+        active:
+          - from: 1948-07-20
+      substitutes 11-03 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Culture Day
+          jp: 文化の日
+        active:
+          - from: 1973-04-12
       11-15:
         name:
           en: Seven-Five-Three Festival
           jp: 七五三
         type: observance
-      11-23 and if sunday then next monday:
+      11-23:
+        name:
+          en: Labor Thanksgiving Day
+          jp: 勤労感謝の日
+        active:
+          - from: 1948-07-20
+      substitutes 11-23 and if sunday then next monday:
         substitute: true
         name:
           en: Labor Thanksgiving Day
           jp: 勤労感謝の日
+        active:
+          - from: 1973-04-12
       12-23 and if sunday then next monday:
         substitute: true
         name:
