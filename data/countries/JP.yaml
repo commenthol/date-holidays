@@ -1,6 +1,7 @@
 holidays:
   # @source http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
   # @source http://eco.mtk.nao.ac.jp/koyomi/yoko/index.html.en
+  # @source https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5
   # Japan
   JP:
     names:
@@ -25,57 +26,145 @@ holidays:
           en: January 3rd
           jp: 銀行休業日
         type: bank
+      01-15 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Coming of Age Day
+          jp: 成人の日
+        active:
+          - from: 1948-07-20
+            to: 1999-12-31
       2nd monday in January:
         name:
           en: Coming of Age Day
           jp: 成人の日
+        active:
+          - from: 2000-01-01
       02-11 and if sunday then next monday:
         substitute: true
         name:
           en: Foundation Day
           jp: 建国記念の日
+        active:
+          - from: 1967-01-01
+      02-23 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Emperor's Birthday
+          jp: 天皇誕生日
+        active:
+          - from: 2020-01-01
       march equinox in +09:00 and if sunday then next monday:
         substitute: true
         name:
           en: Spring Equinox Day
           jp: 春分の日
-      04-29 and if sunday then next monday:
+      '04-29 and if sunday then next monday #1':
+        substitute: true
+        name:
+          en: Emperor's Birthday
+          jp: 天皇誕生日
+        active:
+          - from: 1948-07-20
+            to: 1988-12-31
+      '04-29 and if sunday then next monday #2':
+        substitute: true
+        name:
+          en: Greenery Day
+          jp: みどりの日
+        active:
+          - from: 1989-01-01
+            to: 2006-12-31
+      '04-29 and if sunday then next monday #3':
         substitute: true
         name:
           en: Showa Day
           jp: 昭和の日
+        active:
+          - from: 2007-01-01
+      '2019-04-30':
+        name:
+          en: Citizens' Holiday
+          jp: 国民の休日
+      '2019-05-01':
+        name:
+          en: Coronation Day
+          jp: 即位の日
+      '2019-05-02':
+        name:
+          en: Citizens' Holiday
+          jp: 国民の休日
       05-03:
         _name: Constitution Day
       substitutes 05-03 if sunday then next wednesday:
         substitute: true
         _name: Constitution Day
+      05-04:
+        name:
+          en: Citizens' Holiday
+          jp: 国民の休日
+        active:
+          - from: 1986-01-01
+            to: 2006-12-31
       05-04 and if sunday then next tuesday:
         substitute: true
         name:
           en: Greenery Day
           jp: みどりの日
+        active:
+          - from: 2007-01-01
       05-05 and if sunday then next monday:
         substitute: true
         name:
           en: Children's Day
           jp: こどもの日
+      07-20:
+        substitute: true
+        name:
+          en: Marine Day
+          jp: 海の日
+        active:
+          - from: 1996-01-01
+            to: 2002-12-31
       3rd monday in July:
         name:
           en: Marine Day
           jp: 海の日
+        disable:
+          - '2020-07-20'
+        enable:
+          - '2020-07-23'
+        active:
+          - from: 2003-01-01
       08-11 and if sunday then next monday:
         substitute: true
         name:
           en: Mountain Day
           jp: 山の日
+        disable:
+          - '2020-08-11'
+        enable:
+          - '2020-08-10'
+        active:
+          - from: 2016-01-01
+      09-15 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Respect-for-the-Aged Day
+          jp: 敬老の日
+        active:
+          - from: 1966-01-01
+            to: 2002-12-31
       3rd monday in September:
         name:
           en: Respect-for-the-Aged Day
           jp: 敬老の日
+        active:
+          - from: 2003-01-01
       09-22 if 09-21 and 09-23 is public holiday:
         name:
-          en: Public Holiday
-          jp: 祝日
+          en: Citizens' Holiday
+          jp: 国民の休日
       september equinox in +09:00:
         name:
           en: Autumnal Equinox Day
@@ -85,10 +174,35 @@ holidays:
         name:
           en: Autumnal Equinox Day
           jp: 秋分の日
-      2nd monday in October:
+      10-10 and if sunday then next monday:
+        substitute: true
         name:
           en: Sports Day
           jp: 体育の日
+        active:
+          - from: 1966-01-01
+            to: 1999-12-31
+      '2nd monday in October #1':
+        name:
+          en: Sports Day
+          jp: 体育の日
+        active:
+          - from: 2000-01-01
+            to: 2019-12-31
+      '2nd monday in October #2':
+        name:
+          en: Sports Day
+          jp: スポーツの日
+        disable:
+          - '2020-10-12'
+        enable:
+          - '2020-07-24'
+        active:
+          - from: 2020-01-01
+      '2019-10-22':
+        name:
+          en: Enthronement Ceremony Day
+          jp: 即位礼正殿の儀
       11-03 and if sunday then next monday:
         substitute: true
         name:
@@ -109,6 +223,9 @@ holidays:
         name:
           en: Emperor's Birthday
           jp: 天皇誕生日
+        active:
+          - from: 1989-01-01
+            to: 2018-12-31
       12-25:
         _name: 12-25
         type: observance
