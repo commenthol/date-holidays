@@ -84,14 +84,14 @@ holidays:
           jp: 春分の日
         active:
           - from: 1973-04-12
-      '04-29':
+      04-29:
         name:
           en: Emperor's Birthday
           jp: 天皇誕生日
         active:
           - from: 1948-07-20
             to: 1988-12-31
-      'substitutes 04-29 and if sunday then next monday':
+      substitutes 04-29 and if sunday then next monday:
         substitute: true
         name:
           en: Emperor's Birthday
