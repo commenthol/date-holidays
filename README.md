@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 143
+Countries: 144
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -99,6 +99,7 @@ Countries: 143
 │   ├── BRC: Brčko District
 │   └── SRP: Republika Srpska
 ├── BB: Barbados
+├── BD: গণপ্রজাতন্ত্রী বাংলাদেশ
 ├── BE: Belgique
 │   ├── BRU: Bruxelles
 │   ├── DE: Deutschsprachige Gemeinschaft

@@ -272,6 +272,7 @@ names:
       en: Christmas Day
       am: ልደተ-ለእግዚእነ/ ገና
       bg: Коледа
+      bn: বড়দিন
       bs: Božić
       de-at: Christtag
       ca: Nadal
@@ -647,11 +648,13 @@ names:
     name:
       en: Day of Ashura
       ar: 'عاشوراء'
+      bn: আশুরা
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
       en: Birthday of Muhammad (Mawlid)
       am: መውሊድ
       ar: 'المولد النبويّ'
+      bn: ঈদে মিলাদুন্নবী
       bs: Mevlud
       fr: Mawlid
       ms: Maulidur Rasul
@@ -690,6 +693,7 @@ names:
       am: ዒድ አል ፈጥር
       ar: 'عيد الفطر'
       az: Ramazan Bayramı
+      bn: ঈদুল ফিতর
       bs: Ramazanski bajram
       de: Zuckerfest
       fil: Pagwawakas ng Ramadan
@@ -712,6 +716,7 @@ names:
       am: ዒድ አል አድሐ
       ar: 'عيد الأضحى'
       az: Qurban Bayramı
+      bn: ঈদুল আযহা
       bs: Kurbanski bajram
       de: Opferfest
       fil: Eidul Adha
