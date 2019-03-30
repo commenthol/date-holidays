@@ -2,19 +2,19 @@
 
 'use strict'
 
-var fs = require('fs')
-var path = require('path')
-var resolve = path.resolve
-var jsyaml = require('js-yaml')
-var PrePin = require('prepin')
-var _pick = require('lodash.pick')
-var _omit = require('lodash.omit')
+const fs = require('fs')
+const path = require('path')
+const resolve = path.resolve
+const jsyaml = require('js-yaml')
+const PrePin = require('prepin')
+const _pick = require('lodash.pick')
+const _omit = require('lodash.omit')
 
-var REGEX = /^([A-Z]+)\.yaml$/
+const REGEX = /^([A-Z]+)\.yaml$/
 
-var dirParser = path.dirname(require.resolve('date-holidays-parser'))
+const dirParser = path.dirname(require.resolve('date-holidays-parser'))
 
-var config = {
+const config = {
   dirname: resolve(__dirname, '..', 'data'),
   countries: resolve(__dirname, '..', 'data', 'countries'),
   factories: [
@@ -32,7 +32,7 @@ Holidays2json.prototype = {
    * get list of supported countries from directory
    */
   getList: function () {
-    var list = fs.readdirSync(config.countries)
+    let list = fs.readdirSync(config.countries)
     list = list
       .map(function (file) {
         if (REGEX.test(file)) {
@@ -51,15 +51,15 @@ Holidays2json.prototype = {
    */
   load: function (cc, filename) {
     filename = filename || resolve(config.countries, cc + '.yaml')
-    var data = fs.readFileSync(filename, 'utf8')
-    var obj = jsyaml.safeLoad(data)
+    const data = fs.readFileSync(filename, 'utf8')
+    const obj = jsyaml.safeLoad(data)
     return obj
   },
   /**
    * build `holidays.json file`
    */
   build: function () {
-    var obj = this.load('0')
+    const obj = this.load('0')
     obj.holidays = {}
     this.list.forEach(function (cc) {
       Object.assign(obj.holidays, this.load(cc).holidays)
@@ -83,7 +83,7 @@ Holidays2json.prototype = {
    * save holidays
    */
   save: function () {
-    var json = JSON.stringify(this.holidays, null, 2) + '\n'
+    const json = JSON.stringify(this.holidays, null, 2) + '\n'
     fs.writeFileSync(resolve(config.dirname, 'holidays.json'), json, 'utf8')
   },
   /**
@@ -91,7 +91,7 @@ Holidays2json.prototype = {
    */
   prepin: function () {
     // reduce final build size
-    var macros = dive(this.holidays)
+    const macros = dive(this.holidays)
     config.factories.forEach(function (fa) {
       new PrePin({ macros: macros, input: fa, output: fa }).proc().catch(function (e) {
         console.error(e)
@@ -102,12 +102,12 @@ Holidays2json.prototype = {
 module.exports = Holidays2json
 
 if (module === require.main) {
-  var args = process.argv.splice(2)
+  const args = process.argv.splice(2)
 
-  var getOption = function (option) {
-    var i = args.indexOf(option)
+  const getOption = function (option) {
+    const i = args.indexOf(option)
     if (i !== -1) {
-      var list = (args[i + 1] || '').toUpperCase().split(',').sort()
+      const list = (args[i + 1] || '').toUpperCase().split(',').sort()
       if (list && list.length) return list
       return true
     }
@@ -139,7 +139,7 @@ if (module === require.main) {
     process.exit(0)
   }
 
-  var opts = {
+  const opts = {
     pick: getOption('--pick') || getOption('-p'),
     omit: getOption('--omit') || getOption('-o'),
     min: getOption('--min') || getOption('-m')
@@ -157,6 +157,7 @@ function dive (data, macros) {
     nohebrew: true,
     noislamic: true,
     nochinese: true,
+    nobengali: true,
     noequinox: true
   }
   switch (toString.call(data)) {
@@ -170,6 +171,8 @@ function dive (data, macros) {
               delete macros.nojulian
             } else if (/\b(chinese|vietnamese|korean)\b/.test(key)) {
               delete macros.nochinese
+            } else if (/\b(bengali-revised)\b/.test(key)) {
+              delete macros.nobengali
             } else if (/\b(equinox|solstice)\b/.test(key)) {
               delete macros.noequinox
             } else if (/\b(Nisan|Iyyar|Sivan|Tamuz|Av|Elul|Tishrei|Cheshvan|Kislev|Tevet|Shvat|Adar)\b/.test(key)) {
