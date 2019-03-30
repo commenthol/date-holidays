@@ -1,13 +1,13 @@
 # Specification for `holidays.yaml`
 
-Version: 1.3.0
+Version: 1.4.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
 
 ## Table of Contents
 
-<!-- !toc (minlevel=2 omit="Table of Contents") -->
+<!-- !toc (level=4 minlevel=2 omit="Table of Contents") -->
 
 * [structure of `names.yaml`](#structure-of-namesyaml)
 * [structure of `holidays.yaml`](#structure-of-holidaysyaml)
@@ -16,6 +16,13 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Fixed Date](#fixed-date)
   * [Fixed Date at beginning of a Month](#fixed-date-at-beginning-of-a-month)
   * [Movable Date](#movable-date)
+    * [Easter Dates](#easter-dates)
+    * [Hijra Dates](#hijra-dates)
+    * [Dates in Hebrew calendar](#dates-in-hebrew-calendar)
+    * [Dates in Chinese calendar (lunar)](#dates-in-chinese-calendar-lunar)
+    * [Dates in Chinese calendar (solar)](#dates-in-chinese-calendar-solar)
+    * [Dates in Bengali Revised calendar](#dates-in-bengali-revised-calendar)
+    * [Equinox, Solstice](#equinox-solstice)
   * [Different start-time for Fixed Date other than midnight](#different-start-time-for-fixed-date-other-than-midnight)
   * [Different duration other than 24 hours](#different-duration-other-than-24-hours)
   * [Start-time of holiday changes per weekday](#start-time-of-holiday-changes-per-weekday)
@@ -258,6 +265,20 @@ Where:
 
 - `chinese 5-01 solarterm` is the 1st day in the 5th solarterm (aka Qingming Festival)
 - `chinese 78-32-24-01 solarterm` is the 1st day in the 24th solarterm in year 32 of 78th cycle
+
+#### Dates in Bengali Revised calendar
+
+Rule: `bengali-revised <year>-<month>-<day>`
+
+Where:
+- `<year>` (optional) year
+- `<month>` (mandatory) month (1..12)
+- `<day>` (mandatory) day of month (1..31)
+
+**Examples**:
+
+- `bengali-revised 12-1` is the 1st day in the 12th month
+- `bengali-revised 1425-1-1` is the 1st day in the first month of 1425 - equals 2018-04-14 in gregorian date
 
 #### Equinox, Solstice
 
