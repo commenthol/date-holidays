@@ -86,7 +86,7 @@ holidays:
         name:
           en: Veterans Day
       # @source https://www.federalreserve.gov/aboutthefed/k8.htm
-      11-11 and if sunday then next monday if saturday then previous friday:
+      substitutes 11-11 if sunday then next monday if saturday then previous friday:
         substitute: true
         name:
           en: Veterans Day
