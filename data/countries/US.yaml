@@ -152,6 +152,7 @@ holidays:
             active:
               - to: '2015-01-01'
           # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
+          # @source http://time.com/4070797/alaska-indigenous-peoples-day/
           '2nd monday in October #1':
             name:
               en: Indigenous Peoples Day
