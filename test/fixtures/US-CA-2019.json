@@ -28,7 +28,7 @@
     "start": "2019-02-15T08:00:00.000Z",
     "end": "2019-02-16T08:00:00.000Z",
     "name": "Susan B. Anthony Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Fri"
   },
   {
@@ -46,6 +46,15 @@
     "name": "César Chávez Day",
     "type": "public",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2019-04-01 00:00:00",
+    "start": "2019-04-01T07:00:00.000Z",
+    "end": "2019-04-02T07:00:00.000Z",
+    "name": "César Chávez Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2019-04-15 00:00:00",
@@ -76,7 +85,7 @@
     "start": "2019-05-19T07:00:00.000Z",
     "end": "2019-05-20T07:00:00.000Z",
     "name": "Malcolm X Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
@@ -84,7 +93,7 @@
     "start": "2019-05-23T07:00:00.000Z",
     "end": "2019-05-24T07:00:00.000Z",
     "name": "Harvey Milk Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Thu"
   },
   {
@@ -133,6 +142,7 @@
     "end": "2019-11-12T08:00:00.000Z",
     "name": "Veterans Day",
     "type": "public",
+    "note": "Federal Government offices are closed",
     "_weekday": "Mon"
   },
   {
@@ -148,7 +158,7 @@
     "start": "2019-11-29T08:00:00.000Z",
     "end": "2019-11-30T08:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Fri"
   },
   {

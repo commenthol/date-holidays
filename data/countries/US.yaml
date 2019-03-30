@@ -85,6 +85,13 @@ holidays:
       11-11:
         name:
           en: Veterans Day
+      # @source https://www.federalreserve.gov/aboutthefed/k8.htm
+      11-11 and if sunday then next monday if saturday then previous friday:
+        substitute: true
+        name:
+          en: Veterans Day
+        type: bank
+        note: Federal Government offices are closed
       tuesday after 1st monday in November every 4 years since 1848:
         name:
           en: Election Day
@@ -139,6 +146,18 @@ holidays:
           monday before April:
             name:
               en: Seward's Day
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: '2015-01-01'
+          # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
+          # @source http://time.com/4070797/alaska-indigenous-peoples-day/
+          '2nd monday in October #1':
+            name:
+              en: Indigenous Peoples Day
+            active:
+              - from: '2015-01-01'
           10-18:
             name:
               en: Alaska Day
@@ -168,6 +187,8 @@ holidays:
           12-24:
             _name: 12-24
       CA:
+        # @source http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700.
+        # @source http://www.calhr.ca.gov/employees/pages/state-holidays.aspx
         name: California
         zones:
           - America/Los_Angeles
@@ -177,17 +198,27 @@ holidays:
               en: The third Monday in February
           2nd monday in October: false
           02-15:
+            type: observance
             name:
               en: Susan B. Anthony Day
-          03-31:
+          03-31 and if sunday then next monday:
+            substitute: true
             name:
               en: César Chávez Day
+          # easter -2 12:00 PT3H:
+          #  _name: easter -2
           05-19:
+            type: observance
             name:
               en: Malcolm X Day
           05-23:
+            type: observance
             name:
               en: Harvey Milk Day
+          friday after 4th thursday in November:
+            name:
+              en: Day after Thanksgiving Day
+            type: public
         regions:
           LA:
             name: Los Angeles
@@ -268,6 +299,7 @@ holidays:
               en: Washington's Birthday
       HI:
         # @source http://dhrd.hawaii.gov/state-observed-holidays/
+        # @source https://dhrd.hawaii.gov/wp-content/uploads/2012/10/State-Holidays-2016-2017.pdf
         name: Hawaii
         zones:
           - Pacific/Honolulu
@@ -275,18 +307,23 @@ holidays:
           3rd monday in February:
             name:
               en: Presidents' Day
-          03-26:
+          03-26 and if saturday then previous friday if sunday then next monday:
+            substitute: true
             name:
               en: Prince Jonah Kuhio Kalanianaole Day
-          06-11:
+          easter -2:
+            _name: easter -2
+          06-11 and if saturday then previous friday if sunday then next monday:
+            substitute: true
             name:
               en: Kamehameha Day
           3rd friday in August:
             name:
               en: Statehood Day
+          2nd monday in October: false
           tuesday after 1st monday in November in even years:
             name:
-              en: Election Day
+              en: General Election Day
       ID:
         name: Idaho
         zones:
