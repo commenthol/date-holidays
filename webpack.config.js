@@ -44,7 +44,10 @@ function createConfig (options) {
     mode: 'production',
     devtool: 'sourcemap',
     entry: {
-      'date.holidays': ['babel-polyfill', './src/index.js']
+      'date.holidays': [
+        '@babel/polyfill',
+        './src/index.js'
+      ]
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
@@ -67,7 +70,7 @@ function createConfig (options) {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['babel-preset-env']
+            presets: ['@babel/preset-env']
           }
         }
       }]
