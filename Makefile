@@ -39,12 +39,11 @@ gitChanges:
 	@git diff-index --quiet HEAD # fail if uncommited changes
 
 gh-pages: gitChanges
-	git branch -f gh-pages
 	git checkout gh-pages
-	git reset --hard master
+	git merge --no-ff -X theirs master
 	cp -r examples/browser/index* .
 	git add .
-	git commit -a -m 'build(gh-pages): update'
+	git commit -a -m 'chore(gh-pages): update'
 	git checkout master
 
 push: gitChanges
