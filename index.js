@@ -154,14 +154,17 @@ module.exports = vcalendar;
 ;(function () {
   var vcalendar = require('date-holidays-ical/lib/vcalendar')
 
+  var DAY = 86400000
+  var HOUR = 3600000
+
   var WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   var year = new Date().getFullYear()
   var g = { year: year }
   var n = {}
 
   function duration (ms) {
-    var days = (ms / 86400000) | 0
-    var hours = (ms - (days * 86400000)) / 3600000 | 0
+    var days = (ms / DAY) | 0
+    var hours = (ms - (days * DAY)) / HOUR | 0
     var str = days ? days + 'd ' : ''
     str += hours ? hours + 'h' : ''
     return str
@@ -251,9 +254,10 @@ module.exports = vcalendar;
       '<tbody>',
       Object.keys(holidays).map(function (i) {
         var d = holidays[i]
+        var _date = d.date.replace(/^(\d+-\d+-\d+ \d+:\d+:\d+).*$/, '$1')
         return '<tr><td>' + [
           count++,
-          WEEKDAYS[new Date(d.date).getDay()],
+          WEEKDAYS[new Date(_date).getDay()],
           d.date,
           duration(d.end - d.start),
           d.name,
