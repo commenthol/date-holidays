@@ -49,7 +49,7 @@ The basic structure looks as follows:
 names:
   <identifier>:
     <lang_1>: {String} # name in language 1
-    <lang_2>: {String} # name in langzage 2
+    <lang_2>: {String} # name in language 2
 ```
 
 - The `<identifier>` can be referenced using `_name:`.

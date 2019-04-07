@@ -11,7 +11,7 @@
     "date": "2016-01-18 00:00:00",
     "start": "2016-01-18T09:00:00.000Z",
     "end": "2016-01-19T09:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -27,7 +27,7 @@
     "date": "2016-02-15 00:00:00",
     "start": "2016-02-15T09:00:00.000Z",
     "end": "2016-02-16T09:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "President's Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -92,6 +92,14 @@
     "start": "2016-09-05T08:00:00.000Z",
     "end": "2016-09-06T08:00:00.000Z",
     "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-10-10 00:00:00",
+    "start": "2016-10-10T08:00:00.000Z",
+    "end": "2016-10-11T08:00:00.000Z",
+    "name": "Indigenous Peoples Day",
     "type": "public",
     "_weekday": "Mon"
   },

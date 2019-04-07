@@ -11,7 +11,7 @@
     "date": "2018-01-15 00:00:00",
     "start": "2018-01-15T05:00:00.000Z",
     "end": "2018-01-16T05:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -27,7 +27,7 @@
     "date": "2018-02-19 00:00:00",
     "start": "2018-02-19T05:00:00.000Z",
     "end": "2018-02-20T05:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "Presidents' Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -118,6 +118,16 @@
     "name": "Veterans Day",
     "type": "public",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2018-11-12 00:00:00",
+    "start": "2018-11-12T05:00:00.000Z",
+    "end": "2018-11-13T05:00:00.000Z",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "note": "Federal Government offices are closed",
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2018-11-22 00:00:00",

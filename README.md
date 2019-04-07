@@ -38,11 +38,11 @@ Happy holidays!
   * [Types of holidays](#types-of-holidays)
 * [API](#api)
 * [Data](#data)
-* [Custom builds of `holidays.json`](#custom-builds-of-holidaysjson)
+* [Custom builds of `holidays.json`](#custom)
 * [Bundling with webpack](#bundling-with-webpack)
 * [Browser](#browser)
 * [CDN](#cdn)
-* [Contribution and License Agreement](#contribution-and-license-agreement)
+* [Contribution and License Agreement](#contribution)
 * [License](#license)
 * [References](#references)
 

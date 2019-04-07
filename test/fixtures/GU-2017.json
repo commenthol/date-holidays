@@ -20,7 +20,7 @@
     "date": "2017-01-16 00:00:00",
     "start": "2017-01-15T14:00:00.000Z",
     "end": "2017-01-16T14:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -33,27 +33,19 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2017-02-20 00:00:00",
-    "start": "2017-02-19T14:00:00.000Z",
-    "end": "2017-02-20T14:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "date": "2017-03-06 00:00:00",
+    "start": "2017-03-05T14:00:00.000Z",
+    "end": "2017-03-06T14:00:00.000Z",
+    "name": "Guam History and Chamorro Heritage Day",
     "type": "public",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2017-03-05 00:00:00",
-    "start": "2017-03-04T14:00:00.000Z",
-    "end": "2017-03-05T14:00:00.000Z",
-    "name": "Guam Discovery Day",
-    "type": "public",
-    "_weekday": "Sun"
   },
   {
     "date": "2017-04-14 00:00:00",
     "start": "2017-04-13T14:00:00.000Z",
     "end": "2017-04-14T14:00:00.000Z",
     "name": "Good Friday",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Fri"
   },
   {
@@ -145,6 +137,16 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2017-11-10 00:00:00",
+    "start": "2017-11-09T14:00:00.000Z",
+    "end": "2017-11-10T14:00:00.000Z",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "note": "Federal Government offices are closed",
+    "substitute": true,
+    "_weekday": "Fri"
+  },
+  {
     "date": "2017-11-11 00:00:00",
     "start": "2017-11-10T14:00:00.000Z",
     "end": "2017-11-11T14:00:00.000Z",
@@ -172,7 +174,7 @@
     "date": "2017-12-08 00:00:00",
     "start": "2017-12-07T14:00:00.000Z",
     "end": "2017-12-08T14:00:00.000Z",
-    "name": "Lady of Camarin Day",
+    "name": "Our Lady of Camarin Day",
     "type": "public",
     "_weekday": "Fri"
   },

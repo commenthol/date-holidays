@@ -20,7 +20,7 @@
     "date": "2017-01-16 00:00:00",
     "start": "2017-01-16T10:00:00.000Z",
     "end": "2017-01-17T10:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -33,12 +33,37 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2017-02-20 00:00:00",
+    "start": "2017-02-20T10:00:00.000Z",
+    "end": "2017-02-21T10:00:00.000Z",
+    "name": "Presidents' Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-03-26 00:00:00",
     "start": "2017-03-26T10:00:00.000Z",
     "end": "2017-03-27T10:00:00.000Z",
     "name": "Prince Jonah Kuhio Kalanianaole Day",
     "type": "public",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2017-03-27 00:00:00",
+    "start": "2017-03-27T10:00:00.000Z",
+    "end": "2017-03-28T10:00:00.000Z",
+    "name": "Prince Jonah Kuhio Kalanianaole Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-04-14 00:00:00",
+    "start": "2017-04-14T10:00:00.000Z",
+    "end": "2017-04-15T10:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-18 00:00:00",
@@ -81,6 +106,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2017-06-12 00:00:00",
+    "start": "2017-06-12T10:00:00.000Z",
+    "end": "2017-06-13T10:00:00.000Z",
+    "name": "Kamehameha Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-06-18 00:00:00",
     "start": "2017-06-18T10:00:00.000Z",
     "end": "2017-06-19T10:00:00.000Z",
@@ -113,20 +147,22 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2017-10-09 00:00:00",
-    "start": "2017-10-09T10:00:00.000Z",
-    "end": "2017-10-10T10:00:00.000Z",
-    "name": "Columbus Day",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2017-10-31 18:00:00",
     "start": "2017-11-01T04:00:00.000Z",
     "end": "2017-11-01T10:00:00.000Z",
     "name": "Halloween",
     "type": "observance",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-11-10 00:00:00",
+    "start": "2017-11-10T10:00:00.000Z",
+    "end": "2017-11-11T10:00:00.000Z",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "note": "Federal Government offices are closed",
+    "substitute": true,
+    "_weekday": "Fri"
   },
   {
     "date": "2017-11-11 00:00:00",

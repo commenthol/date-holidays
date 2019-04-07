@@ -13,6 +13,9 @@ holidays:
       - US
     # additional holidays
     days:
+      3rd monday in February:
+        name:
+          en: Washington's Birthday
       04-15 if friday then next monday if saturday,sunday then next tuesday: false
       04-17 and if sunday then next monday:
         name:

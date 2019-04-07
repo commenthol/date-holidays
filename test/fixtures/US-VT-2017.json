@@ -20,7 +20,7 @@
     "date": "2017-01-16 00:00:00",
     "start": "2017-01-16T05:00:00.000Z",
     "end": "2017-01-17T05:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -36,7 +36,7 @@
     "date": "2017-02-20 00:00:00",
     "start": "2017-02-20T05:00:00.000Z",
     "end": "2017-02-21T05:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "Presidents' Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -127,6 +127,16 @@
     "name": "Halloween",
     "type": "observance",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-11-10 00:00:00",
+    "start": "2017-11-10T05:00:00.000Z",
+    "end": "2017-11-11T05:00:00.000Z",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "note": "Federal Government offices are closed",
+    "substitute": true,
+    "_weekday": "Fri"
   },
   {
     "date": "2017-11-11 00:00:00",

@@ -1,6 +1,7 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States
-  # @source www4.law.cornell.edu/uscode/html/uscode05/usc_sec_05_00006103----000-.html
+  # @attrib https://en.wikipedia.org/wiki/Washington%27s_Birthday
+  # @source https://www4.law.cornell.edu/uscode/html/uscode05/usc_sec_05_00006103----000-.html
   US:
     names:
       en: United States of America
@@ -44,10 +45,10 @@ holidays:
         _name: 01-01
       3rd monday in January:
         name:
-          en: Martin Luther King Day
+          en: Martin Luther King Jr. Day
       3rd monday in February:
         name:
-          en: Washington’s Birthday
+          en: Washington's Birthday
       02-14:
         _name: 02-14
         type: observance
@@ -84,6 +85,13 @@ holidays:
       11-11:
         name:
           en: Veterans Day
+      # @source https://www.federalreserve.gov/aboutthefed/k8.htm
+      substitutes 11-11 if sunday then next monday if saturday then previous friday:
+        substitute: true
+        name:
+          en: Veterans Day
+        type: bank
+        note: Federal Government offices are closed
       tuesday after 1st monday in November every 4 years since 1848:
         name:
           en: Election Day
@@ -112,10 +120,10 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: 'Robert E. Lee/ Martin Luther King Birthday'
+              en: 'Robert E. Lee/Martin Luther King Birthday'
           3rd monday in February:
             name:
-              en: George Washington/ Thomas Jefferson Birthday
+              en: George Washington/Thomas Jefferson Birthday
           4th monday in April:
             name:
               en: Confederate Memorial Day
@@ -132,10 +140,24 @@ holidays:
           - America/Yakutat
           - America/Nome
         days:
-          2nd monday in October: false
+          3rd monday in February:
+            name:
+              en: President's Day
           monday before April:
             name:
               en: Seward's Day
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: '2015-01-01'
+          # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
+          # @source http://time.com/4070797/alaska-indigenous-peoples-day/
+          '2nd monday in October #1':
+            name:
+              en: Indigenous Peoples Day
+            active:
+              - from: '2015-01-01'
           10-18:
             name:
               en: Alaska Day
@@ -148,6 +170,9 @@ holidays:
           3rd monday in January:
             name:
               en: Dr. Martin Luther King Jr./ Civil Rights Day
+          3rd monday in February:
+            name:
+              en: Lincoln/Washington Presidents' Day
       AR:
         name: Arkansas
         zones:
@@ -155,30 +180,45 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: Dr. Martin Luther King Jr./ Robert E. Lee's Birthdays
+              en: Dr. Martin Luther King Jr./Robert E. Lee's Birthdays
           3rd monday in February:
             name:
-              en: "George Washington's Birthday/ Daisy Gatson Bates Day"
+              en: George Washington's Birthday/Daisy Gatson Bates Day
           12-24:
             _name: 12-24
       CA:
+        # @source http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6700.
+        # @source http://www.calhr.ca.gov/employees/pages/state-holidays.aspx
         name: California
         zones:
           - America/Los_Angeles
         days:
+          3rd monday in February:
+            name:
+              en: The third Monday in February
           2nd monday in October: false
           02-15:
+            type: observance
             name:
               en: Susan B. Anthony Day
-          03-31:
+          03-31 and if sunday then next monday:
+            substitute: true
             name:
               en: César Chávez Day
+          # easter -2 12:00 PT3H:
+          #  _name: easter -2
           05-19:
+            type: observance
             name:
               en: Malcolm X Day
           05-23:
+            type: observance
             name:
               en: Harvey Milk Day
+          friday after 4th thursday in November:
+            name:
+              en: Day after Thanksgiving Day
+            type: public
         regions:
           LA:
             name: Los Angeles
@@ -195,6 +235,9 @@ holidays:
         zones:
           - America/Denver
         days:
+          3rd monday in February:
+            name:
+              en: Washington-Lincoln Day
           2nd monday in October:
             type: observance
       CT:
@@ -255,23 +298,32 @@ holidays:
             name:
               en: Washington's Birthday
       HI:
+        # @source http://dhrd.hawaii.gov/state-observed-holidays/
+        # @source https://dhrd.hawaii.gov/wp-content/uploads/2012/10/State-Holidays-2016-2017.pdf
         name: Hawaii
         zones:
           - Pacific/Honolulu
         days:
-          3rd monday in February: false
-          03-26:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
+          03-26 and if saturday then previous friday if sunday then next monday:
+            substitute: true
             name:
               en: Prince Jonah Kuhio Kalanianaole Day
-          06-11:
+          easter -2:
+            _name: easter -2
+          06-11 and if saturday then previous friday if sunday then next monday:
+            substitute: true
             name:
               en: Kamehameha Day
           3rd friday in August:
             name:
               en: Statehood Day
+          2nd monday in October: false
           tuesday after 1st monday in November in even years:
             name:
-              en: Election Day
+              en: General Election Day
       ID:
         name: Idaho
         zones:
@@ -281,6 +333,9 @@ holidays:
           3rd monday in January:
             name:
               en: 'Martin Luther King, Jr./ Idaho Human Rights Day'
+          3rd monday in February:
+            name:
+              en: President's Day
       IL:
         name: Illinois
         zones:
@@ -372,6 +427,9 @@ holidays:
         zones:
           - America/New_York
         days:
+          3rd monday in February:
+            name:
+              en: Washington's Birthday/President's Day
           3rd monday in April:
             name:
               en: Patriots' Day
@@ -380,6 +438,9 @@ holidays:
         zones:
           - America/New_York
         days:
+          3rd monday in February:
+            name:
+              en: President's Day
           friday before 1st monday before 06-01:
             name:
               en: Service Reduction Day
@@ -389,7 +450,7 @@ holidays:
       MA:
         name: Massachusetts
         zones:
-          - America/Chicago
+          - America/New_York
         days:
           03-17:
             name:
@@ -415,6 +476,10 @@ holidays:
         zones:
           - America/Chicago
         # all federal holidays
+        days:
+          3rd monday in February:
+            name:
+              en: Washington's and Lincoln's Birthday
       MS:
         name: Mississippi
         zones:
@@ -431,6 +496,9 @@ holidays:
         zones:
           - America/Chicago
         days:
+          02-12:
+            name:
+              en: Lincoln's Birthday
           05-08:
             name:
               en: Truman Day
@@ -439,6 +507,9 @@ holidays:
         zones:
           - America/Denver
         days:
+          3rd monday in February:
+            name:
+              en: Lincoln's and Washington's Birthday
           tuesday after 1st monday in November:
             name:
               en: Election Day
@@ -452,6 +523,9 @@ holidays:
           - America/Chicago
           - America/Denver
         days:
+          3rd monday in February:
+            name:
+              en: President's Day
           friday before 05-01:
             name:
               en: Arbor Day
@@ -460,6 +534,9 @@ holidays:
         zones:
           - America/Los_Angeles
         days:
+          3rd monday in February:
+            name:
+              en: Presidents Day
           2nd monday in October: false
           friday before 11-01:
             name:
@@ -472,11 +549,14 @@ holidays:
         zones:
           - America/New_York
         days:
-          2nd monday in October:
-            type: observance
           3rd monday in January:
             name:
               en: Martin Luther King, Jr./ Civil Rights Day
+          3rd monday in February:
+            name:
+              en: President's Day
+          2nd monday in October:
+            type: observance
           tuesday after 1st monday in November in even years:
             name:
               en: Election Day
@@ -491,17 +571,23 @@ holidays:
           02-12:
             name:
               en: Lincoln's Birthday
+          3rd monday in February:
+            name:
+              en: Presidents Day
           easter -2:
             _name: easter -2
           tuesday after 1st monday in November:
             name:
               en: Election Day
       NM:
+        # @source http://www.rld.state.nm.us/uploads/files/FID%20NEW%20MEXICO%20BANK%20HOLIDAYS%202018.pdf
         name: New Mexico
         zones:
           - America/Denver
         days:
-          3rd monday in February: false
+          3rd monday in February:
+            name:
+              en: Presidents' Day
           friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
@@ -541,16 +627,27 @@ holidays:
           - America/North_Dakota/New_Salem
           - America/North_Dakota/Beulah
         # All federal holidays
+        days:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
       OH:
         name: Ohio
         zones:
           - America/New_York
         # All federal holidays
+        days:
+          3rd monday in February:
+            name:
+              en: Washington-Lincoln Day
       OK:
         name: Oklahoma
         zones:
           - America/Chicago
         days:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
           friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
@@ -559,11 +656,18 @@ holidays:
         zones:
           - America/Los_Angeles
         # All federal holidays
+        days:
+          3rd monday in February:
+            name:
+              en: Presidents Day
       PA:
         name: Pennsylvania
         zones:
           - America/New_York
         days:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
           06-14:
             name:
               en: Flag Day
@@ -590,19 +694,26 @@ holidays:
         zones:
           - America/Chicago
           - America/Denver
+        days:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
       TN:
         name: Tennessee
         zones:
           - America/Chicago
           - America/New_York
         days:
+          3rd monday in February:
+            name:
+              en: President's Day
           easter -2:
             _name: easter -2
           12-24:
             _name: 12-24
-      # @source http://www.hr.sao.state.tx.us/compensation/Holidays2015.pdf
-      # @source http://www.hr.sao.state.tx.us/compensation/Holidays2016_2017.pdf
       TX:
+        # @source http://www.hr.sao.state.tx.us/compensation/Holidays2015.pdf
+        # @source http://www.hr.sao.state.tx.us/compensation/Holidays2016_2017.pdf
         name: Texas
         zones:
           - America/Chicago
@@ -613,6 +724,9 @@ holidays:
               en: Confederate Heroes Day
             type: observance
             note: state agencies are partially staffed
+          3rd monday in February:
+            name:
+              en: Presidents' Day
           03-02:
             name:
               en: Texas Independence Day
@@ -654,6 +768,9 @@ holidays:
         zones:
           - America/Denver
         days:
+          3rd monday in February:
+            name:
+              en: Washington and Lincoln Day
           07-24:
             name:
               en: Pioneer Day
@@ -662,6 +779,9 @@ holidays:
         zones:
           - America/New_York
         days:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
           1st tuesday in March:
             name:
               en: Town Meeting Day
@@ -673,6 +793,9 @@ holidays:
         zones:
           - America/New_York
         days:
+          3rd monday in February:
+            name:
+              en: George Washington Day
           friday before 3rd monday in January:
             name:
               en: Lee–Jackson Day
@@ -681,6 +804,10 @@ holidays:
         zones:
           - America/Los_Angeles
         # All federal holidays
+        days:
+          3rd monday in February:
+            name:
+              en: Presidents' Day
       WV:
         name: West Virginia
         zones:
@@ -689,6 +816,9 @@ holidays:
           02-15:
             name:
               en: Susan B. Anthony Day
+          3rd monday in February:
+            name:
+              en: President's Day
           06-20:
             name:
               en: West Virginia Day
@@ -714,3 +844,7 @@ holidays:
         zones:
           - America/Denver
         # All federal holidays
+        days:
+          3rd monday in February:
+            name:
+              en: President's Day

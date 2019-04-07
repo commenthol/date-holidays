@@ -11,7 +11,7 @@
     "date": "2019-01-21 00:00:00",
     "start": "2019-01-21T08:00:00.000Z",
     "end": "2019-01-22T08:00:00.000Z",
-    "name": "Martin Luther King Day",
+    "name": "Martin Luther King Jr. Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -28,14 +28,14 @@
     "start": "2019-02-15T08:00:00.000Z",
     "end": "2019-02-16T08:00:00.000Z",
     "name": "Susan B. Anthony Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Fri"
   },
   {
     "date": "2019-02-18 00:00:00",
     "start": "2019-02-18T08:00:00.000Z",
     "end": "2019-02-19T08:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "The third Monday in February",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -46,6 +46,15 @@
     "name": "César Chávez Day",
     "type": "public",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2019-04-01 00:00:00",
+    "start": "2019-04-01T07:00:00.000Z",
+    "end": "2019-04-02T07:00:00.000Z",
+    "name": "César Chávez Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
   },
   {
     "date": "2019-04-15 00:00:00",
@@ -76,7 +85,7 @@
     "start": "2019-05-19T07:00:00.000Z",
     "end": "2019-05-20T07:00:00.000Z",
     "name": "Malcolm X Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Sun"
   },
   {
@@ -84,7 +93,7 @@
     "start": "2019-05-23T07:00:00.000Z",
     "end": "2019-05-24T07:00:00.000Z",
     "name": "Harvey Milk Day",
-    "type": "public",
+    "type": "observance",
     "_weekday": "Thu"
   },
   {
@@ -148,7 +157,7 @@
     "start": "2019-11-29T08:00:00.000Z",
     "end": "2019-11-30T08:00:00.000Z",
     "name": "Day after Thanksgiving Day",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Fri"
   },
   {

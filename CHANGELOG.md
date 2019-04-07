@@ -1,5 +1,32 @@
 # CHANGELOG
 
+v1.3.10
+
+- 3792105 fix(doc): typo
+- 9abbd26 fix(example): weekdays not shown for some dates
+- 1b76a97 fix(JP): substitue days; dates; new days
+
+v1.3.9
+
+- 194cc3a fix(GU): fix Guam holidays
+- 50f39a4 fix(US-CA): Update Hawaiian state holidays
+- 720cb1c fix(US-CA): Update California state holidays
+- b327792 fix(US-AK): Renaming Columbus Day to Indigenous Peoples Day
+- 8832cdb feat(US): Veteran's Day Federal Offices closure
+- c9dde21 fix(US-MA): fix timezone
+- 1ddcf0e fix(CH): adding dayoff attribute
+- 0595893 feat(DE-TH): New holiday Intl. Children's Day
+- c3d0ab5 fix(US-MO): Add Lincoln's Birthday
+- eca1216 fix(US-HI): Add Presidents' Day in Hawaii
+
+v1.3.8
+
+- bb38450 test(KR): failing test due to deltat update in astronomia
+- 6b3c82d fix(example): use local date for weekday
+- b361f0c fix(US): Different names for Washington's Birthday
+- 9d290c6 feat(SG): New Country Singapore
+- ece44e7 fix(NO): Frigjøringsdagen type observance
+
 v1.3.7
 - DE: Reformation Day for DE-HB DE-HH DE-NI DE-SH and International Women's Day for DE-BE
 - new maintainer Ryan Gerry

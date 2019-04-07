@@ -36,7 +36,7 @@
     "date": "2017-02-20 00:00:00",
     "start": "2017-02-20T06:00:00.000Z",
     "end": "2017-02-21T06:00:00.000Z",
-    "name": "Washington’s Birthday",
+    "name": "Washington's Birthday",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -119,6 +119,16 @@
     "name": "Halloween",
     "type": "observance",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-11-10 00:00:00",
+    "start": "2017-11-10T06:00:00.000Z",
+    "end": "2017-11-11T06:00:00.000Z",
+    "name": "Veterans Day (substitute day)",
+    "type": "bank",
+    "note": "Federal Government offices are closed",
+    "substitute": true,
+    "_weekday": "Fri"
   },
   {
     "date": "2017-11-11 00:00:00",
