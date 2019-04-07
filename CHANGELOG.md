@@ -1,5 +1,11 @@
 # CHANGELOG
 
+v1.3.10
+
+- 3792105 fix(doc): typo
+- 9abbd26 fix(example): weekdays not shown for some dates
+- 1b76a97 fix(JP): substitue days; dates; new days
+
 v1.3.9
 
 - 194cc3a fix(GU): fix Guam holidays

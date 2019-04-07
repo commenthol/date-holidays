@@ -20,8 +20,8 @@ dist:
 	npm run webpack
 
 docs: tree README.md
-	npx markedpp --githubid -i docs/specification.md -o docs/specification.md
-	npx markedpp --githubid -i README.md -o README.md
+	npx markedpp --github -i docs/specification.md -o docs/specification.md
+	npx markedpp --github -i README.md -o README.md
 
 lint:
 	npm run lint
