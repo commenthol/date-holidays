@@ -1,5 +1,11 @@
 # CHANGELOG
 
+v1.4.0
+
+- 2077ce0 feat(BD): new country Bangladesh
+- d4f1310 feat: add support for bengali-revised calendar
+- d34b6b8 fix(US): correct indigenous peoples day
+
 v1.3.10
 
 - 3792105 fix(doc): typo
