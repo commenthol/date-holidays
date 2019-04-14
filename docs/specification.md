@@ -278,7 +278,7 @@ Where:
 **Examples**:
 
 - `bengali-revised 12-1` is the 1st day in the 12th month
-- `bengali-revised 1425-1-1` is the 1st day in the first month of 1425 - equals 2018-04-14 in gregorian date
+- `bengali-revised 1425-1-1` is the 1st day in the first month of 1425 - equals 2018-04-14 in Gregorian date
 
 #### Equinox, Solstice
 
