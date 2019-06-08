@@ -269,8 +269,8 @@
                 var holidays = g.holidays = hd.getHolidays(g.year)
                 var count = 0
                 var table = [
-                    '<table>',
-                    '<thead><tr><th>', ['#', 'weekday', 'date', 'duration', 'name', 'type'].join('</th><th>'),
+                    '<table class="table">',
+                    '<thead><tr><th scope="col">', ['#', 'weekday', 'date', 'duration', 'name', 'type'].join('</th><th>'),
                     '</th></tr></thead>',
                     '<tbody>',
                     Object.keys(holidays).map(function(i) {
