@@ -213,13 +213,16 @@
                     },
                     disable: function() {
                         el.style = 'display:none'
+                        hideSelectLabel(id)
                     },
                     render: function(obj, selected) {
                         self.selected = selected
                         if (!obj) {
                             el.style = 'display:none'
+                            hideSelectLabel(id)
                         } else {
                             el.style = 'display:block'
+                            showSelectLabel(id)
                             el.innerHTML =
                                 (selected ? '' : '<option>--</option>') +
                                 Object.keys(obj).map(function(i) {
@@ -250,6 +253,22 @@
                 var s = select('country', selectState)
                 s.render(cs, code)
                 if (code) s.onChange({ target: { value: code, selectedOptions: [{ text: name }] } })
+            }
+
+            function hideSelectLabel(select){
+                setSelectLabelState(select, 'none')
+            }
+
+            function showSelectLabel(select){
+                setSelectLabelState(select, 'block')
+            }
+
+            function setSelectLabelState(select, state){
+                var labelEl = document.getElementById(`${select}-label`)
+                console.log(`${select}-label`)
+                if(labelEl){
+                    labelEl.style = `display:${state}`
+                }
             }
 
             function selectState() {
