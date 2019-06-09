@@ -1,10 +1,10 @@
-(function() {
+(function () {
     function r(e, n, t) {
         function o(i, f) {
             if (!n[i]) {
                 if (!e[i]) { var c = "function" == typeof require && require; if (!f && c) return c(i, !0); if (u) return u(i, !0); var a = new Error("Cannot find module '" + i + "'"); throw a.code = "MODULE_NOT_FOUND", a }
                 var p = n[i] = { exports: {} };
-                e[i][0].call(p.exports, function(r) { var n = e[i][1][r]; return o(n || r) }, p, p.exports, r, e, n, t)
+                e[i][0].call(p.exports, function (r) { var n = e[i][1][r]; return o(n || r) }, p, p.exports, r, e, n, t)
             }
             return n[i].exports
         }
@@ -13,7 +13,7 @@
     }
     return r
 })()({
-    1: [function(require, module, exports) {
+    1: [function (require, module, exports) {
         'use strict';
 
         var tVcalendar = function tVcalendar(vevents) {
@@ -29,10 +29,10 @@
             tVevent: tVevent
         };
     }, {}],
-    2: [function(require, module, exports) {
+    2: [function (require, module, exports) {
         'use strict';
 
-        var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function(obj) { return typeof obj; } : function(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+        var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
         var _require = require('./templates'),
             tVcalendar = _require.tVcalendar,
@@ -158,7 +158,7 @@
          * @return {String} vCalendar
          */
         function vcalendar(dates, opts) {
-            var vevents = dates.map(function(date) {
+            var vevents = dates.map(function (date) {
                 return vevent(date, opts);
             });
             return tVcalendar(vevents);
@@ -166,11 +166,11 @@
 
         module.exports = vcalendar;
     }, { "./templates": 1 }],
-    3: [function(require, module, exports) {
+    3: [function (require, module, exports) {
         /* global Holidays */
 
         ;
-        (function() {
+        (function () {
             var vcalendar = require('date-holidays-ical/lib/vcalendar')
 
             var DAY = 86400000
@@ -193,17 +193,19 @@
                 var el = document.getElementById(id)
                 var self = {
                     opts: {},
-                    onChange: function(ev) {
+                    onChange: function (ev) {
                         self.selected = ev.target.value
                         g[id] = self.selected
                         n[id] = ev.target.selectedOptions && ev.target.selectedOptions[0].text
-                        if (id === 'country') {;
-                            ['state', 'region'].forEach(function(i) {
+                        if (id === 'country') {
+                            ;
+                            ['state', 'region'].forEach(function (i) {
                                 n[i] = g[i] = undefined
                                 select(i).disable()
                             })
-                        } else if (id === 'state') {;
-                            ['region'].forEach(function(i) {
+                        } else if (id === 'state') {
+                            ;
+                            ['region'].forEach(function (i) {
                                 n[i] = g[i] = undefined
                                 select(i).disable()
                             })
@@ -211,11 +213,11 @@
                         renderContent()
                         fn && fn()
                     },
-                    disable: function() {
+                    disable: function () {
                         el.style = 'display:none'
                         hideSelectLabel(id)
                     },
-                    render: function(obj, selected) {
+                    render: function (obj, selected) {
                         self.selected = selected
                         if (!obj) {
                             el.style = 'display:none'
@@ -225,7 +227,7 @@
                             showSelectLabel(id)
                             el.innerHTML =
                                 (selected ? '' : '<option>--</option>') +
-                                Object.keys(obj).map(function(i) {
+                                Object.keys(obj).map(function (i) {
                                     return [
                                         '<option value="', i, '"',
                                         i == self.selected ? ' selected' : '', // eslint-disable-line eqeqeq
@@ -255,18 +257,17 @@
                 if (code) s.onChange({ target: { value: code, selectedOptions: [{ text: name }] } })
             }
 
-            function hideSelectLabel(select){
+            function hideSelectLabel(select) {
                 setSelectLabelState(select, 'none')
             }
 
-            function showSelectLabel(select){
+            function showSelectLabel(select) {
                 setSelectLabelState(select, 'block')
             }
 
-            function setSelectLabelState(select, state){
+            function setSelectLabelState(select, state) {
                 var labelEl = document.getElementById(`${select}-label`)
-                console.log(`${select}-label`)
-                if(labelEl){
+                if (labelEl) {
                     labelEl.style = `display:${state}`
                 }
             }
@@ -292,7 +293,7 @@
                     '<thead><tr><th scope="col">', ['#', 'weekday', 'date', 'duration', 'name', 'type'].join('</th><th>'),
                     '</th></tr></thead>',
                     '<tbody>',
-                    Object.keys(holidays).map(function(i) {
+                    Object.keys(holidays).map(function (i) {
                         var d = holidays[i]
                         var _date = d.date.replace(/^(\d+-\d+-\d+ \d+:\d+:\d+).*$/, '$1')
                         return '<tr><td>' + [
@@ -330,7 +331,7 @@
 
             function onDownload() {
                 var filename = [g.year, n.country, n.state, n.region]
-                    .filter(function(i) { return i }).join('-') + '.ics'
+                    .filter(function (i) { return i }).join('-') + '.ics'
                 download(filename, g.holidays)
             }
 
