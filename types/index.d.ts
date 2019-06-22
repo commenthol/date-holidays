@@ -61,6 +61,10 @@ declare module 'date-holidays' {
     }
 
     interface HolidaysConstructor {
+        new (): HolidaysInterface;
+        new (opts?: Options): HolidaysInterface;
+        new (country?: Country | string, opts?: Options): HolidaysInterface;
+        new (country?: Country | string, state?: string, opts?: Options): HolidaysInterface;
         new (country?: Country | string, state?: string, region?: string, opts?: Options): HolidaysInterface;
     }
 
