@@ -26,6 +26,7 @@ declare module 'date-holidays' {
         end: Date;
         name: string;
         type: HolidayType;
+        substitute?: boolean;
     }
 
     export interface HolidaysInterface {
@@ -37,7 +38,7 @@ declare module 'date-holidays' {
 
         setHoliday(rule: string, opts: HolidayOptions | string): boolean;
 
-        getHolidays(year?: string | Date, lang?: string): Holiday[];
+        getHolidays(year?: string | number | Date, lang?: string): Holiday[];
 
         isHoliday(date: Date): Holiday;
 
