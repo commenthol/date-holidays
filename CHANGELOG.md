@@ -1,5 +1,9 @@
 # CHANGELOG
 
+Master (to be released)
+
+- b5aad5a TypeScript fixes for Holiday and HolidaysInterface
+
 v1.4.0
 
 - 2077ce0 feat(BD): new country Bangladesh
