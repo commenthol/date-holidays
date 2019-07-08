@@ -292,7 +292,7 @@ Countries: 144
 ├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本
-├── KE: Kenia
+├── KE: Kenya
 ├── KR: 대한민국
 ├── LI: Lichtenstein
 ├── LS: \'Muso oa Lesotho
