@@ -54,14 +54,14 @@
   "scripts": {
     "all": "npm-run-all clean lint build yaml test doc:tree doc:attrib webpack",
     "build": "babel -d lib src",
+    "ci": "npm-run-all build yaml test",
     "clean": "rimraf lib dist",
     "clean:all": "npm-run-all clean clean:modules",
     "clean:modules": "rimraf node_modules",
-    "doc:tree": "node scripts/addtree.js",
     "doc:attrib": "node scripts/attributions.js",
+    "doc:tree": "node scripts/addtree.js",
     "lint": "eslint --fix '**/*.js'",
     "prepublishOnly": "npm run all",
-    "ci": "npm-run-all build yaml test",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
     "test:ts": "dtslint types",
@@ -72,9 +72,6 @@
   "babel": {
     "ignore": [
       "./dist"
-    ],
-    "presets": [
-      "@babel/preset-env"
     ],
     "plugins": [
       "@babel/plugin-syntax-dynamic-import",
@@ -91,6 +88,9 @@
       "@babel/plugin-proposal-export-namespace-from",
       "@babel/plugin-proposal-numeric-separator",
       "@babel/plugin-proposal-throw-expressions"
+    ],
+    "presets": [
+      "@babel/preset-env"
     ]
   },
   "browserslist": [
@@ -112,39 +112,39 @@
     "prepin": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
     "@babel/plugin-proposal-decorators": "^7.4.4",
-    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-    "@babel/plugin-proposal-function-sent": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-function-sent": "^7.5.0",
     "@babel/plugin-proposal-json-strings": "^7.2.0",
     "@babel/plugin-proposal-numeric-separator": "^7.2.0",
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-import-meta": "^7.2.0",
     "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-env": "^7.5.4",
     "@babel/register": "^7.4.4",
     "babel-loader": "^8.0.6",
-    "dtslint": "^0.7.6",
+    "dtslint": "^0.7.9",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "hashtree": "^0.7.0",
     "markedpp": "^1.0.1",
     "mocha": "^6.1.4",
     "npm-run-all": "^4.1.5",
-    "parallel-webpack": "^2.3.0",
+    "parallel-webpack": "^2.4.0",
     "rimraf": "^2.6.3",
-    "typescript": "^3.5.1",
+    "typescript": "^3.5.3",
     "uglifyjs-webpack-plugin": "^2.1.3",
-    "webpack": "^4.32.2",
+    "webpack": "^4.35.3",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.5"
   },
   "engines": {
     "node": ">=4.0.0"
