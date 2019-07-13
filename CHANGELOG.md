@@ -1,8 +1,10 @@
 # CHANGELOG
 
-Master (to be released)
+v1.4.1
 
-- b5aad5a TypeScript fixes for Holiday and HolidaysInterface
+- 8c43335 fix(ts): TypeScript fix for HolidaysConstructor
+- b6c7953 fix(KE): Fix typo in Kenya
+- b5aad5a fix(ts): TypeScript fixes for Holiday and HolidaysInterface
 
 v1.4.0
 
