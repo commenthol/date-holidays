@@ -17,11 +17,11 @@ holidays:
       vietnamese 1-0-1:
         name:
           en: Vietnamese New Year
-          vi: Tết
+          vi: Tết Nguyên Đán
       1 day before vietnamese 1-0-1 P5D:
         name:
           en: Vietnamese New Year Holidays
-          vi: Tết ngày lễ
+          vi: Giao thừa Tết Nguyên Đán
       vietnamese 3-0-10:
         name:
           en: Hung Kings Commemorations
@@ -47,7 +47,7 @@ holidays:
       04-21:
         name:
           en: Vietnam Book Day
-          vi: Ngày sách Việt Nam
+          vi: Ngày Sách Việt Nam
         type: observance
       05-07:
         name:
@@ -62,32 +62,32 @@ holidays:
       06-01:
         name:
           en: International Children's Day
-          vi: Ngày quốc tế thiếu nhi
+          vi: Ngày quốc tế Thiếu nhi
         type: observance
       06-28:
         name:
           en: Vietnamese Family Day
-          vi: Ngày gia đình Việt Nam
+          vi: Ngày Gia đình Việt Nam
         type: observance
       07-27:
         name:
           en: Remembrance Day
-          vi: Ngày thương binh liệt sĩ
+          vi: Ngày Thương Binh Liệt Sĩ
         type: observance
       08-19:
         name:
           en: August Revolution Commemoration Day
-          vi: Ngày cách mạng tháng 8
+          vi: Ngày cách mạng Tháng Tám
         type: observance
       10-10:
         name:
           en: Capital Liberation Day
-          vi: Ngày giải phóng thủ đô
+          vi: Ngày giải phóng Thủ Đô
         type: observance
       10-20:
         name:
           en: Vietnamese Women's Day
-          vi: Ngày phụ nữ Việt Nam
+          vi: Ngày Phụ nữ Việt Nam
         type: observance
       11-20:
         name:
@@ -97,7 +97,7 @@ holidays:
       12-22:
         name:
           en: National Defence Day
-          vi: Ngày hội quốc phòng toàn dân
+          vi: Ngày hội Quốc phòng Toàn dân
         type: observance
       vietnamese 1-0-5:
         name:
@@ -122,7 +122,7 @@ holidays:
       vietnamese 7-0-15:
         name:
           en: Ghost Festival
-          vi: Rằm tháng bảy, Vu Lan
+          vi: Rằm Tháng Bảy, Vu Lan
         type: observance
       vietnamese 8-0-15:
         name:
