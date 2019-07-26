@@ -56,7 +56,7 @@ names:
       sw: Mwaka mpya
       tr: Yılbaşı
       uk: Новий Рік
-      vi: Tết dương lịch
+      vi: Tết Dương lịch
       zh: 元旦
   01-06:
     name:
@@ -81,16 +81,19 @@ names:
       pl: Święto Trzech Króli
       sk: Zjavenie Pána
       sv: Trettondedag jul
+      vi: Lễ Hiển Linh
   02-02:
     name:
       en: Candlemas
       de: Lichtmess
+      vi: Lễ Đức Mẹ dâng Chúa Giêsu trong đền thánh
   02-14:
     name:
       en: Valentine's Day
       de: Valentinstag
       fr: Saint-Valentin
       nl: Valentijnsdag
+      vi: Lễ tình nhân
   03-08:
     name:
       en: International Women's Day
@@ -115,10 +118,12 @@ names:
       es: San José
       it: San Giuseppe
       mt: San Ġużepp
+      vi: Kính Thánh Giuse
   04-01:
     name:
       en: April Fools' Day
       sq: Dita e Gënjeshtrave
+      vi: Cá tháng tư
   05-01:
     name:
       en: Labour Day
@@ -157,7 +162,7 @@ names:
       sr: Празник рада
       sv: Första Maj
       uk: День міжнародної солідарності трудящих
-      vi: Ngày Quốc tế Lao động
+      vi: Quốc tế Lao động
       zh: 劳动节
   06-29:
     name:
@@ -167,6 +172,7 @@ names:
       fr: Saint Pierre et Paul
       it: Santi Pietro e Paolo
       mt: L-Imnarja
+      vi: Lễ kính Thánh Phêrô
   08-15:
     name:
       en: Assumption
@@ -187,6 +193,7 @@ names:
       ro: Adormirea Maicii Domnului
       sl: Marijino vnebovzetje
       sq: Shën Mëria e Gushtit
+      vi: Đức Mẹ Lên Trời
   11-01:
     name:
       en: All Saints' Day
@@ -210,6 +217,7 @@ names:
       sq: Të gjitha Saints
       sr: Сви Свети
       sv: Alla helgons dag
+      vi: Lễ Các Thánh
   11-02:
     name:
       en: All Souls' Day
@@ -221,17 +229,20 @@ names:
       hr: Dušni dan
       nl: Allerzielen
       pt: Dia de Finados
+      vi: Lễ Các Đẳng
   11-11:
     name:
       en: Saint Martin
       de: Sankt Martin (Faschingsbeginn)
       nl: Sint Maarten
+      vi: Lễ thánh Martin
   12-06:
     name:
       en: Saint Nicholas
       de: Sankt Nikolaus
       fr: Saint-Nicolas
       nl: Sinterklaas
+      vi: Thánh Saint Nicholas
   12-08:
     name:
       en: Immaculate Conception
@@ -267,6 +278,7 @@ names:
       sq: Nata e Krishtlindjes
       sr: Бадњи дан
       sv: Julafton
+      vi: Đêm Giáng Sinh
   12-25:
     name:
       en: Christmas Day
@@ -314,6 +326,7 @@ names:
       sr: Католички Божић
       sv: Juldagen
       sw: Krismasi
+      vi: Lễ Giáng Sinh
   12-26:
     name:
       en: Boxing Day
@@ -344,6 +357,7 @@ names:
       ro: Două zi de Crăciun
       sk: Druhý sviatok vianočný
       sv: Annandag jul
+      vi: Ngày tặng quà
   12-31:
     name:
       en: New Year's Eve
@@ -365,6 +379,7 @@ names:
       no: Nyttårsaften
       pt: Véspera de Ano Novo
       sv: Nyårsafton
+      vi: Đêm giao thừa
 
   # moveable days
   # christian holidays
@@ -376,6 +391,7 @@ names:
       fr: Lundi de Carnaval
       nl: Carnavalmaandag
       pap: Dialuna di Carnaval
+      vi: Ngày thứ hai hoa hồng
   easter -47: # Carnival Tuesday
     name:
       en: Shrove Tuesday
@@ -384,6 +400,7 @@ names:
       # de: Fastnacht
       hr: Pokladni utorak
       pt: Carnaval
+      vi: Thứ ba mập béo
   easter -46: # Ash Wednesday
     name:
       en: Ash Wednesday
@@ -394,6 +411,7 @@ names:
       is: Öskudagur
       pt: Quarta-feira de Cinzas
       sw: Jumatano ya Majivu
+      vi: Thứ tư Lễ Tro
   easter -7:  # Palm Sunday
     name:
       en: Palm Sunday
@@ -402,6 +420,7 @@ names:
       it: Domenica delle Palme
       is: Pálmasunnudagur
       no: Palmesøndag
+      vi: Chúa nhật Lễ Lá
   easter -3:  # Maundy Thursday
     name:
       en: Maundy Thursday
@@ -417,6 +436,7 @@ names:
       kl: sisamanngortoq illernartoq
       nl: Witte donderdag
       no: Skjærtorsdag
+      vi: Thứ năm Tuần Thánh
   easter -2:  # Good Friday
     name:
       en: Good Friday
@@ -449,6 +469,7 @@ names:
       sr: Католички Велики петак
       sv: Långfredagen
       sw: Ijumaa Kuu
+      vi: Thứ sáu Tuần Thánh
   easter -1:  # Holy Saturday
     name:
       en: Easter Saturday
@@ -459,6 +480,7 @@ names:
       fr: Samedi saint
       it: Sabado santo
       no: Påskeaften
+      vi: Thứ bảy Tuần Thánh
   easter:     # Easter
     name:
       en: Easter Sunday
@@ -494,6 +516,7 @@ names:
       sr: Католички Васкрс
       sv: Påsk
       sw: Pasaka
+      vi: Lễ Phục Sinh
   easter 1:   # Easter Monday
     name:
       en: Easter Monday
@@ -525,6 +548,7 @@ names:
       sr: Католички Васкрсни понедељак
       sv: Annandag påsk
       sw: Jumatatu ya Pasaka
+      vi: Thứ hai phục sinh
   easter 39:  # Ascension Day
     name:
       en: Ascension Day
@@ -543,6 +567,7 @@ names:
       pap: Dia di Asuncion
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
+      vi: Lễ Thăng Thiên
   easter 49:  # Pentecost/ Whit Sunday
     name:
       en: Pentecost
@@ -566,6 +591,7 @@ names:
       sl: binkošti
       sv: Pingst
       uk: Трійця
+      vi: Lễ Chúa Thánh Thần Hiện Xuống
   easter 50:  # Whit Monday
     name:
       en: Whit Monday
@@ -592,7 +618,7 @@ names:
       hr: Tijelovo
       pl: Dzień Bożego Ciała
       pt: Corpo de Deus
-
+      vi: Lễ Mình và Máu Thánh Chúa Kitô
   julian 01-01:
     name:
       en: Orthodox New Year
@@ -771,6 +797,7 @@ names:
       en: Abolition of Slavery
       fr: Abolition de l’esclavage
       nl: Afschaffing van de slavernij
+      vi: Bãi bỏ chế độ Nô lệ
   Buß- und Bettag:
     name:
       de: Buß- und Bettag
@@ -793,6 +820,7 @@ names:
       sk: Deň Ústavy
       sq: Dita e Kushtetutës
       uk: День Конституції
+      vi: Ngày pháp luật
   Fathers Day:
     name:
       en: Father's Day
@@ -801,6 +829,7 @@ names:
       nl: Vaderdag
       pt: Dia dos Pais
       no: Farsdag
+      vi: Ngày của cha
   Independence Day:
     name:
       en: Independence Day
@@ -827,11 +856,13 @@ names:
       sv: Självständighetsdagen
       sw: Siku ya uhuru
       uk: День Незалежності
+      vi: Ngày Độc lập
   Liberation Day:
     name:
       en: Liberation Day
       no: Frigjøringsdagen
       sq: Dita e Çlirimit
+      vi: Ngày Thống nhất
   Mothers Day:
     name:
       en: Mother's Day
@@ -857,6 +888,7 @@ names:
       ro: Ziua Mamei
       sq: Dita e Nënës
       sv: Mors dag
+      vi: Ngày của mẹ
   National Holiday:
     name:
       en: National Holiday
@@ -865,21 +897,25 @@ names:
       fr: Fête nationale
       el: εθνική επέτειος
       nl: Nationale feestdag
+      vi: Quốc Lễ
   Public Holiday:
     name:
       en: Public Holiday
       fr: Jour férié légaux
       pt: Feriado Obrigatório
+      vi: Nghỉ lễ Toàn Quốc
   Reformation Day:
     name:
       en: Reformation Day
       de: Reformationstag
       es: Día Nacional de las Iglesias Evangélicas y Protestantes
+      vi: Kháng Cách
   Revolution Day:
     name:
       en: Revolution Day
       es: Día de la Revolución
       nl: Dag van de revolutie
+      vi: Tổng khởi nghĩa
 
   # internal use
   substitutes:
@@ -898,3 +934,4 @@ names:
       sq: ditë zëvendësuese
       sr: замена дан
       uk: замінити день
+      vi: ngày thay thế
