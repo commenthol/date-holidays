@@ -27,6 +27,7 @@ holidays:
       05-04:
         name:
           nl: Nationale Dodenherdenking
+        type: observance
       05-05:
         name:
           nl: Bevrijdingsdag
