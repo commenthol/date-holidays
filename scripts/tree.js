@@ -19,20 +19,20 @@ function tree (stream) {
   stream.write('Countries: ' + (countriesLen + 1) + '\n')
 
   Object.keys(countries).forEach((country, i) => {
-    let d = (i === countriesLen ? draw[1] : draw[0])
+    const d = (i === countriesLen ? draw[1] : draw[0])
     stream.write(d + country + ': ' + countries[country] + '\n')
 
-    let states = Holidays().getStates(country)
+    const states = Holidays().getStates(country)
     if (states) {
-      let statesLen = Object.keys(states).length - 1
+      const statesLen = Object.keys(states).length - 1
       Object.keys(states).forEach((state, j) => {
         let d = (i === countriesLen ? draw[3] : draw[2])
         d += (j === statesLen ? draw[1] : draw[0])
         stream.write(d + state + ': ' + states[state] + '\n')
 
-        let regions = Holidays().getRegions(country, state)
+        const regions = Holidays().getRegions(country, state)
         if (regions) {
-          let regionsLen = Object.keys(regions).length - 1
+          const regionsLen = Object.keys(regions).length - 1
           Object.keys(regions).forEach((region, k) => {
             let d = (i === countriesLen ? draw[3] : draw[2])
             d += (j === statesLen ? draw[3] : draw[2])

@@ -78,7 +78,7 @@
     var cs = hd.getCountries()
     var s = select('country', selectState)
     s.render(cs, code)
-    if (code) s.onChange({ target: { value: code, selectedOptions: [ { text: name } ] } })
+    if (code) s.onChange({ target: { value: code, selectedOptions: [{ text: name }] } })
   }
   function selectState () {
     var hd = new Holidays()

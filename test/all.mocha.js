@@ -10,7 +10,7 @@ const Holidays = require('..')
 var writetests
 var _countries
 
-var years = [ 2015, 2016, 2017, 2018, 2019, 2020 ]
+var years = [2015, 2016, 2017, 2018, 2019, 2020]
 var WEEKDAYS = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 
 // regenerate tests with `mocha test/all.mocha.js --writetests`
@@ -40,7 +40,7 @@ function filename (name) {
   return file
 }
 
-var SORTORDER = [ 'date', 'start', 'end', 'name', 'type', 'note', 'substitute' ]
+var SORTORDER = ['date', 'start', 'end', 'name', 'type', 'note', 'substitute']
 
 const sortObj = item => {
   const o = {}
