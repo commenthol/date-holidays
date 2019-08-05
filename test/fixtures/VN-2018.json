@@ -3,7 +3,7 @@
     "date": "2018-01-01 00:00:00",
     "start": "2017-12-31T17:00:00.000Z",
     "end": "2018-01-01T17:00:00.000Z",
-    "name": "Tết dương lịch",
+    "name": "Tết Dương lịch",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -27,7 +27,7 @@
     "date": "2018-02-15 00:00:00",
     "start": "2018-02-14T17:00:00.000Z",
     "end": "2018-02-19T17:00:00.000Z",
-    "name": "Tết ngày lễ",
+    "name": "Giao thừa Tết Nguyên Đán",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -35,7 +35,7 @@
     "date": "2018-02-16 00:00:00",
     "start": "2018-02-15T17:00:00.000Z",
     "end": "2018-02-16T17:00:00.000Z",
-    "name": "Tết",
+    "name": "Tết Nguyên Đán",
     "type": "public",
     "_weekday": "Fri"
   },
@@ -67,7 +67,7 @@
     "date": "2018-04-21 00:00:00",
     "start": "2018-04-20T17:00:00.000Z",
     "end": "2018-04-21T17:00:00.000Z",
-    "name": "Ngày sách Việt Nam",
+    "name": "Ngày Sách Việt Nam",
     "type": "observance",
     "_weekday": "Sat"
   },
@@ -91,7 +91,7 @@
     "date": "2018-05-01 00:00:00",
     "start": "2018-04-30T17:00:00.000Z",
     "end": "2018-05-01T17:00:00.000Z",
-    "name": "Ngày Quốc tế Lao động",
+    "name": "Quốc tế Lao động",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -123,7 +123,7 @@
     "date": "2018-06-01 00:00:00",
     "start": "2018-05-31T17:00:00.000Z",
     "end": "2018-06-01T17:00:00.000Z",
-    "name": "Ngày quốc tế thiếu nhi",
+    "name": "Ngày quốc tế Thiếu nhi",
     "type": "observance",
     "_weekday": "Fri"
   },
@@ -139,7 +139,7 @@
     "date": "2018-06-28 00:00:00",
     "start": "2018-06-27T17:00:00.000Z",
     "end": "2018-06-28T17:00:00.000Z",
-    "name": "Ngày gia đình Việt Nam",
+    "name": "Ngày Gia đình Việt Nam",
     "type": "observance",
     "_weekday": "Thu"
   },
@@ -147,7 +147,7 @@
     "date": "2018-07-27 00:00:00",
     "start": "2018-07-26T17:00:00.000Z",
     "end": "2018-07-27T17:00:00.000Z",
-    "name": "Ngày thương binh liệt sĩ",
+    "name": "Ngày Thương Binh Liệt Sĩ",
     "type": "observance",
     "_weekday": "Fri"
   },
@@ -155,7 +155,7 @@
     "date": "2018-08-19 00:00:00",
     "start": "2018-08-18T17:00:00.000Z",
     "end": "2018-08-19T17:00:00.000Z",
-    "name": "Ngày cách mạng tháng 8",
+    "name": "Ngày cách mạng Tháng Tám",
     "type": "observance",
     "_weekday": "Sun"
   },
@@ -163,7 +163,7 @@
     "date": "2018-08-25 00:00:00",
     "start": "2018-08-24T17:00:00.000Z",
     "end": "2018-08-25T17:00:00.000Z",
-    "name": "Rằm tháng bảy, Vu Lan",
+    "name": "Rằm Tháng Bảy, Vu Lan",
     "type": "observance",
     "_weekday": "Sat"
   },
@@ -187,7 +187,7 @@
     "date": "2018-10-10 00:00:00",
     "start": "2018-10-09T17:00:00.000Z",
     "end": "2018-10-10T17:00:00.000Z",
-    "name": "Ngày giải phóng thủ đô",
+    "name": "Ngày giải phóng Thủ Đô",
     "type": "observance",
     "_weekday": "Wed"
   },
@@ -195,7 +195,7 @@
     "date": "2018-10-20 00:00:00",
     "start": "2018-10-19T17:00:00.000Z",
     "end": "2018-10-20T17:00:00.000Z",
-    "name": "Ngày phụ nữ Việt Nam",
+    "name": "Ngày Phụ nữ Việt Nam",
     "type": "observance",
     "_weekday": "Sat"
   },
@@ -211,7 +211,7 @@
     "date": "2018-12-22 00:00:00",
     "start": "2018-12-21T17:00:00.000Z",
     "end": "2018-12-22T17:00:00.000Z",
-    "name": "Ngày hội quốc phòng toàn dân",
+    "name": "Ngày hội Quốc phòng Toàn dân",
     "type": "observance",
     "_weekday": "Sat"
   }
