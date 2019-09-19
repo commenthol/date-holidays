@@ -97,6 +97,21 @@ holidays:
           04-23 if sunday then next monday:
             name:
               es: Día de Aragón
+      CT:
+        name: Catalonia
+        days: 
+          09-11:
+            name:
+              es: Diada de Catalunya
+          06-24:
+            name:
+              es: Sant Joan
+          09-24 if sunday then next monday:
+            name:
+              es: Mare de Déu de la Mercè
+          12-26:
+            name:
+              es: Sant Esteve
       # AS:
       #   name: Asturias
       # CB:
@@ -109,8 +124,6 @@ holidays:
       #   name: Castile-La Mancha
       # CN:
       #   name: Canary Islands
-      # CT:
-      #   name: Catalonia
       # EX:
       #   name: Extremadura
       # GA:
