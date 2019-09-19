@@ -1,5 +1,17 @@
 # CHANGELOG
 
+v1.4.3
+
+- 96a7c99 Dates for Catalonia State of Spain
+
+v1.4.2
+
+- aaf326c chore: bump deps
+- f0aad3d fix: Remembrance day in Netherlands
+- a22dbcd Update NL.yaml
+- 52104d7 Fix Vietnamese (naming convention)
+- 2ca3138 Update VN.yaml
+
 v1.4.1
 
 - 8c43335 fix(ts): TypeScript fix for HolidaysConstructor
