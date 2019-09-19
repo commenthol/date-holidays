@@ -97,6 +97,7 @@ holidays:
           04-23 if sunday then next monday:
             name:
               es: Día de Aragón
+      # @source: https://ajuntament.barcelona.cat/calendarifestius/ca/
       CT:
         name: Catalonia
         days: 
