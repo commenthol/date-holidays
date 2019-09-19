@@ -247,7 +247,8 @@ Countries: 144
 ├── ES: España
 │   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
-│   └── AR: Aragón
+│   ├── AR: Aragón
+│   └── CT: Catalonia
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
 ├── FO: Føroyar
