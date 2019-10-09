@@ -64,7 +64,7 @@ holidays:
         name:
           en: Civic Holiday
           fr: Premier lundi d’août
-      monday after 08-31:
+      1st monday in September:
         _name: 05-01
       2nd monday after 10-01:
         name:
