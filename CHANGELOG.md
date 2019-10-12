@@ -1,5 +1,13 @@
 # CHANGELOG
 
+v1.4.5
+
+- e4443d4 fix(US): CA Labor Day
+
+v1.4.4
+
+- 3ad8d07 chore: bump deps
+
 v1.4.3
 
 - 96a7c99 Dates for Catalonia State of Spain
