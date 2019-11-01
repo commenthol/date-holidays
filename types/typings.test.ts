@@ -1,4 +1,6 @@
-import Holidays, { Holiday } from 'date-holidays';
+import * as Holidays from 'date-holidays';
+
+type Holiday = Holidays.Holiday;
 
 const hd = new Holidays('');
 hd.init('US');
