@@ -1,5 +1,9 @@
 # CHANGELOG
 
+v1.4.6
+
+- c0b5082 chore(typescript): fix ts typings
+
 v1.4.5
 
 - e4443d4 fix(US): CA Labor Day
