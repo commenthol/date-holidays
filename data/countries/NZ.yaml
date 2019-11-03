@@ -45,28 +45,28 @@ holidays:
       AUK:
         name: Auckland Province
         days:
-          01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
       CAN:
         name: Canterbury
         days:
-          12-16:
+          friday after 2nd tuesday in November:
             name:
               en: Christchurch Show Day
         regions:
           S:
             name: South Canterbury
             days:
-              12-16: false
+              friday after 2nd tuesday in November: false
               4th monday in September:
                 name:
                   en: Dominion Day
       CIT:
         name: Chatham Islands
         days:
-          11-30 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 11-30 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
       HKB:
         name: Hawke's Bay
@@ -83,20 +83,20 @@ holidays:
       NSN:
         name: Nelson
         days:
-          02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
       NTL:
         name: Northland
         days:
-          01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
       OTA:
         name: Otago Province
         days:
-          03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
             note: varies if coincides with easter monday
       STL:
@@ -114,13 +114,12 @@ holidays:
       WGN:
         name: Wellington Province
         days:
-          01-22 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 01-22 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
       WTC:
         name: Westland
         days:
-          12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
-            name:
+          ? 12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday
+          : name:
               en: Provincial anniversary day
-
