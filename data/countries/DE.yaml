@@ -133,6 +133,11 @@ holidays:
           easter 49:
             _name: easter 49
             type: observance
+          # @source: https://archiv.berliner-zeitung.de/berlin/parlamentsbeschluss-der-8--maerz-ist-nun-offiziell-ein-berliner-feiertag-31927822
+          '2020-05-08':
+            name:
+              de: Tag der Befreiung (75. Jahrestag)
+              en: Liberation Day (75th Anniversary)
       BW:
         name: Baden-Württemberg
         days:
