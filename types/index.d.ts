@@ -41,7 +41,7 @@ declare module 'date-holidays' {
 
             getHolidays(year?: string | number | Date, lang?: string): Holiday[];
 
-            isHoliday(date: Date): Holiday;
+            isHoliday(date: Date): Holiday | false;
 
             query(country?: string, state?: string, lang?: string): { [key: string]: string; };
 
