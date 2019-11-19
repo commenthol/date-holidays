@@ -111,7 +111,7 @@
     ]
   },
   "dependencies": {
-    "date-holidays-parser": "^1.4.1",
+    "date-holidays-parser": "^1.4.2",
     "js-yaml": "^3.13.1",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
@@ -119,7 +119,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.0",
+    "@babel/core": "^7.7.2",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-proposal-decorators": "^7.7.0",
     "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
@@ -133,7 +133,7 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/register": "^7.7.0",
     "babel-loader": "^8.0.6",
-    "dtslint": "^1.0.3",
+    "dtslint": "^2.0.2",
     "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
