@@ -3,6 +3,7 @@ coverage/
 output/
 attic/
 dist/
+data/json/*.json
 data/holidays.json
 tmp/
 lib/

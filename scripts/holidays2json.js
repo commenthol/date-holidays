@@ -17,6 +17,7 @@ const dirParser = path.dirname(require.resolve('date-holidays-parser'))
 const config = {
   dirname: resolve(__dirname, '..', 'data'),
   countries: resolve(__dirname, '..', 'data', 'countries'),
+  jsonDir: resolve(__dirname, '..', 'data', 'json'),
   factories: [
     resolve(dirParser, '..', 'src', 'CalEventFactory.js'),
     resolve(dirParser, '..', 'lib', 'CalEventFactory.js')
@@ -62,9 +63,18 @@ Holidays2json.prototype = {
     const obj = this.load('0')
     obj.holidays = {}
     this.list.forEach(function (cc) {
-      Object.assign(obj.holidays, this.load(cc).holidays)
+      const data = this.load(cc)
+      fs.writeFile(resolve(config.jsonDir, `${cc}.json`), JSON.stringify(data), 'utf8', err => {
+        if (err) console.log('%s %s', `${cc}.json`, err)
+      })
+      Object.assign(obj.holidays, data.holidays)
     }.bind(this))
-    Object.assign(obj, this.load(null, resolve(config.dirname, 'names.yaml')))
+
+    const names = this.load(null, resolve(config.dirname, 'names.yaml'))
+    fs.writeFile(resolve(config.jsonDir, 'names.json'), JSON.stringify(names), 'utf8', err => {
+      if (err) console.log('%s %s', 'names.json', err)
+    })
+    Object.assign(obj, names)
 
     if (this.opts.pick) {
       obj.holidays = _pick(obj.holidays, this.opts.pick)
