@@ -108,6 +108,15 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+            active:
+              - to: 2019
+          # @source https://www.statutoryholidays.com/bc.php
+          3rd monday after 02-01:
+            name:
+              en: Family Day
+              fr: Fête de la famille
+            active:
+              - from: 2019
       MB:
         name: Manitoba
         zones:
@@ -265,4 +274,3 @@ holidays:
             name:
               en: Discovery Day
               fr: Jour de la Découverte
-
