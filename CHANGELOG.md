@@ -1,5 +1,18 @@
 # CHANGELOG
 
+v1.4.9
+
+- fix(GB, GG, IM, JE, GI): Early May bank holiday (VE day) on May 8th 2020
+- fix(DE-BE): Liberation Day 75th Anniversary
+
+v1.4.8
+
+- fix(typescript, #117): isHoliday return type
+
+v1.4.7
+
+- fix(NZ-CAN): Set Christchurch Show Day to 2nd Friday after 1st Tuesday
+
 v1.4.6
 
 - c0b5082 chore(typescript): fix ts typings
