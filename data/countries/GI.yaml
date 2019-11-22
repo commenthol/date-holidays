@@ -30,6 +30,10 @@ holidays:
         name:
           en: May Day
       1st monday in May: false
+      # @source https://www.gibraltar.gov.gi/press-releases/additional-bank-holiday-in-2020-to-mark-the-anniversary-of-ve-day-7602019-5366
+      '2020-05-08':
+        name:
+          en: Victory in Europe Day (VE Day)
       monday before 06-20:
         name:
           en: Queen's Birthday
