@@ -110,7 +110,8 @@ holidays:
               fr: Fête de la famille
             active:
               - to: 2019
-          # @source https://www.statutoryholidays.com/bc.php
+          # @source https://news.gov.bc.ca/releases/2018PREM0018-000188
+          # @source https://globalnews.ca/news/4017192/b-c-s-family-day-moved-3rd-week-february-2019/
           3rd monday after 02-01:
             name:
               en: Family Day
