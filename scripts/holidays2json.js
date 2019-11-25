@@ -24,6 +24,10 @@ const config = {
   ]
 }
 
+function saveJson (path, data, indent) {
+  fs.writeFileSync(resolve(...path), JSON.stringify(data, null, indent) + '\n', 'utf8')
+}
+
 function Holidays2json (opts) {
   this.opts = opts || {}
   this.list = this.opts.list || []
@@ -64,16 +68,12 @@ Holidays2json.prototype = {
     obj.holidays = {}
     this.list.forEach(function (cc) {
       const data = this.load(cc)
-      fs.writeFile(resolve(config.jsonDir, `${cc}.json`), JSON.stringify(data), 'utf8', err => {
-        if (err) console.log('%s %s', `${cc}.json`, err)
-      })
+      saveJson([config.jsonDir, `${cc}.json`], data)
       Object.assign(obj.holidays, data.holidays)
     }.bind(this))
 
     const names = this.load(null, resolve(config.dirname, 'names.yaml'))
-    fs.writeFile(resolve(config.jsonDir, 'names.json'), JSON.stringify(names), 'utf8', err => {
-      if (err) console.log('%s %s', 'names.json', err)
-    })
+    saveJson([config.jsonDir, 'names.json'], names)
     Object.assign(obj, names)
 
     if (this.opts.pick) {
@@ -93,8 +93,7 @@ Holidays2json.prototype = {
    * save holidays
    */
   save: function () {
-    const json = JSON.stringify(this.holidays, null, 2) + '\n'
-    fs.writeFileSync(resolve(config.dirname, 'holidays.json'), json, 'utf8')
+    saveJson([config.dirname, 'holidays.json'], this.holidays, 2)
   },
   /**
    * modify the factories to require only the minimum required packages
