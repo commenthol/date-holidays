@@ -1,5 +1,11 @@
 # CHANGELOG
 
+v1.4.10
+
+- fix(CA.BC, #124): Family day on 3rd Monday
+  Family Day in CA.BC shifts from 2nd Monday in February to 3rd starting 2019
+- fix(typescript, #121): Reflected change of isHoliday to class
+
 v1.4.9
 
 - fix(GB, GG, IM, JE, GI): Early May bank holiday (VE day) on May 8th 2020
