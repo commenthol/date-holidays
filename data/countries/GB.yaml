@@ -433,7 +433,7 @@ holidays:
           # NMD:
           #   name: 'Newry, Mourne and Down'
       SCT:
-        name: Scottland
+        name: Scotland
         days:
           substitutes 01-01 if sunday then next monday: false
           substitutes 01-01 if saturday then next monday: false

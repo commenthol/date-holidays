@@ -266,7 +266,7 @@ Countries: 144
 │   ├── ALD: Alderney
 │   ├── ENG: England
 │   ├── NIR: Northern Ireland
-│   ├── SCT: Scottland
+│   ├── SCT: Scotland
 │   └── WLS: Wales
 ├── GD: Grenada
 ├── GF: Guyane
