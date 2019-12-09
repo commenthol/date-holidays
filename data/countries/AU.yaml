@@ -144,7 +144,7 @@ holidays:
             _name: 12-24
             type: public
           12-31 19:00:
-            _name: 12-24
+            _name: 12-31
             type: public
       # @source http://worksafe.tas.gov.au/laws/public_holidays
       TAS:
