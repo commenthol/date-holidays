@@ -57,7 +57,7 @@ declare module 'date-holidays' {
 
             getLanguages(): string[];
 
-            setLanguage(language: string | string[]): string[];
+            setLanguages(language: string | string[]): string[];
 
             getDayOff(): string;
         }
@@ -83,7 +83,7 @@ declare module 'date-holidays' {
         getTimezones(): string[];
         setTimezone(timezone: string): void;
         getLanguages(): string[];
-        setLanguage(language: string | string[]): string[];
+        setLanguages(language: string | string[]): string[];
         getDayOff(): string;
     }
 
