@@ -48,6 +48,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T22:00:00.000Z",
+    "end": "2019-05-01T22:00:00.000Z",
+    "name": "1. maj",
+    "type": "observance",
+    "note": "Full holiday for blue collar workers",
+    "_weekday": "Wed"
+  },
+  {
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-11T22:00:00.000Z",
     "end": "2019-05-12T22:00:00.000Z",
@@ -77,6 +86,7 @@
     "end": "2019-06-05T22:00:00.000Z",
     "name": "Grundlovsdag",
     "type": "observance",
+    "note": "Shops are closed",
     "_weekday": "Wed"
   },
   {
@@ -91,15 +101,24 @@
     "date": "2019-06-10 00:00:00",
     "start": "2019-06-09T22:00:00.000Z",
     "end": "2019-06-10T22:00:00.000Z",
-    "name": "2. Pinsedag",
+    "name": "Anden Pinsedag",
     "type": "public",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2019-12-24 00:00:00",
+    "start": "2019-12-23T23:00:00.000Z",
+    "end": "2019-12-24T23:00:00.000Z",
+    "name": "Juleaften",
+    "type": "observance",
+    "note": "Shops are closed",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-24T23:00:00.000Z",
     "end": "2019-12-25T23:00:00.000Z",
-    "name": "1. Juledag",
+    "name": "Juledag",
     "type": "public",
     "_weekday": "Wed"
   },
@@ -107,7 +126,7 @@
     "date": "2019-12-26 00:00:00",
     "start": "2019-12-25T23:00:00.000Z",
     "end": "2019-12-26T23:00:00.000Z",
-    "name": "2. Juledag",
+    "name": "Anden Juledag",
     "type": "public",
     "_weekday": "Thu"
   }

@@ -133,6 +133,7 @@ names:
       bg: Ден на труда
       bs: Radni dan
       cz: Svátek práce
+      da: 1. maj
       de: Tag der Arbeit
       el: Εργατική Πρωτομαγιά
       es: Fiesta del trabajo
@@ -289,7 +290,7 @@ names:
       de-at: Christtag
       ca: Nadal
       cz: 1. svátek vánoční
-      da: 1. Juledag
+      da: Juledag
       de: Weihnachten
       de-ch: Weihnachtstag
       el: Χριστούγεννα
@@ -332,7 +333,7 @@ names:
       en: Boxing Day
       bg: 2-ри ден на Коледа
       cz: 2. svátek vánoční
-      da: 2. Juledag
+      da: Anden Juledag
       de: 2. Weihnachtstag
       de-at: Stefanitag
       de-ch: Stephanstag
@@ -595,7 +596,7 @@ names:
   easter 50:  # Whit Monday
     name:
       en: Whit Monday
-      da: 2. Pinsedag
+      da: Anden Pinsedag
       de: Pfingstmontag
       es: Lunes de Pentecostés
       fo: Annar hvítusunnudagur
