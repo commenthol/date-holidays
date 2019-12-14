@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.11](https://github.com/commenthol/date-holidays/compare/1.4.10...1.4.11) (2019-12-14)
+
+- chore: commitlint for semantic releasing [c8a848d](https://github.com/commenthol/date-holidays/commit/c8a848db4a2a115d7bf4a1c60ff574ea9976d00c)
+- Fix typings for setLanguages function [8fa4f90](https://github.com/commenthol/date-holidays/commit/8fa4f90e4e8384ebaa988b4bbd114e12f50afddb)
+- fix(#127): Fix Typo in Scotland [aaca6f5](https://github.com/commenthol/date-holidays/commit/aaca6f5dc713a295fd9a29baad9e9bda56b2a9a0)
+- fix(AU-SA): New Year's Eve [6f7c670](https://github.com/commenthol/date-holidays/commit/6f7c670328357062f102285dcc575173f14bd5b8)
+
 ## [1.4.10](https://github.com/commenthol/date-holidays/compare/v1.4.9...v1.4.10) (2019-12-06)
 
 - fix(CA-BC, #124): Family day on 3rd Monday
