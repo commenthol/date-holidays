@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.12](https://github.com/commenthol/date-holidays/compare/1.4.11...1.4.12) (2019-12-16)
+
+- chore: commitlint disable scope-case [5950cf1](https://github.com/commenthol/date-holidays/commit/5950cf1d33dc4f4c0d9522a4abf27d5c577b7d11)
+- fix(#129,DK): add observance holidays [a82ff24](https://github.com/commenthol/date-holidays/commit/a82ff243ebbca4b30bc1fea2666d01786f3b6ce8)
+- fix(#133,AR): shrove monday [56ebcbe](https://github.com/commenthol/date-holidays/commit/56ebcbe34a52333a99784db655b3dfe889796dba)
+
 ## [1.4.11](https://github.com/commenthol/date-holidays/compare/1.4.10...1.4.11) (2019-12-14)
 
 - chore: commitlint for semantic releasing [c8a848d](https://github.com/commenthol/date-holidays/commit/c8a848db4a2a115d7bf4a1c60ff574ea9976d00c)
