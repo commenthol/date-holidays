@@ -109,6 +109,9 @@
           "start-case",
           "pascal-case"
         ]
+      ],
+      "scope-case": [
+        0
       ]
     }
   },
