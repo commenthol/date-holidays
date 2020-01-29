@@ -131,6 +131,9 @@ holidays:
               en: Queen's Birthday
             active:
               - from: '2016-01-01'
+          12-24 18:00:
+            _name: 12-24
+            type: public
       # @source http://www.safework.sa.gov.au/show_page.jsp?id=2483
       SA:
         name: South Australia
