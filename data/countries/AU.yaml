@@ -45,9 +45,6 @@ holidays:
       2nd monday in June:
         name:
           en: Queen's Birthday
-      12-24:
-        _name: 12-24
-        type: observance
       12-25 and if saturday then next monday:
         substitute: true
         _name: 12-25
