@@ -102,6 +102,11 @@ holidays:
           1st monday in August:
             name:
               en: Picnic Day
+          12-24 19:00:
+            _name: 12-24
+            type: public
+            active:
+              - from: '2016-12-07'
       # @source https://www.qld.gov.au/recreation/travel/holidays/public
       QLD:
         name: Queensland
@@ -128,6 +133,11 @@ holidays:
               en: Queen's Birthday
             active:
               - from: '2016-01-01'
+          12-24 18:00:
+            _name: 12-24
+            type: public
+            active:
+              - from: '2019-01-01'
       # @source http://www.safework.sa.gov.au/show_page.jsp?id=2483
       SA:
         name: South Australia
