@@ -25,8 +25,7 @@ holidays:
       01-01 and if saturday,sunday then next monday:
         substitute: true
         _name: 01-01
-      01-26 and if saturday,sunday then next monday:
-        substitute: true
+      substitutes 01-26 if saturday,sunday then next monday:
         name:
           en: Australia Day
       easter -2:
@@ -38,8 +37,7 @@ holidays:
         type: observance
       easter 1:
         _name: easter 1
-      04-25 and if saturday,sunday then next monday:
-        substitute: true
+      04-25:
         name:
           en: ANZAC Day
       2nd monday in June:
@@ -54,9 +52,6 @@ holidays:
       12-26 and if saturday,sunday then next monday:
         substitute: true
         _name: 12-26
-      12-31:
-        _name: 12-31
-        type: observance
     states:
       # @source http://www.cmd.act.gov.au/communication/holidays
       ACT:
@@ -72,9 +67,23 @@ holidays:
           'monday before 10-01':
             name:
               en: Family & Community Day
+            active:
+              - to: '2018-01-01'
             note: 'rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays'
           1st monday in October:
             name: Labour Day
+          04-25 and if sunday then next monday:
+            substitute: true
+            name:
+              en: ANZAC Day
+          '2020-04-27':
+            name:
+              en: Declared public holiday
+          'monday after 05-27':
+            name:
+              en: Reconciliation Day
+            active:
+              - from: '2018-01-01'
       # @source http://www.industrialrelations.nsw.gov.au/oirwww/NSW_public_holidays/NSW_Public_Holidays.page?
       NSW:
         name: New South Wales
