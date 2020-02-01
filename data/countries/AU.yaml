@@ -90,8 +90,7 @@ holidays:
         zones:
           - Australia/Sydney
         days:
-          easter:
-            type: public
+          easter: false
           1st monday in August:
             name:
               en: Bank Holiday
@@ -99,6 +98,17 @@ holidays:
           1st monday in October:
             name:
               en: Labour Day
+          12-24 19:00:
+            _name: 12-24
+            type: public
+            active:
+              - from: '2016-12-01'
+          # TODO fix boxing day 26th
+          12-31 19:00:
+            _name: 12-31
+            type: public
+            active:
+              - from: '2016-12-01'
       # @source http://www.ocpe.nt.gov.au/working_in_the_ntps/legislation/public_holidays
       NT:
         name: Northern Territory
