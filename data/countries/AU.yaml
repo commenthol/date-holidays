@@ -38,23 +38,17 @@ holidays:
         _name: easter 1
       04-25:
         name:
-          en: ANZAC Day
+          en: Anzac Day
       2nd monday in June:
         name:
           en: Queen's Birthday
       1st monday in October:
         name:
           en: Labour Day
-      12-25 and if saturday then next monday:
+      12-25 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-25
-      12-25 and if sunday then next tuesday:
-        substitute: true
-        _name: 12-25
-      12-26 and if saturday then next monday:
-        substitute: true
-        _name: 12-26
-      12-26 and if sunday then next tuesday:
+      12-26 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-26
     states:
@@ -85,3 +79,30 @@ holidays:
         days:
           1st monday in August:
             type: bank
+      NT:
+        name: Northern Territory
+        zones:
+          - Australia/Darwin
+        days:
+          easter: false
+          04-25: false
+          04-25 if sunday then next monday:
+            substitute: true
+            name:
+              en: Anzac Day
+          1st monday in May:
+            name:
+              en: May Day
+          1st monday in August:
+            name:
+              en: Picnic Day
+          1st monday in October: false
+          12-24 19:00:
+            _name: 12-24
+          12-26 and if saturday then next monday: false
+          12-26 and if sunday then next tuesday: false
+          12-26 if saturday then next monday if sunday then next tuesday:
+            substitute: true
+            _name: 12-26
+          12-31 19:00:
+            _name: 12-31
