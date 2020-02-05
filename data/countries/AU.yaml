@@ -42,6 +42,9 @@ holidays:
       2nd monday in June:
         name:
           en: Queen's Birthday
+      1st monday in October:
+        name:
+          en: Labour Day
       12-25 and if saturday then next monday:
         substitute: true
         _name: 12-25
@@ -75,6 +78,10 @@ holidays:
           monday after 05-27:
             name:
               en: Reconciliation Day
-          1st monday in October:
-            name:
-              en: Labour Day
+      NSW:
+        name: New South Wales
+        zones:
+          - Australia/Sydney
+        days:
+          1st monday in August:
+            type: bank
