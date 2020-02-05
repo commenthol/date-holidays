@@ -99,6 +99,10 @@ holidays:
           1st monday in October: false
           12-24 19:00:
             _name: 12-24
+          12-25 and if saturday then next monday if sunday then next tuesday: false
+          12-25 if saturday then next monday if sunday then next tuesday:
+            substitute: true
+            _name: 12-25
           12-26 and if saturday then next monday if sunday then next tuesday: false
           12-26 if saturday then next monday if sunday then next tuesday:
             substitute: true
@@ -125,3 +129,47 @@ holidays:
               en: Queen’s Birthday
           12-24 18:00:
             _name: 12-24
+      SA:
+        name: South Australia
+        zones:
+          - Australia/Adelaide
+        days:
+          easter: false
+          2nd monday in March:
+            name:
+              en: Adelaide Cup Day
+          12-24 19:00:
+            _name: 12-24
+          12-25 and if saturday then next monday if sunday then next tuesday: false
+          12-25 if saturday then next monday if sunday then next tuesday:
+            substitute: true
+            _name: 12-25
+          12-26 and if saturday then next monday if sunday then next tuesday: false
+          12-26 if saturday then next monday if sunday then next tuesday:
+            substitute: true
+            name: Proclamation Day
+          12-31 19:00:
+            _name: 12-31
+      # TAS:
+      #   name: Tasmania
+      #   zones:
+      #     - Australia/Hobart
+      #   days:
+      VIC:
+        name: Victoria
+        zones:
+          - Australia/Melbourne
+        days:
+          2nd monday in March:
+            name:
+              en: Labour Day
+          2nd monday in June:
+            name:
+              en: Queen's Birthday
+          1st monday in October: false
+          friday before October:
+            name:
+              en: AFL Grand Final
+          1st tuesday in November:
+            name:
+              en: Melbourne Cup
