@@ -105,3 +105,23 @@ holidays:
             _name: 12-26
           12-31 19:00:
             _name: 12-31
+      QLD:
+        name: Queensland
+        zones:
+          - Australia/Brisbane
+          - Australia/Lindeman
+        days:
+          04-25: false
+          04-25 if sunday then next monday:
+            substitute: true
+            name:
+              en: Anzac Day
+          1st monday in May:
+            name:
+              en: Labour Day
+          2nd monday in June: false
+          1st monday in October:
+            name:
+              en: Queen’s Birthday
+          12-24 18:00:
+            _name: 12-24
