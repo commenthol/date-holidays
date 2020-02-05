@@ -99,8 +99,7 @@ holidays:
           1st monday in October: false
           12-24 19:00:
             _name: 12-24
-          12-26 and if saturday then next monday: false
-          12-26 and if sunday then next tuesday: false
+          12-26 and if saturday then next monday if sunday then next tuesday: false
           12-26 if saturday then next monday if sunday then next tuesday:
             substitute: true
             _name: 12-26
