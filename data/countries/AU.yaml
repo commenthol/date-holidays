@@ -23,18 +23,17 @@ holidays:
       - Australia/Eucla
     days:
       01-01 and if saturday,sunday then next monday:
-        substitute: true
         _name: 01-01
-      substitutes 01-26 if saturday,sunday then next monday:
-        name:
-          en: Australia Day
+      01-26 if saturday,sunday then next monday:
+        substitute: true
+        name: Australia Day
+        type: public
       easter -2:
         _name: easter -2
       easter -1:
         _name: easter -1
       easter:
         _name: easter
-        type: observance
       easter 1:
         _name: easter 1
       04-25:
@@ -46,10 +45,13 @@ holidays:
       12-25 and if saturday then next monday:
         substitute: true
         _name: 12-25
-      substitutes 12-25 if sunday then next tuesday:
+      12-25 and if sunday then next tuesday:
         substitute: true
         _name: 12-25
-      12-26 and if saturday,sunday then next monday:
+      12-26 and if saturday then next monday:
+        substitute: true
+        _name: 12-26
+      12-26 and if sunday then next tuesday:
         substitute: true
         _name: 12-26
     states:
@@ -62,187 +64,17 @@ holidays:
           2nd monday in March:
             name:
               en: Canberra Day
-          easter:
             type: public
-          'monday before 10-01':
-            name:
-              en: Family & Community Day
-            active:
-              - to: '2018-01-01'
-            note: 'rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays'
-          1st monday in October:
-            name: Labour Day
-          04-25 and if sunday then next monday:
+          04-25: false
+          04-25 if sunday then next monday:
             substitute: true
             name:
               en: ANZAC Day
-          '2020-04-27':
-            name:
-              en: Declared public holiday
-          'monday after 05-27':
+          "2020-04-27":
+            type: public
+          monday after 05-27:
             name:
               en: Reconciliation Day
-            active:
-              - from: '2018-01-01'
-      # @source http://www.industrialrelations.nsw.gov.au/oirwww/NSW_public_holidays/NSW_Public_Holidays.page?
-      NSW:
-        name: New South Wales
-        zones:
-          - Australia/Sydney
-        days:
-          easter: false
-          1st monday in August:
-            name:
-              en: Bank Holiday
-            type: bank
           1st monday in October:
             name:
               en: Labour Day
-          12-24 19:00:
-            _name: 12-24
-            type: public
-            active:
-              - from: '2016-12-01'
-          # TODO fix boxing day 26th
-          12-31 19:00:
-            _name: 12-31
-            type: public
-            active:
-              - from: '2016-12-01'
-      # @source http://www.ocpe.nt.gov.au/working_in_the_ntps/legislation/public_holidays
-      NT:
-        name: Northern Territory
-        zones:
-          - Australia/Darwin
-        days:
-          1st monday in May:
-            name:
-              en: May Day
-          1st monday in August:
-            name:
-              en: Picnic Day
-          12-24 19:00:
-            _name: 12-24
-            type: public
-            active:
-              - from: '2016-12-07'
-      # @source https://www.qld.gov.au/recreation/travel/holidays/public
-      QLD:
-        name: Queensland
-        zones:
-          - Australia/Brisbane
-          - Australia/Lindeman
-        days:
-          '1st monday in October #1':
-            name:
-              en: Labour Day
-            active:
-              - from: '2013-01-01'
-                to: '2016-01-01'
-          1st monday in May:
-            name:
-              en: Labour Day
-            active:
-              - from: '2016-01-01'
-          2nd monday in June: 
-            active:
-              - to: '2016-01-01'
-          '1st monday in October #2':
-            name:
-              en: Queen's Birthday
-            active:
-              - from: '2016-01-01'
-          12-24 18:00:
-            _name: 12-24
-            type: public
-            active:
-              - from: '2019-01-01'
-      # @source http://www.safework.sa.gov.au/show_page.jsp?id=2483
-      SA:
-        name: South Australia
-        zones:
-          - Australia/Adelaide
-        days:
-          2nd monday in March:
-            name:
-              en: March public holiday
-          12-24 19:00:
-            _name: 12-24
-            type: public
-          12-31 19:00:
-            _name: 12-31
-            type: public
-      # @source http://worksafe.tas.gov.au/laws/public_holidays
-      TAS:
-        name: Tasmania
-        zones:
-          - Australia/Hobart
-        days:
-          2nd monday in March:
-            name:
-              en: Eight Hours Day
-          easter -1:
-            type: observance
-          easter 2:
-            name:
-              en: Easter Tuesday
-            type: optional
-            note: Public Service employees or contract dependent
-        regions:
-          H:
-            name: Hobart
-            days:
-              2nd monday in February:
-                name:
-                  en: Royal Hobart Regatta
-          NH:
-            name: Non-Hobart
-            days:
-              1st monday in November:
-                name:
-                  en: Recreation Day
-      # @source http://www.business.vic.gov.au/victorian-public-holidays-and-daylight-saving/victorian-public-holidays
-      VIC:
-        name: Victoria
-        zones:
-          - Australia/Melbourne
-        days:
-          2nd monday in March:
-            name:
-              en: Labour Day
-          easter:
-            type: public
-          # introduced in 2015-08
-          # @source http://www.gazette.vic.gov.au/gazette/Gazettes2015/GG2015S229.pdf
-          1st friday before 10-04:
-            name:
-              en: Grand Final Friday
-            note: Date might differ as dependent on AFL schedule
-        regions:
-          M:
-            name: Melbourne
-            days:
-              1st tuesday in November:
-                name:
-                  en: Melbourne Cup
-      # @source https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia
-      WA:
-        name: Western Australia
-        zones:
-          - Australia/Perth
-          - Australia/Eucla
-        days:
-          1st monday in March:
-            name:
-              en: Labour Day
-          easter -1:
-            type: observance
-          1st monday in June:
-            name:
-              en: Western Australia Day
-          2nd monday in June: false
-          monday before 10-01:
-            name:
-              en: Queen's Birthday
-            note: Might be on a different day; is proclaimed by Governor
-
