@@ -67,7 +67,7 @@ holidays:
             substitute: true
             name:
               en: ANZAC Day
-          "2020-04-27":
+          '2020-04-27':
             type: public
           monday after 05-27:
             name:
@@ -173,3 +173,28 @@ holidays:
           1st tuesday in November:
             name:
               en: Melbourne Cup
+      WA:
+        name: Western Australia
+        zones:
+          - Australia/Perth
+          - Australia/Eucla
+        days:
+          1st monday in March:
+            name:
+              en: Labour Day
+          easter -1: false
+          easter: false
+          04-25: false
+          04-25 and if saturday,sunday then next monday:
+            substitute: true
+            name:
+              en: Anzac Day
+          1st monday in June:
+            name:
+              en: Western Australia Day
+          2nd monday in June: false
+          monday before October:
+            name:
+              en: Queen's Birthday
+            note: 'By proclamation each year'
+          1st monday in October: false
