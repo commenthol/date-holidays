@@ -24,7 +24,7 @@ holidays:
     days:
       01-01 and if saturday,sunday then next monday:
         _name: 01-01
-      01-26 if saturday,sunday then next monday:
+      substitutes 01-26 if saturday,sunday then next monday:
         substitute: true
         name: Australia Day
         type: public
@@ -150,11 +150,25 @@ holidays:
             name: Proclamation Day
           12-31 19:00:
             _name: 12-31
-      # TAS:
-      #   name: Tasmania
-      #   zones:
-      #     - Australia/Hobart
-      #   days:
+      TAS:
+        name: Tasmania
+        zones:
+          - Australia/Hobart
+        days:
+          2nd monday in March:
+            name:
+              en: Eight Hours Day
+          easter -1: false
+          easter: false
+          easter +2:
+            name: Easter Tuesday
+            type: optional
+            note: generally Public Service only
+          1st monday in October: false
+          12-26 and if saturday then next monday if sunday then next tuesday: false
+          12-26 if saturday then next monday if sunday then next tuesday:
+            substitute: true
+            _name: 12-26
       VIC:
         name: Victoria
         zones:
