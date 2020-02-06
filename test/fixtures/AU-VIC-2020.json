@@ -8,14 +8,6 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2020-01-26 00:00:00",
-    "start": "2020-01-25T13:00:00.000Z",
-    "end": "2020-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2020-01-27 00:00:00",
     "start": "2020-01-26T13:00:00.000Z",
     "end": "2020-01-27T13:00:00.000Z",
@@ -73,15 +65,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2020-04-27 00:00:00",
-    "start": "2020-04-26T14:00:00.000Z",
-    "end": "2020-04-27T14:00:00.000Z",
-    "name": "Anzac Day (substitute day)",
-    "type": "public",
-    "substitute": true,
-    "_weekday": "Mon"
-  },
-  {
     "date": "2020-06-08 00:00:00",
     "start": "2020-06-07T14:00:00.000Z",
     "end": "2020-06-08T14:00:00.000Z",
@@ -90,13 +73,21 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2020-10-02 00:00:00",
-    "start": "2020-10-01T14:00:00.000Z",
-    "end": "2020-10-02T14:00:00.000Z",
-    "name": "Grand Final Friday",
+    "date": "2020-09-25 00:00:00",
+    "start": "2020-09-24T14:00:00.000Z",
+    "end": "2020-09-25T14:00:00.000Z",
+    "name": "AFL Grand Final Friday",
     "type": "public",
     "note": "Date might differ as dependent on AFL schedule",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2020-11-03 00:00:00",
+    "start": "2020-11-02T13:00:00.000Z",
+    "end": "2020-11-03T13:00:00.000Z",
+    "name": "Melbourne Cup",
+    "type": "public",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-12-25 00:00:00",
@@ -122,13 +113,5 @@
     "type": "public",
     "substitute": true,
     "_weekday": "Mon"
-  },
-  {
-    "date": "2020-12-31 00:00:00",
-    "start": "2020-12-30T13:00:00.000Z",
-    "end": "2020-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Thu"
   }
 ]

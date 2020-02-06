@@ -1,90 +1,82 @@
 [
-  {
-    "date": "2018-01-01 00:00:00",
-    "start": "2017-12-31T13:00:00.000Z",
-    "end": "2018-01-01T13:00:00.000Z",
-    "name": "New Year's Day",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2018-01-26 00:00:00",
-    "start": "2018-01-25T13:00:00.000Z",
-    "end": "2018-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Fri"
-  },
-  {
-    "date": "2018-03-30 00:00:00",
-    "start": "2018-03-29T13:00:00.000Z",
-    "end": "2018-03-30T13:00:00.000Z",
-    "name": "Good Friday",
-    "type": "public",
-    "_weekday": "Fri"
-  },
-  {
-    "date": "2018-03-31 00:00:00",
-    "start": "2018-03-30T13:00:00.000Z",
-    "end": "2018-03-31T13:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "public",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2018-04-01 00:00:00",
-    "start": "2018-03-31T13:00:00.000Z",
-    "end": "2018-04-01T14:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
-  },
-  {
-    "date": "2018-04-02 00:00:00",
-    "start": "2018-04-01T14:00:00.000Z",
-    "end": "2018-04-02T14:00:00.000Z",
-    "name": "Easter Monday",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2018-04-25 00:00:00",
-    "start": "2018-04-24T14:00:00.000Z",
-    "end": "2018-04-25T14:00:00.000Z",
-    "name": "Anzac Day",
-    "type": "public",
-    "_weekday": "Wed"
-  },
-  {
-    "date": "2018-06-11 00:00:00",
-    "start": "2018-06-10T14:00:00.000Z",
-    "end": "2018-06-11T14:00:00.000Z",
-    "name": "Queen's Birthday",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2018-12-25 00:00:00",
-    "start": "2018-12-24T13:00:00.000Z",
-    "end": "2018-12-25T13:00:00.000Z",
-    "name": "Christmas Day",
-    "type": "public",
-    "_weekday": "Tue"
-  },
-  {
-    "date": "2018-12-26 00:00:00",
-    "start": "2018-12-25T13:00:00.000Z",
-    "end": "2018-12-26T13:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "_weekday": "Wed"
-  },
-  {
-    "date": "2018-12-31 00:00:00",
-    "start": "2018-12-30T13:00:00.000Z",
-    "end": "2018-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Mon"
-  }
-]
+    {
+      "date": "2018-01-01 00:00:00",
+      "start": "2017-12-31T13:00:00.000Z",
+      "end": "2018-01-01T13:00:00.000Z",
+      "name": "New Year's Day",
+      "type": "public",
+      "_weekday": "Mon'
+    },
+    {
+      "date": "2018-03-30 00:00:00",
+      "start": "2018-03-29T13:00:00.000Z",
+      "end": "2018-03-30T13:00:00.000Z",
+      "name": "Good Friday",
+      "type": "public",
+      "_weekday": "Fri'
+    },
+    {
+      "date": "2018-03-31 00:00:00",
+      "start": "2018-03-30T13:00:00.000Z",
+      "end": "2018-03-31T13:00:00.000Z",
+      "name": "Easter Saturday",
+      "type": "public",
+      "_weekday": "Sat'
+    },
+    {
+      "date": "2018-04-01 00:00:00",
+      "start": "2018-03-31T13:00:00.000Z",
+      "end": "2018-04-01T14:00:00.000Z",
+      "name": "Easter Sunday",
+      "type": "public",
+      "_weekday": "Sun'
+    },
+    {
+      "date": "2018-04-02 00:00:00",
+      "start": "2018-04-01T14:00:00.000Z",
+      "end": "2018-04-02T14:00:00.000Z",
+      "name": "Easter Monday",
+      "type": "public",
+      "_weekday": "Mon'
+    },
+    {
+      "date": "2018-04-25 00:00:00",
+      "start": "2018-04-24T14:00:00.000Z",
+      "end": "2018-04-25T14:00:00.000Z",
+      "name": "Anzac Day",
+      "type": "public",
+      "_weekday": "Wed'
+    },
+    {
+      "date": "2018-06-11 00:00:00",
+      "start": "2018-06-10T14:00:00.000Z",
+      "end": "2018-06-11T14:00:00.000Z",
+      "name": "Queen's Birthday",
+      "type": "public",
+      "_weekday": "Mon'
+    },
+    {
+      "date": "2018-10-01 00:00:00",
+      "start": "2018-09-30T14:00:00.000Z",
+      "end": "2018-10-01T14:00:00.000Z",
+      "name": "Labour Day",
+      "type": "public",
+      "_weekday": "Mon'
+    },
+    {
+      "date": "2018-12-25 00:00:00",
+      "start": "2018-12-24T13:00:00.000Z",
+      "end": "2018-12-25T13:00:00.000Z",
+      "name": "Christmas Day",
+      "type": "public",
+      "_weekday": "Tue'
+    },
+    {
+      "date": "2018-12-26 00:00:00",
+      "start": "2018-12-25T13:00:00.000Z",
+      "end": "2018-12-26T13:00:00.000Z",
+      "name": "Boxing Day",
+      "type": "public",
+      "_weekday": "Wed'
+    }
+  ]

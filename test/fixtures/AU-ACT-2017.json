@@ -11,18 +11,9 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-01T13:00:00.000Z",
     "end": "2017-01-02T13:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year's Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
-  },
-  {
-    "date": "2017-01-26 00:00:00",
-    "start": "2017-01-25T13:00:00.000Z",
-    "end": "2017-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Thu"
   },
   {
     "date": "2017-03-13 00:00:00",
@@ -73,20 +64,19 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2017-05-29 00:00:00",
+    "start": "2017-05-28T14:00:00.000Z",
+    "end": "2017-05-29T14:00:00.000Z",
+    "name": "Reconciliation Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-06-12 00:00:00",
     "start": "2017-06-11T14:00:00.000Z",
     "end": "2017-06-12T14:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2017-09-25 00:00:00",
-    "start": "2017-09-24T14:00:00.000Z",
-    "end": "2017-09-25T14:00:00.000Z",
-    "name": "Family & Community Day",
-    "type": "public",
-    "note": "rule missing: When Family and Community Day falls on Labour Day holiday, it changes to the 2nd Monday of 3rd term school holidays",
     "_weekday": "Mon"
   },
   {
@@ -112,13 +102,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2017-12-31 00:00:00",
-    "start": "2017-12-30T13:00:00.000Z",
-    "end": "2017-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Sun"
   }
 ]

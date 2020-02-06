@@ -8,14 +8,6 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2015-01-26 00:00:00",
-    "start": "2015-01-25T13:00:00.000Z",
-    "end": "2015-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-02T13:00:00.000Z",
     "end": "2015-04-03T13:00:00.000Z",
@@ -54,15 +46,6 @@
     "name": "Anzac Day",
     "type": "public",
     "_weekday": "Sat"
-  },
-  {
-    "date": "2015-04-27 00:00:00",
-    "start": "2015-04-26T14:00:00.000Z",
-    "end": "2015-04-27T14:00:00.000Z",
-    "name": "Anzac Day (substitute day)",
-    "type": "public",
-    "substitute": true,
-    "_weekday": "Mon"
   },
   {
     "date": "2015-06-08 00:00:00",
@@ -112,13 +95,5 @@
     "type": "public",
     "substitute": true,
     "_weekday": "Mon"
-  },
-  {
-    "date": "2015-12-31 00:00:00",
-    "start": "2015-12-30T13:00:00.000Z",
-    "end": "2015-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Thu"
   }
 ]

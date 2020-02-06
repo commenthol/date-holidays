@@ -8,14 +8,6 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2018-01-26 00:00:00",
-    "start": "2018-01-25T13:00:00.000Z",
-    "end": "2018-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2018-03-12 00:00:00",
     "start": "2018-03-11T13:00:00.000Z",
     "end": "2018-03-12T13:00:00.000Z",
@@ -75,9 +67,9 @@
     "date": "2018-09-28 00:00:00",
     "start": "2018-09-27T14:00:00.000Z",
     "end": "2018-09-28T14:00:00.000Z",
-    "name": "Grand Final Friday",
-    "type": "public",
+    "name": "AFL Grand Final Friday",
     "note": "Date might differ as dependent on AFL schedule",
+    "type": "public",
     "_weekday": "Fri"
   },
   {
@@ -103,13 +95,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2018-12-31 00:00:00",
-    "start": "2018-12-30T13:00:00.000Z",
-    "end": "2018-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Mon"
   }
 ]

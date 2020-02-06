@@ -8,14 +8,6 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2018-01-26 00:00:00",
-    "start": "2018-01-25T13:00:00.000Z",
-    "end": "2018-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2018-03-12 00:00:00",
     "start": "2018-03-11T13:00:00.000Z",
     "end": "2018-03-12T13:00:00.000Z",
@@ -30,22 +22,6 @@
     "name": "Good Friday",
     "type": "public",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2018-03-31 00:00:00",
-    "start": "2018-03-30T13:00:00.000Z",
-    "end": "2018-03-31T13:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2018-04-01 00:00:00",
-    "start": "2018-03-31T13:00:00.000Z",
-    "end": "2018-04-01T14:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
   },
   {
     "date": "2018-04-02 00:00:00",
@@ -95,13 +71,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2018-12-31 00:00:00",
-    "start": "2018-12-30T13:00:00.000Z",
-    "end": "2018-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Mon"
   }
 ]

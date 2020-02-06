@@ -8,14 +8,6 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2015-01-26 00:00:00",
-    "start": "2015-01-25T14:30:00.000Z",
-    "end": "2015-01-26T14:30:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2015-04-03 00:00:00",
     "start": "2015-04-02T14:30:00.000Z",
     "end": "2015-04-03T14:30:00.000Z",
@@ -32,14 +24,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2015-04-05 00:00:00",
-    "start": "2015-04-04T14:30:00.000Z",
-    "end": "2015-04-05T14:30:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2015-04-06 00:00:00",
     "start": "2015-04-05T14:30:00.000Z",
     "end": "2015-04-06T14:30:00.000Z",
@@ -54,15 +38,6 @@
     "name": "Anzac Day",
     "type": "public",
     "_weekday": "Sat"
-  },
-  {
-    "date": "2015-04-27 00:00:00",
-    "start": "2015-04-26T14:30:00.000Z",
-    "end": "2015-04-27T14:30:00.000Z",
-    "name": "Anzac Day (substitute day)",
-    "type": "public",
-    "substitute": true,
-    "_weekday": "Mon"
   },
   {
     "date": "2015-05-04 00:00:00",
@@ -89,6 +64,14 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2015-12-24 19:00:00",
+    "start": "2015-12-24T09:30:00.000Z",
+    "end": "2015-12-24T14:30:00.000Z",
+    "name": "Christmas Eve",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T14:30:00.000Z",
     "end": "2015-12-25T14:30:00.000Z",
@@ -97,28 +80,19 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2015-12-26 00:00:00",
-    "start": "2015-12-25T14:30:00.000Z",
-    "end": "2015-12-26T14:30:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "_weekday": "Sat"
-  },
-  {
     "date": "2015-12-28 00:00:00",
     "start": "2015-12-27T14:30:00.000Z",
     "end": "2015-12-28T14:30:00.000Z",
-    "name": "Boxing Day (substitute day)",
+    "name": "Boxing Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
   },
   {
-    "date": "2015-12-31 00:00:00",
-    "start": "2015-12-30T14:30:00.000Z",
+    "date": "2015-12-31 19:00:00",
+    "start": "2015-12-31T09:30:00.000Z",
     "end": "2015-12-31T14:30:00.000Z",
     "name": "New Year's Eve",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Thu"
   }
 ]

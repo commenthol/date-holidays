@@ -26,7 +26,8 @@ holidays:
         _name: 01-01
       substitutes 01-26 if saturday,sunday then next monday:
         substitute: true
-        name: Australia Day
+        name:
+          en: Australia Day
         type: public
       easter -2:
         _name: easter -2
@@ -66,8 +67,10 @@ holidays:
           04-25 if sunday then next monday:
             substitute: true
             name:
-              en: ANZAC Day
+              en: Anzac Day
           '2020-04-27':
+            name:
+              en: Declared public holiday 
             type: public
           monday after 05-27:
             name:
@@ -78,6 +81,8 @@ holidays:
           - Australia/Sydney
         days:
           1st monday in August:
+            name: 
+              en: Bank Holiday
             type: bank
       NT:
         name: Northern Territory
