@@ -126,7 +126,7 @@ holidays:
           2nd monday in June: false
           1st monday in October:
             name:
-              en: Queen’s Birthday
+              en: Queen's Birthday
           12-24 18:00:
             _name: 12-24
       SA:
@@ -163,7 +163,7 @@ holidays:
           easter +2:
             name: Easter Tuesday
             type: optional
-            note: generally Public Service only
+            note: Public Service employees or contract dependent
           1st monday in October: false
           12-26 and if saturday then next monday if sunday then next tuesday: false
           12-26 if saturday then next monday if sunday then next tuesday:
@@ -183,7 +183,8 @@ holidays:
           1st monday in October: false
           friday before October:
             name:
-              en: AFL Grand Final
+              en: AFL Grand Final Friday
+            note: Date might differ as dependent on AFL schedule
           1st tuesday in November:
             name:
               en: Melbourne Cup
@@ -210,5 +211,5 @@ holidays:
           monday before October:
             name:
               en: Queen's Birthday
-            note: 'By proclamation each year'
+            note: 'Might be on a different day; is proclaimed by Governor'
           1st monday in October: false

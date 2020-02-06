@@ -51,7 +51,7 @@
     "date": "2015-04-25 00:00:00",
     "start": "2015-04-24T14:30:00.000Z",
     "end": "2015-04-25T14:30:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Sat"
   },
@@ -59,7 +59,7 @@
     "date": "2015-04-27 00:00:00",
     "start": "2015-04-26T14:30:00.000Z",
     "end": "2015-04-27T14:30:00.000Z",
-    "name": "ANZAC Day (substitute day)",
+    "name": "Anzac Day (substitute day)",
     "type": "public",
     "substitute": true,
     "_weekday": "Mon"
