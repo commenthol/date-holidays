@@ -68,8 +68,8 @@
     "start": "2015-09-24T14:00:00.000Z",
     "end": "2015-09-25T14:00:00.000Z",
     "name": "AFL Grand Final Friday",
-    "note": "Date might differ as dependent on AFL schedule",
     "type": "public",
+    "note": "Date might differ as dependent on AFL schedule",
     "_weekday": "Fri"
   },
   {
