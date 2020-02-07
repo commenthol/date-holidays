@@ -24,7 +24,7 @@ holidays:
     days:
       01-01 and if saturday,sunday then next monday:
         _name: 01-01
-      substitutes 01-26 if saturday,sunday then next monday:
+      01-26 if saturday,sunday then next monday:
         substitute: true
         name:
           en: Australia Day
@@ -160,6 +160,10 @@ holidays:
         zones:
           - Australia/Hobart
         days:
+          01-01 and if saturday,sunday then next monday: false
+          01-01 if saturday then next monday if sunday then next tuesday:
+            substitute: true
+            _name: 01-01
           2nd monday in March:
             name:
               en: Eight Hours Day
