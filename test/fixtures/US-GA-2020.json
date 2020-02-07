@@ -32,6 +32,14 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-10T04:00:00.000Z",
+    "end": "2020-04-11T04:00:00.000Z",
+    "name": "Confederate Memorial Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2020-04-15 00:00:00",
     "start": "2020-04-15T04:00:00.000Z",
     "end": "2020-04-16T04:00:00.000Z",
@@ -46,14 +54,6 @@
     "name": "Administrative Professionals Day",
     "type": "observance",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2020-04-27 00:00:00",
-    "start": "2020-04-27T04:00:00.000Z",
-    "end": "2020-04-28T04:00:00.000Z",
-    "name": "Confederate Memorial Day",
-    "type": "public",
-    "_weekday": "Mon"
   },
   {
     "date": "2020-05-10 00:00:00",
