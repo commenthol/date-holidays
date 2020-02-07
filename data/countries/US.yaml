@@ -292,6 +292,10 @@ holidays:
             name:
               en: Robert E. Lee's Birthday
           monday before 05-01:
+            disable:
+              - '2020-04-27'
+            enable:
+              - '2020-04-10'
             name:
               en: Confederate Memorial Day
           12-24:
