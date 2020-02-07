@@ -11,9 +11,8 @@
     "date": "2020-01-27 00:00:00",
     "start": "2020-01-26T14:30:00.000Z",
     "end": "2020-01-27T14:30:00.000Z",
-    "name": "Australia Day (substitute day)",
+    "name": "Australia Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
   },
   {
