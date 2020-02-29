@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.4.13](https://github.com/commenthol/date-holidays/compare/1.4.12...1.4.13) (2020-02-29)
+
+- fix(DE): Changed "Faschingsdienstag" to observance [0e3cf5f]
+- fix(AU.TAS): based on advice from WorkSafe Tasmania [8f21bbb]
+- fix(AU): add back old fixtures [05cd81a]
+- fix(AU): some fixtures, might have to delete old years [c0fa77e]
+- fix(AU.TAS): checked against 2020-22 [1d9a71f]
+- fix(AU.WA): checked for 2020-21 [1aad481]
+- fix(AU.SA,AU.VIC): checked against 2020-2021 [696fa06]
+- fix(AU.QLD): manually checked 2020-21 [7f8625f]
+- refactor(AU.NT): remove dupe [0653e45]
+- fix(AU.NT): manually checked 2019-20 [75a6d5f]
+- fix(AU.NSW): manually checked 2020-2021 [bd62527]
+- fix(AU.ACT): manually checked 2020-2022 [bdf7031]
+- fix(AU.NT): partial public holidays [d612b04]
+- fix(AU.ACT): fixed for 2020 [ed07b2c]
+- docs(substitute): spelling mistake [683b0b9]
+- fix(AU.QLD,AU.NT): add back partial christmas eve [4cae304]
+- fix(AU): remove Christmas Eve [38085ca]
+
 ## [1.4.12](https://github.com/commenthol/date-holidays/compare/1.4.11...1.4.12) (2019-12-16)
 
 - chore: commitlint disable scope-case [5950cf1](https://github.com/commenthol/date-holidays/commit/5950cf1d33dc4f4c0d9522a4abf27d5c577b7d11)
