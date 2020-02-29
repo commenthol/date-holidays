@@ -11,9 +11,8 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-01T14:00:00.000Z",
     "end": "2017-01-02T14:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year's Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
   },
   {
@@ -45,7 +44,7 @@
     "start": "2017-04-15T14:00:00.000Z",
     "end": "2017-04-16T14:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
@@ -60,7 +59,7 @@
     "date": "2017-04-25 00:00:00",
     "start": "2017-04-24T14:00:00.000Z",
     "end": "2017-04-25T14:00:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -81,11 +80,11 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2017-12-24 00:00:00",
-    "start": "2017-12-23T14:00:00.000Z",
+    "date": "2017-12-24 18:00:00",
+    "start": "2017-12-24T08:00:00.000Z",
     "end": "2017-12-24T14:00:00.000Z",
     "name": "Christmas Eve",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
@@ -103,13 +102,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2017-12-31 00:00:00",
-    "start": "2017-12-30T14:00:00.000Z",
-    "end": "2017-12-31T14:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Sun"
   }
 ]

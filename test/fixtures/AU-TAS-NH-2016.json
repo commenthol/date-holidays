@@ -1,132 +1,83 @@
 [
   {
-    "date": "2016-01-01 00:00:00",
-    "start": "2015-12-31T13:00:00.000Z",
-    "end": "2016-01-01T13:00:00.000Z",
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T13:00:00.000Z",
+    "end": "2019-01-01T13:00:00.000Z",
     "name": "New Year's Day",
-    "type": "public",
-    "_weekday": "Fri"
-  },
-  {
-    "date": "2016-01-26 00:00:00",
-    "start": "2016-01-25T13:00:00.000Z",
-    "end": "2016-01-26T13:00:00.000Z",
-    "name": "Australia Day",
     "type": "public",
     "_weekday": "Tue"
   },
   {
-    "date": "2016-03-14 00:00:00",
-    "start": "2016-03-13T13:00:00.000Z",
-    "end": "2016-03-14T13:00:00.000Z",
+    "date": "2019-01-28 00:00:00",
+    "start": "2019-01-27T13:00:00.000Z",
+    "end": "2019-01-28T13:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-03-11 00:00:00",
+    "start": "2019-03-10T13:00:00.000Z",
+    "end": "2019-03-11T13:00:00.000Z",
     "name": "Eight Hours Day",
     "type": "public",
     "_weekday": "Mon"
   },
   {
-    "date": "2016-03-25 00:00:00",
-    "start": "2016-03-24T13:00:00.000Z",
-    "end": "2016-03-25T13:00:00.000Z",
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T14:00:00.000Z",
+    "end": "2019-04-19T14:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
     "_weekday": "Fri"
   },
   {
-    "date": "2016-03-26 00:00:00",
-    "start": "2016-03-25T13:00:00.000Z",
-    "end": "2016-03-26T13:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2016-03-27 00:00:00",
-    "start": "2016-03-26T13:00:00.000Z",
-    "end": "2016-03-27T13:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
-  },
-  {
-    "date": "2016-03-28 00:00:00",
-    "start": "2016-03-27T13:00:00.000Z",
-    "end": "2016-03-28T13:00:00.000Z",
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-21T14:00:00.000Z",
+    "end": "2019-04-22T14:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
     "_weekday": "Mon"
   },
   {
-    "date": "2016-03-29 00:00:00",
-    "start": "2016-03-28T13:00:00.000Z",
-    "end": "2016-03-29T13:00:00.000Z",
+    "date": "2019-04-23 00:00:00",
+    "start": "2019-04-22T14:00:00.000Z",
+    "end": "2019-04-23T14:00:00.000Z",
     "name": "Easter Tuesday",
     "type": "optional",
     "note": "Public Service employees or contract dependent",
     "_weekday": "Tue"
   },
   {
-    "date": "2016-04-25 00:00:00",
-    "start": "2016-04-24T14:00:00.000Z",
-    "end": "2016-04-25T14:00:00.000Z",
-    "name": "ANZAC Day",
+    "date": "2019-04-25 00:00:00",
+    "start": "2019-04-24T14:00:00.000Z",
+    "end": "2019-04-25T14:00:00.000Z",
+    "name": "Anzac Day",
     "type": "public",
-    "_weekday": "Mon"
+    "_weekday": "Thu"
   },
   {
-    "date": "2016-06-13 00:00:00",
-    "start": "2016-06-12T14:00:00.000Z",
-    "end": "2016-06-13T14:00:00.000Z",
+    "date": "2019-06-10 00:00:00",
+    "start": "2019-06-09T14:00:00.000Z",
+    "end": "2019-06-10T14:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
     "_weekday": "Mon"
   },
   {
-    "date": "2016-11-07 00:00:00",
-    "start": "2016-11-06T13:00:00.000Z",
-    "end": "2016-11-07T13:00:00.000Z",
-    "name": "Recreation Day",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2016-12-24 00:00:00",
-    "start": "2016-12-23T13:00:00.000Z",
-    "end": "2016-12-24T13:00:00.000Z",
-    "name": "Christmas Eve",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2016-12-25 00:00:00",
-    "start": "2016-12-24T13:00:00.000Z",
-    "end": "2016-12-25T13:00:00.000Z",
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T13:00:00.000Z",
+    "end": "2019-12-25T13:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
-    "_weekday": "Sun"
+    "_weekday": "Wed"
   },
   {
-    "date": "2016-12-26 00:00:00",
-    "start": "2016-12-25T13:00:00.000Z",
-    "end": "2016-12-26T13:00:00.000Z",
+    "date": "2019-12-26 00:00:00",
+    "start": "2019-12-25T13:00:00.000Z",
+    "end": "2019-12-26T13:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2016-12-27 00:00:00",
-    "start": "2016-12-26T13:00:00.000Z",
-    "end": "2016-12-27T13:00:00.000Z",
-    "name": "Christmas Day (substitute day)",
-    "type": "public",
-    "substitute": true,
-    "_weekday": "Tue"
-  },
-  {
-    "date": "2016-12-31 00:00:00",
-    "start": "2016-12-30T13:00:00.000Z",
-    "end": "2016-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Sat"
+    "_weekday": "Thu"
   }
 ]

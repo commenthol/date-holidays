@@ -32,14 +32,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2016-03-27 00:00:00",
-    "start": "2016-03-26T14:30:00.000Z",
-    "end": "2016-03-27T14:30:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T14:30:00.000Z",
     "end": "2016-03-28T14:30:00.000Z",
@@ -51,7 +43,7 @@
     "date": "2016-04-25 00:00:00",
     "start": "2016-04-24T14:30:00.000Z",
     "end": "2016-04-25T14:30:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -80,20 +72,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2016-12-24 00:00:00",
-    "start": "2016-12-23T14:30:00.000Z",
+    "date": "2016-12-24 19:00:00",
+    "start": "2016-12-24T09:30:00.000Z",
     "end": "2016-12-24T14:30:00.000Z",
     "name": "Christmas Eve",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2016-12-25 00:00:00",
-    "start": "2016-12-24T14:30:00.000Z",
-    "end": "2016-12-25T14:30:00.000Z",
-    "name": "Christmas Day",
     "type": "public",
-    "_weekday": "Sun"
+    "_weekday": "Sat"
   },
   {
     "date": "2016-12-26 00:00:00",
@@ -107,17 +91,16 @@
     "date": "2016-12-27 00:00:00",
     "start": "2016-12-26T14:30:00.000Z",
     "end": "2016-12-27T14:30:00.000Z",
-    "name": "Christmas Day (substitute day)",
+    "name": "Christmas Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Tue"
   },
   {
-    "date": "2016-12-31 00:00:00",
-    "start": "2016-12-30T14:30:00.000Z",
+    "date": "2016-12-31 19:00:00",
+    "start": "2016-12-31T09:30:00.000Z",
     "end": "2016-12-31T14:30:00.000Z",
     "name": "New Year's Eve",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sat"
   }
 ]

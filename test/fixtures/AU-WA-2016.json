@@ -32,22 +32,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2016-03-26 00:00:00",
-    "start": "2016-03-25T16:00:00.000Z",
-    "end": "2016-03-26T16:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2016-03-27 00:00:00",
-    "start": "2016-03-26T16:00:00.000Z",
-    "end": "2016-03-27T16:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T16:00:00.000Z",
     "end": "2016-03-28T16:00:00.000Z",
@@ -59,7 +43,7 @@
     "date": "2016-04-25 00:00:00",
     "start": "2016-04-24T16:00:00.000Z",
     "end": "2016-04-25T16:00:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -79,14 +63,6 @@
     "type": "public",
     "note": "Might be on a different day; is proclaimed by Governor",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2016-12-24 00:00:00",
-    "start": "2016-12-23T16:00:00.000Z",
-    "end": "2016-12-24T16:00:00.000Z",
-    "name": "Christmas Eve",
-    "type": "observance",
-    "_weekday": "Sat"
   },
   {
     "date": "2016-12-25 00:00:00",
@@ -112,13 +88,5 @@
     "type": "public",
     "substitute": true,
     "_weekday": "Tue"
-  },
-  {
-    "date": "2016-12-31 00:00:00",
-    "start": "2016-12-30T16:00:00.000Z",
-    "end": "2016-12-31T16:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Sat"
   }
 ]

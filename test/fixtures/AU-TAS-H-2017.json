@@ -11,26 +11,17 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-01T13:00:00.000Z",
     "end": "2017-01-02T13:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year's Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
   },
   {
     "date": "2017-01-26 00:00:00",
-    "start": "2017-01-25T13:00:00.000Z",
-    "end": "2017-01-26T13:00:00.000Z",
+    "start": "2017-01-25T16:00:00.000Z",
+    "end": "2017-01-26T16:00:00.000Z",
     "name": "Australia Day",
     "type": "public",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2017-02-13 00:00:00",
-    "start": "2017-02-12T13:00:00.000Z",
-    "end": "2017-02-13T13:00:00.000Z",
-    "name": "Royal Hobart Regatta",
-    "type": "public",
-    "_weekday": "Mon"
   },
   {
     "date": "2017-03-13 00:00:00",
@@ -47,22 +38,6 @@
     "name": "Good Friday",
     "type": "public",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2017-04-15 00:00:00",
-    "start": "2017-04-14T14:00:00.000Z",
-    "end": "2017-04-15T14:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2017-04-16 00:00:00",
-    "start": "2017-04-15T14:00:00.000Z",
-    "end": "2017-04-16T14:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
   },
   {
     "date": "2017-04-17 00:00:00",
@@ -85,7 +60,7 @@
     "date": "2017-04-25 00:00:00",
     "start": "2017-04-24T14:00:00.000Z",
     "end": "2017-04-25T14:00:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Tue"
   },
@@ -96,14 +71,6 @@
     "name": "Queen's Birthday",
     "type": "public",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2017-12-24 00:00:00",
-    "start": "2017-12-23T13:00:00.000Z",
-    "end": "2017-12-24T13:00:00.000Z",
-    "name": "Christmas Eve",
-    "type": "observance",
-    "_weekday": "Sun"
   },
   {
     "date": "2017-12-25 00:00:00",
@@ -120,13 +87,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2017-12-31 00:00:00",
-    "start": "2017-12-30T13:00:00.000Z",
-    "end": "2017-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Sun"
   }
 ]

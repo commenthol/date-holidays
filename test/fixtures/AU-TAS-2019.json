@@ -8,20 +8,11 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2019-01-26 00:00:00",
-    "start": "2019-01-25T13:00:00.000Z",
-    "end": "2019-01-26T13:00:00.000Z",
-    "name": "Australia Day",
-    "type": "public",
-    "_weekday": "Sat"
-  },
-  {
     "date": "2019-01-28 00:00:00",
     "start": "2019-01-27T13:00:00.000Z",
     "end": "2019-01-28T13:00:00.000Z",
-    "name": "Australia Day (substitute day)",
+    "name": "Australia Day",
     "type": "public",
-    "substitute": true,
     "_weekday": "Mon"
   },
   {
@@ -39,22 +30,6 @@
     "name": "Good Friday",
     "type": "public",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2019-04-20 00:00:00",
-    "start": "2019-04-19T14:00:00.000Z",
-    "end": "2019-04-20T14:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2019-04-21 00:00:00",
-    "start": "2019-04-20T14:00:00.000Z",
-    "end": "2019-04-21T14:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
   },
   {
     "date": "2019-04-22 00:00:00",
@@ -77,7 +52,7 @@
     "date": "2019-04-25 00:00:00",
     "start": "2019-04-24T14:00:00.000Z",
     "end": "2019-04-25T14:00:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Thu"
   },
@@ -88,14 +63,6 @@
     "name": "Queen's Birthday",
     "type": "public",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2019-12-24 00:00:00",
-    "start": "2019-12-23T13:00:00.000Z",
-    "end": "2019-12-24T13:00:00.000Z",
-    "name": "Christmas Eve",
-    "type": "observance",
-    "_weekday": "Tue"
   },
   {
     "date": "2019-12-25 00:00:00",
@@ -112,13 +79,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2019-12-31 00:00:00",
-    "start": "2019-12-30T13:00:00.000Z",
-    "end": "2019-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Tue"
   }
 ]

@@ -85,10 +85,7 @@ Countries: 144
 │   ├── QLD: Queensland
 │   ├── SA: South Australia
 │   ├── TAS: Tasmania
-│   │   ├── H: Hobart
-│   │   └── NH: Non-Hobart
 │   ├── VIC: Victoria
-│   │   └── M: Melbourne
 │   └── WA: Western Australia
 ├── AW: Aruba
 ├── AX: Landskapet Åland

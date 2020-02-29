@@ -388,15 +388,15 @@ Rule: `MM-DD if <weekday> then (next|previous) <weekday>`
 
 ### Substitute a holiday if date falls on a certain weekday
 
-Rule: `substitute MM-DD if <weekday> then (next|previous) <weekday>`
+Rule: `substitutes MM-DD if <weekday> then (next|previous) <weekday>`
 
 If `substitute: true` is given then the translated string from `names.yaml/names/substitutes` will be appended to the name.
 E.g. "Christmas" becomes "Christmas (substitute day)"
 
 **Examples**:
 
-- `substitute 03-02 if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
-- `substitute 04-13 if friday then previous monday` if Apri 13th is on a Friday then holiday falls to previous Monday
+- `substitutes 03-02 if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
+- `substitutes 04-13 if friday then previous monday` if Apri 13th is on a Friday then holiday falls to previous Monday
 
 ### Observe the holiday as well as on a substitute day, if date falls on a certain weekday
 
