@@ -148,10 +148,16 @@
     "not ie <= 10"
   ],
   "eslintConfig": {
-    "extends": "standard",
     "plugins": [
       "standard"
-    ]
+    ],
+    "extends": "standard"
+  },
+  "mocha": {
+    "checkLeaks": true,
+    "colors": true,
+    "reporter": "dot",
+    "require": "@babel/register"
   },
   "dependencies": {
     "date-holidays-parser": "^1.4.2",
