@@ -52,7 +52,7 @@
     "start": "2020-02-25T13:00:00.000Z",
     "end": "2020-02-25T23:00:00.000Z",
     "name": "Faschingsdienstag",
-    "type": "bank",
+    "type": "observance",
     "_weekday": "Tue"
   },
   {

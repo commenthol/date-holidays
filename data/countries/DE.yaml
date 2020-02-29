@@ -27,7 +27,7 @@ holidays:
         type: observance
       'easter -47 14:00':
         _name: easter -47
-        type: bank
+        type: observance
       easter -46:
         _name: easter -46
         type: observance

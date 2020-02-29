@@ -52,7 +52,7 @@
     "start": "2017-02-28T13:00:00.000Z",
     "end": "2017-02-28T23:00:00.000Z",
     "name": "Faschingsdienstag",
-    "type": "bank",
+    "type": "observance",
     "_weekday": "Tue"
   },
   {
