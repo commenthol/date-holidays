@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.14]https://github.com/commenthol/date-holidays/compare/1.4.13...1.4.14) (2020-03-13)
+
+- fix(NZ): correct substitution of NZ holidays [0633cf9]
+
 ## [1.4.13](https://github.com/commenthol/date-holidays/compare/1.4.12...1.4.13) (2020-02-29)
 
 - fix(DE): Changed "Faschingsdienstag" to observance [0e3cf5f]
