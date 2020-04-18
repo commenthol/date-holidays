@@ -17,6 +17,8 @@ const PATCH = 2
 const semverInc = (version, semrel) => {
   const semver = version.split(/[.-]/)
   semver[semrel] = +semver[semrel] + 1
+  if (semrel === MINOR) semver[2] = 0
+  if (semrel === MAJOR) semver[2] = semver[1] = 0
   return semver.splice(0, 3).join('.')
 }
 

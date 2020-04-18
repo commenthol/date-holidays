@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.0](https://github.com/commenthol/date-holidays/compare/1.4.14...1.5.0) (2020-04-18)
+
+- feat(US): Easter Sunday observed in US [cd89982](https://github.com/commenthol/date-holidays/commit/cd899820dc16388023323aa35eb5c35843480d13)
+
 ## [1.4.14]https://github.com/commenthol/date-holidays/compare/1.4.13...1.4.14) (2020-03-13)
 
 - fix(NZ): correct substitution of NZ holidays [0633cf9]
