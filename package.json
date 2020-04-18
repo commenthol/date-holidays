@@ -68,6 +68,7 @@
   "scripts": {
     "all": "npm-run-all clean lint build yaml test doc:tree doc:attrib webpack",
     "build": "babel -d lib src",
+    "changelog": "contributors && node scripts/gitlog",
     "ci": "npm-run-all build yaml test",
     "clean": "rimraf lib dist",
     "clean:all": "npm-run-all clean clean:modules",
@@ -185,6 +186,7 @@
     "@babel/register": "^7.9.0",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^8.1.0",
     "dtslint": "^3.4.1",
     "eslint": "^6.8.0",
