@@ -52,6 +52,9 @@ holidays:
       02-14:
         _name: 02-14
         type: observance
+      easter:
+        _name: easter
+        type: observance
       04-15 if friday then next monday if saturday,sunday then next tuesday:
         name:
           en: Tax Day
