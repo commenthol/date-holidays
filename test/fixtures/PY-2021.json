@@ -1,0 +1,115 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T03:00:00.000Z",
+    "end": "2021-01-02T03:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-01 00:00:00",
+    "start": "2021-03-01T03:00:00.000Z",
+    "end": "2021-03-02T03:00:00.000Z",
+    "name": "Dia de los héroes",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-01 00:00:00",
+    "start": "2021-04-01T04:00:00.000Z",
+    "end": "2021-04-02T04:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-30 00:00:00",
+    "start": "2021-04-30T04:00:00.000Z",
+    "end": "2021-05-01T04:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "optional",
+    "note": "Affects educational institutions",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T04:00:00.000Z",
+    "end": "2021-05-02T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-14 00:00:00",
+    "start": "2021-05-14T04:00:00.000Z",
+    "end": "2021-05-15T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-15 00:00:00",
+    "start": "2021-05-15T04:00:00.000Z",
+    "end": "2021-05-16T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-06-14 00:00:00",
+    "start": "2021-06-14T04:00:00.000Z",
+    "end": "2021-06-15T04:00:00.000Z",
+    "name": "Día de la Paz del Chaco",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-15T04:00:00.000Z",
+    "end": "2021-08-16T04:00:00.000Z",
+    "name": "Asunción",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-09-29 00:00:00",
+    "start": "2021-09-29T04:00:00.000Z",
+    "end": "2021-09-30T04:00:00.000Z",
+    "name": "Victoria de Boquerón",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-12-08 00:00:00",
+    "start": "2021-12-08T03:00:00.000Z",
+    "end": "2021-12-09T03:00:00.000Z",
+    "name": "Virgen de Caacupé",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T03:00:00.000Z",
+    "end": "2021-12-26T03:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-31 00:00:00",
+    "start": "2021-12-31T03:00:00.000Z",
+    "end": "2022-01-01T03:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "bank",
+    "_weekday": "Fri"
+  }
+]

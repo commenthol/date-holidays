@@ -1,0 +1,259 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T23:00:00.000Z",
+    "end": "2025-01-01T23:00:00.000Z",
+    "name": "Nova godina",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-02 00:00:00",
+    "start": "2025-01-01T23:00:00.000Z",
+    "end": "2025-01-02T23:00:00.000Z",
+    "name": "Nova godina",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-01-06 00:00:00",
+    "start": "2025-01-05T23:00:00.000Z",
+    "end": "2025-01-06T23:00:00.000Z",
+    "name": "Badnji dan",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-01-07 00:00:00",
+    "start": "2025-01-06T23:00:00.000Z",
+    "end": "2025-01-07T23:00:00.000Z",
+    "name": "Božić",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-01-08 00:00:00",
+    "start": "2025-01-07T23:00:00.000Z",
+    "end": "2025-01-08T23:00:00.000Z",
+    "name": "Svetog Stjepana",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-14 00:00:00",
+    "start": "2025-01-13T23:00:00.000Z",
+    "end": "2025-01-14T23:00:00.000Z",
+    "name": "Pravoslavna Nova Godina",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-01-27 00:00:00 -0600",
+    "start": "2025-01-26T17:00:00.000Z",
+    "end": "2025-01-27T17:00:00.000Z",
+    "name": "Lejletul Mi'radž",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-02-14 00:00:00 -0600",
+    "start": "2025-02-13T17:00:00.000Z",
+    "end": "2025-02-14T17:00:00.000Z",
+    "name": "Lejletul berat",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-03-01 00:00:00 -0600",
+    "start": "2025-02-28T17:00:00.000Z",
+    "end": "2025-03-01T17:00:00.000Z",
+    "name": "Prvi dan posta",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-03-27 00:00:00 -0600",
+    "start": "2025-03-26T17:00:00.000Z",
+    "end": "2025-03-27T17:00:00.000Z",
+    "name": "Lejletul kadr",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-03-30 00:00:00 -0600",
+    "start": "2025-03-29T17:00:00.000Z",
+    "end": "2025-04-01T16:00:00.000Z",
+    "name": "Ramazanski bajram",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-13 00:00:00 -0600",
+    "start": "2025-04-12T16:00:00.000Z",
+    "end": "2025-04-14T16:00:00.000Z",
+    "name": "Pesač",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T22:00:00.000Z",
+    "end": "2025-04-18T22:00:00.000Z",
+    "name": "Veliki petak",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-19T22:00:00.000Z",
+    "end": "2025-04-20T22:00:00.000Z",
+    "name": "Uskrs",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T22:00:00.000Z",
+    "end": "2025-04-21T22:00:00.000Z",
+    "name": "Uskrs",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T22:00:00.000Z",
+    "end": "2025-05-01T22:00:00.000Z",
+    "name": "Praznik rada",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-02 00:00:00",
+    "start": "2025-05-01T22:00:00.000Z",
+    "end": "2025-05-02T22:00:00.000Z",
+    "name": "Praznik rada",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-05-21 00:00:00",
+    "start": "2025-05-20T22:00:00.000Z",
+    "end": "2025-05-21T22:00:00.000Z",
+    "name": "Dan neovisnosti",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-05-22 00:00:00",
+    "start": "2025-05-21T22:00:00.000Z",
+    "end": "2025-05-22T22:00:00.000Z",
+    "name": "Dan neovisnosti",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-06 00:00:00 -0600",
+    "start": "2025-06-05T16:00:00.000Z",
+    "end": "2025-06-08T16:00:00.000Z",
+    "name": "Kurban-bajram",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-26 00:00:00 -0600",
+    "start": "2025-06-25T16:00:00.000Z",
+    "end": "2025-06-26T16:00:00.000Z",
+    "name": "Nova hidžretska godina",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-07-13 00:00:00",
+    "start": "2025-07-12T22:00:00.000Z",
+    "end": "2025-07-13T22:00:00.000Z",
+    "name": "Dan državnosti",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-07-14 00:00:00",
+    "start": "2025-07-13T22:00:00.000Z",
+    "end": "2025-07-14T22:00:00.000Z",
+    "name": "Dan državnosti",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-07-15 00:00:00",
+    "start": "2025-07-14T22:00:00.000Z",
+    "end": "2025-07-15T22:00:00.000Z",
+    "name": "Dan državnosti (zamjena dan)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-08-15 00:00:00",
+    "start": "2025-08-14T22:00:00.000Z",
+    "end": "2025-08-15T22:00:00.000Z",
+    "name": "Velika Gospa",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-09-04 00:00:00 -0600",
+    "start": "2025-09-03T16:00:00.000Z",
+    "end": "2025-09-04T16:00:00.000Z",
+    "name": "Mevlud",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-09-23 00:00:00 -0600",
+    "start": "2025-09-22T16:00:00.000Z",
+    "end": "2025-09-23T16:00:00.000Z",
+    "name": "Roš Hašane",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-10-02 00:00:00 -0600",
+    "start": "2025-10-01T16:00:00.000Z",
+    "end": "2025-10-03T16:00:00.000Z",
+    "name": "Jom Kipur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-11-01 00:00:00",
+    "start": "2025-10-31T23:00:00.000Z",
+    "end": "2025-11-01T23:00:00.000Z",
+    "name": "Svi sveti",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-12-24 00:00:00",
+    "start": "2025-12-23T23:00:00.000Z",
+    "end": "2025-12-24T23:00:00.000Z",
+    "name": "Badnji dan",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T23:00:00.000Z",
+    "end": "2025-12-25T23:00:00.000Z",
+    "name": "Božić",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-25T23:00:00.000Z",
+    "end": "2025-12-26T23:00:00.000Z",
+    "name": "Božić",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

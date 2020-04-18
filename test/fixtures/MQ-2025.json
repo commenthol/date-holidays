@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2025-01-01T04:00:00.000Z",
+    "end": "2025-01-02T04:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-18T04:00:00.000Z",
+    "end": "2025-04-19T04:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-21T04:00:00.000Z",
+    "end": "2025-04-22T04:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-05-01T04:00:00.000Z",
+    "end": "2025-05-02T04:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-08 00:00:00",
+    "start": "2025-05-08T04:00:00.000Z",
+    "end": "2025-05-09T04:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-22 00:00:00",
+    "start": "2025-05-22T04:00:00.000Z",
+    "end": "2025-05-23T04:00:00.000Z",
+    "name": "Abolition de l’esclavage",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-25 00:00:00",
+    "start": "2025-05-25T04:00:00.000Z",
+    "end": "2025-05-26T04:00:00.000Z",
+    "name": "Fête des Mères",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-29 00:00:00",
+    "start": "2025-05-29T04:00:00.000Z",
+    "end": "2025-05-30T04:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-08 00:00:00",
+    "start": "2025-06-08T04:00:00.000Z",
+    "end": "2025-06-09T04:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-09 00:00:00",
+    "start": "2025-06-09T04:00:00.000Z",
+    "end": "2025-06-10T04:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-07-14 00:00:00",
+    "start": "2025-07-14T04:00:00.000Z",
+    "end": "2025-07-15T04:00:00.000Z",
+    "name": "Fête Nationale de la France",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-08-15 00:00:00",
+    "start": "2025-08-15T04:00:00.000Z",
+    "end": "2025-08-16T04:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-11-01 00:00:00",
+    "start": "2025-11-01T04:00:00.000Z",
+    "end": "2025-11-02T04:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-11-11 00:00:00",
+    "start": "2025-11-11T04:00:00.000Z",
+    "end": "2025-11-12T04:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-25T04:00:00.000Z",
+    "end": "2025-12-26T04:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]

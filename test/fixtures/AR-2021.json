@@ -1,0 +1,154 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T03:00:00.000Z",
+    "end": "2021-01-02T03:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-02-15 00:00:00",
+    "start": "2021-02-15T03:00:00.000Z",
+    "end": "2021-02-16T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-02-16 00:00:00",
+    "start": "2021-02-16T03:00:00.000Z",
+    "end": "2021-02-17T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-03-24 00:00:00",
+    "start": "2021-03-24T03:00:00.000Z",
+    "end": "2021-03-25T03:00:00.000Z",
+    "name": "Día de la Memoria por la Verdad y la Justicia",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-04-01 00:00:00",
+    "start": "2021-04-01T03:00:00.000Z",
+    "end": "2021-04-02T03:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T03:00:00.000Z",
+    "end": "2021-04-03T03:00:00.000Z",
+    "name": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T03:00:00.000Z",
+    "end": "2021-04-03T03:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T03:00:00.000Z",
+    "end": "2021-05-02T03:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T03:00:00.000Z",
+    "end": "2021-05-25T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-25 00:00:00",
+    "start": "2021-05-25T03:00:00.000Z",
+    "end": "2021-05-26T03:00:00.000Z",
+    "name": "Primer Gobierno Patrio",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-06-20 00:00:00",
+    "start": "2021-06-20T03:00:00.000Z",
+    "end": "2021-06-21T03:00:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-07-09 00:00:00",
+    "start": "2021-07-09T03:00:00.000Z",
+    "end": "2021-07-10T03:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-08-16 00:00:00",
+    "start": "2021-08-16T03:00:00.000Z",
+    "end": "2021-08-17T03:00:00.000Z",
+    "name": "Día del Libertador José de San Martín",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-11 00:00:00",
+    "start": "2021-10-11T03:00:00.000Z",
+    "end": "2021-10-12T03:00:00.000Z",
+    "name": "Día del Respeto a la Diversidad Cultural",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-22 00:00:00",
+    "start": "2021-11-22T03:00:00.000Z",
+    "end": "2021-11-23T03:00:00.000Z",
+    "name": "Día de la Soberanía nacional",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-08 00:00:00",
+    "start": "2021-12-08T03:00:00.000Z",
+    "end": "2021-12-09T03:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-12-24 12:00:00",
+    "start": "2021-12-24T15:00:00.000Z",
+    "end": "2021-12-25T03:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "optional",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T03:00:00.000Z",
+    "end": "2021-12-26T03:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-31 12:00:00",
+    "start": "2021-12-31T15:00:00.000Z",
+    "end": "2022-01-01T03:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "optional",
+    "_weekday": "Fri"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T21:00:00.000Z",
+    "end": "2023-01-01T21:00:00.000Z",
+    "name": "Taom-baovao",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-03-29 00:00:00",
+    "start": "2023-03-28T21:00:00.000Z",
+    "end": "2023-03-29T21:00:00.000Z",
+    "name": "Martioran'ny tolona tamin'ny 1947",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-09T21:00:00.000Z",
+    "end": "2023-04-10T21:00:00.000Z",
+    "name": "Alatsinain'ny Paska",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T21:00:00.000Z",
+    "end": "2023-05-01T21:00:00.000Z",
+    "name": "Fetin'ny asa",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-17T21:00:00.000Z",
+    "end": "2023-05-18T21:00:00.000Z",
+    "name": "Andro niakarana",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-25 00:00:00",
+    "start": "2023-05-24T21:00:00.000Z",
+    "end": "2023-05-25T21:00:00.000Z",
+    "name": "Andron'i Afrika",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-29 00:00:00",
+    "start": "2023-05-28T21:00:00.000Z",
+    "end": "2023-05-29T21:00:00.000Z",
+    "name": "Alatsinain'ny Pentekosta",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-06-26 00:00:00",
+    "start": "2023-06-25T21:00:00.000Z",
+    "end": "2023-06-26T21:00:00.000Z",
+    "name": "Fetim-pirenena",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-08-15 00:00:00",
+    "start": "2023-08-14T21:00:00.000Z",
+    "end": "2023-08-15T21:00:00.000Z",
+    "name": "Asompsiona",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "start": "2023-10-31T21:00:00.000Z",
+    "end": "2023-11-01T21:00:00.000Z",
+    "name": "Fetin'ny olo-masina",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T21:00:00.000Z",
+    "end": "2023-12-25T21:00:00.000Z",
+    "name": "Krismasy",
+    "type": "public",
+    "_weekday": "Mon"
+  }
+]

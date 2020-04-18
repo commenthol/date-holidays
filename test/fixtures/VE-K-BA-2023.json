@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T04:00:00.000Z",
+    "end": "2023-01-02T04:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-06 00:00:00",
+    "start": "2023-01-06T04:00:00.000Z",
+    "end": "2023-01-07T04:00:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-01-14 00:00:00",
+    "start": "2023-01-14T04:00:00.000Z",
+    "end": "2023-01-15T04:00:00.000Z",
+    "name": "Día de La Divina Pastora",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-01-15 00:00:00",
+    "start": "2023-01-15T04:00:00.000Z",
+    "end": "2023-01-16T04:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "optional",
+    "note": "teachers only",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-02-20 00:00:00",
+    "start": "2023-02-20T04:00:00.000Z",
+    "end": "2023-02-21T04:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-02-21 00:00:00",
+    "start": "2023-02-21T04:00:00.000Z",
+    "end": "2023-02-22T04:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-03-19 00:00:00",
+    "start": "2023-03-19T04:00:00.000Z",
+    "end": "2023-03-20T04:00:00.000Z",
+    "name": "San José",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-03 00:00:00",
+    "start": "2023-04-03T04:00:00.000Z",
+    "end": "2023-04-10T04:00:00.000Z",
+    "name": "Semana Santa",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-04-06 00:00:00",
+    "start": "2023-04-06T04:00:00.000Z",
+    "end": "2023-04-07T04:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T04:00:00.000Z",
+    "end": "2023-04-08T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T04:00:00.000Z",
+    "end": "2023-04-10T04:00:00.000Z",
+    "name": "Pascua",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-19 00:00:00",
+    "start": "2023-04-19T04:00:00.000Z",
+    "end": "2023-04-20T04:00:00.000Z",
+    "name": "Declaración de la Independencia",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T04:00:00.000Z",
+    "end": "2023-05-02T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-28T04:00:00.000Z",
+    "end": "2023-05-29T04:00:00.000Z",
+    "name": "Natalicio de Jacinto Lara",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-06-24 00:00:00",
+    "start": "2023-06-24T04:00:00.000Z",
+    "end": "2023-06-25T04:00:00.000Z",
+    "name": "Aniversario de la Batalla de Carabobo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-07-05 00:00:00",
+    "start": "2023-07-05T04:00:00.000Z",
+    "end": "2023-07-06T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-07-24 00:00:00",
+    "start": "2023-07-24T04:00:00.000Z",
+    "end": "2023-07-25T04:00:00.000Z",
+    "name": "Natalicio de Simón Bolívar",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-08-03 00:00:00",
+    "start": "2023-08-03T04:00:00.000Z",
+    "end": "2023-08-04T04:00:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-09-11 00:00:00",
+    "start": "2023-09-11T04:00:00.000Z",
+    "end": "2023-09-12T04:00:00.000Z",
+    "name": "Día de Nuestra Señora de Coromoto",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-09-14 00:00:00",
+    "start": "2023-09-14T04:00:00.000Z",
+    "end": "2023-09-15T04:00:00.000Z",
+    "name": "Día de Barquisimeto",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-10-12 00:00:00",
+    "start": "2023-10-12T04:00:00.000Z",
+    "end": "2023-10-13T04:00:00.000Z",
+    "name": "Día de la resistencia indígena",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "start": "2023-11-01T04:00:00.000Z",
+    "end": "2023-11-02T04:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-11-02 00:00:00",
+    "start": "2023-11-02T04:00:00.000Z",
+    "end": "2023-11-03T04:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-12-08 00:00:00",
+    "start": "2023-12-08T04:00:00.000Z",
+    "end": "2023-12-09T04:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-12-10 00:00:00",
+    "start": "2023-12-10T04:00:00.000Z",
+    "end": "2023-12-11T04:00:00.000Z",
+    "name": "Día de la Aviación Nacional",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-12-24 00:00:00",
+    "start": "2023-12-24T04:00:00.000Z",
+    "end": "2023-12-25T04:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T04:00:00.000Z",
+    "end": "2023-12-26T04:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-31 00:00:00",
+    "start": "2023-12-31T04:00:00.000Z",
+    "end": "2024-01-01T04:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

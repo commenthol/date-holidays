@@ -10,7 +10,7 @@ const Holidays = require('..')
 var writetests
 var _countries
 
-var years = [2015, 2016, 2017, 2018, 2019, 2020]
+var years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
 var WEEKDAYS = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 
 // regenerate tests with `mocha test/all.mocha.js --writetests`

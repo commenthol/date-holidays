@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2025-01-01T06:00:00.000Z",
+    "end": "2025-01-02T06:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-03-10 00:00:00",
+    "start": "2025-03-10T06:00:00.000Z",
+    "end": "2025-03-11T06:00:00.000Z",
+    "name": "Baron Bliss Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-18T06:00:00.000Z",
+    "end": "2025-04-19T06:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-19 00:00:00",
+    "start": "2025-04-19T06:00:00.000Z",
+    "end": "2025-04-20T06:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-20T06:00:00.000Z",
+    "end": "2025-04-21T06:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-21T06:00:00.000Z",
+    "end": "2025-04-22T06:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-05-01T06:00:00.000Z",
+    "end": "2025-05-02T06:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-26 00:00:00",
+    "start": "2025-05-26T06:00:00.000Z",
+    "end": "2025-05-27T06:00:00.000Z",
+    "name": "Commonwealth Day, Sovereign's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-09-10 00:00:00",
+    "start": "2025-09-10T06:00:00.000Z",
+    "end": "2025-09-11T06:00:00.000Z",
+    "name": "Saint George's Caye Day, National Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-09-22 00:00:00",
+    "start": "2025-09-22T06:00:00.000Z",
+    "end": "2025-09-23T06:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-10-13 00:00:00",
+    "start": "2025-10-13T06:00:00.000Z",
+    "end": "2025-10-14T06:00:00.000Z",
+    "name": "Day of the Americas",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-11-19 00:00:00",
+    "start": "2025-11-19T06:00:00.000Z",
+    "end": "2025-11-20T06:00:00.000Z",
+    "name": "Garifuna Settlement Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-25T06:00:00.000Z",
+    "end": "2025-12-26T06:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-26T06:00:00.000Z",
+    "end": "2025-12-27T06:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

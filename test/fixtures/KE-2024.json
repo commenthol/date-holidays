@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T21:00:00.000Z",
+    "end": "2024-01-01T21:00:00.000Z",
+    "name": "Mwaka mpya",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-28T21:00:00.000Z",
+    "end": "2024-03-29T21:00:00.000Z",
+    "name": "Ijumaa Kuu",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-30T21:00:00.000Z",
+    "end": "2024-03-31T21:00:00.000Z",
+    "name": "Pasaka",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T21:00:00.000Z",
+    "end": "2024-04-01T21:00:00.000Z",
+    "name": "Jumatatu ya Pasaka",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T15:00:00.000Z",
+    "end": "2024-04-10T15:00:00.000Z",
+    "name": "Idd-ul-Fitr",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T21:00:00.000Z",
+    "end": "2024-05-01T21:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-06-01 00:00:00",
+    "start": "2024-05-31T21:00:00.000Z",
+    "end": "2024-06-01T21:00:00.000Z",
+    "name": "Siku ya Madaraka",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T15:00:00.000Z",
+    "end": "2024-06-16T15:00:00.000Z",
+    "name": "Idd-ul-Azha",
+    "type": "public",
+    "note": "For all persons belonging to the Islamic faith.",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-10-10 00:00:00",
+    "start": "2024-10-09T21:00:00.000Z",
+    "end": "2024-10-10T21:00:00.000Z",
+    "name": "Moi Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-10-20 00:00:00",
+    "start": "2024-10-19T21:00:00.000Z",
+    "end": "2024-10-20T21:00:00.000Z",
+    "name": "Siku ya Mashujaa",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-10-21 00:00:00",
+    "start": "2024-10-20T21:00:00.000Z",
+    "end": "2024-10-21T21:00:00.000Z",
+    "name": "Siku ya Mashujaa (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-12 00:00:00",
+    "start": "2024-12-11T21:00:00.000Z",
+    "end": "2024-12-12T21:00:00.000Z",
+    "name": "Siku ya Jamhuri",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T21:00:00.000Z",
+    "end": "2024-12-25T21:00:00.000Z",
+    "name": "Krismasi",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-25T21:00:00.000Z",
+    "end": "2024-12-26T21:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]

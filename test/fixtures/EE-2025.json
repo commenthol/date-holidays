@@ -1,0 +1,194 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T22:00:00.000Z",
+    "end": "2025-01-01T22:00:00.000Z",
+    "name": "uusaasta",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-06 00:00:00",
+    "start": "2025-01-05T22:00:00.000Z",
+    "end": "2025-01-06T22:00:00.000Z",
+    "name": "kolmekuningapäev",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-02-02 00:00:00",
+    "start": "2025-02-01T22:00:00.000Z",
+    "end": "2025-02-02T22:00:00.000Z",
+    "name": "Tartu rahulepingu aastapäev",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-02-24 00:00:00",
+    "start": "2025-02-23T22:00:00.000Z",
+    "end": "2025-02-24T22:00:00.000Z",
+    "name": "iseseisvuspäev",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-03-14 00:00:00",
+    "start": "2025-03-13T22:00:00.000Z",
+    "end": "2025-03-14T22:00:00.000Z",
+    "name": "emakeelepäev",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T21:00:00.000Z",
+    "end": "2025-04-18T21:00:00.000Z",
+    "name": "suur reede",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-19T21:00:00.000Z",
+    "end": "2025-04-20T21:00:00.000Z",
+    "name": "lihavõtted",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T21:00:00.000Z",
+    "end": "2025-05-01T21:00:00.000Z",
+    "name": "kevadpüha",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-11 00:00:00",
+    "start": "2025-05-10T21:00:00.000Z",
+    "end": "2025-05-11T21:00:00.000Z",
+    "name": "emadepäev",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-04 00:00:00",
+    "start": "2025-06-03T21:00:00.000Z",
+    "end": "2025-06-04T21:00:00.000Z",
+    "name": "Eesti lipu päev",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-06-08 00:00:00",
+    "start": "2025-06-07T21:00:00.000Z",
+    "end": "2025-06-08T21:00:00.000Z",
+    "name": "nelipühade 1. püha",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-14 00:00:00",
+    "start": "2025-06-13T21:00:00.000Z",
+    "end": "2025-06-14T21:00:00.000Z",
+    "name": "leinapäev",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-06-23 00:00:00",
+    "start": "2025-06-22T21:00:00.000Z",
+    "end": "2025-06-23T21:00:00.000Z",
+    "name": "võidupüha",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-24 00:00:00",
+    "start": "2025-06-23T21:00:00.000Z",
+    "end": "2025-06-24T21:00:00.000Z",
+    "name": "jaanipäev",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-08-20 00:00:00",
+    "start": "2025-08-19T21:00:00.000Z",
+    "end": "2025-08-20T21:00:00.000Z",
+    "name": "taasiseseisvumispäev",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-08-23 00:00:00",
+    "start": "2025-08-22T21:00:00.000Z",
+    "end": "2025-08-23T21:00:00.000Z",
+    "name": "kommunismi ja natsismi ohvrite mälestuspäev",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-09-14 00:00:00",
+    "start": "2025-09-13T21:00:00.000Z",
+    "end": "2025-09-14T21:00:00.000Z",
+    "name": "vanavanemate päev",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-09-22 00:00:00",
+    "start": "2025-09-21T21:00:00.000Z",
+    "end": "2025-09-22T21:00:00.000Z",
+    "name": "vastupanuvõitluse päev",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-11-02 00:00:00",
+    "start": "2025-11-01T22:00:00.000Z",
+    "end": "2025-11-02T22:00:00.000Z",
+    "name": "hingedepäev",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-11-09 00:00:00",
+    "start": "2025-11-08T22:00:00.000Z",
+    "end": "2025-11-09T22:00:00.000Z",
+    "name": "isadepäev",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-11-16 00:00:00",
+    "start": "2025-11-15T22:00:00.000Z",
+    "end": "2025-11-16T22:00:00.000Z",
+    "name": "taassünni päev",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-12-24 00:00:00",
+    "start": "2025-12-23T22:00:00.000Z",
+    "end": "2025-12-24T22:00:00.000Z",
+    "name": "jõululaupäev",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T22:00:00.000Z",
+    "end": "2025-12-25T22:00:00.000Z",
+    "name": "esimene jõulupüha",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-25T22:00:00.000Z",
+    "end": "2025-12-26T22:00:00.000Z",
+    "name": "teine jõulupüha",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2025-01-01T04:00:00.000Z",
+    "end": "2025-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-21 00:00:00",
+    "start": "2025-01-21T04:00:00.000Z",
+    "end": "2025-01-22T04:00:00.000Z",
+    "name": "Errol Barrow Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-18T04:00:00.000Z",
+    "end": "2025-04-19T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-20T04:00:00.000Z",
+    "end": "2025-04-21T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-21T04:00:00.000Z",
+    "end": "2025-04-22T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-28 00:00:00",
+    "start": "2025-04-28T04:00:00.000Z",
+    "end": "2025-04-29T04:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-05-01T04:00:00.000Z",
+    "end": "2025-05-02T04:00:00.000Z",
+    "name": "May Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-08 00:00:00",
+    "start": "2025-06-08T04:00:00.000Z",
+    "end": "2025-06-09T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-09 00:00:00",
+    "start": "2025-06-09T04:00:00.000Z",
+    "end": "2025-06-10T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-08-01 00:00:00",
+    "start": "2025-08-01T04:00:00.000Z",
+    "end": "2025-08-02T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-08-04 00:00:00",
+    "start": "2025-08-04T04:00:00.000Z",
+    "end": "2025-08-05T04:00:00.000Z",
+    "name": "Kadooment Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-11-30 00:00:00",
+    "start": "2025-11-30T04:00:00.000Z",
+    "end": "2025-12-01T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-25T04:00:00.000Z",
+    "end": "2025-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-26T04:00:00.000Z",
+    "end": "2025-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

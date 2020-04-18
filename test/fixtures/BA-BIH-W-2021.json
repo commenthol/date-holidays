@@ -1,0 +1,188 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T23:00:00.000Z",
+    "end": "2021-01-01T23:00:00.000Z",
+    "name": "Novogodisnji dan",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-02 00:00:00",
+    "start": "2021-01-01T23:00:00.000Z",
+    "end": "2021-01-02T23:00:00.000Z",
+    "name": "Drugi dan Nove Godine",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-01-06 00:00:00",
+    "start": "2021-01-05T23:00:00.000Z",
+    "end": "2021-01-06T23:00:00.000Z",
+    "name": "Bogojavljenje, Sveta tri kralja",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-01-07 00:00:00",
+    "start": "2021-01-06T23:00:00.000Z",
+    "end": "2021-01-07T23:00:00.000Z",
+    "name": "Pravoslavni Božić",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-01-14 00:00:00",
+    "start": "2021-01-13T23:00:00.000Z",
+    "end": "2021-01-14T23:00:00.000Z",
+    "name": "Pravoslavni novogodišnji dan",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-03-01 00:00:00",
+    "start": "2021-02-28T23:00:00.000Z",
+    "end": "2021-03-01T23:00:00.000Z",
+    "name": "Dan nezavisnosti",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T22:00:00.000Z",
+    "end": "2021-04-04T22:00:00.000Z",
+    "name": "Vaskrs",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T22:00:00.000Z",
+    "end": "2021-04-05T22:00:00.000Z",
+    "name": "Uskrsni ponedjeljak",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T22:00:00.000Z",
+    "end": "2021-05-01T22:00:00.000Z",
+    "name": "Radni dan",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-02 00:00:00",
+    "start": "2021-05-01T22:00:00.000Z",
+    "end": "2021-05-02T22:00:00.000Z",
+    "name": "Drugi dan Dana rada",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-02 00:00:00",
+    "start": "2021-05-01T22:00:00.000Z",
+    "end": "2021-05-02T22:00:00.000Z",
+    "name": "Pravoslavni Vaskrs",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-03 00:00:00",
+    "start": "2021-05-02T22:00:00.000Z",
+    "end": "2021-05-03T22:00:00.000Z",
+    "name": "Drugi dan Dana rada (zamjena dan)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-13 00:00:00 -0600",
+    "start": "2021-05-12T16:00:00.000Z",
+    "end": "2021-05-15T16:00:00.000Z",
+    "name": "Ramazanski bajram",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-06-03 00:00:00",
+    "start": "2021-06-02T22:00:00.000Z",
+    "end": "2021-06-03T22:00:00.000Z",
+    "name": "Tijelovo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-20 00:00:00 -0600",
+    "start": "2021-07-19T16:00:00.000Z",
+    "end": "2021-07-23T16:00:00.000Z",
+    "name": "Kurbanski bajram",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-08-09 00:00:00 -0600",
+    "start": "2021-08-08T16:00:00.000Z",
+    "end": "2021-08-09T16:00:00.000Z",
+    "name": "Nova hidžretska godina",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-14T22:00:00.000Z",
+    "end": "2021-08-15T22:00:00.000Z",
+    "name": "Velika Gospa",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-08-28 00:00:00",
+    "start": "2021-08-27T22:00:00.000Z",
+    "end": "2021-08-28T22:00:00.000Z",
+    "name": "Velika Gospa",
+    "type": "public",
+    "note": "orthodox",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-10-18 00:00:00 -0600",
+    "start": "2021-10-17T16:00:00.000Z",
+    "end": "2021-10-18T16:00:00.000Z",
+    "name": "Mevlud",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-10-31T23:00:00.000Z",
+    "end": "2021-11-01T23:00:00.000Z",
+    "name": "Dita e të gjithë Shenjtorëve",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-02 00:00:00",
+    "start": "2021-11-01T23:00:00.000Z",
+    "end": "2021-11-02T23:00:00.000Z",
+    "name": "Dušni dan",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T23:00:00.000Z",
+    "end": "2021-12-25T23:00:00.000Z",
+    "name": "Božić",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T23:00:00.000Z",
+    "end": "2021-12-26T23:00:00.000Z",
+    "name": "Svetog Stjepana",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

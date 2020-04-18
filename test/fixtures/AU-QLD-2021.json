@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T14:00:00.000Z",
+    "end": "2021-01-01T14:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-26 00:00:00",
+    "start": "2021-01-25T14:00:00.000Z",
+    "end": "2021-01-26T14:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T14:00:00.000Z",
+    "end": "2021-04-02T14:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-03 00:00:00",
+    "start": "2021-04-02T14:00:00.000Z",
+    "end": "2021-04-03T14:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T14:00:00.000Z",
+    "end": "2021-04-04T14:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T14:00:00.000Z",
+    "end": "2021-04-05T14:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-26 00:00:00",
+    "start": "2021-04-25T14:00:00.000Z",
+    "end": "2021-04-26T14:00:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-03 00:00:00",
+    "start": "2021-05-02T14:00:00.000Z",
+    "end": "2021-05-03T14:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-04 00:00:00",
+    "start": "2021-10-03T14:00:00.000Z",
+    "end": "2021-10-04T14:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-24 18:00:00",
+    "start": "2021-12-24T08:00:00.000Z",
+    "end": "2021-12-24T14:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T14:00:00.000Z",
+    "end": "2021-12-25T14:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T14:00:00.000Z",
+    "end": "2021-12-26T14:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-26T14:00:00.000Z",
+    "end": "2021-12-27T14:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-28 00:00:00",
+    "start": "2021-12-27T14:00:00.000Z",
+    "end": "2021-12-28T14:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Tue"
+  }
+]

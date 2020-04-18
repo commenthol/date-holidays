@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T20:00:00.000Z",
+    "end": "2023-01-01T20:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-09T20:00:00.000Z",
+    "end": "2023-04-10T20:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T20:00:00.000Z",
+    "end": "2023-05-01T20:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-08 00:00:00",
+    "start": "2023-05-07T20:00:00.000Z",
+    "end": "2023-05-08T20:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-17T20:00:00.000Z",
+    "end": "2023-05-18T20:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-27T20:00:00.000Z",
+    "end": "2023-05-28T20:00:00.000Z",
+    "name": "Fête des Mères",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-27T20:00:00.000Z",
+    "end": "2023-05-28T20:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-29 00:00:00",
+    "start": "2023-05-28T20:00:00.000Z",
+    "end": "2023-05-29T20:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-07-14 00:00:00",
+    "start": "2023-07-13T20:00:00.000Z",
+    "end": "2023-07-14T20:00:00.000Z",
+    "name": "Fête Nationale de la France",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-08-15 00:00:00",
+    "start": "2023-08-14T20:00:00.000Z",
+    "end": "2023-08-15T20:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "start": "2023-10-31T20:00:00.000Z",
+    "end": "2023-11-01T20:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-11-11 00:00:00",
+    "start": "2023-11-10T20:00:00.000Z",
+    "end": "2023-11-11T20:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-12-20 00:00:00",
+    "start": "2023-12-19T20:00:00.000Z",
+    "end": "2023-12-20T20:00:00.000Z",
+    "name": "Abolition de l’esclavage",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T20:00:00.000Z",
+    "end": "2023-12-25T20:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Mon"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T04:00:00.000Z",
+    "end": "2023-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-03-02 00:00:00",
+    "start": "2023-03-02T04:00:00.000Z",
+    "end": "2023-03-03T04:00:00.000Z",
+    "name": "James Ronald Webster Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T04:00:00.000Z",
+    "end": "2023-04-08T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T04:00:00.000Z",
+    "end": "2023-04-10T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-10T04:00:00.000Z",
+    "end": "2023-04-11T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T04:00:00.000Z",
+    "end": "2023-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-28T04:00:00.000Z",
+    "end": "2023-05-29T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-29 00:00:00",
+    "start": "2023-05-29T04:00:00.000Z",
+    "end": "2023-05-30T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-30 00:00:00",
+    "start": "2023-05-30T04:00:00.000Z",
+    "end": "2023-05-31T04:00:00.000Z",
+    "name": "Anguilla Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-06-12 00:00:00",
+    "start": "2023-06-12T04:00:00.000Z",
+    "end": "2023-06-13T04:00:00.000Z",
+    "name": "Celebration of the Birthday of Her Majesty the Queen",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-08-03 00:00:00",
+    "start": "2023-08-03T04:00:00.000Z",
+    "end": "2023-08-04T04:00:00.000Z",
+    "name": "August Thursday",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-08-04 00:00:00",
+    "start": "2023-08-04T04:00:00.000Z",
+    "end": "2023-08-05T04:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-08-07 00:00:00",
+    "start": "2023-08-07T04:00:00.000Z",
+    "end": "2023-08-08T04:00:00.000Z",
+    "name": "August Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-19 00:00:00",
+    "start": "2023-12-19T04:00:00.000Z",
+    "end": "2023-12-20T04:00:00.000Z",
+    "name": "National Heroes and Heroines Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T04:00:00.000Z",
+    "end": "2023-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-26 00:00:00",
+    "start": "2023-12-26T04:00:00.000Z",
+    "end": "2023-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Tue"
+  }
+]

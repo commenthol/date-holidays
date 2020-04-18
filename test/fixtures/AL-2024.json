@@ -1,0 +1,195 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T23:00:00.000Z",
+    "end": "2024-01-01T23:00:00.000Z",
+    "name": "Viti i Ri",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-02 00:00:00",
+    "start": "2024-01-01T23:00:00.000Z",
+    "end": "2024-01-02T23:00:00.000Z",
+    "name": "Festa e Vitit të Ri",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-03-02 00:00:00",
+    "start": "2024-03-01T23:00:00.000Z",
+    "end": "2024-03-02T23:00:00.000Z",
+    "name": "Dita e Besëlidhjes së Lezhës",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-03-07 00:00:00",
+    "start": "2024-03-06T23:00:00.000Z",
+    "end": "2024-03-07T23:00:00.000Z",
+    "name": "Dita e Mësuesit",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-08 00:00:00",
+    "start": "2024-03-07T23:00:00.000Z",
+    "end": "2024-03-08T23:00:00.000Z",
+    "name": "Dita e Nënës",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-14 00:00:00",
+    "start": "2024-03-13T23:00:00.000Z",
+    "end": "2024-03-14T23:00:00.000Z",
+    "name": "Dita e Verës",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-22 00:00:00",
+    "start": "2024-03-21T23:00:00.000Z",
+    "end": "2024-03-22T23:00:00.000Z",
+    "name": "Dita e Sulltan Nevruzit",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-30T23:00:00.000Z",
+    "end": "2024-03-31T22:00:00.000Z",
+    "name": "Pashkët Katolike",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T22:00:00.000Z",
+    "end": "2024-04-01T22:00:00.000Z",
+    "name": "Dita e Gënjeshtrave",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T22:00:00.000Z",
+    "end": "2024-04-01T22:00:00.000Z",
+    "name": "Pashkët Katolike",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T16:00:00.000Z",
+    "end": "2024-04-10T16:00:00.000Z",
+    "name": "Fitër Bajrami",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T22:00:00.000Z",
+    "end": "2024-05-01T22:00:00.000Z",
+    "name": "Dita Ndërkombëtare e Punonjësve",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-05 00:00:00",
+    "start": "2024-05-04T22:00:00.000Z",
+    "end": "2024-05-05T22:00:00.000Z",
+    "name": "Pashkët Ortodokse",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-06 00:00:00",
+    "start": "2024-05-05T22:00:00.000Z",
+    "end": "2024-05-06T22:00:00.000Z",
+    "name": "Pashkët Ortodokse",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-01 00:00:00",
+    "start": "2024-05-31T22:00:00.000Z",
+    "end": "2024-06-01T22:00:00.000Z",
+    "name": "Dita Ndërkombëtare e Fëmijëve",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T16:00:00.000Z",
+    "end": "2024-06-16T16:00:00.000Z",
+    "name": "Kurban Bajrami",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-10-19 00:00:00",
+    "start": "2024-10-18T22:00:00.000Z",
+    "end": "2024-10-19T22:00:00.000Z",
+    "name": "Dita e Nënë Terezës",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-11-22 00:00:00",
+    "start": "2024-11-21T23:00:00.000Z",
+    "end": "2024-11-22T23:00:00.000Z",
+    "name": "Dita e Alfabetit",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-11-28 00:00:00",
+    "start": "2024-11-27T23:00:00.000Z",
+    "end": "2024-11-28T23:00:00.000Z",
+    "name": "Dita e Pavarësisë",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-29 00:00:00",
+    "start": "2024-11-28T23:00:00.000Z",
+    "end": "2024-11-29T23:00:00.000Z",
+    "name": "Dita e Çlirimit",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-08 00:00:00",
+    "start": "2024-12-07T23:00:00.000Z",
+    "end": "2024-12-08T23:00:00.000Z",
+    "name": "Dita Kombëtare e Rinisë",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-12-09 00:00:00",
+    "start": "2024-12-08T23:00:00.000Z",
+    "end": "2024-12-09T23:00:00.000Z",
+    "name": "Dita Kombëtare e Rinisë (ditë zëvendësuese)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-24 00:00:00",
+    "start": "2024-12-23T23:00:00.000Z",
+    "end": "2024-12-24T23:00:00.000Z",
+    "name": "Nata e Krishtlindjes",
+    "type": "bank",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T23:00:00.000Z",
+    "end": "2024-12-25T23:00:00.000Z",
+    "name": "Krishtlindja",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]

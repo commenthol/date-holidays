@@ -1,0 +1,132 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T05:00:00.000Z",
+    "end": "2021-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-10 00:00:00",
+    "start": "2021-01-10T05:00:00.000Z",
+    "end": "2021-01-11T05:00:00.000Z",
+    "name": "Majority Rule Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-01-11 00:00:00",
+    "start": "2021-01-11T05:00:00.000Z",
+    "end": "2021-01-12T05:00:00.000Z",
+    "name": "Majority Rule Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-04T04:00:00.000Z",
+    "end": "2021-04-05T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T04:00:00.000Z",
+    "end": "2021-04-06T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-09 00:00:00",
+    "start": "2021-05-09T04:00:00.000Z",
+    "end": "2021-05-10T04:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-23 00:00:00",
+    "start": "2021-05-23T04:00:00.000Z",
+    "end": "2021-05-24T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T04:00:00.000Z",
+    "end": "2021-05-25T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-04 00:00:00",
+    "start": "2021-06-04T04:00:00.000Z",
+    "end": "2021-06-05T04:00:00.000Z",
+    "name": "Randol Fawkes Labour Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-07-10 00:00:00",
+    "start": "2021-07-10T04:00:00.000Z",
+    "end": "2021-07-11T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-07-12 00:00:00",
+    "start": "2021-07-12T04:00:00.000Z",
+    "end": "2021-07-13T04:00:00.000Z",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-02 00:00:00",
+    "start": "2021-08-02T04:00:00.000Z",
+    "end": "2021-08-03T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-12 00:00:00",
+    "start": "2021-10-12T04:00:00.000Z",
+    "end": "2021-10-13T04:00:00.000Z",
+    "name": "National Heroes' Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T05:00:00.000Z",
+    "end": "2021-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T05:00:00.000Z",
+    "end": "2021-12-27T05:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T04:00:00.000Z",
+    "end": "2021-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-02 00:00:00",
+    "start": "2021-03-02T04:00:00.000Z",
+    "end": "2021-03-03T04:00:00.000Z",
+    "name": "James Ronald Webster Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-04T04:00:00.000Z",
+    "end": "2021-04-05T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T04:00:00.000Z",
+    "end": "2021-04-06T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T04:00:00.000Z",
+    "end": "2021-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-23 00:00:00",
+    "start": "2021-05-23T04:00:00.000Z",
+    "end": "2021-05-24T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T04:00:00.000Z",
+    "end": "2021-05-25T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-30 00:00:00",
+    "start": "2021-05-30T04:00:00.000Z",
+    "end": "2021-05-31T04:00:00.000Z",
+    "name": "Anguilla Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-06-14 00:00:00",
+    "start": "2021-06-14T04:00:00.000Z",
+    "end": "2021-06-15T04:00:00.000Z",
+    "name": "Celebration of the Birthday of Her Majesty the Queen",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-02 00:00:00",
+    "start": "2021-08-02T04:00:00.000Z",
+    "end": "2021-08-03T04:00:00.000Z",
+    "name": "August Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-05 00:00:00",
+    "start": "2021-08-05T04:00:00.000Z",
+    "end": "2021-08-06T04:00:00.000Z",
+    "name": "August Thursday",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-08-06 00:00:00",
+    "start": "2021-08-06T04:00:00.000Z",
+    "end": "2021-08-07T04:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-19 00:00:00",
+    "start": "2021-12-19T04:00:00.000Z",
+    "end": "2021-12-20T04:00:00.000Z",
+    "name": "National Heroes and Heroines Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T04:00:00.000Z",
+    "end": "2021-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T04:00:00.000Z",
+    "end": "2021-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T04:00:00.000Z",
+    "end": "2021-12-28T04:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T04:00:00.000Z",
+    "end": "2021-12-28T04:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  }
+]

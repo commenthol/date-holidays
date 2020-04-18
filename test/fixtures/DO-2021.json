@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T04:00:00.000Z",
+    "end": "2021-01-02T04:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-04 00:00:00",
+    "start": "2021-01-04T04:00:00.000Z",
+    "end": "2021-01-05T04:00:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-01-21 00:00:00",
+    "start": "2021-01-21T04:00:00.000Z",
+    "end": "2021-01-22T04:00:00.000Z",
+    "name": "Nuestra Señora de la Altagracia",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-01-25 00:00:00",
+    "start": "2021-01-25T04:00:00.000Z",
+    "end": "2021-01-26T04:00:00.000Z",
+    "name": "Día de Duarte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-02-27 00:00:00",
+    "start": "2021-02-27T04:00:00.000Z",
+    "end": "2021-02-28T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T04:00:00.000Z",
+    "end": "2021-05-02T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-06-03 00:00:00",
+    "start": "2021-06-03T04:00:00.000Z",
+    "end": "2021-06-04T04:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-08-16 00:00:00",
+    "start": "2021-08-16T04:00:00.000Z",
+    "end": "2021-08-17T04:00:00.000Z",
+    "name": "Día de la Restauración",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-09-24 00:00:00",
+    "start": "2021-09-24T04:00:00.000Z",
+    "end": "2021-09-25T04:00:00.000Z",
+    "name": "Nuestra Señora de las Mercedes",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-11-08 00:00:00",
+    "start": "2021-11-08T04:00:00.000Z",
+    "end": "2021-11-09T04:00:00.000Z",
+    "name": "Día de la Constitución",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T04:00:00.000Z",
+    "end": "2021-12-26T04:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]

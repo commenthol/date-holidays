@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T17:30:00.000Z",
+    "end": "2022-01-01T17:30:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-26 00:00:00",
+    "start": "2022-01-25T17:30:00.000Z",
+    "end": "2022-01-26T17:30:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-02-01 00:00:00",
+    "start": "2022-01-31T17:30:00.000Z",
+    "end": "2022-02-01T17:30:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-02-02 00:00:00",
+    "start": "2022-02-01T17:30:00.000Z",
+    "end": "2022-02-02T17:30:00.000Z",
+    "name": "Chinese New Year (2nd Day)",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-03-20 00:00:00",
+    "start": "2022-03-19T17:30:00.000Z",
+    "end": "2022-03-20T17:30:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-06 00:00:00",
+    "start": "2022-04-05T17:30:00.000Z",
+    "end": "2022-04-06T17:30:00.000Z",
+    "name": "Self Determination Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T17:30:00.000Z",
+    "end": "2022-04-18T17:30:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-25 00:00:00",
+    "start": "2022-04-24T17:30:00.000Z",
+    "end": "2022-04-25T17:30:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-02 00:00:00 -0600",
+    "start": "2022-05-01T11:30:00.000Z",
+    "end": "2022-05-02T11:30:00.000Z",
+    "name": "Hari Raya Puasa",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-07-09 00:00:00 -0600",
+    "start": "2022-07-08T11:30:00.000Z",
+    "end": "2022-07-09T11:30:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-07-30 00:00:00 -0600",
+    "start": "2022-07-29T11:30:00.000Z",
+    "end": "2022-07-30T11:30:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-10-08 00:00:00 -0600",
+    "start": "2022-10-07T11:30:00.000Z",
+    "end": "2022-10-08T11:30:00.000Z",
+    "name": "Hari Maulaud Nabi",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T17:30:00.000Z",
+    "end": "2022-12-25T17:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T17:30:00.000Z",
+    "end": "2022-12-26T17:30:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-27 00:00:00",
+    "start": "2022-12-26T17:30:00.000Z",
+    "end": "2022-12-27T17:30:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Tue"
+  }
+]

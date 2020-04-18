@@ -1,0 +1,124 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T04:00:00.000Z",
+    "end": "2021-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-04T04:00:00.000Z",
+    "end": "2021-04-05T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T04:00:00.000Z",
+    "end": "2021-04-06T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T04:00:00.000Z",
+    "end": "2021-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-23 00:00:00",
+    "start": "2021-05-23T04:00:00.000Z",
+    "end": "2021-05-24T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T04:00:00.000Z",
+    "end": "2021-05-25T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-01 00:00:00",
+    "start": "2021-08-01T04:00:00.000Z",
+    "end": "2021-08-02T04:00:00.000Z",
+    "name": "J'Ouvert Morning",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-08-02 00:00:00",
+    "start": "2021-08-02T04:00:00.000Z",
+    "end": "2021-08-03T04:00:00.000Z",
+    "name": "Last Lap",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-11-01T04:00:00.000Z",
+    "end": "2021-11-02T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-09 00:00:00",
+    "start": "2021-12-09T04:00:00.000Z",
+    "end": "2021-12-10T04:00:00.000Z",
+    "name": "V.C Bird Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T04:00:00.000Z",
+    "end": "2021-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T04:00:00.000Z",
+    "end": "2021-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T04:00:00.000Z",
+    "end": "2021-12-28T04:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T04:00:00.000Z",
+    "end": "2021-12-28T04:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  }
+]

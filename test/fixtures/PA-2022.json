@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T05:00:00.000Z",
+    "end": "2022-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-09 00:00:00",
+    "start": "2022-01-09T05:00:00.000Z",
+    "end": "2022-01-10T05:00:00.000Z",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-01-10 00:00:00",
+    "start": "2022-01-10T05:00:00.000Z",
+    "end": "2022-01-11T05:00:00.000Z",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica (día sustituto)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-02-28 00:00:00",
+    "start": "2022-02-28T05:00:00.000Z",
+    "end": "2022-03-01T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-01 00:00:00",
+    "start": "2022-03-01T05:00:00.000Z",
+    "end": "2022-03-02T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T05:00:00.000Z",
+    "end": "2022-04-16T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T05:00:00.000Z",
+    "end": "2022-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00",
+    "start": "2022-05-02T05:00:00.000Z",
+    "end": "2022-05-03T05:00:00.000Z",
+    "name": "Fiesta del trabajo (día sustituto)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-03 00:00:00",
+    "start": "2022-11-03T05:00:00.000Z",
+    "end": "2022-11-04T05:00:00.000Z",
+    "name": "Día de la Separación (de Colombia)",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-11-10 00:00:00",
+    "start": "2022-11-10T05:00:00.000Z",
+    "end": "2022-11-11T05:00:00.000Z",
+    "name": "Primer Grito de Independencia",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-11-28 00:00:00",
+    "start": "2022-11-28T05:00:00.000Z",
+    "end": "2022-11-29T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-08 00:00:00",
+    "start": "2022-12-08T05:00:00.000Z",
+    "end": "2022-12-09T05:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T05:00:00.000Z",
+    "end": "2022-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-26T05:00:00.000Z",
+    "end": "2022-12-27T05:00:00.000Z",
+    "name": "Navidad (día sustituto)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  }
+]

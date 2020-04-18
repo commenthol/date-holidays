@@ -1,0 +1,260 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T23:00:00.000Z",
+    "end": "2025-01-01T23:00:00.000Z",
+    "name": "Нова Година",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-06 00:00:00",
+    "start": "2025-01-05T23:00:00.000Z",
+    "end": "2025-01-06T23:00:00.000Z",
+    "name": "Бадник",
+    "type": "optional",
+    "note": "Orthodox believers",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-01-07 00:00:00",
+    "start": "2025-01-06T23:00:00.000Z",
+    "end": "2025-01-07T23:00:00.000Z",
+    "name": "Прв ден Божик",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-01-19 00:00:00",
+    "start": "2025-01-18T23:00:00.000Z",
+    "end": "2025-01-19T23:00:00.000Z",
+    "name": "Богојавление",
+    "type": "optional",
+    "note": "Orthodox believers",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-01-27 00:00:00",
+    "start": "2025-01-26T23:00:00.000Z",
+    "end": "2025-01-27T23:00:00.000Z",
+    "name": "Свети Сава",
+    "type": "optional",
+    "note": "For members of the Serbian community",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-03-30 00:00:00 -0600",
+    "start": "2025-03-29T17:00:00.000Z",
+    "end": "2025-03-30T16:00:00.000Z",
+    "name": "Рамазан Бајрам",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-03-31 00:00:00 -0600",
+    "start": "2025-03-30T16:00:00.000Z",
+    "end": "2025-03-31T16:00:00.000Z",
+    "name": "Рамазан Бајрам (заменет ден)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-08 00:00:00",
+    "start": "2025-04-07T22:00:00.000Z",
+    "end": "2025-04-08T22:00:00.000Z",
+    "name": "Меѓународен ден на Ромите",
+    "type": "optional",
+    "note": "For members of the the Roma community",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T22:00:00.000Z",
+    "end": "2025-04-18T22:00:00.000Z",
+    "name": "Велики Петок",
+    "type": "optional",
+    "note": "Orthodox believers",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-19T22:00:00.000Z",
+    "end": "2025-04-20T22:00:00.000Z",
+    "name": "Прв ден Велигден",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T22:00:00.000Z",
+    "end": "2025-04-21T22:00:00.000Z",
+    "name": "Втор ден Велигден",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T22:00:00.000Z",
+    "end": "2025-04-21T22:00:00.000Z",
+    "name": "вториот ден на Велигден",
+    "type": "optional",
+    "note": "Catholic believers",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T22:00:00.000Z",
+    "end": "2025-05-01T22:00:00.000Z",
+    "name": "Ден на трудот",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-23 00:00:00",
+    "start": "2025-05-22T22:00:00.000Z",
+    "end": "2025-05-23T22:00:00.000Z",
+    "name": "Национален ден на Властите",
+    "type": "optional",
+    "note": "For members of the Vlach community",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-05-24 00:00:00",
+    "start": "2025-05-23T22:00:00.000Z",
+    "end": "2025-05-24T22:00:00.000Z",
+    "name": "Св. Кирил и Методиј",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-06-06 00:00:00 -0600",
+    "start": "2025-06-05T16:00:00.000Z",
+    "end": "2025-06-06T16:00:00.000Z",
+    "name": "Курбан Бајрам",
+    "type": "optional",
+    "note": "Muslim believers",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-06 00:00:00",
+    "start": "2025-06-05T22:00:00.000Z",
+    "end": "2025-06-06T22:00:00.000Z",
+    "name": "петок пред Духовден",
+    "type": "optional",
+    "note": "Orthodox believers",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-08 00:00:00",
+    "start": "2025-06-07T22:00:00.000Z",
+    "end": "2025-06-08T22:00:00.000Z",
+    "name": "Духовден",
+    "type": "optional",
+    "note": "Orthodox believers",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-08-02 00:00:00",
+    "start": "2025-08-01T22:00:00.000Z",
+    "end": "2025-08-02T22:00:00.000Z",
+    "name": "Ден на Републиката",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-08-28 00:00:00",
+    "start": "2025-08-27T22:00:00.000Z",
+    "end": "2025-08-28T22:00:00.000Z",
+    "name": "Успение на Пресвета Богородица",
+    "type": "optional",
+    "note": "Orthodox believers",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-09-08 00:00:00",
+    "start": "2025-09-07T22:00:00.000Z",
+    "end": "2025-09-08T22:00:00.000Z",
+    "name": "Ден на независноста",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-09-28 00:00:00",
+    "start": "2025-09-27T22:00:00.000Z",
+    "end": "2025-09-28T22:00:00.000Z",
+    "name": "Меѓународен ден на Бошњаците",
+    "type": "optional",
+    "note": "For Members of the Bosniak community.",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-10-02 00:00:00 -0600",
+    "start": "2025-10-01T16:00:00.000Z",
+    "end": "2025-10-02T16:00:00.000Z",
+    "name": "Јом Кипур",
+    "type": "optional",
+    "note": "Jewish believers",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-10-11 00:00:00",
+    "start": "2025-10-10T22:00:00.000Z",
+    "end": "2025-10-11T22:00:00.000Z",
+    "name": "Ден на востанието",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-10-23 00:00:00",
+    "start": "2025-10-22T22:00:00.000Z",
+    "end": "2025-10-23T22:00:00.000Z",
+    "name": "Ден на македонската револуционерна борба",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-11-01 00:00:00",
+    "start": "2025-10-31T23:00:00.000Z",
+    "end": "2025-11-01T23:00:00.000Z",
+    "name": "Празникот на сите светци",
+    "type": "optional",
+    "note": "Catholic believers",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-11-22 00:00:00",
+    "start": "2025-11-21T23:00:00.000Z",
+    "end": "2025-11-22T23:00:00.000Z",
+    "name": "Ден на Албанската азбука",
+    "type": "optional",
+    "note": "For members of the Albanian community",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-12-08 00:00:00",
+    "start": "2025-12-07T23:00:00.000Z",
+    "end": "2025-12-08T23:00:00.000Z",
+    "name": "Св. Климент Охридски",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-12-21 00:00:00",
+    "start": "2025-12-20T23:00:00.000Z",
+    "end": "2025-12-21T23:00:00.000Z",
+    "name": "Ден на настава на турски јазик",
+    "type": "optional",
+    "note": "For members of the the Turkish community",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T23:00:00.000Z",
+    "end": "2025-12-25T23:00:00.000Z",
+    "name": "Католички Божиќ",
+    "type": "optional",
+    "note": "Catholic believers",
+    "_weekday": "Thu"
+  }
+]

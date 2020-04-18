@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T16:00:00.000Z",
+    "end": "2021-01-01T16:00:00.000Z",
+    "name": "Awal Tahun Masihi",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-02-12 00:00:00",
+    "start": "2021-02-11T16:00:00.000Z",
+    "end": "2021-02-12T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-02-23 00:00:00",
+    "start": "2021-02-22T16:00:00.000Z",
+    "end": "2021-02-23T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-03-11 00:00:00 -0600",
+    "start": "2021-03-10T10:00:00.000Z",
+    "end": "2021-03-11T10:00:00.000Z",
+    "name": "Israk dan Mikraj",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-03-31 00:00:00",
+    "start": "2021-03-30T16:00:00.000Z",
+    "end": "2021-03-31T16:00:00.000Z",
+    "name": "Hari Angkatan Bersenjata Diraja Brunei",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-04-13 00:00:00 -0600",
+    "start": "2021-04-12T10:00:00.000Z",
+    "end": "2021-04-13T10:00:00.000Z",
+    "name": "Hari Pertama Berpuasa",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-04-29 00:00:00 -0600",
+    "start": "2021-04-28T10:00:00.000Z",
+    "end": "2021-04-29T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-13 00:00:00 -0600",
+    "start": "2021-05-12T10:00:00.000Z",
+    "end": "2021-05-15T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-15 00:00:00",
+    "start": "2021-07-14T16:00:00.000Z",
+    "end": "2021-07-15T16:00:00.000Z",
+    "name": "Hari Keputeraan KDYMM Sultan Brunei",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-20 00:00:00 -0600",
+    "start": "2021-07-19T10:00:00.000Z",
+    "end": "2021-07-20T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-08-09 00:00:00 -0600",
+    "start": "2021-08-08T10:00:00.000Z",
+    "end": "2021-08-09T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-18 00:00:00 -0600",
+    "start": "2021-10-17T10:00:00.000Z",
+    "end": "2021-10-18T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T16:00:00.000Z",
+    "end": "2021-12-25T16:00:00.000Z",
+    "name": "Hari Natal",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T05:00:00.000Z",
+    "end": "2021-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-01 00:00:00",
+    "start": "2021-04-01T05:00:00.000Z",
+    "end": "2021-04-02T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T05:00:00.000Z",
+    "end": "2021-04-03T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-04T05:00:00.000Z",
+    "end": "2021-04-05T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T05:00:00.000Z",
+    "end": "2021-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-06-29 00:00:00",
+    "start": "2021-06-29T05:00:00.000Z",
+    "end": "2021-06-30T05:00:00.000Z",
+    "name": "San Pedro y San Pablo",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-07-28 00:00:00",
+    "start": "2021-07-28T05:00:00.000Z",
+    "end": "2021-07-29T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-07-29 00:00:00",
+    "start": "2021-07-29T05:00:00.000Z",
+    "end": "2021-07-30T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-08-30 00:00:00",
+    "start": "2021-08-30T05:00:00.000Z",
+    "end": "2021-08-31T05:00:00.000Z",
+    "name": "Día de Santa Rosa de Lima",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-08 00:00:00",
+    "start": "2021-10-08T05:00:00.000Z",
+    "end": "2021-10-09T05:00:00.000Z",
+    "name": "Combate de Angamos",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-11-01T05:00:00.000Z",
+    "end": "2021-11-02T05:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-08 00:00:00",
+    "start": "2021-12-08T05:00:00.000Z",
+    "end": "2021-12-09T05:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T05:00:00.000Z",
+    "end": "2021-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]

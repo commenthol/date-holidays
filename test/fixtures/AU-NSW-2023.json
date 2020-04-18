@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T13:00:00.000Z",
+    "end": "2023-01-01T13:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-02 00:00:00",
+    "start": "2023-01-01T13:00:00.000Z",
+    "end": "2023-01-02T13:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-01-26 00:00:00",
+    "start": "2023-01-25T13:00:00.000Z",
+    "end": "2023-01-26T13:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-06T14:00:00.000Z",
+    "end": "2023-04-07T14:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-08 00:00:00",
+    "start": "2023-04-07T14:00:00.000Z",
+    "end": "2023-04-08T14:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-08T14:00:00.000Z",
+    "end": "2023-04-09T14:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-09T14:00:00.000Z",
+    "end": "2023-04-10T14:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-04-25 00:00:00",
+    "start": "2023-04-24T14:00:00.000Z",
+    "end": "2023-04-25T14:00:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-06-12 00:00:00",
+    "start": "2023-06-11T14:00:00.000Z",
+    "end": "2023-06-12T14:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-08-07 00:00:00",
+    "start": "2023-08-06T14:00:00.000Z",
+    "end": "2023-08-07T14:00:00.000Z",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-10-02 00:00:00",
+    "start": "2023-10-01T13:00:00.000Z",
+    "end": "2023-10-02T13:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T13:00:00.000Z",
+    "end": "2023-12-25T13:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-26 00:00:00",
+    "start": "2023-12-25T13:00:00.000Z",
+    "end": "2023-12-26T13:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Tue"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T05:00:00.000Z",
+    "end": "2023-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-02-20 00:00:00",
+    "start": "2023-02-20T05:00:00.000Z",
+    "end": "2023-02-21T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-02-21 00:00:00",
+    "start": "2023-02-21T05:00:00.000Z",
+    "end": "2023-02-22T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-04-06 00:00:00",
+    "start": "2023-04-06T05:00:00.000Z",
+    "end": "2023-04-07T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T05:00:00.000Z",
+    "end": "2023-04-08T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T05:00:00.000Z",
+    "end": "2023-04-10T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T05:00:00.000Z",
+    "end": "2023-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-24 00:00:00",
+    "start": "2023-05-24T05:00:00.000Z",
+    "end": "2023-05-25T05:00:00.000Z",
+    "name": "Batalla del Pichincha",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-07-24 00:00:00",
+    "start": "2023-07-24T05:00:00.000Z",
+    "end": "2023-07-25T05:00:00.000Z",
+    "name": "El Natalicio de Simón Bolívar",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-08-10 00:00:00",
+    "start": "2023-08-10T05:00:00.000Z",
+    "end": "2023-08-11T05:00:00.000Z",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-09-10 00:00:00",
+    "start": "2023-09-10T05:00:00.000Z",
+    "end": "2023-09-11T05:00:00.000Z",
+    "name": "Independencia de Guayaquil",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-10-31 00:00:00",
+    "start": "2023-10-31T05:00:00.000Z",
+    "end": "2023-11-01T05:00:00.000Z",
+    "name": "Dia de La Bandera",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-11-02 00:00:00",
+    "start": "2023-11-02T05:00:00.000Z",
+    "end": "2023-11-03T05:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-11-03 00:00:00",
+    "start": "2023-11-03T05:00:00.000Z",
+    "end": "2023-11-04T05:00:00.000Z",
+    "name": "Independencia de Cuenca",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T05:00:00.000Z",
+    "end": "2023-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-31 00:00:00",
+    "start": "2023-12-31T05:00:00.000Z",
+    "end": "2024-01-01T05:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "observance",
+    "_weekday": "Sun"
+  }
+]

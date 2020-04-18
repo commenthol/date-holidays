@@ -1,0 +1,162 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T04:00:00.000Z",
+    "end": "2022-01-02T04:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-02-28 00:00:00",
+    "start": "2022-02-28T04:00:00.000Z",
+    "end": "2022-03-01T04:00:00.000Z",
+    "name": "Lundi de Carnaval",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-02 00:00:00",
+    "start": "2022-03-02T04:00:00.000Z",
+    "end": "2022-03-03T04:00:00.000Z",
+    "name": "Mercredi des Cendres",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-03-27 00:00:00",
+    "start": "2022-03-27T04:00:00.000Z",
+    "end": "2022-03-28T04:00:00.000Z",
+    "name": "Mi-Carême",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T04:00:00.000Z",
+    "end": "2022-04-16T04:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "bank",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T04:00:00.000Z",
+    "end": "2022-04-18T04:00:00.000Z",
+    "name": "Pâques",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-18T04:00:00.000Z",
+    "end": "2022-04-19T04:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T04:00:00.000Z",
+    "end": "2022-05-02T04:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-08T04:00:00.000Z",
+    "end": "2022-05-09T04:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-26T04:00:00.000Z",
+    "end": "2022-05-27T04:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-05T04:00:00.000Z",
+    "end": "2022-06-06T04:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-06 00:00:00",
+    "start": "2022-06-06T04:00:00.000Z",
+    "end": "2022-06-07T04:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-07-14 00:00:00",
+    "start": "2022-07-14T04:00:00.000Z",
+    "end": "2022-07-15T04:00:00.000Z",
+    "name": "Fête Nationale",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-08-15 00:00:00",
+    "start": "2022-08-15T04:00:00.000Z",
+    "end": "2022-08-16T04:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-08-24 00:00:00",
+    "start": "2022-08-24T04:00:00.000Z",
+    "end": "2022-08-25T04:00:00.000Z",
+    "name": "Fête de Saint Barthélemy",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-10-09 00:00:00",
+    "start": "2022-10-09T04:00:00.000Z",
+    "end": "2022-10-10T04:00:00.000Z",
+    "name": "Abolition de l’esclavage",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-11-01 00:00:00",
+    "start": "2022-11-01T04:00:00.000Z",
+    "end": "2022-11-02T04:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-11-11 00:00:00",
+    "start": "2022-11-11T04:00:00.000Z",
+    "end": "2022-11-12T04:00:00.000Z",
+    "name": "Armistice de 1918",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T04:00:00.000Z",
+    "end": "2022-12-26T04:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-26T04:00:00.000Z",
+    "end": "2022-12-27T04:00:00.000Z",
+    "name": "Lendemain de Noël",
+    "type": "public",
+    "_weekday": "Mon"
+  }
+]

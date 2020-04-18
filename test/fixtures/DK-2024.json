@@ -1,0 +1,133 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T23:00:00.000Z",
+    "end": "2024-01-01T23:00:00.000Z",
+    "name": "Nytår",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-12 00:00:00",
+    "start": "2024-02-11T23:00:00.000Z",
+    "end": "2024-02-12T23:00:00.000Z",
+    "name": "Fastelavn",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-28 00:00:00",
+    "start": "2024-03-27T23:00:00.000Z",
+    "end": "2024-03-28T23:00:00.000Z",
+    "name": "Skærtorsdag",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-28T23:00:00.000Z",
+    "end": "2024-03-29T23:00:00.000Z",
+    "name": "Langfredag",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-30T23:00:00.000Z",
+    "end": "2024-03-31T22:00:00.000Z",
+    "name": "Påskesøndag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T22:00:00.000Z",
+    "end": "2024-04-01T22:00:00.000Z",
+    "name": "Anden påskedag",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-26 00:00:00",
+    "start": "2024-04-25T22:00:00.000Z",
+    "end": "2024-04-26T22:00:00.000Z",
+    "name": "Store Bededag",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T22:00:00.000Z",
+    "end": "2024-05-01T22:00:00.000Z",
+    "name": "1. maj",
+    "type": "observance",
+    "note": "Full holiday for blue collar workers",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-08T22:00:00.000Z",
+    "end": "2024-05-09T22:00:00.000Z",
+    "name": "Kristi Himmelfartsdag",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-12 00:00:00",
+    "start": "2024-05-11T22:00:00.000Z",
+    "end": "2024-05-12T22:00:00.000Z",
+    "name": "Mors Dag",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-19 00:00:00",
+    "start": "2024-05-18T22:00:00.000Z",
+    "end": "2024-05-19T22:00:00.000Z",
+    "name": "Pinsedag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-19T22:00:00.000Z",
+    "end": "2024-05-20T22:00:00.000Z",
+    "name": "Anden Pinsedag",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-05 00:00:00",
+    "start": "2024-06-04T22:00:00.000Z",
+    "end": "2024-06-05T22:00:00.000Z",
+    "name": "Grundlovsdag",
+    "type": "observance",
+    "note": "Shops are closed",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-24 00:00:00",
+    "start": "2024-12-23T23:00:00.000Z",
+    "end": "2024-12-24T23:00:00.000Z",
+    "name": "Juleaften",
+    "type": "observance",
+    "note": "Shops are closed",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T23:00:00.000Z",
+    "end": "2024-12-25T23:00:00.000Z",
+    "name": "Juledag",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-25T23:00:00.000Z",
+    "end": "2024-12-26T23:00:00.000Z",
+    "name": "Anden Juledag",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]

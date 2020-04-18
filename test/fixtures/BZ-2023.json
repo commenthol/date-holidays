@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T06:00:00.000Z",
+    "end": "2023-01-02T06:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-03-06 00:00:00",
+    "start": "2023-03-06T06:00:00.000Z",
+    "end": "2023-03-07T06:00:00.000Z",
+    "name": "Baron Bliss Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T06:00:00.000Z",
+    "end": "2023-04-08T06:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-08 00:00:00",
+    "start": "2023-04-08T06:00:00.000Z",
+    "end": "2023-04-09T06:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T06:00:00.000Z",
+    "end": "2023-04-10T06:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-10T06:00:00.000Z",
+    "end": "2023-04-11T06:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T06:00:00.000Z",
+    "end": "2023-05-02T06:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-22 00:00:00",
+    "start": "2023-05-22T06:00:00.000Z",
+    "end": "2023-05-23T06:00:00.000Z",
+    "name": "Commonwealth Day, Sovereign's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-09-11 00:00:00",
+    "start": "2023-09-11T06:00:00.000Z",
+    "end": "2023-09-12T06:00:00.000Z",
+    "name": "Saint George's Caye Day, National Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-09-21 00:00:00",
+    "start": "2023-09-21T06:00:00.000Z",
+    "end": "2023-09-22T06:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-10-09 00:00:00",
+    "start": "2023-10-09T06:00:00.000Z",
+    "end": "2023-10-10T06:00:00.000Z",
+    "name": "Day of the Americas",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-11-20 00:00:00",
+    "start": "2023-11-20T06:00:00.000Z",
+    "end": "2023-11-21T06:00:00.000Z",
+    "name": "Garifuna Settlement Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T06:00:00.000Z",
+    "end": "2023-12-26T06:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-26 00:00:00",
+    "start": "2023-12-26T06:00:00.000Z",
+    "end": "2023-12-27T06:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Tue"
+  }
+]

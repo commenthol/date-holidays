@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T06:00:00.000Z",
+    "end": "2024-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-19 00:00:00",
+    "start": "2024-03-19T06:00:00.000Z",
+    "end": "2024-03-20T06:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-03-28 00:00:00",
+    "start": "2024-03-28T06:00:00.000Z",
+    "end": "2024-03-29T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T06:00:00.000Z",
+    "end": "2024-03-30T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T06:00:00.000Z",
+    "end": "2024-04-01T06:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-14 00:00:00",
+    "start": "2024-04-14T06:00:00.000Z",
+    "end": "2024-04-15T06:00:00.000Z",
+    "name": "Día de las Américas",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T06:00:00.000Z",
+    "end": "2024-05-02T06:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-13 00:00:00",
+    "start": "2024-05-13T06:00:00.000Z",
+    "end": "2024-05-14T06:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-11 00:00:00",
+    "start": "2024-06-11T06:00:00.000Z",
+    "end": "2024-06-12T06:00:00.000Z",
+    "name": "Día del Estudiante",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-09-10 00:00:00",
+    "start": "2024-09-10T06:00:00.000Z",
+    "end": "2024-09-11T06:00:00.000Z",
+    "name": "Día del Niño",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-09-15 00:00:00",
+    "start": "2024-09-15T06:00:00.000Z",
+    "end": "2024-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-09-17 00:00:00",
+    "start": "2024-09-17T06:00:00.000Z",
+    "end": "2024-09-18T06:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-10-03 00:00:00",
+    "start": "2024-10-03T06:00:00.000Z",
+    "end": "2024-10-04T06:00:00.000Z",
+    "name": "Día del Soldado",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-10-12 00:00:00",
+    "start": "2024-10-12T06:00:00.000Z",
+    "end": "2024-10-13T06:00:00.000Z",
+    "name": "Día de la Raza",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-10-21 00:00:00",
+    "start": "2024-10-21T06:00:00.000Z",
+    "end": "2024-10-22T06:00:00.000Z",
+    "name": "Día de las Fuerzas Armadas",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T06:00:00.000Z",
+    "end": "2024-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]

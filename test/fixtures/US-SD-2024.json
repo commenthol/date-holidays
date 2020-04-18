@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T06:00:00.000Z",
+    "end": "2024-01-02T06:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-15 00:00:00",
+    "start": "2024-01-15T06:00:00.000Z",
+    "end": "2024-01-16T06:00:00.000Z",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-14 00:00:00",
+    "start": "2024-02-14T06:00:00.000Z",
+    "end": "2024-02-15T06:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-02-19 00:00:00",
+    "start": "2024-02-19T06:00:00.000Z",
+    "end": "2024-02-20T06:00:00.000Z",
+    "name": "Presidents' Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T05:00:00.000Z",
+    "end": "2024-04-01T05:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-15 00:00:00",
+    "start": "2024-04-15T05:00:00.000Z",
+    "end": "2024-04-16T05:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-24 00:00:00",
+    "start": "2024-04-24T05:00:00.000Z",
+    "end": "2024-04-25T05:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-12 00:00:00",
+    "start": "2024-05-12T05:00:00.000Z",
+    "end": "2024-05-13T05:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-27 00:00:00",
+    "start": "2024-05-27T05:00:00.000Z",
+    "end": "2024-05-28T05:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-16 00:00:00",
+    "start": "2024-06-16T05:00:00.000Z",
+    "end": "2024-06-17T05:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-04 00:00:00",
+    "start": "2024-07-04T05:00:00.000Z",
+    "end": "2024-07-05T05:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-09-02 00:00:00",
+    "start": "2024-09-02T05:00:00.000Z",
+    "end": "2024-09-03T05:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-14 00:00:00",
+    "start": "2024-10-14T05:00:00.000Z",
+    "end": "2024-10-15T05:00:00.000Z",
+    "name": "Native American Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-31 18:00:00",
+    "start": "2024-10-31T23:00:00.000Z",
+    "end": "2024-11-01T05:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-05 00:00:00",
+    "start": "2024-11-05T06:00:00.000Z",
+    "end": "2024-11-06T06:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-11-11 00:00:00",
+    "start": "2024-11-11T06:00:00.000Z",
+    "end": "2024-11-12T06:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-28 00:00:00",
+    "start": "2024-11-28T06:00:00.000Z",
+    "end": "2024-11-29T06:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-29 00:00:00",
+    "start": "2024-11-29T06:00:00.000Z",
+    "end": "2024-11-30T06:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-24 00:00:00",
+    "start": "2024-12-24T06:00:00.000Z",
+    "end": "2024-12-25T06:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T06:00:00.000Z",
+    "end": "2024-12-26T06:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-31 00:00:00",
+    "start": "2024-12-31T06:00:00.000Z",
+    "end": "2025-01-01T06:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "_weekday": "Tue"
+  }
+]
