@@ -69,7 +69,7 @@
     "all": "npm-run-all clean lint build yaml test doc:tree doc:attrib webpack",
     "build": "babel -d lib src",
     "changelog": "contributors && node scripts/gitlog",
-    "ci": "npm-run-all build yaml test",
+    "ci": "TEST_XXL=1 npm-run-all build yaml test",
     "clean": "rimraf lib dist",
     "clean:all": "npm-run-all clean clean:modules",
     "clean:modules": "rimraf node_modules",
