@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.1](https://github.com/commenthol/date-holidays/compare/1.5.0...1.5.1) (2020-04-28)
+
+- fix(CZ): new year, easter holiday names [a96ffb2](https://github.com/commenthol/date-holidays/commit/a96ffb2e88e00fd35d99b5a82cc90ff42b932946)
+- test: TEST_XXL env runs all tests [678150f](https://github.com/commenthol/date-holidays/commit/678150f2f6b18b867ed59d6cc58d45ee181bbc43)
+- test: add fixtures for years 2021-2025 [5fdbc24](https://github.com/commenthol/date-holidays/commit/5fdbc2451fbcf2b566e67500905487365bda4696)
+
 ## [1.5.0](https://github.com/commenthol/date-holidays/compare/1.4.14...1.5.0) (2020-04-18)
 
 - feat(US): Easter Sunday observed in US [cd89982](https://github.com/commenthol/date-holidays/commit/cd899820dc16388023323aa35eb5c35843480d13)
