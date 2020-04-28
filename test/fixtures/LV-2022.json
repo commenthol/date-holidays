@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T22:00:00.000Z",
+    "end": "2022-01-01T22:00:00.000Z",
+    "name": "Jaunais Gads",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T21:00:00.000Z",
+    "end": "2022-04-15T21:00:00.000Z",
+    "name": "Lielā Piektdiena",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-16T21:00:00.000Z",
+    "end": "2022-04-17T21:00:00.000Z",
+    "name": "Lieldienas",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T21:00:00.000Z",
+    "end": "2022-04-18T21:00:00.000Z",
+    "name": "Otrās Lieldienas",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T21:00:00.000Z",
+    "end": "2022-05-01T21:00:00.000Z",
+    "name": "Darba svētki",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-04 00:00:00",
+    "start": "2022-05-03T21:00:00.000Z",
+    "end": "2022-05-04T21:00:00.000Z",
+    "name": "Latvijas Republikas Neatkarības atjaunošanas diena",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-07T21:00:00.000Z",
+    "end": "2022-05-08T21:00:00.000Z",
+    "name": "Mātes diena",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-23 00:00:00",
+    "start": "2022-06-22T21:00:00.000Z",
+    "end": "2022-06-23T21:00:00.000Z",
+    "name": "Līgo Diena",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-24 00:00:00",
+    "start": "2022-06-23T21:00:00.000Z",
+    "end": "2022-06-24T21:00:00.000Z",
+    "name": "Jāņi",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-11-18 00:00:00",
+    "start": "2022-11-17T22:00:00.000Z",
+    "end": "2022-11-18T22:00:00.000Z",
+    "name": "Latvijas Republikas proklamēšanas diena",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-12-24 00:00:00",
+    "start": "2022-12-23T22:00:00.000Z",
+    "end": "2022-12-24T22:00:00.000Z",
+    "name": "Ziemassvētku vakars",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T22:00:00.000Z",
+    "end": "2022-12-25T22:00:00.000Z",
+    "name": "Ziemassvētki",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T22:00:00.000Z",
+    "end": "2022-12-26T22:00:00.000Z",
+    "name": "Otrie Ziemassvētki",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 00:00:00",
+    "start": "2022-12-30T22:00:00.000Z",
+    "end": "2022-12-31T22:00:00.000Z",
+    "name": "Vecgada vakars",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]

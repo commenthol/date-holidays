@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T20:00:00.000Z",
+    "end": "2024-01-01T20:00:00.000Z",
+    "name": "Dünya azərbaycanlıların həmrəyliyi günü (əvəz gün)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T20:00:00.000Z",
+    "end": "2024-01-01T20:00:00.000Z",
+    "name": "Yeni il",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-02 00:00:00",
+    "start": "2024-01-01T20:00:00.000Z",
+    "end": "2024-01-02T20:00:00.000Z",
+    "name": "Yeni il",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-01-20 00:00:00",
+    "start": "2024-01-19T20:00:00.000Z",
+    "end": "2024-01-20T20:00:00.000Z",
+    "name": "Qara Yanvar",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-03-08 00:00:00",
+    "start": "2024-03-07T20:00:00.000Z",
+    "end": "2024-03-08T20:00:00.000Z",
+    "name": "Qadınlar günü",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-20 00:00:00",
+    "start": "2024-03-19T20:00:00.000Z",
+    "end": "2024-03-20T20:00:00.000Z",
+    "name": "Novruz",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T14:00:00.000Z",
+    "end": "2024-04-10T14:00:00.000Z",
+    "name": "Ramazan Bayramı",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-04-11 00:00:00 -0600",
+    "start": "2024-04-10T14:00:00.000Z",
+    "end": "2024-04-11T14:00:00.000Z",
+    "name": "Ramazan Bayramı",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-08T20:00:00.000Z",
+    "end": "2024-05-09T20:00:00.000Z",
+    "name": "Faşizm üzərində qələbə günü",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-28 00:00:00",
+    "start": "2024-05-27T20:00:00.000Z",
+    "end": "2024-05-28T20:00:00.000Z",
+    "name": "Respublika günü",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-06-15 00:00:00",
+    "start": "2024-06-14T20:00:00.000Z",
+    "end": "2024-06-15T20:00:00.000Z",
+    "name": "Azərbaycan xalqının Milli Qurtuluş günü",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T14:00:00.000Z",
+    "end": "2024-06-16T14:00:00.000Z",
+    "name": "Qurban Bayramı",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-06-17 00:00:00 -0600",
+    "start": "2024-06-16T14:00:00.000Z",
+    "end": "2024-06-17T14:00:00.000Z",
+    "name": "Qurban Bayramı",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-17 00:00:00",
+    "start": "2024-06-16T20:00:00.000Z",
+    "end": "2024-06-17T20:00:00.000Z",
+    "name": "Azərbaycan xalqının Milli Qurtuluş günü (əvəz gün)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-18 00:00:00 -0600",
+    "start": "2024-06-17T14:00:00.000Z",
+    "end": "2024-06-18T14:00:00.000Z",
+    "name": "Qurban Bayramı (əvəz gün)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-06-26 00:00:00",
+    "start": "2024-06-25T20:00:00.000Z",
+    "end": "2024-06-26T20:00:00.000Z",
+    "name": "Azərbaycan Respublikasının Silahlı Qüvvələri günü",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-10-18 00:00:00",
+    "start": "2024-10-17T20:00:00.000Z",
+    "end": "2024-10-18T20:00:00.000Z",
+    "name": "Dövlət Müstəqilliyi günü",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-11-09 00:00:00",
+    "start": "2024-11-08T20:00:00.000Z",
+    "end": "2024-11-09T20:00:00.000Z",
+    "name": "Dövlət Bayrağı günü",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-11-11 00:00:00",
+    "start": "2024-11-10T20:00:00.000Z",
+    "end": "2024-11-11T20:00:00.000Z",
+    "name": "Dövlət Bayrağı günü (əvəz gün)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-12 00:00:00",
+    "start": "2024-11-11T20:00:00.000Z",
+    "end": "2024-11-12T20:00:00.000Z",
+    "name": "Konstitusiya günü",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-11-17 00:00:00",
+    "start": "2024-11-16T20:00:00.000Z",
+    "end": "2024-11-17T20:00:00.000Z",
+    "name": "Milli Dirçəliş günü",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-12-31 00:00:00",
+    "start": "2024-12-30T20:00:00.000Z",
+    "end": "2024-12-31T20:00:00.000Z",
+    "name": "Dünya azərbaycanlıların həmrəyliyi günü",
+    "type": "public",
+    "_weekday": "Tue"
+  }
+]

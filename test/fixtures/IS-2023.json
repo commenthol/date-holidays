@@ -1,0 +1,226 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T00:00:00.000Z",
+    "end": "2023-01-02T00:00:00.000Z",
+    "name": "Nýársdagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-06 00:00:00",
+    "start": "2023-01-06T00:00:00.000Z",
+    "end": "2023-01-07T00:00:00.000Z",
+    "name": "Þrettándinn",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-01-20 00:00:00",
+    "start": "2023-01-20T00:00:00.000Z",
+    "end": "2023-01-21T00:00:00.000Z",
+    "name": "Bóndadagur",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-02-18 00:00:00",
+    "start": "2023-02-18T00:00:00.000Z",
+    "end": "2023-02-19T00:00:00.000Z",
+    "name": "Konudagur",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-02-20 00:00:00",
+    "start": "2023-02-20T00:00:00.000Z",
+    "end": "2023-02-21T00:00:00.000Z",
+    "name": "Bolludagur",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-02-21 00:00:00",
+    "start": "2023-02-21T00:00:00.000Z",
+    "end": "2023-02-22T00:00:00.000Z",
+    "name": "Sprengidagur",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-02-22 00:00:00",
+    "start": "2023-02-22T00:00:00.000Z",
+    "end": "2023-02-23T00:00:00.000Z",
+    "name": "Öskudagur",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-04-02 00:00:00",
+    "start": "2023-04-02T00:00:00.000Z",
+    "end": "2023-04-03T00:00:00.000Z",
+    "name": "Pálmasunnudagur",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-06 00:00:00",
+    "start": "2023-04-06T00:00:00.000Z",
+    "end": "2023-04-07T00:00:00.000Z",
+    "name": "Skírdagur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T00:00:00.000Z",
+    "end": "2023-04-08T00:00:00.000Z",
+    "name": "Föstudagurinn langi",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T00:00:00.000Z",
+    "end": "2023-04-10T00:00:00.000Z",
+    "name": "Páskadagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-10T00:00:00.000Z",
+    "end": "2023-04-11T00:00:00.000Z",
+    "name": "Annar í páskum",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-04-20 00:00:00",
+    "start": "2023-04-20T00:00:00.000Z",
+    "end": "2023-04-21T00:00:00.000Z",
+    "name": "Sumardagurinn fyrsti",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T00:00:00.000Z",
+    "end": "2023-05-02T00:00:00.000Z",
+    "name": "Hátíðisdagur Verkamanna",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-14 00:00:00",
+    "start": "2023-05-14T00:00:00.000Z",
+    "end": "2023-05-15T00:00:00.000Z",
+    "name": "Mæðradagurinn",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-18T00:00:00.000Z",
+    "end": "2023-05-19T00:00:00.000Z",
+    "name": "Uppstigningardagur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-28T00:00:00.000Z",
+    "end": "2023-05-29T00:00:00.000Z",
+    "name": "Hvítasunnudagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-29 00:00:00",
+    "start": "2023-05-29T00:00:00.000Z",
+    "end": "2023-05-30T00:00:00.000Z",
+    "name": "Annar í hvítasunnu",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-06-04 00:00:00",
+    "start": "2023-06-04T00:00:00.000Z",
+    "end": "2023-06-05T00:00:00.000Z",
+    "name": "Sjómannadagurinn",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-06-17 00:00:00",
+    "start": "2023-06-17T00:00:00.000Z",
+    "end": "2023-06-18T00:00:00.000Z",
+    "name": "Íslenski þjóðhátíðardagurinn",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-08-07 00:00:00",
+    "start": "2023-08-07T00:00:00.000Z",
+    "end": "2023-08-08T00:00:00.000Z",
+    "name": "Frídagur verslunarmanna",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-10-21 00:00:00",
+    "start": "2023-10-21T00:00:00.000Z",
+    "end": "2023-10-22T00:00:00.000Z",
+    "name": "Fyrsti vetrardagur",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-11-16 00:00:00",
+    "start": "2023-11-16T00:00:00.000Z",
+    "end": "2023-11-17T00:00:00.000Z",
+    "name": "Dagur íslenskrar tungu",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-12-23 00:00:00",
+    "start": "2023-12-23T00:00:00.000Z",
+    "end": "2023-12-24T00:00:00.000Z",
+    "name": "Þorláksmessa",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-12-24 00:00:00",
+    "start": "2023-12-24T00:00:00.000Z",
+    "end": "2023-12-25T00:00:00.000Z",
+    "name": "Aðfangadagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T00:00:00.000Z",
+    "end": "2023-12-26T00:00:00.000Z",
+    "name": "Jóladagur",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-26 00:00:00",
+    "start": "2023-12-26T00:00:00.000Z",
+    "end": "2023-12-27T00:00:00.000Z",
+    "name": "Annar í jólum",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-12-31 00:00:00",
+    "start": "2023-12-31T00:00:00.000Z",
+    "end": "2024-01-01T00:00:00.000Z",
+    "name": "Gamlársdagur",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

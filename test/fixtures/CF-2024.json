@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T23:00:00.000Z",
+    "end": "2024-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-28T23:00:00.000Z",
+    "end": "2024-03-29T23:00:00.000Z",
+    "name": "Décès du Fondateur Barthélémy Boganda",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T23:00:00.000Z",
+    "end": "2024-04-01T23:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T23:00:00.000Z",
+    "end": "2024-05-01T23:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-08T23:00:00.000Z",
+    "end": "2024-05-09T23:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-19T23:00:00.000Z",
+    "end": "2024-05-20T23:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-30 00:00:00",
+    "start": "2024-06-29T23:00:00.000Z",
+    "end": "2024-06-30T23:00:00.000Z",
+    "name": "Journée de prière",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-13 00:00:00",
+    "start": "2024-08-12T23:00:00.000Z",
+    "end": "2024-08-13T23:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-08-15 00:00:00",
+    "start": "2024-08-14T23:00:00.000Z",
+    "end": "2024-08-15T23:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-10-31T23:00:00.000Z",
+    "end": "2024-11-01T23:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-01 00:00:00",
+    "start": "2024-11-30T23:00:00.000Z",
+    "end": "2024-12-01T23:00:00.000Z",
+    "name": "Jour de la République",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T23:00:00.000Z",
+    "end": "2024-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]

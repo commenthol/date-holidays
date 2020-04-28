@@ -1,0 +1,187 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T09:00:00.000Z",
+    "end": "2022-01-02T09:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-17 00:00:00",
+    "start": "2022-01-17T09:00:00.000Z",
+    "end": "2022-01-18T09:00:00.000Z",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-02-14 00:00:00",
+    "start": "2022-02-14T09:00:00.000Z",
+    "end": "2022-02-15T09:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-02-21 00:00:00",
+    "start": "2022-02-21T09:00:00.000Z",
+    "end": "2022-02-22T09:00:00.000Z",
+    "name": "President's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-28 00:00:00",
+    "start": "2022-03-28T08:00:00.000Z",
+    "end": "2022-03-29T08:00:00.000Z",
+    "name": "Seward's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T08:00:00.000Z",
+    "end": "2022-04-18T08:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-18T08:00:00.000Z",
+    "end": "2022-04-19T08:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-27 00:00:00",
+    "start": "2022-04-27T08:00:00.000Z",
+    "end": "2022-04-28T08:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-08T08:00:00.000Z",
+    "end": "2022-05-09T08:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-30 00:00:00",
+    "start": "2022-05-30T08:00:00.000Z",
+    "end": "2022-05-31T08:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-19 00:00:00",
+    "start": "2022-06-19T08:00:00.000Z",
+    "end": "2022-06-20T08:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-07-04 00:00:00",
+    "start": "2022-07-04T08:00:00.000Z",
+    "end": "2022-07-05T08:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-09-05 00:00:00",
+    "start": "2022-09-05T08:00:00.000Z",
+    "end": "2022-09-06T08:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-10 00:00:00",
+    "start": "2022-10-10T08:00:00.000Z",
+    "end": "2022-10-11T08:00:00.000Z",
+    "name": "Indigenous Peoples' Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-18 00:00:00",
+    "start": "2022-10-18T08:00:00.000Z",
+    "end": "2022-10-19T08:00:00.000Z",
+    "name": "Alaska Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-10-31 18:00:00",
+    "start": "2022-11-01T02:00:00.000Z",
+    "end": "2022-11-01T08:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-11 00:00:00",
+    "start": "2022-11-11T09:00:00.000Z",
+    "end": "2022-11-12T09:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-11-24 00:00:00",
+    "start": "2022-11-24T09:00:00.000Z",
+    "end": "2022-11-25T09:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-11-25 00:00:00",
+    "start": "2022-11-25T09:00:00.000Z",
+    "end": "2022-11-26T09:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-12-24 00:00:00",
+    "start": "2022-12-24T09:00:00.000Z",
+    "end": "2022-12-25T09:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T09:00:00.000Z",
+    "end": "2022-12-26T09:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-26T09:00:00.000Z",
+    "end": "2022-12-27T09:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 00:00:00",
+    "start": "2022-12-31T09:00:00.000Z",
+    "end": "2023-01-01T09:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "_weekday": "Sat"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2025-01-01T06:00:00.000Z",
+    "end": "2025-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-18 00:00:00",
+    "start": "2025-01-18T06:00:00.000Z",
+    "end": "2025-01-19T06:00:00.000Z",
+    "name": "Natalicio de Rubén Darío",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-04-17 00:00:00",
+    "start": "2025-04-17T06:00:00.000Z",
+    "end": "2025-04-18T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-18T06:00:00.000Z",
+    "end": "2025-04-19T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-05-01T06:00:00.000Z",
+    "end": "2025-05-02T06:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-30 00:00:00",
+    "start": "2025-05-30T06:00:00.000Z",
+    "end": "2025-05-31T06:00:00.000Z",
+    "name": "Día de la madre nicaragüense",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-01 00:00:00",
+    "start": "2025-06-01T06:00:00.000Z",
+    "end": "2025-06-02T06:00:00.000Z",
+    "name": "Día del niño",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-23 00:00:00",
+    "start": "2025-06-23T06:00:00.000Z",
+    "end": "2025-06-24T06:00:00.000Z",
+    "name": "Día del padre nicaragüense",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-07-19 00:00:00",
+    "start": "2025-07-19T06:00:00.000Z",
+    "end": "2025-07-20T06:00:00.000Z",
+    "name": "Triunfo de la Revolución Popular",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-09-14 00:00:00",
+    "start": "2025-09-14T06:00:00.000Z",
+    "end": "2025-09-15T06:00:00.000Z",
+    "name": "Batalla de San Jacinto",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-09-15 00:00:00",
+    "start": "2025-09-15T06:00:00.000Z",
+    "end": "2025-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-10-12 00:00:00",
+    "start": "2025-10-12T06:00:00.000Z",
+    "end": "2025-10-13T06:00:00.000Z",
+    "name": "Día de la resistencia indígena",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-12-08 00:00:00",
+    "start": "2025-12-08T06:00:00.000Z",
+    "end": "2025-12-09T06:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-12-24 00:00:00",
+    "start": "2025-12-24T06:00:00.000Z",
+    "end": "2025-12-25T06:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-25T06:00:00.000Z",
+    "end": "2025-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-31 00:00:00",
+    "start": "2025-12-31T06:00:00.000Z",
+    "end": "2026-01-01T06:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "observance",
+    "_weekday": "Wed"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T05:00:00.000Z",
+    "end": "2024-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-19 00:00:00",
+    "start": "2024-02-19T05:00:00.000Z",
+    "end": "2024-02-20T05:00:00.000Z",
+    "name": "Family Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T04:00:00.000Z",
+    "end": "2024-03-30T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T04:00:00.000Z",
+    "end": "2024-04-01T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-04-01T04:00:00.000Z",
+    "end": "2024-04-02T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-05-12 00:00:00",
+    "start": "2024-05-12T04:00:00.000Z",
+    "end": "2024-05-13T04:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-20T04:00:00.000Z",
+    "end": "2024-05-21T04:00:00.000Z",
+    "name": "Victoria Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-16 00:00:00",
+    "start": "2024-06-16T04:00:00.000Z",
+    "end": "2024-06-17T04:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-01 00:00:00",
+    "start": "2024-07-01T04:00:00.000Z",
+    "end": "2024-07-02T04:00:00.000Z",
+    "name": "Canada Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-08-05 00:00:00",
+    "start": "2024-08-05T04:00:00.000Z",
+    "end": "2024-08-06T04:00:00.000Z",
+    "name": "Civic Holiday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-09-02 00:00:00",
+    "start": "2024-09-02T04:00:00.000Z",
+    "end": "2024-09-03T04:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-14 00:00:00",
+    "start": "2024-10-14T04:00:00.000Z",
+    "end": "2024-10-15T04:00:00.000Z",
+    "name": "Thanksgiving",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-11 00:00:00",
+    "start": "2024-11-11T05:00:00.000Z",
+    "end": "2024-11-12T05:00:00.000Z",
+    "name": "Remembrance Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T05:00:00.000Z",
+    "end": "2024-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-26T05:00:00.000Z",
+    "end": "2024-12-27T05:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Thu"
+  }
+]

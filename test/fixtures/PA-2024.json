@@ -1,0 +1,125 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T05:00:00.000Z",
+    "end": "2024-01-02T05:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-09 00:00:00",
+    "start": "2024-01-09T05:00:00.000Z",
+    "end": "2024-01-10T05:00:00.000Z",
+    "name": "Día de los Mártires Caídos en la Gesta Patriótica",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-02-12 00:00:00",
+    "start": "2024-02-12T05:00:00.000Z",
+    "end": "2024-02-13T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-13 00:00:00",
+    "start": "2024-02-13T05:00:00.000Z",
+    "end": "2024-02-14T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T05:00:00.000Z",
+    "end": "2024-03-30T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T05:00:00.000Z",
+    "end": "2024-05-02T05:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-07-01 00:00:00",
+    "start": "2024-07-01T05:00:00.000Z",
+    "end": "2024-07-02T05:00:00.000Z",
+    "name": "Presidential Inauguration",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-03 00:00:00",
+    "start": "2024-11-03T05:00:00.000Z",
+    "end": "2024-11-04T05:00:00.000Z",
+    "name": "Día de la Separación (de Colombia)",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-11-04 00:00:00",
+    "start": "2024-11-04T05:00:00.000Z",
+    "end": "2024-11-05T05:00:00.000Z",
+    "name": "Día de la Separación (de Colombia) (día sustituto)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-10 00:00:00",
+    "start": "2024-11-10T05:00:00.000Z",
+    "end": "2024-11-11T05:00:00.000Z",
+    "name": "Primer Grito de Independencia",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-11-11 00:00:00",
+    "start": "2024-11-11T05:00:00.000Z",
+    "end": "2024-11-12T05:00:00.000Z",
+    "name": "Primer Grito de Independencia (día sustituto)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-28 00:00:00",
+    "start": "2024-11-28T05:00:00.000Z",
+    "end": "2024-11-29T05:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-12-08 00:00:00",
+    "start": "2024-12-08T05:00:00.000Z",
+    "end": "2024-12-09T05:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-12-09 00:00:00",
+    "start": "2024-12-09T05:00:00.000Z",
+    "end": "2024-12-10T05:00:00.000Z",
+    "name": "Día de la Madre (día sustituto)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T05:00:00.000Z",
+    "end": "2024-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T14:30:00.000Z",
+    "end": "2025-01-01T14:30:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-27 00:00:00",
+    "start": "2025-01-26T14:30:00.000Z",
+    "end": "2025-01-27T14:30:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T14:30:00.000Z",
+    "end": "2025-04-18T14:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-19 00:00:00",
+    "start": "2025-04-18T14:30:00.000Z",
+    "end": "2025-04-19T14:30:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T14:30:00.000Z",
+    "end": "2025-04-21T14:30:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-25 00:00:00",
+    "start": "2025-04-24T14:30:00.000Z",
+    "end": "2025-04-25T14:30:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-05-05 00:00:00",
+    "start": "2025-05-04T14:30:00.000Z",
+    "end": "2025-05-05T14:30:00.000Z",
+    "name": "May Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-09 00:00:00",
+    "start": "2025-06-08T14:30:00.000Z",
+    "end": "2025-06-09T14:30:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-08-04 00:00:00",
+    "start": "2025-08-03T14:30:00.000Z",
+    "end": "2025-08-04T14:30:00.000Z",
+    "name": "Picnic Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-12-24 19:00:00",
+    "start": "2025-12-24T09:30:00.000Z",
+    "end": "2025-12-24T14:30:00.000Z",
+    "name": "Christmas Eve",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T14:30:00.000Z",
+    "end": "2025-12-25T14:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-25T14:30:00.000Z",
+    "end": "2025-12-26T14:30:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-12-31 19:00:00",
+    "start": "2025-12-31T09:30:00.000Z",
+    "end": "2025-12-31T14:30:00.000Z",
+    "name": "New Year's Eve",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]

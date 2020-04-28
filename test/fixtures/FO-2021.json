@@ -1,0 +1,140 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T00:00:00.000Z",
+    "end": "2021-01-02T00:00:00.000Z",
+    "name": "Nýggjársdagur",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-01 00:00:00",
+    "start": "2021-03-31T23:00:00.000Z",
+    "end": "2021-04-01T23:00:00.000Z",
+    "name": "Skírhósdagur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T23:00:00.000Z",
+    "end": "2021-04-02T23:00:00.000Z",
+    "name": "Langafríggjadagur",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T23:00:00.000Z",
+    "end": "2021-04-04T23:00:00.000Z",
+    "name": "Páskadagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T23:00:00.000Z",
+    "end": "2021-04-05T23:00:00.000Z",
+    "name": "Annar páskadagur",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-24 00:00:00",
+    "start": "2021-04-23T23:00:00.000Z",
+    "end": "2021-04-24T23:00:00.000Z",
+    "name": "Flaggdagur",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-04-30 00:00:00",
+    "start": "2021-04-29T23:00:00.000Z",
+    "end": "2021-04-30T23:00:00.000Z",
+    "name": "Dýri biðidagur",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-13 00:00:00",
+    "start": "2021-05-12T23:00:00.000Z",
+    "end": "2021-05-13T23:00:00.000Z",
+    "name": "Kristi Himmalsferðardagur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-23 00:00:00",
+    "start": "2021-05-22T23:00:00.000Z",
+    "end": "2021-05-23T23:00:00.000Z",
+    "name": "Hvítusunnudagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-23T23:00:00.000Z",
+    "end": "2021-05-24T23:00:00.000Z",
+    "name": "Annar hvítusunnudagur",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-05 12:00:00",
+    "start": "2021-06-05T11:00:00.000Z",
+    "end": "2021-06-05T23:00:00.000Z",
+    "name": "Grundlógardagur",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-07-28 12:00:00",
+    "start": "2021-07-28T11:00:00.000Z",
+    "end": "2021-07-28T23:00:00.000Z",
+    "name": "Sankt Olavsaften",
+    "type": "observance",
+    "note": "half-day holiday for some workers' unions",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-07-29 00:00:00",
+    "start": "2021-07-28T23:00:00.000Z",
+    "end": "2021-07-29T23:00:00.000Z",
+    "name": "Ólavsøka",
+    "type": "observance",
+    "note": "full holiday for most workers' unions",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-24 00:00:00",
+    "start": "2021-12-24T00:00:00.000Z",
+    "end": "2021-12-25T00:00:00.000Z",
+    "name": "Jólaaftan",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T00:00:00.000Z",
+    "end": "2021-12-26T00:00:00.000Z",
+    "name": "Fyrsti jóladagur",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T00:00:00.000Z",
+    "end": "2021-12-27T00:00:00.000Z",
+    "name": "Fyrsti gerandisdagur eftir jóladag",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-31 12:00:00",
+    "start": "2021-12-31T12:00:00.000Z",
+    "end": "2022-01-01T00:00:00.000Z",
+    "name": "Nýggjársaftan",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

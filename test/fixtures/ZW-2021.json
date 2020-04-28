@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T22:00:00.000Z",
+    "end": "2021-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T22:00:00.000Z",
+    "end": "2021-04-02T22:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T22:00:00.000Z",
+    "end": "2021-04-04T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T22:00:00.000Z",
+    "end": "2021-04-05T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-18 00:00:00",
+    "start": "2021-04-17T22:00:00.000Z",
+    "end": "2021-04-18T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T22:00:00.000Z",
+    "end": "2021-05-01T22:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-09 00:00:00",
+    "start": "2021-05-08T22:00:00.000Z",
+    "end": "2021-05-09T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-25 00:00:00",
+    "start": "2021-05-24T22:00:00.000Z",
+    "end": "2021-05-25T22:00:00.000Z",
+    "name": "Africa Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-06-20 00:00:00",
+    "start": "2021-06-19T22:00:00.000Z",
+    "end": "2021-06-20T22:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-08-09 00:00:00",
+    "start": "2021-08-08T22:00:00.000Z",
+    "end": "2021-08-09T22:00:00.000Z",
+    "name": "Heroes' Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-10 00:00:00",
+    "start": "2021-08-09T22:00:00.000Z",
+    "end": "2021-08-10T22:00:00.000Z",
+    "name": "Defence Forces Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-12-22 00:00:00",
+    "start": "2021-12-21T22:00:00.000Z",
+    "end": "2021-12-22T22:00:00.000Z",
+    "name": "Unity Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T22:00:00.000Z",
+    "end": "2021-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T22:00:00.000Z",
+    "end": "2021-12-26T22:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

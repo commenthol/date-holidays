@@ -10,7 +10,6 @@ const Holidays = require('..')
 var writetests
 var _countries
 
-var years = [2015, 2016, 2017, 2018, 2019, 2020]
 var WEEKDAYS = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 
 // regenerate tests with `mocha test/all.mocha.js --writetests`
@@ -29,11 +28,16 @@ function options (argv) {
     } else if (isOpt(argv[i], '-y', '--year')) {
       years = argv[++i].split(',')
     } else if (isOpt(argv[i], '-w', '--writetests')) {
+      process.env.TEST_XXL = true
       writetests = true
     }
   }
 }
 options(process.argv.splice(2))
+
+var years = process.env.TEST_XXL
+  ? [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  : [2019, 2020, 2021, 2022, 2023]
 
 function filename (name) {
   var file = path.join(__dirname, 'fixtures', name + '.json')

@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2025-01-01T08:00:00.000Z",
+    "end": "2025-01-02T08:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-02-17 00:00:00",
+    "start": "2025-02-17T08:00:00.000Z",
+    "end": "2025-02-18T08:00:00.000Z",
+    "name": "Family Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-18T07:00:00.000Z",
+    "end": "2025-04-19T07:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-20T07:00:00.000Z",
+    "end": "2025-04-21T07:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-11 00:00:00",
+    "start": "2025-05-11T07:00:00.000Z",
+    "end": "2025-05-12T07:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-19 00:00:00",
+    "start": "2025-05-19T07:00:00.000Z",
+    "end": "2025-05-20T07:00:00.000Z",
+    "name": "Victoria Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-15 00:00:00",
+    "start": "2025-06-15T07:00:00.000Z",
+    "end": "2025-06-16T07:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-07-01 00:00:00",
+    "start": "2025-07-01T07:00:00.000Z",
+    "end": "2025-07-02T07:00:00.000Z",
+    "name": "Canada Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-08-04 00:00:00",
+    "start": "2025-08-04T07:00:00.000Z",
+    "end": "2025-08-05T07:00:00.000Z",
+    "name": "Civic Holiday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-09-01 00:00:00",
+    "start": "2025-09-01T07:00:00.000Z",
+    "end": "2025-09-02T07:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-10-13 00:00:00",
+    "start": "2025-10-13T07:00:00.000Z",
+    "end": "2025-10-14T07:00:00.000Z",
+    "name": "Thanksgiving",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-11-11 00:00:00",
+    "start": "2025-11-11T08:00:00.000Z",
+    "end": "2025-11-12T08:00:00.000Z",
+    "name": "Remembrance Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-25T08:00:00.000Z",
+    "end": "2025-12-26T08:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-26T08:00:00.000Z",
+    "end": "2025-12-27T08:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Fri"
+  }
+]

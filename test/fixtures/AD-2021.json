@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T23:00:00.000Z",
+    "end": "2021-01-01T23:00:00.000Z",
+    "name": "Any nou",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-06 00:00:00",
+    "start": "2021-01-05T23:00:00.000Z",
+    "end": "2021-01-06T23:00:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-02-16 00:00:00",
+    "start": "2021-02-15T23:00:00.000Z",
+    "end": "2021-02-16T23:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-03-14 00:00:00",
+    "start": "2021-03-13T23:00:00.000Z",
+    "end": "2021-03-14T23:00:00.000Z",
+    "name": "Dia de la Constitució",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-01 14:00:00",
+    "start": "2021-04-01T12:00:00.000Z",
+    "end": "2021-04-01T22:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "bank",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T22:00:00.000Z",
+    "end": "2021-04-02T22:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T22:00:00.000Z",
+    "end": "2021-04-04T22:00:00.000Z",
+    "name": "Pascua",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T22:00:00.000Z",
+    "end": "2021-04-05T22:00:00.000Z",
+    "name": "Lunes de Pascua",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T22:00:00.000Z",
+    "end": "2021-05-01T22:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-23 00:00:00",
+    "start": "2021-05-22T22:00:00.000Z",
+    "end": "2021-05-23T22:00:00.000Z",
+    "name": "Pentecostés",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-23T22:00:00.000Z",
+    "end": "2021-05-24T22:00:00.000Z",
+    "name": "Lunes de Pentecostés",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-14T22:00:00.000Z",
+    "end": "2021-08-15T22:00:00.000Z",
+    "name": "Asunción",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-09-08 00:00:00",
+    "start": "2021-09-07T22:00:00.000Z",
+    "end": "2021-09-08T22:00:00.000Z",
+    "name": "Mare de Déu de Meritxell",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-10-31T23:00:00.000Z",
+    "end": "2021-11-01T23:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-08 00:00:00",
+    "start": "2021-12-07T23:00:00.000Z",
+    "end": "2021-12-08T23:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-12-24 00:00:00",
+    "start": "2021-12-23T23:00:00.000Z",
+    "end": "2021-12-24T23:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "bank",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T23:00:00.000Z",
+    "end": "2021-12-25T23:00:00.000Z",
+    "name": "Nadal",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T23:00:00.000Z",
+    "end": "2021-12-26T23:00:00.000Z",
+    "name": "San Esteban",
+    "type": "public",
+    "_weekday": "Sun"
+  }
+]

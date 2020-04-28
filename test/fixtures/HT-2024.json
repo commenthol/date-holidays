@@ -1,0 +1,154 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T05:00:00.000Z",
+    "end": "2024-01-02T05:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-02 00:00:00",
+    "start": "2024-01-02T05:00:00.000Z",
+    "end": "2024-01-03T05:00:00.000Z",
+    "name": "Jour des Aieux",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-01-06 00:00:00",
+    "start": "2024-01-06T05:00:00.000Z",
+    "end": "2024-01-07T05:00:00.000Z",
+    "name": "Le Jour des Rois",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-02-12 14:00:00",
+    "start": "2024-02-12T19:00:00.000Z",
+    "end": "2024-02-13T05:00:00.000Z",
+    "name": "Lundi Gras",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-13 00:00:00",
+    "start": "2024-02-13T05:00:00.000Z",
+    "end": "2024-02-14T05:00:00.000Z",
+    "name": "Mardi Gras",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-02-14 00:00:00",
+    "start": "2024-02-14T05:00:00.000Z",
+    "end": "2024-02-15T05:00:00.000Z",
+    "name": "Mercredi des Cendres",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T04:00:00.000Z",
+    "end": "2024-03-30T04:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T04:00:00.000Z",
+    "end": "2024-04-01T04:00:00.000Z",
+    "name": "Pâques",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T04:00:00.000Z",
+    "end": "2024-05-02T04:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-09T04:00:00.000Z",
+    "end": "2024-05-10T04:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-18 00:00:00",
+    "start": "2024-05-18T04:00:00.000Z",
+    "end": "2024-05-19T04:00:00.000Z",
+    "name": "Jour du Drapeau et de l'Université",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-05-30 00:00:00",
+    "start": "2024-05-30T04:00:00.000Z",
+    "end": "2024-05-31T04:00:00.000Z",
+    "name": "la Fête-Dieu",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-08-15 00:00:00",
+    "start": "2024-08-15T04:00:00.000Z",
+    "end": "2024-08-16T04:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-10-17 00:00:00",
+    "start": "2024-10-17T04:00:00.000Z",
+    "end": "2024-10-18T04:00:00.000Z",
+    "name": "Anniversaire de la mort de Dessalines",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-11-01T04:00:00.000Z",
+    "end": "2024-11-02T04:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-11-02 00:00:00",
+    "start": "2024-11-02T04:00:00.000Z",
+    "end": "2024-11-03T04:00:00.000Z",
+    "name": "Fête des morts",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-11-18 00:00:00",
+    "start": "2024-11-18T05:00:00.000Z",
+    "end": "2024-11-19T05:00:00.000Z",
+    "name": "Vertières",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-05 00:00:00",
+    "start": "2024-12-05T05:00:00.000Z",
+    "end": "2024-12-06T05:00:00.000Z",
+    "name": "Découverte d'Haïti",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T05:00:00.000Z",
+    "end": "2024-12-26T05:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "_weekday": "Wed"
+  }
+]

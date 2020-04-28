@@ -1,0 +1,226 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T00:00:00.000Z",
+    "end": "2022-01-02T00:00:00.000Z",
+    "name": "Nýársdagur",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-06 00:00:00",
+    "start": "2022-01-06T00:00:00.000Z",
+    "end": "2022-01-07T00:00:00.000Z",
+    "name": "Þrettándinn",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-01-21 00:00:00",
+    "start": "2022-01-21T00:00:00.000Z",
+    "end": "2022-01-22T00:00:00.000Z",
+    "name": "Bóndadagur",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-02-18 00:00:00",
+    "start": "2022-02-18T00:00:00.000Z",
+    "end": "2022-02-19T00:00:00.000Z",
+    "name": "Konudagur",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-02-28 00:00:00",
+    "start": "2022-02-28T00:00:00.000Z",
+    "end": "2022-03-01T00:00:00.000Z",
+    "name": "Bolludagur",
+    "type": "observance",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-01 00:00:00",
+    "start": "2022-03-01T00:00:00.000Z",
+    "end": "2022-03-02T00:00:00.000Z",
+    "name": "Sprengidagur",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-03-02 00:00:00",
+    "start": "2022-03-02T00:00:00.000Z",
+    "end": "2022-03-03T00:00:00.000Z",
+    "name": "Öskudagur",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-04-10 00:00:00",
+    "start": "2022-04-10T00:00:00.000Z",
+    "end": "2022-04-11T00:00:00.000Z",
+    "name": "Pálmasunnudagur",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-14 00:00:00",
+    "start": "2022-04-14T00:00:00.000Z",
+    "end": "2022-04-15T00:00:00.000Z",
+    "name": "Skírdagur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T00:00:00.000Z",
+    "end": "2022-04-16T00:00:00.000Z",
+    "name": "Föstudagurinn langi",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T00:00:00.000Z",
+    "end": "2022-04-18T00:00:00.000Z",
+    "name": "Páskadagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-18T00:00:00.000Z",
+    "end": "2022-04-19T00:00:00.000Z",
+    "name": "Annar í páskum",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-21 00:00:00",
+    "start": "2022-04-21T00:00:00.000Z",
+    "end": "2022-04-22T00:00:00.000Z",
+    "name": "Sumardagurinn fyrsti",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T00:00:00.000Z",
+    "end": "2022-05-02T00:00:00.000Z",
+    "name": "Hátíðisdagur Verkamanna",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-08T00:00:00.000Z",
+    "end": "2022-05-09T00:00:00.000Z",
+    "name": "Mæðradagurinn",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-26T00:00:00.000Z",
+    "end": "2022-05-27T00:00:00.000Z",
+    "name": "Uppstigningardagur",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-05T00:00:00.000Z",
+    "end": "2022-06-06T00:00:00.000Z",
+    "name": "Hvítasunnudagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-05T00:00:00.000Z",
+    "end": "2022-06-06T00:00:00.000Z",
+    "name": "Sjómannadagurinn",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-06 00:00:00",
+    "start": "2022-06-06T00:00:00.000Z",
+    "end": "2022-06-07T00:00:00.000Z",
+    "name": "Annar í hvítasunnu",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-17 00:00:00",
+    "start": "2022-06-17T00:00:00.000Z",
+    "end": "2022-06-18T00:00:00.000Z",
+    "name": "Íslenski þjóðhátíðardagurinn",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-08-01 00:00:00",
+    "start": "2022-08-01T00:00:00.000Z",
+    "end": "2022-08-02T00:00:00.000Z",
+    "name": "Frídagur verslunarmanna",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-22 00:00:00",
+    "start": "2022-10-22T00:00:00.000Z",
+    "end": "2022-10-23T00:00:00.000Z",
+    "name": "Fyrsti vetrardagur",
+    "type": "observance",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-11-16 00:00:00",
+    "start": "2022-11-16T00:00:00.000Z",
+    "end": "2022-11-17T00:00:00.000Z",
+    "name": "Dagur íslenskrar tungu",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-12-23 00:00:00",
+    "start": "2022-12-23T00:00:00.000Z",
+    "end": "2022-12-24T00:00:00.000Z",
+    "name": "Þorláksmessa",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-12-24 13:00:00",
+    "start": "2022-12-24T13:00:00.000Z",
+    "end": "2022-12-25T00:00:00.000Z",
+    "name": "Aðfangadagur",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T00:00:00.000Z",
+    "end": "2022-12-26T00:00:00.000Z",
+    "name": "Jóladagur",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-26T00:00:00.000Z",
+    "end": "2022-12-27T00:00:00.000Z",
+    "name": "Annar í jólum",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 13:00:00",
+    "start": "2022-12-31T13:00:00.000Z",
+    "end": "2023-01-01T00:00:00.000Z",
+    "name": "Gamlársdagur",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]

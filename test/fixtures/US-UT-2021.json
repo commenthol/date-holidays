@@ -1,0 +1,197 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T07:00:00.000Z",
+    "end": "2021-01-02T07:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-18 00:00:00",
+    "start": "2021-01-18T07:00:00.000Z",
+    "end": "2021-01-19T07:00:00.000Z",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-02-14 00:00:00",
+    "start": "2021-02-14T07:00:00.000Z",
+    "end": "2021-02-15T07:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-02-15 00:00:00",
+    "start": "2021-02-15T07:00:00.000Z",
+    "end": "2021-02-16T07:00:00.000Z",
+    "name": "Washington and Lincoln Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-04T06:00:00.000Z",
+    "end": "2021-04-05T06:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-15 00:00:00",
+    "start": "2021-04-15T06:00:00.000Z",
+    "end": "2021-04-16T06:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-21 00:00:00",
+    "start": "2021-04-21T06:00:00.000Z",
+    "end": "2021-04-22T06:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-05-09 00:00:00",
+    "start": "2021-05-09T06:00:00.000Z",
+    "end": "2021-05-10T06:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-31 00:00:00",
+    "start": "2021-05-31T06:00:00.000Z",
+    "end": "2021-06-01T06:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-20 00:00:00",
+    "start": "2021-06-20T06:00:00.000Z",
+    "end": "2021-06-21T06:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-07-04 00:00:00",
+    "start": "2021-07-04T06:00:00.000Z",
+    "end": "2021-07-05T06:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-07-05 00:00:00",
+    "start": "2021-07-05T06:00:00.000Z",
+    "end": "2021-07-06T06:00:00.000Z",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-07-24 00:00:00",
+    "start": "2021-07-24T06:00:00.000Z",
+    "end": "2021-07-25T06:00:00.000Z",
+    "name": "Pioneer Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-09-06 00:00:00",
+    "start": "2021-09-06T06:00:00.000Z",
+    "end": "2021-09-07T06:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-11 00:00:00",
+    "start": "2021-10-11T06:00:00.000Z",
+    "end": "2021-10-12T06:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-31 18:00:00",
+    "start": "2021-11-01T00:00:00.000Z",
+    "end": "2021-11-01T06:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-11-11 00:00:00",
+    "start": "2021-11-11T07:00:00.000Z",
+    "end": "2021-11-12T07:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-11-25 00:00:00",
+    "start": "2021-11-25T07:00:00.000Z",
+    "end": "2021-11-26T07:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-11-26 00:00:00",
+    "start": "2021-11-26T07:00:00.000Z",
+    "end": "2021-11-27T07:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-24 00:00:00",
+    "start": "2021-12-24T07:00:00.000Z",
+    "end": "2021-12-25T07:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-24 00:00:00",
+    "start": "2021-12-24T07:00:00.000Z",
+    "end": "2021-12-25T07:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T07:00:00.000Z",
+    "end": "2021-12-26T07:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-31 00:00:00",
+    "start": "2021-12-31T07:00:00.000Z",
+    "end": "2022-01-01T07:00:00.000Z",
+    "name": "New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-31 00:00:00",
+    "start": "2021-12-31T07:00:00.000Z",
+    "end": "2022-01-01T07:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "_weekday": "Fri"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T03:00:00.000Z",
+    "end": "2024-01-02T03:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T03:00:00.000Z",
+    "end": "2024-03-30T03:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T03:00:00.000Z",
+    "end": "2024-04-01T03:00:00.000Z",
+    "name": "Pascua",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T04:00:00.000Z",
+    "end": "2024-05-02T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-21 00:00:00",
+    "start": "2024-05-21T04:00:00.000Z",
+    "end": "2024-05-22T04:00:00.000Z",
+    "name": "Día de las Glorias Navales",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-06-29 00:00:00",
+    "start": "2024-06-29T04:00:00.000Z",
+    "end": "2024-06-30T04:00:00.000Z",
+    "name": "San Pedro y San Pablo",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-07-16 00:00:00",
+    "start": "2024-07-16T04:00:00.000Z",
+    "end": "2024-07-17T04:00:00.000Z",
+    "name": "Virgen del Carmen",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-08-15 00:00:00",
+    "start": "2024-08-15T04:00:00.000Z",
+    "end": "2024-08-16T04:00:00.000Z",
+    "name": "Asunción",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-09-18 00:00:00",
+    "start": "2024-09-18T03:00:00.000Z",
+    "end": "2024-09-19T03:00:00.000Z",
+    "name": "Fiestas Patrias",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-09-19 00:00:00",
+    "start": "2024-09-19T03:00:00.000Z",
+    "end": "2024-09-20T03:00:00.000Z",
+    "name": "Día de las Glorias del Ejército",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-10-12 00:00:00",
+    "start": "2024-10-12T03:00:00.000Z",
+    "end": "2024-10-13T03:00:00.000Z",
+    "name": "Día del Descubrimiento de Dos Mundos",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-10-31 00:00:00",
+    "start": "2024-10-31T03:00:00.000Z",
+    "end": "2024-11-01T03:00:00.000Z",
+    "name": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-11-01T03:00:00.000Z",
+    "end": "2024-11-02T03:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-08 00:00:00",
+    "start": "2024-12-08T03:00:00.000Z",
+    "end": "2024-12-09T03:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T03:00:00.000Z",
+    "end": "2024-12-26T03:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-31 00:00:00",
+    "start": "2024-12-31T03:00:00.000Z",
+    "end": "2025-01-01T03:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "bank",
+    "_weekday": "Tue"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T22:00:00.000Z",
+    "end": "2022-01-01T22:00:00.000Z",
+    "name": "Nyårsdagen",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-06 00:00:00",
+    "start": "2022-01-05T22:00:00.000Z",
+    "end": "2022-01-06T22:00:00.000Z",
+    "name": "Trettondedag jul",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-03-30 00:00:00",
+    "start": "2022-03-29T21:00:00.000Z",
+    "end": "2022-03-30T21:00:00.000Z",
+    "name": "Ålands demilitariseringsdag",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T21:00:00.000Z",
+    "end": "2022-04-15T21:00:00.000Z",
+    "name": "Långfredagen",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-16T21:00:00.000Z",
+    "end": "2022-04-17T21:00:00.000Z",
+    "name": "Påsk",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T21:00:00.000Z",
+    "end": "2022-04-18T21:00:00.000Z",
+    "name": "Annandag påsk",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T21:00:00.000Z",
+    "end": "2022-05-01T21:00:00.000Z",
+    "name": "Första Maj",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-25T21:00:00.000Z",
+    "end": "2022-05-26T21:00:00.000Z",
+    "name": "Kristi himmelfärds dag",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-04T21:00:00.000Z",
+    "end": "2022-06-05T21:00:00.000Z",
+    "name": "Pingst",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-09 00:00:00",
+    "start": "2022-06-08T21:00:00.000Z",
+    "end": "2022-06-09T21:00:00.000Z",
+    "name": "Självstyrelsedagen",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-17 12:00:00",
+    "start": "2022-06-17T09:00:00.000Z",
+    "end": "2022-06-17T21:00:00.000Z",
+    "name": "Midsommarafton",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-06-18 00:00:00",
+    "start": "2022-06-17T21:00:00.000Z",
+    "end": "2022-06-18T21:00:00.000Z",
+    "name": "Midsommardagen",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-06 00:00:00",
+    "start": "2022-12-05T22:00:00.000Z",
+    "end": "2022-12-06T22:00:00.000Z",
+    "name": "Självständighetsdagen",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-12-24 12:00:00",
+    "start": "2022-12-24T10:00:00.000Z",
+    "end": "2022-12-24T22:00:00.000Z",
+    "name": "Julafton",
+    "type": "bank",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T22:00:00.000Z",
+    "end": "2022-12-25T22:00:00.000Z",
+    "name": "Juldagen",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T22:00:00.000Z",
+    "end": "2022-12-26T22:00:00.000Z",
+    "name": "Annandag jul",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 12:00:00",
+    "start": "2022-12-31T10:00:00.000Z",
+    "end": "2022-12-31T22:00:00.000Z",
+    "name": "Nyårsafton",
+    "type": "bank",
+    "_weekday": "Sat"
+  }
+]

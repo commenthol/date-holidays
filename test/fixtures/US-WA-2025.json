@@ -1,0 +1,162 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2025-01-01T08:00:00.000Z",
+    "end": "2025-01-02T08:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-20 00:00:00",
+    "start": "2025-01-20T08:00:00.000Z",
+    "end": "2025-01-21T08:00:00.000Z",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-02-14 00:00:00",
+    "start": "2025-02-14T08:00:00.000Z",
+    "end": "2025-02-15T08:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-02-17 00:00:00",
+    "start": "2025-02-17T08:00:00.000Z",
+    "end": "2025-02-18T08:00:00.000Z",
+    "name": "Presidents' Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-15 00:00:00",
+    "start": "2025-04-15T07:00:00.000Z",
+    "end": "2025-04-16T07:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-20T07:00:00.000Z",
+    "end": "2025-04-21T07:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-23 00:00:00",
+    "start": "2025-04-23T07:00:00.000Z",
+    "end": "2025-04-24T07:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-05-11 00:00:00",
+    "start": "2025-05-11T07:00:00.000Z",
+    "end": "2025-05-12T07:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-26 00:00:00",
+    "start": "2025-05-26T07:00:00.000Z",
+    "end": "2025-05-27T07:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-15 00:00:00",
+    "start": "2025-06-15T07:00:00.000Z",
+    "end": "2025-06-16T07:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-07-04 00:00:00",
+    "start": "2025-07-04T07:00:00.000Z",
+    "end": "2025-07-05T07:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-09-01 00:00:00",
+    "start": "2025-09-01T07:00:00.000Z",
+    "end": "2025-09-02T07:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-10-13 00:00:00",
+    "start": "2025-10-13T07:00:00.000Z",
+    "end": "2025-10-14T07:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-10-31 18:00:00",
+    "start": "2025-11-01T01:00:00.000Z",
+    "end": "2025-11-01T07:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-11-11 00:00:00",
+    "start": "2025-11-11T08:00:00.000Z",
+    "end": "2025-11-12T08:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-11-27 00:00:00",
+    "start": "2025-11-27T08:00:00.000Z",
+    "end": "2025-11-28T08:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-11-28 00:00:00",
+    "start": "2025-11-28T08:00:00.000Z",
+    "end": "2025-11-29T08:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-12-24 00:00:00",
+    "start": "2025-12-24T08:00:00.000Z",
+    "end": "2025-12-25T08:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-25T08:00:00.000Z",
+    "end": "2025-12-26T08:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-31 00:00:00",
+    "start": "2025-12-31T08:00:00.000Z",
+    "end": "2026-01-01T08:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "_weekday": "Wed"
+  }
+]

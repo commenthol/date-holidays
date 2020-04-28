@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T05:00:00.000Z",
+    "end": "2023-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T04:00:00.000Z",
+    "end": "2023-04-08T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T04:00:00.000Z",
+    "end": "2023-04-10T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-14 00:00:00",
+    "start": "2023-05-14T04:00:00.000Z",
+    "end": "2023-05-15T04:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-22 00:00:00",
+    "start": "2023-05-22T04:00:00.000Z",
+    "end": "2023-05-23T04:00:00.000Z",
+    "name": "Victoria Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-06-18 00:00:00",
+    "start": "2023-06-18T04:00:00.000Z",
+    "end": "2023-06-19T04:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-07-01 00:00:00",
+    "start": "2023-07-01T04:00:00.000Z",
+    "end": "2023-07-02T04:00:00.000Z",
+    "name": "Canada Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-08-07 00:00:00",
+    "start": "2023-08-07T04:00:00.000Z",
+    "end": "2023-08-08T04:00:00.000Z",
+    "name": "Civic Holiday",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-09-04 00:00:00",
+    "start": "2023-09-04T04:00:00.000Z",
+    "end": "2023-09-05T04:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-10-09 00:00:00",
+    "start": "2023-10-09T04:00:00.000Z",
+    "end": "2023-10-10T04:00:00.000Z",
+    "name": "Thanksgiving",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-11-11 00:00:00",
+    "start": "2023-11-11T05:00:00.000Z",
+    "end": "2023-11-12T05:00:00.000Z",
+    "name": "Remembrance Day",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T05:00:00.000Z",
+    "end": "2023-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-26 00:00:00",
+    "start": "2023-12-26T05:00:00.000Z",
+    "end": "2023-12-27T05:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "_weekday": "Tue"
+  }
+]

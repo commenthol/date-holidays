@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T23:00:00.000Z",
+    "end": "2021-01-01T23:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-02-04 00:00:00",
+    "start": "2021-02-03T23:00:00.000Z",
+    "end": "2021-02-04T23:00:00.000Z",
+    "name": "Dia do Início da Luta Armada de Libertação Nacional",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-02-16 00:00:00",
+    "start": "2021-02-15T23:00:00.000Z",
+    "end": "2021-02-16T23:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-03-08 00:00:00",
+    "start": "2021-03-07T23:00:00.000Z",
+    "end": "2021-03-08T23:00:00.000Z",
+    "name": "Dia Internacional da Mulher",
+    "type": "public",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T23:00:00.000Z",
+    "end": "2021-04-02T23:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T23:00:00.000Z",
+    "end": "2021-04-04T23:00:00.000Z",
+    "name": "Dia da Paz",
+    "type": "public",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T23:00:00.000Z",
+    "end": "2021-04-04T23:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T23:00:00.000Z",
+    "end": "2021-05-01T23:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-02 00:00:00",
+    "start": "2021-05-01T23:00:00.000Z",
+    "end": "2021-05-02T23:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-09-17 00:00:00",
+    "start": "2021-09-16T23:00:00.000Z",
+    "end": "2021-09-17T23:00:00.000Z",
+    "name": "Fundador da Nação e Dia dos Heróis Nacionais",
+    "type": "public",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-11-02 00:00:00",
+    "start": "2021-11-01T23:00:00.000Z",
+    "end": "2021-11-02T23:00:00.000Z",
+    "name": "Dia de Finados",
+    "type": "public",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-11-11 00:00:00",
+    "start": "2021-11-10T23:00:00.000Z",
+    "end": "2021-11-11T23:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T23:00:00.000Z",
+    "end": "2021-12-25T23:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "_weekday": "Sat"
+  }
+]
