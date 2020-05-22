@@ -43,7 +43,6 @@ holidays:
         name:
           ro: Ziua Copilului
           en: Children's Day
-        type: observance
       06-26:
         name:
           ro: Ziua drapelului national
