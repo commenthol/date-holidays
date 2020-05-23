@@ -68,7 +68,7 @@
     "start": "2019-05-31T21:00:00.000Z",
     "end": "2019-06-01T21:00:00.000Z",
     "name": "Ziua Copilului",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sat"
   },
   {

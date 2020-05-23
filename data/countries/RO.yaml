@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Rum%C3%A4nien
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Romania
   # @source http://www.dreptonline.ro/legislatie/codul_muncii.php
   RO:
     names:
@@ -43,7 +44,6 @@ holidays:
         name:
           ro: Ziua Copilului
           en: Children's Day
-        type: observance
       06-26:
         name:
           ro: Ziua drapelului national
