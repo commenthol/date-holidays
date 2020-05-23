@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.2](https://github.com/commenthol/date-holidays/compare/1.5.1...1.5.2) (2020-05-23)
+
+- fix(RO): children's day is public [3ed93c2](https://github.com/commenthol/date-holidays/commit/3ed93c298668c327de24f074ea8d3ecc2cff6adf)
+
 ## [1.5.1](https://github.com/commenthol/date-holidays/compare/1.5.0...1.5.1) (2020-04-28)
 
 - fix(CZ): new year, easter holiday names [a96ffb2](https://github.com/commenthol/date-holidays/commit/a96ffb2e88e00fd35d99b5a82cc90ff42b932946)
