@@ -19,7 +19,7 @@ The features are:
 - setting of custom holidays
 - uses own grammar for calculation of days
 - support for islamic calendar from 1970 to 2080 (*islamic dates might not be
-  correct as they are subject to the sighting of the moon)
+  correct as they are subject to the sighting of the moon*)
 - support for hebrew calendar from 1970 to 2100
 - support for chinese calendar
 - for generation of iCal calendar check out [date-holidays-ical][]
@@ -478,12 +478,14 @@ hd.getHolidays(2016)
     start: Fri Jan 01 2016 00:00:00 GMT-0600 (CST),
     end: Sat Jan 02 2016 00:00:00 GMT-0600 (CST),
     name: 'New Year\'s Day',
+    rule: '01-01 and if sunday then next monday if saturday then previous friday',
     type: 'public' },
   ...
   { date: '2016-11-24 00:00:00',
     start: Thu Nov 24 2016 00:00:00 GMT-0600 (CST),
     end: Fri Nov 25 2016 00:00:00 GMT-0600 (CST),
     name: 'Thanksgiving Day',
+    rule: '4th thursday in November',
     type: 'public' },
   ...
   { date: '2016-12-26 00:00:00',
@@ -491,6 +493,7 @@ hd.getHolidays(2016)
     end: Tue Dec 27 2016 00:00:00 GMT-0600 (CST),
     substitute: true,
     name: 'Christmas Day (substitute day)',
+    rule: '12-25 and if sunday then next monday if saturday then previous friday',
     type: 'public' } ]
 */
 
@@ -503,6 +506,7 @@ hd.isHoliday(new Date('2016-02-09 10:00:00 GMT-0600'))
   start: Tue Feb 09 2016 00:00:00 GMT-0600 (CST),
   end: Wed Feb 10 2016 00:00:00 GMT-0600 (CST),
   name: 'Mardi Gras',
+  rule: 'easter -47',
   type: 'public' }
 */
 ```
