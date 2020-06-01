@@ -27,6 +27,7 @@ declare module 'date-holidays' {
             end: Date;
             name: string;
             type: HolidayType;
+            rule: string;
             substitute?: boolean;
         }
 
