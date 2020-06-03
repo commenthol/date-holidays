@@ -35,7 +35,7 @@
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
-    "name": "Paasmaandag",
+    "name": "Tweede paasdag",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -75,7 +75,7 @@
     "date": "2016-05-16 00:00:00",
     "start": "2016-05-15T22:00:00.000Z",
     "end": "2016-05-16T22:00:00.000Z",
-    "name": "Pinkstermaandag",
+    "name": "Tweede pinksterdag",
     "type": "public",
     "_weekday": "Mon"
   },
