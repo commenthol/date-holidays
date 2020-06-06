@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.3](https://github.com/commenthol/date-holidays/compare/1.5.2...1.5.3) (2020-06-06)
+
+- fix(NL): Fixed holidays for NL [3bfa17ba](https://github.com/commenthol/date-holidays/commit/3bfa17ba921f43df03f92c40acec5ff868ed0136)
+
 ## [1.5.2](https://github.com/commenthol/date-holidays/compare/1.5.1...1.5.2) (2020-05-23)
 
 - fix(RO): children's day is public [3ed93c2](https://github.com/commenthol/date-holidays/commit/3ed93c298668c327de24f074ea8d3ecc2cff6adf)
