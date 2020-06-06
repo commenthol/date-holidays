@@ -1,6 +1,8 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands
   # @attrib https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
+  # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen
+  # @source https://www.government.nl/topics/school-holidays/question-and-answer/on-which-public-holidays-are-schools-closed-in-the-netherlands
   NL:
     names:
       nl: Nederland
