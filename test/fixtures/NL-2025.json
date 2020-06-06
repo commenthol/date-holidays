@@ -12,7 +12,7 @@
     "start": "2025-04-17T22:00:00.000Z",
     "end": "2025-04-18T22:00:00.000Z",
     "name": "Goede Vrijdag",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Fri"
   },
   {
@@ -20,14 +20,14 @@
     "start": "2025-04-19T22:00:00.000Z",
     "end": "2025-04-20T22:00:00.000Z",
     "name": "Pasen",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2025-04-21 00:00:00",
     "start": "2025-04-20T22:00:00.000Z",
     "end": "2025-04-21T22:00:00.000Z",
-    "name": "Paasmaandag",
+    "name": "Tweede paasdag",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -76,14 +76,14 @@
     "start": "2025-06-07T22:00:00.000Z",
     "end": "2025-06-08T22:00:00.000Z",
     "name": "Pinksteren",
-    "type": "observance",
+    "type": "public",
     "_weekday": "Sun"
   },
   {
     "date": "2025-06-09 00:00:00",
     "start": "2025-06-08T22:00:00.000Z",
     "end": "2025-06-09T22:00:00.000Z",
-    "name": "Pinkstermaandag",
+    "name": "Tweede pinksterdag",
     "type": "public",
     "_weekday": "Mon"
   },
@@ -103,14 +103,6 @@
     "type": "observance",
     "note": "Scholen in Den Haag geven meestal 1 dag vrij",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2025-10-04 00:00:00",
-    "start": "2025-10-03T22:00:00.000Z",
-    "end": "2025-10-04T22:00:00.000Z",
-    "name": "Dierendag",
-    "type": "observance",
-    "_weekday": "Sat"
   },
   {
     "date": "2025-11-11 00:00:00",

@@ -15,10 +15,8 @@ holidays:
         _name: 01-01
       easter -2:
         _name: easter -2
-        type: observance
       easter:
         _name: easter
-        type: observance
       easter 1:
         _name: easter 1
       04-27 if sunday then previous saturday:
@@ -41,17 +39,12 @@ holidays:
         _name: easter 39
       easter 49:
         _name: easter 49
-        type: observance
       easter 50:
         _name: easter 50
       3rd tuesday in September:
         name:
           nl: Prinsjesdag
         note: Scholen in Den Haag geven meestal 1 dag vrij
-        type: observance
-      10-04:
-        name:
-          nl: Dierendag
         type: observance
       11-11:
         _name: 11-11
