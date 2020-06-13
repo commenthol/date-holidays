@@ -5,6 +5,7 @@
     "end": "2025-01-01T16:00:00.000Z",
     "name": "元旦",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2025-01-29T16:00:00.000Z",
     "name": "春节",
     "type": "public",
+    "rule": "chinese 01-0-01",
     "_weekday": "Wed"
   },
   {
@@ -22,6 +24,7 @@
     "name": "国际妇女节",
     "type": "public",
     "note": "Women",
+    "rule": "03-08 12:00",
     "_weekday": "Sat"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2025-04-04T16:00:00.000Z",
     "name": "清明节 清明節",
     "type": "public",
+    "rule": "chinese 5-01 solarterm",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2025-05-01T16:00:00.000Z",
     "name": "劳动节",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Thu"
   },
   {
@@ -47,6 +52,7 @@
     "name": "青年节",
     "type": "public",
     "note": "Youth from the age of 14 to 28",
+    "rule": "05-04 12:00",
     "_weekday": "Sun"
   },
   {
@@ -55,6 +61,7 @@
     "end": "2025-05-31T16:00:00.000Z",
     "name": "端午节",
     "type": "public",
+    "rule": "chinese 05-0-05",
     "_weekday": "Sat"
   },
   {
@@ -64,6 +71,7 @@
     "name": "六一儿童节",
     "type": "public",
     "note": "Children below the age of 14",
+    "rule": "06-01",
     "_weekday": "Sun"
   },
   {
@@ -73,6 +81,7 @@
     "name": "建军节",
     "type": "public",
     "note": "Military personnel in active service",
+    "rule": "08-01 12:00",
     "_weekday": "Fri"
   },
   {
@@ -81,6 +90,7 @@
     "end": "2025-10-01T16:00:00.000Z",
     "name": "国庆节",
     "type": "public",
+    "rule": "10-01",
     "_weekday": "Wed"
   },
   {
@@ -89,6 +99,7 @@
     "end": "2025-10-06T16:00:00.000Z",
     "name": "中秋节",
     "type": "public",
+    "rule": "chinese 08-0-15",
     "_weekday": "Mon"
   }
 ]

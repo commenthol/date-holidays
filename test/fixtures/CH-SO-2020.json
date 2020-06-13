@@ -5,6 +5,7 @@
     "end": "2020-01-01T23:00:00.000Z",
     "name": "Neujahr",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-01-02T23:00:00.000Z",
     "name": "Berchtoldstag",
     "type": "optional",
+    "rule": "01-02",
     "_weekday": "Thu"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Josefstag",
     "type": "public",
     "note": "Only in communities: Fulenbach, Walterswil, Wisen, Metzerlen, Nulgar-St. Pantaleon, Rodersdorf, Bärschwil, Büsserach\n",
+    "rule": "03-19",
     "_weekday": "Thu"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2020-04-10T22:00:00.000Z",
     "name": "Karfreitag",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2020-04-12T22:00:00.000Z",
     "name": "Ostersonntag",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2020-04-13T22:00:00.000Z",
     "name": "Ostermontag",
     "type": "optional",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2020-05-01T22:00:00.000Z",
     "name": "Tag der Arbeit",
     "type": "public",
+    "rule": "05-01 12:00",
     "_weekday": "Fri"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2020-05-10T22:00:00.000Z",
     "name": "Muttertag",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2020-05-21T22:00:00.000Z",
     "name": "Auffahrt",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2020-05-31T22:00:00.000Z",
     "name": "Pfingstsonntag",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2020-06-01T22:00:00.000Z",
     "name": "Pfingstmontag",
     "type": "optional",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2020-06-07T22:00:00.000Z",
     "name": "Vätertag",
     "type": "observance",
+    "rule": "1st sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Fronleichnam",
     "type": "public",
     "note": "is optional in Bucheggberg",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2020-08-01T22:00:00.000Z",
     "name": "Bundesfeiertag",
     "type": "public",
+    "rule": "08-01",
     "_weekday": "Sat"
   },
   {
@@ -120,6 +134,7 @@
     "name": "Mariä Himmelfahrt",
     "type": "public",
     "note": "is optional in Bucheggberg",
+    "rule": "08-15",
     "_weekday": "Sat"
   },
   {
@@ -128,6 +143,7 @@
     "end": "2020-09-20T22:00:00.000Z",
     "name": "Eidg. Dank-, Buss- und Bettag",
     "type": "public",
+    "rule": "3 sunday after 09-01",
     "_weekday": "Sun"
   },
   {
@@ -137,6 +153,7 @@
     "name": "Allerheiligen",
     "type": "public",
     "note": "is optional in Bucheggberg",
+    "rule": "11-01",
     "_weekday": "Sun"
   },
   {
@@ -145,6 +162,7 @@
     "end": "2020-12-25T23:00:00.000Z",
     "name": "Weihnachtstag",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -153,6 +171,7 @@
     "end": "2020-12-26T23:00:00.000Z",
     "name": "Stephanstag",
     "type": "optional",
+    "rule": "12-26",
     "_weekday": "Sat"
   }
 ]

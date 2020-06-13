@@ -5,6 +5,7 @@
     "end": "2015-01-01T22:00:00.000Z",
     "name": "Nouvel An",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-01-04T22:00:00.000Z",
     "name": "Martyrs de l'Indépendance",
     "type": "public",
+    "rule": "01-04 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Martyrs de l'Indépendance (jour substitut)",
     "type": "public",
     "substitute": true,
+    "rule": "01-04 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2015-01-16T22:00:00.000Z",
     "name": "Journée du Héro National Laurent Désiré Kabila",
     "type": "public",
+    "rule": "01-16 and if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2015-01-17T22:00:00.000Z",
     "name": "Journée du Héro National Patrice Emery Lumumba",
     "type": "public",
+    "rule": "01-17 and if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Fête du travail",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2015-05-17T22:00:00.000Z",
     "name": "Journée de la Révolution et des Forces Armées",
     "type": "public",
+    "rule": "05-17 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -63,6 +70,7 @@
     "name": "Journée de la Révolution et des Forces Armées (jour substitut)",
     "type": "public",
     "substitute": true,
+    "rule": "05-17 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2015-06-30T22:00:00.000Z",
     "name": "Anniversaire de Indépendance",
     "type": "public",
+    "rule": "06-30 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2015-08-01T22:00:00.000Z",
     "name": "Fête des parents",
     "type": "public",
+    "rule": "08-01 and if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2015-12-25T22:00:00.000Z",
     "name": "Noël",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Fri"
   }
 ]

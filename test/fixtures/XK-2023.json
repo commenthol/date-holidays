@@ -5,6 +5,7 @@
     "end": "2023-01-01T23:00:00.000Z",
     "name": "Viti i Ri",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-01-07T23:00:00.000Z",
     "name": "Krishtlindjet Ortodokse",
     "type": "public",
+    "rule": "julian 12-25",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-02-17T23:00:00.000Z",
     "name": "Dita e Pavarësisë",
     "type": "public",
+    "rule": "02-17",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2023-04-09T22:00:00.000Z",
     "name": "Dita e Kushtetutës",
     "type": "public",
+    "rule": "04-09",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2023-04-09T22:00:00.000Z",
     "name": "Pashkët Katolike",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2023-04-16T22:00:00.000Z",
     "name": "Pashkët Ortodokse",
     "type": "public",
+    "rule": "orthodox",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2023-04-21T16:00:00.000Z",
     "name": "Fitër Bajrami",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Fri"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2023-05-01T22:00:00.000Z",
     "name": "Dita Ndërkombëtare e Punonjësve",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2023-05-09T22:00:00.000Z",
     "name": "Dita e Evropës",
     "type": "public",
+    "rule": "05-09",
     "_weekday": "Tue"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2023-06-28T16:00:00.000Z",
     "name": "Kurban Bajrami",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2023-12-25T23:00:00.000Z",
     "name": "Krishtlindja",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   }
 ]

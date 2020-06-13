@@ -5,6 +5,7 @@
     "end": "2022-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-01-03T00:00:00.000Z",
     "name": "Januar 2nd",
     "type": "public",
+    "rule": "01-02",
     "_weekday": "Sun"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Januar 2nd (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 01-02 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -31,6 +34,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 01-01 if saturday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -39,6 +43,7 @@
     "end": "2022-03-27T23:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "easter -21",
     "_weekday": "Sun"
   },
   {
@@ -47,6 +52,7 @@
     "end": "2022-04-15T23:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -55,6 +61,7 @@
     "end": "2022-04-17T23:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2022-04-18T23:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2022-05-02T23:00:00.000Z",
     "name": "Early May bank holiday",
     "type": "public",
+    "rule": "1st monday in May",
     "_weekday": "Mon"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2022-05-30T23:00:00.000Z",
     "name": "Spring bank holiday",
     "type": "public",
+    "rule": "1st monday before 06-01",
     "_weekday": "Mon"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2022-08-01T23:00:00.000Z",
     "name": "Summer bank holiday",
     "type": "public",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2022-12-01T00:00:00.000Z",
     "name": "St Andrew’s Day",
     "type": "public",
+    "rule": "11-30",
     "_weekday": "Wed"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2022-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2022-12-27T00:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   },
   {
@@ -120,6 +134,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 12-25 if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

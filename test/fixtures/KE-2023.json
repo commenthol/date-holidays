@@ -5,6 +5,7 @@
     "end": "2023-01-01T21:00:00.000Z",
     "name": "Mwaka mpya",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "Mwaka mpya (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2023-04-07T21:00:00.000Z",
     "name": "Ijumaa Kuu",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2023-04-09T21:00:00.000Z",
     "name": "Pasaka",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2023-04-10T21:00:00.000Z",
     "name": "Jumatatu ya Pasaka",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2023-04-21T15:00:00.000Z",
     "name": "Idd-ul-Fitr",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Fri"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2023-05-01T21:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2023-06-01T21:00:00.000Z",
     "name": "Siku ya Madaraka",
     "type": "public",
+    "rule": "06-01 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -71,6 +79,7 @@
     "name": "Idd-ul-Azha",
     "type": "public",
     "note": "For all persons belonging to the Islamic faith.",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2023-10-10T21:00:00.000Z",
     "name": "Moi Day",
     "type": "public",
+    "rule": "10-10 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2023-10-20T21:00:00.000Z",
     "name": "Siku ya Mashujaa",
     "type": "public",
+    "rule": "10-20 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2023-12-12T21:00:00.000Z",
     "name": "Siku ya Jamhuri",
     "type": "public",
+    "rule": "12-12 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2023-12-25T21:00:00.000Z",
     "name": "Krismasi",
     "type": "public",
+    "rule": "12-25 and if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2023-12-26T21:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if sunday then next monday",
     "_weekday": "Tue"
   }
 ]

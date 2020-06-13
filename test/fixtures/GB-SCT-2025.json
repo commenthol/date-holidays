@@ -5,6 +5,7 @@
     "end": "2025-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2025-01-03T00:00:00.000Z",
     "name": "Januar 2nd",
     "type": "public",
+    "rule": "01-02",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2025-03-30T23:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "easter -21",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2025-04-18T23:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2025-04-20T23:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2025-04-21T23:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2025-05-05T23:00:00.000Z",
     "name": "Early May bank holiday",
     "type": "public",
+    "rule": "1st monday in May",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2025-05-26T23:00:00.000Z",
     "name": "Spring bank holiday",
     "type": "public",
+    "rule": "1st monday before 06-01",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2025-08-04T23:00:00.000Z",
     "name": "Summer bank holiday",
     "type": "public",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2025-12-01T00:00:00.000Z",
     "name": "St Andrew’s Day",
     "type": "public",
+    "rule": "11-30",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2025-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Thu"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2025-12-27T00:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Fri"
   }
 ]

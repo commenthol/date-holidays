@@ -5,6 +5,7 @@
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Nouvel An",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-01-27T23:00:00.000Z",
     "name": "Sainte Dévote",
     "type": "public",
+    "rule": "01-27 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Vendredi saint",
     "type": "observance",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Pâques",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Lundi de Pâques",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "1er mai",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -54,6 +60,7 @@
     "name": "1er mai (jour substitut)",
     "type": "public",
     "substitute": true,
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2016-05-05T22:00:00.000Z",
     "name": "Ascension",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2016-05-16T22:00:00.000Z",
     "name": "Lundi de Pentecôte",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2016-05-26T22:00:00.000Z",
     "name": "la Fête-Dieu",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2016-08-15T22:00:00.000Z",
     "name": "Assomption",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2016-11-01T23:00:00.000Z",
     "name": "Toussaint",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Tue"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2016-11-19T23:00:00.000Z",
     "name": "La Fête du Prince",
     "type": "public",
+    "rule": "11-19 and if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2016-12-08T23:00:00.000Z",
     "name": "Immaculée Conception",
     "type": "public",
+    "rule": "12-08",
     "_weekday": "Thu"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Noël",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -127,6 +142,7 @@
     "name": "Noël (jour substitut)",
     "type": "public",
     "substitute": true,
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

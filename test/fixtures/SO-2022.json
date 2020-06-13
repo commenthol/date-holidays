@@ -5,6 +5,7 @@
     "end": "2022-01-01T21:00:00.000Z",
     "name": "عيد رأس السنة",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-05-01T21:00:00.000Z",
     "name": "يوم العمال",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2022-05-02T15:00:00.000Z",
     "name": "عيد الفطر",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2022-06-26T21:00:00.000Z",
     "name": "استقلال الصومال البريطاني",
     "type": "public",
+    "rule": "06-26",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2022-07-01T21:00:00.000Z",
     "name": "عيد الاستقلال",
     "type": "public",
+    "rule": "07-01",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2022-07-09T15:00:00.000Z",
     "name": "عيد الأضحى",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sat"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2022-08-08T15:00:00.000Z",
     "name": "عاشوراء",
     "type": "public",
+    "rule": "10 Muharram",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2022-10-08T15:00:00.000Z",
     "name": "المولد النبويّ",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
   }
 ]

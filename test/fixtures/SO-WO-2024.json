@@ -5,6 +5,7 @@
     "end": "2024-02-08T15:00:00.000Z",
     "name": "الإسراء والمعراج",
     "type": "public",
+    "rule": "27 Rajab",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-04-10T15:00:00.000Z",
     "name": "عيد الفطر",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-05-01T21:00:00.000Z",
     "name": "يوم العمال",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-05-19T21:00:00.000Z",
     "name": "Restoration of Somaliland Sovereignty",
     "type": "public",
+    "rule": "05-18 P2D",
     "_weekday": "Sat"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-06-16T15:00:00.000Z",
     "name": "عيد الأضحى",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-06-26T21:00:00.000Z",
     "name": "استقلال الصومال البريطاني",
     "type": "public",
+    "rule": "06-26",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-07-07T15:00:00.000Z",
     "name": "رأس السنة الهجرية",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-09-15T15:00:00.000Z",
     "name": "المولد النبويّ",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Sun"
   }
 ]

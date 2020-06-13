@@ -5,6 +5,7 @@
     "end": "2017-01-02T04:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2017-01-10T04:00:00.000Z",
     "name": "Día de los Reyes Magos",
     "type": "public",
+    "rule": "01-06 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2017-01-22T04:00:00.000Z",
     "name": "Nuestra Señora de la Altagracia",
     "type": "public",
+    "rule": "01-21",
     "_weekday": "Sat"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2017-01-31T04:00:00.000Z",
     "name": "Día de Duarte",
     "type": "public",
+    "rule": "01-26 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2017-02-28T04:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "02-27",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2017-04-15T04:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2017-05-02T04:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01 if tuesday,wednesday then previous monday if thursday,friday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2017-06-16T04:00:00.000Z",
     "name": "Corpus Christi",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2017-08-17T04:00:00.000Z",
     "name": "Día de la Restauración",
     "type": "public",
+    "rule": "08-16",
     "_weekday": "Wed"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2017-09-25T04:00:00.000Z",
     "name": "Nuestra Señora de las Mercedes",
     "type": "public",
+    "rule": "09-24",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2017-11-07T04:00:00.000Z",
     "name": "Día de la Constitución",
     "type": "public",
+    "rule": "11-06 if tuesday,wednesday,thursday,friday,saturday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2017-12-26T04:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   }
 ]

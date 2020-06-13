@@ -5,6 +5,7 @@
     "end": "2017-01-01T22:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2017-01-15T22:00:00.000Z",
     "name": "John Chilembwe Day",
     "type": "public",
+    "rule": "01-15 and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -31,6 +34,7 @@
     "name": "John Chilembwe Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-15 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -39,6 +43,7 @@
     "end": "2017-03-03T22:00:00.000Z",
     "name": "Martyrs' Day",
     "type": "public",
+    "rule": "03-03 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -47,6 +52,7 @@
     "end": "2017-04-14T22:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -55,6 +61,7 @@
     "end": "2017-04-16T22:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2017-04-17T22:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2017-05-01T22:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2017-05-14T22:00:00.000Z",
     "name": "Kamuzu Day",
     "type": "public",
+    "rule": "05-14 and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -88,6 +98,7 @@
     "name": "Kamuzu Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "05-14 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -96,6 +107,7 @@
     "end": "2017-06-25T16:00:00.000Z",
     "name": "Eid al Fitri",
     "type": "public",
+    "rule": "1 Shawwal and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -105,6 +117,7 @@
     "name": "Eid al Fitri (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "1 Shawwal and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -113,6 +126,7 @@
     "end": "2017-07-06T22:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "07-06 and if saturday,sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -121,6 +135,7 @@
     "end": "2017-10-15T22:00:00.000Z",
     "name": "Mother's Day",
     "type": "public",
+    "rule": "10-15 and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -130,6 +145,7 @@
     "name": "Mother's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "10-15 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -138,6 +154,7 @@
     "end": "2017-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   }
 ]

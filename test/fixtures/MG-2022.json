@@ -5,6 +5,7 @@
     "end": "2022-01-01T21:00:00.000Z",
     "name": "Taom-baovao",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-03-29T21:00:00.000Z",
     "name": "Martioran'ny tolona tamin'ny 1947",
     "type": "public",
+    "rule": "03-29",
     "_weekday": "Tue"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2022-04-18T21:00:00.000Z",
     "name": "Alatsinain'ny Paska",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2022-05-01T21:00:00.000Z",
     "name": "Fetin'ny asa",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2022-05-25T21:00:00.000Z",
     "name": "Andron'i Afrika",
     "type": "public",
+    "rule": "05-25",
     "_weekday": "Wed"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2022-05-26T21:00:00.000Z",
     "name": "Andro niakarana",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2022-06-06T21:00:00.000Z",
     "name": "Alatsinain'ny Pentekosta",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2022-06-26T21:00:00.000Z",
     "name": "Fetim-pirenena",
     "type": "public",
+    "rule": "06-26",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2022-08-15T21:00:00.000Z",
     "name": "Asompsiona",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2022-11-01T21:00:00.000Z",
     "name": "Fetin'ny olo-masina",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Tue"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2022-12-25T21:00:00.000Z",
     "name": "Krismasy",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   }
 ]

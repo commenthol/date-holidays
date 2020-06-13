@@ -5,6 +5,7 @@
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Нова година",
     "type": "public",
+    "rule": "01-01 if sunday then next tuesday",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-01-02T23:00:00.000Z",
     "name": "Нова година",
     "type": "public",
+    "rule": "01-02 if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2015-01-07T23:00:00.000Z",
     "name": "Божић",
     "type": "public",
+    "rule": "julian 12-25",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2015-01-27T23:00:00.000Z",
     "name": "Свети Сава",
     "type": "observance",
+    "rule": "julian 01-14",
     "_weekday": "Tue"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2015-02-16T23:00:00.000Z",
     "name": "Дан државности Србије",
     "type": "public",
+    "rule": "02-16 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2015-02-17T23:00:00.000Z",
     "name": "Дан државности Србије",
     "type": "public",
+    "rule": "02-15 if sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -54,6 +60,7 @@
     "name": "Католички Велики петак",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -63,6 +70,7 @@
     "name": "Католички Васкрс",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -72,6 +80,7 @@
     "name": "Католички Васкрсни понедељак",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -80,6 +89,7 @@
     "end": "2015-04-10T22:00:00.000Z",
     "name": "Велики петак",
     "type": "public",
+    "rule": "orthodox -2",
     "_weekday": "Fri"
   },
   {
@@ -88,6 +98,7 @@
     "end": "2015-04-12T22:00:00.000Z",
     "name": "Васкрс",
     "type": "public",
+    "rule": "orthodox",
     "_weekday": "Sun"
   },
   {
@@ -96,6 +107,7 @@
     "end": "2015-04-13T22:00:00.000Z",
     "name": "Васкрсни понедељак",
     "type": "public",
+    "rule": "orthodox 1",
     "_weekday": "Mon"
   },
   {
@@ -104,6 +116,7 @@
     "end": "2015-04-22T22:00:00.000Z",
     "name": "Дан сећања на жртве холокауста",
     "type": "observance",
+    "rule": "04-22",
     "_weekday": "Wed"
   },
   {
@@ -112,6 +125,7 @@
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Празник рада",
     "type": "public",
+    "rule": "05-01 if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -120,6 +134,7 @@
     "end": "2015-05-02T22:00:00.000Z",
     "name": "Празник рада",
     "type": "public",
+    "rule": "05-02 if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -128,6 +143,7 @@
     "end": "2015-05-09T22:00:00.000Z",
     "name": "Дан победе",
     "type": "observance",
+    "rule": "05-09",
     "_weekday": "Sat"
   },
   {
@@ -136,6 +152,7 @@
     "end": "2015-06-28T22:00:00.000Z",
     "name": "Видовдан",
     "type": "observance",
+    "rule": "julian 06-15",
     "_weekday": "Sun"
   },
   {
@@ -145,6 +162,7 @@
     "name": "Рамазански Бајрам",
     "type": "optional",
     "note": "Muslim believers",
+    "rule": "1 Shawwal",
     "_weekday": "Fri"
   },
   {
@@ -154,6 +172,7 @@
     "name": "Јом Кипур",
     "type": "optional",
     "note": "Jewish believers",
+    "rule": "10 Tishrei",
     "_weekday": "Wed"
   },
   {
@@ -163,6 +182,7 @@
     "name": "Курбански Бајрам",
     "type": "optional",
     "note": "Muslim believers",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
   },
   {
@@ -171,6 +191,7 @@
     "end": "2015-10-21T22:00:00.000Z",
     "name": "Дан сећања на српске жртве у Другом светском рату",
     "type": "observance",
+    "rule": "10-21",
     "_weekday": "Wed"
   },
   {
@@ -179,6 +200,7 @@
     "end": "2015-11-11T23:00:00.000Z",
     "name": "Дан примирја",
     "type": "public",
+    "rule": "11-11 if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -188,6 +210,7 @@
     "name": "Католички Божић",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "12-25",
     "_weekday": "Fri"
   }
 ]

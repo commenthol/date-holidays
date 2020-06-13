@@ -5,6 +5,7 @@
     "end": "2017-01-01T23:00:00.000Z",
     "name": "Нова Година",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "Нова Година (заменет ден)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -23,6 +25,7 @@
     "name": "Бадник",
     "type": "optional",
     "note": "Orthodox believers",
+    "rule": "julian 12-24",
     "_weekday": "Fri"
   },
   {
@@ -31,6 +34,7 @@
     "end": "2017-01-07T23:00:00.000Z",
     "name": "Прв ден Божик",
     "type": "public",
+    "rule": "julian 12-25 and if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -40,6 +44,7 @@
     "name": "Богојавление",
     "type": "optional",
     "note": "Orthodox believers",
+    "rule": "julian 01-06",
     "_weekday": "Thu"
   },
   {
@@ -49,6 +54,7 @@
     "name": "Свети Сава",
     "type": "optional",
     "note": "For members of the Serbian community",
+    "rule": "01-27",
     "_weekday": "Fri"
   },
   {
@@ -58,6 +64,7 @@
     "name": "Меѓународен ден на Ромите",
     "type": "optional",
     "note": "For members of the the Roma community",
+    "rule": "04-08",
     "_weekday": "Sat"
   },
   {
@@ -67,6 +74,7 @@
     "name": "Велики Петок",
     "type": "optional",
     "note": "Orthodox believers",
+    "rule": "orthodox -2",
     "_weekday": "Fri"
   },
   {
@@ -75,6 +83,7 @@
     "end": "2017-04-16T22:00:00.000Z",
     "name": "Прв ден Велигден",
     "type": "public",
+    "rule": "orthodox",
     "_weekday": "Sun"
   },
   {
@@ -83,6 +92,7 @@
     "end": "2017-04-17T22:00:00.000Z",
     "name": "Втор ден Велигден",
     "type": "public",
+    "rule": "orthodox 1",
     "_weekday": "Mon"
   },
   {
@@ -92,6 +102,7 @@
     "name": "вториот ден на Велигден",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -100,6 +111,7 @@
     "end": "2017-05-01T22:00:00.000Z",
     "name": "Ден на трудот",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -109,6 +121,7 @@
     "name": "Национален ден на Властите",
     "type": "optional",
     "note": "For members of the Vlach community",
+    "rule": "05-23",
     "_weekday": "Tue"
   },
   {
@@ -117,6 +130,7 @@
     "end": "2017-05-24T22:00:00.000Z",
     "name": "Св. Кирил и Методиј",
     "type": "public",
+    "rule": "05-24 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -126,6 +140,7 @@
     "name": "петок пред Духовден",
     "type": "optional",
     "note": "Orthodox believers",
+    "rule": "orthodox 47",
     "_weekday": "Fri"
   },
   {
@@ -135,6 +150,7 @@
     "name": "Духовден",
     "type": "optional",
     "note": "Orthodox believers",
+    "rule": "orthodox 49",
     "_weekday": "Sun"
   },
   {
@@ -143,6 +159,7 @@
     "end": "2017-06-25T16:00:00.000Z",
     "name": "Рамазан Бајрам",
     "type": "public",
+    "rule": "1 Shawwal and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -152,6 +169,7 @@
     "name": "Рамазан Бајрам (заменет ден)",
     "type": "public",
     "substitute": true,
+    "rule": "1 Shawwal and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -160,6 +178,7 @@
     "end": "2017-08-02T22:00:00.000Z",
     "name": "Ден на Републиката",
     "type": "public",
+    "rule": "08-02 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -169,6 +188,7 @@
     "name": "Успение на Пресвета Богородица",
     "type": "optional",
     "note": "Orthodox believers",
+    "rule": "julian 08-15",
     "_weekday": "Mon"
   },
   {
@@ -178,6 +198,7 @@
     "name": "Курбан Бајрам",
     "type": "optional",
     "note": "Muslim believers",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Fri"
   },
   {
@@ -186,6 +207,7 @@
     "end": "2017-09-08T22:00:00.000Z",
     "name": "Ден на независноста",
     "type": "public",
+    "rule": "09-08 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -195,6 +217,7 @@
     "name": "Меѓународен ден на Бошњаците",
     "type": "optional",
     "note": "For Members of the Bosniak community.",
+    "rule": "09-28",
     "_weekday": "Thu"
   },
   {
@@ -204,6 +227,7 @@
     "name": "Јом Кипур",
     "type": "optional",
     "note": "Jewish believers",
+    "rule": "10 Tishrei",
     "_weekday": "Sat"
   },
   {
@@ -212,6 +236,7 @@
     "end": "2017-10-11T22:00:00.000Z",
     "name": "Ден на востанието",
     "type": "public",
+    "rule": "10-11 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -220,6 +245,7 @@
     "end": "2017-10-23T22:00:00.000Z",
     "name": "Ден на македонската револуционерна борба",
     "type": "public",
+    "rule": "10-23 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -229,6 +255,7 @@
     "name": "Празникот на сите светци",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "11-01",
     "_weekday": "Wed"
   },
   {
@@ -238,6 +265,7 @@
     "name": "Ден на Албанската азбука",
     "type": "optional",
     "note": "For members of the Albanian community",
+    "rule": "11-22",
     "_weekday": "Wed"
   },
   {
@@ -246,6 +274,7 @@
     "end": "2017-12-08T23:00:00.000Z",
     "name": "Св. Климент Охридски",
     "type": "public",
+    "rule": "12-08 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -255,6 +284,7 @@
     "name": "Ден на настава на турски јазик",
     "type": "optional",
     "note": "For members of the the Turkish community",
+    "rule": "12-21",
     "_weekday": "Thu"
   },
   {
@@ -264,6 +294,7 @@
     "name": "Католички Божиќ",
     "type": "optional",
     "note": "Catholic believers",
+    "rule": "12-25",
     "_weekday": "Mon"
   }
 ]

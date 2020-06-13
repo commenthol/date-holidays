@@ -5,6 +5,7 @@
     "end": "2023-01-01T23:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "Año Nuevo (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2023-04-07T23:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2023-05-01T23:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2023-06-05T23:00:00.000Z",
     "name": "Natalicio de Teodoro Obiang",
     "type": "public",
+    "rule": "06-05 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2023-06-08T23:00:00.000Z",
     "name": "Corpus Christi",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2023-08-03T23:00:00.000Z",
     "name": "Día del Golpe de Libertad",
     "type": "public",
+    "rule": "08-03 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2023-08-15T23:00:00.000Z",
     "name": "Día de la Constitución",
     "type": "public",
+    "rule": "08-15 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2023-10-12T23:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "10-12 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2023-12-08T23:00:00.000Z",
     "name": "La inmaculada concepción",
     "type": "public",
+    "rule": "12-08 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2023-12-25T23:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2024-01-01T22:00:00.000Z",
     "name": "Naujieji metai",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-02-16T22:00:00.000Z",
     "name": "Lietuvos valstybės atkūrimo diena",
     "type": "public",
+    "rule": "02-16",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-03-11T22:00:00.000Z",
     "name": "Lietuvos nepriklausomybės atkūrimo diena",
     "type": "public",
+    "rule": "03-11",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-03-31T21:00:00.000Z",
     "name": "Velykos",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-05-01T21:00:00.000Z",
     "name": "Tarptautinė darbo diena",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-05-05T21:00:00.000Z",
     "name": "Motinos diena",
     "type": "observance",
+    "rule": "1st sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-06-02T21:00:00.000Z",
     "name": "Tėvo diena",
     "type": "observance",
+    "rule": "1st sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-06-24T21:00:00.000Z",
     "name": "Joninės, Rasos",
     "type": "public",
+    "rule": "06-24",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2024-07-06T21:00:00.000Z",
     "name": "Valstybės diena",
     "type": "public",
+    "rule": "07-06",
     "_weekday": "Sat"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2024-08-15T21:00:00.000Z",
     "name": "Žolinė",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Thu"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2024-11-01T22:00:00.000Z",
     "name": "Visų šventųjų diena",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Fri"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2024-12-24T22:00:00.000Z",
     "name": "Šv. Kūčios",
     "type": "public",
+    "rule": "12-24",
     "_weekday": "Tue"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2024-12-25T22:00:00.000Z",
     "name": "Šv. Kalėdos",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2024-12-26T22:00:00.000Z",
     "name": "2. Kalėdų diena",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2021-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2021-04-03T00:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2021-04-05T00:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2021-04-06T00:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2021-04-20T00:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
+    "rule": "3rd monday in April",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2021-05-22T00:00:00.000Z",
     "name": "Saint Helena Day",
     "type": "public",
+    "rule": "05-21",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2021-05-25T00:00:00.000Z",
     "name": "Whit Monday",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2021-08-31T00:00:00.000Z",
     "name": "August Bank Holiday",
     "type": "public",
+    "rule": "monday before 09-01",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2021-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sat"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2021-12-27T00:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sun"
   },
   {
@@ -86,6 +96,7 @@
     "name": "Boxing Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 12-26 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -95,6 +106,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 12-25 if saturday then next tuesday",
     "_weekday": "Tue"
   }
 ]

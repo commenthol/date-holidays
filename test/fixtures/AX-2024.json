@@ -5,6 +5,7 @@
     "end": "2024-01-01T22:00:00.000Z",
     "name": "Nyårsdagen",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-01-06T22:00:00.000Z",
     "name": "Trettondedag jul",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-03-29T22:00:00.000Z",
     "name": "Långfredagen",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-03-30T22:00:00.000Z",
     "name": "Ålands demilitariseringsdag",
     "type": "public",
+    "rule": "03-30",
     "_weekday": "Sat"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-03-31T21:00:00.000Z",
     "name": "Påsk",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-04-01T21:00:00.000Z",
     "name": "Annandag påsk",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-05-01T21:00:00.000Z",
     "name": "Första Maj",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-05-09T21:00:00.000Z",
     "name": "Kristi himmelfärds dag",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2024-05-19T21:00:00.000Z",
     "name": "Pingst",
     "type": "observance",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2024-06-09T21:00:00.000Z",
     "name": "Självstyrelsedagen",
     "type": "public",
+    "rule": "06-09",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2024-06-15T21:00:00.000Z",
     "name": "Midsommardagen",
     "type": "public",
+    "rule": "3rd saturday after 06-01",
     "_weekday": "Sat"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2024-06-21T21:00:00.000Z",
     "name": "Midsommarafton",
     "type": "public",
+    "rule": "3rd friday after 06-01 12:00",
     "_weekday": "Fri"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2024-12-06T22:00:00.000Z",
     "name": "Självständighetsdagen",
     "type": "public",
+    "rule": "12-06",
     "_weekday": "Fri"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2024-12-24T22:00:00.000Z",
     "name": "Julafton",
     "type": "bank",
+    "rule": "12-24 12:00",
     "_weekday": "Tue"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2024-12-25T22:00:00.000Z",
     "name": "Juldagen",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2024-12-26T22:00:00.000Z",
     "name": "Annandag jul",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2024-12-31T22:00:00.000Z",
     "name": "Nyårsafton",
     "type": "bank",
+    "rule": "12-31 12:00",
     "_weekday": "Tue"
   }
 ]

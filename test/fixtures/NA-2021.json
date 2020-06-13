@@ -5,6 +5,7 @@
     "end": "2021-01-01T22:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2021-03-21T22:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "03-21",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2021-03-22T22:00:00.000Z",
     "name": "Public Holiday",
     "type": "public",
+    "rule": "substitutes 03-21 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2021-04-02T22:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2021-04-04T22:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2021-04-05T22:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2021-05-01T22:00:00.000Z",
     "name": "Workers Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sat"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2021-05-04T22:00:00.000Z",
     "name": "Cassinga Day",
     "type": "public",
+    "rule": "05-04",
     "_weekday": "Tue"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2021-05-13T22:00:00.000Z",
     "name": "Ascension Day",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2021-05-25T22:00:00.000Z",
     "name": "Africa Day",
     "type": "public",
+    "rule": "05-25",
     "_weekday": "Tue"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2021-08-26T22:00:00.000Z",
     "name": "Heroes' Day",
     "type": "public",
+    "rule": "08-26",
     "_weekday": "Thu"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2021-12-10T22:00:00.000Z",
     "name": "Human Rights Day",
     "type": "public",
+    "rule": "12-10",
     "_weekday": "Fri"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2021-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sat"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2021-12-26T22:00:00.000Z",
     "name": "Day of Goodwill",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sun"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2021-12-27T22:00:00.000Z",
     "name": "Public Holiday",
     "type": "public",
+    "rule": "substitutes 12-26 if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

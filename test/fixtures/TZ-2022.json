@@ -5,6 +5,7 @@
     "end": "2022-01-01T21:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-01-02T21:00:00.000Z",
     "name": "Zanzibar Revolution Day",
     "type": "public",
+    "rule": "01-02",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2022-04-07T21:00:00.000Z",
     "name": "Karume Day",
     "type": "public",
+    "rule": "04-07",
     "_weekday": "Thu"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2022-04-15T21:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2022-04-17T21:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2022-04-18T21:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2022-04-26T21:00:00.000Z",
     "name": "Union Day",
     "type": "public",
+    "rule": "04-26",
     "_weekday": "Tue"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2022-05-01T21:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2022-05-03T15:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public",
+    "rule": "1 Shawwal P2D",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2022-07-07T21:00:00.000Z",
     "name": "Saba Saba Day",
     "type": "public",
+    "rule": "07-07",
     "_weekday": "Thu"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2022-07-09T15:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sat"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2022-08-08T21:00:00.000Z",
     "name": "Nane Nane Day",
     "type": "public",
+    "rule": "08-08",
     "_weekday": "Mon"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2022-10-08T15:00:00.000Z",
     "name": "Maulid Day",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2022-10-14T21:00:00.000Z",
     "name": "Nyerere Day",
     "type": "public",
+    "rule": "10-14",
     "_weekday": "Fri"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2022-12-09T21:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "12-09",
     "_weekday": "Fri"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2022-12-25T21:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2022-12-26T21:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   }
 ]

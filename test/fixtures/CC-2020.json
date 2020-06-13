@@ -5,6 +5,7 @@
     "end": "2020-01-01T17:30:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-01-25T17:30:00.000Z",
     "name": "Chinese New Year",
     "type": "public",
+    "rule": "chinese 01-0-01 and if sunday then next tuesday if saturday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2020-01-26T17:30:00.000Z",
     "name": "Australia Day",
     "type": "public",
+    "rule": "01-26",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2020-01-26T17:30:00.000Z",
     "name": "Chinese New Year (2nd Day)",
     "type": "public",
+    "rule": "chinese 01-0-02 and if sunday then next tuesday if saturday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -38,6 +42,7 @@
     "name": "Chinese New Year (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "chinese 01-0-01 and if sunday then next tuesday if saturday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -47,6 +52,7 @@
     "name": "Chinese New Year (2nd Day) (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "chinese 01-0-02 and if sunday then next tuesday if saturday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -55,6 +61,7 @@
     "end": "2020-03-20T17:30:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "03-20",
     "_weekday": "Fri"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2020-04-06T17:30:00.000Z",
     "name": "Self Determination Day",
     "type": "public",
+    "rule": "04-06",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2020-04-13T17:30:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2020-04-25T17:30:00.000Z",
     "name": "Anzac Day",
     "type": "public",
+    "rule": "04-25",
     "_weekday": "Sat"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2020-05-24T11:30:00.000Z",
     "name": "Hari Raya Puasa",
     "type": "public",
+    "rule": "1 Shawwal and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -96,6 +107,7 @@
     "name": "Hari Raya Puasa (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "1 Shawwal and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -104,6 +116,7 @@
     "end": "2020-07-31T11:30:00.000Z",
     "name": "Hari Raya Haji",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -112,6 +125,7 @@
     "end": "2020-08-20T11:30:00.000Z",
     "name": "Islamic New Year",
     "type": "public",
+    "rule": "1 Muharram and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -120,6 +134,7 @@
     "end": "2020-10-29T11:30:00.000Z",
     "name": "Hari Maulaud Nabi",
     "type": "public",
+    "rule": "12 Rabi al-awwal and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -128,6 +143,7 @@
     "end": "2020-12-25T17:30:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -136,6 +152,7 @@
     "end": "2020-12-26T17:30:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if sunday then next monday",
     "_weekday": "Sat"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2021-01-01T13:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2021-01-26T13:00:00.000Z",
     "name": "Australia Day",
     "type": "public",
+    "rule": "01-26 if saturday,sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2021-03-08T13:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "2nd monday in March",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2021-04-02T13:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2021-04-03T13:00:00.000Z",
     "name": "Easter Saturday",
     "type": "public",
+    "rule": "easter -1",
     "_weekday": "Sat"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2021-04-04T14:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2021-04-05T14:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2021-04-25T14:00:00.000Z",
     "name": "Anzac Day",
     "type": "public",
+    "rule": "04-25",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2021-06-14T14:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
+    "rule": "2nd monday in June",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "name": "AFL Grand Final Friday",
     "type": "public",
     "note": "Date might differ as dependent on AFL schedule",
+    "rule": "1st friday before October",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2021-11-02T13:00:00.000Z",
     "name": "Melbourne Cup",
     "type": "public",
+    "rule": "1st tuesday in November",
     "_weekday": "Tue"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2021-12-25T13:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sat"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2021-12-26T13:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sun"
   },
   {
@@ -111,6 +124,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -120,6 +134,7 @@
     "name": "Boxing Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

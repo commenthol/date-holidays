@@ -5,6 +5,7 @@
     "end": "2022-01-02T03:00:00.000Z",
     "name": "Ano Novo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-03-02T17:00:00.000Z",
     "name": "Carnaval",
     "type": "optional",
+    "rule": "easter -50 PT110H",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2022-04-16T03:00:00.000Z",
     "name": "Sexta-Feira Santa",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2022-04-18T03:00:00.000Z",
     "name": "Páscoa",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2022-04-22T03:00:00.000Z",
     "name": "Dia de Tiradentes",
     "type": "public",
+    "rule": "04-21",
     "_weekday": "Thu"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2022-05-02T03:00:00.000Z",
     "name": "Dia do trabalhador",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2022-05-09T03:00:00.000Z",
     "name": "Dia das Mães",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2022-06-13T03:00:00.000Z",
     "name": "Dia dos Namorados",
     "type": "public",
+    "rule": "06-12",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2022-06-17T03:00:00.000Z",
     "name": "Corpo de Deus",
     "type": "optional",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2022-08-15T03:00:00.000Z",
     "name": "Dia dos Pais",
     "type": "observance",
+    "rule": "2nd sunday in August",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2022-09-08T03:00:00.000Z",
     "name": "Dia da Independência",
     "type": "public",
+    "rule": "09-07",
     "_weekday": "Wed"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2022-09-21T03:00:00.000Z",
     "name": "Proclamação da República Rio-Grandense",
     "type": "public",
+    "rule": "09-20",
     "_weekday": "Tue"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2022-10-03T03:00:00.000Z",
     "name": "Dia de Eleição",
     "type": "public",
+    "rule": "1st sunday in October in even years",
     "_weekday": "Sun"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2022-10-13T03:00:00.000Z",
     "name": "Nossa Senhora Aparecida",
     "type": "public",
+    "rule": "10-12",
     "_weekday": "Wed"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2022-10-31T03:00:00.000Z",
     "name": "Dia de Eleição",
     "type": "public",
+    "rule": "1st sunday before 11-01 in even years",
     "_weekday": "Sun"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2022-11-03T03:00:00.000Z",
     "name": "Dia de Finados",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Wed"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2022-11-16T03:00:00.000Z",
     "name": "Proclamação da República",
     "type": "public",
+    "rule": "11-15",
     "_weekday": "Tue"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2022-12-25T03:00:00.000Z",
     "name": "Noite de Natal",
     "type": "optional",
+    "rule": "12-24 14:00",
     "_weekday": "Sat"
   },
   {
@@ -149,6 +167,7 @@
     "end": "2022-12-26T03:00:00.000Z",
     "name": "Natal",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -157,6 +176,7 @@
     "end": "2023-01-01T03:00:00.000Z",
     "name": "Véspera de Ano Novo",
     "type": "optional",
+    "rule": "12-31 14:00",
     "_weekday": "Sat"
   }
 ]

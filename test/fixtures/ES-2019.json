@@ -5,6 +5,7 @@
     "end": "2019-01-01T23:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Tue"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2019-01-06T23:00:00.000Z",
     "name": "Día de los Reyes Magos",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Sun"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Día de los Reyes Magos (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 01-06 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2019-03-19T23:00:00.000Z",
     "name": "San José",
     "type": "public",
+    "rule": "03-19",
     "_weekday": "Tue"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2019-04-18T22:00:00.000Z",
     "name": "Jueves Santo",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2019-04-19T22:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2019-04-21T22:00:00.000Z",
     "name": "Pascua",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2019-05-01T22:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2019-05-05T22:00:00.000Z",
     "name": "Día de la Madre",
     "type": "observance",
+    "rule": "1st sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2019-06-09T22:00:00.000Z",
     "name": "Pentecostés",
     "type": "observance",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -87,6 +97,7 @@
     "name": "Santiago Apostol",
     "type": "observance",
     "note": "regional",
+    "rule": "07-25",
     "_weekday": "Thu"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2019-08-15T22:00:00.000Z",
     "name": "Asunción",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Thu"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2019-10-12T22:00:00.000Z",
     "name": "Fiesta Nacional de España",
     "type": "public",
+    "rule": "10-12 if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2019-11-01T23:00:00.000Z",
     "name": "Todos los Santos",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Fri"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2019-12-06T23:00:00.000Z",
     "name": "Día de la Constitución Española",
     "type": "public",
+    "rule": "12-06 if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2019-12-08T23:00:00.000Z",
     "name": "La inmaculada concepción",
     "type": "public",
+    "rule": "12-08",
     "_weekday": "Sun"
   },
   {
@@ -136,6 +152,7 @@
     "name": "La inmaculada concepción (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 12-08 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -144,6 +161,7 @@
     "end": "2019-12-25T23:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   }
 ]

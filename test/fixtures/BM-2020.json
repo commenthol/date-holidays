@@ -5,6 +5,7 @@
     "end": "2020-01-02T04:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-04-11T03:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2020-05-30T03:00:00.000Z",
     "name": "Bermuda Day",
     "type": "public",
+    "rule": "friday before 06-01",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2020-06-16T03:00:00.000Z",
     "name": "National Heroes Day",
     "type": "public",
+    "rule": "3nd monday in June",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2020-07-31T03:00:00.000Z",
     "name": "Emancipation Day",
     "type": "public",
+    "rule": "thursday before 08-04",
     "_weekday": "Thu"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2020-08-01T03:00:00.000Z",
     "name": "Somers' Day",
     "type": "public",
+    "rule": "friday before 08-05",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2020-09-08T03:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "monday after 09-01",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2020-11-12T04:00:00.000Z",
     "name": "Remembrance Day",
     "type": "public",
+    "rule": "11-11",
     "_weekday": "Wed"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2020-12-26T04:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2020-12-27T04:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   },
   {
@@ -87,6 +97,7 @@
     "type": "bank",
     "note": "Goverment offices close",
     "substitute": true,
+    "rule": "substitutes 12-26 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   }
 ]

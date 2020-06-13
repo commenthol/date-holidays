@@ -5,6 +5,7 @@
     "end": "2020-01-02T05:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-04-11T04:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2020-04-13T04:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2020-05-11T04:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2020-05-19T04:00:00.000Z",
     "name": "Victoria Day",
     "type": "public",
+    "rule": "monday before 05-25",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2020-06-22T04:00:00.000Z",
     "name": "Father's Day",
     "type": "observance",
+    "rule": "3rd sunday after 06-01",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2020-07-02T04:00:00.000Z",
     "name": "Canada Day",
     "type": "public",
+    "rule": "07-01",
     "_weekday": "Wed"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2020-08-04T04:00:00.000Z",
     "name": "Civic Holiday",
     "type": "public",
+    "rule": "monday after 08-01",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2020-09-08T04:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2020-10-13T04:00:00.000Z",
     "name": "Thanksgiving",
     "type": "public",
+    "rule": "2nd monday after 10-01",
     "_weekday": "Mon"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2020-11-12T05:00:00.000Z",
     "name": "Remembrance Day",
     "type": "public",
+    "rule": "11-11",
     "_weekday": "Wed"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2020-12-26T05:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2020-12-27T05:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   }
 ]

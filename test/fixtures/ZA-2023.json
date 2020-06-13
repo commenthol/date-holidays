@@ -5,6 +5,7 @@
     "end": "2023-01-01T22:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-01-02T22:00:00.000Z",
     "name": "Public Holiday",
     "type": "public",
+    "rule": "substitutes 01-01 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-03-21T22:00:00.000Z",
     "name": "Human Rights Day",
     "type": "public",
+    "rule": "03-21",
     "_weekday": "Tue"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2023-04-07T22:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2023-04-09T22:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2023-04-10T22:00:00.000Z",
     "name": "Family Day",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2023-04-27T22:00:00.000Z",
     "name": "Freedom Day",
     "type": "public",
+    "rule": "04-27",
     "_weekday": "Thu"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2023-05-01T22:00:00.000Z",
     "name": "Workers' Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2023-05-14T22:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2023-06-16T22:00:00.000Z",
     "name": "Youth Day",
     "type": "public",
+    "rule": "06-16",
     "_weekday": "Fri"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2023-06-18T22:00:00.000Z",
     "name": "Father's Day",
     "type": "observance",
+    "rule": "3rd sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2023-07-18T22:00:00.000Z",
     "name": "Nelson Mandela Day",
     "type": "observance",
+    "rule": "07-18",
     "_weekday": "Tue"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2023-08-09T22:00:00.000Z",
     "name": "National Women's Day",
     "type": "public",
+    "rule": "08-09",
     "_weekday": "Wed"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2023-09-24T22:00:00.000Z",
     "name": "Heritage Day",
     "type": "public",
+    "rule": "09-24",
     "_weekday": "Sun"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2023-09-25T22:00:00.000Z",
     "name": "Public Holiday",
     "type": "public",
+    "rule": "substitutes 09-24 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2023-12-16T22:00:00.000Z",
     "name": "Day of Reconciliation",
     "type": "public",
+    "rule": "12-16",
     "_weekday": "Sat"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2023-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2023-12-26T22:00:00.000Z",
     "name": "Day of Goodwill",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Tue"
   }
 ]

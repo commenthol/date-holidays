@@ -5,6 +5,7 @@
     "end": "2024-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-03-11T00:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "easter -21",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-03-18T00:00:00.000Z",
     "name": "St. Patrick’s Day",
     "type": "public",
+    "rule": "03-17",
     "_weekday": "Sun"
   },
   {
@@ -30,6 +33,7 @@
     "name": "St. Patrick’s Day (substitute day)",
     "type": "bank",
     "substitute": true,
+    "rule": "03-17 and if saturday then next monday if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2024-03-30T00:00:00.000Z",
     "name": "Good Friday",
     "type": "bank",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2024-03-31T23:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2024-04-01T23:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2024-05-06T23:00:00.000Z",
     "name": "May Day",
     "type": "public",
+    "rule": "1st monday in May",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2024-06-03T23:00:00.000Z",
     "name": "First Monday in June",
     "type": "public",
+    "rule": "1st monday in June",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2024-08-05T23:00:00.000Z",
     "name": "First Monday in August",
     "type": "public",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2024-10-29T00:00:00.000Z",
     "name": "October Bank Holiday",
     "type": "public",
+    "rule": "1st monday before 10-31",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2024-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2024-12-27T00:00:00.000Z",
     "name": "St. Stephen's Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2024-12-28T00:00:00.000Z",
     "name": "Christmas Bank Holiday",
     "type": "bank",
+    "rule": "12-27 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Fri"
   }
 ]

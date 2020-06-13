@@ -5,6 +5,7 @@
     "end": "2020-01-01T13:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-01-27T13:00:00.000Z",
     "name": "Australia Day",
     "type": "public",
+    "rule": "01-26 if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2020-03-09T13:00:00.000Z",
     "name": "Eight Hours Day",
     "type": "public",
+    "rule": "2nd monday in March",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2020-04-10T14:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2020-04-13T14:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "name": "Easter Tuesday",
     "type": "optional",
     "note": "Public Service employees or contract dependent",
+    "rule": "easter +2",
     "_weekday": "Tue"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2020-04-25T14:00:00.000Z",
     "name": "Anzac Day",
     "type": "public",
+    "rule": "04-25",
     "_weekday": "Sat"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2020-06-08T14:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
+    "rule": "2nd monday in June",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2020-12-25T13:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2020-12-28T13:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   }
 ]
