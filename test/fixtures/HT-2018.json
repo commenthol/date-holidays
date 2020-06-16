@@ -5,6 +5,7 @@
     "end": "2018-01-02T05:00:00.000Z",
     "name": "Jour de l'Indépendance",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2018-01-03T05:00:00.000Z",
     "name": "Jour des Aieux",
     "type": "public",
+    "rule": "01-02",
     "_weekday": "Tue"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2018-01-07T05:00:00.000Z",
     "name": "Le Jour des Rois",
     "type": "observance",
+    "rule": "01-06",
     "_weekday": "Sat"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2018-02-13T05:00:00.000Z",
     "name": "Lundi Gras",
     "type": "public",
+    "rule": "easter -48 14:00",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2018-02-14T05:00:00.000Z",
     "name": "Mardi Gras",
     "type": "public",
+    "rule": "easter -47",
     "_weekday": "Tue"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2018-02-15T05:00:00.000Z",
     "name": "Mercredi des Cendres",
     "type": "observance",
+    "rule": "easter -46",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2018-03-31T04:00:00.000Z",
     "name": "Vendredi saint",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2018-04-02T04:00:00.000Z",
     "name": "Pâques",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2018-05-02T04:00:00.000Z",
     "name": "Fête du travail",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Tue"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2018-05-11T04:00:00.000Z",
     "name": "Ascension",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2018-05-19T04:00:00.000Z",
     "name": "Jour du Drapeau et de l'Université",
     "type": "public",
+    "rule": "05-18",
     "_weekday": "Fri"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2018-06-01T04:00:00.000Z",
     "name": "la Fête-Dieu",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2018-08-16T04:00:00.000Z",
     "name": "Assomption",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Wed"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2018-10-18T04:00:00.000Z",
     "name": "Anniversaire de la mort de Dessalines",
     "type": "public",
+    "rule": "10-17",
     "_weekday": "Wed"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2018-11-02T04:00:00.000Z",
     "name": "Toussaint",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Thu"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2018-11-03T04:00:00.000Z",
     "name": "Fête des morts",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Fri"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2018-11-19T05:00:00.000Z",
     "name": "Vertières",
     "type": "public",
+    "rule": "11-18",
     "_weekday": "Sun"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2018-12-06T05:00:00.000Z",
     "name": "Découverte d'Haïti",
     "type": "observance",
+    "rule": "12-05",
     "_weekday": "Wed"
   },
   {
@@ -149,6 +167,7 @@
     "end": "2018-12-26T05:00:00.000Z",
     "name": "Noël",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Tue"
   }
 ]

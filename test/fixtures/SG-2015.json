@@ -5,6 +5,7 @@
     "end": "2015-01-01T16:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-02-19T16:00:00.000Z",
     "name": "Chinese New Year",
     "type": "public",
+    "rule": "chinese 01-0-01",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2015-02-20T16:00:00.000Z",
     "name": "Chinese New Year",
     "type": "public",
+    "rule": "chinese 01-0-02",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2015-04-03T16:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2015-05-01T16:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2015-06-01T16:00:00.000Z",
     "name": "Vesak Day",
     "type": "public",
+    "rule": "2015-06-01",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2015-07-17T10:00:00.000Z",
     "name": "Hari Raya Puasa",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Fri"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2015-08-09T16:00:00.000Z",
     "name": "National Day",
     "type": "public",
+    "rule": "08-09",
     "_weekday": "Sun"
   },
   {
@@ -70,6 +78,7 @@
     "name": "National Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 08-09 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2015-09-23T10:00:00.000Z",
     "name": "Hari Raya Haji",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2015-11-10T16:00:00.000Z",
     "name": "Deepavali",
     "type": "public",
+    "rule": "2015-11-10",
     "_weekday": "Tue"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2015-12-25T16:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   }
 ]

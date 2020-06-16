@@ -5,6 +5,7 @@
     "end": "2023-01-01T22:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-01-09T22:00:00.000Z",
     "name": "Peace Agreement Day",
     "type": "public",
+    "rule": "01-09",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-03-08T22:00:00.000Z",
     "name": "International Women's Day",
     "type": "public",
+    "rule": "03-08",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2023-04-22T16:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public",
+    "rule": "2 Shawwal",
     "_weekday": "Sat"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2023-05-16T22:00:00.000Z",
     "name": "SPLA Day",
     "type": "public",
+    "rule": "05-16",
     "_weekday": "Tue"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2023-06-30T16:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public",
+    "rule": "12 Dhu al-Hijjah",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2023-07-03T22:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "1st monday in July",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2023-07-09T22:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "07-09",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2023-07-30T22:00:00.000Z",
     "name": "Martyrs Day",
     "type": "public",
+    "rule": "07-30",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2023-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2023-12-28T22:00:00.000Z",
     "name": "Republic Day",
     "type": "public",
+    "rule": "12-28",
     "_weekday": "Thu"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2023-12-31T22:00:00.000Z",
     "name": "New Year's Eve",
     "type": "public",
+    "rule": "12-31",
     "_weekday": "Sun"
   }
 ]

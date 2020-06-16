@@ -5,6 +5,7 @@
     "end": "2019-01-01T23:00:00.000Z",
     "name": "Novogodisnji dan",
     "type": "public",
+    "rule": "01-01 and if sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2019-01-02T23:00:00.000Z",
     "name": "Drugi dan Nove Godine",
     "type": "public",
+    "rule": "01-02 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2019-01-06T23:00:00.000Z",
     "name": "Bogojavljenje, Sveta tri kralja",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2019-01-07T23:00:00.000Z",
     "name": "Pravoslavni Božić",
     "type": "public",
+    "rule": "julian 12-25",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2019-01-14T23:00:00.000Z",
     "name": "Pravoslavni novogodišnji dan",
     "type": "public",
+    "rule": "julian 01-01",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2019-03-01T23:00:00.000Z",
     "name": "Dan nezavisnosti",
     "type": "public",
+    "rule": "03-01",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2019-04-21T22:00:00.000Z",
     "name": "Vaskrs",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2019-04-22T22:00:00.000Z",
     "name": "Uskrsni ponedjeljak",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2019-04-28T22:00:00.000Z",
     "name": "Pravoslavni Vaskrs",
     "type": "public",
+    "rule": "orthodox",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2019-05-01T22:00:00.000Z",
     "name": "Radni dan",
     "type": "public",
+    "rule": "05-01 and if sunday then next tuesday",
     "_weekday": "Wed"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2019-05-02T22:00:00.000Z",
     "name": "Drugi dan Dana rada",
     "type": "public",
+    "rule": "05-02 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2019-06-06T16:00:00.000Z",
     "name": "Ramazanski bajram",
     "type": "public",
+    "rule": "1 Shawwal P3D",
     "_weekday": "Tue"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2019-06-20T22:00:00.000Z",
     "name": "Tijelovo",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2019-08-14T16:00:00.000Z",
     "name": "Kurbanski bajram",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah P4D",
     "_weekday": "Sun"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2019-08-15T22:00:00.000Z",
     "name": "Velika Gospa",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Thu"
   },
   {
@@ -126,6 +141,7 @@
     "name": "Velika Gospa",
     "type": "public",
     "note": "orthodox",
+    "rule": "julian 08-15",
     "_weekday": "Wed"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2019-08-31T16:00:00.000Z",
     "name": "Nova hidžretska godina",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Sat"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2019-11-01T23:00:00.000Z",
     "name": "Dita e të gjithë Shenjtorëve",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Fri"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2019-11-02T23:00:00.000Z",
     "name": "Dušni dan",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Sat"
   },
   {
@@ -158,6 +177,7 @@
     "end": "2019-11-09T17:00:00.000Z",
     "name": "Mevlud",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
   },
   {
@@ -166,6 +186,7 @@
     "end": "2019-12-25T23:00:00.000Z",
     "name": "Božić",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -174,6 +195,7 @@
     "end": "2019-12-26T23:00:00.000Z",
     "name": "Svetog Stjepana",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   }
 ]

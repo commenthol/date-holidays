@@ -5,6 +5,7 @@
     "end": "2023-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "Año Nuevo (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2023-01-10T05:00:00.000Z",
     "name": "Día de los Mártires Caídos en la Gesta Patriótica",
     "type": "public",
+    "rule": "01-09 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2023-02-21T05:00:00.000Z",
     "name": "Carnaval",
     "type": "observance",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2023-02-22T05:00:00.000Z",
     "name": "Carnaval",
     "type": "public",
+    "rule": "easter -47",
     "_weekday": "Tue"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2023-04-08T05:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2023-05-02T05:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2023-11-04T05:00:00.000Z",
     "name": "Día de la Separación (de Colombia)",
     "type": "public",
+    "rule": "11-03 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2023-11-11T05:00:00.000Z",
     "name": "Primer Grito de Independencia",
     "type": "public",
+    "rule": "11-10 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2023-11-29T05:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "11-28 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2023-12-09T05:00:00.000Z",
     "name": "Día de la Madre",
     "type": "public",
+    "rule": "12-08 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2023-12-26T05:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2023-02-18T15:00:00.000Z",
     "name": "الإسراء والمعراج",
     "type": "public",
+    "rule": "27 Rajab",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-04-21T15:00:00.000Z",
     "name": "عيد الفطر",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-05-01T21:00:00.000Z",
     "name": "يوم العمال",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2023-05-19T21:00:00.000Z",
     "name": "Restoration of Somaliland Sovereignty",
     "type": "public",
+    "rule": "05-18 P2D",
     "_weekday": "Thu"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2023-06-26T21:00:00.000Z",
     "name": "استقلال الصومال البريطاني",
     "type": "public",
+    "rule": "06-26",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2023-06-28T15:00:00.000Z",
     "name": "عيد الأضحى",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2023-07-19T15:00:00.000Z",
     "name": "رأس السنة الهجرية",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Wed"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2023-09-27T15:00:00.000Z",
     "name": "المولد النبويّ",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Wed"
   }
 ]

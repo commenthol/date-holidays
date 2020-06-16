@@ -5,6 +5,7 @@
     "end": "2024-01-02T11:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-01-16T11:00:00.000Z",
     "name": "Martin Luther King Jr. Day",
     "type": "public",
+    "rule": "3rd monday in January",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-02-15T11:00:00.000Z",
     "name": "Valentine's Day",
     "type": "observance",
+    "rule": "02-14",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-02-20T11:00:00.000Z",
     "name": "Washington's Birthday",
     "type": "public",
+    "rule": "3rd monday in February",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-04-01T11:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-04-18T11:00:00.000Z",
     "name": "American Samoa Flag Day",
     "type": "public",
+    "rule": "04-17 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-04-25T11:00:00.000Z",
     "name": "Administrative Professionals Day",
     "type": "observance",
+    "rule": "wednesday before 04-28",
     "_weekday": "Wed"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-05-13T11:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2024-05-28T11:00:00.000Z",
     "name": "Memorial Day",
     "type": "public",
+    "rule": "monday before 06-01",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2024-06-17T11:00:00.000Z",
     "name": "Father's Day",
     "type": "observance",
+    "rule": "3rd sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2024-07-05T11:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "07-04 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Thu"
   },
   {
@@ -94,6 +105,7 @@
     "name": "Manu'a Cession Day",
     "type": "optional",
     "note": "Goverment offices closed",
+    "rule": "07-16",
     "_weekday": "Tue"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2024-09-03T11:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "monday in September",
     "_weekday": "Mon"
   },
   {
@@ -111,6 +124,7 @@
     "name": "White Sunday",
     "type": "observance",
     "note": "christian",
+    "rule": "2nd sunday in October",
     "_weekday": "Sun"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2024-10-15T11:00:00.000Z",
     "name": "Columbus Day",
     "type": "public",
+    "rule": "2nd monday in October",
     "_weekday": "Mon"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2024-11-01T11:00:00.000Z",
     "name": "Halloween",
     "type": "observance",
+    "rule": "10-31 18:00",
     "_weekday": "Thu"
   },
   {
@@ -135,6 +151,7 @@
     "end": "2024-11-06T11:00:00.000Z",
     "name": "Election Day",
     "type": "observance",
+    "rule": "tuesday after 1st monday in November every 4 years since 1848",
     "_weekday": "Tue"
   },
   {
@@ -143,6 +160,7 @@
     "end": "2024-11-12T11:00:00.000Z",
     "name": "Veterans Day",
     "type": "public",
+    "rule": "11-11",
     "_weekday": "Mon"
   },
   {
@@ -151,6 +169,7 @@
     "end": "2024-11-29T11:00:00.000Z",
     "name": "Thanksgiving Day",
     "type": "public",
+    "rule": "4th thursday in November",
     "_weekday": "Thu"
   },
   {
@@ -159,6 +178,7 @@
     "end": "2024-11-30T11:00:00.000Z",
     "name": "Day after Thanksgiving Day",
     "type": "observance",
+    "rule": "friday after 4th thursday in November",
     "_weekday": "Fri"
   },
   {
@@ -167,6 +187,7 @@
     "end": "2024-12-25T11:00:00.000Z",
     "name": "Christmas Eve",
     "type": "optional",
+    "rule": "12-24",
     "_weekday": "Tue"
   },
   {
@@ -175,6 +196,7 @@
     "end": "2024-12-25T11:00:00.000Z",
     "name": "Christmas Eve",
     "type": "bank",
+    "rule": "12-24 12:00",
     "_weekday": "Tue"
   },
   {
@@ -183,6 +205,7 @@
     "end": "2024-12-26T11:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Wed"
   },
   {
@@ -191,6 +214,7 @@
     "end": "2025-01-01T11:00:00.000Z",
     "name": "New Year's Eve",
     "type": "observance",
+    "rule": "12-31",
     "_weekday": "Tue"
   },
   {
@@ -199,6 +223,7 @@
     "end": "2025-01-01T11:00:00.000Z",
     "name": "New Year's Eve",
     "type": "bank",
+    "rule": "12-31 12:00",
     "_weekday": "Tue"
   }
 ]

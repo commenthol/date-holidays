@@ -5,6 +5,7 @@
     "end": "2022-01-02T04:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -15,6 +16,7 @@
     "type": "bank",
     "note": "Goverment offices close",
     "substitute": true,
+    "rule": "substitutes 01-01 if saturday, sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -23,6 +25,7 @@
     "end": "2022-04-16T03:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -31,6 +34,7 @@
     "end": "2022-05-28T03:00:00.000Z",
     "name": "Bermuda Day",
     "type": "public",
+    "rule": "friday before 06-01",
     "_weekday": "Fri"
   },
   {
@@ -39,6 +43,7 @@
     "end": "2022-06-21T03:00:00.000Z",
     "name": "National Heroes Day",
     "type": "public",
+    "rule": "3nd monday in June",
     "_weekday": "Mon"
   },
   {
@@ -47,6 +52,7 @@
     "end": "2022-07-29T03:00:00.000Z",
     "name": "Emancipation Day",
     "type": "public",
+    "rule": "thursday before 08-04",
     "_weekday": "Thu"
   },
   {
@@ -55,6 +61,7 @@
     "end": "2022-07-30T03:00:00.000Z",
     "name": "Somers' Day",
     "type": "public",
+    "rule": "friday before 08-05",
     "_weekday": "Fri"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2022-09-06T03:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "monday after 09-01",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2022-11-12T04:00:00.000Z",
     "name": "Remembrance Day",
     "type": "public",
+    "rule": "11-11",
     "_weekday": "Fri"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2022-12-26T04:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2022-12-27T04:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   },
   {
@@ -97,6 +108,7 @@
     "type": "bank",
     "note": "Goverment offices close",
     "substitute": true,
+    "rule": "substitutes 12-25 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

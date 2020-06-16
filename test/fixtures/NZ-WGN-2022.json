@@ -5,6 +5,7 @@
     "end": "2022-01-01T11:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-01-02T11:00:00.000Z",
     "name": "Day after New Year's Day",
     "type": "public",
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sun"
   },
   {
@@ -22,6 +24,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -31,6 +34,7 @@
     "name": "Day after New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -39,6 +43,7 @@
     "end": "2022-01-24T11:00:00.000Z",
     "name": "Provincial anniversary day",
     "type": "public",
+    "rule": "01-22 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -47,6 +52,7 @@
     "end": "2022-02-06T11:00:00.000Z",
     "name": "Waitangi Day",
     "type": "public",
+    "rule": "02-06 and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -56,6 +62,7 @@
     "name": "Waitangi Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "02-06 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -64,6 +71,7 @@
     "end": "2022-04-15T12:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -72,6 +80,7 @@
     "end": "2022-04-17T12:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -80,6 +89,7 @@
     "end": "2022-04-18T12:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -88,6 +98,7 @@
     "end": "2022-04-25T12:00:00.000Z",
     "name": "ANZAC Day",
     "type": "public",
+    "rule": "04-25 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -96,6 +107,7 @@
     "end": "2022-06-06T12:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
+    "rule": "1st monday in June",
     "_weekday": "Mon"
   },
   {
@@ -104,6 +116,7 @@
     "end": "2022-10-24T11:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "4th monday in October",
     "_weekday": "Mon"
   },
   {
@@ -112,6 +125,7 @@
     "end": "2022-12-25T11:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sun"
   },
   {
@@ -120,6 +134,7 @@
     "end": "2022-12-26T11:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -129,6 +144,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

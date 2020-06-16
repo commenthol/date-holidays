@@ -5,6 +5,7 @@
     "end": "2015-01-01T16:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-01-26T16:00:00.000Z",
     "name": "Australia Day",
     "type": "public",
+    "rule": "01-26 if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2015-03-02T16:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "1st monday in March",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2015-04-03T16:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2015-04-06T16:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2015-04-25T16:00:00.000Z",
     "name": "Anzac Day",
     "type": "public",
+    "rule": "04-25 and if saturday,sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -54,6 +60,7 @@
     "name": "Anzac Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "04-25 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2015-06-01T16:00:00.000Z",
     "name": "Western Australia Day",
     "type": "public",
+    "rule": "1st monday in June",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "name": "Queen's Birthday",
     "type": "public",
     "note": "Might be on a different day; is proclaimed by Governor",
+    "rule": "monday before October",
     "_weekday": "Mon"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2015-12-25T16:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2015-12-26T16:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sat"
   },
   {
@@ -96,6 +107,7 @@
     "name": "Boxing Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   }
 ]

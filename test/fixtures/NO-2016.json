@@ -5,6 +5,7 @@
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Første nyttårsdag",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-02-07T23:00:00.000Z",
     "name": "Fastelavn",
     "type": "observance",
+    "rule": "easter -49",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-02-14T23:00:00.000Z",
     "name": "Morsdag",
     "type": "observance",
+    "rule": "2nd sunday in February",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-03-20T23:00:00.000Z",
     "name": "Palmesøndag",
     "type": "observance",
+    "rule": "easter -7",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-03-24T23:00:00.000Z",
     "name": "Skjærtorsdag",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Langfredag",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2016-03-26T23:00:00.000Z",
     "name": "Påskeaften",
     "type": "public",
+    "rule": "easter -1",
     "_weekday": "Sat"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Første påskedag",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Andre påskedag",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Arbeidernes dag",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2016-05-05T22:00:00.000Z",
     "name": "Kristi himmelfartsdag",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2016-05-08T22:00:00.000Z",
     "name": "Frigjøringsdagen",
     "type": "observance",
+    "rule": "05-08",
     "_weekday": "Sun"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Første pinsedag",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2016-05-16T22:00:00.000Z",
     "name": "Andre pinsedag",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2016-05-17T22:00:00.000Z",
     "name": "17. mai",
     "type": "public",
+    "rule": "05-17",
     "_weekday": "Tue"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2016-06-23T22:00:00.000Z",
     "name": "Sankthansaften",
     "type": "observance",
+    "rule": "06-23",
     "_weekday": "Thu"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2016-11-13T23:00:00.000Z",
     "name": "Farsdag",
     "type": "observance",
+    "rule": "2nd sunday in November",
     "_weekday": "Sun"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2016-11-27T23:00:00.000Z",
     "name": "Første søndag i advent",
     "type": "observance",
+    "rule": "4th sunday before 12-24",
     "_weekday": "Sun"
   },
   {
@@ -149,6 +167,7 @@
     "end": "2016-12-04T23:00:00.000Z",
     "name": "Andre søndag i advent",
     "type": "observance",
+    "rule": "3rd sunday before 12-24",
     "_weekday": "Sun"
   },
   {
@@ -157,6 +176,7 @@
     "end": "2016-12-11T23:00:00.000Z",
     "name": "Tredje søndag i advent",
     "type": "observance",
+    "rule": "2nd sunday before 12-24",
     "_weekday": "Sun"
   },
   {
@@ -165,6 +185,7 @@
     "end": "2016-12-18T23:00:00.000Z",
     "name": "Fjerde søndag i advent",
     "type": "observance",
+    "rule": "1st sunday before 12-24",
     "_weekday": "Sun"
   },
   {
@@ -173,6 +194,7 @@
     "end": "2016-12-24T23:00:00.000Z",
     "name": "Julaften",
     "type": "bank",
+    "rule": "12-24",
     "_weekday": "Sat"
   },
   {
@@ -181,6 +203,7 @@
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Første Juledag",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -189,6 +212,7 @@
     "end": "2016-12-26T23:00:00.000Z",
     "name": "Andre juledag",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   },
   {
@@ -197,6 +221,7 @@
     "end": "2016-12-31T23:00:00.000Z",
     "name": "Nyttårsaften",
     "type": "bank",
+    "rule": "12-31 14:00 if sunday then 00:00",
     "_weekday": "Sat"
   }
 ]

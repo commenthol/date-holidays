@@ -5,6 +5,7 @@
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Nytår",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-02-16T23:00:00.000Z",
     "name": "Fastelavn",
     "type": "observance",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2015-04-02T22:00:00.000Z",
     "name": "Skærtorsdag",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2015-04-03T22:00:00.000Z",
     "name": "Langfredag",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Påskesøndag",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2015-04-06T22:00:00.000Z",
     "name": "Anden påskedag",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "name": "1. maj",
     "type": "observance",
     "note": "Full holiday for blue collar workers",
+    "rule": "05-01",
     "_weekday": "Fri"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Store Bededag",
     "type": "public",
+    "rule": "easter 26",
     "_weekday": "Fri"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Mors Dag",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2015-05-14T22:00:00.000Z",
     "name": "Kristi Himmelfartsdag",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pinsedag",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2015-05-25T22:00:00.000Z",
     "name": "Anden Pinsedag",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Grundlovsdag",
     "type": "observance",
     "note": "Shops are closed",
+    "rule": "06-05",
     "_weekday": "Fri"
   },
   {
@@ -112,6 +125,7 @@
     "name": "Juleaften",
     "type": "observance",
     "note": "Shops are closed",
+    "rule": "12-24",
     "_weekday": "Thu"
   },
   {
@@ -120,6 +134,7 @@
     "end": "2015-12-25T23:00:00.000Z",
     "name": "Juledag",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -128,6 +143,7 @@
     "end": "2015-12-26T23:00:00.000Z",
     "name": "Anden Juledag",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   }
 ]

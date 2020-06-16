@@ -5,6 +5,7 @@
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Any nou",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-01-06T23:00:00.000Z",
     "name": "Día de los Reyes Magos",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-02-09T23:00:00.000Z",
     "name": "Carnaval",
     "type": "public",
+    "rule": "easter -47",
     "_weekday": "Tue"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-03-14T23:00:00.000Z",
     "name": "Dia de la Constitució",
     "type": "public",
+    "rule": "03-14",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-03-24T23:00:00.000Z",
     "name": "Jueves Santo",
     "type": "bank",
+    "rule": "easter -3 14:00",
     "_weekday": "Thu"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Pascua",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Lunes de Pascua",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pentecostés",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2016-05-16T22:00:00.000Z",
     "name": "Lunes de Pentecostés",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2016-08-15T22:00:00.000Z",
     "name": "Asunción",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Mon"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2016-09-08T22:00:00.000Z",
     "name": "Mare de Déu de Meritxell",
     "type": "public",
+    "rule": "09-08",
     "_weekday": "Thu"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2016-11-01T23:00:00.000Z",
     "name": "Todos los Santos",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Tue"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2016-12-08T23:00:00.000Z",
     "name": "La inmaculada concepción",
     "type": "public",
+    "rule": "12-08",
     "_weekday": "Thu"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2016-12-24T23:00:00.000Z",
     "name": "Nochebuena",
     "type": "bank",
+    "rule": "12-24",
     "_weekday": "Sat"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Nadal",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2016-12-26T23:00:00.000Z",
     "name": "San Esteban",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   }
 ]

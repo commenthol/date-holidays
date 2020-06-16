@@ -5,6 +5,7 @@
     "end": "2025-01-01T16:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2025-01-23T16:00:00.000Z",
     "name": "First Philippine Republic Day",
     "type": "observance",
+    "rule": "01-23",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2025-01-29T16:00:00.000Z",
     "name": "Chinese New Year",
     "type": "optional",
+    "rule": "chinese 01-0-01",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2025-02-02T16:00:00.000Z",
     "name": "Constitution Day",
     "type": "observance",
+    "rule": "02-02",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2025-02-12T16:00:00.000Z",
     "name": "Lantern Festival",
     "type": "observance",
+    "rule": "chinese 01-0-15",
     "_weekday": "Wed"
   },
   {
@@ -46,6 +51,7 @@
     "name": "EDSA Revolution Anniversary",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "02-25",
     "_weekday": "Tue"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2025-03-30T10:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2025-04-09T16:00:00.000Z",
     "name": "Day of Valor",
     "type": "public",
+    "rule": "04-09",
     "_weekday": "Wed"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2025-04-17T16:00:00.000Z",
     "name": "Maundy Thursday",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2025-04-18T16:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -87,6 +97,7 @@
     "name": "Easter Saturday",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "easter -1",
     "_weekday": "Sat"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2025-04-20T16:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2025-04-27T16:00:00.000Z",
     "name": "Lapu-Lapu Day",
     "type": "observance",
+    "rule": "04-27",
     "_weekday": "Sun"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2025-05-01T16:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Thu"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2025-06-06T10:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Fri"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2025-06-12T16:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "06-12",
     "_weekday": "Thu"
   },
   {
@@ -135,6 +151,7 @@
     "end": "2025-06-19T16:00:00.000Z",
     "name": "José Rizal's birthday",
     "type": "observance",
+    "rule": "06-19",
     "_weekday": "Thu"
   },
   {
@@ -143,6 +160,7 @@
     "end": "2025-06-26T10:00:00.000Z",
     "name": "Islamic New Year",
     "type": "observance",
+    "rule": "1 Muharram",
     "_weekday": "Thu"
   },
   {
@@ -151,6 +169,7 @@
     "end": "2025-07-27T16:00:00.000Z",
     "name": "Iglesia ni Cristo Day",
     "type": "observance",
+    "rule": "07-27",
     "_weekday": "Sun"
   },
   {
@@ -160,6 +179,7 @@
     "name": "Ninoy Aquino Day",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "08-21",
     "_weekday": "Thu"
   },
   {
@@ -168,6 +188,7 @@
     "end": "2025-08-25T16:00:00.000Z",
     "name": "National Heroes' Day",
     "type": "public",
+    "rule": "1st monday before September",
     "_weekday": "Mon"
   },
   {
@@ -176,6 +197,7 @@
     "end": "2025-09-04T10:00:00.000Z",
     "name": "Birthday of Muhammad (Mawlid)",
     "type": "observance",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Thu"
   },
   {
@@ -184,6 +206,7 @@
     "end": "2025-10-06T16:00:00.000Z",
     "name": "Mid-Autumn Festival",
     "type": "observance",
+    "rule": "chinese 08-0-15",
     "_weekday": "Mon"
   },
   {
@@ -193,6 +216,7 @@
     "name": "All Saints' Day",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "11-01",
     "_weekday": "Sat"
   },
   {
@@ -202,6 +226,7 @@
     "name": "All Souls' Day",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "11-02",
     "_weekday": "Sun"
   },
   {
@@ -210,6 +235,7 @@
     "end": "2025-11-30T16:00:00.000Z",
     "name": "Bonifacio Day",
     "type": "public",
+    "rule": "11-30",
     "_weekday": "Sun"
   },
   {
@@ -219,6 +245,7 @@
     "name": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "12-08",
     "_weekday": "Mon"
   },
   {
@@ -228,6 +255,7 @@
     "name": "Christmas Eve",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "12-24",
     "_weekday": "Wed"
   },
   {
@@ -236,6 +264,7 @@
     "end": "2025-12-25T16:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Thu"
   },
   {
@@ -244,6 +273,7 @@
     "end": "2025-12-30T16:00:00.000Z",
     "name": "Rizal Day",
     "type": "public",
+    "rule": "12-30",
     "_weekday": "Tue"
   },
   {
@@ -253,6 +283,7 @@
     "name": "New Year's Eve",
     "type": "optional",
     "note": "Non-working Day",
+    "rule": "12-31",
     "_weekday": "Wed"
   }
 ]

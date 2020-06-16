@@ -5,6 +5,7 @@
     "end": "2024-01-02T06:00:00.000Z",
     "name": "Año Nuevo",
     "type": "observance",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-01-17T06:00:00.000Z",
     "name": "Firma de los Acuerdos de Paz",
     "type": "observance",
+    "rule": "01-16",
     "_weekday": "Tue"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-03-09T06:00:00.000Z",
     "name": "Día de la Mujer",
     "type": "observance",
+    "rule": "03-08",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-03-29T06:00:00.000Z",
     "name": "Jueves Santo",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-03-30T06:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-03-31T06:00:00.000Z",
     "name": "Sabado Santo",
     "type": "public",
+    "rule": "easter -1",
     "_weekday": "Sat"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-04-01T06:00:00.000Z",
     "name": "Pascua",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-05-02T06:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2024-05-08T06:00:00.000Z",
     "name": "Día del Soldado",
     "type": "observance",
+    "rule": "05-07",
     "_weekday": "Tue"
   },
   {
@@ -78,6 +87,7 @@
     "name": "Día de la Madre",
     "type": "optional",
     "note": "Public Offices only",
+    "rule": "05-10",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2024-06-18T06:00:00.000Z",
     "name": "Father's Day",
     "type": "observance",
+    "rule": "06-17",
     "_weekday": "Mon"
   },
   {
@@ -95,6 +106,7 @@
     "name": "Día del Maestro",
     "type": "optional",
     "note": "Dayoff for teachers only",
+    "rule": "06-22",
     "_weekday": "Sat"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2024-08-04T06:00:00.000Z",
     "name": "Fiestas Agostinas",
     "type": "public",
+    "rule": "08-03",
     "_weekday": "Sat"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2024-08-06T06:00:00.000Z",
     "name": "Fiestas Agostinas",
     "type": "public",
+    "rule": "08-05",
     "_weekday": "Mon"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2024-08-07T06:00:00.000Z",
     "name": "Celebración del Divino Salvador del Mundo",
     "type": "public",
+    "rule": "08-06",
     "_weekday": "Tue"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2024-09-16T06:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "09-15",
     "_weekday": "Sun"
   },
   {
@@ -135,6 +151,7 @@
     "end": "2024-11-03T06:00:00.000Z",
     "name": "Día de los Difuntos",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Sat"
   },
   {
@@ -143,6 +160,7 @@
     "end": "2024-12-26T06:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   }
 ]

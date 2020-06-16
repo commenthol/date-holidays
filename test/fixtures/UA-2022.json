@@ -5,6 +5,7 @@
     "end": "2022-01-01T22:00:00.000Z",
     "name": "Новий Рік",
     "type": "public",
+    "rule": "01-01 and if saturday, sunday then next tuesday",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-01-02T22:00:00.000Z",
     "name": "Новий Рік",
     "type": "public",
+    "rule": "01-02 and if saturday, sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Новий Рік (замінити день)",
     "type": "public",
     "substitute": true,
+    "rule": "01-02 and if saturday, sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -31,6 +34,7 @@
     "name": "Новий Рік (замінити день)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if saturday, sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -39,6 +43,7 @@
     "end": "2022-01-07T22:00:00.000Z",
     "name": "Різдво",
     "type": "public",
+    "rule": "julian 12-25 and if saturday, sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -47,6 +52,7 @@
     "end": "2022-03-08T22:00:00.000Z",
     "name": "Міжнародний жіночий день",
     "type": "public",
+    "rule": "03-08 and if saturday, sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -55,6 +61,7 @@
     "end": "2022-04-24T21:00:00.000Z",
     "name": "Великдень",
     "type": "public",
+    "rule": "orthodox and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2022-04-25T21:00:00.000Z",
     "name": "Великдень",
     "type": "public",
+    "rule": "orthodox and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2022-05-01T21:00:00.000Z",
     "name": "День міжнародної солідарності трудящих",
     "type": "public",
+    "rule": "05-01 and if saturday, sunday then next tuesday",
     "_weekday": "Sun"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2022-05-02T21:00:00.000Z",
     "name": "День міжнародної солідарності трудящих",
     "type": "public",
+    "rule": "05-02 and if saturday, sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -88,6 +98,7 @@
     "name": "День міжнародної солідарності трудящих (замінити день)",
     "type": "public",
     "substitute": true,
+    "rule": "05-01 and if saturday, sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -96,6 +107,7 @@
     "end": "2022-05-09T21:00:00.000Z",
     "name": "День перемоги над нацизмом у Другій світовій війні",
     "type": "public",
+    "rule": "05-09 and if saturday, sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -104,6 +116,7 @@
     "end": "2022-06-12T21:00:00.000Z",
     "name": "Трійця",
     "type": "public",
+    "rule": "orthodox 49 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -112,6 +125,7 @@
     "end": "2022-06-13T21:00:00.000Z",
     "name": "Трійця",
     "type": "public",
+    "rule": "orthodox 49 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -120,6 +134,7 @@
     "end": "2022-06-28T21:00:00.000Z",
     "name": "День Конституції",
     "type": "public",
+    "rule": "06-28 and if saturday, sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -128,6 +143,7 @@
     "end": "2022-08-24T21:00:00.000Z",
     "name": "День Незалежності",
     "type": "public",
+    "rule": "08-24 and if saturday, sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -136,6 +152,7 @@
     "end": "2022-10-14T21:00:00.000Z",
     "name": "День захисника України",
     "type": "public",
+    "rule": "10-14 and if saturday, sunday then next monday",
     "_weekday": "Fri"
   }
 ]

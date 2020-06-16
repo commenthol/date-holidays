@@ -5,6 +5,7 @@
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Neujahr",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-02-12T23:00:00.000Z",
     "name": "Weiberfastnacht",
     "type": "observance",
+    "rule": "easter -52",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2015-02-14T23:00:00.000Z",
     "name": "Valentinstag",
     "type": "observance",
+    "rule": "02-14",
     "_weekday": "Sat"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2015-02-16T23:00:00.000Z",
     "name": "Rosenmontag",
     "type": "observance",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2015-02-17T23:00:00.000Z",
     "name": "Faschingsdienstag",
     "type": "observance",
+    "rule": "easter -47 14:00",
     "_weekday": "Tue"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2015-02-18T23:00:00.000Z",
     "name": "Aschermittwoch",
     "type": "observance",
+    "rule": "easter -46",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2015-04-02T22:00:00.000Z",
     "name": "Gründonnerstag",
     "type": "observance",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2015-04-03T22:00:00.000Z",
     "name": "Karfreitag",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Ostersonntag",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2015-04-06T22:00:00.000Z",
     "name": "Ostermontag",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2015-05-01T22:00:00.000Z",
     "name": "Maifeiertag",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Fri"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Muttertag",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2015-05-14T22:00:00.000Z",
     "name": "Christi Himmelfahrt",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pfingstsonntag",
     "type": "observance",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2015-05-25T22:00:00.000Z",
     "name": "Pfingstmontag",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -126,6 +141,7 @@
     "name": "Fronleichnam",
     "type": "public",
     "note": "In Anrode (nur in den Ortsteilen Bickenriede und Zella), Dünwald (nur in den Ortsteilen Beberstedt und Hüpstedt), Rodeberg (nur im Ortsteil Struth), Südeichsfeld",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2015-10-03T22:00:00.000Z",
     "name": "Tag der Deutschen Einheit",
     "type": "public",
+    "rule": "10-03",
     "_weekday": "Sat"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2015-10-31T23:00:00.000Z",
     "name": "Reformationstag",
     "type": "public",
+    "rule": "10-31",
     "_weekday": "Sat"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2015-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
     "type": "observance",
+    "rule": "11-01",
     "_weekday": "Sun"
   },
   {
@@ -158,6 +177,7 @@
     "end": "2015-11-02T23:00:00.000Z",
     "name": "Allerseelen",
     "type": "observance",
+    "rule": "11-02",
     "_weekday": "Mon"
   },
   {
@@ -166,6 +186,7 @@
     "end": "2015-11-11T23:00:00.000Z",
     "name": "Sankt Martin (Faschingsbeginn)",
     "type": "observance",
+    "rule": "11-11",
     "_weekday": "Wed"
   },
   {
@@ -174,6 +195,7 @@
     "end": "2015-11-15T23:00:00.000Z",
     "name": "Volkstrauertag",
     "type": "observance",
+    "rule": "6th sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -182,6 +204,7 @@
     "end": "2015-11-18T23:00:00.000Z",
     "name": "Buß- und Bettag",
     "type": "observance",
+    "rule": "wednesday before 11-23",
     "_weekday": "Wed"
   },
   {
@@ -190,6 +213,7 @@
     "end": "2015-11-22T23:00:00.000Z",
     "name": "Totensonntag",
     "type": "observance",
+    "rule": "5th sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -198,6 +222,7 @@
     "end": "2015-11-29T23:00:00.000Z",
     "name": "1. Advent",
     "type": "observance",
+    "rule": "4th sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -206,6 +231,7 @@
     "end": "2015-12-06T23:00:00.000Z",
     "name": "2. Advent",
     "type": "observance",
+    "rule": "3th sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -214,6 +240,7 @@
     "end": "2015-12-13T23:00:00.000Z",
     "name": "3. Advent",
     "type": "observance",
+    "rule": "2nd sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -222,6 +249,7 @@
     "end": "2015-12-20T23:00:00.000Z",
     "name": "4. Advent",
     "type": "observance",
+    "rule": "1st sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -230,6 +258,7 @@
     "end": "2015-12-24T23:00:00.000Z",
     "name": "Heiliger Abend",
     "type": "bank",
+    "rule": "12-24 14:00 if sunday then 00:00",
     "_weekday": "Thu"
   },
   {
@@ -238,6 +267,7 @@
     "end": "2015-12-25T23:00:00.000Z",
     "name": "1. Weihnachtstag",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -246,6 +276,7 @@
     "end": "2015-12-26T23:00:00.000Z",
     "name": "2. Weihnachtstag",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   },
   {
@@ -254,6 +285,7 @@
     "end": "2015-12-31T23:00:00.000Z",
     "name": "Silvester",
     "type": "public",
+    "rule": "12-31 14:00 if sunday then 00:00",
     "_weekday": "Thu"
   }
 ]

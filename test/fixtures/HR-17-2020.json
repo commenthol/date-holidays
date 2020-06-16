@@ -5,6 +5,7 @@
     "end": "2020-01-01T23:00:00.000Z",
     "name": "Nova godina",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-01-06T23:00:00.000Z",
     "name": "Bogojavljenje, Sveta tri kralja",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2020-02-25T23:00:00.000Z",
     "name": "Pokladni utorak",
     "type": "observance",
+    "rule": "easter -47",
     "_weekday": "Tue"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2020-04-12T22:00:00.000Z",
     "name": "Uskrs",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2020-04-13T22:00:00.000Z",
     "name": "Uskršnji ponedjeljak",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2020-05-01T22:00:00.000Z",
     "name": "Praznik rada",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2020-05-07T22:00:00.000Z",
     "name": "Sveti Duje",
     "type": "public",
+    "rule": "05-07",
     "_weekday": "Thu"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2020-05-10T22:00:00.000Z",
     "name": "Majčin dan",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2020-06-11T22:00:00.000Z",
     "name": "Tijelovo",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2020-06-22T22:00:00.000Z",
     "name": "Dan antifašističke borbe",
     "type": "public",
+    "rule": "06-22",
     "_weekday": "Mon"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2020-06-25T22:00:00.000Z",
     "name": "Dan državnosti",
     "type": "public",
+    "rule": "06-25",
     "_weekday": "Thu"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2020-08-05T22:00:00.000Z",
     "name": "Dan pobjede i domovinske zahvalnosti",
     "type": "public",
+    "rule": "08-05",
     "_weekday": "Wed"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2020-08-15T22:00:00.000Z",
     "name": "Velika Gospa",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Sat"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2020-10-08T22:00:00.000Z",
     "name": "Dan neovisnosti",
     "type": "public",
+    "rule": "10-08",
     "_weekday": "Thu"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2020-11-01T23:00:00.000Z",
     "name": "Svi sveti",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Sun"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2020-12-25T23:00:00.000Z",
     "name": "Božić",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2020-12-26T23:00:00.000Z",
     "name": "Svetog Stjepana",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   }
 ]

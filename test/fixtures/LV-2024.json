@@ -5,6 +5,7 @@
     "end": "2024-01-01T22:00:00.000Z",
     "name": "Jaunais Gads",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-03-29T22:00:00.000Z",
     "name": "Lielā Piektdiena",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-03-31T21:00:00.000Z",
     "name": "Lieldienas",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-04-01T21:00:00.000Z",
     "name": "Otrās Lieldienas",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-05-01T21:00:00.000Z",
     "name": "Darba svētki",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-05-04T21:00:00.000Z",
     "name": "Latvijas Republikas Neatkarības atjaunošanas diena",
     "type": "public",
+    "rule": "05-04 and if saturday,sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -54,6 +60,7 @@
     "name": "Latvijas Republikas Neatkarības atjaunošanas diena (aizstājējs diena)",
     "type": "public",
     "substitute": true,
+    "rule": "05-04 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2024-05-12T21:00:00.000Z",
     "name": "Mātes diena",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2024-06-23T21:00:00.000Z",
     "name": "Līgo Diena",
     "type": "public",
+    "rule": "06-23",
     "_weekday": "Sun"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2024-06-24T21:00:00.000Z",
     "name": "Jāņi",
     "type": "public",
+    "rule": "06-24",
     "_weekday": "Mon"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2024-11-18T22:00:00.000Z",
     "name": "Latvijas Republikas proklamēšanas diena",
     "type": "public",
+    "rule": "11-18 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2024-12-24T22:00:00.000Z",
     "name": "Ziemassvētku vakars",
     "type": "public",
+    "rule": "12-24",
     "_weekday": "Tue"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2024-12-25T22:00:00.000Z",
     "name": "Ziemassvētki",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2024-12-26T22:00:00.000Z",
     "name": "Otrie Ziemassvētki",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2024-12-31T22:00:00.000Z",
     "name": "Vecgada vakars",
     "type": "public",
+    "rule": "12-31",
     "_weekday": "Tue"
   }
 ]

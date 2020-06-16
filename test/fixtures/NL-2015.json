@@ -5,6 +5,7 @@
     "end": "2015-01-01T23:00:00.000Z",
     "name": "Nieuwjaar",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-04-03T22:00:00.000Z",
     "name": "Goede Vrijdag",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Pasen",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2015-04-06T22:00:00.000Z",
     "name": "Tweede paasdag",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2015-04-27T22:00:00.000Z",
     "name": "Koningsdag",
     "type": "public",
+    "rule": "04-27 if sunday then previous saturday",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2015-05-04T22:00:00.000Z",
     "name": "Nationale Dodenherdenking",
     "type": "observance",
+    "rule": "05-04",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2015-05-05T22:00:00.000Z",
     "name": "Bevrijdingsdag",
     "type": "public",
+    "rule": "05-05",
     "_weekday": "Tue"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Moederdag",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2015-05-14T22:00:00.000Z",
     "name": "O.L.H. Hemelvaart",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pinksteren",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2015-05-25T22:00:00.000Z",
     "name": "Tweede pinksterdag",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2015-06-21T22:00:00.000Z",
     "name": "Vaderdag",
     "type": "observance",
+    "rule": "3rd sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -102,6 +114,7 @@
     "name": "Prinsjesdag",
     "type": "observance",
     "note": "Scholen in Den Haag geven meestal 1 dag vrij",
+    "rule": "3rd tuesday in September",
     "_weekday": "Tue"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2015-11-11T23:00:00.000Z",
     "name": "Sint Maarten",
     "type": "observance",
+    "rule": "11-11",
     "_weekday": "Wed"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2015-12-05T23:00:00.000Z",
     "name": "Sinterklaasavond",
     "type": "observance",
+    "rule": "12-05",
     "_weekday": "Sat"
   },
   {
@@ -126,6 +141,7 @@
     "end": "2015-12-15T23:00:00.000Z",
     "name": "Koninkrijksdag",
     "type": "observance",
+    "rule": "12-15",
     "_weekday": "Tue"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2015-12-25T23:00:00.000Z",
     "name": "Kerstmis",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2015-12-26T23:00:00.000Z",
     "name": "Tweede kerstdag",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2015-12-31T23:00:00.000Z",
     "name": "Oudejaarsavond",
     "type": "bank",
+    "rule": "12-31",
     "_weekday": "Thu"
   }
 ]

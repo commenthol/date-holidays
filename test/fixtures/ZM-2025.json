@@ -5,6 +5,7 @@
     "end": "2025-01-01T22:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2025-03-09T22:00:00.000Z",
     "name": "Women’s Day",
     "type": "public",
+    "rule": "03-09",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2025-03-12T22:00:00.000Z",
     "name": "Youth Day",
     "type": "public",
+    "rule": "03-12 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2025-04-18T22:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2025-04-21T22:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2025-05-01T22:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2025-05-25T22:00:00.000Z",
     "name": "African Freedom Day",
     "type": "public",
+    "rule": "05-25 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "name": "African Freedom Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "05-25 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2025-07-07T22:00:00.000Z",
     "name": "Heroes' Day",
     "type": "public",
+    "rule": "1st monday in July",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2025-07-08T22:00:00.000Z",
     "name": "Unity Day",
     "type": "public",
+    "rule": "tuesday after 1st monday in July",
     "_weekday": "Tue"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2025-08-04T22:00:00.000Z",
     "name": "Farmers' Day",
     "type": "public",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2025-10-24T22:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "10-24 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2025-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Thu"
   }
 ]

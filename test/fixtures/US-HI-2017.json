@@ -5,6 +5,7 @@
     "end": "2017-01-02T10:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2017-01-17T10:00:00.000Z",
     "name": "Martin Luther King Jr. Day",
     "type": "public",
+    "rule": "3rd monday in January",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2017-02-15T10:00:00.000Z",
     "name": "Valentine's Day",
     "type": "observance",
+    "rule": "02-14",
     "_weekday": "Tue"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2017-02-21T10:00:00.000Z",
     "name": "Presidents' Day",
     "type": "public",
+    "rule": "3rd monday in February",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2017-03-27T10:00:00.000Z",
     "name": "Prince Jonah Kuhio Kalanianaole Day",
     "type": "public",
+    "rule": "03-26 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -55,6 +61,7 @@
     "name": "Prince Jonah Kuhio Kalanianaole Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "03-26 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2017-04-15T10:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2017-04-17T10:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2017-04-19T10:00:00.000Z",
     "name": "Tax Day",
     "type": "observance",
+    "rule": "04-15 if friday then next monday if saturday,sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2017-04-27T10:00:00.000Z",
     "name": "Administrative Professionals Day",
     "type": "observance",
+    "rule": "wednesday before 04-28",
     "_weekday": "Wed"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2017-05-15T10:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2017-05-30T10:00:00.000Z",
     "name": "Memorial Day",
     "type": "public",
+    "rule": "monday before 06-01",
     "_weekday": "Mon"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2017-06-12T10:00:00.000Z",
     "name": "Kamehameha Day",
     "type": "public",
+    "rule": "06-11 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -120,6 +134,7 @@
     "name": "Kamehameha Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "06-11 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -128,6 +143,7 @@
     "end": "2017-06-19T10:00:00.000Z",
     "name": "Father's Day",
     "type": "observance",
+    "rule": "3rd sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -136,6 +152,7 @@
     "end": "2017-07-05T10:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "07-04 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Tue"
   },
   {
@@ -144,6 +161,7 @@
     "end": "2017-08-19T10:00:00.000Z",
     "name": "Statehood Day",
     "type": "public",
+    "rule": "3rd friday in August",
     "_weekday": "Fri"
   },
   {
@@ -152,6 +170,7 @@
     "end": "2017-09-05T10:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
+    "rule": "monday in September",
     "_weekday": "Mon"
   },
   {
@@ -160,6 +179,7 @@
     "end": "2017-11-01T10:00:00.000Z",
     "name": "Halloween",
     "type": "observance",
+    "rule": "10-31 18:00",
     "_weekday": "Tue"
   },
   {
@@ -170,6 +190,7 @@
     "type": "bank",
     "note": "Federal Government offices are closed",
     "substitute": true,
+    "rule": "substitutes 11-11 if sunday then next monday if saturday then previous friday",
     "_weekday": "Fri"
   },
   {
@@ -178,6 +199,7 @@
     "end": "2017-11-12T10:00:00.000Z",
     "name": "Veterans Day",
     "type": "public",
+    "rule": "11-11",
     "_weekday": "Sat"
   },
   {
@@ -186,6 +208,7 @@
     "end": "2017-11-24T10:00:00.000Z",
     "name": "Thanksgiving Day",
     "type": "public",
+    "rule": "4th thursday in November",
     "_weekday": "Thu"
   },
   {
@@ -194,6 +217,7 @@
     "end": "2017-11-25T10:00:00.000Z",
     "name": "Day after Thanksgiving Day",
     "type": "observance",
+    "rule": "friday after 4th thursday in November",
     "_weekday": "Fri"
   },
   {
@@ -202,6 +226,7 @@
     "end": "2017-12-25T10:00:00.000Z",
     "name": "Christmas Eve",
     "type": "optional",
+    "rule": "12-24",
     "_weekday": "Sun"
   },
   {
@@ -210,6 +235,7 @@
     "end": "2017-12-26T10:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Mon"
   },
   {
@@ -218,6 +244,7 @@
     "end": "2018-01-01T10:00:00.000Z",
     "name": "New Year's Eve",
     "type": "observance",
+    "rule": "12-31",
     "_weekday": "Sun"
   }
 ]

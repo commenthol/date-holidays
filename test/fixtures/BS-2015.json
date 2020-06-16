@@ -5,6 +5,7 @@
     "end": "2015-01-02T05:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Thu"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2015-01-11T05:00:00.000Z",
     "name": "Majority Rule Day",
     "type": "public",
+    "rule": "01-10 and if saturday,sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Majority Rule Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-10 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2015-04-04T04:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2015-04-06T04:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2015-04-07T04:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2015-05-11T04:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2015-05-25T04:00:00.000Z",
     "name": "Pentecost",
     "type": "observance",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2015-05-26T04:00:00.000Z",
     "name": "Whit Monday",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2015-06-06T04:00:00.000Z",
     "name": "Randol Fawkes Labour Day",
     "type": "public",
+    "rule": "1st friday in June",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2015-07-11T04:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "07-10 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2015-08-04T04:00:00.000Z",
     "name": "Emancipation Day",
     "type": "public",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2015-10-13T04:00:00.000Z",
     "name": "National Heroes' Day",
     "type": "public",
+    "rule": "10-12 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2015-12-26T05:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2015-12-27T05:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Sat"
   }
 ]

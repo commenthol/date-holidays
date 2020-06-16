@@ -6,6 +6,7 @@
     "name": "New Year's Day",
     "type": "public",
     "note": "except mining industy",
+    "rule": "01-01",
     "_weekday": "Thu"
   },
   {
@@ -15,6 +16,7 @@
     "name": "New Year's Holiday",
     "type": "public",
     "note": "except mining industy",
+    "rule": "01-02",
     "_weekday": "Fri"
   },
   {
@@ -23,6 +25,7 @@
     "end": "2015-04-03T22:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -32,6 +35,7 @@
     "name": "Easter Saturday",
     "type": "public",
     "note": "except mining industy",
+    "rule": "easter -1",
     "_weekday": "Sat"
   },
   {
@@ -40,6 +44,7 @@
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -49,6 +54,7 @@
     "name": "Easter Monday",
     "type": "public",
     "note": "except mining industy",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -58,6 +64,7 @@
     "name": "Labour Day",
     "type": "public",
     "note": "except mining industy",
+    "rule": "05-01",
     "_weekday": "Fri"
   },
   {
@@ -66,6 +73,7 @@
     "end": "2015-05-10T22:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -75,6 +83,7 @@
     "name": "Ascension Day",
     "type": "public",
     "note": "except mining industy",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -84,6 +93,7 @@
     "name": "Sir Seretse Khama Day",
     "type": "public",
     "note": "except mining industy",
+    "rule": "07-01",
     "_weekday": "Wed"
   },
   {
@@ -93,6 +103,7 @@
     "name": "President’s Day",
     "type": "public",
     "note": "except mining industy",
+    "rule": "3rd monday in July",
     "_weekday": "Mon"
   },
   {
@@ -102,6 +113,7 @@
     "name": "President’s Day Holiday",
     "type": "public",
     "note": "except mining industy",
+    "rule": "tuesday after 3rd monday in July",
     "_weekday": "Tue"
   },
   {
@@ -110,6 +122,7 @@
     "end": "2015-09-30T22:00:00.000Z",
     "name": "Botswana Day",
     "type": "public",
+    "rule": "09-30",
     "_weekday": "Wed"
   },
   {
@@ -118,6 +131,7 @@
     "end": "2015-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -127,6 +141,7 @@
     "name": "Family Day",
     "type": "public",
     "note": "except mining industy",
+    "rule": "12-26",
     "_weekday": "Sat"
   }
 ]

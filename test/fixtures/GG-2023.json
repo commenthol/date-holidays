@@ -5,6 +5,7 @@
     "end": "2023-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 01-01 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2023-03-20T00:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "easter -21",
     "_weekday": "Sun"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2023-04-07T23:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2023-04-09T23:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2023-04-10T23:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2023-05-01T23:00:00.000Z",
     "name": "Early May bank holiday",
     "type": "public",
+    "rule": "1st monday in May",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2023-05-09T23:00:00.000Z",
     "name": "Liberation Day",
     "type": "public",
+    "rule": "05-09",
     "_weekday": "Tue"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2023-05-29T23:00:00.000Z",
     "name": "Spring bank holiday",
     "type": "public",
+    "rule": "1st monday before 06-01",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2023-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2023-12-27T00:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Tue"
   }
 ]

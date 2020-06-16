@@ -5,6 +5,7 @@
     "end": "2024-01-01T21:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-01-26T21:00:00.000Z",
     "name": "Liberation Day",
     "type": "public",
+    "rule": "01-26",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-02-14T21:00:00.000Z",
     "name": "Ash Wednesday",
     "type": "observance",
+    "rule": "easter -46",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-02-16T21:00:00.000Z",
     "name": "Archbishop Janan Luwum Day",
     "type": "public",
+    "rule": "02-16",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-03-08T21:00:00.000Z",
     "name": "International Women's Day",
     "type": "public",
+    "rule": "03-08",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-03-29T21:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-03-31T21:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-04-01T21:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2024-04-10T15:00:00.000Z",
     "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Wed"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2024-05-01T21:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2024-06-03T21:00:00.000Z",
     "name": "Martyr's Day",
     "type": "public",
+    "rule": "06-03",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2024-06-09T21:00:00.000Z",
     "name": "National Heroes Day",
     "type": "public",
+    "rule": "06-09",
     "_weekday": "Sun"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2024-06-16T15:00:00.000Z",
     "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2024-10-09T21:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "10-09",
     "_weekday": "Wed"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2024-12-25T21:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2024-12-26T21:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   }
 ]

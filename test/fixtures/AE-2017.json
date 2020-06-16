@@ -5,6 +5,7 @@
     "end": "2017-01-01T20:00:00.000Z",
     "name": "رأس السنة الميلادية",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2017-04-24T14:00:00.000Z",
     "name": "الإسراء والمعراج",
     "type": "public",
+    "rule": "27 Rajab",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2017-05-27T14:00:00.000Z",
     "name": "اليوم الأول من رمضان",
     "type": "public",
+    "rule": "1 Ramadan",
     "_weekday": "Sat"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2017-06-27T14:00:00.000Z",
     "name": "عيد الفطر",
     "type": "public",
+    "rule": "1 Shawwal P3D",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2017-09-03T14:00:00.000Z",
     "name": "عيد الأضحى",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah P3D",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2017-09-21T14:00:00.000Z",
     "name": "رأس السنة الهجرية",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Thu"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2017-11-30T14:00:00.000Z",
     "name": "المولد النبويّ",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Thu"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2017-12-02T20:00:00.000Z",
     "name": "اليوم الوطني",
     "type": "public",
+    "rule": "12-02",
     "_weekday": "Sat"
   }
 ]

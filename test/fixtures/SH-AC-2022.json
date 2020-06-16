@@ -5,6 +5,7 @@
     "end": "2022-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -14,6 +15,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 01-01 if saturday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2022-04-16T00:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2022-04-18T00:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2022-04-19T00:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2022-04-19T00:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
+    "rule": "3rd monday in April",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2022-05-22T00:00:00.000Z",
     "name": "Saint Helena Day",
     "type": "public",
+    "rule": "05-21",
     "_weekday": "Sat"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2022-05-27T00:00:00.000Z",
     "name": "Ascension Day",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2022-06-07T00:00:00.000Z",
     "name": "Whit Monday",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2022-08-30T00:00:00.000Z",
     "name": "August Bank Holiday",
     "type": "public",
+    "rule": "monday before 09-01",
     "_weekday": "Mon"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2022-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2022-12-27T00:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 12-25 if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

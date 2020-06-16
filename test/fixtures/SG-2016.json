@@ -5,6 +5,7 @@
     "end": "2016-01-01T16:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-02-08T16:00:00.000Z",
     "name": "Chinese New Year",
     "type": "public",
+    "rule": "chinese 01-0-01",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-02-09T16:00:00.000Z",
     "name": "Chinese New Year",
     "type": "public",
+    "rule": "chinese 01-0-02",
     "_weekday": "Tue"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-03-25T16:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-05-01T16:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -46,6 +51,7 @@
     "name": "Labour Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 05-01 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2016-05-21T16:00:00.000Z",
     "name": "Vesak Day",
     "type": "public",
+    "rule": "2016-05-21",
     "_weekday": "Sat"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2016-07-06T10:00:00.000Z",
     "name": "Hari Raya Puasa",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Wed"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2016-08-09T16:00:00.000Z",
     "name": "National Day",
     "type": "public",
+    "rule": "08-09",
     "_weekday": "Tue"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2016-09-11T10:00:00.000Z",
     "name": "Hari Raya Haji",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2016-10-29T16:00:00.000Z",
     "name": "Deepavali",
     "type": "public",
+    "rule": "2016-10-29",
     "_weekday": "Sat"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2016-12-25T16:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 12-25 if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

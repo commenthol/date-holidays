@@ -5,6 +5,7 @@
     "end": "2023-01-01T20:00:00.000Z",
     "name": "رأس السنة الميلادية",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-02-18T14:00:00.000Z",
     "name": "الإسراء والمعراج",
     "type": "public",
+    "rule": "27 Rajab",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-03-23T14:00:00.000Z",
     "name": "اليوم الأول من رمضان",
     "type": "public",
+    "rule": "1 Ramadan",
     "_weekday": "Thu"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2023-04-23T14:00:00.000Z",
     "name": "عيد الفطر",
     "type": "public",
+    "rule": "1 Shawwal P3D",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2023-06-30T14:00:00.000Z",
     "name": "عيد الأضحى",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah P3D",
     "_weekday": "Wed"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2023-07-19T14:00:00.000Z",
     "name": "رأس السنة الهجرية",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2023-09-27T14:00:00.000Z",
     "name": "المولد النبويّ",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Wed"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2023-12-02T20:00:00.000Z",
     "name": "اليوم الوطني",
     "type": "public",
+    "rule": "12-02",
     "_weekday": "Sat"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2022-01-01T23:00:00.000Z",
     "name": "Novogodisnji dan",
     "type": "public",
+    "rule": "01-01 and if sunday then next tuesday",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-01-02T23:00:00.000Z",
     "name": "Drugi dan Nove Godine",
     "type": "public",
+    "rule": "01-02 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Drugi dan Nove Godine (zamjena dan)",
     "type": "public",
     "substitute": true,
+    "rule": "01-02 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2022-01-06T23:00:00.000Z",
     "name": "Bogojavljenje, Sveta tri kralja",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Thu"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2022-01-07T23:00:00.000Z",
     "name": "Pravoslavni Božić",
     "type": "public",
+    "rule": "julian 12-25",
     "_weekday": "Fri"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2022-01-14T23:00:00.000Z",
     "name": "Pravoslavni novogodišnji dan",
     "type": "public",
+    "rule": "julian 01-01",
     "_weekday": "Fri"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2022-04-17T22:00:00.000Z",
     "name": "Vaskrs",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2022-04-18T22:00:00.000Z",
     "name": "Uskrsni ponedjeljak",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2022-04-24T22:00:00.000Z",
     "name": "Pravoslavni Vaskrs",
     "type": "public",
+    "rule": "orthodox",
     "_weekday": "Sun"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2022-05-01T22:00:00.000Z",
     "name": "Radni dan",
     "type": "public",
+    "rule": "05-01 and if sunday then next tuesday",
     "_weekday": "Sun"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2022-05-04T16:00:00.000Z",
     "name": "Ramazanski bajram",
     "type": "public",
+    "rule": "1 Shawwal P3D",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2022-05-02T22:00:00.000Z",
     "name": "Drugi dan Dana rada",
     "type": "public",
+    "rule": "05-02 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Radni dan (zamjena dan)",
     "type": "public",
     "substitute": true,
+    "rule": "05-01 and if sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2022-06-16T22:00:00.000Z",
     "name": "Tijelovo",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2022-07-12T16:00:00.000Z",
     "name": "Kurbanski bajram",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah P4D",
     "_weekday": "Sat"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2022-07-30T16:00:00.000Z",
     "name": "Nova hidžretska godina",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Sat"
   },
   {
@@ -135,6 +151,7 @@
     "end": "2022-08-15T22:00:00.000Z",
     "name": "Velika Gospa",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Mon"
   },
   {
@@ -144,6 +161,7 @@
     "name": "Velika Gospa",
     "type": "public",
     "note": "orthodox",
+    "rule": "julian 08-15",
     "_weekday": "Sun"
   },
   {
@@ -152,6 +170,7 @@
     "end": "2022-10-08T16:00:00.000Z",
     "name": "Mevlud",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
   },
   {
@@ -160,6 +179,7 @@
     "end": "2022-11-01T23:00:00.000Z",
     "name": "Dita e të gjithë Shenjtorëve",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Tue"
   },
   {
@@ -168,6 +188,7 @@
     "end": "2022-11-02T23:00:00.000Z",
     "name": "Dušni dan",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Wed"
   },
   {
@@ -176,6 +197,7 @@
     "end": "2022-12-25T23:00:00.000Z",
     "name": "Božić",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -184,6 +206,7 @@
     "end": "2022-12-26T23:00:00.000Z",
     "name": "Svetog Stjepana",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Mon"
   }
 ]

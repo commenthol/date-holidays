@@ -5,6 +5,7 @@
     "end": "2022-01-02T04:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sat"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2022-01-07T04:00:00.000Z",
     "name": "Día de los Reyes Magos",
     "type": "observance",
+    "rule": "01-06",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2022-01-15T04:00:00.000Z",
     "name": "Día de La Divina Pastora",
     "type": "public",
+    "rule": "01-14",
     "_weekday": "Fri"
   },
   {
@@ -30,6 +33,7 @@
     "name": "Día del Maestro",
     "type": "optional",
     "note": "teachers only",
+    "rule": "01-15",
     "_weekday": "Sat"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2022-03-01T04:00:00.000Z",
     "name": "Carnaval",
     "type": "public",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2022-03-02T04:00:00.000Z",
     "name": "Carnaval",
     "type": "public",
+    "rule": "easter -47",
     "_weekday": "Tue"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2022-03-20T04:00:00.000Z",
     "name": "San José",
     "type": "observance",
+    "rule": "03-19",
     "_weekday": "Sat"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2022-04-18T04:00:00.000Z",
     "name": "Semana Santa",
     "type": "observance",
+    "rule": "easter -6 P7D",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2022-04-15T04:00:00.000Z",
     "name": "Jueves Santo",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2022-04-16T04:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2022-04-18T04:00:00.000Z",
     "name": "Pascua",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2022-04-20T04:00:00.000Z",
     "name": "Declaración de la Independencia",
     "type": "public",
+    "rule": "04-19",
     "_weekday": "Tue"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2022-05-02T04:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2022-05-29T04:00:00.000Z",
     "name": "Natalicio de Jacinto Lara",
     "type": "public",
+    "rule": "05-28",
     "_weekday": "Sat"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2022-06-25T04:00:00.000Z",
     "name": "Aniversario de la Batalla de Carabobo",
     "type": "public",
+    "rule": "06-24",
     "_weekday": "Fri"
   },
   {
@@ -126,6 +141,7 @@
     "end": "2022-07-06T04:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "07-05",
     "_weekday": "Tue"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2022-07-25T04:00:00.000Z",
     "name": "Natalicio de Simón Bolívar",
     "type": "public",
+    "rule": "07-24",
     "_weekday": "Sun"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2022-08-04T04:00:00.000Z",
     "name": "Día de la Bandera",
     "type": "observance",
+    "rule": "08-03",
     "_weekday": "Wed"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2022-09-12T04:00:00.000Z",
     "name": "Día de Nuestra Señora de Coromoto",
     "type": "observance",
+    "rule": "09-11",
     "_weekday": "Sun"
   },
   {
@@ -158,6 +177,7 @@
     "end": "2022-09-15T04:00:00.000Z",
     "name": "Día de Barquisimeto",
     "type": "public",
+    "rule": "09-14",
     "_weekday": "Wed"
   },
   {
@@ -166,6 +186,7 @@
     "end": "2022-10-13T04:00:00.000Z",
     "name": "Día de la resistencia indígena",
     "type": "public",
+    "rule": "10-12",
     "_weekday": "Wed"
   },
   {
@@ -174,6 +195,7 @@
     "end": "2022-11-02T04:00:00.000Z",
     "name": "Todos los Santos",
     "type": "observance",
+    "rule": "11-01",
     "_weekday": "Tue"
   },
   {
@@ -182,6 +204,7 @@
     "end": "2022-11-03T04:00:00.000Z",
     "name": "Día de los Difuntos",
     "type": "observance",
+    "rule": "11-02",
     "_weekday": "Wed"
   },
   {
@@ -190,6 +213,7 @@
     "end": "2022-12-09T04:00:00.000Z",
     "name": "La inmaculada concepción",
     "type": "observance",
+    "rule": "12-08",
     "_weekday": "Thu"
   },
   {
@@ -198,6 +222,7 @@
     "end": "2022-12-11T04:00:00.000Z",
     "name": "Día de la Aviación Nacional",
     "type": "observance",
+    "rule": "12-10",
     "_weekday": "Sat"
   },
   {
@@ -206,6 +231,7 @@
     "end": "2022-12-25T04:00:00.000Z",
     "name": "Nochebuena",
     "type": "public",
+    "rule": "12-24",
     "_weekday": "Sat"
   },
   {
@@ -214,6 +240,7 @@
     "end": "2022-12-26T04:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -222,6 +249,7 @@
     "end": "2023-01-01T04:00:00.000Z",
     "name": "Fin del Año",
     "type": "public",
+    "rule": "12-31",
     "_weekday": "Sat"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2024-01-02T04:00:00.000Z",
     "name": "Aña Nobo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2024-01-26T04:00:00.000Z",
     "name": "Dia di Betico",
     "type": "public",
+    "rule": "01-25",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2024-02-13T04:00:00.000Z",
     "name": "Dialuna di Carnaval",
     "type": "public",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2024-03-19T04:00:00.000Z",
     "name": "Dia di Himno y Bandera",
     "type": "public",
+    "rule": "03-18 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2024-03-30T04:00:00.000Z",
     "name": "Diabierna Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2024-04-01T04:00:00.000Z",
     "name": "Dia Pasco di Resureccion",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2024-04-02T04:00:00.000Z",
     "name": "Di dos Dia Pasco di Resureccion",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2024-04-28T04:00:00.000Z",
     "name": "Aña di Rey",
     "type": "public",
+    "rule": "04-27",
     "_weekday": "Sat"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2024-05-02T04:00:00.000Z",
     "name": "Dia di Obrero",
     "type": "public",
+    "rule": "05-01 if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2024-05-10T04:00:00.000Z",
     "name": "Dia di Asuncion",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2024-06-25T04:00:00.000Z",
     "name": "Dera Gai",
     "type": "observance",
+    "rule": "06-24",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2024-12-06T04:00:00.000Z",
     "name": "Sinterklaasavond",
     "type": "observance",
+    "rule": "12-05",
     "_weekday": "Thu"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2024-12-26T04:00:00.000Z",
     "name": "Dia Pasco di Nascimento",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2024-12-27T04:00:00.000Z",
     "name": "Di dos Dia Pasco di Nascimento",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   }
 ]

@@ -5,6 +5,7 @@
     "end": "2016-01-01T15:00:00.000Z",
     "name": "元日",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-01-02T15:00:00.000Z",
     "name": "銀行休業日",
     "type": "bank",
+    "rule": "01-02",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-01-03T15:00:00.000Z",
     "name": "銀行休業日",
     "type": "bank",
+    "rule": "01-03",
     "_weekday": "Sun"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-01-11T15:00:00.000Z",
     "name": "成人の日",
     "type": "public",
+    "rule": "2nd monday in January",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-02-11T15:00:00.000Z",
     "name": "建国記念の日",
     "type": "public",
+    "rule": "02-11",
     "_weekday": "Thu"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-03-20T15:00:00.000Z",
     "name": "春分の日",
     "type": "public",
+    "rule": "march equinox in +09:00",
     "_weekday": "Sun"
   },
   {
@@ -54,6 +60,7 @@
     "name": "春分の日 (振替休日)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes march equinox in +09:00 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2016-04-29T15:00:00.000Z",
     "name": "昭和の日",
     "type": "public",
+    "rule": "04-29 and if sunday then next monday #2",
     "_weekday": "Fri"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2016-05-03T15:00:00.000Z",
     "name": "憲法記念日",
     "type": "public",
+    "rule": "05-03",
     "_weekday": "Tue"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2016-05-04T15:00:00.000Z",
     "name": "みどりの日",
     "type": "public",
+    "rule": "05-04 and if sunday then next tuesday",
     "_weekday": "Wed"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2016-05-05T15:00:00.000Z",
     "name": "こどもの日",
     "type": "public",
+    "rule": "05-05",
     "_weekday": "Thu"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2016-07-18T15:00:00.000Z",
     "name": "海の日",
     "type": "public",
+    "rule": "3rd monday in July",
     "_weekday": "Mon"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2016-08-11T15:00:00.000Z",
     "name": "山の日",
     "type": "public",
+    "rule": "08-11 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2016-09-19T15:00:00.000Z",
     "name": "敬老の日",
     "type": "public",
+    "rule": "3rd monday in September",
     "_weekday": "Mon"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2016-09-22T15:00:00.000Z",
     "name": "秋分の日",
     "type": "public",
+    "rule": "september equinox in +09:00",
     "_weekday": "Thu"
   },
   {
@@ -126,6 +141,7 @@
     "end": "2016-10-10T15:00:00.000Z",
     "name": "体育の日",
     "type": "public",
+    "rule": "2nd monday in October #1",
     "_weekday": "Mon"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2016-11-03T15:00:00.000Z",
     "name": "文化の日",
     "type": "public",
+    "rule": "11-03",
     "_weekday": "Thu"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2016-11-15T15:00:00.000Z",
     "name": "七五三",
     "type": "observance",
+    "rule": "11-15",
     "_weekday": "Tue"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2016-11-23T15:00:00.000Z",
     "name": "勤労感謝の日",
     "type": "public",
+    "rule": "11-23",
     "_weekday": "Wed"
   },
   {
@@ -158,6 +177,7 @@
     "end": "2016-12-23T15:00:00.000Z",
     "name": "天皇誕生日",
     "type": "public",
+    "rule": "12-23 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -166,6 +186,7 @@
     "end": "2016-12-25T15:00:00.000Z",
     "name": "ノエル",
     "type": "observance",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -174,6 +195,7 @@
     "end": "2016-12-31T15:00:00.000Z",
     "name": "大晦日",
     "type": "bank",
+    "rule": "12-31",
     "_weekday": "Sat"
   }
 ]

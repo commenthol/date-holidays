@@ -5,6 +5,7 @@
     "end": "2021-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2021-01-12T05:00:00.000Z",
     "name": "Día de los Reyes Magos",
     "type": "public",
+    "rule": "monday after 01-06",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2021-03-23T05:00:00.000Z",
     "name": "San José",
     "type": "public",
+    "rule": "monday after 03-19",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2021-03-29T05:00:00.000Z",
     "name": "Domingo de Ramos",
     "type": "observance",
+    "rule": "easter -7",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2021-04-02T05:00:00.000Z",
     "name": "Jueves Santo",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2021-04-03T05:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2021-04-05T05:00:00.000Z",
     "name": "Pascua",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2021-05-02T05:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sat"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2021-05-18T05:00:00.000Z",
     "name": "La Asunción",
     "type": "public",
+    "rule": "easter 43",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2021-06-08T05:00:00.000Z",
     "name": "Corpus Christi",
     "type": "public",
+    "rule": "easter 64",
     "_weekday": "Mon"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2021-06-15T05:00:00.000Z",
     "name": "Sagrado Corazón de Jesús",
     "type": "public",
+    "rule": "easter 71",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2021-07-06T05:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
+    "rule": "monday after 06-29",
     "_weekday": "Mon"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2021-07-21T05:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "07-20",
     "_weekday": "Tue"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2021-08-08T05:00:00.000Z",
     "name": "Batalla de Boyacá",
     "type": "public",
+    "rule": "08-07",
     "_weekday": "Sat"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2021-08-17T05:00:00.000Z",
     "name": "Asunción",
     "type": "public",
+    "rule": "monday after 08-15",
     "_weekday": "Mon"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2021-10-19T05:00:00.000Z",
     "name": "Día de la Raza",
     "type": "public",
+    "rule": "monday after 10-12",
     "_weekday": "Mon"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2021-11-02T05:00:00.000Z",
     "name": "Todos los Santos",
     "type": "public",
+    "rule": "1st monday in November",
     "_weekday": "Mon"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2021-11-16T05:00:00.000Z",
     "name": "Independencia de Cartagena",
     "type": "public",
+    "rule": "monday after 11-11",
     "_weekday": "Mon"
   },
   {
@@ -149,6 +167,7 @@
     "end": "2021-12-09T05:00:00.000Z",
     "name": "La inmaculada concepción",
     "type": "public",
+    "rule": "12-08",
     "_weekday": "Wed"
   },
   {
@@ -157,6 +176,7 @@
     "end": "2021-12-26T05:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sat"
   }
 ]

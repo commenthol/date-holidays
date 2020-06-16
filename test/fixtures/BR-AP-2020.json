@@ -5,6 +5,7 @@
     "end": "2020-01-02T03:00:00.000Z",
     "name": "Ano Novo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2020-02-26T17:00:00.000Z",
     "name": "Carnaval",
     "type": "optional",
+    "rule": "easter -50 PT110H",
     "_weekday": "Sat"
   },
   {
@@ -22,6 +24,7 @@
     "name": "Dia de São José",
     "type": "public",
     "note": "Santo padroeiro do Estado do Amapá",
+    "rule": "03-19",
     "_weekday": "Thu"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2020-04-11T03:00:00.000Z",
     "name": "Sexta-Feira Santa",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2020-04-13T03:00:00.000Z",
     "name": "Páscoa",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2020-04-22T03:00:00.000Z",
     "name": "Dia de Tiradentes",
     "type": "public",
+    "rule": "04-21",
     "_weekday": "Tue"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2020-05-02T03:00:00.000Z",
     "name": "Dia do trabalhador",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Fri"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2020-05-11T03:00:00.000Z",
     "name": "Dia das Mães",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2020-06-12T03:00:00.000Z",
     "name": "Corpo de Deus",
     "type": "optional",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2020-06-13T03:00:00.000Z",
     "name": "Dia dos Namorados",
     "type": "public",
+    "rule": "06-12",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2020-08-10T03:00:00.000Z",
     "name": "Dia dos Pais",
     "type": "observance",
+    "rule": "2nd sunday in August",
     "_weekday": "Sun"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2020-09-08T03:00:00.000Z",
     "name": "Dia da Independência",
     "type": "public",
+    "rule": "09-07",
     "_weekday": "Mon"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2020-09-14T03:00:00.000Z",
     "name": "Criação do Território Federal",
     "type": "public",
+    "rule": "09-13",
     "_weekday": "Sun"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2020-10-05T03:00:00.000Z",
     "name": "Dia de Eleição",
     "type": "public",
+    "rule": "1st sunday in October in even years",
     "_weekday": "Sun"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2020-10-13T03:00:00.000Z",
     "name": "Nossa Senhora Aparecida",
     "type": "public",
+    "rule": "10-12",
     "_weekday": "Mon"
   },
   {
@@ -126,6 +141,7 @@
     "end": "2020-10-26T03:00:00.000Z",
     "name": "Dia de Eleição",
     "type": "public",
+    "rule": "1st sunday before 11-01 in even years",
     "_weekday": "Sun"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2020-11-03T03:00:00.000Z",
     "name": "Dia de Finados",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Mon"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2020-11-16T03:00:00.000Z",
     "name": "Proclamação da República",
     "type": "public",
+    "rule": "11-15",
     "_weekday": "Sun"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2020-12-25T03:00:00.000Z",
     "name": "Noite de Natal",
     "type": "optional",
+    "rule": "12-24 14:00",
     "_weekday": "Thu"
   },
   {
@@ -158,6 +177,7 @@
     "end": "2020-12-26T03:00:00.000Z",
     "name": "Natal",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Fri"
   },
   {
@@ -166,6 +186,7 @@
     "end": "2021-01-01T03:00:00.000Z",
     "name": "Véspera de Ano Novo",
     "type": "optional",
+    "rule": "12-31 14:00",
     "_weekday": "Thu"
   }
 ]

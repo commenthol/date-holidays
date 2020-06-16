@@ -5,6 +5,7 @@
     "end": "2023-01-01T22:00:00.000Z",
     "name": "Uudenvuodenpäivä",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-01-06T22:00:00.000Z",
     "name": "Loppiainen",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-04-07T21:00:00.000Z",
     "name": "Pitkäperjantai",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2023-04-09T21:00:00.000Z",
     "name": "Pääsiäispäivä",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2023-04-10T21:00:00.000Z",
     "name": "2. pääsiäispäivä",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2023-05-01T21:00:00.000Z",
     "name": "Vappu",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2023-05-14T21:00:00.000Z",
     "name": "Äitien päivä",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2023-05-18T21:00:00.000Z",
     "name": "Helatorstai",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2023-05-28T21:00:00.000Z",
     "name": "Helluntaipäivä",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2023-06-23T21:00:00.000Z",
     "name": "Juhannusaatto",
     "type": "bank",
+    "rule": "friday after 06-19",
     "_weekday": "Fri"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2023-06-24T21:00:00.000Z",
     "name": "Juhannuspäivä",
     "type": "public",
+    "rule": "saturday after 06-20",
     "_weekday": "Sat"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2023-11-04T22:00:00.000Z",
     "name": "Pyhäinpäivä",
     "type": "public",
+    "rule": "saturday after 10-31",
     "_weekday": "Sat"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2023-12-06T22:00:00.000Z",
     "name": "Itsenäisyyspäivä",
     "type": "public",
+    "rule": "12-06",
     "_weekday": "Wed"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2023-12-24T22:00:00.000Z",
     "name": "Jouluaatto",
     "type": "bank",
+    "rule": "12-24",
     "_weekday": "Sun"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2023-12-25T22:00:00.000Z",
     "name": "Joulupäivä",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2023-12-26T22:00:00.000Z",
     "name": "2. joulupäivä",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Tue"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2023-12-31T22:00:00.000Z",
     "name": "Uudenvuodenaatto",
     "type": "bank",
+    "rule": "12-31 14:00 if sunday then 00:00",
     "_weekday": "Sun"
   }
 ]

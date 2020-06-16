@@ -5,6 +5,7 @@
     "end": "2025-01-01T16:00:00.000Z",
     "name": "Awal Tahun Masihi",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Wed"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2025-01-27T10:00:00.000Z",
     "name": "Israk dan Mikraj",
     "type": "public",
+    "rule": "27 Rajab",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2025-01-29T16:00:00.000Z",
     "name": "Tahun Baru Cina",
     "type": "public",
+    "rule": "chinese 01-0-01",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2025-02-23T16:00:00.000Z",
     "name": "Hari Kebangsaan",
     "type": "public",
+    "rule": "02-23",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2025-03-01T10:00:00.000Z",
     "name": "Hari Pertama Berpuasa",
     "type": "public",
+    "rule": "1 Ramadan",
     "_weekday": "Sat"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2025-03-17T10:00:00.000Z",
     "name": "Hari Nuzul Al-Quran",
     "type": "public",
+    "rule": "17 Ramadan",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2025-04-01T10:00:00.000Z",
     "name": "Hari Raya Aidil Fitri",
     "type": "public",
+    "rule": "1 Shawwal P3D",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2025-03-31T16:00:00.000Z",
     "name": "Hari Angkatan Bersenjata Diraja Brunei",
     "type": "public",
+    "rule": "03-31",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2025-06-06T10:00:00.000Z",
     "name": "Hari Raya Aidil Adha",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Fri"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2025-06-26T10:00:00.000Z",
     "name": "Awal Tahun Hijrah",
     "type": "public",
+    "rule": "1 Muharram",
     "_weekday": "Thu"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2025-07-15T16:00:00.000Z",
     "name": "Hari Keputeraan KDYMM Sultan Brunei",
     "type": "public",
+    "rule": "07-15",
     "_weekday": "Tue"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2025-09-04T10:00:00.000Z",
     "name": "Maulidur Rasul",
     "type": "public",
+    "rule": "12 Rabi al-awwal",
     "_weekday": "Thu"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2025-12-25T16:00:00.000Z",
     "name": "Hari Natal",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Thu"
   }
 ]

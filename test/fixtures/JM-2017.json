@@ -5,6 +5,7 @@
     "end": "2017-01-02T05:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2017-03-02T05:00:00.000Z",
     "name": "Ash Wednesday",
     "type": "public",
+    "rule": "easter -46",
     "_weekday": "Wed"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2017-04-15T05:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2017-04-17T05:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2017-04-18T05:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2017-05-24T05:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-23 if saturday,sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2017-08-02T05:00:00.000Z",
     "name": "Emancipation Day",
     "type": "public",
+    "rule": "08-01 if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2017-08-07T05:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "08-06 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -79,6 +88,7 @@
     "name": "Independence Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "08-06 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2017-10-17T05:00:00.000Z",
     "name": "National Heroes Day",
     "type": "public",
+    "rule": "3rd monday in October",
     "_weekday": "Mon"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2017-12-26T05:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2017-12-27T05:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if sunday then next monday",
     "_weekday": "Tue"
   }
 ]

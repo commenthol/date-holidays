@@ -5,6 +5,7 @@
     "end": "2023-01-02T04:00:00.000Z",
     "name": "Aña Nobo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2023-01-26T04:00:00.000Z",
     "name": "Dia di Betico",
     "type": "public",
+    "rule": "01-25",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2023-02-21T04:00:00.000Z",
     "name": "Dialuna di Carnaval",
     "type": "public",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -30,6 +33,7 @@
     "name": "Dia di Himno y Bandera (substituut)",
     "type": "public",
     "substitute": true,
+    "rule": "03-18 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2023-03-19T04:00:00.000Z",
     "name": "Dia di Himno y Bandera",
     "type": "public",
+    "rule": "03-18 and if saturday then previous friday if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2023-04-08T04:00:00.000Z",
     "name": "Diabierna Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2023-04-10T04:00:00.000Z",
     "name": "Dia Pasco di Resureccion",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2023-04-11T04:00:00.000Z",
     "name": "Di dos Dia Pasco di Resureccion",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2023-04-28T04:00:00.000Z",
     "name": "Aña di Rey",
     "type": "public",
+    "rule": "04-27",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2023-05-02T04:00:00.000Z",
     "name": "Dia di Obrero",
     "type": "public",
+    "rule": "05-01 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2023-05-19T04:00:00.000Z",
     "name": "Dia di Asuncion",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2023-06-25T04:00:00.000Z",
     "name": "Dera Gai",
     "type": "observance",
+    "rule": "06-24",
     "_weekday": "Sat"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2023-12-06T04:00:00.000Z",
     "name": "Sinterklaasavond",
     "type": "observance",
+    "rule": "12-05",
     "_weekday": "Tue"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2023-12-26T04:00:00.000Z",
     "name": "Dia Pasco di Nascimento",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2023-12-27T04:00:00.000Z",
     "name": "Di dos Dia Pasco di Nascimento",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Tue"
   }
 ]

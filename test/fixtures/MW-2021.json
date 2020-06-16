@@ -5,6 +5,7 @@
     "end": "2021-01-01T22:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2021-01-15T22:00:00.000Z",
     "name": "John Chilembwe Day",
     "type": "public",
+    "rule": "01-15 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2021-03-03T22:00:00.000Z",
     "name": "Martyrs' Day",
     "type": "public",
+    "rule": "03-03 and if saturday,sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2021-04-02T22:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2021-04-04T22:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2021-04-05T22:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2021-05-01T22:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01 and if saturday,sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2021-05-03T22:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2021-05-13T16:00:00.000Z",
     "name": "Eid al Fitri",
     "type": "public",
+    "rule": "1 Shawwal and if saturday,sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2021-05-14T22:00:00.000Z",
     "name": "Kamuzu Day",
     "type": "public",
+    "rule": "05-14 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2021-07-06T22:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "07-06 and if saturday,sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2021-10-15T22:00:00.000Z",
     "name": "Mother's Day",
     "type": "public",
+    "rule": "10-15 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2021-12-25T22:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday,sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -110,6 +123,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "12-25 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   }
 ]
