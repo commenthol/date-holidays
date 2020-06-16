@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/commenthol/date-holidays/compare/1.5.3...1.6.0) (2020-06-16)
+
+- feat(LT) Add All Souls Day to Lithuania [a17dc03f](https://github.com/commenthol/date-holidays/commit/a17dc03f7aa0ea31314162a9c9b33cdfb551f6ac)
+- test: reprocess tests [f0fb6179](https://github.com/commenthol/date-holidays/commit/f0fb61792ae07d4233d13eaf6e638117a68fd3f7)
+- docs: add rule in output [7fa37f3c](https://github.com/commenthol/date-holidays/commit/7fa37f3cc42846f46acaf67c90b34b751e45547b)
+- feat: add rule in Holidays object [6a0abe6d](https://github.com/commenthol/date-holidays/commit/6a0abe6d9d775dbfc6c6524233e74fb5c06de3f8)
+
 ## [1.5.3](https://github.com/commenthol/date-holidays/compare/1.5.2...1.5.3) (2020-06-06)
 
 - fix(NL): Fixed holidays for NL [3bfa17ba](https://github.com/commenthol/date-holidays/commit/3bfa17ba921f43df03f92c40acec5ff868ed0136)
