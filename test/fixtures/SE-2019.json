@@ -126,10 +126,19 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2019-06-21 00:00:00",
+    "start": "2019-06-20T22:00:00.000Z",
+    "end": "2019-06-21T22:00:00.000Z",
+    "name": "Midsommarafton",
+    "type": "public",
+    "rule": "friday after 06-19",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2019-06-22 00:00:00",
     "start": "2019-06-21T22:00:00.000Z",
     "end": "2019-06-22T22:00:00.000Z",
-    "name": "Midsommar",
+    "name": "Midsommardagen",
     "type": "public",
     "rule": "saturday after 06-20",
     "_weekday": "Sat"
