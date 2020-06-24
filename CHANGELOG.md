@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.6.1](https://github.com/commenthol/date-holidays/compare/1.6.0...1.6.1) (2020-06-24)
+
+- fix(SE) Added 'midsommarafton' public holiday, old 'midsommar' -> 'midsommardagen' [76cc74a8](https://github.com/commenthol/date-holidays/commit/76cc74a84ab2fbf798a4622fc47ccb9991283eb7)
+
 ## [1.6.0](https://github.com/commenthol/date-holidays/compare/1.5.3...1.6.0) (2020-06-16)
 
 - feat(LT) Add All Souls Day to Lithuania [a17dc03f](https://github.com/commenthol/date-holidays/commit/a17dc03f7aa0ea31314162a9c9b33cdfb551f6ac)
