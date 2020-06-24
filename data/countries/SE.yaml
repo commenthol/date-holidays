@@ -29,9 +29,12 @@ holidays:
         name:
           sv: Sveriges nationaldag
           en: National Day
+      friday after 06-19:
+        name:
+          sv: Midsommarafton
       saturday after 06-20:
         name:
-          sv: Midsommar
+          sv: Midsommardagen
       saturday after 10-31:
         name:
           sv: Alla Helgons dag
