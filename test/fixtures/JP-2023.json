@@ -12,19 +12,19 @@
     "date": "2023-01-02 00:00:00",
     "start": "2023-01-01T15:00:00.000Z",
     "end": "2023-01-02T15:00:00.000Z",
-    "name": "銀行休業日",
-    "type": "bank",
-    "rule": "01-02",
+    "name": "元日 (振替休日)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 01-01 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
     "date": "2023-01-02 00:00:00",
     "start": "2023-01-01T15:00:00.000Z",
     "end": "2023-01-02T15:00:00.000Z",
-    "name": "元日 (振替休日)",
-    "type": "public",
-    "substitute": true,
-    "rule": "substitutes 01-01 if sunday then next monday",
+    "name": "銀行休業日",
+    "type": "bank",
+    "rule": "01-02",
     "_weekday": "Mon"
   },
   {
@@ -179,15 +179,6 @@
     "type": "public",
     "rule": "11-23",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2023-12-25 00:00:00",
-    "start": "2023-12-24T15:00:00.000Z",
-    "end": "2023-12-25T15:00:00.000Z",
-    "name": "ノエル",
-    "type": "observance",
-    "rule": "12-25",
-    "_weekday": "Mon"
   },
   {
     "date": "2023-12-31 00:00:00",
