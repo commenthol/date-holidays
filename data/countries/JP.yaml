@@ -20,16 +20,6 @@ holidays:
         _name: 01-01
         active:
           - from: 1973-04-12
-      01-02:
-        name:
-          en: January 2nd
-          jp: 銀行休業日
-        type: bank
-      01-03:
-        name:
-          en: January 3rd
-          jp: 銀行休業日
-        type: bank
       01-15:
         name:
           en: Coming of Age Day
@@ -281,11 +271,6 @@ holidays:
           jp: 文化の日
         active:
           - from: 1973-04-12
-      11-15:
-        name:
-          en: Seven-Five-Three Festival
-          jp: 七五三
-        type: observance
       11-23:
         name:
           en: Labor Thanksgiving Day
@@ -307,10 +292,3 @@ holidays:
         active:
           - from: 1989-01-01
             to: 2018-12-31
-      12-25:
-        _name: 12-25
-        type: observance
-      12-31:
-        _name: 12-31
-        type: bank
-
