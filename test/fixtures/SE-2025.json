@@ -21,7 +21,7 @@
     "date": "2025-01-13 00:00:00",
     "start": "2025-01-12T23:00:00.000Z",
     "end": "2025-01-13T23:00:00.000Z",
-    "name": "Knut",
+    "name": "Tjugondag Knut",
     "type": "observance",
     "rule": "01-13",
     "_weekday": "Mon"
@@ -43,6 +43,15 @@
     "type": "observance",
     "rule": "03-25",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2025-04-17 00:00:00",
+    "start": "2025-04-16T22:00:00.000Z",
+    "end": "2025-04-17T22:00:00.000Z",
+    "name": "Skärtorsdagen",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
   },
   {
     "date": "2025-04-18 00:00:00",
@@ -121,16 +130,25 @@
     "start": "2025-06-07T22:00:00.000Z",
     "end": "2025-06-08T22:00:00.000Z",
     "name": "Pingst",
-    "type": "observance",
+    "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-09 00:00:00",
+    "start": "2025-06-08T22:00:00.000Z",
+    "end": "2025-06-09T22:00:00.000Z",
+    "name": "Annandag pingst",
+    "type": "observance",
+    "rule": "easter 50",
+    "_weekday": "Mon"
   },
   {
     "date": "2025-06-20 00:00:00",
     "start": "2025-06-19T22:00:00.000Z",
     "end": "2025-06-20T22:00:00.000Z",
     "name": "Midsommarafton",
-    "type": "public",
+    "type": "bank",
     "rule": "friday after 06-19",
     "_weekday": "Fri"
   },
@@ -193,7 +211,7 @@
     "start": "2025-12-23T23:00:00.000Z",
     "end": "2025-12-24T23:00:00.000Z",
     "name": "Julafton",
-    "type": "observance",
+    "type": "bank",
     "rule": "12-24",
     "_weekday": "Wed"
   },
@@ -220,7 +238,7 @@
     "start": "2025-12-30T23:00:00.000Z",
     "end": "2025-12-31T23:00:00.000Z",
     "name": "Nyårsafton",
-    "type": "observance",
+    "type": "bank",
     "rule": "12-31",
     "_weekday": "Wed"
   }

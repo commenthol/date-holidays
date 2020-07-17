@@ -442,11 +442,12 @@ names:
       fil: Huwebes Santo
       fo: Skírhósdagur
       fr: Jeudi saint
-      it: Giovedì santo
       is: Skírdagur
+      it: Giovedì santo
       kl: sisamanngortoq illernartoq
       nl: Witte donderdag
       no: Skjærtorsdag
+      sv: Skärtorsdagen
       vi: Thứ năm Tuần Thánh
   easter -2:  # Good Friday
     name:
@@ -613,13 +614,14 @@ names:
       fo: Annar hvítusunnudagur
       fr: Lundi de Pentecôte
       hu: Pünkösdhétfő
-      it: Lunedì di Pentecoste
       is: Annar í hvítasunnu
+      it: Lunedì di Pentecoste
       kl: piinsip aappaa
       mg: Alatsinain'ny Pentekosta
       nl: Tweede pinksterdag
       no: Andre pinsedag
       ro: Două zi de Rusalii
+      sv: Annandag pingst
   easter 60:  # Corpus Christi
     name:
       en: Corpus Christi
