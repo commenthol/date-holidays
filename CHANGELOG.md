@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.6.2](https://github.com/commenthol/date-holidays/compare/1.6.1...1.6.2) (2020-07-17)
+
+- fix(SE.*): fix holidays for SE [36e451b6](https://github.com/commenthol/date-holidays/commit/36e451b61d49d80175c397748c58b85439a0db36)
+
 ## [1.6.1](https://github.com/commenthol/date-holidays/compare/1.6.0...1.6.1) (2020-06-24)
 
 - fix(SE) Added 'midsommarafton' public holiday, old 'midsommar' -> 'midsommardagen' [76cc74a8](https://github.com/commenthol/date-holidays/commit/76cc74a84ab2fbf798a4622fc47ccb9991283eb7)
