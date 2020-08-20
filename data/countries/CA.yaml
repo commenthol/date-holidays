@@ -245,6 +245,10 @@ holidays:
             name:
               en: National Patriots' Day
               fr: Journée nationale des patriotes
+          1st monday in September:
+            name:
+              en: Labour Day
+              fr: Fête du travail
           06-24:
             name:
               en: National Holiday
