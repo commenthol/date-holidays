@@ -9,6 +9,24 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2023-02-02 00:00:00",
+    "start": "2023-02-02T04:00:00.000Z",
+    "end": "2023-02-03T04:00:00.000Z",
+    "name": "Groundhog Day",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-02-14 00:00:00",
+    "start": "2023-02-14T04:00:00.000Z",
+    "end": "2023-02-15T04:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2023-02-20 00:00:00",
     "start": "2023-02-20T04:00:00.000Z",
     "end": "2023-02-21T04:00:00.000Z",
@@ -16,6 +34,15 @@
     "type": "public",
     "rule": "3rd monday after 02-01",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2023-03-17 00:00:00",
+    "start": "2023-03-17T03:00:00.000Z",
+    "end": "2023-03-18T03:00:00.000Z",
+    "name": "St. Patrick’s Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Fri"
   },
   {
     "date": "2023-04-07 00:00:00",
@@ -97,6 +124,15 @@
     "type": "public",
     "rule": "2nd monday after 10-01",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2023-10-31 18:00:00",
+    "start": "2023-10-31T21:00:00.000Z",
+    "end": "2023-11-01T03:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "rule": "10-31 18:00",
+    "_weekday": "Tue"
   },
   {
     "date": "2023-11-11 00:00:00",
