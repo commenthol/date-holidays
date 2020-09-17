@@ -111,7 +111,7 @@
     "date": "2025-09-01 00:00:00",
     "start": "2025-09-01T06:00:00.000Z",
     "end": "2025-09-02T06:00:00.000Z",
-    "name": "Labor Day",
+    "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
     "_weekday": "Mon"

@@ -129,7 +129,7 @@
     "date": "2024-09-02 00:00:00",
     "start": "2024-09-02T02:30:00.000Z",
     "end": "2024-09-03T02:30:00.000Z",
-    "name": "Labor Day",
+    "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
     "_weekday": "Mon"

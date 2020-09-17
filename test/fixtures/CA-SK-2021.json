@@ -120,7 +120,7 @@
     "date": "2021-09-06 00:00:00",
     "start": "2021-09-06T06:00:00.000Z",
     "end": "2021-09-07T06:00:00.000Z",
-    "name": "Labor Day",
+    "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
     "_weekday": "Mon"
