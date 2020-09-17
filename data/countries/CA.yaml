@@ -36,7 +36,6 @@ holidays:
       - America/Whitehorse
       - America/Dawson
     langs:
-      - en-us
       - en
       - fr
     days:
