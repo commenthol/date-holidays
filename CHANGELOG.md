@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/commenthol/date-holidays/compare/1.6.2...1.7.0) (2020-09-27)
+
+- fix(CA): Canada does not use US spelling of labour day [99818c5f](https://github.com/commenthol/date-holidays/commit/99818c5f9c6e2cdd7d2d014d80196abd070e69fb)
+- feat(CA): add some Canadian observance type holidays [1d3b4eb9](https://github.com/commenthol/date-holidays/commit/1d3b4eb9b8e076e1c69e50a0d5206be41175511b)
+- fix(CA): Add French translation for Fathers Day [76834039](https://github.com/commenthol/date-holidays/commit/768340392664bc08e40ca215a5e96fc91ca4f954)
+- Update CA.yaml [84ac4a11](https://github.com/commenthol/date-holidays/commit/84ac4a11eb7cee97ed10af505ac654cc49734d13)
+
 ## [1.6.2](https://github.com/commenthol/date-holidays/compare/1.6.1...1.6.2) (2020-07-17)
 
 - fix(SE.*): fix holidays for SE [36e451b6](https://github.com/commenthol/date-holidays/commit/36e451b61d49d80175c397748c58b85439a0db36)
