@@ -36,12 +36,24 @@ holidays:
       - America/Whitehorse
       - America/Dawson
     langs:
-      - en-us
       - en
       - fr
     days:
       01-01:
         _name: 01-01
+      02-02:
+        name:
+          en: Groundhog Day
+          fr: Jour de la marmotte
+        type: observance
+      02-14:
+        _name: 02-14
+        type: observance
+      03-17:
+        name:
+          en: St. Patrick’s Day
+          fr: Fête de la Saint-Patrick
+        type: observance
       easter -2:
         _name: easter -2
       easter:
@@ -70,6 +82,11 @@ holidays:
         name:
           en: Thanksgiving
           fr: Action de grâce
+      10-31 18:00:
+        name:
+          en: Halloween
+          fr: l'Halloween
+        type: observance
       11-11:
         name:
           en: Remembrance Day

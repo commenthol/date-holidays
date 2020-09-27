@@ -9,6 +9,33 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2022-02-02 00:00:00",
+    "start": "2022-02-02T07:00:00.000Z",
+    "end": "2022-02-03T07:00:00.000Z",
+    "name": "Groundhog Day",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-02-14 00:00:00",
+    "start": "2022-02-14T07:00:00.000Z",
+    "end": "2022-02-15T07:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-17 00:00:00",
+    "start": "2022-03-17T06:00:00.000Z",
+    "end": "2022-03-18T06:00:00.000Z",
+    "name": "St. Patrick’s Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2022-04-15 00:00:00",
     "start": "2022-04-15T06:00:00.000Z",
     "end": "2022-04-16T06:00:00.000Z",
@@ -84,7 +111,7 @@
     "date": "2022-09-05 00:00:00",
     "start": "2022-09-05T06:00:00.000Z",
     "end": "2022-09-06T06:00:00.000Z",
-    "name": "Labor Day",
+    "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
     "_weekday": "Mon"
@@ -96,6 +123,15 @@
     "name": "Thanksgiving",
     "type": "public",
     "rule": "2nd monday after 10-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-31 18:00:00",
+    "start": "2022-11-01T00:00:00.000Z",
+    "end": "2022-11-01T06:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "rule": "10-31 18:00",
     "_weekday": "Mon"
   },
   {

@@ -9,6 +9,24 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2017-02-02 00:00:00",
+    "start": "2017-02-02T05:00:00.000Z",
+    "end": "2017-02-03T05:00:00.000Z",
+    "name": "Groundhog Day",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-02-14 00:00:00",
+    "start": "2017-02-14T05:00:00.000Z",
+    "end": "2017-02-15T05:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2017-02-20 00:00:00",
     "start": "2017-02-20T05:00:00.000Z",
     "end": "2017-02-21T05:00:00.000Z",
@@ -16,6 +34,15 @@
     "type": "public",
     "rule": "3rd monday after 02-01",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2017-03-17 00:00:00",
+    "start": "2017-03-17T04:00:00.000Z",
+    "end": "2017-03-18T04:00:00.000Z",
+    "name": "St. Patrick’s Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-14 00:00:00",
@@ -102,7 +129,7 @@
     "date": "2017-09-04 00:00:00",
     "start": "2017-09-04T04:00:00.000Z",
     "end": "2017-09-05T04:00:00.000Z",
-    "name": "Labor Day",
+    "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
     "_weekday": "Mon"
@@ -115,6 +142,15 @@
     "type": "public",
     "rule": "2nd monday after 10-01",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2017-10-31 18:00:00",
+    "start": "2017-10-31T22:00:00.000Z",
+    "end": "2017-11-01T04:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "rule": "10-31 18:00",
+    "_weekday": "Tue"
   },
   {
     "date": "2017-11-11 00:00:00",
