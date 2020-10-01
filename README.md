@@ -1,27 +1,27 @@
 # date-holidays
 
-> world-wide holidays in gregorian calender
+> world-wide holidays in the gregorian calender
 
 [![NPM version](https://badge.fury.io/js/date-holidays.svg)](https://www.npmjs.com/package/date-holidays/)
 [![Build Status](https://secure.travis-ci.org/commenthol/date-holidays.svg?branch=master)](https://travis-ci.org/commenthol/date-holidays)
 
-This module provides dates of holidays for various countries, states and regions
+This module provides dates of holidays for various countries, states, and regions
 by type while considering the applicable timezone.
 
 The features are:
 
-- calculation of public, bank and observance holidays for different countries,
+- calculation of public, bank, and observance holidays for different countries,
   state, region, following ISO 3166-2
 - consideration of timezones for holiday checks
-- consideration of start and end time dependent on timezone
+- consideration of start and end time dependent on the timezone
 - substitute days
 - multi-language support for all holiday names
 - setting of custom holidays
 - uses own grammar for calculation of days
-- support for islamic calendar from 1970 to 2080 (*islamic dates might not be
+- support for Islamic calendar from 1970 to 2080 (*islamic dates might not be
   correct as they are subject to the sighting of the moon*)
-- support for hebrew calendar from 1970 to 2100
-- support for chinese calendar
+- support for Hebrew calendar from 1970 to 2100
+- support for the Chinese calendar
 - for generation of iCal calendar check out [date-holidays-ical][]
 
 Happy holidays!
@@ -527,26 +527,26 @@ a single holiday object which consists of:
 ### Dates
 
 The `date` String represents the start date of the holiday in ISO format without
-timezone. This string it intended for information only.
+timezone. This string is intended for information only.
 
 `start` and `end` are the start/end date of the holiday within the selected
-timezone of the country, state, region.
+the timezone of the country, state, region.
 
 ### Name
 
 The `name` names the holiday in the local language of the selected country,
 state, region. The applied language(s) can be requested using `getLanguages()`.
 
-The language can be changed using the `setLanguages()` method. In case that not
+The language can be changed using the `set languages()` method. In case that not
 translation is available a fall-back to the next given language will be made.
-E.g. local language is "fr", `setLanguages('nl')` was called. For all holidays
-where no dutch translation is available the French version will be used instead.
+E.g. local language is "fr", `set languages('nl')` was called. For all holidays
+where no Dutch translation is available the French version will be used instead.
 
 All holiday names should support an English translation.
 
 ### Types of holidays
 
-Currently the following type with their meaning are supported
+Currently, the following type with their meaning are supported
 
 | type        | meaning                                    |
 | ----------- | ------------------------------------------ |
@@ -556,7 +556,7 @@ Currently the following type with their meaning are supported
 | optional    | majority of people take a day off          |
 | observance  | optional festivity, no paid day off        |
 
-Additionally a `note` field is sometimes available for further clarification.
+Additionally, a `note` field is sometimes available for further clarification.
 
 ## API
 
@@ -575,8 +575,8 @@ available grammar for holiday attribution is described in
 ## Custom builds of `holidays.json`
 
 If only selected countries are required in `data/holidays.json` you can add the
-following script to your npm scripts section. E.g. for picking just US, Canada,
-Mexico do the following:
+following script to your npm scripts section. E.g. for picking just the US, Canada,
+Mexico does the following:
 
 ```js
 "scripts": {
@@ -586,7 +586,7 @@ Mexico do the following:
 
 The `--min` switch removes dependencies which are not required for the countries selected. You may not be able to use the full set of rules in case you want to add custom rules.
 
-Alternatively you may use the `--omit` option.
+Alternatively, you may use the `--omit` option.
 
 Manually use
 
@@ -594,14 +594,14 @@ Manually use
 npx holidays2json --pick US,CA,MX
 ```
 
-> **NOTE:** There are some countries which depend on data of others which
+> **NOTE:** There are some countries that depend on the data of others which
 > might render the file useless. e.g. "GU" requires "US", so try
 > to pick or omit both.
 
 ## Bundling with webpack
 
 To minimize bundle sizes consider adding the following lines in your webpack config.
-Please take a look at `./webpack.config.js`. To further reduce size consider custom builds by only selecting required countries.
+Please take a look at `./webpack.config.js`. To further reduce size consider custom builds by only selecting the required countries.
 
 ```js
 ...
@@ -660,14 +660,14 @@ You like to contribute please read [CONTRIBUTING.md][].
 If you contribute code to this project, you are implicitly allowing your
 code to be distributed under the ISC license. You are also implicitly
 verifying that all code is your original work or correctly attributed
-with the source of its origin and license.
+to the source of its origin and license.
 
 ## License
 
 Copyright (c) 2016- commenthol ([ISC License](http://opensource.org/licenses/ISC))
 
 The data contained in `holidays.json` and `./data/countries/*.yaml` is available under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-as the majority of data obtained relies on wikipedia articles. The required
+as the majority of data obtained relies on Wikipedia articles. The required
 attribution can be found inside the files `./data/countries/*.yaml`.
 
 See [LICENSE][] for more information.
