@@ -39,12 +39,6 @@ holidays:
       04-25:
         name:
           en: Anzac Day
-      2nd monday in June:
-        name:
-          en: Queen's Birthday
-      1st monday in October:
-        name:
-          en: Labour Day
       12-25 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-25
@@ -73,16 +67,28 @@ holidays:
           monday after 05-27:
             name:
               en: Reconciliation Day
+          2nd monday in June:
+            name:
+              en: Queen's Birthday
+          1st monday in October:
+            name:
+              en: Labour Day
       # @source https://www.legislation.nsw.gov.au/~/pdf/view/act/2010/115/whole
       NSW:
         name: New South Wales
         zones:
           - Australia/Sydney
         days:
+          2nd monday in June:
+            name:
+              en: Queen's Birthday
           1st monday in August:
             name:
               en: Bank Holiday
             type: bank
+          1st monday in October:
+            name:
+              en: Labour Day
       # @source https://legislation.nt.gov.au/en/Legislation/PUBLIC-HOLIDAYS-ACT-1981
       NT:
         name: Northern Territory
@@ -98,6 +104,9 @@ holidays:
           1st monday in May:
             name:
               en: May Day
+          2nd monday in June:
+            name:
+              en: Queen's Birthday
           1st monday in August:
             name:
               en: Picnic Day
@@ -145,6 +154,12 @@ holidays:
           2nd monday in March:
             name:
               en: Adelaide Cup Day
+          2nd monday in June:
+            name:
+              en: Queen's Birthday
+          1st monday in October:
+            name:
+              en: Labour Day
           12-24 19:00:
             _name: 12-24
           12-25 and if saturday then next monday if sunday then next tuesday: false
@@ -176,6 +191,9 @@ holidays:
             name: Easter Tuesday
             type: optional
             note: Public Service employees or contract dependent
+          2nd monday in June:
+            name:
+              en: Queen's Birthday
           1st monday in October: false
           12-26 and if saturday then next monday if sunday then next tuesday: false
           12-26 if saturday then next monday if sunday then next tuesday:
