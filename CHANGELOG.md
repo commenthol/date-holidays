@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.7.1](https://github.com/commenthol/date-holidays/compare/1.7.0...1.7.1) (2020-10-07)
+
+- docs(AU): update source [131776f9](https://github.com/commenthol/date-holidays/commit/131776f9c0d871857fb92ccd879784f125de7664)
+- fix(AU): exclude queen's birthday and labour day as national public holiday in AU [d6c26c5d](https://github.com/commenthol/date-holidays/commit/d6c26c5d95a8ea09da7c6015bf6c5b20caf70506)
+
 ## [1.7.0](https://github.com/commenthol/date-holidays/compare/1.6.2...1.7.0) (2020-09-27)
 
 - fix(CA): Canada does not use US spelling of labour day [99818c5f](https://github.com/commenthol/date-holidays/commit/99818c5f9c6e2cdd7d2d014d80196abd070e69fb)
