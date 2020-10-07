@@ -1,6 +1,6 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Australia
-  # @source http://www.australia.gov.au/about-australia/special-dates-and-events/public-holidays
+  # @source https://info.australia.gov.au/about-australia/special-dates-and-events/public-holidays
   AU:
     names:
       en: Australia
