@@ -11,19 +11,33 @@ holidays:
     days:
       01-01:
         _name: 01-01
+        type: public
       01-06:
         _name: 01-06
+        type: public
       easter -47:
         _name: easter -47
         type: observance
       easter:
         _name: easter
+        type: public
       easter 1:
         _name: easter 1
+        type: public
       easter 60:
         _name: easter 60
+        type: public
+      03-08:
+        _name: 05-01
+        type: observance
       05-01:
         _name: 05-01
+        type: public
+      05-30:
+        name:
+          hr: Dan državnosti
+          en: National Day
+        type: public
       2nd sunday in May:
         _name: Mothers Day
         type: observance
@@ -31,24 +45,38 @@ holidays:
         name:
           hr: Dan antifašističke borbe
           en: Anti-Fascist Struggle Day
+        type: public
       06-25:
         name:
-          hr: Dan državnosti
-          en: Statehood Day
+          hr: Dan neovisnosti
+          en: Independence Day	
+        type: observance
       08-05:
         name:
           hr: Dan pobjede i domovinske zahvalnosti
           en: Victory and Homeland Thanksgiving Day and the Day of Croatian defenders
+        type: public
       08-15:
         _name: 08-15
+        type: public
       10-08:
-        _name: Independence Day
+        name:
+          hr: Dan Hrvatskoga sabora.
+          en: Day of the Croatian Parliament
+        type: observence
       11-01:
         _name: 11-01
+      11-18:
+        name:
+          hr: Dan sjećanja na žrtve Domovinskog rata
+          en: Remembrance Day
+        type: public
       12-25:
         _name: 12-25
+        type: public
       12-26:
         _name: 12-26
+        type: public
     regions:
       '17':
         name: Split-Dalmatia
@@ -57,6 +85,7 @@ holidays:
             name:
               hr: Sveti Duje
               en: Saint Domnius
+            type: optional
       '19':
         name: Dubrovnik-Neretva
         days:
@@ -64,3 +93,4 @@ holidays:
             name:
               hr: Sveti Vlaho
               en: Saint Blaise
+            type: optional
