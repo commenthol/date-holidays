@@ -66,6 +66,7 @@ holidays:
         type: observence
       11-01:
         _name: 11-01
+        type: public
       11-18:
         name:
           hr: Dan sjećanja na žrtve Domovinskog rata
