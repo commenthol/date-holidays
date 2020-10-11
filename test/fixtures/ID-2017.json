@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T17:00:00.000Z",
+    "end": "2017-01-01T17:00:00.000Z",
+    "name": "Hari tahun baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-01-28 00:00:00",
+    "start": "2017-01-27T17:00:00.000Z",
+    "end": "2017-01-28T17:00:00.000Z",
+    "name": "Tahun Baru Imlek",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-03-28 00:00:00",
+    "start": "2017-03-27T17:00:00.000Z",
+    "end": "2017-03-28T17:00:00.000Z",
+    "name": "Hari Raya Nyepi",
+    "type": "public",
+    "rule": "2017-03-28",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-04-14 00:00:00",
+    "start": "2017-04-13T17:00:00.000Z",
+    "end": "2017-04-14T17:00:00.000Z",
+    "name": "Wafat Yesus Kristus",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-04-24 00:00:00 -0600",
+    "start": "2017-04-23T11:00:00.000Z",
+    "end": "2017-04-24T11:00:00.000Z",
+    "name": "Maulid Nabi Muhammad",
+    "type": "public",
+    "rule": "27 Rajab",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T17:00:00.000Z",
+    "end": "2017-05-01T17:00:00.000Z",
+    "name": "Hari Buruh Internasional",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-11 00:00:00",
+    "start": "2017-05-10T17:00:00.000Z",
+    "end": "2017-05-11T17:00:00.000Z",
+    "name": "Hari Raya Waisak",
+    "type": "public",
+    "rule": "2017-05-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-05-25 00:00:00",
+    "start": "2017-05-24T17:00:00.000Z",
+    "end": "2017-05-25T17:00:00.000Z",
+    "name": "Kenaikan Yesus Kristus",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-06-01 00:00:00",
+    "start": "2017-05-31T17:00:00.000Z",
+    "end": "2017-06-01T17:00:00.000Z",
+    "name": "Hari Lahir Pancasila",
+    "type": "public",
+    "rule": "06-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-06-25 00:00:00 -0600",
+    "start": "2017-06-24T11:00:00.000Z",
+    "end": "2017-06-25T11:00:00.000Z",
+    "name": "Hari Raya Idul Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-06-26 00:00:00 -0600",
+    "start": "2017-06-25T11:00:00.000Z",
+    "end": "2017-06-26T11:00:00.000Z",
+    "name": "Hari Raya Idul Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-08-21 00:00:00",
+    "start": "2017-08-20T17:00:00.000Z",
+    "end": "2017-08-21T17:00:00.000Z",
+    "name": "Hari Ulang Tahun Kemerdekaan Republik Indonesia",
+    "type": "public",
+    "rule": "08-21",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-09-01 00:00:00 -0600",
+    "start": "2017-08-31T11:00:00.000Z",
+    "end": "2017-09-01T11:00:00.000Z",
+    "name": "Hari Raya Idul Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-09-21 00:00:00 -0600",
+    "start": "2017-09-20T11:00:00.000Z",
+    "end": "2017-09-21T11:00:00.000Z",
+    "name": "Tahun Baru Islam",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-11-30 00:00:00 -0600",
+    "start": "2017-11-29T11:00:00.000Z",
+    "end": "2017-11-30T11:00:00.000Z",
+    "name": "Maulid Nabi Muhammad",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T17:00:00.000Z",
+    "end": "2017-12-25T17:00:00.000Z",
+    "name": "Hari Raya Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]
