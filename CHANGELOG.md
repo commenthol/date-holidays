@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.8.0](https://github.com/commenthol/date-holidays/compare/1.7.1...1.8.0) (2020-10-12)
+
+- feat(ID): added public holidays in Indonesia [a499debd](https://github.com/commenthol/date-holidays/commit/a499debd58c0d5999c0bffc333a212a710bfa442)
+
 ## [1.7.1](https://github.com/commenthol/date-holidays/compare/1.7.0...1.7.1) (2020-10-07)
 
 - docs(AU): update source [131776f9](https://github.com/commenthol/date-holidays/commit/131776f9c0d871857fb92ccd879784f125de7664)
