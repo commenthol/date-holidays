@@ -28,7 +28,7 @@ holidays:
         _name: easter 60
         type: public
       03-08:
-        _name: 05-01
+        _name: 03-08
         type: observance
       05-01:
         _name: 05-01
@@ -38,6 +38,8 @@ holidays:
           hr: Dan državnosti
           en: National Day
         type: public
+        active:
+          - from: '2020-01-01'
       2nd sunday in May:
         _name: Mothers Day
         type: observance
@@ -46,32 +48,59 @@ holidays:
           hr: Dan antifašističke borbe
           en: Anti-Fascist Struggle Day
         type: public
+      '06-25 #1':
+        name:
+          hr: Dan državnosti
+          en: Statehood Day
+        type: public
+        active:
+          - to: '2020-01-01'
       06-25:
         name:
           hr: Dan neovisnosti
-          en: Independence Day	
+          en: Independence Day
         type: observance
+        active:
+          - from: '2020-01-01'
       08-05:
         name:
-          hr: Dan pobjede i domovinske zahvalnosti
+          hr: Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja
           en: Victory and Homeland Thanksgiving Day and the Day of Croatian defenders
         type: public
       08-15:
         _name: 08-15
         type: public
+      '10-08 #1':
+        name:
+          hr: Dan neovisnosti
+          en: Independence Day
+        type: public
+        active:
+          - to: '2020-01-01'
       10-08:
         name:
-          hr: Dan Hrvatskoga sabora.
+          hr: Dan Hrvatskoga sabora
           en: Day of the Croatian Parliament
         type: observence
+        active:
+          - from: '2020-01-01'
       11-01:
         _name: 11-01
         type: public
+      '11-18 #1':
+        name:
+          hr: Dan sjećanja na žrtvu Vukovara i Škabrnje
+          en: Remembrance Day
+        type: observance
+        active:
+          - to: '2020-01-01'
       11-18:
         name:
-          hr: Dan sjećanja na žrtve Domovinskog rata
+          hr: Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje
           en: Remembrance Day
         type: public
+        active:
+          - from: '2020-01-01'
       12-25:
         _name: 12-25
         type: public
