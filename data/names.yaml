@@ -32,6 +32,7 @@ names:
       hr: Nova godina
       hu: Újév
       hy: Ամանոր
+      id: Hari tahun baru
       it: Capodanno
       is: Nýársdagur
       jp: 元日
@@ -148,6 +149,7 @@ names:
       hr: Praznik rada
       hu: A munka ünnepe
       hy: Աշխատանքի օր
+      id: Hari Buruh Internasional
       it: Festa del Lavoro
       is: Hátíðisdagur Verkamanna
       lt: Tarptautinė darbo diena
@@ -310,6 +312,7 @@ names:
       hr: Božić
       hu: Karácsony
       hy: Սուրբ Ծնունդ
+      id: Hari Raya Natal
       it: Natale
       is: Jóladagur
       jp: ノエル
@@ -466,6 +469,7 @@ names:
       el: Μεγάλη Παρασκευή
       et: suur reede
       hr: Veliki petak
+      id: Wafat Yesus Kristus
       it: Venerdì santo
       is: Föstudagurinn langi
       kl: tallimanngornersuaq
@@ -571,6 +575,7 @@ names:
       fi: Helatorstai
       fo: Kristi Himmalsferðardagur
       fr: Ascension
+      id: Kenaikan Yesus Kristus
       it: Ascensione
       is: Uppstigningardagur
       kl: qilaliarfik
@@ -689,6 +694,7 @@ names:
       bs: Nova hidžretska godina
       fil: Unang Araw ng Muharram
       hr: Nova hidžretska godina
+      id: Tahun Baru Islam
       ms: Awal Tahun Hijrah
       nl: Islamitisch Nieuwjaar
       sq: Viti i Ri hixhri
@@ -706,6 +712,7 @@ names:
       bn: ঈদে মিলাদুন্নবী
       bs: Mevlud
       fr: Mawlid
+      id: Maulid Nabi Muhammad
       ms: Maulidur Rasul
       nl: Mawlid an-Nabi
       sq: Mevludi
@@ -714,6 +721,7 @@ names:
       en: Laylat al-Mi'raj
       ar: 'الإسراء والمعراج'
       bs: Lejletul Mi'radž
+      id: Maulid Nabi Muhammad
       ms: Israk dan Mikraj
       nl: Laylat al-Miraadj
       sq: Nata e Miraxhit
@@ -753,6 +761,7 @@ names:
       fil: Pagwawakas ng Ramadan
       fr: Fête de fin du Ramadan
       hr: Ramazanski bajram
+      id: Hari Raya Idul Fitri
       nl: Suikerfeest (Eid al-Fitr)
       mk: Рамазан Бајрам
       ms: Hari Raya Aidil Fitri
@@ -776,6 +785,7 @@ names:
       fil: Eidul Adha
       fr: Fête du mouton
       hr: Kurban-bajram
+      id: Hari Raya Idul Adha
       nl: Offerfeest (Eid Al-Adha)
       mk: Курбан Бајрам
       ms: Hari Raya Aidil Adha
@@ -821,6 +831,7 @@ names:
   Vesak:
     name:
       en: Vesak Day
+      id: Hari Raya Waisak
 
   # Day references
   Abolition of Slavery:
@@ -878,6 +889,7 @@ names:
       fr: Jour de l'Indépendance
       hr: Dan neovisnosti
       hy: Անկախության օր
+      id: Hari Ulang Tahun Kemerdekaan Republik Indonesia
       mk: Ден на независноста
       mt: Jum l-Indipendenza
       nl: Onafhankelijkheidsdag

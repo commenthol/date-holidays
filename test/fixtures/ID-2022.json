@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T17:00:00.000Z",
+    "end": "2022-01-01T17:00:00.000Z",
+    "name": "Hari tahun baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-02-01 00:00:00",
+    "start": "2022-01-31T17:00:00.000Z",
+    "end": "2022-02-01T17:00:00.000Z",
+    "name": "Tahun Baru Imlek",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-02-28 00:00:00 -0600",
+    "start": "2022-02-27T11:00:00.000Z",
+    "end": "2022-02-28T11:00:00.000Z",
+    "name": "Maulid Nabi Muhammad",
+    "type": "public",
+    "rule": "27 Rajab",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-03 00:00:00",
+    "start": "2022-03-02T17:00:00.000Z",
+    "end": "2022-03-03T17:00:00.000Z",
+    "name": "Hari Raya Nyepi",
+    "type": "public",
+    "rule": "2022-03-03",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T17:00:00.000Z",
+    "end": "2022-04-15T17:00:00.000Z",
+    "name": "Wafat Yesus Kristus",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T17:00:00.000Z",
+    "end": "2022-05-01T17:00:00.000Z",
+    "name": "Hari Buruh Internasional",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00 -0600",
+    "start": "2022-05-01T11:00:00.000Z",
+    "end": "2022-05-02T11:00:00.000Z",
+    "name": "Hari Raya Idul Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-03 00:00:00 -0600",
+    "start": "2022-05-02T11:00:00.000Z",
+    "end": "2022-05-03T11:00:00.000Z",
+    "name": "Hari Raya Idul Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-25T17:00:00.000Z",
+    "end": "2022-05-26T17:00:00.000Z",
+    "name": "Kenaikan Yesus Kristus",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-01 00:00:00",
+    "start": "2022-05-31T17:00:00.000Z",
+    "end": "2022-06-01T17:00:00.000Z",
+    "name": "Hari Lahir Pancasila",
+    "type": "public",
+    "rule": "06-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-07-09 00:00:00 -0600",
+    "start": "2022-07-08T11:00:00.000Z",
+    "end": "2022-07-09T11:00:00.000Z",
+    "name": "Hari Raya Idul Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-07-30 00:00:00 -0600",
+    "start": "2022-07-29T11:00:00.000Z",
+    "end": "2022-07-30T11:00:00.000Z",
+    "name": "Tahun Baru Islam",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-08-21 00:00:00",
+    "start": "2022-08-20T17:00:00.000Z",
+    "end": "2022-08-21T17:00:00.000Z",
+    "name": "Hari Ulang Tahun Kemerdekaan Republik Indonesia",
+    "type": "public",
+    "rule": "08-21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-10-08 00:00:00 -0600",
+    "start": "2022-10-07T11:00:00.000Z",
+    "end": "2022-10-08T11:00:00.000Z",
+    "name": "Maulid Nabi Muhammad",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T17:00:00.000Z",
+    "end": "2022-12-25T17:00:00.000Z",
+    "name": "Hari Raya Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]
