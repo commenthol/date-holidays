@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 144
+Countries: 145
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -282,6 +282,7 @@ Countries: 144
 │   └── 19: Dubrovnik-Neretva
 ├── HT: Haïti
 ├── HU: Magyarország
+├── ID: Indonesia
 ├── IE: Ireland
 ├── IM: Isle of Man
 ├── IS: Ísland
