@@ -1,12 +1,8 @@
 # Changelog
 
-## [1.9.0](https://github.com/commenthol/date-holidays/compare/1.7.1...1.9.0) (2020-10-14)
+## [1.8.1](https://github.com/commenthol/date-holidays/compare/1.8.0...1.8.1) (2020-10-18)
 
-- fix(NZ): ensure correct boxing day substitution [3ea68d6](https://github.com/commenthol/date-holidays/commit/3ea68d6e23880c4dd1ded5ae0921cd2742fd401c)
-- 1.8.0 [2c462f9](https://github.com/commenthol/date-holidays/commit/2c462f9a58a585263c6f47a66d7be06fe996b8c0)
-- chore: update changelog [44586c0](https://github.com/commenthol/date-holidays/commit/44586c0e9edfa1acf71531feaa4663e0802cf3ee)
-- docs(ID): update attribution and country info [fc746f9](https://github.com/commenthol/date-holidays/commit/fc746f93574b01988891c120331c19a5f131b4e4)
-- feat(ID): added public holidays in Indonesia [a499deb](https://github.com/commenthol/date-holidays/commit/a499debd58c0d5999c0bffc333a212a710bfa442)
+- fix(NZ): ensure correct boxing day substitution [3ea68d6e](https://github.com/commenthol/date-holidays/commit/3ea68d6e23880c4dd1ded5ae0921cd2742fd401c)
 
 ## [1.8.0](https://github.com/commenthol/date-holidays/compare/1.7.1...1.8.0) (2020-10-12)
 
