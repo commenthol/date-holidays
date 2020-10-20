@@ -112,15 +112,15 @@ holidays:
       orthodox:
         _name: orthodox
         type: optional
-        note: Othhodox believers (legally defined as Christians who follow the Julian Calender)
+        note: Orthodox believers (legally defined as Christians who follow the Julian Calender)
       orthodox 1:
         _name: orthodox 1
         type: optional
-        note: Othhodox believers (legally defined as Christians who follow the Julian Calender)
+        note: Orthodox believers (legally defined as Christians who follow the Julian Calender)
       julian 12-25:
         _name: julian 12-25
         type: optional
-        note: Othhodox believers (legally defined as Christians who follow the Julian Calender)
+        note: Orthodox believers (legally defined as Christians who follow the Julian Calender)
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
         type: optional
