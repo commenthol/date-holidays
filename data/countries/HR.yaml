@@ -106,7 +106,37 @@ holidays:
         type: public
       12-26:
         _name: 12-26
-        type: public
+        type: public      
+      # Religius holidays
+      # optional holidays for religious minorities
+      orthodox:
+        _name: orthodox
+        type: optional
+        note: Othhodox believers (legally defined as Christians who follow the Julian Calender)
+      orthodox 1:
+        _name: orthodox 1
+        type: optional
+        note: Othhodox believers (legally defined as Christians who follow the Julian Calender)
+      julian 12-25:
+        _name: julian 12-25
+        type: optional
+        note: Othhodox believers (legally defined as Christians who follow the Julian Calender)
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        type: optional
+        note: Muslim believers
+      1 Shawwal:
+        _name: 1 Shawwal
+        type: optional
+        note: Muslim believers
+      1 Tishrei:
+        _name: 10 Tishrei
+        type: optional
+        note: Jewish believers
+      10 Tishrei:
+        _name: 10 Tishrei
+        type: optional
+        note: Jewish believers
     regions:
       '17':
         name: Split-Dalmatia
