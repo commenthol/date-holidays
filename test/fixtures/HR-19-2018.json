@@ -18,11 +18,21 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2018-01-07 00:00:00",
+    "start": "2018-01-06T23:00:00.000Z",
+    "end": "2018-01-07T23:00:00.000Z",
+    "name": "Pravoslavni Božić",
+    "type": "optional",
+    "note": "Orthodox believers (legally defined as Christians who follow the Julian Calender)",
+    "rule": "julian 12-25",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2018-02-03 00:00:00",
     "start": "2018-02-02T23:00:00.000Z",
     "end": "2018-02-03T23:00:00.000Z",
     "name": "Sveti Vlaho",
-    "type": "public",
+    "type": "optional",
     "rule": "02-03",
     "_weekday": "Sat"
   },
@@ -34,6 +44,15 @@
     "type": "observance",
     "rule": "easter -47",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2018-03-08 00:00:00",
+    "start": "2018-03-07T23:00:00.000Z",
+    "end": "2018-03-08T23:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Thu"
   },
   {
     "date": "2018-04-01 00:00:00",
@@ -51,6 +70,26 @@
     "name": "Uskršnji ponedjeljak",
     "type": "public",
     "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-04-08 00:00:00",
+    "start": "2018-04-07T22:00:00.000Z",
+    "end": "2018-04-08T22:00:00.000Z",
+    "name": "Pravoslavni Uskrs",
+    "type": "optional",
+    "note": "Orthodox believers (legally defined as Christians who follow the Julian Calender)",
+    "rule": "orthodox",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-04-09 00:00:00",
+    "start": "2018-04-08T22:00:00.000Z",
+    "end": "2018-04-09T22:00:00.000Z",
+    "name": "Orthodox Easter Monday",
+    "type": "optional",
+    "note": "Orthodox believers (legally defined as Christians who follow the Julian Calender)",
+    "rule": "orthodox 1",
     "_weekday": "Mon"
   },
   {
@@ -81,6 +120,16 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2018-06-15 00:00:00 -0600",
+    "start": "2018-06-14T16:00:00.000Z",
+    "end": "2018-06-15T16:00:00.000Z",
+    "name": "Ramazanski bajram",
+    "type": "optional",
+    "note": "Muslim believers",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2018-06-22 00:00:00",
     "start": "2018-06-21T22:00:00.000Z",
     "end": "2018-06-22T22:00:00.000Z",
@@ -95,14 +144,14 @@
     "end": "2018-06-25T22:00:00.000Z",
     "name": "Dan državnosti",
     "type": "public",
-    "rule": "06-25",
+    "rule": "06-25 #1",
     "_weekday": "Mon"
   },
   {
     "date": "2018-08-05 00:00:00",
     "start": "2018-08-04T22:00:00.000Z",
     "end": "2018-08-05T22:00:00.000Z",
-    "name": "Dan pobjede i domovinske zahvalnosti",
+    "name": "Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja",
     "type": "public",
     "rule": "08-05",
     "_weekday": "Sun"
@@ -117,12 +166,42 @@
     "_weekday": "Wed"
   },
   {
+    "date": "2018-08-21 00:00:00 -0600",
+    "start": "2018-08-20T16:00:00.000Z",
+    "end": "2018-08-21T16:00:00.000Z",
+    "name": "Kurban-bajram",
+    "type": "optional",
+    "note": "Muslim believers",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-09-10 00:00:00 -0600",
+    "start": "2018-09-09T16:00:00.000Z",
+    "end": "2018-09-10T16:00:00.000Z",
+    "name": "Jom Kipur",
+    "type": "optional",
+    "note": "Jewish believers",
+    "rule": "1 Tishrei",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-09-19 00:00:00 -0600",
+    "start": "2018-09-18T16:00:00.000Z",
+    "end": "2018-09-19T16:00:00.000Z",
+    "name": "Jom Kipur",
+    "type": "optional",
+    "note": "Jewish believers",
+    "rule": "10 Tishrei",
+    "_weekday": "Wed"
+  },
+  {
     "date": "2018-10-08 00:00:00",
     "start": "2018-10-07T22:00:00.000Z",
     "end": "2018-10-08T22:00:00.000Z",
     "name": "Dan neovisnosti",
     "type": "public",
-    "rule": "10-08",
+    "rule": "10-08 #1",
     "_weekday": "Mon"
   },
   {
@@ -133,6 +212,15 @@
     "type": "public",
     "rule": "11-01",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2018-11-18 00:00:00",
+    "start": "2018-11-17T23:00:00.000Z",
+    "end": "2018-11-18T23:00:00.000Z",
+    "name": "Dan sjećanja na žrtvu Vukovara i Škabrnje",
+    "type": "observance",
+    "rule": "11-18 #1",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-12-25 00:00:00",
