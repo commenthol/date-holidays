@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.2](https://github.com/commenthol/date-holidays/compare/1.8.1...1.8.2) (2020-10-27)
+
+- Add religious holidays [ac98830c](https://github.com/commenthol/date-holidays/commit/ac98830c70d2288040cf5ab3a9911c278ea7cb99)
+- fix(HR): 03-08 name and new holidays name and active [03888aa1](https://github.com/commenthol/date-holidays/commit/03888aa1742cd6efebdc4e8739a75ec68c70a53c)
+- fix(HR): Add missing type for HR 11-01 [c49cdcec](https://github.com/commenthol/date-holidays/commit/c49cdcec189bde8b00ba86c040aceb88189236b1)
+- fix(HR): Update HR with 2020 change and add types [716acb7b](https://github.com/commenthol/date-holidays/commit/716acb7b45cadc0e3a515ee6667268be725636b6)
+
 ## [1.8.1](https://github.com/commenthol/date-holidays/compare/1.8.0...1.8.1) (2020-10-18)
 
 - fix(NZ): ensure correct boxing day substitution [3ea68d6e](https://github.com/commenthol/date-holidays/commit/3ea68d6e23880c4dd1ded5ae0921cd2742fd401c)
