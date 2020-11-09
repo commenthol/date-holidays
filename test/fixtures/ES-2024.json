@@ -22,7 +22,7 @@
     "start": "2024-03-18T23:00:00.000Z",
     "end": "2024-03-19T23:00:00.000Z",
     "name": "San José",
-    "type": "public",
+    "type": "observance",
     "rule": "03-19",
     "_weekday": "Tue"
   },
@@ -31,7 +31,7 @@
     "start": "2024-03-27T23:00:00.000Z",
     "end": "2024-03-28T23:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -105,7 +105,7 @@
     "end": "2024-10-12T22:00:00.000Z",
     "name": "Fiesta Nacional de España",
     "type": "public",
-    "rule": "10-12 if sunday then next monday",
+    "rule": "10-12",
     "_weekday": "Sat"
   },
   {
@@ -123,7 +123,7 @@
     "end": "2024-12-06T23:00:00.000Z",
     "name": "Día de la Constitución Española",
     "type": "public",
-    "rule": "12-06 if sunday then next monday",
+    "rule": "12-06",
     "_weekday": "Fri"
   },
   {
@@ -140,7 +140,7 @@
     "start": "2024-12-08T23:00:00.000Z",
     "end": "2024-12-09T23:00:00.000Z",
     "name": "La inmaculada concepción (día sustituto)",
-    "type": "public",
+    "type": "observance",
     "substitute": true,
     "rule": "substitutes 12-08 if sunday then next monday",
     "_weekday": "Mon"

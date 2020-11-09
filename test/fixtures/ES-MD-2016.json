@@ -22,7 +22,7 @@
     "start": "2016-03-18T23:00:00.000Z",
     "end": "2016-03-19T23:00:00.000Z",
     "name": "San José",
-    "type": "public",
+    "type": "observance",
     "rule": "03-19",
     "_weekday": "Sat"
   },
@@ -31,7 +31,7 @@
     "start": "2016-03-23T23:00:00.000Z",
     "end": "2016-03-24T23:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -76,7 +76,7 @@
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
     "name": "Fiesta del trabajo (día sustituto)",
-    "type": "public",
+    "type": "observance",
     "substitute": true,
     "rule": "substitutes 05-01 if sunday then next monday",
     "_weekday": "Mon"
@@ -124,7 +124,7 @@
     "end": "2016-10-12T22:00:00.000Z",
     "name": "Fiesta Nacional de España",
     "type": "public",
-    "rule": "10-12 if sunday then next monday",
+    "rule": "10-12",
     "_weekday": "Wed"
   },
   {
@@ -151,7 +151,7 @@
     "end": "2016-12-06T23:00:00.000Z",
     "name": "Día de la Constitución Española",
     "type": "public",
-    "rule": "12-06 if sunday then next monday",
+    "rule": "12-06",
     "_weekday": "Tue"
   },
   {
@@ -177,7 +177,7 @@
     "start": "2016-12-25T23:00:00.000Z",
     "end": "2016-12-26T23:00:00.000Z",
     "name": "Navidad (día sustituto)",
-    "type": "public",
+    "type": "observance",
     "substitute": true,
     "rule": "substitutes 12-25 if sunday then next monday",
     "_weekday": "Mon"

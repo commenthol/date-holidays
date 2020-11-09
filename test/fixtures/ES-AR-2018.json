@@ -22,7 +22,7 @@
     "start": "2018-03-18T23:00:00.000Z",
     "end": "2018-03-19T23:00:00.000Z",
     "name": "San José",
-    "type": "public",
+    "type": "observance",
     "rule": "03-19",
     "_weekday": "Mon"
   },
@@ -31,7 +31,7 @@
     "start": "2018-03-28T22:00:00.000Z",
     "end": "2018-03-29T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -114,7 +114,7 @@
     "end": "2018-10-12T22:00:00.000Z",
     "name": "Fiesta Nacional de España",
     "type": "public",
-    "rule": "10-12 if sunday then next monday",
+    "rule": "10-12",
     "_weekday": "Fri"
   },
   {
@@ -132,7 +132,7 @@
     "end": "2018-12-06T23:00:00.000Z",
     "name": "Día de la Constitución Española",
     "type": "public",
-    "rule": "12-06 if sunday then next monday",
+    "rule": "12-06",
     "_weekday": "Thu"
   },
   {
