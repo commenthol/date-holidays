@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -70,7 +70,7 @@
   "main": "lib",
   "typings": "types",
   "bin": {
-    "holidays2json": "./scripts/holidays2json.js"
+    "holidays2json": "scripts/holidays2json.js"
   },
   "directories": {
     "doc": "docs",
