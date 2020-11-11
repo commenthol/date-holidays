@@ -22,7 +22,7 @@
     "start": "2021-03-18T23:00:00.000Z",
     "end": "2021-03-19T23:00:00.000Z",
     "name": "San José",
-    "type": "public",
+    "type": "observance",
     "rule": "03-19",
     "_weekday": "Fri"
   },
@@ -31,7 +31,7 @@
     "start": "2021-03-31T22:00:00.000Z",
     "end": "2021-04-01T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -113,7 +113,7 @@
     "start": "2021-08-15T22:00:00.000Z",
     "end": "2021-08-16T22:00:00.000Z",
     "name": "Asunción (día sustituto)",
-    "type": "public",
+    "type": "observance",
     "substitute": true,
     "rule": "substitutes 08-15 if sunday then next monday",
     "_weekday": "Mon"
@@ -124,7 +124,7 @@
     "end": "2021-10-12T22:00:00.000Z",
     "name": "Fiesta Nacional de España",
     "type": "public",
-    "rule": "10-12 if sunday then next monday",
+    "rule": "10-12",
     "_weekday": "Tue"
   },
   {
@@ -151,7 +151,7 @@
     "end": "2021-12-06T23:00:00.000Z",
     "name": "Día de la Constitución Española",
     "type": "public",
-    "rule": "12-06 if sunday then next monday",
+    "rule": "12-06",
     "_weekday": "Mon"
   },
   {

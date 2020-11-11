@@ -22,7 +22,7 @@
     "start": "2025-03-18T23:00:00.000Z",
     "end": "2025-03-19T23:00:00.000Z",
     "name": "San José",
-    "type": "public",
+    "type": "observance",
     "rule": "03-19",
     "_weekday": "Wed"
   },
@@ -31,7 +31,7 @@
     "start": "2025-04-16T22:00:00.000Z",
     "end": "2025-04-17T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -127,12 +127,22 @@
     "_weekday": "Wed"
   },
   {
+    "date": "2025-10-12 00:00:00",
+    "start": "2025-10-11T22:00:00.000Z",
+    "end": "2025-10-12T22:00:00.000Z",
+    "name": "Fiesta Nacional de España",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2025-10-13 00:00:00",
     "start": "2025-10-12T22:00:00.000Z",
     "end": "2025-10-13T22:00:00.000Z",
-    "name": "Fiesta Nacional de España",
-    "type": "public",
-    "rule": "10-12 if sunday then next monday",
+    "name": "Fiesta Nacional de España (día sustituto)",
+    "type": "observance",
+    "substitute": true,
+    "rule": "substitutes 10-12 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -150,7 +160,7 @@
     "end": "2025-12-06T23:00:00.000Z",
     "name": "Día de la Constitución Española",
     "type": "public",
-    "rule": "12-06 if sunday then next monday",
+    "rule": "12-06",
     "_weekday": "Sat"
   },
   {

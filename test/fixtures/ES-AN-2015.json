@@ -31,7 +31,7 @@
     "start": "2015-03-18T23:00:00.000Z",
     "end": "2015-03-19T23:00:00.000Z",
     "name": "San José",
-    "type": "public",
+    "type": "observance",
     "rule": "03-19",
     "_weekday": "Thu"
   },
@@ -40,7 +40,7 @@
     "start": "2015-04-01T22:00:00.000Z",
     "end": "2015-04-02T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -114,7 +114,7 @@
     "end": "2015-10-12T22:00:00.000Z",
     "name": "Fiesta Nacional de España",
     "type": "public",
-    "rule": "10-12 if sunday then next monday",
+    "rule": "10-12",
     "_weekday": "Mon"
   },
   {
@@ -131,18 +131,28 @@
     "start": "2015-11-01T23:00:00.000Z",
     "end": "2015-11-02T23:00:00.000Z",
     "name": "Todos los Santos (día sustituto)",
-    "type": "public",
+    "type": "observance",
     "substitute": true,
     "rule": "substitutes 11-01 if sunday then next monday",
     "_weekday": "Mon"
   },
   {
+    "date": "2015-12-06 00:00:00",
+    "start": "2015-12-05T23:00:00.000Z",
+    "end": "2015-12-06T23:00:00.000Z",
+    "name": "Día de la Constitución Española",
+    "type": "public",
+    "rule": "12-06",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2015-12-07 00:00:00",
     "start": "2015-12-06T23:00:00.000Z",
     "end": "2015-12-07T23:00:00.000Z",
-    "name": "Día de la Constitución Española",
-    "type": "public",
-    "rule": "12-06 if sunday then next monday",
+    "name": "Día de la Constitución Española (día sustituto)",
+    "type": "observance",
+    "substitute": true,
+    "rule": "substitutes 12-06 if sunday then next monday",
     "_weekday": "Mon"
   },
   {

@@ -1,5 +1,8 @@
 holidays:
   # @attrib https://es.m.wikipedia.org/wiki/Calendario_laboral
+  # @source https://www.boe.es/boe/dias/2018/10/20/pdfs/BOE-A-2018-14369.pdf
+  # @source https://www.boe.es/boe/dias/2019/10/11/pdfs/BOE-A-2019-14552.pdf
+  # @source https://www.boe.es/boe/dias/2020/11/02/pdfs/BOE-A-2020-13343.pdf
   ES:
     names:
       es: España
@@ -14,20 +17,21 @@ holidays:
       01-01:
         _name: 01-01
       substitutes 01-01 if sunday then next monday:
+        type: observance
         substitute: true
         _name: 01-01
       01-06:
         _name: 01-06
       substitutes 01-06 if sunday then next monday:
+        type: observance
         substitute: true
         _name: 01-06
       03-19:
         _name: 03-19
-      substitutes 03-19 if sunday then next monday:
-        substitute: true
-        _name: 03-19
+        type: observance
       easter -3:
         _name: easter -3
+        type: observance
       easter -2:
         _name: easter -2
       easter:
@@ -36,6 +40,7 @@ holidays:
       05-01:
         _name: 05-01
       substitutes 05-01 if sunday then next monday:
+        type: observance
         substitute: true
         _name: 05-01
       1st sunday in May:
@@ -53,26 +58,40 @@ holidays:
         _name: 08-15
       substitutes 08-15 if sunday then next monday:
         substitute: true
+        type: observance
         _name: 08-15
-      10-12 if sunday then next monday:
+      10-12:
+        name:
+          es: Fiesta Nacional de España
+      substitutes 10-12 if sunday then next monday:
+        substitute: true
+        type: observance
         name:
           es: Fiesta Nacional de España
       11-01:
         _name: 11-01
       substitutes 11-01 if sunday then next monday:
         substitute: true
+        type: observance
         _name: 11-01
-      12-06 if sunday then next monday:
+      12-06:
+        name:
+          es: Día de la Constitución Española
+      substitutes 12-06 if sunday then next monday:
+        type: observance
+        substitute: true
         name:
           es: Día de la Constitución Española
       12-08:
         _name: 12-08
       substitutes 12-08 if sunday then next monday:
+        type: observance
         substitute: true
         _name: 12-08
       12-25:
         _name: 12-25
       substitutes 12-25 if sunday then next monday:
+        type: observance
         substitute: true
         _name: 12-25
     states:
@@ -100,7 +119,7 @@ holidays:
       # @source: https://ajuntament.barcelona.cat/calendarifestius/ca/
       CT:
         name: Catalonia
-        days: 
+        days:
           09-11:
             name:
               es: Diada de Catalunya
