@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.3](https://github.com/commenthol/date-holidays/compare/1.8.2...1.8.3) (2020-11-11)
+
+- docs(ES): add official bulletin sources [691d1439](https://github.com/commenthol/date-holidays/commit/691d1439da2bf1b7dcfba70b760ca5f45cad88a2)
+- fix: Add dependency for watch-run [3f84a3ac](https://github.com/commenthol/date-holidays/commit/3f84a3ac05eb20db9658591ca3c8473f84c09a80)
+- fix(ES): Fix Spanish holidays according to official sources (BOE) [035ac167](https://github.com/commenthol/date-holidays/commit/035ac16739bd9a4b77d89bc037dc0dd1079b2825)
+
 ## [1.8.2](https://github.com/commenthol/date-holidays/compare/1.8.1...1.8.2) (2020-10-27)
 
 - Add religious holidays [ac98830c](https://github.com/commenthol/date-holidays/commit/ac98830c70d2288040cf5ab3a9911c278ea7cb99)
