@@ -1,5 +1,8 @@
 holidays:
   # @attrib https://es.m.wikipedia.org/wiki/Calendario_laboral
+  # @source https://www.boe.es/boe/dias/2018/10/20/pdfs/BOE-A-2018-14369.pdf
+  # @source https://www.boe.es/boe/dias/2019/10/11/pdfs/BOE-A-2019-14552.pdf
+  # @source https://www.boe.es/boe/dias/2020/11/02/pdfs/BOE-A-2020-13343.pdf
   ES:
     names:
       es: España
@@ -116,7 +119,7 @@ holidays:
       # @source: https://ajuntament.barcelona.cat/calendarifestius/ca/
       CT:
         name: Catalonia
-        days: 
+        days:
           09-11:
             name:
               es: Diada de Catalunya
