@@ -54,6 +54,7 @@ holidays:
         name:
           pt: Dia dos Namorados
           en: Lovers' Day
+        type: observance
       2nd sunday in August:
         _name: Fathers Day
         type: observance
