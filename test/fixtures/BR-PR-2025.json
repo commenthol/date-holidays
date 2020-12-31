@@ -67,7 +67,7 @@
     "start": "2025-06-12T03:00:00.000Z",
     "end": "2025-06-13T03:00:00.000Z",
     "name": "Dia dos Namorados",
-    "type": "public",
+    "type": "observance",
     "rule": "06-12",
     "_weekday": "Thu"
   },
