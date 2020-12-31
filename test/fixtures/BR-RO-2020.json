@@ -85,7 +85,7 @@
     "start": "2020-06-12T04:00:00.000Z",
     "end": "2020-06-13T04:00:00.000Z",
     "name": "Dia dos Namorados",
-    "type": "public",
+    "type": "observance",
     "rule": "06-12",
     "_weekday": "Fri"
   },

@@ -94,7 +94,7 @@
     "start": "2024-06-12T03:00:00.000Z",
     "end": "2024-06-13T03:00:00.000Z",
     "name": "Dia dos Namorados",
-    "type": "public",
+    "type": "observance",
     "rule": "06-12",
     "_weekday": "Wed"
   },
