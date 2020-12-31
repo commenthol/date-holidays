@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.8.4](https://github.com/commenthol/date-holidays/compare/1.8.3...1.8.4) (2020-12-31)
+
+- Fix: [BR] Lovers' Day as observance [ea46204a](https://github.com/commenthol/date-holidays/commit/ea46204acf798d56b93ee824c2454dc979953820)
+
 ## [1.8.3](https://github.com/commenthol/date-holidays/compare/1.8.2...1.8.3) (2020-11-11)
 
 - docs(ES): add official bulletin sources [691d1439](https://github.com/commenthol/date-holidays/commit/691d1439da2bf1b7dcfba70b760ca5f45cad88a2)
