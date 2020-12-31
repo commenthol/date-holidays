@@ -12,6 +12,7 @@ holidays:
     days:
       01-01:
         _name: 01-01
+        type: public
       02-01:
         name:
           hu: A köztársaság emléknapja
@@ -27,8 +28,9 @@ holidays:
         type: observance
       03-15:
         name:
-          hu: Nemzeti ünnep
+          hu: 1948-as forradalom
           en: National Day
+        type: public
       04-16:
         name:
           en: Memorial Day for the Victims of the Holocaust
@@ -36,10 +38,13 @@ holidays:
         type: observance
       easter:
         _name: easter
+        type: public
       easter 1:
         _name: easter 1
+        type: public
       05-01:
         _name: 05-01
+        type: public
       1st sunday in May:
         _name: Mothers Day
         type: observance
@@ -50,8 +55,10 @@ holidays:
         type: observance
       easter 49:
         _name: easter 49
+        type: public
       easter 50:
         _name: easter 50
+        type: public
       06-04:
         name:
           en: Day of National Unity
@@ -66,6 +73,7 @@ holidays:
         name:
           hu: Szent István ünnepe
           en: Saint Stephen's Day
+        type: public
       10-06:
         name:
           en: Memorial Day for the Martyrs of Arad
@@ -73,19 +81,23 @@ holidays:
         type: observance
       10-23:
         name:
-          hu: Nemzeti ünnep
+          hu: 1956-os forradalom
           en: National Day
+        type: public
       11-01:
         _name: 11-01
+        type: public
       12-06:
-        name:
-          en: Saint Nicholas Day
-          hu: Mikulás, Télapó
-        type: observance
+        _name: 12-06
+      12-24:
+        _name: 12-24
+        type: optional
       12-25:
         _name: 12-25
+        type: public
       12-26:
         _name: 12-26
+        type: public
       12-31:
         _name: 12-31
         type: observance

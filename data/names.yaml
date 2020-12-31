@@ -74,6 +74,7 @@ names:
       fr: l'Épiphanie
       el: Θεοφάνεια
       hr: Bogojavljenje, Sveta tri kralja
+      hu: Vízkereszt
       it: Befana
       # it: Epifania
       is: Þrettándinn
@@ -87,6 +88,7 @@ names:
     name:
       en: Candlemas
       de: Lichtmess
+      hu: Gyertyaszentelő Boldogasszony
       nl: Lichtmis
       vi: Lễ Đức Mẹ dâng Chúa Giêsu trong đền thánh
   02-14:
@@ -94,6 +96,7 @@ names:
       en: Valentine's Day
       de: Valentinstag
       fr: Saint-Valentin
+      hu: Valentin nap
       nl: Valentijnsdag
       vi: Lễ tình nhân
   03-08:
@@ -126,6 +129,7 @@ names:
   04-01:
     name:
       en: April Fools' Day
+      hu: Bolondok napja
       nl: 1 April
       sq: Dita e Gënjeshtrave
       vi: Cá tháng tư
@@ -235,6 +239,7 @@ names:
       fil: Araw ng mga Kaluluwa
       fr: Fête des morts
       hr: Dušni dan
+      hu: Halottak napja
       nl: Allerzielen
       pt: Dia de Finados
       vi: Lễ Các Đẳng
@@ -243,6 +248,7 @@ names:
     name:
       en: Saint Martin
       de: Sankt Martin (Faschingsbeginn)
+      hu: Márton nap
       nl: Sint Maarten
       vi: Lễ thánh Martin
   12-06:
@@ -250,6 +256,7 @@ names:
       en: Saint Nicholas
       de: Sankt Nikolaus
       fr: Saint-Nicolas
+      hu: Mikulás
       nl: Sinterklaas
       vi: Thánh Saint Nicholas
   12-08:
@@ -277,6 +284,7 @@ names:
       fil: Bisperas ng Pasko
       fr: Veille de Noël
       hr: Badnji dan
+      hu: Szenteste
       is: Aðfangadagur
       kl: juulliaraq
       lt: Šv. Kūčios
@@ -410,6 +418,7 @@ names:
       de: Faschingsdienstag
       # de: Fastnacht
       hr: Pokladni utorak
+      hu: Húshagyó kedd
       nl: Vastenavond
       pt: Carnaval
       vi: Thứ ba mập béo
@@ -419,6 +428,7 @@ names:
       de: Aschermittwoch
       es: Miercoles de Ceniza
       fr: Mercredi des Cendres
+      hu: Hamvazószerda
       it: Ceneri
       is: Öskudagur
       nl: Aswoensdag
@@ -430,6 +440,7 @@ names:
       en: Palm Sunday
       de: Palmsonntag
       es: Domingo de Ramos
+      hu: Virágvasárnap
       it: Domenica delle Palme
       is: Pálmasunnudagur
       nl: Palmzondag
@@ -469,6 +480,7 @@ names:
       el: Μεγάλη Παρασκευή
       et: suur reede
       hr: Veliki petak
+      hu: Nagypéntek
       id: Wafat Yesus Kristus
       it: Venerdì santo
       is: Föstudagurinn langi
@@ -494,6 +506,7 @@ names:
       es: Sabado Santo
       fil: Sabado de Gloria
       fr: Samedi saint
+      hu: Nagyszombat
       it: Sabado santo
       nl: Dag voor Pasen
       no: Påskeaften
@@ -941,6 +954,7 @@ names:
       de: Nationalfeiertag
       es: Fiesta Nacional
       fr: Fête nationale
+      hu: Nemzeti ünnep
       el: εθνική επέτειος
       nl: Nationale feestdag
       vi: Quốc Lễ
