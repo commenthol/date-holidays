@@ -52,7 +52,7 @@ Holidays2json.prototype = {
   load: function (cc, filename) {
     filename = filename || resolve(config.countries, cc + '.yaml')
     const data = fs.readFileSync(filename, 'utf8')
-    const obj = jsyaml.safeLoad(data)
+    const obj = jsyaml.load(data)
     return obj
   },
   /**

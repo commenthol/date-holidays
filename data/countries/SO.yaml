@@ -5,7 +5,7 @@ holidays:
       so: Jamhuuriyadda Federaalka Soomaaliya
       ar: جمهورية الصومال الفدرالية
       en: Somalia
-    dayoff: ?
+    dayoff: "?"
     langs:
       - so
       - ar

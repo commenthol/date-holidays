@@ -180,7 +180,7 @@
   },
   "dependencies": {
     "date-holidays-parser": "^1.6.0",
-    "js-yaml": "^3.14.1",
+    "js-yaml": "^4.0.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "prepin": "^1.0.3"
