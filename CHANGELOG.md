@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.8.5](https://github.com/commenthol/date-holidays/compare/1.8.4...1.8.5) (2021-01-06)
+
+- chore(webpack): analyze size [35d34cdb](https://github.com/commenthol/date-holidays/commit/35d34cdbe6a90c4c2dff472113eabb370d908345)
+- fix(HU): corrected HU holidays and added translations [9ebc6e42](https://github.com/commenthol/date-holidays/commit/9ebc6e4200d0eb9a47cf6bea5edb5ef8c25f12a2)
+
 ## [1.8.4](https://github.com/commenthol/date-holidays/compare/1.8.3...1.8.4) (2020-12-31)
 
 - Fix: [BR] Lovers' Day as observance [ea46204a](https://github.com/commenthol/date-holidays/commit/ea46204acf798d56b93ee824c2454dc979953820)
