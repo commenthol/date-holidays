@@ -98,6 +98,7 @@
     "test:ts": "dtslint types",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
+    "webpack:analyze": "webpack",
     "yaml": "node scripts/holidays2json.js"
   },
   "husky": {
@@ -222,7 +223,7 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "watch-run": "^1.2.5",
     "webpack": "^4.44.2",
-    "webpack-bundle-analyzer": "^3.9.0",
+    "webpack-bundle-analyzer": "^4.3.0",
     "webpack-cli": "^3.3.12"
   },
   "engines": {

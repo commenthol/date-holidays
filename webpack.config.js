@@ -12,7 +12,9 @@ const doAnalyze = process.env.npm_lifecycle_event === 'webpack:analyze'
 
 const variants = doAnalyze
   ? {
-    target: ['commonjs2']
+    target: [
+      ['commonjs2', 'index']
+    ]
   }
   : {
     minified: [true],
