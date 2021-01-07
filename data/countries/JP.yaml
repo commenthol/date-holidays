@@ -1,6 +1,6 @@
 holidays:
-  # @source http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
-  # @source http://eco.mtk.nao.ac.jp/koyomi/yoko/index.html.en
+  # @source https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+  # @source https://eco.mtk.nao.ac.jp/koyomi/yoko/index.html.en
   # @attrib https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5
   # Japan
   JP:
@@ -178,17 +178,25 @@ holidays:
           jp: 海の日
         disable:
           - '2020-07-20'
+          - '2021-07-19'
         enable:
           - '2020-07-23'
+          - '2021-07-22'
         active:
           - from: 2003-01-01
-      08-11 and if sunday then next monday:
+      substitutes 2021-08-08 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Mountain Day
+          jp: 山の日
+      substitutes 08-11 and if sunday then next monday:
         substitute: true
         name:
           en: Mountain Day
           jp: 山の日
         disable:
           - '2020-08-11'
+          - '2021-08-11'
         enable:
           - '2020-08-10'
         active:
@@ -259,8 +267,10 @@ holidays:
           jp: スポーツの日
         disable:
           - '2020-10-12'
+          - '2021-10-11'
         enable:
           - '2020-07-24'
+          - '2021-07-23'
         active:
           - from: 2020-01-01
       '2019-10-22':
