@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.8.6](https://github.com/commenthol/date-holidays/compare/1.8.5...1.8.6) (2021-01-08)
+
+- fix(JP): JP.yaml and tests [f897e3cf](https://github.com/commenthol/date-holidays/commit/f897e3cfc2fc2b5b1d08ada0e7ae3ab0da864aa2)
+
 ## [1.8.5](https://github.com/commenthol/date-holidays/compare/1.8.4...1.8.5) (2021-01-06)
 
 - chore(webpack): analyze size [35d34cdb](https://github.com/commenthol/date-holidays/commit/35d34cdbe6a90c4c2dff472113eabb370d908345)
