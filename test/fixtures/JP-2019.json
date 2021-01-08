@@ -141,7 +141,7 @@
     "end": "2019-08-11T15:00:00.000Z",
     "name": "山の日",
     "type": "public",
-    "rule": "08-11 and if sunday then next monday",
+    "rule": "substitutes 08-11 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -151,7 +151,7 @@
     "name": "山の日 (振替休日)",
     "type": "public",
     "substitute": true,
-    "rule": "08-11 and if sunday then next monday",
+    "rule": "substitutes 08-11 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
