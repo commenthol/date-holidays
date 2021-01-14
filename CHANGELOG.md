@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.8.7](https://github.com/commenthol/date-holidays/compare/1.8.6...1.8.7) (2021-01-14)
+
+- fix(CZ): Change Czech Easter Sunday type to "observance" [8c9ce16b](https://github.com/commenthol/date-holidays/commit/8c9ce16b386f16a4884fbe6c274535bd7c319fc9)
+
 ## [1.8.6](https://github.com/commenthol/date-holidays/compare/1.8.5...1.8.6) (2021-01-08)
 
 - fix(JP): JP.yaml and tests [f897e3cf](https://github.com/commenthol/date-holidays/commit/f897e3cfc2fc2b5b1d08ada0e7ae3ab0da864aa2)
