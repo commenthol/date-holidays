@@ -12,6 +12,8 @@ This document describes the data contained within the files `holidays.yaml` and
 * [structure of `names.yaml`](#structure-of-namesyaml)
 * [structure of `holidays.yaml`](#structure-of-holidaysyaml)
 * [Types of holidays](#types-of-holidays)
+* [Citations, Sources, and Attribution](#citations-sources-and-attribution)
+  * [Source Guidelines](#source-guidelines)
 * [Grammar for day rules](#grammar-for-day-rules)
   * [Fixed Date](#fixed-date)
   * [Fixed Date at beginning of a Month](#fixed-date-at-beginning-of-a-month)
@@ -100,16 +102,16 @@ holidays:
 - `<state_code_?>` is a short code representing the state (any ascii based string)
 - `<region_code_?>` is a short code representing the region (any ascii based string)
 
-For country codes check:  
+For country codes check:
 <https://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
 
-For country codes / divisions / subdivisions - ISO 3166-2:  
+For country codes / divisions / subdivisions - ISO 3166-2:
 <http://www.unicode.org/cldr/charts/30/supplemental/territory_subdivisions.html>
 
-For timezones:  
+For timezones:
 <https://github.com/moment/moment-timezone/blob/develop/data/meta/latest.json>
 
-For language codes ISO 639-1:  
+For language codes ISO 639-1:
 <http://www.unicode.org/cldr/charts/30/supplemental/language_territory_information.html>
 
 To specify the rules to calculate the holidays per country, state, region is as follows:
@@ -122,10 +124,10 @@ To specify the rules to calculate the holidays per country, state, region is as 
   name: {String}           # name of country/state/region in local language of country (use only if `names` not present)
   langs:                   # (mandatory for country) list of language codes (ISO 639-1)
     - <lang_1>             # spoken in country, state, region
-    - <lang_2>     
+    - <lang_2>
   zones:                   # (mandatory for country) list of timezone(s)
-    - <timezone_1>     
-    - <timezone_2>     
+    - <timezone_1>
+    - <timezone_2>
   _days:                   # (optional) reference days of other country, state, region
     - <country_code_x>
     - states
@@ -152,6 +154,35 @@ To specify the rules to calculate the holidays per country, state, region is as 
 - `<lang_?>` represents the ISO 639-1 language code for the assigned language.
 - `<timezone_?>` is a string representing the timezone. See file `data/meta/latest.json` of [moment-timezone][]
 - `<rule_?>` is the rule for that holiday
+
+## Citations, Sources, and Attribution
+
+Be sure to cite the URL where you obtained the holiday information. This project has support for two types of sources: primary and secondary/Wikipedia. To cite a primary source, add a YAML comment near corresponding specification. For example, from US.yaml:
+
+```yaml
+# @source https://www.federalreserve.gov/aboutthefed/k8.htm
+substitutes 11-11 if sunday then next monday if saturday then previous friday:
+  substitute: true
+  name:
+    en: Veterans Day
+  type: bank
+  note: Federal Government offices are closed
+```
+
+For Wikipedia sources, it is important to use `@attrib` instead of `@source`. The `doc:attrib` NPM task consolidates these attributions into the LICENSE file to comply with Wikipedia's [Creative Commons ShareAlike licencing](https://creativecommons.org/licenses/by-sa/3.0/). Here is an example of using `@attrib`:
+
+```yaml
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bahrain
+holidays:
+  BH:
+    names:
+      ar: مملكة البحرين
+      en: Bahrain
+```
+
+### Source Guidelines
+
+Primary sources are preferable to secondary sources. Examples of good primary sources include but are not limited to government legislation, news articles, and national bank publications. Please refrain from including sources from data aggregators as often times the licencing is too restrictive or unclear to be used by an open source project.
 
 ## Types of holidays
 
