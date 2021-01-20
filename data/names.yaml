@@ -29,6 +29,7 @@ names:
       fo: Nýggjársdagur
       # fr: Jour de l'An
       fr: Nouvel An
+      ge: ახალი წელი
       hr: Nova godina
       hu: Újév
       hy: Ամանոր
@@ -106,6 +107,7 @@ names:
       be: Мiжнародны жаночы дзень
       bg: Ден на жената
       fr: Journée internationale des femmes
+      ge: ქალთა საერთაშორისო დღე
       hu: Nemzetközi nőnap
       hy: Կանանց տոն
       nl: Internationale Vrouwendag
@@ -479,6 +481,7 @@ names:
       fr: Vendredi saint
       el: Μεγάλη Παρασκευή
       et: suur reede
+      ge: წითელი პარასკევი
       hr: Veliki petak
       hu: Nagypéntek
       id: Wafat Yesus Kristus
@@ -506,6 +509,7 @@ names:
       es: Sabado Santo
       fil: Sabado de Gloria
       fr: Samedi saint
+      ge: დიდი შაბათი
       hu: Nagyszombat
       it: Sabado santo
       nl: Dag voor Pasen
@@ -527,6 +531,7 @@ names:
       fil: Pasko ng Pagkabuhay
       fo: Páskadagur
       fr: Pâques
+      ge: აღდგომა
       hr: Uskrs
       hu: Húsvétvasárnap
       it: Domenica di Pasqua
@@ -560,6 +565,7 @@ names:
       fi: 2. pääsiäispäivä
       fo: Annar páskadagur
       fr: Lundi de Pâques
+      ge: აღდგომის ორშაბათი
       hr: Uskršnji ponedjeljak
       hu: Húsvéthétfő
       it: Lunedì dell’Angelo
