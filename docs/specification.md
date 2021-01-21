@@ -182,7 +182,7 @@ holidays:
 
 ### Source Guidelines
 
-Primary sources are preferable to secondary sources. Examples of good primary sources include but are not limited to government legislation, news articles, and national bank publications. Please refrain from including sources from data aggregators as often times the licencing is too restrictive or unclear to be used by an open source project.
+Primary sources are preferable to secondary sources. Examples of good primary sources include but are not limited to government legislation, news articles, and national bank publications. Please refrain from including sources from data aggregators and websites which offer holiday data as often times the licencing is too restrictive or unclear for use in an open source project.
 
 ## Types of holidays
 
