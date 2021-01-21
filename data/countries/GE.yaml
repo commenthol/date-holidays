@@ -1,5 +1,5 @@
 holidays:
-  # @source https://en.wikipedia.org/wiki/Public_holidays_in_Georgia_(country)
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Georgia_(country)
   GE:
     names:
       ge: საქართველო
