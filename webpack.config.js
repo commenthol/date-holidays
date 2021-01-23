@@ -12,17 +12,17 @@ const doAnalyze = process.env.npm_lifecycle_event === 'webpack:analyze'
 
 const variants = doAnalyze
   ? {
-    target: [
-      ['commonjs2', 'index']
-    ]
-  }
+      target: [
+        ['commonjs2', 'index']
+      ]
+    }
   : {
-    minified: [true],
-    target: [
-      ['commonjs2', 'index'],
-      ['umd', 'umd']
-    ]
-  }
+      minified: [true],
+      target: [
+        ['commonjs2', 'index'],
+        ['umd', 'umd']
+      ]
+    }
 
 rimraf('./dist')
 

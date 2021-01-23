@@ -4,11 +4,12 @@
 
 const { promisify } = require('util')
 const { exec } = require('child_process')
+const path = require('path')
 const fs = require('fs')
 const { version } = require('../package.json')
 
 const BASE = 'https://github.com/commenthol/date-holidays'
-const CHANGELOG = `${__dirname}/../CHANGELOG.md`
+const CHANGELOG = path.resolve(__dirname, '../CHANGELOG.md')
 
 const MAJOR = 0
 const MINOR = 1
@@ -39,6 +40,8 @@ const gitTagVersions = async () => {
       if (vv) {
         const vvv = vv.split(/[.-]/).filter(s => !s[3]).filter(Boolean)
         return vvv && vvv.length ? vvv : undefined
+      } else {
+        return undefined
       }
     })
     .filter(Boolean)
@@ -48,6 +51,7 @@ const gitTagVersions = async () => {
           return b[i] - a[i]
         }
       }
+      return 0
     })
   return tags
 }

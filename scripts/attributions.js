@@ -58,11 +58,8 @@ Attributions.prototype = {
   },
 
   extract () {
-    const data = this.data.filter((d) => {
-      if (/#\s*@attrib\s/.test(d)) {
-        return true
-      }
-    })
+    const data = this.data
+      .filter((d) => /#\s*@attrib\s/.test(d))
       .map((d) => {
         return d
           .replace(/#\s*@attrib/, '')

@@ -1,27 +1,27 @@
 /* global Holidays */
 
 ;(function () {
-  var vcalendar = require('date-holidays-ical/lib/vcalendar')
+  const vcalendar = require('date-holidays-ical/lib/vcalendar')
 
-  var DAY = 86400000
-  var HOUR = 3600000
+  const DAY = 86400000
+  const HOUR = 3600000
 
-  var WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-  var year = new Date().getFullYear()
-  var g = { year: year }
-  var n = {}
+  const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+  const year = new Date().getFullYear()
+  const g = { year: year }
+  const n = {}
 
   function duration (ms) {
-    var days = (ms / DAY) | 0
-    var hours = (ms - (days * DAY)) / HOUR | 0
-    var str = days ? days + 'd ' : ''
+    const days = (ms / DAY) | 0
+    const hours = (ms - (days * DAY)) / HOUR | 0
+    let str = days ? days + 'd ' : ''
     str += hours ? hours + 'h' : ''
     return str
   }
 
   function select (id, fn) {
-    var el = document.getElementById(id)
-    var self = {
+    const el = document.getElementById(id)
+    const self = {
       opts: {},
       onChange: function (ev) {
         self.selected = ev.target.value
@@ -67,43 +67,43 @@
   }
 
   function selectYear () {
-    var obj = {}
-    for (var i = year; i < year + 10; i++) {
+    const obj = {}
+    for (let i = year; i < year + 10; i++) {
       obj[i] = i
     }
     select('year').render(obj, year)
   }
   function selectCountry (code, name) {
-    var hd = new Holidays()
-    var cs = hd.getCountries()
-    var s = select('country', selectState)
+    const hd = new Holidays()
+    const cs = hd.getCountries()
+    const s = select('country', selectState)
     s.render(cs, code)
     if (code) s.onChange({ target: { value: code, selectedOptions: [{ text: name }] } })
   }
   function selectState () {
-    var hd = new Holidays()
-    var cs = hd.getStates(g.country)
+    const hd = new Holidays()
+    const cs = hd.getStates(g.country)
     select('state', selectRegion).render(cs)
   }
   function selectRegion () {
-    var hd = new Holidays()
-    var cs = hd.getRegions(g.country, g.state)
+    const hd = new Holidays()
+    const cs = hd.getRegions(g.country, g.state)
     select('region').render(cs)
   }
 
   function renderContent () {
-    var hd = new Holidays(g.country, g.state, g.region)
-    var holidays = g.holidays = hd.getHolidays(g.year)
-    var count = 0
-    var table = [
+    const hd = new Holidays(g.country, g.state, g.region)
+    const holidays = g.holidays = hd.getHolidays(g.year)
+    let count = 0
+    const table = [
       '<table>',
       '<thead><tr><th>',
       ['#', 'weekday', 'date', 'duration', 'name', 'type'].join('</th><th>'),
       '</th></tr></thead>',
       '<tbody>',
       Object.keys(holidays).map(function (i) {
-        var d = holidays[i]
-        var _date = d.date.replace(/^(\d+-\d+-\d+ \d+:\d+:\d+).*$/, '$1')
+        const d = holidays[i]
+        const _date = d.date.replace(/^(\d+-\d+-\d+ \d+:\d+:\d+).*$/, '$1')
         return '<tr><td>' + [
           count++,
           WEEKDAYS[new Date(_date).getDay()],
@@ -125,8 +125,8 @@
   }
 
   function download (filename, dates) {
-    var fullday = document.getElementById('fullday').checked
-    var el = document.createElement('a')
+    const fullday = document.getElementById('fullday').checked
+    const el = document.createElement('a')
     el.setAttribute('href', 'data:text/calendar;charset=utf-8,' +
       encodeURIComponent(vcalendar(dates, { fullday: fullday })))
     el.setAttribute('download', filename)
@@ -137,7 +137,7 @@
     document.body.removeChild(el)
   }
   function onDownload () {
-    var filename = [g.year, n.country, n.state, n.region]
+    const filename = [g.year, n.country, n.state, n.region]
       .filter(function (i) { return i }).join('-') + '.ics'
     download(filename, g.holidays)
   }

@@ -34,9 +34,11 @@ Holidays2json.prototype = {
   getList: function () {
     let list = fs.readdirSync(config.countries)
     list = list
-      .map(function (file) {
+      .map((file) => {
         if (REGEX.test(file)) {
           return file.replace(REGEX, '$1')
+        } else {
+          return undefined
         }
       })
       .filter(function (file) {

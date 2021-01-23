@@ -5,8 +5,8 @@
 'use strict'
 
 if (require.main === module) {
-  var Holidays = require('..')
-  var hd = new Holidays()
+  const Holidays = require('..')
+  let hd = new Holidays()
 
   // get supported countries
   console.log(hd.getCountries())

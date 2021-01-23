@@ -5,18 +5,18 @@
  * e.g.
  * sample.js at.b 2015 1
  */
-var Holidays = require('..')
+const Holidays = require('..')
 
-var days = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
+const days = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 function weekday (i) {
   return days[new Date(i.date).getDay()]
 }
 
 if (module === require.main) {
-  var cmd = {}
-  var opts = {}
-  var args = process.argv.slice(2)
-  var arg
+  const cmd = {}
+  const opts = {}
+  const args = process.argv.slice(2)
+  let arg
 
   while ((arg = args.shift())) {
     if (arg === '--short') {
@@ -32,12 +32,12 @@ if (module === require.main) {
 
   cmd.year = cmd.year || (new Date()).getFullYear()
 
-  var hd = new Holidays(cmd.country, opts)
-  var res = hd.getHolidays(cmd.year)
+  const hd = new Holidays(cmd.country, opts)
+  let res = hd.getHolidays(cmd.year)
 
   if (cmd.short) {
     res = res.map(function (i) {
-      var day = weekday(i)
+      const day = weekday(i)
       i.type += Array(11).join(' ')
       return [day, i.date, i.type.substr(0, 10), i.name].join('   ')
     })
