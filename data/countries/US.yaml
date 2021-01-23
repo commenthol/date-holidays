@@ -285,15 +285,48 @@ holidays:
             name:
               en: Day After Thanksgiving
       GA:
+        # Regarding changes from Confederate to more neutral holidays, see:
+        # @source https://www.ajc.com/blog/politics/why-monday-longer-confederate-memorial-day-georgia/55scplUOZWOIbAzmMKZnXM/
+        # @source https://www.cnn.com/2015/08/09/us/georgia-confederate-memorial-holiday-feat/index.html
+        #
+        # Every Year, Georgia's coverner proclaims the dates of the next year's holidays.
+        # 2016 was when Robert E. Lee's birthday and Confederate Memorial Day
+        # both became just "State Holiday". Every year since 2012 excluding 2014:
+        # @source https://dbhdd.georgia.gov/documents/state-holidays-2012
+        # @source https://ga.gsu.edu/2013/06/11/state-holidays/
+        # @source http://team.georgia.gov/wp-content/uploads/2014/08/2015-GA-State-Holidays.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2011/06/2016-State-Holidays.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2016/08/2017-State-Holidays.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2017/07/2018-State-Holidays-memo-07.12.17.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2018/10/2019-State-Holidays-Memo-07.18.18.pdf
         name: Georgia
         days:
+          # Washington's Birthday is celebrated near Christmas in Georgia.
           3rd monday in February: false
-          01-19:
-            name:
-              en: Robert E. Lee's Birthday
-          monday before 05-01:
+          'monday before 05-01 #1':
             name:
               en: Confederate Memorial Day
+            active:
+              - to: '2016-01-01'
+          'monday before 05-01 #2':
+            name:
+              en: State Holiday
+            note: Known as Confederate Memorial Day prior to 2016
+            active:
+              - from: '2016-01-01'
+          'friday after 4th thursday in November #1':
+            name:
+              en: Robert E. Lee's Birthday
+            note: General Lee was born on 1807-01-19 but this holiday was traditionally observed the day after Thanksgiving.
+            active:
+              - to: '2016-01-01'
+          'friday after 4th thursday in November #2':
+            name:
+              en: State Holiday
+            note: Known as Robert E. Lee's Birtday prior to 2016
+            active:
+              - from: '2016-01-01'
+
           12-24:
             name:
               en: Washington's Birthday

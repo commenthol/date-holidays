@@ -9,15 +9,6 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2019-01-19 00:00:00",
-    "start": "2019-01-19T05:00:00.000Z",
-    "end": "2019-01-20T05:00:00.000Z",
-    "name": "Robert E. Lee's Birthday",
-    "type": "public",
-    "rule": "01-19",
-    "_weekday": "Sat"
-  },
-  {
     "date": "2019-01-21 00:00:00",
     "start": "2019-01-21T05:00:00.000Z",
     "end": "2019-01-22T05:00:00.000Z",
@@ -66,9 +57,10 @@
     "date": "2019-04-29 00:00:00",
     "start": "2019-04-29T04:00:00.000Z",
     "end": "2019-04-30T04:00:00.000Z",
-    "name": "Confederate Memorial Day",
+    "name": "State Holiday",
     "type": "public",
-    "rule": "monday before 05-01",
+    "note": "Known as Confederate Memorial Day prior to 2016",
+    "rule": "monday before 05-01 #2",
     "_weekday": "Mon"
   },
   {
@@ -159,6 +151,16 @@
     "name": "Day after Thanksgiving Day",
     "type": "observance",
     "rule": "friday after 4th thursday in November",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-11-29 00:00:00",
+    "start": "2019-11-29T05:00:00.000Z",
+    "end": "2019-11-30T05:00:00.000Z",
+    "name": "State Holiday",
+    "type": "public",
+    "note": "Known as Robert E. Lee's Birtday prior to 2016",
+    "rule": "friday after 4th thursday in November #2",
     "_weekday": "Fri"
   },
   {
