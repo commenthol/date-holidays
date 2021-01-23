@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.0](https://github.com/commenthol/date-holidays/compare/1.8.7...1.9.0) (2021-01-23)
+
+- docs: update attribution [a86fe73c](https://github.com/commenthol/date-holidays/commit/a86fe73c29e4bb5edc5393c1efe052354fb02e49)
+- docs: clarifying language about data aggregators [783a6462](https://github.com/commenthol/date-holidays/commit/783a646297c8c005691f0a083324fa3fc24b4afb)
+- fix(US-GA): Fixes #142 GA Confederate Memorial Day 2020 [672261ce](https://github.com/commenthol/date-holidays/commit/672261cea8944b02fe7a16c6c6435fa9e9c1973f)
+- docs: Guidelines for citations. [f32a5a49](https://github.com/commenthol/date-holidays/commit/f32a5a49a6c202bbc2c6704dcfb14cf66af6359b)
+- feat(GE): Holidays for Georgia(Country) [70aae144](https://github.com/commenthol/date-holidays/commit/70aae144745bddbd1571b9623bb592ccb8d413f2)
+- feat(GE): Holidays for Georgia(Country) [aa68e174](https://github.com/commenthol/date-holidays/commit/aa68e174da0dc16fbdf855f1dc05966d41e26351)
+
 ## [1.8.7](https://github.com/commenthol/date-holidays/compare/1.8.6...1.8.7) (2021-01-14)
 
 - fix(CZ): Change Czech Easter Sunday type to "observance" [8c9ce16b](https://github.com/commenthol/date-holidays/commit/8c9ce16b386f16a4884fbe6c274535bd7c319fc9)

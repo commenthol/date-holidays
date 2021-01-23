@@ -176,8 +176,7 @@
       "standard"
     ],
     "extends": "standard",
-    "rules": {
-    }
+    "rules": {}
   },
   "mocha": {
     "checkLeaks": true,
