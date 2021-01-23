@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 145
+Countries: 146
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -266,6 +266,7 @@ Countries: 145
 │   ├── SCT: Scotland
 │   └── WLS: Wales
 ├── GD: Grenada
+├── GE: საქართველო
 ├── GF: Guyane
 ├── GG: Guernsey
 ├── GI: Gibraltar
