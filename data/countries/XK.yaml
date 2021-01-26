@@ -27,9 +27,7 @@ holidays:
       05-01:
         _name: 05-01
       05-09:
-        name:
-          sq: Dita e Evropës
-          en: Europe Day
+        _name: 05-09
       12-25:
         _name: 12-25
       1 Shawwal:

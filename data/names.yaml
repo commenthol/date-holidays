@@ -177,6 +177,34 @@ names:
       uk: День міжнародної солідарності трудящих
       vi: Quốc tế Lao động
       zh: 劳动节
+  05-09: # Europe Day
+    # source : https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27Europe_(Union_europ%C3%A9enne)
+    name:
+      en: Europe Day
+      bg: Денят на Европа
+      cs: Den Evropy
+      da: Europadagen
+      de: Europatag
+      el: Ημέρα της Ευρώπης
+      es: Día de Europa
+      et: Euroopa päev
+      fi: Eurooppa-päivä
+      fr: Journée de l'Europe
+      ga: Lá na hEorpa
+      hr: Dan Europe
+      hu: Európa-nap
+      it: Festa dell'Europa
+      ls: Dan Evrope
+      lt: Europos diena
+      lv: Eiropas diena
+      mt: Jum l-Ewropa
+      nl: Dag van Europa ou Europadag
+      pl: Dzień Europy
+      pt: Dia da Europa
+      ro: Ziua Europei
+      sk: Deň Európy
+      sq: Dita e Evropës
+      sv: Europadagen
   06-29:
     name:
       en: Saints Peter and Paul
