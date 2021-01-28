@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "1.9.1",
+  "version": "2.0.0-0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -186,7 +186,7 @@
     "require": "@babel/register"
   },
   "dependencies": {
-    "date-holidays-parser": "^1.6.0",
+    "date-holidays-parser": "^2.0.0",
     "js-yaml": "^4.0.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
@@ -233,6 +233,6 @@
     "webpack-cli": "^3.3.12"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   }
 }
