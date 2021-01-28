@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.9.1](https://github.com/commenthol/date-holidays/compare/1.9.0...1.9.1) (2021-01-28)
+
+- fix(#193): Adding "Europe Day" to Luxembourg's holidays [f58a4999](https://github.com/commenthol/date-holidays/commit/f58a4999f047a5cf711ad238ac5db556a9cc6268)
+- fix(#193): Adding "Europe Day" to Luxembourg's holidays [44baf012](https://github.com/commenthol/date-holidays/commit/44baf0123236dec28d3bcc08b077e37402de60d1)
+
 ## [1.9.0](https://github.com/commenthol/date-holidays/compare/1.8.7...1.9.0) (2021-01-23)
 
 - docs: update attribution [a86fe73c](https://github.com/commenthol/date-holidays/commit/a86fe73c29e4bb5edc5393c1efe052354fb02e49)
