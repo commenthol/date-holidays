@@ -19,7 +19,7 @@ const config = {
   countries: resolve(__dirname, '..', 'data', 'countries'),
   factories: [
     resolve(dirParser, '..', 'src', 'CalEventFactory.js'),
-    resolve(dirParser, '..', 'lib', 'CalEventFactory.js')
+    resolve(dirParser, '..', 'lib', 'CalEventFactory.cjs')
   ]
 }
 
@@ -87,6 +87,10 @@ Holidays2json.prototype = {
   save: function () {
     const json = JSON.stringify(this.holidays, null, 2) + '\n'
     fs.writeFileSync(resolve(config.dirname, 'holidays.json'), json, 'utf8')
+    fs.writeFileSync(resolve(__dirname, '..', 'src', 'data.js'), 'export const data = ' + json, 'utf8')
+    if (fs.existsSync(resolve(__dirname, '..', 'lib'))) {
+      fs.writeFileSync(resolve(__dirname, '..', 'lib', 'data.cjs'), 'exports.data = ' + json, 'utf8')
+    }
   },
   /**
    * modify the factories to require only the minimum required packages

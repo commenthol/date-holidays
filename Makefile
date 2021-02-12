@@ -11,10 +11,13 @@ data/holidays.json: data/countries/*.yaml data/names.yaml
 lib: src/*
 	npm run transpile
 
-test: v10. v12. v14.
+test: v12. v14. v15.
 
 v%:
-	n $@ && TEST_XXL=1 npm test
+	n $@; \
+	npm run clean:all; \
+	npm i && \
+	npm run ci
 
 dist:
 	npm run webpack

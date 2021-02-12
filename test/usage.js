@@ -2,10 +2,10 @@
  * sample script to show usage of module
  */
 
-'use strict'
+import { fileURLToPath } from 'url'
+import Holidays from '../src/index.js'
 
-if (require.main === module) {
-  const Holidays = require('..')
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   let hd = new Holidays()
 
   // get supported countries

@@ -7,7 +7,7 @@ const path = require('path')
  */
 if (module === require.main) {
   const fs = require('fs')
-  const tree = require('./tree')
+  const tree = require('./tree.cjs')
   const readmeFile = path.resolve(__dirname, '..', 'README.md')
   const buf = (function () {
     const self = {

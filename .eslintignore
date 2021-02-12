@@ -5,3 +5,4 @@ attic/
 dist/
 lib/
 tmp/
+data/holidays.js

@@ -1,4 +1,3 @@
-sudo: false
 language: node_js
 
 node_js:
@@ -9,7 +8,7 @@ node_js:
 install:
   - npm install
 
-before_script:
+before_script: []
 
 script:
   - npm run ci

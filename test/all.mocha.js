@@ -1,11 +1,10 @@
-/* global describe, it */
+import fs from 'fs'
+import path from 'path'
+import assert from 'assert'
+import Holidays from '../src/index.js'
+import { fileURLToPath } from 'url'
 
-'use strict'
-
-const fs = require('fs')
-const path = require('path')
-const assert = require('assert')
-const Holidays = require('..')
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 let writetests
 let _countries
@@ -112,20 +111,20 @@ function test (year, country, state, region) {
 
 describe('#All Holidays', function () {
   years.forEach(function (year) {
-    const countries = _countries || Holidays().getCountries()
+    const countries = _countries || new Holidays().getCountries()
 
     Object.keys(countries).forEach(function (country) {
       describe(year + ':' + country, function () {
         test(year, country)
 
-        const states = Holidays().getStates(country)
+        const states = new Holidays().getStates(country)
 
         if (states) {
           Object.keys(states).forEach(function (state) {
             test(year, country, state)
 
             describe(state, function () {
-              const regions = Holidays().getRegions(country, state)
+              const regions = new Holidays().getRegions(country, state)
 
               if (regions) {
                 Object.keys(regions).forEach(function (region) {

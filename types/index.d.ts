@@ -1,5 +1,3 @@
-// TypeScript Version: 3.3
-
 declare module 'date-holidays' {
     namespace Holidays {
         export interface Country {
