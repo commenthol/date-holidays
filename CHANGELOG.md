@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.0](https://github.com/commenthol/date-holidays/compare/1.9.1...2.0.0) (2021-02-13)
+
+- chore(travis): remove node 10 [54986a6b](https://github.com/commenthol/date-holidays/commit/54986a6b59d57af1a1fe3b9c374919dac5e9e178)
+- test: fix astronomia update [6d9d910f](https://github.com/commenthol/date-holidays/commit/6d9d910fdfa1c3cb61a9c07c470b8dbbc727997e)
+- break: isHolidays() returns a list [7fe58d31](https://github.com/commenthol/date-holidays/commit/7fe58d31b6f277525e4560c8b87f4944e7b42017)
+
 ## [1.9.1](https://github.com/commenthol/date-holidays/compare/1.9.0...1.9.1) (2021-01-28)
 
 - fix(#193): Adding "Europe Day" to Luxembourg's holidays [f58a4999](https://github.com/commenthol/date-holidays/commit/f58a4999f047a5cf711ad238ac5db556a9cc6268)
