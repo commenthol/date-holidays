@@ -42,7 +42,7 @@ declare module 'date-holidays' {
 
             getHolidays(year?: string | number | Date, lang?: string): Holiday[];
 
-            isHoliday(date: Date): Holiday | false;
+            isHoliday(date: Date): Holiday[] | false;
 
             query(country?: string, state?: string, lang?: string): { [key: string]: string; };
 
@@ -76,7 +76,7 @@ declare module 'date-holidays' {
         init(country?: string, state?: string, region?: string, opts?: Holidays.Options): void;
         setHoliday(rule: string, opts: Holidays.HolidayOptions | string): boolean;
         getHolidays(year?: string | number | Date, lang?: string): Holidays.Holiday[];
-        isHoliday(date: Date): Holidays.Holiday | false;
+        isHoliday(date: Date): Holidays.Holiday[] | false;
         query(country?: string, state?: string, lang?: string): { [key: string]: string; };
         getCountries(lang?: string): { [key: string]: string; };
         getStates(country: string, lang?: string): { [key: string]: string; };

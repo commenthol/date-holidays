@@ -63,10 +63,11 @@ if (require.main === module) {
 
   console.log(hd.isHoliday(new Date('2016-02-09 10:00:00 GMT-0600')))
   /* >
-  { date: '2016-02-09 00:00:00',
+  [{ date: '2016-02-09 00:00:00',
     start: Tue Feb 09 2016 00:00:00 GMT-0600 (CST),
     end: Wed Feb 10 2016 00:00:00 GMT-0600 (CST),
     name: 'Mardi Gras',
     type: 'public' }
+  ]
   */
 }
