@@ -176,6 +176,13 @@ holidays:
         name:
           en: Marriage of Crown Prince Naruhito
           jp: 結婚の儀
+      07-20:
+        name:
+          en: Marine Day
+          jp: 海の日
+        active:
+          - from: 1996-01-01
+            to: 2002-12-31
       substitutes 07-20 if sunday then next monday:
         substitute: true
         name:
