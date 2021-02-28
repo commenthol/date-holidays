@@ -176,7 +176,7 @@ holidays:
         name:
           en: Marriage of Crown Prince Naruhito
           jp: 結婚の儀
-      07-20:
+      substitutes 07-20 if sunday then next monday:
         substitute: true
         name:
           en: Marine Day
