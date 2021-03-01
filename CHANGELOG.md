@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.1](https://github.com/commenthol/date-holidays/compare/2.0.0...2.0.1) (2021-03-01)
+
+- fix(JP): revert regular Marine Day rule [86c81311](https://github.com/commenthol/date-holidays/commit/86c81311eb6717f247d6b1b9d85811a1b3c9b219)
+- fix(JP): Add substitution rule for 07-20 so that 1997-07-21 is holiday [a0c210b3](https://github.com/commenthol/date-holidays/commit/a0c210b32c1ff4de253caaff97c51b7a26bf5b42)
+- fix(JP): Add 4 public holidays 1959-04-10, 1989-02-24, 1990-11-12, 1993-06-09 [2b19c353](https://github.com/commenthol/date-holidays/commit/2b19c3539b9ee2968ac9e7fbc644eacf26383238)
+
 ## [2.0.0](https://github.com/commenthol/date-holidays/compare/1.9.1...2.0.0) (2021-02-13)
 
 - chore(travis): remove node 10 [54986a6b](https://github.com/commenthol/date-holidays/commit/54986a6b59d57af1a1fe3b9c374919dac5e9e178)
