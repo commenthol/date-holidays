@@ -31,7 +31,7 @@
     "start": "2015-02-23T22:00:00.000Z",
     "end": "2015-02-24T22:00:00.000Z",
     "name": "iseseisvuspäev",
-    "type": "observance",
+    "type": "public",
     "rule": "02-24",
     "_weekday": "Tue"
   },
