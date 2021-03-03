@@ -22,7 +22,7 @@ holidays:
         type: observance
       02-24:
         _name: Independence Day
-        type: observance
+        type: public
       03-14:
         name:
           et: emakeelepäev
