@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.2](https://github.com/commenthol/date-holidays/compare/2.0.1...2.0.2) (2021-03-03)
+
+- fix(EE): Update EE Independence Day to be a public holiday [5670ca72](https://github.com/commenthol/date-holidays/commit/5670ca72e00a5783160d566925eb3cf8dc7ee407)
+
 ## [2.0.1](https://github.com/commenthol/date-holidays/compare/2.0.0...2.0.1) (2021-03-01)
 
 - fix(JP): revert regular Marine Day rule [86c81311](https://github.com/commenthol/date-holidays/commit/86c81311eb6717f247d6b1b9d85811a1b3c9b219)
