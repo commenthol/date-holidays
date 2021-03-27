@@ -1,11 +1,10 @@
-/* global Holidays */
-
 ;(function () {
   const vcalendar = require('date-holidays-ical/lib/vcalendar')
 
   const DAY = 86400000
   const HOUR = 3600000
 
+  const Holidays = window.Holidays.default
   const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   const year = new Date().getFullYear()
   const g = { year: year }
