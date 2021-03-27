@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T05:00:00.000Z",
+    "end": "2023-01-02T05:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-02 00:00:00",
+    "start": "2023-01-02T05:00:00.000Z",
+    "end": "2023-01-03T05:00:00.000Z",
+    "name": "Jour des Aieux",
+    "type": "public",
+    "rule": "01-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-01-06 00:00:00",
+    "start": "2023-01-06T05:00:00.000Z",
+    "end": "2023-01-07T05:00:00.000Z",
+    "name": "Le Jour des Rois",
+    "type": "observance",
+    "rule": "01-06",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-02-20 14:00:00",
+    "start": "2023-02-20T19:00:00.000Z",
+    "end": "2023-02-21T05:00:00.000Z",
+    "name": "Lundi Gras",
+    "type": "public",
+    "rule": "easter -48 14:00",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-02-21 00:00:00",
+    "start": "2023-02-21T05:00:00.000Z",
+    "end": "2023-02-22T05:00:00.000Z",
+    "name": "Mardi Gras",
+    "type": "public",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-02-22 00:00:00",
+    "start": "2023-02-22T05:00:00.000Z",
+    "end": "2023-02-23T05:00:00.000Z",
+    "name": "Mercredi des Cendres",
+    "type": "observance",
+    "rule": "easter -46",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-07T04:00:00.000Z",
+    "end": "2023-04-08T04:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-09T04:00:00.000Z",
+    "end": "2023-04-10T04:00:00.000Z",
+    "name": "Pâques",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T04:00:00.000Z",
+    "end": "2023-05-02T04:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-18T04:00:00.000Z",
+    "end": "2023-05-19T04:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-18T04:00:00.000Z",
+    "end": "2023-05-19T04:00:00.000Z",
+    "name": "Jour du Drapeau et de l'Université",
+    "type": "public",
+    "rule": "05-18",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-06-08 00:00:00",
+    "start": "2023-06-08T04:00:00.000Z",
+    "end": "2023-06-09T04:00:00.000Z",
+    "name": "la Fête-Dieu",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-08-15 00:00:00",
+    "start": "2023-08-15T04:00:00.000Z",
+    "end": "2023-08-16T04:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-10-17 00:00:00",
+    "start": "2023-10-17T04:00:00.000Z",
+    "end": "2023-10-18T04:00:00.000Z",
+    "name": "Anniversaire de la mort de Dessalines",
+    "type": "public",
+    "rule": "10-17",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "start": "2023-11-01T04:00:00.000Z",
+    "end": "2023-11-02T04:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-11-02 00:00:00",
+    "start": "2023-11-02T04:00:00.000Z",
+    "end": "2023-11-03T04:00:00.000Z",
+    "name": "Fête des morts",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-11-18 00:00:00",
+    "start": "2023-11-18T05:00:00.000Z",
+    "end": "2023-11-19T05:00:00.000Z",
+    "name": "Vertières",
+    "type": "public",
+    "rule": "11-18",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-12-05 00:00:00",
+    "start": "2023-12-05T05:00:00.000Z",
+    "end": "2023-12-06T05:00:00.000Z",
+    "name": "Découverte d'Haïti",
+    "type": "observance",
+    "rule": "12-05",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T05:00:00.000Z",
+    "end": "2023-12-26T05:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

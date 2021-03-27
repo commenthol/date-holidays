@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T21:00:00.000Z",
+    "end": "2024-01-01T21:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T21:00:00.000Z",
+    "end": "2024-04-01T21:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-27 00:00:00",
+    "start": "2024-04-26T21:00:00.000Z",
+    "end": "2024-04-27T21:00:00.000Z",
+    "name": "Abolition de l’esclavage",
+    "type": "public",
+    "rule": "04-27",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T21:00:00.000Z",
+    "end": "2024-05-01T21:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-08 00:00:00",
+    "start": "2024-05-07T21:00:00.000Z",
+    "end": "2024-05-08T21:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "rule": "05-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-08T21:00:00.000Z",
+    "end": "2024-05-09T21:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-19 00:00:00",
+    "start": "2024-05-18T21:00:00.000Z",
+    "end": "2024-05-19T21:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-19T21:00:00.000Z",
+    "end": "2024-05-20T21:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-05-26 00:00:00",
+    "start": "2024-05-25T21:00:00.000Z",
+    "end": "2024-05-26T21:00:00.000Z",
+    "name": "Fête des Mères",
+    "type": "observance",
+    "rule": "sunday before 06-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-14 00:00:00",
+    "start": "2024-07-13T21:00:00.000Z",
+    "end": "2024-07-14T21:00:00.000Z",
+    "name": "Fête Nationale de la France",
+    "type": "public",
+    "rule": "07-14",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-15 00:00:00",
+    "start": "2024-08-14T21:00:00.000Z",
+    "end": "2024-08-15T21:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-10-31T21:00:00.000Z",
+    "end": "2024-11-01T21:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-11-11 00:00:00",
+    "start": "2024-11-10T21:00:00.000Z",
+    "end": "2024-11-11T21:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T21:00:00.000Z",
+    "end": "2024-12-25T21:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]

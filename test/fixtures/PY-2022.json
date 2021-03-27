@@ -1,0 +1,129 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T03:00:00.000Z",
+    "end": "2022-01-02T03:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-03-01 00:00:00",
+    "start": "2022-03-01T03:00:00.000Z",
+    "end": "2022-03-02T03:00:00.000Z",
+    "name": "Dia de los héroes",
+    "type": "public",
+    "rule": "03-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-04-14 00:00:00",
+    "start": "2022-04-14T04:00:00.000Z",
+    "end": "2022-04-15T04:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T04:00:00.000Z",
+    "end": "2022-04-16T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-30 00:00:00",
+    "start": "2022-04-30T04:00:00.000Z",
+    "end": "2022-05-01T04:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "optional",
+    "note": "Affects educational institutions",
+    "rule": "04-30",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T04:00:00.000Z",
+    "end": "2022-05-02T04:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-14 00:00:00",
+    "start": "2022-05-14T04:00:00.000Z",
+    "end": "2022-05-15T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "05-14",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-05-15 00:00:00",
+    "start": "2022-05-15T04:00:00.000Z",
+    "end": "2022-05-16T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "05-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-13 00:00:00",
+    "start": "2022-06-13T04:00:00.000Z",
+    "end": "2022-06-14T04:00:00.000Z",
+    "name": "Día de la Paz del Chaco",
+    "type": "public",
+    "rule": "06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-08-15 00:00:00",
+    "start": "2022-08-15T04:00:00.000Z",
+    "end": "2022-08-16T04:00:00.000Z",
+    "name": "Asunción",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-09-29 00:00:00",
+    "start": "2022-09-29T04:00:00.000Z",
+    "end": "2022-09-30T04:00:00.000Z",
+    "name": "Victoria de Boquerón",
+    "type": "public",
+    "rule": "09-29",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-08 00:00:00",
+    "start": "2022-12-08T03:00:00.000Z",
+    "end": "2022-12-09T03:00:00.000Z",
+    "name": "Virgen de Caacupé",
+    "type": "public",
+    "rule": "12-08",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T03:00:00.000Z",
+    "end": "2022-12-26T03:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-31 00:00:00",
+    "start": "2022-12-31T03:00:00.000Z",
+    "end": "2023-01-01T03:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "bank",
+    "rule": "12-31",
+    "_weekday": "Sat"
+  }
+]

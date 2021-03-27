@@ -19,7 +19,7 @@ The features are:
 - setting of custom holidays
 - uses own grammar for calculation of days
 - support for islamic calendar from 1970 to 2080 (*islamic dates might not be
-  correct as they are subject to the sighting of the moon)
+  correct as they are subject to the sighting of the moon*)
 - support for hebrew calendar from 1970 to 2100
 - support for chinese calendar
 - for generation of iCal calendar check out [date-holidays-ical][]
@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 143
+Countries: 146
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -85,10 +85,7 @@ Countries: 143
 │   ├── QLD: Queensland
 │   ├── SA: South Australia
 │   ├── TAS: Tasmania
-│   │   ├── H: Hobart
-│   │   └── NH: Non-Hobart
 │   ├── VIC: Victoria
-│   │   └── M: Melbourne
 │   └── WA: Western Australia
 ├── AW: Aruba
 ├── AX: Landskapet Åland
@@ -99,6 +96,7 @@ Countries: 143
 │   ├── BRC: Brčko District
 │   └── SRP: Republika Srpska
 ├── BB: Barbados
+├── BD: গণপ্রজাতন্ত্রী বাংলাদেশ
 ├── BE: Belgique
 │   ├── BRU: Bruxelles
 │   ├── DE: Deutschsprachige Gemeinschaft
@@ -246,7 +244,8 @@ Countries: 143
 ├── ES: España
 │   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
-│   └── AR: Aragón
+│   ├── AR: Aragón
+│   └── CT: Catalonia
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
 ├── FO: Føroyar
@@ -264,9 +263,10 @@ Countries: 143
 │   ├── ALD: Alderney
 │   ├── ENG: England
 │   ├── NIR: Northern Ireland
-│   ├── SCT: Scottland
+│   ├── SCT: Scotland
 │   └── WLS: Wales
 ├── GD: Grenada
+├── GE: საქართველო
 ├── GF: Guyane
 ├── GG: Guernsey
 ├── GI: Gibraltar
@@ -283,6 +283,7 @@ Countries: 143
 │   └── 19: Dubrovnik-Neretva
 ├── HT: Haïti
 ├── HU: Magyarország
+├── ID: Indonesia
 ├── IE: Ireland
 ├── IM: Isle of Man
 ├── IS: Ísland
@@ -291,7 +292,7 @@ Countries: 143
 ├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本
-├── KE: Kenia
+├── KE: Kenya
 ├── KR: 대한민국
 ├── LI: Lichtenstein
 ├── LS: \'Muso oa Lesotho
@@ -479,12 +480,14 @@ hd.getHolidays(2016)
     start: Fri Jan 01 2016 00:00:00 GMT-0600 (CST),
     end: Sat Jan 02 2016 00:00:00 GMT-0600 (CST),
     name: 'New Year\'s Day',
+    rule: '01-01 and if sunday then next monday if saturday then previous friday',
     type: 'public' },
   ...
   { date: '2016-11-24 00:00:00',
     start: Thu Nov 24 2016 00:00:00 GMT-0600 (CST),
     end: Fri Nov 25 2016 00:00:00 GMT-0600 (CST),
     name: 'Thanksgiving Day',
+    rule: '4th thursday in November',
     type: 'public' },
   ...
   { date: '2016-12-26 00:00:00',
@@ -492,6 +495,7 @@ hd.getHolidays(2016)
     end: Tue Dec 27 2016 00:00:00 GMT-0600 (CST),
     substitute: true,
     name: 'Christmas Day (substitute day)',
+    rule: '12-25 and if sunday then next monday if saturday then previous friday',
     type: 'public' } ]
 */
 
@@ -500,11 +504,13 @@ hd.isHoliday(new Date('2016-02-09 00:00:00 GMT+0000'))
 //> false
 hd.isHoliday(new Date('2016-02-09 10:00:00 GMT-0600'))
 /*>
-{ date: '2016-02-09 00:00:00',
+[{ date: '2016-02-09 00:00:00',
   start: Tue Feb 09 2016 00:00:00 GMT-0600 (CST),
   end: Wed Feb 10 2016 00:00:00 GMT-0600 (CST),
   name: 'Mardi Gras',
+  rule: 'easter -47',
   type: 'public' }
+]
 */
 ```
 

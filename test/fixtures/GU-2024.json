@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T14:00:00.000Z",
+    "end": "2024-01-01T14:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday if saturday then previous friday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-15 00:00:00",
+    "start": "2024-01-14T14:00:00.000Z",
+    "end": "2024-01-15T14:00:00.000Z",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "rule": "3rd monday in January",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-14 00:00:00",
+    "start": "2024-02-13T14:00:00.000Z",
+    "end": "2024-02-14T14:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-03-04 00:00:00",
+    "start": "2024-03-03T14:00:00.000Z",
+    "end": "2024-03-04T14:00:00.000Z",
+    "name": "Guam History and Chamorro Heritage Day",
+    "type": "public",
+    "rule": "1st monday in March",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-28T14:00:00.000Z",
+    "end": "2024-03-29T14:00:00.000Z",
+    "name": "Good Friday",
+    "type": "observance",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-30T14:00:00.000Z",
+    "end": "2024-03-31T14:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-15 00:00:00",
+    "start": "2024-04-14T14:00:00.000Z",
+    "end": "2024-04-15T14:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance",
+    "rule": "04-15 if friday then next monday if saturday,sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-24 00:00:00",
+    "start": "2024-04-23T14:00:00.000Z",
+    "end": "2024-04-24T14:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance",
+    "rule": "wednesday before 04-28",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-12 00:00:00",
+    "start": "2024-05-11T14:00:00.000Z",
+    "end": "2024-05-12T14:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-27 00:00:00",
+    "start": "2024-05-26T14:00:00.000Z",
+    "end": "2024-05-27T14:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public",
+    "rule": "monday before 06-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-16 00:00:00",
+    "start": "2024-06-15T14:00:00.000Z",
+    "end": "2024-06-16T14:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-04 00:00:00",
+    "start": "2024-07-03T14:00:00.000Z",
+    "end": "2024-07-04T14:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "07-04 and if sunday then next monday if saturday then previous friday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-07-22 00:00:00",
+    "start": "2024-07-21T14:00:00.000Z",
+    "end": "2024-07-22T14:00:00.000Z",
+    "name": "Liberation Day",
+    "type": "public",
+    "rule": "07-21 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-09-02 00:00:00",
+    "start": "2024-09-01T14:00:00.000Z",
+    "end": "2024-09-02T14:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "rule": "monday in September",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-14 00:00:00",
+    "start": "2024-10-13T14:00:00.000Z",
+    "end": "2024-10-14T14:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public",
+    "rule": "2nd monday in October",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-31 18:00:00",
+    "start": "2024-10-31T08:00:00.000Z",
+    "end": "2024-10-31T14:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "rule": "10-31 18:00",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-02 00:00:00",
+    "start": "2024-11-01T14:00:00.000Z",
+    "end": "2024-11-02T14:00:00.000Z",
+    "name": "All Souls' Day",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-11-05 00:00:00",
+    "start": "2024-11-04T14:00:00.000Z",
+    "end": "2024-11-05T14:00:00.000Z",
+    "name": "Election Day",
+    "type": "observance",
+    "rule": "tuesday after 1st monday in November every 4 years since 1848",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-11-11 00:00:00",
+    "start": "2024-11-10T14:00:00.000Z",
+    "end": "2024-11-11T14:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-11-28 00:00:00",
+    "start": "2024-11-27T14:00:00.000Z",
+    "end": "2024-11-28T14:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public",
+    "rule": "4th thursday in November",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-11-29 00:00:00",
+    "start": "2024-11-28T14:00:00.000Z",
+    "end": "2024-11-29T14:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "rule": "friday after 4th thursday in November",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-09 00:00:00",
+    "start": "2024-12-08T14:00:00.000Z",
+    "end": "2024-12-09T14:00:00.000Z",
+    "name": "Our Lady of Camarin Day",
+    "type": "public",
+    "rule": "12-08 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-24 00:00:00",
+    "start": "2024-12-23T14:00:00.000Z",
+    "end": "2024-12-24T14:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "rule": "12-24",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T14:00:00.000Z",
+    "end": "2024-12-25T14:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if sunday then next monday if saturday then previous friday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-31 00:00:00",
+    "start": "2024-12-30T14:00:00.000Z",
+    "end": "2024-12-31T14:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Tue"
+  }
+]

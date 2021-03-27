@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "1.3.11",
+  "version": "3.0.1",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -16,143 +16,190 @@
   },
   "license": "(ISC AND CC-BY-3.0)",
   "author": "commenthol <commenthol@gmail.com>",
+  "maintainers": [
+    "commenthol <commenthol@gmail.com>",
+    "Ryan Gerry <rgerry@bluemarblepayroll.com>"
+  ],
   "contributors": [
     "0xflotus <0xflotus@gmail.com>",
+    "Adam Otradovec <adam.otradovec@seznam.cz>",
+    "Alex Fernández <alexfernandeznpm@gmail.com>",
+    "Artem Yagutyan <artem.yagutyan@gmail.com>",
     "ash <makingahabit@gmail.com>",
+    "Ben Arwin <github@arwin.net>",
     "Bilal Gültekin <bilal@Bilals-MacBook-Pro.local>",
+    "bogdanmarinescu <bogdan.marinescu@protonmail.com>",
+    "Brandon Bay <brandon.bay@gmail.com>",
     "Christian Schinnerl <Schinnerl.Christian@gmail.com>",
+    "damon02 <damon@teqplay.nl>",
     "David Álvarez Navarro <david16an@gmail.com>",
     "Erlend Ellingsen <erlend.ame@gmail.com>",
+    "Filip Staffa <fstaffa@cimpress.com>",
+    "Florian SALEUR <dev.daedalus@gmail.com>",
     "Francesco Ansanelli <f.ansanelli@solution-g.com>",
+    "Germain <germain.clauss@receeve.com>",
+    "germain-receeve <53000086+germain-receeve@users.noreply.github.com>",
     "Goran Martinjak <goran@netgen.hr>",
     "Guillaume Bisch <guillaume@sqrd.com>",
+    "Jack Zhang <18542127+jk1z@users.noreply.github.com>",
+    "JAlexander <roodrallec@users.noreply.github.com>",
     "James Dixon <jim.w.dixon@gmail.com>",
     "Jeff Hughes <43132199+jwh-hutchison@users.noreply.github.com>",
     "John-Olav Storvold <johsto@knowit.no>",
+    "Joshua Rippon <joshuarippon1@gmail.com>",
+    "Julian Krenge <julian@parcellab.com>",
+    "Kevin Samoei <samoeikev@gmail.com>",
+    "Leonidas Villeneuve <leonidas@leonidasv.com>",
+    "Long Nguyen <olragon@users.noreply.github.com>",
     "Lukas Eipert <git@leipert.io>",
     "Mauro Braggio <m.braggio@e-time.it>",
     "Matthias Lösch <mlo@codiac.de>",
+    "Nils Mehlhorn <nilsmehlhorn@users.noreply.github.com>",
+    "Oscar Lagercrantz <oscar.lagercrantz@gmail.com>",
+    "osoken <osoken.devel@outlook.jp>",
+    "Pandu Supriyono <mail@supriyono.nl>",
+    "Petar Kovačević <pero.5ar@gmail.com>",
+    "Philip Renich <hello@philiprenich.com>",
+    "r.ryngenen@gmail.com <r.ryngenen@gmail.com>",
+    "rbrasco <roger.brasco@scytl.com>",
     "Roman Hirsch <r.hirsch@brendow.de>",
     "Ryan Gerry <gerryster@gmail.com>",
-    "Ryan Gerry <rgerry@bluemarblepayroll.com>",
+    "Sean Riley <spriley@msts.com>",
+    "Simon Victory <email@simonvictory.com>",
     "Quennie <simply.me.queeny@gmail.com>",
     "Tiago <tiago.peliciari@gmail.com>",
+    "Tim Keegan <tjnkeegan@icloud.com>",
+    "Tomas <norkunas.tom@gmail.com>",
+    "tothadi <tothadam.onp@gmail.com>",
     "Wayne Parrott <wayne.parrott@reblcorp.com>",
     "Wésley Queiroz <wesleycoder@gmail.com>",
-    "Yoshio HANAWA <y@hnw.jp>"
+    "westn <westn89@gmail.com>",
+    "Yoshio HANAWA <y@hnw.jp>",
+    "Yosuke Kumakura <kumatch@gmail.com>",
+    "Zacharias Erlandsson <zacharias.erlandsson@gmail.com>",
+    "zbypy <zbynek.pysny@gmail.com>"
   ],
-  "main": "lib",
-  "typings": "types",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./lib/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.cjs",
+  "typings": "./types",
   "bin": {
-    "holidays2json": "./scripts/holidays2json.js"
+    "holidays2json": "scripts/holidays2json.cjs"
   },
   "directories": {
+    "lib": "lib",
     "doc": "docs",
     "test": "test"
   },
   "scripts": {
-    "all": "npm-run-all clean lint build yaml test doc:tree doc:attrib webpack",
-    "build": "babel -d lib src",
-    "clean": "rimraf lib dist",
+    "all": "npm-run-all clean yaml build lint test doc:tree doc:attrib webpack",
+    "build": "rollup -c",
+    "changelog": "contributors && node scripts/gitlog.cjs",
+    "ci": "TEST_XXL=1 npm-run-all yaml build test",
+    "clean": "rimraf lib dist src/data.js",
     "clean:all": "npm-run-all clean clean:modules",
     "clean:modules": "rimraf node_modules",
-    "doc:tree": "node scripts/addtree.js",
-    "doc:attrib": "node scripts/attributions.js",
-    "lint": "eslint --fix '**/*.js'",
+    "doc:attrib": "node scripts/attributions.cjs",
+    "doc:tree": "node scripts/addtree.cjs",
+    "lint": "eslint --fix \"**/*.js\" \"**/*.cjs\"",
     "prepublishOnly": "npm run all",
-    "ci": "npm-run-all build yaml test",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
     "test:ts": "dtslint types",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
-    "yaml": "node scripts/holidays2json.js"
+    "webpack:analyze": "webpack",
+    "yaml": "node scripts/holidays2json.cjs"
   },
-  "babel": {
-    "ignore": [
-      "./dist"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
     ],
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-syntax-dynamic-import",
-      "@babel/plugin-syntax-import-meta",
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-json-strings",
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
+    "rules": {
+      "type-enum": [
+        2,
+        "always",
+        [
+          "break",
+          "feat",
+          "fix",
+          "chore",
+          "docs",
+          "refactor",
+          "revert",
+          "test"
+        ]
       ],
-      "@babel/plugin-proposal-function-sent",
-      "@babel/plugin-proposal-export-namespace-from",
-      "@babel/plugin-proposal-numeric-separator",
-      "@babel/plugin-proposal-throw-expressions"
-    ]
+      "subject-case": [
+        2,
+        "never",
+        [
+          "start-case",
+          "pascal-case"
+        ]
+      ],
+      "scope-case": [
+        0
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
   ],
-  "eslintConfig": {
-    "extends": "standard",
-    "plugins": [
-      "standard"
-    ]
+  "mocha": {
+    "checkLeaks": true,
+    "colors": true,
+    "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^1.3.2",
-    "js-yaml": "^3.13.1",
+    "date-holidays-parser": "^3.0.0",
+    "js-yaml": "^4.0.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
-    "prepin": "^1.0.1"
+    "prepin": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
-    "@babel/plugin-proposal-decorators": "^7.4.0",
-    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
-    "@babel/plugin-proposal-function-sent": "^7.2.0",
-    "@babel/plugin-proposal-json-strings": "^7.2.0",
-    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
-    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-syntax-import-meta": "^7.2.0",
-    "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
-    "babel-loader": "^8.0.5",
-    "babelify": "^8.0.0",
-    "core-js": "^2.6.4",
-    "dtslint": "^0.6.0",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.12",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
+    "babel-loader": "^8.2.2",
+    "dtslint": "^4.0.8",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
     "hashtree": "^0.7.0",
-    "markedpp": "^1.0.0",
-    "mocha": "^6.1.0",
+    "husky": "^4.3.8",
+    "markedpp": "^1.0.3",
+    "mocha": "^8.3.2",
     "npm-run-all": "^4.1.5",
-    "parallel-webpack": "^2.3.0",
-    "rimraf": "^2.6.3",
-    "serialize-to-js": "^1.2.2",
-    "typescript": "^3.4.2",
-    "uglifyjs-webpack-plugin": "^2.1.2",
-    "webpack": "^4.29.6",
-    "webpack-bundle-analyzer": "^3.2.0",
-    "webpack-cli": "^3.3.0"
+    "rimraf": "^3.0.2",
+    "rollup": "^2.43.0",
+    "typescript": "^4.2.3",
+    "watch-run": "^1.2.5",
+    "webpack": "^5.28.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "^4.5.0"
   },
   "engines": {
-    "node": ">=4.0.0"
-  },
-  "maintainers": [
-    "commenthol <commenthol@gmail.com>",
-    "Ryan Gerry <rgerry@bluemarblepayroll.com>"
-  ]
+    "node": ">=12.0.0"
+  }
 }

@@ -1,0 +1,216 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T23:00:00.000Z",
+    "end": "2021-01-01T23:00:00.000Z",
+    "name": "Нова година",
+    "type": "public",
+    "rule": "01-01 if sunday then next tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-02 00:00:00",
+    "start": "2021-01-01T23:00:00.000Z",
+    "end": "2021-01-02T23:00:00.000Z",
+    "name": "Нова година",
+    "type": "public",
+    "rule": "01-02 if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-01-07 00:00:00",
+    "start": "2021-01-06T23:00:00.000Z",
+    "end": "2021-01-07T23:00:00.000Z",
+    "name": "Божић",
+    "type": "public",
+    "rule": "julian 12-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-01-27 00:00:00",
+    "start": "2021-01-26T23:00:00.000Z",
+    "end": "2021-01-27T23:00:00.000Z",
+    "name": "Свети Сава",
+    "type": "observance",
+    "rule": "julian 01-14",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-02-15 00:00:00",
+    "start": "2021-02-14T23:00:00.000Z",
+    "end": "2021-02-15T23:00:00.000Z",
+    "name": "Дан државности Србије",
+    "type": "public",
+    "rule": "02-15 if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-02-16 00:00:00",
+    "start": "2021-02-15T23:00:00.000Z",
+    "end": "2021-02-16T23:00:00.000Z",
+    "name": "Дан државности Србије",
+    "type": "public",
+    "rule": "02-16 if sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T22:00:00.000Z",
+    "end": "2021-04-02T22:00:00.000Z",
+    "name": "Католички Велики петак",
+    "type": "optional",
+    "note": "Catholic believers",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T22:00:00.000Z",
+    "end": "2021-04-04T22:00:00.000Z",
+    "name": "Католички Васкрс",
+    "type": "optional",
+    "note": "Catholic believers",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T22:00:00.000Z",
+    "end": "2021-04-05T22:00:00.000Z",
+    "name": "Католички Васкрсни понедељак",
+    "type": "optional",
+    "note": "Catholic believers",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-22 00:00:00",
+    "start": "2021-04-21T22:00:00.000Z",
+    "end": "2021-04-22T22:00:00.000Z",
+    "name": "Дан сећања на жртве холокауста",
+    "type": "observance",
+    "rule": "04-22",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-30 00:00:00",
+    "start": "2021-04-29T22:00:00.000Z",
+    "end": "2021-04-30T22:00:00.000Z",
+    "name": "Велики петак",
+    "type": "public",
+    "rule": "orthodox -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T22:00:00.000Z",
+    "end": "2021-05-01T22:00:00.000Z",
+    "name": "Празник рада",
+    "type": "public",
+    "rule": "05-01 if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-02 00:00:00",
+    "start": "2021-05-01T22:00:00.000Z",
+    "end": "2021-05-02T22:00:00.000Z",
+    "name": "Васкрс",
+    "type": "public",
+    "rule": "orthodox",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-03 00:00:00",
+    "start": "2021-05-02T22:00:00.000Z",
+    "end": "2021-05-03T22:00:00.000Z",
+    "name": "Васкрсни понедељак",
+    "type": "public",
+    "rule": "orthodox 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-03 00:00:00",
+    "start": "2021-05-02T22:00:00.000Z",
+    "end": "2021-05-03T22:00:00.000Z",
+    "name": "Празник рада",
+    "type": "public",
+    "rule": "05-02 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-09 00:00:00",
+    "start": "2021-05-08T22:00:00.000Z",
+    "end": "2021-05-09T22:00:00.000Z",
+    "name": "Дан победе",
+    "type": "observance",
+    "rule": "05-09",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-13 00:00:00 -0600",
+    "start": "2021-05-12T16:00:00.000Z",
+    "end": "2021-05-13T16:00:00.000Z",
+    "name": "Рамазански Бајрам",
+    "type": "optional",
+    "note": "Muslim believers",
+    "rule": "1 Shawwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-06-28 00:00:00",
+    "start": "2021-06-27T22:00:00.000Z",
+    "end": "2021-06-28T22:00:00.000Z",
+    "name": "Видовдан",
+    "type": "observance",
+    "rule": "julian 06-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-07-20 00:00:00 -0600",
+    "start": "2021-07-19T16:00:00.000Z",
+    "end": "2021-07-20T16:00:00.000Z",
+    "name": "Курбански Бајрам",
+    "type": "optional",
+    "note": "Muslim believers",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-09-16 00:00:00 -0600",
+    "start": "2021-09-15T16:00:00.000Z",
+    "end": "2021-09-16T16:00:00.000Z",
+    "name": "Јом Кипур",
+    "type": "optional",
+    "note": "Jewish believers",
+    "rule": "10 Tishrei",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-10-21 00:00:00",
+    "start": "2021-10-20T22:00:00.000Z",
+    "end": "2021-10-21T22:00:00.000Z",
+    "name": "Дан сећања на српске жртве у Другом светском рату",
+    "type": "observance",
+    "rule": "10-21",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-11-11 00:00:00",
+    "start": "2021-11-10T23:00:00.000Z",
+    "end": "2021-11-11T23:00:00.000Z",
+    "name": "Дан примирја",
+    "type": "public",
+    "rule": "11-11 if sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T23:00:00.000Z",
+    "end": "2021-12-25T23:00:00.000Z",
+    "name": "Католички Божић",
+    "type": "optional",
+    "note": "Catholic believers",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  }
+]

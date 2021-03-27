@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T03:00:00.000Z",
+    "end": "2022-01-02T03:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-02-26 00:00:00",
+    "start": "2022-02-26T03:00:00.000Z",
+    "end": "2022-03-02T17:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT110H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T03:00:00.000Z",
+    "end": "2022-04-16T03:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T03:00:00.000Z",
+    "end": "2022-04-18T03:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-21 00:00:00",
+    "start": "2022-04-21T03:00:00.000Z",
+    "end": "2022-04-22T03:00:00.000Z",
+    "name": "Dia de Tiradentes",
+    "type": "public",
+    "rule": "04-21",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T03:00:00.000Z",
+    "end": "2022-05-02T03:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-08T03:00:00.000Z",
+    "end": "2022-05-09T03:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-12 00:00:00",
+    "start": "2022-06-12T03:00:00.000Z",
+    "end": "2022-06-13T03:00:00.000Z",
+    "name": "Dia dos Namorados",
+    "type": "observance",
+    "rule": "06-12",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-16 00:00:00",
+    "start": "2022-06-16T03:00:00.000Z",
+    "end": "2022-06-17T03:00:00.000Z",
+    "name": "Corpo de Deus",
+    "type": "optional",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-08-14 00:00:00",
+    "start": "2022-08-14T03:00:00.000Z",
+    "end": "2022-08-15T03:00:00.000Z",
+    "name": "Dia dos Pais",
+    "type": "observance",
+    "rule": "2nd sunday in August",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-09-07 00:00:00",
+    "start": "2022-09-07T03:00:00.000Z",
+    "end": "2022-09-08T03:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "rule": "09-07",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-10-02 00:00:00",
+    "start": "2022-10-02T03:00:00.000Z",
+    "end": "2022-10-03T03:00:00.000Z",
+    "name": "Dia de Eleição",
+    "type": "public",
+    "rule": "1st sunday in October in even years",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-10-12 00:00:00",
+    "start": "2022-10-12T03:00:00.000Z",
+    "end": "2022-10-13T03:00:00.000Z",
+    "name": "Nossa Senhora Aparecida",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-10-30 00:00:00",
+    "start": "2022-10-30T03:00:00.000Z",
+    "end": "2022-10-31T03:00:00.000Z",
+    "name": "Dia de Eleição",
+    "type": "public",
+    "rule": "1st sunday before 11-01 in even years",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-11-02 00:00:00",
+    "start": "2022-11-02T03:00:00.000Z",
+    "end": "2022-11-03T03:00:00.000Z",
+    "name": "Dia de Finados",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-11-15 00:00:00",
+    "start": "2022-11-15T03:00:00.000Z",
+    "end": "2022-11-16T03:00:00.000Z",
+    "name": "Proclamação da República",
+    "type": "public",
+    "rule": "11-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-12-24 14:00:00",
+    "start": "2022-12-24T17:00:00.000Z",
+    "end": "2022-12-25T03:00:00.000Z",
+    "name": "Noite de Natal",
+    "type": "optional",
+    "rule": "12-24 14:00",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T03:00:00.000Z",
+    "end": "2022-12-26T03:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-31 14:00:00",
+    "start": "2022-12-31T17:00:00.000Z",
+    "end": "2023-01-01T03:00:00.000Z",
+    "name": "Véspera de Ano Novo",
+    "type": "optional",
+    "rule": "12-31 14:00",
+    "_weekday": "Sat"
+  }
+]

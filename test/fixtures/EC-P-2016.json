@@ -5,6 +5,7 @@
     "end": "2016-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-02-09T05:00:00.000Z",
     "name": "Carnaval",
     "type": "public",
+    "rule": "easter -48",
     "_weekday": "Mon"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-02-10T05:00:00.000Z",
     "name": "Carnaval",
     "type": "public",
+    "rule": "easter -47",
     "_weekday": "Tue"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-03-25T05:00:00.000Z",
     "name": "Jueves Santo",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-03-26T05:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-03-28T05:00:00.000Z",
     "name": "Pascua",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2016-05-02T05:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2016-05-25T05:00:00.000Z",
     "name": "Batalla del Pichincha",
     "type": "public",
+    "rule": "05-24",
     "_weekday": "Tue"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2016-07-25T05:00:00.000Z",
     "name": "El Natalicio de Simón Bolívar",
     "type": "observance",
+    "rule": "07-24",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2016-08-11T05:00:00.000Z",
     "name": "Día del Primer Grito de Independencia de Quito",
     "type": "public",
+    "rule": "08-10",
     "_weekday": "Wed"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2016-09-11T05:00:00.000Z",
     "name": "Independencia de Guayaquil",
     "type": "public",
+    "rule": "09-10",
     "_weekday": "Sat"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2016-11-01T05:00:00.000Z",
     "name": "Dia de La Bandera",
     "type": "observance",
+    "rule": "10-31",
     "_weekday": "Mon"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2016-11-03T05:00:00.000Z",
     "name": "Día de los Difuntos",
     "type": "public",
+    "rule": "11-02",
     "_weekday": "Wed"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2016-11-04T05:00:00.000Z",
     "name": "Independencia de Cuenca",
     "type": "public",
+    "rule": "11-03",
     "_weekday": "Thu"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2016-12-26T05:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2017-01-01T05:00:00.000Z",
     "name": "Fin del Año",
     "type": "observance",
+    "rule": "12-31",
     "_weekday": "Sat"
   }
 ]

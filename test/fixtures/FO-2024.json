@@ -1,0 +1,157 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T00:00:00.000Z",
+    "end": "2024-01-02T00:00:00.000Z",
+    "name": "Nýggjársdagur",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-28 00:00:00",
+    "start": "2024-03-28T00:00:00.000Z",
+    "end": "2024-03-29T00:00:00.000Z",
+    "name": "Skírhósdagur",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T00:00:00.000Z",
+    "end": "2024-03-30T00:00:00.000Z",
+    "name": "Langafríggjadagur",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T00:00:00.000Z",
+    "end": "2024-03-31T23:00:00.000Z",
+    "name": "Páskadagur",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T23:00:00.000Z",
+    "end": "2024-04-01T23:00:00.000Z",
+    "name": "Annar páskadagur",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-24 00:00:00",
+    "start": "2024-04-23T23:00:00.000Z",
+    "end": "2024-04-24T23:00:00.000Z",
+    "name": "Flaggdagur",
+    "type": "public",
+    "rule": "04-24",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-04-26 00:00:00",
+    "start": "2024-04-25T23:00:00.000Z",
+    "end": "2024-04-26T23:00:00.000Z",
+    "name": "Dýri biðidagur",
+    "type": "public",
+    "rule": "easter 26",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-08T23:00:00.000Z",
+    "end": "2024-05-09T23:00:00.000Z",
+    "name": "Kristi Himmalsferðardagur",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-19 00:00:00",
+    "start": "2024-05-18T23:00:00.000Z",
+    "end": "2024-05-19T23:00:00.000Z",
+    "name": "Hvítusunnudagur",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-19T23:00:00.000Z",
+    "end": "2024-05-20T23:00:00.000Z",
+    "name": "Annar hvítusunnudagur",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-05 12:00:00",
+    "start": "2024-06-05T11:00:00.000Z",
+    "end": "2024-06-05T23:00:00.000Z",
+    "name": "Grundlógardagur",
+    "type": "public",
+    "rule": "06-05 12:00 if sunday then 00:00",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-07-28 00:00:00",
+    "start": "2024-07-27T23:00:00.000Z",
+    "end": "2024-07-28T23:00:00.000Z",
+    "name": "Sankt Olavsaften",
+    "type": "observance",
+    "note": "half-day holiday for some workers' unions",
+    "rule": "07-28 12:00 if sunday then 00:00",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-29 00:00:00",
+    "start": "2024-07-28T23:00:00.000Z",
+    "end": "2024-07-29T23:00:00.000Z",
+    "name": "Ólavsøka",
+    "type": "observance",
+    "note": "full holiday for most workers' unions",
+    "rule": "07-29",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-24 00:00:00",
+    "start": "2024-12-24T00:00:00.000Z",
+    "end": "2024-12-25T00:00:00.000Z",
+    "name": "Jólaaftan",
+    "type": "public",
+    "rule": "12-24",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T00:00:00.000Z",
+    "end": "2024-12-26T00:00:00.000Z",
+    "name": "Fyrsti jóladagur",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-26T00:00:00.000Z",
+    "end": "2024-12-27T00:00:00.000Z",
+    "name": "Fyrsti gerandisdagur eftir jóladag",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-12-31 12:00:00",
+    "start": "2024-12-31T12:00:00.000Z",
+    "end": "2025-01-01T00:00:00.000Z",
+    "name": "Nýggjársaftan",
+    "type": "public",
+    "rule": "12-31 12:00 if sunday then 00:00",
+    "_weekday": "Tue"
+  }
+]

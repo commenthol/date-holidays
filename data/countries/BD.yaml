@@ -1,0 +1,270 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bangladesh
+# @attrib https://en.wikipedia.org/wiki/Bengali_calendars
+holidays:
+  BD:
+    names:
+      bn: গণপ্রজাতন্ত্রী বাংলাদেশ
+      en: People's Republic of Bangladesh
+    langs:
+      - bn
+    zones:
+      - Asia/Dhaka
+    dayoff: friday
+    weekend:
+      - friday
+      - saturday
+    days:
+      bengali-revised 11-9:
+        name:
+          bn: শহীদ দিবস
+          en: Language Martyrs' Day
+      bengali-revised 12-3:
+        name:
+          bn: মুজিব জয়ন
+          en: Mujib's Birthday & Children's Day
+      bengali-revised 12-12:
+        name:
+          bn: স্বাধীনতা দিবস
+          en: Independence Day
+      bengali-revised 1-1:
+        name:
+          bn: পহেলা বৈশাখ
+          en: Bengali New Year's Day
+      bengali-revised 1-18:
+        _name: 05-01
+        name:
+          bn: মে দিবস
+          en: May Day
+      bengali-revised 4-31:
+        name:
+          bn: জাতীয় শোক দিবস
+          en: National Mourning Day
+      bengali-revised 9-2:
+        name:
+          bn: বিজয় দিবস
+          en: Victory Day
+
+      10 Muharram:
+        _name: 10 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P3D:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P3D:
+        _name: 10 Dhu al-Hijjah
+
+      05-19:
+        name:
+          bn: বুদ্ধ পূর্ণিমা
+          en: Buddha's Birthday
+        enable:
+          - '2016-05-21'
+          - '2017-05-10'
+          - '2018-04-29'
+          - '2019-05-19'
+          - '2020-05-07'
+        disable:
+          - '2016-05-19'
+          - '2017-05-19'
+          - '2018-05-19'
+          - '2019-05-19'
+          - '2020-05-19'
+      08-24:
+        name:
+          bn: জন্মাষ্টমী
+          en: Krishna Janmashtami
+        enable:
+          - '2016-08-25'
+          - '2017-08-14'
+          - '2018-09-02'
+          - '2019-08-24'
+          - '2020-08-11'
+        disable:
+          - '2016-08-24'
+          - '2017-08-24'
+          - '2018-08-24'
+          - '2019-08-24'
+          - '2020-08-24'
+      10-08:
+        name:
+          bn: দুর্গা পূজা
+          en: Durga Puja
+        enable:
+          - '2016-10-11'
+          - '2017-09-30'
+          - '2018-10-19'
+          - '2019-10-08'
+          - '2020-10-25'
+        disable:
+          - '2016-10-08'
+          - '2017-10-08'
+          - '2018-10-08'
+          - '2019-10-08'
+          - '2020-10-08'
+
+      bengali-revised 9-11:
+        _name: 12-25
+
+      03-25:
+        name:
+          en: Genocide Remembrance Day
+        type: observance
+      11-21:
+        name:
+          en: Armed Forces Day
+        type: observance
+      12-14:
+        name:
+          en: Martyred Intellectuals Day
+        type: observance
+
+    # states:
+    #   A:
+    #     name: Barisal
+    #     regions:
+    #       '25':
+    #         name: Jhalokati
+    #       '50':
+    #         name: Pirojpur
+    #       '51':
+    #         name: Patuakhali
+    #       '02':
+    #         name: Barguna
+    #       '06':
+    #         name: Barisal Division
+    #       '07':
+    #         name: Bhola
+    #   B:
+    #     name: Chittagong Division
+    #     regions:
+    #       '10':
+    #         name: Chittagong
+    #       '11':
+    #         name: Cox’s Bazar
+    #       '16':
+    #         name: Feni
+    #       '29':
+    #         name: Khagrachari
+    #       '31':
+    #         name: Lakshmipur
+    #       '47':
+    #         name: Noakhali
+    #       '56':
+    #         name: Rangamati Hill
+    #       '01':
+    #         name: Bandarban
+    #       '04':
+    #         name: Brahmanbaria
+    #       08:
+    #         name: Comilla
+    #       09:
+    #         name: Chandpur
+    #   C:
+    #     name: Dhaka Division
+    #     regions:
+    #       '13':
+    #         name: Dhaka
+    #       '15':
+    #         name: Faridpur
+    #       '17':
+    #         name: Gopalganj
+    #       '18':
+    #         name: Gazipur
+    #       '21':
+    #         name: Jamalpur
+    #       '26':
+    #         name: Kishoreganj
+    #       '33':
+    #         name: Manikganj
+    #       '34':
+    #         name: Mymensingh
+    #       '35':
+    #         name: Munshiganj
+    #       '36':
+    #         name: Madaripur
+    #       '40':
+    #         name: Narayanganj
+    #       '41':
+    #         name: Netrokona
+    #       '42':
+    #         name: Narsingdi
+    #       '53':
+    #         name: Rajbari
+    #       '57':
+    #         name: Sherpur
+    #       '62':
+    #         name: Shariatpur
+    #       '63':
+    #         name: Tangail
+    #   D:
+    #     name: Khulna Division
+    #     regions:
+    #       '12':
+    #         name: Chuadanga
+    #       '22':
+    #         name: Jessore
+    #       '23':
+    #         name: Jhenaidah
+    #       '27':
+    #         name: Khulna
+    #       '30':
+    #         name: Kushtia
+    #       '37':
+    #         name: Magura
+    #       '39':
+    #         name: Meherpur
+    #       '43':
+    #         name: Narail
+    #       '58':
+    #         name: Satkhira
+    #       '05':
+    #         name: Bagerhat
+    #   E:
+    #     name: Rajshahi Division
+    #     regions:
+    #       '24':
+    #         name: Joypurhat
+    #       '44':
+    #         name: Natore
+    #       '45':
+    #         name: Nawabganj
+    #       '48':
+    #         name: Naogaon
+    #       '49':
+    #         name: Pabna
+    #       '54':
+    #         name: Rajshahi
+    #       '55':
+    #         name: Rangpur
+    #       '59':
+    #         name: Sirajganj
+    #       '03':
+    #         name: Bogra
+    #   F:
+    #     name: Rangpur Division
+    #     regions:
+    #       '14':
+    #         name: Dinajpur
+    #       '19':
+    #         name: Gaibandha
+    #       '28':
+    #         name: Kurigram
+    #       '32':
+    #         name: Lalmonirhat
+    #       '46':
+    #         name: Nilphamari
+    #       '52':
+    #         name: Panchagarh
+    #       '64':
+    #         name: Thakurgaon
+    #   G:
+    #     name: Sylhet Division
+    #     regions:
+    #       '20':
+    #         name: Habiganj
+    #       '38':
+    #         name: Maulvi Bazar
+    #       '60':
+    #         name: Sylhet
+    #       '61':
+    #         name: Sunamganj

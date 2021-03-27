@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T23:00:00.000Z",
+    "end": "2023-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-27 00:00:00",
+    "start": "2023-01-26T23:00:00.000Z",
+    "end": "2023-01-27T23:00:00.000Z",
+    "name": "Sainte Dévote",
+    "type": "public",
+    "rule": "01-27 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-06T22:00:00.000Z",
+    "end": "2023-04-07T22:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "observance",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-08T22:00:00.000Z",
+    "end": "2023-04-09T22:00:00.000Z",
+    "name": "Pâques",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-09T22:00:00.000Z",
+    "end": "2023-04-10T22:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T22:00:00.000Z",
+    "end": "2023-05-01T22:00:00.000Z",
+    "name": "1er mai",
+    "type": "public",
+    "rule": "05-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-17T22:00:00.000Z",
+    "end": "2023-05-18T22:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-29 00:00:00",
+    "start": "2023-05-28T22:00:00.000Z",
+    "end": "2023-05-29T22:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-06-08 00:00:00",
+    "start": "2023-06-07T22:00:00.000Z",
+    "end": "2023-06-08T22:00:00.000Z",
+    "name": "la Fête-Dieu",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-08-15 00:00:00",
+    "start": "2023-08-14T22:00:00.000Z",
+    "end": "2023-08-15T22:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "start": "2023-10-31T23:00:00.000Z",
+    "end": "2023-11-01T23:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-11-19 00:00:00",
+    "start": "2023-11-18T23:00:00.000Z",
+    "end": "2023-11-19T23:00:00.000Z",
+    "name": "La Fête du Prince",
+    "type": "public",
+    "rule": "11-19 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-11-20 00:00:00",
+    "start": "2023-11-19T23:00:00.000Z",
+    "end": "2023-11-20T23:00:00.000Z",
+    "name": "La Fête du Prince (jour substitut)",
+    "type": "public",
+    "substitute": true,
+    "rule": "11-19 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-08 00:00:00",
+    "start": "2023-12-07T23:00:00.000Z",
+    "end": "2023-12-08T23:00:00.000Z",
+    "name": "Immaculée Conception",
+    "type": "public",
+    "rule": "12-08",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T23:00:00.000Z",
+    "end": "2023-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25 and if sunday then next monday",
+    "_weekday": "Mon"
+  }
+]

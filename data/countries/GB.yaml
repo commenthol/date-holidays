@@ -29,6 +29,14 @@ holidays:
       1st monday in May:
         name:
           en: Early May bank holiday
+        disable:
+          - '2020-05-04'
+      # applies to GG, JE, IM as well
+      # @source https://www.itv.com/news/channel/2019-07-19/guernsey-will-have-a-bank-holiday-on-friday-8-may-2020/
+      # @source https://www.itv.com/news/channel/2019-06-13/extra-bank-holiday-proposed-for-ve-day-75-in-jersey/
+      '2020-05-08':
+        name:
+          en: Early May bank holiday (VE day)
       1st monday before 06-01:
         name:
           en: Spring bank holiday
@@ -425,7 +433,7 @@ holidays:
           # NMD:
           #   name: 'Newry, Mourne and Down'
       SCT:
-        name: Scottland
+        name: Scotland
         days:
           substitutes 01-01 if sunday then next monday: false
           substitutes 01-01 if saturday then next monday: false

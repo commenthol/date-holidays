@@ -5,6 +5,7 @@
     "end": "2018-01-01T11:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2018-03-30T11:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2018-04-02T11:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2018-04-25T11:00:00.000Z",
     "name": "ANZAC Day",
     "type": "public",
+    "rule": "04-25",
     "_weekday": "Wed"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2018-06-04T11:00:00.000Z",
     "name": "Emancipation Day",
     "type": "public",
+    "rule": "06-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2018-07-04T11:00:00.000Z",
     "name": "Official Birthday of His Majesty King Tupou VI",
     "type": "public",
+    "rule": "07-04",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2018-09-17T11:00:00.000Z",
     "name": "Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala",
     "type": "public",
+    "rule": "09-17 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Mon"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2018-11-05T11:00:00.000Z",
     "name": "Constitutional Day",
     "type": "public",
+    "rule": "11-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Mon"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2018-12-03T11:00:00.000Z",
     "name": "Tupou I Day",
     "type": "public",
+    "rule": "12-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2018-12-04T11:00:00.000Z",
     "name": "Tupou I Day",
     "type": "public",
+    "rule": "12-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Tue"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2018-12-25T11:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Tue"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2018-12-26T11:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Wed"
   }
 ]

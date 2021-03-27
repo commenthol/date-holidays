@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T23:00:00.000Z",
+    "end": "2022-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-02-11 00:00:00",
+    "start": "2022-02-10T23:00:00.000Z",
+    "end": "2022-02-11T23:00:00.000Z",
+    "name": "Fête de la Jeunesse",
+    "type": "public",
+    "rule": "02-11",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T23:00:00.000Z",
+    "end": "2022-04-15T23:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-05-02 00:00:00 -0600",
+    "start": "2022-05-01T17:00:00.000Z",
+    "end": "2022-05-02T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-02 00:00:00",
+    "start": "2022-05-01T23:00:00.000Z",
+    "end": "2022-05-02T23:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-20 00:00:00",
+    "start": "2022-05-19T23:00:00.000Z",
+    "end": "2022-05-20T23:00:00.000Z",
+    "name": "Fête nationale ou de l'unité",
+    "type": "public",
+    "rule": "05-20",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-25T23:00:00.000Z",
+    "end": "2022-05-26T23:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-07-09 00:00:00 -0600",
+    "start": "2022-07-08T17:00:00.000Z",
+    "end": "2022-07-09T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-08-15 00:00:00",
+    "start": "2022-08-14T23:00:00.000Z",
+    "end": "2022-08-15T23:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T23:00:00.000Z",
+    "end": "2022-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]

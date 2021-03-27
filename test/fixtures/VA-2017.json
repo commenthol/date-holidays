@@ -5,6 +5,7 @@
     "end": "2017-01-01T23:00:00.000Z",
     "name": "Maria Santissima Madre di Dio",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Sun"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2017-01-06T23:00:00.000Z",
     "name": "Epifania del Signore",
     "type": "public",
+    "rule": "01-06",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2017-02-11T23:00:00.000Z",
     "name": "Anniversario della istituzione dello Stato della Città del Vaticano",
     "type": "public",
+    "rule": "02-11",
     "_weekday": "Sat"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2017-03-13T23:00:00.000Z",
     "name": "Anniversario dell'Elezione del Santo Padre",
     "type": "public",
+    "rule": "03-13",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2017-03-19T23:00:00.000Z",
     "name": "San Giuseppe",
     "type": "public",
+    "rule": "03-19",
     "_weekday": "Sun"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2017-04-17T22:00:00.000Z",
     "name": "Lunedì dell’Angelo",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "name": "San Giorgio - Onomastico del Santo Padre",
     "type": "public",
     "note": "Name day of Pope Francis (Jorge Mario Bergoglio)",
+    "rule": "04-23",
     "_weekday": "Sun"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2017-05-01T22:00:00.000Z",
     "name": "San Giuseppe lavoratore",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2017-06-29T22:00:00.000Z",
     "name": "Santi Pietro e Paolo",
     "type": "public",
+    "rule": "06-29",
     "_weekday": "Thu"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2017-08-15T22:00:00.000Z",
     "name": "Assunzione di Maria in Cielo",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Tue"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2017-09-08T22:00:00.000Z",
     "name": "Festa della natività della madonna",
     "type": "public",
+    "rule": "09-08",
     "_weekday": "Fri"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2017-11-01T23:00:00.000Z",
     "name": "Ognissanti",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Wed"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2017-12-08T23:00:00.000Z",
     "name": "Immacolata Concezione",
     "type": "public",
+    "rule": "12-08",
     "_weekday": "Fri"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2017-12-25T23:00:00.000Z",
     "name": "Natale",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Mon"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2017-12-26T23:00:00.000Z",
     "name": "Santo Stefano",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Tue"
   }
 ]

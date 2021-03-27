@@ -16,14 +16,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2018-02-12 00:00:00",
-    "start": "2018-02-11T13:00:00.000Z",
-    "end": "2018-02-12T13:00:00.000Z",
-    "name": "Royal Hobart Regatta",
-    "type": "public",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2018-03-12 00:00:00",
     "start": "2018-03-11T13:00:00.000Z",
     "end": "2018-03-12T13:00:00.000Z",
@@ -38,22 +30,6 @@
     "name": "Good Friday",
     "type": "public",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2018-03-31 00:00:00",
-    "start": "2018-03-30T13:00:00.000Z",
-    "end": "2018-03-31T13:00:00.000Z",
-    "name": "Easter Saturday",
-    "type": "observance",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2018-04-01 00:00:00",
-    "start": "2018-03-31T13:00:00.000Z",
-    "end": "2018-04-01T14:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "observance",
-    "_weekday": "Sun"
   },
   {
     "date": "2018-04-02 00:00:00",
@@ -76,7 +52,7 @@
     "date": "2018-04-25 00:00:00",
     "start": "2018-04-24T14:00:00.000Z",
     "end": "2018-04-25T14:00:00.000Z",
-    "name": "ANZAC Day",
+    "name": "Anzac Day",
     "type": "public",
     "_weekday": "Wed"
   },
@@ -86,14 +62,6 @@
     "end": "2018-06-11T14:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2018-12-24 00:00:00",
-    "start": "2018-12-23T13:00:00.000Z",
-    "end": "2018-12-24T13:00:00.000Z",
-    "name": "Christmas Eve",
-    "type": "observance",
     "_weekday": "Mon"
   },
   {
@@ -111,13 +79,5 @@
     "name": "Boxing Day",
     "type": "public",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2018-12-31 00:00:00",
-    "start": "2018-12-30T13:00:00.000Z",
-    "end": "2018-12-31T13:00:00.000Z",
-    "name": "New Year's Eve",
-    "type": "observance",
-    "_weekday": "Mon"
   }
 ]

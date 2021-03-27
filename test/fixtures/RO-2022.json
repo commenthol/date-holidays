@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T22:00:00.000Z",
+    "end": "2022-01-01T22:00:00.000Z",
+    "name": "Anul nou",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-24 00:00:00",
+    "start": "2022-01-23T22:00:00.000Z",
+    "end": "2022-01-24T22:00:00.000Z",
+    "name": "Ziua Unirii",
+    "type": "public",
+    "rule": "01-24",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-08 00:00:00",
+    "start": "2022-03-07T22:00:00.000Z",
+    "end": "2022-03-08T22:00:00.000Z",
+    "name": "Ziua Mamei",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-04-22 00:00:00",
+    "start": "2022-04-21T21:00:00.000Z",
+    "end": "2022-04-22T21:00:00.000Z",
+    "name": "Vinerea Mare",
+    "type": "public",
+    "rule": "orthodox -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-24 00:00:00",
+    "start": "2022-04-23T21:00:00.000Z",
+    "end": "2022-04-24T21:00:00.000Z",
+    "name": "Paștele",
+    "type": "public",
+    "rule": "orthodox",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-25 00:00:00",
+    "start": "2022-04-24T21:00:00.000Z",
+    "end": "2022-04-25T21:00:00.000Z",
+    "name": "Două zi de Pasti",
+    "type": "public",
+    "rule": "orthodox 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T21:00:00.000Z",
+    "end": "2022-05-01T21:00:00.000Z",
+    "name": "Ziua Mamei",
+    "type": "observance",
+    "rule": "1st sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T21:00:00.000Z",
+    "end": "2022-05-01T21:00:00.000Z",
+    "name": "Ziua muncii",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-01 00:00:00",
+    "start": "2022-05-31T21:00:00.000Z",
+    "end": "2022-06-01T21:00:00.000Z",
+    "name": "Ziua Copilului",
+    "type": "public",
+    "rule": "06-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-06-02 00:00:00",
+    "start": "2022-06-01T21:00:00.000Z",
+    "end": "2022-06-02T21:00:00.000Z",
+    "name": "Ziua Eroilor",
+    "type": "observance",
+    "rule": "orthodox 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-12 00:00:00",
+    "start": "2022-06-11T21:00:00.000Z",
+    "end": "2022-06-12T21:00:00.000Z",
+    "name": "Rusaliile",
+    "type": "public",
+    "rule": "orthodox 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-13 00:00:00",
+    "start": "2022-06-12T21:00:00.000Z",
+    "end": "2022-06-13T21:00:00.000Z",
+    "name": "Două zi de Rusalii",
+    "type": "public",
+    "rule": "orthodox 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-26 00:00:00",
+    "start": "2022-06-25T21:00:00.000Z",
+    "end": "2022-06-26T21:00:00.000Z",
+    "name": "Ziua drapelului national",
+    "type": "observance",
+    "rule": "06-26",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-07-29 00:00:00",
+    "start": "2022-07-28T21:00:00.000Z",
+    "end": "2022-07-29T21:00:00.000Z",
+    "name": "Ziua Imnului național",
+    "type": "observance",
+    "rule": "07-29",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-08-15 00:00:00",
+    "start": "2022-08-14T21:00:00.000Z",
+    "end": "2022-08-15T21:00:00.000Z",
+    "name": "Adormirea Maicii Domnului",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-30 00:00:00",
+    "start": "2022-11-29T22:00:00.000Z",
+    "end": "2022-11-30T22:00:00.000Z",
+    "name": "Sfântul Andrei",
+    "type": "public",
+    "rule": "11-30",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-12-01 00:00:00",
+    "start": "2022-11-30T22:00:00.000Z",
+    "end": "2022-12-01T22:00:00.000Z",
+    "name": "Ziua națională, Ziua Marii Uniri",
+    "type": "public",
+    "rule": "12-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-08 00:00:00",
+    "start": "2022-12-07T22:00:00.000Z",
+    "end": "2022-12-08T22:00:00.000Z",
+    "name": "Ziua Constituției",
+    "type": "observance",
+    "rule": "12-08",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T22:00:00.000Z",
+    "end": "2022-12-25T22:00:00.000Z",
+    "name": "Crăciunul",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T22:00:00.000Z",
+    "end": "2022-12-26T22:00:00.000Z",
+    "name": "Două zi de Crăciun",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Mon"
+  }
+]

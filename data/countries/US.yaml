@@ -52,6 +52,9 @@ holidays:
       02-14:
         _name: 02-14
         type: observance
+      easter:
+        _name: easter
+        type: observance
       04-15 if friday then next monday if saturday,sunday then next tuesday:
         name:
           en: Tax Day
@@ -146,18 +149,19 @@ holidays:
           monday before April:
             name:
               en: Seward's Day
+          # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
+          # @source http://time.com/4070797/alaska-indigenous-peoples-day/
+          # @source https://www.alaskapublic.org/2017/06/28/governor-walker-signs-law-recognizing-indigenous-peoples-day-in-alaska/
           2nd monday in October:
             name:
               en: Columbus Day
             active:
-              - to: '2015-01-01'
-          # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
-          # @source http://time.com/4070797/alaska-indigenous-peoples-day/
+              - to: '2017-01-01'
           '2nd monday in October #1':
             name:
-              en: Indigenous Peoples Day
+              en: Indigenous Peoples' Day
             active:
-              - from: '2015-01-01'
+              - from: '2017-01-01'
           10-18:
             name:
               en: Alaska Day
@@ -281,15 +285,48 @@ holidays:
             name:
               en: Day After Thanksgiving
       GA:
+        # Regarding changes from Confederate to more neutral holidays, see:
+        # @source https://www.ajc.com/blog/politics/why-monday-longer-confederate-memorial-day-georgia/55scplUOZWOIbAzmMKZnXM/
+        # @source https://www.cnn.com/2015/08/09/us/georgia-confederate-memorial-holiday-feat/index.html
+        #
+        # Every Year, Georgia's coverner proclaims the dates of the next year's holidays.
+        # 2016 was when Robert E. Lee's birthday and Confederate Memorial Day
+        # both became just "State Holiday". Every year since 2012 excluding 2014:
+        # @source https://dbhdd.georgia.gov/documents/state-holidays-2012
+        # @source https://ga.gsu.edu/2013/06/11/state-holidays/
+        # @source http://team.georgia.gov/wp-content/uploads/2014/08/2015-GA-State-Holidays.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2011/06/2016-State-Holidays.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2016/08/2017-State-Holidays.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2017/07/2018-State-Holidays-memo-07.12.17.pdf
+        # @source http://team.georgia.gov/wp-content/uploads/2018/10/2019-State-Holidays-Memo-07.18.18.pdf
         name: Georgia
         days:
+          # Washington's Birthday is celebrated near Christmas in Georgia.
           3rd monday in February: false
-          01-19:
-            name:
-              en: Robert E. Lee's Birthday
-          monday before 05-01:
+          'monday before 05-01 #1':
             name:
               en: Confederate Memorial Day
+            active:
+              - to: '2016-01-01'
+          'monday before 05-01 #2':
+            name:
+              en: State Holiday
+            note: Known as Confederate Memorial Day prior to 2016
+            active:
+              - from: '2016-01-01'
+          'friday after 4th thursday in November #1':
+            name:
+              en: Robert E. Lee's Birthday
+            note: General Lee was born on 1807-01-19 but this holiday was traditionally observed the day after Thanksgiving.
+            active:
+              - to: '2016-01-01'
+          'friday after 4th thursday in November #2':
+            name:
+              en: State Holiday
+            note: Known as Robert E. Lee's Birtday prior to 2016
+            active:
+              - from: '2016-01-01'
+
           12-24:
             name:
               en: Washington's Birthday
@@ -480,6 +517,17 @@ holidays:
           3rd monday in February:
             name:
               en: Washington's and Lincoln's Birthday
+          # @source https://www.aol.com/article/lifestyle/2017/10/09/here-are-some-of-the-states-and-cities-celebrating-indigenous-peoples-day-instead-of-columbus-day/23237097/
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: '2017-01-01'
+          '2nd monday in October #1':
+            name:
+              en: Indigenous Peoples’ Day
+            active:
+              - from: '2017-01-01'
       MS:
         name: Mississippi
         zones:
@@ -538,6 +586,13 @@ holidays:
             name:
               en: Presidents Day
           2nd monday in October: false
+          # @source https://www.reviewjournal.com/news/2017-legislature/nevada-may-soon-recognize-indigenous-peoples-day/
+          08-09:
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: '2017-01-01'
+            type: observance
           friday before 11-01:
             name:
               en: Nevada Day
@@ -698,6 +753,17 @@ holidays:
           3rd monday in February:
             name:
               en: Presidents' Day
+          # @source https://www.argusleader.com/story/davidmontgomery/2014/10/13/native-american-day/17194651/
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: '2015-01-01'
+          '2nd monday in October #1':
+            name:
+              en: Native American Day
+            active:
+              - from: '2015-01-01'
       TN:
         name: Tennessee
         zones:
@@ -788,6 +854,17 @@ holidays:
           3rd monday in August:
             name:
               en: Bennington Battle Day
+          # @source https://www.vpr.org/post/gov-scott-proclaim-oct-9-indigenous-peoples-day-year
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: '2017-09-01'
+          '2nd monday in October #1':
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: '2017-09-01'
       VA:
         name: Virginia
         zones:

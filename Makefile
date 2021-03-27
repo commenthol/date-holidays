@@ -11,10 +11,13 @@ data/holidays.json: data/countries/*.yaml data/names.yaml
 lib: src/*
 	npm run transpile
 
-test: v8. v10. v11.
+test: v12. v14. v15.
 
 v%:
-	n $@ && npm test
+	n $@; \
+	npm run clean:all; \
+	npm i && \
+	npm run ci
 
 dist:
 	npm run webpack
@@ -41,10 +44,9 @@ gitChanges:
 gh-pages: gitChanges
 	git checkout gh-pages
 	git merge --no-ff -X theirs master
-	cd examples/browser && npm run build && cd ../..
 	cp -r examples/browser/index* .
 	git add .
-	git commit -a -m 'build(gh-pages): update'
+	git commit -a -m 'chore(gh-pages): update'
 	git checkout master
 
 push: gitChanges

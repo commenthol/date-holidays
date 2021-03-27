@@ -2,7 +2,7 @@ holidays:
   # @source http://www.kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/PublicHolidaysActCap110.pdf
   KE:
     names:
-      en: Kenia
+      en: Kenya
     dayoff: sunday
     langs:
       - sw
@@ -55,4 +55,3 @@ holidays:
       # Diwali:
         # _name: Diwali
         # note: For all persons belonging to the Hindu faith.
-

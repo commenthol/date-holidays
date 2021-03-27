@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T06:00:00.000Z",
+    "end": "2021-01-02T06:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-08 00:00:00",
+    "start": "2021-03-08T06:00:00.000Z",
+    "end": "2021-03-09T06:00:00.000Z",
+    "name": "Baron Bliss Day",
+    "type": "public",
+    "rule": "03-09 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T06:00:00.000Z",
+    "end": "2021-04-03T06:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-03 00:00:00",
+    "start": "2021-04-03T06:00:00.000Z",
+    "end": "2021-04-04T06:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-04T06:00:00.000Z",
+    "end": "2021-04-05T06:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T06:00:00.000Z",
+    "end": "2021-04-06T06:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T06:00:00.000Z",
+    "end": "2021-05-02T06:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T06:00:00.000Z",
+    "end": "2021-05-25T06:00:00.000Z",
+    "name": "Commonwealth Day, Sovereign's Day",
+    "type": "public",
+    "rule": "05-24 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-09-10 00:00:00",
+    "start": "2021-09-10T06:00:00.000Z",
+    "end": "2021-09-11T06:00:00.000Z",
+    "name": "Saint George's Caye Day, National Day",
+    "type": "public",
+    "rule": "09-10 if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-09-21 00:00:00",
+    "start": "2021-09-21T06:00:00.000Z",
+    "end": "2021-09-22T06:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "09-21 if sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-10-11 00:00:00",
+    "start": "2021-10-11T06:00:00.000Z",
+    "end": "2021-10-12T06:00:00.000Z",
+    "name": "Day of the Americas",
+    "type": "public",
+    "rule": "10-12 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-19 00:00:00",
+    "start": "2021-11-19T06:00:00.000Z",
+    "end": "2021-11-20T06:00:00.000Z",
+    "name": "Garifuna Settlement Day",
+    "type": "public",
+    "rule": "11-19 if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T06:00:00.000Z",
+    "end": "2021-12-26T06:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T06:00:00.000Z",
+    "end": "2021-12-27T06:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T06:00:00.000Z",
+    "end": "2021-12-28T06:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Mon"
+  }
+]

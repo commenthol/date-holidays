@@ -6,6 +6,7 @@
     "name": "Dünya azərbaycanlıların həmrəyliyi günü (əvəz gün)",
     "type": "public",
     "substitute": true,
+    "rule": "12-31 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -14,6 +15,7 @@
     "end": "2018-01-01T20:00:00.000Z",
     "name": "Yeni il",
     "type": "public",
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2018-01-02T20:00:00.000Z",
     "name": "Yeni il",
     "type": "public",
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2018-01-20T20:00:00.000Z",
     "name": "Qara Yanvar",
     "type": "observance",
+    "rule": "01-20",
     "_weekday": "Sat"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2018-03-08T20:00:00.000Z",
     "name": "Qadınlar günü",
     "type": "public",
+    "rule": "03-08 and if saturday,sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2018-03-20T20:00:00.000Z",
     "name": "Novruz",
     "type": "public",
+    "rule": "03-20",
     "_weekday": "Tue"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2018-05-09T20:00:00.000Z",
     "name": "Faşizm üzərində qələbə günü",
     "type": "public",
+    "rule": "05-09 and if saturday,sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2018-05-28T20:00:00.000Z",
     "name": "Respublika günü",
     "type": "public",
+    "rule": "05-28 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2018-06-15T14:00:00.000Z",
     "name": "Ramazan Bayramı",
     "type": "public",
+    "rule": "1 Shawwal and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2018-06-15T20:00:00.000Z",
     "name": "Azərbaycan xalqının Milli Qurtuluş günü",
     "type": "public",
+    "rule": "06-15 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2018-06-16T14:00:00.000Z",
     "name": "Ramazan Bayramı",
     "type": "public",
+    "rule": "2 Shawwal and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Sat"
   },
   {
@@ -95,6 +106,7 @@
     "name": "Ramazan Bayramı (əvəz gün)",
     "type": "public",
     "substitute": true,
+    "rule": "2 Shawwal and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -103,6 +115,7 @@
     "end": "2018-06-26T20:00:00.000Z",
     "name": "Azərbaycan Respublikasının Silahlı Qüvvələri günü",
     "type": "public",
+    "rule": "06-26 and if saturday,sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2018-08-21T14:00:00.000Z",
     "name": "Qurban Bayramı",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2018-08-22T14:00:00.000Z",
     "name": "Qurban Bayramı",
     "type": "public",
+    "rule": "11 Dhu al-Hijjah and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Wed"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2018-10-18T20:00:00.000Z",
     "name": "Dövlət Müstəqilliyi günü",
     "type": "public",
+    "rule": "10-18 and if saturday,sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -135,6 +151,7 @@
     "end": "2018-11-09T20:00:00.000Z",
     "name": "Dövlət Bayrağı günü",
     "type": "public",
+    "rule": "11-09 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -143,6 +160,7 @@
     "end": "2018-11-12T20:00:00.000Z",
     "name": "Konstitusiya günü",
     "type": "public",
+    "rule": "11-12",
     "_weekday": "Mon"
   },
   {
@@ -151,6 +169,7 @@
     "end": "2018-11-17T20:00:00.000Z",
     "name": "Milli Dirçəliş günü",
     "type": "public",
+    "rule": "11-17",
     "_weekday": "Sat"
   },
   {
@@ -159,6 +178,7 @@
     "end": "2018-12-31T20:00:00.000Z",
     "name": "Dünya azərbaycanlıların həmrəyliyi günü",
     "type": "public",
+    "rule": "12-31 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   }
 ]

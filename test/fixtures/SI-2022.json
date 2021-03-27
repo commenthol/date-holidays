@@ -1,0 +1,236 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T23:00:00.000Z",
+    "end": "2022-01-01T23:00:00.000Z",
+    "name": "novo leto",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-02 00:00:00",
+    "start": "2022-01-01T23:00:00.000Z",
+    "end": "2022-01-02T23:00:00.000Z",
+    "name": "novo leto",
+    "type": "public",
+    "rule": "01-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-02-08 00:00:00",
+    "start": "2022-02-07T23:00:00.000Z",
+    "end": "2022-02-08T23:00:00.000Z",
+    "name": "Prešernov dan",
+    "type": "public",
+    "rule": "02-08",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-02-27 00:00:00",
+    "start": "2022-02-26T23:00:00.000Z",
+    "end": "2022-02-27T23:00:00.000Z",
+    "name": "pust",
+    "type": "observance",
+    "rule": "easter -49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-03-08 00:00:00",
+    "start": "2022-03-07T23:00:00.000Z",
+    "end": "2022-03-08T23:00:00.000Z",
+    "name": "Mednarodni dan žena",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-16T22:00:00.000Z",
+    "end": "2022-04-17T22:00:00.000Z",
+    "name": "velika noč",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T22:00:00.000Z",
+    "end": "2022-04-18T22:00:00.000Z",
+    "name": "Velikonočni ponedeljek",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-23 00:00:00",
+    "start": "2022-04-22T22:00:00.000Z",
+    "end": "2022-04-23T22:00:00.000Z",
+    "name": "jurjevanje",
+    "type": "observance",
+    "rule": "04-23",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-27 00:00:00",
+    "start": "2022-04-26T22:00:00.000Z",
+    "end": "2022-04-27T22:00:00.000Z",
+    "name": "dan upora proti okupatorju",
+    "type": "public",
+    "rule": "04-27",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T22:00:00.000Z",
+    "end": "2022-05-01T22:00:00.000Z",
+    "name": "praznik dela",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00",
+    "start": "2022-05-01T22:00:00.000Z",
+    "end": "2022-05-02T22:00:00.000Z",
+    "name": "praznik dela",
+    "type": "public",
+    "rule": "05-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-04T22:00:00.000Z",
+    "end": "2022-06-05T22:00:00.000Z",
+    "name": "binkošti",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-08 00:00:00",
+    "start": "2022-06-07T22:00:00.000Z",
+    "end": "2022-06-08T22:00:00.000Z",
+    "name": "dan Primoža Trubarja",
+    "type": "public",
+    "rule": "06-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-06-25 00:00:00",
+    "start": "2022-06-24T22:00:00.000Z",
+    "end": "2022-06-25T22:00:00.000Z",
+    "name": "dan državnosti",
+    "type": "public",
+    "rule": "06-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-07-22 00:00:00",
+    "start": "2022-07-21T22:00:00.000Z",
+    "end": "2022-07-22T22:00:00.000Z",
+    "name": "dan vstaje",
+    "type": "observance",
+    "rule": "07-22",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-08-15 00:00:00",
+    "start": "2022-08-14T22:00:00.000Z",
+    "end": "2022-08-15T22:00:00.000Z",
+    "name": "Marijino vnebovzetje",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-08-17 00:00:00",
+    "start": "2022-08-16T22:00:00.000Z",
+    "end": "2022-08-17T22:00:00.000Z",
+    "name": "združitev prekmurskih Slovencev z matičnim narodom",
+    "type": "observance",
+    "rule": "08-17",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-09-15 00:00:00",
+    "start": "2022-09-14T22:00:00.000Z",
+    "end": "2022-09-15T22:00:00.000Z",
+    "name": "vrnitev Primorske k matični domovini",
+    "type": "observance",
+    "rule": "09-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-10-25 00:00:00",
+    "start": "2022-10-24T22:00:00.000Z",
+    "end": "2022-10-25T22:00:00.000Z",
+    "name": "dan suverenosti",
+    "type": "observance",
+    "rule": "10-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-10-31 00:00:00",
+    "start": "2022-10-30T23:00:00.000Z",
+    "end": "2022-10-31T23:00:00.000Z",
+    "name": "dan reformacije",
+    "type": "public",
+    "rule": "10-31",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-01 00:00:00",
+    "start": "2022-10-31T23:00:00.000Z",
+    "end": "2022-11-01T23:00:00.000Z",
+    "name": "dan spomina na mrtve or dan mrtvih",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-11-11 00:00:00",
+    "start": "2022-11-10T23:00:00.000Z",
+    "end": "2022-11-11T23:00:00.000Z",
+    "name": "martinovanje",
+    "type": "observance",
+    "rule": "11-11",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-11-23 00:00:00",
+    "start": "2022-11-22T23:00:00.000Z",
+    "end": "2022-11-23T23:00:00.000Z",
+    "name": "dan Rudolfa Maistra",
+    "type": "observance",
+    "rule": "11-23",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-12-06 00:00:00",
+    "start": "2022-12-05T23:00:00.000Z",
+    "end": "2022-12-06T23:00:00.000Z",
+    "name": "miklavž",
+    "type": "observance",
+    "rule": "12-06",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T23:00:00.000Z",
+    "end": "2022-12-25T23:00:00.000Z",
+    "name": "božič",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T23:00:00.000Z",
+    "end": "2022-12-26T23:00:00.000Z",
+    "name": "dan samostojnosti in enotnosti",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Mon"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T22:00:00.000Z",
+    "end": "2021-01-01T22:00:00.000Z",
+    "name": "Naujieji metai",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-02-16 00:00:00",
+    "start": "2021-02-15T22:00:00.000Z",
+    "end": "2021-02-16T22:00:00.000Z",
+    "name": "Lietuvos valstybės atkūrimo diena",
+    "type": "public",
+    "rule": "02-16",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-03-11 00:00:00",
+    "start": "2021-03-10T22:00:00.000Z",
+    "end": "2021-03-11T22:00:00.000Z",
+    "name": "Lietuvos nepriklausomybės atkūrimo diena",
+    "type": "public",
+    "rule": "03-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T21:00:00.000Z",
+    "end": "2021-04-04T21:00:00.000Z",
+    "name": "Velykos",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T21:00:00.000Z",
+    "end": "2021-05-01T21:00:00.000Z",
+    "name": "Tarptautinė darbo diena",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-02 00:00:00",
+    "start": "2021-05-01T21:00:00.000Z",
+    "end": "2021-05-02T21:00:00.000Z",
+    "name": "Motinos diena",
+    "type": "observance",
+    "rule": "1st sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-06-06 00:00:00",
+    "start": "2021-06-05T21:00:00.000Z",
+    "end": "2021-06-06T21:00:00.000Z",
+    "name": "Tėvo diena",
+    "type": "observance",
+    "rule": "1st sunday in June",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-06-24 00:00:00",
+    "start": "2021-06-23T21:00:00.000Z",
+    "end": "2021-06-24T21:00:00.000Z",
+    "name": "Joninės, Rasos",
+    "type": "public",
+    "rule": "06-24",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-06 00:00:00",
+    "start": "2021-07-05T21:00:00.000Z",
+    "end": "2021-07-06T21:00:00.000Z",
+    "name": "Valstybės diena",
+    "type": "public",
+    "rule": "07-06",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-14T21:00:00.000Z",
+    "end": "2021-08-15T21:00:00.000Z",
+    "name": "Žolinė",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-10-31T22:00:00.000Z",
+    "end": "2021-11-01T22:00:00.000Z",
+    "name": "Visų šventųjų diena",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-02 00:00:00",
+    "start": "2021-11-01T22:00:00.000Z",
+    "end": "2021-11-02T22:00:00.000Z",
+    "name": "Vėlinės",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-12-24 00:00:00",
+    "start": "2021-12-23T22:00:00.000Z",
+    "end": "2021-12-24T22:00:00.000Z",
+    "name": "Šv. Kūčios",
+    "type": "public",
+    "rule": "12-24",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T22:00:00.000Z",
+    "end": "2021-12-25T22:00:00.000Z",
+    "name": "Šv. Kalėdos",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T22:00:00.000Z",
+    "end": "2021-12-26T22:00:00.000Z",
+    "name": "2. Kalėdų diena",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  }
+]

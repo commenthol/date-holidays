@@ -1,7 +1,7 @@
 {
-    "extends": "dtslint/dtslint.json",
-    "rules": {
-      "no-single-declare-module": false,
-      "strict-export-declare-modifiers": false
-    }
+  "extends": "dtslint/dtslint.json",
+  "rules": {
+    "no-single-declare-module": false,
+    "strict-export-declare-modifiers": false
+  }
 }

@@ -1,0 +1,68 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Georgia_(country)
+  GE:
+    names:
+      ge: საქართველო
+      en: Georgia
+    langs:
+      - ge
+    zones:
+      - Asia/Tbilisi
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      01-02:
+        name:
+          ge: ბედობა
+          en: Bedoba
+      01-07:
+        name:
+          ge: შობა
+          en: Orthodox Christmas
+      01-19:
+        name:
+          ge: ნათლისღება
+          en: Orthodox Epiphany
+      03-03:
+        name:
+          ge: დედის დღე
+          en: Mother's Day
+      03-08:
+        _name: 03-08
+      04-09:
+        name:
+          ge: ეროვნული ერთიანობის დღე
+          en: National Unity Day
+      orthodox -2:
+        _name: easter -2
+      orthodox -1:
+        _name: easter -1
+      orthodox:
+        _name: easter
+      orthodox 1:
+        _name: easter 1
+      05-09:
+        name:
+          ge: ფაშიზმზე გამარჯვების დღე
+          en: Victory Day
+      05-12:
+        name:
+          ge: წმინდა ანდრია პირველწოდებულის ხსენების დღე
+          en: Saint Andrew the First-Called Day
+      05-26:
+        name:
+          ge: დამოუკიდებლობის დღე
+          en: Independence Day
+      08-28:
+        name:
+          ge: მარიამობა
+          en: Saint Mary's Day
+      10-14:
+        name:
+          ge: სვეტიცხოვლობა
+          en: Svetitskhovloba
+      11-23:
+        name:
+          ge: გიორგობა
+          en: Saint George's Day

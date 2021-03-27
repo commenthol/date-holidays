@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T21:00:00.000Z",
+    "end": "2025-01-01T21:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-26 00:00:00",
+    "start": "2025-01-25T21:00:00.000Z",
+    "end": "2025-01-26T21:00:00.000Z",
+    "name": "Liberation Day",
+    "type": "public",
+    "rule": "01-26",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-02-16 00:00:00",
+    "start": "2025-02-15T21:00:00.000Z",
+    "end": "2025-02-16T21:00:00.000Z",
+    "name": "Archbishop Janan Luwum Day",
+    "type": "public",
+    "rule": "02-16",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-03-05 00:00:00",
+    "start": "2025-03-04T21:00:00.000Z",
+    "end": "2025-03-05T21:00:00.000Z",
+    "name": "Ash Wednesday",
+    "type": "observance",
+    "rule": "easter -46",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-03-08 00:00:00",
+    "start": "2025-03-07T21:00:00.000Z",
+    "end": "2025-03-08T21:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "public",
+    "rule": "03-08",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-03-30 00:00:00 -0600",
+    "start": "2025-03-29T15:00:00.000Z",
+    "end": "2025-03-30T15:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T21:00:00.000Z",
+    "end": "2025-04-18T21:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-19T21:00:00.000Z",
+    "end": "2025-04-20T21:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T21:00:00.000Z",
+    "end": "2025-04-21T21:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T21:00:00.000Z",
+    "end": "2025-05-01T21:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-03 00:00:00",
+    "start": "2025-06-02T21:00:00.000Z",
+    "end": "2025-06-03T21:00:00.000Z",
+    "name": "Martyr's Day",
+    "type": "public",
+    "rule": "06-03",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-06-06 00:00:00 -0600",
+    "start": "2025-06-05T15:00:00.000Z",
+    "end": "2025-06-06T15:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-09 00:00:00",
+    "start": "2025-06-08T21:00:00.000Z",
+    "end": "2025-06-09T21:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public",
+    "rule": "06-09",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-10-09 00:00:00",
+    "start": "2025-10-08T21:00:00.000Z",
+    "end": "2025-10-09T21:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "10-09",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T21:00:00.000Z",
+    "end": "2025-12-25T21:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-25T21:00:00.000Z",
+    "end": "2025-12-26T21:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Fri"
+  }
+]

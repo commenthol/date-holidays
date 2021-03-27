@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T23:00:00.000Z",
+    "end": "2023-01-01T23:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-02-04 00:00:00",
+    "start": "2023-02-03T23:00:00.000Z",
+    "end": "2023-02-04T23:00:00.000Z",
+    "name": "Dia do Início da Luta Armada de Libertação Nacional",
+    "type": "public",
+    "rule": "02-04",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-02-21 00:00:00",
+    "start": "2023-02-20T23:00:00.000Z",
+    "end": "2023-02-21T23:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-03-08 00:00:00",
+    "start": "2023-03-07T23:00:00.000Z",
+    "end": "2023-03-08T23:00:00.000Z",
+    "name": "Dia Internacional da Mulher",
+    "type": "public",
+    "rule": "03-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-04-04 00:00:00",
+    "start": "2023-04-03T23:00:00.000Z",
+    "end": "2023-04-04T23:00:00.000Z",
+    "name": "Dia da Paz",
+    "type": "public",
+    "rule": "04-04",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-06T23:00:00.000Z",
+    "end": "2023-04-07T23:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-08T23:00:00.000Z",
+    "end": "2023-04-09T23:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T23:00:00.000Z",
+    "end": "2023-05-01T23:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-07 00:00:00",
+    "start": "2023-05-06T23:00:00.000Z",
+    "end": "2023-05-07T23:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance",
+    "rule": "1st sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-09-17 00:00:00",
+    "start": "2023-09-16T23:00:00.000Z",
+    "end": "2023-09-17T23:00:00.000Z",
+    "name": "Fundador da Nação e Dia dos Heróis Nacionais",
+    "type": "public",
+    "rule": "09-17",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-11-02 00:00:00",
+    "start": "2023-11-01T23:00:00.000Z",
+    "end": "2023-11-02T23:00:00.000Z",
+    "name": "Dia de Finados",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-11-11 00:00:00",
+    "start": "2023-11-10T23:00:00.000Z",
+    "end": "2023-11-11T23:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T23:00:00.000Z",
+    "end": "2023-12-25T23:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

@@ -5,6 +5,7 @@
     "end": "2019-01-01T23:00:00.000Z",
     "name": "Nouvel An",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Tue"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2019-01-02T23:00:00.000Z",
     "name": "Saint-Berthold",
     "type": "optional",
+    "rule": "01-02",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2019-04-19T22:00:00.000Z",
     "name": "Vendredi saint",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2019-04-21T22:00:00.000Z",
     "name": "Pâques",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2019-04-22T22:00:00.000Z",
     "name": "Lundi de Pâques",
     "type": "optional",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2019-05-12T22:00:00.000Z",
     "name": "Fête des Mères",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2019-05-30T22:00:00.000Z",
     "name": "Ascension",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2019-06-02T22:00:00.000Z",
     "name": "Fête des pères",
     "type": "observance",
+    "rule": "1st sunday in June",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2019-06-09T22:00:00.000Z",
     "name": "Pentecôte",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2019-06-10T22:00:00.000Z",
     "name": "Lundi de Pentecôte",
     "type": "optional",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -86,6 +96,7 @@
     "name": "la Fête-Dieu",
     "type": "public",
     "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2019-08-01T22:00:00.000Z",
     "name": "Fête nationnale",
     "type": "public",
+    "rule": "08-01",
     "_weekday": "Thu"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Assomption",
     "type": "public",
     "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
+    "rule": "08-15",
     "_weekday": "Thu"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2019-09-15T22:00:00.000Z",
     "name": "Jeûne fédéral",
     "type": "public",
+    "rule": "3 sunday after 09-01",
     "_weekday": "Sun"
   },
   {
@@ -120,6 +134,7 @@
     "name": "Toussaint",
     "type": "public",
     "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
+    "rule": "11-01",
     "_weekday": "Fri"
   },
   {
@@ -129,6 +144,7 @@
     "name": "Immaculée Conception",
     "type": "public",
     "note": "excluding communities: Agriswil, Altavilla, Büchslen, Cordast, Courgevaux, Courlevon, Fräschels, Galmiz, Gempenach, Greng, Jeuss, Kerzers, Lurtigen, Meyriez, Muntelier, Murten, Ried bei Kerzers (halb), Salvenach, Ulmiz, Bas-Vully, Haut-Vully\n",
+    "rule": "12-08",
     "_weekday": "Sun"
   },
   {
@@ -137,6 +153,7 @@
     "end": "2019-12-25T23:00:00.000Z",
     "name": "Noël",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -145,6 +162,7 @@
     "end": "2019-12-26T23:00:00.000Z",
     "name": "Saint-Etienne",
     "type": "optional",
+    "rule": "12-26",
     "_weekday": "Thu"
   }
 ]

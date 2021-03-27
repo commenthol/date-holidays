@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T23:00:00.000Z",
+    "end": "2021-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T22:00:00.000Z",
+    "end": "2021-04-02T22:00:00.000Z",
+    "name": "Vendredi saint",
+    "type": "observance",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T22:00:00.000Z",
+    "end": "2021-04-04T22:00:00.000Z",
+    "name": "Pâques",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T22:00:00.000Z",
+    "end": "2021-04-05T22:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T22:00:00.000Z",
+    "end": "2021-05-01T22:00:00.000Z",
+    "name": "1er mai",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-09 00:00:00",
+    "start": "2021-05-08T22:00:00.000Z",
+    "end": "2021-05-09T22:00:00.000Z",
+    "name": "Journée de l'Europe",
+    "type": "public",
+    "rule": "05-09",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-13 00:00:00",
+    "start": "2021-05-12T22:00:00.000Z",
+    "end": "2021-05-13T22:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-23T22:00:00.000Z",
+    "end": "2021-05-24T22:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-23 00:00:00",
+    "start": "2021-06-22T22:00:00.000Z",
+    "end": "2021-06-23T22:00:00.000Z",
+    "name": "L’anniversaire du Grand-Duc",
+    "type": "public",
+    "rule": "06-23",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-14T22:00:00.000Z",
+    "end": "2021-08-15T22:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-10-31T23:00:00.000Z",
+    "end": "2021-11-01T23:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-11 00:00:00",
+    "start": "2021-11-10T23:00:00.000Z",
+    "end": "2021-11-11T23:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T23:00:00.000Z",
+    "end": "2021-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T23:00:00.000Z",
+    "end": "2021-12-26T23:00:00.000Z",
+    "name": "Lendemain de Noël",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  }
+]

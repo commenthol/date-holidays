@@ -1,0 +1,103 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T16:00:00.000Z",
+    "end": "2023-01-01T16:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-02 00:00:00",
+    "start": "2023-01-01T16:00:00.000Z",
+    "end": "2023-01-02T16:00:00.000Z",
+    "name": "New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 01-01 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-01-22 00:00:00",
+    "start": "2023-01-21T16:00:00.000Z",
+    "end": "2023-01-22T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-23 00:00:00",
+    "start": "2023-01-22T16:00:00.000Z",
+    "end": "2023-01-23T16:00:00.000Z",
+    "name": "Chinese New Year",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-01-24 00:00:00",
+    "start": "2023-01-23T16:00:00.000Z",
+    "end": "2023-01-24T16:00:00.000Z",
+    "name": "Chinese New Year (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-01 if sunday then next tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-06T16:00:00.000Z",
+    "end": "2023-04-07T16:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-21 00:00:00 -0600",
+    "start": "2023-04-20T10:00:00.000Z",
+    "end": "2023-04-21T10:00:00.000Z",
+    "name": "Hari Raya Puasa",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T16:00:00.000Z",
+    "end": "2023-05-01T16:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-06-28 00:00:00 -0600",
+    "start": "2023-06-27T10:00:00.000Z",
+    "end": "2023-06-28T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-08-09 00:00:00",
+    "start": "2023-08-08T16:00:00.000Z",
+    "end": "2023-08-09T16:00:00.000Z",
+    "name": "National Day",
+    "type": "public",
+    "rule": "08-09",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T16:00:00.000Z",
+    "end": "2023-12-25T16:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

@@ -5,6 +5,7 @@
     "end": "2018-01-02T00:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Mon"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2018-03-12T00:00:00.000Z",
     "name": "Mother's Day",
     "type": "observance",
+    "rule": "easter -21",
     "_weekday": "Sun"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2018-03-18T00:00:00.000Z",
     "name": "St Patrick's Day",
     "type": "public",
+    "rule": "03-17",
     "_weekday": "Sat"
   },
   {
@@ -30,6 +33,7 @@
     "name": "St Patrick's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "substitutes 03-17 if saturday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2018-03-30T23:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2018-04-01T23:00:00.000Z",
     "name": "Easter Sunday",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2018-04-02T23:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2018-05-07T23:00:00.000Z",
     "name": "Early May bank holiday",
     "type": "public",
+    "rule": "1st monday in May",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2018-05-28T23:00:00.000Z",
     "name": "Spring bank holiday",
     "type": "public",
+    "rule": "1st monday before 06-01",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2018-07-12T23:00:00.000Z",
     "name": "Battle of the Boyne, Orangemen’s Day",
     "type": "public",
+    "rule": "07-12",
     "_weekday": "Thu"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2018-08-27T23:00:00.000Z",
     "name": "Summer bank holiday",
     "type": "public",
+    "rule": "1st monday before 09-01",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2018-12-26T00:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Tue"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2018-12-27T00:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Wed"
   }
 ]

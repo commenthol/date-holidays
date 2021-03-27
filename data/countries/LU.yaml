@@ -23,6 +23,10 @@ holidays:
         _name: 05-01
         name:
           fr: 1er mai
+      05-09:
+        _name: 05-09
+        active:
+          - from: '2019-01-01'
       easter 39:
         _name: easter 39
       easter 50:

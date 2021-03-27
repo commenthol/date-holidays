@@ -1,6 +1,8 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands
   # @attrib https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
+  # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen
+  # @source https://www.government.nl/topics/school-holidays/question-and-answer/on-which-public-holidays-are-schools-closed-in-the-netherlands
   NL:
     names:
       nl: Nederland
@@ -15,10 +17,8 @@ holidays:
         _name: 01-01
       easter -2:
         _name: easter -2
-        type: observance
       easter:
         _name: easter
-        type: observance
       easter 1:
         _name: easter 1
       04-27 if sunday then previous saturday:
@@ -27,6 +27,7 @@ holidays:
       05-04:
         name:
           nl: Nationale Dodenherdenking
+        type: observance
       05-05:
         name:
           nl: Bevrijdingsdag
@@ -40,17 +41,12 @@ holidays:
         _name: easter 39
       easter 49:
         _name: easter 49
-        type: observance
       easter 50:
         _name: easter 50
       3rd tuesday in September:
         name:
           nl: Prinsjesdag
         note: Scholen in Den Haag geven meestal 1 dag vrij
-        type: observance
-      10-04:
-        name:
-          nl: Dierendag
         type: observance
       11-11:
         _name: 11-11

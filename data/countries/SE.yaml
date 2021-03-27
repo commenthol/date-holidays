@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Schweden
+  # @attrib https://sv.wikipedia.org/wiki/Helgdagar_i_Sverige
   SE:
     names:
       sv: Sverige
@@ -14,6 +15,9 @@ holidays:
         _name: 01-01
       01-06:
         _name: 01-06
+      easter -3:
+        _name: easter -3
+        type: observance
       easter -2:
         _name: easter -2
       easter 1:
@@ -29,9 +33,17 @@ holidays:
         name:
           sv: Sveriges nationaldag
           en: National Day
+      friday after 06-19:
+        name:
+          sv: Midsommarafton
+          en: Midsummer Eve
+          fi: Juhannusaatto
+        type: bank
       saturday after 06-20:
         name:
-          sv: Midsommar
+          sv: Midsommardagen
+          en: Midsummer Day
+          fi: Juhannuspäivä
       saturday after 10-31:
         name:
           sv: Alla Helgons dag
@@ -42,7 +54,7 @@ holidays:
 
       01-13:
         name:
-          sv: Knut
+          sv: Tjugondag Knut
         type: observance
       sunday in March:
         name:
@@ -63,6 +75,9 @@ holidays:
         type: observance
       easter 49:
         _name: easter 49
+        type: public
+      easter 50:
+        _name: easter 50
         type: observance
       11-06:
         name:
@@ -82,7 +97,7 @@ holidays:
         type: observance
       12-24:
         _name: 12-24
-        type: observance
+        type: bank
       12-31:
         _name: 12-31
-        type: observance
+        type: bank

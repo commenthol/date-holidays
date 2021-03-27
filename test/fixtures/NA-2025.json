@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T22:00:00.000Z",
+    "end": "2025-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-03-21 00:00:00",
+    "start": "2025-03-20T22:00:00.000Z",
+    "end": "2025-03-21T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "03-21",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T22:00:00.000Z",
+    "end": "2025-04-18T22:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-20 00:00:00",
+    "start": "2025-04-19T22:00:00.000Z",
+    "end": "2025-04-20T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T22:00:00.000Z",
+    "end": "2025-04-21T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T22:00:00.000Z",
+    "end": "2025-05-01T22:00:00.000Z",
+    "name": "Workers Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-04 00:00:00",
+    "start": "2025-05-03T22:00:00.000Z",
+    "end": "2025-05-04T22:00:00.000Z",
+    "name": "Cassinga Day",
+    "type": "public",
+    "rule": "05-04",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-05 00:00:00",
+    "start": "2025-05-04T22:00:00.000Z",
+    "end": "2025-05-05T22:00:00.000Z",
+    "name": "Public Holiday",
+    "type": "public",
+    "rule": "substitutes 05-04 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-25 00:00:00",
+    "start": "2025-05-24T22:00:00.000Z",
+    "end": "2025-05-25T22:00:00.000Z",
+    "name": "Africa Day",
+    "type": "public",
+    "rule": "05-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-26 00:00:00",
+    "start": "2025-05-25T22:00:00.000Z",
+    "end": "2025-05-26T22:00:00.000Z",
+    "name": "Public Holiday",
+    "type": "public",
+    "rule": "substitutes 05-25 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-29 00:00:00",
+    "start": "2025-05-28T22:00:00.000Z",
+    "end": "2025-05-29T22:00:00.000Z",
+    "name": "Ascension Day",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-08-26 00:00:00",
+    "start": "2025-08-25T22:00:00.000Z",
+    "end": "2025-08-26T22:00:00.000Z",
+    "name": "Heroes' Day",
+    "type": "public",
+    "rule": "08-26",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-12-10 00:00:00",
+    "start": "2025-12-09T22:00:00.000Z",
+    "end": "2025-12-10T22:00:00.000Z",
+    "name": "Human Rights Day",
+    "type": "public",
+    "rule": "12-10",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T22:00:00.000Z",
+    "end": "2025-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-26 00:00:00",
+    "start": "2025-12-25T22:00:00.000Z",
+    "end": "2025-12-26T22:00:00.000Z",
+    "name": "Day of Goodwill",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Fri"
+  }
+]

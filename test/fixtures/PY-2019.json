@@ -5,6 +5,7 @@
     "end": "2019-01-02T03:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Tue"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2019-03-02T03:00:00.000Z",
     "name": "Dia de los héroes",
     "type": "public",
+    "rule": "03-01",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2019-04-19T04:00:00.000Z",
     "name": "Jueves Santo",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2019-04-20T04:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -38,6 +42,7 @@
     "name": "Día del Maestro",
     "type": "optional",
     "note": "Affects educational institutions",
+    "rule": "04-30",
     "_weekday": "Tue"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2019-05-02T04:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Wed"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2019-05-15T04:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "05-14",
     "_weekday": "Tue"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2019-05-16T04:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "05-15",
     "_weekday": "Wed"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2019-06-18T04:00:00.000Z",
     "name": "Día de la Paz del Chaco",
     "type": "public",
+    "rule": "06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2019-08-16T04:00:00.000Z",
     "name": "Asunción",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Thu"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2019-09-30T04:00:00.000Z",
     "name": "Victoria de Boquerón",
     "type": "public",
+    "rule": "09-29",
     "_weekday": "Sun"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2019-12-09T03:00:00.000Z",
     "name": "Virgen de Caacupé",
     "type": "public",
+    "rule": "12-08",
     "_weekday": "Sun"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2019-12-26T03:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2020-01-01T03:00:00.000Z",
     "name": "Fin del Año",
     "type": "bank",
+    "rule": "12-31",
     "_weekday": "Tue"
   }
 ]

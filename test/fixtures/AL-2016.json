@@ -5,6 +5,7 @@
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Viti i Ri",
     "type": "public",
+    "rule": "01-01 and if sunday then next tuesday",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-01-02T23:00:00.000Z",
     "name": "Festa e Vitit të Ri",
     "type": "public",
+    "rule": "01-02 and if sunday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-03-02T23:00:00.000Z",
     "name": "Dita e Besëlidhjes së Lezhës",
     "type": "observance",
+    "rule": "03-02",
     "_weekday": "Wed"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2016-03-07T23:00:00.000Z",
     "name": "Dita e Mësuesit",
     "type": "observance",
+    "rule": "03-07",
     "_weekday": "Mon"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2016-03-08T23:00:00.000Z",
     "name": "Dita e Nënës",
     "type": "observance",
+    "rule": "03-08",
     "_weekday": "Tue"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-03-14T23:00:00.000Z",
     "name": "Dita e Verës",
     "type": "public",
+    "rule": "03-14 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2016-03-22T23:00:00.000Z",
     "name": "Dita e Sulltan Nevruzit",
     "type": "public",
+    "rule": "03-22 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Pashkët Katolike",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2016-03-28T22:00:00.000Z",
     "name": "Pashkët Katolike",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2016-04-01T22:00:00.000Z",
     "name": "Dita e Gënjeshtrave",
     "type": "observance",
+    "rule": "04-01",
     "_weekday": "Fri"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Dita Ndërkombëtare e Punonjësve",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Pashkët Ortodokse",
     "type": "public",
+    "rule": "orthodox",
     "_weekday": "Sun"
   },
   {
@@ -102,6 +114,7 @@
     "name": "Dita Ndërkombëtare e Punonjësve (ditë zëvendësuese)",
     "type": "public",
     "substitute": true,
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2016-05-02T22:00:00.000Z",
     "name": "Pashkët Ortodokse",
     "type": "public",
+    "rule": "orthodox 1",
     "_weekday": "Mon"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2016-06-01T22:00:00.000Z",
     "name": "Dita Ndërkombëtare e Fëmijëve",
     "type": "observance",
+    "rule": "06-01",
     "_weekday": "Wed"
   },
   {
@@ -126,6 +141,7 @@
     "end": "2016-07-06T16:00:00.000Z",
     "name": "Fitër Bajrami",
     "type": "public",
+    "rule": "1 Shawwal",
     "_weekday": "Wed"
   },
   {
@@ -134,6 +150,7 @@
     "end": "2016-09-11T16:00:00.000Z",
     "name": "Kurban Bajrami",
     "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
   },
   {
@@ -142,6 +159,7 @@
     "end": "2016-10-19T22:00:00.000Z",
     "name": "Dita e Nënë Terezës",
     "type": "public",
+    "rule": "10-19 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -150,6 +168,7 @@
     "end": "2016-11-22T23:00:00.000Z",
     "name": "Dita e Alfabetit",
     "type": "observance",
+    "rule": "11-22",
     "_weekday": "Tue"
   },
   {
@@ -158,6 +177,7 @@
     "end": "2016-11-28T23:00:00.000Z",
     "name": "Dita e Pavarësisë",
     "type": "public",
+    "rule": "11-28 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -166,6 +186,7 @@
     "end": "2016-11-29T23:00:00.000Z",
     "name": "Dita e Çlirimit",
     "type": "public",
+    "rule": "11-29 and if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -174,6 +195,7 @@
     "end": "2016-12-08T23:00:00.000Z",
     "name": "Dita Kombëtare e Rinisë",
     "type": "public",
+    "rule": "12-08 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -182,6 +204,7 @@
     "end": "2016-12-24T23:00:00.000Z",
     "name": "Nata e Krishtlindjes",
     "type": "bank",
+    "rule": "12-24",
     "_weekday": "Sat"
   },
   {
@@ -190,6 +213,7 @@
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Krishtlindja",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -199,6 +223,7 @@
     "name": "Krishtlindja (ditë zëvendësuese)",
     "type": "public",
     "substitute": true,
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

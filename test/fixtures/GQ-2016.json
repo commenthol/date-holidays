@@ -5,6 +5,7 @@
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Viernes Santo",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-05-01T23:00:00.000Z",
     "name": "Fiesta del trabajo",
     "type": "public",
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -30,6 +33,7 @@
     "name": "Fiesta del trabajo (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "05-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2016-05-26T23:00:00.000Z",
     "name": "Corpus Christi",
     "type": "public",
+    "rule": "easter 60",
     "_weekday": "Thu"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2016-06-05T23:00:00.000Z",
     "name": "Natalicio de Teodoro Obiang",
     "type": "public",
+    "rule": "06-05 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -55,6 +61,7 @@
     "name": "Natalicio de Teodoro Obiang (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "06-05 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -63,6 +70,7 @@
     "end": "2016-08-03T23:00:00.000Z",
     "name": "Día del Golpe de Libertad",
     "type": "public",
+    "rule": "08-03 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -71,6 +79,7 @@
     "end": "2016-08-15T23:00:00.000Z",
     "name": "Día de la Constitución",
     "type": "public",
+    "rule": "08-15 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -79,6 +88,7 @@
     "end": "2016-10-12T23:00:00.000Z",
     "name": "Día de la Independencia",
     "type": "public",
+    "rule": "10-12 and if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -87,6 +97,7 @@
     "end": "2016-12-08T23:00:00.000Z",
     "name": "La inmaculada concepción",
     "type": "public",
+    "rule": "12-08 and if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -95,6 +106,7 @@
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Navidad",
     "type": "public",
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -104,6 +116,7 @@
     "name": "Navidad (día sustituto)",
     "type": "public",
     "substitute": true,
+    "rule": "12-25 and if sunday then next monday",
     "_weekday": "Mon"
   }
 ]

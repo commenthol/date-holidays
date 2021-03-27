@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T04:00:00.000Z",
+    "end": "2021-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T03:00:00.000Z",
+    "end": "2021-04-03T03:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-28 00:00:00",
+    "start": "2021-05-28T03:00:00.000Z",
+    "end": "2021-05-29T03:00:00.000Z",
+    "name": "Bermuda Day",
+    "type": "public",
+    "rule": "friday before 06-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-06-21 00:00:00",
+    "start": "2021-06-21T03:00:00.000Z",
+    "end": "2021-06-22T03:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public",
+    "rule": "3nd monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-07-29 00:00:00",
+    "start": "2021-07-29T03:00:00.000Z",
+    "end": "2021-07-30T03:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "rule": "thursday before 08-04",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-30 00:00:00",
+    "start": "2021-07-30T03:00:00.000Z",
+    "end": "2021-07-31T03:00:00.000Z",
+    "name": "Somers' Day",
+    "type": "public",
+    "rule": "friday before 08-05",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-09-06 00:00:00",
+    "start": "2021-09-06T03:00:00.000Z",
+    "end": "2021-09-07T03:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "monday after 09-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-11 00:00:00",
+    "start": "2021-11-11T04:00:00.000Z",
+    "end": "2021-11-12T04:00:00.000Z",
+    "name": "Remembrance Day",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T04:00:00.000Z",
+    "end": "2021-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T04:00:00.000Z",
+    "end": "2021-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T04:00:00.000Z",
+    "end": "2021-12-28T04:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "bank",
+    "note": "Goverment offices close",
+    "substitute": true,
+    "rule": "substitutes 12-25 if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-28 00:00:00",
+    "start": "2021-12-28T04:00:00.000Z",
+    "end": "2021-12-29T04:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "bank",
+    "note": "Goverment offices close",
+    "substitute": true,
+    "rule": "substitutes 12-26 if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  }
+]

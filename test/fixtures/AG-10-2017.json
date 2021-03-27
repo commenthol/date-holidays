@@ -5,6 +5,7 @@
     "end": "2017-01-02T04:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -14,6 +15,7 @@
     "name": "New Year's Day (substitute day)",
     "type": "public",
     "substitute": true,
+    "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -22,6 +24,7 @@
     "end": "2017-04-15T04:00:00.000Z",
     "name": "Good Friday",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -30,6 +33,7 @@
     "end": "2017-04-17T04:00:00.000Z",
     "name": "Easter Sunday",
     "type": "observance",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -38,6 +42,7 @@
     "end": "2017-04-18T04:00:00.000Z",
     "name": "Easter Monday",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -46,6 +51,7 @@
     "end": "2017-05-02T04:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Mon"
   },
   {
@@ -54,6 +60,7 @@
     "end": "2017-06-06T04:00:00.000Z",
     "name": "Caribana",
     "type": "observance",
+    "rule": "easter 47 P4D",
     "_weekday": "Fri"
   },
   {
@@ -62,6 +69,7 @@
     "end": "2017-06-05T04:00:00.000Z",
     "name": "Pentecost",
     "type": "observance",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -70,6 +78,7 @@
     "end": "2017-06-06T04:00:00.000Z",
     "name": "Whit Monday",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -78,6 +87,7 @@
     "end": "2017-08-02T04:00:00.000Z",
     "name": "J'Ouvert Morning",
     "type": "public",
+    "rule": "08-01",
     "_weekday": "Tue"
   },
   {
@@ -86,6 +96,7 @@
     "end": "2017-08-03T04:00:00.000Z",
     "name": "Last Lap",
     "type": "public",
+    "rule": "08-02",
     "_weekday": "Wed"
   },
   {
@@ -94,6 +105,7 @@
     "end": "2017-11-02T04:00:00.000Z",
     "name": "Independence Day",
     "type": "public",
+    "rule": "11-01 if saturday,sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -102,6 +114,7 @@
     "end": "2017-12-10T04:00:00.000Z",
     "name": "V.C Bird Day",
     "type": "public",
+    "rule": "12-09",
     "_weekday": "Sat"
   },
   {
@@ -110,6 +123,7 @@
     "end": "2017-12-26T04:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -118,6 +132,7 @@
     "end": "2017-12-27T04:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
+    "rule": "12-26 and if sunday then next monday",
     "_weekday": "Tue"
   }
 ]

@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T23:00:00.000Z",
+    "end": "2024-01-01T23:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-10 00:00:00",
+    "start": "2024-03-09T23:00:00.000Z",
+    "end": "2024-03-10T23:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "easter -21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-03-11 00:00:00",
+    "start": "2024-03-10T23:00:00.000Z",
+    "end": "2024-03-11T23:00:00.000Z",
+    "name": "Commonwealth Day",
+    "type": "public",
+    "rule": "2nd monday in March",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-28T23:00:00.000Z",
+    "end": "2024-03-29T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-30T23:00:00.000Z",
+    "end": "2024-03-31T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T22:00:00.000Z",
+    "end": "2024-04-01T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-28 00:00:00",
+    "start": "2024-04-27T22:00:00.000Z",
+    "end": "2024-04-28T22:00:00.000Z",
+    "name": "Workers Memorial Day",
+    "type": "public",
+    "rule": "04-28",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T22:00:00.000Z",
+    "end": "2024-05-01T22:00:00.000Z",
+    "name": "May Day",
+    "type": "public",
+    "rule": "05-01 if sunday, saturday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-27 00:00:00",
+    "start": "2024-05-26T22:00:00.000Z",
+    "end": "2024-05-27T22:00:00.000Z",
+    "name": "Spring bank holiday",
+    "type": "public",
+    "rule": "1st monday before 06-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-17 00:00:00",
+    "start": "2024-06-16T22:00:00.000Z",
+    "end": "2024-06-17T22:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "rule": "monday before 06-20",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-08-26 00:00:00",
+    "start": "2024-08-25T22:00:00.000Z",
+    "end": "2024-08-26T22:00:00.000Z",
+    "name": "Late Summer Bank Holiday",
+    "type": "public",
+    "rule": "monday before September",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-09-10 00:00:00",
+    "start": "2024-09-09T22:00:00.000Z",
+    "end": "2024-09-10T22:00:00.000Z",
+    "name": "Gibraltar National Day",
+    "type": "public",
+    "rule": "09-10 and if sunday, saturday then previous monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T23:00:00.000Z",
+    "end": "2024-12-25T23:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-25T23:00:00.000Z",
+    "end": "2024-12-26T23:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Thu"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T22:00:00.000Z",
+    "end": "2022-01-01T22:00:00.000Z",
+    "name": "Uudenvuodenpäivä",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-06 00:00:00",
+    "start": "2022-01-05T22:00:00.000Z",
+    "end": "2022-01-06T22:00:00.000Z",
+    "name": "Loppiainen",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T21:00:00.000Z",
+    "end": "2022-04-15T21:00:00.000Z",
+    "name": "Pitkäperjantai",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-16T21:00:00.000Z",
+    "end": "2022-04-17T21:00:00.000Z",
+    "name": "Pääsiäispäivä",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T21:00:00.000Z",
+    "end": "2022-04-18T21:00:00.000Z",
+    "name": "2. pääsiäispäivä",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T21:00:00.000Z",
+    "end": "2022-05-01T21:00:00.000Z",
+    "name": "Vappu",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-07T21:00:00.000Z",
+    "end": "2022-05-08T21:00:00.000Z",
+    "name": "Äitien päivä",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-25T21:00:00.000Z",
+    "end": "2022-05-26T21:00:00.000Z",
+    "name": "Helatorstai",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-04T21:00:00.000Z",
+    "end": "2022-06-05T21:00:00.000Z",
+    "name": "Helluntaipäivä",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-24 00:00:00",
+    "start": "2022-06-23T21:00:00.000Z",
+    "end": "2022-06-24T21:00:00.000Z",
+    "name": "Juhannusaatto",
+    "type": "bank",
+    "rule": "friday after 06-19",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-06-25 00:00:00",
+    "start": "2022-06-24T21:00:00.000Z",
+    "end": "2022-06-25T21:00:00.000Z",
+    "name": "Juhannuspäivä",
+    "type": "public",
+    "rule": "saturday after 06-20",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-11-05 00:00:00",
+    "start": "2022-11-04T22:00:00.000Z",
+    "end": "2022-11-05T22:00:00.000Z",
+    "name": "Pyhäinpäivä",
+    "type": "public",
+    "rule": "saturday after 10-31",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-06 00:00:00",
+    "start": "2022-12-05T22:00:00.000Z",
+    "end": "2022-12-06T22:00:00.000Z",
+    "name": "Itsenäisyyspäivä",
+    "type": "public",
+    "rule": "12-06",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-12-24 00:00:00",
+    "start": "2022-12-23T22:00:00.000Z",
+    "end": "2022-12-24T22:00:00.000Z",
+    "name": "Jouluaatto",
+    "type": "bank",
+    "rule": "12-24",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T22:00:00.000Z",
+    "end": "2022-12-25T22:00:00.000Z",
+    "name": "Joulupäivä",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T22:00:00.000Z",
+    "end": "2022-12-26T22:00:00.000Z",
+    "name": "2. joulupäivä",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 14:00:00",
+    "start": "2022-12-31T12:00:00.000Z",
+    "end": "2022-12-31T22:00:00.000Z",
+    "name": "Uudenvuodenaatto",
+    "type": "bank",
+    "rule": "12-31 14:00 if sunday then 00:00",
+    "_weekday": "Sat"
+  }
+]

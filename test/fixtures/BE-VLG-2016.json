@@ -5,6 +5,7 @@
     "end": "2016-01-01T23:00:00.000Z",
     "name": "Nieuwjaar",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Fri"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2016-01-06T23:00:00.000Z",
     "name": "Driekoningen",
     "type": "observance",
+    "rule": "01-06",
     "_weekday": "Wed"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2016-02-14T23:00:00.000Z",
     "name": "Valentijnsdag",
     "type": "observance",
+    "rule": "02-14",
     "_weekday": "Sun"
   },
   {
@@ -29,14 +32,16 @@
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Pasen",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-27T22:00:00.000Z",
     "end": "2016-03-28T22:00:00.000Z",
-    "name": "Paasmaandag",
+    "name": "Tweede paasdag",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2016-05-01T22:00:00.000Z",
     "name": "Dag van de Arbeid",
     "type": "public",
+    "rule": "05-01",
     "_weekday": "Sun"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2016-05-05T22:00:00.000Z",
     "name": "O.L.H. Hemelvaart",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2016-05-08T22:00:00.000Z",
     "name": "Moederdag",
     "type": "observance",
+    "rule": "2nd sunday in May",
     "_weekday": "Sun"
   },
   {
@@ -69,14 +77,16 @@
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pinksteren",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
     "date": "2016-05-16 00:00:00",
     "start": "2016-05-15T22:00:00.000Z",
     "end": "2016-05-16T22:00:00.000Z",
-    "name": "Pinkstermaandag",
+    "name": "Tweede pinksterdag",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2016-07-11T22:00:00.000Z",
     "name": "Feestdag van de Vlaamse Gemeenschap",
     "type": "public",
+    "rule": "07-11",
     "_weekday": "Mon"
   },
   {
@@ -93,6 +104,7 @@
     "end": "2016-07-21T22:00:00.000Z",
     "name": "Nationale feestdag",
     "type": "public",
+    "rule": "07-21",
     "_weekday": "Thu"
   },
   {
@@ -101,6 +113,7 @@
     "end": "2016-08-15T22:00:00.000Z",
     "name": "O.L.V. Hemelvaart",
     "type": "public",
+    "rule": "08-15",
     "_weekday": "Mon"
   },
   {
@@ -109,6 +122,7 @@
     "end": "2016-11-01T23:00:00.000Z",
     "name": "Allerheiligen",
     "type": "public",
+    "rule": "11-01",
     "_weekday": "Tue"
   },
   {
@@ -117,6 +131,7 @@
     "end": "2016-11-02T23:00:00.000Z",
     "name": "Allerzielen",
     "type": "observance",
+    "rule": "11-02",
     "_weekday": "Wed"
   },
   {
@@ -125,6 +140,7 @@
     "end": "2016-11-11T23:00:00.000Z",
     "name": "Wapenstilstand",
     "type": "public",
+    "rule": "11-11",
     "_weekday": "Fri"
   },
   {
@@ -133,6 +149,7 @@
     "end": "2016-11-15T23:00:00.000Z",
     "name": "Koningsdag",
     "type": "observance",
+    "rule": "11-15",
     "_weekday": "Tue"
   },
   {
@@ -141,6 +158,7 @@
     "end": "2016-12-06T23:00:00.000Z",
     "name": "Sinterklaas",
     "type": "observance",
+    "rule": "12-06",
     "_weekday": "Tue"
   },
   {
@@ -149,6 +167,7 @@
     "end": "2016-12-25T23:00:00.000Z",
     "name": "Kerstmis",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Sun"
   }
 ]

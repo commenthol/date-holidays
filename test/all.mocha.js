@@ -1,17 +1,15 @@
-/* global describe, it */
+import fs from 'fs'
+import path from 'path'
+import assert from 'assert'
+import Holidays from '../src/index.js'
+import { fileURLToPath } from 'url'
 
-'use strict'
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
-const fs = require('fs')
-const path = require('path')
-const assert = require('assert')
-const Holidays = require('..')
+let writetests
+let _countries
 
-var writetests
-var _countries
-
-var years = [ 2015, 2016, 2017, 2018, 2019, 2020 ]
-var WEEKDAYS = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
+const WEEKDAYS = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 
 // regenerate tests with `mocha test/all.mocha.js --writetests`
 function options (argv) {
@@ -19,28 +17,33 @@ function options (argv) {
     return (s === a || l === a)
   }
 
-  for (var i = 0; i < argv.length; i++) {
+  for (let i = 0; i < argv.length; i++) {
     if (isOpt(argv[i], '-c', '--countries')) {
-      var c = argv[++i].toUpperCase().split(',')
+      const c = argv[++i].toUpperCase().split(',')
       _countries = {}
-      for (var j in c) {
+      for (const j in c) {
         _countries[c[j]] = c[j]
       }
     } else if (isOpt(argv[i], '-y', '--year')) {
       years = argv[++i].split(',')
     } else if (isOpt(argv[i], '-w', '--writetests')) {
+      process.env.TEST_XXL = true
       writetests = true
     }
   }
 }
 options(process.argv.splice(2))
 
+let years = process.env.TEST_XXL
+  ? [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  : [2019, 2020, 2021, 2022, 2023]
+
 function filename (name) {
-  var file = path.join(__dirname, 'fixtures', name + '.json')
+  const file = path.join(__dirname, 'fixtures', name + '.json')
   return file
 }
 
-var SORTORDER = [ 'date', 'start', 'end', 'name', 'type', 'note', 'substitute' ]
+const SORTORDER = ['date', 'start', 'end', 'name', 'type', 'note', 'substitute']
 
 const sortObj = item => {
   const o = {}
@@ -78,19 +81,19 @@ function addWeekday (arr) {
 
 function writeFile (name, obj) {
   if (writetests) {
-    var file = filename(name)
+    const file = filename(name)
     fs.writeFileSync(file, JSON.stringify(obj, null, 2), 'utf8')
   }
 }
 
 function test (year, country, state, region) {
-  var name = country + (state ? '-' + state : '') + (region ? '-' + region : '') + '-' + year
+  const name = country + (state ? '-' + state : '') + (region ? '-' + region : '') + '-' + year
 
   it(name, function (done) {
-    var hd = new Holidays(country, state, region)
-    var res = hd.getHolidays(year)
+    const hd = new Holidays(country, state, region)
+    let res = hd.getHolidays(year)
 
-    for (var i in res) {
+    for (const i in res) {
       assert.ok(typeof res[i].name === 'string', 'translation missing for rule ' + i + ': ' + JSON.stringify(res[i]))
     }
 
@@ -108,20 +111,20 @@ function test (year, country, state, region) {
 
 describe('#All Holidays', function () {
   years.forEach(function (year) {
-    var countries = _countries || Holidays().getCountries()
+    const countries = _countries || new Holidays().getCountries()
 
     Object.keys(countries).forEach(function (country) {
       describe(year + ':' + country, function () {
         test(year, country)
 
-        var states = Holidays().getStates(country)
+        const states = new Holidays().getStates(country)
 
         if (states) {
           Object.keys(states).forEach(function (state) {
             test(year, country, state)
 
             describe(state, function () {
-              var regions = Holidays().getRegions(country, state)
+              const regions = new Holidays().getRegions(country, state)
 
               if (regions) {
                 Object.keys(regions).forEach(function (region) {

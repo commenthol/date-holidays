@@ -5,6 +5,7 @@
     "end": "2019-01-02T00:00:00.000Z",
     "name": "Nýggjársdagur",
     "type": "public",
+    "rule": "01-01",
     "_weekday": "Tue"
   },
   {
@@ -13,6 +14,7 @@
     "end": "2019-04-18T23:00:00.000Z",
     "name": "Skírhósdagur",
     "type": "public",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {
@@ -21,6 +23,7 @@
     "end": "2019-04-19T23:00:00.000Z",
     "name": "Langafríggjadagur",
     "type": "public",
+    "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
@@ -29,6 +32,7 @@
     "end": "2019-04-21T23:00:00.000Z",
     "name": "Páskadagur",
     "type": "public",
+    "rule": "easter",
     "_weekday": "Sun"
   },
   {
@@ -37,6 +41,7 @@
     "end": "2019-04-22T23:00:00.000Z",
     "name": "Annar páskadagur",
     "type": "public",
+    "rule": "easter 1",
     "_weekday": "Mon"
   },
   {
@@ -45,6 +50,7 @@
     "end": "2019-04-24T23:00:00.000Z",
     "name": "Flaggdagur",
     "type": "public",
+    "rule": "04-24",
     "_weekday": "Wed"
   },
   {
@@ -53,6 +59,7 @@
     "end": "2019-05-17T23:00:00.000Z",
     "name": "Dýri biðidagur",
     "type": "public",
+    "rule": "easter 26",
     "_weekday": "Fri"
   },
   {
@@ -61,6 +68,7 @@
     "end": "2019-05-30T23:00:00.000Z",
     "name": "Kristi Himmalsferðardagur",
     "type": "public",
+    "rule": "easter 39",
     "_weekday": "Thu"
   },
   {
@@ -69,6 +77,7 @@
     "end": "2019-06-05T23:00:00.000Z",
     "name": "Grundlógardagur",
     "type": "public",
+    "rule": "06-05 12:00 if sunday then 00:00",
     "_weekday": "Wed"
   },
   {
@@ -77,6 +86,7 @@
     "end": "2019-06-09T23:00:00.000Z",
     "name": "Hvítusunnudagur",
     "type": "public",
+    "rule": "easter 49",
     "_weekday": "Sun"
   },
   {
@@ -85,6 +95,7 @@
     "end": "2019-06-10T23:00:00.000Z",
     "name": "Annar hvítusunnudagur",
     "type": "public",
+    "rule": "easter 50",
     "_weekday": "Mon"
   },
   {
@@ -94,6 +105,7 @@
     "name": "Sankt Olavsaften",
     "type": "observance",
     "note": "half-day holiday for some workers' unions",
+    "rule": "07-28 12:00 if sunday then 00:00",
     "_weekday": "Sun"
   },
   {
@@ -103,6 +115,7 @@
     "name": "Ólavsøka",
     "type": "observance",
     "note": "full holiday for most workers' unions",
+    "rule": "07-29",
     "_weekday": "Mon"
   },
   {
@@ -111,6 +124,7 @@
     "end": "2019-12-25T00:00:00.000Z",
     "name": "Jólaaftan",
     "type": "public",
+    "rule": "12-24",
     "_weekday": "Tue"
   },
   {
@@ -119,6 +133,7 @@
     "end": "2019-12-26T00:00:00.000Z",
     "name": "Fyrsti jóladagur",
     "type": "public",
+    "rule": "12-25",
     "_weekday": "Wed"
   },
   {
@@ -127,6 +142,7 @@
     "end": "2019-12-27T00:00:00.000Z",
     "name": "Fyrsti gerandisdagur eftir jóladag",
     "type": "public",
+    "rule": "12-26",
     "_weekday": "Thu"
   },
   {
@@ -135,6 +151,7 @@
     "end": "2020-01-01T00:00:00.000Z",
     "name": "Nýggjársaftan",
     "type": "public",
+    "rule": "12-31 12:00 if sunday then 00:00",
     "_weekday": "Tue"
   }
 ]

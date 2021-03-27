@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T03:00:00.000Z",
+    "end": "2024-01-02T03:00:00.000Z",
+    "name": "ukiortaaq",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-06 00:00:00",
+    "start": "2024-01-06T03:00:00.000Z",
+    "end": "2024-01-07T03:00:00.000Z",
+    "name": "Åbenbaring",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-03-28 00:00:00",
+    "start": "2024-03-28T03:00:00.000Z",
+    "end": "2024-03-29T03:00:00.000Z",
+    "name": "sisamanngortoq illernartoq",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T03:00:00.000Z",
+    "end": "2024-03-30T03:00:00.000Z",
+    "name": "tallimanngornersuaq",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T02:00:00.000Z",
+    "end": "2024-04-01T02:00:00.000Z",
+    "name": "poorskip-ullua",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-04-01T02:00:00.000Z",
+    "end": "2024-04-02T02:00:00.000Z",
+    "name": "poorskip-aappaa",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-26 00:00:00",
+    "start": "2024-04-26T02:00:00.000Z",
+    "end": "2024-04-27T02:00:00.000Z",
+    "name": "tussiarfissuaq",
+    "type": "public",
+    "rule": "easter 26",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-09T02:00:00.000Z",
+    "end": "2024-05-10T02:00:00.000Z",
+    "name": "qilaliarfik",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-19 00:00:00",
+    "start": "2024-05-19T02:00:00.000Z",
+    "end": "2024-05-20T02:00:00.000Z",
+    "name": "piinsip ullua",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-20T02:00:00.000Z",
+    "end": "2024-05-21T02:00:00.000Z",
+    "name": "piinsip aappaa",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-21 00:00:00",
+    "start": "2024-06-21T02:00:00.000Z",
+    "end": "2024-06-22T02:00:00.000Z",
+    "name": "ullortuneq",
+    "type": "public",
+    "rule": "06-21",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-24 00:00:00",
+    "start": "2024-12-24T03:00:00.000Z",
+    "end": "2024-12-25T03:00:00.000Z",
+    "name": "juulliaraq",
+    "type": "public",
+    "rule": "12-24",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T03:00:00.000Z",
+    "end": "2024-12-26T03:00:00.000Z",
+    "name": "juullerujussuaq",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-26T03:00:00.000Z",
+    "end": "2024-12-27T03:00:00.000Z",
+    "name": "juullip aappaa",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Thu"
+  }
+]

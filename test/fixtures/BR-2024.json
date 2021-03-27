@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T03:00:00.000Z",
+    "end": "2024-01-02T03:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-10 00:00:00",
+    "start": "2024-02-10T03:00:00.000Z",
+    "end": "2024-02-14T17:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT110H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T03:00:00.000Z",
+    "end": "2024-03-30T03:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T03:00:00.000Z",
+    "end": "2024-04-01T03:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-21 00:00:00",
+    "start": "2024-04-21T03:00:00.000Z",
+    "end": "2024-04-22T03:00:00.000Z",
+    "name": "Dia de Tiradentes",
+    "type": "public",
+    "rule": "04-21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T03:00:00.000Z",
+    "end": "2024-05-02T03:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-12 00:00:00",
+    "start": "2024-05-12T03:00:00.000Z",
+    "end": "2024-05-13T03:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-30 00:00:00",
+    "start": "2024-05-30T03:00:00.000Z",
+    "end": "2024-05-31T03:00:00.000Z",
+    "name": "Corpo de Deus",
+    "type": "optional",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-06-12 00:00:00",
+    "start": "2024-06-12T03:00:00.000Z",
+    "end": "2024-06-13T03:00:00.000Z",
+    "name": "Dia dos Namorados",
+    "type": "observance",
+    "rule": "06-12",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-08-11 00:00:00",
+    "start": "2024-08-11T03:00:00.000Z",
+    "end": "2024-08-12T03:00:00.000Z",
+    "name": "Dia dos Pais",
+    "type": "observance",
+    "rule": "2nd sunday in August",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-09-07 00:00:00",
+    "start": "2024-09-07T03:00:00.000Z",
+    "end": "2024-09-08T03:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "rule": "09-07",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-10-06 00:00:00",
+    "start": "2024-10-06T03:00:00.000Z",
+    "end": "2024-10-07T03:00:00.000Z",
+    "name": "Dia de Eleição",
+    "type": "public",
+    "rule": "1st sunday in October in even years",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-10-12 00:00:00",
+    "start": "2024-10-12T03:00:00.000Z",
+    "end": "2024-10-13T03:00:00.000Z",
+    "name": "Nossa Senhora Aparecida",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-10-27 00:00:00",
+    "start": "2024-10-27T03:00:00.000Z",
+    "end": "2024-10-28T03:00:00.000Z",
+    "name": "Dia de Eleição",
+    "type": "public",
+    "rule": "1st sunday before 11-01 in even years",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-11-02 00:00:00",
+    "start": "2024-11-02T03:00:00.000Z",
+    "end": "2024-11-03T03:00:00.000Z",
+    "name": "Dia de Finados",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-11-15 00:00:00",
+    "start": "2024-11-15T03:00:00.000Z",
+    "end": "2024-11-16T03:00:00.000Z",
+    "name": "Proclamação da República",
+    "type": "public",
+    "rule": "11-15",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-24 14:00:00",
+    "start": "2024-12-24T17:00:00.000Z",
+    "end": "2024-12-25T03:00:00.000Z",
+    "name": "Noite de Natal",
+    "type": "optional",
+    "rule": "12-24 14:00",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T03:00:00.000Z",
+    "end": "2024-12-26T03:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-31 14:00:00",
+    "start": "2024-12-31T17:00:00.000Z",
+    "end": "2025-01-01T03:00:00.000Z",
+    "name": "Véspera de Ano Novo",
+    "type": "optional",
+    "rule": "12-31 14:00",
+    "_weekday": "Tue"
+  }
+]

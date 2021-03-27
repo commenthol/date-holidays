@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T22:00:00.000Z",
+    "end": "2023-01-01T22:00:00.000Z",
+    "name": "Nyårsdagen",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-06 00:00:00",
+    "start": "2023-01-05T22:00:00.000Z",
+    "end": "2023-01-06T22:00:00.000Z",
+    "name": "Trettondedag jul",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-03-30 00:00:00",
+    "start": "2023-03-29T21:00:00.000Z",
+    "end": "2023-03-30T21:00:00.000Z",
+    "name": "Ålands demilitariseringsdag",
+    "type": "public",
+    "rule": "03-30",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-06T21:00:00.000Z",
+    "end": "2023-04-07T21:00:00.000Z",
+    "name": "Långfredagen",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-08T21:00:00.000Z",
+    "end": "2023-04-09T21:00:00.000Z",
+    "name": "Påsk",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-09T21:00:00.000Z",
+    "end": "2023-04-10T21:00:00.000Z",
+    "name": "Annandag påsk",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T21:00:00.000Z",
+    "end": "2023-05-01T21:00:00.000Z",
+    "name": "Första Maj",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-18 00:00:00",
+    "start": "2023-05-17T21:00:00.000Z",
+    "end": "2023-05-18T21:00:00.000Z",
+    "name": "Kristi himmelfärds dag",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-27T21:00:00.000Z",
+    "end": "2023-05-28T21:00:00.000Z",
+    "name": "Pingst",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-06-09 00:00:00",
+    "start": "2023-06-08T21:00:00.000Z",
+    "end": "2023-06-09T21:00:00.000Z",
+    "name": "Självstyrelsedagen",
+    "type": "public",
+    "rule": "06-09",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-06-16 12:00:00",
+    "start": "2023-06-16T09:00:00.000Z",
+    "end": "2023-06-16T21:00:00.000Z",
+    "name": "Midsommarafton",
+    "type": "public",
+    "rule": "3rd friday after 06-01 12:00",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-06-17 00:00:00",
+    "start": "2023-06-16T21:00:00.000Z",
+    "end": "2023-06-17T21:00:00.000Z",
+    "name": "Midsommardagen",
+    "type": "public",
+    "rule": "3rd saturday after 06-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-12-06 00:00:00",
+    "start": "2023-12-05T22:00:00.000Z",
+    "end": "2023-12-06T22:00:00.000Z",
+    "name": "Självständighetsdagen",
+    "type": "public",
+    "rule": "12-06",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-24 12:00:00",
+    "start": "2023-12-24T10:00:00.000Z",
+    "end": "2023-12-24T22:00:00.000Z",
+    "name": "Julafton",
+    "type": "bank",
+    "rule": "12-24 12:00",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T22:00:00.000Z",
+    "end": "2023-12-25T22:00:00.000Z",
+    "name": "Juldagen",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-26 00:00:00",
+    "start": "2023-12-25T22:00:00.000Z",
+    "end": "2023-12-26T22:00:00.000Z",
+    "name": "Annandag jul",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-12-31 12:00:00",
+    "start": "2023-12-31T10:00:00.000Z",
+    "end": "2023-12-31T22:00:00.000Z",
+    "name": "Nyårsafton",
+    "type": "bank",
+    "rule": "12-31 12:00",
+    "_weekday": "Sun"
+  }
+]

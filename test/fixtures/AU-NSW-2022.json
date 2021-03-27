@@ -1,0 +1,129 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T13:00:00.000Z",
+    "end": "2022-01-01T13:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-03 00:00:00",
+    "start": "2022-01-02T13:00:00.000Z",
+    "end": "2022-01-03T13:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-01-26 00:00:00",
+    "start": "2022-01-25T13:00:00.000Z",
+    "end": "2022-01-26T13:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "rule": "01-26 if saturday,sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T14:00:00.000Z",
+    "end": "2022-04-15T14:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-16 00:00:00",
+    "start": "2022-04-15T14:00:00.000Z",
+    "end": "2022-04-16T14:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-16T14:00:00.000Z",
+    "end": "2022-04-17T14:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T14:00:00.000Z",
+    "end": "2022-04-18T14:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-25 00:00:00",
+    "start": "2022-04-24T14:00:00.000Z",
+    "end": "2022-04-25T14:00:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "rule": "04-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-13 00:00:00",
+    "start": "2022-06-12T14:00:00.000Z",
+    "end": "2022-06-13T14:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "rule": "2nd monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-08-01 00:00:00",
+    "start": "2022-07-31T14:00:00.000Z",
+    "end": "2022-08-01T14:00:00.000Z",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "rule": "1st monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-03 00:00:00",
+    "start": "2022-10-02T13:00:00.000Z",
+    "end": "2022-10-03T13:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "1st monday in October",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T13:00:00.000Z",
+    "end": "2022-12-25T13:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T13:00:00.000Z",
+    "end": "2022-12-26T13:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-27 00:00:00",
+    "start": "2022-12-26T13:00:00.000Z",
+    "end": "2022-12-27T13:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  }
+]

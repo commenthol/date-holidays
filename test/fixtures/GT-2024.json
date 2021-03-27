@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T06:00:00.000Z",
+    "end": "2024-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-28 00:00:00",
+    "start": "2024-03-28T06:00:00.000Z",
+    "end": "2024-03-29T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T06:00:00.000Z",
+    "end": "2024-03-30T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-30 00:00:00",
+    "start": "2024-03-30T06:00:00.000Z",
+    "end": "2024-03-31T06:00:00.000Z",
+    "name": "Sabado Santo",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T06:00:00.000Z",
+    "end": "2024-04-01T06:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T06:00:00.000Z",
+    "end": "2024-05-02T06:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-06-30 00:00:00",
+    "start": "2024-06-30T06:00:00.000Z",
+    "end": "2024-07-01T06:00:00.000Z",
+    "name": "Día de las Fuerzas Armadas",
+    "type": "public",
+    "rule": "06-30 if tuesday then previous monday if wednesday,thursday then next friday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-09-15 00:00:00",
+    "start": "2024-09-15T06:00:00.000Z",
+    "end": "2024-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "09-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-10-20 00:00:00",
+    "start": "2024-10-20T06:00:00.000Z",
+    "end": "2024-10-21T06:00:00.000Z",
+    "name": "Día de la Revolución",
+    "type": "public",
+    "rule": "10-20",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-11-01T06:00:00.000Z",
+    "end": "2024-11-02T06:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-24 12:00:00",
+    "start": "2024-12-24T18:00:00.000Z",
+    "end": "2024-12-25T06:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "public",
+    "rule": "12-24 12:00",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T06:00:00.000Z",
+    "end": "2024-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-31 12:00:00",
+    "start": "2024-12-31T18:00:00.000Z",
+    "end": "2025-01-01T06:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "public",
+    "rule": "12-31 12:00",
+    "_weekday": "Tue"
+  }
+]

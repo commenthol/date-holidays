@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T00:00:00.000Z",
+    "end": "2022-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-03 00:00:00",
+    "start": "2022-01-03T00:00:00.000Z",
+    "end": "2022-01-04T00:00:00.000Z",
+    "name": "Soulèvement populaire",
+    "type": "public",
+    "rule": "01-03",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-08 00:00:00",
+    "start": "2022-03-08T00:00:00.000Z",
+    "end": "2022-03-09T00:00:00.000Z",
+    "name": "Journée internationale des femmes",
+    "type": "public",
+    "rule": "03-08",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T00:00:00.000Z",
+    "end": "2022-04-18T00:00:00.000Z",
+    "name": "Pâques",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-18T00:00:00.000Z",
+    "end": "2022-04-19T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T00:00:00.000Z",
+    "end": "2022-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00 -0600",
+    "start": "2022-05-01T18:00:00.000Z",
+    "end": "2022-05-02T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-26 00:00:00",
+    "start": "2022-05-26T00:00:00.000Z",
+    "end": "2022-05-27T00:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-05T00:00:00.000Z",
+    "end": "2022-06-06T00:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-07-09 00:00:00 -0600",
+    "start": "2022-07-08T18:00:00.000Z",
+    "end": "2022-07-09T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-08-05 00:00:00",
+    "start": "2022-08-05T00:00:00.000Z",
+    "end": "2022-08-06T00:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "08-05",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-08-15 00:00:00",
+    "start": "2022-08-15T00:00:00.000Z",
+    "end": "2022-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-01 00:00:00",
+    "start": "2022-11-01T00:00:00.000Z",
+    "end": "2022-11-02T00:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-12-11 00:00:00",
+    "start": "2022-12-11T00:00:00.000Z",
+    "end": "2022-12-12T00:00:00.000Z",
+    "name": "Fête nationale",
+    "type": "public",
+    "rule": "12-11",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T00:00:00.000Z",
+    "end": "2022-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]

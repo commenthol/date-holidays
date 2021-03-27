@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T05:00:00.000Z",
+    "end": "2022-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-10 00:00:00",
+    "start": "2022-01-10T05:00:00.000Z",
+    "end": "2022-01-11T05:00:00.000Z",
+    "name": "Majority Rule Day",
+    "type": "public",
+    "rule": "01-10 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T04:00:00.000Z",
+    "end": "2022-04-16T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T04:00:00.000Z",
+    "end": "2022-04-18T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-18T04:00:00.000Z",
+    "end": "2022-04-19T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-08 00:00:00",
+    "start": "2022-05-08T04:00:00.000Z",
+    "end": "2022-05-09T04:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-03 00:00:00",
+    "start": "2022-06-03T04:00:00.000Z",
+    "end": "2022-06-04T04:00:00.000Z",
+    "name": "Randol Fawkes Labour Day",
+    "type": "public",
+    "rule": "1st friday in June",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-06-05 00:00:00",
+    "start": "2022-06-05T04:00:00.000Z",
+    "end": "2022-06-06T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-06 00:00:00",
+    "start": "2022-06-06T04:00:00.000Z",
+    "end": "2022-06-07T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-07-10 00:00:00",
+    "start": "2022-07-10T04:00:00.000Z",
+    "end": "2022-07-11T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "07-10 and if saturday,sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-07-11 00:00:00",
+    "start": "2022-07-11T04:00:00.000Z",
+    "end": "2022-07-12T04:00:00.000Z",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "07-10 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-08-01 00:00:00",
+    "start": "2022-08-01T04:00:00.000Z",
+    "end": "2022-08-02T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "rule": "1st monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-12 00:00:00",
+    "start": "2022-10-12T04:00:00.000Z",
+    "end": "2022-10-13T04:00:00.000Z",
+    "name": "National Heroes' Day",
+    "type": "public",
+    "rule": "10-12 and if saturday,sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T05:00:00.000Z",
+    "end": "2022-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-26T05:00:00.000Z",
+    "end": "2022-12-27T05:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Mon"
+  }
+]

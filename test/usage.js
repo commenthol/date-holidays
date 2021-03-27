@@ -2,11 +2,11 @@
  * sample script to show usage of module
  */
 
-'use strict'
+import { fileURLToPath } from 'url'
+import Holidays from '../src/index.js'
 
-if (require.main === module) {
-  var Holidays = require('..')
-  var hd = new Holidays()
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  let hd = new Holidays()
 
   // get supported countries
   console.log(hd.getCountries())
@@ -63,10 +63,11 @@ if (require.main === module) {
 
   console.log(hd.isHoliday(new Date('2016-02-09 10:00:00 GMT-0600')))
   /* >
-  { date: '2016-02-09 00:00:00',
+  [{ date: '2016-02-09 00:00:00',
     start: Tue Feb 09 2016 00:00:00 GMT-0600 (CST),
     end: Wed Feb 10 2016 00:00:00 GMT-0600 (CST),
     name: 'Mardi Gras',
     type: 'public' }
+  ]
   */
 }

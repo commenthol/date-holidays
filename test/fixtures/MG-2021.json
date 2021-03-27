@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T21:00:00.000Z",
+    "end": "2021-01-01T21:00:00.000Z",
+    "name": "Taom-baovao",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-29 00:00:00",
+    "start": "2021-03-28T21:00:00.000Z",
+    "end": "2021-03-29T21:00:00.000Z",
+    "name": "Martioran'ny tolona tamin'ny 1947",
+    "type": "public",
+    "rule": "03-29",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T21:00:00.000Z",
+    "end": "2021-04-05T21:00:00.000Z",
+    "name": "Alatsinain'ny Paska",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T21:00:00.000Z",
+    "end": "2021-05-01T21:00:00.000Z",
+    "name": "Fetin'ny asa",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-13 00:00:00",
+    "start": "2021-05-12T21:00:00.000Z",
+    "end": "2021-05-13T21:00:00.000Z",
+    "name": "Andro niakarana",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-23T21:00:00.000Z",
+    "end": "2021-05-24T21:00:00.000Z",
+    "name": "Alatsinain'ny Pentekosta",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-25 00:00:00",
+    "start": "2021-05-24T21:00:00.000Z",
+    "end": "2021-05-25T21:00:00.000Z",
+    "name": "Andron'i Afrika",
+    "type": "public",
+    "rule": "05-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-06-26 00:00:00",
+    "start": "2021-06-25T21:00:00.000Z",
+    "end": "2021-06-26T21:00:00.000Z",
+    "name": "Fetim-pirenena",
+    "type": "public",
+    "rule": "06-26",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-14T21:00:00.000Z",
+    "end": "2021-08-15T21:00:00.000Z",
+    "name": "Asompsiona",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-11-01 00:00:00",
+    "start": "2021-10-31T21:00:00.000Z",
+    "end": "2021-11-01T21:00:00.000Z",
+    "name": "Fetin'ny olo-masina",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T21:00:00.000Z",
+    "end": "2021-12-25T21:00:00.000Z",
+    "name": "Krismasy",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  }
+]

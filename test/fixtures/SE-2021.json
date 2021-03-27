@@ -1,0 +1,245 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T23:00:00.000Z",
+    "end": "2021-01-01T23:00:00.000Z",
+    "name": "Nyårsdagen",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-06 00:00:00",
+    "start": "2021-01-05T23:00:00.000Z",
+    "end": "2021-01-06T23:00:00.000Z",
+    "name": "Trettondedag jul",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-01-13 00:00:00",
+    "start": "2021-01-12T23:00:00.000Z",
+    "end": "2021-01-13T23:00:00.000Z",
+    "name": "Tjugondag Knut",
+    "type": "observance",
+    "rule": "01-13",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-03-07 00:00:00",
+    "start": "2021-03-06T23:00:00.000Z",
+    "end": "2021-03-07T23:00:00.000Z",
+    "name": "Vasaloppet",
+    "type": "observance",
+    "rule": "sunday in March",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-03-25 00:00:00",
+    "start": "2021-03-24T23:00:00.000Z",
+    "end": "2021-03-25T23:00:00.000Z",
+    "name": "Marie Bebådelsedag",
+    "type": "observance",
+    "rule": "03-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-01 00:00:00",
+    "start": "2021-03-31T22:00:00.000Z",
+    "end": "2021-04-01T22:00:00.000Z",
+    "name": "Skärtorsdagen",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T22:00:00.000Z",
+    "end": "2021-04-02T22:00:00.000Z",
+    "name": "Långfredagen",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T22:00:00.000Z",
+    "end": "2021-04-04T22:00:00.000Z",
+    "name": "Påsk",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T22:00:00.000Z",
+    "end": "2021-04-05T22:00:00.000Z",
+    "name": "Annandag påsk",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-30 00:00:00",
+    "start": "2021-04-29T22:00:00.000Z",
+    "end": "2021-04-30T22:00:00.000Z",
+    "name": "Valborgsmässoafton",
+    "type": "observance",
+    "rule": "04-30",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T22:00:00.000Z",
+    "end": "2021-05-01T22:00:00.000Z",
+    "name": "Första Maj",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-13 00:00:00",
+    "start": "2021-05-12T22:00:00.000Z",
+    "end": "2021-05-13T22:00:00.000Z",
+    "name": "Kristi himmelfärds dag",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-23 00:00:00",
+    "start": "2021-05-22T22:00:00.000Z",
+    "end": "2021-05-23T22:00:00.000Z",
+    "name": "Pingst",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-23T22:00:00.000Z",
+    "end": "2021-05-24T22:00:00.000Z",
+    "name": "Annandag pingst",
+    "type": "observance",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-30 00:00:00",
+    "start": "2021-05-29T22:00:00.000Z",
+    "end": "2021-05-30T22:00:00.000Z",
+    "name": "Mors dag",
+    "type": "observance",
+    "rule": "sunday before 06-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-06-06 00:00:00",
+    "start": "2021-06-05T22:00:00.000Z",
+    "end": "2021-06-06T22:00:00.000Z",
+    "name": "Sveriges nationaldag",
+    "type": "public",
+    "rule": "06-06",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-06-25 00:00:00",
+    "start": "2021-06-24T22:00:00.000Z",
+    "end": "2021-06-25T22:00:00.000Z",
+    "name": "Midsommarafton",
+    "type": "bank",
+    "rule": "friday after 06-19",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-06-26 00:00:00",
+    "start": "2021-06-25T22:00:00.000Z",
+    "end": "2021-06-26T22:00:00.000Z",
+    "name": "Midsommardagen",
+    "type": "public",
+    "rule": "saturday after 06-20",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-11-06 00:00:00",
+    "start": "2021-11-05T23:00:00.000Z",
+    "end": "2021-11-06T23:00:00.000Z",
+    "name": "Alla Helgons dag",
+    "type": "public",
+    "rule": "saturday after 10-31",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-11-06 00:00:00",
+    "start": "2021-11-05T23:00:00.000Z",
+    "end": "2021-11-06T23:00:00.000Z",
+    "name": "Gustav-Adolf-dagen",
+    "type": "observance",
+    "rule": "11-06",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-11-11 00:00:00",
+    "start": "2021-11-10T23:00:00.000Z",
+    "end": "2021-11-11T23:00:00.000Z",
+    "name": "Mårtensgås",
+    "type": "observance",
+    "rule": "11-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-10 00:00:00",
+    "start": "2021-12-09T23:00:00.000Z",
+    "end": "2021-12-10T23:00:00.000Z",
+    "name": "Nobeldagen",
+    "type": "observance",
+    "rule": "12-10",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-13 00:00:00",
+    "start": "2021-12-12T23:00:00.000Z",
+    "end": "2021-12-13T23:00:00.000Z",
+    "name": "Luciadagen",
+    "type": "observance",
+    "rule": "12-13",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-24 00:00:00",
+    "start": "2021-12-23T23:00:00.000Z",
+    "end": "2021-12-24T23:00:00.000Z",
+    "name": "Julafton",
+    "type": "bank",
+    "rule": "12-24",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T23:00:00.000Z",
+    "end": "2021-12-25T23:00:00.000Z",
+    "name": "Juldagen",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T23:00:00.000Z",
+    "end": "2021-12-26T23:00:00.000Z",
+    "name": "Annandag jul",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-31 00:00:00",
+    "start": "2021-12-30T23:00:00.000Z",
+    "end": "2021-12-31T23:00:00.000Z",
+    "name": "Nyårsafton",
+    "type": "bank",
+    "rule": "12-31",
+    "_weekday": "Fri"
+  }
+]

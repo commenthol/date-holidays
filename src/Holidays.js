@@ -3,10 +3,9 @@
  * @license ISC
  */
 
-'use strict'
+import HolidaysParser from 'date-holidays-parser'
 
-const Parser = require('date-holidays-parser')
-const data = require('../data/holidays.json')
+import { data } from './data.js'
 
 /**
  * @class
@@ -24,15 +23,8 @@ const data = require('../data/holidays.json')
  * new Holiday({ country: 'us', state: 'la', region: 'no'})
  * ```
  */
-function Holidays (country, state, region, opts) {
-  if (!(this instanceof Holidays)) {
-    return new Holidays(country, state, region, opts)
+export class Holidays extends HolidaysParser {
+  constructor (country, state, region, opts) {
+    super(data, country, state, region, opts)
   }
-  Parser.apply(this, [data, country, state, region, opts])
-  this.init(country, state, region, opts)
 }
-
-Holidays.prototype = Object.create(Parser.prototype)
-Holidays.prototype.constructor = Holidays
-
-module.exports = Holidays

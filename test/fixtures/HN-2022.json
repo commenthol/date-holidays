@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2022-01-01T06:00:00.000Z",
+    "end": "2022-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-03-19 00:00:00",
+    "start": "2022-03-19T06:00:00.000Z",
+    "end": "2022-03-20T06:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "03-19",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-14 00:00:00",
+    "start": "2022-04-14T06:00:00.000Z",
+    "end": "2022-04-15T06:00:00.000Z",
+    "name": "Día de las Américas",
+    "type": "public",
+    "rule": "04-14",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-14 00:00:00",
+    "start": "2022-04-14T06:00:00.000Z",
+    "end": "2022-04-15T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T06:00:00.000Z",
+    "end": "2022-04-16T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T06:00:00.000Z",
+    "end": "2022-04-18T06:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-05-01T06:00:00.000Z",
+    "end": "2022-05-02T06:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-09 00:00:00",
+    "start": "2022-05-09T06:00:00.000Z",
+    "end": "2022-05-10T06:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "rule": "2nd monday in May",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-11 00:00:00",
+    "start": "2022-06-11T06:00:00.000Z",
+    "end": "2022-06-12T06:00:00.000Z",
+    "name": "Día del Estudiante",
+    "type": "observance",
+    "rule": "06-11",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-09-10 00:00:00",
+    "start": "2022-09-10T06:00:00.000Z",
+    "end": "2022-09-11T06:00:00.000Z",
+    "name": "Día del Niño",
+    "type": "observance",
+    "rule": "09-10",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-09-15 00:00:00",
+    "start": "2022-09-15T06:00:00.000Z",
+    "end": "2022-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "09-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-09-17 00:00:00",
+    "start": "2022-09-17T06:00:00.000Z",
+    "end": "2022-09-18T06:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "observance",
+    "rule": "09-17",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-10-03 00:00:00",
+    "start": "2022-10-03T06:00:00.000Z",
+    "end": "2022-10-04T06:00:00.000Z",
+    "name": "Día del Soldado",
+    "type": "public",
+    "rule": "10-03",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-12 00:00:00",
+    "start": "2022-10-12T06:00:00.000Z",
+    "end": "2022-10-13T06:00:00.000Z",
+    "name": "Día de la Raza",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-10-21 00:00:00",
+    "start": "2022-10-21T06:00:00.000Z",
+    "end": "2022-10-22T06:00:00.000Z",
+    "name": "Día de las Fuerzas Armadas",
+    "type": "public",
+    "rule": "10-21",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-25T06:00:00.000Z",
+    "end": "2022-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]

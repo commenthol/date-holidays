@@ -1,6 +1,6 @@
 holidays:
-  # @source http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
-  # @source http://eco.mtk.nao.ac.jp/koyomi/yoko/index.html.en
+  # @source https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+  # @source https://eco.mtk.nao.ac.jp/koyomi/yoko/index.html.en
   # @attrib https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5
   # Japan
   JP:
@@ -71,6 +71,10 @@ holidays:
           jp: 天皇誕生日
         active:
           - from: 2020-01-01
+      '1989-02-24':
+        name:
+          en: State Funeral of Emperor Showa
+          jp: 大喪の礼
       march equinox in +09:00:
         name:
           en: Spring Equinox Day
@@ -84,6 +88,10 @@ holidays:
           jp: 春分の日
         active:
           - from: 1973-04-12
+      '1959-04-10':
+        name:
+          en: Marriage of Crown Prince Akihito
+          jp: 結婚の儀
       04-29:
         name:
           en: Emperor's Birthday
@@ -164,7 +172,18 @@ holidays:
           jp: こどもの日
         active:
           - from: 1973-04-12
+      '1993-06-09':
+        name:
+          en: Marriage of Crown Prince Naruhito
+          jp: 結婚の儀
       07-20:
+        name:
+          en: Marine Day
+          jp: 海の日
+        active:
+          - from: 1996-01-01
+            to: 2002-12-31
+      substitutes 07-20 if sunday then next monday:
         substitute: true
         name:
           en: Marine Day
@@ -178,17 +197,25 @@ holidays:
           jp: 海の日
         disable:
           - '2020-07-20'
+          - '2021-07-19'
         enable:
           - '2020-07-23'
+          - '2021-07-22'
         active:
           - from: 2003-01-01
-      08-11 and if sunday then next monday:
+      substitutes 2021-08-08 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Mountain Day
+          jp: 山の日
+      substitutes 08-11 and if sunday then next monday:
         substitute: true
         name:
           en: Mountain Day
           jp: 山の日
         disable:
           - '2020-08-11'
+          - '2021-08-11'
         enable:
           - '2020-08-10'
         active:
@@ -259,8 +286,10 @@ holidays:
           jp: スポーツの日
         disable:
           - '2020-10-12'
+          - '2021-10-11'
         enable:
           - '2020-07-24'
+          - '2021-07-23'
         active:
           - from: 2020-01-01
       '2019-10-22':
@@ -281,6 +310,10 @@ holidays:
           jp: 文化の日
         active:
           - from: 1973-04-12
+      '1990-11-12':
+        name:
+          en: Official Enthronement Ceremony of Emperor Heisei (Akihito)
+          jp: 即位礼正殿の儀
       11-15:
         name:
           en: Seven-Five-Three Festival
