@@ -1,18 +1,17 @@
-'use strict'
-
 /**
  * sample.js <country.state> <year> <langs>
  * e.g.
  * sample.js at.b 2015 1
  */
-const Holidays = require('..')
+import { fileURLToPath } from 'url'
+import Holidays from '../src/index.js'
 
 const days = 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(',')
 function weekday (i) {
   return days[new Date(i.date).getDay()]
 }
 
-if (module === require.main) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const cmd = {}
   const opts = {}
   const args = process.argv.slice(2)

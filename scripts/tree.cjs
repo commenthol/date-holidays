@@ -13,7 +13,7 @@ function tree (stream) {
 
   const Holidays = require('..')
 
-  const countries = Holidays().getCountries()
+  const countries = new Holidays().getCountries()
   const countriesLen = Object.keys(countries).length - 1
 
   stream.write('Countries: ' + (countriesLen + 1) + '\n')
@@ -22,7 +22,7 @@ function tree (stream) {
     const d = (i === countriesLen ? draw[1] : draw[0])
     stream.write(d + country + ': ' + countries[country] + '\n')
 
-    const states = Holidays().getStates(country)
+    const states = new Holidays().getStates(country)
     if (states) {
       const statesLen = Object.keys(states).length - 1
       Object.keys(states).forEach((state, j) => {
@@ -30,7 +30,7 @@ function tree (stream) {
         d += (j === statesLen ? draw[1] : draw[0])
         stream.write(d + state + ': ' + states[state] + '\n')
 
-        const regions = Holidays().getRegions(country, state)
+        const regions = new Holidays().getRegions(country, state)
         if (regions) {
           const regionsLen = Object.keys(regions).length - 1
           Object.keys(regions).forEach((region, k) => {

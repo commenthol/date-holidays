@@ -4,7 +4,6 @@
 
 const path = require('path')
 const webpack = require('webpack')
-const { createVariants } = require('parallel-webpack')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const rimraf = require('rimraf').sync
 
@@ -29,9 +28,15 @@ rimraf('./dist')
 function createConfig (options) {
   const plugins = [
     // ---- do not bundle moment locales
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+    new webpack.IgnorePlugin({
+      resourceRegExp: /^\.\/locale$/,
+      contextRegExp: /moment$/
+    }),
     // ---- do not bundle astronomia vsop planet data
-    new webpack.IgnorePlugin(/^\.\/vsop87B[^e].*$/)
+    new webpack.IgnorePlugin({
+      resourceRegExp: /^\.\/vsop87B[^e].*$/,
+      contextRegExp: /astronomia$/
+    })
     // ---- using a custom set of timezones
     // new webpack.NormalModuleReplacementPlugin(
     //   /moment-timezone\/data\/packed\/latest\.json/,
@@ -44,10 +49,10 @@ function createConfig (options) {
 
   return {
     mode: 'production',
-    devtool: 'sourcemap',
+    devtool: 'source-map',
     entry: {
       'date.holidays': [
-        '@babel/polyfill',
+        // '@babel/polyfill',
         './src/index.js'
       ]
     },
@@ -68,7 +73,7 @@ function createConfig (options) {
     module: {
       rules: [{
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -81,4 +86,32 @@ function createConfig (options) {
   }
 }
 
+const createVariants = (variants, createConfig) => {
+  const targets = variants.target.reduce((a, target) => {
+    a.push({ target })
+    return a
+  }, [])
+
+  let configs = Object.entries(variants).reduce((a, [key, val]) => {
+    if (key !== 'target') {
+      val.forEach(v => {
+        targets.forEach(({ target }) => {
+          a.push({ target, [key]: v })
+        })
+      })
+    }
+    return a
+  }, [])
+
+  if (!configs.length) {
+    configs = targets
+  }
+
+  return configs.map(opts => createConfig(opts))
+}
+
 module.exports = createVariants(variants, createConfig)
+
+if (module === require.main) {
+  console.log(module.exports)
+}

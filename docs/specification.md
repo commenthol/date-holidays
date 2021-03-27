@@ -1,6 +1,6 @@
 # Specification for `holidays.yaml`
 
-Version: 1.4.0
+Version: 2.0.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
@@ -42,7 +42,7 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Disabling a rule](#disabling-a-rule)
   * [Moving a date](#moving-a-date)
   * [Disabling a rule in states/ regions](#disabling-a-rule-in-states-regions)
-  * [Renaming holidays](#renaming-holidays)
+  * [Renaming or discontinuing holidays](#renaming-or-discontinuing-holidays)
 * [Generation of `holidays.json`](#generation-of-holidaysjson)
 
 <!-- toc! -->
@@ -76,7 +76,7 @@ version: <versionNumber>
 holidays:
   <country_code_1>:     # IANA country code
     names:              # name of country
-    dayoff: {String}    # name of weekday which is a default day off (friday|saturday|sunday|...)
+    dayoff: {String}    # name of weekday which is a default day off (Friday|Saturday|Sunday|...)
     days:               # see days structure
       ...
     states:             # (optional) specify special holidays per state
@@ -102,16 +102,16 @@ holidays:
 - `<state_code_?>` is a short code representing the state (any ascii based string)
 - `<region_code_?>` is a short code representing the region (any ascii based string)
 
-For country codes check:
+For country codes check: <br>  
 <https://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
 
-For country codes / divisions / subdivisions - ISO 3166-2:
+For country codes / divisions / subdivisions - ISO 3166-2: <br>
 <http://www.unicode.org/cldr/charts/30/supplemental/territory_subdivisions.html>
 
-For timezones:
+For timezones: <br>
 <https://github.com/moment/moment-timezone/blob/develop/data/meta/latest.json>
 
-For language codes ISO 639-1:
+For language codes ISO 639-1: <br>
 <http://www.unicode.org/cldr/charts/30/supplemental/language_territory_information.html>
 
 To specify the rules to calculate the holidays per country, state, region is as follows:
@@ -260,6 +260,9 @@ Dates in the islamic calendar can be attributed using the following rule:
 
 Rule: `<day-of-month> (Nisan|Iyyar|Sivan|Tamuz|Av|Elul|Tishrei|Cheshvan|Kislev|Tevet|Shvat|Adar)`
 
+Where:
+- `<day-of-month>` [1..28]
+
 **Examples**:
 
 - `15 Nisan` is 15th day in month Nisan
@@ -315,9 +318,14 @@ Where:
 
 To calculate a date from Spring, Autumn Equinox or Summer, Winter Solstice the following rule can be used:
 
-Rule: `(<number-of-days>|<count>? <weekday>) (after|before) (march|september) equinox (in <timezone>)?`
+Rule: `(<number-of-days>|<count>? <weekday>) (after|before) (March|September) equinox (in <timezone>)?`
 
-Rule: `(<number-of-days> (d|days)?|<count>? <weekday>) (after|before) (june|december) solstice (in <timezone>)?`
+Rule: `(<number-of-days> (d|days)?|<count>? <weekday>) (after|before) (June|December) solstice (in <timezone>)?`
+
+Where:
+- `<number-of-days>` e.g. 5 days
+- `<count>` 1st, 2nd, 3rd, 4th ... 100th
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 
 If `in <timezone>` is missing then GMT is assumed.
 
@@ -327,7 +335,7 @@ If `in <timezone>` is missing then GMT is assumed.
 - `5 days before september equinox` is 5 days before September equinox using GMT timezone
 - `march equinox in Asia/Tokyo` is march equinox in the timezone "Asia/Tokyo"
 - `march equinox in +09:00` is march equinox in the timezone "+09:00"
-- `3rd sunday after june solstice in Asia/Tokyo` is 3rd Sunday after June solstice in the timezone "Asia/Tokyo"
+- `3rd Sunday after june solstice in Asia/Tokyo` is 3rd Sunday after June solstice in the timezone "Asia/Tokyo"
 
 ### Different start-time for Fixed Date other than midnight
 
@@ -358,10 +366,13 @@ Rule: append `P0DT0H0M`
 
 A holiday might start in the afternoon of a given day ` HH:MM` but on a different time for another weekday.
 
-Rule: `MM-DD HH:MM if weekday then HH:MM`
+Rule: `MM-DD HH:MM if <weekday> then HH:MM`
+
+Where:
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 
 **Examples**:
-- `12-31 14:00 if sunday then 00:00` holiday starts at 14h on December 31st but if December 31st falls on a Sunday start date will be 00:00
+- `12-31 14:00 if Sunday then 00:00` holiday starts at 14h on December 31st but if December 31st falls on a Sunday start date will be 00:00
 
 ### Changes to different weekday from a given fixed Date
 
@@ -369,17 +380,21 @@ A holiday may change to a weekday starting from a given fixed Date.
 
 Rule: `<count> <weekday> (after|before) MM-DD`
 
+Where:
+- `<count>` 1st, 2nd, 3rd, 4th ... 100th
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
 "after" means the same day and after
 
 "before" means all days before but not the same day
 
 **Examples**:
 
-- `monday after 02-01` is the Monday after February 1st or February 1st if this day is a Monday
-- `monday before 02-01` is the Monday before February 1st but can never be February 1st
-- `2nd sunday after 05-01` is the 2nd Sunday in May
-- `4th thursday after 11-01` is the 4th Thursday in November
-- `sunday before 10-01` is the last Sunday in September
+- `Monday after 02-01` is the Monday after February 1st or February 1st if this day is a Monday
+- `Monday before 02-01` is the Monday before February 1st but can never be February 1st
+- `2nd Sunday after 05-01` is the 2nd Sunday in May
+- `4th Thursday after 11-01` is the 4th Thursday in November
+- `Sunday before 10-01` is the last Sunday in September
 
 ### Changes to different weekday from a given Month
 
@@ -387,51 +402,72 @@ A holiday may change to a weekday starting from the first day of a month.
 
 Rule: `<count> <weekday> (before|in) <month>`
 
+Where:
+- `<count>` 1st, 2nd, 3rd, 4th ... 100th
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
 "in" means the same day and after
 
 "before" means all days before but not the same day
 
 **Examples**:
 
-- `1st monday in February` is the Monday after February 1st or February 1st if this day is a Monday
-- `monday before February` is the Monday before February 1st but can never be February 1st
-- `2nd sunday in May` is the 2nd Sunday in May
-- `4th thursday in November` is the 4th Thursday in November
-- `sunday before October` is the last Sunday in September
+- `1st Monday in February` is the Monday after February 1st or February 1st if this day is a Monday
+- `Monday before February` is the Monday before February 1st but can never be February 1st
+- `2nd Sunday in May` is the 2nd Sunday in May
+- `4th Thursday in November` is the 4th Thursday in November
+- `Sunday before October` is the last Sunday in September
 
 ### Change to a different weekday from a changed fixed Date
 
 Rule: `<weekday> (after|before) <count> <weekday> (after|before) MM-DD`
 
+Where:
+- `<count>` 1st, 2nd, 3rd, 4th ... 100th
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
 **Examples**:
 
-- `friday after 4th thursday after 11-01` is the Friday after the 4th Thursday in November
-- `saturday before 2nd sunday after 05-01` is the Saturday before the 2nd Sunday in May
+- `Friday after 4th Thursday after 11-01` is the Friday after the 4th Thursday in November
+- `Saturday before 2nd Sunday after 05-01` is the Saturday before the 2nd Sunday in May
 
 ### Change to different weekday if date falls on a certain weekday
 
 Rule: `MM-DD if <weekday> then (next|previous) <weekday>`
 
+Where:
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
+Holiday is moved if the rule matches, otherwise it stays on the date given.
+
 **Examples**:
 
-- `03-02 if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
-- `04-13 if friday then previous monday` if April 13th is on a Friday then holiday falls to previous Monday
+- `03-02 if Sunday then next Monday` if March 2nd is on a Sunday then holiday will be on next Monday, otherwise it is March 2nd
+- `04-13 if Friday then previous Monday` if April 13th is on a Friday then holiday falls to previous Monday, on all other weekdays it is observed on April 13th.
 
 ### Substitute a holiday if date falls on a certain weekday
 
 Rule: `substitutes MM-DD if <weekday> then (next|previous) <weekday>`
 
+Where:
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
 If `substitute: true` is given then the translated string from `names.yaml/names/substitutes` will be appended to the name.
 E.g. "Christmas" becomes "Christmas (substitute day)"
 
+Holiday is active if the rule matches for the moved date.
+
 **Examples**:
 
-- `substitutes 03-02 if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
-- `substitutes 04-13 if friday then previous monday` if Apri 13th is on a Friday then holiday falls to previous Monday
+- `substitutes 03-02 if Sunday then next Monday` if March 2nd is on a Sunday then holiday will be on next Monday, for all other weekdays no holiday is observed.
+- `substitutes 04-13 if Friday then previous Monday` if Apri 13th is on a Friday then holiday falls to previous Monday
 
 ### Observe the holiday as well as on a substitute day, if date falls on a certain weekday
 
 Rule: `MM-DD and if <weekday> then (next|previous) <weekday>`
+
+Where:
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 
 This line generates two holidays. One for `MM-DD` plus the observed substitute day following the rule.
 
@@ -440,8 +476,8 @@ E.g. "Christmas" becomes "Christmas (substitute day)"
 
 **Examples**:
 
-- `03-02 and if sunday then next monday` if March 2nd is on a Sunday then holiday will be on next Monday
-- `04-13 and if friday then previous monday` if April 13th is on a Friday then holiday falls to previous Monday
+- `03-02 and if Sunday then next Monday` if March 2nd is on a Sunday then and additional holiday will be observed on next Monday as well.
+- `04-13 and if Friday then previous Monday` if April 13th is on a Friday then and additional holiday falls to previous Monday
 
 ### Enable Date only for odd/ even numbered years
 
@@ -466,14 +502,21 @@ Rule: `MM-DD every <count> years since <year>`
 
 Rule: `MM-DD (not) on <weekday>`
 
+Where:
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+
 **Examples**:
 
-- `02-01 on monday, tuesday` February, 1st is a holiday only if weekday is a Monday or Tuesday
-- `12-26 not on friday, monday` December, 26nd is a holiday only if weekday is *not* Monday or Friday
+- `02-01 on Monday, Tuesday` February, 1st is a holiday only if weekday is a Monday or Tuesday
+- `12-26 not on Friday, Monday` December, 26nd is a holiday only if weekday is *not* Monday or Friday
 
 ### Holiday based on other holidays (bridge days)
 
 Rule: `<date> if MM-DD (and MM-DD)? is (<type>)? holiday`
+
+Where:
+- `<date>` MM-DD(-YYYY)?
+- `<type>` public
 
 **Examples**:
 
@@ -511,7 +554,7 @@ E.g. in case that the 4th Monday in November is the 2015-11-23 then the day will
 
 ```yaml
 days:
-  4th monday after 11-01:
+  4th Monday after 11-01:
     disable:
       - '2015-11-23'
     name:
@@ -528,7 +571,7 @@ E.g. in case that the 4th Monday in November is the 2015-11-23 then the day gets
 
 ```yaml
 days:
-  4th monday in November:
+  4th Monday in November:
     disable:
       - '2015-11-23'
     enable:
@@ -558,7 +601,53 @@ holidays:
           04-01: false # disables rule
 ```
 
-### Renaming holidays
+### Renaming or discontinuing holidays
+
+Rule: `<rule> prior to YYYY(-MM-DD)?`
+
+Rule: `<rule> since YYYY(-MM-DD)?`
+
+Rule: `<rule> since YYYY(-MM-DD)? and prior to YYYY(-MM-DD)?`
+
+Where:
+- `<rule>` is a valid holiday rule
+
+**Examples**:
+
+In this example `Fool's Day` was renamed to `1st of April` in year 1900.
+
+```yaml
+days:
+  04-01:
+    name:
+      en: Fool's Day
+```
+
+becomes
+
+```yaml
+days:
+  04-01 prior to 1900:
+    name:
+      en: Fool's Day
+  04-01 since 1900:
+    name:
+      en: 1st of April
+```
+
+In case that 1st of April was discontinued as holiday in 1920:
+
+```yaml
+days:
+  04-01 prior to 1900:
+    name:
+      en: Fool's Day
+  04-01 since 1900 and prior to 1920:
+    name:
+      en: 1st of April
+```
+
+Other option:
 
 In cases where holiday names get replaced the same rule may be required more than once.
 Here add ` #<0-9>` to that rule and enclose it in quotes.

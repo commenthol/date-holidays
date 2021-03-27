@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "2.0.2",
+  "version": "3.0.0-0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -79,26 +79,35 @@
     "Zacharias Erlandsson <zacharias.erlandsson@gmail.com>",
     "zbypy <zbynek.pysny@gmail.com>"
   ],
-  "main": "lib",
-  "typings": "types",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./lib/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.cjs",
+  "typings": "./types",
   "bin": {
-    "holidays2json": "scripts/holidays2json.js"
+    "holidays2json": "scripts/holidays2json.cjs"
   },
   "directories": {
+    "lib": "lib",
     "doc": "docs",
     "test": "test"
   },
   "scripts": {
-    "all": "npm-run-all clean lint build yaml test doc:tree doc:attrib webpack",
-    "build": "babel -d lib src",
-    "changelog": "contributors && node scripts/gitlog",
-    "ci": "TEST_XXL=1 npm-run-all build yaml test",
-    "clean": "rimraf lib dist",
+    "all": "npm-run-all clean yaml build lint test doc:tree doc:attrib webpack",
+    "build": "rollup -c",
+    "changelog": "contributors && node scripts/gitlog.cjs",
+    "ci": "TEST_XXL=1 npm-run-all yaml build test",
+    "clean": "rimraf lib dist src/data.js",
     "clean:all": "npm-run-all clean clean:modules",
     "clean:modules": "rimraf node_modules",
-    "doc:attrib": "node scripts/attributions.js",
-    "doc:tree": "node scripts/addtree.js",
-    "lint": "eslint --fix '**/*.js'",
+    "doc:attrib": "node scripts/attributions.cjs",
+    "doc:tree": "node scripts/addtree.cjs",
+    "lint": "eslint --fix \"**/*.js\" \"**/*.cjs\"",
     "prepublishOnly": "npm run all",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
@@ -106,7 +115,7 @@
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
     "webpack:analyze": "webpack",
-    "yaml": "node scripts/holidays2json.js"
+    "yaml": "node scripts/holidays2json.cjs"
   },
   "husky": {
     "hooks": {
@@ -145,95 +154,52 @@
       ]
     }
   },
-  "babel": {
-    "ignore": [
-      "./dist"
-    ],
-    "plugins": [
-      "@babel/plugin-syntax-dynamic-import",
-      "@babel/plugin-syntax-import-meta",
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-json-strings",
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
-      ],
-      "@babel/plugin-proposal-function-sent",
-      "@babel/plugin-proposal-export-namespace-from",
-      "@babel/plugin-proposal-numeric-separator",
-      "@babel/plugin-proposal-throw-expressions"
-    ],
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
   ],
-  "eslintConfig": {
-    "plugins": [
-      "standard"
-    ],
-    "extends": "standard",
-    "rules": {}
-  },
   "mocha": {
     "checkLeaks": true,
     "colors": true,
-    "reporter": "dot",
-    "require": "@babel/register"
+    "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^2.1.0",
+    "date-holidays-parser": "^3.0.0",
     "js-yaml": "^4.0.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "prepin": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.0",
-    "@babel/core": "^7.13.8",
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/plugin-proposal-decorators": "^7.13.5",
-    "@babel/plugin-proposal-export-namespace-from": "^7.12.13",
-    "@babel/plugin-proposal-function-sent": "^7.12.13",
-    "@babel/plugin-proposal-json-strings": "^7.13.8",
-    "@babel/plugin-proposal-numeric-separator": "^7.12.13",
-    "@babel/plugin-proposal-throw-expressions": "^7.12.13",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.13.8",
-    "@babel/register": "^7.13.8",
+    "@babel/preset-env": "^7.13.12",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^8.2.2",
-    "dtslint": "^4.0.7",
-    "eslint": "^7.21.0",
+    "dtslint": "^4.0.8",
+    "eslint": "^7.23.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-standard": "^5.0.0",
     "hashtree": "^0.7.0",
     "husky": "^4.3.8",
     "markedpp": "^1.0.3",
-    "mocha": "^8.3.0",
+    "mocha": "^8.3.2",
     "npm-run-all": "^4.1.5",
-    "parallel-webpack": "^2.6.0",
     "rimraf": "^3.0.2",
-    "typescript": "^4.2.2",
+    "rollup": "^2.43.0",
+    "typescript": "^4.2.3",
     "watch-run": "^1.2.5",
-    "webpack": "^4.46.0",
+    "webpack": "^5.28.0",
     "webpack-bundle-analyzer": "^4.4.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^4.5.0"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=12.0.0"
   }
 }

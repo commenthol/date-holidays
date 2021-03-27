@@ -1,1 +1,1 @@
-module.exports = require('./Holidays')
+export { Holidays as default } from './Holidays.js'
