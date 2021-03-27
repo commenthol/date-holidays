@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.0.0](https://github.com/commenthol/date-holidays/compare/2.0.2...3.0.0) (2021-03-27)
+
+- break: esm module [e81eb941](https://github.com/commenthol/date-holidays/commit/e81eb941a57bf0c402ddfbee6a70696980225073)
+
 ## [2.0.2](https://github.com/commenthol/date-holidays/compare/2.0.1...2.0.2) (2021-03-03)
 
 - fix(EE): Update EE Independence Day to be a public holiday [5670ca72](https://github.com/commenthol/date-holidays/commit/5670ca72e00a5783160d566925eb3cf8dc7ee407)
