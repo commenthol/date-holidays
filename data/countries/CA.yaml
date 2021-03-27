@@ -266,6 +266,7 @@ holidays:
             name:
               en: National Holiday
               fr: Fête nationale du Québec
+          monday after 08-01: false
       SK:
         name: Saskatchewan
         zones:
