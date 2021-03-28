@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T21:00:00.000Z",
+    "end": "2025-01-01T21:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-03-30 00:00:00 -0600",
+    "start": "2025-03-29T15:00:00.000Z",
+    "end": "2025-03-30T15:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T21:00:00.000Z",
+    "end": "2025-05-01T21:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-06 00:00:00 -0600",
+    "start": "2025-06-05T15:00:00.000Z",
+    "end": "2025-06-06T15:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-26 00:00:00 -0600",
+    "start": "2025-06-25T15:00:00.000Z",
+    "end": "2025-06-26T15:00:00.000Z",
+    "name": "Nouvel an islamique",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-27 00:00:00",
+    "start": "2025-06-26T21:00:00.000Z",
+    "end": "2025-06-27T21:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "06-27 since 1977",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-09-04 00:00:00 -0600",
+    "start": "2025-09-03T15:00:00.000Z",
+    "end": "2025-09-04T15:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T21:00:00.000Z",
+    "end": "2025-12-25T21:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Thu"
+  }
+]
