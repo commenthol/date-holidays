@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T00:00:00.000Z",
+    "end": "2024-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-04-01T00:00:00.000Z",
+    "end": "2024-04-02T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-06 00:00:00 -0600",
+    "start": "2024-04-05T18:00:00.000Z",
+    "end": "2024-04-06T18:00:00.000Z",
+    "name": "Laylat al-Qadr",
+    "type": "public",
+    "rule": "27 Ramadan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T18:00:00.000Z",
+    "end": "2024-04-10T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T00:00:00.000Z",
+    "end": "2024-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-09T00:00:00.000Z",
+    "end": "2024-05-10T00:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-20 00:00:00",
+    "start": "2024-05-20T00:00:00.000Z",
+    "end": "2024-05-21T00:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T18:00:00.000Z",
+    "end": "2024-06-16T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-07 00:00:00",
+    "start": "2024-08-07T00:00:00.000Z",
+    "end": "2024-08-08T00:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "08-07 since 1960",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-08-15 00:00:00",
+    "start": "2024-08-15T00:00:00.000Z",
+    "end": "2024-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-09-15 00:00:00 -0600",
+    "start": "2024-09-14T18:00:00.000Z",
+    "end": "2024-09-15T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-11-01T00:00:00.000Z",
+    "end": "2024-11-02T00:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-11-15 00:00:00",
+    "start": "2024-11-15T00:00:00.000Z",
+    "end": "2024-11-16T00:00:00.000Z",
+    "name": "National Peace Day",
+    "type": "public",
+    "rule": "11-15 since 1996",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T00:00:00.000Z",
+    "end": "2024-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]
