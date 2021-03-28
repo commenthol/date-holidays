@@ -14,18 +14,69 @@
   #content {padding-top: 1em;}
   a {text-decoration: none; cursor: pointer; color: #3366ff;}
   select { padding: 0.25em; font-size: 1em; border-radius: 0.25em; border: 2px solid #3366ff; background: white; margin: 0.1em;}
-  </style>
+  .loader {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    max-width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ball-scale-ripple-multiple {
+    position: relative;
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+  }
+  .ball-scale-ripple-multiple > div {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid #3366ff;
+    -webkit-animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+    animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(.21,.53,.56,.8);
+  }
+  .ball-scale-ripple-multiple > div:nth-child(1) {
+    -webkit-animation-delay: -.6s;
+    animation-delay: -.6s;
+  }
+  .ball-scale-ripple-multiple > div:nth-child(2) {
+    -webkit-animation-delay: -.4s;
+    animation-delay: -.4s;
+  }
+  .ball-scale-ripple-multiple > div:nth-child(3) {
+    -webkit-animation-delay: -.2s;
+    animation-delay: -.2s;
+  }
+  @keyframes ball-scale-ripple-multiple {
+   0% {
+    -webkit-transform:scale(.1);
+    transform:scale(.1);
+    opacity:1
+   }
+   70% {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:.7
+   }
+   100% {
+    opacity:0
+   }
+  }
+</style>
 </head>
 <body>
   <h1><a href="https://github.com/commenthol/date-holidays">date-holidays</a></h1>
 
-  <select id="year" style="display:none"></select>
-  <select id="country" style="display:none"></select>
-  <select id="state" style="display:none"></select>
-  <select id="region" style="display:none"></select>
-  <select id="language" style="display:none"></select>
-
-  <div id="content"></div>
+  <div id="content">
+    <div class="loader"><div class="ball-scale-ripple-multiple"><div></div><div></div><div></div></div></div>
+  </div>
 
   <p>Found some issues? Please report those on
     <a href="https://github.com/commenthol/date-holidays/issues" target="_blank">github</a>.

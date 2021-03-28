@@ -158,15 +158,8 @@ module.exports = vcalendar;
   const Holidays = window.Holidays.default
   const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   const thisYear = () => new Date().getFullYear()
-  const g = { year: thisYear(), country: 'CA', language: 'fr' }
+  const g = { year: thisYear(), country: 'CA', language: 'fr', isFullDay: true }
   const n = {}
-  const selects = {
-    year: select('year'),
-    country: select('country', selectState),
-    state: select('state', selectRegion),
-    region: select('region'),
-    language: select('language')
-  }
 
   function escapeHtml (string) {
     return (string || '')
@@ -180,6 +173,26 @@ module.exports = vcalendar;
       }[tag]))
   }
 
+  function h (el, props = {}, children = []) {
+    if (typeof el === 'function') {
+      return el({ ...props, children })
+    }
+    const $ = document.createElement(el)
+    Object.entries(props).forEach(([prop, val]) => {
+      if (prop.indexOf('on') === 0) {
+        $.addEventListener(prop.substring(2).toLowerCase(), val)
+      } else if (prop === 'style') {
+        Object.entries(val).forEach(([p, v]) => { $.style[p] = v })
+      } else {
+        $[prop] = val
+      }
+    })
+    for (const child of [].concat(children)) {
+      child && $.append(child)
+    }
+    return $
+  }
+
   function duration (ms) {
     const days = (ms / DAY) | 0
     const hours = (ms - (days * DAY)) / HOUR | 0
@@ -188,100 +201,87 @@ module.exports = vcalendar;
     return str
   }
 
-  function select (id, fn) {
-    const el = document.getElementById(id)
-    const self = {
-      opts: {},
-      onChange: function (ev) {
-        self.selected = ev.target.value
-        g[id] = self.selected
-        n[id] = ev.target.selectedOptions && ev.target.selectedOptions[0].text
-        if (id === 'country') {
-          g.language = undefined
-          ;['state', 'region'].forEach(function (i) {
-            n[i] = g[i] = undefined
-            select(i).disable()
-          })
-        } else if (id === 'state') {
-          ;['region'].forEach(function (i) {
-            n[i] = g[i] = undefined
-            select(i).disable()
-          })
-        }
-        route()
-        fn && fn()
-      },
-      disable: function () {
-        el.style = 'display:none'
-      },
-      render: function (obj, selected) {
-        self.selected = selected
-        if (!obj) {
-          el.style = 'display:none'
-        } else {
-          el.style = 'display:block'
-          el.innerHTML =
-          (selected ? '' : '<option>--</option>') +
-          Object.keys(obj).map(function (i) {
-            return [
-              '<option value="', i, '"',
-              i == self.selected ? ' selected' : '', // eslint-disable-line eqeqeq
-              '>', obj[i], '</option>'
-            ].join('')
-          }).join('')
-        }
+  function Select ({ options, selected, id }) {
+    if (!options) return null
+    const onChange = (ev) => {
+      g[id] = ev.target.value
+      n[id] = ev.target.selectedOptions && ev.target.selectedOptions[0].text
+      if (id === 'country') {
+        g.language = undefined
+        ;['state', 'region'].forEach(function (i) {
+          n[i] = g[i] = undefined
+        })
+      } else if (id === 'state') {
+        ;['region'].forEach(function (i) {
+          n[i] = g[i] = undefined
+        })
       }
+      route()
     }
-    el.addEventListener('change', self.onChange)
-    return self
+
+    return h('div', {},
+      h('select',
+        { onChange },
+        Object.entries(options).reduce((a, [value, label]) => {
+          a.push(h(
+            'option',
+            { value, selected: value == selected }, // eslint-disable-line eqeqeq
+            label
+          ))
+          return a
+        }, ['state', 'region'].includes(id) ? [h('option', {}, '--')] : []))
+    )
   }
 
-  function selectYear () {
-    const obj = {}
-    const year = g.year
-    for (let i = year - 5; i <= year + 5; i++) {
-      obj[i] = i
+  function SelectYear () {
+    const selected = g.year
+    const options = {}
+    for (let i = selected - 5; i <= selected + 5; i++) {
+      options[i] = i
     }
-    selects.year.render(obj, year)
+    return h(Select, { options, selected, id: 'year' })
   }
-  function selectCountry () {
+
+  function SelectCountry () {
     const hd = new Holidays()
-    const cs = hd.getCountries(g.language)
-    g.country = cs[g.country] ? g.country : 'CA'
-    n.country = cs[g.country]
-    selects.country.render(cs, g.country)
+    const options = hd.getCountries(g.language)
+    const selected = g.country = options[g.country] ? g.country : 'CA'
+    n.country = options[g.country]
+    return h(Select, { options, selected, id: 'country' })
   }
-  function selectState () {
+
+  function SelectState () {
     const hd = new Holidays()
-    const cs = hd.getStates(g.country)
-    g.state = cs && cs[g.state] ? g.state : ''
-    n.state = cs && cs[g.state]
-    selects.state.render(cs, g.state)
+    const options = hd.getStates(g.country)
+    const selected = g.state = options && options[g.state] ? g.state : ''
+    n.state = options && options[g.state]
+    return h(Select, { options, selected, id: 'state' })
   }
-  function selectRegion () {
+
+  function SelectRegion () {
     const hd = new Holidays()
-    const cs = hd.getRegions(g.country, g.state)
-    g.region = cs && cs[g.region] ? g.region : ''
-    n.state = cs && cs[g.region]
-    selects.region.render(cs, g.region)
+    const options = hd.getRegions(g.country, g.state)
+    const selected = g.region = options && options[g.region] ? g.region : ''
+    n.state = options && options[g.region]
+    return h(Select, { options, selected, id: 'region' })
   }
-  function selectLanguage () {
+
+  function SelectLanguage () {
     const hd = new Holidays()
     hd.init(g.country)
     const cs = hd.getLanguages()
-    g.language = cs.includes(g.language) ? g.language : cs[0]
-    const cso = cs.reduce((o, k) => { o[k] = k; return o }, {})
-    selects.language.render(cso, g.language)
+    const selected = g.language = cs.includes(g.language) ? g.language : cs[0]
+    const options = cs.reduce((o, k) => { o[k] = k; return o }, {})
+    return h(Select, { options, selected, id: 'language' })
   }
 
-  function renderContent () {
+  function Table () {
     const hd = new Holidays(g.country, g.state, g.region, { languages: g.language })
     const holidays = g.holidays = hd.getHolidays(g.year)
     let count = 0
     const table = [
-      '<table>',
       '<thead><tr><th>',
-      ['#', 'weekday', 'date', 'duration', 'name', 'type'].join('</th><th>'),
+      ['#', 'weekday', 'date', 'duration', 'name', 'type', 'note'].join('</th><th>'),
       '</th></tr></thead>',
       '<tbody>',
       Object.keys(holidays).map(function (i) {
@@ -293,36 +293,66 @@ module.exports = vcalendar;
           d.date,
           duration(d.end - d.start),
           d.name,
-          d.type
+          d.type,
+          d.note
         ].join('</td><td>') + '</td></tr>'
       }).join(''),
-      '</tbody>',
-      '</table>',
-      '<p class="download">',
-      '<label for="fullday"><input id="fullday" checked type="checkbox">Full day entries</label><br>',
-      '<a id="download">Download calendar!</a>',
-      '</p>'
+      '</tbody>'
     ].join('')
-    document.getElementById('content').innerHTML = table
-    document.getElementById('download').addEventListener('click', onDownload)
+    return h('table', { innerHTML: table })
   }
 
-  function download (filename, dates) {
-    const fullday = document.getElementById('fullday').checked
-    const el = document.createElement('a')
-    el.setAttribute('href', 'data:text/calendar;charset=utf-8,' +
-      encodeURIComponent(vcalendar(dates, { fullday: fullday })))
-    el.setAttribute('download', filename)
+  function Download ({ isFullDay }) {
+    const handleDownload = () => {
+      const filename = [g.year, n.country, n.state, n.region, g.language].filter(Boolean).join('-') + '.ics'
+      download(filename, g.holidays, isFullDay)
+    }
+    const handleFullday = (ev) => {
+      g.isFullDay = isFullDay = !isFullDay
+    }
+    return h('p',
+      { className: 'download' },
+      [
+        h('label', { for: 'fullday' }, [
+          h('input', {
+            id: 'fullday',
+            checked: isFullDay,
+            type: 'checkbox',
+            onChange: handleFullday
+          }),
+          'Full day entries'
+        ]),
+        h('br'),
+        h('a', { onclick: handleDownload }, ['Download calendar!'])
+      ]
+    )
+  }
 
-    el.style.display = 'none'
+  function download (filename, dates, isFullDay) {
+    const el = h('a', {
+      style: { display: 'none' },
+      href: 'data:text/calendar;charset=utf-8,' + encodeURIComponent(vcalendar(dates, { fullday: isFullDay })),
+      download: filename
+    })
     document.body.appendChild(el)
     el.click()
     document.body.removeChild(el)
   }
-  function onDownload () {
-    const filename = [g.year, n.country, n.state, n.region, g.language]
-      .filter(Boolean).join('-') + '.ics'
-    download(filename, g.holidays)
+
+  function renderContent () {
+    const $ = document.getElementById('content')
+    $.innerHTML = ''
+    $.append(h('div', {}, [
+      h('section', {}, [
+        h(SelectYear),
+        h(SelectCountry),
+        h(SelectState),
+        h(SelectRegion),
+        h(SelectLanguage)
+      ]),
+      h(Table),
+      h(Download, { isFullDay: g.isFullDay })
+    ]))
   }
 
   function route () {
@@ -338,11 +368,6 @@ module.exports = vcalendar;
       if (language === '-') language = undefined
       Object.assign(g, { language, year: Number(year), country, state, region })
     }
-    selectYear()
-    selectCountry()
-    selectLanguage()
-    selectState()
-    selectRegion()
     renderContent()
   }
 
