@@ -9,6 +9,15 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2021-01-05 00:00:00",
+    "start": "2021-01-04T23:00:00.000Z",
+    "end": "2021-01-05T23:00:00.000Z",
+    "name": "Trettondagsafton",
+    "type": "public",
+    "rule": "01-05",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2021-01-06 00:00:00",
     "start": "2021-01-05T23:00:00.000Z",
     "end": "2021-01-06T23:00:00.000Z",
@@ -63,10 +72,19 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2021-04-03 00:00:00",
+    "start": "2021-04-02T22:00:00.000Z",
+    "end": "2021-04-03T22:00:00.000Z",
+    "name": "Påskafton",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2021-04-04 00:00:00",
     "start": "2021-04-03T22:00:00.000Z",
     "end": "2021-04-04T22:00:00.000Z",
-    "name": "Påsk",
+    "name": "Påskdagen",
     "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
@@ -108,10 +126,19 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2021-05-22 00:00:00",
+    "start": "2021-05-21T22:00:00.000Z",
+    "end": "2021-05-22T22:00:00.000Z",
+    "name": "Pingstafton",
+    "type": "public",
+    "rule": "easter 48",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2021-05-23 00:00:00",
     "start": "2021-05-22T22:00:00.000Z",
     "end": "2021-05-23T22:00:00.000Z",
-    "name": "Pingst",
+    "name": "Pingstdagen",
     "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
@@ -160,6 +187,15 @@
     "type": "public",
     "rule": "saturday after 06-20",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2021-11-05 00:00:00",
+    "start": "2021-11-04T23:00:00.000Z",
+    "end": "2021-11-05T23:00:00.000Z",
+    "name": "Allhelgonaafton",
+    "type": "public",
+    "rule": "friday after 10-30",
+    "_weekday": "Fri"
   },
   {
     "date": "2021-11-06 00:00:00",
