@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.0.3](https://github.com/commenthol/date-holidays/compare/2.0.2...2.0.3) (2021-03-30)
+
+- fix(CA-QC): #200 Enable Easter Monday for Quebec [061b2e94](https://github.com/commenthol/date-holidays/commit/061b2e94ad8a33644f4761d33ff4148b85c209f9)
+- fix(CA-QC): #207 Disable Civic Holiday for Quebec [cbc9f5eb](https://github.com/commenthol/date-holidays/commit/cbc9f5eb6deca9ee7d20f5b42ba00579ffcfc3ba)
+
 ## [2.0.2](https://github.com/commenthol/date-holidays/compare/2.0.1...2.0.2) (2021-03-03)
 
 - fix(EE): Update EE Independence Day to be a public holiday [5670ca72](https://github.com/commenthol/date-holidays/commit/5670ca72e00a5783160d566925eb3cf8dc7ee407)
