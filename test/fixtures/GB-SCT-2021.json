@@ -124,7 +124,7 @@
     "name": "Boxing Day (substitute day)",
     "type": "public",
     "substitute": true,
-    "rule": "substitutes 12-26 if sunday then next monday",
+    "rule": "substitutes 12-26 if sunday then next monday if monday then next tuesday",
     "_weekday": "Mon"
   },
   {
