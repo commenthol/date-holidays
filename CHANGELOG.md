@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.0](https://github.com/commenthol/date-holidays/compare/2.0.3...2.1.0) (2021-04-08)
+
+- docs: update supported countries and license attribution [ec2e4df9](https://github.com/commenthol/date-holidays/commit/ec2e4df95d2d938aa098cda2144d3a71f8ae172b)
+- fix(EG): default lang [a3760e1a](https://github.com/commenthol/date-holidays/commit/a3760e1ab73804a4bae1c189a6c250827d37bfa9)
+- test(AX): fix names [bc75ad11](https://github.com/commenthol/date-holidays/commit/bc75ad11e56a6d839f674033ec4b12f579203b1b)
+- fix(SE): #165 missing evenings [12a7f3d6](https://github.com/commenthol/date-holidays/commit/12a7f3d6d53910175be35b5fcf071e9e5e0fa73b)
+- test(GG,GI,IM,JE): Fix tests for channel islands [ac3cc879](https://github.com/commenthol/date-holidays/commit/ac3cc8791b23ce32528b99a77eda53e575d7852c)
+- fix(GB): #203 boxing day substitution rules [9e805a91](https://github.com/commenthol/date-holidays/commit/9e805a91cfe18b78f4c72404889e362d8052635d)
+- fix(TG): add country name [dbc8ff5e](https://github.com/commenthol/date-holidays/commit/dbc8ff5e3a545d01a293bd386f5deb0a9fd8b689)
+- feat(FJ): new country fiji [5caf9239](https://github.com/commenthol/date-holidays/commit/5caf92398850086a12b9baa2c6d06570e77c049c)
+- feat(EG): new coutry egypt [60761c8d](https://github.com/commenthol/date-holidays/commit/60761c8d9110b08798acc51c6a958635e25eadcb)
+- feat(DZ): new country algeria [80ebc908](https://github.com/commenthol/date-holidays/commit/80ebc908fd29df99bce9fe9e0c792d5c07a81f36)
+- feat(DJ): country djibouti [5e88d49c](https://github.com/commenthol/date-holidays/commit/5e88d49c41ce28a8322033aaadb0f010dd6023be)
+- feat(CI): add republic of côte d'ivoire [609d15c4](https://github.com/commenthol/date-holidays/commit/609d15c494aa925345891db4587ca95ab1c164ce)
+- feat(CK): cook islands [378042fa](https://github.com/commenthol/date-holidays/commit/378042fa7b8b1a77a3e3911220be6648c4efd5c5)
+
 ## [2.0.3](https://github.com/commenthol/date-holidays/compare/2.0.2...2.0.3) (2021-03-30)
 
 - fix(CA-QC): #200 Enable Easter Monday for Quebec [061b2e94](https://github.com/commenthol/date-holidays/commit/061b2e94ad8a33644f4761d33ff4148b85c209f9)
