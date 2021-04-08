@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T21:00:00.000Z",
+    "end": "2015-01-01T21:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-01-03 00:00:00 -0600",
+    "start": "2015-01-02T15:00:00.000Z",
+    "end": "2015-01-03T15:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T21:00:00.000Z",
+    "end": "2015-05-01T21:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-06-27 00:00:00",
+    "start": "2015-06-26T21:00:00.000Z",
+    "end": "2015-06-27T21:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "06-27 since 1977",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-07-17 00:00:00 -0600",
+    "start": "2015-07-16T15:00:00.000Z",
+    "end": "2015-07-17T15:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-09-23 00:00:00 -0600",
+    "start": "2015-09-22T15:00:00.000Z",
+    "end": "2015-09-23T15:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-10-14 00:00:00 -0600",
+    "start": "2015-10-13T15:00:00.000Z",
+    "end": "2015-10-14T15:00:00.000Z",
+    "name": "Nouvel an islamique",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-23 00:00:00 -0600",
+    "start": "2015-12-22T15:00:00.000Z",
+    "end": "2015-12-23T15:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T21:00:00.000Z",
+    "end": "2015-12-25T21:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]
