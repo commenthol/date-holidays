@@ -1,0 +1,71 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Ivory_Coast
+  CI:
+    names:
+      fr: République de Côte d'Ivoire
+      en: Republic of Côte d'Ivoire
+    langs:
+      - fr
+      - en
+    zones:
+      - Africa/Abidjan
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      easter 50:
+        _name: easter 50
+      08-07 since 1960:
+        _name: Independence Day
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      11-15 since 1996:
+        name:
+          en: National Peace Day
+      12-25:
+        _name: 12-25
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      27 Ramadan:
+        _name: 27 Ramadan
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    # states:
+    #   AB:
+    #     name: Abidjan
+    #   BS:
+    #     name: Bas-Sassandra
+    #   CM:
+    #     name: Comoé
+    #   DN:
+    #     name: Denguélé
+    #   GD:
+    #     name: Gôh-Djiboua
+    #   LC:
+    #     name: Lacs
+    #   LG:
+    #     name: Lagunes
+    #   MG:
+    #     name: Montagnes
+    #   SM:
+    #     name: Sassandra-Marahoué
+    #   SV:
+    #     name: Savanes
+    #   VB:
+    #     name: Vallée du Bandama
+    #   WR:
+    #     name: Woroba
+    #   YM:
+    #     name: Yamoussoukro
+    #   ZZ:
+    #     name: Zanzan
