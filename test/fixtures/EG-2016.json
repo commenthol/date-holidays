@@ -3,7 +3,7 @@
     "date": "2016-01-07 00:00:00",
     "start": "2016-01-06T22:00:00.000Z",
     "end": "2016-01-07T22:00:00.000Z",
-    "name": "Christmas Day",
+    "name": "عيد الميلاد المجيد",
     "type": "public",
     "rule": "julian 12-25",
     "_weekday": "Thu"
@@ -12,7 +12,7 @@
     "date": "2016-01-25 00:00:00",
     "start": "2016-01-24T22:00:00.000Z",
     "end": "2016-01-25T22:00:00.000Z",
-    "name": "National Police Day",
+    "name": "عيد الشرطة",
     "type": "public",
     "rule": "01-25",
     "_weekday": "Mon"
@@ -21,7 +21,7 @@
     "date": "2016-01-25 00:00:00",
     "start": "2016-01-24T22:00:00.000Z",
     "end": "2016-01-25T22:00:00.000Z",
-    "name": "Revolution Day 2011",
+    "name": "عيد ثورة 25 يناير",
     "type": "public",
     "rule": "01-25 since 2011",
     "_weekday": "Mon"
@@ -30,7 +30,7 @@
     "date": "2016-04-25 00:00:00",
     "start": "2016-04-24T22:00:00.000Z",
     "end": "2016-04-25T22:00:00.000Z",
-    "name": "Sinai Liberation Day",
+    "name": "عيد تحرير سيناء",
     "type": "public",
     "rule": "04-25",
     "_weekday": "Mon"
@@ -39,7 +39,7 @@
     "date": "2016-05-01 00:00:00",
     "start": "2016-04-30T22:00:00.000Z",
     "end": "2016-05-01T22:00:00.000Z",
-    "name": "Labour Day",
+    "name": "يوم العمال",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Sun"
@@ -48,7 +48,7 @@
     "date": "2016-05-02 00:00:00",
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
-    "name": "Sham El Nessim",
+    "name": "شم النسيم",
     "type": "public",
     "rule": "orthodox 1",
     "_weekday": "Mon"
@@ -57,7 +57,7 @@
     "date": "2016-07-06 00:00:00 -0600",
     "start": "2016-07-05T16:00:00.000Z",
     "end": "2016-07-08T16:00:00.000Z",
-    "name": "End of Ramadan (Eid al-Fitr)",
+    "name": "عيد الفطر",
     "type": "public",
     "rule": "1 Shawwal P3D",
     "_weekday": "Wed"
@@ -66,7 +66,7 @@
     "date": "2016-09-11 00:00:00 -0600",
     "start": "2016-09-10T16:00:00.000Z",
     "end": "2016-09-14T16:00:00.000Z",
-    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "name": "عيد الأضحى",
     "type": "public",
     "rule": "10 Dhu al-Hijjah P4D",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2016-10-02 00:00:00 -0600",
     "start": "2016-10-01T16:00:00.000Z",
     "end": "2016-10-02T16:00:00.000Z",
-    "name": "Islamic New Year",
+    "name": "رأس السنة الهجرية",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Sun"
@@ -84,7 +84,7 @@
     "date": "2016-10-06 00:00:00",
     "start": "2016-10-05T22:00:00.000Z",
     "end": "2016-10-06T22:00:00.000Z",
-    "name": "Armed Forces Day",
+    "name": "عيد القوات المسلحة",
     "type": "public",
     "rule": "10-06",
     "_weekday": "Thu"
@@ -93,7 +93,7 @@
     "date": "2016-12-11 00:00:00 -0600",
     "start": "2016-12-10T16:00:00.000Z",
     "end": "2016-12-11T16:00:00.000Z",
-    "name": "Birthday of Muhammad (Mawlid)",
+    "name": "المولد النبويّ",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sun"
@@ -102,7 +102,7 @@
     "date": "2017-11-07 00:00:00",
     "start": "2017-11-06T22:00:00.000Z",
     "end": "2017-11-07T22:00:00.000Z",
-    "name": "Revolution Day",
+    "name": "يوم الثورة",
     "type": "public",
     "rule": "23-07",
     "_weekday": "Tue"
@@ -111,7 +111,7 @@
     "date": "2018-06-06 00:00:00",
     "start": "2018-06-05T22:00:00.000Z",
     "end": "2018-06-06T22:00:00.000Z",
-    "name": "30 June Day",
+    "name": "عيد ثورة 30 يونيو",
     "type": "public",
     "rule": "30-06",
     "_weekday": "Wed"
