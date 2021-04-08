@@ -39,7 +39,7 @@
     "date": "2024-03-31 00:00:00",
     "start": "2024-03-30T22:00:00.000Z",
     "end": "2024-03-31T21:00:00.000Z",
-    "name": "Påsk",
+    "name": "Påskdagen",
     "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2024-05-19 00:00:00",
     "start": "2024-05-18T21:00:00.000Z",
     "end": "2024-05-19T21:00:00.000Z",
-    "name": "Pingst",
+    "name": "Pingstdagen",
     "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
