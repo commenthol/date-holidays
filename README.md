@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 146
+Countries: 152
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -194,6 +194,18 @@ Countries: 146
 │   ├── NE: Canton de Neuchâtel
 │   ├── GE: Canton de Genève
 │   └── JU: Canton du Jura
+├── CI: République de Côte d'Ivoire
+├── CK: Cook Islands
+│   ├── Aitutaki: Aitutaki
+│   ├── Atiu: Atiu
+│   ├── Mangaia: Mangaia
+│   ├── Manihiki: Manihiki
+│   ├── Mitiaro: Mitiaro
+│   ├── Palmerston: Palmerston
+│   ├── Penrhyn: Penrhyn
+│   ├── Pukapuka: Pukapuka
+│   ├── Rakahanga: Rakahanga
+│   └── Rarotonga: Rarotonga
 ├── CL: Chile
 │   ├── AP: Arica y Parinacota
 │   ├── BI: Biobío
@@ -234,13 +246,16 @@ Countries: 146
 │       ├── EIC: Landkreis Eichfeld
 │       ├── UH: Unstrut-Hainich-Kreis
 │       └── WAK: Wartburgkreis
+├── DJ: République de Djibouti
 ├── DK: Danmark
 ├── DM: Dominica
 ├── DO: República Dominicana
+├── DZ: الجمهورية الجزائرية الديمقراطية الشعبية
 ├── EC: Ecuador
 │   └── P: Pichincha
 │       └── QU: Quito
 ├── EE: Eesti
+├── EG: جمهورية مصر العربية
 ├── ES: España
 │   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
@@ -248,6 +263,7 @@ Countries: 146
 │   └── CT: Catalonia
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
+├── FJ: Matanitu Tugalala o Viti
 ├── FO: Føroyar
 ├── FR: France
 │   ├── 57: Département Moselle
