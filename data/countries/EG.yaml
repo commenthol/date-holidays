@@ -5,8 +5,8 @@ holidays:
       ar: 'جمهورية مصر العربية'
       en: Egypt
     langs:
-      - en
       - ar
+      - en
     zones:
       - Africa/Cairo
     dayoff: saturday
