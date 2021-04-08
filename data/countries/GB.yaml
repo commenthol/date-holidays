@@ -53,7 +53,7 @@ holidays:
       substitutes 12-26 if saturday then next monday:
         substitute: true
         _name: 12-26
-      substitutes 12-26 if sunday then next monday:
+      substitutes 12-26 if sunday then next monday if monday then next tuesday:
         substitute: true
         _name: 12-26
       '2012-06-05':
