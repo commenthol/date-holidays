@@ -258,7 +258,7 @@ names:
       sk: Sviatok všetkých svätých
       sq: Të gjitha Saints
       sr: Сви Свети
-      sv: Alla helgons dag
+      sv: Alla Helgons dag
       vi: Lễ Các Thánh
   11-02:
     name:
@@ -543,6 +543,7 @@ names:
       it: Sabado santo
       nl: Dag voor Pasen
       no: Påskeaften
+      sv: Påskafton
       vi: Thứ bảy Tuần Thánh
   easter:     # Easter
     name:
@@ -578,7 +579,7 @@ names:
       sl: velika noč
       sq: Pashkët Katolike
       sr: Католички Васкрс
-      sv: Påsk
+      sv: Påskdagen
       sw: Pasaka
       vi: Lễ Phục Sinh
   easter 1:   # Easter Monday
@@ -655,7 +656,7 @@ names:
       pl: Zielone Świątki
       ro: Rusaliile
       sl: binkošti
-      sv: Pingst
+      sv: Pingstdagen
       uk: Трійця
       vi: Lễ Chúa Thánh Thần Hiện Xuống
   easter 50:  # Whit Monday

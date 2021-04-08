@@ -9,6 +9,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2023-01-05 00:00:00",
+    "start": "2023-01-04T23:00:00.000Z",
+    "end": "2023-01-05T23:00:00.000Z",
+    "name": "Trettondagsafton",
+    "type": "public",
+    "rule": "01-05",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2023-01-06 00:00:00",
     "start": "2023-01-05T23:00:00.000Z",
     "end": "2023-01-06T23:00:00.000Z",
@@ -63,10 +72,19 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2023-04-08 00:00:00",
+    "start": "2023-04-07T22:00:00.000Z",
+    "end": "2023-04-08T22:00:00.000Z",
+    "name": "Påskafton",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2023-04-09 00:00:00",
     "start": "2023-04-08T22:00:00.000Z",
     "end": "2023-04-09T22:00:00.000Z",
-    "name": "Påsk",
+    "name": "Påskdagen",
     "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
@@ -108,6 +126,15 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2023-05-27 00:00:00",
+    "start": "2023-05-26T22:00:00.000Z",
+    "end": "2023-05-27T22:00:00.000Z",
+    "name": "Pingstafton",
+    "type": "public",
+    "rule": "easter 48",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2023-05-28 00:00:00",
     "start": "2023-05-27T22:00:00.000Z",
     "end": "2023-05-28T22:00:00.000Z",
@@ -120,7 +147,7 @@
     "date": "2023-05-28 00:00:00",
     "start": "2023-05-27T22:00:00.000Z",
     "end": "2023-05-28T22:00:00.000Z",
-    "name": "Pingst",
+    "name": "Pingstdagen",
     "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
@@ -160,6 +187,15 @@
     "type": "public",
     "rule": "saturday after 06-20",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2023-11-03 00:00:00",
+    "start": "2023-11-02T23:00:00.000Z",
+    "end": "2023-11-03T23:00:00.000Z",
+    "name": "Allhelgonaafton",
+    "type": "public",
+    "rule": "friday after 10-30",
+    "_weekday": "Fri"
   },
   {
     "date": "2023-11-04 00:00:00",
