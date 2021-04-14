@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.1.1](https://github.com/commenthol/date-holidays/compare/3.1.0...3.1.1) (2021-04-14)
+
+- fix(SE): Halloween has type observance [814674af](https://github.com/commenthol/date-holidays/commit/814674afa47b1a7286560265cdf0ec3c9acc9f42)
+
 ## [3.1.0](https://github.com/commenthol/date-holidays/compare/3.0.1...3.1.0) (2021-04-08)
 
 - docs: update supported countries and license attribution [b4191511](https://github.com/commenthol/date-holidays/commit/b41915115fe0fd9a370b78cb8a59c79e66597bf8)
