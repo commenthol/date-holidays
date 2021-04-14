@@ -193,7 +193,7 @@
     "start": "2021-11-04T23:00:00.000Z",
     "end": "2021-11-05T23:00:00.000Z",
     "name": "Allhelgonaafton",
-    "type": "public",
+    "type": "observance",
     "rule": "friday after 10-30",
     "_weekday": "Fri"
   },
