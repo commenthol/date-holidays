@@ -84,6 +84,7 @@ holidays:
         name:
           sv: Allhelgonaafton
           en: Halloween
+        type: observance
       saturday after 10-31:
         _name: 11-01
       11-06:
