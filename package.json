@@ -85,6 +85,10 @@
       "import": "./src/index.js",
       "require": "./lib/index.cjs"
     },
+    "./data": {
+      "import": "./src/data.js",
+      "require": "./lib/data.cjs"
+    },
     "./package.json": "./package.json"
   },
   "main": "./lib/index.cjs",
