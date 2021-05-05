@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.2.0](https://github.com/commenthol/date-holidays/compare/3.1.1...3.2.0) (2021-05-05)
+
+- fix: typings [c319fd01](https://github.com/commenthol/date-holidays/commit/c319fd010a81f258d45bc3bb81d60150ba5fa21d)
+- fix: export data [951fe813](https://github.com/commenthol/date-holidays/commit/951fe8137f3da07103d2d4fac046098c9874df3a)
+
 ## [3.1.1](https://github.com/commenthol/date-holidays/compare/3.1.0...3.1.1) (2021-04-14)
 
 - fix(SE): Halloween has type observance [814674af](https://github.com/commenthol/date-holidays/commit/814674afa47b1a7286560265cdf0ec3c9acc9f42)
