@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T23:00:00.000Z",
+    "end": "2017-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-01-02 00:00:00",
+    "start": "2017-01-01T23:00:00.000Z",
+    "end": "2017-01-02T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-04-17 00:00:00",
+    "start": "2017-04-16T23:00:00.000Z",
+    "end": "2017-04-17T23:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T23:00:00.000Z",
+    "end": "2017-05-01T23:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-06-25 00:00:00 -0600",
+    "start": "2017-06-24T17:00:00.000Z",
+    "end": "2017-06-25T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-08-11 00:00:00",
+    "start": "2017-08-10T23:00:00.000Z",
+    "end": "2017-08-11T23:00:00.000Z",
+    "name": "Fête Nationale (Indépendance)",
+    "type": "public",
+    "rule": "08-11 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-09-01 00:00:00 -0600",
+    "start": "2017-08-31T17:00:00.000Z",
+    "end": "2017-09-01T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-11-01 00:00:00",
+    "start": "2017-10-31T23:00:00.000Z",
+    "end": "2017-11-01T23:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-11-28 00:00:00",
+    "start": "2017-11-27T23:00:00.000Z",
+    "end": "2017-11-28T23:00:00.000Z",
+    "name": "Anniversaire de la Proclamation de la République",
+    "type": "public",
+    "rule": "11-28",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-11-30 00:00:00 -0600",
+    "start": "2017-11-29T17:00:00.000Z",
+    "end": "2017-11-30T17:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-01 00:00:00",
+    "start": "2017-11-30T23:00:00.000Z",
+    "end": "2017-12-01T23:00:00.000Z",
+    "name": "Journée de la libération et de la démocratie",
+    "type": "public",
+    "rule": "12-01 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T23:00:00.000Z",
+    "end": "2017-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]
