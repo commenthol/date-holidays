@@ -1,4 +1,6 @@
 # @attrib https://fr.wikipedia.org/wiki/Burkina_Faso#F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s
+# @source https://ambaburkina-sn.org/content/jours-f%C3%A9ri%C3%A9s
+
 holidays:
   BF:
     names:
@@ -40,6 +42,8 @@ holidays:
           en: Proclamation of the Republic
       12-25:
         _name: 12-25
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
       1 Shawwal:
         _name: 1 Shawwal
       10 Dhu al-Hijjah:
