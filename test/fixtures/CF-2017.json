@@ -54,6 +54,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2017-06-25 00:00:00 -0600",
+    "start": "2017-06-24T17:00:00.000Z",
+    "end": "2017-06-25T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2017-06-30 00:00:00",
     "start": "2017-06-29T23:00:00.000Z",
     "end": "2017-06-30T23:00:00.000Z",
@@ -79,6 +88,15 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-09-01 00:00:00 -0600",
+    "start": "2017-08-31T17:00:00.000Z",
+    "end": "2017-09-01T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-11-01 00:00:00",

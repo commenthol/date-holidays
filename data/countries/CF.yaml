@@ -43,6 +43,10 @@ holidays:
           en: Republic Day
       12-25:
         _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
     # states:
       # AC:
       #   name: Ouham
