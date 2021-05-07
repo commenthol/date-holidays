@@ -22,6 +22,8 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
+      easter 39:
+        _name: easter 39
       easter 50:
         _name: easter 50
       06-21:
