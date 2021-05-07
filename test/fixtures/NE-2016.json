@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T23:00:00.000Z",
+    "end": "2016-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-27T23:00:00.000Z",
+    "end": "2016-03-28T23:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-04-24 00:00:00",
+    "start": "2016-04-23T23:00:00.000Z",
+    "end": "2016-04-24T23:00:00.000Z",
+    "name": "Journée Nationale de la Concorde",
+    "type": "public",
+    "rule": "04-24",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T23:00:00.000Z",
+    "end": "2016-05-01T23:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-07-02 00:00:00 -0600",
+    "start": "2016-07-01T17:00:00.000Z",
+    "end": "2016-07-02T17:00:00.000Z",
+    "name": "Laylat al-Qadr",
+    "type": "public",
+    "rule": "27 Ramadan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T17:00:00.000Z",
+    "end": "2016-07-06T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-08-03 00:00:00",
+    "start": "2016-08-02T23:00:00.000Z",
+    "end": "2016-08-03T23:00:00.000Z",
+    "name": "Proclamation de l'indépendance",
+    "type": "public",
+    "rule": "08-03",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T17:00:00.000Z",
+    "end": "2016-09-11T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-10-02 00:00:00 -0600",
+    "start": "2016-10-01T17:00:00.000Z",
+    "end": "2016-10-02T17:00:00.000Z",
+    "name": "Nouvel an islamique",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-11 00:00:00 -0600",
+    "start": "2016-12-10T17:00:00.000Z",
+    "end": "2016-12-11T17:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-18 00:00:00",
+    "start": "2016-12-17T23:00:00.000Z",
+    "end": "2016-12-18T23:00:00.000Z",
+    "name": "Proclamation de la République",
+    "type": "public",
+    "rule": "12-18",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T23:00:00.000Z",
+    "end": "2016-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]

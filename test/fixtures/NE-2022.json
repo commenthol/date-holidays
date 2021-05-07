@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T23:00:00.000Z",
+    "end": "2022-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T23:00:00.000Z",
+    "end": "2022-04-18T23:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-24 00:00:00",
+    "start": "2022-04-23T23:00:00.000Z",
+    "end": "2022-04-24T23:00:00.000Z",
+    "name": "Journée Nationale de la Concorde",
+    "type": "public",
+    "rule": "04-24",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-28 00:00:00 -0600",
+    "start": "2022-04-27T17:00:00.000Z",
+    "end": "2022-04-28T17:00:00.000Z",
+    "name": "Laylat al-Qadr",
+    "type": "public",
+    "rule": "27 Ramadan",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T23:00:00.000Z",
+    "end": "2022-05-01T23:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00 -0600",
+    "start": "2022-05-01T17:00:00.000Z",
+    "end": "2022-05-02T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-07-09 00:00:00 -0600",
+    "start": "2022-07-08T17:00:00.000Z",
+    "end": "2022-07-09T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-07-30 00:00:00 -0600",
+    "start": "2022-07-29T17:00:00.000Z",
+    "end": "2022-07-30T17:00:00.000Z",
+    "name": "Nouvel an islamique",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-08-03 00:00:00",
+    "start": "2022-08-02T23:00:00.000Z",
+    "end": "2022-08-03T23:00:00.000Z",
+    "name": "Proclamation de l'indépendance",
+    "type": "public",
+    "rule": "08-03",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-10-08 00:00:00 -0600",
+    "start": "2022-10-07T17:00:00.000Z",
+    "end": "2022-10-08T17:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-12-18 00:00:00",
+    "start": "2022-12-17T23:00:00.000Z",
+    "end": "2022-12-18T23:00:00.000Z",
+    "name": "Proclamation de la République",
+    "type": "public",
+    "rule": "12-18",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T23:00:00.000Z",
+    "end": "2022-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]
