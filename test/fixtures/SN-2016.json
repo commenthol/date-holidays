@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T00:00:00.000Z",
+    "end": "2016-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-28T00:00:00.000Z",
+    "end": "2016-03-29T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-04-04 00:00:00",
+    "start": "2016-04-04T00:00:00.000Z",
+    "end": "2016-04-05T00:00:00.000Z",
+    "name": "Fête nationale",
+    "type": "public",
+    "rule": "04-04",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-05-01T00:00:00.000Z",
+    "end": "2016-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-05 00:00:00",
+    "start": "2016-05-05T00:00:00.000Z",
+    "end": "2016-05-06T00:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-05-16 00:00:00",
+    "start": "2016-05-16T00:00:00.000Z",
+    "end": "2016-05-17T00:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T18:00:00.000Z",
+    "end": "2016-07-06T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal and if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-08-15 00:00:00",
+    "start": "2016-08-15T00:00:00.000Z",
+    "end": "2016-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T18:00:00.000Z",
+    "end": "2016-09-11T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-09-12 00:00:00 -0600",
+    "start": "2016-09-11T18:00:00.000Z",
+    "end": "2016-09-12T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-10-11 00:00:00 -0600",
+    "start": "2016-10-10T18:00:00.000Z",
+    "end": "2016-10-11T18:00:00.000Z",
+    "name": "Day of Ashura",
+    "type": "public",
+    "rule": "10 Muharram",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-11-01 00:00:00",
+    "start": "2016-11-01T00:00:00.000Z",
+    "end": "2016-11-02T00:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-11-18 00:00:00 -0600",
+    "start": "2016-11-17T18:00:00.000Z",
+    "end": "2016-11-18T18:00:00.000Z",
+    "name": "Magal de Touba",
+    "type": "public",
+    "rule": "18 Safar",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-12-11 00:00:00 -0600",
+    "start": "2016-12-10T18:00:00.000Z",
+    "end": "2016-12-11T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T00:00:00.000Z",
+    "end": "2016-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]
