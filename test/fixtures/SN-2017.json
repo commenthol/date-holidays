@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2017-01-01T00:00:00.000Z",
+    "end": "2017-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-04-04 00:00:00",
+    "start": "2017-04-04T00:00:00.000Z",
+    "end": "2017-04-05T00:00:00.000Z",
+    "name": "Fête nationale",
+    "type": "public",
+    "rule": "04-04",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-04-17 00:00:00",
+    "start": "2017-04-17T00:00:00.000Z",
+    "end": "2017-04-18T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-05-01T00:00:00.000Z",
+    "end": "2017-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-25 00:00:00",
+    "start": "2017-05-25T00:00:00.000Z",
+    "end": "2017-05-26T00:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-06-05 00:00:00",
+    "start": "2017-06-05T00:00:00.000Z",
+    "end": "2017-06-06T00:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-06-25 00:00:00 -0600",
+    "start": "2017-06-24T18:00:00.000Z",
+    "end": "2017-06-25T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-06-26 00:00:00 -0600",
+    "start": "2017-06-25T18:00:00.000Z",
+    "end": "2017-06-26T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-08-15 00:00:00",
+    "start": "2017-08-15T00:00:00.000Z",
+    "end": "2017-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-09-01 00:00:00 -0600",
+    "start": "2017-08-31T18:00:00.000Z",
+    "end": "2017-09-01T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-09-30 00:00:00 -0600",
+    "start": "2017-09-29T18:00:00.000Z",
+    "end": "2017-09-30T18:00:00.000Z",
+    "name": "Day of Ashura",
+    "type": "public",
+    "rule": "10 Muharram",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-11-01 00:00:00",
+    "start": "2017-11-01T00:00:00.000Z",
+    "end": "2017-11-02T00:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-11-07 00:00:00 -0600",
+    "start": "2017-11-06T18:00:00.000Z",
+    "end": "2017-11-07T18:00:00.000Z",
+    "name": "Magal de Touba",
+    "type": "public",
+    "rule": "18 Safar",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-11-30 00:00:00 -0600",
+    "start": "2017-11-29T18:00:00.000Z",
+    "end": "2017-11-30T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-25T00:00:00.000Z",
+    "end": "2017-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]
