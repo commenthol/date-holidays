@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.3.0](https://github.com/commenthol/date-holidays/compare/3.2.0...3.3.0) (2021-05-08)
+
+- fix(CF): Add two holidays for Central African Republic [fcd5b7c7](https://github.com/commenthol/date-holidays/commit/fcd5b7c7e7be69ec4e7c242b225f4a658a762c29)
+- fix(TG): Add Ascension Day for Togo [6c1a70d8](https://github.com/commenthol/date-holidays/commit/6c1a70d8aa7ec302b1061db8c07bee5c66c46969)
+- feat(TD): new country Chad [258c8378](https://github.com/commenthol/date-holidays/commit/258c837874fb2f8c83711ad3d210052e2110f3fe)
+- feat(GN): new country Guinea [e9da83ca](https://github.com/commenthol/date-holidays/commit/e9da83ca180a4f73de2898e906ff02a57a45dd6f)
+- feat(RW): Add holidays for country Rwanda [4d0cd383](https://github.com/commenthol/date-holidays/commit/4d0cd3835493b290f6b5572cf5e6fed2d9c05c10)
+- feat(ML): Add holidays for country Mali [4b2994b7](https://github.com/commenthol/date-holidays/commit/4b2994b77b58fdad313da7e557bb3228d86c4c40)
+- feat(SN): Add holidays for country Senegal [a3de7b72](https://github.com/commenthol/date-holidays/commit/a3de7b7201ddd6c6eea5a6cdd2b5b5d64074494b)
+- feat(NE): Add holidays for country Niger [950fff26](https://github.com/commenthol/date-holidays/commit/950fff266475e573ee4525d37f0edaf0a4863f96)
+- feat(MG): Add one holiday for country Madagascar [3f6804e9](https://github.com/commenthol/date-holidays/commit/3f6804e967a55f9613611c29d9298e50b40c5b5e)
+- feat(MG): Add holidays for country Madagascar [26c2ba0b](https://github.com/commenthol/date-holidays/commit/26c2ba0bb500da95f98ec996b2e5df0a7446379c)
+- feat(TN): new country Tunisia [73b3024d](https://github.com/commenthol/date-holidays/commit/73b3024deb6c37b08c74ee4500e7c07750cfb778)
+- feat(MA): new country Morocco [2bae17bf](https://github.com/commenthol/date-holidays/commit/2bae17bf9dbc732b23da64bc904150b5323d12b8)
+
 ## [3.2.0](https://github.com/commenthol/date-holidays/compare/3.1.1...3.2.0) (2021-05-05)
 
 - fix: typings [c319fd01](https://github.com/commenthol/date-holidays/commit/c319fd010a81f258d45bc3bb81d60150ba5fa21d)
