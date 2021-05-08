@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2019-01-01T00:00:00.000Z",
+    "end": "2019-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-04-03 00:00:00",
+    "start": "2019-04-03T00:00:00.000Z",
+    "end": "2019-04-04T00:00:00.000Z",
+    "name": "Fête Nationale de la deuxième République",
+    "type": "public",
+    "rule": "04-03",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-22T00:00:00.000Z",
+    "end": "2019-04-23T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-05-01T00:00:00.000Z",
+    "end": "2019-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-05-25 00:00:00",
+    "start": "2019-05-25T00:00:00.000Z",
+    "end": "2019-05-26T00:00:00.000Z",
+    "name": "Anniversaire de l'Organisation de l'unité africaine (OUA)",
+    "type": "public",
+    "rule": "05-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-06-01 00:00:00 -0600",
+    "start": "2019-05-31T18:00:00.000Z",
+    "end": "2019-06-01T18:00:00.000Z",
+    "name": "Laylat al-Qadr",
+    "type": "public",
+    "rule": "27 Ramadan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-06-04 00:00:00 -0600",
+    "start": "2019-06-03T18:00:00.000Z",
+    "end": "2019-06-04T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-08-11 00:00:00 -0600",
+    "start": "2019-08-10T18:00:00.000Z",
+    "end": "2019-08-11T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-15T00:00:00.000Z",
+    "end": "2019-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-10-02 00:00:00",
+    "start": "2019-10-02T00:00:00.000Z",
+    "end": "2019-10-03T00:00:00.000Z",
+    "name": "Jour de l'indépendance",
+    "type": "public",
+    "rule": "10-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-11-09 00:00:00 -0600",
+    "start": "2019-11-08T18:00:00.000Z",
+    "end": "2019-11-09T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-25T00:00:00.000Z",
+    "end": "2019-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]
