@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 152
+Countries: 159
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -287,6 +287,7 @@ Countries: 152
 ├── GG: Guernsey
 ├── GI: Gibraltar
 ├── GL: Kalaallit Nunaat
+├── GN: Guinée
 ├── GP: Guadeloupe
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
@@ -315,6 +316,7 @@ Countries: 152
 ├── LT: Lietuva
 ├── LU: Luxembourg
 ├── LV: Latvija
+├── MA: Morocco
 ├── MC: Monaco
 ├── MD: Republica Moldova
 │   ├── CA: Cahul
@@ -322,12 +324,14 @@ Countries: 152
 ├── ME: Crna Gora
 ├── MG: Repoblikan'i Madagasikara
 ├── MK: Република Македонија
+├── ML: Mali
 ├── MQ: Martinique
 ├── MT: Malta
 ├── MW: Malawi
 ├── MX: México
 ├── MZ: Moçambique
 ├── NA: Namibia
+├── NE: Niger
 ├── NI: Nicaragua
 ├── NL: Nederland
 ├── NO: Norge
@@ -367,6 +371,7 @@ Countries: 152
 ├── SJ: Svalbard & Jan Mayen
 ├── SK: Slovenská republika
 ├── SM: San Marino
+├── SN: Sénégal
 ├── SO: Jamhuuriyadda Federaalka Soomaaliya
 │   ├── AW: Awdal
 │   ├── SA: Sanaag
@@ -376,7 +381,9 @@ Countries: 152
 ├── SS: South Sudan
 ├── SV: El Salvador
 │   └── SS: San Salvador
+├── TD: Tchad
 ├── TG: République togolaise
+├── TN: Tunisia
 ├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
 ├── TZ: Tanzania
