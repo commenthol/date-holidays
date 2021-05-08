@@ -45,6 +45,15 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2019-06-04 00:00:00 -0600",
+    "start": "2019-06-03T17:00:00.000Z",
+    "end": "2019-06-04T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2019-06-10 00:00:00",
     "start": "2019-06-09T23:00:00.000Z",
     "end": "2019-06-10T23:00:00.000Z",
@@ -60,6 +69,15 @@
     "name": "Journée de prière",
     "type": "public",
     "rule": "06-30",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-08-11 00:00:00 -0600",
+    "start": "2019-08-10T17:00:00.000Z",
+    "end": "2019-08-11T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
   },
   {
