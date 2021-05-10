@@ -1,0 +1,64 @@
+# @source https://psc.gov.vu/index.php/fr/jours-feries
+# @source https://www.jours-feries.com/country/Vanuatu_184.htm
+# @source http://joursferies-fr.blogspot.com/2019/02/jours-feries-vanuatu.html
+# @source https://www.vfsc.vu/wp-content/uploads/2021/01/Public-Holidays-2021.pdf
+holidays:
+  VU:
+    names:
+      en: Vanuatu
+      fr: République de Vanuatu
+    langs:
+      - fr
+      - en
+      - bi
+    zones:
+      - Pacific/Efate
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      02-21:
+        name: Mémoire du père de l'indépendance Rév. Dr. W.H. Lini
+      02-22:
+        _name: Public Holiday
+      03-05:
+        name: Fête des chefs coutumiers
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      07-24:
+        name: Journée Mondiale des Enfants
+      07-30:
+        _name: Independence Day
+      08-15:
+        _name: 08-15
+      08-16:
+        _name: Public Holiday
+      10-05:
+        _name: Constitution Day
+      10-29:
+        name: Jour de l'Unité
+      12-25:
+        _name: 12-25
+      12-26:
+        name: Fête de Famille
+      12-27:
+        _name: Public Holiday
+#    states:
+#      MAP:
+#        name: Malampa
+#      PAM:
+#        name: Penama
+#      SAM:
+#        name: Sanma
+#      SEE:
+#        name: Shefa
+#      TAE:
+#        name: Tafea
+#      TOB:
+#        name: Torba
