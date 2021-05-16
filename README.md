@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 159
+Countries: 162
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -310,6 +310,7 @@ Countries: 159
 ├── JM: Jamaica
 ├── JP: 日本
 ├── KE: Kenya
+├── KM: Union des Comores
 ├── KR: 대한민국
 ├── LI: Lichtenstein
 ├── LS: \'Muso oa Lesotho
@@ -361,6 +362,7 @@ Countries: 159
 ├── RS: Република Србија
 ├── RU: Россия
 ├── RW: Repubulika y'u Rwanda
+├── SC: République des Seychelles
 ├── SE: Sverige
 ├── SG: Singapore
 ├── SH: St. Helena
@@ -455,6 +457,7 @@ Countries: 159
 │   ├── S: Táchira
 │   └── V: Zulia
 ├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
+├── VU: République de Vanuatu
 ├── XK: Republika e Kosovës
 ├── YT: Mayotte
 ├── ZA: South Africa
