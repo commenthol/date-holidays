@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/commenthol/date-holidays/compare/3.3.0...3.4.0) (2021-05-16)
+
+- feat(SC): New country Seychelles [1f6c1215](https://github.com/commenthol/date-holidays/commit/1f6c12152beb44501b26bbbd9c86aaf0dd1a991f)
+- feat(VU): New country Vanuatu [eff90f8a](https://github.com/commenthol/date-holidays/commit/eff90f8a30a4f98ee46a61504d449dd547063817)
+- feat(KM): New country Comoros [f1cac385](https://github.com/commenthol/date-holidays/commit/f1cac385bfe2c23b48fa6d708b9ac17210b334c5)
+- fix(DJ): Add two holidays for Djibouti [7d0d8dbe](https://github.com/commenthol/date-holidays/commit/7d0d8dbe1ea31822d5a6988672bb909f32fa10d0)
+
 ## [3.3.0](https://github.com/commenthol/date-holidays/compare/3.2.0...3.3.0) (2021-05-08)
 
 - fix(CF): Add two holidays for Central African Republic [fcd5b7c7](https://github.com/commenthol/date-holidays/commit/fcd5b7c7e7be69ec4e7c242b225f4a658a762c29)
