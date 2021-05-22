@@ -171,7 +171,7 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.1.0",
+    "date-holidays-parser": "^3.2.0",
     "js-yaml": "^4.1.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
@@ -187,9 +187,9 @@
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^8.2.2",
     "dtslint": "^4.0.9",
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "hashtree": "^0.7.0",
