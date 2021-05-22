@@ -27,15 +27,18 @@ rimraf('./dist')
 
 function createConfig (options) {
   const plugins = [
-    // ---- do not bundle moment locales
     new webpack.IgnorePlugin({
-      resourceRegExp: /^\.\/locale$/,
-      contextRegExp: /moment$/
-    }),
-    // ---- do not bundle astronomia vsop planet data
-    new webpack.IgnorePlugin({
-      resourceRegExp: /^\.\/vsop87B[^e].*$/,
-      contextRegExp: /astronomia$/
+      checkResource (resource, context) {
+        // ---- do not bundle astronomia vsop planet data
+        if (/\/astronomia\/data$/.test(context)) {
+          return !['./deltat.js', './vsop87Bearth.js'].includes(resource)
+        }
+        // ---- do not bundle moment locales
+        if (/\/moment\/locale$/.test(context)) {
+          return true
+        }
+        return false
+      }
     })
     // ---- using a custom set of timezones
     // new webpack.NormalModuleReplacementPlugin(

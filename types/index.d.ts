@@ -1,5 +1,5 @@
 declare module 'date-holidays' {
-  namespace Holidays {
+  export namespace HolidaysTypes {
     export interface Country {
       /** IANA country code */
       country: string;
@@ -71,7 +71,7 @@ declare module 'date-holidays' {
   }
 
   export class HolidayRule {
-    constructor(ruleObj: Holidays.HolidayRule);
+    constructor(ruleObj: HolidaysTypes.HolidayRule);
     /**
      * disable rule in year (month)
      */
@@ -79,17 +79,17 @@ declare module 'date-holidays' {
   }
 
   export default class Holidays {
-    constructor(opts?: Holidays.Options);
-    constructor(country: Holidays.Country | string, opts?: Holidays.Options);
-    constructor(country: Holidays.Country | string, state: string, opts?: Holidays.Options);
-    constructor(country: Holidays.Country | string, state: string, region: string, opts?: Holidays.Options);
+    constructor(opts?: HolidaysTypes.Options);
+    constructor(country: HolidaysTypes.Country | string, opts?: HolidaysTypes.Options);
+    constructor(country: HolidaysTypes.Country | string, state: string, opts?: HolidaysTypes.Options);
+    constructor(country: HolidaysTypes.Country | string, state: string, region: string, opts?: HolidaysTypes.Options);
 
     /**
      * initialize holidays for a country/state/region
      */
-    init(country?: Holidays.Country | string, opts?: Holidays.Options): void;
-    init(country?: string, state?: string, opts?: Holidays.Options): void;
-    init(country?: string, state?: string, region?: string, opts?: Holidays.Options): void;
+    init(country?: HolidaysTypes.Country | string, opts?: HolidaysTypes.Options): void;
+    init(country?: string, state?: string, opts?: HolidaysTypes.Options): void;
+    init(country?: string, state?: string, region?: string, opts?: HolidaysTypes.Options): void;
 
     /**
      * set (custom) holiday
@@ -100,19 +100,19 @@ declare module 'date-holidays' {
      * @param opts.type - holiday type `public|bank|school|observance`
      * @returns `true` if holiday could be set returns `true`
      */
-    setHoliday(rule: string, opts: Holidays.HolidayOptions | string): boolean;
+    setHoliday(rule: string, opts: HolidaysTypes.HolidayOptions | string): boolean;
     /**
      * get all holidays for `year` with names using prefered `language`
      * @param [year] - if omitted current year is choosen
      * @param [language] - ISO 639-1 code for language
      * @returns of found holidays in given year sorted by Date:
      */
-    getHolidays(year?: string | number | Date, lang?: string): Holidays.Holiday[];
+    getHolidays(year?: string | number | Date, lang?: string): HolidaysTypes.Holiday[];
     /**
      * check whether `date` is a holiday or not
      * @returns of found holidays in given year sorted by Date:
      */
-    isHoliday(date: Date|string): Holidays.Holiday[] | false;
+    isHoliday(date: Date|string): HolidaysTypes.Holiday[] | false;
 
     /**
      * set or update rule

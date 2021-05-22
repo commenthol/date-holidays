@@ -93,6 +93,7 @@
     "./package.json": "./package.json"
   },
   "main": "./lib/index.cjs",
+  "module": "./src/index.js",
   "typings": "./types",
   "bin": {
     "holidays2json": "scripts/holidays2json.cjs"
@@ -170,15 +171,15 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.1.0",
+    "date-holidays-parser": "^3.2.0",
     "js-yaml": "^4.1.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "prepin": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.16",
-    "@babel/core": "^7.14.2",
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.14.2",
     "@commitlint/cli": "^11.0.0",
@@ -186,9 +187,9 @@
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^8.2.2",
     "dtslint": "^4.0.9",
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "hashtree": "^0.7.0",
@@ -200,8 +201,8 @@
     "rollup": "^2.48.0",
     "typescript": "^4.2.4",
     "watch-run": "^1.2.5",
-    "webpack": "^5.37.0",
-    "webpack-bundle-analyzer": "^4.4.1",
+    "webpack": "^5.37.1",
+    "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.0"
   },
   "engines": {
