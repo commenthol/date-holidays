@@ -635,11 +635,19 @@ Please take a look at `./webpack.config.js`. To further reduce size consider cus
 ```js
 ...
   plugins: [
-    // ---- do not bundle moment locales
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    // ---- do not bundle astronomia vsop planet data
-    new webpack.IgnorePlugin(/^\.\/vsop87B.*$/)
-    ...
+    new webpack.IgnorePlugin({
+      checkResource (resource, context) {
+        // ---- do not bundle astronomia vsop planet data
+        if (/\/astronomia\/data$/.test(context)) {
+          return !['./deltat.js', './vsop87Bearth.js'].includes(resource)
+        }
+        // ---- do not bundle moment locales
+        if (/\/moment\/locale$/.test(context)) {
+          return true
+        }
+        return false
+      }
+    })
 ```
 
 ## Browser
