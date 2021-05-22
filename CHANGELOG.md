@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.5.0](https://github.com/commenthol/date-holidays/compare/3.4.0...3.5.0) (2021-05-22)
+
+- fix: webpack exclude resources to decrease bundle sizes [9d7f0637](https://github.com/commenthol/date-holidays/commit/9d7f063767a1b21362ea614b21cffce0a06c6b12)
+- fix: ts export namespace [604474a9](https://github.com/commenthol/date-holidays/commit/604474a9152fbcaf3aa6b97b150eec50e88cf620)  
+  in your typescript project use
+
+  ```ts
+  import Holidays, { HolidaysTypes } from "date-holidays";
+  ```
+
+- fix: package.json module for angular [89b8b0bd](https://github.com/commenthol/date-holidays/commit/89b8b0bdc00c594e4c245701e5881b96b18bb75d)
+
 ## [3.4.0](https://github.com/commenthol/date-holidays/compare/3.3.0...3.4.0) (2021-05-16)
 
 - feat(SC): New country Seychelles [1f6c1215](https://github.com/commenthol/date-holidays/commit/1f6c12152beb44501b26bbbd9c86aaf0dd1a991f)
