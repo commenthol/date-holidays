@@ -1,3 +1,5 @@
+# @source https://www.public-holidays.us/FR_FR_2021_R%c3%a9union
+# @source https://www.joursferies.fr/pays/reunion.php
 holidays:
   RE:
     names:
@@ -10,5 +12,6 @@ holidays:
     dayoff: ''
     _days: FR
     days:
+      easter 49: false
       12-20:
         _name: Abolition of Slavery
