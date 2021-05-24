@@ -1,3 +1,5 @@
+# @source https://www.public-holidays.us/FR_FR_2021_Martinique
+# @source https://www.joursferies.fr/pays/martinique.php
 holidays:
   MQ:
     names:
@@ -10,8 +12,12 @@ holidays:
     dayoff: sunday
     _days: FR
     days:
+      easter 49: false
       easter -2:
         _name: easter -2
       05-22:
         _name: Abolition of Slavery
+      07-21:
+        name:
+          fr: Jour de Victor Schoelcher
       
