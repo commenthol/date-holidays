@@ -3,13 +3,14 @@ holidays:
   # @attrib https://fr.wikipedia.org/wiki/Jours_f%C3%A9ri%C3%A9s_au_Rwanda
   RW:
     names:
-      rw: Repubulika y'u Rwanda
-      fr: République du Rwanda
       en: Rwanda
+      fr: République du Rwanda
+      rw: Repubulika y'u Rwanda
     dayoff: sunday
     langs:
-      - rw
+      - en
       - fr
+      - rw
     zones:
       - Africa/Maputo
     days:
