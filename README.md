@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 162
+Countries: 163
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -273,7 +273,9 @@ Countries: 162
 │   ├── MQ: Département et région d'outre-mer Martinique
 │   ├── GP: Département et région d'outre-mer Guadeloupe
 │   ├── GF: Département et région d'outre-mer Guyane
-│   └── RE: Département et région d'outre-mer La Réunion
+│   ├── RE: Département et région d'outre-mer La Réunion
+│   ├── MF: Département et région d'outre-mer Saint Martin
+│   └── BL: Département et région d'outre-mer Saint Barthélemy
 ├── GA: Gabon
 ├── GB: United Kingdom
 │   ├── ALD: Alderney
@@ -317,22 +319,23 @@ Countries: 162
 ├── LT: Lietuva
 ├── LU: Luxembourg
 ├── LV: Latvija
-├── MA: Morocco
+├── MA: المملكة المغربية
 ├── MC: Monaco
 ├── MD: Republica Moldova
 │   ├── CA: Cahul
 │   └── CU: Chișinău
 ├── ME: Crna Gora
+├── MF: Saint Martin
 ├── MG: Repoblikan'i Madagasikara
 ├── MK: Република Македонија
-├── ML: Mali
+├── ML: République du Mali
 ├── MQ: Martinique
 ├── MT: Malta
 ├── MW: Malawi
 ├── MX: México
 ├── MZ: Moçambique
 ├── NA: Namibia
-├── NE: Niger
+├── NE: République du Niger
 ├── NI: Nicaragua
 ├── NL: Nederland
 ├── NO: Norge
@@ -361,8 +364,8 @@ Countries: 162
 ├── RO: Romania
 ├── RS: Република Србија
 ├── RU: Россия
-├── RW: Repubulika y'u Rwanda
-├── SC: République des Seychelles
+├── RW: Rwanda
+├── SC: Seychelles
 ├── SE: Sverige
 ├── SG: Singapore
 ├── SH: St. Helena
@@ -373,7 +376,7 @@ Countries: 162
 ├── SJ: Svalbard & Jan Mayen
 ├── SK: Slovenská republika
 ├── SM: San Marino
-├── SN: Sénégal
+├── SN: République du Sénégal
 ├── SO: Jamhuuriyadda Federaalka Soomaaliya
 │   ├── AW: Awdal
 │   ├── SA: Sanaag
@@ -383,9 +386,9 @@ Countries: 162
 ├── SS: South Sudan
 ├── SV: El Salvador
 │   └── SS: San Salvador
-├── TD: Tchad
+├── TD: جمهورية تشاد
 ├── TG: République togolaise
-├── TN: Tunisia
+├── TN: الجمهورية التونسية
 ├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
 ├── TZ: Tanzania
