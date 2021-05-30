@@ -66,6 +66,11 @@ holidays:
         zones:
           - Indian/Reunion
         _days: RE
+      MF:
+        name: "Département et région d'outre-mer Saint Martin"
+        zones:
+          - America/Marigot
+        _days: MF
       BL:
         name: "Département et région d'outre-mer Saint Barthélemy"
         zones:
