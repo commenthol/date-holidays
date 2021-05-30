@@ -5,10 +5,11 @@
 holidays:
   ML:
     names:
-      en: Mali
-      fr: Mali
+      fr: République du Mali
+      en: Republic of Mali
     langs:
       - fr
+      - en
     zones:
       - Africa/Abidjan
     dayoff: sunday
@@ -16,9 +17,13 @@ holidays:
       01-01:
         _name: 01-01
       01-20:
-        name: Fête de l'armée
+        name:
+          fr: Fête de l'armée
+          en: Army Day
       03-26:
-        name: Journée des Martyrs
+        name:
+          fr: Journée des Martyrs
+          en: Martyrs' Day
       easter 1:
         _name: easter 1
       05-01:
@@ -32,7 +37,9 @@ holidays:
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
       09-22:
-        name: Fête nationale de l'indépendance
+        _name: Independence Day
+        name:
+          fr: Fête nationale de l'indépendance
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
 
