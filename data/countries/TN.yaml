@@ -2,14 +2,15 @@
 # @Source https://destination-tunis.fr/informations-utiles/les-jours-feries-en-tunisie
 # @attrib https://fr.wikipedia.org/wiki/F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s_en_Tunisie
 
-
 holidays:
   TN:
     names:
+      ar: الجمهورية التونسية
+      fr: République tunisienne
       en: Tunisia
-      fr: Tunisie
     langs:
       - ar
+      - fr
     zones:
       - Africa/Tunis
     dayoff: sunday
