@@ -71,6 +71,11 @@ holidays:
         zones:
           - America/Marigot
         _days: MF
+      BL:
+        name: "Département et région d'outre-mer Saint Barthélemy"
+        zones:
+          - America/St_Barthelemy
+        _days: BL
       # name: Alsace
       '67':
         name: Département Bas-Rhin

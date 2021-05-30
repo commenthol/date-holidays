@@ -1,3 +1,5 @@
+# @source https://www.joursferies.fr/pays/guyane.php
+# @source https://www.public-holidays.us/FR_FR_2021_Guyane
 holidays:
   GF:
     names:
@@ -10,5 +12,6 @@ holidays:
     dayoff: sunday
     _days: FR
     days:
+      easter 49: false
       06-10:
         _name: Abolition of Slavery
