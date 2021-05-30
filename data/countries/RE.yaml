@@ -1,3 +1,4 @@
+# @source https://www.joursferies.fr/pays/mayotte.php
 holidays:
   RE:
     names:
@@ -10,5 +11,6 @@ holidays:
     dayoff: ''
     _days: FR
     days:
+      easter 49: false
       12-20:
         _name: Abolition of Slavery
