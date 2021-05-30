@@ -3,7 +3,7 @@
     "date": "2024-01-01 00:00:00",
     "start": "2023-12-31T23:00:00.000Z",
     "end": "2024-01-01T23:00:00.000Z",
-    "name": "Nouvel An",
+    "name": "عيد رأس السنة",
     "type": "public",
     "rule": "01-01 and if sunday then next monday",
     "_weekday": "Mon"
@@ -21,7 +21,7 @@
     "date": "2024-04-10 00:00:00 -0600",
     "start": "2024-04-09T17:00:00.000Z",
     "end": "2024-04-10T17:00:00.000Z",
-    "name": "Fête de fin du Ramadan",
+    "name": "عيد الفطر",
     "type": "public",
     "rule": "1 Shawwal",
     "_weekday": "Wed"
@@ -30,7 +30,7 @@
     "date": "2024-05-01 00:00:00",
     "start": "2024-04-30T23:00:00.000Z",
     "end": "2024-05-01T23:00:00.000Z",
-    "name": "Fête du travail",
+    "name": "يوم العمال",
     "type": "public",
     "rule": "05-01 and if sunday then next monday",
     "_weekday": "Wed"
@@ -39,7 +39,7 @@
     "date": "2024-06-16 00:00:00 -0600",
     "start": "2024-06-15T17:00:00.000Z",
     "end": "2024-06-16T17:00:00.000Z",
-    "name": "Fête du mouton",
+    "name": "عيد الأضحى",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
@@ -66,7 +66,7 @@
     "date": "2024-09-15 00:00:00 -0600",
     "start": "2024-09-14T17:00:00.000Z",
     "end": "2024-09-15T17:00:00.000Z",
-    "name": "Mawlid",
+    "name": "المولد النبويّ",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sun"
@@ -111,7 +111,7 @@
     "date": "2024-12-25 00:00:00",
     "start": "2024-12-24T23:00:00.000Z",
     "end": "2024-12-25T23:00:00.000Z",
-    "name": "Noël",
+    "name": "عيد الميلاد المجيد",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Wed"
