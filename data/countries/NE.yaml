@@ -8,8 +8,8 @@
 holidays:
   NE:
     names:
-      en: Niger
-      fr: Niger
+      fr: République du Niger
+      en: Republic of the Niger
     langs:
       - fr
     zones:
@@ -19,13 +19,19 @@ holidays:
       01-01:
         _name: 01-01
       04-24:
-        name: Journée Nationale de la Concorde
+        name:
+          fr: Journée Nationale de la Concorde
+          en: Concord Day
       05-01:
         _name: 05-01
       08-03:
-        name: Proclamation de l'indépendance
+        _name: Independence Day
+        name:
+          fr: Proclamation de l'indépendance
       12-18:
-        name: Proclamation de la République
+        name:
+          fr: Proclamation de la République
+          en: Republic Day
       12-25:
         _name: 12-25
       easter 1:

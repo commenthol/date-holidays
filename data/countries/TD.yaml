@@ -3,11 +3,12 @@
 holidays:
   TD:
     names:
+      ar: 'جمهورية تشاد'
+      fr: République du Tchad
       en: Chad
-      fr: Tchad
     langs:
-      - fr
       - ar
+      - fr
     zones:
       - Africa/Ndjamena
     dayoff: sunday
@@ -17,13 +18,19 @@ holidays:
       05-01 and if sunday then next monday:
         _name: 05-01
       08-11 and if sunday then next monday:
-        name: Fête Nationale (Indépendance)
+        name:
+          fr: Fête Nationale (Indépendance)
+          en: Independence Day
       12-01 and if sunday then next monday:
-        name: Journée de la libération et de la démocratie
+        name:
+          fr: Journée de la libération et de la démocratie
+          en: Freedom and Democracy Day
       11-01:
         _name: 11-01
       11-28:
-        name: Anniversaire de la Proclamation de la République
+        name:
+          fr: Anniversaire de la Proclamation de la République
+          en: Proclamation of the Republic
       12-25:
         _name: 12-25
       easter 1:
@@ -34,7 +41,6 @@ holidays:
         _name: 1 Shawwal
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
-
 
 #    states:
 #      BA:

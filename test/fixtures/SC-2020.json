@@ -3,7 +3,7 @@
     "date": "2020-01-01 00:00:00",
     "start": "2019-12-31T20:00:00.000Z",
     "end": "2020-01-02T20:00:00.000Z",
-    "name": "Nouvel An",
+    "name": "New Year's Day",
     "type": "public",
     "rule": "01-01 P2D",
     "_weekday": "Wed"
@@ -12,7 +12,7 @@
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-09T20:00:00.000Z",
     "end": "2020-04-10T20:00:00.000Z",
-    "name": "Vendredi saint",
+    "name": "Good Friday",
     "type": "public",
     "rule": "easter -2",
     "_weekday": "Fri"
@@ -21,7 +21,7 @@
     "date": "2020-04-11 00:00:00",
     "start": "2020-04-10T20:00:00.000Z",
     "end": "2020-04-11T20:00:00.000Z",
-    "name": "Samedi saint",
+    "name": "Easter Saturday",
     "type": "public",
     "rule": "easter -1",
     "_weekday": "Sat"
@@ -30,7 +30,7 @@
     "date": "2020-04-12 00:00:00",
     "start": "2020-04-11T20:00:00.000Z",
     "end": "2020-04-12T20:00:00.000Z",
-    "name": "Pâques",
+    "name": "Easter Sunday",
     "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
@@ -39,7 +39,7 @@
     "date": "2020-04-13 00:00:00",
     "start": "2020-04-12T20:00:00.000Z",
     "end": "2020-04-13T20:00:00.000Z",
-    "name": "Lundi de Pâques",
+    "name": "Easter Monday",
     "type": "public",
     "rule": "easter 1",
     "_weekday": "Mon"
@@ -48,7 +48,7 @@
     "date": "2020-05-01 00:00:00",
     "start": "2020-04-30T20:00:00.000Z",
     "end": "2020-05-01T20:00:00.000Z",
-    "name": "Fête du travail",
+    "name": "Labour Day",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Fri"
@@ -57,7 +57,7 @@
     "date": "2020-06-11 00:00:00",
     "start": "2020-06-10T20:00:00.000Z",
     "end": "2020-06-11T20:00:00.000Z",
-    "name": "la Fête-Dieu",
+    "name": "Corpus Christi",
     "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
@@ -66,7 +66,7 @@
     "date": "2020-06-18 00:00:00",
     "start": "2020-06-17T20:00:00.000Z",
     "end": "2020-06-18T20:00:00.000Z",
-    "name": "Fête nationale",
+    "name": "National Holiday",
     "type": "public",
     "rule": "06-18",
     "_weekday": "Thu"
@@ -75,7 +75,7 @@
     "date": "2020-06-29 00:00:00",
     "start": "2020-06-28T20:00:00.000Z",
     "end": "2020-06-29T20:00:00.000Z",
-    "name": "Jour de l'Indépendance",
+    "name": "Independence Day",
     "type": "public",
     "rule": "06-29",
     "_weekday": "Mon"
@@ -84,7 +84,7 @@
     "date": "2020-08-15 00:00:00",
     "start": "2020-08-14T20:00:00.000Z",
     "end": "2020-08-15T20:00:00.000Z",
-    "name": "Assomption",
+    "name": "Assumption",
     "type": "public",
     "rule": "08-15",
     "_weekday": "Sat"
@@ -93,7 +93,7 @@
     "date": "2020-11-01 00:00:00",
     "start": "2020-10-31T20:00:00.000Z",
     "end": "2020-11-01T20:00:00.000Z",
-    "name": "Toussaint",
+    "name": "All Saints' Day",
     "type": "public",
     "rule": "11-01",
     "_weekday": "Sun"
@@ -102,7 +102,7 @@
     "date": "2020-12-08 00:00:00",
     "start": "2020-12-07T20:00:00.000Z",
     "end": "2020-12-08T20:00:00.000Z",
-    "name": "Immaculée Conception",
+    "name": "Immaculate Conception",
     "type": "public",
     "rule": "12-08",
     "_weekday": "Tue"
@@ -111,7 +111,7 @@
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-24T20:00:00.000Z",
     "end": "2020-12-25T20:00:00.000Z",
-    "name": "Noël",
+    "name": "Christmas Day",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"

@@ -7,8 +7,8 @@
 holidays:
   GN:
     names:
-      en: Guinea
       fr: Guinée
+      en: Guinea
     langs:
       - fr
     zones:
@@ -20,11 +20,15 @@ holidays:
       easter 1:
         _name: easter 1
       04-03:
-        name: Fête Nationale de la deuxième République
+        name:
+          fr: Fête Nationale de la deuxième République
+          en: National Holiday
       05-01:
         _name: 05-01
       05-25:
-        name: Anniversaire de l'Organisation de l'unité africaine (OUA)
+        name:
+          fr: Anniversaire de l'Organisation de l'unité africaine (OUA)
+          en: Africa Day
       27 Ramadan:
         _name: 27 Ramadan
       1 Shawwal:
@@ -34,7 +38,7 @@ holidays:
       08-15:
         _name: 08-15
       10-02:
-        name: Jour de l'indépendance
+        _name: Independence Day
       12-25:
         _name: 12-25
       12 Rabi al-awwal:

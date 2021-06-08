@@ -4,15 +4,15 @@
 # @source https://www.seyvillas.com/fr/guide/at-a-glance/festivals-and-celebrations
 # @source https://www.seychelles.travel/fr/plan-your-visit/travellers-essentials/6032-public-holidays
 # @attrib https://fr.wikipedia.org/wiki/Seychelles
-
 holidays:
   SC:
     names:
       en: Seychelles
       fr: République des Seychelles
+      crs: Repiblik Sesel
     langs:
-      - fr
       - en
+      - fr
       - crs
     zones:
       - Indian/Mahe
