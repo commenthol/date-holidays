@@ -377,6 +377,7 @@ names:
       sv: Juldagen
       sw: Krismasi
       vi: Lễ Giáng Sinh
+      zh: 聖誕節
   12-26:
     name:
       en: Boxing Day
@@ -530,6 +531,7 @@ names:
       sv: Långfredagen
       sw: Ijumaa Kuu
       vi: Thứ sáu Tuần Thánh
+      zh: 耶穌受難節
   easter -1:  # Holy Saturday
     name:
       en: Easter Saturday
@@ -545,6 +547,7 @@ names:
       no: Påskeaften
       sv: Påskafton
       vi: Thứ bảy Tuần Thánh
+      zh: 耶穌受難節翌日
   easter:     # Easter
     name:
       en: Easter Sunday
@@ -582,6 +585,7 @@ names:
       sv: Påskdagen
       sw: Pasaka
       vi: Lễ Phục Sinh
+      zh: 复活节
   easter 1:   # Easter Monday
     name:
       en: Easter Monday
@@ -615,6 +619,7 @@ names:
       sv: Annandag påsk
       sw: Jumatatu ya Pasaka
       vi: Thứ hai phục sinh
+      zh: 復活節星期一
   easter 39:  # Ascension Day
     name:
       en: Ascension Day
