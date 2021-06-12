@@ -39,7 +39,7 @@ holidays:
         _name: Independence Day
       05-15:
         _name: Independence Day
-      06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday:
+      06-12:
         name:
           en: Chaco Armistice
           es: Día de la Paz del Chaco
