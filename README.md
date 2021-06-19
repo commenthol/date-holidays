@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 164
+Countries: 165
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -392,6 +392,7 @@ Countries: 164
 ├── TN: الجمهورية التونسية
 ├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
+├── TW: 中華民國
 ├── TZ: Tanzania
 ├── UA: Україна
 ├── UG: Uganda
