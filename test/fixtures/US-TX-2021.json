@@ -129,6 +129,16 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-06-18 00:00:00",
+    "start": "2021-06-18T05:00:00.000Z",
+    "end": "2021-06-19T05:00:00.000Z",
+    "name": "Juneteenth (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2021-06-19 00:00:00",
     "start": "2021-06-19T05:00:00.000Z",
     "end": "2021-06-20T05:00:00.000Z",
@@ -136,6 +146,15 @@
     "type": "observance",
     "note": "state agencies are partially staffed",
     "rule": "06-19",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-06-19 00:00:00",
+    "start": "2021-06-19T05:00:00.000Z",
+    "end": "2021-06-20T05:00:00.000Z",
+    "name": "Juneteenth",
+    "type": "public",
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
     "_weekday": "Sat"
   },
   {
