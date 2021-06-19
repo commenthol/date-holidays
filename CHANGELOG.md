@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.6.0](https://github.com/commenthol/date-holidays/compare/3.5.1...3.6.0) (2021-06-19)
+
+- fix(US): add Juneteenth ad public holiday [89c6db99](https://github.com/commenthol/date-holidays/commit/89c6db9978a224ef6b4c2cc21a2ca94a96831f86)
+- fix(CH-GL): Näfelser Fahrt and other holidays [db764462](https://github.com/commenthol/date-holidays/commit/db764462b54fa4ae713289f9a764ce3ddbc8e5b8)
+- feat(HK): New country HK [9238b082](https://github.com/commenthol/date-holidays/commit/9238b082ef12930237cb818d8e7926c1536e6826)
+
 ## [3.5.1](https://github.com/commenthol/date-holidays/compare/3.5.0...3.5.1) (2021-06-08)
 
 - docs: update countries and attribution [cce1eb6c](https://github.com/commenthol/date-holidays/commit/cce1eb6ca684650fa64170aa9357507ddb710b57)
