@@ -21,9 +21,9 @@
     "date": "2022-04-07 00:00:00",
     "start": "2022-04-06T22:00:00.000Z",
     "end": "2022-04-07T22:00:00.000Z",
-    "name": "Fahrtsfest",
+    "name": "Näfelser Fahrt",
     "type": "public",
-    "rule": "thursday after 04-01",
+    "rule": "thursday after 04-02",
     "_weekday": "Thu"
   },
   {
@@ -108,15 +108,6 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2022-09-18 00:00:00",
-    "start": "2022-09-17T22:00:00.000Z",
-    "end": "2022-09-18T22:00:00.000Z",
-    "name": "Eidg. Dank-, Buss- und Bettag",
-    "type": "public",
-    "rule": "3 sunday after 09-01",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2022-11-01 00:00:00",
     "start": "2022-10-31T23:00:00.000Z",
     "end": "2022-11-01T23:00:00.000Z",
@@ -124,6 +115,15 @@
     "type": "public",
     "rule": "11-01",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2022-12-24 00:00:00",
+    "start": "2022-12-23T23:00:00.000Z",
+    "end": "2022-12-24T23:00:00.000Z",
+    "name": "Heiliger Abend",
+    "type": "public",
+    "rule": "12-24",
+    "_weekday": "Sat"
   },
   {
     "date": "2022-12-25 00:00:00",
@@ -142,5 +142,14 @@
     "type": "public",
     "rule": "12-26",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 00:00:00",
+    "start": "2022-12-30T23:00:00.000Z",
+    "end": "2022-12-31T23:00:00.000Z",
+    "name": "Silvester",
+    "type": "public",
+    "rule": "12-31",
+    "_weekday": "Sat"
   }
 ]

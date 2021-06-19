@@ -234,6 +234,8 @@ holidays:
             _name: 12-26
             type: optional
       GL:
+        sources:
+          - https://www.gl.ch/verwaltung/staatskanzlei/oeffentliche-feiertage.html/1335
         names:
           de: Kanton Glarus
           fr: Canton de Glaris
@@ -245,12 +247,22 @@ holidays:
               de: Berchtoldstag
               fr: Saint-Berthold
             type: optional
-          thursday after 04-01:
+          # TODO: needs new rule: "Thursday after 04-02 if easter -3 then next Thursday"
+          thursday after 04-02:
             name:
-              de: Fahrtsfest
+              de: Näfelser Fahrt
               fr: Bataille de Näfels
+            disable:
+              - '2023-04-06'
+            enable:
+              - '2023-04-13'
+          3 sunday after 09-01: false
           11-01:
             _name: 11-01
+          12-24:
+            _name: 12-24
+          12-31:
+            _name: 12-31
       ZG:
         names:
           de: Kanton Zug
