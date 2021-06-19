@@ -24,7 +24,8 @@ holidays:
         _name: easter 1
       09-07:
         _name: Constitution Day
-      10-10:
+      10-10 and if Sunday then next Monday:
+        substitute: true
         name:
           en: Fiji Day
       12-25 if Sunday then next Monday:
@@ -33,6 +34,7 @@ holidays:
         _name: 12-26
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
+      # Deepavali if Saturday, Sunday then next Monday
       '2014-10-22':
         _name: Deepavali
         name:
@@ -45,11 +47,11 @@ holidays:
         _name: Deepavali
         name:
           en: Diwali
-      '2017-10-18':
+      '2017-10-19':
         _name: Deepavali
         name:
           en: Diwali
-      '2018-11-06':
+      '2018-11-07':
         _name: Deepavali
         name:
           en: Diwali
@@ -57,7 +59,17 @@ holidays:
         _name: Deepavali
         name:
           en: Diwali
+      '2019-10-28':
+        substitute: true
+        _name: Deepavali
+        name:
+          en: Diwali
       '2020-11-14':
+        _name: Deepavali
+        name:
+          en: Diwali
+      '2020-11-16':
+        substitute: true
         _name: Deepavali
         name:
           en: Diwali
@@ -73,7 +85,12 @@ holidays:
         _name: Deepavali
         name:
           en: Diwali
-      '2024-10-31':
+      '2023-11-13':
+        substitute: true
+        _name: Deepavali
+        name:
+          en: Diwali
+      '2024-11-01':
         _name: Deepavali
         name:
           en: Diwali

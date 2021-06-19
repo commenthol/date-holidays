@@ -64,23 +64,79 @@ holidays:
         enable:
           - '2015-09-24'
       # hindu holidays
-      # Holi
-      '2017-03-12':
+      # Holi substitute if Sunday then next Monday
+      '2015-03-05':
         name:
           en: Phagwah
       '2016-03-23':
         name:
           en: Phagwah
-      '2015-03-05':
+      '2017-03-12':
+        name:
+          en: Phagwah
+      '2017-03-13':
+        substitute: true
+        name:
+          en: Phagwah
+      '2018-03-02':
+        name:
+          en: Phagwah
+      '2019-03-21':
+        name:
+          en: Phagwah
+      '2020-03-10':
+        name:
+          en: Phagwah
+      '2021-03-29':
+        name:
+          en: Phagwah
+      '2022-03-18':
+        name:
+          en: Phagwah
+      '2023-03-07':
+        name:
+          en: Phagwah
+      '2024-03-25':
         name:
           en: Phagwah
       # Deepavali Day 5
-      '2017-10-18':
-        name:
-          en: Deepavali
+      # substitute if Sunday then next Monday
       '2015-11-11':
         name:
           en: Deepavali
+      '2017-10-18':
+        name:
+          en: Deepavali
+      '2018-11-07':
+        name:
+          en: Deepavali
+      '2019-10-27':
+        name:
+          en: Deepavali
+      '2019-10-28':
+        substitute: true
+        name:
+          en: Deepavali
+      '2020-11-14':
+        name:
+          en: Deepavali
+      '2021-11-04':
+        name:
+          en: Deepavali
+      '2022-10-24':
+        name:
+          en: Deepavali
+      '2023-11-12':
+        name:
+          en: Deepavali
+      '2023-11-13':
+        substitute: true
+        name:
+          en: Deepavali
+      '2024-10-31':
+        name:
+          en: Deepavali
+
     # states:
       # BA:
       #   name: Barima-Waini

@@ -57,6 +57,7 @@ holidays:
         name:
           en: Hari Raya Haji
       # @attrib https://en.wikipedia.org/wiki/Vesak
+      # date if sunday then next monday
       '2001-05-07':
         _name: Vesak
       '2002-05-27':
@@ -100,6 +101,53 @@ holidays:
         _name: Vesak
       '2020-05-07':
         _name: Vesak
+      '2021-05-26':
+        _name: Vesak
+      '2022-05-15':
+        _name: Vesak
+      '2022-05-16':
+        substitute: true
+        _name: Vesak
+      '2023-05-05':
+        _name: Vesak
+      '2024-05-23':
+        _name: Vesak
+      # Deepavali
+      # date if sunday then next monday
+      '2000-10-26':
+        _name: Deepavali
+      '2001-11-14':
+        _name: Deepavali
+      '2002-11-03':
+        _name: Deepavali
+      '2002-11-04':
+        substitute: true
+        _name: Deepavali
+      '2003-10-23':
+        _name: Deepavali
+      '2004-11-11':
+        _name: Deepavali
+      '2005-11-01':
+        _name: Deepavali
+      '2006-10-21':
+        _name: Deepavali
+      '2007-11-08':
+        _name: Deepavali
+      '2008-10-27':
+        _name: Deepavali
+      '2009-10-17':
+        _name: Deepavali
+      '2010-11-05':
+        _name: Deepavali
+      '2011-10-26':
+        _name: Deepavali
+      '2012-11-13':
+        _name: Deepavali
+      '2013-11-03':
+        _name: Deepavali
+      '2013-11-04':
+        substitute: true
+        _name: Deepavali
       '2014-10-22':
         _name: Deepavali
       '2015-11-10':
@@ -117,6 +165,27 @@ holidays:
         _name: Deepavali
       '2020-11-14':
         _name: Deepavali
+      '2021-11-04':
+        _name: Deepavali
+      '2022-10-24':
+        _name: Deepavali
+      '2023-11-13':
+        _name: Deepavali
+      '2024-10-31':
+        _name: Deepavali
+      '2025-10-20':
+        _name: Deepavali
+      '2026-11-09':
+        _name: Deepavali
+      '2027-10-28':
+        _name: Deepavali
+      '2028-11-15':
+        _name: Deepavali
+      '2029-11-05':
+        _name: Deepavali
+      '2030-10-25':
+        _name: Deepavali
+
     # states:
     #   '01':
     #     name: Central Singapore
