@@ -142,8 +142,64 @@ holidays:
       #   name: Castile and León
       # CM:
       #   name: Castile-La Mancha
-      # CN:
-      #   name: Canary Islands
+      CN:
+        names:
+          es: Islas Canarias
+          en: Canary Islands
+        zones:
+          - Atlantic/Canary
+        dayoff: sunday
+        _days: IC
+        regions:
+          EH:
+            names:
+              es: El Hierro
+            _days:
+              - IC
+              - regions
+              - EH
+          FU:
+            names:
+              es: Fuerteventura
+            _days:
+              - IC
+              - regions
+              - FU
+          GC:
+            names:
+              es: Gran Canaria
+            _days:
+              - IC
+              - regions
+              - GC
+          LG:
+            names:
+              es: La Gomera
+            _days:
+              - IC
+              - regions
+              - LG
+          LP:
+            names:
+              es: La Palma
+            _days:
+              - IC
+              - regions
+              - LP
+          LA:
+            names:
+              es: Lanzarote
+            _days:
+              - IC
+              - regions
+              - LA
+          TE:
+            names:
+              es: Tenerife
+            _days:
+              - IC
+              - regions
+              - TE
       # EX:
       #   name: Extremadura
       # GA:
