@@ -1,9 +1,0 @@
-holidays:
-  KY:
-    names:
-      en: Cayman Islands
-    langs: []
-    zones:
-      - America/Panama
-    dayoff: ''
-    days: {}
