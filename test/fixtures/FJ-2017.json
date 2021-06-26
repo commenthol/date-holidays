@@ -59,17 +59,17 @@
     "end": "2017-10-10T12:00:00.000Z",
     "name": "Fiji Day",
     "type": "public",
-    "rule": "10-10",
+    "rule": "10-10 and if Sunday then next Monday",
     "_weekday": "Tue"
   },
   {
-    "date": "2017-10-18 00:00:00",
-    "start": "2017-10-17T12:00:00.000Z",
-    "end": "2017-10-18T12:00:00.000Z",
+    "date": "2017-10-19 00:00:00",
+    "start": "2017-10-18T12:00:00.000Z",
+    "end": "2017-10-19T12:00:00.000Z",
     "name": "Diwali",
     "type": "public",
-    "rule": "2017-10-18",
-    "_weekday": "Wed"
+    "rule": "2017-10-19",
+    "_weekday": "Thu"
   },
   {
     "date": "2017-11-30 00:00:00 -0600",

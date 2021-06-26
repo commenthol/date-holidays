@@ -59,7 +59,7 @@
     "end": "2016-10-10T12:00:00.000Z",
     "name": "Fiji Day",
     "type": "public",
-    "rule": "10-10",
+    "rule": "10-10 and if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
