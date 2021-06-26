@@ -39,10 +39,15 @@ holidays:
         _name: Independence Day
       05-15:
         _name: Independence Day
-      06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday:
+      06-12:
+        # @source http://www.gacetaoficial.gov.py/index/detalle_publicacion/61071
         name:
           en: Chaco Armistice
           es: Día de la Paz del Chaco
+        disable:
+          - '2020-06-12'
+        enable:
+          - '2020-06-15'
       08-15:
         _name: 08-15
         disable:

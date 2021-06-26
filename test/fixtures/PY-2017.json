@@ -78,7 +78,7 @@
     "end": "2017-06-13T04:00:00.000Z",
     "name": "Día de la Paz del Chaco",
     "type": "public",
-    "rule": "06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday",
+    "rule": "06-12",
     "_weekday": "Mon"
   },
   {
