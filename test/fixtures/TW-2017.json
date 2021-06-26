@@ -12,7 +12,7 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-01T16:00:00.000Z",
     "end": "2017-01-02T16:00:00.000Z",
-    "name": "中華民國開國紀念日 / 元旦 (substitute day)",
+    "name": "中華民國開國紀念日 / 元旦 (更换日)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if Saturday then previous Friday if Sunday then next Monday",
