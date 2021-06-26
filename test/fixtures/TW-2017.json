@@ -1,0 +1,401 @@
+[
+  {
+    "date": "2017-01-01 00:00:00",
+    "start": "2016-12-31T16:00:00.000Z",
+    "end": "2017-01-01T16:00:00.000Z",
+    "name": "中華民國開國紀念日 / 元旦",
+    "type": "public",
+    "rule": "01-01 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-01-02 00:00:00",
+    "start": "2017-01-01T16:00:00.000Z",
+    "end": "2017-01-02T16:00:00.000Z",
+    "name": "中華民國開國紀念日 / 元旦 (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "01-01 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-01-27 00:00:00",
+    "start": "2017-01-26T16:00:00.000Z",
+    "end": "2017-01-27T16:00:00.000Z",
+    "name": "農曆除夕",
+    "type": "public",
+    "rule": "chinese 01-0-00",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-01-28 00:00:00",
+    "start": "2017-01-27T16:00:00.000Z",
+    "end": "2017-01-28T16:00:00.000Z",
+    "name": "農曆年初一",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-01-29 00:00:00",
+    "start": "2017-01-28T16:00:00.000Z",
+    "end": "2017-01-29T16:00:00.000Z",
+    "name": "農曆年初二",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-01-30 00:00:00",
+    "start": "2017-01-29T16:00:00.000Z",
+    "end": "2017-01-30T16:00:00.000Z",
+    "name": "農曆年初三",
+    "type": "public",
+    "rule": "chinese 01-0-03",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-01-31 00:00:00",
+    "start": "2017-01-30T16:00:00.000Z",
+    "end": "2017-01-31T16:00:00.000Z",
+    "name": "農曆年初四",
+    "type": "public",
+    "rule": "chinese 01-0-04",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-02-01 00:00:00",
+    "start": "2017-01-31T16:00:00.000Z",
+    "end": "2017-02-01T16:00:00.000Z",
+    "name": "农历新年假期",
+    "type": "public",
+    "rule": "chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-02-04 00:00:00",
+    "start": "2017-02-03T16:00:00.000Z",
+    "end": "2017-02-04T16:00:00.000Z",
+    "name": "農民節",
+    "type": "observance",
+    "rule": "02-04",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-02-11 00:00:00",
+    "start": "2017-02-10T16:00:00.000Z",
+    "end": "2017-02-11T16:00:00.000Z",
+    "name": "元宵節",
+    "type": "observance",
+    "rule": "chinese 01-0-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-02-11 00:00:00",
+    "start": "2017-02-10T16:00:00.000Z",
+    "end": "2017-02-11T16:00:00.000Z",
+    "name": "觀光節",
+    "type": "observance",
+    "rule": "chinese 01-0-15 #1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-02-27 00:00:00",
+    "start": "2017-02-26T16:00:00.000Z",
+    "end": "2017-02-27T16:00:00.000Z",
+    "name": "土地公誕辰",
+    "type": "observance",
+    "rule": "chinese 02-0-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-02-28 00:00:00",
+    "start": "2017-02-27T16:00:00.000Z",
+    "end": "2017-02-28T16:00:00.000Z",
+    "name": "228和平紀念日",
+    "type": "public",
+    "rule": "02-28 and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-03-08 00:00:00",
+    "start": "2017-03-07T16:00:00.000Z",
+    "end": "2017-03-08T16:00:00.000Z",
+    "name": "国际妇女节",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-03-12 00:00:00",
+    "start": "2017-03-11T16:00:00.000Z",
+    "end": "2017-03-12T16:00:00.000Z",
+    "name": "國父逝世紀念日",
+    "type": "observance",
+    "rule": "03-12",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-03-16 00:00:00",
+    "start": "2017-03-15T16:00:00.000Z",
+    "end": "2017-03-16T16:00:00.000Z",
+    "name": "觀音誕辰",
+    "type": "observance",
+    "rule": "chinese 02-0-19",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-03-29 00:00:00",
+    "start": "2017-03-28T16:00:00.000Z",
+    "end": "2017-03-29T16:00:00.000Z",
+    "name": "靑年節",
+    "type": "observance",
+    "rule": "03-29",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-04-04 00:00:00",
+    "start": "2017-04-03T16:00:00.000Z",
+    "end": "2017-04-04T16:00:00.000Z",
+    "name": "兒童節",
+    "type": "public",
+    "rule": "04-04 and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-04-04 00:00:00",
+    "start": "2017-04-03T16:00:00.000Z",
+    "end": "2017-04-04T16:00:00.000Z",
+    "name": "淸明節",
+    "type": "public",
+    "rule": "chinese 5-01 solarterm and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-04-11 00:00:00",
+    "start": "2017-04-10T16:00:00.000Z",
+    "end": "2017-04-11T16:00:00.000Z",
+    "name": "保生大帝誕辰",
+    "type": "observance",
+    "rule": "chinese 03-0-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-04-19 00:00:00",
+    "start": "2017-04-18T16:00:00.000Z",
+    "end": "2017-04-19T16:00:00.000Z",
+    "name": "媽祖誕辰",
+    "type": "observance",
+    "rule": "chinese 03-0-23",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T16:00:00.000Z",
+    "end": "2017-05-01T16:00:00.000Z",
+    "name": "勞動節",
+    "type": "observance",
+    "note": "private sector",
+    "rule": "05-01 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-03 00:00:00",
+    "start": "2017-05-02T16:00:00.000Z",
+    "end": "2017-05-03T16:00:00.000Z",
+    "name": "佛誕日",
+    "type": "observance",
+    "rule": "chinese 04-0-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-05-04 00:00:00",
+    "start": "2017-05-03T16:00:00.000Z",
+    "end": "2017-05-04T16:00:00.000Z",
+    "name": "文藝節",
+    "type": "observance",
+    "rule": "05-04",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-05-14 00:00:00",
+    "start": "2017-05-13T16:00:00.000Z",
+    "end": "2017-05-14T16:00:00.000Z",
+    "name": "母親節",
+    "type": "observance",
+    "rule": "2nd Sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-05-30 00:00:00",
+    "start": "2017-05-29T16:00:00.000Z",
+    "end": "2017-05-30T16:00:00.000Z",
+    "name": "端午節",
+    "type": "public",
+    "rule": "chinese 05-0-05 and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-06-03 00:00:00",
+    "start": "2017-06-02T16:00:00.000Z",
+    "end": "2017-06-03T16:00:00.000Z",
+    "name": "禁菸節",
+    "type": "observance",
+    "rule": "06-03",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-06-07 00:00:00",
+    "start": "2017-06-06T16:00:00.000Z",
+    "end": "2017-06-07T16:00:00.000Z",
+    "name": "城隍爺誕辰",
+    "type": "observance",
+    "rule": "chinese 05-0-13 #1",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-06-07 00:00:00",
+    "start": "2017-06-06T16:00:00.000Z",
+    "end": "2017-06-07T16:00:00.000Z",
+    "name": "關公誕辰",
+    "type": "observance",
+    "rule": "chinese 05-0-13",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-08-08 00:00:00",
+    "start": "2017-08-07T16:00:00.000Z",
+    "end": "2017-08-08T16:00:00.000Z",
+    "name": "父親節",
+    "type": "observance",
+    "rule": "08-08",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-08-28 00:00:00",
+    "start": "2017-08-27T16:00:00.000Z",
+    "end": "2017-08-28T16:00:00.000Z",
+    "name": "七夕",
+    "type": "observance",
+    "rule": "chinese 07-0-07",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-09-01 00:00:00",
+    "start": "2017-08-31T16:00:00.000Z",
+    "end": "2017-09-01T16:00:00.000Z",
+    "name": "記者節",
+    "type": "observance",
+    "rule": "09-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-09-03 00:00:00",
+    "start": "2017-09-02T16:00:00.000Z",
+    "end": "2017-09-03T16:00:00.000Z",
+    "name": "軍人節",
+    "type": "observance",
+    "rule": "09-03",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-09-05 00:00:00",
+    "start": "2017-09-04T16:00:00.000Z",
+    "end": "2017-09-05T16:00:00.000Z",
+    "name": "中元節",
+    "type": "observance",
+    "rule": "chinese 07-0-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-09-28 00:00:00",
+    "start": "2017-09-27T16:00:00.000Z",
+    "end": "2017-09-28T16:00:00.000Z",
+    "name": "孔子誕辰紀念日",
+    "type": "observance",
+    "rule": "09-28",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-10-04 00:00:00",
+    "start": "2017-10-03T16:00:00.000Z",
+    "end": "2017-10-04T16:00:00.000Z",
+    "name": "中秋節",
+    "type": "public",
+    "rule": "chinese 08-0-15 and if Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-10-10 00:00:00",
+    "start": "2017-10-09T16:00:00.000Z",
+    "end": "2017-10-10T16:00:00.000Z",
+    "name": "國慶日 / 雙十節",
+    "type": "public",
+    "rule": "10-10 and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2017-10-21 00:00:00",
+    "start": "2017-10-20T16:00:00.000Z",
+    "end": "2017-10-21T16:00:00.000Z",
+    "name": "華僑節",
+    "type": "observance",
+    "rule": "10-21",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-10-25 00:00:00",
+    "start": "2017-10-24T16:00:00.000Z",
+    "end": "2017-10-25T16:00:00.000Z",
+    "name": "臺灣光復節",
+    "type": "observance",
+    "rule": "10-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-10-28 00:00:00",
+    "start": "2017-10-27T16:00:00.000Z",
+    "end": "2017-10-28T16:00:00.000Z",
+    "name": "重陽節",
+    "type": "observance",
+    "rule": "chinese 09-0-09",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-11-12 00:00:00",
+    "start": "2017-11-11T16:00:00.000Z",
+    "end": "2017-11-12T16:00:00.000Z",
+    "name": "國父誕辰紀念日",
+    "type": "observance",
+    "note": "Also Doctors' Day and Cultural Renaissance Day",
+    "rule": "11-12",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-12-02 00:00:00",
+    "start": "2017-12-01T16:00:00.000Z",
+    "end": "2017-12-02T16:00:00.000Z",
+    "name": "賽夏節",
+    "type": "observance",
+    "rule": "chinese 10-0-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-12-21 00:00:00",
+    "start": "2017-12-20T16:00:00.000Z",
+    "end": "2017-12-21T16:00:00.000Z",
+    "name": "冬至",
+    "type": "observance",
+    "rule": "december solstice",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T16:00:00.000Z",
+    "end": "2017-12-25T16:00:00.000Z",
+    "name": "行憲紀念日",
+    "type": "observance",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]
