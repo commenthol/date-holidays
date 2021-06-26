@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.0](https://github.com/commenthol/date-holidays/compare/3.6.0...3.7.0) (2021-06-26)
+
+- fix(TW): i18n [ef7375e8](https://github.com/commenthol/date-holidays/commit/ef7375e8bc58daafd3693bf44044b30f524bab11)
+- fix(FJ,GY,SG): Vesak, Deepavali [9ed33178](https://github.com/commenthol/date-holidays/commit/9ed33178ddd6f2b6626da48833b83952898f9d79)
+- fix(HK): i18n [7dff646e](https://github.com/commenthol/date-holidays/commit/7dff646ee69750f9cb715911844db6c3288fdee9)
+- feat(TW): new country Taiwan [87a6cfd0](https://github.com/commenthol/date-holidays/commit/87a6cfd06ac215cd6195884ff12ebc12217b61cc)
+
 ## [3.6.0](https://github.com/commenthol/date-holidays/compare/3.5.1...3.6.0) (2021-06-19)
 
 - fix(US): add Juneteenth ad public holiday [89c6db99](https://github.com/commenthol/date-holidays/commit/89c6db9978a224ef6b4c2cc21a2ca94a96831f86)
