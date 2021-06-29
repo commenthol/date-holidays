@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.8.0](https://github.com/commenthol/date-holidays/compare/3.7.0...3.8.0) (2021-06-29)
+
+- feat(KY): Cayman Islands [e11f9f32](https://github.com/commenthol/date-holidays/commit/e11f9f328d6ff4334504c906450b4c678e5ee779)
+- feat(KN): St. Kitts & Nevis [664fdc2c](https://github.com/commenthol/date-holidays/commit/664fdc2c3e1cc6ea0bfa27f4761fc282b329e749)
+- feat(IC): Islas Canarias [dfa63530](https://github.com/commenthol/date-holidays/commit/dfa6353074a34fdfc0419286c2f0fb2c4c9bf9bd)
+- Merge branch 'monkeydaichan-patch-1' [e4604add](https://github.com/commenthol/date-holidays/commit/e4604adde4f4432cff34d90115f6800e2b5abb3a)
+- fix(PY): 2020 Día de la Paz del Chaco [3f78c839](https://github.com/commenthol/date-holidays/commit/3f78c839374b441fda55e271782c72ef7700a49b)
+- Update PY.yaml [5a9c9438](https://github.com/commenthol/date-holidays/commit/5a9c943838c56b9b915a1be5511e3e49d73b58b3)
+
 ## [3.7.0](https://github.com/commenthol/date-holidays/compare/3.6.0...3.7.0) (2021-06-26)
 
 - fix(TW): i18n [ef7375e8](https://github.com/commenthol/date-holidays/commit/ef7375e8bc58daafd3693bf44044b30f524bab11)
