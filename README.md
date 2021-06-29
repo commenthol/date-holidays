@@ -260,7 +260,15 @@ Countries: 165
 │   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
 │   ├── AR: Aragón
-│   └── CT: Catalonia
+│   ├── CT: Catalonia
+│   └── CN: Islas Canarias
+│       ├── EH: El Hierro
+│       ├── FU: Fuerteventura
+│       ├── GC: Gran Canaria
+│       ├── LG: La Gomera
+│       ├── LP: La Palma
+│       ├── LA: Lanzarote
+│       └── TE: Tenerife
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
 ├── FJ: Matanitu Tugalala o Viti
@@ -303,6 +311,14 @@ Countries: 165
 │   └── 19: Dubrovnik-Neretva
 ├── HT: Haïti
 ├── HU: Magyarország
+├── IC: Islas Canarias
+│   ├── EH: El Hierro
+│   ├── FU: Fuerteventura
+│   ├── GC: Gran Canaria
+│   ├── LG: La Gomera
+│   ├── LP: La Palma
+│   ├── LA: Lanzarote
+│   └── TE: Tenerife
 ├── ID: Indonesia
 ├── IE: Ireland
 ├── IM: Isle of Man

@@ -1,0 +1,176 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2015-01-01T00:00:00.000Z",
+    "end": "2015-01-02T00:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-01-06 00:00:00",
+    "start": "2015-01-06T00:00:00.000Z",
+    "end": "2015-01-07T00:00:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-03-19 00:00:00",
+    "start": "2015-03-19T00:00:00.000Z",
+    "end": "2015-03-20T00:00:00.000Z",
+    "name": "San José",
+    "type": "observance",
+    "rule": "03-19",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-02 00:00:00",
+    "start": "2015-04-01T23:00:00.000Z",
+    "end": "2015-04-02T23:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T23:00:00.000Z",
+    "end": "2015-04-03T23:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-04-05 00:00:00",
+    "start": "2015-04-04T23:00:00.000Z",
+    "end": "2015-04-05T23:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T23:00:00.000Z",
+    "end": "2015-05-01T23:00:00.000Z",
+    "name": "Fiesta del trabajo",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-03 00:00:00",
+    "start": "2015-05-02T23:00:00.000Z",
+    "end": "2015-05-03T23:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "rule": "1st sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-05-24 00:00:00",
+    "start": "2015-05-23T23:00:00.000Z",
+    "end": "2015-05-24T23:00:00.000Z",
+    "name": "Pentecostés",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-05-30 00:00:00",
+    "start": "2015-05-29T23:00:00.000Z",
+    "end": "2015-05-30T23:00:00.000Z",
+    "name": "Día de Canarias",
+    "type": "public",
+    "rule": "05-30",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-07-25 00:00:00",
+    "start": "2015-07-24T23:00:00.000Z",
+    "end": "2015-07-25T23:00:00.000Z",
+    "name": "Santiago Apostol",
+    "type": "observance",
+    "note": "regional",
+    "rule": "07-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-08-15 00:00:00",
+    "start": "2015-08-14T23:00:00.000Z",
+    "end": "2015-08-15T23:00:00.000Z",
+    "name": "Asunción",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-10-12 00:00:00",
+    "start": "2015-10-11T23:00:00.000Z",
+    "end": "2015-10-12T23:00:00.000Z",
+    "name": "Fiesta Nacional de España",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-11-01 00:00:00",
+    "start": "2015-11-01T00:00:00.000Z",
+    "end": "2015-11-02T00:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-11-02 00:00:00",
+    "start": "2015-11-02T00:00:00.000Z",
+    "end": "2015-11-03T00:00:00.000Z",
+    "name": "Todos los Santos (día sustituto)",
+    "type": "observance",
+    "substitute": true,
+    "rule": "substitutes 11-01 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-12-06 00:00:00",
+    "start": "2015-12-06T00:00:00.000Z",
+    "end": "2015-12-07T00:00:00.000Z",
+    "name": "Día de la Constitución Española",
+    "type": "public",
+    "rule": "12-06",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-12-07 00:00:00",
+    "start": "2015-12-07T00:00:00.000Z",
+    "end": "2015-12-08T00:00:00.000Z",
+    "name": "Día de la Constitución Española (día sustituto)",
+    "type": "observance",
+    "substitute": true,
+    "rule": "substitutes 12-06 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-12-08 00:00:00",
+    "start": "2015-12-08T00:00:00.000Z",
+    "end": "2015-12-09T00:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "rule": "12-08",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-25T00:00:00.000Z",
+    "end": "2015-12-26T00:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]
