@@ -51,7 +51,7 @@ holidays:
           de: Bundesfeiertag
           fr: Fête nationnale
           it: Giorno festivo federale
-      3 sunday after 09-01:
+      3rd sunday after 09-01:
         name:
           de: Eidg. Dank-, Buss- und Bettag
           fr: Jeûne fédéral
@@ -256,7 +256,7 @@ holidays:
               - '2023-04-06'
             enable:
               - '2023-04-13'
-          3 sunday after 09-01: false
+          3rd sunday after 09-01: false
           11-01:
             _name: 11-01
           12-24:
@@ -569,7 +569,7 @@ holidays:
             name:
               de: Berchtoldstag
               fr: 2 Janvier
-          monday after 3 sunday in September:
+          monday after 3rd sunday in September:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
@@ -607,7 +607,7 @@ holidays:
             _name: easter 60
           08-15:
             _name: 08-15
-          monday after 3 sunday after 09-01:
+          monday after 3rd sunday after 09-01:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
@@ -655,7 +655,7 @@ holidays:
             type: observance
           easter 60:
             _name: easter 60
-          monday after 3 sunday in September:
+          monday after 3rd sunday in September:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
@@ -682,7 +682,7 @@ holidays:
               de: Berchtoldstag
               fr: 2 Janvier
             type: bank
-          thursday after 1 sunday after 09-01:
+          thursday after 1st sunday after 09-01:
             name:
               de: Genfer Bettag
               fr: Jeûne Genevois

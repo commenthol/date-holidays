@@ -22,7 +22,7 @@ holidays:
         name:
           sv: Tjugondag Knut
         type: observance
-      sunday in March:
+      1st sunday in March:
         name:
           sv: Vasaloppet
         type: observance
