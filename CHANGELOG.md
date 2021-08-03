@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.8.1](https://github.com/commenthol/date-holidays/compare/3.8.0...3.8.1) (2021-08-03)
+
+- test(AS,CH,EG,GU,IS,SE,US): fix test cases [6b4b6100](https://github.com/commenthol/date-holidays/commit/6b4b610058fd47e02b3d4b9a0b1ce573a1d83137)
+- Fix some illegal dates [be9b045e](https://github.com/commenthol/date-holidays/commit/be9b045e5751a72258437e4f35f71c02a77b1df0)
+
 ## [3.8.0](https://github.com/commenthol/date-holidays/compare/3.7.0...3.8.0) (2021-06-29)
 
 - feat(KY): Cayman Islands [e11f9f32](https://github.com/commenthol/date-holidays/commit/e11f9f328d6ff4334504c906450b4c678e5ee779)
