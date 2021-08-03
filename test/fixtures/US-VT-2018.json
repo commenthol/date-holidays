@@ -122,7 +122,7 @@
     "end": "2018-09-04T04:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

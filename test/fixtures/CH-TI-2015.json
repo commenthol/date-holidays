@@ -140,7 +140,7 @@
     "end": "2015-09-20T22:00:00.000Z",
     "name": "Digiuno federale",
     "type": "public",
-    "rule": "3 sunday after 09-01",
+    "rule": "3rd sunday after 09-01",
     "_weekday": "Sun"
   },
   {
