@@ -41,7 +41,7 @@
     "end": "2021-03-07T23:00:00.000Z",
     "name": "Vasaloppet",
     "type": "observance",
-    "rule": "sunday in March",
+    "rule": "1st sunday in March",
     "_weekday": "Sun"
   },
   {

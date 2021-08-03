@@ -143,7 +143,7 @@
     "end": "2021-09-07T11:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

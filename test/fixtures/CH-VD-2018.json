@@ -104,7 +104,7 @@
     "end": "2018-09-16T22:00:00.000Z",
     "name": "Jeûne fédéral",
     "type": "public",
-    "rule": "3 sunday after 09-01",
+    "rule": "3rd sunday after 09-01",
     "_weekday": "Sun"
   },
   {
@@ -113,7 +113,7 @@
     "end": "2018-09-17T22:00:00.000Z",
     "name": "Lundi du Jeûne Fédéral",
     "type": "public",
-    "rule": "monday after 3 sunday in September",
+    "rule": "monday after 3rd sunday in September",
     "_weekday": "Mon"
   },
   {

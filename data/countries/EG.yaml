@@ -25,11 +25,11 @@ holidays:
           en: Sinai Liberation Day
       05-01:
         _name: 05-01
-      30-06:
+      06-30:
         name:
           ar: 'عيد ثورة 30 يونيو'
           en: 30 June Day
-      23-07:
+      07-23:
         _name: Revolution Day
       10-06:
         name:
