@@ -31,7 +31,6 @@ holidays:
           en: Early May bank holiday
         disable:
           - '2020-05-04'
-          - '2022-05-02' # moved to 2022-06-02
       # applies to GG, JE, IM as well
       # @source https://www.itv.com/news/channel/2019-07-19/guernsey-will-have-a-bank-holiday-on-friday-8-may-2020/
       # @source https://www.itv.com/news/channel/2019-06-13/extra-bank-holiday-proposed-for-ve-day-75-in-jersey/
@@ -48,6 +47,8 @@ holidays:
       1st monday before 06-01:
         name:
           en: Spring bank holiday
+        disable:
+          - '2022-05-30' # was moved to 2022-06-02
       12-25:
         _name: 12-25
       substitutes 12-25 if saturday then next tuesday:
