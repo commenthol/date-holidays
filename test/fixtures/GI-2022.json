@@ -91,6 +91,24 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2022-06-02 00:00:00",
+    "start": "2022-06-01T22:00:00.000Z",
+    "end": "2022-06-02T22:00:00.000Z",
+    "name": "Queen’s Platinum Jubilee",
+    "type": "public",
+    "rule": "2022-06-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-03 00:00:00",
+    "start": "2022-06-02T22:00:00.000Z",
+    "end": "2022-06-03T22:00:00.000Z",
+    "name": "Queen’s Platinum Jubilee",
+    "type": "public",
+    "rule": "2022-06-03",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2022-06-13 00:00:00",
     "start": "2022-06-12T22:00:00.000Z",
     "end": "2022-06-13T22:00:00.000Z",
