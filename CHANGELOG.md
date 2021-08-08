@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.8.2](https://github.com/commenthol/date-holidays/compare/3.8.1...3.8.2) (2021-08-08)
+
+- fix(GB,GG,GI,IM,JE): Queen’s Platinum Jubilee [cd415972](https://github.com/commenthol/date-holidays/commit/cd4159725ac3e6c6ac9513f934c1d2e6c54d0189)
+- chore: update travis badge [19f66753](https://github.com/commenthol/date-holidays/commit/19f667531de197210ae4bf35ec9c6da4470d5ab5)
+
 ## [3.8.1](https://github.com/commenthol/date-holidays/compare/3.8.0...3.8.1) (2021-08-03)
 
 - test(AS,CH,EG,GU,IS,SE,US): fix test cases [6b4b6100](https://github.com/commenthol/date-holidays/commit/6b4b610058fd47e02b3d4b9a0b1ce573a1d83137)
