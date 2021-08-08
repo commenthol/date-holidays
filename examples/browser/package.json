@@ -5,13 +5,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "hs -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify -o index.js test.js"
   },
   "author": "commenthol <commenthol@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^14.4.0",
-    "date-holidays-ical": "^0.1.2"
+    "browserify": "^17.0.0",
+    "date-holidays-ical": "^2.0.0"
   }
 }
