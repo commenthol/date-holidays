@@ -111,20 +111,10 @@
     "date": "2016-12-27 00:00:00",
     "start": "2016-12-27T00:00:00.000Z",
     "end": "2016-12-28T00:00:00.000Z",
-    "name": "Boxing Day (substitute day)",
-    "type": "public",
-    "substitute": true,
-    "rule": "substitutes 12-26 if sunday then next monday if monday then next tuesday",
-    "_weekday": "Tue"
-  },
-  {
-    "date": "2016-12-27 00:00:00",
-    "start": "2016-12-27T00:00:00.000Z",
-    "end": "2016-12-28T00:00:00.000Z",
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
-    "rule": "substitutes 12-25 if sunday then next tuesday",
+    "rule": "substitutes 12-25 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]
