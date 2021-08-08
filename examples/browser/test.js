@@ -101,7 +101,7 @@
 
   function SelectState () {
     const hd = new Holidays()
-    const options = hd.getStates(g.country)
+    const options = hd.getStates(g.country, g.language)
     const selected = g.state = options && options[g.state] ? g.state : ''
     n.state = options && options[g.state]
     return h(Select, { options, selected, id: 'state' })
@@ -109,7 +109,7 @@
 
   function SelectRegion () {
     const hd = new Holidays()
-    const options = hd.getRegions(g.country, g.state)
+    const options = hd.getRegions(g.country, g.state, g.language)
     const selected = g.region = options && options[g.region] ? g.region : ''
     n.state = options && options[g.region]
     return h(Select, { options, selected, id: 'region' })
