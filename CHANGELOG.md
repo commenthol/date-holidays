@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.8.3](https://github.com/commenthol/date-holidays/compare/3.8.2...3.8.3) (2021-08-08)
+
+- fix(GB,GG,GI,IM,JE): christmas substitution days [6e8d61f3](https://github.com/commenthol/date-holidays/commit/6e8d61f382ab39ef3216f7bc7526323f8abaa89c)
+- fix(GB,GG,GI,IM,JE): Replace Early May with Spring bank holiday [36ac1c3c](https://github.com/commenthol/date-holidays/commit/36ac1c3cc85eb1ea1016e50f53e3ca185b3daf69)
+
 ## [3.8.2](https://github.com/commenthol/date-holidays/compare/3.8.1...3.8.2) (2021-08-08)
 
 - fix(GB,GG,GI,IM,JE): Queen’s Platinum Jubilee [cd415972](https://github.com/commenthol/date-holidays/commit/cd4159725ac3e6c6ac9513f934c1d2e6c54d0189)
