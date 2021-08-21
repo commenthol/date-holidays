@@ -32,7 +32,6 @@ holidays:
       easter:
         _name: easter
         type: observance
-      easter 49: false
       08-24:
         name:
           fr: Fête de Saint Barthélemy

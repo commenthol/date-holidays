@@ -11,6 +11,5 @@ holidays:
     dayoff: sunday
     _days: FR
     days:
-      easter 49: false
       04-27:
         _name: Abolition of Slavery
