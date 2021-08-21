@@ -21,4 +21,5 @@ CONTRIBUTING.md
 .*
 package-lock.json
 yarn.lock
-webpack.config.js
+webpack.config.cjs
+commitlint.config.cjs
