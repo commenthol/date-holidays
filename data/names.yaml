@@ -798,6 +798,9 @@ names:
       ms: Hari Pertama Berpuasa
       nl: Eerste dag van Ramadan
       sq: Dita e parë e agjërimit
+  23 Ramadan: # Revelation of the Quaran
+    name:
+      en: Lailat al-Qadr
   27 Ramadan: # Laylat al-Qadr (Night of Power)
     name:
       en: Laylat al-Qadr
