@@ -1,0 +1,159 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T00:00:00.000Z",
+    "end": "2016-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-06 00:00:00",
+    "start": "2016-03-06T00:00:00.000Z",
+    "end": "2016-03-07T00:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "03-06 and if Saturday, Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-03-07 00:00:00",
+    "start": "2016-03-07T00:00:00.000Z",
+    "end": "2016-03-08T00:00:00.000Z",
+    "name": "Independence Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "03-06 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T00:00:00.000Z",
+    "end": "2016-03-26T00:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T00:00:00.000Z",
+    "end": "2016-03-28T00:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-28T00:00:00.000Z",
+    "end": "2016-03-29T00:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-05-01T00:00:00.000Z",
+    "end": "2016-05-02T00:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-02T00:00:00.000Z",
+    "end": "2016-05-03T00:00:00.000Z",
+    "name": "Labour Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "05-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T18:00:00.000Z",
+    "end": "2016-07-06T18:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-08-04 00:00:00",
+    "start": "2016-08-04T00:00:00.000Z",
+    "end": "2016-08-05T00:00:00.000Z",
+    "name": "Founders Day",
+    "type": "public",
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T18:00:00.000Z",
+    "end": "2016-09-11T18:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if Saturday, Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-09-12 00:00:00 -0600",
+    "start": "2016-09-11T18:00:00.000Z",
+    "end": "2016-09-12T18:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha) (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10 Dhu al-Hijjah and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-09-21 00:00:00",
+    "start": "2016-09-21T00:00:00.000Z",
+    "end": "2016-09-22T00:00:00.000Z",
+    "name": "Kwame Nkrumah Memorial Day",
+    "type": "public",
+    "rule": "09-21 and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-12-02 00:00:00",
+    "start": "2016-12-02T00:00:00.000Z",
+    "end": "2016-12-03T00:00:00.000Z",
+    "name": "Farmers Day",
+    "type": "public",
+    "rule": "1st Friday in December since 1988",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T00:00:00.000Z",
+    "end": "2016-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-26T00:00:00.000Z",
+    "end": "2016-12-27T00:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-12-27 00:00:00",
+    "start": "2016-12-27T00:00:00.000Z",
+    "end": "2016-12-28T00:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Tue"
+  }
+]
