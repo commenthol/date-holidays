@@ -47,9 +47,11 @@ holidays:
       3rd monday in January:
         name:
           en: Martin Luther King Jr. Day
+          es: Natalicio de Martin Luther King, Jr.
       3rd monday in February:
         name:
           en: Washington's Birthday
+          es: Día de los Presidentes
       02-14:
         _name: 02-14
         type: observance
@@ -71,6 +73,7 @@ holidays:
       monday before 06-01:
         name:
           en: Memorial Day
+          es: Recordación de los Muertos de la Guerra
       06-19 and if sunday then next monday if saturday then previous friday since 2021:
         # @source https://www.congress.gov/bill/117th-congress/senate-bill/475
         substitute: true
@@ -87,6 +90,7 @@ holidays:
       2nd monday in October:
         name:
           en: Columbus Day
+          es: Descubrimiento de América
       10-31 18:00:
         name:
           en: Halloween
@@ -94,11 +98,13 @@ holidays:
       11-11:
         name:
           en: Veterans Day
+          es: Día del Veterano
       # @source https://www.federalreserve.gov/aboutthefed/k8.htm
       substitutes 11-11 if sunday then next monday if saturday then previous friday:
         substitute: true
         name:
           en: Veterans Day
+          es: Día del Veterano
         type: bank
         note: Federal Government offices are closed
       tuesday after 1st monday in November every 4 years since 1848:
@@ -108,9 +114,11 @@ holidays:
       4th thursday in November:
         name:
           en: Thanksgiving Day
+          es: Acción de Gracias
       friday after 4th thursday in November:
         name:
           en: Day after Thanksgiving Day
+          es: Dia despues Acción de Gracias
         type: observance
       12-24:
         _name: 12-24
