@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 169
+Countries: 177
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -380,6 +380,7 @@ Countries: 169
 ├── PH: Philippines
 ├── PL: Polska
 ├── PM: St. Pierre & Miquelon
+├── PR: Puerto Rico
 ├── PT: Portugal
 ├── PY: Paraguay
 ├── RE: Réunion
@@ -416,6 +417,7 @@ Countries: 169
 ├── TN: الجمهورية التونسية
 ├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
+├── TT: Trinidad & Tobago
 ├── TW: 中華民國
 ├── TZ: Tanzania
 ├── UA: Україна
@@ -476,6 +478,7 @@ Countries: 169
 │   └── WY: Wyoming
 ├── UY: Uruguay
 ├── VA: Stato della Città del Vaticano
+├── VC: St. Vincent & Grenadines
 ├── VE: Venezuela
 │   ├── B: Anzoátegui
 │   ├── G: Carabobo

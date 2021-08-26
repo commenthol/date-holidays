@@ -1,0 +1,139 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T04:00:00.000Z",
+    "end": "2016-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-14 00:00:00",
+    "start": "2016-03-14T04:00:00.000Z",
+    "end": "2016-03-15T04:00:00.000Z",
+    "name": "National Hero′s Day",
+    "type": "public",
+    "rule": "03-14 and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T04:00:00.000Z",
+    "end": "2016-03-26T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T04:00:00.000Z",
+    "end": "2016-03-28T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-28T04:00:00.000Z",
+    "end": "2016-03-29T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-05-01T04:00:00.000Z",
+    "end": "2016-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-02T04:00:00.000Z",
+    "end": "2016-05-03T04:00:00.000Z",
+    "name": "Labour Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "05-01 and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-16 00:00:00",
+    "start": "2016-05-16T04:00:00.000Z",
+    "end": "2016-05-17T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-07-04 00:00:00",
+    "start": "2016-07-04T04:00:00.000Z",
+    "end": "2016-07-05T04:00:00.000Z",
+    "name": "Carnival Monday",
+    "type": "public",
+    "rule": "1st Monday in July",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-07-05 00:00:00",
+    "start": "2016-07-05T04:00:00.000Z",
+    "end": "2016-07-06T04:00:00.000Z",
+    "name": "Carnival Tuesday",
+    "type": "public",
+    "rule": "Tuesday after 1st Monday in July",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-08-01 00:00:00",
+    "start": "2016-08-01T04:00:00.000Z",
+    "end": "2016-08-02T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "rule": "08-01 and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-10-27 00:00:00",
+    "start": "2016-10-27T04:00:00.000Z",
+    "end": "2016-10-28T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "10-27 and if Sunday then next Monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T04:00:00.000Z",
+    "end": "2016-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Sunday then next Tuesday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-26T04:00:00.000Z",
+    "end": "2016-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-12-27 00:00:00",
+    "start": "2016-12-27T04:00:00.000Z",
+    "end": "2016-12-28T04:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if Sunday then next Tuesday",
+    "_weekday": "Tue"
+  }
+]
