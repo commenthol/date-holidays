@@ -6,5 +6,6 @@ holidays:
       - fr
     zones:
       - America/Miquelon
-    dayoff: ''
+    dayoff: sunday
     days: {}
+    _days: FR
