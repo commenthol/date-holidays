@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.8.4](https://github.com/commenthol/date-holidays/compare/3.8.3...3.8.4) (2021-08-26)
+
+- fix(CN): public holidays [f63c3f01](https://github.com/commenthol/date-holidays/commit/f63c3f018e86b738bb357af9807541bba9ae59bf)
+- fix(FR): pentecost is not a public holiday [045b3019](https://github.com/commenthol/date-holidays/commit/045b3019e7c78e90b542268f21da804bd902df6a)
+- test(example): pass on language [454f40f0](https://github.com/commenthol/date-holidays/commit/454f40f052d4984520592ba1b03296bcfbd0496e)
+
 ## [3.8.3](https://github.com/commenthol/date-holidays/compare/3.8.2...3.8.3) (2021-08-08)
 
 - fix(GB,GG,GI,IM,JE): christmas substitution days [6e8d61f3](https://github.com/commenthol/date-holidays/commit/6e8d61f382ab39ef3216f7bc7526323f8abaa89c)
