@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 179
+Countries: 180
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -256,6 +256,7 @@ Countries: 179
 │       └── QU: Quito
 ├── EE: Eesti
 ├── EG: جمهورية مصر العربية
+├── ER: Eritrea
 ├── ES: España
 │   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía

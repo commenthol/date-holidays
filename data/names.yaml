@@ -56,6 +56,7 @@ names:
       sr: Нова година
       sv: Nyårsdagen
       sw: Mwaka mpya
+      ti: ሓዲሽ ዓመት
       tr: Yılbaşı
       uk: Новий Рік
       vi: Tết Dương lịch
@@ -84,6 +85,7 @@ names:
       pl: Święto Trzech Króli
       sk: Zjavenie Pána
       sv: Trettondedag jul
+      ti: ጥምቀት
       vi: Lễ Hiển Linh
   02-02:
     name:
@@ -106,6 +108,7 @@ names:
       az: Qadınlar günü
       be: Мiжнародны жаночы дзень
       bg: Ден на жената
+      de: Internationaler Frauentag
       fr: Journée internationale des femmes
       ge: ქალთა საერთაშორისო დღე
       hu: Nemzetközi nőnap
@@ -118,7 +121,7 @@ names:
       uk: Міжнародний жіночий день
       vi: Quốc tế Phụ nữ
       zh: 国际妇女节
-      de: Internationaler Frauentag
+      ti: መዓልቲ ኣነስቲ
   03-19:
     name:
       en: Saint Joseph
@@ -175,6 +178,7 @@ names:
       sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
       sv: Första Maj
+      ti: የላብ አደሮች ቀን
       uk: День міжнародної солідарності трудящих
       vi: Quốc tế Lao động
       zh: 劳动节
@@ -378,6 +382,7 @@ names:
       sv: Juldagen
       sw: Krismasi
       vi: Lễ Giáng Sinh
+      ti: ልደት
       zh: 聖誕節
   12-26:
     name:
@@ -707,6 +712,7 @@ names:
       en: Orthodox Christmas Eve
       nl: Orthodox Kerstavond
       mk: Бадник
+      ti: ልደት
   julian 12-25:
     name:
       en: Orthodox Christmas
@@ -724,6 +730,7 @@ names:
       mk: Велики Петок
       nl: Orthodoxe Goede vrijdag
       sr: Велики петак
+      ti: ዓርቢ ስቅለት
   orthodox:
     name:
       en: Orthodox Easter
@@ -733,6 +740,7 @@ names:
       nl: Orthodox Pasen
       sq: Pashkët Ortodokse
       sr: Васкрс
+      ti: ፋሲካ
       uk: Великдень
   orthodox 1:
     name:
@@ -808,7 +816,7 @@ names:
       bs: Lejletul kadr
       nl: Waardevolle Nacht (Laylat al-Qadr)
       sq: Nata e Kadrit
-  1 Shawwal:  # End of Ramadan
+  1 Shawwal:  # End of Ramadan (Eid al-Fitr)
     name:
       en: End of Ramadan (Eid al-Fitr)
       am: ዒድ አል ፈጥር
@@ -832,7 +840,7 @@ names:
     name:
       en: Arafat Day
       ar: يوم عرفة
-  10 Dhu al-Hijjah: # Feast of the Sacrifice
+  10 Dhu al-Hijjah: # Feast of the Sacrifice (Eid al-Adha)
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
       am: ዒድ አል አድሐ
@@ -959,6 +967,7 @@ names:
       sr: Дан независности
       sv: Självständighetsdagen
       sw: Siku ya uhuru
+      ti: መዓልቲ ናጽነት
       uk: День Незалежності
       vi: Ngày Độc lập
   Liberation Day:
@@ -1025,6 +1034,7 @@ names:
       ar: 'يوم الثورة'
       es: Día de la Revolución
       nl: Dag van de revolutie
+      ti: ባሕቲ መስከረም
       vi: Tổng khởi nghĩa
 
   # internal use
