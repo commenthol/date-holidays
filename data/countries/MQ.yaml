@@ -12,7 +12,6 @@ holidays:
     dayoff: sunday
     _days: FR
     days:
-      easter 49: false
       easter -2:
         _name: easter -2
       05-22:

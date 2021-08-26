@@ -1,5 +1,5 @@
 holidays:
-  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Frankreich
+  # @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#France
   FR:
     names:
       fr: France
@@ -24,6 +24,7 @@ holidays:
         _name: easter 39
       easter 49:
         _name: easter 49
+        type: observance
       easter 50:
         _name: easter 50
       sunday before 06-01:

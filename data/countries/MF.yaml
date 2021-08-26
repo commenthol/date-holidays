@@ -12,7 +12,6 @@ holidays:
     dayoff: sunday
     _days: FR
     days:
-      easter 49: false
       05-27:
         name:
           fr: Abolition de l'esclavage
