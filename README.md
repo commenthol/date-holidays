@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 177
+Countries: 178
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -488,6 +488,7 @@ Countries: 177
 │   ├── N: Monagas
 │   ├── S: Táchira
 │   └── V: Zulia
+├── VI: U.S. Virgin Islands
 ├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
 ├── VU: République de Vanuatu
 ├── XK: Republika e Kosovës
