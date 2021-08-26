@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 169
+Countries: 170
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -403,6 +403,7 @@ Countries: 169
 │   ├── TO: Togdheer
 │   └── WO: Woqooyi Galbeed
 ├── SS: South Sudan
+├── ST: São Tomé & Príncipe
 ├── SV: El Salvador
 │   └── SS: San Salvador
 ├── SZ: Eswatini
