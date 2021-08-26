@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T22:00:00.000Z",
+    "end": "2023-01-01T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-07 00:00:00",
+    "start": "2023-01-06T22:00:00.000Z",
+    "end": "2023-01-07T22:00:00.000Z",
+    "name": "Coptic Christmas",
+    "type": "public",
+    "rule": "julian 12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-04-16 00:00:00",
+    "start": "2023-04-15T22:00:00.000Z",
+    "end": "2023-04-16T22:00:00.000Z",
+    "name": "Coptic Easter",
+    "type": "public",
+    "rule": "orthodox",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-21 00:00:00 -0600",
+    "start": "2023-04-20T16:00:00.000Z",
+    "end": "2023-04-24T16:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal P4D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-06-28 00:00:00 -0600",
+    "start": "2023-06-27T16:00:00.000Z",
+    "end": "2023-06-30T16:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P3D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-07-19 00:00:00 -0600",
+    "start": "2023-07-18T16:00:00.000Z",
+    "end": "2023-07-19T16:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-09-27 00:00:00 -0600",
+    "start": "2023-09-26T16:00:00.000Z",
+    "end": "2023-09-27T16:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-19 00:00:00",
+    "start": "2023-12-18T22:00:00.000Z",
+    "end": "2023-12-19T22:00:00.000Z",
+    "name": "Revolution Day",
+    "type": "public",
+    "rule": "12-19",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T22:00:00.000Z",
+    "end": "2023-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]
