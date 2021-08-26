@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2017-12-31T23:00:00.000Z",
+    "end": "2018-01-01T23:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-29T23:00:00.000Z",
+    "end": "2018-03-30T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-04-01 00:00:00",
+    "start": "2018-03-31T23:00:00.000Z",
+    "end": "2018-04-01T23:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-04-02 00:00:00",
+    "start": "2018-04-01T23:00:00.000Z",
+    "end": "2018-04-02T23:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-04-30T23:00:00.000Z",
+    "end": "2018-05-01T23:00:00.000Z",
+    "name": "Worker's Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-05-27 00:00:00",
+    "start": "2018-05-26T23:00:00.000Z",
+    "end": "2018-05-27T23:00:00.000Z",
+    "name": "Children's Day",
+    "type": "public",
+    "rule": "05-27",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-06-12 00:00:00",
+    "start": "2018-06-11T23:00:00.000Z",
+    "end": "2018-06-12T23:00:00.000Z",
+    "name": "Democracy Day",
+    "type": "public",
+    "rule": "06-12 and if Saturday then next Monday since 2018",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-06-15 00:00:00 -0600",
+    "start": "2018-06-14T17:00:00.000Z",
+    "end": "2018-06-16T17:00:00.000Z",
+    "name": "Id el Fitr",
+    "type": "public",
+    "rule": "1 Shawwal P2D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-08-21 00:00:00 -0600",
+    "start": "2018-08-20T17:00:00.000Z",
+    "end": "2018-08-22T17:00:00.000Z",
+    "name": "Id el Kabir",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P2D",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-09-11 00:00:00 -0600",
+    "start": "2018-09-10T17:00:00.000Z",
+    "end": "2018-09-11T17:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-10-01 00:00:00",
+    "start": "2018-09-30T23:00:00.000Z",
+    "end": "2018-10-01T23:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "10-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-11-20 00:00:00 -0600",
+    "start": "2018-11-19T17:00:00.000Z",
+    "end": "2018-11-20T17:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-24T23:00:00.000Z",
+    "end": "2018-12-25T23:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-26 00:00:00",
+    "start": "2018-12-25T23:00:00.000Z",
+    "end": "2018-12-26T23:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-12-31 00:00:00",
+    "start": "2018-12-30T23:00:00.000Z",
+    "end": "2018-12-31T23:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Mon"
+  }
+]

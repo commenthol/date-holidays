@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T23:00:00.000Z",
+    "end": "2016-01-01T23:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-24T23:00:00.000Z",
+    "end": "2016-03-25T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-26T23:00:00.000Z",
+    "end": "2016-03-27T23:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-27T23:00:00.000Z",
+    "end": "2016-03-28T23:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T23:00:00.000Z",
+    "end": "2016-05-01T23:00:00.000Z",
+    "name": "Worker's Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-27 00:00:00",
+    "start": "2016-05-26T23:00:00.000Z",
+    "end": "2016-05-27T23:00:00.000Z",
+    "name": "Children's Day",
+    "type": "public",
+    "rule": "05-27",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-05-29 00:00:00",
+    "start": "2016-05-28T23:00:00.000Z",
+    "end": "2016-05-29T23:00:00.000Z",
+    "name": "Democracy Day",
+    "type": "public",
+    "rule": "05-29 prior to 2018",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-06-12 00:00:00",
+    "start": "2016-06-11T23:00:00.000Z",
+    "end": "2016-06-12T23:00:00.000Z",
+    "name": "M.K.O Abiola Day",
+    "type": "public",
+    "rule": "06-12 prior to 2018",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T17:00:00.000Z",
+    "end": "2016-07-07T17:00:00.000Z",
+    "name": "Id el Fitr",
+    "type": "public",
+    "rule": "1 Shawwal P2D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T17:00:00.000Z",
+    "end": "2016-09-12T17:00:00.000Z",
+    "name": "Id el Kabir",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P2D",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-10-01 00:00:00",
+    "start": "2016-09-30T23:00:00.000Z",
+    "end": "2016-10-01T23:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "10-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-10-02 00:00:00 -0600",
+    "start": "2016-10-01T17:00:00.000Z",
+    "end": "2016-10-02T17:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-11 00:00:00 -0600",
+    "start": "2016-12-10T17:00:00.000Z",
+    "end": "2016-12-11T17:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T23:00:00.000Z",
+    "end": "2016-12-25T23:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T23:00:00.000Z",
+    "end": "2016-12-26T23:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-12-31 00:00:00",
+    "start": "2016-12-30T23:00:00.000Z",
+    "end": "2016-12-31T23:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Sat"
+  }
+]
