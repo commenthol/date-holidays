@@ -883,10 +883,15 @@ names:
   Deepavali:
     name:
       en: Deepavali
+      nl: Divali
   Vesak:
     name:
       en: Vesak Day
       id: Hari Raya Waisak
+  Holi:
+    name:
+      en: Holi Phagwa
+      nl: Holi-Phagwa
 
   # Day references
   Abolition of Slavery:
