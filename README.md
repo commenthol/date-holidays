@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 170
+Countries: 171
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -394,6 +394,7 @@ Countries: 170
 ├── SI: Republika Slovenija
 ├── SJ: Svalbard & Jan Mayen
 ├── SK: Slovenská republika
+├── SL: Sierra Leone
 ├── SM: San Marino
 ├── SN: République du Sénégal
 ├── SO: Jamhuuriyadda Federaalka Soomaaliya

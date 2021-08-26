@@ -1,0 +1,111 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2019-01-01T00:00:00.000Z",
+    "end": "2019-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-02-18 00:00:00",
+    "start": "2019-02-18T00:00:00.000Z",
+    "end": "2019-02-19T00:00:00.000Z",
+    "name": "Armed Forces Day",
+    "type": "public",
+    "rule": "02-18 and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-03-08 00:00:00",
+    "start": "2019-03-08T00:00:00.000Z",
+    "end": "2019-03-09T00:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "public",
+    "rule": "03-08 and if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-19T00:00:00.000Z",
+    "end": "2019-04-20T00:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-22T00:00:00.000Z",
+    "end": "2019-04-23T00:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-04-27 00:00:00",
+    "start": "2019-04-27T00:00:00.000Z",
+    "end": "2019-04-28T00:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "04-27 and if Sunday then next Monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-06-04 00:00:00 -0600",
+    "start": "2019-06-03T18:00:00.000Z",
+    "end": "2019-06-04T18:00:00.000Z",
+    "name": "Korité",
+    "type": "public",
+    "rule": "1 Shawwal and if Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-08-11 00:00:00 -0600",
+    "start": "2019-08-10T18:00:00.000Z",
+    "end": "2019-08-11T18:00:00.000Z",
+    "name": "Tabaski",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-08-12 00:00:00 -0600",
+    "start": "2019-08-11T18:00:00.000Z",
+    "end": "2019-08-12T18:00:00.000Z",
+    "name": "Tabaski (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10 Dhu al-Hijjah and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-11-09 00:00:00 -0600",
+    "start": "2019-11-08T18:00:00.000Z",
+    "end": "2019-11-09T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal and if Sunday then next Monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-25T00:00:00.000Z",
+    "end": "2019-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Sunday then next Tuesday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-12-26 00:00:00",
+    "start": "2019-12-26T00:00:00.000Z",
+    "end": "2019-12-27T00:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Sunday then next Monday",
+    "_weekday": "Thu"
+  }
+]
