@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 176
+Countries: 177
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -303,6 +303,7 @@ Countries: 176
 ├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
+├── GW: Guiné-Bissau
 ├── GY: Guyana
 ├── HK: 香港
 ├── HN: Honduras
