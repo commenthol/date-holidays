@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 175
+Countries: 176
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -334,6 +334,7 @@ Countries: 175
 ├── KR: 대한민국
 ├── KY: Cayman Islands
 ├── LI: Lichtenstein
+├── LR: Liberia
 ├── LS: \'Muso oa Lesotho
 ├── LT: Lietuva
 ├── LU: Luxembourg
