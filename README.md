@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 174
+Countries: 175
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -338,6 +338,7 @@ Countries: 174
 ├── LT: Lietuva
 ├── LU: Luxembourg
 ├── LV: Latvija
+├── LY: دولة ليبيا
 ├── MA: المملكة المغربية
 ├── MC: Monaco
 ├── MD: Republica Moldova
