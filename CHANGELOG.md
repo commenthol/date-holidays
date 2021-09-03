@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.9.0](https://github.com/commenthol/date-holidays/compare/3.8.4...3.9.0) (2021-09-03)
+
+- feat(EH): new country Western Sahara [e4c33909](https://github.com/commenthol/date-holidays/commit/e4c33909b25b405ed20e5df18df877b4830c0584)
+- docs(ET): new holiday source [e9d0e897](https://github.com/commenthol/date-holidays/commit/e9d0e8979c948465e3a5571d379c5efb60aee0f5)
+- feat(ER): new country Eritrea [7bcfdcc1](https://github.com/commenthol/date-holidays/commit/7bcfdcc1cda0196a07c77228f038ec1dddd91efc)
+- feat(GH): new country Ghana [7715ecae](https://github.com/commenthol/date-holidays/commit/7715ecaed45c9aed58a53ed233abb510cfd24956)
+- feat(GM): new country The Gambia [2677876f](https://github.com/commenthol/date-holidays/commit/2677876f90958faac9d780929751f2e348383e33)
+- feat(GW): new country Guinea-Bissau [b247c960](https://github.com/commenthol/date-holidays/commit/b247c960f2227ffe04f468045f5c131147c7c576)
+- feat(LR): new country Liberia [3bc00404](https://github.com/commenthol/date-holidays/commit/3bc0040485fc1e584b74ec19ba33fe964a4b7eb6)
+- feat(LY): new coutry Libya [e3856800](https://github.com/commenthol/date-holidays/commit/e38568001494ac98cfd560d661c47297e1f62524)
+- feat(MR): new country Mauretania [b47650d1](https://github.com/commenthol/date-holidays/commit/b47650d18de8de3923e72fb4c501e18b42addfb0)
+- feat(NG): new country Nigeria [66b9749a](https://github.com/commenthol/date-holidays/commit/66b9749a1d5d4e6faea8c64bc68019e747c7f26a)
+- feat(SD): new country Sudan [a58eacc2](https://github.com/commenthol/date-holidays/commit/a58eacc24b10bfab8a540e1afa71f8080ac8442d)
+- feat(SL): new country Sierra Leone [9e5093a2](https://github.com/commenthol/date-holidays/commit/9e5093a230b6b17e1ef8e22f3b0b4bd26ed38c49)
+- feat(ST): new country São Tomé & Príncipe [93cd290f](https://github.com/commenthol/date-holidays/commit/93cd290f5485ed5524e9b20d84360897c395f43d)
+- feat(SZ): new country Eswatini [25e3a0fe](https://github.com/commenthol/date-holidays/commit/25e3a0fed13fadccaf5c70f0afd95b6650c031aa)
+- feat(VG): new country British Virgin Islands [b57360c6](https://github.com/commenthol/date-holidays/commit/b57360c63900ec143ba680f493bf312bbde1b65d)
+- feat(VI): new country U.S. Virgin Islands [48cf25b7](https://github.com/commenthol/date-holidays/commit/48cf25b7a510b1cc8ab64a0c17e39b7f33f72e1e)
+- feat(VC): new country Saint Vincent and the Grenadines [71db0b3a](https://github.com/commenthol/date-holidays/commit/71db0b3aca7dc82ac71559374e56a379a109e195)
+- feat(TT): new country Trinidad & Tobago [45b2b464](https://github.com/commenthol/date-holidays/commit/45b2b4645210b110635cd748bb9a65a480f92980)
+- feat(TC): new country Turks & Caicos Islands [f7c81ec6](https://github.com/commenthol/date-holidays/commit/f7c81ec60a48b1733b679c0a6b046fd9c475ea4c)
+- feat(SX): new country Sint Maarten [11899d42](https://github.com/commenthol/date-holidays/commit/11899d421d5bb67ad1841e910703b91559d5fbf9)
+- feat(SR): New country Suriname [2d54a0d8](https://github.com/commenthol/date-holidays/commit/2d54a0d817fbb24436612c4f32c84e2c4e1af995)
+- feat(PR): new country Puerto Rico [b9b44193](https://github.com/commenthol/date-holidays/commit/b9b44193a802a6aeddd07f3db75108cd32d46aa0)
+- feat(PM): new country St. Pierre & Miquelon [217055b2](https://github.com/commenthol/date-holidays/commit/217055b26b811dab7731420a24ea8e4eb440fb14)
+- feat(MS): new country Montserrat [fa50b54c](https://github.com/commenthol/date-holidays/commit/fa50b54cf5516a7204e79f9446d3edebd4881ecc)
+- feat(LC): New country Saint Lucia [40d3807d](https://github.com/commenthol/date-holidays/commit/40d3807ddc02fe1a5c9cd600b7923599ab601021)
+
 ## [3.8.4](https://github.com/commenthol/date-holidays/compare/3.8.3...3.8.4) (2021-08-26)
 
 - fix(CN): public holidays [f63c3f01](https://github.com/commenthol/date-holidays/commit/f63c3f018e86b738bb357af9807541bba9ae59bf)
