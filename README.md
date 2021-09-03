@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 168
+Countries: 179
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -333,6 +333,7 @@ Countries: 168
 ├── KN: St. Kitts & Nevis
 ├── KR: 대한민국
 ├── KY: Cayman Islands
+├── LC: St. Lucia
 ├── LI: Lichtenstein
 ├── LS: \'Muso oa Lesotho
 ├── LT: Lietuva
@@ -349,6 +350,7 @@ Countries: 168
 ├── MK: Република Македонија
 ├── ML: République du Mali
 ├── MQ: Martinique
+├── MS: Montserrat
 ├── MT: Malta
 ├── MW: Malawi
 ├── MX: México
@@ -377,6 +379,8 @@ Countries: 168
 │   └── CUS: Cuzco
 ├── PH: Philippines
 ├── PL: Polska
+├── PM: St. Pierre & Miquelon
+├── PR: Puerto Rico
 ├── PT: Portugal
 ├── PY: Paraguay
 ├── RE: Réunion
@@ -402,14 +406,18 @@ Countries: 168
 │   ├── SO: Sool
 │   ├── TO: Togdheer
 │   └── WO: Woqooyi Galbeed
+├── SR: Suriname
 ├── SS: South Sudan
 ├── SV: El Salvador
 │   └── SS: San Salvador
+├── SX: Sint Maarten
+├── TC: Turks & Caicos Islands
 ├── TD: جمهورية تشاد
 ├── TG: République togolaise
 ├── TN: الجمهورية التونسية
 ├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
+├── TT: Trinidad & Tobago
 ├── TW: 中華民國
 ├── TZ: Tanzania
 ├── UA: Україна
@@ -470,6 +478,7 @@ Countries: 168
 │   └── WY: Wyoming
 ├── UY: Uruguay
 ├── VA: Stato della Città del Vaticano
+├── VC: St. Vincent & Grenadines
 ├── VE: Venezuela
 │   ├── B: Anzoátegui
 │   ├── G: Carabobo
@@ -479,6 +488,8 @@ Countries: 168
 │   ├── N: Monagas
 │   ├── S: Táchira
 │   └── V: Zulia
+├── VG: British Virgin Islands
+├── VI: U.S. Virgin Islands
 ├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
 ├── VU: République de Vanuatu
 ├── XK: Republika e Kosovës

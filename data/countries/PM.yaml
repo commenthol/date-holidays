@@ -1,0 +1,11 @@
+holidays:
+  PM:
+    names:
+      en: St. Pierre & Miquelon
+    langs:
+      - fr
+    zones:
+      - America/Miquelon
+    dayoff: sunday
+    days: {}
+    _days: FR

@@ -1,0 +1,121 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T04:00:00.000Z",
+    "end": "2021-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-17 00:00:00",
+    "start": "2021-03-17T04:00:00.000Z",
+    "end": "2021-03-18T04:00:00.000Z",
+    "name": "Saint Patrick's Day",
+    "type": "public",
+    "rule": "03-17 and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T04:00:00.000Z",
+    "end": "2021-04-06T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-03 00:00:00",
+    "start": "2021-05-03T04:00:00.000Z",
+    "end": "2021-05-04T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "1st Monday in May",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T04:00:00.000Z",
+    "end": "2021-05-25T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-14 00:00:00",
+    "start": "2021-06-14T04:00:00.000Z",
+    "end": "2021-06-15T04:00:00.000Z",
+    "name": "Queen's Birthday Celebration",
+    "type": "public",
+    "rule": "2nd Monday after 06-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-02 00:00:00",
+    "start": "2021-08-02T04:00:00.000Z",
+    "end": "2021-08-03T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "rule": "08-01 if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T04:00:00.000Z",
+    "end": "2021-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T04:00:00.000Z",
+    "end": "2021-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-27T04:00:00.000Z",
+    "end": "2021-12-28T04:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-28 00:00:00",
+    "start": "2021-12-28T04:00:00.000Z",
+    "end": "2021-12-29T04:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-26 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-12-31 00:00:00",
+    "start": "2021-12-31T04:00:00.000Z",
+    "end": "2022-01-01T04:00:00.000Z",
+    "name": "Festival Day",
+    "type": "public",
+    "rule": "12-31 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Fri"
+  }
+]

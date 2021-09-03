@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T04:00:00.000Z",
+    "end": "2021-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-02 00:00:00",
+    "start": "2021-01-02T04:00:00.000Z",
+    "end": "2021-01-03T04:00:00.000Z",
+    "name": "Second New Year's Day",
+    "type": "public",
+    "rule": "01-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-02-22 00:00:00",
+    "start": "2021-02-22T04:00:00.000Z",
+    "end": "2021-02-23T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "02-22",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-02T04:00:00.000Z",
+    "end": "2021-04-03T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T04:00:00.000Z",
+    "end": "2021-04-06T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T04:00:00.000Z",
+    "end": "2021-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-24 00:00:00",
+    "start": "2021-05-24T04:00:00.000Z",
+    "end": "2021-05-25T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-03 00:00:00",
+    "start": "2021-06-03T04:00:00.000Z",
+    "end": "2021-06-04T04:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-16 00:00:00",
+    "start": "2021-07-16T04:00:00.000Z",
+    "end": "2021-07-20T04:00:00.000Z",
+    "name": "Carnival",
+    "type": "public",
+    "rule": "1st Friday after 07-10 P4D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-08-01 00:00:00",
+    "start": "2021-08-01T04:00:00.000Z",
+    "end": "2021-08-02T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "rule": "08-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-10-04 00:00:00",
+    "start": "2021-10-04T04:00:00.000Z",
+    "end": "2021-10-05T04:00:00.000Z",
+    "name": "Thanksgiving",
+    "type": "public",
+    "rule": "1st Monday in October",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-13 00:00:00",
+    "start": "2021-12-13T04:00:00.000Z",
+    "end": "2021-12-14T04:00:00.000Z",
+    "name": "National Day",
+    "type": "public",
+    "rule": "12-13",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T04:00:00.000Z",
+    "end": "2021-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-26T04:00:00.000Z",
+    "end": "2021-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  }
+]
