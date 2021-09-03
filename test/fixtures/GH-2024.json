@@ -1,0 +1,158 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2024-01-01T00:00:00.000Z",
+    "end": "2024-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-07 00:00:00",
+    "start": "2024-01-07T00:00:00.000Z",
+    "end": "2024-01-08T00:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "rule": "01-07 since 2019",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-03-06 00:00:00",
+    "start": "2024-03-06T00:00:00.000Z",
+    "end": "2024-03-07T00:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "03-06 and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-29T00:00:00.000Z",
+    "end": "2024-03-30T00:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-31 00:00:00",
+    "start": "2024-03-31T00:00:00.000Z",
+    "end": "2024-04-01T00:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-04-01T00:00:00.000Z",
+    "end": "2024-04-02T00:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T18:00:00.000Z",
+    "end": "2024-04-10T18:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-05-01T00:00:00.000Z",
+    "end": "2024-05-02T00:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T18:00:00.000Z",
+    "end": "2024-06-16T18:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if Saturday, Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-06-17 00:00:00 -0600",
+    "start": "2024-06-16T18:00:00.000Z",
+    "end": "2024-06-17T18:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha) (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10 Dhu al-Hijjah and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-08-04 00:00:00",
+    "start": "2024-08-04T00:00:00.000Z",
+    "end": "2024-08-05T00:00:00.000Z",
+    "name": "Founders Day",
+    "type": "public",
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-05 00:00:00",
+    "start": "2024-08-05T00:00:00.000Z",
+    "end": "2024-08-06T00:00:00.000Z",
+    "name": "Founders Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-09-21 00:00:00",
+    "start": "2024-09-21T00:00:00.000Z",
+    "end": "2024-09-22T00:00:00.000Z",
+    "name": "Kwame Nkrumah Memorial Day",
+    "type": "public",
+    "rule": "09-21 and if Saturday, Sunday then next Monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-09-23 00:00:00",
+    "start": "2024-09-23T00:00:00.000Z",
+    "end": "2024-09-24T00:00:00.000Z",
+    "name": "Kwame Nkrumah Memorial Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "09-21 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-06 00:00:00",
+    "start": "2024-12-06T00:00:00.000Z",
+    "end": "2024-12-07T00:00:00.000Z",
+    "name": "Farmers Day",
+    "type": "public",
+    "rule": "1st Friday in December since 1988",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-25T00:00:00.000Z",
+    "end": "2024-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-26T00:00:00.000Z",
+    "end": "2024-12-27T00:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Thu"
+  }
+]

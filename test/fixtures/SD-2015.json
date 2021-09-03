@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T21:00:00.000Z",
+    "end": "2015-01-01T21:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-01-03 00:00:00 -0600",
+    "start": "2015-01-02T15:00:00.000Z",
+    "end": "2015-01-03T15:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-01-07 00:00:00",
+    "start": "2015-01-06T21:00:00.000Z",
+    "end": "2015-01-07T21:00:00.000Z",
+    "name": "Coptic Christmas",
+    "type": "public",
+    "rule": "julian 12-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-04-12 00:00:00",
+    "start": "2015-04-11T21:00:00.000Z",
+    "end": "2015-04-12T21:00:00.000Z",
+    "name": "Coptic Easter",
+    "type": "public",
+    "rule": "orthodox",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-07-17 00:00:00 -0600",
+    "start": "2015-07-16T15:00:00.000Z",
+    "end": "2015-07-20T15:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal P4D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-09-23 00:00:00 -0600",
+    "start": "2015-09-22T15:00:00.000Z",
+    "end": "2015-09-25T15:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P3D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-10-14 00:00:00 -0600",
+    "start": "2015-10-13T15:00:00.000Z",
+    "end": "2015-10-14T15:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-19 00:00:00",
+    "start": "2015-12-18T21:00:00.000Z",
+    "end": "2015-12-19T21:00:00.000Z",
+    "name": "Revolution Day",
+    "type": "public",
+    "rule": "12-19",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-12-23 00:00:00 -0600",
+    "start": "2015-12-22T15:00:00.000Z",
+    "end": "2015-12-23T15:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T21:00:00.000Z",
+    "end": "2015-12-25T21:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]

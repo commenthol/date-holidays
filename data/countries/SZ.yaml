@@ -1,0 +1,67 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Eswatini
+holidays:
+  SZ:
+    names:
+      ss: Eswatini
+      en: Swaziland
+    langs:
+      - ss
+      - en
+    zones:
+      - Africa/Johannesburg
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      04-19 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: Birthday of King Mswati III
+      04-25 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: National Flag Day
+      05-01 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      07-22 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: Birthday of the late King Sobhuza
+      1st Monday in September:
+        name:
+          ss: Umhlanga Reed Dance
+          en: Umhlanga Reed Dance
+      09-06 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+        name:
+          ss: Somhlolo Day
+      12-25:
+        _name: 12-25
+      12-26 and if Sunday then next Monday:
+        _name: 12-26
+      # @source https://www.thekingdomofeswatini.com/eswatini-experiences/events/incwala-festival/
+      12-28 P6D:
+        name:
+          ss: Incwala
+          en: Incwala Festival
+
+    # states:
+    #   HH:
+    #     name: Hhohho
+    #   LU:
+    #     name: Lubombo
+    #   MA:
+    #     name: Manzini
+    #   SH:
+    #     name: Shiselweni

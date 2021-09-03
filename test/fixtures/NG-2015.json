@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T23:00:00.000Z",
+    "end": "2015-01-01T23:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-01-03 00:00:00 -0600",
+    "start": "2015-01-02T17:00:00.000Z",
+    "end": "2015-01-03T17:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-02T23:00:00.000Z",
+    "end": "2015-04-03T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-04-05 00:00:00",
+    "start": "2015-04-04T23:00:00.000Z",
+    "end": "2015-04-05T23:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-04-06 00:00:00",
+    "start": "2015-04-05T23:00:00.000Z",
+    "end": "2015-04-06T23:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T23:00:00.000Z",
+    "end": "2015-05-01T23:00:00.000Z",
+    "name": "Worker's Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-27 00:00:00",
+    "start": "2015-05-26T23:00:00.000Z",
+    "end": "2015-05-27T23:00:00.000Z",
+    "name": "Children's Day",
+    "type": "public",
+    "rule": "05-27",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-05-29 00:00:00",
+    "start": "2015-05-28T23:00:00.000Z",
+    "end": "2015-05-29T23:00:00.000Z",
+    "name": "Democracy Day",
+    "type": "public",
+    "rule": "05-29 prior to 2018",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-06-12 00:00:00",
+    "start": "2015-06-11T23:00:00.000Z",
+    "end": "2015-06-12T23:00:00.000Z",
+    "name": "M.K.O Abiola Day",
+    "type": "public",
+    "rule": "06-12 prior to 2018",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-07-17 00:00:00 -0600",
+    "start": "2015-07-16T17:00:00.000Z",
+    "end": "2015-07-18T17:00:00.000Z",
+    "name": "Id el Fitr",
+    "type": "public",
+    "rule": "1 Shawwal P2D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-09-23 00:00:00 -0600",
+    "start": "2015-09-22T17:00:00.000Z",
+    "end": "2015-09-24T17:00:00.000Z",
+    "name": "Id el Kabir",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P2D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-10-01 00:00:00",
+    "start": "2015-09-30T23:00:00.000Z",
+    "end": "2015-10-01T23:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "10-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-10-14 00:00:00 -0600",
+    "start": "2015-10-13T17:00:00.000Z",
+    "end": "2015-10-14T17:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-23 00:00:00 -0600",
+    "start": "2015-12-22T17:00:00.000Z",
+    "end": "2015-12-23T17:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T23:00:00.000Z",
+    "end": "2015-12-25T23:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-12-26 00:00:00",
+    "start": "2015-12-25T23:00:00.000Z",
+    "end": "2015-12-26T23:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-12-31 00:00:00",
+    "start": "2015-12-30T23:00:00.000Z",
+    "end": "2015-12-31T23:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Thu"
+  }
+]

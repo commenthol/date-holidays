@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2017-12-31T22:00:00.000Z",
+    "end": "2018-01-01T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-01-07 00:00:00",
+    "start": "2018-01-06T22:00:00.000Z",
+    "end": "2018-01-07T22:00:00.000Z",
+    "name": "Coptic Christmas",
+    "type": "public",
+    "rule": "julian 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-04-08 00:00:00",
+    "start": "2018-04-07T22:00:00.000Z",
+    "end": "2018-04-08T22:00:00.000Z",
+    "name": "Coptic Easter",
+    "type": "public",
+    "rule": "orthodox",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-06-15 00:00:00 -0600",
+    "start": "2018-06-14T16:00:00.000Z",
+    "end": "2018-06-18T16:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal P4D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-08-21 00:00:00 -0600",
+    "start": "2018-08-20T16:00:00.000Z",
+    "end": "2018-08-23T16:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P3D",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-09-11 00:00:00 -0600",
+    "start": "2018-09-10T16:00:00.000Z",
+    "end": "2018-09-11T16:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-11-20 00:00:00 -0600",
+    "start": "2018-11-19T16:00:00.000Z",
+    "end": "2018-11-20T16:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-19 00:00:00",
+    "start": "2018-12-18T22:00:00.000Z",
+    "end": "2018-12-19T22:00:00.000Z",
+    "name": "Revolution Day",
+    "type": "public",
+    "rule": "12-19",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-24T22:00:00.000Z",
+    "end": "2018-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  }
+]

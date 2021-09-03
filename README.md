@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 179
+Countries: 192
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -256,6 +256,8 @@ Countries: 179
 │       └── QU: Quito
 ├── EE: Eesti
 ├── EG: جمهورية مصر العربية
+├── EH: الجمهورية العربية الصحراوية الديمقراطية
+├── ER: Eritrea
 ├── ES: España
 │   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
@@ -295,14 +297,17 @@ Countries: 179
 ├── GE: საქართველო
 ├── GF: Guyane
 ├── GG: Guernsey
+├── GH: Ghana
 ├── GI: Gibraltar
 ├── GL: Kalaallit Nunaat
+├── GM: The Gambia
 ├── GN: Guinée
 ├── GP: Guadeloupe
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
+├── GW: Guiné-Bissau
 ├── GY: Guyana
 ├── HK: 香港
 ├── HN: Honduras
@@ -335,10 +340,12 @@ Countries: 179
 ├── KY: Cayman Islands
 ├── LC: St. Lucia
 ├── LI: Lichtenstein
+├── LR: Liberia
 ├── LS: \'Muso oa Lesotho
 ├── LT: Lietuva
 ├── LU: Luxembourg
 ├── LV: Latvija
+├── LY: دولة ليبيا
 ├── MA: المملكة المغربية
 ├── MC: Monaco
 ├── MD: Republica Moldova
@@ -350,6 +357,7 @@ Countries: 179
 ├── MK: Република Македонија
 ├── ML: République du Mali
 ├── MQ: Martinique
+├── MR: الجمهورية الإسلامية الموريتانية
 ├── MS: Montserrat
 ├── MT: Malta
 ├── MW: Malawi
@@ -357,6 +365,7 @@ Countries: 179
 ├── MZ: Moçambique
 ├── NA: Namibia
 ├── NE: République du Niger
+├── NG: Nigeria
 ├── NI: Nicaragua
 ├── NL: Nederland
 ├── NO: Norge
@@ -389,6 +398,7 @@ Countries: 179
 ├── RU: Россия
 ├── RW: Rwanda
 ├── SC: Seychelles
+├── SD: جمهورية السودان
 ├── SE: Sverige
 ├── SG: Singapore
 ├── SH: St. Helena
@@ -398,6 +408,7 @@ Countries: 179
 ├── SI: Republika Slovenija
 ├── SJ: Svalbard & Jan Mayen
 ├── SK: Slovenská republika
+├── SL: Sierra Leone
 ├── SM: San Marino
 ├── SN: République du Sénégal
 ├── SO: Jamhuuriyadda Federaalka Soomaaliya
@@ -408,9 +419,11 @@ Countries: 179
 │   └── WO: Woqooyi Galbeed
 ├── SR: Suriname
 ├── SS: South Sudan
+├── ST: São Tomé & Príncipe
 ├── SV: El Salvador
 │   └── SS: San Salvador
 ├── SX: Sint Maarten
+├── SZ: Eswatini
 ├── TC: Turks & Caicos Islands
 ├── TD: جمهورية تشاد
 ├── TG: République togolaise

@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Ethiopia
+  # @source http://holidays.ertale.com/
   ET:
     names:
       am: ኢትዮጵያ

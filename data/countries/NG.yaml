@@ -1,0 +1,140 @@
+# @source https://thenigerianinfo.com/national-public-holidays-in-nigeria/
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Nigeria
+holidays:
+  NG:
+    names:
+      en: Nigeria
+    langs:
+      - en
+    zones:
+      - Africa/Lagos
+    dayoff: Saturday
+    days:
+      01-01:
+        _name: 01-01
+      05-01 and if Saturday then next Monday:
+        substitute: true
+        _name: 05-01
+        name:
+          en: Worker's Day
+      05-27:
+        name:
+          en: Children's Day
+          type: school
+      05-29 prior to 2018:
+        name:
+          en: Democracy Day
+      06-12 prior to 2018:
+        name:
+          en: M.K.O Abiola Day
+      06-12 and if Saturday then next Monday since 2018:
+        substitute: true
+        name:
+          en: Democracy Day
+      10-01:
+        _name: Independence Day
+      11-01 since 2020:
+        # @source: https://allafrica.com/stories/202009030012.html
+        name:
+          en: National Youth Day
+      12-31:
+        _name: 12-31
+        type: observance
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P2D:
+        _name: 1 Shawwal
+        name:
+          en: Id el Fitr
+      10 Dhu al-Hijjah P2D:
+        _name: 10 Dhu al-Hijjah
+        name:
+          en: Id el Kabir
+    # states:
+    #   AB:
+    #     name: Abia
+    #   AD:
+    #     name: Adamawa
+    #   AK:
+    #     name: Akwa Ibom
+    #   AN:
+    #     name: Anambra
+    #   BA:
+    #     name: Bauchi
+    #   BE:
+    #     name: Benue
+    #   BO:
+    #     name: Borno
+    #   BY:
+    #     name: Bayelsa
+    #   CR:
+    #     name: Cross River
+    #   DE:
+    #     name: Delta
+    #   EB:
+    #     name: Ebonyi
+    #   ED:
+    #     name: Edo
+    #   EK:
+    #     name: Ekiti
+    #   EN:
+    #     name: Enugu
+    #   FC:
+    #     name: Federal Capital Territory
+    #   GO:
+    #     name: Gombe
+    #   IM:
+    #     name: Imo
+    #   JI:
+    #     name: Jigawa
+    #   KD:
+    #     name: Kaduna
+    #   KE:
+    #     name: Kebbi
+    #   KN:
+    #     name: Kano
+    #   KO:
+    #     name: Kogi
+    #   KT:
+    #     name: Katsina
+    #   KW:
+    #     name: Kwara
+    #   LA:
+    #     name: Lagos
+    #   NA:
+    #     name: Nasarawa
+    #   NI:
+    #     name: Niger
+    #   OG:
+    #     name: Ogun
+    #   'ON':
+    #     name: Ondo
+    #   OS:
+    #     name: Osun
+    #   OY:
+    #     name: Oyo
+    #   PL:
+    #     name: Plateau
+    #   RI:
+    #     name: Rivers
+    #   SO:
+    #     name: Sokoto
+    #   TA:
+    #     name: Taraba
+    #   YO:
+    #     name: Yobe
+    #   ZA:
+    #     name: Zamfara
