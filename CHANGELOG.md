@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.9.1](https://github.com/commenthol/date-holidays/compare/3.9.0...3.9.1) (2021-10-01)
+
+- test(LU): fix failing tests [25a26894](https://github.com/commenthol/date-holidays/commit/25a26894b9d6d64a3439281276e8ab07c2e967e3)
+- fix(LU): Remove incorrect public holiday [64df0cd5](https://github.com/commenthol/date-holidays/commit/64df0cd5588257d75130f3f79a45c56e4f00e119)
+
 ## [3.9.0](https://github.com/commenthol/date-holidays/compare/3.8.4...3.9.0) (2021-09-03)
 
 - feat(EH): new country Western Sahara [e4c33909](https://github.com/commenthol/date-holidays/commit/e4c33909b25b405ed20e5df18df877b4830c0584)
