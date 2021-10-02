@@ -1,0 +1,59 @@
+holidays:
+  # @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#France
+  FR:
+    names:
+      fr: Nouvelle-Calédonie
+      en: New Caledonia
+    dayoff: sunday
+    zones:
+      - Pacific/Noumea
+    langs:
+      - fr
+    days:
+      01-01:
+        name:
+          fr: Jour de l'an
+      easter 1:
+        name:
+          fr: Lundi de Pâques
+      05-01:
+        name:
+          fr: Fête du Travail
+          en: Labour day
+      05-08:
+        name:
+          fr: Fête de la Victoire 1945
+          en: Victory Day
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+        type: observance
+      easter 50:
+        name:
+          fr: Pentecôte
+          en: Whit Monday
+      sunday before 06-01:
+        _name: Mothers Day
+        type: observance
+      07-14:
+        name:
+          fr: Fête Nationale de la France
+          en: Bastille Day
+      08-15:
+        name:
+          fr: Assomption
+      09-24:
+        name:
+          fr: Fête de la Citonneyeté
+      11-01:
+        name:
+          fr: Toussaint
+      11-11:
+        name:
+          fr: Armistice 1918
+          en: Armistice Day
+      12-25:
+        name:
+          fr: Noël
+          en: Christmas
