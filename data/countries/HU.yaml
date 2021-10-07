@@ -89,6 +89,7 @@ holidays:
         type: public
       12-06:
         _name: 12-06
+        type: observance
       12-24:
         _name: 12-24
         type: optional

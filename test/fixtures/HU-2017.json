@@ -175,7 +175,7 @@
     "start": "2017-12-05T23:00:00.000Z",
     "end": "2017-12-06T23:00:00.000Z",
     "name": "Mikulás",
-    "type": "public",
+    "type": "observance",
     "rule": "12-06",
     "_weekday": "Wed"
   },
