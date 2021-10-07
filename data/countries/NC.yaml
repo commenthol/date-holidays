@@ -34,7 +34,9 @@ holidays:
           fr: Pentecôte
           en: Whit Monday
       sunday before 06-01:
-        _name: Mothers Day
+        name:
+          fr: Fête des mêres
+          en: Mothers Day
         type: observance
       07-14:
         name:
