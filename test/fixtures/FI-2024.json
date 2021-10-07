@@ -108,6 +108,15 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2024-11-10 00:00:00",
+    "start": "2024-11-09T22:00:00.000Z",
+    "end": "2024-11-10T22:00:00.000Z",
+    "name": "Isänpäivä",
+    "type": "observance",
+    "rule": "2nd sunday in November",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2024-12-06 00:00:00",
     "start": "2024-12-05T22:00:00.000Z",
     "end": "2024-12-06T22:00:00.000Z",
