@@ -66,7 +66,7 @@
     "date": "2018-05-13 00:00:00",
     "start": "2018-05-12T21:00:00.000Z",
     "end": "2018-05-13T21:00:00.000Z",
-    "name": "Äitien päivä",
+    "name": "Äitienpäivä",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -106,6 +106,15 @@
     "type": "public",
     "rule": "saturday after 10-31",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2018-11-11 00:00:00",
+    "start": "2018-11-10T22:00:00.000Z",
+    "end": "2018-11-11T22:00:00.000Z",
+    "name": "Isänpäivä",
+    "type": "observance",
+    "rule": "2nd sunday in November",
+    "_weekday": "Sun"
   },
   {
     "date": "2018-12-06 00:00:00",

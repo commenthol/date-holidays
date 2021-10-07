@@ -940,6 +940,7 @@ names:
     name:
       en: Father's Day
       et: isadepäev
+      fi: Isänpäivä
       fr: Fête des Pères
       lt: Tėvo diena
       nl: Vaderdag
@@ -992,7 +993,7 @@ names:
       el: Γιορτή της μητέρας
       es: Día de la Madre
       et: emadepäev
-      fi: Äitien päivä
+      fi: Äitienpäivä
       fr: Fête des Mères
       hr: Majčin dan
       hu: Anyák napja
