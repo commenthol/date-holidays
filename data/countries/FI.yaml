@@ -42,6 +42,9 @@ holidays:
           sv: Midsommardagen
       saturday after 10-31:
         _name: 11-01
+      2nd sunday in November:
+        _name: Fathers Day
+        type: observance
       12-06:
         _name: Independence Day
       12-24:
