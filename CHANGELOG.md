@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.10.0](https://github.com/commenthol/date-holidays/compare/3.9.1...3.10.0) (2021-10-07)
+
+- chore: fix example [67148510](https://github.com/commenthol/date-holidays/commit/67148510f117b8b8defaa011e29132fdea44739c)
+- fix(HU,#282): 12-06 change type to observance [3dad5f52](https://github.com/commenthol/date-holidays/commit/3dad5f52af016775b473fa4fd0856264d656b336)
+- test(FI): added missing tests and some corrections [1e53646c](https://github.com/commenthol/date-holidays/commit/1e53646c586cd643db589f67bbad1fac9f47d0b0)
+- feat(FI): added father's day to Finnish, corrected spelling of mother's day [1bd795db](https://github.com/commenthol/date-holidays/commit/1bd795dbf7ff59d292e95d438397ba58b41d1fab)
+
 ## [3.9.1](https://github.com/commenthol/date-holidays/compare/3.9.0...3.9.1) (2021-10-01)
 
 - test(LU): fix failing tests [25a26894](https://github.com/commenthol/date-holidays/commit/25a26894b9d6d64a3439281276e8ab07c2e967e3)
