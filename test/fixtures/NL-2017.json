@@ -58,7 +58,7 @@
     "start": "2017-05-04T22:00:00.000Z",
     "end": "2017-05-05T22:00:00.000Z",
     "name": "Bevrijdingsdag",
-    "type": "public",
+    "type": "observance",
     "rule": "05-05",
     "_weekday": "Fri"
   },
