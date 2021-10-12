@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T13:00:00.000Z",
+    "end": "2025-01-01T13:00:00.000Z",
+    "name": "Jour de l'an",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-04-21 00:00:00",
+    "start": "2025-04-20T13:00:00.000Z",
+    "end": "2025-04-21T13:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T13:00:00.000Z",
+    "end": "2025-05-01T13:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-08 00:00:00",
+    "start": "2025-05-07T13:00:00.000Z",
+    "end": "2025-05-08T13:00:00.000Z",
+    "name": "Fête de la Victoire 1945",
+    "type": "public",
+    "rule": "05-08",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-25 00:00:00",
+    "start": "2025-05-24T13:00:00.000Z",
+    "end": "2025-05-25T13:00:00.000Z",
+    "name": "Fête des Mères",
+    "type": "observance",
+    "rule": "sunday before 06-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-05-29 00:00:00",
+    "start": "2025-05-28T13:00:00.000Z",
+    "end": "2025-05-29T13:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-06-08 00:00:00",
+    "start": "2025-06-07T13:00:00.000Z",
+    "end": "2025-06-08T13:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-09 00:00:00",
+    "start": "2025-06-08T13:00:00.000Z",
+    "end": "2025-06-09T13:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-07-14 00:00:00",
+    "start": "2025-07-13T13:00:00.000Z",
+    "end": "2025-07-14T13:00:00.000Z",
+    "name": "Fête Nationale de la France",
+    "type": "public",
+    "rule": "07-14",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-08-15 00:00:00",
+    "start": "2025-08-14T13:00:00.000Z",
+    "end": "2025-08-15T13:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-09-24 00:00:00",
+    "start": "2025-09-23T13:00:00.000Z",
+    "end": "2025-09-24T13:00:00.000Z",
+    "name": "Fête de la Citonneyeté",
+    "type": "public",
+    "rule": "09-24",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-11-01 00:00:00",
+    "start": "2025-10-31T13:00:00.000Z",
+    "end": "2025-11-01T13:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-11-11 00:00:00",
+    "start": "2025-11-10T13:00:00.000Z",
+    "end": "2025-11-11T13:00:00.000Z",
+    "name": "Armistice 1918",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T13:00:00.000Z",
+    "end": "2025-12-25T13:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Thu"
+  }
+]
