@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.11.0](https://github.com/commenthol/date-holidays/compare/3.10.0...3.11.0) (2021-10-14)
+
+- fix(NL,#285): change Bevrijdingsdag type to observance [7b546bd6](https://github.com/commenthol/date-holidays/commit/7b546bd661e4779c8410602ea17c529401f6a1c7)
+- feat(NC): New country New Caledonia [8e14774f](https://github.com/commenthol/date-holidays/commit/8e14774f153d7b2692637299ecd44430a4f96956)
+- Add New Caledonia [328355bf](https://github.com/commenthol/date-holidays/commit/328355bfa50094ef7f772465028db6bb5f8af48d)
+
 ## [3.10.0](https://github.com/commenthol/date-holidays/compare/3.9.1...3.10.0) (2021-10-07)
 
 - chore: fix example [67148510](https://github.com/commenthol/date-holidays/commit/67148510f117b8b8defaa011e29132fdea44739c)
