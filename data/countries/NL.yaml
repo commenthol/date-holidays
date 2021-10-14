@@ -28,9 +28,11 @@ holidays:
         name:
           nl: Nationale Dodenherdenking
         type: observance
+      # @source https://www.rijksoverheid.nl/onderwerpen/tweede-wereldoorlog/vraag-en-antwoord/bevrijdingsdag-5-mei-vrije-dag
       05-05:
         name:
           nl: Bevrijdingsdag
+        type: observance
       2nd sunday in May:
         _name: Mothers Day
         type: observance
