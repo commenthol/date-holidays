@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2025-01-01 00:00:00",
+    "start": "2024-12-31T16:00:00.000Z",
+    "end": "2025-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-29 00:00:00",
+    "start": "2025-01-28T16:00:00.000Z",
+    "end": "2025-01-29T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-01-30 00:00:00",
+    "start": "2025-01-29T16:00:00.000Z",
+    "end": "2025-01-30T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-03-30 00:00:00 -0600",
+    "start": "2025-03-29T10:00:00.000Z",
+    "end": "2025-03-30T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-03-31 00:00:00 -0600",
+    "start": "2025-03-30T10:00:00.000Z",
+    "end": "2025-03-31T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T16:00:00.000Z",
+    "end": "2025-04-18T16:00:00.000Z",
+    "name": "Jumat Agung",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-05-01 00:00:00",
+    "start": "2025-04-30T16:00:00.000Z",
+    "end": "2025-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-12 00:00:00",
+    "start": "2025-05-11T16:00:00.000Z",
+    "end": "2025-05-12T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2025-05-12",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-01 00:00:00",
+    "start": "2025-05-31T16:00:00.000Z",
+    "end": "2025-06-01T16:00:00.000Z",
+    "name": "Perayaan Hari Gawai Dayak",
+    "type": "public",
+    "rule": "06-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-02 00:00:00",
+    "start": "2025-06-01T16:00:00.000Z",
+    "end": "2025-06-02T16:00:00.000Z",
+    "name": "Perayaan Hari Gawai Dayak",
+    "type": "public",
+    "rule": "06-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-06 00:00:00 -0600",
+    "start": "2025-06-05T10:00:00.000Z",
+    "end": "2025-06-06T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-06-07 00:00:00",
+    "start": "2025-06-06T16:00:00.000Z",
+    "end": "2025-06-07T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "06-07",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-06-26 00:00:00 -0600",
+    "start": "2025-06-25T10:00:00.000Z",
+    "end": "2025-06-26T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-07-22 00:00:00",
+    "start": "2025-07-21T16:00:00.000Z",
+    "end": "2025-07-22T16:00:00.000Z",
+    "name": "Hari Kemerdekaan Sarawak",
+    "type": "public",
+    "rule": "07-22",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-08-31 00:00:00",
+    "start": "2025-08-30T16:00:00.000Z",
+    "end": "2025-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-09-04 00:00:00 -0600",
+    "start": "2025-09-03T10:00:00.000Z",
+    "end": "2025-09-04T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-09-16 00:00:00",
+    "start": "2025-09-15T16:00:00.000Z",
+    "end": "2025-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-10-11 00:00:00",
+    "start": "2025-10-10T16:00:00.000Z",
+    "end": "2025-10-11T16:00:00.000Z",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+    "type": "public",
+    "rule": "2nd Saturday in October",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-12-25 00:00:00",
+    "start": "2025-12-24T16:00:00.000Z",
+    "end": "2025-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Thu"
+  }
+]

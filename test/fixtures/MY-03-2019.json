@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2019-02-05 00:00:00",
+    "start": "2019-02-04T16:00:00.000Z",
+    "end": "2019-02-05T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-02-06 00:00:00",
+    "start": "2019-02-05T16:00:00.000Z",
+    "end": "2019-02-06T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T16:00:00.000Z",
+    "end": "2019-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-05-19 00:00:00",
+    "start": "2019-05-18T16:00:00.000Z",
+    "end": "2019-05-19T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2019-05-19",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-05-22 00:00:00 -0600",
+    "start": "2019-05-21T10:00:00.000Z",
+    "end": "2019-05-22T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "rule": "17 Ramadan",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-06-04 00:00:00 -0600",
+    "start": "2019-06-03T10:00:00.000Z",
+    "end": "2019-06-04T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-06-05 00:00:00 -0600",
+    "start": "2019-06-04T10:00:00.000Z",
+    "end": "2019-06-05T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-06-07 00:00:00",
+    "start": "2019-06-06T16:00:00.000Z",
+    "end": "2019-06-07T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "06-07",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-08-11 00:00:00 -0600",
+    "start": "2019-08-10T10:00:00.000Z",
+    "end": "2019-08-11T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-08-12 00:00:00 -0600",
+    "start": "2019-08-11T10:00:00.000Z",
+    "end": "2019-08-12T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "rule": "11 Dhu al-Hijjah",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-08-31 00:00:00 -0600",
+    "start": "2019-08-30T10:00:00.000Z",
+    "end": "2019-08-31T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-08-31 00:00:00",
+    "start": "2019-08-30T16:00:00.000Z",
+    "end": "2019-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-09-16 00:00:00",
+    "start": "2019-09-15T16:00:00.000Z",
+    "end": "2019-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-10-27 00:00:00",
+    "start": "2019-10-26T16:00:00.000Z",
+    "end": "2019-10-27T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2019-10-27",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-11-09 00:00:00 -0600",
+    "start": "2019-11-08T10:00:00.000Z",
+    "end": "2019-11-09T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-11-11 00:00:00",
+    "start": "2019-11-10T16:00:00.000Z",
+    "end": "2019-11-11T16:00:00.000Z",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-11-12 00:00:00",
+    "start": "2019-11-11T16:00:00.000Z",
+    "end": "2019-11-12T16:00:00.000Z",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "type": "public",
+    "rule": "11-12",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T16:00:00.000Z",
+    "end": "2019-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]

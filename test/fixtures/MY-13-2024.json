@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T16:00:00.000Z",
+    "end": "2024-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-02-10 00:00:00",
+    "start": "2024-02-09T16:00:00.000Z",
+    "end": "2024-02-10T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-02-11 00:00:00",
+    "start": "2024-02-10T16:00:00.000Z",
+    "end": "2024-02-11T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-03-29 00:00:00",
+    "start": "2024-03-28T16:00:00.000Z",
+    "end": "2024-03-29T16:00:00.000Z",
+    "name": "Jumat Agung",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T10:00:00.000Z",
+    "end": "2024-04-10T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-04-11 00:00:00 -0600",
+    "start": "2024-04-10T10:00:00.000Z",
+    "end": "2024-04-11T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T16:00:00.000Z",
+    "end": "2024-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-23 00:00:00",
+    "start": "2024-05-22T16:00:00.000Z",
+    "end": "2024-05-23T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2024-05-23",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-06-01 00:00:00",
+    "start": "2024-05-31T16:00:00.000Z",
+    "end": "2024-06-01T16:00:00.000Z",
+    "name": "Perayaan Hari Gawai Dayak",
+    "type": "public",
+    "rule": "06-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-06-02 00:00:00",
+    "start": "2024-06-01T16:00:00.000Z",
+    "end": "2024-06-02T16:00:00.000Z",
+    "name": "Perayaan Hari Gawai Dayak",
+    "type": "public",
+    "rule": "06-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-06-07 00:00:00",
+    "start": "2024-06-06T16:00:00.000Z",
+    "end": "2024-06-07T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "06-07",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T10:00:00.000Z",
+    "end": "2024-06-16T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-07 00:00:00 -0600",
+    "start": "2024-07-06T10:00:00.000Z",
+    "end": "2024-07-07T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-22 00:00:00",
+    "start": "2024-07-21T16:00:00.000Z",
+    "end": "2024-07-22T16:00:00.000Z",
+    "name": "Hari Kemerdekaan Sarawak",
+    "type": "public",
+    "rule": "07-22",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-08-31 00:00:00",
+    "start": "2024-08-30T16:00:00.000Z",
+    "end": "2024-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-09-15 00:00:00 -0600",
+    "start": "2024-09-14T10:00:00.000Z",
+    "end": "2024-09-15T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-09-16 00:00:00",
+    "start": "2024-09-15T16:00:00.000Z",
+    "end": "2024-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-12 00:00:00",
+    "start": "2024-10-11T16:00:00.000Z",
+    "end": "2024-10-12T16:00:00.000Z",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+    "type": "public",
+    "rule": "2nd Saturday in October",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T16:00:00.000Z",
+    "end": "2024-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]
