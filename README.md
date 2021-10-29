@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 193
+Countries: 194
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -362,6 +362,23 @@ Countries: 193
 ├── MT: Malta
 ├── MW: Malawi
 ├── MX: México
+├── MY: Malaysia
+│   ├── 10: Selangor
+│   ├── 11: Terengganu
+│   ├── 12: Sabah
+│   ├── 13: Sarawak
+│   ├── 14: Kuala Lumpur
+│   ├── 15: Labuan
+│   ├── 16: Putrajaya
+│   ├── 01: Johor
+│   ├── 02: Kedah
+│   ├── 03: Kelantan
+│   ├── 04: Malacca
+│   ├── 05: Negeri Sembilan
+│   ├── 06: Pahang
+│   ├── 07: Penang
+│   ├── 08: Perak
+│   └── 09: Perlis
 ├── MZ: Moçambique
 ├── NA: Namibia
 ├── NC: Nouvelle-Calédonie
