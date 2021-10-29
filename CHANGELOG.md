@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.12.0](https://github.com/commenthol/date-holidays/compare/3.11.0...3.12.0) (2021-10-29)
+
+- docs: Readme and attribution update [5d87d9cd](https://github.com/commenthol/date-holidays/commit/5d87d9cdc22b3281eb4c1c726a5c9d30c38b76a4)
+- fix(BN): holiday names in ms [b406e73b](https://github.com/commenthol/date-holidays/commit/b406e73b4cc6bbfc8c65fa7ce9ae27d99b44d823)
+- feat: Add Malaysia holidays [a7e67180](https://github.com/commenthol/date-holidays/commit/a7e67180094a70753707b7c364688d3e3a553dab)
+
 ## [3.11.0](https://github.com/commenthol/date-holidays/compare/3.10.0...3.11.0) (2021-10-14)
 
 - fix(NL,#285): change Bevrijdingsdag type to observance [7b546bd6](https://github.com/commenthol/date-holidays/commit/7b546bd661e4779c8410602ea17c529401f6a1c7)
