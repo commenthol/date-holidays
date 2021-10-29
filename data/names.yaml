@@ -12,7 +12,7 @@ names:
     name:
       en: New Year's Day
       am: እንቁጣጣሽ
-      ar: 'عيد رأس السنة'
+      ar: "عيد رأس السنة"
       az: Yeni il
       be: Новы год
       bg: Нова Година
@@ -43,6 +43,7 @@ names:
       lv: Jaunais Gads
       mg: Taom-baovao
       mk: Нова Година
+      ms: Hari Tahun Baru
       mt: L-Ewwel tas-Sena
       nl: Nieuwjaar
       no: Første nyttårsdag
@@ -143,7 +144,7 @@ names:
     name:
       en: Labour Day
       en-us: Labor Day
-      ar: 'يوم العمال'
+      ar: "يوم العمال"
       be: Дзень працы
       bg: Ден на труда
       bs: Radni dan
@@ -168,6 +169,7 @@ names:
       no: Arbeidernes dag
       mg: Fetin'ny asa
       mk: Ден на трудот
+      ms: Hari Pekerja
       mt: Jum il-Ħaddiem
       pap: Dia di Obrero
       pl: Święto Pracy
@@ -324,6 +326,7 @@ names:
       kl: juulliaraq
       lt: Šv. Kūčios
       lv: Ziemassvētku vakars
+      ms: Hari Sebelum Krismas
       nl: Kerstavond
       no: Julaften
       pt: Noite de Natal
@@ -336,7 +339,7 @@ names:
     name:
       en: Christmas Day
       am: ልደተ-ለእግዚእነ/ ገና
-      ar: 'عيد الميلاد المجيد'
+      ar: "عيد الميلاد المجيد"
       bg: Коледа
       bn: বড়দিন
       bs: Božić
@@ -366,7 +369,7 @@ names:
       lv: Ziemassvētki
       mg: Krismasy
       mk: Католички Божиќ
-      ms: Hari Natal
+      ms: Hari Krismas
       mt: Il-Milied
       nl: Kerstmis
       no: Første Juledag
@@ -473,7 +476,7 @@ names:
       pt: Quarta-feira de Cinzas
       sw: Jumatano ya Majivu
       vi: Thứ tư Lễ Tro
-  easter -7:  # Palm Sunday
+  easter -7: # Palm Sunday
     name:
       en: Palm Sunday
       de: Palmsonntag
@@ -484,7 +487,7 @@ names:
       nl: Palmzondag
       no: Palmesøndag
       vi: Chúa nhật Lễ Lá
-  easter -3:  # Maundy Thursday
+  easter -3: # Maundy Thursday
     name:
       en: Maundy Thursday
       cz: Zelený čtvrtek
@@ -501,7 +504,7 @@ names:
       no: Skjærtorsdag
       sv: Skärtorsdagen
       vi: Thứ năm Tuần Thánh
-  easter -2:  # Good Friday
+  easter -2: # Good Friday
     name:
       en: Good Friday
       am: ስቅለት
@@ -525,6 +528,7 @@ names:
       is: Föstudagurinn langi
       kl: tallimanngornersuaq
       lv: Lielā Piektdiena
+      ms: Jumat Agung
       mt: Il-Ġimgħa l-Kbira
       nl: Goede Vrijdag
       no: Langfredag
@@ -538,7 +542,7 @@ names:
       sw: Ijumaa Kuu
       vi: Thứ sáu Tuần Thánh
       zh: 耶穌受難節
-  easter -1:  # Holy Saturday
+  easter -1: # Holy Saturday
     name:
       en: Easter Saturday
       cz: Bílá sobota
@@ -554,7 +558,7 @@ names:
       sv: Påskafton
       vi: Thứ bảy Tuần Thánh
       zh: 耶穌受難節翌日
-  easter:     # Easter
+  easter: # Easter
     name:
       en: Easter Sunday
       am: ፋሲካ
@@ -592,7 +596,7 @@ names:
       sw: Pasaka
       vi: Lễ Phục Sinh
       zh: 复活节
-  easter 1:   # Easter Monday
+  easter 1: # Easter Monday
     name:
       en: Easter Monday
       bg: Велики понеделник
@@ -626,7 +630,7 @@ names:
       sw: Jumatatu ya Pasaka
       vi: Thứ hai phục sinh
       zh: 復活節星期一
-  easter 39:  # Ascension Day
+  easter 39: # Ascension Day
     name:
       en: Ascension Day
       da: Kristi Himmelfartsdag
@@ -646,7 +650,7 @@ names:
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
       vi: Lễ Thăng Thiên
-  easter 49:  # Pentecost/ Whit Sunday
+  easter 49: # Pentecost/ Whit Sunday
     name:
       en: Pentecost
       da: Pinsedag
@@ -670,7 +674,7 @@ names:
       sv: Pingstdagen
       uk: Трійця
       vi: Lễ Chúa Thánh Thần Hiện Xuống
-  easter 50:  # Whit Monday
+  easter 50: # Whit Monday
     name:
       en: Whit Monday
       da: Anden Pinsedag
@@ -687,7 +691,7 @@ names:
       no: Andre pinsedag
       ro: Două zi de Rusalii
       sv: Annandag pingst
-  easter 60:  # Corpus Christi
+  easter 60: # Corpus Christi
     name:
       en: Corpus Christi
       de: Fronleichnam
@@ -753,7 +757,7 @@ names:
   1 Muharram: # Islamic New Year
     name:
       en: Islamic New Year
-      ar: 'رأس السنة الهجرية'
+      ar: "رأس السنة الهجرية"
       bs: Nova hidžretska godina
       fil: Unang Araw ng Muharram
       fr: Nouvel an islamique
@@ -765,14 +769,14 @@ names:
   10 Muharram: # Day of Ashura
     name:
       en: Day of Ashura
-      ar: 'عاشوراء'
+      ar: "عاشوراء"
       bn: আশুরা
       nl: Asjoera
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
       en: Birthday of Muhammad (Mawlid)
       am: መውሊድ
-      ar: 'المولد النبويّ'
+      ar: "المولد النبويّ"
       bn: ঈদে মিলাদুন্নবী
       bs: Mevlud
       fr: Mawlid
@@ -780,47 +784,51 @@ names:
       ms: Maulidur Rasul
       nl: Mawlid an-Nabi
       sq: Mevludi
-  27 Rajab:   # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
+  27 Rajab: # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
     name:
       en: Laylat al-Mi'raj
-      ar: 'الإسراء والمعراج'
+      ar: "الإسراء والمعراج"
       bs: Lejletul Mi'radž
       id: Maulid Nabi Muhammad
       ms: Israk dan Mikraj
       nl: Laylat al-Miraadj
       sq: Nata e Miraxhit
       tr: Miraç Gecesi
-  15 Shaban:  # Laylat al-Bara'at (Bara'at Night)
+  15 Shaban: # Laylat al-Bara'at (Bara'at Night)
     name:
       en: Laylat al-Bara'at
-      ar: 'ليلة البراءة'
+      ar: "ليلة البراءة"
       bs: Lejletul berat
       nl: Laylat al-Baraat
       sq: Nata e Beratit
-  1 Ramadan:  # First day of Ramadan
+  1 Ramadan: # First day of Ramadan
     name:
       en: First day of Ramadan
       am: ረመዳን
-      ar: 'اليوم الأول من رمضان'
+      ar: "اليوم الأول من رمضان"
       bs: Prvi dan posta
-      ms: Hari Pertama Berpuasa
+      ms: Awal Ramadan
       nl: Eerste dag van Ramadan
       sq: Dita e parë e agjërimit
+  17 Ramadan: # Day of Nuzul Al-Quran
+    name:
+      en: Day of Nuzul Al-Quran
+      ms: Hari Nuzul Al-Quran
   23 Ramadan: # Revelation of the Quaran
     name:
       en: Lailat al-Qadr
   27 Ramadan: # Laylat al-Qadr (Night of Power)
     name:
       en: Laylat al-Qadr
-      ar: 'لیلة القدر'
+      ar: "لیلة القدر"
       bs: Lejletul kadr
       nl: Waardevolle Nacht (Laylat al-Qadr)
       sq: Nata e Kadrit
-  1 Shawwal:  # End of Ramadan (Eid al-Fitr)
+  1 Shawwal: # End of Ramadan (Eid al-Fitr)
     name:
       en: End of Ramadan (Eid al-Fitr)
       am: ዒድ አል ፈጥር
-      ar: 'عيد الفطر'
+      ar: "عيد الفطر"
       az: Ramazan Bayramı
       bn: ঈদুল ফিতর
       bs: Ramazanski bajram
@@ -840,11 +848,12 @@ names:
     name:
       en: Arafat Day
       ar: يوم عرفة
+      ms: Hari Arafah
   10 Dhu al-Hijjah: # Feast of the Sacrifice (Eid al-Adha)
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
       am: ዒድ አል አድሐ
-      ar: 'عيد الأضحى'
+      ar: "عيد الأضحى"
       az: Qurban Bayramı
       bn: ঈদুল আযহা
       bs: Kurbanski bajram
@@ -904,6 +913,10 @@ names:
     name:
       en: Holi Phagwa
       nl: Holi-Phagwa
+  Thaipusam:
+    name:
+      en: Thaipusam
+      ms: Hari Thaipusam
 
   # Day references
   Abolition of Slavery:
@@ -964,6 +977,7 @@ names:
       hy: Անկախության օր
       id: Hari Ulang Tahun Kemerdekaan Republik Indonesia
       mk: Ден на независноста
+      ms: Hari Kebangsaan
       mt: Jum l-Indipendenza
       nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
@@ -1037,7 +1051,7 @@ names:
   Revolution Day:
     name:
       en: Revolution Day
-      ar: 'يوم الثورة'
+      ar: "يوم الثورة"
       es: Día de la Revolución
       nl: Dag van de revolutie
       ti: ባሕቲ መስከረም

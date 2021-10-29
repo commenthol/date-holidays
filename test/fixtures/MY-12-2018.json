@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2017-12-31T16:00:00.000Z",
+    "end": "2018-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-02-16 00:00:00",
+    "start": "2018-02-15T16:00:00.000Z",
+    "end": "2018-02-16T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-02-17 00:00:00",
+    "start": "2018-02-16T16:00:00.000Z",
+    "end": "2018-02-17T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-29T16:00:00.000Z",
+    "end": "2018-03-30T16:00:00.000Z",
+    "name": "Jumat Agung",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-04-30T16:00:00.000Z",
+    "end": "2018-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-05-29 00:00:00",
+    "start": "2018-05-28T16:00:00.000Z",
+    "end": "2018-05-29T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2018-05-29",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-05-30 00:00:00",
+    "start": "2018-05-29T16:00:00.000Z",
+    "end": "2018-05-30T16:00:00.000Z",
+    "name": "Pesta Kaamatan",
+    "type": "public",
+    "rule": "05-30",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-05-31 00:00:00",
+    "start": "2018-05-30T16:00:00.000Z",
+    "end": "2018-05-31T16:00:00.000Z",
+    "name": "Pesta Kaamatan",
+    "type": "public",
+    "rule": "05-31",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-06-07 00:00:00",
+    "start": "2018-06-06T16:00:00.000Z",
+    "end": "2018-06-07T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "06-07",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-06-15 00:00:00 -0600",
+    "start": "2018-06-14T10:00:00.000Z",
+    "end": "2018-06-15T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-06-16 00:00:00 -0600",
+    "start": "2018-06-15T10:00:00.000Z",
+    "end": "2018-06-16T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-08-21 00:00:00 -0600",
+    "start": "2018-08-20T10:00:00.000Z",
+    "end": "2018-08-21T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-08-31 00:00:00",
+    "start": "2018-08-30T16:00:00.000Z",
+    "end": "2018-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-09-11 00:00:00 -0600",
+    "start": "2018-09-10T10:00:00.000Z",
+    "end": "2018-09-11T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-09-16 00:00:00",
+    "start": "2018-09-15T16:00:00.000Z",
+    "end": "2018-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-10-06 00:00:00",
+    "start": "2018-10-05T16:00:00.000Z",
+    "end": "2018-10-06T16:00:00.000Z",
+    "name": "Hari Jadi Yang di-Pertua Negeri Sabah",
+    "type": "public",
+    "rule": "1st Saturday in October",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-11-06 00:00:00",
+    "start": "2018-11-05T16:00:00.000Z",
+    "end": "2018-11-06T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2018-11-06",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-11-20 00:00:00 -0600",
+    "start": "2018-11-19T10:00:00.000Z",
+    "end": "2018-11-20T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-23T16:00:00.000Z",
+    "end": "2018-12-24T16:00:00.000Z",
+    "name": "Hari Sebelum Krismas",
+    "type": "public",
+    "rule": "12-24",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-24T16:00:00.000Z",
+    "end": "2018-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  }
+]

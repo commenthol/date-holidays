@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2015-12-31T16:00:00.000Z",
+    "end": "2016-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-02-08 00:00:00",
+    "start": "2016-02-07T16:00:00.000Z",
+    "end": "2016-02-08T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-02-09 00:00:00",
+    "start": "2016-02-08T16:00:00.000Z",
+    "end": "2016-02-09T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-05-01 00:00:00",
+    "start": "2016-04-30T16:00:00.000Z",
+    "end": "2016-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-05-22 00:00:00",
+    "start": "2016-05-21T16:00:00.000Z",
+    "end": "2016-05-22T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2016-05-22",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-06-07 00:00:00",
+    "start": "2016-06-06T16:00:00.000Z",
+    "end": "2016-06-07T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "06-07",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2016-06-22 00:00:00 -0600",
+    "start": "2016-06-21T10:00:00.000Z",
+    "end": "2016-06-22T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "rule": "17 Ramadan",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-07-06 00:00:00 -0600",
+    "start": "2016-07-05T10:00:00.000Z",
+    "end": "2016-07-06T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-07-07 00:00:00 -0600",
+    "start": "2016-07-06T10:00:00.000Z",
+    "end": "2016-07-07T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2016-08-31 00:00:00",
+    "start": "2016-08-30T16:00:00.000Z",
+    "end": "2016-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-09-11 00:00:00 -0600",
+    "start": "2016-09-10T10:00:00.000Z",
+    "end": "2016-09-11T10:00:00.000Z",
+    "name": "Hari Raya Aidil Adha",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-09-16 00:00:00",
+    "start": "2016-09-15T16:00:00.000Z",
+    "end": "2016-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-10-02 00:00:00 -0600",
+    "start": "2016-10-01T10:00:00.000Z",
+    "end": "2016-10-02T10:00:00.000Z",
+    "name": "Awal Tahun Hijrah",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-10-29 00:00:00",
+    "start": "2016-10-28T16:00:00.000Z",
+    "end": "2016-10-29T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2016-10-29",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-12-11 00:00:00 -0600",
+    "start": "2016-12-10T10:00:00.000Z",
+    "end": "2016-12-11T10:00:00.000Z",
+    "name": "Maulidur Rasul",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-24T16:00:00.000Z",
+    "end": "2016-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  }
+]
