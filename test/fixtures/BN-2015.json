@@ -57,7 +57,7 @@
     "date": "2015-06-18 00:00:00 -0600",
     "start": "2015-06-17T10:00:00.000Z",
     "end": "2015-06-18T10:00:00.000Z",
-    "name": "Hari Pertama Berpuasa",
+    "name": "Awal Ramadan",
     "type": "public",
     "rule": "1 Ramadan",
     "_weekday": "Thu"
@@ -120,7 +120,7 @@
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T16:00:00.000Z",
     "end": "2015-12-25T16:00:00.000Z",
-    "name": "Hari Natal",
+    "name": "Hari Krismas",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"

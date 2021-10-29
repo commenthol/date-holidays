@@ -48,7 +48,7 @@
     "date": "2017-05-27 00:00:00 -0600",
     "start": "2017-05-26T10:00:00.000Z",
     "end": "2017-05-27T10:00:00.000Z",
-    "name": "Hari Pertama Berpuasa",
+    "name": "Awal Ramadan",
     "type": "public",
     "rule": "1 Ramadan",
     "_weekday": "Sat"
@@ -111,7 +111,7 @@
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-24T16:00:00.000Z",
     "end": "2017-12-25T16:00:00.000Z",
-    "name": "Hari Natal",
+    "name": "Hari Krismas",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Mon"
