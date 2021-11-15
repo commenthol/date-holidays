@@ -108,6 +108,15 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2020-08-17 00:00:00",
+    "start": "2020-08-16T17:00:00.000Z",
+    "end": "2020-08-17T17:00:00.000Z",
+    "name": "Hari Ulang Tahun Kemerdekaan Republik Indonesia",
+    "type": "public",
+    "rule": "08-17",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2020-08-20 00:00:00 -0600",
     "start": "2020-08-19T11:00:00.000Z",
     "end": "2020-08-20T11:00:00.000Z",
@@ -115,15 +124,6 @@
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2020-08-21 00:00:00",
-    "start": "2020-08-20T17:00:00.000Z",
-    "end": "2020-08-21T17:00:00.000Z",
-    "name": "Hari Ulang Tahun Kemerdekaan Republik Indonesia",
-    "type": "public",
-    "rule": "08-21",
-    "_weekday": "Fri"
   },
   {
     "date": "2020-10-29 00:00:00 -0600",
