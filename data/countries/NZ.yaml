@@ -4,9 +4,11 @@ holidays:
   NZ:
     names:
       en: New Zealand
+      mi: Aotearoa
     dayoff: sunday
     langs:
       - en
+      - mi
     zones:
       - Pacific/Auckland
       - Pacific/Chatham
@@ -44,15 +46,117 @@ holidays:
       12-26 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-26
+      # @source https://www.mbie.govt.nz/assets/matariki-dates-2022-to-2052-matariki-advisory-group.pdf
+      "2022-06-24":
+        name:
+          en: Matariki
+      "2023-07-14":
+        name:
+          en: Matariki
+      "2024-06-28":
+        name:
+          en: Matariki
+      "2025-06-20":
+        name:
+          en: Matariki
+      "2026-07-10":
+        name:
+          en: Matariki
+      "2027-06-25":
+        name:
+          en: Matariki
+      "2028-07-14":
+        name:
+          en: Matariki
+      "2029-07-06":
+        name:
+          en: Matariki
+      "2030-06-21":
+        name:
+          en: Matariki
+      "2031-07-11":
+        name:
+          en: Matariki
+      "2032-07-02":
+        name:
+          en: Matariki
+      "2033-06-24":
+        name:
+          en: Matariki
+      "2034-07-07":
+        name:
+          en: Matariki
+      "2035-06-29":
+        name:
+          en: Matariki
+      "2036-07-21":
+        name:
+          en: Matariki
+      "2037-07-10":
+        name:
+          en: Matariki
+      "2038-06-25":
+        name:
+          en: Matariki
+      "2039-07-15":
+        name:
+          en: Matariki
+      "2040-07-06":
+        name:
+          en: Matariki
+      "2041-07-19":
+        name:
+          en: Matariki
+      "2042-07-11":
+        name:
+          en: Matariki
+      "2043-07-03":
+        name:
+          en: Matariki
+      "2044-06-24":
+        name:
+          en: Matariki
+      "2045-07-07":
+        name:
+          en: Matariki
+      "2046-06-29":
+        name:
+          en: Matariki
+      "2047-07-19":
+        name:
+          en: Matariki
+      "2048-07-03":
+        name:
+          en: Matariki
+      "2049-06-25":
+        name:
+          en: Matariki
+      "2050-07-15":
+        name:
+          en: Matariki
+      "2051-06-30":
+        name:
+          en: Matariki
+      "2052-06-21":
+        name:
+          en: Matariki
     states:
       AUK:
-        name: Auckland Province
+        names:
+          en: Auckland Province
+          mi: Tāmaki-makau-rau
         days:
           01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
+      BOP:
+        names:
+          en: Bay of Plenty
+          mi: Te Moana-a-Toi
       CAN:
-        name: Canterbury
+        names:
+          en: Canterbury
+          mi: Waitaha
         days:
           friday after 2nd tuesday in November:
             name:
@@ -66,62 +170,92 @@ holidays:
                 name:
                   en: Dominion Day
       CIT:
-        name: Chatham Islands
+        names:
+          en: Chatham Islands
+          mi: Wharekauri
         days:
           11-30 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
+      GIS:
+        names:
+          en: Gisborne
+          mi: Te Tai Rāwhiti
       HKB:
-        name: Hawke's Bay
+        names:
+          en: Hawke's Bay
+          mi: Te Matau-a-Māui
         days:
           friday before 4th monday in October:
             name:
               en: Provincial anniversary day
       MBH:
-        name: Marlborough
+        names:
+          en: Marlborough
+          mi: Te Tauihu-o-te-waka
         days:
           5th monday in October:
             name:
               en: Provincial anniversary day
+      MWT:
+        name: Manawatu-Wanganui
       NSN:
-        name: Nelson
+        names:
+          en: Nelson
+          mi: Whakatū
         days:
           02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
       NTL:
-        name: Northland
+        names:
+          en: Northland
+          mi: Te Tai Tokerau
         days:
           01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
       OTA:
-        name: Otago Province
+        names:
+          en: Otago Province
+          mi: Ōtākou
         days:
           03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
             note: varies if coincides with easter monday
       STL:
-        name: Southland
+        names:
+          en: Southland
+          mi: Murihiku
         days:
           easter 2:
             name:
               en: Provincial anniversary day
+      TAS:
+        names:
+          en: Tasman
+          mi: Te Tai-o-Aorere
       TKI:
         name: Taranaki
         days:
           2nd monday in March:
             name:
               en: Provincial anniversary day
+      WKO:
+        name: Waikato
       WGN:
-        name: Wellington Province
+        names:
+          en: Wellington Province
+          mi: Te Whanga-nui-a-Tara
         days:
           01-22 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
       WTC:
-        name: Westland
+        names:
+          en: Westland
+          mi: Te Tai Poutini
         days:
           12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:

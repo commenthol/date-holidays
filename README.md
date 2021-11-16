@@ -389,16 +389,21 @@ Countries: 194
 ├── NO: Norge
 ├── NZ: New Zealand
 │   ├── AUK: Auckland Province
+│   ├── BOP: Bay of Plenty
 │   ├── CAN: Canterbury
 │   │   └── S: South Canterbury
 │   ├── CIT: Chatham Islands
+│   ├── GIS: Gisborne
 │   ├── HKB: Hawke's Bay
 │   ├── MBH: Marlborough
+│   ├── MWT: Manawatu-Wanganui
 │   ├── NSN: Nelson
 │   ├── NTL: Northland
 │   ├── OTA: Otago Province
 │   ├── STL: Southland
+│   ├── TAS: Tasman
 │   ├── TKI: Taranaki
+│   ├── WKO: Waikato
 │   ├── WGN: Wellington Province
 │   └── WTC: Westland
 ├── PA: Panamá
