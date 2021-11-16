@@ -80,7 +80,7 @@ holidays:
           en: Public Holiday
       12-25:
         _name: 12-25
-      #substitutes 12-25 if sunday then next monday:
+      # substitutes 12-25 if sunday then next monday:
       #  substitute: true
       #  _name: 12-25
       12-26:

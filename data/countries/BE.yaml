@@ -97,16 +97,16 @@ holidays:
               fr: Fête de la Région wallonne
               nl: Feestdag van de Vlaamse Gemeenschap
         # regions:
-          # VAN:
-          #   name: Antwerp
-          # VBR:
-          #   name: Flemish Brabant
-          # VLI:
-          #   name: Limburg
-          # VOV:
-          #   name: East Flanders
-          # VWV:
-          #   name: West Flanders
+        # VAN:
+        #   name: Antwerp
+        # VBR:
+        #   name: Flemish Brabant
+        # VLI:
+        #   name: Limburg
+        # VOV:
+        #   name: East Flanders
+        # VWV:
+        #   name: West Flanders
       WAL:
         name: Communauté française
         langs:
@@ -118,13 +118,13 @@ holidays:
               fr: La fête de la communauté française
               nl: Feestdag van de Franse Gemeenschap
         # regions:
-          # WBR:
-          #   name: Walloon Brabant
-          # WHT:
-          #   name: Hainaut
-          # WLG:
-          #   name: Liège
-          # WLX:
-          #   name: Luxembourg
-          # WNA:
-          #   name: Namur
+        # WBR:
+        #   name: Walloon Brabant
+        # WHT:
+        #   name: Hainaut
+        # WLG:
+        #   name: Liège
+        # WLX:
+        #   name: Luxembourg
+        # WNA:
+        #   name: Namur

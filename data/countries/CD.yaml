@@ -50,28 +50,28 @@ holidays:
       12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
-      '2016-01-15':
+      "2016-01-15":
         _name: Public Holiday
     # states:
-      # BC:
-      #   name: Bas-Congo
-      # BN:
-      #   name: Bandundu
-      # EQ:
-      #   name: Équateur
-      # KA:
-      #   name: Katanga
-      # KE:
-      #   name: Kasaï-Oriental
-      # KN:
-      #   name: Kinshasa
-      # KW:
-      #   name: Kasaï-Occidental
-      # MA:
-      #   name: Maniema
-      # NK:
-      #   name: North Kivu
-      # OR:
-      #   name: Orientale
-      # SK:
-      #   name: South Kivu
+    # BC:
+    #   name: Bas-Congo
+    # BN:
+    #   name: Bandundu
+    # EQ:
+    #   name: Équateur
+    # KA:
+    #   name: Katanga
+    # KE:
+    #   name: Kasaï-Oriental
+    # KN:
+    #   name: Kinshasa
+    # KW:
+    #   name: Kasaï-Occidental
+    # MA:
+    #   name: Maniema
+    # NK:
+    #   name: North Kivu
+    # OR:
+    #   name: Orientale
+    # SK:
+    #   name: South Kivu

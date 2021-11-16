@@ -2,7 +2,7 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Algeria
   DZ:
     names:
-      ar: 'الجمهورية الجزائرية الديمقراطية الشعبية'
+      ar: "الجمهورية الجزائرية الديمقراطية الشعبية"
       fr: République algérienne démocratique et populaire
       en: Algeria
     langs:

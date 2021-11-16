@@ -75,8 +75,8 @@ holidays:
         active:
           - from: 1961-01-01
         disable:
-          - '2011-06-19'
-      '2011-06-19':
+          - "2011-06-19"
+      "2011-06-19":
         # Monday, June 20, 2011 was declared a special non-working holiday by President Benigno Aquino III for Rizal's 150th birth anniversary as requested by the National Historical Commission of the Philippines.
         name:
           en: José Rizal's birthday

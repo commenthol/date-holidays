@@ -8,7 +8,7 @@ holidays:
       - fr
     zones:
       - Africa/Lagos
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: 01-01
@@ -46,27 +46,27 @@ holidays:
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
     # states:
-      # AK:
-      #   name: Atakora
-      # AL:
-      #   name: Alibori
-      # AQ:
-      #   name: Atlantique
-      # BO:
-      #   name: Borgou
-      # CO:
-      #   name: Collines
-      # DO:
-      #   name: Donga
-      # KO:
-      #   name: Kouffo
-      # LI:
-      #   name: Littoral
-      # MO:
-      #   name: Mono
-      # OU:
-      #   name: Ouémé
-      # PL:
-      #   name: Plateau
-      # ZO:
-      #   name: Zou
+    # AK:
+    #   name: Atakora
+    # AL:
+    #   name: Alibori
+    # AQ:
+    #   name: Atlantique
+    # BO:
+    #   name: Borgou
+    # CO:
+    #   name: Collines
+    # DO:
+    #   name: Donga
+    # KO:
+    #   name: Kouffo
+    # LI:
+    #   name: Littoral
+    # MO:
+    #   name: Mono
+    # OU:
+    #   name: Ouémé
+    # PL:
+    #   name: Plateau
+    # ZO:
+    #   name: Zou

@@ -7,7 +7,7 @@ holidays:
       - en
     zones:
       - Africa/Accra
-    dayoff: ''
+    dayoff: ""
     days:
       01-01 and if Saturday, Sunday then next Monday:
         substitute: true
@@ -16,7 +16,7 @@ holidays:
         _name: Constitution Day
       03-06 and if Saturday, Sunday then next Monday:
         substitute: true
-        _name: Independence Day 
+        _name: Independence Day
       easter -2:
         _name: easter -2
       easter:

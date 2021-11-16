@@ -40,7 +40,7 @@ holidays:
         _name: 12-26
       easter -47:
         _name: easter -47
-      'easter -3 14:00':
+      "easter -3 14:00":
         type: bank
         _name: easter -3
       easter -2:
@@ -64,7 +64,7 @@ holidays:
       #   name: Ordino
       # '06':
       #   name: Sant Julià de Lòria
-      '07':
+      "07":
         name: Andorra la Vella
         days:
           1st saturday in August P3D:

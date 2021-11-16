@@ -50,21 +50,21 @@ holidays:
       12-25:
         _name: 12-25
     # states:
-      # B:
-      #   name: Beni
-      # C:
-      #   name: Cochabamba
-      # H:
-      #   name: Chuquisaca
-      # L:
-      #   name: La Paz
-      # 'N':
-      #   name: Pando
-      # O:
-      #   name: Oruro
-      # P:
-      #   name: Potosí
-      # S:
-      #   name: Santa Cruz
-      # T:
-      #   name: Tarija
+    # B:
+    #   name: Beni
+    # C:
+    #   name: Cochabamba
+    # H:
+    #   name: Chuquisaca
+    # L:
+    #   name: La Paz
+    # 'N':
+    #   name: Pando
+    # O:
+    #   name: Oruro
+    # P:
+    #   name: Potosí
+    # S:
+    #   name: Santa Cruz
+    # T:
+    #   name: Tarija

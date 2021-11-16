@@ -265,7 +265,7 @@ holidays:
             note: Either Good Friday or Easter Monday, at the employer’s option
           easter 1:
             _name: easter 1
-            note: Either Good Friday or Easter Monday, at the employer’s option 
+            note: Either Good Friday or Easter Monday, at the employer’s option
           monday before 05-25:
             name:
               en: National Patriots' Day

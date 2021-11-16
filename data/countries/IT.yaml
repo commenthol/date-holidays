@@ -41,7 +41,7 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-      '2011-03-17':
+      "2011-03-17":
         name:
           it: Festa Nazionale 2011
           en: National Day 2011
@@ -97,7 +97,7 @@ holidays:
       #       name: Sondrio
       #     VA:
       #       name: Varese
-      '32':
+      "32":
         name: Südtirol, Alto Adige
         days:
           easter 50:

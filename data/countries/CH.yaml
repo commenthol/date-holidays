@@ -45,7 +45,7 @@ holidays:
           fr: Fête des pères
         type: observance
         active:
-          - from: '2009-01-01'
+          - from: "2009-01-01"
       08-01:
         name:
           de: Bundesfeiertag
@@ -253,9 +253,9 @@ holidays:
               de: Näfelser Fahrt
               fr: Bataille de Näfels
             disable:
-              - '2023-04-06'
+              - "2023-04-06"
             enable:
-              - '2023-04-13'
+              - "2023-04-13"
           3rd sunday after 09-01: false
           11-01:
             _name: 11-01
@@ -434,7 +434,7 @@ holidays:
           11-01:
             _name: 11-01
           12-26:
-             type: observance
+            type: observance
           12-26 not on tuesday, saturday:
             _name: 12-26
       SG:

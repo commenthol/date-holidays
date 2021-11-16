@@ -7,7 +7,7 @@
 holidays:
   MA:
     names:
-      ar: 'المملكة المغربية'
+      ar: "المملكة المغربية"
       fr: Royaume du Maroc
       en: Kingdom of Morocco
     langs:
@@ -23,34 +23,34 @@ holidays:
       01-11:
         name:
           fr: Manifeste de l'indépendance
-          ar: 'ذكرى تقديم وثيقة الاستقلال'
-          en: 	Anniversary of the Independence Manifesto
+          ar: "ذكرى تقديم وثيقة الاستقلال"
+          en: Anniversary of the Independence Manifesto
       05-01:
         _name: 05-01
       07-30:
         name:
           fr: Fête du trône
-          ar: 'عيد العرش'
+          ar: "عيد العرش"
           en: Feast of the Throne
       08-14:
         name:
           fr: Journée de Oued Ed-Dahab
-          ar: 'يوم وادي الذهب'
+          ar: "يوم وادي الذهب"
           en: Anniversary of the Recovery Oued Ed-Dahab
       08-20:
         name:
           fr: Fête de la révolution du roi et du peuple
-          ar: 'ثورة الملك والشعب'
+          ar: "ثورة الملك والشعب"
           en: Anniversary of the Revolution of the King and the People
       08-21:
         name:
           fr: Journée de la jeunesse
-          ar: 'عيد الشباب'
+          ar: "عيد الشباب"
           en: Youth Day
       11-06:
         name:
           fr: La Marche verte
-          ar: 'المسيرة الخضراء'
+          ar: "المسيرة الخضراء"
           en: Anniversary of the Green March
       11-18:
         _name: Independence Day

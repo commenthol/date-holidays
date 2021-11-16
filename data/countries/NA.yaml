@@ -61,4 +61,3 @@ holidays:
           en: Day of Goodwill
       substitutes 12-26 if sunday then next monday:
         name: Public Holiday
-

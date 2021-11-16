@@ -81,14 +81,14 @@ holidays:
           - America/St_Barthelemy
         _days: BL
       # name: Alsace
-      '67':
+      "67":
         name: Département Bas-Rhin
         days:
           easter -2:
             _name: easter -2
           12-26:
             _name: 12-26
-      '68':
+      "68":
         name: Département Haut-Rhin
         days:
           easter -2:
@@ -209,7 +209,7 @@ holidays:
       #   # name: Meurthe-et-Moselle
       # '55':
       #   name: Meuse
-      '57':
+      "57":
         name: Département Moselle
         days:
           easter -2:

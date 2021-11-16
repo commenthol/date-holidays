@@ -28,7 +28,7 @@ holidays:
         _name: easter -2
       easter 1:
         _name: easter 1
-      1st Monday in June: ##k
+      1st Monday in June: # #k
         name:
           en: Queen's Birthday
         # same day as observed in NZ

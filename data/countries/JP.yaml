@@ -71,7 +71,7 @@ holidays:
           jp: 天皇誕生日
         active:
           - from: 2020-01-01
-      '1989-02-24':
+      "1989-02-24":
         name:
           en: State Funeral of Emperor Showa
           jp: 大喪の礼
@@ -88,7 +88,7 @@ holidays:
           jp: 春分の日
         active:
           - from: 1973-04-12
-      '1959-04-10':
+      "1959-04-10":
         name:
           en: Marriage of Crown Prince Akihito
           jp: 結婚の儀
@@ -107,7 +107,7 @@ holidays:
         active:
           - from: 1973-04-12
             to: 1988-12-31
-      '04-29 and if sunday then next monday #1':
+      "04-29 and if sunday then next monday #1":
         substitute: true
         name:
           en: Greenery Day
@@ -115,22 +115,22 @@ holidays:
         active:
           - from: 1989-01-01
             to: 2006-12-31
-      '04-29 and if sunday then next monday #2':
+      "04-29 and if sunday then next monday #2":
         substitute: true
         name:
           en: Showa Day
           jp: 昭和の日
         active:
           - from: 2007-01-01
-      '2019-04-30':
+      "2019-04-30":
         name:
           en: Citizens' Holiday
           jp: 国民の休日
-      '2019-05-01':
+      "2019-05-01":
         name:
           en: Coronation Day
           jp: 即位の日
-      '2019-05-02':
+      "2019-05-02":
         name:
           en: Citizens' Holiday
           jp: 国民の休日
@@ -172,7 +172,7 @@ holidays:
           jp: こどもの日
         active:
           - from: 1973-04-12
-      '1993-06-09':
+      "1993-06-09":
         name:
           en: Marriage of Crown Prince Naruhito
           jp: 結婚の儀
@@ -196,11 +196,11 @@ holidays:
           en: Marine Day
           jp: 海の日
         disable:
-          - '2020-07-20'
-          - '2021-07-19'
+          - "2020-07-20"
+          - "2021-07-19"
         enable:
-          - '2020-07-23'
-          - '2021-07-22'
+          - "2020-07-23"
+          - "2021-07-22"
         active:
           - from: 2003-01-01
       substitutes 2021-08-08 and if sunday then next monday:
@@ -214,10 +214,10 @@ holidays:
           en: Mountain Day
           jp: 山の日
         disable:
-          - '2020-08-11'
-          - '2021-08-11'
+          - "2020-08-11"
+          - "2021-08-11"
         enable:
-          - '2020-08-10'
+          - "2020-08-10"
         active:
           - from: 2016-01-01
       09-15:
@@ -273,26 +273,26 @@ holidays:
         active:
           - from: 1973-04-12
             to: 1999-12-31
-      '2nd monday in October #1':
+      "2nd monday in October #1":
         name:
           en: Sports Day
           jp: 体育の日
         active:
           - from: 2000-01-01
             to: 2019-12-31
-      '2nd monday in October #2':
+      "2nd monday in October #2":
         name:
           en: Sports Day
           jp: スポーツの日
         disable:
-          - '2020-10-12'
-          - '2021-10-11'
+          - "2020-10-12"
+          - "2021-10-11"
         enable:
-          - '2020-07-24'
-          - '2021-07-23'
+          - "2020-07-24"
+          - "2021-07-23"
         active:
           - from: 2020-01-01
-      '2019-10-22':
+      "2019-10-22":
         name:
           en: Enthronement Ceremony Day
           jp: 即位礼正殿の儀
@@ -310,7 +310,7 @@ holidays:
           jp: 文化の日
         active:
           - from: 1973-04-12
-      '1990-11-12':
+      "1990-11-12":
         name:
           en: Official Enthronement Ceremony of Emperor Heisei (Akihito)
           jp: 即位礼正殿の儀
@@ -346,4 +346,3 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
-

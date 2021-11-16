@@ -3,7 +3,7 @@ holidays:
   TC:
     names:
       en: Turks & Caicos Islands
-    langs: 
+    langs:
       - en
     zones:
       - America/Grand_Turk
@@ -30,7 +30,7 @@ holidays:
       1st Monday in August:
         name:
           en: Emancipation Day
-      1st Friday before 10-01: 	
+      1st Friday before 10-01:
         name:
           en: National Youth Day
       2nd Monday in October:

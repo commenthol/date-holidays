@@ -10,7 +10,7 @@ holidays:
       - Atlantic/Canary
     dayoff: sunday
     _days: ES
-    days: 
+    days:
       05-30:
         name:
           es: Día de Canarias
@@ -24,7 +24,7 @@ holidays:
             name:
               es: Nuestra Señora de los Reyes
       FU:
-        names: 
+        names:
           es: Fuerteventura
         days:
           09-18:
@@ -38,7 +38,7 @@ holidays:
             name:
               es: Nuestra Señora del Pino
       LG:
-        names: 
+        names:
           es: La Gomera
         days:
           10-05:
@@ -65,4 +65,3 @@ holidays:
           09-07:
             name:
               es: La Bajada de la Virgen del Socorro
-

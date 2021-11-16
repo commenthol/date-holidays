@@ -20,7 +20,7 @@ holidays:
         _name: 01-01
       Monday before 03-08:
         name:
-          en : The Anniversary of the Birth of Hamilton Lavity Stoutt
+          en: The Anniversary of the Birth of Hamilton Lavity Stoutt
       2nd Monday in March:
         name:
           en: Commonwealth Day
@@ -40,11 +40,11 @@ holidays:
         name:
           en: Sovereign’s Birthday
         disable:
-          - '2017-06-10'
-          - '2019-06-15'
+          - "2017-06-10"
+          - "2019-06-15"
         enable:
-          - '2017-06-17'
-          - '2019-06-07'
+          - "2017-06-17"
+          - "2019-06-07"
       2nd Friday after 06-02 since 2020:
         name:
           en: Sovereign’s Birthday
@@ -62,12 +62,12 @@ holidays:
         name:
           en: St. Ursula’s Day
         disable:
-          - '2016-10-23'
-          - '2020-10-19'
-          - '2021-10-22'
+          - "2016-10-23"
+          - "2020-10-19"
+          - "2021-10-22"
         enable:
-          - '2016-10-19'
-          - '2020-10-23'
+          - "2016-10-19"
+          - "2020-10-23"
         # wed 21/10/15 -> mon 19/10
         # fri 21/10/16
         # sat 21/10/17 -> fri 20/10
@@ -83,10 +83,10 @@ holidays:
       Wednesday after 1st Monday in August:
         name:
           en: Emancipation Wednesday
-      '2021-10-18':
+      "2021-10-18":
         name:
           en: Heroes’ and Forefathers Day
-      '2021-11-08':
+      "2021-11-08":
         name:
           en: Commemoration of the Great March of 1949
       12-25 and if Saturday then next Monday if Sunday then next Tuesday:

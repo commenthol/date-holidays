@@ -60,7 +60,7 @@ holidays:
             substitute: true
             name:
               en: Anzac Day
-          '2020-04-27':
+          "2020-04-27":
             name:
               en: Declared public holiday
             type: public

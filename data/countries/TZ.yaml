@@ -8,7 +8,7 @@ holidays:
     dayoff: sunday
     langs:
       - en
-      #- sw
+      # - sw
     zones:
       - Africa/Nairobi
     days:
@@ -55,4 +55,3 @@ holidays:
         _name: 12 Rabi al-awwal
         name:
           en: Maulid Day
-

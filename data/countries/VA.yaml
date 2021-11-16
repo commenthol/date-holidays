@@ -82,7 +82,7 @@ holidays:
         active:
           - from: 2005
             to: 2013
-      '03-19#1':
+      "03-19#1":
         name:
           en: Saint Joseph - Name day of the Holy Father
           it: San Giuseppe - Onomastico del Santo Padre

@@ -8,7 +8,7 @@ holidays:
       - zh
     zones:
       - Asia/Taipei
-    dayoff: ''
+    dayoff: ""
     days:
       01-01 and if Saturday then previous Friday if Sunday then next Monday:
         substitute: true
@@ -39,7 +39,7 @@ holidays:
       chinese 01-0-04:
         name:
           en: The forth day of the Chinese New Year
-          zh: 農曆年初四 
+          zh: 農曆年初四
       02-28 and if Sunday then next Monday:
         substitute: true
         name:
@@ -162,7 +162,7 @@ holidays:
           en: Lantern Festival
           zh: 元宵節
         type: observance
-      'chinese 01-0-15 #1':
+      "chinese 01-0-15 #1":
         name:
           en: Tourism Day
           zh: 觀光節
@@ -197,7 +197,7 @@ holidays:
           en: Kuan Kung's Birthday
           zh: 關公誕辰
         type: observance
-      'chinese 05-0-13 #1':
+      "chinese 05-0-13 #1":
         name:
           en: Cheng Huang's Birthday
           zh: 城隍爺誕辰

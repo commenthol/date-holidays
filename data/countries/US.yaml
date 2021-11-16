@@ -77,7 +77,7 @@ holidays:
       06-19 and if sunday then next monday if saturday then previous friday since 2021:
         # @source https://www.congress.gov/bill/117th-congress/senate-bill/475
         substitute: true
-        name: 
+        name:
           en: Juneteenth
       3rd sunday in June:
         _name: Fathers Day
@@ -137,7 +137,7 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: 'Robert E. Lee/Martin Luther King Birthday'
+              en: "Robert E. Lee/Martin Luther King Birthday"
           3rd monday in February:
             name:
               en: George Washington/Thomas Jefferson Birthday
@@ -170,12 +170,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2017-01-01'
-          '2nd monday in October #1':
+              - to: "2017-01-01"
+          "2nd monday in October #1":
             name:
               en: Indigenous Peoples' Day
             active:
-              - from: '2017-01-01'
+              - from: "2017-01-01"
           10-18:
             name:
               en: Alaska Day
@@ -317,29 +317,29 @@ holidays:
         days:
           # Washington's Birthday is celebrated near Christmas in Georgia.
           3rd monday in February: false
-          'monday before 05-01 #1':
+          "monday before 05-01 #1":
             name:
               en: Confederate Memorial Day
             active:
-              - to: '2016-01-01'
-          'monday before 05-01 #2':
+              - to: "2016-01-01"
+          "monday before 05-01 #2":
             name:
               en: State Holiday
             note: Known as Confederate Memorial Day prior to 2016
             active:
-              - from: '2016-01-01'
-          'friday after 4th thursday in November #1':
+              - from: "2016-01-01"
+          "friday after 4th thursday in November #1":
             name:
               en: Robert E. Lee's Birthday
             note: General Lee was born on 1807-01-19 but this holiday was traditionally observed the day after Thanksgiving.
             active:
-              - to: '2016-01-01'
-          'friday after 4th thursday in November #2':
+              - to: "2016-01-01"
+          "friday after 4th thursday in November #2":
             name:
               en: State Holiday
             note: Known as Robert E. Lee's Birtday prior to 2016
             active:
-              - from: '2016-01-01'
+              - from: "2016-01-01"
 
           12-24:
             name:
@@ -383,7 +383,7 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: 'Martin Luther King, Jr./ Idaho Human Rights Day'
+              en: "Martin Luther King, Jr./ Idaho Human Rights Day"
           3rd monday in February:
             name:
               en: President's Day
@@ -449,7 +449,7 @@ holidays:
           - America/Kentucky/Monticello
         days:
           3rd monday in February: false
-          'easter -2 14:00':
+          "easter -2 14:00":
             _name: easter -2
           12-24:
             _name: 12-24
@@ -536,12 +536,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2017-01-01'
-          '2nd monday in October #1':
+              - to: "2017-01-01"
+          "2nd monday in October #1":
             name:
               en: Indigenous Peoples’ Day
             active:
-              - from: '2017-01-01'
+              - from: "2017-01-01"
       MS:
         name: Mississippi
         zones:
@@ -605,7 +605,7 @@ holidays:
             name:
               en: Indigenous Peoples' Day
             active:
-              - from: '2017-01-01'
+              - from: "2017-01-01"
             type: observance
           friday before 11-01:
             name:
@@ -772,12 +772,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2015-01-01'
-          '2nd monday in October #1':
+              - to: "2015-01-01"
+          "2nd monday in October #1":
             name:
               en: Native American Day
             active:
-              - from: '2015-01-01'
+              - from: "2015-01-01"
       TN:
         name: Tennessee
         zones:
@@ -873,12 +873,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2017-09-01'
-          '2nd monday in October #1':
+              - to: "2017-09-01"
+          "2nd monday in October #1":
             name:
               en: Indigenous Peoples' Day
             active:
-              - from: '2017-09-01'
+              - from: "2017-09-01"
       VA:
         name: Virginia
         zones:

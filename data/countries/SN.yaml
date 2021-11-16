@@ -1,9 +1,9 @@
- # @source https://www.joursferies.fr/pays/senegal.php
- # @source https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/97260/115332/F792726416/SEN-97260.pdf
- # @source https://www.au-senegal.com/les-fetes-et-jours-feries,056.html
- # @source https://lepetitjournal.com/dakar/les-jours-feries-au-senegal-en-2021-295473
- # @source https://www.seneweb.com/news/Societe/ce-que-dit-la-loi-sur-les-jours-feries_n_113705.html
- holidays:
+# @source https://www.joursferies.fr/pays/senegal.php
+# @source https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/97260/115332/F792726416/SEN-97260.pdf
+# @source https://www.au-senegal.com/les-fetes-et-jours-feries,056.html
+# @source https://lepetitjournal.com/dakar/les-jours-feries-au-senegal-en-2021-295473
+# @source https://www.seneweb.com/news/Societe/ce-que-dit-la-loi-sur-les-jours-feries_n_113705.html
+holidays:
   SN:
     names:
       fr: République du Sénégal
@@ -44,8 +44,6 @@
         _name: 10 Muharram
       18 Safar:
         name: Magal de Touba
-
-
 
 #    states:
 #      DB:

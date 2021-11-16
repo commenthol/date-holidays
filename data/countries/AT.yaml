@@ -47,24 +47,24 @@ holidays:
         _name: 11-01
       12-08:
         _name: 12-08
-      '12-24 14:00 if sunday then 00:00':
+      "12-24 14:00 if sunday then 00:00":
         _name: 12-24
         type: bank
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
-      '12-31 14:00 if sunday then 00:00':
+      "12-31 14:00 if sunday then 00:00":
         _name: 12-31
         type: bank
     states:
-      '1':
+      "1":
         name: Burgenland
         days:
           11-11:
             name:
               de-at: Martinstag
-      '2':
+      "2":
         names:
           de: Kärnten
           en: Carinthia
@@ -74,7 +74,7 @@ holidays:
           10-10:
             name:
               de-at: Tag der Volksabstimmung
-      '3':
+      "3":
         names:
           de: Niederösterreich
           en: Lower Austria
@@ -82,7 +82,7 @@ holidays:
           11-15:
             name:
               de-at: Leopold
-      '4':
+      "4":
         names:
           de: Oberösterreich
           en: Upper Austria
@@ -90,7 +90,7 @@ holidays:
           05-04:
             name:
               de-at: Florian
-      '5':
+      "5":
         names:
           de: Land Salzburg
           en: Salzburg
@@ -98,26 +98,26 @@ holidays:
           09-24:
             name:
               de-at: Rupert
-      '6':
+      "6":
         names:
           de: Steiermark
           en: Styria
         days:
           03-19:
             _name: 03-19
-      '7':
+      "7":
         names:
           de: Tirol
           en: Tyrol
         days:
           03-19:
             _name: 03-19
-      '8':
+      "8":
         name: Vorarlberg
         days:
           03-19:
             _name: 03-19
-      '9':
+      "9":
         names:
           de: Wien
           en: Vienna

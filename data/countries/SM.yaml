@@ -71,21 +71,21 @@ holidays:
         type: optional
 
     # regions:
-      # '01':
-      #   name: Acquaviva
-      # '02':
-      #   name: Chiesanuova
-      # '03':
-      #   name: Domagnano
-      # '04':
-      #   name: Faetano
-      # '05':
-      #   name: Fiorentino
-      # '06':
-      #   name: Borgo Maggiore
-      # '07':
-      #   name: San Marino
-      # 08:
-      #   name: Montegiardino
-      # 09:
-      #   name: Serravalle
+    # '01':
+    #   name: Acquaviva
+    # '02':
+    #   name: Chiesanuova
+    # '03':
+    #   name: Domagnano
+    # '04':
+    #   name: Faetano
+    # '05':
+    #   name: Fiorentino
+    # '06':
+    #   name: Borgo Maggiore
+    # '07':
+    #   name: San Marino
+    # 08:
+    #   name: Montegiardino
+    # 09:
+    #   name: Serravalle

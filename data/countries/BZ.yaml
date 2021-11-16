@@ -46,15 +46,15 @@ holidays:
         _name: 12-26
         substitute: true
     # regions:
-      # BZ:
-      #   name: Belize
-      # CY:
-      #   name: Cayo
-      # CZL:
-      #   name: Corozal
-      # OW:
-      #   name: Orange Walk
-      # SC:
-      #   name: Stann Creek
-      # TOL:
-      #   name: Toledo
+    # BZ:
+    #   name: Belize
+    # CY:
+    #   name: Cayo
+    # CZL:
+    #   name: Corozal
+    # OW:
+    #   name: Orange Walk
+    # SC:
+    #   name: Stann Creek
+    # TOL:
+    #   name: Toledo

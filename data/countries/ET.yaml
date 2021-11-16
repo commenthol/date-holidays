@@ -55,25 +55,25 @@ holidays:
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
     # states:
-      # AA:
-      #   name: Addis Ababa
-      # AF:
-      #   name: Afar
-      # AM:
-      #   name: Amhara
-      # BE:
-      #   name: Benishangul-Gumuz
-      # DD:
-      #   name: Dire Dawa
-      # GA:
-      #   name: Gambela
-      # HA:
-      #   name: Harari
-      # OR:
-      #   name: Oromia
-      # SN:
-      #   name: 'Southern Nations, Nationalities, and Peoples'
-      # SO:
-      #   name: Somali
-      # TI:
-      #   name: Tigray
+    # AA:
+    #   name: Addis Ababa
+    # AF:
+    #   name: Afar
+    # AM:
+    #   name: Amhara
+    # BE:
+    #   name: Benishangul-Gumuz
+    # DD:
+    #   name: Dire Dawa
+    # GA:
+    #   name: Gambela
+    # HA:
+    #   name: Harari
+    # OR:
+    #   name: Oromia
+    # SN:
+    #   name: 'Southern Nations, Nationalities, and Peoples'
+    # SO:
+    #   name: Somali
+    # TI:
+    #   name: Tigray

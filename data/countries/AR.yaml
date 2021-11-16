@@ -82,9 +82,9 @@ holidays:
       4th monday in November:
         # @source http://www.mininterior.gov.ar/tramitesyservicios/pdf/feriado-nacional-27-11-2015.pdf
         disable:
-          - '2015-11-23'
+          - "2015-11-23"
         enable:
-          - '2015-11-27'
+          - "2015-11-27"
         name:
           en: Day of National Sovereignty
           es: Día de la Soberanía nacional
@@ -94,7 +94,7 @@ holidays:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
-      '12-24 12:00':
+      "12-24 12:00":
         _name: 12-24
         type: optional
       substitutes 12-24 if tuesday then previous monday:
@@ -107,55 +107,55 @@ holidays:
         name:
           en: Bridge Day
           es: Feriado Puente Turístico
-      '12-31 12:00':
+      "12-31 12:00":
         _name: 12-31
         type: optional
     # states:
-      # A:
-      #   name: Salta
-      # B:
-      #   name: Buenos Aires Province
-      # C:
-      #   name: Buenos Aires
-      # D:
-      #   name: San Luis
-      # E:
-      #   name: Entre Ríos
-      # F:
-      #   name: La Rioja
-      # G:
-      #   name: Santiago del Estero
-      # H:
-      #   name: Chaco
-      # J:
-      #   name: San Juan
-      # K:
-      #   name: Catamarca
-      # L:
-      #   name: La Pampa
-      # M:
-      #   name: Mendoza
-      # N:
-      #   name: Misiones
-      # P:
-      #   name: Formosa
-      # Q:
-      #   name: Neuquén
-      # R:
-      #   name: Río Negro
-      # S:
-      #   name: Santa Fe
-      # T:
-      #   name: Tucumán
-      # U:
-      #   name: Chubut
-      # V:
-      #   name: Tierra del Fuego
-      # W:
-      #   name: Corrientes
-      # X:
-      #   name: Córdoba
-      # Y:
-      #   name: Jujuy
-      # Z:
-      #   name: Santa Cruz
+    # A:
+    #   name: Salta
+    # B:
+    #   name: Buenos Aires Province
+    # C:
+    #   name: Buenos Aires
+    # D:
+    #   name: San Luis
+    # E:
+    #   name: Entre Ríos
+    # F:
+    #   name: La Rioja
+    # G:
+    #   name: Santiago del Estero
+    # H:
+    #   name: Chaco
+    # J:
+    #   name: San Juan
+    # K:
+    #   name: Catamarca
+    # L:
+    #   name: La Pampa
+    # M:
+    #   name: Mendoza
+    # N:
+    #   name: Misiones
+    # P:
+    #   name: Formosa
+    # Q:
+    #   name: Neuquén
+    # R:
+    #   name: Río Negro
+    # S:
+    #   name: Santa Fe
+    # T:
+    #   name: Tucumán
+    # U:
+    #   name: Chubut
+    # V:
+    #   name: Tierra del Fuego
+    # W:
+    #   name: Corrientes
+    # X:
+    #   name: Córdoba
+    # Y:
+    #   name: Jujuy
+    # Z:
+    #   name: Santa Cruz

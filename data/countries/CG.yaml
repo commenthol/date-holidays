@@ -36,27 +36,27 @@ holidays:
       12-25:
         _name: 12-25
     # states:
-      # '2':
-      #   name: Lékoumou
-      # '5':
-      #   name: Kouilou
-      # '7':
-      #   name: Likouala
-      # '8':
-      #   name: Cuvette
-      # '9':
-      #   name: Niari
-      # '11':
-      #   name: Bouenza
-      # '12':
-      #   name: Pool
-      # '13':
-      #   name: Sangha
-      # '14':
-      #   name: Plateaux
-      # '15':
-      #   name: Cuvette-Ouest
-      # '16':
-      #   name: Pointe-Noire
-      # BZV:
-      #   name: Brazzaville
+    # '2':
+    #   name: Lékoumou
+    # '5':
+    #   name: Kouilou
+    # '7':
+    #   name: Likouala
+    # '8':
+    #   name: Cuvette
+    # '9':
+    #   name: Niari
+    # '11':
+    #   name: Bouenza
+    # '12':
+    #   name: Pool
+    # '13':
+    #   name: Sangha
+    # '14':
+    #   name: Plateaux
+    # '15':
+    #   name: Cuvette-Ouest
+    # '16':
+    #   name: Pointe-Noire
+    # BZV:
+    #   name: Brazzaville

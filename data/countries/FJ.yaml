@@ -35,66 +35,66 @@ holidays:
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
       # Deepavali if Saturday, Sunday then next Monday
-      '2014-10-22':
+      "2014-10-22":
         _name: Deepavali
         name:
           en: Diwali
-      '2015-11-10':
+      "2015-11-10":
         _name: Deepavali
         name:
           en: Diwali
-      '2016-10-29':
+      "2016-10-29":
         _name: Deepavali
         name:
           en: Diwali
-      '2017-10-19':
+      "2017-10-19":
         _name: Deepavali
         name:
           en: Diwali
-      '2018-11-07':
+      "2018-11-07":
         _name: Deepavali
         name:
           en: Diwali
-      '2019-10-27':
+      "2019-10-27":
         _name: Deepavali
         name:
           en: Diwali
-      '2019-10-28':
+      "2019-10-28":
         substitute: true
         _name: Deepavali
         name:
           en: Diwali
-      '2020-11-14':
+      "2020-11-14":
         _name: Deepavali
         name:
           en: Diwali
-      '2020-11-16':
+      "2020-11-16":
         substitute: true
         _name: Deepavali
         name:
           en: Diwali
-      '2021-11-04':
+      "2021-11-04":
         _name: Deepavali
         name:
           en: Diwali
-      '2022-10-24':
+      "2022-10-24":
         _name: Deepavali
         name:
           en: Diwali
-      '2023-11-12':
+      "2023-11-12":
         _name: Deepavali
         name:
           en: Diwali
-      '2023-11-13':
+      "2023-11-13":
         substitute: true
         _name: Deepavali
         name:
           en: Diwali
-      '2024-11-01':
+      "2024-11-01":
         _name: Deepavali
         name:
           en: Diwali
-      '2025-10-21':
+      "2025-10-21":
         _name: Deepavali
         name:
           en: Diwali

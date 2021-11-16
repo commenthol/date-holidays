@@ -7,7 +7,7 @@ holidays:
       - en
     zones:
       - Africa/Abidjan
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: 01-01
@@ -46,7 +46,7 @@ holidays:
         _name: 10 Dhu al-Hijjah
         name:
           en: Tabaski
-      
+
     # states:
     #   B:
     #     name: Banjul

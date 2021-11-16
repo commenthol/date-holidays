@@ -40,7 +40,7 @@ holidays:
       1st monday in August:
         name:
           en: Farmers' Day
-      '2015-10-18':
+      "2015-10-18":
         name:
           en: National day of Prayers
       10-24 and if sunday then next monday:

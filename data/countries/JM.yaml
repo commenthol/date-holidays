@@ -38,4 +38,3 @@ holidays:
       12-26 and if sunday then next monday:
         _name: 12-26
         substitute: true
-

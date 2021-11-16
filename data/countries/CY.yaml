@@ -4,7 +4,7 @@ holidays:
     names:
       el: Κύπρος
       en: Cyprus
-    dayoff:
+    dayoff: ""
     langs:
       - el
     zones:
@@ -59,15 +59,15 @@ holidays:
       12-26:
         _name: 12-26
     # states:
-      # '01':
-      #   name: Nicosia
-      # '02':
-      #   name: Limassol
-      # '03':
-      #   name: Larnaca
-      # '04':
-      #   name: Famagusta
-      # '05':
-      #   name: Paphos
-      # '06':
-      #   name: Kyrenia
+    # '01':
+    #   name: Nicosia
+    # '02':
+    #   name: Limassol
+    # '03':
+    #   name: Larnaca
+    # '04':
+    #   name: Famagusta
+    # '05':
+    #   name: Paphos
+    # '06':
+    #   name: Kyrenia

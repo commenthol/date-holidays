@@ -78,12 +78,12 @@ holidays:
         name:
           pt: Proclamação da República
           en: Republic Day
-      '12-24 14:00':
+      "12-24 14:00":
         _name: 12-24
         type: optional
       12-25:
         _name: 12-25
-      '12-31 14:00':
+      "12-31 14:00":
         _name: 12-31
         type: optional
     states:
@@ -321,7 +321,7 @@ holidays:
             name:
               pt: Dia do Piauí
             active:
-             - from: 1937-01-01
+              - from: 1937-01-01
       PR:
         name: Paraná
         zones:

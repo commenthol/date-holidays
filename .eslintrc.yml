@@ -5,8 +5,10 @@ env:
   mocha: true
 extends:
   - standard
+  - plugin:yml/standard
 parserOptions:
   ecmaVersion: 11
   sourceType: module
 rules:
   array-callback-return: off
+  yml/plain-scalar: off

@@ -94,33 +94,33 @@ holidays:
       12-26:
         _name: 12-26
     # states:
-      # '37':
-      #   name: Harju
-      # '39':
-      #   name: Hiiu
-      # '44':
-      #   name: Ida-Viru
-      # '49':
-      #   name: Jõgeva
-      # '51':
-      #   name: Järva
-      # '57':
-      #   name: Lääne
-      # '59':
-      #   name: Lääne-Viru
-      # '65':
-      #   name: Põlva
-      # '67':
-      #   name: Pärnu
-      # '70':
-      #   name: Rapla
-      # '74':
-      #   name: Saare
-      # '78':
-      #   name: Tartu
-      # '82':
-      #   name: Valga
-      # '84':
-      #   name: Viljandi
-      # '86':
-      #   name: Võru
+    # '37':
+    #   name: Harju
+    # '39':
+    #   name: Hiiu
+    # '44':
+    #   name: Ida-Viru
+    # '49':
+    #   name: Jõgeva
+    # '51':
+    #   name: Järva
+    # '57':
+    #   name: Lääne
+    # '59':
+    #   name: Lääne-Viru
+    # '65':
+    #   name: Põlva
+    # '67':
+    #   name: Pärnu
+    # '70':
+    #   name: Rapla
+    # '74':
+    #   name: Saare
+    # '78':
+    #   name: Tartu
+    # '82':
+    #   name: Valga
+    # '84':
+    #   name: Viljandi
+    # '86':
+    #   name: Võru

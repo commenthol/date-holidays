@@ -9,7 +9,7 @@ holidays:
       - fr
     zones:
       - Africa/Abidjan
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: 01-01

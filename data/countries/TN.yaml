@@ -20,15 +20,15 @@ holidays:
       01-14:
         name:
           fr: Fête de la Révolution et de la Jeunesse
-          ar: 'عيد الثورة و الشباب'
+          ar: "عيد الثورة و الشباب"
       03-20:
         name:
           fr: Fête de l'indépendance
-          ar: 'عيد الإستقلال'
+          ar: "عيد الإستقلال"
       04-09:
         name:
           fr: Journée des Martyrs
-          ar: 'عيد الشهداء'
+          ar: "عيد الشهداء"
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
       1 Muharram:
@@ -42,15 +42,15 @@ holidays:
       07-25:
         name:
           fr: Fête de la République
-          ar: 'عيد الجمهورية'
+          ar: "عيد الجمهورية"
       08-13:
         name:
           fr: Fête de la Femme et de la Famille
-          ar: 'عيد المرأة'
+          ar: "عيد المرأة"
       10-15:
         name:
           fr: Fête de l'Évacuation
-          ar: 'عيد الجلاء'
+          ar: "عيد الجلاء"
 
 #    states:
 #      '11':

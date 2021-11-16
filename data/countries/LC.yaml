@@ -3,12 +3,12 @@ holidays:
   LC:
     names:
       en: St. Lucia
-    langs: 
+    langs:
       - en
     zones:
       - America/Port_of_Spain
     dayoff: sunday
-    days: 
+    days:
       01-01:
         _name: 01-01
       01-02:

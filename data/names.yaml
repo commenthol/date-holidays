@@ -1,4 +1,4 @@
-##
+# #
 # @copyright (c) 2016- commenthol
 # @license CC0-1.0
 #
@@ -12,7 +12,7 @@ names:
     name:
       en: New Year's Day
       am: እንቁጣጣሽ
-      ar: "عيد رأس السنة"
+      ar: عيد رأس السنة
       az: Yeni il
       be: Новы год
       bg: Нова Година
@@ -144,7 +144,7 @@ names:
     name:
       en: Labour Day
       en-us: Labor Day
-      ar: "يوم العمال"
+      ar: يوم العمال
       be: Дзень працы
       bg: Ден на труда
       bs: Radni dan
@@ -339,7 +339,7 @@ names:
     name:
       en: Christmas Day
       am: ልደተ-ለእግዚእነ/ ገና
-      ar: "عيد الميلاد المجيد"
+      ar: عيد الميلاد المجيد
       bg: Коледа
       bn: বড়দিন
       bs: Božić
@@ -757,7 +757,7 @@ names:
   1 Muharram: # Islamic New Year
     name:
       en: Islamic New Year
-      ar: "رأس السنة الهجرية"
+      ar: رأس السنة الهجرية
       bs: Nova hidžretska godina
       fil: Unang Araw ng Muharram
       fr: Nouvel an islamique
@@ -769,14 +769,14 @@ names:
   10 Muharram: # Day of Ashura
     name:
       en: Day of Ashura
-      ar: "عاشوراء"
+      ar: عاشوراء
       bn: আশুরা
       nl: Asjoera
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
       en: Birthday of Muhammad (Mawlid)
       am: መውሊድ
-      ar: "المولد النبويّ"
+      ar: المولد النبويّ
       bn: ঈদে মিলাদুন্নবী
       bs: Mevlud
       fr: Mawlid
@@ -787,7 +787,7 @@ names:
   27 Rajab: # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
     name:
       en: Laylat al-Mi'raj
-      ar: "الإسراء والمعراج"
+      ar: الإسراء والمعراج
       bs: Lejletul Mi'radž
       id: Maulid Nabi Muhammad
       ms: Israk dan Mikraj
@@ -797,7 +797,7 @@ names:
   15 Shaban: # Laylat al-Bara'at (Bara'at Night)
     name:
       en: Laylat al-Bara'at
-      ar: "ليلة البراءة"
+      ar: ليلة البراءة
       bs: Lejletul berat
       nl: Laylat al-Baraat
       sq: Nata e Beratit
@@ -805,7 +805,7 @@ names:
     name:
       en: First day of Ramadan
       am: ረመዳን
-      ar: "اليوم الأول من رمضان"
+      ar: اليوم الأول من رمضان
       bs: Prvi dan posta
       ms: Awal Ramadan
       nl: Eerste dag van Ramadan
@@ -820,7 +820,7 @@ names:
   27 Ramadan: # Laylat al-Qadr (Night of Power)
     name:
       en: Laylat al-Qadr
-      ar: "لیلة القدر"
+      ar: لیلة القدر
       bs: Lejletul kadr
       nl: Waardevolle Nacht (Laylat al-Qadr)
       sq: Nata e Kadrit
@@ -828,7 +828,7 @@ names:
     name:
       en: End of Ramadan (Eid al-Fitr)
       am: ዒድ አል ፈጥር
-      ar: "عيد الفطر"
+      ar: عيد الفطر
       az: Ramazan Bayramı
       bn: ঈদুল ফিতর
       bs: Ramazanski bajram
@@ -853,7 +853,7 @@ names:
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
       am: ዒድ አል አድሐ
-      ar: "عيد الأضحى"
+      ar: عيد الأضحى
       az: Qurban Bayramı
       bn: ঈদুল আযহা
       bs: Kurbanski bajram
@@ -1051,7 +1051,7 @@ names:
   Revolution Day:
     name:
       en: Revolution Day
-      ar: "يوم الثورة"
+      ar: يوم الثورة
       es: Día de la Revolución
       nl: Dag van de revolutie
       ti: ባሕቲ መስከረም

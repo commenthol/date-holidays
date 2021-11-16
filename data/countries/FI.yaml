@@ -54,45 +54,45 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-      '12-31 14:00 if sunday then 00:00':
+      "12-31 14:00 if sunday then 00:00":
         _name: 12-31
         type: bank
     # states:
-      # '01':
-      #   name: Åland Islands
-      # '02':
-      #   name: South Karelia
-      # '03':
-      #   name: Southern Ostrobothnia
-      # '04':
-      #   name: Southern Savonia
-      # '05':
-      #   name: Kainuu
-      # '06':
-      #   name: Tavastia Proper
-      # '07':
-      #   name: Central Ostrobothnia
-      # '08':
-      #   name: Central Finland
-      # '09':
-      #   name: Kymenlaakso
-      # '10':
-      #   name: Lapland
-      # '11':
-      #   name: Pirkanmaa
-      # '12':
-      #   name: Ostrobothnia
-      # '13':
-      #   name: North Karelia
-      # '14':
-      #   name: Northern Ostrobothnia
-      # '15':
-      #   name: Northern Savonia
-      # '16':
-      #   name: Päijänne Tavastia
-      # '17':
-      #   name: Satakunta
-      # '18':
-      #   name: Uusimaa
-      # '19':
-      #   name: Southwest Finland
+    # '01':
+    #   name: Åland Islands
+    # '02':
+    #   name: South Karelia
+    # '03':
+    #   name: Southern Ostrobothnia
+    # '04':
+    #   name: Southern Savonia
+    # '05':
+    #   name: Kainuu
+    # '06':
+    #   name: Tavastia Proper
+    # '07':
+    #   name: Central Ostrobothnia
+    # '08':
+    #   name: Central Finland
+    # '09':
+    #   name: Kymenlaakso
+    # '10':
+    #   name: Lapland
+    # '11':
+    #   name: Pirkanmaa
+    # '12':
+    #   name: Ostrobothnia
+    # '13':
+    #   name: North Karelia
+    # '14':
+    #   name: Northern Ostrobothnia
+    # '15':
+    #   name: Northern Savonia
+    # '16':
+    #   name: Päijänne Tavastia
+    # '17':
+    #   name: Satakunta
+    # '18':
+    #   name: Uusimaa
+    # '19':
+    #   name: Southwest Finland

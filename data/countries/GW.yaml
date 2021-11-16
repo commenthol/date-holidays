@@ -8,7 +8,7 @@ holidays:
       - pt
     zones:
       - Africa/Bissau
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: 01-01
@@ -24,11 +24,11 @@ holidays:
         name:
           pt: Pidjiguiti Day
       09-24:
-        _name: Independence Day          
+        _name: Independence Day
       11-14:
         name:
           pt: Dia do Movimento de Reajustamento
-          en: Readjustment Movement Day 
+          en: Readjustment Movement Day
       12-25:
         _name: 12-25
       1 Shawwal:

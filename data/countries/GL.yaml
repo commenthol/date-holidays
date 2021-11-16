@@ -51,11 +51,11 @@ holidays:
       12-26:
         _name: 12-26
     # states:
-      # KU:
-      #   name: Kujalleq
-      # QA:
-      #   name: Qaasuitsup
-      # QE:
-      #   name: Qeqqata
-      # SM:
-      #   name: Sermersooq
+    # KU:
+    #   name: Kujalleq
+    # QA:
+    #   name: Qaasuitsup
+    # QE:
+    #   name: Qeqqata
+    # SM:
+    #   name: Sermersooq

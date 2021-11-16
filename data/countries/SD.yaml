@@ -7,7 +7,7 @@ holidays:
     langs: []
     zones:
       - Africa/Khartoum
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: Independence Day

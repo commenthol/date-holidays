@@ -45,97 +45,97 @@ holidays:
       12-25:
         _name: 12-25
     # states:
-      # '33':
-      #   name: Cibao Nordeste
-      #   regions:
-      #     '14':
-      #       name: María Trinidad Sánchez
-      #     '19':
-      #       name: Hermanas Mirabal
-      #     '20':
-      #       name: Samaná
-      #     '06':
-      #       name: Duarte
-      # '34':
-      #   name: Cibao Noroeste
-      #   regions:
-      #     '15':
-      #       name: Monte Cristi
-      #     '26':
-      #       name: Santiago Rodríguez
-      #     '27':
-      #       name: Valverde
-      #     '05':
-      #       name: Dajabón
-      # '35':
-      #   name: Cibao Norte
-      #   regions:
-      #     '18':
-      #       name: Puerto Plata
-      #     '25':
-      #       name: Santiago
-      #     09:
-      #       name: Espaillat
-      # '36':
-      #   name: Cibao Sur
-      #   regions:
-      #     '13':
-      #       name: La Vega
-      #     '24':
-      #       name: Sánchez Ramírez
-      #     '28':
-      #       name: Monseñor Nouel
-      # '37':
-      #   name: El Valle
-      #   regions:
-      #     '22':
-      #       name: San Juan
-      #     '07':
-      #       name: Elías Piña
-      # '38':
-      #   name: Enriquillo
-      #   regions:
-      #     '10':
-      #       name: Independencia
-      #     '16':
-      #       name: Pedernales
-      #     '03':
-      #       name: Baoruco
-      #     '04':
-      #       name: Barahona
-      # '39':
-      #   name: Higüamo
-      #   regions:
-      #     '23':
-      #       name: San Pedro de Macorís
-      #     '29':
-      #       name: Monte Plata
-      #     '30':
-      #       name: Hato Mayor
-      # '40':
-      #   name: Ozama
-      #   regions:
-      #     '32':
-      #       name: Santo Domingo
-      #     '01':
-      #       name: Distrito Nacional
-      # '41':
-      #   name: Valdesia
-      #   regions:
-      #     '17':
-      #       name: Peravia
-      #     '21':
-      #       name: San Cristóbal
-      #     '31':
-      #       name: San José de Ocoa
-      #     '02':
-      #       name: Azua
-      # '42':
-      #   name: Yuma
-      #   regions:
-      #     '11':
-      #       name: La Altagracia
-      #     '12':
-      #       name: La Romana
-      #     08:
-      #       name: El Seibo
+    # '33':
+    #   name: Cibao Nordeste
+    #   regions:
+    #     '14':
+    #       name: María Trinidad Sánchez
+    #     '19':
+    #       name: Hermanas Mirabal
+    #     '20':
+    #       name: Samaná
+    #     '06':
+    #       name: Duarte
+    # '34':
+    #   name: Cibao Noroeste
+    #   regions:
+    #     '15':
+    #       name: Monte Cristi
+    #     '26':
+    #       name: Santiago Rodríguez
+    #     '27':
+    #       name: Valverde
+    #     '05':
+    #       name: Dajabón
+    # '35':
+    #   name: Cibao Norte
+    #   regions:
+    #     '18':
+    #       name: Puerto Plata
+    #     '25':
+    #       name: Santiago
+    #     09:
+    #       name: Espaillat
+    # '36':
+    #   name: Cibao Sur
+    #   regions:
+    #     '13':
+    #       name: La Vega
+    #     '24':
+    #       name: Sánchez Ramírez
+    #     '28':
+    #       name: Monseñor Nouel
+    # '37':
+    #   name: El Valle
+    #   regions:
+    #     '22':
+    #       name: San Juan
+    #     '07':
+    #       name: Elías Piña
+    # '38':
+    #   name: Enriquillo
+    #   regions:
+    #     '10':
+    #       name: Independencia
+    #     '16':
+    #       name: Pedernales
+    #     '03':
+    #       name: Baoruco
+    #     '04':
+    #       name: Barahona
+    # '39':
+    #   name: Higüamo
+    #   regions:
+    #     '23':
+    #       name: San Pedro de Macorís
+    #     '29':
+    #       name: Monte Plata
+    #     '30':
+    #       name: Hato Mayor
+    # '40':
+    #   name: Ozama
+    #   regions:
+    #     '32':
+    #       name: Santo Domingo
+    #     '01':
+    #       name: Distrito Nacional
+    # '41':
+    #   name: Valdesia
+    #   regions:
+    #     '17':
+    #       name: Peravia
+    #     '21':
+    #       name: San Cristóbal
+    #     '31':
+    #       name: San José de Ocoa
+    #     '02':
+    #       name: Azua
+    # '42':
+    #   name: Yuma
+    #   regions:
+    #     '11':
+    #       name: La Altagracia
+    #     '12':
+    #       name: La Romana
+    #     08:
+    #       name: El Seibo

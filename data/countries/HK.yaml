@@ -48,9 +48,9 @@ holidays:
         _name: easter 1
         disable:
           # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
-          - '2021-04-05'
+          - "2021-04-05"
         enable:
-          - '2021-04-06'
+          - "2021-04-06"
       05-01 and if Sunday then next Monday:
         substitute: true
         _name: 05-01
@@ -74,9 +74,9 @@ holidays:
           en: The day following the Chinese Mid-Autumn Festival
           zh: 中秋節翌日
         disable:
-          - '2020-10-01'
+          - "2020-10-01"
         enable:
-          - '2020-10-02'
+          - "2020-10-02"
       10-01 and if Sunday then next Monday:
         substitute: true
         name:

@@ -8,7 +8,7 @@ holidays:
       - fr
     zones:
       - Indian/Reunion
-    dayoff: ''
+    dayoff: ""
     _days: FR
     days:
       12-20:

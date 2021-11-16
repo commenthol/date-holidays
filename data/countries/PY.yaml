@@ -17,9 +17,9 @@ holidays:
         _name: 01-01
       03-01:
         disable:
-          - '2017-03-01'
+          - "2017-03-01"
         enable:
-          - '2017-02-27'
+          - "2017-02-27"
         name:
           en: Heroes' Day
           es: Dia de los héroes
@@ -45,20 +45,20 @@ holidays:
           en: Chaco Armistice
           es: Día de la Paz del Chaco
         disable:
-          - '2020-06-12'
+          - "2020-06-12"
         enable:
-          - '2020-06-15'
+          - "2020-06-15"
       08-15:
         _name: 08-15
         disable:
-          - '2017-08-15'
+          - "2017-08-15"
         enable:
-          - '2017-08-14'
+          - "2017-08-14"
       09-29:
         disable:
-          - '2017-09-29'
+          - "2017-09-29"
         enable:
-          - '2017-10-02'
+          - "2017-10-02"
         name:
           en: Boqueron Battle Victory Day
           es: Victoria de Boquerón
