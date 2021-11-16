@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.12.1](https://github.com/commenthol/date-holidays/compare/3.12.0...3.12.1) (2021-11-16)
+
+- chore: yaml linter [e65ebeb6](https://github.com/commenthol/date-holidays/commit/e65ebeb65edefa1a22a62ec341bcd78d1f47eee1)
+- fix(FJ): moment-timezone update [2b6d8093](https://github.com/commenthol/date-holidays/commit/2b6d8093e0b64a3d4efb8b1e6b8f0bb39b253d93)
+- fix(ID): fixing Indonesia's independence day [3c372c91](https://github.com/commenthol/date-holidays/commit/3c372c91f37603943495f847b32fea574726761f)
+- chore(travis): upgrade node version to 14, 16 and latest [08220cb2](https://github.com/commenthol/date-holidays/commit/08220cb2d198faea26f61f34f8e40c8490d64e6d)
+
 ## [3.12.0](https://github.com/commenthol/date-holidays/compare/3.11.0...3.12.0) (2021-10-29)
 
 - docs: Readme and attribution update [5d87d9cd](https://github.com/commenthol/date-holidays/commit/5d87d9cdc22b3281eb4c1c726a5c9d30c38b76a4)
