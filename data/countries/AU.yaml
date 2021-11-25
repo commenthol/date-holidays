@@ -8,6 +8,7 @@ holidays:
     langs:
       - en
     zones:
+      - Pacific/Norfolk
       - Australia/Sydney
       - Australia/Lord_Howe
       - Antarctica/Macquarie
@@ -74,6 +75,39 @@ holidays:
             name:
               en: Labour Day
       # @source https://www.legislation.nsw.gov.au/~/pdf/view/act/2010/115/whole
+        regions:
+          # @source https://www.legislation.gov.au/Details/C2021Q00011
+          NF:
+            name: Norfolk Island
+            zones:
+              - Pacific/Norfolk
+            days:
+              2nd monday in March: false
+              easter -1: false
+              monday after 05-27: false
+              03-06 and if saturday,sunday then next monday:
+                substitute: true
+                name:
+                  en: Foundation Day
+                type: public
+              06-08 and if saturday,sunday then next monday:
+                substitute: true
+                name:
+                  en: Anniversary (Bounty) Day
+                type: public
+              2nd monday in June:
+                name:
+                  en: Queen's Birthday
+              1st monday in October: false           
+              2nd monday in October:
+                name:
+                  en: Norfolk Island Agricultural Show
+                type: public
+              Wednesday before 12-01:
+                name:
+                  en: Thanksgiving Day
+                type: public
+          # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2021_07_09%20Gazette%20No.%2029.pdf
       NSW:
         name: New South Wales
         zones:
