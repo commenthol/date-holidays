@@ -76,7 +76,7 @@ holidays:
               en: Labour Day
       # @source https://www.legislation.nsw.gov.au/~/pdf/view/act/2010/115/whole
         regions:
-          # @source https://www.legislation.gov.au/Details/C2021Q00011 Part 1
+          # @source https://www.legislation.gov.au/Details/C2021Q00011 Section 9
           NF:
             name: Norfolk Island
             zones:
