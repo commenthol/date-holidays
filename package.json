@@ -175,7 +175,6 @@
   },
   "dependencies": {
     "date-holidays-parser": "^3.2.3",
-    "eslint-plugin-yml": "^0.11.0",
     "js-yaml": "^4.1.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
@@ -196,6 +195,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-yml": "^0.11.0",
     "hashtree": "^0.7.0",
     "husky": "^7.0.4",
     "markedpp": "^1.0.4",
