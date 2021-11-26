@@ -16,6 +16,8 @@ holidays:
       3rd monday in February:
         name:
           en: Washington's Birthday
+      # Saint Patrick's Day is not observed
+      03-17: false
       04-15 if friday then next monday if saturday,sunday then next tuesday: false
       04-17 and if sunday then next monday:
         name:

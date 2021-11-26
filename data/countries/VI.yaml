@@ -17,6 +17,8 @@ holidays:
       3rd monday in February:
         name:
           en: President's Day
+      # Saint Patrick's Day is not observed
+      03-17: false
       03-31:
         name:
           en: Transfer Day

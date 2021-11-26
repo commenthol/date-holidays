@@ -26,6 +26,8 @@ holidays:
         name:
           es: Día de la Ciudadanía Americana
           en: American Citizenship Day
+      # Saint Patrick's Day is not observed
+      03-17: false
       03-22:
         name:
           es: Día de la Abolición de Esclavitud
