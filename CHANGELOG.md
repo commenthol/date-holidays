@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.12.2](https://github.com/commenthol/date-holidays/compare/3.12.1...3.12.2) (2021-11-26)
+
+- Move eslint-plugin-yml to devDependencies [53df5631](https://github.com/commenthol/date-holidays/commit/53df563173b1ef6073202f52180c0fa01d680f8b)
+
 ## [3.12.1](https://github.com/commenthol/date-holidays/compare/3.12.0...3.12.1) (2021-11-16)
 
 - chore: yaml linter [e65ebeb6](https://github.com/commenthol/date-holidays/commit/e65ebeb65edefa1a22a62ec341bcd78d1f47eee1)
