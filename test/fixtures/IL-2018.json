@@ -1,0 +1,299 @@
+[
+  {
+    "date": "2018-01-31 00:00:00 -0600",
+    "start": "2018-01-30T16:00:00.000Z",
+    "end": "2018-01-31T16:00:00.000Z",
+    "name": "Tu Bishvat (Arbor Day)",
+    "type": "observance",
+    "rule": "15 Shvat",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-02-28 00:00:00 -0600",
+    "start": "2018-02-27T16:00:00.000Z",
+    "end": "2018-02-28T16:00:00.000Z",
+    "name": "Fast of Esther",
+    "type": "school",
+    "rule": "13 Adar",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-03-01 00:00:00 -0600",
+    "start": "2018-02-28T16:00:00.000Z",
+    "end": "2018-03-02T16:00:00.000Z",
+    "name": "Purim",
+    "type": "school",
+    "note": "optional paid leave",
+    "rule": "14 Adar P2D",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-03-26 00:00:00 -0600",
+    "start": "2018-03-25T15:00:00.000Z",
+    "end": "2018-03-26T15:00:00.000Z",
+    "name": "Aliyah Day",
+    "type": "observance",
+    "note": "Official holiday, business as usual",
+    "rule": "10 Nisan",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-03-31 00:00:00 -0600",
+    "start": "2018-03-30T15:00:00.000Z",
+    "end": "2018-03-31T15:00:00.000Z",
+    "name": "Passover",
+    "type": "public",
+    "rule": "15 Nisan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-04-01 00:00:00 -0600",
+    "start": "2018-03-31T15:00:00.000Z",
+    "end": "2018-04-05T15:00:00.000Z",
+    "name": "Passover (intermediate days)",
+    "type": "school",
+    "note": "School holiday, collective paid leave in many businesses and government offices",
+    "rule": "16 Nisan P5D",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-04-06 00:00:00 -0600",
+    "start": "2018-04-05T15:00:00.000Z",
+    "end": "2018-04-06T15:00:00.000Z",
+    "name": "Seventh day of Passover",
+    "type": "public",
+    "rule": "21 Nisan",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-04-07 00:00:00 -0600",
+    "start": "2018-04-06T15:00:00.000Z",
+    "end": "2018-04-07T15:00:00.000Z",
+    "name": "Mimouna",
+    "type": "observance",
+    "note": "Unpaid leave upon request",
+    "rule": "22 Nisan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-04-12 00:00:00 -0600",
+    "start": "2018-04-11T15:00:00.000Z",
+    "end": "2018-04-12T15:00:00.000Z",
+    "name": "Holocaust Remembrance Day",
+    "type": "observance",
+    "note": "National remembrance day, business as usual except places of public entertainment",
+    "rule": "27 Nisan",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-04-19 00:00:00 -0600",
+    "start": "2018-04-18T15:00:00.000Z",
+    "end": "2018-04-19T15:00:00.000Z",
+    "name": "Fallen Soldiers and Victims of Terrorism Remembrance Day",
+    "type": "observance",
+    "note": "National remembrance day, business as usual except places of public entertainment",
+    "rule": "4 Iyyar",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-04-20 00:00:00 -0600",
+    "start": "2018-04-19T15:00:00.000Z",
+    "end": "2018-04-20T15:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "5 Iyyar",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-04-25 00:00:00 -0600",
+    "start": "2018-04-24T15:00:00.000Z",
+    "end": "2018-04-25T15:00:00.000Z",
+    "name": "Herzl Day",
+    "type": "public",
+    "rule": "10 Iyyar",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-05-03 00:00:00 -0600",
+    "start": "2018-05-02T15:00:00.000Z",
+    "end": "2018-05-03T15:00:00.000Z",
+    "name": "Lag BaOmer",
+    "type": "school",
+    "rule": "18 Iyyar",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-05-09 00:00:00",
+    "start": "2018-05-08T21:00:00.000Z",
+    "end": "2018-05-09T21:00:00.000Z",
+    "name": "Victory in Europe Day",
+    "type": "observance",
+    "rule": "05-09",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-05-13 00:00:00 -0600",
+    "start": "2018-05-12T15:00:00.000Z",
+    "end": "2018-05-13T15:00:00.000Z",
+    "name": "Jerusalem Day",
+    "type": "observance",
+    "note": "Optional paid leave",
+    "rule": "28 Iyyar",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-05-20 00:00:00 -0600",
+    "start": "2018-05-19T15:00:00.000Z",
+    "end": "2018-05-20T15:00:00.000Z",
+    "name": "Shavuot",
+    "type": "public",
+    "rule": "6 Sivan",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-06-30 00:00:00 -0600",
+    "start": "2018-06-29T15:00:00.000Z",
+    "end": "2018-06-30T15:00:00.000Z",
+    "name": "Seventeenth of Tamuz, fast",
+    "type": "observance",
+    "rule": "17 Tamuz",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-07-12 00:00:00 -0600",
+    "start": "2018-07-11T15:00:00.000Z",
+    "end": "2018-07-12T15:00:00.000Z",
+    "name": "Jabotinsky Day",
+    "type": "public",
+    "rule": "29 Tamuz",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-07-21 00:00:00 -0600",
+    "start": "2018-07-20T15:00:00.000Z",
+    "end": "2018-07-21T15:00:00.000Z",
+    "name": "Tisha B'Av, fast",
+    "type": "observance",
+    "note": "Optional paid leave, business as usual except places of public entertainment",
+    "rule": "9 Av",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-07-27 00:00:00 -0600",
+    "start": "2018-07-26T15:00:00.000Z",
+    "end": "2018-07-27T15:00:00.000Z",
+    "name": "Tu B'Av (Fifteenth of Av)",
+    "type": "observance",
+    "rule": "15 Av",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-09-10 00:00:00 -0600",
+    "start": "2018-09-09T15:00:00.000Z",
+    "end": "2018-09-10T15:00:00.000Z",
+    "name": "Rosh Hashanah",
+    "type": "public",
+    "rule": "1 Tishrei",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-09-11 00:00:00 -0600",
+    "start": "2018-09-10T15:00:00.000Z",
+    "end": "2018-09-11T15:00:00.000Z",
+    "name": "Rosh Hashanah",
+    "type": "public",
+    "rule": "2 Tishrei",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-09-12 00:00:00 -0600",
+    "start": "2018-09-11T15:00:00.000Z",
+    "end": "2018-09-12T15:00:00.000Z",
+    "name": "Fast of Gedaliah",
+    "type": "observance",
+    "rule": "3 Tishrei",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-09-19 00:00:00 -0600",
+    "start": "2018-09-18T15:00:00.000Z",
+    "end": "2018-09-19T15:00:00.000Z",
+    "name": "Day of Atonement",
+    "type": "public",
+    "rule": "10 Tishrei",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-09-24 00:00:00 -0600",
+    "start": "2018-09-23T15:00:00.000Z",
+    "end": "2018-09-24T15:00:00.000Z",
+    "name": "Feast of Tabernacles",
+    "type": "public",
+    "rule": "15 Tishrei",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-09-25 00:00:00 -0600",
+    "start": "2018-09-24T15:00:00.000Z",
+    "end": "2018-09-30T15:00:00.000Z",
+    "name": "The week of Sukkot",
+    "type": "school",
+    "note": "Collective paid leave in many businesses and government offices",
+    "rule": "16 Tishrei P6D",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-10-01 00:00:00 -0600",
+    "start": "2018-09-30T15:00:00.000Z",
+    "end": "2018-10-01T15:00:00.000Z",
+    "name": "Simchat Torah/ Shmini Atzeret",
+    "type": "public",
+    "rule": "22 Tishrei",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-10-21 00:00:00 -0600",
+    "start": "2018-10-20T15:00:00.000Z",
+    "end": "2018-10-21T15:00:00.000Z",
+    "name": "Rabin Day",
+    "type": "observance",
+    "rule": "12 Cheshvan",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-11-07 00:00:00 -0600",
+    "start": "2018-11-06T16:00:00.000Z",
+    "end": "2018-11-07T16:00:00.000Z",
+    "name": "Sigd",
+    "type": "observance",
+    "rule": "29 Cheshvan",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-11-14 00:00:00 -0600",
+    "start": "2018-11-13T16:00:00.000Z",
+    "end": "2018-11-14T16:00:00.000Z",
+    "name": "Ben-Gurion Day",
+    "type": "public",
+    "rule": "6 Kislev",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-12-03 00:00:00 -0600",
+    "start": "2018-12-02T16:00:00.000Z",
+    "end": "2018-12-10T16:00:00.000Z",
+    "name": "Hanukkah",
+    "type": "school",
+    "rule": "25 Kislev P8D",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-12-18 00:00:00 -0600",
+    "start": "2018-12-17T16:00:00.000Z",
+    "end": "2018-12-18T16:00:00.000Z",
+    "name": "Tenth of Tevet",
+    "type": "observance",
+    "rule": "10 Tevet",
+    "_weekday": "Tue"
+  }
+]
