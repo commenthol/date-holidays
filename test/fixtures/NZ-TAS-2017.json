@@ -28,6 +28,15 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2017-01-30 00:00:00",
+    "start": "2017-01-29T11:00:00.000Z",
+    "end": "2017-01-30T11:00:00.000Z",
+    "name": "Provincial anniversary day",
+    "type": "public",
+    "rule": "02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-02-06 00:00:00",
     "start": "2017-02-05T11:00:00.000Z",
     "end": "2017-02-06T11:00:00.000Z",

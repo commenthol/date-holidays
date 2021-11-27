@@ -86,6 +86,7 @@
     "end": "2019-11-15T11:00:00.000Z",
     "name": "Christchurch Show Day",
     "type": "public",
+    "note": "May differ in parts of North Canterbury",
     "rule": "friday after 2nd tuesday in November",
     "_weekday": "Fri"
   },

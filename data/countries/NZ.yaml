@@ -153,6 +153,11 @@ holidays:
         names:
           en: Bay of Plenty
           mi: Te Moana-a-Toi
+        days:
+          # Same as in NZ-AUK
+          01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+            name:
+              en: Provincial anniversary day
       CAN:
         names:
           en: Canterbury
@@ -161,9 +166,10 @@ holidays:
           friday after 2nd tuesday in November:
             name:
               en: Christchurch Show Day
+            note: May differ in parts of North Canterbury
         regions:
-          S:
-            name: South Canterbury
+          Timaru: # South Canterbury
+            name: Timaru District
             days:
               friday after 2nd tuesday in November: false
               4th monday in September:
@@ -181,11 +187,17 @@ holidays:
         names:
           en: Gisborne
           mi: Te Tai Rāwhiti
+        days:
+          # Same as NZ-AUK
+          01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+            name:
+              en: Provincial anniversary day
       HKB:
         names:
           en: Hawke's Bay
           mi: Te Matau-a-Māui
         days:
+          # Friday before Labour Day
           friday before 4th monday in October:
             name:
               en: Provincial anniversary day
@@ -194,11 +206,17 @@ holidays:
           en: Marlborough
           mi: Te Tauihu-o-te-waka
         days:
+          # Monday after Labour Day
           5th monday in October:
             name:
               en: Provincial anniversary day
       MWT:
         name: Manawatu-Wanganui
+        days:
+          # Same as in NZ-WGN
+          01-22 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+            name:
+              en: Provincial anniversary day
       NSN:
         names:
           en: Nelson
@@ -220,6 +238,7 @@ holidays:
           en: Otago Province
           mi: Ōtākou
         days:
+          # TODO: needs new rule "03-23 if ... then next monday if easter 1 then next Monday"
           03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
@@ -236,6 +255,11 @@ holidays:
         names:
           en: Tasman
           mi: Te Tai-o-Aorere
+        days:
+          # Same as NZ-NSN
+          02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+            name:
+              en: Provincial anniversary day
       TKI:
         name: Taranaki
         days:
@@ -244,6 +268,11 @@ holidays:
               en: Provincial anniversary day
       WKO:
         name: Waikato
+        days:
+          # Same as NZ-AUK
+          01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+            name:
+              en: Provincial anniversary day
       WGN:
         names:
           en: Wellington Province
@@ -260,3 +289,12 @@ holidays:
           12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
             name:
               en: Provincial anniversary day
+        regions:
+          Buller:
+            name: Buller district
+            days:
+              12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday: false
+              # Same as NZ-NSN
+              02-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+                name:
+                  en: Provincial anniversary day

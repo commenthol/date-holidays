@@ -391,7 +391,7 @@ Countries: 194
 │   ├── AUK: Auckland Province
 │   ├── BOP: Bay of Plenty
 │   ├── CAN: Canterbury
-│   │   └── S: South Canterbury
+│   │   └── Timaru: Timaru District
 │   ├── CIT: Chatham Islands
 │   ├── GIS: Gisborne
 │   ├── HKB: Hawke's Bay
@@ -406,6 +406,7 @@ Countries: 194
 │   ├── WKO: Waikato
 │   ├── WGN: Wellington Province
 │   └── WTC: Westland
+│       └── Buller: Buller district
 ├── PA: Panamá
 ├── PE: Perú
 │   └── CUS: Cuzco

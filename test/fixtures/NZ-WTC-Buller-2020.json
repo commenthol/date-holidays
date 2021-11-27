@@ -82,21 +82,21 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2020-09-28 00:00:00",
-    "start": "2020-09-27T11:00:00.000Z",
-    "end": "2020-09-28T11:00:00.000Z",
-    "name": "Dominion Day",
-    "type": "public",
-    "rule": "4th monday in September",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2020-10-26 00:00:00",
     "start": "2020-10-25T11:00:00.000Z",
     "end": "2020-10-26T11:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
     "rule": "4th monday in October",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-11-30 00:00:00",
+    "start": "2020-11-29T11:00:00.000Z",
+    "end": "2020-11-30T11:00:00.000Z",
+    "name": "Provincial anniversary day",
+    "type": "public",
+    "rule": "12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
