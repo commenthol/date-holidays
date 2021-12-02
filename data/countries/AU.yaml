@@ -74,7 +74,7 @@ holidays:
           1st monday in October:
             name:
               en: Labour Day
-      # @source https://www.legislation.nsw.gov.au/~/pdf/view/act/2010/115/whole
+        # @source https://www.legislation.nsw.gov.au/~/pdf/view/act/2010/115/whole
         regions:
           # @source https://www.legislation.gov.au/Details/C2021Q00011 Section 9
           NF:
@@ -83,22 +83,29 @@ holidays:
               - Pacific/Norfolk
             days:
               2nd monday in March: false
-              easter -1: false
-              monday after 05-27: false
               03-06 and if saturday,sunday then next monday:
                 substitute: true
                 name:
                   en: Foundation Day
                 type: public
+              04-25 if sunday then next monday: false
+              "2020-04-27": false
+              04-25:
+                name:
+                  en: Anzac Day
+              easter -1: false
+              monday after 05-27: false
               06-08 and if saturday,sunday then next monday:
                 substitute: true
                 name:
                   en: Anniversary (Bounty) Day
                 type: public
-              2nd monday in June:
+              # 2nd monday in June: false
+              3rd monday in June if 2nd monday in June is holiday:
+                substitute: true
                 name:
                   en: Queen's Birthday
-              1st monday in October: false           
+              1st monday in October: false
               2nd monday in October:
                 name:
                   en: Norfolk Island Agricultural Show
