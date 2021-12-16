@@ -63,6 +63,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2021-05-09 00:00:00",
+    "start": "2021-05-08T14:00:00.000Z",
+    "end": "2021-05-09T14:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2021-12-25 00:00:00",
     "start": "2021-12-24T13:00:00.000Z",
     "end": "2021-12-25T13:00:00.000Z",
