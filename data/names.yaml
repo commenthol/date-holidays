@@ -650,12 +650,12 @@ names:
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
       vi: Lễ Thăng Thiên
-  easter 49: # Pentecost/ Whit Sunday
+  easter 49: # Pentecost
     name:
       en: Pentecost
       da: Pinsedag
       de: Pfingstsonntag
-      el: Αγίου Πνεύματος
+      el: Πεντηκοστή
       es: Pentecostés
       et: nelipühade 1. püha
       fi: Helluntaipäivä
@@ -679,6 +679,7 @@ names:
       en: Whit Monday
       da: Anden Pinsedag
       de: Pfingstmontag
+      el: Αγίου Πνεύματος
       es: Lunes de Pentecostés
       fo: Annar hvítusunnudagur
       fr: Lundi de Pentecôte
