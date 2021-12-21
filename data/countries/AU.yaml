@@ -39,15 +39,18 @@ holidays:
       04-25:
         name:
           en: Anzac Day
+      2nd sunday in May:
+        _name: Mothers Day
+        type: observance
+      1st sunday in September:
+        _name: Fathers Day
+        type: observance
       12-25 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-25
       12-26 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-26
-      1st sunday in September:
-        _name: Fathers Day
-        type: observance
     states:
       # @source https://www.legislation.act.gov.au/a/1958-19
       ACT:
