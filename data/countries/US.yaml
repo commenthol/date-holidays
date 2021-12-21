@@ -55,6 +55,10 @@ holidays:
       02-14:
         _name: 02-14
         type: observance
+      03-17:
+        name:
+          en: St. Patrick's Day
+        type: observance
       easter:
         _name: easter
         type: observance

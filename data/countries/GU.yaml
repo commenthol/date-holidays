@@ -19,6 +19,8 @@ holidays:
     # additional holidays
     days:
       3rd monday in February: false
+      # Saint Patrick's Day is not observed
+      03-17: false
       1st monday in March:
         name:
           en: Guam History and Chamorro Heritage Day
