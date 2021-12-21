@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.13.0](https://github.com/commenthol/date-holidays/compare/3.12.2...3.13.0) (2021-12-21)
+
+- fix(GR: added easter 49 back as public holiday for Greece [6343368f](https://github.com/commenthol/date-holidays/commit/6343368f276ef70a8ce7fcf414c131a9730f31af)
+- fix(GR,CY): changed easter 49 to easter 50 for Greece and updated name for Cyprus [ebb874a1](https://github.com/commenthol/date-holidays/commit/ebb874a1d94703826ec83eb536f06d5d682dc780)
+- feat(AU): added Mothers day to au [8a039da2](https://github.com/commenthol/date-holidays/commit/8a039da22046c5bf4b5c3a6846424a89eaf895b0)
+- feat(AU,GB,IE): fathers day for au, gb and ie [7b6d5edc](https://github.com/commenthol/date-holidays/commit/7b6d5edc5bf24d86c69aa26d0a17452db640c9e6)
+- test(US): Saint Patrick's Day [63b7ed92](https://github.com/commenthol/date-holidays/commit/63b7ed92f34964b12e04c6489389bcd9c5bbdd04)
+- fix(AS,GU,PR,VI): Saint Patrick's Day is not observed [f4ed7469](https://github.com/commenthol/date-holidays/commit/f4ed74697f7344f7f49e2577324b8519e6f3d342)
+- feat(US): Add St. Patrick's Day for US [5252b7aa](https://github.com/commenthol/date-holidays/commit/5252b7aa9508ea09d9d0d28cfecd1f6152e6872e)
+
 ## [3.12.2](https://github.com/commenthol/date-holidays/compare/3.12.1...3.12.2) (2021-11-26)
 
 - Move eslint-plugin-yml to devDependencies [53df5631](https://github.com/commenthol/date-holidays/commit/53df563173b1ef6073202f52180c0fa01d680f8b)
