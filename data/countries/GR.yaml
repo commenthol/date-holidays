@@ -32,6 +32,8 @@ holidays:
         _name: 05-01
       orthodox 49:
         _name: easter 49
+      orthodox 50:
+        _name: easter 50
       2nd sunday in May:
         _name: Mothers Day
         type: observance
