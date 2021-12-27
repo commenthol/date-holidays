@@ -2,8 +2,8 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Israel
   IL:
     names:
-      en: Israel
       he: מְדִינַת יִשְׂרָאֵל
+      en: Israel
     langs:
       - he
     zones:
@@ -16,9 +16,9 @@ holidays:
           en: Rosh Hashanah
       2 Tishrei:
         name:
-          he: ראש השנה
-          en: Rosh Hashanah
-      3 Tishrei:
+          he: ראש השנה יום 2
+          en: Rosh Hashanah (Day 2)
+      3 Tishrei if saturday then next sunday:
         name:
           he: צום גדליה
           en: Fast of Gedaliah
@@ -26,11 +26,11 @@ holidays:
       10 Tishrei:
         name:
           he: יום כיפור
-          en: Day of Atonement
+          en: Day of Atonement (Yom Kippur)
       15 Tishrei:
         name:
           he: סוכות
-          en: Feast of Tabernacles
+          en: Feast of Tabernacles (Sukkot)
       16 Tishrei P6D:
         name:
           he: חול המועד סוכות
@@ -41,20 +41,24 @@ holidays:
         name:
           he: שמחת תורה/שמיני עצרת
           en: Simchat Torah/ Shmini Atzeret
-      12 Cheshvan:
+      12 Cheshvan if friday,saturday then previous thursday since 1997:
         name:
           he: יום רבין
           en: Rabin Day
         type: observance
+        note: National remembrance day, business as usual
       29 Cheshvan:
         name:
           he: סיגד
           en: Sigd
         type: observance
-      6 Kislev:
+        note: Festival of the Ethiopian Jews, optional paid leave, business as usual 
+      6 Kislev if saturday then next sunday:
         name:
           en: Ben-Gurion Day
           he: יום בן-גוריון
+        type: observance
+        note: Day marked by the Knesset
       25 Kislev P8D:
         name:
           en: Hanukkah
@@ -70,12 +74,12 @@ holidays:
           en: Tu Bishvat (Arbor Day)
           he: ט"ו בשבט
         type: observance
-      13 Adar:
+      13 AdarII if saturday then previous thursday:
         name:
           en: Fast of Esther
           he: תענית אסתר
         type: school
-      14 Adar P2D:
+      14 AdarII P2D:
         name:
           en: Purim
           he: פורים
@@ -107,9 +111,9 @@ holidays:
           he: מימונה
         type: observance
         note: Unpaid leave upon request
-      27 Nisan:
+      27 Nisan if friday then previous thursday if sunday then next monday:
         name:
-          en: Holocaust Remembrance Day
+          en: Holocaust Remembrance Day (Yom HaShoah)
           he: יום הזיכרון לשואה ולגבורה
         type: observance
         note: National remembrance day, business as usual except places of public entertainment
@@ -118,20 +122,22 @@ holidays:
           en: Victory in Europe Day
           he: יום הניצחון על גרמניה הנאצית
         type: observance
-      4 Iyyar:
+      4 Iyyar if thursday,friday then previous wednesday if sunday then next monday:
         name:
-          en: Fallen Soldiers and Victims of Terrorism Remembrance Day
+          en: Fallen Soldiers and Victims of Terrorism Remembrance Day (Yom HaZikaron)
           he: יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה
         type: observance
         note: National remembrance day, business as usual except places of public entertainment
-      5 Iyyar:
+      5 Iyyar if friday,saturday then previous thursday if monday then next tuesday:
         name:
-          en: Independence Day
+          en: Independence Day (Yom HaAtzmaut)
           he: יום העצמאות
-      10 Iyyar:
+      10 Iyyar if saturday then next sunday since 2004:
         name:
           en: Herzl Day
           he: יום הרצל
+        type: observance
+        note: Day marked by the Knesset    
       18 Iyyar:
         name:
           en: Lag BaOmer
@@ -147,16 +153,18 @@ holidays:
         name:
           en: Shavuot
           he: שבועות
-      17 Tamuz:
+      17 Tamuz if saturday then next sunday:
         name:
           en: Seventeenth of Tamuz, fast
           he: שבעה עשר בתמוז
         type: observance
-      29 Tamuz:
+      29 Tamuz if saturday then next sunday:
         name:
           en: Jabotinsky Day
           he: יום ז'בוטינסקי
-      9 Av:
+        type: observance
+        note: Day marked by the Knesset 
+      9 Av if saturday then next sunday:
         name:
           en: Tisha B'Av, fast
           he: תשעה באב
@@ -167,6 +175,26 @@ holidays:
           en: Tu B'Av (Fifteenth of Av)
           he: ט"ו באב
         type: observance
+      "2015-03-17":
+        name: 
+          en: Election Day
+          he: יום הבחירות
+      "2019-04-09":
+        name: 
+          en: Election Day
+          he: יום הבחירות
+      "2019-09-17":
+        name: 
+          en: Election Day
+          he: יום הבחירות
+      "2020-03-02":
+        name: 
+          en: Election Day
+          he: יום הבחירות
+      "2021-03-23":
+        name: 
+          en: Election Day
+          he: יום הבחירות
     # states:
     #   D:
     #     name: Southern District
