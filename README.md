@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 194
+Countries: 195
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -326,6 +326,7 @@ Countries: 194
 │   └── TE: Tenerife
 ├── ID: Indonesia
 ├── IE: Ireland
+├── IL: מְדִינַת יִשְׂרָאֵל
 ├── IM: Isle of Man
 ├── IS: Ísland
 ├── IT: Italia
