@@ -52,7 +52,7 @@ holidays:
           he: סיגד
           en: Sigd
         type: observance
-        note: Festival of the Ethiopian Jews, optional paid leave, business as usual 
+        note: Festival of the Ethiopian Jews, optional paid leave, business as usual
       6 Kislev if saturday then next sunday:
         name:
           en: Ben-Gurion Day
@@ -137,7 +137,7 @@ holidays:
           en: Herzl Day
           he: יום הרצל
         type: observance
-        note: Day marked by the Knesset    
+        note: Day marked by the Knesset
       18 Iyyar:
         name:
           en: Lag BaOmer
@@ -163,7 +163,7 @@ holidays:
           en: Jabotinsky Day
           he: יום ז'בוטינסקי
         type: observance
-        note: Day marked by the Knesset 
+        note: Day marked by the Knesset
       9 Av if saturday then next sunday:
         name:
           en: Tisha B'Av, fast
@@ -176,23 +176,23 @@ holidays:
           he: ט"ו באב
         type: observance
       "2015-03-17":
-        name: 
+        name:
           en: Election Day
           he: יום הבחירות
       "2019-04-09":
-        name: 
+        name:
           en: Election Day
           he: יום הבחירות
       "2019-09-17":
-        name: 
+        name:
           en: Election Day
           he: יום הבחירות
       "2020-03-02":
-        name: 
+        name:
           en: Election Day
           he: יום הבחירות
       "2021-03-23":
-        name: 
+        name:
           en: Election Day
           he: יום הבחירות
     # states:
