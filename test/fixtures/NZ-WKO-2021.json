@@ -1,0 +1,160 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T11:00:00.000Z",
+    "end": "2021-01-01T11:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-02 00:00:00",
+    "start": "2021-01-01T11:00:00.000Z",
+    "end": "2021-01-02T11:00:00.000Z",
+    "name": "Day after New Year's Day",
+    "type": "public",
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-01-04 00:00:00",
+    "start": "2021-01-03T11:00:00.000Z",
+    "end": "2021-01-04T11:00:00.000Z",
+    "name": "Day after New Year's Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-02-01 00:00:00",
+    "start": "2021-01-31T11:00:00.000Z",
+    "end": "2021-02-01T11:00:00.000Z",
+    "name": "Provincial anniversary day",
+    "type": "public",
+    "rule": "01-29 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-02-06 00:00:00",
+    "start": "2021-02-05T11:00:00.000Z",
+    "end": "2021-02-06T11:00:00.000Z",
+    "name": "Waitangi Day",
+    "type": "public",
+    "rule": "02-06 and if saturday,sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-02-08 00:00:00",
+    "start": "2021-02-07T11:00:00.000Z",
+    "end": "2021-02-08T11:00:00.000Z",
+    "name": "Waitangi Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "02-06 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-02 00:00:00",
+    "start": "2021-04-01T11:00:00.000Z",
+    "end": "2021-04-02T11:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-04 00:00:00",
+    "start": "2021-04-03T11:00:00.000Z",
+    "end": "2021-04-04T12:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-04T12:00:00.000Z",
+    "end": "2021-04-05T12:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-25 00:00:00",
+    "start": "2021-04-24T12:00:00.000Z",
+    "end": "2021-04-25T12:00:00.000Z",
+    "name": "ANZAC Day",
+    "type": "public",
+    "rule": "04-25 and if saturday,sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-04-26 00:00:00",
+    "start": "2021-04-25T12:00:00.000Z",
+    "end": "2021-04-26T12:00:00.000Z",
+    "name": "ANZAC Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "04-25 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-07 00:00:00",
+    "start": "2021-06-06T12:00:00.000Z",
+    "end": "2021-06-07T12:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "rule": "1st monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-10-25 00:00:00",
+    "start": "2021-10-24T11:00:00.000Z",
+    "end": "2021-10-25T11:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "4th monday in October",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T11:00:00.000Z",
+    "end": "2021-12-25T11:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-26 00:00:00",
+    "start": "2021-12-25T11:00:00.000Z",
+    "end": "2021-12-26T11:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-12-27 00:00:00",
+    "start": "2021-12-26T11:00:00.000Z",
+    "end": "2021-12-27T11:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-28 00:00:00",
+    "start": "2021-12-27T11:00:00.000Z",
+    "end": "2021-12-28T11:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  }
+]
