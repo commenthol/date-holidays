@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.13.1](https://github.com/commenthol/date-holidays/compare/3.13.0...3.13.1) (2021-12-30)
+
+- fix(NZ,#288): Provincial anniversary days [7a2eaaf1](https://github.com/commenthol/date-holidays/commit/7a2eaaf160c4d30d6ac610cdff4e47f7148dd530)
+- fix(NZ,#288): add Matariki and missing regions [cf431cc6](https://github.com/commenthol/date-holidays/commit/cf431cc65554f7e0f5a00528530d96ccbed4937a)
+
 ## [3.13.0](https://github.com/commenthol/date-holidays/compare/3.12.2...3.13.0) (2021-12-21)
 
 - fix(GR: added easter 49 back as public holiday for Greece [6343368f](https://github.com/commenthol/date-holidays/commit/6343368f276ef70a8ce7fcf414c131a9730f31af)
