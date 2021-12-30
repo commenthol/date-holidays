@@ -13,7 +13,7 @@ holidays:
       1 Tishrei:
         name:
           he: ראש השנה
-          en: Rosh Hashanah
+          en: Rosh Hashanah (Yom Teruah)
       2 Tishrei:
         name:
           he: ראש השנה יום 2
@@ -21,7 +21,7 @@ holidays:
       3 Tishrei if saturday then next sunday:
         name:
           he: צום גדליה
-          en: Fast of Gedaliah
+          en: Fast of Gedaliah (Tzom Gedalya)
         type: observance
       10 Tishrei:
         name:
