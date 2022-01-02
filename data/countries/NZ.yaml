@@ -238,11 +238,10 @@ holidays:
           en: Otago Province
           mi: Ōtākou
         days:
-          # TODO: needs new rule "03-23 if ... then next monday if easter 1 then next Monday"
-          03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday:
+          # 03-23 if ... then next monday if easter 1 then next Monday"; This will happen in 2285 the next time ;)
+          03-23 if Tuesday,Wednesday,Thursday then previous Monday if Friday,Saturday,Sunday then next Monday if is public holiday then next Monday:
             name:
               en: Provincial anniversary day
-            note: varies if coincides with easter monday
       STL:
         names:
           en: Southland
