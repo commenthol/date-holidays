@@ -8,7 +8,7 @@ holidays:
       - he
     zones:
       - Asia/Jerusalem
-    dayoff: saturday
+    dayoff: Saturday
     days:
       1 Tishrei:
         name:
@@ -18,7 +18,7 @@ holidays:
         name:
           he: ראש השנה יום 2
           en: Rosh Hashanah (Day 2)
-      3 Tishrei if saturday then next sunday:
+      3 Tishrei if Saturday then next Sunday:
         name:
           he: צום גדליה
           en: Fast of Gedaliah (Tzom Gedalya)
@@ -41,7 +41,7 @@ holidays:
         name:
           he: שמחת תורה/שמיני עצרת
           en: Simchat Torah/ Shmini Atzeret
-      12 Cheshvan if friday,saturday then previous thursday since 1997:
+      12 Cheshvan if Friday,Saturday then previous Thursday since 1997:
         name:
           he: יום רבין
           en: Rabin Day
@@ -53,7 +53,7 @@ holidays:
           en: Sigd
         type: observance
         note: Festival of the Ethiopian Jews, optional paid leave, business as usual
-      6 Kislev if saturday then next sunday:
+      6 Kislev if Saturday then next Sunday:
         name:
           en: Ben-Gurion Day
           he: יום בן-גוריון
@@ -74,7 +74,7 @@ holidays:
           en: Tu Bishvat (Arbor Day)
           he: ט"ו בשבט
         type: observance
-      13 AdarII if saturday then previous thursday:
+      13 AdarII if Saturday then previous Thursday:
         name:
           en: Fast of Esther
           he: תענית אסתר
@@ -111,7 +111,7 @@ holidays:
           he: מימונה
         type: observance
         note: Unpaid leave upon request
-      27 Nisan if friday then previous thursday if sunday then next monday:
+      27 Nisan if Friday then previous Thursday if Sunday then next Monday:
         name:
           en: Holocaust Remembrance Day (Yom HaShoah)
           he: יום הזיכרון לשואה ולגבורה
@@ -122,17 +122,17 @@ holidays:
           en: Victory in Europe Day
           he: יום הניצחון על גרמניה הנאצית
         type: observance
-      4 Iyyar if thursday,friday then previous wednesday if sunday then next monday:
+      4 Iyyar if Thursday,Friday then previous Wednesday if Sunday then next Monday:
         name:
           en: Fallen Soldiers and Victims of Terrorism Remembrance Day (Yom HaZikaron)
           he: יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה
         type: observance
         note: National remembrance day, business as usual except places of public entertainment
-      5 Iyyar if friday,saturday then previous thursday if monday then next tuesday:
+      5 Iyyar if Friday,Saturday then previous Thursday if Monday then next Tuesday:
         name:
           en: Independence Day (Yom HaAtzmaut)
           he: יום העצמאות
-      10 Iyyar if saturday then next sunday since 2004:
+      10 Iyyar if Saturday then next Sunday since 2004:
         name:
           en: Herzl Day
           he: יום הרצל
@@ -153,18 +153,18 @@ holidays:
         name:
           en: Shavuot
           he: שבועות
-      17 Tamuz if saturday then next sunday:
+      17 Tamuz if Saturday then next Sunday:
         name:
           en: Seventeenth of Tamuz, fast
           he: שבעה עשר בתמוז
         type: observance
-      29 Tamuz if saturday then next sunday:
+      29 Tamuz if Saturday then next Sunday:
         name:
           en: Jabotinsky Day
           he: יום ז'בוטינסקי
         type: observance
         note: Day marked by the Knesset
-      9 Av if saturday then next sunday:
+      9 Av if Saturday then next Sunday:
         name:
           en: Tisha B'Av, fast
           he: תשעה באב

@@ -14,7 +14,7 @@
     "end": "2018-02-28T16:00:00.000Z",
     "name": "תענית אסתר",
     "type": "school",
-    "rule": "13 AdarII if saturday then previous thursday",
+    "rule": "13 AdarII if Saturday then previous Thursday",
     "_weekday": "Wed"
   },
   {
@@ -82,7 +82,7 @@
     "name": "יום הזיכרון לשואה ולגבורה",
     "type": "observance",
     "note": "National remembrance day, business as usual except places of public entertainment",
-    "rule": "27 Nisan if friday then previous thursday if sunday then next monday",
+    "rule": "27 Nisan if Friday then previous Thursday if Sunday then next Monday",
     "_weekday": "Thu"
   },
   {
@@ -92,7 +92,7 @@
     "name": "יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה",
     "type": "observance",
     "note": "National remembrance day, business as usual except places of public entertainment",
-    "rule": "4 Iyyar if thursday,friday then previous wednesday if sunday then next monday",
+    "rule": "4 Iyyar if Thursday,Friday then previous Wednesday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -101,7 +101,7 @@
     "end": "2018-04-19T15:00:00.000Z",
     "name": "יום העצמאות",
     "type": "public",
-    "rule": "5 Iyyar if friday,saturday then previous thursday if monday then next tuesday",
+    "rule": "5 Iyyar if Friday,Saturday then previous Thursday if Monday then next Tuesday",
     "_weekday": "Thu"
   },
   {
@@ -111,7 +111,7 @@
     "name": "יום הרצל",
     "type": "observance",
     "note": "Day marked by the Knesset",
-    "rule": "10 Iyyar if saturday then next sunday since 2004",
+    "rule": "10 Iyyar if Saturday then next Sunday since 2004",
     "_weekday": "Wed"
   },
   {
@@ -157,7 +157,7 @@
     "end": "2018-07-01T15:00:00.000Z",
     "name": "שבעה עשר בתמוז",
     "type": "observance",
-    "rule": "17 Tamuz if saturday then next sunday",
+    "rule": "17 Tamuz if Saturday then next Sunday",
     "_weekday": "Sun"
   },
   {
@@ -167,7 +167,7 @@
     "name": "יום ז'בוטינסקי",
     "type": "observance",
     "note": "Day marked by the Knesset",
-    "rule": "29 Tamuz if saturday then next sunday",
+    "rule": "29 Tamuz if Saturday then next Sunday",
     "_weekday": "Thu"
   },
   {
@@ -177,7 +177,7 @@
     "name": "תשעה באב",
     "type": "observance",
     "note": "Optional paid leave, business as usual except places of public entertainment",
-    "rule": "9 Av if saturday then next sunday",
+    "rule": "9 Av if Saturday then next Sunday",
     "_weekday": "Sun"
   },
   {
@@ -213,7 +213,7 @@
     "end": "2018-09-12T15:00:00.000Z",
     "name": "צום גדליה",
     "type": "observance",
-    "rule": "3 Tishrei if saturday then next sunday",
+    "rule": "3 Tishrei if Saturday then next Sunday",
     "_weekday": "Wed"
   },
   {
@@ -260,7 +260,7 @@
     "name": "יום רבין",
     "type": "observance",
     "note": "National remembrance day, business as usual",
-    "rule": "12 Cheshvan if friday,saturday then previous thursday since 1997",
+    "rule": "12 Cheshvan if Friday,Saturday then previous Thursday since 1997",
     "_weekday": "Sun"
   },
   {
@@ -280,7 +280,7 @@
     "name": "יום בן-גוריון",
     "type": "observance",
     "note": "Day marked by the Knesset",
-    "rule": "6 Kislev if saturday then next sunday",
+    "rule": "6 Kislev if Saturday then next Sunday",
     "_weekday": "Wed"
   },
   {
