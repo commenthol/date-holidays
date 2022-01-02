@@ -67,16 +67,11 @@ holidays:
         name:
           en: Hong Kong Special Administrative Region Establishment Day
           zh: 香港特別行政區成立紀念日
-      # TODO: add rule: "chinese 08-0-15 if 07-01 then next weekday"
-      chinese 08-0-16 and if Sunday then next Monday:
+      chinese 08-0-16 and if Sunday then next Monday if is public holiday then next day omit Saturday, Sunday:
         substitute: true
         name:
           en: The day following the Chinese Mid-Autumn Festival
           zh: 中秋節翌日
-        disable:
-          - "2020-10-01"
-        enable:
-          - "2020-10-02"
       10-01 and if Sunday then next Monday:
         substitute: true
         name:

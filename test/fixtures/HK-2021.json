@@ -140,7 +140,7 @@
     "end": "2021-09-22T16:00:00.000Z",
     "name": "中秋節翌日",
     "type": "public",
-    "rule": "chinese 08-0-16 and if Sunday then next Monday",
+    "rule": "chinese 08-0-16 and if Sunday then next Monday if is public holiday then next day omit Saturday, Sunday",
     "_weekday": "Wed"
   },
   {
