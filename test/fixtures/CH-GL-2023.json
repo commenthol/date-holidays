@@ -59,7 +59,7 @@
     "end": "2023-04-13T22:00:00.000Z",
     "name": "Näfelser Fahrt",
     "type": "public",
-    "rule": "thursday after 04-02",
+    "rule": "Thursday after 04-02 if is observance holiday then next Thursday",
     "_weekday": "Thu"
   },
   {

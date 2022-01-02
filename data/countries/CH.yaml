@@ -250,15 +250,11 @@ holidays:
               de: Berchtoldstag
               fr: Saint-Berthold
             type: optional
-          # TODO: needs new rule: "Thursday after 04-02 if easter -3 then next Thursday"
-          thursday after 04-02:
+          # if falls on easter -3 (Maundy Thursday) then move to next Thursday
+          Thursday after 04-02 if is observance holiday then next Thursday:
             name:
               de: Näfelser Fahrt
               fr: Bataille de Näfels
-            disable:
-              - "2023-04-06"
-            enable:
-              - "2023-04-13"
           3rd sunday after 09-01: false
           11-01:
             _name: 11-01
