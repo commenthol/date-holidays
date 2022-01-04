@@ -24,6 +24,7 @@ holidays:
         _name: easter -2
       easter:
         _name: easter
+        type: observance
       easter 1:
         _name: easter 1
       1st monday in May:
@@ -39,6 +40,8 @@ holidays:
           en: Spring bank holiday
         disable:
           - "2022-05-30" # was moved to 2022-06-02
+        enable:
+          - "2022-06-02"
       12-25:
         _name: 12-25
       substitutes 12-25 if saturday then next monday if sunday then next tuesday:
@@ -56,9 +59,6 @@ holidays:
         name:
           en: Early May bank holiday (VE day)
       # @source https://www.gov.uk/government/news/extra-bank-holiday-to-mark-the-queens-platinum-jubilee-in-2022
-      "2022-06-02":
-        name:
-          en: Queen’s Platinum Jubilee
       "2022-06-03":
         name:
           en: Queen’s Platinum Jubilee

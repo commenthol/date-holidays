@@ -31,7 +31,7 @@
     "start": "2019-04-20T23:00:00.000Z",
     "end": "2019-04-21T23:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
