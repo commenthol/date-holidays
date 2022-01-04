@@ -66,3 +66,6 @@ holidays:
         name:
           en: Christmas Bank Holiday
         type: bank
+      3rd sunday in June:
+        _name: Fathers Day
+        type: observance

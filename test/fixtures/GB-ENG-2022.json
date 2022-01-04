@@ -82,6 +82,15 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2022-06-19 00:00:00",
+    "start": "2022-06-18T23:00:00.000Z",
+    "end": "2022-06-19T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2022-08-29 00:00:00",
     "start": "2022-08-28T23:00:00.000Z",
     "end": "2022-08-29T23:00:00.000Z",
