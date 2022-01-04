@@ -40,7 +40,7 @@
     "start": "2015-04-04T23:00:00.000Z",
     "end": "2015-04-05T23:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
