@@ -90,10 +90,10 @@ holidays:
             days:
               2nd monday in March: false
               03-06 and if saturday,sunday then next monday:
-                substitute: true
                 name:
                   en: Foundation Day
                 type: public
+              easter: false
               04-25 if sunday then next monday: false
               "2020-04-27": false
               04-25:
@@ -101,13 +101,13 @@ holidays:
                   en: Anzac Day
               easter -1: false
               monday after 05-27: false
-              06-08 and if saturday,sunday then next monday:
+              06-08 if saturday,sunday then next monday:
                 substitute: true
                 name:
                   en: Anniversary (Bounty) Day
                 type: public
-              # 2nd monday in June: false
-              3rd monday in June if 2nd monday in June is holiday:
+              2nd monday in June: false
+              monday after 2nd saturday in June if is public holiday then next monday:
                 substitute: true
                 name:
                   en: Queen's Birthday
@@ -120,7 +120,11 @@ holidays:
                 name:
                   en: Thanksgiving Day
                 type: public
-          # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2021_07_09%20Gazette%20No.%2029.pdf
+          # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2017/2017_09_29%20Gazette%20No.%2099.pdf 2018
+          # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2018_06_29%20Gazette%20No.%2026.pdf 2019
+          # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2019_07_05%20Gazette%20No.%2030.pdf 2020
+          # @source http://www.norfolkislander.com/images/2020_07_31_Gazette_No._35.pdf 2021
+          # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2021_07_09%20Gazette%20No.%2029.pdf 2022
       NSW:
         name: New South Wales
         zones:
