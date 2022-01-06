@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.14.0](https://github.com/commenthol/date-holidays/compare/3.13.1...3.14.0) (2022-01-04)
+
+- fix(GB,GG,GI,IM,JE,#303): Spring bank holiday [59a33cec](https://github.com/commenthol/date-holidays/commit/59a33ceccf2b22dcd4b1f814614ef069d7472c54)
+- feat(IL): New country Israel [e4dcca42](https://github.com/commenthol/date-holidays/commit/e4dcca4265aab77427226f9ba78ec103ea9cfe29)
+
 ## [3.13.1](https://github.com/commenthol/date-holidays/compare/3.13.0...3.13.1) (2021-12-30)
 
 - fix(NZ,#288): Provincial anniversary days [7a2eaaf1](https://github.com/commenthol/date-holidays/commit/7a2eaaf160c4d30d6ac610cdff4e47f7148dd530)
