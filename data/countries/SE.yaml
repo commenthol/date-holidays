@@ -16,6 +16,7 @@ holidays:
       01-05:
         name:
           sv: Trettondagsafton
+        type: observance
       01-06:
         _name: 01-06
       01-13:
