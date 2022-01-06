@@ -13,7 +13,7 @@
     "start": "2020-01-04T23:00:00.000Z",
     "end": "2020-01-05T23:00:00.000Z",
     "name": "Trettondagsafton",
-    "type": "public",
+    "type": "observance",
     "rule": "01-05",
     "_weekday": "Sun"
   },
@@ -76,7 +76,7 @@
     "start": "2020-04-10T22:00:00.000Z",
     "end": "2020-04-11T22:00:00.000Z",
     "name": "Påskafton",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -1",
     "_weekday": "Sat"
   },
@@ -130,7 +130,7 @@
     "start": "2020-05-29T22:00:00.000Z",
     "end": "2020-05-30T22:00:00.000Z",
     "name": "Pingstafton",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 48",
     "_weekday": "Sat"
   },

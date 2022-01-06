@@ -47,6 +47,7 @@ holidays:
         type: observance
       easter -1:
         _name: easter -1
+        type: observance
       easter 1:
         _name: easter 1
       05-01:
@@ -57,6 +58,7 @@ holidays:
         name:
           sv: Pingstafton
           en: Whitsun Eve
+        type: observance
       easter 49:
         _name: easter 49
         type: public

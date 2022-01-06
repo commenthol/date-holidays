@@ -13,7 +13,7 @@
     "start": "2015-01-04T23:00:00.000Z",
     "end": "2015-01-05T23:00:00.000Z",
     "name": "Trettondagsafton",
-    "type": "public",
+    "type": "observance",
     "rule": "01-05",
     "_weekday": "Mon"
   },
@@ -76,7 +76,7 @@
     "start": "2015-04-03T22:00:00.000Z",
     "end": "2015-04-04T22:00:00.000Z",
     "name": "Påskafton",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -1",
     "_weekday": "Sat"
   },
@@ -130,7 +130,7 @@
     "start": "2015-05-22T22:00:00.000Z",
     "end": "2015-05-23T22:00:00.000Z",
     "name": "Pingstafton",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 48",
     "_weekday": "Sat"
   },
