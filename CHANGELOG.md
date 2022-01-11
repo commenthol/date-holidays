@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.14.1](https://github.com/commenthol/date-holidays/compare/3.14.0...3.14.1) (2022-01-11)
+
+- fix(SE): mark optional [889f0b9d](https://github.com/commenthol/date-holidays/commit/889f0b9d27ef2e417f51b750e4061b829032e2c7)
+- fix(SE): holiday observances [73caefb1](https://github.com/commenthol/date-holidays/commit/73caefb18ea17c77f6cdb845de5ca5a1465add88)
+- Update SE.yaml [a9766ccd](https://github.com/commenthol/date-holidays/commit/a9766ccd9903771caefcfbe651e06e19265c40c1)
+
 ## [3.14.0](https://github.com/commenthol/date-holidays/compare/3.13.1...3.14.0) (2022-01-04)
 
 - fix(GB,GG,GI,IM,JE,#303): Spring bank holiday [59a33cec](https://github.com/commenthol/date-holidays/commit/59a33ceccf2b22dcd4b1f814614ef069d7472c54)
