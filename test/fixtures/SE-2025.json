@@ -9,12 +9,12 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2025-01-05 00:00:00",
-    "start": "2025-01-04T23:00:00.000Z",
+    "date": "2025-01-05 12:00:00",
+    "start": "2025-01-05T11:00:00.000Z",
     "end": "2025-01-05T23:00:00.000Z",
     "name": "Trettondagsafton",
-    "type": "public",
-    "rule": "01-05",
+    "type": "optional",
+    "rule": "01-05 12:00",
     "_weekday": "Sun"
   },
   {
@@ -76,7 +76,7 @@
     "start": "2025-04-18T22:00:00.000Z",
     "end": "2025-04-19T22:00:00.000Z",
     "name": "Påskafton",
-    "type": "public",
+    "type": "observance",
     "rule": "easter -1",
     "_weekday": "Sat"
   },
@@ -99,12 +99,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2025-04-30 00:00:00",
-    "start": "2025-04-29T22:00:00.000Z",
+    "date": "2025-04-30 12:00:00",
+    "start": "2025-04-30T10:00:00.000Z",
     "end": "2025-04-30T22:00:00.000Z",
     "name": "Valborgsmässoafton",
-    "type": "observance",
-    "rule": "04-30",
+    "type": "optional",
+    "rule": "04-30 12:00",
     "_weekday": "Wed"
   },
   {
@@ -148,7 +148,7 @@
     "start": "2025-06-06T22:00:00.000Z",
     "end": "2025-06-07T22:00:00.000Z",
     "name": "Pingstafton",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 48",
     "_weekday": "Sat"
   },
@@ -189,12 +189,12 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2025-10-31 00:00:00",
-    "start": "2025-10-30T23:00:00.000Z",
+    "date": "2025-10-31 12:00:00",
+    "start": "2025-10-31T11:00:00.000Z",
     "end": "2025-10-31T23:00:00.000Z",
     "name": "Allhelgonaafton",
-    "type": "observance",
-    "rule": "friday after 10-30",
+    "type": "optional",
+    "rule": "friday after 10-30 12:00",
     "_weekday": "Fri"
   },
   {

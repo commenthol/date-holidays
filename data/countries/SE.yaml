@@ -13,9 +13,10 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      01-05:
+      01-05 12:00:
         name:
           sv: Trettondagsafton
+        type: optional
       01-06:
         _name: 01-06
       01-13:
@@ -31,11 +32,11 @@ holidays:
           sv: Marie Bebådelsedag
           lat: Annuntiatio Mariæ
         type: observance
-      04-30:
+      04-30 12:00:
         name:
           sv: Valborgsmässoafton
           en: Walpurgis Night
-        type: observance
+        type: optional
       easter -3:
         _name: easter -3
         type: observance
@@ -46,6 +47,7 @@ holidays:
         type: observance
       easter -1:
         _name: easter -1
+        type: observance
       easter 1:
         _name: easter 1
       05-01:
@@ -56,6 +58,7 @@ holidays:
         name:
           sv: Pingstafton
           en: Whitsun Eve
+        type: observance
       easter 49:
         _name: easter 49
         type: public
@@ -80,11 +83,11 @@ holidays:
           sv: Midsommardagen
           en: Midsummer Day
           fi: Juhannuspäivä
-      friday after 10-30:
+      friday after 10-30 12:00:
         name:
           sv: Allhelgonaafton
           en: Halloween
-        type: observance
+        type: optional
       saturday after 10-31:
         _name: 11-01
       11-06:
