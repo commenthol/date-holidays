@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.14.2](https://github.com/commenthol/date-holidays/compare/3.14.1...3.14.2) (2022-01-12)
+
+- fix(IL): join Mimouna with 7th day of Pesach [e85534c9](https://github.com/commenthol/date-holidays/commit/e85534c9d32182b05aa75af46b85870862d49fce)
+- fix(IL): fix Mimouna date and add alternative names [17044cae](https://github.com/commenthol/date-holidays/commit/17044cae9444c54ab00e1e5acdea5259953e5751)
+- chore(github-actions): enable push on master branch [302b2180](https://github.com/commenthol/date-holidays/commit/302b2180e9163a9e8d7c719dc5ccaa6d819c7c66)
+- chore: use github actions [0b31c777](https://github.com/commenthol/date-holidays/commit/0b31c777248a03b04f10546ce141a01d89e170ce)
+
 ## [3.14.1](https://github.com/commenthol/date-holidays/compare/3.14.0...3.14.1) (2022-01-11)
 
 - fix(SE): mark optional [889f0b9d](https://github.com/commenthol/date-holidays/commit/889f0b9d27ef2e417f51b750e4061b829032e2c7)
