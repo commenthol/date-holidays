@@ -103,14 +103,8 @@ holidays:
         note: School holiday, collective paid leave in many businesses and government offices
       21 Nisan:
         name:
-          en: Seventh day of Passover
-          he: שביעי של פסח
-      21 Nisan:
-        name:
-          en: Mimouna
-          he: מימונה
-        type: observance
-        note: Unpaid leave upon request
+          en: Mimouna, Seventh day of Passover
+          he: מימונה, שביעי של פסח
       27 Nisan if Friday then previous Thursday if Sunday then next Monday:
         name:
           en: Holocaust Remembrance Day (Yom HaShoah)
