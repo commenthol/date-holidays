@@ -93,7 +93,7 @@ holidays:
         note: Official holiday, business as usual
       15 Nisan:
         name:
-          en: Passover
+          en: Passover (Pesach)
           he: פסח
       16 Nisan P5D:
         name:
@@ -103,14 +103,8 @@ holidays:
         note: School holiday, collective paid leave in many businesses and government offices
       21 Nisan:
         name:
-          en: Seventh day of Passover
-          he: שביעי של פסח
-      22 Nisan:
-        name:
-          en: Mimouna
-          he: מימונה
-        type: observance
-        note: Unpaid leave upon request
+          en: Mimouna, Seventh day of Passover
+          he: מימונה, שביעי של פסח
       27 Nisan if Friday then previous Thursday if Sunday then next Monday:
         name:
           en: Holocaust Remembrance Day (Yom HaShoah)
@@ -145,13 +139,13 @@ holidays:
         type: school
       28 Iyyar:
         name:
-          en: Jerusalem Day
+          en: Jerusalem Day (Yom Yerushalayim)
           he: יום ירושלים
         type: observance
         note: Optional paid leave
       6 Sivan:
         name:
-          en: Shavuot
+          en: Shavuot (Feast of Weeks)
           he: שבועות
       17 Tamuz if Saturday then next Sunday:
         name:
