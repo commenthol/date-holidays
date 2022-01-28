@@ -12,8 +12,10 @@ holidays:
     days:
       01-01:
         _name: 01-01
+        type: bank
       01-02:
         _name: 01-01
+        type: bank
         active:
           - to: 1955
           - from: 2017
@@ -21,6 +23,7 @@ holidays:
         name:
           en: Prešeren Day
           sl: Prešernov dan
+        type: bank
         active:
           - from: 1991
       03-08:
@@ -38,8 +41,10 @@ holidays:
         type: observance
       easter:
         _name: easter
+        type: bank
       easter 1:
         _name: easter 1
+        type: bank
       04-27:
         name:
           sl: dan upora proti okupatorju
@@ -48,16 +53,19 @@ holidays:
         _name: 05-01
         name:
           en: May Day Holiday
+        type: bank
         active:
           - from: 1949
       05-02:
         _name: 05-01
         name:
           en: May Day Holiday
+        type: bank
         active:
           - from: 1949
       easter 49:
         _name: easter 49
+        type: bank
       06-08:
         name:
           sl: dan Primoža Trubarja
@@ -68,6 +76,7 @@ holidays:
         name:
           sl: dan državnosti
           en: Statehood Day
+        type: bank
         active:
           - from: 1991
       07-22:
@@ -104,10 +113,12 @@ holidays:
         name:
           sl: dan reformacije
           en: Reformation Day
+        type: bank
       11-01:
         name:
           sl: dan spomina na mrtve or dan mrtvih
           en: Day (of Remembrance) of the Dead
+        type: bank
       11-11:
         name:
           sl: martinovanje
@@ -127,6 +138,7 @@ holidays:
         type: observance
       12-25:
         _name: 12-25
+        type: bank
         active:
           - to: 1953
           - from: 1991
@@ -134,6 +146,7 @@ holidays:
         name:
           sl: dan samostojnosti in enotnosti
           en: Independence and Unity Day
+        type: bank
     # regions:
     # '001':
     #   name: Ajdovščina
