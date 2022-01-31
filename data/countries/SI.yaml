@@ -49,6 +49,7 @@ holidays:
         name:
           sl: dan upora proti okupatorju
           en: Day of Uprising Against Occupation
+        type: bank
       05-01:
         _name: 05-01
         name:
@@ -86,6 +87,7 @@ holidays:
         type: observance
       08-15:
         _name: 08-15
+        type: bank
         active:
           - from: 1992
       08-17:
