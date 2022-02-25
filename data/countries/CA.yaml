@@ -79,6 +79,10 @@ holidays:
           fr: Premier lundi d’août
       1st monday in September:
         _name: 05-01
+      09-30:
+        name:
+          en: National Day for Truth and Reconciliation
+          fr: Journée nationale de la vérité et de la réconciliation
       2nd monday after 10-01:
         name:
           en: Thanksgiving
