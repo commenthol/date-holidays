@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.14.3](https://github.com/commenthol/date-holidays/compare/3.14.2...3.14.3) (2022-02-25)
+
+- docs(CA): add reference for National Day for Truth and Reconciliation [ffb6c908](https://github.com/commenthol/date-holidays/commit/ffb6c9080a71966bcf3bf7231bcf407801515304)
+- Update CA.yaml [33322664](https://github.com/commenthol/date-holidays/commit/3332266472bb4f85b955081e3d8f48bff3b76360)
+- docs: update spec [32e05c32](https://github.com/commenthol/date-holidays/commit/32e05c326ada41f81f1d163e862824bdec0311c0)
+- fix(HK): Use new if is holiday rule for day after mid-autumn festival [653bc7a9](https://github.com/commenthol/date-holidays/commit/653bc7a9b7af388833e16ec81d907b7448d8c00e)
+- fix(NZ-OTA): Move Provincial anniversary day if on Easter Monday [95cbb0ff](https://github.com/commenthol/date-holidays/commit/95cbb0ff8fc02e7404750c858b6309f810916c1f)
+- fix(CH-GL): Move Näfelser Fahrt if on Maundy Thursday [aaa171e4](https://github.com/commenthol/date-holidays/commit/aaa171e46e53e9de5db6e328ee343f44990661f0)
+- fix(CH): Add Maundy Thursday as observance [a0e69bab](https://github.com/commenthol/date-holidays/commit/a0e69bab7a78f8bda036f13717b2c25a9aaa79f0)
+
 ## [3.14.2](https://github.com/commenthol/date-holidays/compare/3.14.1...3.14.2) (2022-01-12)
 
 - fix(IL): join Mimouna with 7th day of Pesach [e85534c9](https://github.com/commenthol/date-holidays/commit/e85534c9d32182b05aa75af46b85870862d49fce)
