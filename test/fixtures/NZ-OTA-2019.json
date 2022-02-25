@@ -32,8 +32,7 @@
     "end": "2019-03-25T11:00:00.000Z",
     "name": "Provincial anniversary day",
     "type": "public",
-    "note": "varies if coincides with easter monday",
-    "rule": "03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
+    "rule": "03-23 if Tuesday,Wednesday,Thursday then previous Monday if Friday,Saturday,Sunday then next Monday if is public holiday then next Monday",
     "_weekday": "Mon"
   },
   {

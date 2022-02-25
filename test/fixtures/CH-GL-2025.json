@@ -23,7 +23,16 @@
     "end": "2025-04-03T22:00:00.000Z",
     "name": "Näfelser Fahrt",
     "type": "public",
-    "rule": "thursday after 04-02",
+    "rule": "Thursday after 04-02 if is observance holiday then next Thursday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-04-17 00:00:00",
+    "start": "2025-04-16T22:00:00.000Z",
+    "end": "2025-04-17T22:00:00.000Z",
+    "name": "Gründonnerstag",
+    "type": "observance",
+    "rule": "easter -3",
     "_weekday": "Thu"
   },
   {

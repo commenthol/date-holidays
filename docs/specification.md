@@ -1,6 +1,6 @@
 # Specification for `holidays.yaml`
 
-Version: 2.0.0
+Version: 2.1.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
@@ -522,6 +522,25 @@ Where:
 
 - `09-22 if 09-21 is holiday` is September 22nd is public holiday only if September 21st is also a holiday
 - `09-22 if 09-21 and 09-23 is public holiday` is September 22nd is public holiday only if September 21st and September 23rd are public holidays
+
+### Change to different weekday if date already falls on a holiday 
+
+Rule: `<rule> if is (<type>)? holiday then (<count>)? (next|previous) <weekday>`
+
+Rule: `<rule> if is (<type>)? holiday then (<count>)? (next|previous) day (omit <weekdays>)?`
+
+Where:
+- `<rule>` any rule
+- `<type>` public, bank, school, observance, optional (defaults to public if omitted)
+- `<count>` 1...31, 1st, 2nd, 3rd
+- `<weekday>` Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+- `<weekdays>` Comma separated list of `<weekday>`
+
+**Examples**:
+
+- `Thursday after 04-02 if is observance holiday then next Thursday`
+- `03-01 and if Saturday, Sunday then next Monday if is holiday then 2nd next Tuesday since 2022`
+- `05-01 if is public holiday then 2nd next day omit Saturday, Sunday`
 
 ### Enabling a rule since or in certain years
 
