@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.14.4](https://github.com/commenthol/date-holidays/compare/3.14.3...3.14.4) (2022-03-20)
+
+- test(BE): fix tests [41b28b6c](https://github.com/commenthol/date-holidays/commit/41b28b6c93a1c9bed0a3faedfeacf1f8de3e950e)
+- fix(BE): Easter isn't a paid holiday in belgium [255bf516](https://github.com/commenthol/date-holidays/commit/255bf516137307fbf1cbb322716553080679e902)
+
 ## [3.14.3](https://github.com/commenthol/date-holidays/compare/3.14.2...3.14.3) (2022-02-25)
 
 - docs(CA): add reference for National Day for Truth and Reconciliation [ffb6c908](https://github.com/commenthol/date-holidays/commit/ffb6c9080a71966bcf3bf7231bcf407801515304)
