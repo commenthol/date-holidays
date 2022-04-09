@@ -1,4 +1,4 @@
-holidays:
+﻿holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Russia
   RU:
     names:
@@ -49,10 +49,6 @@ holidays:
           en: Defender of the Fatherland Day
       03-08:
         _name: 03-08
-      08-22:
-        name:
-          ru: День Государственного флага
-          en: National Flag Day
       05-01:
         name:
           ru: День весны и труда
