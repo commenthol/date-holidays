@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.14.5](https://github.com/commenthol/date-holidays/compare/3.14.4...3.14.5) (2022-04-09)
+
+- fix(DE-HB,DE-HE,DE-TH,#321): Dec. 31 is not a public holiday [dd849428](https://github.com/commenthol/date-holidays/commit/dd849428249debf8472e8f65efc3b02ffb422452)
+
 ## [3.14.4](https://github.com/commenthol/date-holidays/compare/3.14.3...3.14.4) (2022-03-20)
 
 - test(BE): fix tests [41b28b6c](https://github.com/commenthol/date-holidays/commit/41b28b6c93a1c9bed0a3faedfeacf1f8de3e950e)
