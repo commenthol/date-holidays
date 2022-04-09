@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.14.6](https://github.com/commenthol/date-holidays/compare/3.14.5...3.14.6) (2022-04-09)
+
+- test(RU,#320): fix tests for removal of flag day [19f87a10](https://github.com/commenthol/date-holidays/commit/19f87a10856ab2257982fd8ad0447734f2146816)
+- Changes in public Ru holidays [07c3c9c6](https://github.com/commenthol/date-holidays/commit/07c3c9c6320c35a10f86e7d50b3a3f8efc0ce497)
+
 ## [3.14.5](https://github.com/commenthol/date-holidays/compare/3.14.4...3.14.5) (2022-04-09)
 
 - fix(DE-HB,DE-HE,DE-TH,#321): Dec. 31 is not a public holiday [dd849428](https://github.com/commenthol/date-holidays/commit/dd849428249debf8472e8f65efc3b02ffb422452)
