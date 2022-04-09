@@ -189,9 +189,6 @@ holidays:
       HB:
         name: Hansestadt Bremen
         days:
-          "12-31 14:00 if sunday then 00:00":
-            _name: 12-31
-            type: public
           10-31:
             _name: Reformation Day
             active:
@@ -202,8 +199,6 @@ holidays:
         days:
           easter 60:
             _name: easter 60
-          "12-31 14:00 if sunday then 00:00":
-            _name: 12-31
       HH:
         name: Hansestadt Hamburg
         days:
@@ -293,8 +288,6 @@ holidays:
               - from: 2019
           10-31:
             _name: Reformation Day
-          "12-31 14:00 if sunday then 00:00":
-            _name: 12-31
         regions:
           EIC:
             name: Landkreis Eichfeld

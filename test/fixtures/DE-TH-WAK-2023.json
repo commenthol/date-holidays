@@ -293,7 +293,7 @@
     "start": "2023-12-30T23:00:00.000Z",
     "end": "2023-12-31T23:00:00.000Z",
     "name": "Silvester",
-    "type": "public",
+    "type": "bank",
     "rule": "12-31 14:00 if sunday then 00:00",
     "_weekday": "Sun"
   }
