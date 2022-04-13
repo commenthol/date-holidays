@@ -52,10 +52,22 @@ holidays:
         _name: 1 Shawwal
         name:
           en: Hari Raya Puasa
+        # Revision from SG gov
+        # @source https://www.humanresourcesonline.net/singapore-s-revised-public-holiday-list-for-2022-new-dates-for-hari-raya-puasa-and-haji
+        disable:
+          - "2022-05-02"
+        enable:
+          - "2022-05-03"
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
         name:
           en: Hari Raya Haji
+        # Revision from SG gov
+        # @source https://www.humanresourcesonline.net/singapore-s-revised-public-holiday-list-for-2022-new-dates-for-hari-raya-puasa-and-haji
+        disable:
+          - "2022-07-09"
+        enable:
+          - "2022-07-10"
       # @attrib https://en.wikipedia.org/wiki/Vesak
       # date if sunday then next monday
       "2001-05-07":
