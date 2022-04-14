@@ -45,15 +45,6 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2022-05-02 00:00:00 -0600",
-    "start": "2022-05-01T10:00:00.000Z",
-    "end": "2022-05-02T10:00:00.000Z",
-    "name": "Hari Raya Puasa",
-    "type": "public",
-    "rule": "1 Shawwal",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2022-05-02 00:00:00",
     "start": "2022-05-01T16:00:00.000Z",
     "end": "2022-05-02T16:00:00.000Z",
@@ -62,6 +53,15 @@
     "substitute": true,
     "rule": "substitutes 05-01 if sunday then next monday",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-03 00:00:00",
+    "start": "2022-05-02T16:00:00.000Z",
+    "end": "2022-05-03T16:00:00.000Z",
+    "name": "Hari Raya Puasa",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
   },
   {
     "date": "2022-05-15 00:00:00",
@@ -82,13 +82,13 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2022-07-09 00:00:00 -0600",
-    "start": "2022-07-08T10:00:00.000Z",
-    "end": "2022-07-09T10:00:00.000Z",
+    "date": "2022-07-10 00:00:00",
+    "start": "2022-07-09T16:00:00.000Z",
+    "end": "2022-07-10T16:00:00.000Z",
     "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
-    "_weekday": "Sat"
+    "_weekday": "Sun"
   },
   {
     "date": "2022-08-09 00:00:00",
