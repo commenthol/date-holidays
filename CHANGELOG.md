@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.14.7](https://github.com/commenthol/date-holidays/compare/3.14.6...3.14.7) (2022-04-14)
+
+- fix: update SG Holidays [02f5229f](https://github.com/commenthol/date-holidays/commit/02f5229f52795dff15b5dfb618665c76c282bdf0)
+
 ## [3.14.6](https://github.com/commenthol/date-holidays/compare/3.14.5...3.14.6) (2022-04-09)
 
 - test(RU,#320): fix tests for removal of flag day [19f87a10](https://github.com/commenthol/date-holidays/commit/19f87a10856ab2257982fd8ad0447734f2146816)
