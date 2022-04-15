@@ -76,7 +76,7 @@
     "start": "2016-05-14T22:00:00.000Z",
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
@@ -139,7 +139,7 @@
     "start": "2016-11-14T23:00:00.000Z",
     "end": "2016-11-15T23:00:00.000Z",
     "name": "Tag der Deutschsprachigen Gemeinschaft",
-    "type": "public",
+    "type": "observance",
     "rule": "11-15",
     "_weekday": "Tue"
   },

@@ -58,7 +58,7 @@
     "start": "2021-05-07T22:00:00.000Z",
     "end": "2021-05-08T22:00:00.000Z",
     "name": "Fête de l'Iris",
-    "type": "public",
+    "type": "observance",
     "rule": "05-08",
     "_weekday": "Sat"
   },
@@ -85,7 +85,7 @@
     "start": "2021-05-22T22:00:00.000Z",
     "end": "2021-05-23T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

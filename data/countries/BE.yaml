@@ -39,6 +39,7 @@ holidays:
         _name: easter 39
       easter 49:
         _name: easter 49
+        type: observance
       easter 50:
         _name: easter 50
       07-21:
@@ -77,6 +78,7 @@ holidays:
             name:
               nl: Feest van de Iris
               fr: Fête de l'Iris
+            type: observance
       DE:
         name: Deutschsprachige Gemeinschaft
         langs:
@@ -87,6 +89,7 @@ holidays:
               de: Tag der Deutschsprachigen Gemeinschaft
               fr: Jour de la Communauté Germanophone
               nl: Feestdag van de Duitstalige Gemeenschap
+            type: observance
       VLG:
         name: Vlaamse Gemeenschap
         langs:
@@ -97,6 +100,7 @@ holidays:
               de: Festtag der Wallonischen Region
               fr: Fête de la Région wallonne
               nl: Feestdag van de Vlaamse Gemeenschap
+            type: observance
         # regions:
         # VAN:
         #   name: Antwerp
@@ -118,6 +122,7 @@ holidays:
               de: Tag der Französischsprachigen Gemeinschaft
               fr: La fête de la communauté française
               nl: Feestdag van de Franse Gemeenschap
+            type: observance
         # regions:
         # WBR:
         #   name: Walloon Brabant
