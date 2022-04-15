@@ -76,7 +76,7 @@
     "start": "2019-06-08T22:00:00.000Z",
     "end": "2019-06-09T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
