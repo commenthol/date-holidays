@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.14.8](https://github.com/commenthol/date-holidays/compare/3.14.7...3.14.8) (2022-04-15)
+
+- fix(BE): Mark Pentecost and Regional days as observance [fdf78fc1](https://github.com/commenthol/date-holidays/commit/fdf78fc1080de133e89d702f5f961240da147439)
+
 ## [3.14.7](https://github.com/commenthol/date-holidays/compare/3.14.6...3.14.7) (2022-04-14)
 
 - fix: update SG Holidays [02f5229f](https://github.com/commenthol/date-holidays/commit/02f5229f52795dff15b5dfb618665c76c282bdf0)
