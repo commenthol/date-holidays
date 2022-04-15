@@ -76,7 +76,7 @@
     "start": "2017-06-03T22:00:00.000Z",
     "end": "2017-06-04T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
@@ -112,7 +112,7 @@
     "start": "2017-09-26T22:00:00.000Z",
     "end": "2017-09-27T22:00:00.000Z",
     "name": "La fête de la communauté française",
-    "type": "public",
+    "type": "observance",
     "rule": "09-27",
     "_weekday": "Wed"
   },

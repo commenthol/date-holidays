@@ -76,7 +76,7 @@
     "start": "2017-06-03T22:00:00.000Z",
     "end": "2017-06-04T22:00:00.000Z",
     "name": "Pinksteren",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
@@ -94,7 +94,7 @@
     "start": "2017-07-10T22:00:00.000Z",
     "end": "2017-07-11T22:00:00.000Z",
     "name": "Feestdag van de Vlaamse Gemeenschap",
-    "type": "public",
+    "type": "observance",
     "rule": "07-11",
     "_weekday": "Tue"
   },
