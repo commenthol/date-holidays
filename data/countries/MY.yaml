@@ -171,6 +171,30 @@ holidays:
           17 Ramadan: false
           11 Dhu al-Hijjah:
             _name: 10 Dhu al-Hijjah
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
       "03":
         name: Kelantan
         days:
