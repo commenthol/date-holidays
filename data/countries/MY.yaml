@@ -13,6 +13,9 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      substitutes 01-01 if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
       chinese 01-0-01:
         name:
           en: Chinese New Year
@@ -21,32 +24,77 @@ holidays:
         name:
           en: Chinese New Year
           ms: Tahun Baru Cina
-      17 Ramadan:
-        _name: 17 Ramadan
+      substitutes chinese 01-0-01 if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
+      substitutes chinese 01-0-02 if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
       05-01:
         _name: 05-01
-      1 Shawwal:
-        _name: 1 Shawwal
-      2 Shawwal:
-        _name: 1 Shawwal
-      06-07:
+      substitutes 05-01 if Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      1st Monday in June:
         name:
           en: Yang di-Pertuan Agong's Birthday
           ms: Hari Keputeraan Yang di-Pertuan Agong
-      10 Dhu al-Hijjah:
-        _name: 10 Dhu al-Hijjah
-      1 Muharram:
-        _name: 1 Muharram
       08-31:
+        _name: Independence Day
+      substitutes 08-31 if Sunday then next Monday:
+        substitute: true
         _name: Independence Day
       09-16:
         name:
           en: Malaysia Day
           ms: Hari Malaysia
-      12 Rabi al-awwal:
-        _name: 12 Rabi al-awwal
+      substitutes 09-16 if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Malaysia Day
+          ms: Hari Malaysia
       12-25:
         _name: 12-25
+      substitutes 12-25 if Sunday then next Monday:
+        substitute: true
+        _name: 12-25
+      # Islamic
+      17 Ramadan:
+        _name: 17 Ramadan
+        disable:
+          - "2022-04-18"
+        enable:
+          - "2022-04-19"
+      1 Shawwal:
+        _name: 1 Shawwal
+        disable:
+          - "2022-05-02"
+        enable:
+          - "2022-05-03"
+      2 Shawwal:
+        _name: 1 Shawwal
+        disable:
+          - "2022-05-03"
+        enable:
+          - "2022-05-04"
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        disable:
+          - "2022-07-09"
+        enable:
+          - "2022-07-10"
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+        disable:
+          - "2022-10-08"
+        enable:
+          - "2022-10-09"
       # Vesak
       # @source https://www.drikpanchang.com/festivals/buddha-purnima/buddha-purnima-date-time.html?year=2021
       # @attrib https://en.wikipedia.org/wiki/Vesak
@@ -64,7 +112,7 @@ holidays:
         _name: Vesak
       "2016-05-22":
         _name: Vesak
-      "2017-05-11":
+      "2017-05-10":
         _name: Vesak
       "2018-05-29":
         _name: Vesak
@@ -74,15 +122,18 @@ holidays:
         _name: Vesak
       "2021-05-26":
         _name: Vesak
+      "2022-05-15":
+        _name: Vesak
       "2022-05-16":
+        substitute: true
         _name: Vesak
-      "2023-05-06":
+      "2023-05-04":
         _name: Vesak
-      "2024-05-23":
+      "2024-05-22":
         _name: Vesak
       "2025-05-12":
         _name: Vesak
-      "2026-05-01":
+      "2026-05-31":
         _name: Vesak
       # Deepavali
       "2016-10-29":
@@ -93,13 +144,19 @@ holidays:
         _name: Deepavali
       "2019-10-27":
         _name: Deepavali
+      "2019-10-28":
+        substitute: true
+        _name: Deepavali
       "2020-11-14":
         _name: Deepavali
       "2021-11-04":
         _name: Deepavali
       "2022-10-24":
         _name: Deepavali
+      "2023-11-12":
+        _name: Deepavali
       "2023-11-13":
+        substitute: true
         _name: Deepavali
       "2024-10-31":
         _name: Deepavali

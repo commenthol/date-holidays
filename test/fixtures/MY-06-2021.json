@@ -86,14 +86,14 @@
     "end": "2021-06-07T16:00:00.000Z",
     "name": "Hari Keputeraan Yang di-Pertuan Agong",
     "type": "public",
-    "rule": "06-07",
+    "rule": "1st Monday in June",
     "_weekday": "Mon"
   },
   {
     "date": "2021-07-20 00:00:00 -0600",
     "start": "2021-07-19T10:00:00.000Z",
     "end": "2021-07-20T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Tue"
@@ -111,7 +111,7 @@
     "date": "2021-08-09 00:00:00 -0600",
     "start": "2021-08-08T10:00:00.000Z",
     "end": "2021-08-09T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Mon"
@@ -138,7 +138,7 @@
     "date": "2021-10-18 00:00:00 -0600",
     "start": "2021-10-17T10:00:00.000Z",
     "end": "2021-10-18T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Mon"

@@ -27,6 +27,16 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2016-05-02 00:00:00",
+    "start": "2016-05-01T16:00:00.000Z",
+    "end": "2016-05-02T16:00:00.000Z",
+    "name": "Hari Pekerja (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 05-01 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2016-05-22 00:00:00",
     "start": "2016-05-21T16:00:00.000Z",
     "end": "2016-05-22T16:00:00.000Z",
@@ -36,13 +46,13 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2016-06-07 00:00:00",
-    "start": "2016-06-06T16:00:00.000Z",
-    "end": "2016-06-07T16:00:00.000Z",
+    "date": "2016-06-06 00:00:00",
+    "start": "2016-06-05T16:00:00.000Z",
+    "end": "2016-06-06T16:00:00.000Z",
     "name": "Hari Keputeraan Yang di-Pertuan Agong",
     "type": "public",
-    "rule": "06-07",
-    "_weekday": "Tue"
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-06-22 00:00:00 -0600",
@@ -84,7 +94,7 @@
     "date": "2016-09-11 00:00:00 -0600",
     "start": "2016-09-10T10:00:00.000Z",
     "end": "2016-09-11T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
@@ -93,7 +103,7 @@
     "date": "2016-09-12 00:00:00 -0600",
     "start": "2016-09-11T10:00:00.000Z",
     "end": "2016-09-12T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "11 Dhu al-Hijjah",
     "_weekday": "Mon"
@@ -111,7 +121,7 @@
     "date": "2016-10-02 00:00:00 -0600",
     "start": "2016-10-01T10:00:00.000Z",
     "end": "2016-10-02T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Sun"
@@ -147,7 +157,7 @@
     "date": "2016-12-11 00:00:00 -0600",
     "start": "2016-12-10T10:00:00.000Z",
     "end": "2016-12-11T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sun"
@@ -160,5 +170,15 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-25T16:00:00.000Z",
+    "end": "2016-12-26T16:00:00.000Z",
+    "name": "Hari Krismas (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 12-25 if Sunday then next Monday",
+    "_weekday": "Mon"
   }
 ]
