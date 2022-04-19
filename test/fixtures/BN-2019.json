@@ -84,7 +84,7 @@
     "date": "2019-08-11 00:00:00 -0600",
     "start": "2019-08-10T10:00:00.000Z",
     "end": "2019-08-11T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
@@ -93,7 +93,7 @@
     "date": "2019-08-31 00:00:00 -0600",
     "start": "2019-08-30T10:00:00.000Z",
     "end": "2019-08-31T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Sat"
@@ -102,7 +102,7 @@
     "date": "2019-11-09 00:00:00 -0600",
     "start": "2019-11-08T10:00:00.000Z",
     "end": "2019-11-09T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
