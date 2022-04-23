@@ -192,7 +192,7 @@
     "date": "2025-09-01 00:00:00",
     "start": "2025-09-01T04:00:00.000Z",
     "end": "2025-09-02T04:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "1st monday in September",
     "_weekday": "Mon"
