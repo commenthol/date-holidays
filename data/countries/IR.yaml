@@ -9,7 +9,7 @@ holidays:
       - en
     zones:
       - Asia/Tehran
-    dayoff: 'Friday'
+    dayoff: "Friday"
     days:
       1 Farvardin:
         name:
@@ -27,7 +27,7 @@ holidays:
         name:
           fa: نوروز
           en: Nowruz
-      12 Farvardin: 
+      12 Farvardin:
         name:
           fa: روز جمهوری اسلامی
           en: Islamic Republic Day
