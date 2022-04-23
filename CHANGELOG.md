@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.14.9](https://github.com/commenthol/date-holidays/compare/3.14.8...3.14.9) (2022-04-23)
+
+- chore(ci): add node@18 [9a7fb227](https://github.com/commenthol/date-holidays/commit/9a7fb22797a50ffa354452da46e3ff7915d49d7c)
+- fix(i18n): Fixes Work day spanish translation [176d6619](https://github.com/commenthol/date-holidays/commit/176d661952c86b13f282713632b0156c28aa8dbc)
+- test(BN): Fix tests [2cdb4732](https://github.com/commenthol/date-holidays/commit/2cdb47324f0c90f90f9f6aa45ec7c1f7210459e7)
+- fix(MY): Holidays corrections [dbebe0c9](https://github.com/commenthol/date-holidays/commit/dbebe0c950e316333f47bbd5b302284eee84ec4c)
+- docs(MY): Add source [a70e19c4](https://github.com/commenthol/date-holidays/commit/a70e19c49fdc357269271e962faf312b74a2bbaf)
+- fix(MY-02): missing Thaipusam day [776b4c58](https://github.com/commenthol/date-holidays/commit/776b4c58e5c675e3d8244fb2f2633413cef51f7b)
+
 ## [3.14.8](https://github.com/commenthol/date-holidays/compare/3.14.7...3.14.8) (2022-04-15)
 
 - fix(BE): Mark Pentecost and Regional days as observance [fdf78fc1](https://github.com/commenthol/date-holidays/commit/fdf78fc1080de133e89d702f5f961240da147439)
