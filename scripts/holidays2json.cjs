@@ -99,7 +99,7 @@ Holidays2json.prototype = {
     // reduce final build size
     const macros = dive(this.holidays)
     config.factories.forEach(function (fa) {
-      new PrePin({ macros: macros, input: fa, output: fa }).proc().catch(function (e) {
+      new PrePin({ macros, input: fa, output: fa }).proc().catch(function (e) {
         console.error(e)
       })
     })
