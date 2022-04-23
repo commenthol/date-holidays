@@ -30,8 +30,6 @@ holidays:
         _name: easter -3
       easter -2:
         _name: easter -2
-      easter -1:
-        _name: easter -1
       easter:
         _name: easter
       easter 1:
