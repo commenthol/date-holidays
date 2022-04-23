@@ -764,7 +764,7 @@ names:
       fr: Nouvel an islamique
       hr: Nova hidžretska godina
       id: Tahun Baru Islam
-      ms: Awal Tahun Hijrah
+      ms: Awal Muharram
       nl: Islamitisch Nieuwjaar
       sq: Viti i Ri hixhri
   10 Muharram: # Day of Ashura
@@ -782,7 +782,7 @@ names:
       bs: Mevlud
       fr: Mawlid
       id: Maulid Nabi Muhammad
-      ms: Maulidur Rasul
+      ms: Hari Keputeraan Nabi Muhammad S.A.W.
       nl: Mawlid an-Nabi
       sq: Mevludi
   27 Rajab: # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
@@ -865,7 +865,7 @@ names:
       id: Hari Raya Idul Adha
       nl: Offerfeest (Eid Al-Adha)
       mk: Курбан Бајрам
-      ms: Hari Raya Aidil Adha
+      ms: Hari Raya Haji
       sq: Kurban Bajrami
       tr: Kurban Bayramı
       sr: Курбански Бајрам

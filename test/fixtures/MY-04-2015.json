@@ -12,7 +12,7 @@
     "date": "2015-01-03 00:00:00 -0600",
     "start": "2015-01-02T10:00:00.000Z",
     "end": "2015-01-03T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
@@ -54,6 +54,15 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2015-06-01 00:00:00",
+    "start": "2015-05-31T16:00:00.000Z",
+    "end": "2015-06-01T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2015-06-02 00:00:00",
     "start": "2015-06-01T16:00:00.000Z",
     "end": "2015-06-02T16:00:00.000Z",
@@ -61,15 +70,6 @@
     "type": "public",
     "rule": "2015-06-02",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2015-06-07 00:00:00",
-    "start": "2015-06-06T16:00:00.000Z",
-    "end": "2015-06-07T16:00:00.000Z",
-    "name": "Hari Keputeraan Yang di-Pertuan Agong",
-    "type": "public",
-    "rule": "06-07",
-    "_weekday": "Sun"
   },
   {
     "date": "2015-06-18 00:00:00 -0600",
@@ -129,7 +129,7 @@
     "date": "2015-09-23 00:00:00 -0600",
     "start": "2015-09-22T10:00:00.000Z",
     "end": "2015-09-23T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
@@ -138,7 +138,7 @@
     "date": "2015-10-14 00:00:00 -0600",
     "start": "2015-10-13T10:00:00.000Z",
     "end": "2015-10-14T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Wed"
@@ -147,7 +147,7 @@
     "date": "2015-12-23 00:00:00 -0600",
     "start": "2015-12-22T10:00:00.000Z",
     "end": "2015-12-23T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Wed"

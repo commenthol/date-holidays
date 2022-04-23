@@ -1,5 +1,15 @@
 [
   {
+    "date": "2023-01-02 00:00:00",
+    "start": "2023-01-01T16:00:00.000Z",
+    "end": "2023-01-02T16:00:00.000Z",
+    "name": "Hari Tahun Baru (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 01-01 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2023-01-22 00:00:00",
     "start": "2023-01-21T16:00:00.000Z",
     "end": "2023-01-22T16:00:00.000Z",
@@ -15,6 +25,16 @@
     "name": "Tahun Baru Cina",
     "type": "public",
     "rule": "chinese 01-0-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-01-23 00:00:00",
+    "start": "2023-01-22T16:00:00.000Z",
+    "end": "2023-01-23T16:00:00.000Z",
+    "name": "Tahun Baru Cina (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-01 if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -81,22 +101,22 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2023-05-06 00:00:00",
-    "start": "2023-05-05T16:00:00.000Z",
-    "end": "2023-05-06T16:00:00.000Z",
+    "date": "2023-05-04 00:00:00",
+    "start": "2023-05-03T16:00:00.000Z",
+    "end": "2023-05-04T16:00:00.000Z",
     "name": "Vesak Day",
     "type": "public",
-    "rule": "2023-05-06",
-    "_weekday": "Sat"
+    "rule": "2023-05-04",
+    "_weekday": "Thu"
   },
   {
-    "date": "2023-06-07 00:00:00",
-    "start": "2023-06-06T16:00:00.000Z",
-    "end": "2023-06-07T16:00:00.000Z",
+    "date": "2023-06-05 00:00:00",
+    "start": "2023-06-04T16:00:00.000Z",
+    "end": "2023-06-05T16:00:00.000Z",
     "name": "Hari Keputeraan Yang di-Pertuan Agong",
     "type": "public",
-    "rule": "06-07",
-    "_weekday": "Wed"
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
   },
   {
     "date": "2023-06-27 00:00:00 -0600",
@@ -111,7 +131,7 @@
     "date": "2023-06-28 00:00:00 -0600",
     "start": "2023-06-27T10:00:00.000Z",
     "end": "2023-06-28T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Wed"
@@ -120,7 +140,7 @@
     "date": "2023-06-29 00:00:00 -0600",
     "start": "2023-06-28T10:00:00.000Z",
     "end": "2023-06-29T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "11 Dhu al-Hijjah",
     "_weekday": "Thu"
@@ -129,7 +149,7 @@
     "date": "2023-07-19 00:00:00 -0600",
     "start": "2023-07-18T10:00:00.000Z",
     "end": "2023-07-19T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Wed"
@@ -156,10 +176,19 @@
     "date": "2023-09-27 00:00:00 -0600",
     "start": "2023-09-26T10:00:00.000Z",
     "end": "2023-09-27T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2023-11-12 00:00:00",
+    "start": "2023-11-11T16:00:00.000Z",
+    "end": "2023-11-12T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2023-11-12",
+    "_weekday": "Sun"
   },
   {
     "date": "2023-11-13 00:00:00",
