@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.14.10](https://github.com/commenthol/date-holidays/compare/3.14.9...3.14.10) (2022-04-23)
+
+- fix(NO,#331): remove easter sat [b2e0a7f5](https://github.com/commenthol/date-holidays/commit/b2e0a7f5325769285663d42533a33499ce940040)
+
 ## [3.14.9](https://github.com/commenthol/date-holidays/compare/3.14.8...3.14.9) (2022-04-23)
 
 - chore(ci): add node@18 [9a7fb227](https://github.com/commenthol/date-holidays/commit/9a7fb22797a50ffa354452da46e3ff7915d49d7c)
