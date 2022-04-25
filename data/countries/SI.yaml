@@ -89,6 +89,13 @@ holidays:
         type: observance
         active:
           - from: 2005
+      09-23:
+        name:
+          sl: Dan slovenskega športa
+          en: Slovenian Sports Day
+        type: observance
+        active:
+          - from: 2020
       10-25:
         name:
           sl: Dan suverenosti
