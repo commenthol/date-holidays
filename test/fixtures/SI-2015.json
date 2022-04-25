@@ -3,7 +3,7 @@
     "date": "2015-01-01 00:00:00",
     "start": "2014-12-31T23:00:00.000Z",
     "end": "2015-01-01T23:00:00.000Z",
-    "name": "novo leto",
+    "name": "Novo leto",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Thu"
@@ -12,7 +12,7 @@
     "date": "2015-02-08 00:00:00",
     "start": "2015-02-07T23:00:00.000Z",
     "end": "2015-02-08T23:00:00.000Z",
-    "name": "Prešernov dan",
+    "name": "Prešernov dan, slovenski kulturni praznik",
     "type": "public",
     "rule": "02-08",
     "_weekday": "Sun"
@@ -21,7 +21,7 @@
     "date": "2015-02-15 00:00:00",
     "start": "2015-02-14T23:00:00.000Z",
     "end": "2015-02-15T23:00:00.000Z",
-    "name": "pust",
+    "name": "Pust",
     "type": "observance",
     "rule": "easter -49",
     "_weekday": "Sun"
@@ -39,7 +39,7 @@
     "date": "2015-04-05 00:00:00",
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
-    "name": "velika noč",
+    "name": "Velika noč",
     "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
@@ -57,7 +57,7 @@
     "date": "2015-04-23 00:00:00",
     "start": "2015-04-22T22:00:00.000Z",
     "end": "2015-04-23T22:00:00.000Z",
-    "name": "jurjevanje",
+    "name": "Jurjevanje",
     "type": "observance",
     "rule": "04-23",
     "_weekday": "Thu"
@@ -66,7 +66,7 @@
     "date": "2015-04-27 00:00:00",
     "start": "2015-04-26T22:00:00.000Z",
     "end": "2015-04-27T22:00:00.000Z",
-    "name": "dan upora proti okupatorju",
+    "name": "Dan upora proti okupatorju",
     "type": "public",
     "rule": "04-27",
     "_weekday": "Mon"
@@ -75,7 +75,7 @@
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T22:00:00.000Z",
     "end": "2015-05-01T22:00:00.000Z",
-    "name": "praznik dela",
+    "name": "Praznik dela",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Fri"
@@ -84,7 +84,7 @@
     "date": "2015-05-02 00:00:00",
     "start": "2015-05-01T22:00:00.000Z",
     "end": "2015-05-02T22:00:00.000Z",
-    "name": "praznik dela",
+    "name": "Praznik dela",
     "type": "public",
     "rule": "05-02",
     "_weekday": "Sat"
@@ -93,7 +93,7 @@
     "date": "2015-05-24 00:00:00",
     "start": "2015-05-23T22:00:00.000Z",
     "end": "2015-05-24T22:00:00.000Z",
-    "name": "binkošti",
+    "name": "Binkošti",
     "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
@@ -102,8 +102,8 @@
     "date": "2015-06-08 00:00:00",
     "start": "2015-06-07T22:00:00.000Z",
     "end": "2015-06-08T22:00:00.000Z",
-    "name": "dan Primoža Trubarja",
-    "type": "public",
+    "name": "Dan Primoža Trubarja",
+    "type": "observance",
     "rule": "06-08",
     "_weekday": "Mon"
   },
@@ -111,19 +111,10 @@
     "date": "2015-06-25 00:00:00",
     "start": "2015-06-24T22:00:00.000Z",
     "end": "2015-06-25T22:00:00.000Z",
-    "name": "dan državnosti",
+    "name": "Dan državnosti",
     "type": "public",
     "rule": "06-25",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2015-07-22 00:00:00",
-    "start": "2015-07-21T22:00:00.000Z",
-    "end": "2015-07-22T22:00:00.000Z",
-    "name": "dan vstaje",
-    "type": "observance",
-    "rule": "07-22",
-    "_weekday": "Wed"
   },
   {
     "date": "2015-08-15 00:00:00",
@@ -138,7 +129,7 @@
     "date": "2015-08-17 00:00:00",
     "start": "2015-08-16T22:00:00.000Z",
     "end": "2015-08-17T22:00:00.000Z",
-    "name": "združitev prekmurskih Slovencev z matičnim narodom",
+    "name": "Združitev prekmurskih Slovencev z matičnim narodom",
     "type": "observance",
     "rule": "08-17",
     "_weekday": "Mon"
@@ -147,7 +138,7 @@
     "date": "2015-09-15 00:00:00",
     "start": "2015-09-14T22:00:00.000Z",
     "end": "2015-09-15T22:00:00.000Z",
-    "name": "vrnitev Primorske k matični domovini",
+    "name": "Vrnitev Primorske k matični domovini",
     "type": "observance",
     "rule": "09-15",
     "_weekday": "Tue"
@@ -156,7 +147,7 @@
     "date": "2015-10-25 00:00:00",
     "start": "2015-10-24T22:00:00.000Z",
     "end": "2015-10-25T23:00:00.000Z",
-    "name": "dan suverenosti",
+    "name": "Dan suverenosti",
     "type": "observance",
     "rule": "10-25",
     "_weekday": "Sun"
@@ -165,7 +156,7 @@
     "date": "2015-10-31 00:00:00",
     "start": "2015-10-30T23:00:00.000Z",
     "end": "2015-10-31T23:00:00.000Z",
-    "name": "dan reformacije",
+    "name": "Dan reformacije",
     "type": "public",
     "rule": "10-31",
     "_weekday": "Sat"
@@ -174,7 +165,7 @@
     "date": "2015-11-01 00:00:00",
     "start": "2015-10-31T23:00:00.000Z",
     "end": "2015-11-01T23:00:00.000Z",
-    "name": "dan spomina na mrtve or dan mrtvih",
+    "name": "Dan spomina na mrtve",
     "type": "public",
     "rule": "11-01",
     "_weekday": "Sun"
@@ -183,7 +174,7 @@
     "date": "2015-11-11 00:00:00",
     "start": "2015-11-10T23:00:00.000Z",
     "end": "2015-11-11T23:00:00.000Z",
-    "name": "martinovanje",
+    "name": "Martinovanje",
     "type": "observance",
     "rule": "11-11",
     "_weekday": "Wed"
@@ -192,7 +183,7 @@
     "date": "2015-11-23 00:00:00",
     "start": "2015-11-22T23:00:00.000Z",
     "end": "2015-11-23T23:00:00.000Z",
-    "name": "dan Rudolfa Maistra",
+    "name": "Dan Rudolfa Maistra",
     "type": "observance",
     "rule": "11-23",
     "_weekday": "Mon"
@@ -201,7 +192,7 @@
     "date": "2015-12-06 00:00:00",
     "start": "2015-12-05T23:00:00.000Z",
     "end": "2015-12-06T23:00:00.000Z",
-    "name": "miklavž",
+    "name": "Miklavž",
     "type": "observance",
     "rule": "12-06",
     "_weekday": "Sun"
@@ -210,7 +201,7 @@
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-24T23:00:00.000Z",
     "end": "2015-12-25T23:00:00.000Z",
-    "name": "božič",
+    "name": "Božič",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
@@ -219,7 +210,7 @@
     "date": "2015-12-26 00:00:00",
     "start": "2015-12-25T23:00:00.000Z",
     "end": "2015-12-26T23:00:00.000Z",
-    "name": "dan samostojnosti in enotnosti",
+    "name": "Dan samostojnosti in enotnosti",
     "type": "public",
     "rule": "12-26",
     "_weekday": "Sat"
