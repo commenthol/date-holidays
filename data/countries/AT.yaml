@@ -15,7 +15,9 @@ holidays:
         _name: 01-01
       01-06:
         _name: 01-06
-      easter -2:
+      # @source https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2019_I_22/BGBLA_2019_I_22.pdfsig
+      # @source https://www.arbeiterkammer.at/beratung/arbeitundrecht/Arbeitszeit/ArbeitszeitundRuhepausen/Persoenlicher_Feiertag.html
+      easter -2 prior to 2019:
         _name: easter -2
         type: optional
       easter -1:

@@ -23,7 +23,7 @@
     "end": "2016-03-25T23:00:00.000Z",
     "name": "Karfreitag",
     "type": "optional",
-    "rule": "easter -2",
+    "rule": "easter -2 prior to 2019",
     "_weekday": "Fri"
   },
   {
