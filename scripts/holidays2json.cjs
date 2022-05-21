@@ -159,12 +159,13 @@ if (module === require.main) {
 */
 function dive (data, macros) {
   macros = macros || {
-    nojulian: true,
+    nobengali: true,
+    nochinese: true,
+    noequinox: true,
     nohebrew: true,
     noislamic: true,
-    nochinese: true,
-    nobengali: true,
-    noequinox: true
+    nojalaali: true,
+    nojulian: true
   }
   switch (toString.call(data)) {
     case '[object Object]':
@@ -183,6 +184,8 @@ function dive (data, macros) {
               delete macros.noequinox
             } else if (/\b(Nisan|Iyyar|Sivan|Tamuz|Av|Elul|Tishrei|Cheshvan|Kislev|Tevet|Shvat|Adar)\b/.test(key)) {
               delete macros.nohebrew
+            } else if (/\b(Farvardin|Ordibehesht|Khordad|Tir|Mordad|Shahrivar|Mehr|Aban|Azar|Dey|Bahman|Esfand)\b/.test(key)) {
+              delete macros.nojalaali
             }
           })
         } else {

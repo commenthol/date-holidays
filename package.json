@@ -115,7 +115,7 @@
   },
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
-  "typings": "./types",
+  "types": "./types",
   "bin": {
     "holidays2json": "scripts/holidays2json.cjs"
   },
@@ -188,7 +188,7 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.3.0",
+    "date-holidays-parser": "^3.4.0-0",
     "js-yaml": "^4.1.0",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
@@ -204,10 +204,10 @@
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^8.2.5",
     "dtslint": "^4.2.1",
-    "eslint": "^8.0.1",
+    "eslint": "^8.14.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-yml": "^0.14.0",
     "hashtree": "^0.7.0",

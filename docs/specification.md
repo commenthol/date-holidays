@@ -1,6 +1,6 @@
 # Specification for `holidays.yaml`
 
-Version: 2.1.0
+Version: 2.2.0
 
 This document describes the data contained within the files `holidays.yaml` and
 `names.yaml`.
@@ -11,9 +11,9 @@ This document describes the data contained within the files `holidays.yaml` and
 
 * [structure of `names.yaml`](#structure-of-namesyaml)
 * [structure of `holidays.yaml`](#structure-of-holidaysyaml)
-* [Types of holidays](#types-of-holidays)
 * [Citations, Sources, and Attribution](#citations-sources-and-attribution)
   * [Source Guidelines](#source-guidelines)
+* [Types of holidays](#types-of-holidays)
 * [Grammar for day rules](#grammar-for-day-rules)
   * [Fixed Date](#fixed-date)
   * [Fixed Date at beginning of a Month](#fixed-date-at-beginning-of-a-month)
@@ -24,6 +24,7 @@ This document describes the data contained within the files `holidays.yaml` and
     * [Dates in Chinese calendar (lunar)](#dates-in-chinese-calendar-lunar)
     * [Dates in Chinese calendar (solar)](#dates-in-chinese-calendar-solar)
     * [Dates in Bengali Revised calendar](#dates-in-bengali-revised-calendar)
+    * [Dates in Persian calendar](#dates-in-persian-calendar)
     * [Equinox, Solstice](#equinox-solstice)
   * [Different start-time for Fixed Date other than midnight](#different-start-time-for-fixed-date-other-than-midnight)
   * [Different duration other than 24 hours](#different-duration-other-than-24-hours)
@@ -38,6 +39,7 @@ This document describes the data contained within the files `holidays.yaml` and
   * [Enable Date only for certain periods of years](#enable-date-only-for-certain-periods-of-years)
   * [Enable Date only for certain weekdays](#enable-date-only-for-certain-weekdays)
   * [Holiday based on other holidays (bridge days)](#holiday-based-on-other-holidays-bridge-days)
+  * [Change to different weekday if date already falls on a holiday](#change-to-different-weekday-if-date-already-falls-on-a-holiday)
   * [Enabling a rule since or in certain years](#enabling-a-rule-since-or-in-certain-years)
   * [Disabling a rule](#disabling-a-rule)
   * [Moving a date](#moving-a-date)
@@ -314,6 +316,20 @@ Where:
 - `bengali-revised 12-1` is the 1st day in the 12th month
 - `bengali-revised 1425-1-1` is the 1st day in the first month of 1425 - equals 2018-04-14 in Gregorian date
 
+#### Dates in Persian calendar
+
+Dates in the persian calendar can be attributed using the following rule:
+
+Rule: `<day-of-month> (Farvardin|Ordibehesht|Khordad|Tir|Mordad|Shahrivar|Mehr|Aban|Azar|Dey|Bahman|Esfand) [<year>]`
+
+Where:
+- `<day-of-month>` [1..30]
+- `<year>` optional year
+
+**Examples**:
+
+- `1 Farvardin` is 1st day in month Farvardin
+
 #### Equinox, Solstice
 
 To calculate a date from Spring, Autumn Equinox or Summer, Winter Solstice the following rule can be used:
@@ -523,7 +539,7 @@ Where:
 - `09-22 if 09-21 is holiday` is September 22nd is public holiday only if September 21st is also a holiday
 - `09-22 if 09-21 and 09-23 is public holiday` is September 22nd is public holiday only if September 21st and September 23rd are public holidays
 
-### Change to different weekday if date already falls on a holiday 
+### Change to different weekday if date already falls on a holiday
 
 Rule: `<rule> if is (<type>)? holiday then (<count>)? (next|previous) <weekday>`
 
