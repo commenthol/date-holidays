@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.15.0](https://github.com/commenthol/date-holidays/compare/3.14.10...3.15.0) (2022-05-21)
+
+- docs: update attribution and README [88049ae2](https://github.com/commenthol/date-holidays/commit/88049ae2423519f4df07b4d7369fee8281de9914)
+- fix(AT,#323): good friday is not a holiday [f613a85c](https://github.com/commenthol/date-holidays/commit/f613a85cd2d935e41c7105b51508cc280016c6d7)
+- fix: macro support for nojalaali [608e8892](https://github.com/commenthol/date-holidays/commit/608e8892afabd8b6357d7f60cbb0b872a028e50a)
+- fix: linter issue [c1ffcf65](https://github.com/commenthol/date-holidays/commit/c1ffcf6561a0822054795e57984e4785181f7810)
+- docs: add persian calendar [b20d6f2c](https://github.com/commenthol/date-holidays/commit/b20d6f2c92e093a42c4babf84f3648924bd01575)
+- feat(IR): new country Iran [e4005b33](https://github.com/commenthol/date-holidays/commit/e4005b33929fe8115d0d635ba7f4157e33910f2c)
+
 ## [3.14.10](https://github.com/commenthol/date-holidays/compare/3.14.9...3.14.10) (2022-04-23)
 
 - fix(NO,#331): remove easter sat [b2e0a7f5](https://github.com/commenthol/date-holidays/commit/b2e0a7f5325769285663d42533a33499ce940040)
