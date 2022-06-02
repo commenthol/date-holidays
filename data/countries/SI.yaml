@@ -19,8 +19,8 @@ holidays:
           - from: 2017
       02-08:
         name:
-          en: Prešeren Day
-          sl: Prešernov dan
+          en: Prešeren Day, the Slovenian Cultural Holiday
+          sl: Prešernov dan, slovenski kulturni praznik
         active:
           - from: 1991
       03-08:
@@ -28,12 +28,12 @@ holidays:
         type: observance
       04-23:
         name:
-          sl: jurjevanje
+          sl: Jurjevanje
           en: St. George's Day
         type: observance
       easter -49:
         name:
-          sl: pust
+          sl: Pust
           en: Carnival
         type: observance
       easter:
@@ -42,87 +42,90 @@ holidays:
         _name: easter 1
       04-27:
         name:
-          sl: dan upora proti okupatorju
+          sl: Dan upora proti okupatorju
           en: Day of Uprising Against Occupation
       05-01:
         _name: 05-01
         name:
-          en: May Day Holiday
+          en: Labour Day
         active:
           - from: 1949
       05-02:
         _name: 05-01
         name:
-          en: May Day Holiday
+          en: Labour Day
         active:
           - from: 1949
       easter 49:
         _name: easter 49
       06-08:
         name:
-          sl: dan Primoža Trubarja
+          sl: Dan Primoža Trubarja
           en: Primož Trubar Day
+        type: observance
         active:
           - from: 2010
       06-25:
         name:
-          sl: dan državnosti
+          sl: Dan državnosti
           en: Statehood Day
         active:
           - from: 1991
-      07-22:
-        name:
-          sl: dan vstaje
-          en: Insurrection Day
-        type: observance
       08-15:
         _name: 08-15
         active:
           - from: 1992
       08-17:
         name:
-          sl: združitev prekmurskih Slovencev z matičnim narodom
-          en: Day of the Prekmurje Slovenes'
+          sl: Združitev prekmurskih Slovencev z matičnim narodom
+          en: Unification of Prekmurje Slovenes with the Mother Nation
         type: observance
         active:
           - from: 2006
       09-15:
         name:
-          sl: vrnitev Primorske k matični domovini
-          en: Day of Restoration of the Littoral Region to the Motherland
+          sl: Vrnitev Primorske k matični domovini
+          en: Return of Primorska to the Motherland
         type: observance
         active:
           - from: 2005
+      09-23:
+        name:
+          sl: Dan slovenskega športa
+          en: Slovenian Sports Day
+        type: observance
+        active:
+          - from: 2020
       10-25:
         name:
-          sl: dan suverenosti
+          sl: Dan suverenosti
           en: Sovereignty Day
         type: observance
         active:
           - from: 2015
       10-31:
         name:
-          sl: dan reformacije
+          sl: Dan reformacije
           en: Reformation Day
       11-01:
         name:
-          sl: dan spomina na mrtve or dan mrtvih
-          en: Day (of Remembrance) of the Dead
+          sl: Dan spomina na mrtve
+          en: Day of Remembrance for the Dead
       11-11:
         name:
-          sl: martinovanje
+          sl: Martinovanje
           en: St. Martin's Day
         type: observance
       11-23:
         name:
-          sl: dan Rudolfa Maistra
-          en: Rudolf Maister Day dan Rudolfa Maistra
+          sl: Dan Rudolfa Maistra
+          en: Rudolf Maister Day
         type: observance
         active:
           - from: 2015
       12-06:
         name:
-          sl: miklavž
+          sl: Miklavž
           en: Saint Nicholas Day
         type: observance
       12-25:
@@ -132,7 +135,7 @@ holidays:
           - from: 1991
       12-26:
         name:
-          sl: dan samostojnosti in enotnosti
+          sl: Dan samostojnosti in enotnosti
           en: Independence and Unity Day
     # regions:
     # '001':
