@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.16.0](https://github.com/commenthol/date-holidays/compare/3.15.1...3.16.0) (2022-06-02)
+
+- fix(SI): Re-verted regions placeholders [79f13907](https://github.com/commenthol/date-holidays/commit/79f13907fad14376858b9d2c2b1ca61fbf345211)
+- feat(SI): Added Slovenian sport day [57f6033e](https://github.com/commenthol/date-holidays/commit/57f6033e9744f018602039d6f188ceacb55278a5)
+- feat(SI): Udpated Slovenian Holidays and fixtures [64e636b2](https://github.com/commenthol/date-holidays/commit/64e636b2afa171c698099867200c9f15b28f343f)
+
 ## [3.15.0](https://github.com/commenthol/date-holidays/compare/3.14.10...3.15.0) (2022-05-21)
 
 - docs: update attribution and README [88049ae2](https://github.com/commenthol/date-holidays/commit/88049ae2423519f4df07b4d7369fee8281de9914)
