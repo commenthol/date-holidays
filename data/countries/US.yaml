@@ -217,7 +217,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: The third Monday in February
+              en: Presidents' Day
           2nd monday in October: false
           02-15:
             type: observance
