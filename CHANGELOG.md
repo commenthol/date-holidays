@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.16.1](https://github.com/commenthol/date-holidays/compare/3.16.0...3.16.1) (2022-06-12)
+
+- fix(US.CA): Presidents' Day name [845793aa](https://github.com/commenthol/date-holidays/commit/845793aa49c9a482ffbc5dacca144bef826c742a)
+
 ## [3.16.0](https://github.com/commenthol/date-holidays/compare/3.15.1...3.16.0) (2022-06-02)
 
 - fix(SI): Re-verted regions placeholders [79f13907](https://github.com/commenthol/date-holidays/commit/79f13907fad14376858b9d2c2b1ca61fbf345211)
