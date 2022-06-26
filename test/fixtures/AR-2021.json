@@ -117,6 +117,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-10-08 00:00:00",
+    "start": "2021-10-08T03:00:00.000Z",
+    "end": "2021-10-09T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 10-12 if monday,tuesday,wednesday then previous friday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2021-10-11 00:00:00",
     "start": "2021-10-11T03:00:00.000Z",
     "end": "2021-10-12T03:00:00.000Z",
@@ -126,12 +135,21 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-11-20 00:00:00",
+    "start": "2021-11-20T03:00:00.000Z",
+    "end": "2021-11-21T03:00:00.000Z",
+    "name": "Día de la Soberanía nacional",
+    "type": "public",
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2021-11-22 00:00:00",
     "start": "2021-11-22T03:00:00.000Z",
     "end": "2021-11-23T03:00:00.000Z",
-    "name": "Día de la Soberanía nacional",
+    "name": "Feriado Puente Turístico",
     "type": "public",
-    "rule": "4th monday in November",
+    "rule": "substitutes 11-20 if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {

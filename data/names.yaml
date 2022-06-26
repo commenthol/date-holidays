@@ -1059,6 +1059,10 @@ names:
       nl: Dag van de revolutie
       ti: ባሕቲ መስከረም
       vi: Tổng khởi nghĩa
+  Bridge Day:
+    name:
+      en: Bridge Day
+      es: Feriado Puente Turístico
 
   # internal use
   substitutes:

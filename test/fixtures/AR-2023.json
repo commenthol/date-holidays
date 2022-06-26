@@ -135,12 +135,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2023-11-27 00:00:00",
-    "start": "2023-11-27T03:00:00.000Z",
-    "end": "2023-11-28T03:00:00.000Z",
+    "date": "2023-11-20 00:00:00",
+    "start": "2023-11-20T03:00:00.000Z",
+    "end": "2023-11-21T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {
