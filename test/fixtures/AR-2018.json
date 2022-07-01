@@ -126,12 +126,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2018-11-26 00:00:00",
-    "start": "2018-11-26T03:00:00.000Z",
-    "end": "2018-11-27T03:00:00.000Z",
+    "date": "2018-11-19 00:00:00",
+    "start": "2018-11-19T03:00:00.000Z",
+    "end": "2018-11-20T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -142,6 +142,15 @@
     "type": "public",
     "rule": "12-08",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2018-12-24 00:00:00",
+    "start": "2018-12-24T03:00:00.000Z",
+    "end": "2018-12-25T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 12-25 if tuesday then previous monday if thursday then next friday",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-24 12:00:00",
@@ -160,6 +169,15 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-31 00:00:00",
+    "start": "2018-12-31T03:00:00.000Z",
+    "end": "2019-01-01T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 01-01 if tuesday then previous monday if thursday then next friday",
+    "_weekday": "Mon"
   },
   {
     "date": "2018-12-31 12:00:00",

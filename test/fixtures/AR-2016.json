@@ -99,6 +99,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2016-07-08 00:00:00",
+    "start": "2016-07-08T03:00:00.000Z",
+    "end": "2016-07-09T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 07-09 if tuesday then previous monday if thursday then next friday if saturday then previous friday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2016-07-09 00:00:00",
     "start": "2016-07-09T03:00:00.000Z",
     "end": "2016-07-10T03:00:00.000Z",
@@ -126,13 +135,13 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2016-11-28 00:00:00",
-    "start": "2016-11-28T03:00:00.000Z",
-    "end": "2016-11-29T03:00:00.000Z",
+    "date": "2016-11-20 00:00:00",
+    "start": "2016-11-20T03:00:00.000Z",
+    "end": "2016-11-21T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
-    "_weekday": "Mon"
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-08 00:00:00",
