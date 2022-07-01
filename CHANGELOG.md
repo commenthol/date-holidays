@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.16.2](https://github.com/commenthol/date-holidays/compare/3.16.1...3.16.2) (2022-07-01)
+
+- fix(AR,#343): Feriado Puente Turístico [046f615f](https://github.com/commenthol/date-holidays/commit/046f615faedb3586e6042fb9ac68810aa95def24)
+- Fix NZ Matariki 2036 misprint [6522fd1b](https://github.com/commenthol/date-holidays/commit/6522fd1bf4dc8e2478ac2447890bddea9b3d6f37)
+
 ## [3.16.1](https://github.com/commenthol/date-holidays/compare/3.16.0...3.16.1) (2022-06-12)
 
 - fix(US.CA): Presidents' Day name [845793aa](https://github.com/commenthol/date-holidays/commit/845793aa49c9a482ffbc5dacca144bef826c742a)
