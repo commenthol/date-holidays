@@ -109,7 +109,8 @@
   "exports": {
     ".": {
       "import": "./src/index.js",
-      "require": "./lib/index.cjs"
+      "require": "./lib/index.cjs",
+      "types": "./types/index.d.ts"
     },
     "./data": {
       "import": "./src/data.js",
