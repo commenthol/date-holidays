@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.16.3](https://github.com/commenthol/date-holidays/compare/3.16.2...3.16.3) (2022-07-30)
+
+- Add types to exports [bf244097](https://github.com/commenthol/date-holidays/commit/bf244097ff45d367338d9820647d062b9ffdf67d)
+
 ## [3.16.2](https://github.com/commenthol/date-holidays/compare/3.16.1...3.16.2) (2022-07-01)
 
 - fix(AR,#343): Feriado Puente Turístico [046f615f](https://github.com/commenthol/date-holidays/commit/046f615faedb3586e6042fb9ac68810aa95def24)
