@@ -52,7 +52,7 @@ holidays:
       08-01:
         name:
           de: Bundesfeiertag
-          fr: Fête nationnale
+          fr: Fête nationale
           it: Giorno festivo federale
       3rd sunday after 09-01:
         name:
