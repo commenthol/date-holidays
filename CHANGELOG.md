@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.16.4](https://github.com/commenthol/date-holidays/compare/3.16.3...3.16.4) (2022-08-12)
+
+- fix(translation): typo in French translation for 08-01 in CH.yaml [dad6d8b9](https://github.com/commenthol/date-holidays/commit/dad6d8b958dc7311527fdedd8682e5876cb6e9fa)
+
 ## [3.16.3](https://github.com/commenthol/date-holidays/compare/3.16.2...3.16.3) (2022-07-30)
 
 - Add types to exports [bf244097](https://github.com/commenthol/date-holidays/commit/bf244097ff45d367338d9820647d062b9ffdf67d)
