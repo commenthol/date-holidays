@@ -41,7 +41,7 @@
     "start": "2017-04-12T23:00:00.000Z",
     "end": "2017-04-13T23:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },

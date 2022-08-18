@@ -834,6 +834,7 @@ names:
       bn: ঈদুল ফিতর
       bs: Ramazanski bajram
       de: Zuckerfest
+      es: Fiesta del Eid Fitr
       fa: ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ
       fil: Pagwawakas ng Ramadan
       fr: Fête de fin du Ramadan
@@ -850,6 +851,7 @@ names:
     name:
       en: Arafat Day
       ar: يوم عرفة
+      es: Fiesta del Sacrificio-Eidul Adha
       ms: Hari Arafah
   10 Dhu al-Hijjah: # Feast of the Sacrifice (Eid al-Adha)
     name:
@@ -860,6 +862,7 @@ names:
       bn: ঈদুল আযহা
       bs: Kurbanski bajram
       de: Opferfest
+      es: Fiesta del Sacrificio-Aid Al Adha
       fa: ﻋﯿﺪ ﺳﻌﯿﺪ ﻗﺮﺑﺎن
       fil: Eidul Adha
       fr: Fête du mouton

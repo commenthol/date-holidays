@@ -31,7 +31,7 @@
     "start": "2018-03-28T22:00:00.000Z",
     "end": "2018-03-29T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -59,7 +59,7 @@
     "end": "2018-04-23T22:00:00.000Z",
     "name": "Día de Aragón",
     "type": "public",
-    "rule": "04-23 if sunday then next monday",
+    "rule": "04-23",
     "_weekday": "Mon"
   },
   {

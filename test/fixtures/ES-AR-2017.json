@@ -41,7 +41,7 @@
     "start": "2017-04-12T22:00:00.000Z",
     "end": "2017-04-13T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -64,12 +64,22 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2017-04-23 00:00:00",
+    "start": "2017-04-22T22:00:00.000Z",
+    "end": "2017-04-23T22:00:00.000Z",
+    "name": "Día de Aragón",
+    "type": "public",
+    "rule": "04-23",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2017-04-24 00:00:00",
     "start": "2017-04-23T22:00:00.000Z",
     "end": "2017-04-24T22:00:00.000Z",
-    "name": "Día de Aragón",
+    "name": "Día de Aragón (día sustituto)",
     "type": "public",
-    "rule": "04-23 if sunday then next monday",
+    "substitute": true,
+    "rule": "substitutes 04-23 if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {

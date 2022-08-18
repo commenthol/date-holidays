@@ -1,0 +1,184 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2022-12-31T23:00:00.000Z",
+    "end": "2023-01-01T23:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-01-02 00:00:00",
+    "start": "2023-01-01T23:00:00.000Z",
+    "end": "2023-01-02T23:00:00.000Z",
+    "name": "Año Nuevo (día sustituto)",
+    "type": "observance",
+    "substitute": true,
+    "rule": "substitutes 01-01 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-01-06 00:00:00",
+    "start": "2023-01-05T23:00:00.000Z",
+    "end": "2023-01-06T23:00:00.000Z",
+    "name": "Día de los Reyes Magos",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-03-19 00:00:00",
+    "start": "2023-03-18T23:00:00.000Z",
+    "end": "2023-03-19T23:00:00.000Z",
+    "name": "San José",
+    "type": "observance",
+    "rule": "03-19",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-06 00:00:00",
+    "start": "2023-04-05T22:00:00.000Z",
+    "end": "2023-04-06T22:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-04-07 00:00:00",
+    "start": "2023-04-06T22:00:00.000Z",
+    "end": "2023-04-07T22:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-04-09 00:00:00",
+    "start": "2023-04-08T22:00:00.000Z",
+    "end": "2023-04-09T22:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-04-30T22:00:00.000Z",
+    "end": "2023-05-01T22:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-07 00:00:00",
+    "start": "2023-05-06T22:00:00.000Z",
+    "end": "2023-05-07T22:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "rule": "1st sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-05-28 00:00:00",
+    "start": "2023-05-27T22:00:00.000Z",
+    "end": "2023-05-28T22:00:00.000Z",
+    "name": "Pentecostés",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-06-27 00:00:00 -0600",
+    "start": "2023-06-26T16:00:00.000Z",
+    "end": "2023-06-27T16:00:00.000Z",
+    "name": "Fiesta del Sacrificio-Eidul Adha",
+    "type": "public",
+    "rule": "9 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-07-25 00:00:00",
+    "start": "2023-07-24T22:00:00.000Z",
+    "end": "2023-07-25T22:00:00.000Z",
+    "name": "Santiago Apostol",
+    "type": "observance",
+    "note": "regional",
+    "rule": "07-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-08-05 00:00:00",
+    "start": "2023-08-04T22:00:00.000Z",
+    "end": "2023-08-05T22:00:00.000Z",
+    "name": "Nuestra Señora de África",
+    "type": "public",
+    "rule": "08-05",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-08-15 00:00:00",
+    "start": "2023-08-14T22:00:00.000Z",
+    "end": "2023-08-15T22:00:00.000Z",
+    "name": "Asunción",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-09-02 00:00:00",
+    "start": "2023-09-01T22:00:00.000Z",
+    "end": "2023-09-02T22:00:00.000Z",
+    "name": "Día de Ceuta",
+    "type": "public",
+    "rule": "09-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2023-10-12 00:00:00",
+    "start": "2023-10-11T22:00:00.000Z",
+    "end": "2023-10-12T22:00:00.000Z",
+    "name": "Fiesta Nacional de España",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-11-01 00:00:00",
+    "start": "2023-10-31T23:00:00.000Z",
+    "end": "2023-11-01T23:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-06 00:00:00",
+    "start": "2023-12-05T23:00:00.000Z",
+    "end": "2023-12-06T23:00:00.000Z",
+    "name": "Día de la Constitución Española",
+    "type": "public",
+    "rule": "12-06",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-12-08 00:00:00",
+    "start": "2023-12-07T23:00:00.000Z",
+    "end": "2023-12-08T23:00:00.000Z",
+    "name": "La inmaculada concepción",
+    "type": "public",
+    "rule": "12-08",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-24T23:00:00.000Z",
+    "end": "2023-12-25T23:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

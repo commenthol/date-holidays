@@ -31,7 +31,7 @@
     "start": "2018-03-28T23:00:00.000Z",
     "end": "2018-03-29T23:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
