@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.16.5](https://github.com/commenthol/date-holidays/compare/3.16.4...3.16.5) (2022-08-24)
+
+- fix(DE-MV): International Women's Day [6479fc21](https://github.com/commenthol/date-holidays/commit/6479fc21a7f082370ead8607097957387b07a8ef)
+- fix(geneva): remove jeune federal [af4d5640](https://github.com/commenthol/date-holidays/commit/af4d56408a18f7aa1a959e03e61a576348970534)
+
 ## [3.16.4](https://github.com/commenthol/date-holidays/compare/3.16.3...3.16.4) (2022-08-12)
 
 - fix(translation): typo in French translation for 08-01 in CH.yaml [dad6d8b9](https://github.com/commenthol/date-holidays/commit/dad6d8b958dc7311527fdedd8682e5876cb6e9fa)
