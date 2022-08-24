@@ -209,6 +209,9 @@ holidays:
       MV:
         name: Mecklenburg Vorpommern
         days:
+          # @source https://www.dokumentation.landtag-mv.de/parldok/dokument/52063/viertes_gesetz_zur_aenderung_des_feiertagsgesetzes_mecklenburg_vorpommern.pdf
+          03-08 since 2023:
+            _name: 03-08
           10-31:
             _name: Reformation Day
       NI:
