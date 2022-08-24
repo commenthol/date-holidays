@@ -692,6 +692,7 @@ holidays:
               de: Wiederherstellung der Republik
               fr: Restauration de la République
               en: Restoration of the Republic
+          3rd sunday after 09-01: false
       JU:
         names:
           fr: Canton du Jura
