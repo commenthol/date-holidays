@@ -31,6 +31,10 @@ holidays:
           es: Virgen del Carmen
       08-15:
         _name: 08-15
+      09-16:
+        name:
+          en: Independence Day
+          es: Día de la Independencia
       09-18:
         name:
           en: National holiday
@@ -39,7 +43,7 @@ holidays:
         name:
           en: Army Day
           es: Día de las Glorias del Ejército
-      10-12:
+      10-10:
         name:
           en: Columbus Day
           es: Día del Descubrimiento de Dos Mundos
