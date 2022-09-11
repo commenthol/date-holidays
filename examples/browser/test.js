@@ -1,4 +1,4 @@
-; (function () {
+;(function () {
   const { vcalendar } = require('date-holidays-ical/lib/vcalendar.cjs')
 
   const DAY = 86400000
