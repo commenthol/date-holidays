@@ -99,6 +99,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2022-09-22 00:00:00",
+    "start": "2022-09-21T14:00:00.000Z",
+    "end": "2022-09-22T14:00:00.000Z",
+    "name": "National Day of Mourning for Queen Elizabeth II",
+    "type": "public",
+    "rule": "2022-09-22",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2022-10-03 00:00:00",
     "start": "2022-10-02T14:00:00.000Z",
     "end": "2022-10-03T14:00:00.000Z",

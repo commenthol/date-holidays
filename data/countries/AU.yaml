@@ -51,6 +51,10 @@ holidays:
       12-26 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-26
+      # @source https://www.reuters.com/world/australia-hold-day-mourning-queen-elizabeth-sept-22-2022-09-11/
+      "2022-09-22":
+        name:
+          en: National Day of Mourning for Queen Elizabeth II
     states:
       # @source https://www.legislation.act.gov.au/a/1958-19
       ACT:
