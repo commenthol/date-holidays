@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.16.6](https://github.com/commenthol/date-holidays/compare/3.16.5...3.16.6) (2022-09-11)
+
+- fix(CL): Fixes holiday dates for Chile in september, october [ceab3db9](https://github.com/commenthol/date-holidays/commit/ceab3db9d2a266616a0568e6359f33b9cd79aea6)
+- fix(IR): fix failing tests [77d5f119](https://github.com/commenthol/date-holidays/commit/77d5f119df077f0e0872c7cc1efb0d73d0a81d2b)
+- fix(AU): 2022-09-22 National Day of Mourning for Queen Elizabeth II [ff885563](https://github.com/commenthol/date-holidays/commit/ff88556360b743c02b6df4540157a101873f32f7)
+- fix(GB,GG,GI,IM,JE): 2022-09-19 Queen Elizabeth's Funeral Day [511d65bf](https://github.com/commenthol/date-holidays/commit/511d65bf96cd7ff1d91390a69614c3cf55ee6aef)
+- chore: Fixes holiday dates for Chile on september, october [ceab3db9](https://github.com/commenthol/date-holidays/commit/ceab3db9d2a266616a0568e6359f33b9cd79aea6)
+
 ## [3.16.5](https://github.com/commenthol/date-holidays/compare/3.16.4...3.16.5) (2022-08-24)
 
 - fix(DE-MV): International Women's Day [6479fc21](https://github.com/commenthol/date-holidays/commit/6479fc21a7f082370ead8607097957387b07a8ef)
