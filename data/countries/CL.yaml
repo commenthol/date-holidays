@@ -31,6 +31,10 @@ holidays:
           es: Virgen del Carmen
       08-15:
         _name: 08-15
+      "2022-09-16":
+        name:
+          es: Fiestas Patrias
+          en: National Holiday
       09-18:
         name:
           en: National holiday
@@ -39,10 +43,10 @@ holidays:
         name:
           en: Army Day
           es: Día de las Glorias del Ejército
-      10-12:
+      10-12 if tuesday, wednesday, thursday, friday then previous monday:
         name:
           en: Columbus Day
-          es: Día del Descubrimiento de Dos Mundos
+          es: Encuentro de Dos Mundos
       10-31 if wednesday then next friday if tuesday then previous friday:
         _name: Reformation Day
       11-01:
