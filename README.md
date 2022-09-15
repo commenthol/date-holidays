@@ -259,18 +259,32 @@ Countries: 196
 ├── EH: الجمهورية العربية الصحراوية الديمقراطية
 ├── ER: Eritrea
 ├── ES: España
-│   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
 │   ├── AR: Aragón
-│   ├── CT: Catalonia
-│   └── CN: Islas Canarias
-│       ├── EH: El Hierro
-│       ├── FU: Fuerteventura
-│       ├── GC: Gran Canaria
-│       ├── LG: La Gomera
-│       ├── LP: La Palma
-│       ├── LA: Lanzarote
-│       └── TE: Tenerife
+│   ├── AS: Asturias
+│   ├── CB: Cantabria
+│   ├── CE: Ciudad de Ceuta
+│   ├── CL: Castilla y León
+│   ├── CM: Castile-La Mancha
+│   ├── CN: Islas Canarias
+│   │   ├── EH: El Hierro
+│   │   ├── FU: Fuerteventura
+│   │   ├── GC: Gran Canaria
+│   │   ├── LG: La Gomera
+│   │   ├── LP: La Palma
+│   │   ├── LA: Lanzarote
+│   │   └── TE: Tenerife
+│   ├── CT: Cataluña
+│   ├── EX: Extremadura
+│   ├── GA: Galicia
+│   ├── IB: Illes Balears
+│   ├── MC: Murcia Region
+│   ├── MD: Comunidad de Madrid
+│   ├── ML: Ciudad de Melilla
+│   ├── NC: Comunidad Foral de Navarra
+│   ├── PV: País Vasco
+│   ├── RI: La Rioja
+│   └── VC: Comunitat Valenciana
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
 ├── FJ: Matanitu Tugalala o Viti

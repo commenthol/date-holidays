@@ -15,6 +15,14 @@ holidays:
         name:
           es: Día de Canarias
           en: Canary Islands Day
+      substitutes 05-30 if Sunday then next Monday:
+        substitute: true
+        name:
+          es: Día de Canarias
+          en: Canary Islands Day
+      substitutes 08-15 if Sunday then next Monday:
+        substitute: true
+        _name: 08-15
     regions:
       EH:
         names:

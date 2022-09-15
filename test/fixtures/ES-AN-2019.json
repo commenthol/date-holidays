@@ -50,7 +50,7 @@
     "start": "2019-04-17T22:00:00.000Z",
     "end": "2019-04-18T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },

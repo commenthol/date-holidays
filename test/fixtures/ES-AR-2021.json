@@ -31,7 +31,7 @@
     "start": "2021-03-31T22:00:00.000Z",
     "end": "2021-04-01T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -59,7 +59,7 @@
     "end": "2021-04-23T22:00:00.000Z",
     "name": "Día de Aragón",
     "type": "public",
-    "rule": "04-23 if sunday then next monday",
+    "rule": "04-23",
     "_weekday": "Fri"
   },
   {
@@ -113,9 +113,9 @@
     "start": "2021-08-15T22:00:00.000Z",
     "end": "2021-08-16T22:00:00.000Z",
     "name": "Asunción (día sustituto)",
-    "type": "observance",
+    "type": "public",
     "substitute": true,
-    "rule": "substitutes 08-15 if sunday then next monday",
+    "rule": "substitutes 08-15 if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {

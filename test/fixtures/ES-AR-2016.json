@@ -31,7 +31,7 @@
     "start": "2016-03-23T23:00:00.000Z",
     "end": "2016-03-24T23:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -59,7 +59,7 @@
     "end": "2016-04-23T22:00:00.000Z",
     "name": "Día de Aragón",
     "type": "public",
-    "rule": "04-23 if sunday then next monday",
+    "rule": "04-23",
     "_weekday": "Sat"
   },
   {
@@ -85,9 +85,9 @@
     "start": "2016-05-01T22:00:00.000Z",
     "end": "2016-05-02T22:00:00.000Z",
     "name": "Día del trabajador (día sustituto)",
-    "type": "observance",
+    "type": "public",
     "substitute": true,
-    "rule": "substitutes 05-01 if sunday then next monday",
+    "rule": "substitutes 05-01 if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -168,7 +168,7 @@
     "start": "2016-12-25T23:00:00.000Z",
     "end": "2016-12-26T23:00:00.000Z",
     "name": "Navidad (día sustituto)",
-    "type": "observance",
+    "type": "public",
     "substitute": true,
     "rule": "substitutes 12-25 if sunday then next monday",
     "_weekday": "Mon"

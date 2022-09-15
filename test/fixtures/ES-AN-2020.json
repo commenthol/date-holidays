@@ -40,7 +40,7 @@
     "start": "2020-04-08T22:00:00.000Z",
     "end": "2020-04-09T22:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "observance",
+    "type": "public",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
