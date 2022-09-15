@@ -140,6 +140,10 @@ holidays:
       "2052-06-21":
         name:
           en: Matariki
+      # @source https://www.beehive.govt.nz/release/public-holiday-26-september-mark-passing-queen-elizabeth-ii#:~:text=New%20Zealand%20will%20mark%20the,Minister%20Jacinda%20Ardern%20has%20announced.
+      "2022-09-26":
+        name:
+          en: National Day of Mourning for Queen Elizabeth II
     states:
       AUK:
         names:
