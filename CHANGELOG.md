@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.16.7](https://github.com/commenthol/date-holidays/compare/3.16.6...3.16.7) (2022-09-15)
+
+- chore: npmrc strict-version and ignore-scripts set [e14212ef](https://github.com/commenthol/date-holidays/commit/e14212efdc74b2ea8a9e31d81fce32c1bcdf1e50)
+- fix(NZ): 2022-09-26 National Day of Mourning for Queen Elizabeth II [aa363e07](https://github.com/commenthol/date-holidays/commit/aa363e071e91e8ad08937c0183bd2dce0818e511)
+- fix(ES): various fixes for state holidays [81a9ef8a](https://github.com/commenthol/date-holidays/commit/81a9ef8a5d093dde80f0b02522cf1b9823adb8d4)
+
 ## [3.16.6](https://github.com/commenthol/date-holidays/compare/3.16.5...3.16.6) (2022-09-11)
 
 - fix(CL): Fixes holiday dates for Chile in september, october [ceab3db9](https://github.com/commenthol/date-holidays/commit/ceab3db9d2a266616a0568e6359f33b9cd79aea6)
