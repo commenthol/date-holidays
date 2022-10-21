@@ -43,7 +43,7 @@ holidays:
       1st monday in August:
         name:
           en: First Monday in August
-      1st monday before 10-31:
+      1st Monday before 11-01:
         name:
           en: October Bank Holiday
           type: bank
