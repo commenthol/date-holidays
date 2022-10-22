@@ -90,12 +90,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2022-10-24 00:00:00",
-    "start": "2022-10-23T23:00:00.000Z",
-    "end": "2022-10-24T23:00:00.000Z",
+    "date": "2022-10-31 00:00:00",
+    "start": "2022-10-31T00:00:00.000Z",
+    "end": "2022-11-01T00:00:00.000Z",
     "name": "October Bank Holiday",
     "type": "public",
-    "rule": "1st monday before 10-31",
+    "rule": "1st Monday before 11-01",
     "_weekday": "Mon"
   },
   {

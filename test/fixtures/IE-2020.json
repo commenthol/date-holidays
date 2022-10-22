@@ -95,7 +95,7 @@
     "end": "2020-10-27T00:00:00.000Z",
     "name": "October Bank Holiday",
     "type": "public",
-    "rule": "1st monday before 10-31",
+    "rule": "1st Monday before 11-01",
     "_weekday": "Mon"
   },
   {
