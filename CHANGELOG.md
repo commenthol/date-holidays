@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.16.8](https://github.com/commenthol/date-holidays/compare/3.16.7...3.16.8) (2022-10-22)
+
+- Update Ireland to show the correct October holiday [37591e5b](https://github.com/commenthol/date-holidays/commit/37591e5bf579157eb03329cae2f34d78648341f8)
+
 ## [3.16.7](https://github.com/commenthol/date-holidays/compare/3.16.6...3.16.7) (2022-09-15)
 
 - chore: npmrc strict-version and ignore-scripts set [e14212ef](https://github.com/commenthol/date-holidays/commit/e14212efdc74b2ea8a9e31d81fce32c1bcdf1e50)
