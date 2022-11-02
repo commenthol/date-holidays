@@ -76,7 +76,7 @@
     "start": "2020-04-11T22:00:00.000Z",
     "end": "2020-04-12T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "observance",
+    "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -121,7 +121,7 @@
     "start": "2020-05-30T22:00:00.000Z",
     "end": "2020-05-31T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "observance",
+    "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
