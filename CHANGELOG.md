@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.16.9](https://github.com/commenthol/date-holidays/compare/3.16.8...3.16.9) (2022-11-02)
+
+- fix(DE-HE,#361): easter and pentecost are public holidays [93a6213c](https://github.com/commenthol/date-holidays/commit/93a6213c4deee649b895bb08d7d8fb6cd6033e38)
+
 ## [3.16.8](https://github.com/commenthol/date-holidays/compare/3.16.7...3.16.8) (2022-10-22)
 
 - Update Ireland to show the correct October holiday [37591e5b](https://github.com/commenthol/date-holidays/commit/37591e5bf579157eb03329cae2f34d78648341f8)
