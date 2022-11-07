@@ -1,3 +1,4 @@
+
 holidays:
   # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Polen
   PL:
@@ -12,34 +13,56 @@ holidays:
     days:
       01-01:
         _name: 01-01
+         name:
+          pl:  Nowy Rok 
       01-06:
         _name: 01-06
+          name:
+          pl:  Święto Trzech Króli
       easter:
         _name: easter
+          name:
+          pl:  Wielkanoc
       easter 1:
         _name: easter 1
+         name:
+          pl:  Poniedziałek Wielkanocny
       05-01:
         _name: 05-01
         name:
           pl: Święto Państwowe; Święto Pracy
       05-03:
         name:
-          pl: Święto Narodowe Trzeciego Maja
+          pl: Święto Narodowe; Święto Konstytucji 3 Maja
           en: Constitution Day
       05-26:
         _name: Mothers Day
         type: observance
       easter 49:
         _name: easter 49
+         name:
+            pl: Zesłanie Ducha Świętego (Zielone Świątki)
       easter 60:
         _name: easter 60
+          name:
+            pl: Boże Ciało
       08-15:
-        _name: 08-15
+        _name: 08-15                 
+        name:
+          pl: Wniebowzięcie Najświętszej Maryi Panny
       11-01:
         _name: 11-01
+         name:
+          pl: Wszystkich Świętych
       11-11:
         _name: Independence Day
+         name:
+          pl: Narodowe Święto Niepodległości
       12-25:
-        _name: 12-25
+        _name: 12-25                 
+        name:
+          pl: Pierwszy dzień Bożego Narodzenia
       12-26:
-        _name: 12-26
+        _name: 12-26         
+        name:
+          pl: Drugi dzień Bożego Narodzenia
