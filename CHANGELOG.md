@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.16.10](https://github.com/commenthol/date-holidays/compare/3.16.9...3.16.10) (2022-11-11)
+
+- test(LT): fix tests [6d1925b4](https://github.com/commenthol/date-holidays/commit/6d1925b49aa081d3bf9dde4c5640076614c3ab30)
+- test(MD,RO): fix tests [e072a88b](https://github.com/commenthol/date-holidays/commit/e072a88b26856f7a8712e2de6c06d6d37f344ab2)
+- add changes [5825446a](https://github.com/commenthol/date-holidays/commit/5825446a937e9d89ff784323c0d5b6a0fc128bb5)
+- Correct Romanian names for some holidays [3d4f518f](https://github.com/commenthol/date-holidays/commit/3d4f518fca2134898e742447d0a5aeb7d92330b4)
+
 ## [3.16.9](https://github.com/commenthol/date-holidays/compare/3.16.8...3.16.9) (2022-11-02)
 
 - fix(DE-HE,#361): easter and pentecost are public holidays [93a6213c](https://github.com/commenthol/date-holidays/commit/93a6213c4deee649b895bb08d7d8fb6cd6033e38)
