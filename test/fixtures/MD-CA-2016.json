@@ -48,7 +48,7 @@
     "date": "2016-05-02 00:00:00",
     "start": "2016-05-01T21:00:00.000Z",
     "end": "2016-05-02T21:00:00.000Z",
-    "name": "Două zi de Pasti",
+    "name": "A doua zi de Pasti",
     "type": "public",
     "rule": "orthodox 1",
     "_weekday": "Mon"
