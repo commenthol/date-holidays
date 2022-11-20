@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.16.11](https://github.com/commenthol/date-holidays/compare/3.16.10...3.16.11) (2022-11-20)
+
+- test(MX,FJ): fix tests due to timezone update [9c961f7a](https://github.com/commenthol/date-holidays/commit/9c961f7a22b89a6285ec3a0f6dd5f3219d986b0b)
+- Improved support for public holidays in Luxembourg - added translations in Luxembourgish (lb) - added active dates - renamed 06-23 into National Holiday ("L'anniversaire du Grand-Duc" is not the official name and is currently not true) [80316399](https://github.com/commenthol/date-holidays/commit/80316399e5276378e5eb90636dca8063347547fe)
+- chore: update actions [3d7edfc5](https://github.com/commenthol/date-holidays/commit/3d7edfc5d041a7ae0138edbaefcdebd801d0a890)
+
 ## [3.16.10](https://github.com/commenthol/date-holidays/compare/3.16.9...3.16.10) (2022-11-11)
 
 - test(LT): fix tests [6d1925b4](https://github.com/commenthol/date-holidays/commit/6d1925b49aa081d3bf9dde4c5640076614c3ab30)
