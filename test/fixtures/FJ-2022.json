@@ -82,8 +82,8 @@
   },
   {
     "date": "2022-12-26 00:00:00",
-    "start": "2022-12-25T11:00:00.000Z",
-    "end": "2022-12-26T11:00:00.000Z",
+    "start": "2022-12-25T12:00:00.000Z",
+    "end": "2022-12-26T12:00:00.000Z",
     "name": "Christmas Day",
     "type": "public",
     "rule": "12-25 if Sunday then next Monday",
@@ -91,8 +91,8 @@
   },
   {
     "date": "2022-12-27 00:00:00",
-    "start": "2022-12-26T11:00:00.000Z",
-    "end": "2022-12-27T11:00:00.000Z",
+    "start": "2022-12-26T12:00:00.000Z",
+    "end": "2022-12-27T12:00:00.000Z",
     "name": "Boxing Day",
     "type": "public",
     "rule": "12-26 if Sunday then next Monday if Monday then next Tuesday",
