@@ -314,11 +314,6 @@ holidays:
         name:
           en: Official Enthronement Ceremony of Emperor Heisei (Akihito)
           jp: 即位礼正殿の儀
-      11-15:
-        name:
-          en: Seven-Five-Three Festival
-          jp: 七五三
-        type: observance
       11-23:
         name:
           en: Labor Thanksgiving Day
