@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# POSTBUILD SCRIPT
+# -----------------------------------------
+#
+# This Script will change the Holidays import from
+# date-holidays-parser, adding the ".default" that is
+# missing in the file bundled by rollup.js .
+#
+
+bugged_import="require('date-holidays-parser');"
+correct_import="require('date-holidays-parser').default;"
+
+sed -i "s/${bugged_import}/${correct_import}/" "${PWD}/lib/Holidays.cjs"

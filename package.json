@@ -137,7 +137,8 @@
   },
   "scripts": {
     "all": "npm-run-all clean yaml build lint test doc:tree doc:attrib webpack",
-    "build": "rollup -c",
+    "build": "rollup -c && yarn postbuild",
+    "postbuild": "chmod +x ./scripts/postbuild && ./scripts/postbuild",
     "changelog": "contributors && node scripts/gitlog.cjs",
     "ci": "TEST_XXL=1 npm-run-all yaml build test",
     "clean": "rimraf lib dist src/data.js",
@@ -227,7 +228,7 @@
     "mocha": "^10.1.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
-    "rollup": "^2.79.1",
+    "rollup": "^3.3.0",
     "typescript": "^4.9.3",
     "watch-run": "^1.2.5",
     "webpack": "^5.75.0",
