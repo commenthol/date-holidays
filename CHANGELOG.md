@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.16.12](https://github.com/commenthol/date-holidays/compare/3.16.11...3.16.12) (2022-12-10)
+
+- fix(GB): Added King Charles III's Coronation [0b07976a](https://github.com/commenthol/date-holidays/commit/0b07976af0f37d844f7ede92b9c74110be7f10f5)
+- fix(LU): added a source for Luxembourg [f46c5f45](https://github.com/commenthol/date-holidays/commit/f46c5f45ebe1b7563245c2af7b300ad7317a5331)
+
 ## [3.16.11](https://github.com/commenthol/date-holidays/compare/3.16.10...3.16.11) (2022-11-20)
 
 - test(MX,FJ): fix tests due to timezone update [9c961f7a](https://github.com/commenthol/date-holidays/commit/9c961f7a22b89a6285ec3a0f6dd5f3219d986b0b)
