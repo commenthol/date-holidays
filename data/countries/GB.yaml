@@ -67,6 +67,10 @@ holidays:
       "2022-09-19":
         name:
           en: Queen Elizabeth's Funeral Day
+      # @source https://www.gov.uk/government/news/bank-holiday-proclaimed-in-honour-of-the-coronation-of-his-majesty-king-charles-iii
+      "2023-05-08":
+        name:
+          en: King Charles III's Coronation
       3rd sunday in June:
         _name: Fathers Day
         type: observance
