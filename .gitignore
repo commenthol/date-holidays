@@ -13,3 +13,4 @@ lib/
 .eslintcache
 .idea/
 .DS_Store
+pnpm-lock.yaml

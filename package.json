@@ -138,7 +138,9 @@
   },
   "scripts": {
     "all": "npm-run-all clean yaml build lint test doc:tree doc:attrib webpack",
-    "build": "rollup -c",
+    "build:rollup": "rollup -c",
+    "build:fixIndexCjs": "node ./scripts/postbuild.cjs",
+    "build": "npm-run-all build:rollup build:fixIndexCjs",
     "changelog": "contributors && node scripts/gitlog.cjs",
     "ci": "TEST_XXL=1 npm-run-all yaml build test",
     "clean": "rimraf lib dist src/data.js",
