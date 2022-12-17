@@ -1,4 +1,5 @@
 # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Singapore
+# @source https://www.mom.gov.sg/newsroom/press-releases/2022/0408-public-holidays-for-2023
 
 holidays:
   SG:
@@ -56,8 +57,10 @@ holidays:
         # @source https://www.humanresourcesonline.net/singapore-s-revised-public-holiday-list-for-2022-new-dates-for-hari-raya-puasa-and-haji
         disable:
           - "2022-05-02"
+          - "2023-04-21"
         enable:
           - "2022-05-03"
+          - "2023-04-22"
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
         name:
@@ -66,8 +69,10 @@ holidays:
         # @source https://www.humanresourcesonline.net/singapore-s-revised-public-holiday-list-for-2022-new-dates-for-hari-raya-puasa-and-haji
         disable:
           - "2022-07-09"
+          - "2023-06-28"
         enable:
           - "2022-07-10"
+          - "2023-06-29"
       # @attrib https://en.wikipedia.org/wiki/Vesak
       # date if sunday then next monday
       "2001-05-07":
@@ -120,7 +125,7 @@ holidays:
       "2022-05-16":
         substitute: true
         _name: Vesak
-      "2023-05-05":
+      "2023-06-03":
         _name: Vesak
       "2024-05-23":
         _name: Vesak
