@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.16.13](https://github.com/commenthol/date-holidays/compare/3.16.12...3.16.13) (2022-12-17)
+
+- fix(GL): moment timezone update [f7824b2c](https://github.com/commenthol/date-holidays/commit/f7824b2c9d3b14926cdc0758507d19d321f6459e)
+- fix(SG,#387): correct 2023 holidays [dc13d37b](https://github.com/commenthol/date-holidays/commit/dc13d37b952b476ccff19aa7159f4113131db06e)
+
 ## [3.16.12](https://github.com/commenthol/date-holidays/compare/3.16.11...3.16.12) (2022-12-10)
 
 - fix(GB): Added King Charles III's Coronation [0b07976a](https://github.com/commenthol/date-holidays/commit/0b07976af0f37d844f7ede92b9c74110be7f10f5)
