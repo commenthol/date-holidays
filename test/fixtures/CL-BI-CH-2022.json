@@ -45,13 +45,13 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2022-06-29 00:00:00",
-    "start": "2022-06-29T04:00:00.000Z",
-    "end": "2022-06-30T04:00:00.000Z",
+    "date": "2022-06-27 00:00:00",
+    "start": "2022-06-27T04:00:00.000Z",
+    "end": "2022-06-28T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29",
-    "_weekday": "Wed"
+    "rule": "06-29 if tuesday, wednesday, thursday, friday then previous monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2022-07-16 00:00:00",

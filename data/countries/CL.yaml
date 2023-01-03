@@ -12,7 +12,11 @@ holidays:
       - Pacific/Easter
     days:
       01-01:
-        _name: 01-01
+        name: Año Nuevo
+      01-02 on monday since 2017:
+        name: Día adicional
+        active:
+          - from: 2017
       easter -2:
         _name: easter -2
       easter:
@@ -23,7 +27,11 @@ holidays:
         name:
           en: Navy Day
           es: Día de las Glorias Navales
-      06-29:
+      06-21 since 2023:
+        name:
+          en: Indigenous People's Day
+          es: Día de los Pueblos Indígenas
+      06-29 if tuesday, wednesday, thursday, friday then previous monday:
         _name: 06-29
       07-16:
         name:
@@ -35,6 +43,10 @@ holidays:
         name:
           es: Fiestas Patrias
           en: National Holiday
+      09-17 on friday, monday since 2017:
+        name:
+          en: National holiday
+          es: Feriado Adicional Fiestas Patrias
       09-18:
         name:
           en: National holiday
@@ -43,6 +55,10 @@ holidays:
         name:
           en: Army Day
           es: Día de las Glorias del Ejército
+      09-20 on friday:
+        name:
+          es: Feriado Adicional Fiestas Patrias
+          en: National Holiday
       10-12 if tuesday, wednesday, thursday, friday then previous monday:
         name:
           en: Columbus Day
@@ -76,6 +92,20 @@ holidays:
                 name:
                   en: Nativity of Liberator Bernardo O'Higgins
                   es: Nacimiento del Prócer de la Independencia
+                active: 
+                  - to: "2027-08-19"
+      NU:
+        name: Ñuble
+        regions:
+          CH:
+            name: Chillán y Chillán Viejo
+            days:
+              08-20:
+                name:
+                  en: Nativity of Liberator Bernardo O'Higgins
+                  es: Nacimiento del Prócer de la Independencia
+                active: 
+                  - from: "2027-08-19"
       TA:
         name: Tarapacá
         days:
@@ -107,3 +137,5 @@ holidays:
       #   name: Santiago Metropolitan
       # VS:
       #   name: Valparaíso
+      # NU:
+      #   name: Ñuble
