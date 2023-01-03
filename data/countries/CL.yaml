@@ -31,7 +31,7 @@ holidays:
         name:
           en: Indigenous People's Day
           es: Día de los Pueblos Indígenas
-      06-29 if tuesday, wednesday, thursday, friday then previous monday:
+      06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday:
         _name: 06-29
       07-16:
         name:
@@ -59,7 +59,7 @@ holidays:
         name:
           es: Feriado Adicional Fiestas Patrias
           en: National Holiday
-      10-12 if tuesday, wednesday, thursday, friday then previous monday:
+      10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday:
         name:
           en: Columbus Day
           es: Encuentro de Dos Mundos
@@ -93,7 +93,7 @@ holidays:
                   en: Nativity of Liberator Bernardo O'Higgins
                   es: Nacimiento del Prócer de la Independencia
                 active: 
-                  - to: "2027-08-19"
+                  - to: "2017-08-19"
       NU:
         name: Ñuble
         regions:
@@ -105,7 +105,7 @@ holidays:
                   en: Nativity of Liberator Bernardo O'Higgins
                   es: Nacimiento del Prócer de la Independencia
                 active: 
-                  - from: "2027-08-19"
+                  - from: "2017-08-19"
       TA:
         name: Tarapacá
         days:

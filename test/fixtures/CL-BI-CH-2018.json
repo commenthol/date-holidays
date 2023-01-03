@@ -45,12 +45,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2018-06-25 00:00:00",
-    "start": "2018-06-25T04:00:00.000Z",
-    "end": "2018-06-26T04:00:00.000Z",
+    "date": "2018-07-02 00:00:00",
+    "start": "2018-07-02T04:00:00.000Z",
+    "end": "2018-07-03T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -70,15 +70,6 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2018-08-20 00:00:00",
-    "start": "2018-08-20T03:00:00.000Z",
-    "end": "2018-08-21T03:00:00.000Z",
-    "name": "Nacimiento del Prócer de la Independencia",
-    "type": "public",
-    "rule": "08-20",
-    "_weekday": "Mon"
   },
   {
     "date": "2018-09-17 00:00:00",
@@ -108,12 +99,12 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2018-10-08 00:00:00",
-    "start": "2018-10-08T03:00:00.000Z",
-    "end": "2018-10-09T03:00:00.000Z",
+    "date": "2018-10-15 00:00:00",
+    "start": "2018-10-15T03:00:00.000Z",
+    "end": "2018-10-16T03:00:00.000Z",
     "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {

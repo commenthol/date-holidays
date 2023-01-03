@@ -50,7 +50,7 @@
     "end": "2020-06-30T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -95,7 +95,7 @@
     "end": "2020-10-13T03:00:00.000Z",
     "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {

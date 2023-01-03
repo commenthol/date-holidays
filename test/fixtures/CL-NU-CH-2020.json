@@ -50,7 +50,7 @@
     "end": "2020-06-30T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -70,6 +70,15 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2020-08-20 00:00:00",
+    "start": "2020-08-20T04:00:00.000Z",
+    "end": "2020-08-21T04:00:00.000Z",
+    "name": "Nacimiento del Prócer de la Independencia",
+    "type": "public",
+    "rule": "08-20",
+    "_weekday": "Thu"
   },
   {
     "date": "2020-09-18 00:00:00",
@@ -95,7 +104,7 @@
     "end": "2020-10-13T03:00:00.000Z",
     "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {
