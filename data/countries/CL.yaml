@@ -109,6 +109,13 @@ holidays:
       TA:
         name: Tarapacá
         days:
+          08-10:
+            name:
+              en: Saint Lawrence
+              es: San Lorenzo de Tarapacá  
+            type: observance
+            disable:
+              - 2015
           "2015-08-10":
             name:
               en: Saint Lawrence
