@@ -12,7 +12,7 @@ holidays:
       - Pacific/Easter
     days:
       01-01:
-        name: Año Nuevo
+        _name: 01-01 
       01-02 on monday since 2017:
         name: Día adicional
         active:
@@ -137,5 +137,3 @@ holidays:
       #   name: Santiago Metropolitan
       # VS:
       #   name: Valparaíso
-      # NU:
-      #   name: Ñuble
