@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.16.14](https://github.com/commenthol/date-holidays/compare/3.16.13...3.16.14) (2023-01-05)
+
+- fix(CL): Adds 08-10 as observance holiday for CL-TA [7bb7e3d8](https://github.com/commenthol/date-holidays/commit/7bb7e3d80deb4aee085a010052fb34c20320e379)
+- fix(CL): Fixes wording on 06-29 holiday offsets [9753c1df](https://github.com/commenthol/date-holidays/commit/9753c1df2942d0a270879cbc47de7d390c8c163f)
+- fix(CL): Removes one-off holiday from CL-TA fixtures from 2016 onwards [202b8c9f](https://github.com/commenthol/date-holidays/commit/202b8c9f0351b994b09512fcf7b1cbee94436051)
+- chore: Adds holidays for 2023 CL [a81e9a53](https://github.com/commenthol/date-holidays/commit/a81e9a53e6211a20ee5f1e66c3cdb6cc19c89c3a)
+
 ## [3.16.13](https://github.com/commenthol/date-holidays/compare/3.16.12...3.16.13) (2022-12-17)
 
 - fix(GL): moment timezone update [f7824b2c](https://github.com/commenthol/date-holidays/commit/f7824b2c9d3b14926cdc0758507d19d321f6459e)
