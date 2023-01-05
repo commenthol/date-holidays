@@ -12,7 +12,7 @@ holidays:
       - Pacific/Easter
     days:
       01-01:
-        _name: 01-01 
+        _name: 01-01
       01-02 on monday since 2017:
         name: Día adicional
         active:
@@ -92,7 +92,7 @@ holidays:
                 name:
                   en: Nativity of Liberator Bernardo O'Higgins
                   es: Nacimiento del Prócer de la Independencia
-                active: 
+                active:
                   - to: "2017-08-19"
       NU:
         name: Ñuble
@@ -104,7 +104,7 @@ holidays:
                 name:
                   en: Nativity of Liberator Bernardo O'Higgins
                   es: Nacimiento del Prócer de la Independencia
-                active: 
+                active:
                   - from: "2017-08-19"
       TA:
         name: Tarapacá
@@ -112,7 +112,7 @@ holidays:
           08-10:
             name:
               en: Saint Lawrence
-              es: San Lorenzo de Tarapacá  
+              es: San Lorenzo de Tarapacá
             type: observance
             disable:
               - 2015

@@ -210,6 +210,8 @@ Countries: 196
 │   ├── AP: Arica y Parinacota
 │   ├── BI: Biobío
 │   │   └── CH: Chillán y Chillán Viejo
+│   ├── NU: Ñuble
+│   │   └── CH: Chillán y Chillán Viejo
 │   └── TA: Tarapacá
 ├── CM: Cameroun
 ├── CN: 中华人民共和国
