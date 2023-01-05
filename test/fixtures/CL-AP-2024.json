@@ -54,12 +54,21 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2024-06-21 00:00:00",
+    "start": "2024-06-21T04:00:00.000Z",
+    "end": "2024-06-22T04:00:00.000Z",
+    "name": "Día de los Pueblos Indígenas",
+    "type": "public",
+    "rule": "06-21 since 2023",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2024-06-29 00:00:00",
     "start": "2024-06-29T04:00:00.000Z",
     "end": "2024-06-30T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29",
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Sat"
   },
   {
@@ -99,12 +108,21 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2024-09-20 00:00:00",
+    "start": "2024-09-20T03:00:00.000Z",
+    "end": "2024-09-21T03:00:00.000Z",
+    "name": "Feriado Adicional Fiestas Patrias",
+    "type": "public",
+    "rule": "09-20 on friday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2024-10-12 00:00:00",
     "start": "2024-10-12T03:00:00.000Z",
     "end": "2024-10-13T03:00:00.000Z",
     "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12 if tuesday, wednesday, thursday, friday then previous monday",
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Sat"
   },
   {

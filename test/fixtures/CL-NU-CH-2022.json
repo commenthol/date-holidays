@@ -72,6 +72,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2022-08-20 00:00:00",
+    "start": "2022-08-20T04:00:00.000Z",
+    "end": "2022-08-21T04:00:00.000Z",
+    "name": "Nacimiento del Prócer de la Independencia",
+    "type": "public",
+    "rule": "08-20",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2022-09-16 00:00:00",
     "start": "2022-09-16T03:00:00.000Z",
     "end": "2022-09-17T03:00:00.000Z",
