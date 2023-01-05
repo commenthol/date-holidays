@@ -16,6 +16,10 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      1st monday in January:
+        name:
+          en: Bank Holiday
+        type: bank
       03-17:
         name:
           en: St. Patrick’s Day
@@ -59,10 +63,7 @@ holidays:
           en: St. Stephen's Day
         substitute: true
         type: bank
-      # Note that this is NOT "12-27 and if saturday..." (no and). This is
-      # becuase this is not a substitute for another holiday but a bank holiday
-      # in its own right which always falls on the work week.
-      12-27 if saturday then next monday if sunday then next tuesday:
+      12-27 and if saturday then next monday if sunday then next tuesday:
         name:
           en: Christmas Bank Holiday
         type: bank
