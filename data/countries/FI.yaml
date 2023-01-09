@@ -54,7 +54,7 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-      "12-31 14:00 if sunday then 00:00":
+      12-31:
         _name: 12-31
         type: bank
     # states:

@@ -158,7 +158,7 @@
     "end": "2023-12-31T22:00:00.000Z",
     "name": "Uudenvuodenaatto",
     "type": "bank",
-    "rule": "12-31 14:00 if sunday then 00:00",
+    "rule": "12-31",
     "_weekday": "Sun"
   }
 ]
