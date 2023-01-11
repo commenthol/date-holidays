@@ -9,6 +9,15 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2019-01-07 00:00:00",
+    "start": "2019-01-07T00:00:00.000Z",
+    "end": "2019-01-08T00:00:00.000Z",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "rule": "1st monday in January",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2019-03-17 00:00:00",
     "start": "2019-03-17T00:00:00.000Z",
     "end": "2019-03-18T00:00:00.000Z",
@@ -132,7 +141,7 @@
     "end": "2019-12-28T00:00:00.000Z",
     "name": "Christmas Bank Holiday",
     "type": "bank",
-    "rule": "12-27 if saturday then next monday if sunday then next tuesday",
+    "rule": "12-27 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Fri"
   }
 ]
