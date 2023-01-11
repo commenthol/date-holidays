@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.16.15](https://github.com/commenthol/date-holidays/compare/3.16.14...3.16.15) (2023-01-11)
+
+- fix(#392,FI): fix Finland's incorrect New Year's Eve rule [a0b69a24](https://github.com/commenthol/date-holidays/commit/a0b69a24f0622e1f76445d1886779ca899f7d170)
+- fix(IE): 2nd of january and 27th of dec is a bank holiday [98222af3](https://github.com/commenthol/date-holidays/commit/98222af308af906f3aaa0c48a1bd1851059e4c81)
+
 ## [3.16.14](https://github.com/commenthol/date-holidays/compare/3.16.13...3.16.14) (2023-01-05)
 
 - fix(CL): Adds 08-10 as observance holiday for CL-TA [7bb7e3d8](https://github.com/commenthol/date-holidays/commit/7bb7e3d80deb4aee085a010052fb34c20320e379)
