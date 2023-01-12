@@ -891,9 +891,9 @@ holidays:
           3rd monday in February:
             name:
               en: George Washington Day
-          friday before 3rd monday in January:
+          tuesday after 1st monday in November:
             name:
-              en: Lee–Jackson Day
+              en: Election Day
       WA:
         name: Washington
         zones:
