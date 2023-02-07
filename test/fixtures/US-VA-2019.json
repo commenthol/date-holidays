@@ -9,15 +9,6 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2019-01-18 00:00:00",
-    "start": "2019-01-18T05:00:00.000Z",
-    "end": "2019-01-19T05:00:00.000Z",
-    "name": "Lee–Jackson Day",
-    "type": "public",
-    "rule": "friday before 3rd monday in January",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2019-01-21 00:00:00",
     "start": "2019-01-21T05:00:00.000Z",
     "end": "2019-01-22T05:00:00.000Z",
@@ -142,6 +133,15 @@
     "type": "observance",
     "rule": "10-31 18:00",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2019-11-05 00:00:00",
+    "start": "2019-11-05T05:00:00.000Z",
+    "end": "2019-11-06T05:00:00.000Z",
+    "name": "Election Day",
+    "type": "public",
+    "rule": "tuesday after 1st monday in November",
+    "_weekday": "Tue"
   },
   {
     "date": "2019-11-11 00:00:00",
