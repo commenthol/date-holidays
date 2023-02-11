@@ -18,6 +18,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2023-02-06 00:00:00",
+    "start": "2023-02-06T00:00:00.000Z",
+    "end": "2023-02-07T00:00:00.000Z",
+    "name": "St. Brigid’s Day",
+    "type": "public",
+    "rule": "02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2023-03-17 00:00:00",
     "start": "2023-03-17T00:00:00.000Z",
     "end": "2023-03-18T00:00:00.000Z",
