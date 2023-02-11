@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.16.17](https://github.com/commenthol/date-holidays/compare/3.16.16...3.16.17) (2023-02-11)
+
+- fix(IE): new public holiday St. Brigid's Day [98a619ec](https://github.com/commenthol/date-holidays/commit/98a619ecbc609c6f8bd5afe3d8a72b27f8cadaab)
+
 ## [3.16.16](https://github.com/commenthol/date-holidays/compare/3.16.15...3.16.16) (2023-02-11)
 
 - vesak day 2023 for sg [e0ae1ec3](https://github.com/commenthol/date-holidays/commit/e0ae1ec3d959663c3fe750c7ff2eafe002c2f9a9)
