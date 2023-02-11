@@ -125,7 +125,9 @@ holidays:
       "2022-05-16":
         substitute: true
         _name: Vesak
-      "2023-06-03":
+      # Revision by SG Govt for Vesak Day 2023
+      # @source https://www.mom.gov.sg/newsroom/press-releases/2022/0929-revised-date-for-vesak-day-2023#:~:text=Revised%20Date%20for%20Vesak%20Day%20in%202023&text=1%20Following%20the%20Singapore%20Buddhist,public%20holiday%20for%20Vesak%20Day .
+      "2023-06-02":
         _name: Vesak
       "2024-05-23":
         _name: Vesak
