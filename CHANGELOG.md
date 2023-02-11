@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.16.16](https://github.com/commenthol/date-holidays/compare/3.16.15...3.16.16) (2023-02-11)
+
+- vesak day 2023 for sg [e0ae1ec3](https://github.com/commenthol/date-holidays/commit/e0ae1ec3d959663c3fe750c7ff2eafe002c2f9a9)
+- Fix Vesak Day 2023 for Singapore [2e6560ff](https://github.com/commenthol/date-holidays/commit/2e6560ff0ec5143eb1dbc6f7061928b7cb762258)
+
 ## [3.16.15](https://github.com/commenthol/date-holidays/compare/3.16.14...3.16.15) (2023-01-11)
 
 - fix(#392,FI): fix Finland's incorrect New Year's Eve rule [a0b69a24](https://github.com/commenthol/date-holidays/commit/a0b69a24f0622e1f76445d1886779ca899f7d170)
