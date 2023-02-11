@@ -20,6 +20,10 @@ holidays:
         name:
           en: Bank Holiday
         type: bank
+      # Official Rule: First Monday in February, or 1 February if the date falls on a Friday
+      02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023:
+        name:
+          en: St. Brigid’s Day
       03-17:
         name:
           en: St. Patrick’s Day
