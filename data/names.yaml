@@ -106,6 +106,7 @@ names:
       hu: Valentin nap
       lb: Vältesdag
       nl: Valentijnsdag
+      no: Valentinsdag
       vi: Lễ tình nhân
   03-08:
     name:
@@ -120,6 +121,7 @@ names:
       hy: Կանանց տոն
       lb: Internationale Fraendag
       nl: Internationale Vrouwendag
+      no: Kvinnedagen
       pt: Dia Internacional da Mulher
       ro: Ziua Internationala a Femeii
       ru: Международный женский день
@@ -143,6 +145,7 @@ names:
       en: April Fools' Day
       hu: Bolondok napja
       nl: 1 April
+      no: Aprilsnarr
       sq: Dita e Gënjeshtrave
       vi: Cá tháng tư
   05-01:
@@ -490,6 +493,7 @@ names:
       is: Öskudagur
       lb: Äschermëttwoch
       nl: Aswoensdag
+      no: Askeonsdag
       pt: Quarta-feira de Cinzas
       sw: Jumatano ya Majivu
       vi: Thứ tư Lễ Tro
