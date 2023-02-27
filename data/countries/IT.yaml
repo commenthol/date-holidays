@@ -70,9 +70,9 @@ holidays:
       #   regions:
       #     AO:
       #       name: Aosta
-      # '25':
-      #   name: Lombardy
-      #   regions:
+       '25':
+         name: Lombardy
+         regions:
       #     BG:
       #       name: Bergamo
       #     BS:
@@ -87,8 +87,12 @@ holidays:
       #       name: Lodi
       #     MB:
       #       name: Monza and Brianza
-      #     MI:
-      #       name: Milan
+           MI:
+             name: Milan
+             days:
+               12-07:
+                  name:
+                  en: Sant'Ambrogio's Day
       #     MN:
       #       name: Mantua
       #     PV:
