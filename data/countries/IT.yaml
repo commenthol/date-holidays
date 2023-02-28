@@ -92,8 +92,8 @@ holidays:
              days:
                12-07:
                   name:
-                  it: Festa di Sant'Ambrogio
-                  en: Sant'Ambrogio's Day
+                    it: Sant'Ambrogio
+                    en: Saint Ambrose
       #     MN:
       #       name: Mantua
       #     PV:
