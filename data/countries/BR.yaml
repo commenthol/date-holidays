@@ -365,6 +365,17 @@ holidays:
               pt: Dia da Consciência Negra
             active:
               - from: 2002-11-11
+        regions:
+          RJ:
+            name: Rio de Janeiro
+            days:
+              01-20:
+                name:
+                  pt: Dia de São Sebastião
+                type: public
+                active:
+                  - from: 1988-06-27
+
       RN:
         name: Rio Grande do Norte
         zones:
