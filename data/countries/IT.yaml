@@ -70,38 +70,38 @@ holidays:
       #   regions:
       #     AO:
       #       name: Aosta
-       '25':
-         name: Lombardy
-         regions:
-      #     BG:
-      #       name: Bergamo
-      #     BS:
-      #       name: Brescia
-      #     CO:
-      #       name: Como
-      #     CR:
-      #       name: Cremona
-      #     LC:
-      #       name: Lecco
-      #     LO:
-      #       name: Lodi
-      #     MB:
-      #       name: Monza and Brianza
-           MI:
-             name: Milan
-             days:
-               12-07:
-                  name:
-                    it: Sant'Ambrogio
-                    en: Saint Ambrose
-      #     MN:
-      #       name: Mantua
-      #     PV:
-      #       name: Pavia
-      #     SO:
-      #       name: Sondrio
-      #     VA:
-      #       name: Varese
+      "25":
+        name: Lombardy
+        regions:
+          # BG:
+          #   name: Bergamo
+          # BS:
+          #   name: Brescia
+          # CO:
+          #   name: Como
+          # CR:
+          #   name: Cremona
+          # LC:
+          #   name: Lecco
+          # LO:
+          #   name: Lodi
+          # MB:
+          #   name: Monza and Brianza
+          MI:
+            name: Milan
+            days:
+              12-07:
+                name:
+                  it: Sant'Ambrogio
+                  en: Saint Ambrose
+          # MN:
+          #   name: Mantua
+          # PV:
+          #   name: Pavia
+          # SO:
+          #   name: Sondrio
+          # VA:
+          #   name: Varese
       "32":
         name: Südtirol, Alto Adige
         days:
