@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.17.0](https://github.com/commenthol/date-holidays/compare/3.16.17...3.17.0) (2023-03-04)
+
+- feat(IT): saint ambrose day milan italy [ef619b8b](https://github.com/commenthol/date-holidays/commit/ef619b8ba71413817cb0a2c5e2ec1b957c6d4b03)
+- Update IT.yaml [234db9e6](https://github.com/commenthol/date-holidays/commit/234db9e6067653f5c9abe2a2e1593716cd720291)
+- feat(DK): Removed Prayer Day from Denmark from 2024 [bf5c515f](https://github.com/commenthol/date-holidays/commit/bf5c515fc6c405b58fba67cda711cdd23e98b44d)
+- added swedish translation for Father's day #401 [23df93e8](https://github.com/commenthol/date-holidays/commit/23df93e8efc76a5ad464fa05e0cd20f7ea100068)
+- fix(NO): fixed typo in NO.yaml [1e87d833](https://github.com/commenthol/date-holidays/commit/1e87d833e1254a801dc405d92b8fcdbe6ea7f21d)
+- feat(NO): added missing norwegian holidays [fa734db8](https://github.com/commenthol/date-holidays/commit/fa734db807b34591ca23188c214893d2e9c17071)
+
 ## [3.16.17](https://github.com/commenthol/date-holidays/compare/3.16.16...3.16.17) (2023-02-11)
 
 - fix(IE): new public holiday St. Brigid's Day [98a619ec](https://github.com/commenthol/date-holidays/commit/98a619ecbc609c6f8bd5afe3d8a72b27f8cadaab)
