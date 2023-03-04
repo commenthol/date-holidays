@@ -78,7 +78,7 @@
     "end": "2022-05-13T22:00:00.000Z",
     "name": "Store Bededag",
     "type": "public",
-    "rule": "easter 26",
+    "rule": "easter 26 prior to 2024",
     "_weekday": "Fri"
   },
   {
