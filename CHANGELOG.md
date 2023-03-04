@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.18.0](https://github.com/commenthol/date-holidays/compare/3.17.0...3.18.0) (2023-03-04)
+
+- feat(BR): add cidade maravilhosa, Rio de Janeiro, Brazil, municipal holidays! [4d790b72](https://github.com/commenthol/date-holidays/commit/4d790b722be944299a77810610bc3f40c0f1a768)
+
 ## [3.17.0](https://github.com/commenthol/date-holidays/compare/3.16.17...3.17.0) (2023-03-04)
 
 - feat(IT): saint ambrose day milan italy [ef619b8b](https://github.com/commenthol/date-holidays/commit/ef619b8ba71413817cb0a2c5e2ec1b957c6d4b03)
