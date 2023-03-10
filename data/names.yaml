@@ -946,6 +946,7 @@ names:
     name:
       en: Vesak Day
       id: Hari Raya Waisak
+      th: วันวิสาขบูชา
   Holi:
     name:
       en: Holi Phagwa
@@ -954,6 +955,18 @@ names:
     name:
       en: Thaipusam
       ms: Hari Thaipusam
+  Makha Bucha:
+    name:
+      en: Makha Bucha
+      th: วันมาฆบูชา
+  Asalha Puja:
+    name:
+      en: Asalha Puja
+      th: วันอาสาฬหบูชา
+  Buddhist Lent:
+    name:
+      en: Buddhist Lent
+      th: วันเข้าพรรษา
 
   # Day references
   Abolition of Slavery:
