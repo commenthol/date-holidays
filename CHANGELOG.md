@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.19.0](https://github.com/commenthol/date-holidays/compare/3.18.0...3.19.0) (2023-03-12)
+
+- docs: adding Thailand; updating attribution [58076aa2](https://github.com/commenthol/date-holidays/commit/58076aa20304f170c1b9295aa240cbe07405db94)
+- feat(TH): Add names for New year & New Year's Eve [5b0b9b0c](https://github.com/commenthol/date-holidays/commit/5b0b9b0c640a2cb5b0f474f9c98292dc9750221d)
+- feat(TH): Add Thailand holidays [44df7acd](https://github.com/commenthol/date-holidays/commit/44df7acdac4eb8df361100cf56dcd3beabc7ab47)
+
 ## [3.18.0](https://github.com/commenthol/date-holidays/compare/3.17.0...3.18.0) (2023-03-04)
 
 - feat(BR): add cidade maravilhosa, Rio de Janeiro, Brazil, municipal holidays! [4d790b72](https://github.com/commenthol/date-holidays/commit/4d790b722be944299a77810610bc3f40c0f1a768)
