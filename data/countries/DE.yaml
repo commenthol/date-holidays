@@ -123,8 +123,12 @@ holidays:
       BE:
         name: Berlin
         days:
-          03-08:
-            _name: 03-08
+          frauentag:
+            _name: Frauentag
+            type: public
+            name:
+              de: Frauentag
+              en: Women's Day
             active:
               - from: 2019-01-01
           easter:
