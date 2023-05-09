@@ -35,9 +35,13 @@ holidays:
         substitute: true
         name:
           en: ANZAC Day
-      1st monday in June:
+      # @source https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/
+      1st monday in June prior to 2023:
         name:
           en: Queen's Birthday
+      1st monday in June since 2023:
+        name:
+          en: King's Birthday
       4th monday in October:
         _name: 05-01
       12-25 and if saturday then next monday if sunday then next tuesday:
