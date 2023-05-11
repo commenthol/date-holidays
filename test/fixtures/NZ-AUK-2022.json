@@ -107,7 +107,7 @@
     "end": "2022-06-06T12:00:00.000Z",
     "name": "Queen's Birthday",
     "type": "public",
-    "rule": "1st monday in June",
+    "rule": "1st monday in June prior to 2023",
     "_weekday": "Mon"
   },
   {

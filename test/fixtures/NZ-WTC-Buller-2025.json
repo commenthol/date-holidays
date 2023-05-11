@@ -66,9 +66,9 @@
     "date": "2025-06-02 00:00:00",
     "start": "2025-06-01T12:00:00.000Z",
     "end": "2025-06-02T12:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "King's Birthday",
     "type": "public",
-    "rule": "1st monday in June",
+    "rule": "1st monday in June since 2023",
     "_weekday": "Mon"
   },
   {
