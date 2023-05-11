@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.19.1](https://github.com/commenthol/date-holidays/compare/3.19.0...3.19.1) (2023-05-11)
+
+- test(NZ): fix tests for King's Birthday which is active since 2023 [ae25c892](https://github.com/commenthol/date-holidays/commit/ae25c8927431a91ac1665436959a9dc57ad41db5)
+- fix(NZ): Update Queens Birthday to Kings Birthday [ba42e023](https://github.com/commenthol/date-holidays/commit/ba42e02347b03a2a6ec22594bbbede835c53322e)
+
 ## [3.19.0](https://github.com/commenthol/date-holidays/compare/3.18.0...3.19.0) (2023-03-12)
 
 - docs: adding Thailand; updating attribution [58076aa2](https://github.com/commenthol/date-holidays/commit/58076aa20304f170c1b9295aa240cbe07405db94)
