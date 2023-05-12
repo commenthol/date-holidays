@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2027-01-01T00:00:00.000Z",
+    "end": "2027-01-02T00:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-01-20 00:00:00",
+    "start": "2027-01-20T00:00:00.000Z",
+    "end": "2027-01-21T00:00:00.000Z",
+    "name": "Dia dos heróis",
+    "type": "public",
+    "rule": "01-20",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2027-03-08 00:00:00",
+    "start": "2027-03-08T00:00:00.000Z",
+    "end": "2027-03-09T00:00:00.000Z",
+    "name": "Dia Internacional da Mulher",
+    "type": "public",
+    "rule": "03-08",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-03-09 00:00:00 -0600",
+    "start": "2027-03-08T18:00:00.000Z",
+    "end": "2027-03-09T18:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-05-01 00:00:00",
+    "start": "2027-05-01T00:00:00.000Z",
+    "end": "2027-05-02T00:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-05-16 00:00:00 -0600",
+    "start": "2027-05-15T18:00:00.000Z",
+    "end": "2027-05-16T18:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-08-03 00:00:00",
+    "start": "2027-08-03T00:00:00.000Z",
+    "end": "2027-08-04T00:00:00.000Z",
+    "name": "Pidjiguiti Day",
+    "type": "public",
+    "rule": "08-03",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-09-24 00:00:00",
+    "start": "2027-09-24T00:00:00.000Z",
+    "end": "2027-09-25T00:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "rule": "09-24",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-11-14 00:00:00",
+    "start": "2027-11-14T00:00:00.000Z",
+    "end": "2027-11-15T00:00:00.000Z",
+    "name": "Dia do Movimento de Reajustamento",
+    "type": "public",
+    "rule": "11-14",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-25T00:00:00.000Z",
+    "end": "2027-12-26T00:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  }
+]

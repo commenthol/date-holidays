@@ -1,0 +1,121 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2026-12-31T13:00:00.000Z",
+    "end": "2027-01-01T13:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-01-26 00:00:00",
+    "start": "2027-01-25T13:00:00.000Z",
+    "end": "2027-01-26T13:00:00.000Z",
+    "name": "Australia Day",
+    "type": "public",
+    "rule": "01-26 if saturday,sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-03-08 00:00:00",
+    "start": "2027-03-07T13:00:00.000Z",
+    "end": "2027-03-08T13:00:00.000Z",
+    "name": "Eight Hours Day",
+    "type": "public",
+    "rule": "2nd monday in March",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-25T13:00:00.000Z",
+    "end": "2027-03-26T13:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-29 00:00:00",
+    "start": "2027-03-28T13:00:00.000Z",
+    "end": "2027-03-29T13:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-03-30 00:00:00",
+    "start": "2027-03-29T13:00:00.000Z",
+    "end": "2027-03-30T13:00:00.000Z",
+    "name": "Easter Tuesday",
+    "type": "optional",
+    "note": "Public Service employees or contract dependent",
+    "rule": "easter +2",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-04-25 00:00:00",
+    "start": "2027-04-24T14:00:00.000Z",
+    "end": "2027-04-25T14:00:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "rule": "04-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-05-09 00:00:00",
+    "start": "2027-05-08T14:00:00.000Z",
+    "end": "2027-05-09T14:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-06-14 00:00:00",
+    "start": "2027-06-13T14:00:00.000Z",
+    "end": "2027-06-14T14:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "rule": "2nd monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-09-05 00:00:00",
+    "start": "2027-09-04T14:00:00.000Z",
+    "end": "2027-09-05T14:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "1st sunday in September",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-24T13:00:00.000Z",
+    "end": "2027-12-25T13:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-27 00:00:00",
+    "start": "2027-12-26T13:00:00.000Z",
+    "end": "2027-12-27T13:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-12-28 00:00:00",
+    "start": "2027-12-27T13:00:00.000Z",
+    "end": "2027-12-28T13:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  }
+]
