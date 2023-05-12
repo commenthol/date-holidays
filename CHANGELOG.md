@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.19.2](https://github.com/commenthol/date-holidays/compare/3.19.1...3.19.2) (2023-05-12)
+
+- test: add test fixtures for years 2026 2027 [0207f723](https://github.com/commenthol/date-holidays/commit/0207f7234e109ca9351d55af4a3f553ed668f48f)
+- test(GL): fix timezone changes [9092c7ad](https://github.com/commenthol/date-holidays/commit/9092c7adea77774638f79b364120f33726606801)
+- chore: tslint add no-redundant-jsdoc false [66c1afa4](https://github.com/commenthol/date-holidays/commit/66c1afa48c4fe357e45255595c0ddf232fb3a2ee)
+- chore(actions): add node@20 [2d75f5b8](https://github.com/commenthol/date-holidays/commit/2d75f5b8409eca4fde3bb6f910e66e0b15066b35)
+- test(EG): fix tests as of moment-timezone update [9988e708](https://github.com/commenthol/date-holidays/commit/9988e708af4b2f92a971bae8b74f0c0a082bb481)
+
 ## [3.19.1](https://github.com/commenthol/date-holidays/compare/3.19.0...3.19.1) (2023-05-11)
 
 - test(NZ): fix tests for King's Birthday which is active since 2023 [ae25c892](https://github.com/commenthol/date-holidays/commit/ae25c8927431a91ac1665436959a9dc57ad41db5)
