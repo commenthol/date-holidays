@@ -1,0 +1,121 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2027-01-01T04:00:00.000Z",
+    "end": "2027-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-02-23 00:00:00",
+    "start": "2027-02-23T04:00:00.000Z",
+    "end": "2027-02-24T04:00:00.000Z",
+    "name": "Republic Day",
+    "type": "public",
+    "rule": "02-23",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-26T04:00:00.000Z",
+    "end": "2027-03-27T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-29 00:00:00",
+    "start": "2027-03-29T04:00:00.000Z",
+    "end": "2027-03-30T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-05-01 00:00:00",
+    "start": "2027-05-01T04:00:00.000Z",
+    "end": "2027-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-05-05 00:00:00",
+    "start": "2027-05-05T04:00:00.000Z",
+    "end": "2027-05-06T04:00:00.000Z",
+    "name": "Arrival Day",
+    "type": "public",
+    "rule": "05-05",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2027-05-16 00:00:00 -0600",
+    "start": "2027-05-15T22:00:00.000Z",
+    "end": "2027-05-16T22:00:00.000Z",
+    "name": "Eid Ul Adha",
+    "type": "public",
+    "note": "tentative",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-05-26 00:00:00",
+    "start": "2027-05-26T04:00:00.000Z",
+    "end": "2027-05-27T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "05-26",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2027-07-05 00:00:00",
+    "start": "2027-07-05T04:00:00.000Z",
+    "end": "2027-07-06T04:00:00.000Z",
+    "name": "CARICOM Day",
+    "type": "public",
+    "rule": "monday after 07-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-08-01 00:00:00",
+    "start": "2027-08-01T04:00:00.000Z",
+    "end": "2027-08-02T04:00:00.000Z",
+    "name": "Emancipation Day",
+    "type": "public",
+    "rule": "08-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-08-14 00:00:00 -0600",
+    "start": "2027-08-13T22:00:00.000Z",
+    "end": "2027-08-14T22:00:00.000Z",
+    "name": "Youman Nabi",
+    "type": "public",
+    "note": "tentative",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-25T04:00:00.000Z",
+    "end": "2027-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-26 00:00:00",
+    "start": "2027-12-26T04:00:00.000Z",
+    "end": "2027-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  }
+]

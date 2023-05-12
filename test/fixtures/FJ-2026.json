@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T12:00:00.000Z",
+    "end": "2026-01-01T12:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-04-03 00:00:00",
+    "start": "2026-04-02T12:00:00.000Z",
+    "end": "2026-04-03T12:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-04 00:00:00",
+    "start": "2026-04-03T12:00:00.000Z",
+    "end": "2026-04-04T12:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T12:00:00.000Z",
+    "end": "2026-04-05T12:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T12:00:00.000Z",
+    "end": "2026-04-06T12:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-08-25 00:00:00 -0600",
+    "start": "2026-08-24T06:00:00.000Z",
+    "end": "2026-08-25T06:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-09-07 00:00:00",
+    "start": "2026-09-06T12:00:00.000Z",
+    "end": "2026-09-07T12:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "rule": "09-07",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-10-10 00:00:00",
+    "start": "2026-10-09T12:00:00.000Z",
+    "end": "2026-10-10T12:00:00.000Z",
+    "name": "Fiji Day",
+    "type": "public",
+    "rule": "10-10 and if Sunday then next Monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T12:00:00.000Z",
+    "end": "2026-12-25T12:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-12-26 00:00:00",
+    "start": "2026-12-25T12:00:00.000Z",
+    "end": "2026-12-26T12:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 if Sunday then next Monday if Monday then next Tuesday",
+    "_weekday": "Sat"
+  }
+]

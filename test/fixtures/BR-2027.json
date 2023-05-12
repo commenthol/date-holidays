@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2027-01-01T03:00:00.000Z",
+    "end": "2027-01-02T03:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-02-06 00:00:00",
+    "start": "2027-02-06T03:00:00.000Z",
+    "end": "2027-02-10T17:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT110H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-26T03:00:00.000Z",
+    "end": "2027-03-27T03:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-28 00:00:00",
+    "start": "2027-03-28T03:00:00.000Z",
+    "end": "2027-03-29T03:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-04-21 00:00:00",
+    "start": "2027-04-21T03:00:00.000Z",
+    "end": "2027-04-22T03:00:00.000Z",
+    "name": "Dia de Tiradentes",
+    "type": "public",
+    "rule": "04-21",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2027-05-01 00:00:00",
+    "start": "2027-05-01T03:00:00.000Z",
+    "end": "2027-05-02T03:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-05-09 00:00:00",
+    "start": "2027-05-09T03:00:00.000Z",
+    "end": "2027-05-10T03:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-05-27 00:00:00",
+    "start": "2027-05-27T03:00:00.000Z",
+    "end": "2027-05-28T03:00:00.000Z",
+    "name": "Corpo de Deus",
+    "type": "optional",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-06-12 00:00:00",
+    "start": "2027-06-12T03:00:00.000Z",
+    "end": "2027-06-13T03:00:00.000Z",
+    "name": "Dia dos Namorados",
+    "type": "observance",
+    "rule": "06-12",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-08-08 00:00:00",
+    "start": "2027-08-08T03:00:00.000Z",
+    "end": "2027-08-09T03:00:00.000Z",
+    "name": "Dia dos Pais",
+    "type": "observance",
+    "rule": "2nd sunday in August",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-09-07 00:00:00",
+    "start": "2027-09-07T03:00:00.000Z",
+    "end": "2027-09-08T03:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "rule": "09-07",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-10-12 00:00:00",
+    "start": "2027-10-12T03:00:00.000Z",
+    "end": "2027-10-13T03:00:00.000Z",
+    "name": "Nossa Senhora Aparecida",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-11-02 00:00:00",
+    "start": "2027-11-02T03:00:00.000Z",
+    "end": "2027-11-03T03:00:00.000Z",
+    "name": "Dia de Finados",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-11-15 00:00:00",
+    "start": "2027-11-15T03:00:00.000Z",
+    "end": "2027-11-16T03:00:00.000Z",
+    "name": "Proclamação da República",
+    "type": "public",
+    "rule": "11-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-12-24 14:00:00",
+    "start": "2027-12-24T17:00:00.000Z",
+    "end": "2027-12-25T03:00:00.000Z",
+    "name": "Noite de Natal",
+    "type": "optional",
+    "rule": "12-24 14:00",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-25T03:00:00.000Z",
+    "end": "2027-12-26T03:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-31 14:00:00",
+    "start": "2027-12-31T17:00:00.000Z",
+    "end": "2028-01-01T03:00:00.000Z",
+    "name": "Véspera de Ano Novo",
+    "type": "optional",
+    "rule": "12-31 14:00",
+    "_weekday": "Fri"
+  }
+]

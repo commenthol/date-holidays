@@ -1,0 +1,137 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T23:00:00.000Z",
+    "end": "2026-01-01T23:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-01-10 00:00:00",
+    "start": "2026-01-09T23:00:00.000Z",
+    "end": "2026-01-10T23:00:00.000Z",
+    "name": "Fête du Vodoun",
+    "type": "public",
+    "rule": "01-10",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-03-20 00:00:00 -0600",
+    "start": "2026-03-19T17:00:00.000Z",
+    "end": "2026-03-20T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T23:00:00.000Z",
+    "end": "2026-04-05T23:00:00.000Z",
+    "name": "Pâques",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T23:00:00.000Z",
+    "end": "2026-04-06T23:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-01 00:00:00",
+    "start": "2026-04-30T23:00:00.000Z",
+    "end": "2026-05-01T23:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-05-14 00:00:00",
+    "start": "2026-05-13T23:00:00.000Z",
+    "end": "2026-05-14T23:00:00.000Z",
+    "name": "Ascension",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-05-24 00:00:00",
+    "start": "2026-05-23T23:00:00.000Z",
+    "end": "2026-05-24T23:00:00.000Z",
+    "name": "Pentecôte",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-05-25 00:00:00",
+    "start": "2026-05-24T23:00:00.000Z",
+    "end": "2026-05-25T23:00:00.000Z",
+    "name": "Lundi de Pentecôte",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-27 00:00:00 -0600",
+    "start": "2026-05-26T17:00:00.000Z",
+    "end": "2026-05-27T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-08-01 00:00:00",
+    "start": "2026-07-31T23:00:00.000Z",
+    "end": "2026-08-01T23:00:00.000Z",
+    "name": "Fête Nationale",
+    "type": "public",
+    "rule": "08-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-08-15 00:00:00",
+    "start": "2026-08-14T23:00:00.000Z",
+    "end": "2026-08-15T23:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-08-25 00:00:00 -0600",
+    "start": "2026-08-24T17:00:00.000Z",
+    "end": "2026-08-25T17:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-11-01 00:00:00",
+    "start": "2026-10-31T23:00:00.000Z",
+    "end": "2026-11-01T23:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T23:00:00.000Z",
+    "end": "2026-12-25T23:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]

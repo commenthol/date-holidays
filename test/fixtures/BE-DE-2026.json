@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T23:00:00.000Z",
+    "end": "2026-01-01T23:00:00.000Z",
+    "name": "Neujahr",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-01-06 00:00:00",
+    "start": "2026-01-05T23:00:00.000Z",
+    "end": "2026-01-06T23:00:00.000Z",
+    "name": "Erscheinung des Herrn",
+    "type": "observance",
+    "rule": "01-06",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-02-14 00:00:00",
+    "start": "2026-02-13T23:00:00.000Z",
+    "end": "2026-02-14T23:00:00.000Z",
+    "name": "Valentinstag",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T22:00:00.000Z",
+    "end": "2026-04-05T22:00:00.000Z",
+    "name": "Ostersonntag",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T22:00:00.000Z",
+    "end": "2026-04-06T22:00:00.000Z",
+    "name": "Ostermontag",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-01 00:00:00",
+    "start": "2026-04-30T22:00:00.000Z",
+    "end": "2026-05-01T22:00:00.000Z",
+    "name": "Tag der Arbeit",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-05-10 00:00:00",
+    "start": "2026-05-09T22:00:00.000Z",
+    "end": "2026-05-10T22:00:00.000Z",
+    "name": "Muttertag",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-05-14 00:00:00",
+    "start": "2026-05-13T22:00:00.000Z",
+    "end": "2026-05-14T22:00:00.000Z",
+    "name": "Christi Himmelfahrt",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-05-24 00:00:00",
+    "start": "2026-05-23T22:00:00.000Z",
+    "end": "2026-05-24T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-05-25 00:00:00",
+    "start": "2026-05-24T22:00:00.000Z",
+    "end": "2026-05-25T22:00:00.000Z",
+    "name": "Pfingstmontag",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-07-21 00:00:00",
+    "start": "2026-07-20T22:00:00.000Z",
+    "end": "2026-07-21T22:00:00.000Z",
+    "name": "Nationalfeiertag",
+    "type": "public",
+    "rule": "07-21",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-08-15 00:00:00",
+    "start": "2026-08-14T22:00:00.000Z",
+    "end": "2026-08-15T22:00:00.000Z",
+    "name": "Mariä Himmelfahrt",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-11-01 00:00:00",
+    "start": "2026-10-31T23:00:00.000Z",
+    "end": "2026-11-01T23:00:00.000Z",
+    "name": "Allerheiligen",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-11-02 00:00:00",
+    "start": "2026-11-01T23:00:00.000Z",
+    "end": "2026-11-02T23:00:00.000Z",
+    "name": "Allerseelen",
+    "type": "observance",
+    "rule": "11-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-11-11 00:00:00",
+    "start": "2026-11-10T23:00:00.000Z",
+    "end": "2026-11-11T23:00:00.000Z",
+    "name": "Waffenstillstand",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-11-15 00:00:00",
+    "start": "2026-11-14T23:00:00.000Z",
+    "end": "2026-11-15T23:00:00.000Z",
+    "name": "Tag der Deutschsprachigen Gemeinschaft",
+    "type": "observance",
+    "rule": "11-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-12-06 00:00:00",
+    "start": "2026-12-05T23:00:00.000Z",
+    "end": "2026-12-06T23:00:00.000Z",
+    "name": "Sankt Nikolaus",
+    "type": "observance",
+    "rule": "12-06",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T23:00:00.000Z",
+    "end": "2026-12-25T23:00:00.000Z",
+    "name": "Weihnachten",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]

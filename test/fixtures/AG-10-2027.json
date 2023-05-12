@@ -1,0 +1,148 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2027-01-01T04:00:00.000Z",
+    "end": "2027-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-26T04:00:00.000Z",
+    "end": "2027-03-27T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-28 00:00:00",
+    "start": "2027-03-28T04:00:00.000Z",
+    "end": "2027-03-29T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-03-29 00:00:00",
+    "start": "2027-03-29T04:00:00.000Z",
+    "end": "2027-03-30T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-05-01 00:00:00",
+    "start": "2027-05-01T04:00:00.000Z",
+    "end": "2027-05-02T04:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-05-14 00:00:00",
+    "start": "2027-05-14T04:00:00.000Z",
+    "end": "2027-05-18T04:00:00.000Z",
+    "name": "Caribana",
+    "type": "observance",
+    "rule": "easter 47 P4D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-05-16 00:00:00",
+    "start": "2027-05-16T04:00:00.000Z",
+    "end": "2027-05-17T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-05-17 00:00:00",
+    "start": "2027-05-17T04:00:00.000Z",
+    "end": "2027-05-18T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-08-01 00:00:00",
+    "start": "2027-08-01T04:00:00.000Z",
+    "end": "2027-08-02T04:00:00.000Z",
+    "name": "J'Ouvert Morning",
+    "type": "public",
+    "rule": "08-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-08-02 00:00:00",
+    "start": "2027-08-02T04:00:00.000Z",
+    "end": "2027-08-03T04:00:00.000Z",
+    "name": "Last Lap",
+    "type": "public",
+    "rule": "08-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-11-01 00:00:00",
+    "start": "2027-11-01T04:00:00.000Z",
+    "end": "2027-11-02T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "11-01 if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-12-09 00:00:00",
+    "start": "2027-12-09T04:00:00.000Z",
+    "end": "2027-12-10T04:00:00.000Z",
+    "name": "V.C Bird Day",
+    "type": "public",
+    "rule": "12-09",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-25T04:00:00.000Z",
+    "end": "2027-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-26 00:00:00",
+    "start": "2027-12-26T04:00:00.000Z",
+    "end": "2027-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-12-27 00:00:00",
+    "start": "2027-12-27T04:00:00.000Z",
+    "end": "2027-12-28T04:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-12-27 00:00:00",
+    "start": "2027-12-27T04:00:00.000Z",
+    "end": "2027-12-28T04:00:00.000Z",
+    "name": "Christmas Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  }
+]

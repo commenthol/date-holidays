@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T23:00:00.000Z",
+    "end": "2026-01-01T23:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-03-20 00:00:00 -0600",
+    "start": "2026-03-19T17:00:00.000Z",
+    "end": "2026-03-21T17:00:00.000Z",
+    "name": "Id el Fitr",
+    "type": "public",
+    "rule": "1 Shawwal P2D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-03 00:00:00",
+    "start": "2026-04-02T23:00:00.000Z",
+    "end": "2026-04-03T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T23:00:00.000Z",
+    "end": "2026-04-05T23:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T23:00:00.000Z",
+    "end": "2026-04-06T23:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-01 00:00:00",
+    "start": "2026-04-30T23:00:00.000Z",
+    "end": "2026-05-01T23:00:00.000Z",
+    "name": "Worker's Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-05-27 00:00:00 -0600",
+    "start": "2026-05-26T17:00:00.000Z",
+    "end": "2026-05-28T17:00:00.000Z",
+    "name": "Id el Kabir",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P2D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-05-27 00:00:00",
+    "start": "2026-05-26T23:00:00.000Z",
+    "end": "2026-05-27T23:00:00.000Z",
+    "name": "Children's Day",
+    "type": "public",
+    "rule": "05-27",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-06-12 00:00:00",
+    "start": "2026-06-11T23:00:00.000Z",
+    "end": "2026-06-12T23:00:00.000Z",
+    "name": "Democracy Day",
+    "type": "public",
+    "rule": "06-12 and if Saturday then next Monday since 2018",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-06-16 00:00:00 -0600",
+    "start": "2026-06-15T17:00:00.000Z",
+    "end": "2026-06-16T17:00:00.000Z",
+    "name": "Islamic New Year",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-08-25 00:00:00 -0600",
+    "start": "2026-08-24T17:00:00.000Z",
+    "end": "2026-08-25T17:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-10-01 00:00:00",
+    "start": "2026-09-30T23:00:00.000Z",
+    "end": "2026-10-01T23:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "10-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-11-01 00:00:00",
+    "start": "2026-10-31T23:00:00.000Z",
+    "end": "2026-11-01T23:00:00.000Z",
+    "name": "National Youth Day",
+    "type": "public",
+    "rule": "11-01 since 2020",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T23:00:00.000Z",
+    "end": "2026-12-25T23:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-12-26 00:00:00",
+    "start": "2026-12-25T23:00:00.000Z",
+    "end": "2026-12-26T23:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-12-31 00:00:00",
+    "start": "2026-12-30T23:00:00.000Z",
+    "end": "2026-12-31T23:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Thu"
+  }
+]
