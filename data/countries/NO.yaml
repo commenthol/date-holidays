@@ -38,6 +38,7 @@ holidays:
         name:
           no: H.M. kong Harald V
           en: Birthday of King Harald V
+        type: observance
       easter -49:
         name:
           no: Fastelavn
