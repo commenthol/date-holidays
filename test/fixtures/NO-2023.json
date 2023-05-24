@@ -58,7 +58,7 @@
     "start": "2023-02-20T23:00:00.000Z",
     "end": "2023-02-21T23:00:00.000Z",
     "name": "H.M. kong Harald V",
-    "type": "public",
+    "type": "observance",
     "rule": "02-21",
     "_weekday": "Tue"
   },
