@@ -81,15 +81,6 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2022-05-27 00:00:00",
-    "start": "2022-05-27T04:00:00.000Z",
-    "end": "2022-05-28T04:00:00.000Z",
-    "name": "Service Reduction Day",
-    "type": "public",
-    "rule": "friday before 1st monday before 06-01",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2022-05-30 00:00:00",
     "start": "2022-05-30T04:00:00.000Z",
     "end": "2022-05-31T04:00:00.000Z",
