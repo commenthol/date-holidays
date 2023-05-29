@@ -149,7 +149,7 @@
     "end": "2024-11-06T05:00:00.000Z",
     "name": "Election Day",
     "type": "public",
-    "rule": "tuesday after 1st monday in November in even years since 2023",
+    "rule": "tuesday after 1st monday in November in even years since 2020",
     "_weekday": "Tue"
   },
   {
