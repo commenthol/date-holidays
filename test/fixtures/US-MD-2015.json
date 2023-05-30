@@ -86,7 +86,7 @@
     "end": "2015-05-23T04:00:00.000Z",
     "name": "Service Reduction Day",
     "type": "public",
-    "rule": "friday before 1st monday before 06-01",
+    "rule": "friday before 1st monday before 06-01 since 2009 and prior to 2016",
     "_weekday": "Fri"
   },
   {
