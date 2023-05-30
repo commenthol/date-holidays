@@ -9,15 +9,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2027-01-15 00:00:00",
-    "start": "2027-01-15T05:00:00.000Z",
-    "end": "2027-01-16T05:00:00.000Z",
-    "name": "Lee–Jackson Day",
-    "type": "public",
-    "rule": "friday before 3rd monday in January",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2027-01-18 00:00:00",
     "start": "2027-01-18T05:00:00.000Z",
     "end": "2027-01-19T05:00:00.000Z",

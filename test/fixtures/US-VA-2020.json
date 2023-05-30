@@ -14,7 +14,7 @@
     "end": "2020-01-18T05:00:00.000Z",
     "name": "Lee–Jackson Day",
     "type": "public",
-    "rule": "friday before 3rd monday in January",
+    "rule": "friday before 3rd monday in January prior to 2021",
     "_weekday": "Fri"
   },
   {
@@ -158,8 +158,8 @@
     "start": "2020-11-03T05:00:00.000Z",
     "end": "2020-11-04T05:00:00.000Z",
     "name": "Election Day",
-    "type": "observance",
-    "rule": "tuesday after 1st monday in November every 4 years since 1848",
+    "type": "public",
+    "rule": "tuesday after 1st monday in November in even years since 2020",
     "_weekday": "Tue"
   },
   {
