@@ -49,3 +49,8 @@ holidays:
         _name: 12-26
       12-31:
         _name: 12-31
+      # @source https://www.apollo.lv/7784364/oficiali-29-maijs-ir-brivdiena
+      "2023-05-29":
+        name:
+          en: Bronze medal of the Latvian hockey team at the 2023 World Hockey Championship
+          lv: Latvijas hokeja komandas 2023. gada Pasaules hokeja čempionātā bronzas medaļa
