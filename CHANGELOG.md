@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.21.0](https://github.com/commenthol/date-holidays/compare/3.20.0...3.21.0) (2023-06-03)
+
+- feat(LV): Bronze medal of the Latvian hockey team at the 2023 World Hockey Championship [26e1b9ef](https://github.com/commenthol/date-holidays/commit/26e1b9ef52d3e2e149de8198cacab76afd9735a7)
+
 ## [3.20.0](https://github.com/commenthol/date-holidays/compare/3.19.2...3.20.0) (2023-06-03)
 
 - fix: last observed 2020, so prior to 2021 [6397ed83](https://github.com/commenthol/date-holidays/commit/6397ed83ec0d9dc1866256e0ec4c2dc5b175f4b7)
