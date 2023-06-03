@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.20.0](https://github.com/commenthol/date-holidays/compare/3.19.2...3.20.0) (2023-06-03)
+
+- fix: last observed 2020, so prior to 2021 [6397ed83](https://github.com/commenthol/date-holidays/commit/6397ed83ec0d9dc1866256e0ec4c2dc5b175f4b7)
+- fix: actually since 2020 [7da8dc08](https://github.com/commenthol/date-holidays/commit/7da8dc0840197a18700acdbda3f0a56d2f752d47)
+- feat: remove Lee-Jackson Day starting 2023, add Election Day [a70b0819](https://github.com/commenthol/date-holidays/commit/a70b0819f42e63656821098b24a8713c3a1d1f4f)
+- fix: add start date [523f7cd5](https://github.com/commenthol/date-holidays/commit/523f7cd5b8b57097eab27e8c199f9741b8785d6b)
+- fix: re-add for dates prior to 2016 [249d7a91](https://github.com/commenthol/date-holidays/commit/249d7a91b78f2034d916af657acd4fddbf745e96)
+- feat: remove service reduction day in US.MD [64519cf4](https://github.com/commenthol/date-holidays/commit/64519cf4e5867666c5036ee022c26409e16179a0)
+- Fixed tests after changes to kings birthday [d9d40ee9](https://github.com/commenthol/date-holidays/commit/d9d40ee9b068ca0c24baab56f8658d9d510ccfc6)
+- Update NO.yaml [9a94fffd](https://github.com/commenthol/date-holidays/commit/9a94fffd87a01132f1c3d028d56d9dddee3f6fb3)
+
 ## [3.19.2](https://github.com/commenthol/date-holidays/compare/3.19.1...3.19.2) (2023-05-12)
 
 - test: add test fixtures for years 2026 2027 [0207f723](https://github.com/commenthol/date-holidays/commit/0207f7234e109ca9351d55af4a3f553ed668f48f)
