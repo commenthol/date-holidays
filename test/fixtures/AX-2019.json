@@ -90,22 +90,22 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2019-06-15 00:00:00",
-    "start": "2019-06-14T21:00:00.000Z",
-    "end": "2019-06-15T21:00:00.000Z",
-    "name": "Midsommardagen",
-    "type": "public",
-    "rule": "3rd saturday after 06-01",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2019-06-21 12:00:00",
-    "start": "2019-06-21T09:00:00.000Z",
+    "date": "2019-06-21 00:00:00",
+    "start": "2019-06-20T21:00:00.000Z",
     "end": "2019-06-21T21:00:00.000Z",
     "name": "Midsommarafton",
-    "type": "public",
-    "rule": "3rd friday after 06-01 12:00",
+    "type": "bank",
+    "rule": "friday after 06-19",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2019-06-22 00:00:00",
+    "start": "2019-06-21T21:00:00.000Z",
+    "end": "2019-06-22T21:00:00.000Z",
+    "name": "Midsommardagen",
+    "type": "public",
+    "rule": "saturday after 06-20",
+    "_weekday": "Sat"
   },
   {
     "date": "2019-12-06 00:00:00",
