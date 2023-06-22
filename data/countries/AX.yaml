@@ -40,7 +40,6 @@ holidays:
         name:
           sv: Midsommarafton
           en: Midsummer Eve
-      3rd saturday after 06-01:
         type: bank
       saturday after 06-20:
         name:
