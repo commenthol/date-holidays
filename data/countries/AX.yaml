@@ -36,11 +36,12 @@ holidays:
         name:
           sv: Självstyrelsedagen
           en: Autonomy Day
-      3rd friday after 06-01 12:00:
+      friday after 06-19:
         name:
           sv: Midsommarafton
           en: Midsummer Eve
-      3rd saturday after 06-01:
+        type: bank
+      saturday after 06-20:
         name:
           sv: Midsommardagen
           en: Midsummer Day
