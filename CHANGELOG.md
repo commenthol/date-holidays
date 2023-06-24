@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.21.2](https://github.com/commenthol/date-holidays/compare/3.21.1...3.21.2) (2023-06-24)
+
+- fix(AX): midsummer should use same logic as SE and FI [c414c4d1](https://github.com/commenthol/date-holidays/commit/c414c4d1c5316c69025e272ed7bdc322ff395e28)
+- fix(TH): Fixing wrong translation for Songkran Day [f80e18d8](https://github.com/commenthol/date-holidays/commit/f80e18d882f86bcf9781b6d9d9fb5ec4f750e095)
+
 ## [3.21.1](https://github.com/commenthol/date-holidays/compare/3.21.0...3.21.1) (2023-06-08)
 
 - fix(CA): modify holiday name [48bc62d2](https://github.com/commenthol/date-holidays/commit/48bc62d26276ab594ca26bf88e0a9accbcc17fb6)
