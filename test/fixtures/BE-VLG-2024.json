@@ -131,6 +131,7 @@
     "end": "2024-11-02T23:00:00.000Z",
     "name": "Allerzielen",
     "type": "observance",
+    "note": "day-off for employees of the flemish government",
     "rule": "11-02",
     "_weekday": "Sat"
   },
@@ -149,6 +150,7 @@
     "end": "2024-11-15T23:00:00.000Z",
     "name": "Koningsdag",
     "type": "observance",
+    "note": "day-off for employees of the flemish government",
     "rule": "11-15",
     "_weekday": "Fri"
   },
@@ -169,5 +171,15 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-26 00:00:00",
+    "start": "2024-12-25T23:00:00.000Z",
+    "end": "2024-12-26T23:00:00.000Z",
+    "name": "Tweede kerstdag",
+    "type": "observance",
+    "note": "day-off for employees of the flemish government",
+    "rule": "12-26",
+    "_weekday": "Thu"
   }
 ]
