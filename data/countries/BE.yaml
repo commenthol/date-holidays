@@ -101,6 +101,21 @@ holidays:
               fr: Fête de la Région wallonne
               nl: Feestdag van de Vlaamse Gemeenschap
             type: observance
+          11-02:
+            _name: 11-02
+            type: observance
+            note: day-off for employees of the flemish government
+          11-15:
+            name:
+              nl: Koningsdag
+              fr: Fête du Roi
+              de: Festtag des Königs
+            type: observance
+            note: day-off for employees of the flemish government
+          12-26:
+            _name: 12-26
+            type: observance
+            note: day-off for employees of the flemish government
         # regions:
         # VAN:
         #   name: Antwerp
