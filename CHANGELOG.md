@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.21.3](https://github.com/commenthol/date-holidays/compare/3.21.2...3.21.3) (2023-08-16)
+
+- fix(BE-VLG,#424): add boxing day as observance [c03b59b6](https://github.com/commenthol/date-holidays/commit/c03b59b6227506e17429dfcbe809bdeacdcf0585)
+
 ## [3.21.2](https://github.com/commenthol/date-holidays/compare/3.21.1...3.21.2) (2023-06-24)
 
 - fix(AX): midsummer should use same logic as SE and FI [c414c4d1](https://github.com/commenthol/date-holidays/commit/c414c4d1c5316c69025e272ed7bdc322ff395e28)
