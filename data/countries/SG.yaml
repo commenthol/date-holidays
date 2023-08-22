@@ -204,6 +204,13 @@ holidays:
         _name: Deepavali
       "2030-10-25":
         _name: Deepavali
+      # Revision by SG Govt for SG Presidential Election 2023
+      # @source https://www.eld.gov.sg/faq_voters.html
+      # @attrib https://en.wikipedia.org/wiki/2023_Singaporean_presidential_election
+      "2023-09-1":
+        name:
+          en: Presidential Election Day
+        type: public
 
     # states:
     #   '01':
