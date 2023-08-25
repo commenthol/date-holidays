@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.21.4](https://github.com/commenthol/date-holidays/compare/3.21.3...3.21.4) (2023-08-25)
+
+- fix(SG): added SG presidential election polling day 2023 [a7211a9a](https://github.com/commenthol/date-holidays/commit/a7211a9a18547e2375ed412d09c5d21d82035ee4)
+
 ## [3.21.3](https://github.com/commenthol/date-holidays/compare/3.21.2...3.21.3) (2023-08-16)
 
 - fix(BE-VLG,#424): add boxing day as observance [c03b59b6](https://github.com/commenthol/date-holidays/commit/c03b59b6227506e17429dfcbe809bdeacdcf0585)
