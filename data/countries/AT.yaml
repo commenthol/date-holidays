@@ -131,6 +131,5 @@ holidays:
           11-15:
             name:
               de-at: Leopoldi-Tag
-              en:
             type: optional
             note: In Wien haben nur Schüler frei
