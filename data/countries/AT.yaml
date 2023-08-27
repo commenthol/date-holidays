@@ -81,9 +81,12 @@ holidays:
           de: Niederösterreich
           en: Lower Austria
         days:
+          # @source https://kurier.at/chronik/niederoesterreich/leopoldi-alle-feiern-nicht-alle-haben-frei/400673546
           11-15:
             name:
-              de-at: Leopold
+              de-at: Leopoldi-Tag
+            type: optional
+            note: In Niederösterreich haben nur Schüler und Beamten frei
       "4":
         names:
           de: Oberösterreich
@@ -124,6 +127,9 @@ holidays:
           de: Wien
           en: Vienna
         days:
+          # @source https://kurier.at/chronik/niederoesterreich/leopoldi-alle-feiern-nicht-alle-haben-frei/400673546
           11-15:
             name:
-              de-at: Leopold
+              de-at: Leopoldi-Tag
+            type: optional
+            note: In Wien haben nur Schüler frei
