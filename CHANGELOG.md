@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.21.5](https://github.com/commenthol/date-holidays/compare/3.21.4...3.21.5) (2023-08-27)
+
+- fix(AT): yaml error [afbe5f00](https://github.com/commenthol/date-holidays/commit/afbe5f00ce6b7ffbb636e0fe02da6fb510c44f9b)
+- chore: update license attributions [8fe7d2d0](https://github.com/commenthol/date-holidays/commit/8fe7d2d0b2d216c16310d0dc5a21e286bff35302)
+- Make Leopoldi-Tag optional , add notes and source [8e02b295](https://github.com/commenthol/date-holidays/commit/8e02b295600a6161cefb90f3ab3a37b02c6ceb60)
+
 ## [3.21.4](https://github.com/commenthol/date-holidays/compare/3.21.3...3.21.4) (2023-08-25)
 
 - fix(SG): added SG presidential election polling day 2023 [a7211a9a](https://github.com/commenthol/date-holidays/commit/a7211a9a18547e2375ed412d09c5d21d82035ee4)
