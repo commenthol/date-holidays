@@ -218,19 +218,19 @@
     "prepin": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.10",
-    "@babel/core": "^7.22.11",
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.19",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-env": "^7.22.15",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^9.1.3",
     "dtslint": "^4.2.1",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-n": "^16.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-yml": "^0.15.0",
     "hashtree": "^0.7.0",
@@ -243,7 +243,7 @@
     "typescript": "^5.2.2",
     "watch-run": "^1.2.5",
     "webpack": "^5.88.2",
-    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-bundle-analyzer": "^4.9.1",
     "webpack-cli": "^5.1.4"
   },
   "engines": {
