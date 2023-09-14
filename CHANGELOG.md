@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.22.0](https://github.com/commenthol/date-holidays/compare/3.21.5...3.22.0) (2023-09-14)
+
+- feat(UA): Update ukrainian holidays [91d8a1a3](https://github.com/commenthol/date-holidays/commit/91d8a1a340df853720b01b19eaaf9cce78d683ef)
+
 ## [3.21.5](https://github.com/commenthol/date-holidays/compare/3.21.4...3.21.5) (2023-08-27)
 
 - fix(AT): yaml error [afbe5f00](https://github.com/commenthol/date-holidays/commit/afbe5f00ce6b7ffbb636e0fe02da6fb510c44f9b)
