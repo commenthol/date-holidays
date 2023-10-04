@@ -439,6 +439,16 @@ holidays:
           02-12:
             name:
               en: Lincoln's Birthday
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: "2018-10-07"
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2018-10-08"
       KS:
         name: Kansas
         zones:
