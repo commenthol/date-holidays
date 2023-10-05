@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.22.1](https://github.com/commenthol/date-holidays/compare/3.22.0...3.22.1) (2023-10-05)
+
+- fix(US): modify holiday name for DC, ME, NM with sources [375740be](https://github.com/commenthol/date-holidays/commit/375740bea1d8cf99b74baff2035ef9069843a6e7)
+- fix(US): modify apostrophe character for MN holiday [b1c9617e](https://github.com/commenthol/date-holidays/commit/b1c9617eb2cc3eb58d9cdc31f166a2909f8e9abc)
+- fix(US): change Columbus Day to Indigenous Peoples Day in US.IA since 2018 [06db084a](https://github.com/commenthol/date-holidays/commit/06db084a0d5918e4ec161943006aafeff8e25fcf)
+
 ## [3.22.0](https://github.com/commenthol/date-holidays/compare/3.21.5...3.22.0) (2023-09-14)
 
 - feat(UA): Update ukrainian holidays [91d8a1a3](https://github.com/commenthol/date-holidays/commit/91d8a1a340df853720b01b19eaaf9cce78d683ef)
