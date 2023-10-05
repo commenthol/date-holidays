@@ -543,7 +543,7 @@ holidays:
               - to: "2017-01-01"
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples’ Day
+              en: Indigenous Peoples' Day
             active:
               - from: "2017-01-01"
       MS:
