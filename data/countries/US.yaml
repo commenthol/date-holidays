@@ -291,6 +291,17 @@ holidays:
           04-16:
             name:
               en: Emancipation Day
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: "2019-10-08"
+            #https://www.cnn.com/2021/10/11/us/indigenous-peoples-day-2021-states-trnd/index.html
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2019-10-09"
       FL:
         name: Florida
         days:
@@ -499,6 +510,12 @@ holidays:
           3rd monday in April:
             name:
               en: Patriots' Day
+          #https://www.maine.gov/governor/mills/news/governor-mills-recognizes-indigenous-peoples-day-2021-10-11
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2019-04-26"
       MD:
         name: Maryland
         zones:
@@ -554,7 +571,7 @@ holidays:
               - to: "2017-01-01"
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples’ Day
+              en: Indigenous Peoples' Day
             active:
               - from: "2017-01-01"
       MS:
@@ -672,6 +689,12 @@ holidays:
           3rd monday in February:
             name:
               en: Presidents' Day
+          #https://www.governor.state.nm.us/2020/10/12/gov-issues-statement-as-new-mexico-celebrates-indigenous-peoples-day/
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2019-04-01"
           friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
