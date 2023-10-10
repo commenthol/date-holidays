@@ -94,10 +94,10 @@
     "date": "2026-09-28 00:00:00",
     "start": "2026-09-27T16:00:00.000Z",
     "end": "2026-09-28T16:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "King's Birthday",
     "type": "public",
     "note": "Might be on a different day; is proclaimed by Governor",
-    "rule": "monday before October",
+    "rule": "monday before October #1",
     "_weekday": "Mon"
   },
   {
