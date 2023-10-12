@@ -1,0 +1,209 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2027-01-01T04:00:00.000Z",
+    "end": "2027-01-02T04:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-01-22 00:00:00",
+    "start": "2027-01-22T04:00:00.000Z",
+    "end": "2027-01-23T04:00:00.000Z",
+    "name": "Día de la Creación del Estado Plurinacional de Bolivia",
+    "type": "public",
+    "rule": "01-22",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-02-02 00:00:00",
+    "start": "2027-02-02T04:00:00.000Z",
+    "end": "2027-02-03T04:00:00.000Z",
+    "name": "Fiesta de la Virgen de Candelaria",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-02-08 00:00:00",
+    "start": "2027-02-08T04:00:00.000Z",
+    "end": "2027-02-09T04:00:00.000Z",
+    "name": "Lunes de Carnaval",
+    "type": "public",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-02-09 00:00:00",
+    "start": "2027-02-09T04:00:00.000Z",
+    "end": "2027-02-10T04:00:00.000Z",
+    "name": "Martes de Carnaval",
+    "type": "public",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-03-19 00:00:00",
+    "start": "2027-03-19T04:00:00.000Z",
+    "end": "2027-03-20T04:00:00.000Z",
+    "name": "Día del Padre",
+    "type": "observance",
+    "rule": "03-19",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-23 00:00:00",
+    "start": "2027-03-23T04:00:00.000Z",
+    "end": "2027-03-24T04:00:00.000Z",
+    "name": "Día del Mar",
+    "type": "observance",
+    "rule": "03-23",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-03-25 00:00:00",
+    "start": "2027-03-25T04:00:00.000Z",
+    "end": "2027-03-26T04:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-26T04:00:00.000Z",
+    "end": "2027-03-27T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-04-12 00:00:00",
+    "start": "2027-04-12T04:00:00.000Z",
+    "end": "2027-04-13T04:00:00.000Z",
+    "name": "Día del Niño",
+    "type": "observance",
+    "rule": "04-12",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-05-01 00:00:00",
+    "start": "2027-05-01T04:00:00.000Z",
+    "end": "2027-05-02T04:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-05-27 00:00:00",
+    "start": "2027-05-27T04:00:00.000Z",
+    "end": "2027-05-28T04:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-05-27 00:00:00",
+    "start": "2027-05-27T04:00:00.000Z",
+    "end": "2027-05-28T04:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "rule": "05-27",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-06-06 00:00:00",
+    "start": "2027-06-06T04:00:00.000Z",
+    "end": "2027-06-07T04:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "observance",
+    "rule": "06-06",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-06-21 00:00:00",
+    "start": "2027-06-21T04:00:00.000Z",
+    "end": "2027-06-22T04:00:00.000Z",
+    "name": "Año Nuevo Andino Amazónico Chaqueño",
+    "type": "public",
+    "rule": "06-21",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-07-16 00:00:00",
+    "start": "2027-07-16T04:00:00.000Z",
+    "end": "2027-07-17T04:00:00.000Z",
+    "name": "Efemérides de La Paz",
+    "type": "public",
+    "rule": "07-16",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-08-06 00:00:00",
+    "start": "2027-08-06T04:00:00.000Z",
+    "end": "2027-08-07T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "08-06",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-08-17 00:00:00",
+    "start": "2027-08-17T04:00:00.000Z",
+    "end": "2027-08-18T04:00:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "observance",
+    "rule": "08-17",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-09-21 00:00:00",
+    "start": "2027-09-21T04:00:00.000Z",
+    "end": "2027-09-22T04:00:00.000Z",
+    "name": "Día del Estudiante",
+    "type": "observance",
+    "rule": "09-21",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-10-11 00:00:00",
+    "start": "2027-10-11T04:00:00.000Z",
+    "end": "2027-10-12T04:00:00.000Z",
+    "name": "Día de la Mujer Boliviana",
+    "type": "public",
+    "rule": "10-11",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-11-01 00:00:00",
+    "start": "2027-11-01T04:00:00.000Z",
+    "end": "2027-11-02T04:00:00.000Z",
+    "name": "Todos Santos",
+    "type": "observance",
+    "rule": "11-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-11-02 00:00:00",
+    "start": "2027-11-02T04:00:00.000Z",
+    "end": "2027-11-03T04:00:00.000Z",
+    "name": "Todos Santos",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-25T04:00:00.000Z",
+    "end": "2027-12-26T04:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  }
+]
