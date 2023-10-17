@@ -1,7 +1,7 @@
 holidays:
-  # @attrib https://www.timeanddate.com/holidays/bolivia/
-  # @attrib http://gacetaoficialdebolivia.gob.bo/normas/buscar/5019
-  # @attrib https://www.embajadadebolivia.es/informacion-general/
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Bolivia
+  # @source http://gacetaoficialdebolivia.gob.bo/normas/buscar/5019
+  # @source https://www.embajadadebolivia.es/informacion-general/
   BO:
     names:
       es: Bolivia
@@ -173,7 +173,7 @@ holidays:
             name:
               es: Efemérides de La Paz (substituto)
               en: La Paz Day (substitutes)
-      'N':
+      "N":
         name: Pando
         days:
           09-24:
