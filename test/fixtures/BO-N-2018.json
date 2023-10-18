@@ -1,0 +1,209 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T04:00:00.000Z",
+    "end": "2018-01-02T04:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-01-22 00:00:00",
+    "start": "2018-01-22T04:00:00.000Z",
+    "end": "2018-01-23T04:00:00.000Z",
+    "name": "Día de la Creación del Estado Plurinacional de Bolivia",
+    "type": "public",
+    "rule": "01-22",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-02-02 00:00:00",
+    "start": "2018-02-02T04:00:00.000Z",
+    "end": "2018-02-03T04:00:00.000Z",
+    "name": "Fiesta de la Virgen de Candelaria",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-02-12 00:00:00",
+    "start": "2018-02-12T04:00:00.000Z",
+    "end": "2018-02-13T04:00:00.000Z",
+    "name": "Lunes de Carnaval",
+    "type": "public",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-02-13 00:00:00",
+    "start": "2018-02-13T04:00:00.000Z",
+    "end": "2018-02-14T04:00:00.000Z",
+    "name": "Martes de Carnaval",
+    "type": "public",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-03-19 00:00:00",
+    "start": "2018-03-19T04:00:00.000Z",
+    "end": "2018-03-20T04:00:00.000Z",
+    "name": "Día del Padre",
+    "type": "observance",
+    "rule": "03-19",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-03-23 00:00:00",
+    "start": "2018-03-23T04:00:00.000Z",
+    "end": "2018-03-24T04:00:00.000Z",
+    "name": "Día del Mar",
+    "type": "observance",
+    "rule": "03-23",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-03-29 00:00:00",
+    "start": "2018-03-29T04:00:00.000Z",
+    "end": "2018-03-30T04:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T04:00:00.000Z",
+    "end": "2018-03-31T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-04-12 00:00:00",
+    "start": "2018-04-12T04:00:00.000Z",
+    "end": "2018-04-13T04:00:00.000Z",
+    "name": "Día del Niño",
+    "type": "observance",
+    "rule": "04-12",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-05-01 00:00:00",
+    "start": "2018-05-01T04:00:00.000Z",
+    "end": "2018-05-02T04:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-05-27 00:00:00",
+    "start": "2018-05-27T04:00:00.000Z",
+    "end": "2018-05-28T04:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "rule": "05-27",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2018-05-31 00:00:00",
+    "start": "2018-05-31T04:00:00.000Z",
+    "end": "2018-06-01T04:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-06-06 00:00:00",
+    "start": "2018-06-06T04:00:00.000Z",
+    "end": "2018-06-07T04:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "observance",
+    "rule": "06-06",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-06-21 00:00:00",
+    "start": "2018-06-21T04:00:00.000Z",
+    "end": "2018-06-22T04:00:00.000Z",
+    "name": "Año Nuevo Andino Amazónico Chaqueño",
+    "type": "public",
+    "rule": "06-21",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-08-06 00:00:00",
+    "start": "2018-08-06T04:00:00.000Z",
+    "end": "2018-08-07T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "08-06",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-08-17 00:00:00",
+    "start": "2018-08-17T04:00:00.000Z",
+    "end": "2018-08-18T04:00:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "observance",
+    "rule": "08-17",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-09-21 00:00:00",
+    "start": "2018-09-21T04:00:00.000Z",
+    "end": "2018-09-22T04:00:00.000Z",
+    "name": "Día del Estudiante",
+    "type": "observance",
+    "rule": "09-21",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-09-24 00:00:00",
+    "start": "2018-09-24T04:00:00.000Z",
+    "end": "2018-09-25T04:00:00.000Z",
+    "name": "Efemérides de Pando",
+    "type": "public",
+    "rule": "09-24",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-10-11 00:00:00",
+    "start": "2018-10-11T04:00:00.000Z",
+    "end": "2018-10-12T04:00:00.000Z",
+    "name": "Día de la Mujer Boliviana",
+    "type": "public",
+    "rule": "10-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-11-01 00:00:00",
+    "start": "2018-11-01T04:00:00.000Z",
+    "end": "2018-11-02T04:00:00.000Z",
+    "name": "Todos Santos",
+    "type": "observance",
+    "rule": "11-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2018-11-02 00:00:00",
+    "start": "2018-11-02T04:00:00.000Z",
+    "end": "2018-11-03T04:00:00.000Z",
+    "name": "Todos Santos",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T04:00:00.000Z",
+    "end": "2018-12-26T04:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  }
+]

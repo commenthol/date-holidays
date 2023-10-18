@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2015-01-01T04:00:00.000Z",
+    "end": "2015-01-02T04:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-01-22 00:00:00",
+    "start": "2015-01-22T04:00:00.000Z",
+    "end": "2015-01-23T04:00:00.000Z",
+    "name": "Día de la Creación del Estado Plurinacional de Bolivia",
+    "type": "public",
+    "rule": "01-22",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-02-02 00:00:00",
+    "start": "2015-02-02T04:00:00.000Z",
+    "end": "2015-02-03T04:00:00.000Z",
+    "name": "Fiesta de la Virgen de Candelaria",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-02-16 00:00:00",
+    "start": "2015-02-16T04:00:00.000Z",
+    "end": "2015-02-17T04:00:00.000Z",
+    "name": "Lunes de Carnaval",
+    "type": "public",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-02-17 00:00:00",
+    "start": "2015-02-17T04:00:00.000Z",
+    "end": "2015-02-18T04:00:00.000Z",
+    "name": "Martes de Carnaval",
+    "type": "public",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-03-19 00:00:00",
+    "start": "2015-03-19T04:00:00.000Z",
+    "end": "2015-03-20T04:00:00.000Z",
+    "name": "Día del Padre",
+    "type": "observance",
+    "rule": "03-19",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-03-23 00:00:00",
+    "start": "2015-03-23T04:00:00.000Z",
+    "end": "2015-03-24T04:00:00.000Z",
+    "name": "Día del Mar",
+    "type": "observance",
+    "rule": "03-23",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-04-02 00:00:00",
+    "start": "2015-04-02T04:00:00.000Z",
+    "end": "2015-04-03T04:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-04-03 00:00:00",
+    "start": "2015-04-03T04:00:00.000Z",
+    "end": "2015-04-04T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-04-12 00:00:00",
+    "start": "2015-04-12T04:00:00.000Z",
+    "end": "2015-04-13T04:00:00.000Z",
+    "name": "Día del Niño",
+    "type": "observance",
+    "rule": "04-12",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-05-01T04:00:00.000Z",
+    "end": "2015-05-02T04:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-27 00:00:00",
+    "start": "2015-05-27T04:00:00.000Z",
+    "end": "2015-05-28T04:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "observance",
+    "rule": "05-27",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-06-04 00:00:00",
+    "start": "2015-06-04T04:00:00.000Z",
+    "end": "2015-06-05T04:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-06-06 00:00:00",
+    "start": "2015-06-06T04:00:00.000Z",
+    "end": "2015-06-07T04:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "observance",
+    "rule": "06-06",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-06-21 00:00:00",
+    "start": "2015-06-21T04:00:00.000Z",
+    "end": "2015-06-22T04:00:00.000Z",
+    "name": "Año Nuevo Andino Amazónico Chaqueño",
+    "type": "public",
+    "rule": "06-21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-06-22 00:00:00",
+    "start": "2015-06-22T04:00:00.000Z",
+    "end": "2015-06-23T04:00:00.000Z",
+    "name": "Año Nuevo Andino Amazónico Chaqueño (substituto)",
+    "type": "public",
+    "rule": "substitutes 06-21 if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-08-06 00:00:00",
+    "start": "2015-08-06T04:00:00.000Z",
+    "end": "2015-08-07T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "08-06",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-08-17 00:00:00",
+    "start": "2015-08-17T04:00:00.000Z",
+    "end": "2015-08-18T04:00:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "observance",
+    "rule": "08-17",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-09-21 00:00:00",
+    "start": "2015-09-21T04:00:00.000Z",
+    "end": "2015-09-22T04:00:00.000Z",
+    "name": "Día del Estudiante",
+    "type": "observance",
+    "rule": "09-21",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-10-11 00:00:00",
+    "start": "2015-10-11T04:00:00.000Z",
+    "end": "2015-10-12T04:00:00.000Z",
+    "name": "Día de la Mujer Boliviana",
+    "type": "public",
+    "rule": "10-11",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-11-01 00:00:00",
+    "start": "2015-11-01T04:00:00.000Z",
+    "end": "2015-11-02T04:00:00.000Z",
+    "name": "Todos Santos",
+    "type": "observance",
+    "rule": "11-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-11-02 00:00:00",
+    "start": "2015-11-02T04:00:00.000Z",
+    "end": "2015-11-03T04:00:00.000Z",
+    "name": "Todos Santos",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-11-10 00:00:00",
+    "start": "2015-11-10T04:00:00.000Z",
+    "end": "2015-11-11T04:00:00.000Z",
+    "name": "Efemérides de Potosí",
+    "type": "public",
+    "rule": "11-10",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-25T04:00:00.000Z",
+    "end": "2015-12-26T04:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]
