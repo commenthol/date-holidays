@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.23.0](https://github.com/commenthol/date-holidays/compare/3.22.1...3.23.0) (2023-10-18)
+
+- fix: Changed source linking and attributions [f218d1c9](https://github.com/commenthol/date-holidays/commit/f218d1c9a55eb257e1206d5cf5e11a20e25f6a5d)
+- feat: Updated for Bolivian holidays [5b54bdda](https://github.com/commenthol/date-holidays/commit/5b54bdda0aa6ced57c416bc61d32eca5434e2e1a)
+- fix: modify `Queen's Birthday` to `King's Birthday` in Australia [a4435a76](https://github.com/commenthol/date-holidays/commit/a4435a767b763eec341e8fef06b079a1bf9bbf8b)
+
 ## [3.22.1](https://github.com/commenthol/date-holidays/compare/3.22.0...3.22.1) (2023-10-05)
 
 - fix(US): modify holiday name for DC, ME, NM with sources [375740be](https://github.com/commenthol/date-holidays/commit/375740bea1d8cf99b74baff2035ef9069843a6e7)

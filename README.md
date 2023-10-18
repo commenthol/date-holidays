@@ -111,6 +111,15 @@ Countries: 197
 ├── BM: Bermuda
 ├── BN: Negara Brunei Darussalam
 ├── BO: Bolivia
+│   ├── B: Beni
+│   ├── C: Cochabamba
+│   ├── H: Chuquisaca
+│   ├── L: La Paz
+│   ├── N: Pando
+│   ├── O: Oruro
+│   ├── P: Potosí
+│   ├── S: Santa Cruz
+│   └── T: Tarija
 ├── BQ: Caribisch Nederland
 │   ├── BO: Bonaire
 │   ├── SA: Saba
