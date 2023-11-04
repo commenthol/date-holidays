@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.23.1](https://github.com/commenthol/date-holidays/compare/3.23.0...3.23.1) (2023-11-04)
+
+- fix(HU): Adding school holidays till the end of Jan 2024 [27b2071a](https://github.com/commenthol/date-holidays/commit/27b2071a335455a15a32edabcae476bfdf1fdcd5)
+- fix(NL): Improve holiday definitions for The Netherlands [8adc8a42](https://github.com/commenthol/date-holidays/commit/8adc8a424ad8e60fac40cf51e2457f4a6a2115dc)
+
 ## [3.23.0](https://github.com/commenthol/date-holidays/compare/3.22.1...3.23.0) (2023-10-18)
 
 - fix: Changed source linking and attributions [f218d1c9](https://github.com/commenthol/date-holidays/commit/f218d1c9a55eb257e1206d5cf5e11a20e25f6a5d)

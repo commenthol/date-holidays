@@ -102,52 +102,52 @@ holidays:
       12-31:
         _name: 12-31
         type: observance
-      '2023-10-30':
+      "2023-10-30":
         name:
           hu: Őszi szünet
           en: Autumn school holiday
         type: school
-      '2023-10-31':
+      "2023-10-31":
         name:
           hu: Őszi szünet
           en: Autumn school holiday
         type: school
-      '2023-11-02':
+      "2023-11-02":
         name:
           hu: Őszi szünet
           en: Autumn school holiday
         type: school
-      '2023-11-03':
+      "2023-11-03":
         name:
           hu: Őszi szünet
           en: Autumn school holiday
         type: school
-      '2023-12-22':
+      "2023-12-22":
         name:
           hu: Téli szünet
           en: Winter school holiday
         type: school
-      '2023-12-27':
+      "2023-12-27":
         name:
           hu: Téli szünet
           en: Winter school holiday
         type: school
-      '2024-01-02':
+      "2024-01-02":
         name:
           hu: Téli szünet
           en: Winter school holiday
         type: school
-      '2024-01-03':
+      "2024-01-03":
         name:
           hu: Téli szünet
           en: Winter school holiday
         type: school
-      '2024-01-04':
+      "2024-01-04":
         name:
           hu: Téli szünet
           en: Winter school holiday
         type: school
-      '2024-01-05':
+      "2024-01-05":
         name:
           hu: Téli szünet
           en: Winter school holiday
