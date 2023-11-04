@@ -13,7 +13,7 @@
     "start": "2022-04-14T22:00:00.000Z",
     "end": "2022-04-15T22:00:00.000Z",
     "name": "Goede Vrijdag",
-    "type": "public",
+    "type": "school",
     "rule": "easter -2",
     "_weekday": "Fri"
   },
@@ -41,7 +41,7 @@
     "end": "2022-04-27T22:00:00.000Z",
     "name": "Koningsdag",
     "type": "public",
-    "rule": "04-27 if sunday then previous saturday",
+    "rule": "04-27 if sunday then previous saturday since 2014",
     "_weekday": "Wed"
   },
   {
@@ -58,7 +58,7 @@
     "start": "2022-05-04T22:00:00.000Z",
     "end": "2022-05-05T22:00:00.000Z",
     "name": "Bevrijdingsdag",
-    "type": "observance",
+    "type": "school",
     "rule": "05-05",
     "_weekday": "Thu"
   },
@@ -75,7 +75,7 @@
     "date": "2022-05-26 00:00:00",
     "start": "2022-05-25T22:00:00.000Z",
     "end": "2022-05-26T22:00:00.000Z",
-    "name": "O.L.H. Hemelvaart",
+    "name": "Hemelvaartsdag",
     "type": "public",
     "rule": "easter 39",
     "_weekday": "Thu"
