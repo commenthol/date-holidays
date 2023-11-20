@@ -460,15 +460,15 @@ holidays:
             _name: 01-01
           01-02:
             name:
-              en: Januar 2nd
+              en: January 2nd
           substitutes 01-02 if saturday then next monday:
             substitute: true
             name:
-              en: Januar 2nd
+              en: January 2nd
           substitutes 01-02 if sunday then next monday:
             substitute: true
             name:
-              en: Januar 2nd
+              en: January 2nd
           easter 1:
             _name: easter 1
           1st monday in August:
