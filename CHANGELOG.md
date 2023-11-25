@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.23.2](https://github.com/commenthol/date-holidays/compare/3.23.1...3.23.2) (2023-11-25)
+
+- fix(GL,EG): DST time changes [58e8ffc9](https://github.com/commenthol/date-holidays/commit/58e8ffc9534502053bec1ec21b86e76645019a5c)
+- fix: add missing `y` to January 2nd holiday [c3041273](https://github.com/commenthol/date-holidays/commit/c304127352af8ca9fd5d99e4cd6cb2115224c805)
+
 ## [3.23.1](https://github.com/commenthol/date-holidays/compare/3.23.0...3.23.1) (2023-11-04)
 
 - fix(HU): Adding school holidays till the end of Jan 2024 [27b2071a](https://github.com/commenthol/date-holidays/commit/27b2071a335455a15a32edabcae476bfdf1fdcd5)
