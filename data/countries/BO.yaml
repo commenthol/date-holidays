@@ -111,7 +111,7 @@ holidays:
         name:
           es: Día de la Mujer Boliviana
           en: Bolivian Woman's Day
-          type: observance
+        type: observance
       11-01:
         _name: 11-01
         name:
