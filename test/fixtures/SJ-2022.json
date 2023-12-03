@@ -266,7 +266,7 @@
     "end": "2022-11-27T23:00:00.000Z",
     "name": "Første søndag i advent",
     "type": "observance",
-    "rule": "4th sunday before 12-24",
+    "rule": "4th sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -275,7 +275,7 @@
     "end": "2022-12-04T23:00:00.000Z",
     "name": "Andre søndag i advent",
     "type": "observance",
-    "rule": "3rd sunday before 12-24",
+    "rule": "3rd sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -284,7 +284,7 @@
     "end": "2022-12-11T23:00:00.000Z",
     "name": "Tredje søndag i advent",
     "type": "observance",
-    "rule": "2nd sunday before 12-24",
+    "rule": "2nd sunday before 12-25",
     "_weekday": "Sun"
   },
   {
@@ -293,7 +293,7 @@
     "end": "2022-12-18T23:00:00.000Z",
     "name": "Fjerde søndag i advent",
     "type": "observance",
-    "rule": "1st sunday before 12-24",
+    "rule": "1st sunday before 12-25",
     "_weekday": "Sun"
   },
   {
