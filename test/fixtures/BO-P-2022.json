@@ -175,7 +175,7 @@
     "start": "2022-10-11T04:00:00.000Z",
     "end": "2022-10-12T04:00:00.000Z",
     "name": "Día de la Mujer Boliviana",
-    "type": "public",
+    "type": "observance",
     "rule": "10-11",
     "_weekday": "Tue"
   },
