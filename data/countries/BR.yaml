@@ -462,6 +462,11 @@ holidays:
               pt: Revolução Constitucionalista
             active:
               - from: 1997-03-05
+          11-20:
+            name:
+              pt: Dia da Consciência Negra
+            active:
+              - from: 2023-09-12
         regions:
           SP:
             name: São Paulo
@@ -471,6 +476,11 @@ holidays:
                   pt: Aniversário da Cidade
                   en: City Birthday
                 type: public
+              11-20:
+                name:
+                  pt: Dia da Consciência Negra
+                active:
+                  - from: 2004-01-07
       TO:
         name: Tocantins
         zones:
