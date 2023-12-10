@@ -6,6 +6,7 @@ holidays:
   # @source https://www.timeanddate.com/holidays/norway/2023
   # @attrib https://no.wikipedia.org/wiki/Norges_offisielle_flaggdager
   # @attrib https://no.wikipedia.org/wiki/Allehelgensaften
+  # @attrib https://no.wikipedia.org/wiki/Advent
   NO:
     names:
       no: Norge
@@ -115,22 +116,22 @@ holidays:
       2nd sunday in November:
         _name: Fathers Day
         type: observance
-      4th sunday before 12-24:
+      4th sunday before 12-25:
         name:
           no: Første søndag i advent
           en: First Sunday of Advent
         type: observance
-      3rd sunday before 12-24:
+      3rd sunday before 12-25:
         name:
           no: Andre søndag i advent
           en: Second Sunday of Advent
         type: observance
-      2nd sunday before 12-24:
+      2nd sunday before 12-25:
         name:
           no: Tredje søndag i advent
           en: Third Sunday of Advent
         type: observance
-      1st sunday before 12-24:
+      1st sunday before 12-25:
         name:
           no: Fjerde søndag i advent
           en: Fourth Sunday of Advent
