@@ -90,3 +90,7 @@ holidays:
       substitutes 12-26 if sunday then next monday:
         name:
           en: Public Holiday
+      2023-12-15:
+        _name: 12-15
+        name:
+          en: Rugby World Cup Win Public Holiday
