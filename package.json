@@ -165,7 +165,7 @@
     "doc:tree": "node scripts/addtree.cjs",
     "lint": "eslint --fix --ext .js,.cjs,.yaml .",
     "prepublishOnly": "npm run all",
-    "test": "npm-run-all test:*",
+    "test": "npm-run-all test:ci",
     "test:ci": "mocha",
     "test:ts": "dtslint types",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
