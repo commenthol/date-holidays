@@ -90,3 +90,8 @@ holidays:
       substitutes 12-26 if sunday then next monday:
         name:
           en: Public Holiday
+      "2023-12-15":
+        # @source https://www.gov.za/documents/notices/public-holidays-act-declaration-15th-day-december-2023-public-holiday-28-nov-2023
+        # @source https://www.sanews.gov.za/south-africa/president-ramaphosa-declares-15-december-public-holiday
+        name:
+          en: Rugby World Cup Win Public Holiday
