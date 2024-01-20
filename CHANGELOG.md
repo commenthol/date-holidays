@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.23.4](https://github.com/commenthol/date-holidays/compare/3.23.3...3.23.4) (2024-01-20)
+
+- fix(ZA): Add ZA Rugby World Cup Win Public Holiday [b169fcfb](https://github.com/commenthol/date-holidays/commit/b169fcfbf01dd07b34fac82547674fe9cd8cc34a)
+
 ## [3.23.3](https://github.com/commenthol/date-holidays/compare/3.23.2...3.23.3) (2023-12-10)
 
 - fix(BR): Add black conscience day as a regional holiday  [8689366a](https://github.com/commenthol/date-holidays/commit/8689366a432e9ccf7b734a087e46ab7b671b143f)
