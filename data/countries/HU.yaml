@@ -36,6 +36,11 @@ holidays:
           en: Memorial Day for the Victims of the Holocaust
           hu: A holokauszt áldozatainak emléknapja
         type: observance
+      easter -2:
+        _name: easter -2
+        type: public
+        active:
+          - from: "2017-01-01"
       easter:
         _name: easter
         type: public
