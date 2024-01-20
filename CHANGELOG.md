@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.23.5](https://github.com/commenthol/date-holidays/compare/3.23.4...3.23.5) (2024-01-20)
+
+- chore: disabling dtslint temporarily [a7c91e52](https://github.com/commenthol/date-holidays/commit/a7c91e52e94d5f19cfc7d011b3cc4fd6c5d0df62)
+- fix(HU): good-friday is public holiday since 2017 [ebe4a95c](https://github.com/commenthol/date-holidays/commit/ebe4a95c60c7656c223ac58873444b8724f821d2)
+
 ## [3.23.4](https://github.com/commenthol/date-holidays/compare/3.23.3...3.23.4) (2024-01-20)
 
 - fix(ZA): Add ZA Rugby World Cup Win Public Holiday [b169fcfb](https://github.com/commenthol/date-holidays/commit/b169fcfbf01dd07b34fac82547674fe9cd8cc34a)
