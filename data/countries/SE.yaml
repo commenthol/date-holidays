@@ -16,12 +16,14 @@ holidays:
       01-05 12:00:
         name:
           sv: Trettondagsafton
+          en: Twelfth Night
         type: optional
       01-06:
         _name: 01-06
       01-13:
         name:
           sv: Tjugondag Knut
+          en: Saint Knut's Day
         type: observance
       1st sunday in March:
         name:
@@ -30,6 +32,7 @@ holidays:
       03-25:
         name:
           sv: Marie Bebådelsedag
+          en: Annunciation Day
           lat: Annuntiatio Mariæ
         type: observance
       04-30 12:00:
@@ -93,18 +96,22 @@ holidays:
       11-06:
         name:
           sv: Gustav-Adolf-dagen
+          en: Gustavus Adolphus Day
         type: observance
       11-11:
         name:
           sv: Mårtensgås
+          en: Saint Martin's Day
         type: observance
       12-10:
         name:
           sv: Nobeldagen
+          en: Nobel Day
         type: observance
       12-13:
         name:
           sv: Luciadagen
+          en: Saint Lucy's Day
         type: observance
       12-24:
         _name: 12-24
