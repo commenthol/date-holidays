@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.23.7](https://github.com/commenthol/date-holidays/compare/3.23.6...3.23.7) (2024-01-25)
+
+- fix(SE): Update SE.yaml with english translations [b3f73b13](https://github.com/commenthol/date-holidays/commit/b3f73b13b77255510ae178f487d5073d0ad2c765)
+
 ## [3.23.6](https://github.com/commenthol/date-holidays/compare/3.23.5...3.23.6) (2024-01-25)
 
 - fix(#452): replace lodash.pick with lodash [d511e669](https://github.com/commenthol/date-holidays/commit/d511e669381b42f50e8d305fc1a4fc14ca947a2e)
