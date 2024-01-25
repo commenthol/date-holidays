@@ -7,8 +7,7 @@ const path = require('path')
 const resolve = path.resolve
 const jsyaml = require('js-yaml')
 const PrePin = require('prepin')
-const _pick = require('lodash.pick')
-const _omit = require('lodash.omit')
+const { pick: _pick, omit: _omit } = require('lodash')
 
 const REGEX = /^([A-Z]+)\.yaml$/
 
