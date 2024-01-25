@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.23.6](https://github.com/commenthol/date-holidays/compare/3.23.5...3.23.6) (2024-01-25)
+
+- fix(#452): replace lodash.pick with lodash [d511e669](https://github.com/commenthol/date-holidays/commit/d511e669381b42f50e8d305fc1a4fc14ca947a2e)
+
 ## [3.23.5](https://github.com/commenthol/date-holidays/compare/3.23.4...3.23.5) (2024-01-20)
 
 - chore: disabling dtslint temporarily [a7c91e52](https://github.com/commenthol/date-holidays/commit/a7c91e52e94d5f19cfc7d011b3cc4fd6c5d0df62)
