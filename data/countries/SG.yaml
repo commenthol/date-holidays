@@ -55,12 +55,15 @@ holidays:
           en: Hari Raya Puasa
         # Revision from SG gov
         # @source https://www.humanresourcesonline.net/singapore-s-revised-public-holiday-list-for-2022-new-dates-for-hari-raya-puasa-and-haji
+        # https://www.mom.gov.sg/employment-practices/public-holidays
         disable:
           - "2022-05-02"
           - "2023-04-21"
+          - "2024-04-09"
         enable:
           - "2022-05-03"
           - "2023-04-22"
+          - "2024-04-10"
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
         name:
