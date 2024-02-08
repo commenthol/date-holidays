@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.23.8](https://github.com/commenthol/date-holidays/compare/3.23.7...3.23.8) (2024-02-08)
+
+- fix(AT,#455): josefitag set to type school [8adc4b72](https://github.com/commenthol/date-holidays/commit/8adc4b7239bbd79d401544298ffcb26277592c08)
+- fix(SG): Fix Singapore Hari Raya Puasa date for 2024 - Update SG.yaml [45a75e8f](https://github.com/commenthol/date-holidays/commit/45a75e8fd0c5da4e36ddcd76b6322303ece9f290)
+
 ## [3.23.7](https://github.com/commenthol/date-holidays/compare/3.23.6...3.23.7) (2024-01-25)
 
 - fix(SE): Update SE.yaml with english translations [b3f73b13](https://github.com/commenthol/date-holidays/commit/b3f73b13b77255510ae178f487d5073d0ad2c765)
