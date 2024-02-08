@@ -73,6 +73,7 @@ holidays:
         days:
           03-19:
             _name: 03-19
+            type: school
           10-10:
             name:
               de-at: Tag der Volksabstimmung
@@ -110,6 +111,7 @@ holidays:
         days:
           03-19:
             _name: 03-19
+            type: school
       "7":
         names:
           de: Tirol
@@ -117,11 +119,13 @@ holidays:
         days:
           03-19:
             _name: 03-19
+            type: school
       "8":
         name: Vorarlberg
         days:
           03-19:
             _name: 03-19
+            type: school
       "9":
         names:
           de: Wien
