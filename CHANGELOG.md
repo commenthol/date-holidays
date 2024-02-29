@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.23.9](https://github.com/commenthol/date-holidays/compare/3.23.8...3.23.9) (2024-02-29)
+
+- fix(SG): Vesak Day 2024 [8940db8f](https://github.com/commenthol/date-holidays/commit/8940db8fb9c2e3a4b23fc57258da1397244ed1cf)
+- fix(SG): Hari Raya Haji day 2024 [a33ff72a](https://github.com/commenthol/date-holidays/commit/a33ff72a1b803f59b2ff1c8cea755d053a285ccc)
+
 ## [3.23.8](https://github.com/commenthol/date-holidays/compare/3.23.7...3.23.8) (2024-02-08)
 
 - fix(AT,#455): josefitag set to type school [8adc4b72](https://github.com/commenthol/date-holidays/commit/8adc4b7239bbd79d401544298ffcb26277592c08)
