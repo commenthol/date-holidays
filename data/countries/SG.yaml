@@ -70,12 +70,15 @@ holidays:
           en: Hari Raya Haji
         # Revision from SG gov
         # @source https://www.humanresourcesonline.net/singapore-s-revised-public-holiday-list-for-2022-new-dates-for-hari-raya-puasa-and-haji
+        # https://www.mom.gov.sg/employment-practices/public-holidays
         disable:
           - "2022-07-09"
           - "2023-06-28"
+          - "2024-06-29"
         enable:
           - "2022-07-10"
           - "2023-06-29"
+          - "2024-06-17"
       # @attrib https://en.wikipedia.org/wiki/Vesak
       # date if sunday then next monday
       "2001-05-07":
@@ -132,7 +135,8 @@ holidays:
       # @source https://www.mom.gov.sg/newsroom/press-releases/2022/0929-revised-date-for-vesak-day-2023#:~:text=Revised%20Date%20for%20Vesak%20Day%20in%202023&text=1%20Following%20the%20Singapore%20Buddhist,public%20holiday%20for%20Vesak%20Day .
       "2023-06-02":
         _name: Vesak
-      "2024-05-23":
+      # https://www.mom.gov.sg/employment-practices/public-holidays
+      "2024-05-22":
         _name: Vesak
       # Deepavali
       # date if sunday then next monday
