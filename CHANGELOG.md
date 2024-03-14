@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.23.10](https://github.com/commenthol/date-holidays/compare/3.23.9...3.23.11) (2024-03-14)
+
+- fix(HU,#464): update the name of the public holiday on March 15 [3d594188](https://github.com/commenthol/date-holidays/commit/3d5941884867a4f000203efde80784dc295c7ec5)
+
 ## [3.23.9](https://github.com/commenthol/date-holidays/compare/3.23.8...3.23.9) (2024-02-29)
 
 - fix(SG): Vesak Day 2024 [8940db8f](https://github.com/commenthol/date-holidays/commit/8940db8fb9c2e3a4b23fc57258da1397244ed1cf)
