@@ -548,7 +548,7 @@ holidays:
           1st monday before 09-01:
             name:
               en: Summer bank holiday
-        regions: {}
+        # regions:
         # AGY:
         #   name: Anglesey
         # BGE:
