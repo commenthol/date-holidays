@@ -9,7 +9,7 @@ declare module 'date-holidays' {
       region?: string;
     }
 
-    export type HolidayType = 'public' | 'bank' | 'optional' | 'school' | 'observance' | string;
+    export type HolidayType = 'public' | 'bank' | 'optional' | 'school' | 'observance';
 
     export interface Options {
       /** languages using ISO 639-1 shortcodes */
