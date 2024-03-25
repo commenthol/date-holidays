@@ -95,3 +95,8 @@ holidays:
         # @source https://www.sanews.gov.za/south-africa/president-ramaphosa-declares-15-december-public-holiday
         name:
           en: Rugby World Cup Win Public Holiday
+      "2024-05-29":
+        # @source https://www.thepresidency.gov.za/president-proclaims-election-date-and-public-holiday
+        # @source https://www.gov.za/documents/notices/public-holidays-act-declaration-29-may-2024-public-holiday-23-feb-2024
+        name:
+          en: Voting Day
