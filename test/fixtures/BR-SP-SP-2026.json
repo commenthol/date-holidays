@@ -76,7 +76,7 @@
     "start": "2026-06-04T03:00:00.000Z",
     "end": "2026-06-05T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
   },

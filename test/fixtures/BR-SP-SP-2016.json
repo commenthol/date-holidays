@@ -76,7 +76,7 @@
     "start": "2016-05-26T03:00:00.000Z",
     "end": "2016-05-27T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
   },
