@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.23.11](https://github.com/commenthol/date-holidays/compare/3.23.10...3.23.11) (2024-04-17)
+
+- add corpus christi holiday in São Paulo, SP, BR [7cedeeb8](https://github.com/commenthol/date-holidays/commit/7cedeeb8a8dcde71cf4eeedda7ecefec723ee2c6)
+- Add Voting Day to ZA-2024.json [23580f19](https://github.com/commenthol/date-holidays/commit/23580f19a2bef807ed8c04657d83bb28313643ba)
+- chore: run yaml before build [1ee2e823](https://github.com/commenthol/date-holidays/commit/1ee2e8239ce444ff1f0354be5430c0a9da9e47dd)
+- Remove `string` from HolidayType, so that autocomplete works [3d00852a](https://github.com/commenthol/date-holidays/commit/3d00852a5f250e2340bd2c597406d5509bc689f2)
+- Added ZA public holiday for Voting Day on May 29, 2024 [bfae8b17](https://github.com/commenthol/date-holidays/commit/bfae8b17d74918f341ac2af409c3ed03def35fd4)
+
 ## [3.23.10](https://github.com/commenthol/date-holidays/compare/3.23.9...3.23.11) (2024-03-14)
 
 - fix(HU,#464): update the name of the public holiday on March 15 [3d594188](https://github.com/commenthol/date-holidays/commit/3d5941884867a4f000203efde80784dc295c7ec5)
