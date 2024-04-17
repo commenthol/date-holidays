@@ -85,7 +85,7 @@
     "start": "2022-06-16T03:00:00.000Z",
     "end": "2022-06-17T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
   },

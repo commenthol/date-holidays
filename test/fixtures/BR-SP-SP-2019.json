@@ -85,7 +85,7 @@
     "start": "2019-06-20T03:00:00.000Z",
     "end": "2019-06-21T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
   },

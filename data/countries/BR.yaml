@@ -471,6 +471,9 @@ holidays:
           SP:
             name: São Paulo
             days:
+              easter 60:
+                _name: easter 60
+                type: public
               01-25:
                 name:
                   pt: Aniversário da Cidade
