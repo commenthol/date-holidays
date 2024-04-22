@@ -9,6 +9,7 @@ holidays:
     names:
       nl: Nederland
       en: Netherlands
+      de: Niederlande
     dayoff: sunday
     langs:
       - nl
@@ -30,23 +31,29 @@ holidays:
         name:
           nl: Koningsdag
           en: King's Day
+          de: Königstag
       04-30 if sunday then next monday since 1949 and prior to 1980:
         name:
           nl: Koninginnedag
           en: Queen's Day
+          de: Königinnentag
       04-30 if sunday then previous saturday since 1980 and prior to 2014:
         name:
           nl: Koninginnedag
           en: Queen's Day
+          de: Königinnentag
       05-04:
         name:
           nl: Nationale Dodenherdenking
+          en: Remembrance of the Dead
+          de: Nationaler Totengedenktag
         type: observance
       # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/bevrijdingsdag-5-mei-vrije-dag
       05-05:
         name:
           nl: Bevrijdingsdag
           en: Liberation Day
+          de: Befreiungstag
         type: school
       2nd sunday in May:
         _name: Mothers Day
@@ -56,6 +63,8 @@ holidays:
         _name: easter 39
         name:
           nl: Hemelvaartsdag
+          en: Ascension Day
+          de: Christi Himmelfahrt
       easter 49:
         _name: easter 49
       # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/is-tweede-pinksterdag-een-vrije-dag
@@ -68,14 +77,17 @@ holidays:
         name:
           nl: Princessedag
           en: Princess Day
+          de: Prinzessinnentag
       08-31 since 1891 and prior to 1949:
         name:
           nl: Koninginnedag
           en: Queen's Day
+          de: Königinnentag
       3rd tuesday in September:
         name:
           nl: Prinsjesdag
           en: Prince's Day
+          de: Prinzentag
         note: Scholen in Den Haag geven meestal 1 dag vrij
         type: observance
       11-11:
@@ -85,11 +97,13 @@ holidays:
         name:
           nl: Sinterklaasavond
           en: St Nicholas' Eve
+          de: Nikolausabend
         type: observance
       12-15:
         name:
           nl: Koninkrijksdag
           en: Kingdom Day
+          de: Königreichstag
         type: observance
       12-25:
         _name: 12-25

@@ -1,5 +1,7 @@
 # Changelog
 
+- improved Dutch translations
+
 ## [3.23.11](https://github.com/commenthol/date-holidays/compare/3.23.10...3.23.11) (2024-04-17)
 
 - add corpus christi holiday in São Paulo, SP, BR [7cedeeb8](https://github.com/commenthol/date-holidays/commit/7cedeeb8a8dcde71cf4eeedda7ecefec723ee2c6)
