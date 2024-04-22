@@ -297,10 +297,12 @@ names:
       lt: Vėlinės
   11-11:
     name:
-      en: Saint Martin
-      de: Sankt Martin (Faschingsbeginn)
+      en: Saint Martin's Day
+      de: Martinstag
+      es: Fiesta de San Martín
+      fr: Saint-Martin
       hu: Márton nap
-      nl: Sint Maarten
+      nl: Sint-Maarten
       vi: Lễ thánh Martin
   12-06:
     name:
@@ -1009,6 +1011,8 @@ names:
   Fathers Day:
     name:
       en: Father's Day
+      de: Vaterdag
+      es: Día del Padre
       et: isadepäev
       fi: Isänpäivä
       fr: Fête des Pères
