@@ -295,6 +295,13 @@ names:
       pt: Dia de Finados
       vi: Lễ Các Đẳng
       lt: Vėlinės
+  10-04:
+    name:
+      en: World Animal Day
+      de: Welttierschutztag
+      es: Día de los Animales
+      fr: Journée mondiale des Animaux
+      nl: Dierendag
   11-11:
     name:
       en: Saint Martin
