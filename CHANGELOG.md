@@ -1,7 +1,10 @@
 # Changelog
 
-- improved Dutch translations
-- added World Animal Day
+## [3.23.12](https://github.com/commenthol/date-holidays/compare/3.23.11...3.23.12) (2024-05-04)
+
+- test(BQ,CW,SR): fix fixtures [70dbb2d3](https://github.com/commenthol/date-holidays/commit/70dbb2d3142566cf1580be37159f08439713e7c2)
+- fix(NL): improved Dutch translations [b6ae4901](https://github.com/commenthol/date-holidays/commit/b6ae4901248d137f1e8335ce066d83c2baed0198)
+- fix(names): added World Animal Day [38de6fda](https://github.com/commenthol/date-holidays/commit/38de6fda1d56cf537d92b33aa96c52052ea9478a)
 
 ## [3.23.11](https://github.com/commenthol/date-holidays/compare/3.23.10...3.23.11) (2024-04-17)
 
