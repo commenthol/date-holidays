@@ -195,7 +195,8 @@ names:
       uk: День міжнародної солідарності трудящих
       vi: Quốc tế Lao động
       zh: 劳动节
-  05-09:
+  05-09: # Europe Day
+    # @source https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27Europe_(Union_europ%C3%A9enne)
     name:
       en: Europe Day
       bg: Денят на Европа
