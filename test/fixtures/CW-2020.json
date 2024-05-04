@@ -12,7 +12,7 @@
     "date": "2020-02-24 00:00:00",
     "start": "2020-02-24T04:00:00.000Z",
     "end": "2020-02-25T04:00:00.000Z",
-    "name": "Carnavalmaandag",
+    "name": "Carnavalsmaandag",
     "type": "public",
     "rule": "easter -48",
     "_weekday": "Mon"

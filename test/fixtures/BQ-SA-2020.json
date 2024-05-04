@@ -84,7 +84,7 @@
     "date": "2020-08-03 00:00:00",
     "start": "2020-08-03T04:00:00.000Z",
     "end": "2020-08-04T04:00:00.000Z",
-    "name": "Carnavalmaandag",
+    "name": "Carnavalsmaandag",
     "type": "public",
     "rule": "1st monday in August",
     "_weekday": "Mon"

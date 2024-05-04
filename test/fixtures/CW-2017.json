@@ -12,7 +12,7 @@
     "date": "2017-02-27 00:00:00",
     "start": "2017-02-27T04:00:00.000Z",
     "end": "2017-02-28T04:00:00.000Z",
-    "name": "Carnavalmaandag",
+    "name": "Carnavalsmaandag",
     "type": "public",
     "rule": "easter -48",
     "_weekday": "Mon"
