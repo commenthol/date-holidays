@@ -1,5 +1,6 @@
 # Changelog
 
+- improved Dutch translations
 - added World Animal Day
 
 ## [3.23.11](https://github.com/commenthol/date-holidays/compare/3.23.10...3.23.11) (2024-04-17)
