@@ -6,7 +6,13 @@ holidays:
     zones:
       - Asia/Kolkata
     dayoff: ''
-    days: {}
+    days:
+      01-26:
+        name: Republic Day
+      08-15:
+        name: Independence Day
+      10-02:
+        name: Gandhi Jayanti
     states:
       AN:
         name: Andaman and Nicobar Islands
