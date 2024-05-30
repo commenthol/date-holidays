@@ -8,11 +8,11 @@ holidays:
     dayoff: ''
     days:
       01-26:
-        name: Republic Day
+        _name: Republic Day
       08-15:
-        name: Independence Day
+        _name: Independence Day
       10-02:
-        name: Gandhi Jayanti
+        _name: Gandhi Jayanti
     states:
       AN:
         name: Andaman and Nicobar Islands
