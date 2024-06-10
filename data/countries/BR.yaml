@@ -50,11 +50,6 @@ holidays:
       easter 60:
         _name: easter 60
         type: optional
-      06-12:
-        name:
-          pt: Dia dos Namorados
-          en: Lovers' Day
-        type: observance
       2nd sunday in August:
         _name: Fathers Day
         type: observance
