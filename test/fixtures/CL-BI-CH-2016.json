@@ -45,15 +45,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2016-06-20 00:00:00",
-    "start": "2016-06-20T04:00:00.000Z",
-    "end": "2016-06-21T04:00:00.000Z",
-    "name": "Día de los Pueblos Indígenas",
-    "type": "public",
-    "rule": "june solstice in America/Santiago",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2016-06-27 00:00:00",
     "start": "2016-06-27T04:00:00.000Z",
     "end": "2016-06-28T04:00:00.000Z",

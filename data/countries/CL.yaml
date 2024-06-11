@@ -27,7 +27,11 @@ holidays:
         name:
           en: Navy Day
           es: Día de las Glorias Navales
-      june solstice in America/Santiago:
+      06-21 since 2021 prior to 2022:
+        name:
+          en: Indigenous People's Day
+          es: Día de los Pueblos Indígenas
+      june solstice in America/Santiago since 2022:
         name:
           en: Indigenous People's Day
           es: Día de los Pueblos Indígenas

@@ -50,7 +50,7 @@
     "end": "2024-06-21T04:00:00.000Z",
     "name": "Día de los Pueblos Indígenas",
     "type": "public",
-    "rule": "june solstice in America/Santiago",
+    "rule": "june solstice in America/Santiago since 2022",
     "_weekday": "Thu"
   },
   {
