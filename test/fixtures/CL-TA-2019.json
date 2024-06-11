@@ -45,6 +45,15 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2019-06-21 00:00:00",
+    "start": "2019-06-21T04:00:00.000Z",
+    "end": "2019-06-22T04:00:00.000Z",
+    "name": "Día de los Pueblos Indígenas",
+    "type": "public",
+    "rule": "june solstice in America/Santiago",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2019-06-29 00:00:00",
     "start": "2019-06-29T04:00:00.000Z",
     "end": "2019-06-30T04:00:00.000Z",
