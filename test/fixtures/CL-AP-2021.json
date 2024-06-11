@@ -54,6 +54,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-06-21 00:00:00",
+    "start": "2021-06-21T04:00:00.000Z",
+    "end": "2021-06-22T04:00:00.000Z",
+    "name": "Día de los Pueblos Indígenas",
+    "type": "public",
+    "rule": "06-21 since 2021 prior to 2022",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2021-06-28 00:00:00",
     "start": "2021-06-28T04:00:00.000Z",
     "end": "2021-06-29T04:00:00.000Z",

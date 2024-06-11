@@ -45,13 +45,13 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2025-06-21 00:00:00",
-    "start": "2025-06-21T04:00:00.000Z",
-    "end": "2025-06-22T04:00:00.000Z",
+    "date": "2025-06-20 00:00:00",
+    "start": "2025-06-20T04:00:00.000Z",
+    "end": "2025-06-21T04:00:00.000Z",
     "name": "Día de los Pueblos Indígenas",
     "type": "public",
-    "rule": "06-21 since 2023",
-    "_weekday": "Sat"
+    "rule": "june solstice in America/Santiago since 2022",
+    "_weekday": "Fri"
   },
   {
     "date": "2025-06-29 00:00:00",
