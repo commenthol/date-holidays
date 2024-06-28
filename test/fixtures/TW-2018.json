@@ -84,18 +84,18 @@
     "date": "2018-03-02 00:00:00",
     "start": "2018-03-01T16:00:00.000Z",
     "end": "2018-03-02T16:00:00.000Z",
-    "name": "元宵節",
+    "name": "觀光節",
     "type": "observance",
-    "rule": "chinese 01-0-15",
+    "rule": "chinese 01-0-15 #1",
     "_weekday": "Fri"
   },
   {
     "date": "2018-03-02 00:00:00",
     "start": "2018-03-01T16:00:00.000Z",
     "end": "2018-03-02T16:00:00.000Z",
-    "name": "觀光節",
+    "name": "元宵節",
     "type": "observance",
-    "rule": "chinese 01-0-15 #1",
+    "rule": "chinese 01-0-15",
     "_weekday": "Fri"
   },
   {
@@ -138,18 +138,18 @@
     "date": "2018-04-04 00:00:00",
     "start": "2018-04-03T16:00:00.000Z",
     "end": "2018-04-04T16:00:00.000Z",
-    "name": "兒童節",
-    "type": "public",
-    "rule": "04-04 and if Sunday then next Monday",
+    "name": "觀音誕辰",
+    "type": "observance",
+    "rule": "chinese 02-0-19",
     "_weekday": "Wed"
   },
   {
     "date": "2018-04-04 00:00:00",
     "start": "2018-04-03T16:00:00.000Z",
     "end": "2018-04-04T16:00:00.000Z",
-    "name": "觀音誕辰",
-    "type": "observance",
-    "rule": "chinese 02-0-19",
+    "name": "兒童節",
+    "type": "public",
+    "rule": "04-04 and if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -238,18 +238,18 @@
     "date": "2018-06-26 00:00:00",
     "start": "2018-06-25T16:00:00.000Z",
     "end": "2018-06-26T16:00:00.000Z",
-    "name": "城隍爺誕辰",
+    "name": "關公誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13 #1",
+    "rule": "chinese 05-0-13",
     "_weekday": "Tue"
   },
   {
     "date": "2018-06-26 00:00:00",
     "start": "2018-06-25T16:00:00.000Z",
     "end": "2018-06-26T16:00:00.000Z",
-    "name": "關公誕辰",
+    "name": "城隍爺誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13",
+    "rule": "chinese 05-0-13 #1",
     "_weekday": "Tue"
   },
   {
