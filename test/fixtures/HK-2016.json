@@ -176,19 +176,19 @@
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T16:00:00.000Z",
     "end": "2016-12-26T16:00:00.000Z",
-    "name": "圣诞节后的第一个工作日",
+    "name": "聖誕節 (更换日)",
     "type": "public",
-    "rule": "12-26 and if Sunday then next Monday if Monday then next Tuesday",
+    "substitute": true,
+    "rule": "12-25 and if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
     "date": "2016-12-26 00:00:00",
     "start": "2016-12-25T16:00:00.000Z",
     "end": "2016-12-26T16:00:00.000Z",
-    "name": "聖誕節 (更换日)",
+    "name": "圣诞节后的第一个工作日",
     "type": "public",
-    "substitute": true,
-    "rule": "12-25 and if Sunday then next Monday",
+    "rule": "12-26 and if Sunday then next Monday if Monday then next Tuesday",
     "_weekday": "Mon"
   },
   {

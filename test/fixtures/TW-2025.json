@@ -75,18 +75,18 @@
     "date": "2025-02-12 00:00:00",
     "start": "2025-02-11T16:00:00.000Z",
     "end": "2025-02-12T16:00:00.000Z",
-    "name": "元宵節",
+    "name": "觀光節",
     "type": "observance",
-    "rule": "chinese 01-0-15",
+    "rule": "chinese 01-0-15 #1",
     "_weekday": "Wed"
   },
   {
     "date": "2025-02-12 00:00:00",
     "start": "2025-02-11T16:00:00.000Z",
     "end": "2025-02-12T16:00:00.000Z",
-    "name": "觀光節",
+    "name": "元宵節",
     "type": "observance",
-    "rule": "chinese 01-0-15 #1",
+    "rule": "chinese 01-0-15",
     "_weekday": "Wed"
   },
   {
@@ -238,18 +238,18 @@
     "date": "2025-06-08 00:00:00",
     "start": "2025-06-07T16:00:00.000Z",
     "end": "2025-06-08T16:00:00.000Z",
-    "name": "城隍爺誕辰",
+    "name": "關公誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13 #1",
+    "rule": "chinese 05-0-13",
     "_weekday": "Sun"
   },
   {
     "date": "2025-06-08 00:00:00",
     "start": "2025-06-07T16:00:00.000Z",
     "end": "2025-06-08T16:00:00.000Z",
-    "name": "關公誕辰",
+    "name": "城隍爺誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13",
+    "rule": "chinese 05-0-13 #1",
     "_weekday": "Sun"
   },
   {

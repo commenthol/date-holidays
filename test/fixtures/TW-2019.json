@@ -75,18 +75,18 @@
     "date": "2019-02-19 00:00:00",
     "start": "2019-02-18T16:00:00.000Z",
     "end": "2019-02-19T16:00:00.000Z",
-    "name": "元宵節",
+    "name": "觀光節",
     "type": "observance",
-    "rule": "chinese 01-0-15",
+    "rule": "chinese 01-0-15 #1",
     "_weekday": "Tue"
   },
   {
     "date": "2019-02-19 00:00:00",
     "start": "2019-02-18T16:00:00.000Z",
     "end": "2019-02-19T16:00:00.000Z",
-    "name": "觀光節",
+    "name": "元宵節",
     "type": "observance",
-    "rule": "chinese 01-0-15 #1",
+    "rule": "chinese 01-0-15",
     "_weekday": "Tue"
   },
   {
@@ -102,18 +102,18 @@
     "date": "2019-03-08 00:00:00",
     "start": "2019-03-07T16:00:00.000Z",
     "end": "2019-03-08T16:00:00.000Z",
-    "name": "国际妇女节",
+    "name": "土地公誕辰",
     "type": "observance",
-    "rule": "03-08",
+    "rule": "chinese 02-0-02",
     "_weekday": "Fri"
   },
   {
     "date": "2019-03-08 00:00:00",
     "start": "2019-03-07T16:00:00.000Z",
     "end": "2019-03-08T16:00:00.000Z",
-    "name": "土地公誕辰",
+    "name": "国际妇女节",
     "type": "observance",
-    "rule": "chinese 02-0-02",
+    "rule": "03-08",
     "_weekday": "Fri"
   },
   {
@@ -202,18 +202,18 @@
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-11T16:00:00.000Z",
     "end": "2019-05-12T16:00:00.000Z",
-    "name": "佛誕日",
+    "name": "母親節",
     "type": "observance",
-    "rule": "chinese 04-0-08",
+    "rule": "2nd Sunday in May",
     "_weekday": "Sun"
   },
   {
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-11T16:00:00.000Z",
     "end": "2019-05-12T16:00:00.000Z",
-    "name": "母親節",
+    "name": "佛誕日",
     "type": "observance",
-    "rule": "2nd Sunday in May",
+    "rule": "chinese 04-0-08",
     "_weekday": "Sun"
   },
   {
@@ -238,18 +238,18 @@
     "date": "2019-06-15 00:00:00",
     "start": "2019-06-14T16:00:00.000Z",
     "end": "2019-06-15T16:00:00.000Z",
-    "name": "城隍爺誕辰",
+    "name": "關公誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13 #1",
+    "rule": "chinese 05-0-13",
     "_weekday": "Sat"
   },
   {
     "date": "2019-06-15 00:00:00",
     "start": "2019-06-14T16:00:00.000Z",
     "end": "2019-06-15T16:00:00.000Z",
-    "name": "關公誕辰",
+    "name": "城隍爺誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13",
+    "rule": "chinese 05-0-13 #1",
     "_weekday": "Sat"
   },
   {
