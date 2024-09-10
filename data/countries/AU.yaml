@@ -312,4 +312,8 @@ holidays:
             note: Might be on a different day; is proclaimed by Governor
             active:
               - from: "2022-09-09"
+            disable:
+              - "2024-09-30"
+            enable:
+              - "2024-09-23"
           1st monday in October: false

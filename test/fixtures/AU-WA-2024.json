@@ -81,9 +81,9 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2024-09-30 00:00:00",
-    "start": "2024-09-29T16:00:00.000Z",
-    "end": "2024-09-30T16:00:00.000Z",
+    "date": "2024-09-23 00:00:00",
+    "start": "2024-09-22T16:00:00.000Z",
+    "end": "2024-09-23T16:00:00.000Z",
     "name": "King's Birthday",
     "type": "public",
     "note": "Might be on a different day; is proclaimed by Governor",
