@@ -80,6 +80,24 @@ holidays:
         zones:
           - America/St_Barthelemy
         _days: BL
+      WF:
+        name: "Département et région d'outre-mer Wallis et Futuna"
+        zones:
+          - Pacific/Wallis
+        _days: WF
+      NC:
+        name: "Département et région d'outre-mer Nouvelle Calédonie"
+        zones:
+          - Pacific/Noumea
+        _days: NC
+      PF:
+        name: "Département et région d'outre-mer Polynésie Française"
+        zones:
+         zones:
+          - Pacific/Tahiti
+          - Pacific/Marquesas
+          - Pacific/Gambier
+        _days: PF
       # name: Alsace
       "67":
         name: Département Bas-Rhin
@@ -309,3 +327,4 @@ holidays:
       #   name: Ain
       # '07':
       #   name: Ardèche
+      

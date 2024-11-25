@@ -1,0 +1,30 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_French_Polynesia
+# @source https://www.legisocial.fr/jours-feries.html
+# @source https://publicholidays.la/saint-barthelemy/fr/2020-dates/
+//
+holidays:
+  PF:
+    names:
+      fr: Polynésie française
+      en: French Polynesia
+    langs:
+      - fr
+    zones:
+      - Pacific/Tahiti
+      - Pacific/Marquesas
+      - Pacific/Gambier
+    dayoff: ''
+    _days: FR
+    days:
+      03-05:
+        name:
+          fr: Fête de l'Autonomie
+          de: Tag der Autonomie
+          nl: Dag van de Autonomie
+          en: Internal Autonomy Day
+      06-29:
+        name:
+          fr: Arrivée de l'Evangile
+          de: Ankunft des Evangeliums
+          nl: Aankomst van het Evangelie
+          en: Missionary Day

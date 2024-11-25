@@ -1,0 +1,31 @@
+//
+holidays:
+  WF:
+    names:
+      en: Wallis & Futuna
+    langs:
+      - fr
+    zones:
+      - Pacific/Wallis
+    dayoff: ''
+    _days: FR
+    days:
+      07-29:
+        name:
+          fr: Fête du territoire
+          de: Territorialfest
+          nl: Territoriumfestival
+          en: Festival of the territory
+      04-28:
+        name:
+          fr: Saint Pierre Chanel
+          de: Fest des Heiligen Peter Chanel
+          nl: Feest van Sint-Pieter Chanel
+          en: Feast of Saint Peter Chanel
+    states:
+      AL:
+        name: Alo
+      SG:
+        name: Sigave
+      UV:
+        name: Uvea

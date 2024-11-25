@@ -1,6 +1,6 @@
+# @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#France
+# @source https://cpme.nc/informez-vous/calendriers-jours-feries
 holidays:
-  # @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#France
-  # @source https://cpme.nc/informez-vous/calendriers-jours-feries
   NC:
     names:
       fr: Nouvelle-Calédonie
