@@ -5,18 +5,18 @@ const hd = new Holidays()
 const countries = hd.getCountries()
 console.log(countries)
 
-// get supported states e.g. for US
-const states = hd.getStates('US')
+// get supported states e.g. for DE
+const states = hd.getStates('DE')
 console.log(states)
 
-// get supported regions e.g. for US, Lousiana
-const regions = hd.getRegions('US', 'la')
+// get supported regions e.g. for DE, Bayern
+const regions = hd.getRegions('DE', 'by')
 console.log(regions)
 
-// initialize holidays for US, Lousiana, New Orleans
-hd.init('US', 'la', 'no')
+// initialize holidays for DE, Bayern, Stadt Augsburg
+hd.init('DE', 'by', 'a')
 // or using a new instance
-// hd = new Holidays('US', 'la', 'no')
+// hd = nesw Holidays('DE', 'by', 'a')
 
 // get all holidays for the year 2016
 const holidays = hd.getHolidays(2016)

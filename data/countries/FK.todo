@@ -1,9 +1,0 @@
-holidays:
-  FK:
-    names:
-      en: Falkland Islands
-    langs: []
-    zones:
-      - Atlantic/Stanley
-    dayoff: ''
-    days: {}

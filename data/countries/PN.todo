@@ -1,9 +1,0 @@
-holidays:
-  PN:
-    names:
-      en: Pitcairn Islands
-    langs: []
-    zones:
-      - Pacific/Pitcairn
-    dayoff: ''
-    days: {}

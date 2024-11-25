@@ -56,185 +56,12 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 197
-├── AD: Andorra
-│   └── 07: Andorra la Vella
-├── AE: دولة الإمارات العربية المتحدة
-├── AG: Antigua & Barbuda
-│   └── 10: Barbuda
-├── AI: Anguilla
-├── AL: Shqipëri
-├── AM: Հայաստան
-├── AO: Angola
-├── AR: Argentina
-├── AS: American Samoa
-├── AT: Österreich
-│   ├── 1: Burgenland
-│   ├── 2: Kärnten
-│   ├── 3: Niederösterreich
-│   ├── 4: Oberösterreich
-│   ├── 5: Land Salzburg
-│   ├── 6: Steiermark
-│   ├── 7: Tirol
-│   ├── 8: Vorarlberg
-│   └── 9: Wien
-├── AU: Australia
-│   ├── ACT: Australian Capital Territory
-│   ├── NSW: New South Wales
-│   ├── NT: Northern Territory
-│   ├── QLD: Queensland
-│   ├── SA: South Australia
-│   ├── TAS: Tasmania
-│   ├── VIC: Victoria
-│   └── WA: Western Australia
-├── AW: Aruba
-├── AX: Landskapet Åland
-├── AZ: Azərbaycan Respublikası
-├── BA: Bosna i Hercegovina
-│   ├── BIH: Federation of Bosnia and Herzegovina
-│   │   └── W: Western Herzegovina
-│   ├── BRC: Brčko District
-│   └── SRP: Republika Srpska
-├── BB: Barbados
-├── BD: গণপ্রজাতন্ত্রী বাংলাদেশ
+Countries: 3
 ├── BE: Belgique
 │   ├── BRU: Bruxelles
 │   ├── DE: Deutschsprachige Gemeinschaft
 │   ├── VLG: Vlaamse Gemeenschap
 │   └── WAL: Communauté française
-├── BF: Burkina Faso
-├── BG: България
-├── BH: مملكة البحرين
-├── BI: République du Burundi
-├── BJ: République du Bénin
-├── BL: St. Barthélemy
-├── BM: Bermuda
-├── BN: Negara Brunei Darussalam
-├── BO: Bolivia
-│   ├── B: Beni
-│   ├── C: Cochabamba
-│   ├── H: Chuquisaca
-│   ├── L: La Paz
-│   ├── N: Pando
-│   ├── O: Oruro
-│   ├── P: Potosí
-│   ├── S: Santa Cruz
-│   └── T: Tarija
-├── BQ: Caribisch Nederland
-│   ├── BO: Bonaire
-│   ├── SA: Saba
-│   └── SE: Sint Eustatius
-├── BR: Brasil
-│   ├── AC: Acre
-│   ├── AL: Alagoas
-│   ├── AM: Amazonas
-│   ├── AP: Amapá
-│   ├── BA: Bahia
-│   ├── CE: Ceará
-│   ├── DF: Distrito Federal
-│   ├── MA: Maranhão
-│   ├── MG: Minas Gerais
-│   │   └── BH: Belo Horizonte
-│   ├── MS: Mato Grosso do Sul
-│   ├── MT: Mato Grosso
-│   ├── PA: Pará
-│   ├── PB: Paraíba
-│   ├── PE: Pernambuco
-│   │   └── RE: Recife
-│   ├── PI: Piauí
-│   ├── PR: Paraná
-│   │   └── CU: Curitiba
-│   ├── RJ: Rio de Janeiro
-│   │   └── RJ: Rio de Janeiro
-│   ├── RN: Rio Grande do Norte
-│   ├── RO: Rondônia
-│   ├── RR: Roraima
-│   ├── RS: Rio Grande do Sul
-│   ├── SC: Santa Catarina
-│   ├── SE: Sergipe
-│   ├── SP: São Paulo
-│   │   └── SP: São Paulo
-│   └── TO: Tocantins
-├── BS: Bahamas
-├── BW: Botswana
-├── BY: Рэспубліка Беларусь
-├── BZ: Belize
-├── CA: Canada
-│   ├── AB: Alberta
-│   ├── BC: British Columbia
-│   ├── MB: Manitoba
-│   ├── NB: New Brunswick
-│   ├── NL: Newfoundland and Labrador
-│   ├── NS: Nova Scotia
-│   ├── NT: Northwest Territories
-│   ├── NU: Nunavut
-│   ├── ON: Ontario
-│   ├── PE: Prince Edward Island
-│   ├── QC: Quebec
-│   ├── SK: Saskatchewan
-│   └── YT: Yukon
-├── CC: Cocos (Keeling) Islands
-├── CD: République démocratique du Congo
-├── CF: République centrafricaine
-├── CG: République du Congo
-├── CH: Schweiz
-│   ├── ZH: Kanton Zürich
-│   ├── BE: Kanton Bern
-│   ├── LU: Kanton Luzern
-│   ├── UR: Kanton Uri
-│   ├── SZ: Kanton Schwyz
-│   ├── OW: Kanton Obwalden
-│   ├── NW: Kanton Nidwalden
-│   ├── GL: Kanton Glarus
-│   ├── ZG: Kanton Zug
-│   ├── FR: Canton de Fribourg
-│   ├── SO: Kanton Solothurn
-│   ├── BS: Kanton Basel-Stadt
-│   ├── BL: Kanton Basel-Landschaft
-│   ├── SH: Kanton Schaffhausen
-│   ├── AR: Kanton Appenzell Ausserrhoden
-│   ├── AI: Kanton Appenzell Innerrhoden
-│   ├── SG: Kanton St. Gallen
-│   ├── GR: Kanton Graubünden
-│   ├── AG: Kanton Aargau
-│   ├── TG: Kanton Thurgau
-│   ├── TI: Canton Ticino
-│   ├── VD: Canton de Vaud
-│   ├── VS: Canton du Valais
-│   ├── NE: Canton de Neuchâtel
-│   ├── GE: Canton de Genève
-│   └── JU: Canton du Jura
-├── CI: République de Côte d'Ivoire
-├── CK: Cook Islands
-│   ├── Aitutaki: Aitutaki
-│   ├── Atiu: Atiu
-│   ├── Mangaia: Mangaia
-│   ├── Manihiki: Manihiki
-│   ├── Mitiaro: Mitiaro
-│   ├── Palmerston: Palmerston
-│   ├── Penrhyn: Penrhyn
-│   ├── Pukapuka: Pukapuka
-│   ├── Rakahanga: Rakahanga
-│   └── Rarotonga: Rarotonga
-├── CL: Chile
-│   ├── AP: Arica y Parinacota
-│   ├── BI: Biobío
-│   │   └── CH: Chillán y Chillán Viejo
-│   ├── NU: Ñuble
-│   │   └── CH: Chillán y Chillán Viejo
-│   └── TA: Tarapacá
-├── CM: Cameroun
-├── CN: 中华人民共和国
-├── CO: Colombia
-├── CR: Costa Rica
-├── CU: Cuba
-├── CV: República de Cabo Verde
-│   └── S: Sotavento Islands
-│       └── PR: Praia
-├── CW: Curaçao
-├── CX: Christmas Island
-├── CY: Κύπρος
-├── CZ: Česká republika
 ├── DE: Deutschland
 │   ├── BB: Brandenburg
 │   ├── BE: Berlin
@@ -258,49 +85,6 @@ Countries: 197
 │       ├── EIC: Landkreis Eichfeld
 │       ├── UH: Unstrut-Hainich-Kreis
 │       └── WAK: Wartburgkreis
-├── DJ: République de Djibouti
-├── DK: Danmark
-├── DM: Dominica
-├── DO: República Dominicana
-├── DZ: الجمهورية الجزائرية الديمقراطية الشعبية
-├── EC: Ecuador
-│   └── P: Pichincha
-│       └── QU: Quito
-├── EE: Eesti
-├── EG: جمهورية مصر العربية
-├── EH: الجمهورية العربية الصحراوية الديمقراطية
-├── ER: Eritrea
-├── ES: España
-│   ├── AN: Andalucía
-│   ├── AR: Aragón
-│   ├── AS: Asturias
-│   ├── CB: Cantabria
-│   ├── CE: Ciudad de Ceuta
-│   ├── CL: Castilla y León
-│   ├── CM: Castile-La Mancha
-│   ├── CN: Islas Canarias
-│   │   ├── EH: El Hierro
-│   │   ├── FU: Fuerteventura
-│   │   ├── GC: Gran Canaria
-│   │   ├── LG: La Gomera
-│   │   ├── LP: La Palma
-│   │   ├── LA: Lanzarote
-│   │   └── TE: Tenerife
-│   ├── CT: Cataluña
-│   ├── EX: Extremadura
-│   ├── GA: Galicia
-│   ├── IB: Illes Balears
-│   ├── MC: Murcia Region
-│   ├── MD: Comunidad de Madrid
-│   ├── ML: Ciudad de Melilla
-│   ├── NC: Comunidad Foral de Navarra
-│   ├── PV: País Vasco
-│   ├── RI: La Rioja
-│   └── VC: Comunitat Valenciana
-├── ET: ኢትዮጵያ
-├── FI: Suomi
-├── FJ: Matanitu Tugalala o Viti
-├── FO: Føroyar
 ├── FR: France
 │   ├── 57: Département Moselle
 │   ├── 67: Département Bas-Rhin
@@ -311,260 +95,7 @@ Countries: 197
 │   ├── GF: Département et région d'outre-mer Guyane
 │   ├── RE: Département et région d'outre-mer La Réunion
 │   ├── MF: Département et région d'outre-mer Saint Martin
-│   └── BL: Département et région d'outre-mer Saint Barthélemy
-├── GA: Gabon
-├── GB: United Kingdom
-│   ├── ALD: Alderney
-│   ├── ENG: England
-│   ├── NIR: Northern Ireland
-│   ├── SCT: Scotland
-│   └── WLS: Wales
-├── GD: Grenada
-├── GE: საქართველო
-├── GF: Guyane
-├── GG: Guernsey
-├── GH: Ghana
-├── GI: Gibraltar
-├── GL: Kalaallit Nunaat
-├── GM: The Gambia
-├── GN: Guinée
-├── GP: Guadeloupe
-├── GQ: República de Guinea Ecuatorial
-├── GR: Ελλάδα
-├── GT: Guatemala
-├── GU: Guam
-├── GW: Guiné-Bissau
-├── GY: Guyana
-├── HK: 香港
-├── HN: Honduras
-├── HR: Hrvatska
-│   ├── 17: Split-Dalmatia
-│   └── 19: Dubrovnik-Neretva
-├── HT: Haïti
-├── HU: Magyarország
-├── IC: Islas Canarias
-│   ├── EH: El Hierro
-│   ├── FU: Fuerteventura
-│   ├── GC: Gran Canaria
-│   ├── LG: La Gomera
-│   ├── LP: La Palma
-│   ├── LA: Lanzarote
-│   └── TE: Tenerife
-├── ID: Indonesia
-├── IE: Ireland
-├── IL: מְדִינַת יִשְׂרָאֵל
-├── IM: Isle of Man
-├── IR: جمهوری اسلامی ایران
-├── IS: Ísland
-├── IT: Italia
-│   ├── 25: Lombardy
-│   │   └── MI: Milan
-│   └── 32: Südtirol, Alto Adige
-├── JE: Jersey
-├── JM: Jamaica
-├── JP: 日本
-├── KE: Kenya
-├── KM: Union des Comores
-├── KN: St. Kitts & Nevis
-├── KR: 대한민국
-├── KY: Cayman Islands
-├── LC: St. Lucia
-├── LI: Lichtenstein
-├── LR: Liberia
-├── LS: \'Muso oa Lesotho
-├── LT: Lietuva
-├── LU: Luxembourg
-├── LV: Latvija
-├── LY: دولة ليبيا
-├── MA: المملكة المغربية
-├── MC: Monaco
-├── MD: Republica Moldova
-│   ├── CA: Cahul
-│   └── CU: Chișinău
-├── ME: Crna Gora
-├── MF: Saint Martin
-├── MG: Repoblikan'i Madagasikara
-├── MK: Република Македонија
-├── ML: République du Mali
-├── MQ: Martinique
-├── MR: الجمهورية الإسلامية الموريتانية
-├── MS: Montserrat
-├── MT: Malta
-├── MW: Malawi
-├── MX: México
-├── MY: Malaysia
-│   ├── 10: Selangor
-│   ├── 11: Terengganu
-│   ├── 12: Sabah
-│   ├── 13: Sarawak
-│   ├── 14: Kuala Lumpur
-│   ├── 15: Labuan
-│   ├── 16: Putrajaya
-│   ├── 01: Johor
-│   ├── 02: Kedah
-│   ├── 03: Kelantan
-│   ├── 04: Malacca
-│   ├── 05: Negeri Sembilan
-│   ├── 06: Pahang
-│   ├── 07: Penang
-│   ├── 08: Perak
-│   └── 09: Perlis
-├── MZ: Moçambique
-├── NA: Namibia
-├── NC: Nouvelle-Calédonie
-├── NE: République du Niger
-├── NG: Nigeria
-├── NI: Nicaragua
-├── NL: Nederland
-├── NO: Norge
-├── NZ: New Zealand
-│   ├── AUK: Auckland Province
-│   ├── BOP: Bay of Plenty
-│   ├── CAN: Canterbury
-│   │   └── Timaru: Timaru District
-│   ├── CIT: Chatham Islands
-│   ├── GIS: Gisborne
-│   ├── HKB: Hawke's Bay
-│   ├── MBH: Marlborough
-│   ├── MWT: Manawatu-Wanganui
-│   ├── NSN: Nelson
-│   ├── NTL: Northland
-│   ├── OTA: Otago Province
-│   ├── STL: Southland
-│   ├── TAS: Tasman
-│   ├── TKI: Taranaki
-│   ├── WKO: Waikato
-│   ├── WGN: Wellington Province
-│   └── WTC: Westland
-│       └── Buller: Buller district
-├── PA: Panamá
-├── PE: Perú
-│   └── CUS: Cuzco
-├── PH: Philippines
-├── PL: Polska
-├── PM: St. Pierre & Miquelon
-├── PR: Puerto Rico
-├── PT: Portugal
-├── PY: Paraguay
-├── RE: Réunion
-├── RO: Romania
-├── RS: Република Србија
-├── RU: Россия
-├── RW: Rwanda
-├── SC: Seychelles
-├── SD: جمهورية السودان
-├── SE: Sverige
-├── SG: Singapore
-├── SH: St. Helena
-│   ├── AC: Ascension Island
-│   ├── HL: Saint Helena
-│   └── TA: Tristan da Cunha
-├── SI: Republika Slovenija
-├── SJ: Svalbard & Jan Mayen
-├── SK: Slovenská republika
-├── SL: Sierra Leone
-├── SM: San Marino
-├── SN: République du Sénégal
-├── SO: Jamhuuriyadda Federaalka Soomaaliya
-│   ├── AW: Awdal
-│   ├── SA: Sanaag
-│   ├── SO: Sool
-│   ├── TO: Togdheer
-│   └── WO: Woqooyi Galbeed
-├── SR: Suriname
-├── SS: South Sudan
-├── ST: São Tomé & Príncipe
-├── SV: El Salvador
-│   └── SS: San Salvador
-├── SX: Sint Maarten
-├── SZ: Eswatini
-├── TC: Turks & Caicos Islands
-├── TD: جمهورية تشاد
-├── TG: République togolaise
-├── TH: Thailand
-├── TN: الجمهورية التونسية
-├── TO: Puleʻanga Fakatuʻi ʻo Tonga
-├── TR: Türkiye
-├── TT: Trinidad & Tobago
-├── TW: 中華民國
-├── TZ: Tanzania
-├── UA: Україна
-├── UG: Uganda
-├── US: United States of America
-│   ├── AL: Alabama
-│   ├── AK: Alaska
-│   ├── AZ: Arizona
-│   ├── AR: Arkansas
-│   ├── CA: California
-│   │   └── LA: Los Angeles
-│   ├── CO: Colorado
-│   ├── CT: Connecticut
-│   ├── DE: Delaware
-│   ├── DC: District of Columbia
-│   ├── FL: Florida
-│   ├── GA: Georgia
-│   ├── HI: Hawaii
-│   ├── ID: Idaho
-│   ├── IL: Illinois
-│   ├── IN: Indiana
-│   ├── IA: Iowa
-│   ├── KS: Kansas
-│   ├── KY: Kentucky
-│   ├── LA: Louisiana
-│   │   └── NO: New Orleans
-│   ├── ME: Maine
-│   ├── MD: Maryland
-│   ├── MA: Massachusetts
-│   ├── MI: Michigan
-│   ├── MN: Minnesota
-│   ├── MS: Mississippi
-│   ├── MO: Missouri
-│   ├── MT: Montana
-│   ├── NE: Nebraska
-│   ├── NV: Nevada
-│   ├── NH: New Hampshire
-│   ├── NJ: New Jersey
-│   ├── NM: New Mexico
-│   ├── NY: New York
-│   ├── NC: North Carolina
-│   ├── ND: North Dakota
-│   ├── OH: Ohio
-│   ├── OK: Oklahoma
-│   ├── OR: Oregon
-│   ├── PA: Pennsylvania
-│   ├── RI: Rhode Island
-│   ├── SC: South Carolina
-│   ├── SD: South Dakota
-│   ├── TN: Tennessee
-│   ├── TX: Texas
-│   ├── UT: Utah
-│   ├── VT: Vermont
-│   ├── VA: Virginia
-│   ├── WA: Washington
-│   ├── WV: West Virginia
-│   ├── WI: Wisconsin
-│   └── WY: Wyoming
-├── UY: Uruguay
-├── VA: Stato della Città del Vaticano
-├── VC: St. Vincent & Grenadines
-├── VE: Venezuela
-│   ├── B: Anzoátegui
-│   ├── G: Carabobo
-│   ├── K: Lara
-│   │   └── BA: Barquisimeto
-│   ├── M: Miranda
-│   ├── N: Monagas
-│   ├── S: Táchira
-│   └── V: Zulia
-├── VG: British Virgin Islands
-├── VI: U.S. Virgin Islands
-├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
-├── VU: République de Vanuatu
-├── XK: Republika e Kosovës
-├── YT: Mayotte
-├── ZA: South Africa
-├── ZM: Zambia
-└── ZW: Zimbabwe
+│── └── BL: Département et région d'outre-mer Saint Barthélemy
 ```
 <!-- tree! -->
 
@@ -583,48 +114,56 @@ hd.getCountries()
 */
 
 // get supported states e.g. for US
-hd.getStates('US')
+hd.getStates('DE')
 /*>
-{ al: 'Alabama',
+{  BY: 'Bayern', 
   ...
-  wy: 'Wyoming' }
+  TH: 'Thüringen'
+}
 */
 
-// get supported regions e.g. for US, Lousiana
-hd.getRegions('US', 'la')
+// get supported regions e.g. for DE, Bayern
+hd.getRegions('DE', 'by')
 /*>
-{ no: 'New Orleans' }
+{ A: 'Stadt Augsburg',
+  EVANG: 'Überwiegend evangelische Gemeinden' 
+}
 */
 
-// initialize holidays for US, Lousiana, New Orleans
-hd.init('US', 'la', 'no')
+// initialize holidays for DE, Bayern, Stadt Augsburg
+hd.init('DE', 'by', 'a')
 // or using a new instance
-hd = new Holidays('US', 'la', 'no')
+hd = new Holidays('DE', 'by', 'a')
 
 // get all holidays for the year 2016
 hd.getHolidays(2016)
 /*>
-[ { date: '2016-01-01 00:00:00',
-    start: Fri Jan 01 2016 00:00:00 GMT-0600 (CST),
-    end: Sat Jan 02 2016 00:00:00 GMT-0600 (CST),
-    name: 'New Year\'s Day',
-    rule: '01-01 and if sunday then next monday if saturday then previous friday',
-    type: 'public' },
+[ {
+      date: '2016-01-01 00:00:00',
+      start: 2015-12-31T23:00:00.000Z,
+      end: 2016-01-01T23:00:00.000Z,
+      name: 'Neujahr',
+      type: 'public',
+      rule: '01-01'
+    },
   ...
-  { date: '2016-11-24 00:00:00',
-    start: Thu Nov 24 2016 00:00:00 GMT-0600 (CST),
-    end: Fri Nov 25 2016 00:00:00 GMT-0600 (CST),
-    name: 'Thanksgiving Day',
-    rule: '4th thursday in November',
-    type: 'public' },
+  {
+      date: '2016-12-04 00:00:00',
+      start: 2016-12-03T23:00:00.000Z,
+      end: 2016-12-04T23:00:00.000Z,
+      name: '2. Advent',
+      type: 'observance',
+      rule: '3th sunday before 12-25'
+    },,
   ...
-  { date: '2016-12-26 00:00:00',
-    start: Mon Dec 26 2016 00:00:00 GMT-0600 (CST),
-    end: Tue Dec 27 2016 00:00:00 GMT-0600 (CST),
-    substitute: true,
-    name: 'Christmas Day (substitute day)',
-    rule: '12-25 and if sunday then next monday if saturday then previous friday',
-    type: 'public' } ]
+ {
+      date: '2016-12-31 14:00:00',
+      start: 2016-12-31T13:00:00.000Z,
+      end: 2016-12-31T23:00:00.000Z,
+      name: 'Silvester',
+      type: 'bank',
+      rule: '12-31 14:00 if sunday then 00:00'
+    } ]
 */
 
 // check if date is a holiday while respecting timezones

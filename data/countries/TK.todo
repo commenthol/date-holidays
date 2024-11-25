@@ -1,9 +1,0 @@
-holidays:
-  TK:
-    names:
-      en: Tokelau
-    langs: []
-    zones:
-      - Pacific/Fakaofo
-    dayoff: ''
-    days: {}

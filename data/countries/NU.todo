@@ -1,9 +1,0 @@
-holidays:
-  NU:
-    names:
-      en: Niue
-    langs: []
-    zones:
-      - Pacific/Niue
-    dayoff: ''
-    days: {}
