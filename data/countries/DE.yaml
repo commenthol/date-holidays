@@ -172,16 +172,22 @@ holidays:
             type: school
         regions:
           A:
-            name: Stadt Augsburg
+            names: 
+              de: Stadt Augsburg
+              en: City of Augsburg
+              fr: Ville d'Augsbourg
             days:
               08-08:
                 name:
                   de: Augsburger Friedensfest
+                  fr: Festival de la paix d'Augsbourg
+                  nl: Augsburgse Hoog Vredesfeest
                   en: Augsburg Peace Festival
           EVANG:
             names:
               de: Überwiegend evangelische Gemeinden
               en: Predominantly protestant communities
+              fr: Communautés majoritairement protestantes
             days:
               08-15:
                 _name: 08-15
@@ -290,6 +296,8 @@ holidays:
             # @source https://www.thueringer-landtag.de/service/presse/pressemitteilungen/weltkindertag-am-20-september-wird-gesetzlicher-feiertag/
             name:
               de: Weltkindertag
+              fr: Journée de l'enfance
+              nl: Kinderdag
               en: International Children's Day
             active:
               - from: 2019

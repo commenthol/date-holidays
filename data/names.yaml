@@ -999,6 +999,8 @@ names:
   Buß- und Bettag:
     name:
       de: Buß- und Bettag
+      fr: Jour de pénitence et de prières
+      nl: Boete- en Biddag
       en: Day of Prayer and Repentance
   Constitution Day:
     name:
@@ -1118,6 +1120,7 @@ names:
     name:
       en: Reformation Day
       de: Reformationstag
+      fr: Fête de la Réformation
       es: Día Nacional de las Iglesias Evangélicas y Protestantes
       nl: Hervormingsdag
       vi: Kháng Cách
