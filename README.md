@@ -722,7 +722,7 @@ Alternatively you may use the `--omit` option.
 Manually use
 
 ```bash
-npx holidays2json --pick US,CA,MX
+./scripts/holidays2json --pick US,CA,MX
 ```
 
 > **NOTE:** There are some countries which depend on data of others which
