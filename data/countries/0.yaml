@@ -1,0 +1,32 @@
+#
+# @author commenthol
+# @license CC-BY-SA-3
+#
+# For country codes check:
+# <https://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
+#
+# For country codes / divisions / subdivisions - ISO 3166-2:
+# <http://www.unicode.org/cldr/charts/30/supplemental/territory_subdivisions.html>
+#
+# For timezones:
+# <https://github.com/moment/moment-timezone/blob/develop/data/meta/latest.json>
+#
+# For language codes ISO 639-1:
+# <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>
+#
+
+# SAMPLE:
+#   names:
+#     en: name
+#   dayoff: sunday
+#   langs:
+#     - en
+#   zones:
+#     - Africa/Maputo
+#   days:
+#     01-01:
+#       _name: 01-01
+
+version: "2017-01-01"
+
+license: CC-BY-SA-3

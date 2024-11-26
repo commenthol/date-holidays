@@ -1,7 +1,6 @@
 # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_French_Polynesia
 # @source https://www.legisocial.fr/jours-feries.html
 # @source https://publicholidays.la/saint-barthelemy/fr/2020-dates/
-//
 holidays:
   PF:
     names:
