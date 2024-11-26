@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.23.13](https://github.com/commenthol/date-holidays/compare/3.23.12...3.23.13) (2024-11-26)
+
+- fix(AU): correct Kings Birthday in Western Australia for 2024 [6a81888e](https://github.com/commenthol/date-holidays/commit/6a81888e56ecab97094183578ea4fb0630e90da0)
+- fix(CL): enable june solstice holiday since 2022 [e8e98e1f](https://github.com/commenthol/date-holidays/commit/e8e98e1fc1faf65f5de2bffeb07cd23e5b244d94)
+- fix(CL): changed fixed date holiday june 21st to june solstice [b9417a8d](https://github.com/commenthol/date-holidays/commit/b9417a8d924de879fdb39a0e2305fcedf96bf287)
+- chore: add node@22 [65b10b7b](https://github.com/commenthol/date-holidays/commit/65b10b7b38585320e111696bf88a4b2461416c88)
+
 ## [3.23.12](https://github.com/commenthol/date-holidays/compare/3.23.11...3.23.12) (2024-05-04)
 
 - test(BQ,CW,SR): fix fixtures [70dbb2d3](https://github.com/commenthol/date-holidays/commit/70dbb2d3142566cf1580be37159f08439713e7c2)
