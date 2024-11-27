@@ -172,13 +172,24 @@ holidays:
       #       name: Reggio Emilia
       #     RN:
       #       name: Rimini
-      # '52':
-      #   name: Tuscany
-      #   regions:
+      "52":
+        name:
+          it: Toscana
+          en: Tuscany
+        regions:
+          FI:
+            name:
+              it: Firenze
+              en: Florence
+            days:
+              06-24:
+                name:
+                  it: San Giovanni
+                  en: Saint John
+                type: optional
+                note: patron saint of Florence
       #     AR:
       #       name: Arezzo
-      #     FI:
-      #       name: Florence
       #     GR:
       #       name: Grosseto
       #     LI:
