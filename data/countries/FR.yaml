@@ -20,6 +20,8 @@ holidays:
         name:
           fr: Fête de la Victoire 1945
           en: Victory Day
+          nl: Overwinningsdag
+          de: Tag des Sieges
       easter 39:
         _name: easter 39
       easter 49:
@@ -34,6 +36,8 @@ holidays:
         name:
           fr: Fête Nationale de la France
           en: Bastille Day
+          nl: Bastilledag
+          de: Nationalfeiertag
       08-15:
         _name: 08-15
       11-01:
@@ -42,6 +46,8 @@ holidays:
         name:
           fr: Armistice 1918
           en: Armistice Day
+          nl: Wapenstilstandsdag
+          de: Tag des Waffenstillstands
       12-25:
         _name: 12-25
     states:
