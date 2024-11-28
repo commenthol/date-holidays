@@ -1,5 +1,5 @@
 export const data = {
-  "version": "2024-11-26",
+  "version": "2024-11-28",
   "license": "CC-BY-SA-3",
   "holidays": {
     "BE": {
@@ -745,7 +745,9 @@ export const data = {
         "05-08": {
           "name": {
             "fr": "Fête de la Victoire 1945",
-            "en": "Victory Day"
+            "en": "Victory Day",
+            "nl": "Overwinningsdag",
+            "de": "Tag des Sieges"
           }
         },
         "easter 39": {
@@ -765,7 +767,9 @@ export const data = {
         "07-14": {
           "name": {
             "fr": "Fête Nationale de la France",
-            "en": "Bastille Day"
+            "en": "Bastille Day",
+            "nl": "Bastilledag",
+            "de": "Nationalfeiertag"
           }
         },
         "08-15": {
@@ -777,7 +781,9 @@ export const data = {
         "11-11": {
           "name": {
             "fr": "Armistice 1918",
-            "en": "Armistice Day"
+            "en": "Armistice Day",
+            "nl": "Wapenstilstandsdag",
+            "de": "Tag des Waffenstillstands"
           }
         },
         "12-25": {
@@ -937,7 +943,9 @@ export const data = {
         "07-21": {
           "name": {
             "fr": "Jour de Victor Shoelcher",
-            "en": "Victor Shoelcher Day"
+            "en": "Victor Shoelcher Day",
+            "nl": "Victor Schoelcher-dag",
+            "de": "Victor Schoelcher-Tag"
           }
         }
       }
@@ -959,7 +967,9 @@ export const data = {
         "05-27": {
           "name": {
             "fr": "Abolition de l'esclavage",
-            "en": "abolition of slavery"
+            "en": "abolition of slavery",
+            "nl": "afschaffing van de slavernij",
+            "de": "Abschaffung der Sklaverei"
           }
         }
       }
@@ -1014,7 +1024,9 @@ export const data = {
         "09-24": {
           "name": {
             "fr": "Fête de la Citonneyeté",
-            "en": "New Caledonia Day"
+            "en": "New Caledonia Day",
+            "nl": "Nieuw-Caledonië Dag",
+            "de": "Neukaledonien-Tag"
           }
         }
       }
@@ -2227,6 +2239,7 @@ export const data = {
         "en": "Abolition of Slavery",
         "fr": "Abolition de l’esclavage",
         "nl": "Afschaffing van de slavernij",
+        "de": "Abschaffung der Sklaverei",
         "vi": "Bãi bỏ chế độ Nô lệ"
       }
     },
