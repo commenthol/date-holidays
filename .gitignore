@@ -5,7 +5,6 @@ attic/
 dist/
 data/holidays.json
 tmp/
-lib/
 *.log
 *.tgz
 *.sh
