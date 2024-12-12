@@ -225,13 +225,13 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.4.4",
+    "date-holidays-parser": "^3.4.6",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "prepin": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.25.9",
+    "@babel/cli": "^7.26.4",
     "@babel/core": "^7.26.0",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.26.0",
@@ -255,7 +255,7 @@
     "rollup": "^2.79.2",
     "typescript": "^5.7.2",
     "watch-run": "^1.2.5",
-    "webpack": "^5.96.1",
+    "webpack": "^5.97.1",
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4"
   },
