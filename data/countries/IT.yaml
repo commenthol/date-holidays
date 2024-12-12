@@ -103,7 +103,9 @@ holidays:
           # VA:
           #   name: Varese
       "32":
-        name: Südtirol, Alto Adige
+        names:
+          de: Südtirol
+          it: Alto Adige
         days:
           easter 50:
             _name: easter 50
@@ -173,12 +175,12 @@ holidays:
       #     RN:
       #       name: Rimini
       "52":
-        name:
+        names:
           it: Toscana
           en: Tuscany
         regions:
           FI:
-            name:
+            names:
               it: Firenze
               en: Florence
             days:
