@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.24.0](https://github.com/commenthol/date-holidays/compare/3.23.13...3.24.0) (2024-12-12)
+
+- fix(IT): state names [c3daf4c4](https://github.com/commenthol/date-holidays/commit/c3daf4c41d0a1532ba23c3fc6762b490abad14e5)
+- feat(IT): add Florence patron saint holiday [82069765](https://github.com/commenthol/date-holidays/commit/82069765d5927d5b1ee040dde46ae47852c1e48b)
+- docs: fix description on calling holidays2json.cjs in README [c674a6ab](https://github.com/commenthol/date-holidays/commit/c674a6abf37fdc5dfba37f0c1c4f0e99694ee959)
+
 ## [3.23.13](https://github.com/commenthol/date-holidays/compare/3.23.12...3.23.13) (2024-11-26)
 
 - fix(AU): correct Kings Birthday in Western Australia for 2024 [6a81888e](https://github.com/commenthol/date-holidays/commit/6a81888e56ecab97094183578ea4fb0630e90da0)
