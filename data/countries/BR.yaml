@@ -83,7 +83,7 @@ holidays:
           pt: Dia da Consciência Negra
           en: Black Awareness Day
         active:
-              - from: 2023-12-21
+          - from: 2023-12-21
       "12-24 14:00":
         _name: 12-24
         type: optional
