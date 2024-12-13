@@ -75,18 +75,18 @@
     "date": "2016-02-22 00:00:00",
     "start": "2016-02-21T16:00:00.000Z",
     "end": "2016-02-22T16:00:00.000Z",
-    "name": "元宵節",
+    "name": "觀光節",
     "type": "observance",
-    "rule": "chinese 01-0-15",
+    "rule": "chinese 01-0-15 #1",
     "_weekday": "Mon"
   },
   {
     "date": "2016-02-22 00:00:00",
     "start": "2016-02-21T16:00:00.000Z",
     "end": "2016-02-22T16:00:00.000Z",
-    "name": "觀光節",
+    "name": "元宵節",
     "type": "observance",
-    "rule": "chinese 01-0-15 #1",
+    "rule": "chinese 01-0-15",
     "_weekday": "Mon"
   },
   {
@@ -259,18 +259,18 @@
     "date": "2016-06-17 00:00:00",
     "start": "2016-06-16T16:00:00.000Z",
     "end": "2016-06-17T16:00:00.000Z",
-    "name": "城隍爺誕辰",
+    "name": "關公誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13 #1",
+    "rule": "chinese 05-0-13",
     "_weekday": "Fri"
   },
   {
     "date": "2016-06-17 00:00:00",
     "start": "2016-06-16T16:00:00.000Z",
     "end": "2016-06-17T16:00:00.000Z",
-    "name": "關公誕辰",
+    "name": "城隍爺誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13",
+    "rule": "chinese 05-0-13 #1",
     "_weekday": "Fri"
   },
   {
