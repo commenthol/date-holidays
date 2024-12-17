@@ -95,7 +95,10 @@ Countries: 3
 │   ├── GF: Département et région d'outre-mer Guyane
 │   ├── RE: Département et région d'outre-mer La Réunion
 │   ├── MF: Département et région d'outre-mer Saint Martin
-│── └── BL: Département et région d'outre-mer Saint Barthélemy
+│   ├── BL: Département et région d'outre-mer Saint Barthélemy
+│   ├── PF: Département et région d'outre-mer Polynésie Française
+│   ├── WF: Département et région d'outre-mer Wallis et Futuna
+│── └── NC: Département et région d'outre-mer Nouvelle Calédonie
 ```
 <!-- tree! -->
 
@@ -242,15 +245,56 @@ available grammar for holiday attribution is described in
 
 <a name="custom"></a>
 
+
+## Adding new holiday in the data list
+
+If a new public holiday has been added for France (FR), Belgium (BE), or Germany (DE), we will add the holiday to the corresponding `YAML` file for that country (FR/BE/DE), take a look at `./data/countries/*.yaml`.
+
+If the holiday has been added for a specific region or state within France, Belgium, or Germany, we follow this process:
+
+*  If the region/state has a dedicated `YAML` file tied to the country code (FR, BE, or DE), the holiday will be added to that separate file, take a look at `./data/countries/*.yaml`.
+
+*  If the region/state holidays are included in the main country `YAML` file, we will place the new holiday in the correct section for that region/state, ensuring it remains within the appropriate country code file (FR/DE/BE).
+
+Add the public holiday to the appropriate `./data/countries/*.yaml` file, including its translations:
+e.g. :
+
+```js
+ 09-27:
+    name:
+        de: Tag der Französischsprachigen Gemeinschaft
+        fr: La fête de la communauté française
+        nl: Feestdag van de Franse Gemeenschap
+```
+
+Alternatively, if the holiday is a common public holiday across multiple countries, try to add it to the appropriate `./data/countries/*.yaml` file.
+e.g. :
+
+  ```js
+  10-09:
+    _name: Abolition of Slavery
+```
+and include its translations in the separate  `./data/names.yaml` file.
+
+```js
+Abolition of Slavery:
+    name:
+      en: Abolition of Slavery
+      fr: Abolition de l’esclavage
+      nl: Afschaffing van de slavernij
+      de: Abschaffung der Sklaverei
+      vi: Bãi bỏ chế độ Nô lệ
+```
+
 ## Custom builds of `holidays.json`
 
 If only selected countries are required in `data/holidays.json` you can add the
-following script to your npm scripts section. E.g. for picking just US, Canada,
-Mexico do the following:
+following script to your npm scripts section. e.g. for picking just BE,
+DE, do the following:
 
 ```js
 "scripts": {
-  "build": "holidays2json --pick US,CA,MX --min"
+  "build": "holidays2json --pick BE,DE --min"
 },
 ```
 
@@ -261,13 +305,23 @@ Alternatively you may use the `--omit` option.
 Manually use
 
 ```bash
-npx holidays2json --pick US,CA,MX
+npx holidays2json --pick BE,DE --min
 ```
 
 > **NOTE:** There are some countries which depend on data of others which
-> might render the file useless. e.g. "GU" requires "US", so try
-> to pick or omit both.
+> might render the file useless. e.g. "YT" requires "FR", so try
+> to pick or omit all states for the FR Country Code
 
+```bash
+npx holidays2json --pick FR,FR-57,FR-67,FR-68,YT,MQ,GP,GF,RE,MF,BL,PF,WF,NC --min
+```
+
+> **NOTE:** To pick or omit all countries, states and regions of FR, DE, BE,
+> do this.
+
+```bash
+npx holidays2json --pick FR,FR-57,FR-67,FR-68,YT,MQ,GP,GF,RE,MF,BL,PF,WF,NC,BE,DE --min
+```
 ## Bundling with webpack
 
 To minimize bundle sizes consider adding the following lines in your webpack config.
