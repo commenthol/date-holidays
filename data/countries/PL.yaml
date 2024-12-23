@@ -1,5 +1,5 @@
 holidays:
-  # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Polen
+  # @attrib https://www.kalendarzswiat.pl/swieta/wolne_od_pracy/2025
   PL:
     names:
       pl: Polska
@@ -11,35 +11,47 @@ holidays:
       - Europe/Warsaw
     days:
       01-01:
-        _name: 01-01
+        _name: Nowy Rok
       01-06:
-        _name: 01-06
+        _name: Święto Trzech Króli
       easter:
-        _name: easter
-      easter 1:
-        _name: easter 1
-      05-01:
-        _name: 05-01
         name:
-          pl: Święto Państwowe; Święto Pracy
+          pl: Niedziela Wielkanocna
+          en: Easter Sunday
+      easter 1:
+        name:
+          pl: Poniedziałek Wielkanocny
+          en: Easter Monday
+      05-01:
+        _name: Międzynarodowe Święto Pracy
       05-03:
         name:
-          pl: Święto Narodowe Trzeciego Maja
+          pl: Święto Konstytucji 3 Maja
           en: Constitution Day
       05-26:
         _name: Mothers Day
         type: observance
       easter 49:
-        _name: easter 49
+        _name: Zesłanie Ducha Świętego (Zielone Świątki)
+        type: observance
       easter 60:
-        _name: easter 60
+        _name: Boże Ciało
       08-15:
-        _name: 08-15
+        _name: Święto Wojska Polskiego
       11-01:
-        _name: 11-01
+        _name: Wszystkich Świętych
       11-11:
-        _name: Independence Day
+        name: 
+          en: Independence Day
+          pl: Narodowe Święto Niepodległości
+      12-24:
+        _name: Wigilia Bożego Narodzenia
+        type: optional       
       12-25:
-        _name: 12-25
+        name:
+          pl: Boże Narodzenie pierwszy dzień
+          en: Easter Monday
       12-26:
-        _name: 12-26
+        name:
+          pl: Boże Narodzenie drugi dzień
+          en: Easter Monday
