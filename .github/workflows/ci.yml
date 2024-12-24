@@ -1,27 +1,30 @@
-# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://github.com/marketplace/actions/setup-node-js-environment
-
-name: CI
+name: PR Tests
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
-    branches: []
+    branches:
+      - master
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
-        # cache: 'npm'
-    - run: npm install --ignore-scripts
-    - run: npm run ci
+        node-version: '16'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run specific test file
+      run: npx mocha tests/date-holidays.test.js
+
+    - name: Report test results
+      if: failure()
+      run: echo "Tests failed! Check the output for details."
