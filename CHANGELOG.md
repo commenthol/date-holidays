@@ -1,6 +1,11 @@
 # Changelog
 
-## [3.24.0](https://github.com/commenthol/date-holidays/compare/3.23.13...3.24.0) (2024-12-12)
+## [3.23.15](https://github.com/commenthol/date-holidays/compare/3.23.14...3.23.15) (2024-12-27)
+
+- fix(BR): Fixes indentation and fixtures json based on fix [3ee04a9f](https://github.com/commenthol/date-holidays/commit/3ee04a9fc7b1d93a1c7ba9449f50d841ebe6c861)
+- fix(BR): Updates Black Awareness for BR since it is a national holiday beginning on 2024 [851f7fb8](https://github.com/commenthol/date-holidays/commit/851f7fb889fe744aaff2c643deb5629bd96dfb02)
+
+## [3.23.14](https://github.com/commenthol/date-holidays/compare/3.23.13...3.23.14) (2024-12-12)
 
 - fix(IT): state names [c3daf4c4](https://github.com/commenthol/date-holidays/commit/c3daf4c41d0a1532ba23c3fc6762b490abad14e5)
 - feat(IT): add Florence patron saint holiday [82069765](https://github.com/commenthol/date-holidays/commit/82069765d5927d5b1ee040dde46ae47852c1e48b)
