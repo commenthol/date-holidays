@@ -3,7 +3,7 @@
 > world-wide holidays in gregorian calender
 
 [![NPM version](https://badge.fury.io/js/date-holidays.svg)](https://www.npmjs.com/package/date-holidays/)
-[![Build Status](https://github.com/commenthol/date-holidays/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/commenthol/date-holidays/actions/workflows/ci.yml?query=branch%3Amaster)
+[![Build Status](https://github.com/commenthol/date-holidays/actions/workflows/ci.yml/badge.svg)](https://github.com/commenthol/date-holidays/actions/workflows/ci.yml)
 
 This module provides dates of holidays for various countries, states and regions
 by type while considering the applicable timezone.
