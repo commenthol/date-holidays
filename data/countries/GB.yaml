@@ -477,6 +477,10 @@ holidays:
           11-30:
             name:
               en: St Andrew’s Day
+          substitutes 11-30 if saturday, sunday then next monday:
+            substitute: true
+            name:
+              en: St Andrew’s Day
         # regions:
         # ABD:
         #   name: Aberdeenshire
