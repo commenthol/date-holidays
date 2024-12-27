@@ -138,15 +138,6 @@
     "date": "2027-12-27 00:00:00",
     "start": "2027-12-27T00:00:00.000Z",
     "end": "2027-12-28T00:00:00.000Z",
-    "name": "Christmas Bank Holiday",
-    "type": "bank",
-    "rule": "12-27 and if saturday then next monday if sunday then next tuesday",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2027-12-27 00:00:00",
-    "start": "2027-12-27T00:00:00.000Z",
-    "end": "2027-12-28T00:00:00.000Z",
     "name": "St. Stephen's Day (substitute day)",
     "type": "bank",
     "substitute": true,

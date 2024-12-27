@@ -67,10 +67,6 @@ holidays:
           en: St. Stephen's Day
         substitute: true
         type: bank
-      12-27 and if saturday then next monday if sunday then next tuesday:
-        name:
-          en: Christmas Bank Holiday
-        type: bank
       3rd sunday in June:
         _name: Fathers Day
         type: observance
