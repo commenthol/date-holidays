@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.23.16](https://github.com/commenthol/date-holidays/compare/3.23.15...3.23.16) (2024-12-27)
+
+- fix(GB-SCT,#494): add substitute day for st andrew's day [8f0fb474](https://github.com/commenthol/date-holidays/commit/8f0fb474f843b1e81423276f741905999906698d)
+- fix(IE,#495): removal of Christmas bank holiday [930fd6ee](https://github.com/commenthol/date-holidays/commit/930fd6ee07a0aa3b628d84124984f05651b453d3)
+
 ## [3.23.15](https://github.com/commenthol/date-holidays/compare/3.23.14...3.23.15) (2024-12-27)
 
 - fix(BR): Fixes indentation and fixtures json based on fix [3ee04a9f](https://github.com/commenthol/date-holidays/commit/3ee04a9fc7b1d93a1c7ba9449f50d841ebe6c861)
