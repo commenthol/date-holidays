@@ -88,7 +88,6 @@ holidays:
           nl: Prinsjesdag
           en: Prince's Day
           de: Prinzentag
-        note: Scholen in Den Haag geven meestal 1 dag vrij
         type: observance
       11-11:
         _name: 11-11
@@ -112,3 +111,95 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
+    states:
+      GR:
+        name:
+          nl: Groningen
+          en: Groningen
+          de: Groningen
+          fr: Groningue
+          es: Groninga
+          it: Groninga
+        regions:
+          GRN:
+            name:
+              nl: Groningen
+              en: Groningen
+              de: Groningen
+              fr: Groningue
+              es: Groninga
+              it: Groninga
+            days:
+              # @attrib https://nl.wikipedia.org/wiki/Gronings_Ontzet
+              08-28:
+                name:
+                  nl: Gronings Ontzet
+                  en: Relief of Groningen
+                  de: Groninger Entsatz
+                  fr: Levée de siège de Groningue
+                  es: Alivio del asedio de Groninga
+                  it: Assedio revocato di Groninga
+                type: observance
+      NH:
+        name:
+          nl: Noord-Holland
+          en: North Holland
+          de: Noord-Holland
+          fr: Hollande-Septentrionale
+          es: Holanda Septentrional
+          it: Olanda Settentrionale
+        regions:
+          ALK:
+            name: Alkmaar
+            days:
+              # @attrib https://nl.wikipedia.org/wiki/Alkmaars_Ontzet
+              10-08:
+                name:
+                  nl: Alkmaars Ontzet
+                  en: Relief of Alkmaar
+                  de: Alkmaarder Entsatz
+                  fr: Levée de siège d’Alkmaar
+                  es: Alivio del asedio de Alkmaar
+                  it: Assedio revocato di Alkmaar
+                type: observance
+      ZH:
+        name:
+          nl: Zuid-Holland
+          en: South Holland
+          de: Zuid-Holland
+          fr: Hollande-Méridionale
+          es: Holanda Meridional
+          it: Olanda Meridionale
+        regions:
+          BRL:
+            name: Brielle
+            days:
+              # @attrib https://nl.wikipedia.org/wiki/Inname_van_Den_Briel
+              04-01:
+                name:
+                  nl: Inname van Den Briel
+                  en: Capture of Brielle
+                  de: Einname van Den Briel
+                  fr: Prise de La Brielle
+                  es: Toma de Brielle
+                  it: Presa di Brielle
+                type: observance
+          LDN:
+            name:
+              nl: Leiden
+              en: Leiden
+              de: Leiden
+              fr: Leyde
+              es: Leiden
+              it: Leida
+            days:
+              # @attrib https://nl.wikipedia.org/wiki/Leids_Ontzet
+              10-03:
+                name:
+                  nl: Leids Ontzet
+                  en: Relief of Leiden
+                  de: Leidener Entsatz
+                  fr: Levée de siège de Leyde
+                  es: Alivio del asedio de Leiden
+                  it: Assedio revocato di Leida
+                type: observance
