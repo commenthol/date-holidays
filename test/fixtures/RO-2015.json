@@ -111,18 +111,18 @@
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T21:00:00.000Z",
     "end": "2015-06-01T21:00:00.000Z",
-    "name": "Ziua Copilului",
+    "name": "A doua zi de Rusalii",
     "type": "public",
-    "rule": "06-01",
+    "rule": "orthodox 50",
     "_weekday": "Mon"
   },
   {
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T21:00:00.000Z",
     "end": "2015-06-01T21:00:00.000Z",
-    "name": "A doua zi de Rusalii",
+    "name": "Ziua Copilului",
     "type": "public",
-    "rule": "orthodox 50",
+    "rule": "06-01",
     "_weekday": "Mon"
   },
   {
