@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.23.17](https://github.com/commenthol/date-holidays/compare/3.23.16...3.23.17) (2025-01-02)
+
+- chore: update github actions to v4; deprecate node@18 [936662ff](https://github.com/commenthol/date-holidays/commit/936662ff8f25fd15d20dee7b579bf7d256ca7d57)
+- test: Update fixtures [3b8ad77f](https://github.com/commenthol/date-holidays/commit/3b8ad77fb0a317ff14d6b27e43b9d1f3d0d12422)
+- fix(NL): attributions and translations Dutch holidays [ebf3f196](https://github.com/commenthol/date-holidays/commit/ebf3f196e1a82d6652affa456439db7b4ff4d414)
+- chore: fix status badge [e925b293](https://github.com/commenthol/date-holidays/commit/e925b2939f2b480b853679b3e426e9acea68409f)
+- fix(RO): Update RO data (#1) [b6ea8b56](https://github.com/commenthol/date-holidays/commit/b6ea8b569d3a7ef11475122a5a81dbf6ff9092df)
+
 ## [3.23.16](https://github.com/commenthol/date-holidays/compare/3.23.15...3.23.16) (2024-12-27)
 
 - fix(GB-SCT,#494): add substitute day for st andrew's day [8f0fb474](https://github.com/commenthol/date-holidays/commit/8f0fb474f843b1e81423276f741905999906698d)
