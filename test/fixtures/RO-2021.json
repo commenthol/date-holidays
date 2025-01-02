@@ -2,17 +2,35 @@
   {
     "date": "2021-01-01 00:00:00",
     "start": "2020-12-31T22:00:00.000Z",
-    "end": "2021-01-01T22:00:00.000Z",
+    "end": "2021-01-02T22:00:00.000Z",
     "name": "Anul nou",
     "type": "public",
-    "rule": "01-01",
+    "rule": "01-01 P2DT",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-06 00:00:00",
+    "start": "2021-01-05T22:00:00.000Z",
+    "end": "2021-01-06T22:00:00.000Z",
+    "name": "Bobotează",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-01-07 00:00:00",
+    "start": "2021-01-06T22:00:00.000Z",
+    "end": "2021-01-07T22:00:00.000Z",
+    "name": "Sfântul Ion",
+    "type": "public",
+    "rule": "01-07",
+    "_weekday": "Thu"
   },
   {
     "date": "2021-01-24 00:00:00",
     "start": "2021-01-23T22:00:00.000Z",
     "end": "2021-01-24T22:00:00.000Z",
-    "name": "Ziua Unirii",
+    "name": "Ziua Unirii Principatelor Române",
     "type": "public",
     "rule": "01-24",
     "_weekday": "Sun"
@@ -54,15 +72,6 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2021-05-02 00:00:00",
-    "start": "2021-05-01T21:00:00.000Z",
-    "end": "2021-05-02T21:00:00.000Z",
-    "name": "Ziua Mamei",
-    "type": "observance",
-    "rule": "1st sunday in May",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2021-05-03 00:00:00",
     "start": "2021-05-02T21:00:00.000Z",
     "end": "2021-05-03T21:00:00.000Z",
@@ -70,6 +79,15 @@
     "type": "public",
     "rule": "orthodox 1",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-30 00:00:00",
+    "start": "2021-05-29T21:00:00.000Z",
+    "end": "2021-05-30T21:00:00.000Z",
+    "name": "Ziua Românilor de Pretutindeni, Ziua Românului de Pretutindeni",
+    "type": "observance",
+    "rule": "Sunday before 06-01",
+    "_weekday": "Sun"
   },
   {
     "date": "2021-06-01 00:00:00",
