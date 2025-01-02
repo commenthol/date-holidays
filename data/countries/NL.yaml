@@ -69,6 +69,7 @@ holidays:
           fr: Journée nationale du Souvenir
           es: Día Nacional del Recuerdo
           it: Giorno della Memoria Nazionale
+          pt: Dia Nacional da Memória
         type: observance
       # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/bevrijdingsdag-5-mei-vrije-dag
       # @attrib https://nl.wikipedia.org/wiki/Bevrijdingsdag
@@ -80,6 +81,7 @@ holidays:
           fr: Jour de la Libération
           es: Día de la liberacion
           it: Giorno della Liberazione
+          pt: Dia da Libertação
         type: school
       # @attrib https://nl.wikipedia.org/wiki/Moederdag
       2nd sunday in May:
@@ -117,6 +119,7 @@ holidays:
           fr: Journée de la princesse
           es: Día de la princesa
           it: Giorno della principessa
+          pt: Dia da Princesa
       # @attrib https://nl.wikipedia.org/wiki/Koninginnedag
       08-31 since 1891 and prior to 1949:
         name:
@@ -137,7 +140,6 @@ holidays:
           es: Día del presupuesto
           it: Giornata del bilancio
           pt: Dia do Príncipe
-        note: Scholen in Den Haag geven meestal 1 dag vrij
         type: observance
       11-11:
         _name: 11-11
@@ -151,6 +153,7 @@ holidays:
           fr: Soirée Saint-Nicolas
           es: Noche de Sinterklaas
           it: Serata di Sinterklaas
+          pt: Noite de Sinterklaas
         type: observance
       # @attrib https://nl.wikipedia.org/wiki/Koninkrijksdag
       12-15:
@@ -161,6 +164,7 @@ holidays:
           fr: Jour du Royaume
           es: Día del Reino
           it: Giorno del Regno
+          pt: Dia do Reino
         type: observance
       12-25:
         _name: 12-25
