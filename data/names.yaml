@@ -87,6 +87,7 @@ names:
       nl: Driekoningen
       mk: Богојавление
       pl: Święto Trzech Króli
+      pt: Epifania do Senhor
       sk: Zjavenie Pána
       sv: Trettondedag jul
       ti: ጥምቀት
@@ -108,6 +109,7 @@ names:
       lb: Vältesdag
       nl: Valentijnsdag
       no: Valentinsdag
+      pt: Dia dos Namorados
       vi: Lễ tình nhân
   03-08:
     name:
@@ -303,6 +305,7 @@ names:
       es: Día de los Animales
       fr: Journée mondiale des Animaux
       nl: Dierendag
+      pt: Dia Mundial dos Animais
   11-11:
     name:
       en: Saint Martin
@@ -901,6 +904,7 @@ names:
       ar: يوم عرفة
       es: Fiesta del Sacrificio-Eidul Adha
       ms: Hari Arafah
+      nl: Dag van Arafat
   10 Dhu al-Hijjah: # Feast of the Sacrifice (Eid al-Adha)
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
@@ -1000,6 +1004,7 @@ names:
     name:
       de: Buß- und Bettag
       en: Day of Prayer and Repentance
+      nl: Dag van gebed en bekering
   Constitution Day:
     name:
       en: Constitution Day
