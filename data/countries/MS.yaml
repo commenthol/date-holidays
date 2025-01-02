@@ -1,0 +1,44 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Montserrat
+# @source http://agc.gov.ms/wp-content/uploads/2011/10/Act-No.-3-of-2017-Public-Holidays-Amendment-Act-20171.pdf
+holidays:
+  MS:
+    names:
+      en: Montserrat
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    days:
+      01-01 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 01-01
+      03-17 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: Saint Patrick's Day
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      1st Monday in May:
+        _name: 05-01
+      easter 50:
+        _name: easter 50
+      2nd Monday after 06-02:
+        name:
+          en: Queen's Birthday Celebration
+      08-01 if Saturday, Sunday then next Monday:
+        name:
+          en: Emancipation Day
+      12-25 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-26
+      12-31 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-31
+        name:
+          en: Festival Day

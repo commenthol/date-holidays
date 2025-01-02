@@ -100,6 +100,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2023-06-19 00:00:00",
+    "start": "2023-06-19T11:00:00.000Z",
+    "end": "2023-06-20T11:00:00.000Z",
+    "name": "Juneteenth",
+    "type": "public",
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2023-07-04 00:00:00",
     "start": "2023-07-04T11:00:00.000Z",
     "end": "2023-07-05T11:00:00.000Z",
@@ -124,7 +133,7 @@
     "end": "2023-09-05T11:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

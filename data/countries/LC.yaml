@@ -1,0 +1,68 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Saint_Lucia
+holidays:
+  LC:
+    names:
+      en: St. Lucia
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      01-02:
+        name:
+          en: Second New Year's Day
+      02-22:
+        _name: Independence Day
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      easter 50:
+        _name: easter 50
+      easter 60:
+        _name: easter 60
+      # TODO: Carnaval date might not be correct!
+      # 12-16/7/19
+      # 15-22/7/21
+      1st Friday after 07-10 P4D:
+        name:
+          en: Carnival
+      08-01:
+        name:
+          en: Emancipation Day
+      1st Monday in October:
+        name:
+          en: Thanksgiving
+      12-13:
+        name:
+          en: National Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+    # states:
+    #   '10':
+    #     name: Soufrière
+    #   '11':
+    #     name: Vieux Fort
+    #   '12':
+    #     name: Canaries
+    #   '01':
+    #     name: Anse la Raye
+    #   '02':
+    #     name: Castries
+    #   '03':
+    #     name: Choiseul
+    #   '05':
+    #     name: Dennery
+    #   '06':
+    #     name: Gros Islet
+    #   '07':
+    #     name: Laborie
+    #   08:
+    #     name: Micoud

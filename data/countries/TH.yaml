@@ -1,0 +1,213 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Thailand
+  TH:
+    names:
+      en: Thailand
+    langs:
+      - en
+      - th
+    zones:
+      - Asia/Bangkok
+    dayoff: Saturday
+    days:
+      01-01:
+        _name: 01-01
+      04-06:
+        name:
+          en: Chakri Memorial Day
+          th: วันจักรี
+      04-13:
+        name:
+          en: Songkran Festival
+          th: วันสงกรานต์
+      04-14:
+        name:
+          en: Songkran Festival
+          th: วันสงกรานต์
+      04-15:
+        name:
+          en: Songkran Festival
+          th: วันสงกรานต์
+      05-04:
+        name:
+          en: Coronation Day
+          th: วันฉัตรมงคล
+      06-03:
+        name:
+          en: Queen Suthida's Birthday
+          th: วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดา พัชรสุธาพิมลลักษณ พระบรมราชินี
+      07-28:
+        name:
+          en: King's Birthday
+          th: วันเฉลิมพระชนมพรรษาพระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว
+      08-12:
+        name:
+          en: The Queen Mother's Birthday
+          th: วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง
+      10-13:
+        name:
+          en: King Bhumibol Adulyadej Memorial Day
+          th: วันคล้ายวันสวรรคตพระบาทสมเด็จพระบรมชนกาธิเบศร มหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร
+      10-23:
+        name:
+          en: King Chulalongkorn Day
+          th: วันปิยมหาราช
+      12-05:
+        name:
+          en: King Bhumibol Adulyadej's Birthday
+          th: วันคล้ายวันพระบรมราชสมภพ พระบาทสมเด็จพระบรมชนกาธิเบศร มหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร
+      12-10:
+        name:
+          en: Constitution Day
+          th: วันรัฐธรรมนูญ
+      12-31:
+        _name: 12-31
+      # Makha Bucha
+      # @source https://www.timeanddate.com/holidays/thailand/makha-bucha
+      "2010-03-01":
+        _name: Makha Bucha
+      "2011-02-18":
+        _name: Makha Bucha
+      "2012-03-07":
+        _name: Makha Bucha
+      "2013-02-25":
+        _name: Makha Bucha
+      "2014-02-14":
+        _name: Makha Bucha
+      "2015-03-04":
+        _name: Makha Bucha
+      "2016-02-22":
+        _name: Makha Bucha
+      "2017-02-11":
+        _name: Makha Bucha
+      "2018-03-01":
+        _name: Makha Bucha
+      "2019-02-19":
+        _name: Makha Bucha
+      "2020-02-08":
+        _name: Makha Bucha
+      "2021-02-26":
+        _name: Makha Bucha
+      "2022-02-16":
+        _name: Makha Bucha
+      "2023-03-06":
+        _name: Makha Bucha
+      "2024-02-24":
+        _name: Makha Bucha
+      "2025-02-13":
+        _name: Makha Bucha
+      "2026-03-03":
+        _name: Makha Bucha
+      # Vesak
+      # @source https://www.drikpanchang.com/festivals/buddha-purnima/buddha-purnima-date-time.html
+      "2010-05-28":
+        _name: Vesak
+      "2011-05-17":
+        _name: Vesak
+      "2012-05-06":
+        _name: Vesak
+      "2013-05-25":
+        _name: Vesak
+      "2014-05-15":
+        _name: Vesak
+      "2015-06-02":
+        _name: Vesak
+      "2016-05-22":
+        _name: Vesak
+      "2017-05-10":
+        _name: Vesak
+      "2018-05-29":
+        _name: Vesak
+      "2019-05-19":
+        _name: Vesak
+      "2020-05-07":
+        _name: Vesak
+      "2021-05-26":
+        _name: Vesak
+      "2022-05-15":
+        _name: Vesak
+      "2022-05-16":
+        substitute: true
+        _name: Vesak
+      "2023-05-04":
+        _name: Vesak
+      "2024-05-22":
+        _name: Vesak
+      "2025-05-12":
+        _name: Vesak
+      "2026-05-31":
+        _name: Vesak
+
+      # Asalha Puja
+      # @source https://www.timeanddate.com/holidays/thailand/asalha-bucha
+      "2010-07-25":
+        _name: Asalha Puja
+      "2011-07-15":
+        _name: Asalha Puja
+      "2012-08-02":
+        _name: Asalha Puja
+      "2013-07-22":
+        _name: Asalha Puja
+      "2014-07-11":
+        _name: Asalha Puja
+      "2015-07-30":
+        _name: Asalha Puja
+      "2016-07-19":
+        _name: Asalha Puja
+      "2017-07-08":
+        _name: Asalha Puja
+      "2018-07-27":
+        _name: Asalha Puja
+      "2019-07-16":
+        _name: Asalha Puja
+      "2020-07-04":
+        _name: Asalha Puja
+      "2021-07-24":
+        _name: Asalha Puja
+      "2022-07-13":
+        _name: Asalha Puja
+      "2023-07-31":
+        _name: Asalha Puja
+      "2024-07-19":
+        _name: Asalha Puja
+      "2025-07-10":
+        _name: Asalha Puja
+      "2026-07-29":
+        _name: Asalha Puja
+
+      # Buddhist Lent
+      # @source https://www.timeanddate.com/holidays/thailand/buddhist-lent-day
+      "2010-07-26":
+        _name: Buddhist Lent
+      "2011-07-16":
+        _name: Buddhist Lent
+      "2012-08-03":
+        _name: Buddhist Lent
+      "2013-07-23":
+        _name: Buddhist Lent
+      "2014-07-12":
+        _name: Buddhist Lent
+      "2015-07-31":
+        _name: Buddhist Lent
+      "2016-07-20":
+        _name: Buddhist Lent
+      "2017-07-09":
+        _name: Buddhist Lent
+      "2018-07-28":
+        _name: Buddhist Lent
+      "2019-07-17":
+        _name: Buddhist Lent
+      "2020-07-05":
+        _name: Buddhist Lent
+      "2021-07-25":
+        _name: Buddhist Lent
+      "2022-07-14":
+        _name: Buddhist Lent
+      "2023-08-01":
+        _name: Buddhist Lent
+      "2024-07-20":
+        _name: Buddhist Lent
+      "2025-07-11":
+        _name: Buddhist Lent
+      "2026-07-30":
+        _name: Buddhist Lent

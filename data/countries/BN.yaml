@@ -9,7 +9,7 @@ holidays:
       - en
     zones:
       - Asia/Brunei
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: 01-01
@@ -50,11 +50,11 @@ holidays:
           en: Chinese New Year
           ms: Tahun Baru Cina
     # states:
-      # BE:
-      #   name: Belait
-      # BM:
-      #   name: Brunei-Muara
-      # TE:
-      #   name: Temburong
-      # TU:
-      #   name: Tutong
+    # BE:
+    #   name: Belait
+    # BM:
+    #   name: Brunei-Muara
+    # TE:
+    #   name: Temburong
+    # TU:
+    #   name: Tutong

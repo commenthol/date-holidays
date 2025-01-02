@@ -3,7 +3,7 @@
 > world-wide holidays in gregorian calender
 
 [![NPM version](https://badge.fury.io/js/date-holidays.svg)](https://www.npmjs.com/package/date-holidays/)
-[![Build Status](https://secure.travis-ci.org/commenthol/date-holidays.svg?branch=master)](https://travis-ci.org/commenthol/date-holidays)
+[![Build Status](https://github.com/commenthol/date-holidays/actions/workflows/ci.yml/badge.svg)](https://github.com/commenthol/date-holidays/actions/workflows/ci.yml)
 
 This module provides dates of holidays for various countries, states and regions
 by type while considering the applicable timezone.
@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 146
+Countries: 197
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -111,6 +111,15 @@ Countries: 146
 ├── BM: Bermuda
 ├── BN: Negara Brunei Darussalam
 ├── BO: Bolivia
+│   ├── B: Beni
+│   ├── C: Cochabamba
+│   ├── H: Chuquisaca
+│   ├── L: La Paz
+│   ├── N: Pando
+│   ├── O: Oruro
+│   ├── P: Potosí
+│   ├── S: Santa Cruz
+│   └── T: Tarija
 ├── BQ: Caribisch Nederland
 │   ├── BO: Bonaire
 │   ├── SA: Saba
@@ -136,6 +145,7 @@ Countries: 146
 │   ├── PR: Paraná
 │   │   └── CU: Curitiba
 │   ├── RJ: Rio de Janeiro
+│   │   └── RJ: Rio de Janeiro
 │   ├── RN: Rio Grande do Norte
 │   ├── RO: Rondônia
 │   ├── RR: Roraima
@@ -194,9 +204,23 @@ Countries: 146
 │   ├── NE: Canton de Neuchâtel
 │   ├── GE: Canton de Genève
 │   └── JU: Canton du Jura
+├── CI: République de Côte d'Ivoire
+├── CK: Cook Islands
+│   ├── Aitutaki: Aitutaki
+│   ├── Atiu: Atiu
+│   ├── Mangaia: Mangaia
+│   ├── Manihiki: Manihiki
+│   ├── Mitiaro: Mitiaro
+│   ├── Palmerston: Palmerston
+│   ├── Penrhyn: Penrhyn
+│   ├── Pukapuka: Pukapuka
+│   ├── Rakahanga: Rakahanga
+│   └── Rarotonga: Rarotonga
 ├── CL: Chile
 │   ├── AP: Arica y Parinacota
 │   ├── BI: Biobío
+│   │   └── CH: Chillán y Chillán Viejo
+│   ├── NU: Ñuble
 │   │   └── CH: Chillán y Chillán Viejo
 │   └── TA: Tarapacá
 ├── CM: Cameroun
@@ -234,20 +258,48 @@ Countries: 146
 │       ├── EIC: Landkreis Eichfeld
 │       ├── UH: Unstrut-Hainich-Kreis
 │       └── WAK: Wartburgkreis
+├── DJ: République de Djibouti
 ├── DK: Danmark
 ├── DM: Dominica
 ├── DO: República Dominicana
+├── DZ: الجمهورية الجزائرية الديمقراطية الشعبية
 ├── EC: Ecuador
 │   └── P: Pichincha
 │       └── QU: Quito
 ├── EE: Eesti
+├── EG: جمهورية مصر العربية
+├── EH: الجمهورية العربية الصحراوية الديمقراطية
+├── ER: Eritrea
 ├── ES: España
-│   ├── MD: Comunidad de Madrid
 │   ├── AN: Andalucía
 │   ├── AR: Aragón
-│   └── CT: Catalonia
+│   ├── AS: Asturias
+│   ├── CB: Cantabria
+│   ├── CE: Ciudad de Ceuta
+│   ├── CL: Castilla y León
+│   ├── CM: Castile-La Mancha
+│   ├── CN: Islas Canarias
+│   │   ├── EH: El Hierro
+│   │   ├── FU: Fuerteventura
+│   │   ├── GC: Gran Canaria
+│   │   ├── LG: La Gomera
+│   │   ├── LP: La Palma
+│   │   ├── LA: Lanzarote
+│   │   └── TE: Tenerife
+│   ├── CT: Cataluña
+│   ├── EX: Extremadura
+│   ├── GA: Galicia
+│   ├── IB: Illes Balears
+│   ├── MC: Murcia Region
+│   ├── MD: Comunidad de Madrid
+│   ├── ML: Ciudad de Melilla
+│   ├── NC: Comunidad Foral de Navarra
+│   ├── PV: País Vasco
+│   ├── RI: La Rioja
+│   └── VC: Comunitat Valenciana
 ├── ET: ኢትዮጵያ
 ├── FI: Suomi
+├── FJ: Matanitu Tugalala o Viti
 ├── FO: Føroyar
 ├── FR: France
 │   ├── 57: Département Moselle
@@ -257,7 +309,9 @@ Countries: 146
 │   ├── MQ: Département et région d'outre-mer Martinique
 │   ├── GP: Département et région d'outre-mer Guadeloupe
 │   ├── GF: Département et région d'outre-mer Guyane
-│   └── RE: Département et région d'outre-mer La Réunion
+│   ├── RE: Département et région d'outre-mer La Réunion
+│   ├── MF: Département et région d'outre-mer Saint Martin
+│   └── BL: Département et région d'outre-mer Saint Barthélemy
 ├── GA: Gabon
 ├── GB: United Kingdom
 │   ├── ALD: Alderney
@@ -269,78 +323,138 @@ Countries: 146
 ├── GE: საქართველო
 ├── GF: Guyane
 ├── GG: Guernsey
+├── GH: Ghana
 ├── GI: Gibraltar
 ├── GL: Kalaallit Nunaat
+├── GM: The Gambia
+├── GN: Guinée
 ├── GP: Guadeloupe
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
 ├── GT: Guatemala
 ├── GU: Guam
+├── GW: Guiné-Bissau
 ├── GY: Guyana
+├── HK: 香港
 ├── HN: Honduras
 ├── HR: Hrvatska
 │   ├── 17: Split-Dalmatia
 │   └── 19: Dubrovnik-Neretva
 ├── HT: Haïti
 ├── HU: Magyarország
+├── IC: Islas Canarias
+│   ├── EH: El Hierro
+│   ├── FU: Fuerteventura
+│   ├── GC: Gran Canaria
+│   ├── LG: La Gomera
+│   ├── LP: La Palma
+│   ├── LA: Lanzarote
+│   └── TE: Tenerife
 ├── ID: Indonesia
 ├── IE: Ireland
+├── IL: מְדִינַת יִשְׂרָאֵל
 ├── IM: Isle of Man
+├── IR: جمهوری اسلامی ایران
 ├── IS: Ísland
 ├── IT: Italia
-│   └── 32: Südtirol, Alto Adige
+│   ├── 25: Lombardy
+│   │   └── MI: Milan
+│   ├── 32: Alto Adige
+│   └── 52: Toscana
+│       └── FI: Firenze
 ├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本
 ├── KE: Kenya
+├── KM: Union des Comores
+├── KN: St. Kitts & Nevis
 ├── KR: 대한민국
+├── KY: Cayman Islands
+├── LC: St. Lucia
 ├── LI: Lichtenstein
+├── LR: Liberia
 ├── LS: \'Muso oa Lesotho
 ├── LT: Lietuva
 ├── LU: Luxembourg
 ├── LV: Latvija
+├── LY: دولة ليبيا
+├── MA: المملكة المغربية
 ├── MC: Monaco
 ├── MD: Republica Moldova
 │   ├── CA: Cahul
 │   └── CU: Chișinău
 ├── ME: Crna Gora
+├── MF: Saint Martin
 ├── MG: Repoblikan'i Madagasikara
 ├── MK: Република Македонија
+├── ML: République du Mali
 ├── MQ: Martinique
+├── MR: الجمهورية الإسلامية الموريتانية
+├── MS: Montserrat
 ├── MT: Malta
 ├── MW: Malawi
 ├── MX: México
+├── MY: Malaysia
+│   ├── 10: Selangor
+│   ├── 11: Terengganu
+│   ├── 12: Sabah
+│   ├── 13: Sarawak
+│   ├── 14: Kuala Lumpur
+│   ├── 15: Labuan
+│   ├── 16: Putrajaya
+│   ├── 01: Johor
+│   ├── 02: Kedah
+│   ├── 03: Kelantan
+│   ├── 04: Malacca
+│   ├── 05: Negeri Sembilan
+│   ├── 06: Pahang
+│   ├── 07: Penang
+│   ├── 08: Perak
+│   └── 09: Perlis
 ├── MZ: Moçambique
 ├── NA: Namibia
+├── NC: Nouvelle-Calédonie
+├── NE: République du Niger
+├── NG: Nigeria
 ├── NI: Nicaragua
 ├── NL: Nederland
 ├── NO: Norge
 ├── NZ: New Zealand
 │   ├── AUK: Auckland Province
+│   ├── BOP: Bay of Plenty
 │   ├── CAN: Canterbury
-│   │   └── S: South Canterbury
+│   │   └── Timaru: Timaru District
 │   ├── CIT: Chatham Islands
+│   ├── GIS: Gisborne
 │   ├── HKB: Hawke's Bay
 │   ├── MBH: Marlborough
+│   ├── MWT: Manawatu-Wanganui
 │   ├── NSN: Nelson
 │   ├── NTL: Northland
 │   ├── OTA: Otago Province
 │   ├── STL: Southland
+│   ├── TAS: Tasman
 │   ├── TKI: Taranaki
+│   ├── WKO: Waikato
 │   ├── WGN: Wellington Province
 │   └── WTC: Westland
+│       └── Buller: Buller district
 ├── PA: Panamá
 ├── PE: Perú
 │   └── CUS: Cuzco
 ├── PH: Philippines
 ├── PL: Polska
+├── PM: St. Pierre & Miquelon
+├── PR: Puerto Rico
 ├── PT: Portugal
 ├── PY: Paraguay
 ├── RE: Réunion
 ├── RO: Romania
 ├── RS: Република Србија
 ├── RU: Россия
-├── RW: Repubulika y'u Rwanda
+├── RW: Rwanda
+├── SC: Seychelles
+├── SD: جمهورية السودان
 ├── SE: Sverige
 ├── SG: Singapore
 ├── SH: St. Helena
@@ -350,19 +464,31 @@ Countries: 146
 ├── SI: Republika Slovenija
 ├── SJ: Svalbard & Jan Mayen
 ├── SK: Slovenská republika
+├── SL: Sierra Leone
 ├── SM: San Marino
+├── SN: République du Sénégal
 ├── SO: Jamhuuriyadda Federaalka Soomaaliya
 │   ├── AW: Awdal
 │   ├── SA: Sanaag
 │   ├── SO: Sool
 │   ├── TO: Togdheer
 │   └── WO: Woqooyi Galbeed
+├── SR: Suriname
 ├── SS: South Sudan
+├── ST: São Tomé & Príncipe
 ├── SV: El Salvador
 │   └── SS: San Salvador
+├── SX: Sint Maarten
+├── SZ: Eswatini
+├── TC: Turks & Caicos Islands
+├── TD: جمهورية تشاد
 ├── TG: République togolaise
+├── TH: Thailand
+├── TN: الجمهورية التونسية
 ├── TO: Puleʻanga Fakatuʻi ʻo Tonga
 ├── TR: Türkiye
+├── TT: Trinidad & Tobago
+├── TW: 中華民國
 ├── TZ: Tanzania
 ├── UA: Україна
 ├── UG: Uganda
@@ -422,6 +548,7 @@ Countries: 146
 │   └── WY: Wyoming
 ├── UY: Uruguay
 ├── VA: Stato della Città del Vaticano
+├── VC: St. Vincent & Grenadines
 ├── VE: Venezuela
 │   ├── B: Anzoátegui
 │   ├── G: Carabobo
@@ -431,7 +558,10 @@ Countries: 146
 │   ├── N: Monagas
 │   ├── S: Táchira
 │   └── V: Zulia
+├── VG: British Virgin Islands
+├── VI: U.S. Virgin Islands
 ├── VN: Cộng hòa Xã hội chủ nghĩa Việt Nam
+├── VU: République de Vanuatu
 ├── XK: Republika e Kosovës
 ├── YT: Mayotte
 ├── ZA: South Africa
@@ -594,7 +724,7 @@ Alternatively you may use the `--omit` option.
 Manually use
 
 ```bash
-npx holidays2json --pick US,CA,MX
+./scripts/holidays2json --pick US,CA,MX
 ```
 
 > **NOTE:** There are some countries which depend on data of others which
@@ -609,11 +739,19 @@ Please take a look at `./webpack.config.js`. To further reduce size consider cus
 ```js
 ...
   plugins: [
-    // ---- do not bundle moment locales
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    // ---- do not bundle astronomia vsop planet data
-    new webpack.IgnorePlugin(/^\.\/vsop87B.*$/)
-    ...
+    new webpack.IgnorePlugin({
+      checkResource (resource, context) {
+        // ---- do not bundle astronomia vsop planet data
+        if (/\/astronomia\/data$/.test(context)) {
+          return !['./deltat.js', './vsop87Bearth.js'].includes(resource)
+        }
+        // ---- do not bundle moment locales
+        if (/\/moment\/locale$/.test(context)) {
+          return true
+        }
+        return false
+      }
+    })
 ```
 
 ## Browser

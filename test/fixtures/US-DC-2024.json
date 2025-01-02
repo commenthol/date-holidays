@@ -36,6 +36,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2024-03-17 00:00:00",
+    "start": "2024-03-17T04:00:00.000Z",
+    "end": "2024-03-18T04:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2024-03-31 00:00:00",
     "start": "2024-03-31T04:00:00.000Z",
     "end": "2024-04-01T04:00:00.000Z",
@@ -99,6 +108,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2024-06-19 00:00:00",
+    "start": "2024-06-19T04:00:00.000Z",
+    "end": "2024-06-20T04:00:00.000Z",
+    "name": "Juneteenth",
+    "type": "public",
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Wed"
+  },
+  {
     "date": "2024-07-04 00:00:00",
     "start": "2024-07-04T04:00:00.000Z",
     "end": "2024-07-05T04:00:00.000Z",
@@ -113,16 +131,16 @@
     "end": "2024-09-03T04:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {
     "date": "2024-10-14 00:00:00",
     "start": "2024-10-14T04:00:00.000Z",
     "end": "2024-10-15T04:00:00.000Z",
-    "name": "Columbus Day",
+    "name": "Indigenous Peoples' Day",
     "type": "public",
-    "rule": "2nd monday in October",
+    "rule": "2nd monday in October #1",
     "_weekday": "Mon"
   },
   {

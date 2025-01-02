@@ -36,6 +36,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2022-05-02 00:00:00 -0600",
+    "start": "2022-05-01T17:00:00.000Z",
+    "end": "2022-05-02T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2022-05-26 00:00:00",
     "start": "2022-05-25T23:00:00.000Z",
     "end": "2022-05-26T23:00:00.000Z",
@@ -61,6 +70,15 @@
     "type": "public",
     "rule": "06-30",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2022-07-09 00:00:00 -0600",
+    "start": "2022-07-08T17:00:00.000Z",
+    "end": "2022-07-09T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sat"
   },
   {
     "date": "2022-08-13 00:00:00",

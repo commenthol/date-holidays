@@ -75,7 +75,7 @@
     "date": "2022-05-01 00:00:00",
     "start": "2022-05-01T03:00:00.000Z",
     "end": "2022-05-02T03:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Sun"
@@ -117,6 +117,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2022-10-07 00:00:00",
+    "start": "2022-10-07T03:00:00.000Z",
+    "end": "2022-10-08T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 10-12 if monday,tuesday,wednesday then previous friday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2022-10-10 00:00:00",
     "start": "2022-10-10T03:00:00.000Z",
     "end": "2022-10-11T03:00:00.000Z",
@@ -126,12 +135,21 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2022-11-28 00:00:00",
-    "start": "2022-11-28T03:00:00.000Z",
-    "end": "2022-11-29T03:00:00.000Z",
+    "date": "2022-11-20 00:00:00",
+    "start": "2022-11-20T03:00:00.000Z",
+    "end": "2022-11-21T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-11-21 00:00:00",
+    "start": "2022-11-21T03:00:00.000Z",
+    "end": "2022-11-22T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 11-20 if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {

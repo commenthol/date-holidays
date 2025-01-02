@@ -2,11 +2,17 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Netherlands
   # @attrib https://nl.wikipedia.org/wiki/Feestdagen_in_Nederland
   # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen
+  # @source https://www.government.nl/topics/working-hours/question-and-answer/public-holidays-in-the-netherlands
   # @source https://www.government.nl/topics/school-holidays/question-and-answer/on-which-public-holidays-are-schools-closed-in-the-netherlands
   NL:
     names:
       nl: Nederland
       en: Netherlands
+      de: Niederlande
+      fr: Les Pays-Bas
+      es: Países Bajos
+      it: Paesi Bassi
+      pt: Países Baixos
     dayoff: sunday
     langs:
       - nl
@@ -15,51 +21,146 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/goede-vrijdag-vrije-dag
       easter -2:
         _name: easter -2
+        type: school
       easter:
         _name: easter
       easter 1:
         _name: easter 1
-      04-27 if sunday then previous saturday:
+      # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/koningsdag-27-april-vrije-dag
+      # @attrib https://nl.wikipedia.org/wiki/Koningsdag_(Nederland)
+      04-27 if sunday then previous saturday since 2014:
         name:
           nl: Koningsdag
+          en: King's Day
+          de: Königstag
+          fr: Fête du Roi
+          es: Día del Rey
+          it: Giorno del Re
+          pt: Dia do Rei
+      # @attrib https://nl.wikipedia.org/wiki/Koninginnedag
+      04-30 if sunday then next monday since 1949 and prior to 1980:
+        name:
+          nl: Koninginnedag
+          en: Queen's Day
+          de: Königinnentag
+          fr: Fête de la Reine
+          es: Día de la Reina
+          it: Giorno della Regina
+          pt: Dia da Rainha
+      # @attrib https://nl.wikipedia.org/wiki/Koninginnedag
+      04-30 if sunday then previous saturday since 1980 and prior to 2014:
+        name:
+          nl: Koninginnedag
+          en: Queen's Day
+          de: Königinnentag
+          fr: Fête de la Reine
+          es: Día de la Reina
+          it: Giorno della Regina
+          pt: Dia da Rainha
+      # @attrib https://nl.wikipedia.org/wiki/Nationale_Dodenherdenking
       05-04:
         name:
           nl: Nationale Dodenherdenking
+          en: Remembrance of the Dead
+          de: Nationaler Totengedenktag
+          fr: Journée nationale du Souvenir
+          es: Día Nacional del Recuerdo
+          it: Giorno della Memoria Nazionale
         type: observance
+      # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/bevrijdingsdag-5-mei-vrije-dag
+      # @attrib https://nl.wikipedia.org/wiki/Bevrijdingsdag
       05-05:
         name:
           nl: Bevrijdingsdag
+          en: Liberation Day
+          de: Befreiungstag
+          fr: Jour de la Libération
+          es: Día de la liberacion
+          it: Giorno della Liberazione
+        type: school
+      # @attrib https://nl.wikipedia.org/wiki/Moederdag
       2nd sunday in May:
         _name: Mothers Day
         type: observance
+      # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/hemelvaartsdag-vrije-dag
+      # @attrib https://nl.wikipedia.org/wiki/Hemelvaartsdag
+      easter 39:
+        _name: easter 39
+        name:
+          nl: Hemelvaartsdag
+          en: Ascension Day
+          de: Christi Himmelfahrt
+          fr: Jour de l'Ascension
+          es: Día de la Ascensión
+          it: Giorno dell'Ascensione
+          pt: Festa da Ascensão
+      # attrib https://nl.wikipedia.org/wiki/Eerste_Pinksterdag
+      easter 49:
+        _name: easter 49
+      # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/is-tweede-pinksterdag-een-vrije-dag
+      # @attrib https://nl.wikipedia.org/wiki/Tweede_Pinksterdag
+      easter 50:
+        _name: easter 50
+      # @attrib https://nl.wikipedia.org/wiki/Vaderdag
       3rd sunday in June:
         _name: Fathers Day
         type: observance
-      easter 39:
-        _name: easter 39
-      easter 49:
-        _name: easter 49
-      easter 50:
-        _name: easter 50
+      # @attrib https://nl.wikipedia.org/wiki/Prinsessedag
+      08-31 since 1885 and prior to 1891:
+        name:
+          nl: Prinsessedag
+          en: Princess Day
+          de: Prinzessinnentag
+          fr: Journée de la princesse
+          es: Día de la princesa
+          it: Giorno della principessa
+      # @attrib https://nl.wikipedia.org/wiki/Koninginnedag
+      08-31 since 1891 and prior to 1949:
+        name:
+          nl: Koninginnedag
+          en: Queen's Day
+          de: Königinnentag
+          fr: Fête de la Reine
+          es: Día de la Reina
+          it: Giorno della Regina
+          pt: Dia da Rainha
+      # @attrib https://nl.wikipedia.org/wiki/Prinsjesdag
       3rd tuesday in September:
         name:
           nl: Prinsjesdag
+          en: Prince's Day
+          de: Prinzentag
+          fr: Journée budgétaire
+          es: Día del presupuesto
+          it: Giornata del bilancio
+          pt: Dia do Príncipe
         note: Scholen in Den Haag geven meestal 1 dag vrij
         type: observance
       11-11:
         _name: 11-11
         type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Sinterklaasfeest
       12-05:
         name:
           nl: Sinterklaasavond
           en: St Nicholas' Eve
+          de: Nikolausabend
+          fr: Soirée Saint-Nicolas
+          es: Noche de Sinterklaas
+          it: Serata di Sinterklaas
         type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Koninkrijksdag
       12-15:
         name:
           nl: Koninkrijksdag
           en: Kingdom Day
+          de: Königreichstag
+          fr: Jour du Royaume
+          es: Día del Reino
+          it: Giorno del Regno
         type: observance
       12-25:
         _name: 12-25

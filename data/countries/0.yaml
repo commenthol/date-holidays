@@ -1,4 +1,4 @@
-##
+#
 # @author commenthol
 # @license CC-BY-SA-3
 #
@@ -15,18 +15,18 @@
 # <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>
 #
 
-  # SAMPLE:
-    # names:
-      # en: name
-    # dayoff: sunday
-    # langs:
-      # - en
-    # zones:
-      # - Africa/Maputo
-    # days:
-      # 01-01:
-        # _name: 01-01
+# SAMPLE:
+#   names:
+#     en: name
+#   dayoff: sunday
+#   langs:
+#     - en
+#   zones:
+#     - Africa/Maputo
+#   days:
+#     01-01:
+#       _name: 01-01
 
-version: '2017-01-01'
+version: "2017-01-01"
 
 license: CC-BY-SA-3

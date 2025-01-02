@@ -1,0 +1,181 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Iran
+holidays:
+  IR:
+    names:
+      fa: جمهوری اسلامی ایران
+      en: Iran
+    langs:
+      - fa
+      - en
+    zones:
+      - Asia/Tehran
+    dayoff: "Friday"
+    days:
+      1 Farvardin:
+        name:
+          fa: نوروز
+          en: Nowruz
+      2 Farvardin:
+        name:
+          fa: نوروز
+          en: Nowruz
+      3 Farvardin:
+        name:
+          fa: نوروز
+          en: Nowruz
+      4 Farvardin:
+        name:
+          fa: نوروز
+          en: Nowruz
+      12 Farvardin:
+        name:
+          fa: روز جمهوری اسلامی
+          en: Islamic Republic Day
+      13 Farvardin:
+        name:
+          fa: سیزده بدر
+          en: Sizdah Bedar
+      14 Khordad:
+        name:
+          fa: رﺣﻠﺖ اﻣﺎم ﺧﻤﯿﻨﯽ
+          en: Imam Khomeini's Demise
+      15 Khordad:
+        name:
+          fa: قیام ۱۵ خرداد
+          en: Revolt of Khordad 15
+      22 Bahman:
+        name:
+          fa: انقلاب اسلامی پنجاه و هفت
+          en: Anniversary of Islamic Revolution
+      29 Esfand:
+        name:
+          fa: ملی شدن صنعت نفت
+          en: Nationalization of the Iranian oil industry
+      9 Muharram:
+        name:
+          fa: ﺗﺎﺳﻮﻋﺎی ﺣﺴﯿﻨﯽ
+          en: Tasoua
+      10 Muharram:
+        name:
+          fa: ﻋﺎﺷﻮرای ﺣﺴﯿﻨﯽ
+          en: Ashoura
+      20 Safar:
+        name:
+          fa: اربعین حسینی
+          en: Arbaeen-e Hosseini
+      28 Safar:
+        name:
+          fa: رﺣﻠﺖ ﺣﻀﺮت رﺳﻮل اﮐﺮم صلّی الله علیه وآله و سلّم
+          en: Demise of Prophet Muhammad and Imam Hassan (Mujtaba)
+      30 Safar:
+        name:
+          fa: ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم رﺿﺎ ﻋﻠﯿﻪاﻟﺴﻼم
+          en: Martyrdom of Imam Reza
+      8 Rabi al-awwal:
+        name:
+          fa: شهادت امام حسن عسكری علیه‌السلام
+          en: Martyrdom of Imam Hassan
+      17 Rabi al-awwal:
+        name:
+          fa: ولادت حضرت رسول اکرم صلّی الله علیه وآله و سلّم
+          en: Birthday of Muhammad Prophet
+      3 Jumada al-thani:
+        name:
+          fa: ﺷﻬﺎدت ﺣﻀﺮت ﻓﺎﻃﻤﻪ زﻫﺮا ﺳﻼم اﷲ ﻋﻠﯿﻬﺎ
+          en: Martyrdom of Fatima-Zahara
+      13 Rajab:
+        name:
+          fa: وﻻدت ﺣﻀﺮت اﻣﺎم ﻋﻠﯽ ﻋﻠﯿﻪ اﻟﺴﻼم
+          en: Birthday of Imam Ali
+      27 Rajab:
+        name:
+          fa: ﻣﺒﻌﺚ ﺣﻀﺮت رﺳﻮل اﮐﺮم ﺻﻠﯽ اﷲ ﻋﻠﯿﻪ و آﻟﻪ
+          en: Mabaas of Muhammad
+      15 Shaban:
+        name:
+          fa: وﻻدت ﺣﻀﺮت ﻗﺎﺋﻢ ﻋﺠﻞاﷲ ﺗﻌﺎﻟﯽ ﻓﺮﺟﻪ شریف
+          en: Birthday of Imam Mahdi
+      21 Ramadan:
+        name:
+          fa: ﺷﻬﺎدت ﺣﻀﺮت ﻋﻠﯽ ﻋﻠﯿﻪاﻟﺴﻼم
+          en: Martyrdom of Imam Ali
+      1 Shawwal:
+        _name: 1 Shawwal
+      2 Shawwal:
+        name:
+          fa: ﺑﻪ ﻣﻨﺎﺳﺒﺖ ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ
+          en: Holyday for Fetr Eeid
+      25 Shawwal:
+        name:
+          fa: ﺷﻬﺎدت ﺣﻀﺮت اﻣﺎم ﺟﻌﻔﺮ ﺻﺎدق ﻋﻠﯿﻪاﻟﺴﻼم
+          en: Martyrdom of Imam Jafar
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+      18 Dhu al-Hijjah:
+        name:
+          fa: ﻋﯿﺪ ﺳﻌﯿﺪ ﻏﺪﯾﺮ ﺧﻢ
+          en: Eid al-Ghadeer
+
+    # states:
+    #   '10':
+    #     name: Khuzestan
+    #   '11':
+    #     name: Zanjan
+    #   '12':
+    #     name: Semnan
+    #   '13':
+    #     name: Sistan and Baluchestan
+    #   '14':
+    #     name: Fars
+    #   '15':
+    #     name: Kerman
+    #   '16':
+    #     name: Kurdistan
+    #   '17':
+    #     name: Kermanshah
+    #   '18':
+    #     name: Kohgiluyeh and Boyer-Ahmad
+    #   '19':
+    #     name: Gilan
+    #   '20':
+    #     name: Lorestan
+    #   '21':
+    #     name: Mazandaran
+    #   '22':
+    #     name: Markazi
+    #   '23':
+    #     name: Hormozgan
+    #   '24':
+    #     name: Hamadan
+    #   '25':
+    #     name: Yazd
+    #   '26':
+    #     name: Qom
+    #   '27':
+    #     name: Golestan
+    #   '28':
+    #     name: Qazvin
+    #   '29':
+    #     name: South Khorasan
+    #   '30':
+    #     name: Razavi Khorasan
+    #   '31':
+    #     name: North Khorasan
+    #   '32':
+    #     name: Alborz
+    #   '01':
+    #     name: East Azerbaijan
+    #   '02':
+    #     name: West Azarbaijan
+    #   '03':
+    #     name: Ardabil
+    #   '04':
+    #     name: Isfahan
+    #   '05':
+    #     name: Ilam
+    #   '06':
+    #     name: Bushehr
+    #   '07':
+    #     name: Tehran
+    #   08:
+    #     name: Chaharmahal and Bakhtiari

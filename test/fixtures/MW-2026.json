@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T22:00:00.000Z",
+    "end": "2026-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-01-15 00:00:00",
+    "start": "2026-01-14T22:00:00.000Z",
+    "end": "2026-01-15T22:00:00.000Z",
+    "name": "John Chilembwe Day",
+    "type": "public",
+    "rule": "01-15 and if saturday,sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-03-03 00:00:00",
+    "start": "2026-03-02T22:00:00.000Z",
+    "end": "2026-03-03T22:00:00.000Z",
+    "name": "Martyrs' Day",
+    "type": "public",
+    "rule": "03-03 and if saturday,sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-03-20 00:00:00 -0600",
+    "start": "2026-03-19T16:00:00.000Z",
+    "end": "2026-03-20T16:00:00.000Z",
+    "name": "Eid al Fitri",
+    "type": "public",
+    "rule": "1 Shawwal and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-03 00:00:00",
+    "start": "2026-04-02T22:00:00.000Z",
+    "end": "2026-04-03T22:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T22:00:00.000Z",
+    "end": "2026-04-05T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T22:00:00.000Z",
+    "end": "2026-04-06T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-01 00:00:00",
+    "start": "2026-04-30T22:00:00.000Z",
+    "end": "2026-05-01T22:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-05-14 00:00:00",
+    "start": "2026-05-13T22:00:00.000Z",
+    "end": "2026-05-14T22:00:00.000Z",
+    "name": "Kamuzu Day",
+    "type": "public",
+    "rule": "05-14 and if saturday,sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-07-06 00:00:00",
+    "start": "2026-07-05T22:00:00.000Z",
+    "end": "2026-07-06T22:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "07-06 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-10-15 00:00:00",
+    "start": "2026-10-14T22:00:00.000Z",
+    "end": "2026-10-15T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "public",
+    "rule": "10-15 and if saturday,sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T22:00:00.000Z",
+    "end": "2026-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  }
+]

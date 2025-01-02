@@ -84,7 +84,7 @@
     "date": "2024-06-21 00:00:00",
     "start": "2024-06-21T06:00:00.000Z",
     "end": "2024-06-22T06:00:00.000Z",
-    "name": "National Aboriginal Day",
+    "name": "National Indigenous Peoples Day",
     "type": "public",
     "rule": "06-21",
     "_weekday": "Fri"
@@ -114,6 +114,15 @@
     "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-09-30 00:00:00",
+    "start": "2024-09-30T06:00:00.000Z",
+    "end": "2024-10-01T06:00:00.000Z",
+    "name": "National Day for Truth and Reconciliation",
+    "type": "public",
+    "rule": "09-30 since 2021",
     "_weekday": "Mon"
   },
   {

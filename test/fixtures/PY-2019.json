@@ -49,7 +49,7 @@
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T04:00:00.000Z",
     "end": "2019-05-02T04:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Wed"
@@ -73,13 +73,13 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2019-06-17 00:00:00",
-    "start": "2019-06-17T04:00:00.000Z",
-    "end": "2019-06-18T04:00:00.000Z",
+    "date": "2019-06-12 00:00:00",
+    "start": "2019-06-12T04:00:00.000Z",
+    "end": "2019-06-13T04:00:00.000Z",
     "name": "Día de la Paz del Chaco",
     "type": "public",
-    "rule": "06-12 if tuesday,wednesday,thursday,friday,saturday,sunday then next monday",
-    "_weekday": "Mon"
+    "rule": "06-12",
+    "_weekday": "Wed"
   },
   {
     "date": "2019-08-15 00:00:00",

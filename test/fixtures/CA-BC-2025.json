@@ -117,6 +117,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2025-09-30 00:00:00",
+    "start": "2025-09-30T07:00:00.000Z",
+    "end": "2025-10-01T07:00:00.000Z",
+    "name": "National Day for Truth and Reconciliation",
+    "type": "public",
+    "rule": "09-30 since 2021",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2025-10-13 00:00:00",
     "start": "2025-10-13T07:00:00.000Z",
     "end": "2025-10-14T07:00:00.000Z",

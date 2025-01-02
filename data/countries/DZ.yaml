@@ -1,0 +1,135 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Algeria
+  DZ:
+    names:
+      ar: "الجمهورية الجزائرية الديمقراطية الشعبية"
+      fr: République algérienne démocratique et populaire
+      en: Algeria
+    langs:
+      - ar
+      - fr
+      - en
+    zones:
+      - Africa/Algiers
+    dayoff: saturday
+    days:
+      01-01:
+        _name: 01-01
+      01-12:
+        name:
+          ar: رأس السنة الأمازيغية
+          fr: Nouvel an amazigh
+          en: Amazigh New Year
+      05-01:
+        _name: 05-01
+      07-05:
+        _name: Independence Day
+      11-01:
+        _name: Revolution Day
+      1 Muharram:
+        _name: 1 Muharram
+      10 Muharram:
+        _name: 10 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    # states:
+    #   '10':
+    #     name: Bouira
+    #   '11':
+    #     name: Tamanghasset
+    #   '12':
+    #     name: Tébessa
+    #   '13':
+    #     name: Tlemcen
+    #   '14':
+    #     name: Tiaret
+    #   '15':
+    #     name: Tizi Ouzou
+    #   '16':
+    #     name: Algiers
+    #   '17':
+    #     name: Djelfa
+    #   '18':
+    #     name: Jijel
+    #   '19':
+    #     name: Sétif
+    #   '20':
+    #     name: Saïda
+    #   '21':
+    #     name: Skikda
+    #   '22':
+    #     name: Sidi Bel Abbès
+    #   '23':
+    #     name: Annaba
+    #   '24':
+    #     name: Guelma
+    #   '25':
+    #     name: Constantine
+    #   '26':
+    #     name: Médéa
+    #   '27':
+    #     name: Mostaganem
+    #   '28':
+    #     name: M’Sila
+    #   '29':
+    #     name: Mascara
+    #   '30':
+    #     name: Ouargla
+    #   '31':
+    #     name: Oran
+    #   '32':
+    #     name: El Bayadh
+    #   '33':
+    #     name: Illizi
+    #   '34':
+    #     name: Bordj Bou Arréridj
+    #   '35':
+    #     name: Boumerdès
+    #   '36':
+    #     name: El Tarf
+    #   '37':
+    #     name: Tindouf
+    #   '38':
+    #     name: Tissemsilt
+    #   '39':
+    #     name: El Oued
+    #   '40':
+    #     name: Khenchela
+    #   '41':
+    #     name: Souk Ahras
+    #   '42':
+    #     name: Tipasa
+    #   '43':
+    #     name: Mila
+    #   '44':
+    #     name: Aïn Defla
+    #   '45':
+    #     name: Naama
+    #   '46':
+    #     name: Aïn Témouchent
+    #   '47':
+    #     name: Ghardaïa
+    #   '48':
+    #     name: Relizane
+    #   '01':
+    #     name: Adrar
+    #   '02':
+    #     name: Chlef
+    #   '03':
+    #     name: Laghouat
+    #   '04':
+    #     name: Oum El Bouaghi
+    #   '05':
+    #     name: Batna
+    #   '06':
+    #     name: Béjaïa
+    #   '07':
+    #     name: Biskra
+    #   08:
+    #     name: Béchar
+    #   09:
+    #     name: Blida

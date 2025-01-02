@@ -1,0 +1,204 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Israel
+  IL:
+    names:
+      he: מְדִינַת יִשְׂרָאֵל
+      en: Israel
+    langs:
+      - he
+    zones:
+      - Asia/Jerusalem
+    dayoff: Saturday
+    days:
+      1 Tishrei:
+        name:
+          he: ראש השנה
+          en: Rosh Hashanah (Yom Teruah)
+      2 Tishrei:
+        name:
+          he: ראש השנה יום 2
+          en: Rosh Hashanah (Day 2)
+      3 Tishrei if Saturday then next Sunday:
+        name:
+          he: צום גדליה
+          en: Fast of Gedaliah (Tzom Gedalya)
+        type: observance
+      10 Tishrei:
+        name:
+          he: יום כיפור
+          en: Day of Atonement (Yom Kippur)
+      15 Tishrei:
+        name:
+          he: סוכות
+          en: Feast of Tabernacles (Sukkot)
+      16 Tishrei P6D:
+        name:
+          he: חול המועד סוכות
+          en: The week of Sukkot
+        type: school
+        note: Collective paid leave in many businesses and government offices
+      22 Tishrei:
+        name:
+          he: שמחת תורה/שמיני עצרת
+          en: Simchat Torah/ Shmini Atzeret
+      12 Cheshvan if Friday,Saturday then previous Thursday since 1997:
+        name:
+          he: יום רבין
+          en: Rabin Day
+        type: observance
+        note: National remembrance day, business as usual
+      29 Cheshvan:
+        name:
+          he: סיגד
+          en: Sigd
+        type: observance
+        note: Festival of the Ethiopian Jews, optional paid leave, business as usual
+      6 Kislev if Saturday then next Sunday:
+        name:
+          en: Ben-Gurion Day
+          he: יום בן-גוריון
+        type: observance
+        note: Day marked by the Knesset
+      25 Kislev P8D:
+        name:
+          en: Hanukkah
+          he: חנוכה
+        type: school
+      10 Tevet:
+        name:
+          en: Tenth of Tevet
+          he: צום עשרה בטבת
+        type: observance
+      15 Shvat:
+        name:
+          en: Tu Bishvat (Arbor Day)
+          he: ט"ו בשבט
+        type: observance
+      13 AdarII if Saturday then previous Thursday:
+        name:
+          en: Fast of Esther
+          he: תענית אסתר
+        type: school
+      14 AdarII P2D:
+        name:
+          en: Purim
+          he: פורים
+        type: school
+        note: optional paid leave
+      10 Nisan:
+        name:
+          en: Aliyah Day
+          he: יום העלייה
+        type: observance
+        note: Official holiday, business as usual
+      15 Nisan:
+        name:
+          en: Passover (Pesach)
+          he: פסח
+      16 Nisan P5D:
+        name:
+          en: Passover (intermediate days)
+          he: חול המועד פסח
+        type: school
+        note: School holiday, collective paid leave in many businesses and government offices
+      21 Nisan:
+        name:
+          en: Mimouna, Seventh day of Passover
+          he: מימונה, שביעי של פסח
+      27 Nisan if Friday then previous Thursday if Sunday then next Monday:
+        name:
+          en: Holocaust Remembrance Day (Yom HaShoah)
+          he: יום הזיכרון לשואה ולגבורה
+        type: observance
+        note: National remembrance day, business as usual except places of public entertainment
+      05-09:
+        name:
+          en: Victory in Europe Day
+          he: יום הניצחון על גרמניה הנאצית
+        type: observance
+      4 Iyyar if Thursday,Friday then previous Wednesday if Sunday then next Monday:
+        name:
+          en: Fallen Soldiers and Victims of Terrorism Remembrance Day (Yom HaZikaron)
+          he: יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה
+        type: observance
+        note: National remembrance day, business as usual except places of public entertainment
+      5 Iyyar if Friday,Saturday then previous Thursday if Monday then next Tuesday:
+        name:
+          en: Independence Day (Yom HaAtzmaut)
+          he: יום העצמאות
+      10 Iyyar if Saturday then next Sunday since 2004:
+        name:
+          en: Herzl Day
+          he: יום הרצל
+        type: observance
+        note: Day marked by the Knesset
+      18 Iyyar:
+        name:
+          en: Lag BaOmer
+          he: ל"ג בעומר
+        type: school
+      28 Iyyar:
+        name:
+          en: Jerusalem Day (Yom Yerushalayim)
+          he: יום ירושלים
+        type: observance
+        note: Optional paid leave
+      6 Sivan:
+        name:
+          en: Shavuot (Feast of Weeks)
+          he: שבועות
+      17 Tamuz if Saturday then next Sunday:
+        name:
+          en: Seventeenth of Tamuz, fast
+          he: שבעה עשר בתמוז
+        type: observance
+      29 Tamuz if Saturday then next Sunday:
+        name:
+          en: Jabotinsky Day
+          he: יום ז'בוטינסקי
+        type: observance
+        note: Day marked by the Knesset
+      9 Av if Saturday then next Sunday:
+        name:
+          en: Tisha B'Av, fast
+          he: תשעה באב
+        type: observance
+        note: Optional paid leave, business as usual except places of public entertainment
+      15 Av:
+        name:
+          en: Tu B'Av (Fifteenth of Av)
+          he: ט"ו באב
+        type: observance
+      "2015-03-17":
+        name:
+          en: Election Day
+          he: יום הבחירות
+      "2019-04-09":
+        name:
+          en: Election Day
+          he: יום הבחירות
+      "2019-09-17":
+        name:
+          en: Election Day
+          he: יום הבחירות
+      "2020-03-02":
+        name:
+          en: Election Day
+          he: יום הבחירות
+      "2021-03-23":
+        name:
+          en: Election Day
+          he: יום הבחירות
+    # states:
+    #   D:
+    #     name: Southern District
+    #   HA:
+    #     name: Haifa District
+    #   JM:
+    #     name: Jerusalem
+    #   M:
+    #     name: Central District
+    #   TA:
+    #     name: Tel Aviv District
+    #   Z:
+    #     name: Northern District

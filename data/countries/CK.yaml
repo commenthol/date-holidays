@@ -1,0 +1,132 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Cook_Islands
+  # @source http://www.cookislands.org.uk/gospelday.html
+  # @source http://www.cookislands.org.uk/calendar
+  # @source https://web.archive.org/web/20090326003301/http://www.stats.gov.ck/NewsEvents/PublicHolidays.pdf
+  CK:
+    names:
+      rar: Kūki 'Āirani
+      en: Cook Islands
+    langs:
+      - en
+      - rar
+    zones:
+      - Pacific/Rarotonga
+    dayoff: sunday
+    days:
+      01-01 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      01-02 and if Saturday then next Monday if Monday, Sunday then next Tuesday:
+        substitute: true
+        name:
+          en: Day after New Year's Day
+      04-25:
+        name:
+          en: Anzac Day
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      1st Monday in June: # #k
+        name:
+          en: Queen's Birthday
+        # same day as observed in NZ
+      1st Friday in July:
+        name:
+          en: Ra o te Ui Ariki (House of Ariki)
+          rar: Ra o te Ui Ariki
+      08-04 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: Constitution Day
+      10-26 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: National Gospel Day
+      12-25 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Saturday then next Monday if Monday, Sunday then next Tuesday:
+        substitute: true
+        _name: 12-26
+    states:
+      Aitutaki:
+        names:
+          en: Aitutaki
+        days:
+          10-26 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Aitutaki Gospel Day
+      Atiu:
+        names:
+          en: Atiu
+        days:
+          07-19 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Atiu Gospel Day
+      Mangaia:
+        names:
+          en: Mangaia
+        days:
+          06-15 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Mangaia Gospel Day
+      Manihiki:
+        names:
+          en: Manihiki
+        days:
+          08-08 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Manihiki Gospel Day
+      Mitiaro:
+        names:
+          en: Mitiaro
+        days:
+          07-21 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Mitiaro Gospel Day
+      Palmerston:
+        names:
+          en: Palmerston
+        days:
+          05-25 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Palmerston Gospel Day
+      Penrhyn:
+        names:
+          en: Penrhyn
+        days:
+          05-13 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Penrhyn Gospel Day
+      Pukapuka:
+        names:
+          en: Pukapuka
+        days:
+          12-06 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Pukapuka Gospel Day
+      Rakahanga:
+        names:
+          en: Rakahanga
+        days:
+          08-15 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Rakahanga Gospel Day
+      Rarotonga:
+        names:
+          en: Rarotonga
+        days:
+          07-25 and if Saturday, Sunday then next Monday:
+            substitute: true
+            name:
+              en: Rarotonga Gospel Day

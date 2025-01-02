@@ -1,0 +1,64 @@
+# @source https://publicholidays.africa/mali/fr/2020-dates/
+# @source http://www.zakweli.com/jours-feries-au-mali/
+# @source https://ml.usembassy.gov/fr/education-culture-fr/le-centre-culturel-americain/jours-feries/
+# @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#Mali
+holidays:
+  ML:
+    names:
+      fr: République du Mali
+      en: Republic of Mali
+    langs:
+      - fr
+      - en
+    zones:
+      - Africa/Abidjan
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      01-20:
+        name:
+          fr: Fête de l'armée
+          en: Army Day
+      03-26:
+        name:
+          fr: Journée des Martyrs
+          en: Martyrs' Day
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      12-25:
+        _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+      05-25:
+        name: Jour de l'Afrique
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+      09-22:
+        _name: Independence Day
+        name:
+          fr: Fête nationale de l'indépendance
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+
+#    states:
+#      '1':
+#        name: Kayes
+#      '2':
+#        name: Koulikoro
+#      '3':
+#        name: Sikasso
+#      '4':
+#        name: Ségou
+#      '5':
+#        name: Mopti
+#      '6':
+#        name: Tombouctou
+#      '7':
+#        name: Gao
+#      '8':
+#        name: Kidal
+#      BKO:
+#        name: Bamako

@@ -1,0 +1,70 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Saint_Vincent_and_the_Grenadines
+holidays:
+  VC:
+    names:
+      en: St. Vincent & Grenadines
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    days:
+      01-01 and if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      03-14 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: National Hero′s Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01 and if Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      easter 50:
+        _name: easter 50
+      1st Monday in July:
+        name:
+          en: Carnival Monday
+        disable:
+          - "2021-06-05"
+        enable:
+          - "2021-09-06"
+      Tuesday after 1st Monday in July:
+        name:
+          en: Carnival Tuesday
+        disable:
+          - "2021-06-06"
+        enable:
+          - "2021-09-07"
+      08-01 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Emancipation Day
+      10-27 and if Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      12-25 and if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Sunday then next Monday:
+        substitute: true
+        _name: 12-26
+    # states:
+    #   '01':
+    #     name: Charlotte
+    #   '02':
+    #     name: Saint Andrew
+    #   '03':
+    #     name: Saint David
+    #   '04':
+    #     name: Saint George
+    #   '05':
+    #     name: Saint Patrick
+    #   '06':
+    #     name: Grenadines

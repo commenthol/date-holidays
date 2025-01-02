@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T23:00:00.000Z",
+    "end": "2026-01-01T23:00:00.000Z",
+    "name": "Neujahr",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-04-02 00:00:00",
+    "start": "2026-04-01T22:00:00.000Z",
+    "end": "2026-04-02T22:00:00.000Z",
+    "name": "Gründonnerstag",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-04-03 00:00:00",
+    "start": "2026-04-02T22:00:00.000Z",
+    "end": "2026-04-03T22:00:00.000Z",
+    "name": "Karfreitag",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T22:00:00.000Z",
+    "end": "2026-04-05T22:00:00.000Z",
+    "name": "Ostersonntag",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T22:00:00.000Z",
+    "end": "2026-04-06T22:00:00.000Z",
+    "name": "Ostermontag",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-10 00:00:00",
+    "start": "2026-05-09T22:00:00.000Z",
+    "end": "2026-05-10T22:00:00.000Z",
+    "name": "Muttertag",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-05-14 00:00:00",
+    "start": "2026-05-13T22:00:00.000Z",
+    "end": "2026-05-14T22:00:00.000Z",
+    "name": "Auffahrt",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-05-24 00:00:00",
+    "start": "2026-05-23T22:00:00.000Z",
+    "end": "2026-05-24T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-05-25 00:00:00",
+    "start": "2026-05-24T22:00:00.000Z",
+    "end": "2026-05-25T22:00:00.000Z",
+    "name": "Pfingstmontag",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-06-07 00:00:00",
+    "start": "2026-06-06T22:00:00.000Z",
+    "end": "2026-06-07T22:00:00.000Z",
+    "name": "Vätertag",
+    "type": "observance",
+    "rule": "1st sunday in June",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-08-01 00:00:00",
+    "start": "2026-07-31T22:00:00.000Z",
+    "end": "2026-08-01T22:00:00.000Z",
+    "name": "Bundesfeiertag",
+    "type": "public",
+    "rule": "08-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-09-20 00:00:00",
+    "start": "2026-09-19T22:00:00.000Z",
+    "end": "2026-09-20T22:00:00.000Z",
+    "name": "Eidg. Dank-, Buss- und Bettag",
+    "type": "public",
+    "rule": "3rd sunday after 09-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T23:00:00.000Z",
+    "end": "2026-12-25T23:00:00.000Z",
+    "name": "Weihnachtstag",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-12-26 00:00:00",
+    "start": "2026-12-25T23:00:00.000Z",
+    "end": "2026-12-26T23:00:00.000Z",
+    "name": "Stephanstag",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sat"
+  }
+]

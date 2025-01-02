@@ -48,7 +48,7 @@
     "date": "2018-05-16 00:00:00 -0600",
     "start": "2018-05-15T10:00:00.000Z",
     "end": "2018-05-16T10:00:00.000Z",
-    "name": "Hari Pertama Berpuasa",
+    "name": "Awal Ramadan",
     "type": "public",
     "rule": "1 Ramadan",
     "_weekday": "Wed"
@@ -84,7 +84,7 @@
     "date": "2018-08-21 00:00:00 -0600",
     "start": "2018-08-20T10:00:00.000Z",
     "end": "2018-08-21T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Tue"
@@ -93,7 +93,7 @@
     "date": "2018-09-11 00:00:00 -0600",
     "start": "2018-09-10T10:00:00.000Z",
     "end": "2018-09-11T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Tue"
@@ -102,7 +102,7 @@
     "date": "2018-11-20 00:00:00 -0600",
     "start": "2018-11-19T10:00:00.000Z",
     "end": "2018-11-20T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Tue"
@@ -111,7 +111,7 @@
     "date": "2018-12-25 00:00:00",
     "start": "2018-12-24T16:00:00.000Z",
     "end": "2018-12-25T16:00:00.000Z",
-    "name": "Hari Natal",
+    "name": "Hari Krismas",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Tue"

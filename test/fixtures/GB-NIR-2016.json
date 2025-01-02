@@ -40,7 +40,7 @@
     "start": "2016-03-27T00:00:00.000Z",
     "end": "2016-03-27T23:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -70,6 +70,15 @@
     "type": "public",
     "rule": "1st monday before 06-01",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2016-06-19 00:00:00",
+    "start": "2016-06-18T23:00:00.000Z",
+    "end": "2016-06-19T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-07-12 00:00:00",
@@ -114,7 +123,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
-    "rule": "substitutes 12-25 if sunday then next tuesday",
+    "rule": "substitutes 12-25 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

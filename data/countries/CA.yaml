@@ -79,6 +79,11 @@ holidays:
           fr: Premier lundi d’août
       1st monday in September:
         _name: 05-01
+      # https://www.canada.ca/en/canadian-heritage/campaigns/national-day-truth-reconciliation.html
+      09-30 since 2021:
+        name:
+          en: National Day for Truth and Reconciliation
+          fr: Journée nationale de la vérité et de la réconciliation
       2nd monday after 10-01:
         name:
           en: Thanksgiving
@@ -206,7 +211,7 @@ holidays:
         days:
           06-21:
             name:
-              en: National Aboriginal Day
+              en: National Indigenous Peoples Day
               fr: Journée nationale des Autochthones
       NU:
         name: Nunavut
@@ -265,7 +270,7 @@ holidays:
             note: Either Good Friday or Easter Monday, at the employer’s option
           easter 1:
             _name: easter 1
-            note: Either Good Friday or Easter Monday, at the employer’s option 
+            note: Either Good Friday or Easter Monday, at the employer’s option
           monday before 05-25:
             name:
               en: National Patriots' Day

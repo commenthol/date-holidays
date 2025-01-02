@@ -8,10 +8,10 @@ holidays:
       en: Zimbabwe
     dayoff: sunday
     langs:
-      #- sn
-      #- nd
-      #- xh
-      #- kck
+      # - sn
+      # - nd
+      # - xh
+      # - kck
       - en
     zones:
       - Africa/Maputo

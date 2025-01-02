@@ -31,7 +31,7 @@
     "start": "2019-04-20T22:00:00.000Z",
     "end": "2019-04-21T22:00:00.000Z",
     "name": "Pâques",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -58,7 +58,7 @@
     "start": "2019-05-07T22:00:00.000Z",
     "end": "2019-05-08T22:00:00.000Z",
     "name": "Fête de l'Iris",
-    "type": "public",
+    "type": "observance",
     "rule": "05-08",
     "_weekday": "Wed"
   },
@@ -85,7 +85,7 @@
     "start": "2019-06-08T22:00:00.000Z",
     "end": "2019-06-09T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

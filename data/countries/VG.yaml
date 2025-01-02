@@ -1,0 +1,97 @@
+# @source http://bvi.gov.vg/media-centre/2015-public-holidays
+# @source http://bvi.gov.vg/media-centre/2016-public-holidays
+# @source http://bvi.gov.vg/media-centre/2017-public-holidays
+# @source http://bvi.gov.vg/media-centre/2018-public-holidays
+# @source http://bvi.gov.vg/media-centre/2019-public-holidays
+# @source http://bvi.gov.vg/media-centre/2020-public-holidays
+# @source http://bvi.gov.vg/media-centre/2021-public-holidays
+# @source https://bvi.gov.vg/sites/default/files/649_-_2021_public_holidays.pdf
+holidays:
+  VG:
+    names:
+      en: British Virgin Islands
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      Monday before 03-08:
+        name:
+          en: The Anniversary of the Birth of Hamilton Lavity Stoutt
+      2nd Monday in March:
+        name:
+          en: Commonwealth Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      easter 49:
+        _name: easter 49
+        type: observance
+      easter 50:
+        _name: easter 50
+      2nd Saturday after 06-02 prior to 2020:
+        name:
+          en: Sovereign’s Birthday
+        disable:
+          - "2017-06-10"
+          - "2019-06-15"
+        enable:
+          - "2017-06-17"
+          - "2019-06-07"
+      2nd Friday after 06-02 since 2020:
+        name:
+          en: Sovereign’s Birthday
+      07-01 if Sunday,Thursday then next Monday if Saturday then previous Friday if Tuesday,Wednesday then previous Monday:
+        name:
+          en: Virgin Islands Day
+        # wed 1/7/15 -> mon 29/6
+        # fri 1/7/16
+        # sat 1/7/17 -> fri 30/6
+        # sun 1/7/18 -> mon 2/7
+        # mon 1/7/19
+        # wed 1/7/20 -> mon 29/6
+        # thu 1/7/21 -> mon 5/7
+      10-21 if Sunday then next Monday if Saturday then previous Friday if Tuesday,Wednesday then previous Monday if Thursday then next Friday:
+        name:
+          en: St. Ursula’s Day
+        disable:
+          - "2016-10-23"
+          - "2020-10-19"
+          - "2021-10-22"
+        enable:
+          - "2016-10-19"
+          - "2020-10-23"
+        # wed 21/10/15 -> mon 19/10
+        # fri 21/10/16
+        # sat 21/10/17 -> fri 20/10
+        # sun 21/10/18 -> mon 22/10
+        # mon 21/10/19
+        # wed 21/10/20 -> fri 23/10
+      1st Monday in August:
+        name:
+          en: Emancipation Monday
+      Tuesday after 1st Monday in August:
+        name:
+          en: Emancipation Tuesday
+      Wednesday after 1st Monday in August:
+        name:
+          en: Emancipation Wednesday
+      "2021-10-18":
+        name:
+          en: Heroes’ and Forefathers Day
+      "2021-11-08":
+        name:
+          en: Commemoration of the Great March of 1949
+      12-25 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-26

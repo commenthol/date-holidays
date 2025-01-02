@@ -76,10 +76,19 @@
     "date": "2023-06-05 00:00:00",
     "start": "2023-06-04T12:00:00.000Z",
     "end": "2023-06-05T12:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "King's Birthday",
     "type": "public",
-    "rule": "1st monday in June",
+    "rule": "1st monday in June since 2023",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2023-07-14 00:00:00",
+    "start": "2023-07-13T12:00:00.000Z",
+    "end": "2023-07-14T12:00:00.000Z",
+    "name": "Matariki",
+    "type": "public",
+    "rule": "2023-07-14",
+    "_weekday": "Fri"
   },
   {
     "date": "2023-10-23 00:00:00",

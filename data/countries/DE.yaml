@@ -25,7 +25,7 @@ holidays:
           de: Rosenmontag
           en: Shrove Monday
         type: observance
-      'easter -47 14:00':
+      "easter -47 14:00":
         _name: easter -47
         type: observance
       easter -46:
@@ -96,7 +96,7 @@ holidays:
         name:
           de: 4. Advent
         type: observance
-      '12-24 14:00 if sunday then 00:00':
+      "12-24 14:00 if sunday then 00:00":
         _name: 12-24
         type: bank
       12-25:
@@ -105,10 +105,10 @@ holidays:
           de: 1. Weihnachtstag
       12-26:
         _name: 12-26
-      '12-31 14:00 if sunday then 00:00':
+      "12-31 14:00 if sunday then 00:00":
         _name: 12-31
         type: bank
-      '2017-10-31':
+      "2017-10-31":
         _name: Reformation Day
     states:
       BB:
@@ -134,7 +134,7 @@ holidays:
             _name: easter 49
             type: observance
           # @source: https://archiv.berliner-zeitung.de/berlin/parlamentsbeschluss-der-8--maerz-ist-nun-offiziell-ein-berliner-feiertag-31927822
-          '2020-05-08':
+          "2020-05-08":
             name:
               de: Tag der Befreiung (75. Jahrestag)
               en: Liberation Day (75th Anniversary)
@@ -189,9 +189,6 @@ holidays:
       HB:
         name: Hansestadt Bremen
         days:
-          '12-31 14:00 if sunday then 00:00':
-            _name: 12-31
-            type: public
           10-31:
             _name: Reformation Day
             active:
@@ -200,10 +197,12 @@ holidays:
         # @source http://www.rv.hessenrecht.hessen.de/cgi-bin/lexsoft/capi/hessen.cgi/export_pdf?docid=169523,1&hideVersionDate=1&shortTitleFileName=1&showVersionInfo=1&displayConfig=0&exportLawlist=1&customFooter=Hessische%20Gesetze%20und%20Verwaltungsvorschriften%20in%20Zusammenarbeit%20mit%20Wolters%20Kluwer%20Deutschland%20GmbH&at=1&pid=UAN_nv_3470
         name: Hessen
         days:
+          easter:
+            _name: easter
+          easter 49:
+            _name: easter 49
           easter 60:
             _name: easter 60
-          '12-31 14:00 if sunday then 00:00':
-            _name: 12-31
       HH:
         name: Hansestadt Hamburg
         days:
@@ -214,6 +213,9 @@ holidays:
       MV:
         name: Mecklenburg Vorpommern
         days:
+          # @source https://www.dokumentation.landtag-mv.de/parldok/dokument/52063/viertes_gesetz_zur_aenderung_des_feiertagsgesetzes_mecklenburg_vorpommern.pdf
+          03-08 since 2023:
+            _name: 03-08
           10-31:
             _name: Reformation Day
       NI:
@@ -293,8 +295,6 @@ holidays:
               - from: 2019
           10-31:
             _name: Reformation Day
-          '12-31 14:00 if sunday then 00:00':
-            _name: 12-31
         regions:
           EIC:
             name: Landkreis Eichfeld

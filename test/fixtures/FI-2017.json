@@ -57,7 +57,7 @@
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-13T21:00:00.000Z",
     "end": "2017-05-14T21:00:00.000Z",
-    "name": "Äitien päivä",
+    "name": "Äitienpäivä",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -108,6 +108,15 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2017-11-12 00:00:00",
+    "start": "2017-11-11T22:00:00.000Z",
+    "end": "2017-11-12T22:00:00.000Z",
+    "name": "Isänpäivä",
+    "type": "observance",
+    "rule": "2nd sunday in November",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2017-12-06 00:00:00",
     "start": "2017-12-05T22:00:00.000Z",
     "end": "2017-12-06T22:00:00.000Z",
@@ -149,7 +158,7 @@
     "end": "2017-12-31T22:00:00.000Z",
     "name": "Uudenvuodenaatto",
     "type": "bank",
-    "rule": "12-31 14:00 if sunday then 00:00",
+    "rule": "12-31",
     "_weekday": "Sun"
   }
 ]

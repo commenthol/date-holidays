@@ -2,6 +2,7 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States
   # @attrib https://en.wikipedia.org/wiki/Washington%27s_Birthday
   # @source https://www4.law.cornell.edu/uscode/html/uscode05/usc_sec_05_00006103----000-.html
+  # @source https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title5-section6103&f=treesort&num=0
   US:
     names:
       en: United States of America
@@ -46,11 +47,17 @@ holidays:
       3rd monday in January:
         name:
           en: Martin Luther King Jr. Day
+          es: Natalicio de Martin Luther King, Jr.
       3rd monday in February:
         name:
           en: Washington's Birthday
+          es: Día de los Presidentes
       02-14:
         _name: 02-14
+        type: observance
+      03-17:
+        name:
+          en: St. Patrick's Day
         type: observance
       easter:
         _name: easter
@@ -70,17 +77,24 @@ holidays:
       monday before 06-01:
         name:
           en: Memorial Day
+          es: Recordación de los Muertos de la Guerra
+      06-19 and if sunday then next monday if saturday then previous friday since 2021:
+        # @source https://www.congress.gov/bill/117th-congress/senate-bill/475
+        substitute: true
+        name:
+          en: Juneteenth
       3rd sunday in June:
         _name: Fathers Day
         type: observance
       07-04 and if sunday then next monday if saturday then previous friday:
         substitute: true
         _name: Independence Day
-      monday in September:
+      1st monday in September:
         _name: 05-01
       2nd monday in October:
         name:
           en: Columbus Day
+          es: Descubrimiento de América
       10-31 18:00:
         name:
           en: Halloween
@@ -88,11 +102,13 @@ holidays:
       11-11:
         name:
           en: Veterans Day
+          es: Día del Veterano
       # @source https://www.federalreserve.gov/aboutthefed/k8.htm
       substitutes 11-11 if sunday then next monday if saturday then previous friday:
         substitute: true
         name:
           en: Veterans Day
+          es: Día del Veterano
         type: bank
         note: Federal Government offices are closed
       tuesday after 1st monday in November every 4 years since 1848:
@@ -102,9 +118,11 @@ holidays:
       4th thursday in November:
         name:
           en: Thanksgiving Day
+          es: Acción de Gracias
       friday after 4th thursday in November:
         name:
           en: Day after Thanksgiving Day
+          es: Dia despues Acción de Gracias
         type: observance
       12-24:
         _name: 12-24
@@ -123,7 +141,7 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: 'Robert E. Lee/Martin Luther King Birthday'
+              en: "Robert E. Lee/Martin Luther King Birthday"
           3rd monday in February:
             name:
               en: George Washington/Thomas Jefferson Birthday
@@ -156,12 +174,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2017-01-01'
-          '2nd monday in October #1':
+              - to: "2017-01-01"
+          "2nd monday in October #1":
             name:
               en: Indigenous Peoples' Day
             active:
-              - from: '2017-01-01'
+              - from: "2017-01-01"
           10-18:
             name:
               en: Alaska Day
@@ -199,7 +217,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: The third Monday in February
+              en: Presidents' Day
           2nd monday in October: false
           02-15:
             type: observance
@@ -273,6 +291,17 @@ holidays:
           04-16:
             name:
               en: Emancipation Day
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: "2019-10-08"
+            # https://www.cnn.com/2021/10/11/us/indigenous-peoples-day-2021-states-trnd/index.html
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2019-10-09"
       FL:
         name: Florida
         days:
@@ -303,29 +332,29 @@ holidays:
         days:
           # Washington's Birthday is celebrated near Christmas in Georgia.
           3rd monday in February: false
-          'monday before 05-01 #1':
+          "monday before 05-01 #1":
             name:
               en: Confederate Memorial Day
             active:
-              - to: '2016-01-01'
-          'monday before 05-01 #2':
+              - to: "2016-01-01"
+          "monday before 05-01 #2":
             name:
               en: State Holiday
             note: Known as Confederate Memorial Day prior to 2016
             active:
-              - from: '2016-01-01'
-          'friday after 4th thursday in November #1':
+              - from: "2016-01-01"
+          "friday after 4th thursday in November #1":
             name:
               en: Robert E. Lee's Birthday
             note: General Lee was born on 1807-01-19 but this holiday was traditionally observed the day after Thanksgiving.
             active:
-              - to: '2016-01-01'
-          'friday after 4th thursday in November #2':
+              - to: "2016-01-01"
+          "friday after 4th thursday in November #2":
             name:
               en: State Holiday
             note: Known as Robert E. Lee's Birtday prior to 2016
             active:
-              - from: '2016-01-01'
+              - from: "2016-01-01"
 
           12-24:
             name:
@@ -369,7 +398,7 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: 'Martin Luther King, Jr./ Idaho Human Rights Day'
+              en: "Martin Luther King, Jr./ Idaho Human Rights Day"
           3rd monday in February:
             name:
               en: President's Day
@@ -421,6 +450,17 @@ holidays:
           02-12:
             name:
               en: Lincoln's Birthday
+          # https://www.desmoinesregister.com/story/news/2018/10/08/iowa-indigenous-peoples-day-columbus-day-kim-reynolds/1565615002/
+          2nd monday in October:
+            name:
+              en: Columbus Day
+            active:
+              - to: "2018-10-07"
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2018-10-08"
       KS:
         name: Kansas
         zones:
@@ -435,7 +475,7 @@ holidays:
           - America/Kentucky/Monticello
         days:
           3rd monday in February: false
-          'easter -2 14:00':
+          "easter -2 14:00":
             _name: easter -2
           12-24:
             _name: 12-24
@@ -470,6 +510,12 @@ holidays:
           3rd monday in April:
             name:
               en: Patriots' Day
+          # https://www.maine.gov/governor/mills/news/governor-mills-recognizes-indigenous-peoples-day-2021-10-11
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2019-04-26"
       MD:
         name: Maryland
         zones:
@@ -478,7 +524,7 @@ holidays:
           3rd monday in February:
             name:
               en: President's Day
-          friday before 1st monday before 06-01:
+          friday before 1st monday before 06-01 since 2009 and prior to 2016:
             name:
               en: Service Reduction Day
           friday after 4th thursday in November:
@@ -522,12 +568,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2017-01-01'
-          '2nd monday in October #1':
+              - to: "2017-01-01"
+          "2nd monday in October #1":
             name:
-              en: Indigenous Peoples’ Day
+              en: Indigenous Peoples' Day
             active:
-              - from: '2017-01-01'
+              - from: "2017-01-01"
       MS:
         name: Mississippi
         zones:
@@ -591,7 +637,7 @@ holidays:
             name:
               en: Indigenous Peoples' Day
             active:
-              - from: '2017-01-01'
+              - from: "2017-01-01"
             type: observance
           friday before 11-01:
             name:
@@ -643,6 +689,12 @@ holidays:
           3rd monday in February:
             name:
               en: Presidents' Day
+          # https://www.governor.state.nm.us/2020/10/12/gov-issues-statement-as-new-mexico-celebrates-indigenous-peoples-day/
+          "2nd monday in October #1":
+            name:
+              en: Indigenous Peoples' Day
+            active:
+              - from: "2019-04-01"
           friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
@@ -758,12 +810,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2015-01-01'
-          '2nd monday in October #1':
+              - to: "2015-01-01"
+          "2nd monday in October #1":
             name:
               en: Native American Day
             active:
-              - from: '2015-01-01'
+              - from: "2015-01-01"
       TN:
         name: Tennessee
         zones:
@@ -859,12 +911,12 @@ holidays:
             name:
               en: Columbus Day
             active:
-              - to: '2017-09-01'
-          '2nd monday in October #1':
+              - to: "2017-09-01"
+          "2nd monday in October #1":
             name:
               en: Indigenous Peoples' Day
             active:
-              - from: '2017-09-01'
+              - from: "2017-09-01"
       VA:
         name: Virginia
         zones:
@@ -873,9 +925,11 @@ holidays:
           3rd monday in February:
             name:
               en: George Washington Day
-          friday before 3rd monday in January:
+          friday before 3rd monday in January prior to 2021:
             name:
               en: Lee–Jackson Day
+          tuesday after 1st monday in November in even years since 2020:
+            name: Election Day
       WA:
         name: Washington
         zones:

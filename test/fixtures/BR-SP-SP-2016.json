@@ -76,7 +76,7 @@
     "start": "2016-05-26T03:00:00.000Z",
     "end": "2016-05-27T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
   },
@@ -160,6 +160,15 @@
     "type": "public",
     "rule": "11-15",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2016-11-20 00:00:00",
+    "start": "2016-11-20T02:00:00.000Z",
+    "end": "2016-11-21T02:00:00.000Z",
+    "name": "Dia da Consciência Negra",
+    "type": "public",
+    "rule": "11-20",
+    "_weekday": "Sun"
   },
   {
     "date": "2016-12-24 14:00:00",

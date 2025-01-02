@@ -1,0 +1,111 @@
+[
+  {
+    "date": "2018-01-01 00:00:00",
+    "start": "2018-01-01T10:00:00.000Z",
+    "end": "2018-01-02T10:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-01-02 00:00:00",
+    "start": "2018-01-02T10:00:00.000Z",
+    "end": "2018-01-03T10:00:00.000Z",
+    "name": "Day after New Year's Day",
+    "type": "public",
+    "rule": "01-02 and if Saturday then next Monday if Monday, Sunday then next Tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-30T10:00:00.000Z",
+    "end": "2018-03-31T10:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-04-02 00:00:00",
+    "start": "2018-04-02T10:00:00.000Z",
+    "end": "2018-04-03T10:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-04-25 00:00:00",
+    "start": "2018-04-25T10:00:00.000Z",
+    "end": "2018-04-26T10:00:00.000Z",
+    "name": "Anzac Day",
+    "type": "public",
+    "rule": "04-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-06-04 00:00:00",
+    "start": "2018-06-04T10:00:00.000Z",
+    "end": "2018-06-05T10:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-07-06 00:00:00",
+    "start": "2018-07-06T10:00:00.000Z",
+    "end": "2018-07-07T10:00:00.000Z",
+    "name": "Ra o te Ui Ariki (House of Ariki)",
+    "type": "public",
+    "rule": "1st Friday in July",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-08-04 00:00:00",
+    "start": "2018-08-04T10:00:00.000Z",
+    "end": "2018-08-05T10:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-08-06 00:00:00",
+    "start": "2018-08-06T10:00:00.000Z",
+    "end": "2018-08-07T10:00:00.000Z",
+    "name": "Constitution Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-10-26 00:00:00",
+    "start": "2018-10-26T10:00:00.000Z",
+    "end": "2018-10-27T10:00:00.000Z",
+    "name": "National Gospel Day",
+    "type": "public",
+    "rule": "10-26 and if Saturday, Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-25T10:00:00.000Z",
+    "end": "2018-12-26T10:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Saturday, Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-26 00:00:00",
+    "start": "2018-12-26T10:00:00.000Z",
+    "end": "2018-12-27T10:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Saturday then next Monday if Monday, Sunday then next Tuesday",
+    "_weekday": "Wed"
+  }
+]

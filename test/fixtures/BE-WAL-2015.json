@@ -31,7 +31,7 @@
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Pâques",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -76,7 +76,7 @@
     "start": "2015-05-23T22:00:00.000Z",
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
@@ -112,7 +112,7 @@
     "start": "2015-09-26T22:00:00.000Z",
     "end": "2015-09-27T22:00:00.000Z",
     "name": "La fête de la communauté française",
-    "type": "public",
+    "type": "observance",
     "rule": "09-27",
     "_weekday": "Sun"
   },

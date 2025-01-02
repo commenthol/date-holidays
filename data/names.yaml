@@ -1,4 +1,4 @@
-##
+# #
 # @copyright (c) 2016- commenthol
 # @license CC0-1.0
 #
@@ -12,7 +12,7 @@ names:
     name:
       en: New Year's Day
       am: እንቁጣጣሽ
-      ar: 'عيد رأس السنة'
+      ar: عيد رأس السنة
       az: Yeni il
       be: Новы год
       bg: Нова Година
@@ -39,10 +39,12 @@ names:
       jp: 元日
       kl: ukiortaaq
       ko: 신정
+      lb: Neijoerschdag
       lt: Naujieji metai
       lv: Jaunais Gads
       mg: Taom-baovao
       mk: Нова Година
+      ms: Hari Tahun Baru
       mt: L-Ewwel tas-Sena
       nl: Nieuwjaar
       no: Første nyttårsdag
@@ -51,11 +53,13 @@ names:
       pt: Ano Novo
       ro: Anul nou
       ru: Новый год
-      sl: novo leto
+      sl: Novo leto
       sq: Viti i Ri
       sr: Нова година
       sv: Nyårsdagen
       sw: Mwaka mpya
+      th: วันขึ้นปีใหม่
+      ti: ሓዲሽ ዓመት
       tr: Yılbaşı
       uk: Новий Рік
       vi: Tết Dương lịch
@@ -79,17 +83,21 @@ names:
       it: Befana
       # it: Epifania
       is: Þrettándinn
+      lb: Dräikinneksdag
       nl: Driekoningen
       mk: Богојавление
       pl: Święto Trzech Króli
+      pt: Epifania do Senhor
       sk: Zjavenie Pána
       sv: Trettondedag jul
+      ti: ጥምቀት
       vi: Lễ Hiển Linh
   02-02:
     name:
       en: Candlemas
       de: Lichtmess
       hu: Gyertyaszentelő Boldogasszony
+      lb: Liichtmëssdag
       nl: Lichtmis
       vi: Lễ Đức Mẹ dâng Chúa Giêsu trong đền thánh
   02-14:
@@ -98,7 +106,10 @@ names:
       de: Valentinstag
       fr: Saint-Valentin
       hu: Valentin nap
+      lb: Vältesdag
       nl: Valentijnsdag
+      no: Valentinsdag
+      pt: Dia dos Namorados
       vi: Lễ tình nhân
   03-08:
     name:
@@ -106,18 +117,22 @@ names:
       az: Qadınlar günü
       be: Мiжнародны жаночы дзень
       bg: Ден на жената
+      de: Internationaler Frauentag
       fr: Journée internationale des femmes
       ge: ქალთა საერთაშორისო დღე
       hu: Nemzetközi nőnap
       hy: Կանանց տոն
+      lb: Internationale Fraendag
       nl: Internationale Vrouwendag
+      no: Kvinnedagen
+      pt: Dia Internacional da Mulher
       ro: Ziua Internationala a Femeii
       ru: Международный женский день
       sl: Mednarodni dan žena
       uk: Міжнародний жіночий день
       vi: Quốc tế Phụ nữ
       zh: 国际妇女节
-      de: Internationaler Frauentag
+      ti: መዓልቲ ኣነስቲ
   03-19:
     name:
       en: Saint Joseph
@@ -131,15 +146,17 @@ names:
   04-01:
     name:
       en: April Fools' Day
+      de: 1. April
       hu: Bolondok napja
       nl: 1 April
+      no: Aprilsnarr
       sq: Dita e Gënjeshtrave
       vi: Cá tháng tư
   05-01:
     name:
       en: Labour Day
       en-us: Labor Day
-      ar: 'يوم العمال'
+      ar: يوم العمال
       be: Дзень працы
       bg: Ден на труда
       bs: Radni dan
@@ -147,7 +164,7 @@ names:
       da: 1. maj
       de: Tag der Arbeit
       el: Εργατική Πρωτομαγιά
-      es: Fiesta del trabajo
+      es: Día del trabajador
       et: kevadpüha
       fi: Vappu
       fil: Araw ng mga Manggagawa
@@ -158,27 +175,30 @@ names:
       id: Hari Buruh Internasional
       it: Festa del Lavoro
       is: Hátíðisdagur Verkamanna
+      lb: Éischte Mee
       lt: Tarptautinė darbo diena
       lv: Darba svētki
       nl: Dag van de Arbeid
       no: Arbeidernes dag
       mg: Fetin'ny asa
       mk: Ден на трудот
+      ms: Hari Pekerja
       mt: Jum il-Ħaddiem
       pap: Dia di Obrero
       pl: Święto Pracy
       pt: Dia do trabalhador
       ro: Ziua muncii
       sk: Sviatok práce
-      sl: praznik dela
+      sl: Praznik dela
       sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
       sv: Första Maj
+      ti: የላብ አደሮች ቀን
       uk: День міжнародної солідарності трудящих
       vi: Quốc tế Lao động
       zh: 劳动节
   05-09: # Europe Day
-    # source : https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27Europe_(Union_europ%C3%A9enne)
+    # @source https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_l%27Europe_(Union_europ%C3%A9enne)
     name:
       en: Europe Day
       bg: Денят на Европа
@@ -194,11 +214,12 @@ names:
       hr: Dan Europe
       hu: Európa-nap
       it: Festa dell'Europa
+      lb: Europadag
       ls: Dan Evrope
       lt: Europos diena
       lv: Eiropas diena
       mt: Jum l-Ewropa
-      nl: Dag van Europa ou Europadag
+      nl: Europadag
       pl: Dzień Europy
       pt: Dia da Europa
       ro: Ziua Europei
@@ -225,6 +246,7 @@ names:
       hr: Velika Gospa
       it: Ferragosto
       # it: Assunzione di Maria Virgine
+      lb: Léiffrawëschdag
       lt: Žolinė
       mg: Asompsiona
       mk: Успение на Пресвета Богородица
@@ -249,6 +271,7 @@ names:
       hu: Mindenszentek
       it: Ognissanti
       # it: Tutti i Santi
+      lb: Allerhellegen
       lt: Visų šventųjų diena
       mg: Fetin'ny olo-masina
       mk: Празникот на сите светци
@@ -258,7 +281,7 @@ names:
       sk: Sviatok všetkých svätých
       sq: Të gjitha Saints
       sr: Сви Свети
-      sv: Alla helgons dag
+      sv: Alla Helgons dag
       vi: Lễ Các Thánh
   11-02:
     name:
@@ -270,16 +293,25 @@ names:
       fr: Fête des morts
       hr: Dušni dan
       hu: Halottak napja
+      lb: Allerséilen
       nl: Allerzielen
       pt: Dia de Finados
       vi: Lễ Các Đẳng
       lt: Vėlinės
+  10-04:
+    name:
+      en: World Animal Day
+      de: Welttierschutztag
+      es: Día de los Animales
+      fr: Journée mondiale des Animaux
+      nl: Dierendag
+      pt: Dia Mundial dos Animais
   11-11:
     name:
       en: Saint Martin
       de: Sankt Martin (Faschingsbeginn)
       hu: Márton nap
-      nl: Sint Maarten
+      nl: Sint-Maarten
       vi: Lễ thánh Martin
   12-06:
     name:
@@ -287,8 +319,15 @@ names:
       de: Sankt Nikolaus
       fr: Saint-Nicolas
       hu: Mikulás
+      lb: Niklosdag
       nl: Sinterklaas
       vi: Thánh Saint Nicholas
+  12-07:
+    name:
+      it: Sant'Ambrogio
+      en: Saint Ambrose
+      de: Ambrosius von Mailand
+      nl: Ambrosius van Milaan
   12-08:
     name:
       en: Immaculate Conception
@@ -317,8 +356,10 @@ names:
       hu: Szenteste
       is: Aðfangadagur
       kl: juulliaraq
+      lb: Hellegowend
       lt: Šv. Kūčios
       lv: Ziemassvētku vakars
+      ms: Hari Sebelum Krismas
       nl: Kerstavond
       no: Julaften
       pt: Noite de Natal
@@ -331,6 +372,7 @@ names:
     name:
       en: Christmas Day
       am: ልደተ-ለእግዚእነ/ ገና
+      ar: عيد الميلاد المجيد
       bg: Коледа
       bn: বড়দিন
       bs: Božić
@@ -356,11 +398,12 @@ names:
       jp: ノエル
       kl: juullerujussuaq
       ko: 기독탄신일
+      lb: Chrëschtdag
       lt: Šv. Kalėdos
       lv: Ziemassvētki
       mg: Krismasy
       mk: Католички Божиќ
-      ms: Hari Natal
+      ms: Hari Krismas
       mt: Il-Milied
       nl: Kerstmis
       no: Første Juledag
@@ -370,12 +413,15 @@ names:
       ro: Crăciunul
       ru: Рождество Христово
       sk: Prvý sviatok vianočný
-      sl: božič
+      sl: Božič
       sq: Krishtlindja
       sr: Католички Божић
       sv: Juldagen
       sw: Krismasi
+      ti: ልደት
+      uk: Різдво Христове
       vi: Lễ Giáng Sinh
+      zh: 聖誕節
   12-26:
     name:
       en: Boxing Day
@@ -397,13 +443,14 @@ names:
       it: Santo Stefano
       is: Annar í jólum
       kl: juullip aappaa
+      lb: Stiefesdag
       lt: 2. Kalėdų diena
       lv: Otrie Ziemassvētki
       nl: Tweede kerstdag
       no: Andre juledag
       pap: Di dos Dia Pasco di Nascimento
       pl: Drugi dzień Bożego Narodzenia
-      ro: Două zi de Crăciun
+      ro: A doua zi de Crăciun
       sk: Druhý sviatok vianočný
       sv: Annandag jul
       vi: Ngày tặng quà
@@ -423,11 +470,13 @@ names:
       is: Gamlársdagur
       it: Ultimo dell’anno
       jp: 大晦日
+      lb: Silvester
       lv: Vecgada vakars
       nl: Oudejaarsavond
       no: Nyttårsaften
       pt: Véspera de Ano Novo
       sv: Nyårsafton
+      th: วันสิ้นปี
       vi: Đêm giao thừa
 
   # moveable days
@@ -438,7 +487,8 @@ names:
       de: Rosenmontag
       es: Carnaval
       fr: Lundi de Carnaval
-      nl: Carnavalmaandag
+      lb: Fuesméindeg
+      nl: Carnavalsmaandag
       pap: Dialuna di Carnaval
       vi: Ngày thứ hai hoa hồng
   easter -47: # Carnival Tuesday
@@ -461,11 +511,13 @@ names:
       hu: Hamvazószerda
       it: Ceneri
       is: Öskudagur
+      lb: Äschermëttwoch
       nl: Aswoensdag
+      no: Askeonsdag
       pt: Quarta-feira de Cinzas
       sw: Jumatano ya Majivu
       vi: Thứ tư Lễ Tro
-  easter -7:  # Palm Sunday
+  easter -7: # Palm Sunday
     name:
       en: Palm Sunday
       de: Palmsonntag
@@ -473,10 +525,11 @@ names:
       hu: Virágvasárnap
       it: Domenica delle Palme
       is: Pálmasunnudagur
+      lb: Pällemsonndeg
       nl: Palmzondag
       no: Palmesøndag
       vi: Chúa nhật Lễ Lá
-  easter -3:  # Maundy Thursday
+  easter -3: # Maundy Thursday
     name:
       en: Maundy Thursday
       cz: Zelený čtvrtek
@@ -489,11 +542,12 @@ names:
       is: Skírdagur
       it: Giovedì santo
       kl: sisamanngortoq illernartoq
-      nl: Witte donderdag
+      lb: Gréngen Donneschdeg
+      nl: Witte Donderdag
       no: Skjærtorsdag
       sv: Skärtorsdagen
       vi: Thứ năm Tuần Thánh
-  easter -2:  # Good Friday
+  easter -2: # Good Friday
     name:
       en: Good Friday
       am: ስቅለት
@@ -516,7 +570,9 @@ names:
       it: Venerdì santo
       is: Föstudagurinn langi
       kl: tallimanngornersuaq
+      lb: Karfreideg
       lv: Lielā Piektdiena
+      ms: Jumat Agung
       mt: Il-Ġimgħa l-Kbira
       nl: Goede Vrijdag
       no: Langfredag
@@ -529,7 +585,8 @@ names:
       sv: Långfredagen
       sw: Ijumaa Kuu
       vi: Thứ sáu Tuần Thánh
-  easter -1:  # Holy Saturday
+      zh: 耶穌受難節
+  easter -1: # Holy Saturday
     name:
       en: Easter Saturday
       cz: Bílá sobota
@@ -540,10 +597,13 @@ names:
       ge: დიდი შაბათი
       hu: Nagyszombat
       it: Sabado santo
+      lb: Karsamschdeg
       nl: Dag voor Pasen
       no: Påskeaften
+      sv: Påskafton
       vi: Thứ bảy Tuần Thánh
-  easter:     # Easter
+      zh: 耶穌受難節翌日
+  easter: # Easter
     name:
       en: Easter Sunday
       am: ፋሲካ
@@ -565,6 +625,7 @@ names:
       it: Domenica di Pasqua
       is: Páskadagur
       kl: poorskip-ullua
+      lb: Ouschtersonndeg
       lt: Velykos
       lv: Lieldienas
       nl: Pasen
@@ -574,13 +635,14 @@ names:
       pt: Páscoa
       ro: Paștele
       sk: Veľká noc
-      sl: velika noč
+      sl: Velika noč
       sq: Pashkët Katolike
       sr: Католички Васкрс
-      sv: Påsk
+      sv: Påskdagen
       sw: Pasaka
       vi: Lễ Phục Sinh
-  easter 1:   # Easter Monday
+      zh: 复活节
+  easter 1: # Easter Monday
     name:
       en: Easter Monday
       bg: Велики понеделник
@@ -599,6 +661,8 @@ names:
       it: Lunedì dell’Angelo
       is: Annar í páskum
       kl: poorskip-aappaa
+      lb: Ouschterméindeg
+      lt: Velykų pirmadienis
       lv: Otrās Lieldienas
       mg: Alatsinain'ny Paska
       mk: вториот ден на Велигден
@@ -606,14 +670,15 @@ names:
       no: Andre påskedag
       pap: Di dos Dia Pasco di Resureccion
       pl: Drugi dzień Wielkanocy
-      ro: Două zi de Pasti
+      ro: A doua zi de Pasti
       sk: Veľkonočný pondelok
       sl: Velikonočni ponedeljek
       sr: Католички Васкрсни понедељак
       sv: Annandag påsk
       sw: Jumatatu ya Pasaka
       vi: Thứ hai phục sinh
-  easter 39:  # Ascension Day
+      zh: 復活節星期一
+  easter 39: # Ascension Day
     name:
       en: Ascension Day
       da: Kristi Himmelfartsdag
@@ -627,18 +692,19 @@ names:
       is: Uppstigningardagur
       kl: qilaliarfik
       mg: Andro niakarana
+      lb: Christi Himmelfaart
       nl: O.L.H. Hemelvaart
       no: Kristi himmelfartsdag
       pap: Dia di Asuncion
       ro: Ziua Eroilor
       sv: Kristi himmelfärds dag
       vi: Lễ Thăng Thiên
-  easter 49:  # Pentecost/ Whit Sunday
+  easter 49: # Pentecost / Whit Sunday
     name:
       en: Pentecost
       da: Pinsedag
       de: Pfingstsonntag
-      el: Αγίου Πνεύματος
+      el: Πεντηκοστή
       es: Pentecostés
       et: nelipühade 1. püha
       fi: Helluntaipäivä
@@ -648,20 +714,22 @@ names:
       it: Pentecoste
       is: Hvítasunnudagur
       kl: piinsip ullua
+      lb: Päischtsonndeg
       nl: Pinksteren
       no: Første pinsedag
       mk: Духовден
       pl: Zielone Świątki
       ro: Rusaliile
-      sl: binkošti
-      sv: Pingst
+      sl: Binkošti
+      sv: Pingstdagen
       uk: Трійця
       vi: Lễ Chúa Thánh Thần Hiện Xuống
-  easter 50:  # Whit Monday
+  easter 50: # Whit Monday
     name:
       en: Whit Monday
       da: Anden Pinsedag
       de: Pfingstmontag
+      el: Αγίου Πνεύματος
       es: Lunes de Pentecostés
       fo: Annar hvítusunnudagur
       fr: Lundi de Pentecôte
@@ -670,11 +738,12 @@ names:
       it: Lunedì di Pentecoste
       kl: piinsip aappaa
       mg: Alatsinain'ny Pentekosta
+      lb: Péngschtméindeg
       nl: Tweede pinksterdag
       no: Andre pinsedag
-      ro: Două zi de Rusalii
+      ro: A doua zi de Rusalii
       sv: Annandag pingst
-  easter 60:  # Corpus Christi
+  easter 60: # Corpus Christi
     name:
       en: Corpus Christi
       de: Fronleichnam
@@ -697,15 +766,16 @@ names:
   julian 12-24:
     name:
       en: Orthodox Christmas Eve
-      nl: Orthodox Kerstavond
+      nl: Orthodoxe Kerstavond
       mk: Бадник
+      ti: ልደት
   julian 12-25:
     name:
       en: Orthodox Christmas
       bs: Pravoslavni Božić
       hr: Pravoslavni Božić
       mk: Прв ден Божик
-      nl: Orthodox Kerstmis
+      nl: Orthodoxe Kerstmis
       ro: Craciun pe Rit Vechi
       sq: Krishtlindjet Ortodokse
       sr: Божић
@@ -714,8 +784,9 @@ names:
     name:
       en: Orthodox Good Friday
       mk: Велики Петок
-      nl: Orthodoxe Goede vrijdag
+      nl: Orthodoxe Goede Vrijdag
       sr: Велики петак
+      ti: ዓርቢ ስቅለት
   orthodox:
     name:
       en: Orthodox Easter
@@ -725,6 +796,7 @@ names:
       nl: Orthodox Pasen
       sq: Pashkët Ortodokse
       sr: Васкрс
+      ti: ፋሲካ
       uk: Великдень
   orthodox 1:
     name:
@@ -737,74 +809,84 @@ names:
   1 Muharram: # Islamic New Year
     name:
       en: Islamic New Year
-      ar: 'رأس السنة الهجرية'
+      ar: رأس السنة الهجرية
       bs: Nova hidžretska godina
       fil: Unang Araw ng Muharram
+      fr: Nouvel an islamique
       hr: Nova hidžretska godina
       id: Tahun Baru Islam
-      ms: Awal Tahun Hijrah
+      ms: Awal Muharram
       nl: Islamitisch Nieuwjaar
       sq: Viti i Ri hixhri
   10 Muharram: # Day of Ashura
     name:
       en: Day of Ashura
-      ar: 'عاشوراء'
+      ar: عاشوراء
       bn: আশুরা
-      nl: Asjoera
+      nl: De tiende dag (Asjoera)
   12 Rabi al-awwal: # Birthday of Muhammad (Mawlid)
     name:
       en: Birthday of Muhammad (Mawlid)
       am: መውሊድ
-      ar: 'المولد النبويّ'
+      ar: المولد النبويّ
       bn: ঈদে মিলাদুন্নবী
       bs: Mevlud
       fr: Mawlid
       id: Maulid Nabi Muhammad
-      ms: Maulidur Rasul
-      nl: Mawlid an-Nabi
+      ms: Hari Keputeraan Nabi Muhammad S.A.W.
+      nl: Geboortedag Mohammed (Mawlid an-Nabi)
       sq: Mevludi
-  27 Rajab:   # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
+  27 Rajab: # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
     name:
       en: Laylat al-Mi'raj
-      ar: 'الإسراء والمعراج'
+      ar: الإسراء والمعراج
       bs: Lejletul Mi'radž
       id: Maulid Nabi Muhammad
       ms: Israk dan Mikraj
-      nl: Laylat al-Miraadj
+      nl: Hemelvaart Mohammed (Lailat-ul-Meraj)
       sq: Nata e Miraxhit
       tr: Miraç Gecesi
-  15 Shaban:  # Laylat al-Bara'at (Bara'at Night)
+  15 Shaban: # Laylat al-Bara'at (Bara'at Night)
     name:
       en: Laylat al-Bara'at
-      ar: 'ليلة البراءة'
+      ar: ليلة البراءة
       bs: Lejletul berat
-      nl: Laylat al-Baraat
+      nl: Nacht van de Lotsbezegeling (Lailat-ul-Baraat)
       sq: Nata e Beratit
-  1 Ramadan:  # First day of Ramadan
+  1 Ramadan: # First day of Ramadan
     name:
       en: First day of Ramadan
       am: ረመዳን
-      ar: 'اليوم الأول من رمضان'
+      ar: اليوم الأول من رمضان
       bs: Prvi dan posta
-      ms: Hari Pertama Berpuasa
+      ms: Awal Ramadan
       nl: Eerste dag van Ramadan
       sq: Dita e parë e agjërimit
+  17 Ramadan: # Day of Nuzul Al-Quran
+    name:
+      en: Day of Nuzul Al-Quran
+      ms: Hari Nuzul Al-Quran
+  23 Ramadan: # Revelation of the Quaran
+    name:
+      en: Lailat al-Qadr
   27 Ramadan: # Laylat al-Qadr (Night of Power)
     name:
       en: Laylat al-Qadr
-      ar: 'لیلة القدر'
+      ar: لیلة القدر
       bs: Lejletul kadr
       nl: Waardevolle Nacht (Laylat al-Qadr)
       sq: Nata e Kadrit
-  1 Shawwal:  # End of Ramadan
+  1 Shawwal: # End of Ramadan (Eid al-Fitr)
     name:
       en: End of Ramadan (Eid al-Fitr)
       am: ዒድ አል ፈጥር
-      ar: 'عيد الفطر'
+      ar: عيد الفطر
       az: Ramazan Bayramı
       bn: ঈদুল ফিতর
       bs: Ramazanski bajram
       de: Zuckerfest
+      es: Fiesta del Eid Fitr
+      fa: ﻋﯿﺪ ﺳﻌﯿﺪ ﻓﻄﺮ
       fil: Pagwawakas ng Ramadan
       fr: Fête de fin du Ramadan
       hr: Ramazanski bajram
@@ -820,22 +902,27 @@ names:
     name:
       en: Arafat Day
       ar: يوم عرفة
-  10 Dhu al-Hijjah: # Feast of the Sacrifice
+      es: Fiesta del Sacrificio-Eidul Adha
+      ms: Hari Arafah
+      nl: Dag van Arafat
+  10 Dhu al-Hijjah: # Feast of the Sacrifice (Eid al-Adha)
     name:
       en: Feast of the Sacrifice (Eid al-Adha)
       am: ዒድ አል አድሐ
-      ar: 'عيد الأضحى'
+      ar: عيد الأضحى
       az: Qurban Bayramı
       bn: ঈদুল আযহা
       bs: Kurbanski bajram
       de: Opferfest
+      es: Fiesta del Sacrificio-Aid Al Adha
+      fa: ﻋﯿﺪ ﺳﻌﯿﺪ ﻗﺮﺑﺎن
       fil: Eidul Adha
       fr: Fête du mouton
       hr: Kurban-bajram
       id: Hari Raya Idul Adha
       nl: Offerfeest (Eid Al-Adha)
       mk: Курбан Бајрам
-      ms: Hari Raya Aidil Adha
+      ms: Hari Raya Haji
       sq: Kurban Bajrami
       tr: Kurban Bayramı
       sr: Курбански Бајрам
@@ -875,10 +962,36 @@ names:
   Deepavali:
     name:
       en: Deepavali
+      nl: Divali
   Vesak:
     name:
       en: Vesak Day
       id: Hari Raya Waisak
+      nl: Vesakha Puja
+      th: วันวิสาขบูชา
+  Holi:
+    name:
+      en: Holi Phagwa
+      nl: Holifeest
+  Thaipusam:
+    name:
+      en: Thaipusam
+      ms: Hari Thaipusam
+  Makha Bucha:
+    name:
+      en: Makha Bucha
+      nl: Magha Puja
+      th: วันมาฆบูชา
+  Asalha Puja:
+    name:
+      en: Asalha Puja
+      nl: Asalha Puja
+      th: วันอาสาฬหบูชา
+  Buddhist Lent:
+    name:
+      en: Buddhist Lent
+      nl: Vassa
+      th: วันเข้าพรรษา
 
   # Day references
   Abolition of Slavery:
@@ -891,6 +1004,7 @@ names:
     name:
       de: Buß- und Bettag
       en: Day of Prayer and Repentance
+      nl: Dag van gebed en bekering
   Constitution Day:
     name:
       en: Constitution Day
@@ -915,11 +1029,13 @@ names:
     name:
       en: Father's Day
       et: isadepäev
+      fi: Isänpäivä
       fr: Fête des Pères
       lt: Tėvo diena
       nl: Vaderdag
       pt: Dia dos Pais
       no: Farsdag
+      sv: Fars dag
       vi: Ngày của cha
   Independence Day:
     name:
@@ -938,6 +1054,7 @@ names:
       hy: Անկախության օր
       id: Hari Ulang Tahun Kemerdekaan Republik Indonesia
       mk: Ден на независноста
+      ms: Hari Kebangsaan
       mt: Jum l-Indipendenza
       nl: Onafhankelijkheidsdag
       pl: Narodowe Święto Niepodległości
@@ -947,11 +1064,13 @@ names:
       sr: Дан независности
       sv: Självständighetsdagen
       sw: Siku ya uhuru
+      ti: መዓልቲ ናጽነት
       uk: День Незалежності
       vi: Ngày Độc lập
   Liberation Day:
     name:
       en: Liberation Day
+      ar: يوم التحرير
       nl: Bevrijdingsdag
       no: Frigjøringsdagen
       sq: Dita e Çlirimit
@@ -965,7 +1084,7 @@ names:
       el: Γιορτή της μητέρας
       es: Día de la Madre
       et: emadepäev
-      fi: Äitien päivä
+      fi: Äitienpäivä
       fr: Fête des Mères
       hr: Majčin dan
       hu: Anyák napja
@@ -990,6 +1109,7 @@ names:
       fr: Fête nationale
       hu: Nemzeti ünnep
       el: εθνική επέτειος
+      lb: Nationalfeierdag
       nl: Nationale feestdag
       vi: Quốc Lễ
   Public Holiday:
@@ -1009,9 +1129,15 @@ names:
   Revolution Day:
     name:
       en: Revolution Day
+      ar: يوم الثورة
       es: Día de la Revolución
-      nl: Dag van de revolutie
+      nl: Dag van de Revolutie
+      ti: ባሕቲ መስከረም
       vi: Tổng khởi nghĩa
+  Bridge Day:
+    name:
+      en: Bridge Day
+      es: Feriado Puente Turístico
 
   # internal use
   substitutes:
@@ -1031,3 +1157,4 @@ names:
       sr: замена дан
       uk: замінити день
       vi: ngày thay thế
+      zh: 更换日

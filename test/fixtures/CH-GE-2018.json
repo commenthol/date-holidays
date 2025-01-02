@@ -18,6 +18,15 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2018-03-29 00:00:00",
+    "start": "2018-03-28T22:00:00.000Z",
+    "end": "2018-03-29T22:00:00.000Z",
+    "name": "Jeudi saint",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2018-03-30 00:00:00",
     "start": "2018-03-29T22:00:00.000Z",
     "end": "2018-03-30T22:00:00.000Z",
@@ -93,7 +102,7 @@
     "date": "2018-08-01 00:00:00",
     "start": "2018-07-31T22:00:00.000Z",
     "end": "2018-08-01T22:00:00.000Z",
-    "name": "Fête nationnale",
+    "name": "Fête nationale",
     "type": "public",
     "rule": "08-01",
     "_weekday": "Wed"
@@ -104,17 +113,8 @@
     "end": "2018-09-06T22:00:00.000Z",
     "name": "Jeûne Genevois",
     "type": "public",
-    "rule": "thursday after 1 sunday after 09-01",
+    "rule": "thursday after 1st sunday after 09-01",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2018-09-16 00:00:00",
-    "start": "2018-09-15T22:00:00.000Z",
-    "end": "2018-09-16T22:00:00.000Z",
-    "name": "Jeûne fédéral",
-    "type": "public",
-    "rule": "3 sunday after 09-01",
-    "_weekday": "Sun"
   },
   {
     "date": "2018-12-25 00:00:00",

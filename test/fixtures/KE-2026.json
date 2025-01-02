@@ -1,0 +1,120 @@
+[
+  {
+    "date": "2026-01-01 00:00:00",
+    "start": "2025-12-31T21:00:00.000Z",
+    "end": "2026-01-01T21:00:00.000Z",
+    "name": "Mwaka mpya",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-03-20 00:00:00 -0600",
+    "start": "2026-03-19T15:00:00.000Z",
+    "end": "2026-03-20T15:00:00.000Z",
+    "name": "Idd-ul-Fitr",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-03 00:00:00",
+    "start": "2026-04-02T21:00:00.000Z",
+    "end": "2026-04-03T21:00:00.000Z",
+    "name": "Ijumaa Kuu",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-05 00:00:00",
+    "start": "2026-04-04T21:00:00.000Z",
+    "end": "2026-04-05T21:00:00.000Z",
+    "name": "Pasaka",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-04-06 00:00:00",
+    "start": "2026-04-05T21:00:00.000Z",
+    "end": "2026-04-06T21:00:00.000Z",
+    "name": "Jumatatu ya Pasaka",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-05-01 00:00:00",
+    "start": "2026-04-30T21:00:00.000Z",
+    "end": "2026-05-01T21:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-05-27 00:00:00 -0600",
+    "start": "2026-05-26T15:00:00.000Z",
+    "end": "2026-05-27T15:00:00.000Z",
+    "name": "Idd-ul-Azha",
+    "type": "public",
+    "note": "For all persons belonging to the Islamic faith.",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-06-01 00:00:00",
+    "start": "2026-05-31T21:00:00.000Z",
+    "end": "2026-06-01T21:00:00.000Z",
+    "name": "Siku ya Madaraka",
+    "type": "public",
+    "rule": "06-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-10-10 00:00:00",
+    "start": "2026-10-09T21:00:00.000Z",
+    "end": "2026-10-10T21:00:00.000Z",
+    "name": "Moi Day",
+    "type": "public",
+    "rule": "10-10 and if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-10-20 00:00:00",
+    "start": "2026-10-19T21:00:00.000Z",
+    "end": "2026-10-20T21:00:00.000Z",
+    "name": "Siku ya Mashujaa",
+    "type": "public",
+    "rule": "10-20 and if sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-12-12 00:00:00",
+    "start": "2026-12-11T21:00:00.000Z",
+    "end": "2026-12-12T21:00:00.000Z",
+    "name": "Siku ya Jamhuri",
+    "type": "public",
+    "rule": "12-12 and if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T21:00:00.000Z",
+    "end": "2026-12-25T21:00:00.000Z",
+    "name": "Krismasi",
+    "type": "public",
+    "rule": "12-25 and if sunday then next tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-12-26 00:00:00",
+    "start": "2026-12-25T21:00:00.000Z",
+    "end": "2026-12-26T21:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Sat"
+  }
+]

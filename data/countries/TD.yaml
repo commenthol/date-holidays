@@ -1,0 +1,91 @@
+# @source https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/97323/115433/F-316075167/TCD-97323.pdf
+# @source https://publicholidays.africa/chad/fr/2021-dates/
+holidays:
+  TD:
+    names:
+      ar: "جمهورية تشاد"
+      fr: République du Tchad
+      en: Chad
+    langs:
+      - ar
+      - fr
+    zones:
+      - Africa/Ndjamena
+    dayoff: sunday
+    days:
+      01-01 and if sunday then next monday:
+        _name: 01-01
+      05-01 and if sunday then next monday:
+        _name: 05-01
+      08-11 and if sunday then next monday:
+        name:
+          fr: Fête Nationale (Indépendance)
+          en: Independence Day
+      12-01 and if sunday then next monday:
+        name:
+          fr: Journée de la libération et de la démocratie
+          en: Freedom and Democracy Day
+      11-01:
+        _name: 11-01
+      11-28:
+        name:
+          fr: Anniversaire de la Proclamation de la République
+          en: Proclamation of the Republic
+      12-25:
+        _name: 12-25
+      easter 1:
+        _name: easter 1
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+
+#    states:
+#      BA:
+#        name: Batha
+#      BG:
+#        name: Bahr el Gazel
+#      BO:
+#        name: Borkou
+#      CB:
+#        name: Chari-Baguirmi
+#      EE:
+#        name: Ennedi-Est
+#      EO:
+#        name: Ennedi-Ouest
+#      GR:
+#        name: Guéra
+#      HL:
+#        name: Hadjer-Lamis
+#      KA:
+#        name: Kanem
+#      LC:
+#        name: Lac
+#      LO:
+#        name: Logone Occidental
+#      LR:
+#        name: Logone Oriental
+#      MA:
+#        name: Mandoul
+#      MC:
+#        name: Moyen-Chari
+#      ME:
+#        name: Mayo-Kebbi Est
+#      MO:
+#        name: Mayo-Kebbi Ouest
+#      ND:
+#        name: N’Djamena
+#      OD:
+#        name: Ouaddaï
+#      SA:
+#        name: Salamat
+#      SI:
+#        name: Sila
+#      TA:
+#        name: Tandjilé
+#      TI:
+#        name: Tibesti
+#      WF:
+#        name: Wadi Fira

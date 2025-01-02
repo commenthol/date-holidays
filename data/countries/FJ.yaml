@@ -1,0 +1,139 @@
+holidays:
+  # @source https://www.fiji.gov.fj/Media-Centre/News/GOVERNMENT-APPROVES-2021-PUBLIC-HOLIDAYS
+  FJ:
+    names:
+      fj: Matanitu Tugalala o Viti
+      en: Fiji
+    langs:
+      - fj
+      - en
+    zones:
+      - Pacific/Fiji
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter -1:
+        _name: easter -1
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      09-07:
+        _name: Constitution Day
+      10-10 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Fiji Day
+      12-25 if Sunday then next Monday:
+        _name: 12-25
+      12-26 if Sunday then next Monday if Monday then next Tuesday:
+        _name: 12-26
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      # Deepavali if Saturday, Sunday then next Monday
+      "2014-10-22":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2015-11-10":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2016-10-29":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2017-10-19":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2018-11-07":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2019-10-27":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2019-10-28":
+        substitute: true
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2020-11-14":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2020-11-16":
+        substitute: true
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2021-11-04":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2022-10-24":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2023-11-12":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2023-11-13":
+        substitute: true
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2024-11-01":
+        _name: Deepavali
+        name:
+          en: Diwali
+      "2025-10-21":
+        _name: Deepavali
+        name:
+          en: Diwali
+    # states:
+    #   '01':
+    #     name: Ba
+    #   '02':
+    #     name: Bua
+    #   '03':
+    #     name: Cakaudrove
+    #   '04':
+    #     name: Kadavu
+    #   '05':
+    #     name: Lau
+    #   '06':
+    #     name: Lomaiviti
+    #   '07':
+    #     name: Macuata
+    #   '08':
+    #     name: Nadroga-Navosa
+    #   '09':
+    #     name: Naitasiri
+    #   '10':
+    #     name: Namosi
+    #   '11':
+    #     name: Ra
+    #   '12':
+    #     name: Rewa
+    #   '13':
+    #     name: Serua
+    #   '14':
+    #     name: Tailevu
+    #   C:
+    #     name: Central
+    #   E:
+    #     name: Eastern
+    #   'N':
+    #     name: Northern
+    #   R:
+    #     name: Rotuma
+    #   W:
+    #     name: Western

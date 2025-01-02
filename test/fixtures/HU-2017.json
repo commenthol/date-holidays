@@ -39,10 +39,19 @@
     "date": "2017-03-15 00:00:00",
     "start": "2017-03-14T23:00:00.000Z",
     "end": "2017-03-15T23:00:00.000Z",
-    "name": "1948-as forradalom",
+    "name": "1848-as forradalom",
     "type": "public",
     "rule": "03-15",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2017-04-14 00:00:00",
+    "start": "2017-04-13T22:00:00.000Z",
+    "end": "2017-04-14T22:00:00.000Z",
+    "name": "Nagypéntek",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
@@ -175,7 +184,7 @@
     "start": "2017-12-05T23:00:00.000Z",
     "end": "2017-12-06T23:00:00.000Z",
     "name": "Mikulás",
-    "type": "public",
+    "type": "observance",
     "rule": "12-06",
     "_weekday": "Wed"
   },

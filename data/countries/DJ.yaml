@@ -1,0 +1,52 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Djibouti
+  # @source http://joursferies-fr.blogspot.com/2019/05/jours-feries-en-djibouti-2020-et-2021.html
+  # @source https://publicholidays.africa/djibouti/fr/2021-dates/
+  DJ:
+    names:
+      fr: République de Djibouti
+      ar: جمهورية جيبوتي
+      so: Jamhuuriyadda Jabuuti
+      aa: Gabuutih Ummuuno
+      en: Djibouti
+    langs:
+      - fr
+      - ar
+      - en
+    zones:
+      - Africa/Nairobi
+    dayoff: ""
+    days:
+      01-01:
+        _name: 01-01
+      05-01:
+        _name: 05-01
+      06-27 since 1977:
+        _name: Independence Day
+      12-25:
+        _name: 12-25
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      27 Rajab:
+        _name: 27 Rajab
+      1 Shawwal:
+        _name: 1 Shawwal
+      9 Dhu al-Hijjah:
+        _name: 9 Dhu al-Hijjah
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    # states:
+    #   AR:
+    #     name: Arta
+    #   AS:
+    #     name: Ali Sabieh
+    #   DI:
+    #     name: Dikhil
+    #   DJ:
+    #     name: Djibouti
+    #   OB:
+    #     name: Obock
+    #   TA:
+    #     name: Tadjourah

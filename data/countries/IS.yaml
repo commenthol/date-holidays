@@ -71,7 +71,7 @@ holidays:
         name:
           is: Íslenski þjóðhátíðardagurinn
           en: Icelandic National Day
-      monday in August:
+      1st monday in August:
         name:
           # is: Verslunarmannahelgi
           is: Frídagur verslunarmanna
@@ -92,12 +92,11 @@ holidays:
           is: Þorláksmessa
           en: St Þorlákur's Day
         type: observance
-      '12-24 13:00 if sunday then 00:00':
+      "12-24 13:00 if sunday then 00:00":
         _name: 12-24
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
-      '12-31 13:00 if sunday then 00:00':
+      "12-31 13:00 if sunday then 00:00":
         _name: 12-31
-

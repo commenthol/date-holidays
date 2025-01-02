@@ -75,7 +75,7 @@
     "date": "2019-05-01 00:00:00",
     "start": "2019-05-01T03:00:00.000Z",
     "end": "2019-05-02T03:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Wed"
@@ -108,6 +108,15 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2019-07-08 00:00:00",
+    "start": "2019-07-08T03:00:00.000Z",
+    "end": "2019-07-09T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 07-09 if tuesday then previous monday if thursday then next friday if saturday then previous friday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2019-07-09 00:00:00",
     "start": "2019-07-09T03:00:00.000Z",
     "end": "2019-07-10T03:00:00.000Z",
@@ -135,12 +144,12 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2019-11-25 00:00:00",
-    "start": "2019-11-25T03:00:00.000Z",
-    "end": "2019-11-26T03:00:00.000Z",
+    "date": "2019-11-18 00:00:00",
+    "start": "2019-11-18T03:00:00.000Z",
+    "end": "2019-11-19T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {

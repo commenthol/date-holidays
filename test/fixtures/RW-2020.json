@@ -3,7 +3,7 @@
     "date": "2020-01-01 00:00:00",
     "start": "2019-12-31T22:00:00.000Z",
     "end": "2020-01-01T22:00:00.000Z",
-    "name": "Nouvel An",
+    "name": "New Year's Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Wed"
@@ -12,7 +12,7 @@
     "date": "2020-01-02 00:00:00",
     "start": "2020-01-01T22:00:00.000Z",
     "end": "2020-01-02T22:00:00.000Z",
-    "name": "Jour férié légaux",
+    "name": "Public Holiday",
     "type": "public",
     "rule": "01-02",
     "_weekday": "Thu"
@@ -30,7 +30,7 @@
     "date": "2020-04-07 00:00:00",
     "start": "2020-04-06T22:00:00.000Z",
     "end": "2020-04-07T22:00:00.000Z",
-    "name": "Jour de Mémorial du Génocide",
+    "name": "Genocide Memorial Day",
     "type": "public",
     "rule": "04-07",
     "_weekday": "Tue"
@@ -39,16 +39,25 @@
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-09T22:00:00.000Z",
     "end": "2020-04-10T22:00:00.000Z",
-    "name": "Vendredi saint",
+    "name": "Good Friday",
     "type": "public",
     "rule": "easter -2",
     "_weekday": "Fri"
   },
   {
+    "date": "2020-04-13 00:00:00",
+    "start": "2020-04-12T22:00:00.000Z",
+    "end": "2020-04-13T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2020-05-01 00:00:00",
     "start": "2020-04-30T22:00:00.000Z",
     "end": "2020-05-01T22:00:00.000Z",
-    "name": "Fête du travail",
+    "name": "Labour Day",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Fri"
@@ -57,7 +66,7 @@
     "date": "2020-05-24 00:00:00 -0600",
     "start": "2020-05-23T16:00:00.000Z",
     "end": "2020-05-24T16:00:00.000Z",
-    "name": "Fête de fin du Ramadan",
+    "name": "End of Ramadan (Eid al-Fitr)",
     "type": "public",
     "rule": "1 Shawwal",
     "_weekday": "Sun"
@@ -66,7 +75,7 @@
     "date": "2020-07-01 00:00:00",
     "start": "2020-06-30T22:00:00.000Z",
     "end": "2020-07-01T22:00:00.000Z",
-    "name": "Jour de l'Indépendance",
+    "name": "Independence Day",
     "type": "public",
     "rule": "07-01",
     "_weekday": "Wed"
@@ -75,7 +84,7 @@
     "date": "2020-07-04 00:00:00",
     "start": "2020-07-03T22:00:00.000Z",
     "end": "2020-07-04T22:00:00.000Z",
-    "name": "Jour de la Libération",
+    "name": "Liberation Day",
     "type": "public",
     "rule": "07-04",
     "_weekday": "Sat"
@@ -84,7 +93,7 @@
     "date": "2020-07-31 00:00:00 -0600",
     "start": "2020-07-30T16:00:00.000Z",
     "end": "2020-07-31T16:00:00.000Z",
-    "name": "Fête du mouton",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Fri"
@@ -93,7 +102,7 @@
     "date": "2020-08-07 00:00:00",
     "start": "2020-08-06T22:00:00.000Z",
     "end": "2020-08-07T22:00:00.000Z",
-    "name": "Umuganura",
+    "name": "National Harvest Day",
     "type": "public",
     "rule": "1st friday in August",
     "_weekday": "Fri"
@@ -102,7 +111,7 @@
     "date": "2020-08-15 00:00:00",
     "start": "2020-08-14T22:00:00.000Z",
     "end": "2020-08-15T22:00:00.000Z",
-    "name": "Assomption",
+    "name": "Assumption",
     "type": "public",
     "rule": "08-15",
     "_weekday": "Sat"
@@ -111,7 +120,7 @@
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-24T22:00:00.000Z",
     "end": "2020-12-25T22:00:00.000Z",
-    "name": "Noël",
+    "name": "Christmas Day",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
@@ -120,7 +129,7 @@
     "date": "2020-12-26 00:00:00",
     "start": "2020-12-25T22:00:00.000Z",
     "end": "2020-12-26T22:00:00.000Z",
-    "name": "Lendemain de Noël",
+    "name": "Boxing Day",
     "type": "public",
     "rule": "12-26",
     "_weekday": "Sat"

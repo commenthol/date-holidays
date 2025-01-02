@@ -1,0 +1,597 @@
+holidays:
+  # @source https://publicholidays.com.my/2022-dates/
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Malaysia
+  MY:
+    names:
+      en: Malaysia
+    langs:
+      - ms
+    zones:
+      - Asia/Kuala_Lumpur
+      - Asia/Kuching
+    dayoff: Saturday
+    days:
+      01-01:
+        _name: 01-01
+      substitutes 01-01 if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      chinese 01-0-01:
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
+      chinese 01-0-02:
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
+      substitutes chinese 01-0-01 if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
+      substitutes chinese 01-0-02 if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          ms: Tahun Baru Cina
+      05-01:
+        _name: 05-01
+      substitutes 05-01 if Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      1st Monday in June:
+        name:
+          en: Yang di-Pertuan Agong's Birthday
+          ms: Hari Keputeraan Yang di-Pertuan Agong
+      08-31:
+        _name: Independence Day
+      substitutes 08-31 if Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      09-16:
+        name:
+          en: Malaysia Day
+          ms: Hari Malaysia
+      substitutes 09-16 if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Malaysia Day
+          ms: Hari Malaysia
+      12-25:
+        _name: 12-25
+      substitutes 12-25 if Sunday then next Monday:
+        substitute: true
+        _name: 12-25
+      # Islamic
+      17 Ramadan:
+        _name: 17 Ramadan
+        disable:
+          - "2022-04-18"
+        enable:
+          - "2022-04-19"
+      1 Shawwal:
+        _name: 1 Shawwal
+        disable:
+          - "2022-05-02"
+        enable:
+          - "2022-05-03"
+      2 Shawwal:
+        _name: 1 Shawwal
+        disable:
+          - "2022-05-03"
+        enable:
+          - "2022-05-04"
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        disable:
+          - "2022-07-09"
+        enable:
+          - "2022-07-10"
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+        disable:
+          - "2022-10-08"
+        enable:
+          - "2022-10-09"
+      # Vesak
+      # @source https://www.drikpanchang.com/festivals/buddha-purnima/buddha-purnima-date-time.html?year=2021
+      # @attrib https://en.wikipedia.org/wiki/Vesak
+      "2010-05-28":
+        _name: Vesak
+      "2011-05-17":
+        _name: Vesak
+      "2012-05-06":
+        _name: Vesak
+      "2013-05-25":
+        _name: Vesak
+      "2014-05-15":
+        _name: Vesak
+      "2015-06-02":
+        _name: Vesak
+      "2016-05-22":
+        _name: Vesak
+      "2017-05-10":
+        _name: Vesak
+      "2018-05-29":
+        _name: Vesak
+      "2019-05-19":
+        _name: Vesak
+      "2020-05-07":
+        _name: Vesak
+      "2021-05-26":
+        _name: Vesak
+      "2022-05-15":
+        _name: Vesak
+      "2022-05-16":
+        substitute: true
+        _name: Vesak
+      "2023-05-04":
+        _name: Vesak
+      "2024-05-22":
+        _name: Vesak
+      "2025-05-12":
+        _name: Vesak
+      "2026-05-31":
+        _name: Vesak
+      # Deepavali
+      "2016-10-29":
+        _name: Deepavali
+      "2017-10-18":
+        _name: Deepavali
+      "2018-11-06":
+        _name: Deepavali
+      "2019-10-27":
+        _name: Deepavali
+      "2019-10-28":
+        substitute: true
+        _name: Deepavali
+      "2020-11-14":
+        _name: Deepavali
+      "2021-11-04":
+        _name: Deepavali
+      "2022-10-24":
+        _name: Deepavali
+      "2023-11-12":
+        _name: Deepavali
+      "2023-11-13":
+        substitute: true
+        _name: Deepavali
+      "2024-10-31":
+        _name: Deepavali
+      "2025-10-20":
+        _name: Deepavali
+      "2026-11-09":
+        _name: Deepavali
+      "2027-10-28":
+        _name: Deepavali
+      "2028-11-15":
+        _name: Deepavali
+      "2029-11-05":
+        _name: Deepavali
+      "2030-10-25":
+        _name: Deepavali
+    states:
+      "01":
+        name: Johor
+        days:
+          01-01: false
+          03-23:
+            name:
+              en: Sultan of Johor's Birthday
+              ms: Hari Keputeraan Sultan Johor
+          # Islamic
+          1 Ramadan:
+            _name: 1 Ramadan
+          17 Ramadan: false
+          6 Safar:
+            name:
+              en: Hari Hol of Sultan Iskandar of Johor
+              ms: Hari Hol Almarhum Sultan Iskandar
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "02":
+        name: Kedah
+        days:
+          01-01: false
+          3rd Sunday in June:
+            name:
+              en: Sultan of Kedah's Birthday
+              ms: Hari Keputeraan Sultan Kedah
+          # Islamic
+          27 Rajab:
+            _name: 27 Rajab
+          1 Ramadan:
+            _name: 1 Ramadan
+          17 Ramadan: false
+          11 Dhu al-Hijjah:
+            _name: 10 Dhu al-Hijjah
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "03":
+        name: Kelantan
+        days:
+          01-01: false
+          11 Dhu al-Hijjah:
+            _name: 10 Dhu al-Hijjah
+          11-11:
+            name:
+              en: Sultan of Kelantan's Birthday
+              ms: Hari Keputeraan Sultan Kelantan
+          11-12:
+            name:
+              en: Sultan of Kelantan's Birthday
+              ms: Hari Keputeraan Sultan Kelantan
+      "04":
+        name: Malacca
+        days:
+          04-15:
+            name:
+              en: Declaration of Malacca City as Historical City
+              ms: Hari Perisytiharan Bandar Melaka sebagai Bandaraya Bersejarah
+          08-24:
+            name:
+              en: Melaka State Governor's Birthday
+              ms: Hari Jadi Yang di-Pertua Negeri Melaka
+          # Islamic
+          1 Ramadan:
+            _name: 1 Ramadan
+          17 Ramadan: false
+      "05":
+        name: Negeri Sembilan
+        days:
+          01-14:
+            name:
+              en: Yang di-Pertuan Besar of Negeri Sembilan's Birthday
+              ms: Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan
+          # Islamic
+          27 Rajab:
+            _name: 27 Rajab
+          17 Ramadan: false
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "06":
+        name: Pahang
+        days:
+          05-22:
+            name:
+              en: Hari Hol of Pahang
+              ms: Hari Hol Pahang
+          07-30:
+            name:
+              en: Sultan of Pahang's Birthday
+              ms: Hari Keputeraan Sultan Pahang
+      "07":
+        name: Penang
+        days:
+          07-07:
+            name:
+              en: Declaration of George Town as World Heritage Site
+              id: Hari Ulang Tahun Perisytiharan Tapak Warisan Dunia
+          2nd Saturday in July:
+            name:
+              en: Penang State Governor's Birthday
+              ms: Hari Jadi Yang di-Pertua Negeri Pulau Pinang
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "08":
+        name: Perak
+        days:
+          1st Friday in November:
+            name:
+              en: Sultan of Perak's Birthday
+              ms: Hari Keputeraan Sultan Perak
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "09":
+        name: Perlis
+        days:
+          01-01: false
+          07-17:
+            name:
+              en: Raja of Perlis's Birthday
+              id: Hari Keputeraan Raja Perlis
+          # Islamic
+          27 Rajab:
+            _name: 27 Rajab
+          11 Dhu al-Hijjah:
+            _name: 10 Dhu al-Hijjah
+      "10":
+        name: Selangor
+        days:
+          12-11:
+            name:
+              en: Sultan of Selangor's Birthday
+              id: Hari Keputeraan Sultan Selangor
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "11":
+        name: Terengganu
+        days:
+          01-01: false
+          03-04:
+            name:
+              en: Anniversary of Installation of the Sultan of Terengganu
+              ms: Hari Ulang Tahun Pertabalan Sultan Terengganu
+          04-26:
+            name:
+              en: Sultan of Terengganu's Birthday
+              ms: Hari Keputeraan Sultan Terengganu
+          # Islamic
+          27 Rajab:
+            _name: 27 Rajab
+          9 Dhu al-Hijjah:
+            _name: 9 Dhu al-Hijjah
+          11 Dhu al-Hijjah:
+            _name: 10 Dhu al-Hijjah
+      "12":
+        name: Sabah
+        days:
+          easter -2:
+            _name: easter -2
+          05-30:
+            name:
+              en: Tadau Kaamatan
+              ms: Pesta Kaamatan
+          05-31:
+            name:
+              en: Tadau Kaamatan
+              ms: Pesta Kaamatan
+          1st Saturday in October:
+            name:
+              en: Sabah State Governor's Birthday
+              ms: Hari Jadi Yang di-Pertua Negeri Sabah
+          12-24:
+            _name: 12-24
+          # Islamic
+          17 Ramadan: false
+      "13":
+        name: Sarawak
+        days:
+          # Deepavali not applied
+          "2016-10-29": false
+          "2017-10-18": false
+          "2018-11-06": false
+          "2019-10-27": false
+          "2020-11-14": false
+          "2021-11-04": false
+          "2022-10-24": false
+          "2023-11-13": false
+          "2024-10-31": false
+          "2025-10-20": false
+          "2026-11-09": false
+          "2027-10-28": false
+          "2028-11-15": false
+          "2029-11-05": false
+          "2030-10-25": false
+          # State holidays
+          easter -2:
+            _name: easter -2
+          06-01:
+            name:
+              en: Gawai Dayak
+              ms: Perayaan Hari Gawai Dayak
+          06-02:
+            name:
+              en: Gawai Dayak
+              ms: Perayaan Hari Gawai Dayak
+          07-22:
+            name:
+              en: Sarawak Independence Day
+              ms: Hari Kemerdekaan Sarawak
+          2nd Saturday in October:
+            name:
+              en: Sarawak State Governor's Birthday
+              ms: Hari Jadi Yang di-Pertua Negeri Sarawak
+          # Islamic
+          17 Ramadan: false
+      "14":
+        name: Kuala Lumpur
+        days:
+          02-01:
+            name:
+              en: Federal Territory Day
+              ms: Hari Wilayah Persekutuan
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam
+      "15":
+        name: Labuan
+        days:
+          02-01:
+            name:
+              en: Federal Territory Day
+              ms: Hari Wilayah Persekutuan
+          05-30:
+            name:
+              en: Tadau Kaamatan
+              ms: Pesta Kaamatan
+          05-31:
+            name:
+              en: Tadau Kaamatan
+              ms: Pesta Kaamatan
+      "16":
+        name: Putrajaya
+        days:
+          02-01:
+            name:
+              en: Federal Territory Day
+              ms: Hari Wilayah Persekutuan
+          # Thaipusam
+          # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
+          "2016-01-24":
+            _name: Thaipusam
+          "2017-02-10":
+            _name: Thaipusam
+          "2018-01-31":
+            _name: Thaipusam
+          "2019-01-21":
+            _name: Thaipusam
+          "2020-02-08":
+            _name: Thaipusam
+          "2021-01-28":
+            _name: Thaipusam
+          "2022-01-18":
+            _name: Thaipusam
+          "2023-02-05":
+            _name: Thaipusam
+          "2024-01-25":
+            _name: Thaipusam
+          "2025-02-11":
+            _name: Thaipusam
+          "2026-02-01":
+            _name: Thaipusam

@@ -31,7 +31,7 @@
     "start": "2024-03-31T00:00:00.000Z",
     "end": "2024-03-31T23:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -70,6 +70,15 @@
     "type": "public",
     "rule": "2nd friday in June",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2024-06-16 00:00:00",
+    "start": "2024-06-15T23:00:00.000Z",
+    "end": "2024-06-16T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
   },
   {
     "date": "2024-07-05 00:00:00",

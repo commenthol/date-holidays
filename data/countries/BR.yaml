@@ -78,12 +78,18 @@ holidays:
         name:
           pt: Proclamação da República
           en: Republic Day
-      '12-24 14:00':
+      11-20:
+        name:
+          pt: Dia da Consciência Negra
+          en: Black Awareness Day
+        active:
+          - from: 2023-12-21
+      "12-24 14:00":
         _name: 12-24
         type: optional
       12-25:
         _name: 12-25
-      '12-31 14:00':
+      "12-31 14:00":
         _name: 12-31
         type: optional
     states:
@@ -156,6 +162,7 @@ holidays:
               pt: Dia da Consciência Negra
             active:
               - from: 2010-07-08
+                to: 2023-12-21
       AP:
         name: Amapá
         zones:
@@ -260,6 +267,7 @@ holidays:
               pt: Dia da Consciência Negra
             active:
               - from: 2002-12-27
+                to: 2023-12-21
       PA:
         name: Pará
         zones:
@@ -321,7 +329,7 @@ holidays:
             name:
               pt: Dia do Piauí
             active:
-             - from: 1937-01-01
+              - from: 1937-01-01
       PR:
         name: Paraná
         zones:
@@ -365,6 +373,18 @@ holidays:
               pt: Dia da Consciência Negra
             active:
               - from: 2002-11-11
+                to: 2023-12-21
+        regions:
+          RJ:
+            name: Rio de Janeiro
+            days:
+              01-20:
+                name:
+                  pt: Dia de São Sebastião
+                type: public
+                active:
+                  - from: 1988-06-27
+
       RN:
         name: Rio Grande do Norte
         zones:
@@ -451,15 +471,29 @@ holidays:
               pt: Revolução Constitucionalista
             active:
               - from: 1997-03-05
+          11-20:
+            name:
+              pt: Dia da Consciência Negra
+            active:
+              - from: 2023-09-12
+                to: 2023-12-21
         regions:
           SP:
             name: São Paulo
             days:
+              easter 60:
+                _name: easter 60
+                type: public
               01-25:
                 name:
                   pt: Aniversário da Cidade
                   en: City Birthday
                 type: public
+              11-20:
+                name:
+                  pt: Dia da Consciência Negra
+                active:
+                  - from: 2004-01-07
       TO:
         name: Tocantins
         zones:

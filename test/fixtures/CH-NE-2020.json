@@ -27,6 +27,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2020-04-09 00:00:00",
+    "start": "2020-04-08T22:00:00.000Z",
+    "end": "2020-04-09T22:00:00.000Z",
+    "name": "Jeudi saint",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-09T22:00:00.000Z",
     "end": "2020-04-10T22:00:00.000Z",
@@ -120,7 +129,7 @@
     "date": "2020-08-01 00:00:00",
     "start": "2020-07-31T22:00:00.000Z",
     "end": "2020-08-01T22:00:00.000Z",
-    "name": "Fête nationnale",
+    "name": "Fête nationale",
     "type": "public",
     "rule": "08-01",
     "_weekday": "Sat"
@@ -131,7 +140,7 @@
     "end": "2020-09-20T22:00:00.000Z",
     "name": "Jeûne fédéral",
     "type": "public",
-    "rule": "3 sunday after 09-01",
+    "rule": "3rd sunday after 09-01",
     "_weekday": "Sun"
   },
   {
@@ -140,7 +149,7 @@
     "end": "2020-09-21T22:00:00.000Z",
     "name": "Lundi du Jeûne Fédéral",
     "type": "optional",
-    "rule": "monday after 3 sunday in September",
+    "rule": "monday after 3rd sunday in September",
     "_weekday": "Mon"
   },
   {

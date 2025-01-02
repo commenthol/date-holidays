@@ -90,6 +90,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-06-20 00:00:00",
+    "start": "2021-06-19T22:00:00.000Z",
+    "end": "2021-06-20T22:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2021-08-30 00:00:00",
     "start": "2021-08-29T22:00:00.000Z",
     "end": "2021-08-30T22:00:00.000Z",
@@ -129,20 +138,20 @@
     "date": "2021-12-27 00:00:00",
     "start": "2021-12-26T23:00:00.000Z",
     "end": "2021-12-27T23:00:00.000Z",
-    "name": "Boxing Day (substitute day)",
+    "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
-    "rule": "substitutes 12-26 if sunday then next monday",
+    "rule": "substitutes 12-25 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
     "date": "2021-12-28 00:00:00",
     "start": "2021-12-27T23:00:00.000Z",
     "end": "2021-12-28T23:00:00.000Z",
-    "name": "Christmas Day (substitute day)",
+    "name": "Boxing Day (substitute day)",
     "type": "public",
     "substitute": true,
-    "rule": "substitutes 12-25 if saturday then next tuesday",
+    "rule": "substitutes 12-26 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

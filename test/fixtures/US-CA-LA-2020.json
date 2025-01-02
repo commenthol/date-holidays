@@ -39,10 +39,19 @@
     "date": "2020-02-17 00:00:00",
     "start": "2020-02-17T08:00:00.000Z",
     "end": "2020-02-18T08:00:00.000Z",
-    "name": "The third Monday in February",
+    "name": "Presidents' Day",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2020-03-17 00:00:00",
+    "start": "2020-03-17T07:00:00.000Z",
+    "end": "2020-03-18T07:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Tue"
   },
   {
     "date": "2020-03-31 00:00:00",
@@ -159,7 +168,7 @@
     "end": "2020-09-08T07:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

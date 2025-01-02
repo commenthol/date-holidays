@@ -1,0 +1,51 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Sint_Maarten
+# @source http://www.sintmaartengov.org/government/VSA/labour/Pages/Public-Holiday-Schedule.aspx
+holidays:
+  SX:
+    names:
+      en: Sint Maarten
+    langs:
+      - nl
+    zones:
+      - America/Curacao
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      04-27:
+        name:
+          nl: Koningsdag
+          en: King's Day
+      04-30 if Sunday then next Tuesday prior to 2017:
+        name:
+          nl: Carnaval
+          en: Carnival
+      04-30 if Saturday then previous Friday if Sunday then next Tuesday since 2017:
+        name:
+          nl: Carnaval
+          en: Carnival
+      05-01 if Sunday then next Monday:
+        _name: 05-01
+      easter 39:
+        _name: easter 39
+      easter 49:
+        _name: easter 49
+      07-01:
+        name:
+          nl: Emancipatiedag
+          en: Emancipation Day
+      10-09:
+        _name: Constitution Day
+      11-11:
+        name:
+          en: Sint Maarten Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26

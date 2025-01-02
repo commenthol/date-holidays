@@ -30,7 +30,7 @@
     "date": "2021-05-01 00:00:00",
     "start": "2021-05-01T04:00:00.000Z",
     "end": "2021-05-02T04:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Sat"
@@ -45,13 +45,22 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2021-06-29 00:00:00",
-    "start": "2021-06-29T04:00:00.000Z",
-    "end": "2021-06-30T04:00:00.000Z",
+    "date": "2021-06-21 00:00:00",
+    "start": "2021-06-21T04:00:00.000Z",
+    "end": "2021-06-22T04:00:00.000Z",
+    "name": "Día de los Pueblos Indígenas",
+    "type": "public",
+    "rule": "06-21 since 2021 prior to 2022",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-28 00:00:00",
+    "start": "2021-06-28T04:00:00.000Z",
+    "end": "2021-06-29T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29",
-    "_weekday": "Tue"
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2021-07-16 00:00:00",
@@ -67,7 +76,7 @@
     "start": "2021-08-10T04:00:00.000Z",
     "end": "2021-08-11T04:00:00.000Z",
     "name": "San Lorenzo de Tarapacá",
-    "type": "public",
+    "type": "observance",
     "rule": "08-10",
     "_weekday": "Tue"
   },
@@ -79,6 +88,15 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2021-09-17 00:00:00",
+    "start": "2021-09-17T03:00:00.000Z",
+    "end": "2021-09-18T03:00:00.000Z",
+    "name": "Feriado Adicional Fiestas Patrias",
+    "type": "public",
+    "rule": "09-17 on friday, monday since 2017",
+    "_weekday": "Fri"
   },
   {
     "date": "2021-09-18 00:00:00",
@@ -99,13 +117,13 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2021-10-12 00:00:00",
-    "start": "2021-10-12T03:00:00.000Z",
-    "end": "2021-10-13T03:00:00.000Z",
-    "name": "Día del Descubrimiento de Dos Mundos",
+    "date": "2021-10-11 00:00:00",
+    "start": "2021-10-11T03:00:00.000Z",
+    "end": "2021-10-12T03:00:00.000Z",
+    "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12",
-    "_weekday": "Tue"
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2021-10-31 00:00:00",

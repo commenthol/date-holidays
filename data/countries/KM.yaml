@@ -1,0 +1,53 @@
+# @source http://www.zakweli.com/jours-feries-aux-comores/
+# @source https://mg.usembassy.gov/fr/holiday-calendar-fr/
+# @source https://publicholidays.africa/comoros/fr/2021-dates/
+# @source https://www.timeanddate.com/holidays/comores/
+
+holidays:
+  KM:
+    names:
+      fr: Union des Comores
+      en: Comoros
+    langs:
+      - fr
+      - ar
+      - swb
+      - wlc
+      - wni
+      - zdj
+    zones:
+      - Africa/Nairobi
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      03-18:
+        name:
+          fr: Journée de Cheikh Al Maarouf
+          en: Cheikh Al Maarouf Day
+      05-01:
+        _name: 05-01
+      07-06:
+        _name: Independence Day
+      11-12:
+        name:
+          fr: Journée Maoré
+          en: Maore Day
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P3DT0H0M:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P2DT0H0M:
+        _name: 10 Dhu al-Hijjah
+      27 Rajab:
+        _name: 27 Rajab
+
+#    states:
+#      A:
+#        name: Anjouan
+#      G:
+#        name: Grande Comore
+#      M:
+#        name: Mohéli

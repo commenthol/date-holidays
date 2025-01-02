@@ -1,0 +1,191 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2027-01-01T03:30:00.000Z",
+    "end": "2027-01-02T03:30:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-02-02 00:00:00",
+    "start": "2027-02-02T03:30:00.000Z",
+    "end": "2027-02-03T03:30:00.000Z",
+    "name": "Groundhog Day",
+    "type": "observance",
+    "rule": "02-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-02-14 00:00:00",
+    "start": "2027-02-14T03:30:00.000Z",
+    "end": "2027-02-15T03:30:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-03-17 00:00:00",
+    "start": "2027-03-17T02:30:00.000Z",
+    "end": "2027-03-18T02:30:00.000Z",
+    "name": "Saint Patrick's Day",
+    "type": "optional",
+    "rule": "03-17",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-26T02:30:00.000Z",
+    "end": "2027-03-27T02:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-28 00:00:00",
+    "start": "2027-03-28T02:30:00.000Z",
+    "end": "2027-03-29T02:30:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-04-23 00:00:00",
+    "start": "2027-04-23T02:30:00.000Z",
+    "end": "2027-04-24T02:30:00.000Z",
+    "name": "Saint George's Day",
+    "type": "optional",
+    "rule": "04-23",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-05-09 00:00:00",
+    "start": "2027-05-09T02:30:00.000Z",
+    "end": "2027-05-10T02:30:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday after 05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-05-24 00:00:00",
+    "start": "2027-05-24T02:30:00.000Z",
+    "end": "2027-05-25T02:30:00.000Z",
+    "name": "Victoria Day",
+    "type": "public",
+    "rule": "monday before 05-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-06-20 00:00:00",
+    "start": "2027-06-20T02:30:00.000Z",
+    "end": "2027-06-21T02:30:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday after 06-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-06-24 00:00:00",
+    "start": "2027-06-24T02:30:00.000Z",
+    "end": "2027-06-25T02:30:00.000Z",
+    "name": "Discovery Day",
+    "type": "optional",
+    "rule": "06-24",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-07-01 00:00:00",
+    "start": "2027-07-01T02:30:00.000Z",
+    "end": "2027-07-02T02:30:00.000Z",
+    "name": "Canada Day",
+    "type": "public",
+    "rule": "07-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-07-12 00:00:00",
+    "start": "2027-07-12T02:30:00.000Z",
+    "end": "2027-07-13T02:30:00.000Z",
+    "name": "Orangemen's Day",
+    "type": "optional",
+    "rule": "07-12",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-08-02 00:00:00",
+    "start": "2027-08-02T02:30:00.000Z",
+    "end": "2027-08-03T02:30:00.000Z",
+    "name": "Civic Holiday",
+    "type": "public",
+    "rule": "monday after 08-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-09-06 00:00:00",
+    "start": "2027-09-06T02:30:00.000Z",
+    "end": "2027-09-07T02:30:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "1st monday in September",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-09-30 00:00:00",
+    "start": "2027-09-30T02:30:00.000Z",
+    "end": "2027-10-01T02:30:00.000Z",
+    "name": "National Day for Truth and Reconciliation",
+    "type": "public",
+    "rule": "09-30 since 2021",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-10-11 00:00:00",
+    "start": "2027-10-11T02:30:00.000Z",
+    "end": "2027-10-12T02:30:00.000Z",
+    "name": "Thanksgiving",
+    "type": "public",
+    "rule": "2nd monday after 10-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-10-31 18:00:00",
+    "start": "2027-10-31T20:30:00.000Z",
+    "end": "2027-11-01T02:30:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "rule": "10-31 18:00",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-11-11 00:00:00",
+    "start": "2027-11-11T03:30:00.000Z",
+    "end": "2027-11-12T03:30:00.000Z",
+    "name": "Armistice Day",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-25T03:30:00.000Z",
+    "end": "2027-12-26T03:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-26 00:00:00",
+    "start": "2027-12-26T03:30:00.000Z",
+    "end": "2027-12-27T03:30:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Sun"
+  }
+]

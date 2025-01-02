@@ -7,8 +7,7 @@ const path = require('path')
 const resolve = path.resolve
 const jsyaml = require('js-yaml')
 const PrePin = require('prepin')
-const _pick = require('lodash.pick')
-const _omit = require('lodash.omit')
+const { pick: _pick, omit: _omit } = require('lodash')
 
 const REGEX = /^([A-Z]+)\.yaml$/
 
@@ -99,7 +98,7 @@ Holidays2json.prototype = {
     // reduce final build size
     const macros = dive(this.holidays)
     config.factories.forEach(function (fa) {
-      new PrePin({ macros: macros, input: fa, output: fa }).proc().catch(function (e) {
+      new PrePin({ macros, input: fa, output: fa }).proc().catch(function (e) {
         console.error(e)
       })
     })
@@ -159,12 +158,13 @@ if (module === require.main) {
 */
 function dive (data, macros) {
   macros = macros || {
-    nojulian: true,
+    nobengali: true,
+    nochinese: true,
+    noequinox: true,
     nohebrew: true,
     noislamic: true,
-    nochinese: true,
-    nobengali: true,
-    noequinox: true
+    nojalaali: true,
+    nojulian: true
   }
   switch (toString.call(data)) {
     case '[object Object]':
@@ -183,6 +183,8 @@ function dive (data, macros) {
               delete macros.noequinox
             } else if (/\b(Nisan|Iyyar|Sivan|Tamuz|Av|Elul|Tishrei|Cheshvan|Kislev|Tevet|Shvat|Adar)\b/.test(key)) {
               delete macros.nohebrew
+            } else if (/\b(Farvardin|Ordibehesht|Khordad|Tir|Mordad|Shahrivar|Mehr|Aban|Azar|Dey|Bahman|Esfand)\b/.test(key)) {
+              delete macros.nojalaali
             }
           })
         } else {

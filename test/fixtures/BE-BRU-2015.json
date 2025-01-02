@@ -31,7 +31,7 @@
     "start": "2015-04-04T22:00:00.000Z",
     "end": "2015-04-05T22:00:00.000Z",
     "name": "Pâques",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -58,7 +58,7 @@
     "start": "2015-05-07T22:00:00.000Z",
     "end": "2015-05-08T22:00:00.000Z",
     "name": "Fête de l'Iris",
-    "type": "public",
+    "type": "observance",
     "rule": "05-08",
     "_weekday": "Fri"
   },
@@ -85,7 +85,7 @@
     "start": "2015-05-23T22:00:00.000Z",
     "end": "2015-05-24T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

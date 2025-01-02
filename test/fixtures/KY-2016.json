@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2016-01-01 00:00:00",
+    "start": "2016-01-01T05:00:00.000Z",
+    "end": "2016-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-01-25 00:00:00",
+    "start": "2016-01-25T05:00:00.000Z",
+    "end": "2016-01-26T05:00:00.000Z",
+    "name": "National Heroes Day",
+    "type": "public",
+    "rule": "4th Monday in January",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-02-10 00:00:00",
+    "start": "2016-02-10T05:00:00.000Z",
+    "end": "2016-02-11T05:00:00.000Z",
+    "name": "Ash Wednesday",
+    "type": "public",
+    "rule": "easter -46",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2016-03-25 00:00:00",
+    "start": "2016-03-25T05:00:00.000Z",
+    "end": "2016-03-26T05:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2016-03-27 00:00:00",
+    "start": "2016-03-27T05:00:00.000Z",
+    "end": "2016-03-28T05:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-03-28 00:00:00",
+    "start": "2016-03-28T05:00:00.000Z",
+    "end": "2016-03-29T05:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-05-16 00:00:00",
+    "start": "2016-05-16T05:00:00.000Z",
+    "end": "2016-05-17T05:00:00.000Z",
+    "name": "Discovery Day",
+    "type": "public",
+    "rule": "3rd Monday in May",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-06-13 00:00:00",
+    "start": "2016-06-13T05:00:00.000Z",
+    "end": "2016-06-14T05:00:00.000Z",
+    "name": "Queen's Birthday",
+    "type": "public",
+    "rule": "2016-06-13",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2016-07-02 00:00:00",
+    "start": "2016-07-02T05:00:00.000Z",
+    "end": "2016-07-03T05:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "rule": "07-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2016-12-25 00:00:00",
+    "start": "2016-12-25T05:00:00.000Z",
+    "end": "2016-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2016-12-26 00:00:00",
+    "start": "2016-12-26T05:00:00.000Z",
+    "end": "2016-12-27T05:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Mon"
+  }
+]

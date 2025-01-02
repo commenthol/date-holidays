@@ -1,0 +1,73 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Eritrea
+holidays:
+  ER:
+    names:
+      en: Eritrea
+    langs:
+      - ti
+      - en
+    zones:
+      - Africa/Nairobi
+    dayoff: ""
+    days:
+      01-01:
+        _name: 01-01
+      julian 12-25:
+        _name: julian 12-25
+      julian 01-06:
+        _name: 01-06
+      02-10:
+        name:
+          ti: ፈንቅል
+          en: Fenkil Day
+      03-08:
+        _name: 03-08
+      orthodox -2:
+        _name: orthodox -2
+      orthodox:
+        _name: orthodox
+      05-01:
+        _name: 05-01
+      05-24:
+        _name: Independence Day
+      06-20:
+        name:
+          en: Martyrs' Day
+          ti: መዓልቲ ስውኣት
+      09-01:
+        _name: Revolution Day
+      09-11 in non-leap years:
+        name:
+          en: Geez New Year
+          ti: ግዕዝ አዲስ ዓመት
+      09-12 in leap years:
+        name:
+          en: Geez New Year
+          ti: ግዕዝ አዲስ ዓመት
+      09-27 in non-leap years:
+        name:
+          en: Meskel
+      09-28 in leap years:
+        name:
+          en: Meskel
+      12-25:
+        _name: 12-25
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+    # states:
+    #   AN:
+    #     name: Anseba
+    #   DK:
+    #     name: Southern Red Sea
+    #   DU:
+    #     name: Debub
+    #   GB:
+    #     name: Gash-Barka
+    #   MA:
+    #     name: Maekel
+    #   SK:
+    #     name: Northern Red Sea

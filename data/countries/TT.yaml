@@ -1,0 +1,137 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Trinidad_and_Tobago
+holidays:
+  TT:
+    names:
+      en: Trinidad & Tobago
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    days:
+      01-01 and if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+        type: observance
+      03-30 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Spiritual Baptist Liberation Day
+      easter 60:
+        _name: easter 60
+      05-30 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Indian Arrival Day
+      06-19 and if Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      08-01 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Emancipation Day
+      08-31 and if Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      09-24 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Republic Day
+      12-25 and if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Sunday then next Monday:
+        substitute: true
+        _name: 12-26
+      1 Shawwal and if Sunday then next Monday:
+        substitute: true
+        _name: 1 Shawwal
+      # Divali
+      "2012-11-13":
+        _name: Deepavali
+      "2013-11-03":
+        _name: Deepavali
+      "2013-11-04":
+        substitute: true
+        _name: Deepavali
+      "2014-10-23":
+        _name: Deepavali
+      "2015-11-11":
+        _name: Deepavali
+      "2016-10-29":
+        _name: Deepavali
+      "2017-10-19":
+        _name: Deepavali
+      "2018-11-07":
+        _name: Deepavali
+      "2019-10-27":
+        _name: Deepavali
+      "2019-10-28":
+        substitute: true
+        _name: Deepavali
+      "2020-11-14":
+        _name: Deepavali
+      "2021-11-04":
+        _name: Deepavali
+      "2022-10-24":
+        _name: Deepavali
+      "2023-11-12":
+        _name: Deepavali
+      "2023-11-13":
+        substitute: true
+        _name: Deepavali
+      "2024-10-31":
+        _name: Deepavali
+      "2025-10-20":
+        _name: Deepavali
+      "2026-11-08":
+        _name: Deepavali
+      "2026-11-09":
+        substitute: true
+        _name: Deepavali
+      "2027-10-28":
+        _name: Deepavali
+      "2028-10-17":
+        _name: Deepavali
+      "2029-11-05":
+        _name: Deepavali
+      "2030-10-25":
+        _name: Deepavali
+
+    # states:
+    #   ARI:
+    #     name: Arima
+    #   CHA:
+    #     name: Chaguanas
+    #   CTT:
+    #     name: Couva-Tabaquite-Talparo
+    #   DMN:
+    #     name: Diego Martin
+    #   MRC:
+    #     name: Mayaro-Rio Claro
+    #   PED:
+    #     name: Penal-Debe
+    #   POS:
+    #     name: Port of Spain
+    #   PRT:
+    #     name: Princes Town
+    #   PTF:
+    #     name: Point Fortin
+    #   SFO:
+    #     name: San Fernando
+    #   SGE:
+    #     name: Sangre Grande
+    #   SIP:
+    #     name: Siparia
+    #   SJL:
+    #     name: San Juan-Laventille
+    #   TOB:
+    #     name: Tobago
+    #   TUP:
+    #     name: Tunapuna-Piarco

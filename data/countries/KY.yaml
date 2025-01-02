@@ -1,0 +1,75 @@
+holidays:
+  KY:
+    # @source https://www.gov.ky/calendar/public-holidays
+    names:
+      en: Cayman Islands
+    langs:
+      - en
+    zones:
+      - America/Panama
+    dayoff: sunday
+    days:
+      01-01 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      4th Monday in January:
+        name:
+          en: National Heroes Day
+      easter -46:
+        _name: easter -46
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      3rd Monday in May:
+        name:
+          en: Discovery Day
+      07-02:
+        name:
+          en: Constitution Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      # General Election Day
+      "2017-05-24":
+        name: General Election Day
+      "2021-04-14":
+        name: General Election Day
+      # Queen's Birthday
+      "2016-06-13":
+        name:
+          en: Queen's Birthday
+      "2017-06-19":
+        name:
+          en: Queen's Birthday
+      "2018-06-11":
+        name:
+          en: Queen's Birthday
+      "2019-06-10":
+        name:
+          en: Queen's Birthday
+      "2020-06-15":
+        name:
+          en: Queen's Birthday
+      "2021-06-14":
+        name:
+          en: Queen's Birthday
+      "2022-06-20":
+        name:
+          en: Queen's Birthday
+      "2023-06-19":
+        name:
+          en: Queen's Birthday
+      "2024-06-17":
+        name:
+          en: Queen's Birthday
+      "2025-06-16":
+        name:
+          en: Queen's Birthday
+      "2026-06-15":
+        name:
+          en: Queen's Birthday

@@ -7,7 +7,7 @@ holidays:
       - en
     zones:
       - Africa/Abidjan
-    dayoff: 'sunday'
+    dayoff: "sunday"
     days:
       01-01:
         _name: 01-01
@@ -66,25 +66,25 @@ holidays:
           easter 39:
             _name: easter 39
           # @source http://www.tristandc.com/newsratting.php
-          '2012-04-23':
+          "2012-04-23":
             name:
               en: Ratting Day
-          '2013-05-03':
+          "2013-05-03":
             name:
               en: Ratting Day
-          '2014-05-02':
+          "2014-05-02":
             name:
               en: Ratting Day
-          '2015-05-16':
+          "2015-05-16":
             name:
               en: Ratting Day
-          '2016-04-30':
+          "2016-04-30":
             name:
               en: Ratting Day
-          '2017-05-26':
+          "2017-05-26":
             name:
               en: Ratting Day
-          '2018-06-02':
+          "2018-06-02":
             name:
               en: Ratting Day
           08-14:

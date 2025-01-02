@@ -1,0 +1,71 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Sudan
+holidays:
+  SD:
+    names:
+      ar: جمهورية السودان
+      en: Sudan
+    langs: []
+    zones:
+      - Africa/Khartoum
+    dayoff: ""
+    days:
+      01-01:
+        _name: Independence Day
+      12-19:
+        _name: Revolution Day
+      12-25:
+        _name: 12-25
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P4D:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P3D:
+        _name: 10 Dhu al-Hijjah
+      julian 12-25:
+        _name: julian 12-25
+        name:
+          en: Coptic Christmas
+      orthodox:
+        _name: orthodox
+        name:
+          en: Coptic Easter
+
+    # states:
+    #   DC:
+    #     name: Central Darfur
+    #   DE:
+    #     name: East Darfur
+    #   DN:
+    #     name: North Darfur
+    #   DS:
+    #     name: South Darfur
+    #   DW:
+    #     name: West Darfur
+    #   GD:
+    #     name: Al Qadarif
+    #   GK:
+    #     name: West Kurdufan
+    #   GZ:
+    #     name: Al Jazirah
+    #   KA:
+    #     name: Kassala
+    #   KH:
+    #     name: Khartoum
+    #   KN:
+    #     name: North Kurdufan
+    #   KS:
+    #     name: South Kurdufan
+    #   NB:
+    #     name: Blue Nile
+    #   'NO':
+    #     name: Northern
+    #   NR:
+    #     name: River Nile
+    #   NW:
+    #     name: White Nile
+    #   RS:
+    #     name: Red Sea
+    #   SI:
+    #     name: Sennar

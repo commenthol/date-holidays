@@ -82,13 +82,22 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2022-05-30 00:00:00",
-    "start": "2022-05-29T22:00:00.000Z",
-    "end": "2022-05-30T22:00:00.000Z",
+    "date": "2022-06-02 00:00:00",
+    "start": "2022-06-01T22:00:00.000Z",
+    "end": "2022-06-02T22:00:00.000Z",
     "name": "Spring bank holiday",
     "type": "public",
     "rule": "1st monday before 06-01",
-    "_weekday": "Mon"
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-06-03 00:00:00",
+    "start": "2022-06-02T22:00:00.000Z",
+    "end": "2022-06-03T22:00:00.000Z",
+    "name": "Queen’s Platinum Jubilee",
+    "type": "public",
+    "rule": "2022-06-03",
+    "_weekday": "Fri"
   },
   {
     "date": "2022-06-13 00:00:00",
@@ -98,6 +107,15 @@
     "type": "public",
     "rule": "monday before 06-20",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-19 00:00:00",
+    "start": "2022-06-18T22:00:00.000Z",
+    "end": "2022-06-19T22:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
   },
   {
     "date": "2022-08-29 00:00:00",
@@ -128,6 +146,15 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2022-09-19 00:00:00",
+    "start": "2022-09-18T22:00:00.000Z",
+    "end": "2022-09-19T22:00:00.000Z",
+    "name": "Queen Elizabeth's Funeral Day",
+    "type": "public",
+    "rule": "2022-09-19",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2022-12-25 00:00:00",
     "start": "2022-12-24T23:00:00.000Z",
     "end": "2022-12-25T23:00:00.000Z",
@@ -152,7 +179,7 @@
     "name": "Christmas Day (substitute day)",
     "type": "public",
     "substitute": true,
-    "rule": "substitutes 12-25 if sunday then next tuesday",
+    "rule": "substitutes 12-25 if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
   }
 ]

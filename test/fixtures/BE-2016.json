@@ -31,7 +31,7 @@
     "start": "2016-03-26T23:00:00.000Z",
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Pâques",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -76,7 +76,7 @@
     "start": "2016-05-14T22:00:00.000Z",
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

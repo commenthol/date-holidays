@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2020-12-31T16:00:00.000Z",
+    "end": "2021-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-01-14 00:00:00",
+    "start": "2021-01-13T16:00:00.000Z",
+    "end": "2021-01-14T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan",
+    "type": "public",
+    "rule": "01-14",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-01-28 00:00:00",
+    "start": "2021-01-27T16:00:00.000Z",
+    "end": "2021-01-28T16:00:00.000Z",
+    "name": "Hari Thaipusam",
+    "type": "public",
+    "rule": "2021-01-28",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-02-12 00:00:00",
+    "start": "2021-02-11T16:00:00.000Z",
+    "end": "2021-02-12T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-02-13 00:00:00",
+    "start": "2021-02-12T16:00:00.000Z",
+    "end": "2021-02-13T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-03-11 00:00:00 -0600",
+    "start": "2021-03-10T10:00:00.000Z",
+    "end": "2021-03-11T10:00:00.000Z",
+    "name": "Israk dan Mikraj",
+    "type": "public",
+    "rule": "27 Rajab",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-04-30T16:00:00.000Z",
+    "end": "2021-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-13 00:00:00 -0600",
+    "start": "2021-05-12T10:00:00.000Z",
+    "end": "2021-05-13T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-14 00:00:00 -0600",
+    "start": "2021-05-13T10:00:00.000Z",
+    "end": "2021-05-14T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-26 00:00:00",
+    "start": "2021-05-25T16:00:00.000Z",
+    "end": "2021-05-26T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2021-05-26",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-06-07 00:00:00",
+    "start": "2021-06-06T16:00:00.000Z",
+    "end": "2021-06-07T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-07-20 00:00:00 -0600",
+    "start": "2021-07-19T10:00:00.000Z",
+    "end": "2021-07-20T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-08-09 00:00:00 -0600",
+    "start": "2021-08-08T10:00:00.000Z",
+    "end": "2021-08-09T10:00:00.000Z",
+    "name": "Awal Muharram",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-31 00:00:00",
+    "start": "2021-08-30T16:00:00.000Z",
+    "end": "2021-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-09-16 00:00:00",
+    "start": "2021-09-15T16:00:00.000Z",
+    "end": "2021-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-10-18 00:00:00 -0600",
+    "start": "2021-10-17T10:00:00.000Z",
+    "end": "2021-10-18T10:00:00.000Z",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-04 00:00:00",
+    "start": "2021-11-03T16:00:00.000Z",
+    "end": "2021-11-04T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2021-11-04",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-24T16:00:00.000Z",
+    "end": "2021-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  }
+]

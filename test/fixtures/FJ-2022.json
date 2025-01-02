@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T12:00:00.000Z",
+    "end": "2022-01-01T12:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-14T12:00:00.000Z",
+    "end": "2022-04-15T12:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-16 00:00:00",
+    "start": "2022-04-15T12:00:00.000Z",
+    "end": "2022-04-16T12:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-16T12:00:00.000Z",
+    "end": "2022-04-17T12:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-04-18 00:00:00",
+    "start": "2022-04-17T12:00:00.000Z",
+    "end": "2022-04-18T12:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-09-07 00:00:00",
+    "start": "2022-09-06T12:00:00.000Z",
+    "end": "2022-09-07T12:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "rule": "09-07",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-10-08 00:00:00 -0600",
+    "start": "2022-10-07T06:00:00.000Z",
+    "end": "2022-10-08T06:00:00.000Z",
+    "name": "Birthday of Muhammad (Mawlid)",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-10-10 00:00:00",
+    "start": "2022-10-09T12:00:00.000Z",
+    "end": "2022-10-10T12:00:00.000Z",
+    "name": "Fiji Day",
+    "type": "public",
+    "rule": "10-10 and if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-24 00:00:00",
+    "start": "2022-10-23T12:00:00.000Z",
+    "end": "2022-10-24T12:00:00.000Z",
+    "name": "Diwali",
+    "type": "public",
+    "rule": "2022-10-24",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T12:00:00.000Z",
+    "end": "2022-12-26T12:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-27 00:00:00",
+    "start": "2022-12-26T12:00:00.000Z",
+    "end": "2022-12-27T12:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 if Sunday then next Monday if Monday then next Tuesday",
+    "_weekday": "Tue"
+  }
+]

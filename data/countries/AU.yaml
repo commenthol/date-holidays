@@ -39,12 +39,22 @@ holidays:
       04-25:
         name:
           en: Anzac Day
+      2nd sunday in May:
+        _name: Mothers Day
+        type: observance
+      1st sunday in September:
+        _name: Fathers Day
+        type: observance
       12-25 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-25
       12-26 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         _name: 12-26
+      # @source https://www.reuters.com/world/australia-hold-day-mourning-queen-elizabeth-sept-22-2022-09-11/
+      "2022-09-22":
+        name:
+          en: National Day of Mourning for Queen Elizabeth II
     states:
       # @source https://www.legislation.act.gov.au/a/1958-19
       ACT:
@@ -60,7 +70,7 @@ holidays:
             substitute: true
             name:
               en: Anzac Day
-          '2020-04-27':
+          "2020-04-27":
             name:
               en: Declared public holiday
             type: public
@@ -70,6 +80,13 @@ holidays:
           2nd monday in June:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "2nd monday in June #1":
+            name:
+              en: King's Birthday
+            active:
+              - from: "2022-09-09"
           1st monday in October:
             name:
               en: Labour Day
@@ -82,6 +99,13 @@ holidays:
           2nd monday in June:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "2nd monday in June #1":
+            name:
+              en: King's Birthday
+            active:
+              - from: "2022-09-09"
           1st monday in August:
             name:
               en: Bank Holiday
@@ -107,6 +131,13 @@ holidays:
           2nd monday in June:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "2nd monday in June #1":
+            name:
+              en: King's Birthday
+            active:
+              - from: "2022-09-09"
           1st monday in August:
             name:
               en: Picnic Day
@@ -142,6 +173,12 @@ holidays:
           1st monday in October:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "1st monday in October #1":
+            name: King's Birthday
+            active:
+              - from: "2022-09-09"
           12-24 18:00:
             _name: 12-24
       # @source https://www.legislation.sa.gov.au/LZ/C/A/HOLIDAYS%20ACT%201910.aspx
@@ -157,6 +194,13 @@ holidays:
           2nd monday in June:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "2nd monday in June #1":
+            name:
+              en: King's Birthday
+            active:
+              - from: "2022-09-09"
           1st monday in October:
             name:
               en: Labour Day
@@ -194,6 +238,13 @@ holidays:
           2nd monday in June:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "2nd monday in June #1":
+            name:
+              en: King's Birthday
+            active:
+              - from: "2022-09-09"
           1st monday in October: false
           12-26 and if saturday then next monday if sunday then next tuesday: false
           12-26 if saturday then next monday if sunday then next tuesday:
@@ -211,6 +262,13 @@ holidays:
           2nd monday in June:
             name:
               en: Queen's Birthday
+            active:
+              - to: "2022-09-08"
+          "2nd monday in June #1":
+            name:
+              en: King's Birthday
+            active:
+              - from: "2022-09-09"
           1st monday in October: false
           # introduced in 2015-08
           # @source http://www.gazette.vic.gov.au/gazette/Gazettes2015
@@ -246,4 +304,16 @@ holidays:
             name:
               en: Queen's Birthday
             note: Might be on a different day; is proclaimed by Governor
+            active:
+              - to: "2022-09-08"
+          "monday before October #1":
+            name:
+              en: King's Birthday
+            note: Might be on a different day; is proclaimed by Governor
+            active:
+              - from: "2022-09-09"
+            disable:
+              - "2024-09-30"
+            enable:
+              - "2024-09-23"
           1st monday in October: false

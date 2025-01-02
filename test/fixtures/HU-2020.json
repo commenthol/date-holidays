@@ -39,10 +39,19 @@
     "date": "2020-03-15 00:00:00",
     "start": "2020-03-14T23:00:00.000Z",
     "end": "2020-03-15T23:00:00.000Z",
-    "name": "1948-as forradalom",
+    "name": "1848-as forradalom",
     "type": "public",
     "rule": "03-15",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-09T22:00:00.000Z",
+    "end": "2020-04-10T22:00:00.000Z",
+    "name": "Nagypéntek",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
   },
   {
     "date": "2020-04-12 00:00:00",
@@ -175,7 +184,7 @@
     "start": "2020-12-05T23:00:00.000Z",
     "end": "2020-12-06T23:00:00.000Z",
     "name": "Mikulás",
-    "type": "public",
+    "type": "observance",
     "rule": "12-06",
     "_weekday": "Sun"
   },

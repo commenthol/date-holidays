@@ -1,4 +1,6 @@
 # @attrib https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy#Festivals_and_holidays
+# @source https://www.legisocial.fr/jours-feries.html
+# @source https://publicholidays.la/saint-barthelemy/fr/2020-dates/
 holidays:
   BL:
     names:
@@ -7,10 +9,9 @@ holidays:
     langs:
       - fr
     zones:
-      - America/Port_of_Spain
+      - America/St_Barthelemy
+    _days: FR
     days:
-      01-01:
-        _name: 01-01
       easter -48:
         _name: easter -48
         type: observance
@@ -31,27 +32,6 @@ holidays:
       easter:
         _name: easter
         type: observance
-      easter 1:
-        _name: easter 1
-      05-01:
-        _name: 05-01
-      easter 39:
-        _name: easter 39
-      05-08:
-        name:
-          en: Victory Day
-          fr: Fête de la Victoire 1945
-      easter 49:
-        _name: easter 49
-        type: observance
-      easter 50:
-        _name: easter 50
-      07-14:
-        name:
-          fr: Fête Nationale
-          en: National Day
-      08-15:
-        _name: 08-15
       08-24:
         name:
           fr: Fête de Saint Barthélemy
@@ -59,14 +39,5 @@ holidays:
         type: observance
       10-09:
         _name: Abolition of Slavery
-        type: observance
-      11-01:
-        _name: 11-01
-      11-11:
-        name:
-          en: Armistice Day
-          fr: Armistice de 1918
       12-25:
         _name: 12-25
-      12-26:
-        _name: 12-26

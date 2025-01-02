@@ -1,0 +1,270 @@
+holidays:
+  TW:
+    # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Taiwan
+    names:
+      zh: 中華民國
+      en: Taiwan
+    langs:
+      - zh
+    zones:
+      - Asia/Taipei
+    dayoff: ""
+    days:
+      01-01 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+        name:
+          zh: 中華民國開國紀念日 / 元旦
+          en: Founding of the Republic of China
+      chinese 01-0-00:
+        name:
+          en: Chinese New Year's Eve
+          zh: 農曆除夕
+      chinese 01-0-01:
+        name:
+          en: Chinese New Year
+          zh: 農曆年初一
+      chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday:
+        name:
+          en: Chinese New Year Holiday
+          zh: 农历新年假期
+      chinese 01-0-02:
+        name:
+          en: The second day of the Chinese New Year
+          zh: 農曆年初二
+      chinese 01-0-03:
+        name:
+          en: The third day of the Chinese New Year
+          zh: 農曆年初三
+      chinese 01-0-04:
+        name:
+          en: The forth day of the Chinese New Year
+          zh: 農曆年初四
+      02-28 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Peace Memorial Day
+          zh: 228和平紀念日
+      04-04 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Children's Day
+          zh: 兒童節
+      chinese 5-01 solarterm and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Tomb Sweeping Day
+          zh: 淸明節
+      chinese 05-0-05 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Dragon Boat Festival
+          zh: 端午節
+      chinese 08-0-15 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Mid-Autumn Festival
+          zh: 中秋節
+      10-10 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: National Day / Double Tenth Day
+          zh: 國慶日 / 雙十節
+      # observed
+      02-04:
+        name:
+          en: Farmer's Day
+          zh: 農民節
+        type: observance
+      03-08:
+        _name: 03-08
+        type: observance
+      03-12:
+        name:
+          en: Arbor Day
+          zh: 國父逝世紀念日
+        type: observance
+      03-29:
+        name:
+          en: Youth Day
+          zh: 靑年節
+        type: observance
+      05-01 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+        name:
+          zh: 勞動節
+        type: observance
+        note: private sector
+      05-04:
+        name:
+          en: Literary Day
+          zh: 文藝節
+        type: observance
+      2nd Sunday in May:
+        _name: Mothers Day
+        name:
+          zh: 母親節
+        type: observance
+      06-03:
+        name:
+          en: Opium Suppression Movement Day
+          zh: 禁菸節
+        type: observance
+      08-08:
+        _name: Fathers Day
+        name:
+          zh: 父親節
+        type: observance
+      09-01:
+        name:
+          en: Journalist' Day
+          zh: 記者節
+        type: observance
+      09-03:
+        name:
+          en: Armed Forces Day
+          zh: 軍人節
+        type: observance
+      09-28:
+        name:
+          en: Teachers' Day
+          zh: 孔子誕辰紀念日
+        type: observance
+      10-21:
+        name:
+          en: Overseas Chinese Day
+          zh: 華僑節
+        type: observance
+      10-25:
+        name:
+          en: Taiwan Retrocession Day
+          zh: 臺灣光復節
+        type: observance
+      11-12:
+        name:
+          en: Sun Yat-sen's Birthday
+          zh: 國父誕辰紀念日
+        note: Also Doctors' Day and Cultural Renaissance Day
+        type: observance
+      december solstice:
+        name:
+          en: Dongzhi Festival
+          zh: 冬至
+        type: observance
+      12-25:
+        name:
+          en: Constitution Day
+          zh: 行憲紀念日
+        type: observance
+      chinese 01-0-15:
+        name:
+          en: Lantern Festival
+          zh: 元宵節
+        type: observance
+      "chinese 01-0-15 #1":
+        name:
+          en: Tourism Day
+          zh: 觀光節
+        type: observance
+      chinese 02-0-02:
+        name:
+          en: Earth God's Birthday
+          zh: 土地公誕辰
+        type: observance
+      chinese 02-0-19:
+        name:
+          en: Kuan Yin's Birthday
+          zh: 觀音誕辰
+        type: observance
+      chinese 03-0-15:
+        name:
+          en: God of Medicine's Birthday
+          zh: 保生大帝誕辰
+        type: observance
+      chinese 03-0-23:
+        name:
+          en: Matsu's Birthday
+          zh: 媽祖誕辰
+        type: observance
+      chinese 04-0-08:
+        name:
+          en: Buddha's Birthday
+          zh: 佛誕日
+        type: observance
+      chinese 05-0-13:
+        name:
+          en: Kuan Kung's Birthday
+          zh: 關公誕辰
+        type: observance
+      "chinese 05-0-13 #1":
+        name:
+          en: Cheng Huang's Birthday
+          zh: 城隍爺誕辰
+        type: observance
+      chinese 07-0-07:
+        name:
+          en: Qixi Festival
+          zh: 七夕
+        type: observance
+      chinese 07-0-15:
+        name:
+          en: Ghost Festival
+          zh: 中元節
+        type: observance
+      chinese 09-0-09:
+        name:
+          en: Double Ninth Festival
+          zh: 重陽節
+        type: observance
+      chinese 10-0-15:
+        name:
+          en: Saisiat Festival
+          zh: 賽夏節
+        type: observance
+
+    # states:
+    #   CHA:
+    #     name: Changhua
+    #   CYI:
+    #     name: Chiayi County
+    #   CYQ:
+    #     name: Chiayi
+    #   HSQ:
+    #     name: Hsinchu County
+    #   HSZ:
+    #     name: Hsinchu
+    #   HUA:
+    #     name: Hualien
+    #   ILA:
+    #     name: Yilan
+    #   KEE:
+    #     name: Keelung
+    #   KHH:
+    #     name: Kaohsiung
+    #   KIN:
+    #     name: Kinmen
+    #   LIE:
+    #     name: Lienchiang
+    #   MIA:
+    #     name: Miaoli
+    #   NAN:
+    #     name: Nantou
+    #   NWT:
+    #     name: New Taipei
+    #   PEN:
+    #     name: Penghu
+    #   PIF:
+    #     name: Pingtung
+    #   TAO:
+    #     name: Taoyuan
+    #   TNN:
+    #     name: Tainan
+    #   TPE:
+    #     name: Taipei
+    #   TTT:
+    #     name: Taitung
+    #   TXG:
+    #     name: Taichung
+    #   YUN:
+    #     name: Yunlin

@@ -8,7 +8,7 @@ holidays:
       - ar
     zones:
       - Asia/Qatar
-    dayoff: ''
+    dayoff: ""
     days:
       01-01:
         _name: 01-01

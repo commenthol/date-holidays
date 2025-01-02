@@ -1,0 +1,97 @@
+# @source https://publicholidays.africa/seychelles/fr/2020-dates/
+# @source https://www.comptoir.fr/guide/seychelles/quand-partir-aux-seychelles/les-jours-feries-aux-seychelles/2874
+# @source https://www.jours-feries.com/country/Seychelles_154.htm
+# @source https://www.seyvillas.com/fr/guide/at-a-glance/festivals-and-celebrations
+# @source https://www.seychelles.travel/fr/plan-your-visit/travellers-essentials/6032-public-holidays
+# @attrib https://fr.wikipedia.org/wiki/Seychelles
+holidays:
+  SC:
+    names:
+      en: Seychelles
+      fr: République des Seychelles
+      crs: Repiblik Sesel
+    langs:
+      - en
+      - fr
+      - crs
+    zones:
+      - Indian/Mahe
+    dayoff: sunday
+    days:
+      01-01 P2D:
+        _name: 01-01
+      easter -2:
+        _name: easter -2
+      easter -1:
+        _name: easter -1
+      easter:
+        _name: easter
+      easter 1:
+        _name: easter 1
+      easter 60:
+        _name: easter 60
+      05-01:
+        _name: 05-01
+      06-18:
+        _name: National Holiday
+      06-29:
+        _name: Independence Day
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      12-08:
+        _name: 12-08
+      12-25:
+        _name: 12-25
+#    states:
+#      '10':
+#        name: Bel Ombre
+#      '11':
+#        name: Cascade
+#      '12':
+#        name: Glacis
+#      '13':
+#        name: Grand’Anse Mahé
+#      '14':
+#        name: Grand’Anse Praslin
+#      '15':
+#        name: La Digue
+#      '16':
+#        name: La Rivière Anglaise
+#      '17':
+#        name: Mont Buxton
+#      '18':
+#        name: Mont Fleuri
+#      '19':
+#        name: Plaisance
+#      '20':
+#        name: Pointe La Rue
+#      '21':
+#        name: Port Glaud
+#      '22':
+#        name: Saint Louis
+#      '23':
+#        name: Takamaka
+#      '24':
+#        name: Les Mamelles
+#      '25':
+#        name: Roche Caiman
+#      '01':
+#        name: Anse aux Pins
+#      '02':
+#        name: Anse Boileau
+#      '03':
+#        name: Anse Etoile
+#      '04':
+#        name: Au Cap
+#      '05':
+#        name: Anse Royale
+#      '06':
+#        name: Baie Lazare
+#      '07':
+#        name: Baie Sainte Anne
+#      08:
+#        name: Beau Vallon
+#      09:
+#        name: Bel Air

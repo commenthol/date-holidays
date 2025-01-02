@@ -64,6 +64,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2017-03-17 00:00:00",
+    "start": "2017-03-17T05:00:00.000Z",
+    "end": "2017-03-18T05:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2017-04-16 00:00:00",
     "start": "2017-04-16T05:00:00.000Z",
     "end": "2017-04-17T05:00:00.000Z",
@@ -141,7 +150,7 @@
     "end": "2017-09-05T05:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

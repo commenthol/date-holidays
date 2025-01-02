@@ -24,7 +24,7 @@ holidays:
         _name: easter
       easter 1:
         _name: easter 1
-      easter 26:
+      easter 26 prior to 2024:
         name:
           da: Store Bededag
           en: Prayer Day
@@ -55,13 +55,13 @@ holidays:
       12-26:
         _name: 12-26
     # states:
-      # '81':
-      #   name: Northern Denmark
-      # '82':
-      #   name: Central Denmark
-      # '83':
-      #   name: Southern Denmark
-      # '84':
-      #   name: Capital Region
-      # '85':
-      #   name: Zealand
+    # '81':
+    #   name: Northern Denmark
+    # '82':
+    #   name: Central Denmark
+    # '83':
+    #   name: Southern Denmark
+    # '84':
+    #   name: Capital Region
+    # '85':
+    #   name: Zealand

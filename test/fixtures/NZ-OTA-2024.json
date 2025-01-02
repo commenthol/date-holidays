@@ -32,8 +32,7 @@
     "end": "2024-03-25T11:00:00.000Z",
     "name": "Provincial anniversary day",
     "type": "public",
-    "note": "varies if coincides with easter monday",
-    "rule": "03-23 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
+    "rule": "03-23 if Tuesday,Wednesday,Thursday then previous Monday if Friday,Saturday,Sunday then next Monday if is public holiday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -76,10 +75,19 @@
     "date": "2024-06-03 00:00:00",
     "start": "2024-06-02T12:00:00.000Z",
     "end": "2024-06-03T12:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "King's Birthday",
     "type": "public",
-    "rule": "1st monday in June",
+    "rule": "1st monday in June since 2023",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-28 00:00:00",
+    "start": "2024-06-27T12:00:00.000Z",
+    "end": "2024-06-28T12:00:00.000Z",
+    "name": "Matariki",
+    "type": "public",
+    "rule": "2024-06-28",
+    "_weekday": "Fri"
   },
   {
     "date": "2024-10-28 00:00:00",

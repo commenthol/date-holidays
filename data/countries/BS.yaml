@@ -50,65 +50,65 @@ holidays:
       12-26:
         _name: 12-26
     # regions:
-      # AK:
-      #   name: Acklins
-      # BI:
-      #   name: Bimini
-      # BP:
-      #   name: Black Point
-      # BY:
-      #   name: Berry Islands
-      # CE:
-      #   name: Central Eleuthera
-      # CI:
-      #   name: Cat Island
-      # CK:
-      #   name: Crooked Island
-      # CO:
-      #   name: Central Abaco
-      # CS:
-      #   name: Central Andros
-      # EG:
-      #   name: East Grand Bahama
-      # EX:
-      #   name: Exuma
-      # FP:
-      #   name: Freeport
-      # GC:
-      #   name: Grand Cay
-      # HI:
-      #   name: Harbour Island
-      # HT:
-      #   name: Hope Town
-      # IN:
-      #   name: Inagua
-      # LI:
-      #   name: Long Island
-      # MC:
-      #   name: Mangrove Cay
-      # MG:
-      #   name: Mayaguana
-      # MI:
-      #   name: Moore’s Island
-      # NE:
-      #   name: North Eleuthera
-      # 'NO':
-      #   name: North Abaco
-      # NS:
-      #   name: North Andros
-      # RC:
-      #   name: Rum Cay
-      # RI:
-      #   name: Ragged Island
-      # SA:
-      #   name: South Andros
-      # SE:
-      #   name: South Eleuthera
-      # SO:
-      #   name: South Abaco
-      # SS:
-      #   name: San Salvador
-      # SW:
-      #   name: Spanish Wells
-      # WG:
-      #   name: West Grand Bahama
+    # AK:
+    #   name: Acklins
+    # BI:
+    #   name: Bimini
+    # BP:
+    #   name: Black Point
+    # BY:
+    #   name: Berry Islands
+    # CE:
+    #   name: Central Eleuthera
+    # CI:
+    #   name: Cat Island
+    # CK:
+    #   name: Crooked Island
+    # CO:
+    #   name: Central Abaco
+    # CS:
+    #   name: Central Andros
+    # EG:
+    #   name: East Grand Bahama
+    # EX:
+    #   name: Exuma
+    # FP:
+    #   name: Freeport
+    # GC:
+    #   name: Grand Cay
+    # HI:
+    #   name: Harbour Island
+    # HT:
+    #   name: Hope Town
+    # IN:
+    #   name: Inagua
+    # LI:
+    #   name: Long Island
+    # MC:
+    #   name: Mangrove Cay
+    # MG:
+    #   name: Mayaguana
+    # MI:
+    #   name: Moore’s Island
+    # NE:
+    #   name: North Eleuthera
+    # 'NO':
+    #   name: North Abaco
+    # NS:
+    #   name: North Andros
+    # RC:
+    #   name: Rum Cay
+    # RI:
+    #   name: Ragged Island
+    # SA:
+    #   name: South Andros
+    # SE:
+    #   name: South Eleuthera
+    # SO:
+    #   name: South Abaco
+    # SS:
+    #   name: San Salvador
+    # SW:
+    #   name: Spanish Wells
+    # WG:
+    #   name: West Grand Bahama

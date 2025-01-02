@@ -16,6 +16,14 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      1st monday in January:
+        name:
+          en: Bank Holiday
+        type: bank
+      # Official Rule: First Monday in February, or 1 February if the date falls on a Friday
+      02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023:
+        name:
+          en: St. Brigid’s Day
       03-17:
         name:
           en: St. Patrick’s Day
@@ -43,7 +51,7 @@ holidays:
       1st monday in August:
         name:
           en: First Monday in August
-      1st monday before 10-31:
+      1st Monday before 11-01:
         name:
           en: October Bank Holiday
           type: bank
@@ -59,10 +67,6 @@ holidays:
           en: St. Stephen's Day
         substitute: true
         type: bank
-      # Note that this is NOT "12-27 and if saturday..." (no and). This is
-      # becuase this is not a substitute for another holiday but a bank holiday
-      # in its own right which always falls on the work week.
-      12-27 if saturday then next monday if sunday then next tuesday:
-        name:
-          en: Christmas Bank Holiday
-        type: bank
+      3rd sunday in June:
+        _name: Fathers Day
+        type: observance

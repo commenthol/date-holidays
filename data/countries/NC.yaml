@@ -1,0 +1,21 @@
+holidays:
+  # @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#France
+  # @source https://cpme.nc/informez-vous/calendriers-jours-feries
+  NC:
+    names:
+      fr: Nouvelle-Calédonie
+      en: New Caledonia
+    dayoff: sunday
+    zones:
+      - Pacific/Noumea
+    langs:
+      - fr
+    _days: FR
+    days:
+      01-01:
+        name:
+          fr: Jour de l'an
+      09-24:
+        name:
+          fr: Fête de la Citonneyeté
+          en: New Caledonia Day

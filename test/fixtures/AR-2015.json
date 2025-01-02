@@ -84,7 +84,7 @@
     "date": "2015-05-01 00:00:00",
     "start": "2015-05-01T03:00:00.000Z",
     "end": "2015-05-02T03:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Fri"
@@ -135,13 +135,13 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2015-11-27 00:00:00",
-    "start": "2015-11-27T03:00:00.000Z",
-    "end": "2015-11-28T03:00:00.000Z",
+    "date": "2015-11-23 00:00:00",
+    "start": "2015-11-23T03:00:00.000Z",
+    "end": "2015-11-24T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
-    "_weekday": "Fri"
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-12-07 00:00:00",

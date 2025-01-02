@@ -1,0 +1,242 @@
+# @source https://www.mmsp.gov.ma/fr/pratiques.aspx?id=38
+# @source https://www.amb-maroc.fr/_maroc/fetes_Nationales_j_feries.html
+# @source https://publicholidays.africa/morocco/fr/2020-dates/
+# @source https://maroc-diplomatique.net/le-calendrier-des-jours-feries-au-maroc-en-2020/
+# @attrib https://fr.wikipedia.org/wiki/F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s_au_Maroc
+
+holidays:
+  MA:
+    names:
+      ar: "المملكة المغربية"
+      fr: Royaume du Maroc
+      en: Kingdom of Morocco
+    langs:
+      - ar
+      - ber
+      - fr
+    zones:
+      - Africa/Casablanca
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      01-11:
+        name:
+          fr: Manifeste de l'indépendance
+          ar: "ذكرى تقديم وثيقة الاستقلال"
+          en: Anniversary of the Independence Manifesto
+      05-01:
+        _name: 05-01
+      07-30:
+        name:
+          fr: Fête du trône
+          ar: "عيد العرش"
+          en: Feast of the Throne
+      08-14:
+        name:
+          fr: Journée de Oued Ed-Dahab
+          ar: "يوم وادي الذهب"
+          en: Anniversary of the Recovery Oued Ed-Dahab
+      08-20:
+        name:
+          fr: Fête de la révolution du roi et du peuple
+          ar: "ثورة الملك والشعب"
+          en: Anniversary of the Revolution of the King and the People
+      08-21:
+        name:
+          fr: Journée de la jeunesse
+          ar: "عيد الشباب"
+          en: Youth Day
+      11-06:
+        name:
+          fr: La Marche verte
+          ar: "المسيرة الخضراء"
+          en: Anniversary of the Green March
+      11-18:
+        _name: Independence Day
+        name:
+          fr: Fête de l'indépendance
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+
+#    states:
+#      '10':
+#        name: Doukkala-Abda
+#        regions:
+#          JDI:
+#            name: El Jadida
+#          SAF:
+#            name: Safi
+#      '11':
+#        name: Marrakesh-Tensift-El Haouz
+#        regions:
+#          CHI:
+#            name: Chichaoua
+#          ESI:
+#            name: Essaouira
+#          HAO:
+#            name: Al Haouz
+#          KES:
+#            name: Kelaat Sraghna
+#          MMD:
+#            name: Marrakech-Medina
+#          MMN:
+#            name: Marrakech-Menara
+#          SYB:
+#            name: Sidi Youssef Ben Ali
+#      '12':
+#        name: Tadla-Azilal
+#        regions:
+#          AZI:
+#            name: Azilal
+#          BEM:
+#            name: Béni-Mellal
+#      '13':
+#        name: Souss-Massa-Drâa
+#        regions:
+#          AGD:
+#            name: Agadir-Ida Ou Tanane
+#          CHT:
+#            name: Chtouka Aït Baha
+#          INE:
+#            name: Inezgane-Aït Melloul
+#          OUA:
+#            name: Ouarzazate
+#          TAR:
+#            name: Taroudant
+#          TIZ:
+#            name: Tiznit
+#          ZAG:
+#            name: Zagora
+#      '14':
+#        name: Guelmim-Es Semara
+#        regions:
+#          ASZ:
+#            name: Assa-Zag
+#          ESM:
+#            name: Es Semara
+#          GUE:
+#            name: Guelmim
+#          TAT:
+#            name: Tata
+#          TNT:
+#            name: Tan-Tan
+#      '15':
+#        name: Laâyoune-Boujdour-Sakia El Hamra
+#        regions:
+#          BOD:
+#            name: Boujdour
+#          LAA:
+#            name: Laâyoune
+#      '16':
+#        name: Oued Ed-Dahab-Lagouira
+#        regions:
+#          AOU:
+#            name: Aousserd
+#          OUD:
+#            name: Oued Ed-Dahab
+#      '01':
+#        name: Tangier-Tétouan
+#        regions:
+#          CHE:
+#            name: Chefchaouen
+#          FAH:
+#            name: Fahs-Beni Makada
+#          LAR:
+#            name: Larache
+#          TET:
+#            name: Tétouan
+#          TNG:
+#            name: Tangier-Assilah
+#      '02':
+#        name: Gharb-Chrarda-Béni Hssen
+#        regions:
+#          KEN:
+#            name: Kénitra
+#          SIK:
+#            name: Sidi Kacem
+#      '03':
+#        name: Taza-Al Hoceima-Taounate
+#        regions:
+#          HOC:
+#            name: Al Hoceïma
+#          TAO:
+#            name: Taounate
+#          TAZ:
+#            name: Taza
+#      '04':
+#        name: Oriental
+#        regions:
+#          BER:
+#            name: Berkane
+#          FIG:
+#            name: Figuig
+#          JRA:
+#            name: Jerada
+#          NAD:
+#            name: Nador
+#          OUJ:
+#            name: Oujda-Angad
+#          TAI:
+#            name: Taourirt
+#      '05':
+#        name: Fès-Boulemane
+#        regions:
+#          BOM:
+#            name: Boulemane
+#          FES:
+#            name: Fès-Dar-Dbibegh
+#          MOU:
+#            name: Moulay Yacoub
+#          SEF:
+#            name: Sefrou
+#      '06':
+#        name: Meknès-Tafilalet
+#        regions:
+#          ERR:
+#            name: Errachidia
+#          HAJ:
+#            name: El Hajeb
+#          IFR:
+#            name: Ifrane
+#          KHN:
+#            name: Khénifra
+#          MEK:
+#            name: Meknès
+#      '07':
+#        name: Rabat-Salé-Zemmour-Zaer
+#        regions:
+#          KHE:
+#            name: Khemisset
+#          RAB:
+#            name: Rabat
+#          SAL:
+#            name: Salé
+#          SKH:
+#            name: Skhirat-Témara
+#      08:
+#        name: Grand Casablanca
+#        regions:
+#          CAS:
+#            name: Casablanca
+#          MED:
+#            name: Médiouna
+#          MOH:
+#            name: Mohammedia
+#          NOU:
+#            name: Nouaceur
+#      09:
+#        name: Chaouia-Ouardigha
+#        regions:
+#          BES:
+#            name: Ben Slimane
+#          KHO:
+#            name: Khouribga
+#          SET:
+#            name: Settat

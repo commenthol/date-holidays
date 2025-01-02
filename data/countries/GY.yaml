@@ -47,58 +47,114 @@ holidays:
           en: Youman Nabi
         note: tentative
         disable:
-          - '2016-12-11'
-          - '2015-12-23'
-          - '2013-01-24'
+          - "2016-12-11"
+          - "2015-12-23"
+          - "2013-01-24"
         enable:
-          - '2016-12-12'
-          - '2015-12-24'
-          - '2013-01-23'
+          - "2016-12-12"
+          - "2015-12-24"
+          - "2013-01-23"
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
         name:
           en: Eid Ul Adha
         note: tentative
         disable:
-          - '2015-09-23'
+          - "2015-09-23"
         enable:
-          - '2015-09-24'
+          - "2015-09-24"
       # hindu holidays
-      # Holi
-      '2017-03-12':
+      # Holi substitute if Sunday then next Monday
+      "2015-03-05":
         name:
           en: Phagwah
-      '2016-03-23':
+      "2016-03-23":
         name:
           en: Phagwah
-      '2015-03-05':
+      "2017-03-12":
+        name:
+          en: Phagwah
+      "2017-03-13":
+        substitute: true
+        name:
+          en: Phagwah
+      "2018-03-02":
+        name:
+          en: Phagwah
+      "2019-03-21":
+        name:
+          en: Phagwah
+      "2020-03-10":
+        name:
+          en: Phagwah
+      "2021-03-29":
+        name:
+          en: Phagwah
+      "2022-03-18":
+        name:
+          en: Phagwah
+      "2023-03-07":
+        name:
+          en: Phagwah
+      "2024-03-25":
         name:
           en: Phagwah
       # Deepavali Day 5
-      '2017-10-18':
+      # substitute if Sunday then next Monday
+      "2015-11-11":
         name:
           en: Deepavali
-      '2015-11-11':
+      "2017-10-18":
         name:
           en: Deepavali
+      "2018-11-07":
+        name:
+          en: Deepavali
+      "2019-10-27":
+        name:
+          en: Deepavali
+      "2019-10-28":
+        substitute: true
+        name:
+          en: Deepavali
+      "2020-11-14":
+        name:
+          en: Deepavali
+      "2021-11-04":
+        name:
+          en: Deepavali
+      "2022-10-24":
+        name:
+          en: Deepavali
+      "2023-11-12":
+        name:
+          en: Deepavali
+      "2023-11-13":
+        substitute: true
+        name:
+          en: Deepavali
+      "2024-10-31":
+        name:
+          en: Deepavali
+
     # states:
-      # BA:
-      #   name: Barima-Waini
-      # CU:
-      #   name: Cuyuni-Mazaruni
-      # DE:
-      #   name: Demerara-Mahaica
-      # EB:
-      #   name: East Berbice-Corentyne
-      # ES:
-      #   name: Essequibo Islands-West Demerara
-      # MA:
-      #   name: Mahaica-Berbice
-      # PM:
-      #   name: Pomeroon-Supenaam
-      # PT:
-      #   name: Potaro-Siparuni
-      # UD:
-      #   name: Upper Demerara-Berbice
-      # UT:
-      #   name: Upper Takutu-Upper Essequibo
+    # BA:
+    #   name: Barima-Waini
+    # CU:
+    #   name: Cuyuni-Mazaruni
+    # DE:
+    #   name: Demerara-Mahaica
+    # EB:
+    #   name: East Berbice-Corentyne
+    # ES:
+    #   name: Essequibo Islands-West Demerara
+    # MA:
+    #   name: Mahaica-Berbice
+    # PM:
+    #   name: Pomeroon-Supenaam
+    # PT:
+    #   name: Potaro-Siparuni
+    # UD:
+    #   name: Upper Demerara-Berbice
+    # UT:
+    #   name: Upper Takutu-Upper Essequibo

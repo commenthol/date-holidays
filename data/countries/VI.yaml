@@ -1,0 +1,47 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States_Virgin_Islands
+holidays:
+  VI:
+    names:
+      en: U.S. Virgin Islands
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    _days: US
+    days:
+      01-06:
+        _name: 01-06
+        name:
+          en: Three Kings Day
+      3rd monday in February:
+        name:
+          en: President's Day
+      # Saint Patrick's Day is not observed
+      03-17: false
+      03-31:
+        name:
+          en: Transfer Day
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      07-03:
+        name:
+          en: Emancipation Day
+      4th Monday in July:
+        name:
+          en: Hurricane Supplication Day
+      2nd monday in October:
+        name:
+          en: Virgin Islands–Puerto Rico Friendship Day
+      10-25:
+        name:
+          en: Hurricane Thanksgiving
+        type: observance
+      friday after 4th thursday in November:
+        name:
+          en: Day after Thanksgiving Day
+        type: school

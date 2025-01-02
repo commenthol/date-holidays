@@ -66,7 +66,7 @@
     "date": "2025-05-01 00:00:00",
     "start": "2025-05-01T03:00:00.000Z",
     "end": "2025-05-02T03:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Thu"
@@ -126,13 +126,13 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2025-11-24 00:00:00",
-    "start": "2025-11-24T03:00:00.000Z",
-    "end": "2025-11-25T03:00:00.000Z",
+    "date": "2025-11-20 00:00:00",
+    "start": "2025-11-20T03:00:00.000Z",
+    "end": "2025-11-21T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
-    "_weekday": "Mon"
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
+    "_weekday": "Thu"
   },
   {
     "date": "2025-12-08 00:00:00",
@@ -167,7 +167,7 @@
     "end": "2025-12-27T03:00:00.000Z",
     "name": "Feriado Puente Turístico",
     "type": "public",
-    "rule": "substitutes 12-25 if thursday then next friday",
+    "rule": "substitutes 12-25 if tuesday then previous monday if thursday then next friday",
     "_weekday": "Fri"
   },
   {

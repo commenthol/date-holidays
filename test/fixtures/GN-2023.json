@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2023-01-01 00:00:00",
+    "start": "2023-01-01T00:00:00.000Z",
+    "end": "2023-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2023-04-03 00:00:00",
+    "start": "2023-04-03T00:00:00.000Z",
+    "end": "2023-04-04T00:00:00.000Z",
+    "name": "Fête Nationale de la deuxième République",
+    "type": "public",
+    "rule": "04-03",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-04-10 00:00:00",
+    "start": "2023-04-10T00:00:00.000Z",
+    "end": "2023-04-11T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-04-18 00:00:00 -0600",
+    "start": "2023-04-17T18:00:00.000Z",
+    "end": "2023-04-18T18:00:00.000Z",
+    "name": "Laylat al-Qadr",
+    "type": "public",
+    "rule": "27 Ramadan",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-04-21 00:00:00 -0600",
+    "start": "2023-04-20T18:00:00.000Z",
+    "end": "2023-04-21T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2023-05-01 00:00:00",
+    "start": "2023-05-01T00:00:00.000Z",
+    "end": "2023-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-05-25 00:00:00",
+    "start": "2023-05-25T00:00:00.000Z",
+    "end": "2023-05-26T00:00:00.000Z",
+    "name": "Anniversaire de l'Organisation de l'unité africaine (OUA)",
+    "type": "public",
+    "rule": "05-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2023-06-28 00:00:00 -0600",
+    "start": "2023-06-27T18:00:00.000Z",
+    "end": "2023-06-28T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-08-15 00:00:00",
+    "start": "2023-08-15T00:00:00.000Z",
+    "end": "2023-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2023-09-27 00:00:00 -0600",
+    "start": "2023-09-26T18:00:00.000Z",
+    "end": "2023-09-27T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2023-10-02 00:00:00",
+    "start": "2023-10-02T00:00:00.000Z",
+    "end": "2023-10-03T00:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "10-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2023-12-25 00:00:00",
+    "start": "2023-12-25T00:00:00.000Z",
+    "end": "2023-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

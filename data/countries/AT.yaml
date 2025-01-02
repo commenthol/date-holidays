@@ -15,7 +15,9 @@ holidays:
         _name: 01-01
       01-06:
         _name: 01-06
-      easter -2:
+      # @source https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2019_I_22/BGBLA_2019_I_22.pdfsig
+      # @source https://www.arbeiterkammer.at/beratung/arbeitundrecht/Arbeitszeit/ArbeitszeitundRuhepausen/Persoenlicher_Feiertag.html
+      easter -2 prior to 2019:
         _name: easter -2
         type: optional
       easter -1:
@@ -47,42 +49,46 @@ holidays:
         _name: 11-01
       12-08:
         _name: 12-08
-      '12-24 14:00 if sunday then 00:00':
+      "12-24 14:00 if sunday then 00:00":
         _name: 12-24
         type: bank
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
-      '12-31 14:00 if sunday then 00:00':
+      "12-31 14:00 if sunday then 00:00":
         _name: 12-31
         type: bank
     states:
-      '1':
+      "1":
         name: Burgenland
         days:
           11-11:
             name:
               de-at: Martinstag
-      '2':
+      "2":
         names:
           de: Kärnten
           en: Carinthia
         days:
           03-19:
             _name: 03-19
+            type: school
           10-10:
             name:
               de-at: Tag der Volksabstimmung
-      '3':
+      "3":
         names:
           de: Niederösterreich
           en: Lower Austria
         days:
+          # @source https://kurier.at/chronik/niederoesterreich/leopoldi-alle-feiern-nicht-alle-haben-frei/400673546
           11-15:
             name:
-              de-at: Leopold
-      '4':
+              de-at: Leopoldi-Tag
+            type: optional
+            note: In Niederösterreich haben nur Schüler und Beamten frei
+      "4":
         names:
           de: Oberösterreich
           en: Upper Austria
@@ -90,7 +96,7 @@ holidays:
           05-04:
             name:
               de-at: Florian
-      '5':
+      "5":
         names:
           de: Land Salzburg
           en: Salzburg
@@ -98,30 +104,36 @@ holidays:
           09-24:
             name:
               de-at: Rupert
-      '6':
+      "6":
         names:
           de: Steiermark
           en: Styria
         days:
           03-19:
             _name: 03-19
-      '7':
+            type: school
+      "7":
         names:
           de: Tirol
           en: Tyrol
         days:
           03-19:
             _name: 03-19
-      '8':
+            type: school
+      "8":
         name: Vorarlberg
         days:
           03-19:
             _name: 03-19
-      '9':
+            type: school
+      "9":
         names:
           de: Wien
           en: Vienna
         days:
+          # @source https://kurier.at/chronik/niederoesterreich/leopoldi-alle-feiern-nicht-alle-haben-frei/400673546
           11-15:
             name:
-              de-at: Leopold
+              de-at: Leopoldi-Tag
+            type: optional
+            note: In Wien haben nur Schüler frei

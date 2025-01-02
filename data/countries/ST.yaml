@@ -1,0 +1,50 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe
+holidays:
+  ST:
+    names:
+      pt: São Tomé & Príncipe
+      en: São Tomé & Príncipe
+    langs:
+      - pt
+      - en
+    zones:
+      - Africa/Abidjan
+    dayoff: sunday
+    days:
+      01-01 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      02-03 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Martyrs' Day
+          pt: Dia dos Mártires
+      05-01 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      07-12 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      09-06 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Armed Forces Day
+          pt: Dia das Forças Armadas
+      09-30 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Agricultural Reform Day
+          pt: Dia da Reforma Agrária
+      12-21 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: São Tomé Day
+          pt: Dia de São Tomé
+      12-25 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        _name: 12-25
+    # states:
+    #   P:
+    #     name: Príncipe
+    #   S:
+    #     name: São Tomé

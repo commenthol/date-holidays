@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2015-01-01 00:00:00",
+    "start": "2014-12-31T16:00:00.000Z",
+    "end": "2015-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-01-03 00:00:00 -0600",
+    "start": "2015-01-02T10:00:00.000Z",
+    "end": "2015-01-03T10:00:00.000Z",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-02-01 00:00:00",
+    "start": "2015-01-31T16:00:00.000Z",
+    "end": "2015-02-01T16:00:00.000Z",
+    "name": "Hari Wilayah Persekutuan",
+    "type": "public",
+    "rule": "02-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-02-19 00:00:00",
+    "start": "2015-02-18T16:00:00.000Z",
+    "end": "2015-02-19T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2015-02-20 00:00:00",
+    "start": "2015-02-19T16:00:00.000Z",
+    "end": "2015-02-20T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-01 00:00:00",
+    "start": "2015-04-30T16:00:00.000Z",
+    "end": "2015-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-05-30 00:00:00",
+    "start": "2015-05-29T16:00:00.000Z",
+    "end": "2015-05-30T16:00:00.000Z",
+    "name": "Pesta Kaamatan",
+    "type": "public",
+    "rule": "05-30",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-05-31 00:00:00",
+    "start": "2015-05-30T16:00:00.000Z",
+    "end": "2015-05-31T16:00:00.000Z",
+    "name": "Pesta Kaamatan",
+    "type": "public",
+    "rule": "05-31",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2015-06-01 00:00:00",
+    "start": "2015-05-31T16:00:00.000Z",
+    "end": "2015-06-01T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-06-02 00:00:00",
+    "start": "2015-06-01T16:00:00.000Z",
+    "end": "2015-06-02T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2015-06-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2015-07-04 00:00:00 -0600",
+    "start": "2015-07-03T10:00:00.000Z",
+    "end": "2015-07-04T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "rule": "17 Ramadan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-07-17 00:00:00 -0600",
+    "start": "2015-07-16T10:00:00.000Z",
+    "end": "2015-07-17T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2015-07-18 00:00:00 -0600",
+    "start": "2015-07-17T10:00:00.000Z",
+    "end": "2015-07-18T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2015-08-31 00:00:00",
+    "start": "2015-08-30T16:00:00.000Z",
+    "end": "2015-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2015-09-16 00:00:00",
+    "start": "2015-09-15T16:00:00.000Z",
+    "end": "2015-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-09-23 00:00:00 -0600",
+    "start": "2015-09-22T10:00:00.000Z",
+    "end": "2015-09-23T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-10-14 00:00:00 -0600",
+    "start": "2015-10-13T10:00:00.000Z",
+    "end": "2015-10-14T10:00:00.000Z",
+    "name": "Awal Muharram",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-23 00:00:00 -0600",
+    "start": "2015-12-22T10:00:00.000Z",
+    "end": "2015-12-23T10:00:00.000Z",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2015-12-25 00:00:00",
+    "start": "2015-12-24T16:00:00.000Z",
+    "end": "2015-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]

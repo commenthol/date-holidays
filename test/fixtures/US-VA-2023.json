@@ -19,15 +19,6 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2023-01-13 00:00:00",
-    "start": "2023-01-13T05:00:00.000Z",
-    "end": "2023-01-14T05:00:00.000Z",
-    "name": "Lee–Jackson Day",
-    "type": "public",
-    "rule": "friday before 3rd monday in January",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2023-01-16 00:00:00",
     "start": "2023-01-16T05:00:00.000Z",
     "end": "2023-01-17T05:00:00.000Z",
@@ -53,6 +44,15 @@
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2023-03-17 00:00:00",
+    "start": "2023-03-17T04:00:00.000Z",
+    "end": "2023-03-18T04:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Fri"
   },
   {
     "date": "2023-04-09 00:00:00",
@@ -109,6 +109,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2023-06-19 00:00:00",
+    "start": "2023-06-19T04:00:00.000Z",
+    "end": "2023-06-20T04:00:00.000Z",
+    "name": "Juneteenth",
+    "type": "public",
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2023-07-04 00:00:00",
     "start": "2023-07-04T04:00:00.000Z",
     "end": "2023-07-05T04:00:00.000Z",
@@ -123,7 +132,7 @@
     "end": "2023-09-05T04:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

@@ -22,6 +22,9 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      easter -3:
+        _name: easter -3
+        type: observance
       easter -2:
         _name: easter -2
       easter:
@@ -45,13 +48,13 @@ holidays:
           fr: Fête des pères
         type: observance
         active:
-          - from: '2009-01-01'
+          - from: "2009-01-01"
       08-01:
         name:
           de: Bundesfeiertag
-          fr: Fête nationnale
+          fr: Fête nationale
           it: Giorno festivo federale
-      3 sunday after 09-01:
+      3rd sunday after 09-01:
         name:
           de: Eidg. Dank-, Buss- und Bettag
           fr: Jeûne fédéral
@@ -234,6 +237,8 @@ holidays:
             _name: 12-26
             type: optional
       GL:
+        sources:
+          - https://www.gl.ch/verwaltung/staatskanzlei/oeffentliche-feiertage.html/1335
         names:
           de: Kanton Glarus
           fr: Canton de Glaris
@@ -245,12 +250,18 @@ holidays:
               de: Berchtoldstag
               fr: Saint-Berthold
             type: optional
-          thursday after 04-01:
+          # if falls on easter -3 (Maundy Thursday) then move to next Thursday
+          Thursday after 04-02 if is observance holiday then next Thursday:
             name:
-              de: Fahrtsfest
+              de: Näfelser Fahrt
               fr: Bataille de Näfels
+          3rd sunday after 09-01: false
           11-01:
             _name: 11-01
+          12-24:
+            _name: 12-24
+          12-31:
+            _name: 12-31
       ZG:
         names:
           de: Kanton Zug
@@ -422,7 +433,7 @@ holidays:
           11-01:
             _name: 11-01
           12-26:
-             type: observance
+            type: observance
           12-26 not on tuesday, saturday:
             _name: 12-26
       SG:
@@ -557,7 +568,7 @@ holidays:
             name:
               de: Berchtoldstag
               fr: 2 Janvier
-          monday after 3 sunday in September:
+          monday after 3rd sunday in September:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
@@ -595,7 +606,7 @@ holidays:
             _name: easter 60
           08-15:
             _name: 08-15
-          monday after 3 sunday after 09-01:
+          monday after 3rd sunday after 09-01:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
@@ -643,7 +654,7 @@ holidays:
             type: observance
           easter 60:
             _name: easter 60
-          monday after 3 sunday in September:
+          monday after 3rd sunday in September:
             name:
               de: Bettagsmontag
               fr: Lundi du Jeûne Fédéral
@@ -670,7 +681,7 @@ holidays:
               de: Berchtoldstag
               fr: 2 Janvier
             type: bank
-          thursday after 1 sunday after 09-01:
+          thursday after 1st sunday after 09-01:
             name:
               de: Genfer Bettag
               fr: Jeûne Genevois
@@ -681,6 +692,7 @@ holidays:
               de: Wiederherstellung der Republik
               fr: Restauration de la République
               en: Restoration of the Republic
+          3rd sunday after 09-01: false
       JU:
         names:
           fr: Canton du Jura

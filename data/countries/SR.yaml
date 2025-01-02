@@ -1,0 +1,145 @@
+# @attrib https://en.wikipedia.org/wiki/Suriname#National_holidays
+# @attrib: https://nl.wikipedia.org/wiki/Suriname#Feestdagen_en_evenementen
+holidays:
+  SR:
+    names:
+      en: Suriname
+    langs:
+      - nl
+      - srn
+    zones:
+      - America/Paramaribo
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      chinese 01-0-01:
+        name:
+          nl: Chinees Nieuwjaar
+          en: Chinese New Year
+      02-25:
+        name:
+          nl: Dag van Bevrijding en Vernieuwing
+          en: Day of Liberation and Innovation
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      07-01:
+        name:
+          nl: Dag der Vrijheden (Keti koti)
+          srn: Keti koti
+          en: Emancipation Day
+      08-09:
+        name:
+          nl: Dag der Inheemsen
+          en: Indigenous People's Day
+      10-10:
+        name:
+          nl: Dag van de Marrons
+          en: Day of the Maroons
+      11-25:
+        _name: Independence Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+      # Holi
+      "2015-03-06":
+        _name: Holi
+      "2016-03-23":
+        _name: Holi
+      "2017-03-12":
+        _name: Holi
+      "2018-03-02":
+        _name: Holi
+      "2019-03-21":
+        _name: Holi
+      "2020-03-09":
+        _name: Holi
+      "2021-03-28":
+        _name: Holi
+      "2022-03-18":
+        _name: Holi
+      "2023-03-07":
+        _name: Holi
+      "2024-03-25":
+        _name: Holi
+      "2025-03-14":
+        _name: Holi
+      "2026-03-03":
+        _name: Holi
+      "2027-03-22":
+        _name: Holi
+      "2028-03-11":
+        _name: Holi
+      "2029-03-28":
+        _name: Holi
+      "2030-03-19":
+        _name: Holi
+      # Deepavali
+      "2014-10-23":
+        _name: Deepavali
+      "2015-11-11":
+        _name: Deepavali
+      "2016-10-30":
+        _name: Deepavali
+      "2017-10-19":
+        _name: Deepavali
+      "2018-11-07":
+        _name: Deepavali
+      "2019-10-27":
+        _name: Deepavali
+      "2020-11-14":
+        _name: Deepavali
+      "2021-11-04":
+        _name: Deepavali
+      "2022-10-24":
+        _name: Deepavali
+      "2023-11-12":
+        _name: Deepavali
+      "2024-10-31":
+        _name: Deepavali
+      "2025-10-20":
+        _name: Deepavali
+      "2026-11-08":
+        _name: Deepavali
+      "2027-10-28":
+        _name: Deepavali
+      "2028-10-17":
+        _name: Deepavali
+      "2029-11-05":
+        _name: Deepavali
+      "2030-10-25":
+        _name: Deepavali
+
+    # states:
+    #   BR:
+    #     name: Brokopondo
+    #   CM:
+    #     name: Commewijne
+    #   CR:
+    #     name: Coronie
+    #   MA:
+    #     name: Marowijne
+    #   NI:
+    #     name: Nickerie
+    #   PM:
+    #     name: Paramaribo
+    #   PR:
+    #     name: Para
+    #   SA:
+    #     name: Saramacca
+    #   SI:
+    #     name: Sipaliwini
+    #   WA:
+    #     name: Wanica

@@ -76,7 +76,7 @@
     "start": "2016-03-26T23:00:00.000Z",
     "end": "2016-03-27T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "observance",
+    "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -121,7 +121,7 @@
     "start": "2016-05-14T22:00:00.000Z",
     "end": "2016-05-15T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "observance",
+    "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
@@ -274,7 +274,7 @@
     "start": "2016-12-31T13:00:00.000Z",
     "end": "2016-12-31T23:00:00.000Z",
     "name": "Silvester",
-    "type": "public",
+    "type": "bank",
     "rule": "12-31 14:00 if sunday then 00:00",
     "_weekday": "Sat"
   }

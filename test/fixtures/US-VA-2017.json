@@ -24,7 +24,7 @@
     "end": "2017-01-14T05:00:00.000Z",
     "name": "Lee–Jackson Day",
     "type": "public",
-    "rule": "friday before 3rd monday in January",
+    "rule": "friday before 3rd monday in January prior to 2021",
     "_weekday": "Fri"
   },
   {
@@ -53,6 +53,15 @@
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2017-03-17 00:00:00",
+    "start": "2017-03-17T04:00:00.000Z",
+    "end": "2017-03-18T04:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-04-16 00:00:00",
@@ -123,7 +132,7 @@
     "end": "2017-09-05T04:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

@@ -1,0 +1,74 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Ghana
+holidays:
+  GH:
+    names:
+      en: Ghana
+    langs:
+      - en
+    zones:
+      - Africa/Accra
+    dayoff: ""
+    days:
+      01-01 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      01-07 since 2019:
+        _name: Constitution Day
+      03-06 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01 and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 05-01
+      08-04 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: Founders Day
+      09-21 and if Saturday, Sunday then next Monday:
+        substitute: true
+        name:
+          en: Kwame Nkrumah Memorial Day
+      1st Friday in December since 1988:
+        name:
+          en: Farmers Day
+      12-25 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-26
+      1 Shawwal and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah and if Saturday, Sunday then next Monday:
+        substitute: true
+        _name: 10 Dhu al-Hijjah
+
+    # states:
+    #   AA:
+    #     name: Greater Accra
+    #   AH:
+    #     name: Ashanti
+    #   BA:
+    #     name: Brong-Ahafo
+    #   CP:
+    #     name: Central
+    #   EP:
+    #     name: Eastern
+    #   NP:
+    #     name: Northern
+    #   TV:
+    #     name: Volta
+    #   UE:
+    #     name: Upper East
+    #   UW:
+    #     name: Upper West
+    #   WP:
+    #     name: Western

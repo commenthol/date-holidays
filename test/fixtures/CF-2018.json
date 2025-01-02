@@ -54,6 +54,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2018-06-15 00:00:00 -0600",
+    "start": "2018-06-14T17:00:00.000Z",
+    "end": "2018-06-15T17:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2018-06-30 00:00:00",
     "start": "2018-06-29T23:00:00.000Z",
     "end": "2018-06-30T23:00:00.000Z",
@@ -79,6 +88,15 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2018-08-21 00:00:00 -0600",
+    "start": "2018-08-20T17:00:00.000Z",
+    "end": "2018-08-21T17:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
   },
   {
     "date": "2018-11-01 00:00:00",

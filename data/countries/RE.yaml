@@ -1,3 +1,4 @@
+# @source https://www.joursferies.fr/pays/mayotte.php
 holidays:
   RE:
     names:
@@ -7,7 +8,7 @@ holidays:
       - fr
     zones:
       - Indian/Reunion
-    dayoff: ''
+    dayoff: ""
     _days: FR
     days:
       12-20:

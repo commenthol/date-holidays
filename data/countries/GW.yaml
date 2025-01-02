@@ -1,0 +1,66 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Guinea-Bissau
+holidays:
+  GW:
+    names:
+      pt: Guiné-Bissau
+      en: Guinea-Bissau
+    langs:
+      - pt
+    zones:
+      - Africa/Bissau
+    dayoff: ""
+    days:
+      01-01:
+        _name: 01-01
+      01-20:
+        name:
+          pt: Dia dos heróis
+          en: Heroes Day
+      03-08:
+        _name: 03-08
+      05-01:
+        _name: 05-01
+      08-03:
+        name:
+          pt: Pidjiguiti Day
+      09-24:
+        _name: Independence Day
+      11-14:
+        name:
+          pt: Dia do Movimento de Reajustamento
+          en: Readjustment Movement Day
+      12-25:
+        _name: 12-25
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+
+    # states:
+    #   BS:
+    #     name: Bissau
+    #   L:
+    #     name: Leste
+    #     regions:
+    #       BA:
+    #         name: Bafatá
+    #       GA:
+    #         name: Gabú
+    #   'N':
+    #     name: Norte
+    #     regions:
+    #       BM:
+    #         name: Biombo
+    #       CA:
+    #         name: Cacheu
+    #       OI:
+    #         name: Oio
+    #   S:
+    #     name: Sul
+    #     regions:
+    #       BL:
+    #         name: Bolama
+    #       QU:
+    #         name: Quinara
+    #       TO:
+    #         name: Tombali

@@ -1,0 +1,150 @@
+[
+  {
+    "date": "2027-01-01 00:00:00",
+    "start": "2026-12-31T21:00:00.000Z",
+    "end": "2027-01-01T21:00:00.000Z",
+    "name": "Mwaka mpya",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-09 00:00:00 -0600",
+    "start": "2027-03-08T15:00:00.000Z",
+    "end": "2027-03-09T15:00:00.000Z",
+    "name": "Idd-ul-Fitr",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-03-26 00:00:00",
+    "start": "2027-03-25T21:00:00.000Z",
+    "end": "2027-03-26T21:00:00.000Z",
+    "name": "Ijumaa Kuu",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2027-03-28 00:00:00",
+    "start": "2027-03-27T21:00:00.000Z",
+    "end": "2027-03-28T21:00:00.000Z",
+    "name": "Pasaka",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-03-29 00:00:00",
+    "start": "2027-03-28T21:00:00.000Z",
+    "end": "2027-03-29T21:00:00.000Z",
+    "name": "Jumatatu ya Pasaka",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-05-01 00:00:00",
+    "start": "2027-04-30T21:00:00.000Z",
+    "end": "2027-05-01T21:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-05-16 00:00:00 -0600",
+    "start": "2027-05-15T15:00:00.000Z",
+    "end": "2027-05-16T15:00:00.000Z",
+    "name": "Idd-ul-Azha",
+    "type": "public",
+    "note": "For all persons belonging to the Islamic faith.",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-06-01 00:00:00",
+    "start": "2027-05-31T21:00:00.000Z",
+    "end": "2027-06-01T21:00:00.000Z",
+    "name": "Siku ya Madaraka",
+    "type": "public",
+    "rule": "06-01 and if sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2027-10-10 00:00:00",
+    "start": "2027-10-09T21:00:00.000Z",
+    "end": "2027-10-10T21:00:00.000Z",
+    "name": "Moi Day",
+    "type": "public",
+    "rule": "10-10 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-10-11 00:00:00",
+    "start": "2027-10-10T21:00:00.000Z",
+    "end": "2027-10-11T21:00:00.000Z",
+    "name": "Moi Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10-10 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-10-20 00:00:00",
+    "start": "2027-10-19T21:00:00.000Z",
+    "end": "2027-10-20T21:00:00.000Z",
+    "name": "Siku ya Mashujaa",
+    "type": "public",
+    "rule": "10-20 and if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2027-12-12 00:00:00",
+    "start": "2027-12-11T21:00:00.000Z",
+    "end": "2027-12-12T21:00:00.000Z",
+    "name": "Siku ya Jamhuri",
+    "type": "public",
+    "rule": "12-12 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-12-13 00:00:00",
+    "start": "2027-12-12T21:00:00.000Z",
+    "end": "2027-12-13T21:00:00.000Z",
+    "name": "Siku ya Jamhuri (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-12 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-12-25 00:00:00",
+    "start": "2027-12-24T21:00:00.000Z",
+    "end": "2027-12-25T21:00:00.000Z",
+    "name": "Krismasi",
+    "type": "public",
+    "rule": "12-25 and if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-26 00:00:00",
+    "start": "2027-12-25T21:00:00.000Z",
+    "end": "2027-12-26T21:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-12-27 00:00:00",
+    "start": "2027-12-26T21:00:00.000Z",
+    "end": "2027-12-27T21:00:00.000Z",
+    "name": "Boxing Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "12-26 and if sunday then next monday",
+    "_weekday": "Mon"
+  }
+]

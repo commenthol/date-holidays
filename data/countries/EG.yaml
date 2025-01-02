@@ -1,0 +1,106 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Egypt
+  EG:
+    names:
+      ar: "جمهورية مصر العربية"
+      en: Egypt
+    langs:
+      - ar
+      - en
+    zones:
+      - Africa/Cairo
+    dayoff: saturday
+    days:
+      01-25 since 2011:
+        name:
+          ar: "عيد ثورة 25 يناير"
+          en: Revolution Day 2011
+      01-25:
+        name:
+          ar: "عيد الشرطة"
+          en: National Police Day
+      04-25:
+        name:
+          ar: "عيد تحرير سيناء"
+          en: Sinai Liberation Day
+      05-01:
+        _name: 05-01
+      06-30:
+        name:
+          ar: "عيد ثورة 30 يونيو"
+          en: 30 June Day
+      07-23:
+        _name: Revolution Day
+      10-06:
+        name:
+          ar: "عيد القوات المسلحة"
+          en: Armed Forces Day
+      orthodox 1:
+        name:
+          ar: "شم النسيم"
+          en: Sham El Nessim
+      julian 12-25:
+        _name: 12-25
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P3D:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P4D:
+        _name: 10 Dhu al-Hijjah
+    # states:
+    #   ALX:
+    #     name: Alexandria
+    #   ASN:
+    #     name: Aswan
+    #   AST:
+    #     name: Asyut
+    #   BA:
+    #     name: Red Sea
+    #   BH:
+    #     name: Beheira
+    #   BNS:
+    #     name: Beni Suef
+    #   C:
+    #     name: Cairo
+    #   DK:
+    #     name: Dakahlia
+    #   DT:
+    #     name: Damietta
+    #   FYM:
+    #     name: Faiyum
+    #   GH:
+    #     name: Gharbia
+    #   GZ:
+    #     name: Giza
+    #   IS:
+    #     name: Ismailia
+    #   JS:
+    #     name: South Sinai
+    #   KB:
+    #     name: Qalyubia
+    #   KFS:
+    #     name: Kafr el-Sheikh
+    #   KN:
+    #     name: Qena
+    #   LX:
+    #     name: Luxor
+    #   MN:
+    #     name: Minya
+    #   MNF:
+    #     name: Monufia
+    #   MT:
+    #     name: Matrouh
+    #   PTS:
+    #     name: Port Said
+    #   SHG:
+    #     name: Sohag
+    #   SHR:
+    #     name: Al Sharqia
+    #   SIN:
+    #     name: North Sinai
+    #   SUZ:
+    #     name: Suez
+    #   WAD:
+    #     name: New Valley

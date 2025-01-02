@@ -1,0 +1,193 @@
+[
+  {
+    "date": "2022-01-01 00:00:00",
+    "start": "2021-12-31T16:00:00.000Z",
+    "end": "2022-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-01-14 00:00:00",
+    "start": "2022-01-13T16:00:00.000Z",
+    "end": "2022-01-14T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan",
+    "type": "public",
+    "rule": "01-14",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-01-18 00:00:00",
+    "start": "2022-01-17T16:00:00.000Z",
+    "end": "2022-01-18T16:00:00.000Z",
+    "name": "Hari Thaipusam",
+    "type": "public",
+    "rule": "2022-01-18",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-02-01 00:00:00",
+    "start": "2022-01-31T16:00:00.000Z",
+    "end": "2022-02-01T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-02-02 00:00:00",
+    "start": "2022-02-01T16:00:00.000Z",
+    "end": "2022-02-02T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-02-28 00:00:00 -0600",
+    "start": "2022-02-27T10:00:00.000Z",
+    "end": "2022-02-28T10:00:00.000Z",
+    "name": "Israk dan Mikraj",
+    "type": "public",
+    "rule": "27 Rajab",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T16:00:00.000Z",
+    "end": "2022-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00",
+    "start": "2022-05-01T16:00:00.000Z",
+    "end": "2022-05-02T16:00:00.000Z",
+    "name": "Hari Pekerja (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 05-01 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-03 00:00:00",
+    "start": "2022-05-02T16:00:00.000Z",
+    "end": "2022-05-03T16:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-05-04 00:00:00",
+    "start": "2022-05-03T16:00:00.000Z",
+    "end": "2022-05-04T16:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-05-15 00:00:00",
+    "start": "2022-05-14T16:00:00.000Z",
+    "end": "2022-05-15T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2022-05-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-16 00:00:00",
+    "start": "2022-05-15T16:00:00.000Z",
+    "end": "2022-05-16T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2022-05-16",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-06-06 00:00:00",
+    "start": "2022-06-05T16:00:00.000Z",
+    "end": "2022-06-06T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-07-10 00:00:00",
+    "start": "2022-07-09T16:00:00.000Z",
+    "end": "2022-07-10T16:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-07-30 00:00:00 -0600",
+    "start": "2022-07-29T10:00:00.000Z",
+    "end": "2022-07-30T10:00:00.000Z",
+    "name": "Awal Muharram",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-08-31 00:00:00",
+    "start": "2022-08-30T16:00:00.000Z",
+    "end": "2022-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2022-09-16 00:00:00",
+    "start": "2022-09-15T16:00:00.000Z",
+    "end": "2022-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-10-09 00:00:00",
+    "start": "2022-10-08T16:00:00.000Z",
+    "end": "2022-10-09T16:00:00.000Z",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-10-24 00:00:00",
+    "start": "2022-10-23T16:00:00.000Z",
+    "end": "2022-10-24T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2022-10-24",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-25 00:00:00",
+    "start": "2022-12-24T16:00:00.000Z",
+    "end": "2022-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-25T16:00:00.000Z",
+    "end": "2022-12-26T16:00:00.000Z",
+    "name": "Hari Krismas (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 12-25 if Sunday then next Monday",
+    "_weekday": "Mon"
+  }
+]

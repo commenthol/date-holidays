@@ -28,7 +28,7 @@ holidays:
         type: observance
       03-15:
         name:
-          hu: 1948-as forradalom
+          hu: 1848-as forradalom
           en: National Day
         type: public
       04-16:
@@ -36,6 +36,11 @@ holidays:
           en: Memorial Day for the Victims of the Holocaust
           hu: A holokauszt áldozatainak emléknapja
         type: observance
+      easter -2:
+        _name: easter -2
+        type: public
+        active:
+          - from: "2017-01-01"
       easter:
         _name: easter
         type: public
@@ -89,6 +94,7 @@ holidays:
         type: public
       12-06:
         _name: 12-06
+        type: observance
       12-24:
         _name: 12-24
         type: optional
@@ -101,3 +107,53 @@ holidays:
       12-31:
         _name: 12-31
         type: observance
+      "2023-10-30":
+        name:
+          hu: Őszi szünet
+          en: Autumn school holiday
+        type: school
+      "2023-10-31":
+        name:
+          hu: Őszi szünet
+          en: Autumn school holiday
+        type: school
+      "2023-11-02":
+        name:
+          hu: Őszi szünet
+          en: Autumn school holiday
+        type: school
+      "2023-11-03":
+        name:
+          hu: Őszi szünet
+          en: Autumn school holiday
+        type: school
+      "2023-12-22":
+        name:
+          hu: Téli szünet
+          en: Winter school holiday
+        type: school
+      "2023-12-27":
+        name:
+          hu: Téli szünet
+          en: Winter school holiday
+        type: school
+      "2024-01-02":
+        name:
+          hu: Téli szünet
+          en: Winter school holiday
+        type: school
+      "2024-01-03":
+        name:
+          hu: Téli szünet
+          en: Winter school holiday
+        type: school
+      "2024-01-04":
+        name:
+          hu: Téli szünet
+          en: Winter school holiday
+        type: school
+      "2024-01-05":
+        name:
+          hu: Téli szünet
+          en: Winter school holiday
+        type: school

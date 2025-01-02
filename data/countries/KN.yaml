@@ -1,0 +1,83 @@
+holidays:
+  KN:
+    # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Saint_Kitts_and_Nevis
+    names:
+      en: St. Kitts & Nevis
+    langs:
+      - en
+    zones:
+      - America/Port_of_Spain
+    dayoff: sunday
+    days:
+      01-01 and if Saturday then next Monday:
+        substitute: true
+        _name: 01-01
+      01-02:
+        name:
+          en: Carnival Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      easter 49:
+        _name: easter 49
+        type: observance
+      easter 50:
+        _name: easter 50
+      1st Monday in May:
+        _name: 05-01
+      1st Monday in August:
+        name:
+          en: Emancipation Day
+      1st Tuesday in August:
+        name:
+          en: Culturama Day
+      09-16 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: National Heroes' Day
+      09-19 if Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      12-25:
+        _name: 12-25
+      12-26:
+        _name: 12-26
+    # states:
+    #   K:
+    #     name: Saint Kitts
+    #     regions:
+    #       '11':
+    #         name: Saint Peter Basseterre
+    #       '13':
+    #         name: Saint Thomas Middle Island
+    #       '15':
+    #         name: Trinity Palmetto Point
+    #       '01':
+    #         name: Christ Church Nichola Town
+    #       '02':
+    #         name: Saint Anne Sandy Point
+    #       '03':
+    #         name: Saint George Basseterre
+    #       '06':
+    #         name: Saint John Capisterre
+    #       08:
+    #         name: Saint Mary Cayon
+    #       09:
+    #         name: Saint Paul Capisterre
+    #   'N':
+    #     name: Nevis
+    #     regions:
+    #       '10':
+    #         name: Saint Paul Charlestown
+    #       '12':
+    #         name: Saint Thomas Lowland
+    #       '04':
+    #         name: Saint George Gingerland
+    #       '05':
+    #         name: Saint James Windward
+    #       '07':
+    #         name: Saint John Figtree

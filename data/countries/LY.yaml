@@ -1,0 +1,80 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Libya
+holidays:
+  LY:
+    names:
+      ar: دولة ليبيا
+      en: Libya
+    langs:
+      - ar
+    zones:
+      - Africa/Tripoli
+    dayoff: ""
+    days:
+      02-17:
+        _name: Revolution Day
+      05-01:
+        _name: 05-01
+      09-16:
+        name:
+          ar: يوم الشهداء
+          en: Martyrs' Day
+      10-23:
+        _name: Liberation Day
+      12-24:
+        _name: Independence Day
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P3D:
+        _name: 1 Shawwal
+      9 Dhu al-Hijjah:
+        _name: 9 Dhu al-Hijjah
+      10 Dhu al-Hijjah P3D:
+        _name: 10 Dhu al-Hijjah
+
+    # states:
+    #   BA:
+    #     name: Benghazi
+    #   BU:
+    #     name: Butnan
+    #   DR:
+    #     name: Derna
+    #   GT:
+    #     name: Ghat
+    #   JA:
+    #     name: Jabal al Akhdar
+    #   JG:
+    #     name: Jabal al Gharbi
+    #   JI:
+    #     name: Jafara
+    #   JU:
+    #     name: Jufra
+    #   KF:
+    #     name: Kufra
+    #   MB:
+    #     name: Murqub
+    #   MI:
+    #     name: Misrata
+    #   MJ:
+    #     name: Marj
+    #   MQ:
+    #     name: Murzuq
+    #   NL:
+    #     name: Nalut
+    #   NQ:
+    #     name: Nuqat al Khams
+    #   SB:
+    #     name: Sabha
+    #   SR:
+    #     name: Sirte
+    #   TB:
+    #     name: Tripoli
+    #   WA:
+    #     name: Al Wahat
+    #   WD:
+    #     name: Wadi al Hayaa
+    #   WS:
+    #     name: Wadi al Shatii
+    #   ZA:
+    #     name: Zawiya

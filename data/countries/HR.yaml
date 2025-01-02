@@ -39,7 +39,7 @@ holidays:
           en: National Day
         type: public
         active:
-          - from: '2020-01-01'
+          - from: "2020-01-01"
       2nd sunday in May:
         _name: Mothers Day
         type: observance
@@ -48,20 +48,20 @@ holidays:
           hr: Dan antifašističke borbe
           en: Anti-Fascist Struggle Day
         type: public
-      '06-25 #1':
+      "06-25 #1":
         name:
           hr: Dan državnosti
           en: Statehood Day
         type: public
         active:
-          - to: '2020-01-01'
+          - to: "2020-01-01"
       06-25:
         name:
           hr: Dan neovisnosti
           en: Independence Day
         type: observance
         active:
-          - from: '2020-01-01'
+          - from: "2020-01-01"
       08-05:
         name:
           hr: Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja
@@ -70,43 +70,43 @@ holidays:
       08-15:
         _name: 08-15
         type: public
-      '10-08 #1':
+      "10-08 #1":
         name:
           hr: Dan neovisnosti
           en: Independence Day
         type: public
         active:
-          - to: '2020-01-01'
+          - to: "2020-01-01"
       10-08:
         name:
           hr: Dan Hrvatskoga sabora
           en: Day of the Croatian Parliament
         type: observence
         active:
-          - from: '2020-01-01'
+          - from: "2020-01-01"
       11-01:
         _name: 11-01
         type: public
-      '11-18 #1':
+      "11-18 #1":
         name:
           hr: Dan sjećanja na žrtvu Vukovara i Škabrnje
           en: Remembrance Day
         type: observance
         active:
-          - to: '2020-01-01'
+          - to: "2020-01-01"
       11-18:
         name:
           hr: Dan sjećanja na žrtve Domovinskog rata i Dan sjećanja na žrtvu Vukovara i Škabrnje
           en: Remembrance Day
         type: public
         active:
-          - from: '2020-01-01'
+          - from: "2020-01-01"
       12-25:
         _name: 12-25
         type: public
       12-26:
         _name: 12-26
-        type: public      
+        type: public
       # Religius holidays
       # optional holidays for religious minorities
       orthodox:
@@ -138,7 +138,7 @@ holidays:
         type: optional
         note: Jewish believers
     regions:
-      '17':
+      "17":
         name: Split-Dalmatia
         days:
           05-07:
@@ -146,7 +146,7 @@ holidays:
               hr: Sveti Duje
               en: Saint Domnius
             type: optional
-      '19':
+      "19":
         name: Dubrovnik-Neretva
         days:
           02-03:

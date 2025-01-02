@@ -36,6 +36,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2024-03-17 00:00:00",
+    "start": "2024-03-17T05:00:00.000Z",
+    "end": "2024-03-18T05:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2024-03-31 00:00:00",
     "start": "2024-03-31T05:00:00.000Z",
     "end": "2024-04-01T05:00:00.000Z",
@@ -90,6 +99,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2024-06-19 00:00:00",
+    "start": "2024-06-19T05:00:00.000Z",
+    "end": "2024-06-20T05:00:00.000Z",
+    "name": "Juneteenth",
+    "type": "public",
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Wed"
+  },
+  {
     "date": "2024-07-04 00:00:00",
     "start": "2024-07-04T05:00:00.000Z",
     "end": "2024-07-05T05:00:00.000Z",
@@ -104,7 +122,7 @@
     "end": "2024-09-03T05:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

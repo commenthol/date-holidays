@@ -39,7 +39,7 @@
     "date": "2019-03-15 00:00:00",
     "start": "2019-03-14T23:00:00.000Z",
     "end": "2019-03-15T23:00:00.000Z",
-    "name": "1948-as forradalom",
+    "name": "1848-as forradalom",
     "type": "public",
     "rule": "03-15",
     "_weekday": "Fri"
@@ -52,6 +52,15 @@
     "type": "observance",
     "rule": "04-16",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T22:00:00.000Z",
+    "end": "2019-04-19T22:00:00.000Z",
+    "name": "Nagypéntek",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-21 00:00:00",
@@ -175,7 +184,7 @@
     "start": "2019-12-05T23:00:00.000Z",
     "end": "2019-12-06T23:00:00.000Z",
     "name": "Mikulás",
-    "type": "public",
+    "type": "observance",
     "rule": "12-06",
     "_weekday": "Fri"
   },

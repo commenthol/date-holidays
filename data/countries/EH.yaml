@@ -1,0 +1,32 @@
+holidays:
+  EH:
+    names:
+      ar: الجمهورية العربية الصحراوية الديمقراطية
+      en: Western Sahara
+    langs: []
+    zones:
+      - Africa/El_Aaiun
+    dayoff: ""
+    days:
+      02-27:
+        _name: Independence Day
+      03-08:
+        name:
+          en: First Martyr
+      05-10:
+        name:
+          en: May 20 Revolution
+      06-09:
+        name:
+          en: Day of the Martyrs
+      06-17:
+        name:
+          en: Day of National Unity
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P2D:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P2D:
+        _name: 10 Dhu al-Hijjah

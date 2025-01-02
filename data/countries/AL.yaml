@@ -104,28 +104,28 @@ holidays:
         _name: 1 Shawwal
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
-    regions:
-      # '01':
-      #   name: Berat County
-      # '02':
-      #   name: Durrës County
-      # '03':
-      #   name: Elbasan County
-      # '04':
-      #   name: Fier County
-      # '05':
-      #   name: Gjirokastër County
-      # '06':
-      #   name: Korçë County
-      # '07':
-      #   name: Kukës County
-      # '08':
-      #   name: Lezhë County
-      # '09':
-      #   name: Dibër County
-      # '10':
-      #   name: Shkodër County
-      # '11':
-      #   name: Tirana County
-      # '12':
-      #   name: Vlorë County
+    regions: {}
+    # '01':
+    #   name: Berat County
+    # '02':
+    #   name: Durrës County
+    # '03':
+    #   name: Elbasan County
+    # '04':
+    #   name: Fier County
+    # '05':
+    #   name: Gjirokastër County
+    # '06':
+    #   name: Korçë County
+    # '07':
+    #   name: Kukës County
+    # '08':
+    #   name: Lezhë County
+    # '09':
+    #   name: Dibër County
+    # '10':
+    #   name: Shkodër County
+    # '11':
+    #   name: Tirana County
+    # '12':
+    #   name: Vlorë County

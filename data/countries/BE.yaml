@@ -27,6 +27,7 @@ holidays:
         type: observance
       easter:
         _name: easter
+        type: observance
       easter 1:
         _name: easter 1
       05-01:
@@ -38,6 +39,7 @@ holidays:
         _name: easter 39
       easter 49:
         _name: easter 49
+        type: observance
       easter 50:
         _name: easter 50
       07-21:
@@ -76,6 +78,7 @@ holidays:
             name:
               nl: Feest van de Iris
               fr: Fête de l'Iris
+            type: observance
       DE:
         name: Deutschsprachige Gemeinschaft
         langs:
@@ -86,6 +89,7 @@ holidays:
               de: Tag der Deutschsprachigen Gemeinschaft
               fr: Jour de la Communauté Germanophone
               nl: Feestdag van de Duitstalige Gemeenschap
+            type: observance
       VLG:
         name: Vlaamse Gemeenschap
         langs:
@@ -96,17 +100,33 @@ holidays:
               de: Festtag der Wallonischen Region
               fr: Fête de la Région wallonne
               nl: Feestdag van de Vlaamse Gemeenschap
+            type: observance
+          11-02:
+            _name: 11-02
+            type: observance
+            note: day-off for employees of the flemish government
+          11-15:
+            name:
+              nl: Koningsdag
+              fr: Fête du Roi
+              de: Festtag des Königs
+            type: observance
+            note: day-off for employees of the flemish government
+          12-26:
+            _name: 12-26
+            type: observance
+            note: day-off for employees of the flemish government
         # regions:
-          # VAN:
-          #   name: Antwerp
-          # VBR:
-          #   name: Flemish Brabant
-          # VLI:
-          #   name: Limburg
-          # VOV:
-          #   name: East Flanders
-          # VWV:
-          #   name: West Flanders
+        # VAN:
+        #   name: Antwerp
+        # VBR:
+        #   name: Flemish Brabant
+        # VLI:
+        #   name: Limburg
+        # VOV:
+        #   name: East Flanders
+        # VWV:
+        #   name: West Flanders
       WAL:
         name: Communauté française
         langs:
@@ -117,14 +137,15 @@ holidays:
               de: Tag der Französischsprachigen Gemeinschaft
               fr: La fête de la communauté française
               nl: Feestdag van de Franse Gemeenschap
+            type: observance
         # regions:
-          # WBR:
-          #   name: Walloon Brabant
-          # WHT:
-          #   name: Hainaut
-          # WLG:
-          #   name: Liège
-          # WLX:
-          #   name: Luxembourg
-          # WNA:
-          #   name: Namur
+        # WBR:
+        #   name: Walloon Brabant
+        # WHT:
+        #   name: Hainaut
+        # WLG:
+        #   name: Liège
+        # WLX:
+        #   name: Luxembourg
+        # WNA:
+        #   name: Namur

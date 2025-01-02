@@ -30,7 +30,7 @@
     "date": "2016-05-01 00:00:00",
     "start": "2016-05-01T03:00:00.000Z",
     "end": "2016-05-02T03:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Sun"
@@ -45,13 +45,13 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2016-06-29 00:00:00",
-    "start": "2016-06-29T04:00:00.000Z",
-    "end": "2016-06-30T04:00:00.000Z",
+    "date": "2016-06-27 00:00:00",
+    "start": "2016-06-27T04:00:00.000Z",
+    "end": "2016-06-28T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29",
-    "_weekday": "Wed"
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-07-16 00:00:00",
@@ -90,13 +90,13 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2016-10-12 00:00:00",
-    "start": "2016-10-12T03:00:00.000Z",
-    "end": "2016-10-13T03:00:00.000Z",
-    "name": "Día del Descubrimiento de Dos Mundos",
+    "date": "2016-10-10 00:00:00",
+    "start": "2016-10-10T03:00:00.000Z",
+    "end": "2016-10-11T03:00:00.000Z",
+    "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12",
-    "_weekday": "Wed"
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2016-10-31 00:00:00",

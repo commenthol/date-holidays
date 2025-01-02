@@ -1,0 +1,62 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Gambia
+holidays:
+  GM:
+    names:
+      en: The Gambia
+    langs:
+      - en
+    zones:
+      - Africa/Abidjan
+    dayoff: ""
+    days:
+      01-01:
+        _name: 01-01
+      02-18:
+        _name: Independence Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      05-01:
+        _name: 05-01
+      05-25:
+        name:
+          en: Africa Day
+      07-22:
+        name:
+          en: Revolution Day
+      08-15:
+        _name: 08-15
+      12-25:
+        _name: 12-25
+      10 Muharram:
+        _name: 10 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      23 Ramadan:
+        _name: 23 Ramadan
+      1 Shawwal:
+        _name: 1 Shawwal
+        name:
+          en: Korité
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+        name:
+          en: Tabaski
+
+    # states:
+    #   B:
+    #     name: Banjul
+    #   L:
+    #     name: Lower River Division
+    #   M:
+    #     name: Central River Division
+    #   'N':
+    #     name: North Bank Division
+    #   U:
+    #     name: Upper River Division
+    #   W:
+    #     name: West Coast Division

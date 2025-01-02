@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2021-01-01 00:00:00",
+    "start": "2021-01-01T00:00:00.000Z",
+    "end": "2021-01-02T00:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-04-03 00:00:00",
+    "start": "2021-04-03T00:00:00.000Z",
+    "end": "2021-04-04T00:00:00.000Z",
+    "name": "Fête Nationale de la deuxième République",
+    "type": "public",
+    "rule": "04-03",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-04-05 00:00:00",
+    "start": "2021-04-05T00:00:00.000Z",
+    "end": "2021-04-06T00:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-01 00:00:00",
+    "start": "2021-05-01T00:00:00.000Z",
+    "end": "2021-05-02T00:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-05-09 00:00:00 -0600",
+    "start": "2021-05-08T18:00:00.000Z",
+    "end": "2021-05-09T18:00:00.000Z",
+    "name": "Laylat al-Qadr",
+    "type": "public",
+    "rule": "27 Ramadan",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-13 00:00:00 -0600",
+    "start": "2021-05-12T18:00:00.000Z",
+    "end": "2021-05-13T18:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-05-25 00:00:00",
+    "start": "2021-05-25T00:00:00.000Z",
+    "end": "2021-05-26T00:00:00.000Z",
+    "name": "Anniversaire de l'Organisation de l'unité africaine (OUA)",
+    "type": "public",
+    "rule": "05-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-07-20 00:00:00 -0600",
+    "start": "2021-07-19T18:00:00.000Z",
+    "end": "2021-07-20T18:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-08-15 00:00:00",
+    "start": "2021-08-15T00:00:00.000Z",
+    "end": "2021-08-16T00:00:00.000Z",
+    "name": "Assomption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-10-02 00:00:00",
+    "start": "2021-10-02T00:00:00.000Z",
+    "end": "2021-10-03T00:00:00.000Z",
+    "name": "Jour de l'Indépendance",
+    "type": "public",
+    "rule": "10-02",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-10-18 00:00:00 -0600",
+    "start": "2021-10-17T18:00:00.000Z",
+    "end": "2021-10-18T18:00:00.000Z",
+    "name": "Mawlid",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-25 00:00:00",
+    "start": "2021-12-25T00:00:00.000Z",
+    "end": "2021-12-26T00:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Sat"
+  }
+]

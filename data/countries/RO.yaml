@@ -12,15 +12,26 @@ holidays:
     zones:
       - Europe/Bucharest
     days:
-      01-01:
-        _name: 01-01
+      01-01 P2DT:
+        name:
+          ro: Anul nou
+          en: New Year's Day
+      01-06:
+        name:
+          ro: Bobotează
+          en: Epiphany
+      01-07:
+        name:
+          ro: Sfântul Ion
+          en: Saint John the Baptist
       01-24:
         name:
-          ro: Ziua Unirii
-          en: Unification Day
+          ro: Ziua Unirii Principatelor Române
+          en: Day of the Unification of the Romanian Principalities
       03-08:
         name:
           ro: Ziua Mamei
+          en: Mother's Day
         type: observance
       orthodox -2:
         _name: easter -2
@@ -37,8 +48,10 @@ holidays:
         _name: easter 49
       orthodox 50:
         _name: easter 50
-      1st sunday in May:
-        _name: Mothers Day
+      Sunday before 06-01:
+        name:
+          ro: Ziua Românilor de Pretutindeni, Ziua Românului de Pretutindeni
+          en: Day of the Romanians Everywhere, Romanian Businessperson Day
         type: observance
       06-01:
         name:
@@ -71,4 +84,3 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-

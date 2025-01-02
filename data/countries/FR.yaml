@@ -1,5 +1,5 @@
 holidays:
-  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Frankreich
+  # @attrib https://fr.wikipedia.org/wiki/Jour_f%C3%A9ri%C3%A9#France
   FR:
     names:
       fr: France
@@ -19,10 +19,12 @@ holidays:
       05-08:
         name:
           fr: Fête de la Victoire 1945
+          en: Victory Day
       easter 39:
         _name: easter 39
       easter 49:
         _name: easter 49
+        type: observance
       easter 50:
         _name: easter 50
       sunday before 06-01:
@@ -31,6 +33,7 @@ holidays:
       07-14:
         name:
           fr: Fête Nationale de la France
+          en: Bastille Day
       08-15:
         _name: 08-15
       11-01:
@@ -38,6 +41,7 @@ holidays:
       11-11:
         name:
           fr: Armistice 1918
+          en: Armistice Day
       12-25:
         _name: 12-25
     states:
@@ -66,15 +70,25 @@ holidays:
         zones:
           - Indian/Reunion
         _days: RE
+      MF:
+        name: "Département et région d'outre-mer Saint Martin"
+        zones:
+          - America/Marigot
+        _days: MF
+      BL:
+        name: "Département et région d'outre-mer Saint Barthélemy"
+        zones:
+          - America/St_Barthelemy
+        _days: BL
       # name: Alsace
-      '67':
+      "67":
         name: Département Bas-Rhin
         days:
           easter -2:
             _name: easter -2
           12-26:
             _name: 12-26
-      '68':
+      "68":
         name: Département Haut-Rhin
         days:
           easter -2:
@@ -195,7 +209,7 @@ holidays:
       #   # name: Meurthe-et-Moselle
       # '55':
       #   name: Meuse
-      '57':
+      "57":
         name: Département Moselle
         days:
           easter -2:

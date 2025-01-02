@@ -1,0 +1,58 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Sierra_Leone
+holidays:
+  SL:
+    names:
+      en: Sierra Leone
+    langs:
+      - en
+    zones:
+      - Africa/Abidjan
+    dayoff: sunday
+    days:
+      01-01 and if Sunday then next Monday:
+        substitute: true
+        _name: 01-01
+      02-18 and if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Armed Forces Day
+      03-08 and if Sunday then next Monday:
+        substitute: true
+        _name: 03-08
+      04-27 and if Sunday then next Monday:
+        substitute: true
+        _name: Independence Day
+      easter -2:
+        _name: easter -2
+      easter 1:
+        _name: easter 1
+      1 Shawwal and if Sunday then next Monday:
+        substitute: true
+        _name: 1 Shawwal
+        name:
+          en: Korité
+      10 Dhu al-Hijjah and if Sunday then next Monday:
+        substitute: true
+        _name: 10 Dhu al-Hijjah
+        name:
+          en: Tabaski
+      12 Rabi al-awwal and if Sunday then next Monday:
+        substitute: true
+        _name: 12 Rabi al-awwal
+        name:
+          en: Mawlid
+      12-25 and if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Sunday then next Monday:
+        substitute: true
+        _name: 12-26
+    # states:
+    # E:
+    #   name: Eastern
+    # 'N':
+    #   name: Northern
+    # S:
+    #   name: Southern
+    # W:
+    #   name: Western Area

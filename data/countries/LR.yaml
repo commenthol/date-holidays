@@ -1,0 +1,72 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Liberia
+holidays:
+  LR:
+    names:
+      en: Liberia
+    langs:
+      - en
+    zones:
+      - Africa/Monrovia
+    dayoff: Sunday
+    days:
+      01-01:
+        _name: 01-01
+      02-11:
+        name:
+          en: Armed Forces Day
+      2nd Wednesday in March:
+        name:
+          en: Decoration Day
+      03-15:
+        name:
+          en: J. J. Robert's Day
+      2nd Friday in April:
+        name:
+          en: Fast and Prayer Day
+      05-14:
+        name:
+          en: National Unification Day
+      07-26:
+        _name: Independence Day
+      08-24:
+        name:
+          en: Flag Day
+      1st Thursday in November:
+        name:
+          en: Thanksgiving
+      11-29:
+        name:
+          en: William Tubman's Birthday
+      12-25:
+        _name: 12-25
+    # states:
+    #   BG:
+    #     name: Bong
+    #   BM:
+    #     name: Bomi
+    #   CM:
+    #     name: Grand Cape Mount
+    #   GB:
+    #     name: Grand Bassa
+    #   GG:
+    #     name: Grand Gedeh
+    #   GK:
+    #     name: Grand Kru
+    #   GP:
+    #     name: Gbarpolu
+    #   LO:
+    #     name: Lofa
+    #   MG:
+    #     name: Margibi
+    #   MO:
+    #     name: Montserrado
+    #   MY:
+    #     name: Maryland
+    #   NI:
+    #     name: Nimba
+    #   RG:
+    #     name: River Gee
+    #   RI:
+    #     name: Rivercess
+    #   SI:
+    #     name: Sinoe

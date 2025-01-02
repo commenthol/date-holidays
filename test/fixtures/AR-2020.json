@@ -45,6 +45,15 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2020-03-30 00:00:00",
+    "start": "2020-03-30T03:00:00.000Z",
+    "end": "2020-03-31T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "2020-03-30",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2020-04-02 00:00:00",
     "start": "2020-04-02T03:00:00.000Z",
     "end": "2020-04-03T03:00:00.000Z",
@@ -84,7 +93,7 @@
     "date": "2020-05-01 00:00:00",
     "start": "2020-05-01T03:00:00.000Z",
     "end": "2020-05-02T03:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Fri"
@@ -117,6 +126,15 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2020-07-10 00:00:00",
+    "start": "2020-07-10T03:00:00.000Z",
+    "end": "2020-07-11T03:00:00.000Z",
+    "name": "Feriado Puente Turístico",
+    "type": "public",
+    "rule": "substitutes 07-09 if tuesday then previous monday if thursday then next friday if saturday then previous friday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2020-08-17 00:00:00",
     "start": "2020-08-17T03:00:00.000Z",
     "end": "2020-08-18T03:00:00.000Z",
@@ -140,7 +158,7 @@
     "end": "2020-11-24T03:00:00.000Z",
     "name": "Día de la Soberanía nacional",
     "type": "public",
-    "rule": "4th monday in November",
+    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
     "_weekday": "Mon"
   },
   {

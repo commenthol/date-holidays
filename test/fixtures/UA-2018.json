@@ -23,7 +23,7 @@
     "end": "2018-01-07T22:00:00.000Z",
     "name": "Різдво",
     "type": "public",
-    "rule": "julian 12-25 and if saturday, sunday then next monday",
+    "rule": "julian 12-25 and if saturday, sunday then next monday prior to 2023",
     "_weekday": "Sun"
   },
   {
@@ -33,7 +33,7 @@
     "name": "Різдво (замінити день)",
     "type": "public",
     "substitute": true,
-    "rule": "julian 12-25 and if saturday, sunday then next monday",
+    "rule": "julian 12-25 and if saturday, sunday then next monday prior to 2023",
     "_weekday": "Mon"
   },
   {
@@ -73,15 +73,6 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2018-05-02 00:00:00",
-    "start": "2018-05-01T21:00:00.000Z",
-    "end": "2018-05-02T21:00:00.000Z",
-    "name": "День міжнародної солідарності трудящих",
-    "type": "public",
-    "rule": "05-02 and if saturday, sunday then next monday",
-    "_weekday": "Wed"
-  },
-  {
     "date": "2018-05-09 00:00:00",
     "start": "2018-05-08T21:00:00.000Z",
     "end": "2018-05-09T21:00:00.000Z",
@@ -118,6 +109,24 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2018-07-28 00:00:00",
+    "start": "2018-07-27T21:00:00.000Z",
+    "end": "2018-07-28T21:00:00.000Z",
+    "name": "День Української Державності",
+    "type": "public",
+    "rule": "07-28 and if saturday, sunday then next monday prior to 2023",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-07-30 00:00:00",
+    "start": "2018-07-29T21:00:00.000Z",
+    "end": "2018-07-30T21:00:00.000Z",
+    "name": "День Української Державності",
+    "type": "public",
+    "rule": "07-28 and if saturday, sunday then next monday prior to 2023",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2018-08-24 00:00:00",
     "start": "2018-08-23T21:00:00.000Z",
     "end": "2018-08-24T21:00:00.000Z",
@@ -132,7 +141,7 @@
     "end": "2018-10-14T21:00:00.000Z",
     "name": "День захисника України",
     "type": "public",
-    "rule": "10-14 and if saturday, sunday then next monday",
+    "rule": "10-14 and if saturday, sunday then next monday since 2015 and prior to 2023",
     "_weekday": "Sun"
   },
   {
@@ -142,7 +151,16 @@
     "name": "День захисника України (замінити день)",
     "type": "public",
     "substitute": true,
-    "rule": "10-14 and if saturday, sunday then next monday",
+    "rule": "10-14 and if saturday, sunday then next monday since 2015 and prior to 2023",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-24T22:00:00.000Z",
+    "end": "2018-12-25T22:00:00.000Z",
+    "name": "Різдво Христове",
+    "type": "public",
+    "rule": "12-25 and if saturday, sunday then next monday since 2017",
+    "_weekday": "Tue"
   }
 ]

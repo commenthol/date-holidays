@@ -36,6 +36,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2022-03-17 00:00:00",
+    "start": "2022-03-17T07:00:00.000Z",
+    "end": "2022-03-18T07:00:00.000Z",
+    "name": "St. Patrick's Day",
+    "type": "observance",
+    "rule": "03-17",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2022-04-17 00:00:00",
     "start": "2022-04-17T07:00:00.000Z",
     "end": "2022-04-18T07:00:00.000Z",
@@ -90,6 +99,25 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2022-06-19 00:00:00",
+    "start": "2022-06-19T07:00:00.000Z",
+    "end": "2022-06-20T07:00:00.000Z",
+    "name": "Juneteenth",
+    "type": "public",
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-06-20 00:00:00",
+    "start": "2022-06-20T07:00:00.000Z",
+    "end": "2022-06-21T07:00:00.000Z",
+    "name": "Juneteenth (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "06-19 and if sunday then next monday if saturday then previous friday since 2021",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2022-07-04 00:00:00",
     "start": "2022-07-04T07:00:00.000Z",
     "end": "2022-07-05T07:00:00.000Z",
@@ -104,7 +132,7 @@
     "end": "2022-09-06T07:00:00.000Z",
     "name": "Labor Day",
     "type": "public",
-    "rule": "monday in September",
+    "rule": "1st monday in September",
     "_weekday": "Mon"
   },
   {

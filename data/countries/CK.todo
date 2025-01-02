@@ -1,9 +1,0 @@
-holidays:
-  CK:
-    names:
-      en: Cook Islands
-    langs: []
-    zones:
-      - Pacific/Rarotonga
-    dayoff: ''
-    days: {}

@@ -80,7 +80,7 @@ holidays:
           en: Public Holiday
       12-25:
         _name: 12-25
-      #substitutes 12-25 if sunday then next monday:
+      # substitutes 12-25 if sunday then next monday:
       #  substitute: true
       #  _name: 12-25
       12-26:
@@ -90,3 +90,13 @@ holidays:
       substitutes 12-26 if sunday then next monday:
         name:
           en: Public Holiday
+      "2023-12-15":
+        # @source https://www.gov.za/documents/notices/public-holidays-act-declaration-15th-day-december-2023-public-holiday-28-nov-2023
+        # @source https://www.sanews.gov.za/south-africa/president-ramaphosa-declares-15-december-public-holiday
+        name:
+          en: Rugby World Cup Win Public Holiday
+      "2024-05-29":
+        # @source https://www.thepresidency.gov.za/president-proclaims-election-date-and-public-holiday
+        # @source https://www.gov.za/documents/notices/public-holidays-act-declaration-29-may-2024-public-holiday-23-feb-2024
+        name:
+          en: Voting Day

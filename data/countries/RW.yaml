@@ -1,14 +1,16 @@
 holidays:
   # @source http://www.gov.rw/home/official_holidays/
+  # @attrib https://fr.wikipedia.org/wiki/Jours_f%C3%A9ri%C3%A9s_au_Rwanda
   RW:
     names:
-      rw: Repubulika y'u Rwanda
-      fr: République du Rwanda
       en: Rwanda
+      fr: République du Rwanda
+      rw: Repubulika y'u Rwanda
     dayoff: sunday
     langs:
-      - rw
+      - en
       - fr
+      - rw
     zones:
       - Africa/Maputo
     days:
@@ -44,8 +46,9 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
+      easter 1:
+        _name: easter 1
       1 Shawwal:
         _name: 1 Shawwal
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
-

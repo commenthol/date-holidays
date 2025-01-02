@@ -22,6 +22,8 @@ holidays:
           lt: Lietuvos nepriklausomybės atkūrimo diena
       easter:
         _name: easter
+      easter 1:
+        _name: easter 1
       05-01:
         _name: 05-01
       1st sunday in May:

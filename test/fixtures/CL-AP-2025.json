@@ -30,7 +30,7 @@
     "date": "2025-05-01 00:00:00",
     "start": "2025-05-01T04:00:00.000Z",
     "end": "2025-05-02T04:00:00.000Z",
-    "name": "Fiesta del trabajo",
+    "name": "Día del trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Thu"
@@ -54,12 +54,21 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2025-06-20 00:00:00",
+    "start": "2025-06-20T04:00:00.000Z",
+    "end": "2025-06-21T04:00:00.000Z",
+    "name": "Día de los Pueblos Indígenas",
+    "type": "public",
+    "rule": "june solstice in America/Santiago since 2022",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2025-06-29 00:00:00",
     "start": "2025-06-29T04:00:00.000Z",
     "end": "2025-06-30T04:00:00.000Z",
     "name": "San Pedro y San Pablo",
     "type": "public",
-    "rule": "06-29",
+    "rule": "06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -102,9 +111,9 @@
     "date": "2025-10-12 00:00:00",
     "start": "2025-10-12T03:00:00.000Z",
     "end": "2025-10-13T03:00:00.000Z",
-    "name": "Día del Descubrimiento de Dos Mundos",
+    "name": "Encuentro de Dos Mundos",
     "type": "public",
-    "rule": "10-12",
+    "rule": "10-12 if tuesday, wednesday, thursday then previous monday if friday then next monday",
     "_weekday": "Sun"
   },
   {

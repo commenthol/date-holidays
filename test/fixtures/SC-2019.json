@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2019-01-01 00:00:00",
+    "start": "2018-12-31T20:00:00.000Z",
+    "end": "2019-01-02T20:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 P2D",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T20:00:00.000Z",
+    "end": "2019-04-19T20:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-20 00:00:00",
+    "start": "2019-04-19T20:00:00.000Z",
+    "end": "2019-04-20T20:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-04-21 00:00:00",
+    "start": "2019-04-20T20:00:00.000Z",
+    "end": "2019-04-21T20:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-04-22 00:00:00",
+    "start": "2019-04-21T20:00:00.000Z",
+    "end": "2019-04-22T20:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T20:00:00.000Z",
+    "end": "2019-05-01T20:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-06-18 00:00:00",
+    "start": "2019-06-17T20:00:00.000Z",
+    "end": "2019-06-18T20:00:00.000Z",
+    "name": "National Holiday",
+    "type": "public",
+    "rule": "06-18",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-06-20 00:00:00",
+    "start": "2019-06-19T20:00:00.000Z",
+    "end": "2019-06-20T20:00:00.000Z",
+    "name": "Corpus Christi",
+    "type": "public",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-06-29 00:00:00",
+    "start": "2019-06-28T20:00:00.000Z",
+    "end": "2019-06-29T20:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "06-29",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-14T20:00:00.000Z",
+    "end": "2019-08-15T20:00:00.000Z",
+    "name": "Assumption",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-11-01 00:00:00",
+    "start": "2019-10-31T20:00:00.000Z",
+    "end": "2019-11-01T20:00:00.000Z",
+    "name": "All Saints' Day",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-12-08 00:00:00",
+    "start": "2019-12-07T20:00:00.000Z",
+    "end": "2019-12-08T20:00:00.000Z",
+    "name": "Immaculate Conception",
+    "type": "public",
+    "rule": "12-08",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T20:00:00.000Z",
+    "end": "2019-12-25T20:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]

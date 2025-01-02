@@ -59,8 +59,8 @@ holidays:
         days:
           easter -48:
             _name: easter -48
-            name: 
-              en: Carnival Monday 
+            name:
+              en: Carnival Monday
           04-30:
             name:
               en: Rincon Day
@@ -75,8 +75,8 @@ holidays:
         days:
           1st monday in August:
             _name: easter -48
-            name: 
-              en: Carnival Monday 
+            name:
+              en: Carnival Monday
           1st friday in December:
             name:
               en: Saba Day

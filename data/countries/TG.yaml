@@ -3,6 +3,7 @@ holidays:
   TG:
     names:
       fr: République togolaise
+      en: Togolese Republic
     dayoff: sunday
     langs:
       - fr
@@ -21,6 +22,8 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
+      easter 39:
+        _name: easter 39
       easter 50:
         _name: easter 50
       06-21:
@@ -39,4 +42,3 @@ holidays:
         _name: 1 Shawwal
       11 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
-

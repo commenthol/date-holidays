@@ -1,0 +1,136 @@
+# @source https://gn.usembassy.gov/fr/holiday-calendar-fr/
+# @source https://publicholidays.africa/guinea/fr/2020-dates/
+# @source https://www.ilo.org/dyn/natlex/docs/SERIAL/22289/22600/F1945683402/GIN-22289.pdf
+# @source http://www.zakweli.com/jours-feries-en-guinee/
+# @attrib https://fr.wikipedia.org/wiki/Guin%C3%A9e#Jours_f%C3%A9ri%C3%A9s
+
+holidays:
+  GN:
+    names:
+      fr: Guinée
+      en: Guinea
+    langs:
+      - fr
+    zones:
+      - Africa/Abidjan
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      easter 1:
+        _name: easter 1
+      04-03:
+        name:
+          fr: Fête Nationale de la deuxième République
+          en: National Holiday
+      05-01:
+        _name: 05-01
+      05-25:
+        name:
+          fr: Anniversaire de l'Organisation de l'unité africaine (OUA)
+          en: Africa Day
+      27 Ramadan:
+        _name: 27 Ramadan
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah:
+        _name: 10 Dhu al-Hijjah
+      08-15:
+        _name: 08-15
+      10-02:
+        _name: Independence Day
+      12-25:
+        _name: 12-25
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+
+#    states:
+#      B:
+#        name: Boké Region
+#        regions:
+#          BF:
+#            name: Boffa
+#          BK:
+#            name: Boké
+#          FR:
+#            name: Fria
+#          GA:
+#            name: Gaoual
+#          KN:
+#            name: Koundara
+#      C:
+#        name: Conakry
+#      D:
+#        name: Kindia Region
+#        regions:
+#          CO:
+#            name: Coyah
+#          DU:
+#            name: Dubréka
+#          FO:
+#            name: Forécariah
+#          KD:
+#            name: Kindia
+#          TE:
+#            name: Télimélé
+#      F:
+#        name: Faranah Region
+#        regions:
+#          DB:
+#            name: Dabola
+#          DI:
+#            name: Dinguiraye
+#          FA:
+#            name: Faranah
+#          KS:
+#            name: Kissidougou
+#      K:
+#        name: Kankan Region
+#        regions:
+#          KA:
+#            name: Kankan
+#          KE:
+#            name: Kérouané
+#          KO:
+#            name: Kouroussa
+#          MD:
+#            name: Mandiana
+#          SI:
+#            name: Siguiri
+#      L:
+#        name: Labé Region
+#        regions:
+#          KB:
+#            name: Koubia
+#          LA:
+#            name: Labé
+#          LE:
+#            name: Lélouma
+#          ML:
+#            name: Mali
+#          TO:
+#            name: Tougué
+#      M:
+#        name: Mamou Region
+#        regions:
+#          DL:
+#            name: Dalaba
+#          MM:
+#            name: Mamou
+#          PI:
+#            name: Pita
+#      'N':
+#        name: Nzérékoré Region
+#        regions:
+#          BE:
+#            name: Beyla
+#          GU:
+#            name: Guéckédou
+#          LO:
+#            name: Lola
+#          MC:
+#            name: Macenta
+#          NZ:
+#            name: Nzérékoré
+#          YO:
+#            name: Yomou

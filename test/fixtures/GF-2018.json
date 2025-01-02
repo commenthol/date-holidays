@@ -49,7 +49,7 @@
     "start": "2018-05-20T03:00:00.000Z",
     "end": "2018-05-21T03:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

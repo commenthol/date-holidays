@@ -1,0 +1,184 @@
+[
+  {
+    "date": "2017-01-02 00:00:00",
+    "start": "2017-01-01T16:00:00.000Z",
+    "end": "2017-01-02T16:00:00.000Z",
+    "name": "Hari Tahun Baru (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 01-01 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-01-28 00:00:00",
+    "start": "2017-01-27T16:00:00.000Z",
+    "end": "2017-01-28T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-01-29 00:00:00",
+    "start": "2017-01-28T16:00:00.000Z",
+    "end": "2017-01-29T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-01-30 00:00:00",
+    "start": "2017-01-29T16:00:00.000Z",
+    "end": "2017-01-30T16:00:00.000Z",
+    "name": "Tahun Baru Cina (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-02 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-01 00:00:00",
+    "start": "2017-04-30T16:00:00.000Z",
+    "end": "2017-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-05-10 00:00:00",
+    "start": "2017-05-09T16:00:00.000Z",
+    "end": "2017-05-10T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2017-05-10",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-06-05 00:00:00",
+    "start": "2017-06-04T16:00:00.000Z",
+    "end": "2017-06-05T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-06-12 00:00:00 -0600",
+    "start": "2017-06-11T10:00:00.000Z",
+    "end": "2017-06-12T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "rule": "17 Ramadan",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-06-25 00:00:00 -0600",
+    "start": "2017-06-24T10:00:00.000Z",
+    "end": "2017-06-25T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-06-26 00:00:00 -0600",
+    "start": "2017-06-25T10:00:00.000Z",
+    "end": "2017-06-26T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-08-31 00:00:00",
+    "start": "2017-08-30T16:00:00.000Z",
+    "end": "2017-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-09-01 00:00:00 -0600",
+    "start": "2017-08-31T10:00:00.000Z",
+    "end": "2017-09-01T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-09-02 00:00:00 -0600",
+    "start": "2017-09-01T10:00:00.000Z",
+    "end": "2017-09-02T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "11 Dhu al-Hijjah",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-09-16 00:00:00",
+    "start": "2017-09-15T16:00:00.000Z",
+    "end": "2017-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-09-21 00:00:00 -0600",
+    "start": "2017-09-20T10:00:00.000Z",
+    "end": "2017-09-21T10:00:00.000Z",
+    "name": "Awal Muharram",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-10-18 00:00:00",
+    "start": "2017-10-17T16:00:00.000Z",
+    "end": "2017-10-18T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2017-10-18",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2017-11-11 00:00:00",
+    "start": "2017-11-10T16:00:00.000Z",
+    "end": "2017-11-11T16:00:00.000Z",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "type": "public",
+    "rule": "11-11",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2017-11-12 00:00:00",
+    "start": "2017-11-11T16:00:00.000Z",
+    "end": "2017-11-12T16:00:00.000Z",
+    "name": "Hari Keputeraan Sultan Kelantan",
+    "type": "public",
+    "rule": "11-12",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-11-30 00:00:00 -0600",
+    "start": "2017-11-29T10:00:00.000Z",
+    "end": "2017-11-30T10:00:00.000Z",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-12-25 00:00:00",
+    "start": "2017-12-24T16:00:00.000Z",
+    "end": "2017-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

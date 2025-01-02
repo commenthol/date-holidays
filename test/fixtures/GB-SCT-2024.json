@@ -12,7 +12,7 @@
     "date": "2024-01-02 00:00:00",
     "start": "2024-01-02T00:00:00.000Z",
     "end": "2024-01-03T00:00:00.000Z",
-    "name": "Januar 2nd",
+    "name": "January 2nd",
     "type": "public",
     "rule": "01-02",
     "_weekday": "Tue"
@@ -40,7 +40,7 @@
     "start": "2024-03-31T00:00:00.000Z",
     "end": "2024-03-31T23:00:00.000Z",
     "name": "Easter Sunday",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -72,6 +72,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2024-06-16 00:00:00",
+    "start": "2024-06-15T23:00:00.000Z",
+    "end": "2024-06-16T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2024-08-05 00:00:00",
     "start": "2024-08-04T23:00:00.000Z",
     "end": "2024-08-05T23:00:00.000Z",
@@ -88,6 +97,16 @@
     "type": "public",
     "rule": "11-30",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2024-12-02 00:00:00",
+    "start": "2024-12-02T00:00:00.000Z",
+    "end": "2024-12-03T00:00:00.000Z",
+    "name": "St Andrew’s Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 11-30 if saturday, sunday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2024-12-25 00:00:00",

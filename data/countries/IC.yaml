@@ -1,0 +1,75 @@
+holidays:
+  IC:
+    # @source http://www.gobiernodecanarias.org/boc/2019/107/003.html
+    names:
+      es: Islas Canarias
+      en: Canary Islands
+    langs:
+      - es
+    zones:
+      - Atlantic/Canary
+    dayoff: sunday
+    _days: ES
+    days:
+      05-30:
+        name:
+          es: Día de Canarias
+          en: Canary Islands Day
+      substitutes 05-30 if Sunday then next Monday:
+        substitute: true
+        name:
+          es: Día de Canarias
+          en: Canary Islands Day
+      substitutes 08-15 if Sunday then next Monday:
+        substitute: true
+        _name: 08-15
+    regions:
+      EH:
+        names:
+          es: El Hierro
+        days:
+          09-24:
+            name:
+              es: Nuestra Señora de los Reyes
+      FU:
+        names:
+          es: Fuerteventura
+        days:
+          09-18:
+            name:
+              es: Nuestra Señora de la Peña
+      GC:
+        names:
+          es: Gran Canaria
+        days:
+          09-08:
+            name:
+              es: Nuestra Señora del Pino
+      LG:
+        names:
+          es: La Gomera
+        days:
+          10-05:
+            name:
+              es: Nuestra Señora de Guadalupe
+      LP:
+        names:
+          es: La Palma
+        days:
+          08-05:
+            name:
+              es: Nuestra Señora de las Nieves
+      LA:
+        names:
+          es: Lanzarote
+        days:
+          09-15:
+            name:
+              es: Nuestra Señora de los Dolores
+      TE:
+        names:
+          es: Tenerife
+        days:
+          09-07:
+            name:
+              es: La Bajada de la Virgen del Socorro

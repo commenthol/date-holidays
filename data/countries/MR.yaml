@@ -1,0 +1,62 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Mauritania
+holidays:
+  MR:
+    names:
+      ar: الجمهورية الإسلامية الموريتانية
+      en: Mauritania
+    langs:
+      - ar
+      - fr
+    zones:
+      - Africa/Abidjan
+    dayoff: ""
+    days:
+      01-01:
+        _name: 01-01
+      05-01:
+        _name: 05-01
+      05-25:
+        name:
+          ar: يوم افريقيا
+          en: Africa Day
+      11-28:
+        _name: Independence Day
+      1 Muharram:
+        _name: 1 Muharram
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P3D:
+        _name: 10 Dhu al-Hijjah
+    # states:
+    #   '10':
+    #     name: Guidimaka
+    #   '11':
+    #     name: Tiris Zemmour
+    #   '12':
+    #     name: Inchiri
+    #   '13':
+    #     name: Nouakchott Ouest
+    #   '14':
+    #     name: Nouakchott Nord
+    #   '15':
+    #     name: Nouakchott Sud
+    #   '01':
+    #     name: Hodh Ech Chargui
+    #   '02':
+    #     name: Hodh El Gharbi
+    #   '03':
+    #     name: Assaba
+    #   '04':
+    #     name: Gorgol
+    #   '05':
+    #     name: Brakna
+    #   '06':
+    #     name: Trarza
+    #   '07':
+    #     name: Adrar
+    #   08:
+    #     name: Dakhlet Nouadhibou
+    #   09:
+    #     name: Tagant

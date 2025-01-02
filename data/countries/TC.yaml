@@ -1,0 +1,47 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Turks_and_Caicos_Islands
+holidays:
+  TC:
+    names:
+      en: Turks & Caicos Islands
+    langs:
+      - en
+    zones:
+      - America/Grand_Turk
+    dayoff: sunday
+    days:
+      01-01 and if Saturday, Sunday then next Monday:
+        _name: 01-01
+      2nd Monday in March:
+        name:
+          en: Commonwealth Day
+      easter -2:
+        _name: easter -2
+      easter:
+        _name: easter
+        type: observance
+      easter 1:
+        _name: easter 1
+      1st Monday before 06-01:
+        name:
+          en: National Heroes' Day
+      2nd Monday after 06-02:
+        name:
+          en: Queen's Birthday
+      1st Monday in August:
+        name:
+          en: Emancipation Day
+      1st Friday before 10-01:
+        name:
+          en: National Youth Day
+      2nd Monday in October:
+        name:
+          en: National Heritage Day
+      4th Friday in November:
+        name:
+          en: National Day of Thanksgiving
+      12-25 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-25
+      12-26 and if Saturday then next Monday if Sunday then next Tuesday:
+        substitute: true
+        _name: 12-26

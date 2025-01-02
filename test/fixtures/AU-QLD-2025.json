@@ -72,12 +72,30 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2025-05-11 00:00:00",
+    "start": "2025-05-10T14:00:00.000Z",
+    "end": "2025-05-11T14:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-09-07 00:00:00",
+    "start": "2025-09-06T14:00:00.000Z",
+    "end": "2025-09-07T14:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "1st sunday in September",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2025-10-06 00:00:00",
     "start": "2025-10-05T14:00:00.000Z",
     "end": "2025-10-06T14:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "King's Birthday",
     "type": "public",
-    "rule": "1st monday in October",
+    "rule": "1st monday in October #1",
     "_weekday": "Mon"
   },
   {

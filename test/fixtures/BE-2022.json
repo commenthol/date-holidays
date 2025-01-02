@@ -31,7 +31,7 @@
     "start": "2022-04-16T22:00:00.000Z",
     "end": "2022-04-17T22:00:00.000Z",
     "name": "Pâques",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -76,7 +76,7 @@
     "start": "2022-06-04T22:00:00.000Z",
     "end": "2022-06-05T22:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

@@ -9,6 +9,24 @@
     "_weekday": "Wed"
   },
   {
+    "date": "2025-01-06 00:00:00",
+    "start": "2025-01-06T00:00:00.000Z",
+    "end": "2025-01-07T00:00:00.000Z",
+    "name": "Bank Holiday",
+    "type": "bank",
+    "rule": "1st monday in January",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-02-03 00:00:00",
+    "start": "2025-02-03T00:00:00.000Z",
+    "end": "2025-02-04T00:00:00.000Z",
+    "name": "St. Brigid’s Day",
+    "type": "public",
+    "rule": "02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2025-03-17 00:00:00",
     "start": "2025-03-17T00:00:00.000Z",
     "end": "2025-03-18T00:00:00.000Z",
@@ -72,6 +90,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2025-06-15 00:00:00",
+    "start": "2025-06-14T23:00:00.000Z",
+    "end": "2025-06-15T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2025-08-04 00:00:00",
     "start": "2025-08-03T23:00:00.000Z",
     "end": "2025-08-04T23:00:00.000Z",
@@ -86,7 +113,7 @@
     "end": "2025-10-28T00:00:00.000Z",
     "name": "October Bank Holiday",
     "type": "public",
-    "rule": "1st monday before 10-31",
+    "rule": "1st Monday before 11-01",
     "_weekday": "Mon"
   },
   {
@@ -106,14 +133,5 @@
     "type": "public",
     "rule": "12-26",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2025-12-29 00:00:00",
-    "start": "2025-12-29T00:00:00.000Z",
-    "end": "2025-12-30T00:00:00.000Z",
-    "name": "Christmas Bank Holiday",
-    "type": "bank",
-    "rule": "12-27 if saturday then next monday if sunday then next tuesday",
-    "_weekday": "Mon"
   }
 ]

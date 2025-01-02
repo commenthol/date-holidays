@@ -67,7 +67,7 @@
     "start": "2020-05-30T21:00:00.000Z",
     "end": "2020-05-31T21:00:00.000Z",
     "name": "Pentecôte",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },

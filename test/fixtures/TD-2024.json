@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T23:00:00.000Z",
+    "end": "2024-01-01T23:00:00.000Z",
+    "name": "عيد رأس السنة",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-01 00:00:00",
+    "start": "2024-03-31T23:00:00.000Z",
+    "end": "2024-04-01T23:00:00.000Z",
+    "name": "Lundi de Pâques",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T17:00:00.000Z",
+    "end": "2024-04-10T17:00:00.000Z",
+    "name": "عيد الفطر",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T23:00:00.000Z",
+    "end": "2024-05-01T23:00:00.000Z",
+    "name": "يوم العمال",
+    "type": "public",
+    "rule": "05-01 and if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T17:00:00.000Z",
+    "end": "2024-06-16T17:00:00.000Z",
+    "name": "عيد الأضحى",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-11 00:00:00",
+    "start": "2024-08-10T23:00:00.000Z",
+    "end": "2024-08-11T23:00:00.000Z",
+    "name": "Fête Nationale (Indépendance)",
+    "type": "public",
+    "rule": "08-11 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-12 00:00:00",
+    "start": "2024-08-11T23:00:00.000Z",
+    "end": "2024-08-12T23:00:00.000Z",
+    "name": "Fête Nationale (Indépendance)",
+    "type": "public",
+    "rule": "08-11 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-09-15 00:00:00 -0600",
+    "start": "2024-09-14T17:00:00.000Z",
+    "end": "2024-09-15T17:00:00.000Z",
+    "name": "المولد النبويّ",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-11-01 00:00:00",
+    "start": "2024-10-31T23:00:00.000Z",
+    "end": "2024-11-01T23:00:00.000Z",
+    "name": "Toussaint",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-11-28 00:00:00",
+    "start": "2024-11-27T23:00:00.000Z",
+    "end": "2024-11-28T23:00:00.000Z",
+    "name": "Anniversaire de la Proclamation de la République",
+    "type": "public",
+    "rule": "11-28",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-12-01 00:00:00",
+    "start": "2024-11-30T23:00:00.000Z",
+    "end": "2024-12-01T23:00:00.000Z",
+    "name": "Journée de la libération et de la démocratie",
+    "type": "public",
+    "rule": "12-01 and if sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-12-02 00:00:00",
+    "start": "2024-12-01T23:00:00.000Z",
+    "end": "2024-12-02T23:00:00.000Z",
+    "name": "Journée de la libération et de la démocratie",
+    "type": "public",
+    "rule": "12-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T23:00:00.000Z",
+    "end": "2024-12-25T23:00:00.000Z",
+    "name": "عيد الميلاد المجيد",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]

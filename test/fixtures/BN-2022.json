@@ -48,7 +48,7 @@
     "date": "2022-04-02 00:00:00 -0600",
     "start": "2022-04-01T10:00:00.000Z",
     "end": "2022-04-02T10:00:00.000Z",
-    "name": "Hari Pertama Berpuasa",
+    "name": "Awal Ramadan",
     "type": "public",
     "rule": "1 Ramadan",
     "_weekday": "Sat"
@@ -75,7 +75,7 @@
     "date": "2022-07-09 00:00:00 -0600",
     "start": "2022-07-08T10:00:00.000Z",
     "end": "2022-07-09T10:00:00.000Z",
-    "name": "Hari Raya Aidil Adha",
+    "name": "Hari Raya Haji",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sat"
@@ -93,7 +93,7 @@
     "date": "2022-07-30 00:00:00 -0600",
     "start": "2022-07-29T10:00:00.000Z",
     "end": "2022-07-30T10:00:00.000Z",
-    "name": "Awal Tahun Hijrah",
+    "name": "Awal Muharram",
     "type": "public",
     "rule": "1 Muharram",
     "_weekday": "Sat"
@@ -102,7 +102,7 @@
     "date": "2022-10-08 00:00:00 -0600",
     "start": "2022-10-07T10:00:00.000Z",
     "end": "2022-10-08T10:00:00.000Z",
-    "name": "Maulidur Rasul",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
@@ -111,7 +111,7 @@
     "date": "2022-12-25 00:00:00",
     "start": "2022-12-24T16:00:00.000Z",
     "end": "2022-12-25T16:00:00.000Z",
-    "name": "Hari Natal",
+    "name": "Hari Krismas",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Sun"

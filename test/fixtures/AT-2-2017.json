@@ -22,7 +22,7 @@
     "start": "2017-03-18T23:00:00.000Z",
     "end": "2017-03-19T23:00:00.000Z",
     "name": "Josefitag",
-    "type": "public",
+    "type": "school",
     "rule": "03-19",
     "_weekday": "Sun"
   },
@@ -32,7 +32,7 @@
     "end": "2017-04-14T22:00:00.000Z",
     "name": "Karfreitag",
     "type": "optional",
-    "rule": "easter -2",
+    "rule": "easter -2 prior to 2019",
     "_weekday": "Fri"
   },
   {

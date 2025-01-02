@@ -31,7 +31,7 @@
     "start": "2017-04-15T22:00:00.000Z",
     "end": "2017-04-16T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -76,7 +76,7 @@
     "start": "2017-06-03T22:00:00.000Z",
     "end": "2017-06-04T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
@@ -139,7 +139,7 @@
     "start": "2017-11-14T23:00:00.000Z",
     "end": "2017-11-15T23:00:00.000Z",
     "name": "Tag der Deutschsprachigen Gemeinschaft",
-    "type": "public",
+    "type": "observance",
     "rule": "11-15",
     "_weekday": "Wed"
   },

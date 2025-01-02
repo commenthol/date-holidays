@@ -23,7 +23,7 @@
     "end": "2020-01-07T22:00:00.000Z",
     "name": "Різдво",
     "type": "public",
-    "rule": "julian 12-25 and if saturday, sunday then next monday",
+    "rule": "julian 12-25 and if saturday, sunday then next monday prior to 2023",
     "_weekday": "Tue"
   },
   {
@@ -70,25 +70,6 @@
     "type": "public",
     "rule": "05-01 and if saturday, sunday then next tuesday",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2020-05-02 00:00:00",
-    "start": "2020-05-01T21:00:00.000Z",
-    "end": "2020-05-02T21:00:00.000Z",
-    "name": "День міжнародної солідарності трудящих",
-    "type": "public",
-    "rule": "05-02 and if saturday, sunday then next monday",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2020-05-04 00:00:00",
-    "start": "2020-05-03T21:00:00.000Z",
-    "end": "2020-05-04T21:00:00.000Z",
-    "name": "День міжнародної солідарності трудящих (замінити день)",
-    "type": "public",
-    "substitute": true,
-    "rule": "05-02 and if saturday, sunday then next monday",
-    "_weekday": "Mon"
   },
   {
     "date": "2020-05-09 00:00:00",
@@ -147,6 +128,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2020-07-28 00:00:00",
+    "start": "2020-07-27T21:00:00.000Z",
+    "end": "2020-07-28T21:00:00.000Z",
+    "name": "День Української Державності",
+    "type": "public",
+    "rule": "07-28 and if saturday, sunday then next monday prior to 2023",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2020-08-24 00:00:00",
     "start": "2020-08-23T21:00:00.000Z",
     "end": "2020-08-24T21:00:00.000Z",
@@ -161,7 +151,16 @@
     "end": "2020-10-14T21:00:00.000Z",
     "name": "День захисника України",
     "type": "public",
-    "rule": "10-14 and if saturday, sunday then next monday",
+    "rule": "10-14 and if saturday, sunday then next monday since 2015 and prior to 2023",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-24T22:00:00.000Z",
+    "end": "2020-12-25T22:00:00.000Z",
+    "name": "Різдво Христове",
+    "type": "public",
+    "rule": "12-25 and if saturday, sunday then next monday since 2017",
+    "_weekday": "Fri"
   }
 ]

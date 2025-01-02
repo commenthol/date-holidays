@@ -1,0 +1,76 @@
+# @source https://www.joursferies.fr/pays/senegal.php
+# @source https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/97260/115332/F792726416/SEN-97260.pdf
+# @source https://www.au-senegal.com/les-fetes-et-jours-feries,056.html
+# @source https://lepetitjournal.com/dakar/les-jours-feries-au-senegal-en-2021-295473
+# @source https://www.seneweb.com/news/Societe/ce-que-dit-la-loi-sur-les-jours-feries_n_113705.html
+holidays:
+  SN:
+    names:
+      fr: République du Sénégal
+      wo: Réewum Senegaal
+      en: Senegal
+    langs:
+      - fr
+      - wo
+    zones:
+      - Africa/Abidjan
+    dayoff: sunday
+    days:
+      01-01:
+        _name: 01-01
+      04-04:
+        _name: National Holiday
+      05-01:
+        _name: 05-01
+      08-15:
+        _name: 08-15
+      11-01:
+        _name: 11-01
+      12-25:
+        _name: 12-25
+      easter 1:
+        _name: easter 1
+      easter 39:
+        _name: easter 39
+      easter 50:
+        _name: easter 50
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal and if sunday then next monday:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah and if sunday then next monday:
+        _name: 10 Dhu al-Hijjah
+      10 Muharram:
+        _name: 10 Muharram
+      18 Safar:
+        name: Magal de Touba
+
+#    states:
+#      DB:
+#        name: Diourbel
+#      DK:
+#        name: Dakar
+#      FK:
+#        name: Fatick
+#      KA:
+#        name: Kaffrine
+#      KD:
+#        name: Kolda
+#      KE:
+#        name: Kédougou
+#      KL:
+#        name: Kaolack
+#      LG:
+#        name: Louga
+#      MT:
+#        name: Matam
+#      SE:
+#        name: Sédhiou
+#      SL:
+#        name: Saint-Louis
+#      TC:
+#        name: Tambacounda
+#      TH:
+#        name: Thiès
+#      ZG:
+#        name: Ziguinchor

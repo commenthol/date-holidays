@@ -1,0 +1,174 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T16:00:00.000Z",
+    "end": "2024-01-01T16:00:00.000Z",
+    "name": "Hari Tahun Baru",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-25 00:00:00",
+    "start": "2024-01-24T16:00:00.000Z",
+    "end": "2024-01-25T16:00:00.000Z",
+    "name": "Hari Thaipusam",
+    "type": "public",
+    "rule": "2024-01-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-02-10 00:00:00",
+    "start": "2024-02-09T16:00:00.000Z",
+    "end": "2024-02-10T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-02-11 00:00:00",
+    "start": "2024-02-10T16:00:00.000Z",
+    "end": "2024-02-11T16:00:00.000Z",
+    "name": "Tahun Baru Cina",
+    "type": "public",
+    "rule": "chinese 01-0-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-02-12 00:00:00",
+    "start": "2024-02-11T16:00:00.000Z",
+    "end": "2024-02-12T16:00:00.000Z",
+    "name": "Tahun Baru Cina (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-02 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-03-27 00:00:00 -0600",
+    "start": "2024-03-26T10:00:00.000Z",
+    "end": "2024-03-27T10:00:00.000Z",
+    "name": "Hari Nuzul Al-Quran",
+    "type": "public",
+    "rule": "17 Ramadan",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-04-10 00:00:00 -0600",
+    "start": "2024-04-09T10:00:00.000Z",
+    "end": "2024-04-10T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-04-11 00:00:00 -0600",
+    "start": "2024-04-10T10:00:00.000Z",
+    "end": "2024-04-11T10:00:00.000Z",
+    "name": "Hari Raya Aidil Fitri",
+    "type": "public",
+    "rule": "2 Shawwal",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T16:00:00.000Z",
+    "end": "2024-05-01T16:00:00.000Z",
+    "name": "Hari Pekerja",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-22 00:00:00",
+    "start": "2024-05-21T16:00:00.000Z",
+    "end": "2024-05-22T16:00:00.000Z",
+    "name": "Vesak Day",
+    "type": "public",
+    "rule": "2024-05-22",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-06-03 00:00:00",
+    "start": "2024-06-02T16:00:00.000Z",
+    "end": "2024-06-03T16:00:00.000Z",
+    "name": "Hari Keputeraan Yang di-Pertuan Agong",
+    "type": "public",
+    "rule": "1st Monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T10:00:00.000Z",
+    "end": "2024-06-16T10:00:00.000Z",
+    "name": "Hari Raya Haji",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-07 00:00:00 -0600",
+    "start": "2024-07-06T10:00:00.000Z",
+    "end": "2024-07-07T10:00:00.000Z",
+    "name": "Awal Muharram",
+    "type": "public",
+    "rule": "1 Muharram",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-08-31 00:00:00",
+    "start": "2024-08-30T16:00:00.000Z",
+    "end": "2024-08-31T16:00:00.000Z",
+    "name": "Hari Kebangsaan",
+    "type": "public",
+    "rule": "08-31",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-09-15 00:00:00 -0600",
+    "start": "2024-09-14T10:00:00.000Z",
+    "end": "2024-09-15T10:00:00.000Z",
+    "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-09-16 00:00:00",
+    "start": "2024-09-15T16:00:00.000Z",
+    "end": "2024-09-16T16:00:00.000Z",
+    "name": "Hari Malaysia",
+    "type": "public",
+    "rule": "09-16",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-10-31 00:00:00",
+    "start": "2024-10-30T16:00:00.000Z",
+    "end": "2024-10-31T16:00:00.000Z",
+    "name": "Deepavali",
+    "type": "public",
+    "rule": "2024-10-31",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-12-11 00:00:00",
+    "start": "2024-12-10T16:00:00.000Z",
+    "end": "2024-12-11T16:00:00.000Z",
+    "name": "Sultan of Selangor's Birthday",
+    "type": "public",
+    "rule": "12-11",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-12-25 00:00:00",
+    "start": "2024-12-24T16:00:00.000Z",
+    "end": "2024-12-25T16:00:00.000Z",
+    "name": "Hari Krismas",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]

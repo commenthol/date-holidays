@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2026-02-21 00:00:00",
+    "start": "2026-02-20T18:00:00.000Z",
+    "end": "2026-02-21T18:00:00.000Z",
+    "name": "শহীদ দিবস",
+    "type": "public",
+    "rule": "bengali-revised 11-9",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-03-17 00:00:00",
+    "start": "2026-03-16T18:00:00.000Z",
+    "end": "2026-03-17T18:00:00.000Z",
+    "name": "মুজিব জয়ন",
+    "type": "public",
+    "rule": "bengali-revised 12-3",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-03-20 00:00:00 -0600",
+    "start": "2026-03-19T12:00:00.000Z",
+    "end": "2026-03-22T12:00:00.000Z",
+    "name": "ঈদুল ফিতর",
+    "type": "public",
+    "rule": "1 Shawwal P3D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-03-25 00:00:00",
+    "start": "2026-03-24T18:00:00.000Z",
+    "end": "2026-03-25T18:00:00.000Z",
+    "name": "Genocide Remembrance Day",
+    "type": "observance",
+    "rule": "03-25",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-03-26 00:00:00",
+    "start": "2026-03-25T18:00:00.000Z",
+    "end": "2026-03-26T18:00:00.000Z",
+    "name": "স্বাধীনতা দিবস",
+    "type": "public",
+    "rule": "bengali-revised 12-12",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-04-14 00:00:00",
+    "start": "2026-04-13T18:00:00.000Z",
+    "end": "2026-04-14T18:00:00.000Z",
+    "name": "পহেলা বৈশাখ",
+    "type": "public",
+    "rule": "bengali-revised 1-1",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-05-01 00:00:00",
+    "start": "2026-04-30T18:00:00.000Z",
+    "end": "2026-05-01T18:00:00.000Z",
+    "name": "মে দিবস",
+    "type": "public",
+    "rule": "bengali-revised 1-18",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-05-19 00:00:00",
+    "start": "2026-05-18T18:00:00.000Z",
+    "end": "2026-05-19T18:00:00.000Z",
+    "name": "বুদ্ধ পূর্ণিমা",
+    "type": "public",
+    "rule": "05-19",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-05-27 00:00:00 -0600",
+    "start": "2026-05-26T12:00:00.000Z",
+    "end": "2026-05-29T12:00:00.000Z",
+    "name": "ঈদুল আযহা",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah P3D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-06-25 00:00:00 -0600",
+    "start": "2026-06-24T12:00:00.000Z",
+    "end": "2026-06-25T12:00:00.000Z",
+    "name": "আশুরা",
+    "type": "public",
+    "rule": "10 Muharram",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-08-15 00:00:00",
+    "start": "2026-08-14T18:00:00.000Z",
+    "end": "2026-08-15T18:00:00.000Z",
+    "name": "জাতীয় শোক দিবস",
+    "type": "public",
+    "rule": "bengali-revised 4-31",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-08-24 00:00:00",
+    "start": "2026-08-23T18:00:00.000Z",
+    "end": "2026-08-24T18:00:00.000Z",
+    "name": "জন্মাষ্টমী",
+    "type": "public",
+    "rule": "08-24",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-08-25 00:00:00 -0600",
+    "start": "2026-08-24T12:00:00.000Z",
+    "end": "2026-08-25T12:00:00.000Z",
+    "name": "ঈদে মিলাদুন্নবী",
+    "type": "public",
+    "rule": "12 Rabi al-awwal",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-10-08 00:00:00",
+    "start": "2026-10-07T18:00:00.000Z",
+    "end": "2026-10-08T18:00:00.000Z",
+    "name": "দুর্গা পূজা",
+    "type": "public",
+    "rule": "10-08",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2026-11-21 00:00:00",
+    "start": "2026-11-20T18:00:00.000Z",
+    "end": "2026-11-21T18:00:00.000Z",
+    "name": "Armed Forces Day",
+    "type": "observance",
+    "rule": "11-21",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-12-14 00:00:00",
+    "start": "2026-12-13T18:00:00.000Z",
+    "end": "2026-12-14T18:00:00.000Z",
+    "name": "Martyred Intellectuals Day",
+    "type": "observance",
+    "rule": "12-14",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-12-16 00:00:00",
+    "start": "2026-12-15T18:00:00.000Z",
+    "end": "2026-12-16T18:00:00.000Z",
+    "name": "বিজয় দিবস",
+    "type": "public",
+    "rule": "bengali-revised 9-2",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T18:00:00.000Z",
+    "end": "2026-12-25T18:00:00.000Z",
+    "name": "বড়দিন",
+    "type": "public",
+    "rule": "bengali-revised 9-11",
+    "_weekday": "Fri"
+  }
+]

@@ -36,23 +36,23 @@ holidays:
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
     # states:
-      # AD:
-      #   name: Adamawa
-      # CE:
-      #   name: Centre
-      # EN:
-      #   name: Far North
-      # ES:
-      #   name: East
-      # LT:
-      #   name: Littoral
-      # 'NO':
-      #   name: North
-      # NW:
-      #   name: Northwest
-      # OU:
-      #   name: West
-      # SU:
-      #   name: South
-      # SW:
-      #   name: Southwest
+    # AD:
+    #   name: Adamawa
+    # CE:
+    #   name: Centre
+    # EN:
+    #   name: Far North
+    # ES:
+    #   name: East
+    # LT:
+    #   name: Littoral
+    # 'NO':
+    #   name: North
+    # NW:
+    #   name: Northwest
+    # OU:
+    #   name: West
+    # SU:
+    #   name: South
+    # SW:
+    #   name: Southwest
