@@ -9,15 +9,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2016-01-04 00:00:00",
-    "start": "2016-01-04T00:00:00.000Z",
-    "end": "2016-01-05T00:00:00.000Z",
-    "name": "Bank Holiday",
-    "type": "bank",
-    "rule": "1st monday in January",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2016-03-06 00:00:00",
     "start": "2016-03-06T00:00:00.000Z",
     "end": "2016-03-07T00:00:00.000Z",
