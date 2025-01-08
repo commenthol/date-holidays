@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.23.18](https://github.com/commenthol/date-holidays/compare/3.23.17...3.23.18) (2025-01-08)
+
+- fix(NL): state and region names [246cd650](https://github.com/commenthol/date-holidays/commit/246cd650f98060a84e9dd585b408b4287165ed28)
+- fix(IE): remove bank holiday and update test fixtures [efc0475d](https://github.com/commenthol/date-holidays/commit/efc0475d666b0849424b23028ed382b83bbc9d19)
+- fix(NL): additional fix and translations Dutch [2fe1276d](https://github.com/commenthol/date-holidays/commit/2fe1276d85ee82661d17d61a87e0c790d30426ad)
+- fix(NL): Dutch states [d26b9b5e](https://github.com/commenthol/date-holidays/commit/d26b9b5e93d7453f535ffedfd2844fd3fd72c1dc)
+
 ## [3.23.17](https://github.com/commenthol/date-holidays/compare/3.23.16...3.23.17) (2025-01-02)
 
 - chore: update github actions to v4; deprecate node@18 [936662ff](https://github.com/commenthol/date-holidays/commit/936662ff8f25fd15d20dee7b579bf7d256ca7d57)
