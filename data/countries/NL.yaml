@@ -175,7 +175,7 @@ holidays:
         type: bank
     states:
       GR:
-        name:
+        names:
           nl: Groningen
           en: Groningen
           de: Groningen
@@ -184,7 +184,7 @@ holidays:
           it: Groninga
         regions:
           GRN:
-            name:
+            names:
               nl: Groningen
               en: Groningen
               de: Groningen
@@ -203,7 +203,7 @@ holidays:
                   it: Assedio revocato di Groninga
                 type: observance
       NH:
-        name:
+        names:
           nl: Noord-Holland
           en: North Holland
           de: Noord-Holland
@@ -225,7 +225,7 @@ holidays:
                   it: Assedio revocato di Alkmaar
                 type: observance
       ZH:
-        name:
+        names:
           nl: Zuid-Holland
           en: South Holland
           de: Zuid-Holland
@@ -247,7 +247,7 @@ holidays:
                   it: Presa di Brielle
                 type: observance
           LDN:
-            name:
+            names:
               nl: Leiden
               en: Leiden
               de: Leiden
