@@ -138,6 +138,11 @@ holidays:
             name:
               de: Tag der Befreiung (75. Jahrestag)
               en: Liberation Day (75th Anniversary)
+          # @source: https://www.berlin.de/aktuelles/9188766-958090-einmaliger-feiertag-am-8-mai-2025.html
+          "2025-05-08":
+            name:
+              de: Tag der Befreiung (80. Jahrestag)
+              en: Liberation Day (80th Anniversary)
       BW:
         name: Baden-Württemberg
         days:
