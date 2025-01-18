@@ -39,6 +39,8 @@ holidays:
         _name: 11-01
       11-11:
         _name: Independence Day
+      12-24 since 2025:
+        _name: 12-24
       12-25:
         _name: 12-25
       12-26:
