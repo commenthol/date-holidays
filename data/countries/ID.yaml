@@ -121,6 +121,10 @@ holidays:
         name:
           en: Nyepi
           id: Hari Raya Nyepi
+      "2027-03-09":
+        name:
+          en: Nyepi
+          id: Hari Raya Nyepi
       # Vesak
       # @attrib https://en.wikipedia.org/wiki/Vesak#Dates_of_observance
       "2001-05-07":
