@@ -95,7 +95,7 @@
     "end": "2015-09-01T22:00:00.000Z",
     "name": "Deň Ústavy",
     "type": "public",
-    "rule": "09-01",
+    "rule": "09-01 since 1994 and prior to 2024",
     "_weekday": "Tue"
   },
   {
