@@ -143,6 +143,11 @@ holidays:
             name:
               de: Tag der Befreiung (80. Jahrestag)
               en: Liberation Day (80th Anniversary)
+          # @source: https://www.berlin.de/aktuelles/9188766-958090-einmaliger-feiertag-am-8-mai-2025.html
+          "2028-06-17":
+            name:
+              de: 75-jähriges Jubiläum des Volksaufstands in der DDR
+              en: 75th anniversary of the GDR uprising
       BW:
         name: Baden-Württemberg
         days:
