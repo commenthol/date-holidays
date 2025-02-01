@@ -14,8 +14,176 @@
     "end": "2025-01-06T23:00:00.000Z",
     "name": "Święto Trzech Króli",
     "type": "public",
-    "rule": "01-06",
+    "rule": "01-06 since 2011",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2025-01-21 00:00:00",
+    "start": "2025-01-20T23:00:00.000Z",
+    "end": "2025-01-21T23:00:00.000Z",
+    "name": "Dzień Babci",
+    "type": "observance",
+    "rule": "01-21",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-01-22 00:00:00",
+    "start": "2025-01-21T23:00:00.000Z",
+    "end": "2025-01-22T23:00:00.000Z",
+    "name": "Dzień Dziadka",
+    "type": "observance",
+    "rule": "01-22",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-02-14 00:00:00",
+    "start": "2025-02-13T23:00:00.000Z",
+    "end": "2025-02-14T23:00:00.000Z",
+    "name": "Walentynki",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-02-19 00:00:00",
+    "start": "2025-02-18T23:00:00.000Z",
+    "end": "2025-02-19T23:00:00.000Z",
+    "name": "Dzień Nauki Polskiej",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "02-19 since 2020",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-02-27 00:00:00",
+    "start": "2025-02-26T23:00:00.000Z",
+    "end": "2025-02-27T23:00:00.000Z",
+    "name": "Tłusty Czwartek",
+    "type": "observance",
+    "rule": "Thursday before easter -46",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-03-01 00:00:00",
+    "start": "2025-02-28T23:00:00.000Z",
+    "end": "2025-03-01T23:00:00.000Z",
+    "name": "Narodowy Dzień Pamięci „Żołnierzy Wyklętych”",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "03-01 since 2011",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-03-04 00:00:00",
+    "start": "2025-03-03T23:00:00.000Z",
+    "end": "2025-03-04T23:00:00.000Z",
+    "name": "Ostatki",
+    "type": "observance",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-03-05 00:00:00",
+    "start": "2025-03-04T23:00:00.000Z",
+    "end": "2025-03-05T23:00:00.000Z",
+    "name": "Środa Popielcowa",
+    "type": "observance",
+    "rule": "easter -46",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-03-08 00:00:00",
+    "start": "2025-03-07T23:00:00.000Z",
+    "end": "2025-03-08T23:00:00.000Z",
+    "name": "Dzień Kobiet",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-03-10 00:00:00",
+    "start": "2025-03-09T23:00:00.000Z",
+    "end": "2025-03-10T23:00:00.000Z",
+    "name": "Dzień Mężczyzny",
+    "type": "observance",
+    "rule": "03-10",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-03-21 00:00:00",
+    "start": "2025-03-20T23:00:00.000Z",
+    "end": "2025-03-21T23:00:00.000Z",
+    "name": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
+    "type": "observance",
+    "rule": "03-21",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-03-24 00:00:00",
+    "start": "2025-03-23T23:00:00.000Z",
+    "end": "2025-03-24T23:00:00.000Z",
+    "name": "Narodowy Dzień Pamięci Polaków ratujących Żydów pod okupacją niemiecką",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "03-24 since 2018",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-13 00:00:00",
+    "start": "2025-04-12T22:00:00.000Z",
+    "end": "2025-04-13T22:00:00.000Z",
+    "name": "Niedziela Palmowa",
+    "type": "observance",
+    "rule": "easter -7",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-04-14 00:00:00",
+    "start": "2025-04-13T22:00:00.000Z",
+    "end": "2025-04-14T22:00:00.000Z",
+    "name": "Święto Chrztu Polski",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "04-14 since 2019",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-04-17 00:00:00",
+    "start": "2025-04-16T22:00:00.000Z",
+    "end": "2025-04-17T22:00:00.000Z",
+    "name": "Wielki Czwartek",
+    "type": "school",
+    "note": "Religious holiday - a working day, but schools are closed",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-04-18 00:00:00",
+    "start": "2025-04-17T22:00:00.000Z",
+    "end": "2025-04-18T22:00:00.000Z",
+    "name": "Wielki Piątek",
+    "type": "school",
+    "note": "Religious holiday - a working day, but schools are closed",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2025-04-19 00:00:00",
+    "start": "2025-04-18T22:00:00.000Z",
+    "end": "2025-04-19T22:00:00.000Z",
+    "name": "Dzień Pamięci Ofiar Holocaustu i Powstania w Getcie Warszawskim",
+    "type": "observance",
+    "rule": "04-19",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-04-19 00:00:00",
+    "start": "2025-04-18T22:00:00.000Z",
+    "end": "2025-04-19T22:00:00.000Z",
+    "name": "Wielka Sobota",
+    "type": "observance",
+    "rule": "easter -1",
+    "_weekday": "Sat"
   },
   {
     "date": "2025-04-20 00:00:00",
@@ -36,6 +204,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2025-04-22 00:00:00",
+    "start": "2025-04-21T22:00:00.000Z",
+    "end": "2025-04-22T22:00:00.000Z",
+    "name": "Dzień Ziemi",
+    "type": "observance",
+    "rule": "04-22",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2025-05-01 00:00:00",
     "start": "2025-04-30T22:00:00.000Z",
     "end": "2025-05-01T22:00:00.000Z",
@@ -43,6 +220,16 @@
     "type": "public",
     "rule": "05-01",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-02 00:00:00",
+    "start": "2025-05-01T22:00:00.000Z",
+    "end": "2025-05-02T22:00:00.000Z",
+    "name": "Dzień Flagi Rzeczypospolitej Polskiej",
+    "type": "optional",
+    "note": "Declared by statue",
+    "rule": "05-02 since 2004",
+    "_weekday": "Fri"
   },
   {
     "date": "2025-05-03 00:00:00",
@@ -54,6 +241,25 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2025-05-08 00:00:00",
+    "start": "2025-05-07T22:00:00.000Z",
+    "end": "2025-05-08T22:00:00.000Z",
+    "name": "Narodowy Dzień Zwycięstwa",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "05-08 since 2015",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2025-05-09 00:00:00",
+    "start": "2025-05-08T22:00:00.000Z",
+    "end": "2025-05-09T22:00:00.000Z",
+    "name": "Dzień Europy",
+    "type": "observance",
+    "rule": "05-09",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2025-05-26 00:00:00",
     "start": "2025-05-25T22:00:00.000Z",
     "end": "2025-05-26T22:00:00.000Z",
@@ -61,6 +267,15 @@
     "type": "observance",
     "rule": "05-26",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2025-06-01 00:00:00",
+    "start": "2025-05-31T22:00:00.000Z",
+    "end": "2025-06-01T22:00:00.000Z",
+    "name": "Dzień Dziecka",
+    "type": "observance",
+    "rule": "06-01",
+    "_weekday": "Sun"
   },
   {
     "date": "2025-06-08 00:00:00",
@@ -72,6 +287,16 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2025-06-12 00:00:00",
+    "start": "2025-06-11T22:00:00.000Z",
+    "end": "2025-06-12T22:00:00.000Z",
+    "name": "Dzień Walki i Męczeństwa Wsi Polskiej",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "06-12 since 2017",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2025-06-19 00:00:00",
     "start": "2025-06-18T22:00:00.000Z",
     "end": "2025-06-19T22:00:00.000Z",
@@ -81,6 +306,25 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2025-06-23 00:00:00",
+    "start": "2025-06-22T22:00:00.000Z",
+    "end": "2025-06-23T22:00:00.000Z",
+    "name": "Dzień Ojca",
+    "type": "observance",
+    "rule": "06-23",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-08-01 00:00:00",
+    "start": "2025-07-31T22:00:00.000Z",
+    "end": "2025-08-01T22:00:00.000Z",
+    "name": "Narodowy Dzień Pamięci Powstania Warszawskiego",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "08-01 since 2009",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2025-08-15 00:00:00",
     "start": "2025-08-14T22:00:00.000Z",
     "end": "2025-08-15T22:00:00.000Z",
@@ -88,6 +332,53 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2025-08-31 00:00:00",
+    "start": "2025-08-30T22:00:00.000Z",
+    "end": "2025-08-31T22:00:00.000Z",
+    "name": "Dzień Solidarności i Wolności",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "08-31 since 2005",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-09-01 00:00:00",
+    "start": "2025-08-31T22:00:00.000Z",
+    "end": "2025-09-01T22:00:00.000Z",
+    "name": "Rocznica wybuchu II wojny światowej",
+    "type": "observance",
+    "rule": "09-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2025-09-17 00:00:00",
+    "start": "2025-09-16T22:00:00.000Z",
+    "end": "2025-09-17T22:00:00.000Z",
+    "name": "Rocznica agresji ZSRR na Polskę",
+    "type": "observance",
+    "rule": "09-17",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2025-09-30 00:00:00",
+    "start": "2025-09-29T22:00:00.000Z",
+    "end": "2025-09-30T22:00:00.000Z",
+    "name": "Dzień Chłopaka",
+    "type": "observance",
+    "rule": "09-30",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2025-10-19 00:00:00",
+    "start": "2025-10-18T22:00:00.000Z",
+    "end": "2025-10-19T22:00:00.000Z",
+    "name": "Narodowy Dzień Pamięci Duchownych Niezłomnych",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "10-19 since 2018",
+    "_weekday": "Sun"
   },
   {
     "date": "2025-11-01 00:00:00",
@@ -106,6 +397,15 @@
     "type": "public",
     "rule": "11-11",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2025-12-06 00:00:00",
+    "start": "2025-12-05T23:00:00.000Z",
+    "end": "2025-12-06T23:00:00.000Z",
+    "name": "Mikołajki",
+    "type": "observance",
+    "rule": "12-06",
+    "_weekday": "Sat"
   },
   {
     "date": "2025-12-24 00:00:00",
@@ -133,5 +433,24 @@
     "type": "public",
     "rule": "12-26",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2025-12-27 00:00:00",
+    "start": "2025-12-26T23:00:00.000Z",
+    "end": "2025-12-27T23:00:00.000Z",
+    "name": "Narodowy Dzień Pamięci Zwycięskiego Powstania Wielkopolskiego",
+    "type": "observance",
+    "note": "National holiday, although not a public holiday",
+    "rule": "12-27 since 2021",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-12-31 00:00:00",
+    "start": "2025-12-30T23:00:00.000Z",
+    "end": "2025-12-31T23:00:00.000Z",
+    "name": "Sylwester",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Wed"
   }
 ]

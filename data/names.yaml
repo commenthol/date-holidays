@@ -109,6 +109,7 @@ names:
       lb: Vältesdag
       nl: Valentijnsdag
       no: Valentinsdag
+      pl: Walentynki
       pt: Dia dos Namorados
       vi: Lễ tình nhân
   03-08:
@@ -125,6 +126,7 @@ names:
       lb: Internationale Fraendag
       nl: Internationale Vrouwendag
       no: Kvinnedagen
+      pl: Dzień Kobiet
       pt: Dia Internacional da Mulher
       ro: Ziua Internationala a Femeii
       ru: Международный женский день
@@ -321,6 +323,7 @@ names:
       hu: Mikulás
       lb: Niklosdag
       nl: Sinterklaas
+      pl: Mikołajki
       vi: Thánh Saint Nicholas
   12-07:
     name:
@@ -475,6 +478,7 @@ names:
       lv: Vecgada vakars
       nl: Oudejaarsavond
       no: Nyttårsaften
+      pl: Sylwester
       pt: Véspera de Ano Novo
       sv: Nyårsafton
       th: วันสิ้นปี
@@ -501,6 +505,7 @@ names:
       hr: Pokladni utorak
       hu: Húshagyó kedd
       nl: Vastenavond
+      pl: Ostatki
       pt: Carnaval
       vi: Thứ ba mập béo
   easter -46: # Ash Wednesday
@@ -515,6 +520,7 @@ names:
       lb: Äschermëttwoch
       nl: Aswoensdag
       no: Askeonsdag
+      pl: Środa Popielcowa
       pt: Quarta-feira de Cinzas
       sw: Jumatano ya Majivu
       vi: Thứ tư Lễ Tro
@@ -529,6 +535,7 @@ names:
       lb: Pällemsonndeg
       nl: Palmzondag
       no: Palmesøndag
+      pl: Niedziela Palmowa
       vi: Chúa nhật Lễ Lá
   easter -3: # Maundy Thursday
     name:
@@ -546,6 +553,7 @@ names:
       lb: Gréngen Donneschdeg
       nl: Witte Donderdag
       no: Skjærtorsdag
+      pl: Wielki Czwartek
       sv: Skärtorsdagen
       vi: Thứ năm Tuần Thánh
   easter -2: # Good Friday
@@ -578,6 +586,7 @@ names:
       nl: Goede Vrijdag
       no: Langfredag
       pap: Diabierna Santo
+      pl: Wielki Piątek
       pt: Sexta-Feira Santa
       ro: Vinerea Mare
       sk: Veľkonočný piatok
@@ -601,6 +610,7 @@ names:
       lb: Karsamschdeg
       nl: Dag voor Pasen
       no: Påskeaften
+      pl: Wielka Sobota
       sv: Påskafton
       vi: Thứ bảy Tuần Thánh
       zh: 耶穌受難節翌日
@@ -1034,6 +1044,7 @@ names:
       fr: Fête des Pères
       lt: Tėvo diena
       nl: Vaderdag
+      pl: Dzień Ojca
       pt: Dia dos Pais
       no: Farsdag
       sv: Fars dag
