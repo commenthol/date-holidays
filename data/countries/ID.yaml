@@ -49,7 +49,6 @@ holidays:
         _name: 10 Dhu al-Hijjah
       # Nyepi
       # @attrib https://en.wikipedia.org/wiki/Nyepi
-      # @attrib https://www.m.kalenderbali.org/?bl=3&tg=8&th=2027
       "2009-03-26":
         name:
           en: Nyepi
@@ -128,7 +127,6 @@ holidays:
           id: Hari Raya Nyepi
       # Vesak
       # @attrib https://en.wikipedia.org/wiki/Vesak#Dates_of_observance
-      # @attrib https://publicholidays.co.id/id/waisak-day/
       "2001-05-07":
         _name: Vesak
       "2002-05-26":
