@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Polen
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Poland
   PL:
     names:
       pl: Polska
@@ -12,36 +13,195 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      01-06:
+      01-06 since 2011:
         _name: 01-06
+      01-21:
+        name:
+          pl: Dzień Babci
+          en: Grandmother's Day
+        type: observance
+      01-22:
+        name:
+          pl: Dzień Dziadka
+          en: Grandfather's Day
+        type: observance
+      02-14:
+        _name: 02-14
+        type: observance
+      02-19 since 2020:
+        name:
+          pl: Dzień Nauki Polskiej
+          en: Polish Science Day
+        type: observance
+        note: National holiday, although not a public holiday
+      03-01 since 2011:
+        name:
+          pl: Narodowy Dzień Pamięci „Żołnierzy Wyklętych”
+          en: National Cursed Soldiers Remembrance Day
+        type: observance
+        note: National holiday, although not a public holiday
+      Thursday before easter -46:
+        name:
+          pl: Tłusty Czwartek
+          en: Fat Thursday
+        type: observance
+      easter -47:
+        _name: easter -47
+        type: observance
+      easter -46:
+        _name: easter -46
+        type: observance
+      03-08:
+        _name: 03-08
+        type: observance
+      03-10:
+        name:
+          pl: Dzień Mężczyzny
+          en: Men's Day
+        type: observance
+      03-21:
+        name:
+          pl: Pierwszy Dzień Wiosny / Dzień Wagarowicza
+          en: First Day of Spring / Truant's Day
+        type: observance
+      03-24 since 2018:
+        name:
+          pl: Narodowy Dzień Pamięci Polaków ratujących Żydów pod okupacją niemiecką
+          en: National Day for the Remembrance of Poles Rescuing Jews under German Occupation
+        type: observance
+        note: National holiday, although not a public holiday
+      04-14 since 2019:
+        name:
+          pl: Święto Chrztu Polski
+          en: Baptism of Poland Day
+        type: observance
+        note: National holiday, although not a public holiday
+      easter -7:
+        _name: easter -7
+        type: observance
+      easter -3:
+        _name: easter -3
+        type: school
+        note: Religious holiday - a working day, but schools are closed
+      easter -2:
+        _name: easter -2
+        type: school
+        note: Religious holiday - a working day, but schools are closed
+      easter -1:
+        _name: easter -1
+        type: observance
       easter:
         _name: easter
       easter 1:
         _name: easter 1
+      04-19:
+        name: 
+          pl: Dzień Pamięci Ofiar Holocaustu i Powstania w Getcie Warszawskim
+          en: Warsaw Ghetto Uprising Remembrance Day
+        type: observance
+      04-22:
+        name:
+          pl: Dzień Ziemi
+          en: International Mother Earth Day
+        type: observance
       05-01:
         _name: 05-01
         name:
           pl: Święto Państwowe; Święto Pracy
+      05-02 since 2004:
+        name:
+          pl: Dzień Flagi Rzeczypospolitej Polskiej
+          en: Flag Day
+        type: optional
+        note: Declared by statue
       05-03:
         name:
           pl: Święto Narodowe Trzeciego Maja
           en: Constitution Day
+      05-08 since 2015:
+        name:
+          pl: Narodowy Dzień Zwycięstwa
+          en: National Victory Day
+        type: observance
+        note: National holiday, although not a public holiday
+      05-09:
+        _name: 05-09
+        type: observance
       05-26:
         _name: Mothers Day
+        type: observance
+      06-01:
+        name:
+          pl: Dzień Dziecka
+          en: Children's Day
+        type: observance
+      06-12 since 2017:
+        name:
+          pl: Dzień Walki i Męczeństwa Wsi Polskiej
+          en: Day of Struggle and Martyrdom of the Polish Villages
+        type: observance
+        note: National holiday, although not a public holiday
+      06-23:
+        _name: Fathers Day
         type: observance
       easter 49:
         _name: easter 49
       easter 60:
         _name: easter 60
+      08-01 since 2009:
+        name:
+          pl: Narodowy Dzień Pamięci Powstania Warszawskiego
+          en: National Warsaw Uprising Remembrance Day
+        type: observance
+        note: National holiday, although not a public holiday
       08-15:
         _name: 08-15
+      08-31 since 2005:
+        name:
+          pl: Dzień Solidarności i Wolności
+          en: Day of Solidarity and Freedom
+        type: observance
+        note: National holiday, although not a public holiday
+      09-01:
+        name: 
+          pl: Rocznica wybuchu II wojny światowej
+          en: Anniversary of the outbreak of the Second World War in Poland
+        type: observance
+      09-17:
+        name:
+          pl: Rocznica agresji ZSRR na Polskę
+          en: Anniversary of the Soviet invasion of Poland
+        type: observance
+      09-30:
+        name:
+          pl: Dzień Chłopaka
+          en: Boy's Day
+        type: observance
+      10-19 since 2018:
+        name:
+          pl: Narodowy Dzień Pamięci Duchownych Niezłomnych
+          en: National Day of Remembrance for Steadfast Clergy
+        type: observance
+        note: National holiday, although not a public holiday
       11-01:
         _name: 11-01
       11-11:
         _name: Independence Day
+      12-06:
+        _name: 12-06
+        type: observance
       12-24 since 2025:
         _name: 12-24
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
+      12-27 since 2021:
+        name:
+          pl: Narodowy Dzień Pamięci Zwycięskiego Powstania Wielkopolskiego
+          en: Greater Poland Uprising Remebrence Day
+        type: observance
+        note: National holiday, although not a public holiday
+      12-31:
+        _name: 12-31
+        type: observance
