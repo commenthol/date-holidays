@@ -95,7 +95,7 @@ holidays:
       easter 1:
         _name: easter 1
       04-19:
-        name: 
+        name:
           pl: Dzień Pamięci Ofiar Holocaustu i Powstania w Getcie Warszawskim
           en: Warsaw Ghetto Uprising Remembrance Day
         type: observance
@@ -163,7 +163,7 @@ holidays:
         type: observance
         note: National holiday, although not a public holiday
       09-01:
-        name: 
+        name:
           pl: Rocznica wybuchu II wojny światowej
           en: Anniversary of the outbreak of the Second World War in Poland
         type: observance
