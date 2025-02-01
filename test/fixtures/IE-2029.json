@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2029-01-01 00:00:00",
+    "start": "2029-01-01T00:00:00.000Z",
+    "end": "2029-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-02-05 00:00:00",
+    "start": "2029-02-05T00:00:00.000Z",
+    "end": "2029-02-06T00:00:00.000Z",
+    "name": "St. Brigid’s Day",
+    "type": "public",
+    "rule": "02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-03-11 00:00:00",
+    "start": "2029-03-11T00:00:00.000Z",
+    "end": "2029-03-12T00:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "easter -21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-03-17 00:00:00",
+    "start": "2029-03-17T00:00:00.000Z",
+    "end": "2029-03-18T00:00:00.000Z",
+    "name": "St. Patrick’s Day",
+    "type": "public",
+    "rule": "03-17",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2029-03-19 00:00:00",
+    "start": "2029-03-19T00:00:00.000Z",
+    "end": "2029-03-20T00:00:00.000Z",
+    "name": "St. Patrick’s Day (substitute day)",
+    "type": "bank",
+    "substitute": true,
+    "rule": "03-17 and if saturday then next monday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-03-30 00:00:00",
+    "start": "2029-03-29T23:00:00.000Z",
+    "end": "2029-03-30T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "bank",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-04-01 00:00:00",
+    "start": "2029-03-31T23:00:00.000Z",
+    "end": "2029-04-01T23:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-04-02 00:00:00",
+    "start": "2029-04-01T23:00:00.000Z",
+    "end": "2029-04-02T23:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-05-07 00:00:00",
+    "start": "2029-05-06T23:00:00.000Z",
+    "end": "2029-05-07T23:00:00.000Z",
+    "name": "May Day",
+    "type": "public",
+    "rule": "1st monday in May",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-06-04 00:00:00",
+    "start": "2029-06-03T23:00:00.000Z",
+    "end": "2029-06-04T23:00:00.000Z",
+    "name": "First Monday in June",
+    "type": "public",
+    "rule": "1st monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-06-17 00:00:00",
+    "start": "2029-06-16T23:00:00.000Z",
+    "end": "2029-06-17T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-08-06 00:00:00",
+    "start": "2029-08-05T23:00:00.000Z",
+    "end": "2029-08-06T23:00:00.000Z",
+    "name": "First Monday in August",
+    "type": "public",
+    "rule": "1st monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-10-29 00:00:00",
+    "start": "2029-10-29T00:00:00.000Z",
+    "end": "2029-10-30T00:00:00.000Z",
+    "name": "October Bank Holiday",
+    "type": "public",
+    "rule": "1st Monday before 11-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-12-25 00:00:00",
+    "start": "2029-12-25T00:00:00.000Z",
+    "end": "2029-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-12-26 00:00:00",
+    "start": "2029-12-26T00:00:00.000Z",
+    "end": "2029-12-27T00:00:00.000Z",
+    "name": "St. Stephen's Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Wed"
+  }
+]

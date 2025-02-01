@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2028-01-01T05:00:00.000Z",
+    "end": "2028-01-02T05:00:00.000Z",
+    "name": "Triunfo de la Revolución",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-01-02 00:00:00",
+    "start": "2028-01-02T05:00:00.000Z",
+    "end": "2028-01-03T05:00:00.000Z",
+    "name": "Día de Victoria de las Fuerzas Armadas",
+    "type": "public",
+    "rule": "01-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-14T04:00:00.000Z",
+    "end": "2028-04-15T04:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-05-01T04:00:00.000Z",
+    "end": "2028-05-02T04:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-07-25 00:00:00",
+    "start": "2028-07-25T04:00:00.000Z",
+    "end": "2028-07-26T04:00:00.000Z",
+    "name": "Conmemoración del asalto a Moncada",
+    "type": "public",
+    "rule": "07-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-07-26 00:00:00",
+    "start": "2028-07-26T04:00:00.000Z",
+    "end": "2028-07-27T04:00:00.000Z",
+    "name": "Día de la Rebeldía Nacional",
+    "type": "public",
+    "rule": "07-26",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-07-27 00:00:00",
+    "start": "2028-07-27T04:00:00.000Z",
+    "end": "2028-07-28T04:00:00.000Z",
+    "name": "Conmemoración del asalto a Moncada",
+    "type": "public",
+    "rule": "07-27",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-10-10 00:00:00",
+    "start": "2028-10-10T04:00:00.000Z",
+    "end": "2028-10-11T04:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "10-10",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-25T05:00:00.000Z",
+    "end": "2028-12-26T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2029-01-01 00:00:00",
+    "start": "2028-12-31T22:00:00.000Z",
+    "end": "2029-01-01T22:00:00.000Z",
+    "name": "Nyårsdagen",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-01-06 00:00:00",
+    "start": "2029-01-05T22:00:00.000Z",
+    "end": "2029-01-06T22:00:00.000Z",
+    "name": "Trettondedag jul",
+    "type": "public",
+    "rule": "01-06",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2029-03-30 00:00:00",
+    "start": "2029-03-29T21:00:00.000Z",
+    "end": "2029-03-30T21:00:00.000Z",
+    "name": "Ålands demilitariseringsdag",
+    "type": "public",
+    "rule": "03-30",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-03-30 00:00:00",
+    "start": "2029-03-29T21:00:00.000Z",
+    "end": "2029-03-30T21:00:00.000Z",
+    "name": "Långfredagen",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-04-01 00:00:00",
+    "start": "2029-03-31T21:00:00.000Z",
+    "end": "2029-04-01T21:00:00.000Z",
+    "name": "Påskdagen",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-04-02 00:00:00",
+    "start": "2029-04-01T21:00:00.000Z",
+    "end": "2029-04-02T21:00:00.000Z",
+    "name": "Annandag påsk",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-05-01 00:00:00",
+    "start": "2029-04-30T21:00:00.000Z",
+    "end": "2029-05-01T21:00:00.000Z",
+    "name": "Första Maj",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-05-10 00:00:00",
+    "start": "2029-05-09T21:00:00.000Z",
+    "end": "2029-05-10T21:00:00.000Z",
+    "name": "Kristi himmelfärds dag",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-05-20 00:00:00",
+    "start": "2029-05-19T21:00:00.000Z",
+    "end": "2029-05-20T21:00:00.000Z",
+    "name": "Pingstdagen",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-06-09 00:00:00",
+    "start": "2029-06-08T21:00:00.000Z",
+    "end": "2029-06-09T21:00:00.000Z",
+    "name": "Självstyrelsedagen",
+    "type": "public",
+    "rule": "06-09",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2029-06-22 00:00:00",
+    "start": "2029-06-21T21:00:00.000Z",
+    "end": "2029-06-22T21:00:00.000Z",
+    "name": "Midsommarafton",
+    "type": "bank",
+    "rule": "friday after 06-19",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-06-23 00:00:00",
+    "start": "2029-06-22T21:00:00.000Z",
+    "end": "2029-06-23T21:00:00.000Z",
+    "name": "Midsommardagen",
+    "type": "public",
+    "rule": "saturday after 06-20",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2029-12-06 00:00:00",
+    "start": "2029-12-05T22:00:00.000Z",
+    "end": "2029-12-06T22:00:00.000Z",
+    "name": "Självständighetsdagen",
+    "type": "public",
+    "rule": "12-06",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-12-24 12:00:00",
+    "start": "2029-12-24T10:00:00.000Z",
+    "end": "2029-12-24T22:00:00.000Z",
+    "name": "Julafton",
+    "type": "bank",
+    "rule": "12-24 12:00",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-12-25 00:00:00",
+    "start": "2029-12-24T22:00:00.000Z",
+    "end": "2029-12-25T22:00:00.000Z",
+    "name": "Juldagen",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-12-26 00:00:00",
+    "start": "2029-12-25T22:00:00.000Z",
+    "end": "2029-12-26T22:00:00.000Z",
+    "name": "Annandag jul",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-12-31 12:00:00",
+    "start": "2029-12-31T10:00:00.000Z",
+    "end": "2029-12-31T22:00:00.000Z",
+    "name": "Nyårsafton",
+    "type": "bank",
+    "rule": "12-31 12:00",
+    "_weekday": "Mon"
+  }
+]

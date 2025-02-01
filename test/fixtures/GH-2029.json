@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2029-01-01 00:00:00",
+    "start": "2029-01-01T00:00:00.000Z",
+    "end": "2029-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-01-07 00:00:00",
+    "start": "2029-01-07T00:00:00.000Z",
+    "end": "2029-01-08T00:00:00.000Z",
+    "name": "Constitution Day",
+    "type": "public",
+    "rule": "01-07 since 2019",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-02-14 00:00:00 -0600",
+    "start": "2029-02-13T18:00:00.000Z",
+    "end": "2029-02-14T18:00:00.000Z",
+    "name": "End of Ramadan (Eid al-Fitr)",
+    "type": "public",
+    "rule": "1 Shawwal and if Saturday, Sunday then next Monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-03-06 00:00:00",
+    "start": "2029-03-06T00:00:00.000Z",
+    "end": "2029-03-07T00:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "rule": "03-06 and if Saturday, Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-03-30 00:00:00",
+    "start": "2029-03-30T00:00:00.000Z",
+    "end": "2029-03-31T00:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-04-01 00:00:00",
+    "start": "2029-04-01T00:00:00.000Z",
+    "end": "2029-04-02T00:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-04-02 00:00:00",
+    "start": "2029-04-02T00:00:00.000Z",
+    "end": "2029-04-03T00:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-04-24 00:00:00 -0600",
+    "start": "2029-04-23T18:00:00.000Z",
+    "end": "2029-04-24T18:00:00.000Z",
+    "name": "Feast of the Sacrifice (Eid al-Adha)",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if Saturday, Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-05-01 00:00:00",
+    "start": "2029-05-01T00:00:00.000Z",
+    "end": "2029-05-02T00:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01 and if Saturday, Sunday then next Monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-08-04 00:00:00",
+    "start": "2029-08-04T00:00:00.000Z",
+    "end": "2029-08-05T00:00:00.000Z",
+    "name": "Founders Day",
+    "type": "public",
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2029-08-06 00:00:00",
+    "start": "2029-08-06T00:00:00.000Z",
+    "end": "2029-08-07T00:00:00.000Z",
+    "name": "Founders Day (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "08-04 and if Saturday, Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-09-21 00:00:00",
+    "start": "2029-09-21T00:00:00.000Z",
+    "end": "2029-09-22T00:00:00.000Z",
+    "name": "Kwame Nkrumah Memorial Day",
+    "type": "public",
+    "rule": "09-21 and if Saturday, Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-12-07 00:00:00",
+    "start": "2029-12-07T00:00:00.000Z",
+    "end": "2029-12-08T00:00:00.000Z",
+    "name": "Farmers Day",
+    "type": "public",
+    "rule": "1st Friday in December since 1988",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-12-25 00:00:00",
+    "start": "2029-12-25T00:00:00.000Z",
+    "end": "2029-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-12-26 00:00:00",
+    "start": "2029-12-26T00:00:00.000Z",
+    "end": "2029-12-27T00:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Wed"
+  }
+]

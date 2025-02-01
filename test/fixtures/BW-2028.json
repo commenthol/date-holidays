@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2027-12-31T22:00:00.000Z",
+    "end": "2028-01-01T22:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-01-02 00:00:00",
+    "start": "2028-01-01T22:00:00.000Z",
+    "end": "2028-01-02T22:00:00.000Z",
+    "name": "New Year's Holiday",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "01-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-13T22:00:00.000Z",
+    "end": "2028-04-14T22:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-15 00:00:00",
+    "start": "2028-04-14T22:00:00.000Z",
+    "end": "2028-04-15T22:00:00.000Z",
+    "name": "Easter Saturday",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-15T22:00:00.000Z",
+    "end": "2028-04-16T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-17 00:00:00",
+    "start": "2028-04-16T22:00:00.000Z",
+    "end": "2028-04-17T22:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-04-30T22:00:00.000Z",
+    "end": "2028-05-01T22:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-14 00:00:00",
+    "start": "2028-05-13T22:00:00.000Z",
+    "end": "2028-05-14T22:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-05-25 00:00:00",
+    "start": "2028-05-24T22:00:00.000Z",
+    "end": "2028-05-25T22:00:00.000Z",
+    "name": "Ascension Day",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-07-01 00:00:00",
+    "start": "2028-06-30T22:00:00.000Z",
+    "end": "2028-07-01T22:00:00.000Z",
+    "name": "Sir Seretse Khama Day",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "07-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-07-17 00:00:00",
+    "start": "2028-07-16T22:00:00.000Z",
+    "end": "2028-07-17T22:00:00.000Z",
+    "name": "President’s Day",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "3rd monday in July",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-07-18 00:00:00",
+    "start": "2028-07-17T22:00:00.000Z",
+    "end": "2028-07-18T22:00:00.000Z",
+    "name": "President’s Day Holiday",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "tuesday after 3rd monday in July",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-09-30 00:00:00",
+    "start": "2028-09-29T22:00:00.000Z",
+    "end": "2028-09-30T22:00:00.000Z",
+    "name": "Botswana Day",
+    "type": "public",
+    "rule": "09-30",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-10-02 00:00:00",
+    "start": "2028-10-01T22:00:00.000Z",
+    "end": "2028-10-02T22:00:00.000Z",
+    "name": "Public Holiday",
+    "type": "public",
+    "rule": "substitutes 09-30 if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-24T22:00:00.000Z",
+    "end": "2028-12-25T22:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-26 00:00:00",
+    "start": "2028-12-25T22:00:00.000Z",
+    "end": "2028-12-26T22:00:00.000Z",
+    "name": "Family Day",
+    "type": "public",
+    "note": "except mining industy",
+    "rule": "12-26",
+    "_weekday": "Tue"
+  }
+]

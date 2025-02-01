@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2029-01-01 00:00:00",
+    "start": "2028-12-31T11:00:00.000Z",
+    "end": "2029-01-01T11:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-01-02 00:00:00",
+    "start": "2029-01-01T11:00:00.000Z",
+    "end": "2029-01-02T11:00:00.000Z",
+    "name": "Day after New Year's Day",
+    "type": "public",
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-02-06 00:00:00",
+    "start": "2029-02-05T11:00:00.000Z",
+    "end": "2029-02-06T11:00:00.000Z",
+    "name": "Waitangi Day",
+    "type": "public",
+    "rule": "02-06 and if saturday,sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-03-30 00:00:00",
+    "start": "2029-03-29T11:00:00.000Z",
+    "end": "2029-03-30T11:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-04-01 00:00:00",
+    "start": "2029-03-31T11:00:00.000Z",
+    "end": "2029-04-01T12:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-04-02 00:00:00",
+    "start": "2029-04-01T12:00:00.000Z",
+    "end": "2029-04-02T12:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-04-25 00:00:00",
+    "start": "2029-04-24T12:00:00.000Z",
+    "end": "2029-04-25T12:00:00.000Z",
+    "name": "ANZAC Day",
+    "type": "public",
+    "rule": "04-25 and if saturday,sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-06-04 00:00:00",
+    "start": "2029-06-03T12:00:00.000Z",
+    "end": "2029-06-04T12:00:00.000Z",
+    "name": "King's Birthday",
+    "type": "public",
+    "rule": "1st monday in June since 2023",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-07-06 00:00:00",
+    "start": "2029-07-05T12:00:00.000Z",
+    "end": "2029-07-06T12:00:00.000Z",
+    "name": "Matariki",
+    "type": "public",
+    "rule": "2029-07-06",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-10-22 00:00:00",
+    "start": "2029-10-21T11:00:00.000Z",
+    "end": "2029-10-22T11:00:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "4th monday in October",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-12-03 00:00:00",
+    "start": "2029-12-02T11:00:00.000Z",
+    "end": "2029-12-03T11:00:00.000Z",
+    "name": "Provincial anniversary day",
+    "type": "public",
+    "rule": "12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-12-25 00:00:00",
+    "start": "2029-12-24T11:00:00.000Z",
+    "end": "2029-12-25T11:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-12-26 00:00:00",
+    "start": "2029-12-25T11:00:00.000Z",
+    "end": "2029-12-26T11:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Wed"
+  }
+]

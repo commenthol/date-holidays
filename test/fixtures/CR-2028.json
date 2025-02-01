@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2028-01-01T06:00:00.000Z",
+    "end": "2028-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-04-11 00:00:00",
+    "start": "2028-04-11T06:00:00.000Z",
+    "end": "2028-04-12T06:00:00.000Z",
+    "name": "Gesta Heroica de Juan Santamaría",
+    "type": "public",
+    "rule": "04-11",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-04-13 00:00:00",
+    "start": "2028-04-13T06:00:00.000Z",
+    "end": "2028-04-14T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-14T06:00:00.000Z",
+    "end": "2028-04-15T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-16T06:00:00.000Z",
+    "end": "2028-04-17T06:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-05-01T06:00:00.000Z",
+    "end": "2028-05-02T06:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-07-25 00:00:00",
+    "start": "2028-07-25T06:00:00.000Z",
+    "end": "2028-07-26T06:00:00.000Z",
+    "name": "Anexión del Partido de Nicoya",
+    "type": "public",
+    "rule": "07-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-08-02 00:00:00",
+    "start": "2028-08-02T06:00:00.000Z",
+    "end": "2028-08-03T06:00:00.000Z",
+    "name": "Día de la Virgen de los Ángeles",
+    "type": "public",
+    "rule": "08-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-08-15 00:00:00",
+    "start": "2028-08-15T06:00:00.000Z",
+    "end": "2028-08-16T06:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-09-15 00:00:00",
+    "start": "2028-09-15T06:00:00.000Z",
+    "end": "2028-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "09-15",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-10-12 00:00:00",
+    "start": "2028-10-12T06:00:00.000Z",
+    "end": "2028-10-13T06:00:00.000Z",
+    "name": "Día de la Raza",
+    "type": "public",
+    "rule": "10-12 if monday then previous friday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-25T06:00:00.000Z",
+    "end": "2028-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  }
+]

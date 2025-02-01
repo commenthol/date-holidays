@@ -1,0 +1,291 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2027-12-31T23:00:00.000Z",
+    "end": "2028-01-01T23:00:00.000Z",
+    "name": "Neujahr",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-02-14 00:00:00",
+    "start": "2028-02-13T23:00:00.000Z",
+    "end": "2028-02-14T23:00:00.000Z",
+    "name": "Valentinstag",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-02-24 00:00:00",
+    "start": "2028-02-23T23:00:00.000Z",
+    "end": "2028-02-24T23:00:00.000Z",
+    "name": "Weiberfastnacht",
+    "type": "observance",
+    "rule": "easter -52",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-02-28 00:00:00",
+    "start": "2028-02-27T23:00:00.000Z",
+    "end": "2028-02-28T23:00:00.000Z",
+    "name": "Rosenmontag",
+    "type": "observance",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-02-29 14:00:00",
+    "start": "2028-02-29T13:00:00.000Z",
+    "end": "2028-02-29T23:00:00.000Z",
+    "name": "Faschingsdienstag",
+    "type": "observance",
+    "rule": "easter -47 14:00",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-03-01 00:00:00",
+    "start": "2028-02-29T23:00:00.000Z",
+    "end": "2028-03-01T23:00:00.000Z",
+    "name": "Aschermittwoch",
+    "type": "observance",
+    "rule": "easter -46",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-04-13 00:00:00",
+    "start": "2028-04-12T22:00:00.000Z",
+    "end": "2028-04-13T22:00:00.000Z",
+    "name": "Gründonnerstag",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-13T22:00:00.000Z",
+    "end": "2028-04-14T22:00:00.000Z",
+    "name": "Karfreitag",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-15T22:00:00.000Z",
+    "end": "2028-04-16T22:00:00.000Z",
+    "name": "Ostersonntag",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-17 00:00:00",
+    "start": "2028-04-16T22:00:00.000Z",
+    "end": "2028-04-17T22:00:00.000Z",
+    "name": "Ostermontag",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-04-30T22:00:00.000Z",
+    "end": "2028-05-01T22:00:00.000Z",
+    "name": "Maifeiertag",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-14 00:00:00",
+    "start": "2028-05-13T22:00:00.000Z",
+    "end": "2028-05-14T22:00:00.000Z",
+    "name": "Muttertag",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-05-25 00:00:00",
+    "start": "2028-05-24T22:00:00.000Z",
+    "end": "2028-05-25T22:00:00.000Z",
+    "name": "Christi Himmelfahrt",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-06-04 00:00:00",
+    "start": "2028-06-03T22:00:00.000Z",
+    "end": "2028-06-04T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-06-05 00:00:00",
+    "start": "2028-06-04T22:00:00.000Z",
+    "end": "2028-06-05T22:00:00.000Z",
+    "name": "Pfingstmontag",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-15 00:00:00",
+    "start": "2028-06-14T22:00:00.000Z",
+    "end": "2028-06-15T22:00:00.000Z",
+    "name": "Fronleichnam",
+    "type": "public",
+    "note": "Bautzen (nur in den Ortsteilen Bolbritz und Salzenforst), Crostwitz, Göda (nur im Ortsteil Prischwitz), Großdubrau (nur im Ortsteil Sdier), Hoyerswerda (nur im Ortsteil Dörgenhausen), Königswartha (nicht im Ortsteil Wartha), Nebelschütz, Neschwitz (nur in den Ortsteilen Neschwitz und Saritsch), Panschwitz-Kuckau, Puschwitz, Räckelwitz, Radibor, Ralbitz-Rosenthal und Wittichenau.",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-10-03 00:00:00",
+    "start": "2028-10-02T22:00:00.000Z",
+    "end": "2028-10-03T22:00:00.000Z",
+    "name": "Tag der Deutschen Einheit",
+    "type": "public",
+    "rule": "10-03",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-10-31 00:00:00",
+    "start": "2028-10-30T23:00:00.000Z",
+    "end": "2028-10-31T23:00:00.000Z",
+    "name": "Reformationstag",
+    "type": "public",
+    "rule": "10-31",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-11-01 00:00:00",
+    "start": "2028-10-31T23:00:00.000Z",
+    "end": "2028-11-01T23:00:00.000Z",
+    "name": "Allerheiligen",
+    "type": "observance",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-11-02 00:00:00",
+    "start": "2028-11-01T23:00:00.000Z",
+    "end": "2028-11-02T23:00:00.000Z",
+    "name": "Allerseelen",
+    "type": "observance",
+    "rule": "11-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-11-11 00:00:00",
+    "start": "2028-11-10T23:00:00.000Z",
+    "end": "2028-11-11T23:00:00.000Z",
+    "name": "Sankt Martin (Faschingsbeginn)",
+    "type": "observance",
+    "rule": "11-11",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-11-19 00:00:00",
+    "start": "2028-11-18T23:00:00.000Z",
+    "end": "2028-11-19T23:00:00.000Z",
+    "name": "Volkstrauertag",
+    "type": "observance",
+    "rule": "6th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-11-22 00:00:00",
+    "start": "2028-11-21T23:00:00.000Z",
+    "end": "2028-11-22T23:00:00.000Z",
+    "name": "Buß- und Bettag",
+    "type": "public",
+    "rule": "wednesday before 11-23",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-11-26 00:00:00",
+    "start": "2028-11-25T23:00:00.000Z",
+    "end": "2028-11-26T23:00:00.000Z",
+    "name": "Totensonntag",
+    "type": "observance",
+    "rule": "5th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-03 00:00:00",
+    "start": "2028-12-02T23:00:00.000Z",
+    "end": "2028-12-03T23:00:00.000Z",
+    "name": "1. Advent",
+    "type": "observance",
+    "rule": "4th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-10 00:00:00",
+    "start": "2028-12-09T23:00:00.000Z",
+    "end": "2028-12-10T23:00:00.000Z",
+    "name": "2. Advent",
+    "type": "observance",
+    "rule": "3th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-17 00:00:00",
+    "start": "2028-12-16T23:00:00.000Z",
+    "end": "2028-12-17T23:00:00.000Z",
+    "name": "3. Advent",
+    "type": "observance",
+    "rule": "2nd sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-24 00:00:00",
+    "start": "2028-12-23T23:00:00.000Z",
+    "end": "2028-12-24T23:00:00.000Z",
+    "name": "4. Advent",
+    "type": "observance",
+    "rule": "1st sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-24 00:00:00",
+    "start": "2028-12-23T23:00:00.000Z",
+    "end": "2028-12-24T23:00:00.000Z",
+    "name": "Heiliger Abend",
+    "type": "bank",
+    "rule": "12-24 14:00 if sunday then 00:00",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-24T23:00:00.000Z",
+    "end": "2028-12-25T23:00:00.000Z",
+    "name": "1. Weihnachtstag",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-26 00:00:00",
+    "start": "2028-12-25T23:00:00.000Z",
+    "end": "2028-12-26T23:00:00.000Z",
+    "name": "2. Weihnachtstag",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-12-31 00:00:00",
+    "start": "2028-12-30T23:00:00.000Z",
+    "end": "2028-12-31T23:00:00.000Z",
+    "name": "Silvester",
+    "type": "bank",
+    "rule": "12-31 14:00 if sunday then 00:00",
+    "_weekday": "Sun"
+  }
+]
