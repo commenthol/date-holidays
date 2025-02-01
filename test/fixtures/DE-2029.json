@@ -1,0 +1,272 @@
+[
+  {
+    "date": "2029-01-01 00:00:00",
+    "start": "2028-12-31T23:00:00.000Z",
+    "end": "2029-01-01T23:00:00.000Z",
+    "name": "Neujahr",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-02-08 00:00:00",
+    "start": "2029-02-07T23:00:00.000Z",
+    "end": "2029-02-08T23:00:00.000Z",
+    "name": "Weiberfastnacht",
+    "type": "observance",
+    "rule": "easter -52",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-02-12 00:00:00",
+    "start": "2029-02-11T23:00:00.000Z",
+    "end": "2029-02-12T23:00:00.000Z",
+    "name": "Rosenmontag",
+    "type": "observance",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-02-13 14:00:00",
+    "start": "2029-02-13T13:00:00.000Z",
+    "end": "2029-02-13T23:00:00.000Z",
+    "name": "Faschingsdienstag",
+    "type": "observance",
+    "rule": "easter -47 14:00",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-02-14 00:00:00",
+    "start": "2029-02-13T23:00:00.000Z",
+    "end": "2029-02-14T23:00:00.000Z",
+    "name": "Aschermittwoch",
+    "type": "observance",
+    "rule": "easter -46",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-02-14 00:00:00",
+    "start": "2029-02-13T23:00:00.000Z",
+    "end": "2029-02-14T23:00:00.000Z",
+    "name": "Valentinstag",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-03-29 00:00:00",
+    "start": "2029-03-28T22:00:00.000Z",
+    "end": "2029-03-29T22:00:00.000Z",
+    "name": "Gründonnerstag",
+    "type": "observance",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-03-30 00:00:00",
+    "start": "2029-03-29T22:00:00.000Z",
+    "end": "2029-03-30T22:00:00.000Z",
+    "name": "Karfreitag",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-04-01 00:00:00",
+    "start": "2029-03-31T22:00:00.000Z",
+    "end": "2029-04-01T22:00:00.000Z",
+    "name": "Ostersonntag",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-04-02 00:00:00",
+    "start": "2029-04-01T22:00:00.000Z",
+    "end": "2029-04-02T22:00:00.000Z",
+    "name": "Ostermontag",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-05-01 00:00:00",
+    "start": "2029-04-30T22:00:00.000Z",
+    "end": "2029-05-01T22:00:00.000Z",
+    "name": "Maifeiertag",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-05-10 00:00:00",
+    "start": "2029-05-09T22:00:00.000Z",
+    "end": "2029-05-10T22:00:00.000Z",
+    "name": "Christi Himmelfahrt",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-05-13 00:00:00",
+    "start": "2029-05-12T22:00:00.000Z",
+    "end": "2029-05-13T22:00:00.000Z",
+    "name": "Muttertag",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-05-20 00:00:00",
+    "start": "2029-05-19T22:00:00.000Z",
+    "end": "2029-05-20T22:00:00.000Z",
+    "name": "Pfingstsonntag",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-05-21 00:00:00",
+    "start": "2029-05-20T22:00:00.000Z",
+    "end": "2029-05-21T22:00:00.000Z",
+    "name": "Pfingstmontag",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-10-03 00:00:00",
+    "start": "2029-10-02T22:00:00.000Z",
+    "end": "2029-10-03T22:00:00.000Z",
+    "name": "Tag der Deutschen Einheit",
+    "type": "public",
+    "rule": "10-03",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-11-01 00:00:00",
+    "start": "2029-10-31T23:00:00.000Z",
+    "end": "2029-11-01T23:00:00.000Z",
+    "name": "Allerheiligen",
+    "type": "observance",
+    "rule": "11-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-11-02 00:00:00",
+    "start": "2029-11-01T23:00:00.000Z",
+    "end": "2029-11-02T23:00:00.000Z",
+    "name": "Allerseelen",
+    "type": "observance",
+    "rule": "11-02",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-11-11 00:00:00",
+    "start": "2029-11-10T23:00:00.000Z",
+    "end": "2029-11-11T23:00:00.000Z",
+    "name": "Sankt Martin (Faschingsbeginn)",
+    "type": "observance",
+    "rule": "11-11",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-11-18 00:00:00",
+    "start": "2029-11-17T23:00:00.000Z",
+    "end": "2029-11-18T23:00:00.000Z",
+    "name": "Volkstrauertag",
+    "type": "observance",
+    "rule": "6th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-11-21 00:00:00",
+    "start": "2029-11-20T23:00:00.000Z",
+    "end": "2029-11-21T23:00:00.000Z",
+    "name": "Buß- und Bettag",
+    "type": "observance",
+    "rule": "wednesday before 11-23",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-11-25 00:00:00",
+    "start": "2029-11-24T23:00:00.000Z",
+    "end": "2029-11-25T23:00:00.000Z",
+    "name": "Totensonntag",
+    "type": "observance",
+    "rule": "5th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-12-02 00:00:00",
+    "start": "2029-12-01T23:00:00.000Z",
+    "end": "2029-12-02T23:00:00.000Z",
+    "name": "1. Advent",
+    "type": "observance",
+    "rule": "4th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-12-09 00:00:00",
+    "start": "2029-12-08T23:00:00.000Z",
+    "end": "2029-12-09T23:00:00.000Z",
+    "name": "2. Advent",
+    "type": "observance",
+    "rule": "3th sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-12-16 00:00:00",
+    "start": "2029-12-15T23:00:00.000Z",
+    "end": "2029-12-16T23:00:00.000Z",
+    "name": "3. Advent",
+    "type": "observance",
+    "rule": "2nd sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-12-23 00:00:00",
+    "start": "2029-12-22T23:00:00.000Z",
+    "end": "2029-12-23T23:00:00.000Z",
+    "name": "4. Advent",
+    "type": "observance",
+    "rule": "1st sunday before 12-25",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-12-24 14:00:00",
+    "start": "2029-12-24T13:00:00.000Z",
+    "end": "2029-12-24T23:00:00.000Z",
+    "name": "Heiliger Abend",
+    "type": "bank",
+    "rule": "12-24 14:00 if sunday then 00:00",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-12-25 00:00:00",
+    "start": "2029-12-24T23:00:00.000Z",
+    "end": "2029-12-25T23:00:00.000Z",
+    "name": "1. Weihnachtstag",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-12-26 00:00:00",
+    "start": "2029-12-25T23:00:00.000Z",
+    "end": "2029-12-26T23:00:00.000Z",
+    "name": "2. Weihnachtstag",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-12-31 14:00:00",
+    "start": "2029-12-31T13:00:00.000Z",
+    "end": "2029-12-31T23:00:00.000Z",
+    "name": "Silvester",
+    "type": "bank",
+    "rule": "12-31 14:00 if sunday then 00:00",
+    "_weekday": "Mon"
+  }
+]

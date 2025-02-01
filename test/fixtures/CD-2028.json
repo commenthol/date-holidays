@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2027-12-31T22:00:00.000Z",
+    "end": "2028-01-01T22:00:00.000Z",
+    "name": "Nouvel An",
+    "type": "public",
+    "rule": "01-01 and if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-01-04 00:00:00",
+    "start": "2028-01-03T22:00:00.000Z",
+    "end": "2028-01-04T22:00:00.000Z",
+    "name": "Martyrs de l'Indépendance",
+    "type": "public",
+    "rule": "01-04 and if sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-01-16 00:00:00",
+    "start": "2028-01-15T22:00:00.000Z",
+    "end": "2028-01-16T22:00:00.000Z",
+    "name": "Journée du Héro National Laurent Désiré Kabila",
+    "type": "public",
+    "rule": "01-16 and if sunday then next tuesday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-01-17 00:00:00",
+    "start": "2028-01-16T22:00:00.000Z",
+    "end": "2028-01-17T22:00:00.000Z",
+    "name": "Journée du Héro National Patrice Emery Lumumba",
+    "type": "public",
+    "rule": "01-17 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-01-18 00:00:00",
+    "start": "2028-01-17T22:00:00.000Z",
+    "end": "2028-01-18T22:00:00.000Z",
+    "name": "Journée du Héro National Laurent Désiré Kabila (jour substitut)",
+    "type": "public",
+    "substitute": true,
+    "rule": "01-16 and if sunday then next tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-04-30T22:00:00.000Z",
+    "end": "2028-05-01T22:00:00.000Z",
+    "name": "Fête du travail",
+    "type": "public",
+    "rule": "05-01 and if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-17 00:00:00",
+    "start": "2028-05-16T22:00:00.000Z",
+    "end": "2028-05-17T22:00:00.000Z",
+    "name": "Journée de la Révolution et des Forces Armées",
+    "type": "public",
+    "rule": "05-17 and if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-06-30 00:00:00",
+    "start": "2028-06-29T22:00:00.000Z",
+    "end": "2028-06-30T22:00:00.000Z",
+    "name": "Anniversaire de Indépendance",
+    "type": "public",
+    "rule": "06-30 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-08-01 00:00:00",
+    "start": "2028-07-31T22:00:00.000Z",
+    "end": "2028-08-01T22:00:00.000Z",
+    "name": "Fête des parents",
+    "type": "public",
+    "rule": "08-01 and if sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-24T22:00:00.000Z",
+    "end": "2028-12-25T22:00:00.000Z",
+    "name": "Noël",
+    "type": "public",
+    "rule": "12-25 and if sunday then next monday",
+    "_weekday": "Mon"
+  }
+]

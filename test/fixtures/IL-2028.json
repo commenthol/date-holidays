@@ -1,0 +1,303 @@
+[
+  {
+    "date": "2028-01-09 00:00:00 -0600",
+    "start": "2028-01-08T16:00:00.000Z",
+    "end": "2028-01-09T16:00:00.000Z",
+    "name": "צום עשרה בטבת",
+    "type": "observance",
+    "rule": "10 Tevet",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-02-12 00:00:00 -0600",
+    "start": "2028-02-11T16:00:00.000Z",
+    "end": "2028-02-12T16:00:00.000Z",
+    "name": "ט\"ו בשבט",
+    "type": "observance",
+    "rule": "15 Shvat",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-03-09 00:00:00 -0600",
+    "start": "2028-03-08T16:00:00.000Z",
+    "end": "2028-03-09T16:00:00.000Z",
+    "name": "תענית אסתר",
+    "type": "school",
+    "rule": "13 AdarII if Saturday then previous Thursday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-03-12 00:00:00 -0600",
+    "start": "2028-03-11T16:00:00.000Z",
+    "end": "2028-03-13T16:00:00.000Z",
+    "name": "פורים",
+    "type": "school",
+    "note": "optional paid leave",
+    "rule": "14 AdarII P2D",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-06 00:00:00 -0600",
+    "start": "2028-04-05T15:00:00.000Z",
+    "end": "2028-04-06T15:00:00.000Z",
+    "name": "יום העלייה",
+    "type": "observance",
+    "note": "Official holiday, business as usual",
+    "rule": "10 Nisan",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-04-11 00:00:00 -0600",
+    "start": "2028-04-10T15:00:00.000Z",
+    "end": "2028-04-11T15:00:00.000Z",
+    "name": "פסח",
+    "type": "public",
+    "rule": "15 Nisan",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-04-12 00:00:00 -0600",
+    "start": "2028-04-11T15:00:00.000Z",
+    "end": "2028-04-16T15:00:00.000Z",
+    "name": "חול המועד פסח",
+    "type": "school",
+    "note": "School holiday, collective paid leave in many businesses and government offices",
+    "rule": "16 Nisan P5D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-04-17 00:00:00 -0600",
+    "start": "2028-04-16T15:00:00.000Z",
+    "end": "2028-04-17T15:00:00.000Z",
+    "name": "מימונה, שביעי של פסח",
+    "type": "public",
+    "rule": "21 Nisan",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-04-24 00:00:00 -0600",
+    "start": "2028-04-23T15:00:00.000Z",
+    "end": "2028-04-24T15:00:00.000Z",
+    "name": "יום הזיכרון לשואה ולגבורה",
+    "type": "observance",
+    "note": "National remembrance day, business as usual except places of public entertainment",
+    "rule": "27 Nisan if Friday then previous Thursday if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-01 00:00:00 -0600",
+    "start": "2028-04-30T15:00:00.000Z",
+    "end": "2028-05-01T15:00:00.000Z",
+    "name": "יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה",
+    "type": "observance",
+    "note": "National remembrance day, business as usual except places of public entertainment",
+    "rule": "4 Iyyar if Thursday,Friday then previous Wednesday if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-02 00:00:00 -0600",
+    "start": "2028-05-01T15:00:00.000Z",
+    "end": "2028-05-02T15:00:00.000Z",
+    "name": "יום העצמאות",
+    "type": "public",
+    "rule": "5 Iyyar if Friday,Saturday then previous Thursday if Monday then next Tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-05-07 00:00:00 -0600",
+    "start": "2028-05-06T15:00:00.000Z",
+    "end": "2028-05-07T15:00:00.000Z",
+    "name": "יום הרצל",
+    "type": "observance",
+    "note": "Day marked by the Knesset",
+    "rule": "10 Iyyar if Saturday then next Sunday since 2004",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-05-09 00:00:00",
+    "start": "2028-05-08T21:00:00.000Z",
+    "end": "2028-05-09T21:00:00.000Z",
+    "name": "יום הניצחון על גרמניה הנאצית",
+    "type": "observance",
+    "rule": "05-09",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-05-14 00:00:00 -0600",
+    "start": "2028-05-13T15:00:00.000Z",
+    "end": "2028-05-14T15:00:00.000Z",
+    "name": "ל\"ג בעומר",
+    "type": "school",
+    "rule": "18 Iyyar",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-05-24 00:00:00 -0600",
+    "start": "2028-05-23T15:00:00.000Z",
+    "end": "2028-05-24T15:00:00.000Z",
+    "name": "יום ירושלים",
+    "type": "observance",
+    "note": "Optional paid leave",
+    "rule": "28 Iyyar",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-05-31 00:00:00 -0600",
+    "start": "2028-05-30T15:00:00.000Z",
+    "end": "2028-05-31T15:00:00.000Z",
+    "name": "שבועות",
+    "type": "public",
+    "rule": "6 Sivan",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-07-11 00:00:00 -0600",
+    "start": "2028-07-10T15:00:00.000Z",
+    "end": "2028-07-11T15:00:00.000Z",
+    "name": "שבעה עשר בתמוז",
+    "type": "observance",
+    "rule": "17 Tamuz if Saturday then next Sunday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-07-23 00:00:00 -0600",
+    "start": "2028-07-22T15:00:00.000Z",
+    "end": "2028-07-23T15:00:00.000Z",
+    "name": "יום ז'בוטינסקי",
+    "type": "observance",
+    "note": "Day marked by the Knesset",
+    "rule": "29 Tamuz if Saturday then next Sunday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-08-01 00:00:00 -0600",
+    "start": "2028-07-31T15:00:00.000Z",
+    "end": "2028-08-01T15:00:00.000Z",
+    "name": "תשעה באב",
+    "type": "observance",
+    "note": "Optional paid leave, business as usual except places of public entertainment",
+    "rule": "9 Av if Saturday then next Sunday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-08-07 00:00:00 -0600",
+    "start": "2028-08-06T15:00:00.000Z",
+    "end": "2028-08-07T15:00:00.000Z",
+    "name": "ט\"ו באב",
+    "type": "observance",
+    "rule": "15 Av",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-09-21 00:00:00 -0600",
+    "start": "2028-09-20T15:00:00.000Z",
+    "end": "2028-09-21T15:00:00.000Z",
+    "name": "ראש השנה",
+    "type": "public",
+    "rule": "1 Tishrei",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-09-22 00:00:00 -0600",
+    "start": "2028-09-21T15:00:00.000Z",
+    "end": "2028-09-22T15:00:00.000Z",
+    "name": "ראש השנה יום 2",
+    "type": "public",
+    "rule": "2 Tishrei",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-09-24 00:00:00 -0600",
+    "start": "2028-09-23T15:00:00.000Z",
+    "end": "2028-09-24T15:00:00.000Z",
+    "name": "צום גדליה",
+    "type": "observance",
+    "rule": "3 Tishrei if Saturday then next Sunday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-09-30 00:00:00 -0600",
+    "start": "2028-09-29T15:00:00.000Z",
+    "end": "2028-09-30T15:00:00.000Z",
+    "name": "יום כיפור",
+    "type": "public",
+    "rule": "10 Tishrei",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-10-05 00:00:00 -0600",
+    "start": "2028-10-04T15:00:00.000Z",
+    "end": "2028-10-05T15:00:00.000Z",
+    "name": "סוכות",
+    "type": "public",
+    "rule": "15 Tishrei",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-10-06 00:00:00 -0600",
+    "start": "2028-10-05T15:00:00.000Z",
+    "end": "2028-10-11T15:00:00.000Z",
+    "name": "חול המועד סוכות",
+    "type": "school",
+    "note": "Collective paid leave in many businesses and government offices",
+    "rule": "16 Tishrei P6D",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-10-12 00:00:00 -0600",
+    "start": "2028-10-11T15:00:00.000Z",
+    "end": "2028-10-12T15:00:00.000Z",
+    "name": "שמחת תורה/שמיני עצרת",
+    "type": "public",
+    "rule": "22 Tishrei",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-11-01 00:00:00 -0600",
+    "start": "2028-10-31T16:00:00.000Z",
+    "end": "2028-11-01T16:00:00.000Z",
+    "name": "יום רבין",
+    "type": "observance",
+    "note": "National remembrance day, business as usual",
+    "rule": "12 Cheshvan if Friday,Saturday then previous Thursday since 1997",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-11-18 00:00:00 -0600",
+    "start": "2028-11-17T16:00:00.000Z",
+    "end": "2028-11-18T16:00:00.000Z",
+    "name": "סיגד",
+    "type": "observance",
+    "note": "Festival of the Ethiopian Jews, optional paid leave, business as usual",
+    "rule": "29 Cheshvan",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-11-24 00:00:00 -0600",
+    "start": "2028-11-23T16:00:00.000Z",
+    "end": "2028-11-24T16:00:00.000Z",
+    "name": "יום בן-גוריון",
+    "type": "observance",
+    "note": "Day marked by the Knesset",
+    "rule": "6 Kislev if Saturday then next Sunday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-12-13 00:00:00 -0600",
+    "start": "2028-12-12T16:00:00.000Z",
+    "end": "2028-12-20T16:00:00.000Z",
+    "name": "חנוכה",
+    "type": "school",
+    "rule": "25 Kislev P8D",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-12-28 00:00:00 -0600",
+    "start": "2028-12-27T16:00:00.000Z",
+    "end": "2028-12-28T16:00:00.000Z",
+    "name": "צום עשרה בטבת",
+    "type": "observance",
+    "rule": "10 Tevet",
+    "_weekday": "Thu"
+  }
+]

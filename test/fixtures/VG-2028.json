@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2028-01-01T04:00:00.000Z",
+    "end": "2028-01-02T04:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-03-06 00:00:00",
+    "start": "2028-03-06T04:00:00.000Z",
+    "end": "2028-03-07T04:00:00.000Z",
+    "name": "The Anniversary of the Birth of Hamilton Lavity Stoutt",
+    "type": "public",
+    "rule": "Monday before 03-08",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-03-13 00:00:00",
+    "start": "2028-03-13T04:00:00.000Z",
+    "end": "2028-03-14T04:00:00.000Z",
+    "name": "Commonwealth Day",
+    "type": "public",
+    "rule": "2nd Monday in March",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-14T04:00:00.000Z",
+    "end": "2028-04-15T04:00:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-16T04:00:00.000Z",
+    "end": "2028-04-17T04:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-17 00:00:00",
+    "start": "2028-04-17T04:00:00.000Z",
+    "end": "2028-04-18T04:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-04 00:00:00",
+    "start": "2028-06-04T04:00:00.000Z",
+    "end": "2028-06-05T04:00:00.000Z",
+    "name": "Pentecost",
+    "type": "observance",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-06-05 00:00:00",
+    "start": "2028-06-05T04:00:00.000Z",
+    "end": "2028-06-06T04:00:00.000Z",
+    "name": "Whit Monday",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-09 00:00:00",
+    "start": "2028-06-09T04:00:00.000Z",
+    "end": "2028-06-10T04:00:00.000Z",
+    "name": "Sovereign’s Birthday",
+    "type": "public",
+    "rule": "2nd Friday after 06-02 since 2020",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-06-30 00:00:00",
+    "start": "2028-06-30T04:00:00.000Z",
+    "end": "2028-07-01T04:00:00.000Z",
+    "name": "Virgin Islands Day",
+    "type": "public",
+    "rule": "07-01 if Sunday,Thursday then next Monday if Saturday then previous Friday if Tuesday,Wednesday then previous Monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-08-07 00:00:00",
+    "start": "2028-08-07T04:00:00.000Z",
+    "end": "2028-08-08T04:00:00.000Z",
+    "name": "Emancipation Monday",
+    "type": "public",
+    "rule": "1st Monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-08-08 00:00:00",
+    "start": "2028-08-08T04:00:00.000Z",
+    "end": "2028-08-09T04:00:00.000Z",
+    "name": "Emancipation Tuesday",
+    "type": "public",
+    "rule": "Tuesday after 1st Monday in August",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-08-09 00:00:00",
+    "start": "2028-08-09T04:00:00.000Z",
+    "end": "2028-08-10T04:00:00.000Z",
+    "name": "Emancipation Wednesday",
+    "type": "public",
+    "rule": "Wednesday after 1st Monday in August",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-10-20 00:00:00",
+    "start": "2028-10-20T04:00:00.000Z",
+    "end": "2028-10-21T04:00:00.000Z",
+    "name": "St. Ursula’s Day",
+    "type": "public",
+    "rule": "10-21 if Sunday then next Monday if Saturday then previous Friday if Tuesday,Wednesday then previous Monday if Thursday then next Friday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-25T04:00:00.000Z",
+    "end": "2028-12-26T04:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-26 00:00:00",
+    "start": "2028-12-26T04:00:00.000Z",
+    "end": "2028-12-27T04:00:00.000Z",
+    "name": "Boxing Day",
+    "type": "public",
+    "rule": "12-26 and if Saturday then next Monday if Sunday then next Tuesday",
+    "_weekday": "Tue"
+  }
+]

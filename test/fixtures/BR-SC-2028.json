@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2028-01-01T03:00:00.000Z",
+    "end": "2028-01-02T03:00:00.000Z",
+    "name": "Ano Novo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-02-26 00:00:00",
+    "start": "2028-02-26T03:00:00.000Z",
+    "end": "2028-03-01T17:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT110H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-14T03:00:00.000Z",
+    "end": "2028-04-15T03:00:00.000Z",
+    "name": "Sexta-Feira Santa",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-16T03:00:00.000Z",
+    "end": "2028-04-17T03:00:00.000Z",
+    "name": "Páscoa",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-21 00:00:00",
+    "start": "2028-04-21T03:00:00.000Z",
+    "end": "2028-04-22T03:00:00.000Z",
+    "name": "Dia de Tiradentes",
+    "type": "public",
+    "rule": "04-21",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-05-01T03:00:00.000Z",
+    "end": "2028-05-02T03:00:00.000Z",
+    "name": "Dia do trabalhador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-14 00:00:00",
+    "start": "2028-05-14T03:00:00.000Z",
+    "end": "2028-05-15T03:00:00.000Z",
+    "name": "Dia das Mães",
+    "type": "observance",
+    "rule": "2nd sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-06-12 00:00:00",
+    "start": "2028-06-12T03:00:00.000Z",
+    "end": "2028-06-13T03:00:00.000Z",
+    "name": "Dia dos Namorados",
+    "type": "observance",
+    "rule": "06-12",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-15 00:00:00",
+    "start": "2028-06-15T03:00:00.000Z",
+    "end": "2028-06-16T03:00:00.000Z",
+    "name": "Corpo de Deus",
+    "type": "optional",
+    "rule": "easter 60",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-08-13 00:00:00",
+    "start": "2028-08-13T03:00:00.000Z",
+    "end": "2028-08-14T03:00:00.000Z",
+    "name": "Dia de Santa Catarina",
+    "type": "public",
+    "rule": "08-11 if monday,tuesday,wednesday,thursday,friday,saturday then next sunday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-08-13 00:00:00",
+    "start": "2028-08-13T03:00:00.000Z",
+    "end": "2028-08-14T03:00:00.000Z",
+    "name": "Dia dos Pais",
+    "type": "observance",
+    "rule": "2nd sunday in August",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-09-07 00:00:00",
+    "start": "2028-09-07T03:00:00.000Z",
+    "end": "2028-09-08T03:00:00.000Z",
+    "name": "Dia da Independência",
+    "type": "public",
+    "rule": "09-07",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-10-01 00:00:00",
+    "start": "2028-10-01T03:00:00.000Z",
+    "end": "2028-10-02T03:00:00.000Z",
+    "name": "Dia de Eleição",
+    "type": "public",
+    "rule": "1st sunday in October in even years",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-10-12 00:00:00",
+    "start": "2028-10-12T03:00:00.000Z",
+    "end": "2028-10-13T03:00:00.000Z",
+    "name": "Nossa Senhora Aparecida",
+    "type": "public",
+    "rule": "10-12",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-10-29 00:00:00",
+    "start": "2028-10-29T03:00:00.000Z",
+    "end": "2028-10-30T03:00:00.000Z",
+    "name": "Dia de Eleição",
+    "type": "public",
+    "rule": "1st sunday before 11-01 in even years",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-11-02 00:00:00",
+    "start": "2028-11-02T03:00:00.000Z",
+    "end": "2028-11-03T03:00:00.000Z",
+    "name": "Dia de Finados",
+    "type": "public",
+    "rule": "11-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-11-15 00:00:00",
+    "start": "2028-11-15T03:00:00.000Z",
+    "end": "2028-11-16T03:00:00.000Z",
+    "name": "Proclamação da República",
+    "type": "public",
+    "rule": "11-15",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-11-20 00:00:00",
+    "start": "2028-11-20T03:00:00.000Z",
+    "end": "2028-11-21T03:00:00.000Z",
+    "name": "Dia da Consciência Negra",
+    "type": "public",
+    "rule": "11-20",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-11-26 00:00:00",
+    "start": "2028-11-26T03:00:00.000Z",
+    "end": "2028-11-27T03:00:00.000Z",
+    "name": "Dia de Santa Catarina de Alexandria",
+    "type": "public",
+    "rule": "11-25 if monday,tuesday,wednesday,thursday,friday,saturday then next sunday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-24 14:00:00",
+    "start": "2028-12-24T17:00:00.000Z",
+    "end": "2028-12-25T03:00:00.000Z",
+    "name": "Noite de Natal",
+    "type": "optional",
+    "rule": "12-24 14:00",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-25T03:00:00.000Z",
+    "end": "2028-12-26T03:00:00.000Z",
+    "name": "Natal",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-31 14:00:00",
+    "start": "2028-12-31T17:00:00.000Z",
+    "end": "2029-01-01T03:00:00.000Z",
+    "name": "Véspera de Ano Novo",
+    "type": "optional",
+    "rule": "12-31 14:00",
+    "_weekday": "Sun"
+  }
+]

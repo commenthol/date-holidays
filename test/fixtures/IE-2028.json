@@ -1,0 +1,128 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2028-01-01T00:00:00.000Z",
+    "end": "2028-01-02T00:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-02-07 00:00:00",
+    "start": "2028-02-07T00:00:00.000Z",
+    "end": "2028-02-08T00:00:00.000Z",
+    "name": "St. Brigid’s Day",
+    "type": "public",
+    "rule": "02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-03-17 00:00:00",
+    "start": "2028-03-17T00:00:00.000Z",
+    "end": "2028-03-18T00:00:00.000Z",
+    "name": "St. Patrick’s Day",
+    "type": "public",
+    "rule": "03-17",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-03-26 00:00:00",
+    "start": "2028-03-26T00:00:00.000Z",
+    "end": "2028-03-26T23:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "rule": "easter -21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-13T23:00:00.000Z",
+    "end": "2028-04-14T23:00:00.000Z",
+    "name": "Good Friday",
+    "type": "bank",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-15T23:00:00.000Z",
+    "end": "2028-04-16T23:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-17 00:00:00",
+    "start": "2028-04-16T23:00:00.000Z",
+    "end": "2028-04-17T23:00:00.000Z",
+    "name": "Easter Monday",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-04-30T23:00:00.000Z",
+    "end": "2028-05-01T23:00:00.000Z",
+    "name": "May Day",
+    "type": "public",
+    "rule": "1st monday in May",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-05 00:00:00",
+    "start": "2028-06-04T23:00:00.000Z",
+    "end": "2028-06-05T23:00:00.000Z",
+    "name": "First Monday in June",
+    "type": "public",
+    "rule": "1st monday in June",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-18 00:00:00",
+    "start": "2028-06-17T23:00:00.000Z",
+    "end": "2028-06-18T23:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "rule": "3rd sunday in June",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-08-07 00:00:00",
+    "start": "2028-08-06T23:00:00.000Z",
+    "end": "2028-08-07T23:00:00.000Z",
+    "name": "First Monday in August",
+    "type": "public",
+    "rule": "1st monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-10-30 00:00:00",
+    "start": "2028-10-30T00:00:00.000Z",
+    "end": "2028-10-31T00:00:00.000Z",
+    "name": "October Bank Holiday",
+    "type": "public",
+    "rule": "1st Monday before 11-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-25T00:00:00.000Z",
+    "end": "2028-12-26T00:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-26 00:00:00",
+    "start": "2028-12-26T00:00:00.000Z",
+    "end": "2028-12-27T00:00:00.000Z",
+    "name": "St. Stephen's Day",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Tue"
+  }
+]

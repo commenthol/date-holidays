@@ -35,8 +35,8 @@ function options (argv) {
 options(process.argv.splice(2))
 
 let years = process.env.TEST_XXL
-  ? [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027]
-  : [2021, 2022, 2023, 2024, 2025, 2026, 2027]
+  ? [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029]
+  : [2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029]
 
 function filename (name) {
   const file = path.join(__dirname, 'fixtures', name + '.json')

@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2027-12-31T23:00:00.000Z",
+    "end": "2028-01-01T23:00:00.000Z",
+    "name": "Újév",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-02-01 00:00:00",
+    "start": "2028-01-31T23:00:00.000Z",
+    "end": "2028-02-01T23:00:00.000Z",
+    "name": "A köztársaság emléknapja",
+    "type": "observance",
+    "rule": "02-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-02-25 00:00:00",
+    "start": "2028-02-24T23:00:00.000Z",
+    "end": "2028-02-25T23:00:00.000Z",
+    "name": "A kommunista diktatúrák áldozatainak emléknapja",
+    "type": "observance",
+    "rule": "02-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-03-08 00:00:00",
+    "start": "2028-03-07T23:00:00.000Z",
+    "end": "2028-03-08T23:00:00.000Z",
+    "name": "Nemzetközi nőnap",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-03-15 00:00:00",
+    "start": "2028-03-14T23:00:00.000Z",
+    "end": "2028-03-15T23:00:00.000Z",
+    "name": "1848-as forradalom",
+    "type": "public",
+    "rule": "03-15",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-04-14 00:00:00",
+    "start": "2028-04-13T22:00:00.000Z",
+    "end": "2028-04-14T22:00:00.000Z",
+    "name": "Nagypéntek",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-15T22:00:00.000Z",
+    "end": "2028-04-16T22:00:00.000Z",
+    "name": "A holokauszt áldozatainak emléknapja",
+    "type": "observance",
+    "rule": "04-16",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-15T22:00:00.000Z",
+    "end": "2028-04-16T22:00:00.000Z",
+    "name": "Húsvétvasárnap",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-04-17 00:00:00",
+    "start": "2028-04-16T22:00:00.000Z",
+    "end": "2028-04-17T22:00:00.000Z",
+    "name": "Húsvéthétfő",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-01 00:00:00",
+    "start": "2028-04-30T22:00:00.000Z",
+    "end": "2028-05-01T22:00:00.000Z",
+    "name": "A munka ünnepe",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-05-07 00:00:00",
+    "start": "2028-05-06T22:00:00.000Z",
+    "end": "2028-05-07T22:00:00.000Z",
+    "name": "Anyák napja",
+    "type": "observance",
+    "rule": "1st sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-05-21 00:00:00",
+    "start": "2028-05-20T22:00:00.000Z",
+    "end": "2028-05-21T22:00:00.000Z",
+    "name": "Honvédelmi nap",
+    "type": "observance",
+    "rule": "05-21",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-06-04 00:00:00",
+    "start": "2028-06-03T22:00:00.000Z",
+    "end": "2028-06-04T22:00:00.000Z",
+    "name": "A nemzeti összetartozás napja",
+    "type": "observance",
+    "rule": "06-04",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-06-04 00:00:00",
+    "start": "2028-06-03T22:00:00.000Z",
+    "end": "2028-06-04T22:00:00.000Z",
+    "name": "Pünkösdvasárnap",
+    "type": "public",
+    "rule": "easter 49",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-06-05 00:00:00",
+    "start": "2028-06-04T22:00:00.000Z",
+    "end": "2028-06-05T22:00:00.000Z",
+    "name": "Pünkösdhétfő",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-06-19 00:00:00",
+    "start": "2028-06-18T22:00:00.000Z",
+    "end": "2028-06-19T22:00:00.000Z",
+    "name": "A független Magyarország napja",
+    "type": "observance",
+    "rule": "06-19",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-08-20 00:00:00",
+    "start": "2028-08-19T22:00:00.000Z",
+    "end": "2028-08-20T22:00:00.000Z",
+    "name": "Szent István ünnepe",
+    "type": "public",
+    "rule": "08-20",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-10-06 00:00:00",
+    "start": "2028-10-05T22:00:00.000Z",
+    "end": "2028-10-06T22:00:00.000Z",
+    "name": "Az aradi vértanúk emléknapja",
+    "type": "observance",
+    "rule": "10-06",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-10-23 00:00:00",
+    "start": "2028-10-22T22:00:00.000Z",
+    "end": "2028-10-23T22:00:00.000Z",
+    "name": "1956-os forradalom",
+    "type": "public",
+    "rule": "10-23",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-11-01 00:00:00",
+    "start": "2028-10-31T23:00:00.000Z",
+    "end": "2028-11-01T23:00:00.000Z",
+    "name": "Mindenszentek",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-12-06 00:00:00",
+    "start": "2028-12-05T23:00:00.000Z",
+    "end": "2028-12-06T23:00:00.000Z",
+    "name": "Mikulás",
+    "type": "observance",
+    "rule": "12-06",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-12-24 00:00:00",
+    "start": "2028-12-23T23:00:00.000Z",
+    "end": "2028-12-24T23:00:00.000Z",
+    "name": "Szenteste",
+    "type": "optional",
+    "rule": "12-24",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-24T23:00:00.000Z",
+    "end": "2028-12-25T23:00:00.000Z",
+    "name": "Karácsony",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-26 00:00:00",
+    "start": "2028-12-25T23:00:00.000Z",
+    "end": "2028-12-26T23:00:00.000Z",
+    "name": "Karácsony másnapja",
+    "type": "public",
+    "rule": "12-26",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-12-31 00:00:00",
+    "start": "2028-12-30T23:00:00.000Z",
+    "end": "2028-12-31T23:00:00.000Z",
+    "name": "Szilveszter",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Sun"
+  }
+]

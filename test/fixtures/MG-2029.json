@@ -1,0 +1,140 @@
+[
+  {
+    "date": "2029-01-01 00:00:00",
+    "start": "2028-12-31T21:00:00.000Z",
+    "end": "2029-01-01T21:00:00.000Z",
+    "name": "Taom-baovao",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-02-14 00:00:00 -0600",
+    "start": "2029-02-13T15:00:00.000Z",
+    "end": "2029-02-14T15:00:00.000Z",
+    "name": "Fête de fin du Ramadan",
+    "type": "public",
+    "note": "For Muslim",
+    "rule": "1 Shawwal",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-03-08 00:00:00",
+    "start": "2029-03-07T21:00:00.000Z",
+    "end": "2029-03-08T21:00:00.000Z",
+    "name": "Andro iraisam-pirenena ho an'ny vehivavy",
+    "type": "public",
+    "note": "only for women",
+    "rule": "03-08",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-03-29 00:00:00",
+    "start": "2029-03-28T21:00:00.000Z",
+    "end": "2029-03-29T21:00:00.000Z",
+    "name": "Martioran'ny tolona tamin'ny 1947",
+    "type": "public",
+    "rule": "03-29",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-04-01 00:00:00",
+    "start": "2029-03-31T21:00:00.000Z",
+    "end": "2029-04-01T21:00:00.000Z",
+    "name": "Pâques",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2029-04-02 00:00:00",
+    "start": "2029-04-01T21:00:00.000Z",
+    "end": "2029-04-02T21:00:00.000Z",
+    "name": "Alatsinain'ny Paska",
+    "type": "public",
+    "rule": "easter 1",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-04-24 00:00:00 -0600",
+    "start": "2029-04-23T15:00:00.000Z",
+    "end": "2029-04-24T15:00:00.000Z",
+    "name": "Fête du mouton",
+    "type": "public",
+    "note": "For Muslim",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-05-01 00:00:00",
+    "start": "2029-04-30T21:00:00.000Z",
+    "end": "2029-05-01T21:00:00.000Z",
+    "name": "Fetin'ny asa",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-05-10 00:00:00",
+    "start": "2029-05-09T21:00:00.000Z",
+    "end": "2029-05-10T21:00:00.000Z",
+    "name": "Andro niakarana",
+    "type": "public",
+    "rule": "easter 39",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-05-21 00:00:00",
+    "start": "2029-05-20T21:00:00.000Z",
+    "end": "2029-05-21T21:00:00.000Z",
+    "name": "Alatsinain'ny Pentekosta",
+    "type": "public",
+    "rule": "easter 50",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2029-05-25 00:00:00",
+    "start": "2029-05-24T21:00:00.000Z",
+    "end": "2029-05-25T21:00:00.000Z",
+    "name": "Andron'i Afrika",
+    "type": "public",
+    "rule": "05-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2029-06-26 00:00:00",
+    "start": "2029-06-25T21:00:00.000Z",
+    "end": "2029-06-26T21:00:00.000Z",
+    "name": "Fetim-pirenena",
+    "type": "public",
+    "rule": "06-26",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2029-08-15 00:00:00",
+    "start": "2029-08-14T21:00:00.000Z",
+    "end": "2029-08-15T21:00:00.000Z",
+    "name": "Asompsiona",
+    "type": "public",
+    "rule": "08-15",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2029-11-01 00:00:00",
+    "start": "2029-10-31T21:00:00.000Z",
+    "end": "2029-11-01T21:00:00.000Z",
+    "name": "Fetin'ny olo-masina",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2029-12-25 00:00:00",
+    "start": "2029-12-24T21:00:00.000Z",
+    "end": "2029-12-25T21:00:00.000Z",
+    "name": "Krismasy",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  }
+]

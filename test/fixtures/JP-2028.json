@@ -1,0 +1,191 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2027-12-31T15:00:00.000Z",
+    "end": "2028-01-01T15:00:00.000Z",
+    "name": "元日",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-01-02 00:00:00",
+    "start": "2028-01-01T15:00:00.000Z",
+    "end": "2028-01-02T15:00:00.000Z",
+    "name": "銀行休業日",
+    "type": "bank",
+    "rule": "01-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-01-03 00:00:00",
+    "start": "2028-01-02T15:00:00.000Z",
+    "end": "2028-01-03T15:00:00.000Z",
+    "name": "銀行休業日",
+    "type": "bank",
+    "rule": "01-03",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-01-10 00:00:00",
+    "start": "2028-01-09T15:00:00.000Z",
+    "end": "2028-01-10T15:00:00.000Z",
+    "name": "成人の日",
+    "type": "public",
+    "rule": "2nd monday in January",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-02-11 00:00:00",
+    "start": "2028-02-10T15:00:00.000Z",
+    "end": "2028-02-11T15:00:00.000Z",
+    "name": "建国記念の日",
+    "type": "public",
+    "rule": "02-11",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-02-23 00:00:00",
+    "start": "2028-02-22T15:00:00.000Z",
+    "end": "2028-02-23T15:00:00.000Z",
+    "name": "天皇誕生日",
+    "type": "public",
+    "rule": "02-23 and if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-03-20 00:00:00",
+    "start": "2028-03-19T15:00:00.000Z",
+    "end": "2028-03-20T15:00:00.000Z",
+    "name": "春分の日",
+    "type": "public",
+    "rule": "march equinox in +09:00",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-04-29 00:00:00",
+    "start": "2028-04-28T15:00:00.000Z",
+    "end": "2028-04-29T15:00:00.000Z",
+    "name": "昭和の日",
+    "type": "public",
+    "rule": "04-29 and if sunday then next monday #2",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-05-03 00:00:00",
+    "start": "2028-05-02T15:00:00.000Z",
+    "end": "2028-05-03T15:00:00.000Z",
+    "name": "憲法記念日",
+    "type": "public",
+    "rule": "05-03",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-05-04 00:00:00",
+    "start": "2028-05-03T15:00:00.000Z",
+    "end": "2028-05-04T15:00:00.000Z",
+    "name": "みどりの日",
+    "type": "public",
+    "rule": "05-04 and if sunday then next tuesday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-05-05 00:00:00",
+    "start": "2028-05-04T15:00:00.000Z",
+    "end": "2028-05-05T15:00:00.000Z",
+    "name": "こどもの日",
+    "type": "public",
+    "rule": "05-05",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-07-17 00:00:00",
+    "start": "2028-07-16T15:00:00.000Z",
+    "end": "2028-07-17T15:00:00.000Z",
+    "name": "海の日",
+    "type": "public",
+    "rule": "3rd monday in July",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-08-11 00:00:00",
+    "start": "2028-08-10T15:00:00.000Z",
+    "end": "2028-08-11T15:00:00.000Z",
+    "name": "山の日",
+    "type": "public",
+    "rule": "substitutes 08-11 and if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-09-18 00:00:00",
+    "start": "2028-09-17T15:00:00.000Z",
+    "end": "2028-09-18T15:00:00.000Z",
+    "name": "敬老の日",
+    "type": "public",
+    "rule": "3rd monday in September",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-09-22 00:00:00",
+    "start": "2028-09-21T15:00:00.000Z",
+    "end": "2028-09-22T15:00:00.000Z",
+    "name": "秋分の日",
+    "type": "public",
+    "rule": "september equinox in +09:00",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-10-09 00:00:00",
+    "start": "2028-10-08T15:00:00.000Z",
+    "end": "2028-10-09T15:00:00.000Z",
+    "name": "スポーツの日",
+    "type": "public",
+    "rule": "2nd monday in October #2",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-11-03 00:00:00",
+    "start": "2028-11-02T15:00:00.000Z",
+    "end": "2028-11-03T15:00:00.000Z",
+    "name": "文化の日",
+    "type": "public",
+    "rule": "11-03",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-11-15 00:00:00",
+    "start": "2028-11-14T15:00:00.000Z",
+    "end": "2028-11-15T15:00:00.000Z",
+    "name": "七五三",
+    "type": "observance",
+    "rule": "11-15",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-11-23 00:00:00",
+    "start": "2028-11-22T15:00:00.000Z",
+    "end": "2028-11-23T15:00:00.000Z",
+    "name": "勤労感謝の日",
+    "type": "public",
+    "rule": "11-23",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2028-12-25 00:00:00",
+    "start": "2028-12-24T15:00:00.000Z",
+    "end": "2028-12-25T15:00:00.000Z",
+    "name": "ノエル",
+    "type": "observance",
+    "rule": "12-25",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-31 00:00:00",
+    "start": "2028-12-30T15:00:00.000Z",
+    "end": "2028-12-31T15:00:00.000Z",
+    "name": "大晦日",
+    "type": "bank",
+    "rule": "12-31",
+    "_weekday": "Sun"
+  }
+]
