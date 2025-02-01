@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.24.0](https://github.com/commenthol/date-holidays/compare/3.23.19...3.24.0) (2025-02-01)
+
+- feat(PL, #512): add non-public holidays [2282059c](https://github.com/commenthol/date-holidays/commit/2282059c5e1ef2a2c3f7279913e7cc6bb081f729)
+- test: extend fixtures to 2028, 2029 [81a2fabe](https://github.com/commenthol/date-holidays/commit/81a2fabe47bc994644148ed38292c1e0be652846)
+- fix(DE-BE): 75th anniversary of the GDR uprising [89481547](https://github.com/commenthol/date-holidays/commit/89481547590369632bb46b368641d6700db59a48)
+
 ## [3.23.19](https://github.com/commenthol/date-holidays/compare/3.23.18...3.23.19) (2025-02-01)
 
 - test(ID): Apply test for ID Holiday 2025 until 2027 [f271b3f2](https://github.com/commenthol/date-holidays/commit/f271b3f2b13424d0e9c27b0c404debb6d9d9126f)
