@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.23.19](https://github.com/commenthol/date-holidays/compare/3.23.18...3.23.19) (2025-02-01)
+
+- test(ID): Apply test for ID Holiday 2025 until 2027 [f271b3f2](https://github.com/commenthol/date-holidays/commit/f271b3f2b13424d0e9c27b0c404debb6d9d9126f)
+- fix(ID): Update Nyepi Holiday 2027 [0b6f5ffd](https://github.com/commenthol/date-holidays/commit/0b6f5ffd2ef1c165adba38452d1e311fc0f4b8da)
+- fix(ID): Add Nyepi Holiday dates until 2027 [129d3ecd](https://github.com/commenthol/date-holidays/commit/129d3ecd0e9351d0cc4edd17e2aaa673335627c5)
+- fix(ID): Add Waisak holiday dates until 2027 [947c37ce](https://github.com/commenthol/date-holidays/commit/947c37ce28aa5e5dde8bacbaf290062cb48fbdea)
+- fix(PL, #507): add Christmas Eve as public holiday since 2025 [737ef6ff](https://github.com/commenthol/date-holidays/commit/737ef6ffb0cd2e869d05b6467626600be3f142fd)
+- fix(DE-BE): add liberation day 2025 for DE-BE [c480c86f](https://github.com/commenthol/date-holidays/commit/c480c86f48b7b37d6f17622cba4ee03b0c2dffe5)
+
 ## [3.23.18](https://github.com/commenthol/date-holidays/compare/3.23.17...3.23.18) (2025-01-08)
 
 - fix(NL): state and region names [246cd650](https://github.com/commenthol/date-holidays/commit/246cd650f98060a84e9dd585b408b4287165ed28)
