@@ -41,13 +41,9 @@ holidays:
           sk: Výročie Slovenského národného povstania
           en: Slovak National Uprising anniversary
       09-01 since 1994 and prior to 2024:
-        name: 
-          en: Constitution Day
-          sk: Deň Ústavy Slovenskej republiky
+        _name: Constitution Day
       09-01 since 2024:
-        name: 
-          en: Constitution Day
-          sk: Deň Ústavy Slovenskej republiky
+        _name: Constitution Day
         type: observance
       09-15:
         name:
