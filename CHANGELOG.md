@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.23.21](https://github.com/commenthol/date-holidays/compare/3.23.20...3.23.21) (2025-02-09)
+
+- fix(SG): Public holidays 2025 update [f240bce6](https://github.com/commenthol/date-holidays/commit/f240bce69381f39cf1600f23b92f8ea776b799a4)
+- fix(SG): Update dates of SG public holidays hari raya [7fee91d3](https://github.com/commenthol/date-holidays/commit/7fee91d343e67c7d39e545a9f9444f038bdb595d)
+- fix(PL): yaml whitespace [32acb999](https://github.com/commenthol/date-holidays/commit/32acb99952f986fbaa364273b29eef2f49751da0)
+
 ## [3.24.0](https://github.com/commenthol/date-holidays/compare/3.23.19...3.24.0) (2025-02-01)
 
 - feat(PL, #512): add non-public holidays [2282059c](https://github.com/commenthol/date-holidays/commit/2282059c5e1ef2a2c3f7279913e7cc6bb081f729)
