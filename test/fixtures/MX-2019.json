@@ -12,37 +12,19 @@
     "date": "2019-02-04 00:00:00",
     "start": "2019-02-04T06:00:00.000Z",
     "end": "2019-02-05T06:00:00.000Z",
-    "name": "Día de la Constitución (día libre)",
+    "name": "Día de la Constitución",
     "type": "public",
     "rule": "1st monday in February",
     "_weekday": "Mon"
   },
   {
-    "date": "2019-02-05 00:00:00",
-    "start": "2019-02-05T06:00:00.000Z",
-    "end": "2019-02-06T06:00:00.000Z",
-    "name": "Día de la Constitución",
-    "type": "public",
-    "rule": "02-05",
-    "_weekday": "Tue"
-  },
-  {
     "date": "2019-03-18 00:00:00",
     "start": "2019-03-18T06:00:00.000Z",
     "end": "2019-03-19T06:00:00.000Z",
-    "name": "Natalicio de Benito Juárez (día libre)",
+    "name": "Natalicio de Benito Juárez",
     "type": "public",
     "rule": "3rd monday in March",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2019-03-21 00:00:00",
-    "start": "2019-03-21T06:00:00.000Z",
-    "end": "2019-03-22T06:00:00.000Z",
-    "name": "Natalicio de Benito Juárez",
-    "type": "public",
-    "rule": "03-21",
-    "_weekday": "Thu"
   },
   {
     "date": "2019-04-18 00:00:00",
@@ -102,19 +84,10 @@
     "date": "2019-11-18 00:00:00",
     "start": "2019-11-18T06:00:00.000Z",
     "end": "2019-11-19T06:00:00.000Z",
-    "name": "Día de la Revolución (día libre)",
+    "name": "Día de la Revolución",
     "type": "public",
     "rule": "3rd monday in November",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2019-11-20 00:00:00",
-    "start": "2019-11-20T06:00:00.000Z",
-    "end": "2019-11-21T06:00:00.000Z",
-    "name": "Día de la Revolución",
-    "type": "public",
-    "rule": "11-20",
-    "_weekday": "Wed"
   },
   {
     "date": "2019-12-12 00:00:00",
