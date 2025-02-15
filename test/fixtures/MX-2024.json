@@ -14,15 +14,6 @@
     "end": "2024-02-06T06:00:00.000Z",
     "name": "Día de la Constitución",
     "type": "public",
-    "rule": "02-05",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2024-02-05 00:00:00",
-    "start": "2024-02-05T06:00:00.000Z",
-    "end": "2024-02-06T06:00:00.000Z",
-    "name": "Día de la Constitución (día libre)",
-    "type": "public",
     "rule": "1st monday in February",
     "_weekday": "Mon"
   },
@@ -30,19 +21,10 @@
     "date": "2024-03-18 00:00:00",
     "start": "2024-03-18T06:00:00.000Z",
     "end": "2024-03-19T06:00:00.000Z",
-    "name": "Natalicio de Benito Juárez (día libre)",
+    "name": "Natalicio de Benito Juárez",
     "type": "public",
     "rule": "3rd monday in March",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2024-03-21 00:00:00",
-    "start": "2024-03-21T06:00:00.000Z",
-    "end": "2024-03-22T06:00:00.000Z",
-    "name": "Natalicio de Benito Juárez",
-    "type": "public",
-    "rule": "03-21",
-    "_weekday": "Thu"
   },
   {
     "date": "2024-03-28 00:00:00",
@@ -102,19 +84,10 @@
     "date": "2024-11-18 00:00:00",
     "start": "2024-11-18T06:00:00.000Z",
     "end": "2024-11-19T06:00:00.000Z",
-    "name": "Día de la Revolución (día libre)",
+    "name": "Día de la Revolución",
     "type": "public",
     "rule": "3rd monday in November",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2024-11-20 00:00:00",
-    "start": "2024-11-20T06:00:00.000Z",
-    "end": "2024-11-21T06:00:00.000Z",
-    "name": "Día de la Revolución",
-    "type": "public",
-    "rule": "11-20",
-    "_weekday": "Wed"
   },
   {
     "date": "2024-12-01 00:00:00",

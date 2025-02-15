@@ -14,6 +14,9 @@ holidays:
   #
   # For convenience, here is the same 2019 bank information condensed and in English:
   # @source http://www.banxico.org.mx/financial-system/d/%7B78042524-F8E9-89EB-9A8E-FD40D0CBCF40%7D.pdf
+  #
+  # Three holidays that shifted to Monday observances in 2006 and 2007:
+  # @source https://www.gob.mx/cms/uploads/attachment/file/156203/1044_Ley_Federal_del_Trabajo.pdf
   MX:
     names:
       es: México
@@ -39,18 +42,24 @@ holidays:
         _name: 01-01
       02-05:
         _name: Constitution Day
+        active:
+          - to: 2006-01-17
       1st monday in February:
-        name:
-          en: Constitution Day (day off)
-          es: Día de la Constitución (día libre)
+        _name: Constitution Day
+        active:
+          - from: 2006-01-18
       03-21:
         name:
           en: Benito Juárez's birthday
           es: Natalicio de Benito Juárez
+        active:
+          - to: 2006-12-31
       3rd monday in March:
         name:
-          en: Benito Juárez's birthday (day off)
-          es: Natalicio de Benito Juárez (día libre)
+          en: Benito Juárez's birthday
+          es: Natalicio de Benito Juárez
+        active:
+          - from: 2007-01-01
       easter -3:
         _name: easter -3
         type: bank
@@ -69,10 +78,12 @@ holidays:
         type: bank
       11-20:
         _name: Revolution Day
+        active:
+          - to: 2006-01-17
       3rd monday in November:
-        name:
-          en: Revolution Day (day off)
-          es: Día de la Revolución (día libre)
+        _name: Revolution Day
+        active:
+          - from: 2006-01-18
       12-01 every 6 years since 1934:
         name:
           en: Change of Federal Government
