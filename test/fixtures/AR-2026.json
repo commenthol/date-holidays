@@ -9,15 +9,6 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2026-01-02 00:00:00",
-    "start": "2026-01-02T03:00:00.000Z",
-    "end": "2026-01-03T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 01-01 if tuesday then previous monday if thursday then next friday",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2026-02-16 00:00:00",
     "start": "2026-02-16T03:00:00.000Z",
     "end": "2026-02-17T03:00:00.000Z",
@@ -36,19 +27,10 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2026-03-23 00:00:00",
-    "start": "2026-03-23T03:00:00.000Z",
-    "end": "2026-03-24T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 03-24 if tuesday then previous monday if thursday then next friday",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2026-03-24 00:00:00",
     "start": "2026-03-24T03:00:00.000Z",
     "end": "2026-03-25T03:00:00.000Z",
-    "name": "Día de la Memoria por la Verdad y la Justicia",
+    "name": "Día Nacional de la Memoria por la Verdad y la Justicia",
     "type": "public",
     "rule": "03-24",
     "_weekday": "Tue"
@@ -67,18 +49,9 @@
     "start": "2026-04-02T03:00:00.000Z",
     "end": "2026-04-03T03:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "bank",
     "rule": "easter -3",
     "_weekday": "Thu"
-  },
-  {
-    "date": "2026-04-03 00:00:00",
-    "start": "2026-04-03T03:00:00.000Z",
-    "end": "2026-04-04T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 04-02 if tuesday then previous monday if thursday then next friday",
-    "_weekday": "Fri"
   },
   {
     "date": "2026-04-03 00:00:00",
@@ -108,6 +81,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2026-06-15 00:00:00",
+    "start": "2026-06-15T03:00:00.000Z",
+    "end": "2026-06-16T03:00:00.000Z",
+    "name": "Día Paso a la Inmortalidad del General Martín Miguel de Güemes",
+    "type": "public",
+    "rule": "06-17 if tuesday,wednesday then previous monday if thursday then next monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2026-06-20 00:00:00",
     "start": "2026-06-20T03:00:00.000Z",
     "end": "2026-06-21T03:00:00.000Z",
@@ -126,31 +108,13 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2026-07-10 00:00:00",
-    "start": "2026-07-10T03:00:00.000Z",
-    "end": "2026-07-11T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 07-09 if tuesday then previous monday if thursday then next friday if saturday then previous friday",
-    "_weekday": "Fri"
-  },
-  {
     "date": "2026-08-17 00:00:00",
     "start": "2026-08-17T03:00:00.000Z",
     "end": "2026-08-18T03:00:00.000Z",
-    "name": "Día del Libertador José de San Martín",
+    "name": "Paso a la Inmortalidad del General José de San Martín",
     "type": "public",
-    "rule": "3rd monday in August",
+    "rule": "08-17 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2026-10-09 00:00:00",
-    "start": "2026-10-09T03:00:00.000Z",
-    "end": "2026-10-10T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 10-12 if monday,tuesday,wednesday then previous friday",
-    "_weekday": "Fri"
   },
   {
     "date": "2026-10-12 00:00:00",
@@ -158,25 +122,16 @@
     "end": "2026-10-13T03:00:00.000Z",
     "name": "Día del Respeto a la Diversidad Cultural",
     "type": "public",
-    "rule": "10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday",
+    "rule": "10-12 if tuesday,wednesday then previous monday if thursday,friday then next monday #2",
     "_weekday": "Mon"
   },
   {
     "date": "2026-11-23 00:00:00",
     "start": "2026-11-23T03:00:00.000Z",
     "end": "2026-11-24T03:00:00.000Z",
-    "name": "Día de la Soberanía nacional",
+    "name": "Día de la Soberanía Nacional",
     "type": "public",
-    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2026-12-07 00:00:00",
-    "start": "2026-12-07T03:00:00.000Z",
-    "end": "2026-12-08T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 12-08 if tuesday then previous monday if thursday then next friday",
+    "rule": "11-20 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
