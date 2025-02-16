@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.23.22](https://github.com/commenthol/date-holidays/compare/3.23.21...3.23.22) (2025-02-16)
+
+- fix(MX): correct Mexican holiday definitions, prevent duplicate occurrences. [ce467d88](https://github.com/commenthol/date-holidays/commit/ce467d888ea0e822c57e1fd4918937b9cb8453a9)
+
 ## [3.23.21](https://github.com/commenthol/date-holidays/compare/3.23.20...3.23.21) (2025-02-09)
 
 - fix(SG): Public holidays 2025 update [f240bce6](https://github.com/commenthol/date-holidays/commit/f240bce69381f39cf1600f23b92f8ea776b799a4)
