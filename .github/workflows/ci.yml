@@ -8,6 +8,11 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Tag, or commit SHA to checkout (optional)'
+        required: false
 
 env:
   CI: "true"
@@ -21,10 +26,11 @@ jobs:
     name: Node ${{ matrix.node }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.ref || github.ref }}
       - name: Setup Node ${{ matrix.node }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
       - run: npm install --ignore-scripts
       - run: npm run ci
-
