@@ -34,6 +34,10 @@ holidays:
         name:
           en: Chinese New Year
           ms: Tahun Baru Cina
+      Hari Wilayah Persekutuan:
+        name:
+          en: Hari Wilayah Persekutuan
+          ms: Hari Wilayah Persekutuan
       05-01:
         _name: 05-01
       substitutes 05-01 if Sunday then next Monday:
