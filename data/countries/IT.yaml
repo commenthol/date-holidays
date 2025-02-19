@@ -228,17 +228,24 @@ holidays:
       #       name: Macerata
       #     PU:
       #       name: Pesaro and Urbino
-      # '62':
-      #   name: Lazio
-      #   regions:
+      '62':
+        name: Lazio
+        regions:
       #     FR:
       #       name: Frosinone
       #     LT:
       #       name: Latina
       #     RI:
       #       name: Rieti
-      #     RM:
-      #       name: Rome
+          RM:
+            names:
+              it: Roma
+              en: Rome
+            days:
+              06-29:
+                name:
+                  it: Santi Pietro e Paolo
+                  en: Saints Peter and Paul
       #     VT:
       #       name: Viterbo
       # '65':
