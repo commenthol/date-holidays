@@ -1,0 +1,54 @@
+# @source https://www.hrsd.gov.sa/sites/default/files/2025-02/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%88%D9%85%D9%84%D8%AD%D9%82%D8%A7%D8%AA%D9%87%D8%A7.pdf المادة (24)
+# @attrib https://en.wikipedia.org/wiki/Saudi_Founding_Day
+# @attrib https://en.wikipedia.org/wiki/Saudi_National_Day
+holidays:
+  SA:
+    names:
+      ar: 'المملكة العربية السعودية'
+      en: Saudi Arabia
+    langs:
+      - ar
+      - en
+    zones:
+      - Asia/Riyadh
+    dayoff: Saturday
+    days:
+      02-22 since 2022:
+        name:
+          ar: 'يوم التأسيس'
+          en: Founding Day
+      09-23 since 2005:
+        name:
+          ar: 'اليوم الوطني'
+          en: National Day
+      29 Ramadan P4D:
+        _name: 1 Shawwal
+      9 Dhu al-Hijjah P4D:
+        _name: 10 Dhu al-Hijjah
+#    states:
+#      '10':
+#        name: Najran
+#      '11':
+#        name: Al Bahah
+#      '12':
+#        name: Al Jawf
+#      '14':
+#        name: Asir
+#      '01':
+#        name: Riyadh
+#      '02':
+#        name: Makkah
+#      '03':
+#        name: Al Madinah
+#      '04':
+#        name: Eastern
+#      '05':
+#        name: Al-Qassim
+#      '06':
+#        name: Ha’il
+#      '07':
+#        name: Tabuk
+#      08:
+#        name: Northern Borders
+#      09:
+#        name: Jizan
