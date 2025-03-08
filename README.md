@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 197
+Countries: 198
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -360,8 +360,10 @@ Countries: 197
 │   ├── 25: Lombardy
 │   │   └── MI: Milan
 │   ├── 32: Alto Adige
-│   └── 52: Toscana
-│       └── FI: Firenze
+│   ├── 52: Toscana
+│   │   └── FI: Firenze
+│   └── 62: Lazio
+│       └── RM: Roma
 ├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本
@@ -460,6 +462,7 @@ Countries: 197
 ├── RS: Република Србија
 ├── RU: Россия
 ├── RW: Rwanda
+├── SA: المملكة العربية السعودية
 ├── SC: Seychelles
 ├── SD: جمهورية السودان
 ├── SE: Sverige
