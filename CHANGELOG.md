@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.24.0](https://github.com/commenthol/date-holidays/compare/3.23.22...3.24.0) (2025-03-08)
+
+- feat(SA): Add Saudi Arabia holidays [494349f3](https://github.com/commenthol/date-holidays/commit/494349f387f08d387e63251c007fcb8b46605338)
+- feat(AR): Update Argentine holiday data comprehensively (1976-2025) [419cfcca](https://github.com/commenthol/date-holidays/commit/419cfcca1a2ae2cea2f5389924fd12f7997c6697)
+- feat(IT): Added holiday data for RM Lazio Saints Peter and Paul [212fa34d](https://github.com/commenthol/date-holidays/commit/212fa34dac5a9f8cee55e6f3d2aa78955138214b)
+- ci: add workflow_dispatch trigger to run CI on any commit [22859900](https://github.com/commenthol/date-holidays/commit/2285990094adbc632be918d04869e996bafb2eb5)
+
 ## [3.23.22](https://github.com/commenthol/date-holidays/compare/3.23.21...3.23.22) (2025-02-16)
 
 - fix(MX): correct Mexican holiday definitions, prevent duplicate occurrences. [ce467d88](https://github.com/commenthol/date-holidays/commit/ce467d888ea0e822c57e1fd4918937b9cb8453a9)
