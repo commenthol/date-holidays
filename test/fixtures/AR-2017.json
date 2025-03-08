@@ -30,7 +30,7 @@
     "date": "2017-03-24 00:00:00",
     "start": "2017-03-24T03:00:00.000Z",
     "end": "2017-03-25T03:00:00.000Z",
-    "name": "Día de la Memoria por la Verdad y la Justicia",
+    "name": "Día Nacional de la Memoria por la Verdad y la Justicia",
     "type": "public",
     "rule": "03-24",
     "_weekday": "Fri"
@@ -49,7 +49,7 @@
     "start": "2017-04-13T03:00:00.000Z",
     "end": "2017-04-14T03:00:00.000Z",
     "name": "Jueves Santo",
-    "type": "public",
+    "type": "bank",
     "rule": "easter -3",
     "_weekday": "Thu"
   },
@@ -81,22 +81,13 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2017-05-26 00:00:00",
-    "start": "2017-05-26T03:00:00.000Z",
-    "end": "2017-05-27T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
+    "date": "2017-06-17 00:00:00",
+    "start": "2017-06-17T03:00:00.000Z",
+    "end": "2017-06-18T03:00:00.000Z",
+    "name": "Día Paso a la Inmortalidad del General Martín Miguel de Güemes",
     "type": "public",
-    "rule": "substitutes 05-25 if tuesday then previous monday if thursday then next friday",
-    "_weekday": "Fri"
-  },
-  {
-    "date": "2017-06-19 00:00:00",
-    "start": "2017-06-19T03:00:00.000Z",
-    "end": "2017-06-20T03:00:00.000Z",
-    "name": "Feriado Puente Turístico",
-    "type": "public",
-    "rule": "substitutes 06-20 if tuesday then previous monday if thursday then next friday",
-    "_weekday": "Mon"
+    "rule": "06-17 if tuesday,wednesday then previous monday if thursday then next monday",
+    "_weekday": "Sat"
   },
   {
     "date": "2017-06-20 00:00:00",
@@ -120,9 +111,9 @@
     "date": "2017-08-21 00:00:00",
     "start": "2017-08-21T03:00:00.000Z",
     "end": "2017-08-22T03:00:00.000Z",
-    "name": "Día del Libertador José de San Martín",
+    "name": "Paso a la Inmortalidad del General José de San Martín",
     "type": "public",
-    "rule": "3rd monday in August",
+    "rule": "08-17 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -131,16 +122,16 @@
     "end": "2017-10-17T03:00:00.000Z",
     "name": "Día del Respeto a la Diversidad Cultural",
     "type": "public",
-    "rule": "10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday",
+    "rule": "10-12 if tuesday,wednesday then previous monday if thursday,friday then next monday #2",
     "_weekday": "Mon"
   },
   {
     "date": "2017-11-20 00:00:00",
     "start": "2017-11-20T03:00:00.000Z",
     "end": "2017-11-21T03:00:00.000Z",
-    "name": "Día de la Soberanía nacional",
+    "name": "Día de la Soberanía Nacional",
     "type": "public",
-    "rule": "11-20 if tuesday,wednesday then previous monday if friday then next monday",
+    "rule": "11-20 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
