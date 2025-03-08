@@ -4,7 +4,7 @@
 holidays:
   SA:
     names:
-      ar: 'المملكة العربية السعودية'
+      ar: "المملكة العربية السعودية"
       en: Saudi Arabia
     langs:
       - ar
@@ -15,11 +15,11 @@ holidays:
     days:
       02-22 since 2022:
         name:
-          ar: 'يوم التأسيس'
+          ar: "يوم التأسيس"
           en: Founding Day
       09-23 since 2005:
         name:
-          ar: 'اليوم الوطني'
+          ar: "اليوم الوطني"
           en: National Day
       29 Ramadan P4D:
         _name: 1 Shawwal

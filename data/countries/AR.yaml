@@ -26,17 +26,17 @@ holidays:
       01-01:
         _name: 01-01
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26840-207258/texto
-      '2013-01-31':
+      "2013-01-31":
         name:
           en: Bicentennial of the Assembly of the Year XIII
           es: Bicentenario de la Asamblea General Constituyente de 1813
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26837-207405/texto
-      '2013-02-20':
+      "2013-02-20":
         name:
           en: Bicentennial of the Battle of Salta
           es: Bicentenario de la Batalla de Salta
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26721-191835/texto
-      '2012-02-27':
+      "2012-02-27":
         name:
           en: Bicentennial of the Creation and First Oath of Allegiance to the Argentine Flag
           es: Bicentenario de la creación y primera jura de la bandera argentina
@@ -47,13 +47,13 @@ holidays:
       easter -48:
         _name: easter -48
         active:
-          - to: '1976-06-14'
-          - from: '2010-11-03'
+          - to: "1976-06-14"
+          - from: "2010-11-03"
       easter -47:
         _name: easter -47
         active:
-          - to: '1976-06-14'
-          - from: '2010-11-03'
+          - to: "1976-06-14"
+          - from: "2010-11-03"
       # Introduced in 2006
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26085-114811/texto
       03-24:
@@ -61,7 +61,7 @@ holidays:
           en: Day of Remembrance for Truth and Justice
           es: Día Nacional de la Memoria por la Verdad y la Justicia
         active:
-          - from: '2006-03-21'
+          - from: "2006-03-21"
       easter -3:
         _name: easter -3
         type: bank
@@ -71,7 +71,7 @@ holidays:
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-22769-65454/texto
       # Holiday moved to 06-10 in 1984
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-901-1984-65455
-      '1983-04-02':
+      "1983-04-02":
         name:
           en: Day of the Malvinas, South Georgia and South Sandwich Islands
           es: Día de las Islas Malvinas, Georgias del Sur y Sandwich del Sur
@@ -82,8 +82,8 @@ holidays:
           en: Day of the Veterans and the Fallen in the Malvinas War
           es: Día del Veterano y de los Caídos en la guerra en Malvinas
         active:
-          - from: '2000-12-22'
-            to: '2006-06-30'
+          - from: "2000-12-22"
+            to: "2006-06-30"
       # Holiday name changed in 2006.
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26110-117507/texto
       04-02:
@@ -91,21 +91,21 @@ holidays:
           en: Day of the Veterans and the Fallen in the Malvinas War
           es: Día del Veterano y de los Caídos en la Guerra de Malvinas
         active:
-          - from: '2006-07-01'
+          - from: "2006-07-01"
         disable:
-          - '2020-04-02'
+          - "2020-04-02"
         enable:
           # @source https://www.argentina.gob.ar/normativa/nacional/decreto-297-2020-335741/texto
-          - '2020-03-31'
+          - "2020-03-31"
       05-01:
         _name: 05-01
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-615-2010-166825/texto
-      '2010-05-24':
+      "2010-05-24":
         name:
           en: National Holiday for the Bicentennial of the May Revolution
           es: Feriado Nacional por el Bicentenario de la Revolución de Mayo
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-42-2022-360018/texto
-      '2022-05-18':
+      "2022-05-18":
         name:
           en: National Census 2022
           es: Censo Nacional 2022
@@ -120,8 +120,8 @@ holidays:
           en: Day of Affirmation of Argentine Rights over the Malvinas, Islands and Antarctic Sector
           es: Día de la Afirmación de los Derechos Argentinos sobre las Malvinas, Islas y Sector Antártico
         active:
-          - from: '1984-03-23'
-            to: '1988-05-17'
+          - from: "1984-03-23"
+            to: "1988-05-17"
       # Made movable in 1988
       # @source https://biblioteca.afip.gob.ar/dcp/LEY_C_023555_1988_04_28
       # Abolished in 2000
@@ -131,8 +131,8 @@ holidays:
           en: Day of Affirmation of Argentine Rights over the Malvinas, Islands and Antarctic Sector
           es: Día de la Afirmación de los Derechos Argentinos sobre las Malvinas, Islas y Sector Antártico
         active:
-          - from: '1988-05-18'
-            to: '2000-12-15'
+          - from: "1988-05-18"
+            to: "2000-12-15"
       # introduced in 2016
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-27258-262574/texto
       06-17 if tuesday,wednesday then previous monday if thursday then next monday:
@@ -140,7 +140,7 @@ holidays:
           en: Anniversary of the Passing to Immortality of General Martín Miguel de Güemes
           es: Día Paso a la Inmortalidad del General Martín Miguel de Güemes
         active:
-          - from: '2016-06-11'
+          - from: "2016-06-11"
       # Introduced in 1938
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-12361-232587/texto
       # Made fixed (non-movable) in 1991
@@ -152,11 +152,11 @@ holidays:
           en: National Flag Day
           es: Día de la Bandera
         active:
-          - from: '1938-06-08'
-            to: '1988-05-23'
-          - from: '1991-12-18'
-            to: '1995-01-10'
-          - from: '2010-11-03'
+          - from: "1938-06-08"
+            to: "1988-05-23"
+          - from: "1991-12-18"
+            to: "1995-01-10"
+          - from: "2010-11-03"
       # Made movable in 1988
       # @source https://biblioteca.afip.gob.ar/dcp/LEY_C_023555_1988_04_28
       06-20 if tuesday,wednesday then previous monday if thursday,friday then next monday:
@@ -164,8 +164,8 @@ holidays:
           en: National Flag Day
           es: Día de la Bandera
         active:
-          - from: '1988-05-24'
-            to: '1991-12-17'
+          - from: "1988-05-24"
+            to: "1991-12-17"
       # Made movable again in 1995
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       3rd monday in June:
@@ -173,8 +173,8 @@ holidays:
           en: National Flag Day
           es: Día de la Bandera
         active:
-          - from: '1995-01-11'
-            to: '2010-11-02'
+          - from: "1995-01-11"
+            to: "2010-11-02"
       07-09:
         _name: Independence Day
       # Introduced in 1938
@@ -186,10 +186,10 @@ holidays:
           en: Anniversary of the Passing to Immortality of General José de San Martín
           es: Paso a la Inmortalidad del General José de San Martín
         active:
-          - from: '1938-09-01'
-            to: '1988-05-23'
-          - from: '1994-09-30'
-            to: '1995-01-10'
+          - from: "1938-09-01"
+            to: "1988-05-23"
+          - from: "1994-09-30"
+            to: "1995-01-10"
       # Made movable in 1988
       # @source https://biblioteca.afip.gob.ar/dcp/LEY_C_023555_1988_04_28
       # Moving rule changed in 2017
@@ -200,9 +200,9 @@ holidays:
           en: Anniversary of the Passing to Immortality of General José de San Martín
           es: Paso a la Inmortalidad del General José de San Martín
         active:
-          - from: '1988-05-24'
-            to: '1994-09-29'
-          - from: '2017-01-24'
+          - from: "1988-05-24"
+            to: "1994-09-29"
+          - from: "2017-01-24"
       # Made movable again in 1995
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       3rd monday in August:
@@ -210,15 +210,15 @@ holidays:
           en: Anniversary of the Passing to Immortality of General José de San Martín
           es: Paso a la Inmortalidad del General José de San Martín
         active:
-          - from: '1995-01-11'
-            to: '2017-01-23'
+          - from: "1995-01-11"
+            to: "2017-01-23"
         disable:
-          - '2011-08-15'
+          - "2011-08-15"
         enable:
           # @source https://www.argentina.gob.ar/normativa/nacional/decreto-521-2011-181754/texto
-          - '2011-08-22'
+          - "2011-08-22"
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26763-201915/texto
-      '2012-09-24':
+      "2012-09-24":
         name:
           en: Bicentennial of the Battle of Tucumán
           es: Bicentenario de la Batalla de Tucumán
@@ -231,26 +231,26 @@ holidays:
           en: The Day of the Race
           es: Día de la Raza
         active:
-          - to: '1976-06-14'
-          - from: '1982-10-12'
-            to: '1988-05-23'
+          - to: "1976-06-14"
+          - from: "1982-10-12"
+            to: "1988-05-23"
       # Made movable in 1988
       # @source https://biblioteca.afip.gob.ar/dcp/LEY_C_023555_1988_04_28
-      '10-12 if tuesday,wednesday then previous monday if thursday,friday then next monday #1':
+      "10-12 if tuesday,wednesday then previous monday if thursday,friday then next monday #1":
         name:
           en: The Day of the Race
           es: Día de la Raza
         active:
-          - from: '1988-05-24'
-            to: '2008-10-02'
+          - from: "1988-05-24"
+            to: "2008-10-02"
         disable:
-          - '2001-10-15'
-          - '2002-10-12'
+          - "2001-10-15"
+          - "2002-10-12"
         enable:
           # @source https://www.argentina.gob.ar/normativa/nacional/ley-25442-67888/texto
-          - '2001-10-08'
+          - "2001-10-08"
           # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1932-2002-78207/texto
-          - '2002-10-14'
+          - "2002-10-14"
       # Moving rule changed in 2008
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-26416-145231/texto
       10-12 if tuesday,wednesday then previous monday if thursday,friday,saturday,sunday then next monday:
@@ -258,8 +258,8 @@ holidays:
           en: The Day of the Race
           es: Día de la Raza
         active:
-          - from: '2008-10-03'
-            to: '2010-11-02'
+          - from: "2008-10-03"
+            to: "2010-11-02"
       # Holiday name changed and moving rule changed in 2010
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1584-2010-174389/texto
       2nd monday in October:
@@ -267,19 +267,19 @@ holidays:
           en: Day of Respect for Cultural Diversity
           es: Día del Respeto a la Diversidad Cultural
         active:
-          - from: '2010-11-03'
-            to: '2017-01-23'
+          - from: "2010-11-03"
+            to: "2017-01-23"
       # Moving rule changed in 2017
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-52-2017-271094/texto
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto
-      '10-12 if tuesday,wednesday then previous monday if thursday,friday then next monday #2':
+      "10-12 if tuesday,wednesday then previous monday if thursday,friday then next monday #2":
         name:
           en: Day of Respect for Cultural Diversity
           es: Día del Respeto a la Diversidad Cultural
         active:
-          - from: '2017-01-24'
+          - from: "2017-01-24"
       # @source https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1159-2010-173748/texto
-      '2010-10-27':
+      "2010-10-27":
         name:
           en: National Census 2010
           es: Censo Nacional 2010
@@ -290,13 +290,13 @@ holidays:
           en: Day of National Sovereignty
           es: Día de la Soberanía Nacional
         active:
-          - from: '2010-11-03'
-            to: '2017-01-23'
+          - from: "2010-11-03"
+            to: "2017-01-23"
         disable:
-          - '2015-11-23'
+          - "2015-11-23"
         enable:
           # @source https://www.argentina.gob.ar/normativa/nacional/decreto-2226-2015-253971
-          - '2015-11-27'
+          - "2015-11-27"
       # Moving rule changed in 2017
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-52-2017-271094/texto
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto
@@ -305,13 +305,13 @@ holidays:
           en: Day of National Sovereignty
           es: Día de la Soberanía Nacional
         active:
-          - from: '2017-01-24'
+          - from: "2017-01-24"
       # Introduced in 1995
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       12-08:
         _name: 12-08
         active:
-          - from: '1995-01-11'
+          - from: "1995-01-11"
       "12-24 12:00":
         _name: 12-24
         type: optional
@@ -322,101 +322,101 @@ holidays:
         type: optional
       # Bridge holidays for tourism purpose (2011-2013)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1585-2010-174391/texto
-      '2011-03-25':
+      "2011-03-25":
         _name: Bridge Day
-      '2011-12-09':
+      "2011-12-09":
         _name: Bridge Day
-      '2012-04-30':
+      "2012-04-30":
         _name: Bridge Day
-      '2012-12-24':
+      "2012-12-24":
         _name: Bridge Day
-      '2013-04-01':
+      "2013-04-01":
         _name: Bridge Day
-      '2013-06-21':
+      "2013-06-21":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2014-2016)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1768-2013-222021
-      '2014-05-02':
+      "2014-05-02":
         _name: Bridge Day
-      '2014-12-26':
+      "2014-12-26":
         _name: Bridge Day
-      '2015-03-23':
+      "2015-03-23":
         _name: Bridge Day
-      '2015-12-07':
+      "2015-12-07":
         _name: Bridge Day
-      '2016-07-08':
+      "2016-07-08":
         _name: Bridge Day
-      '2016-12-09':
+      "2016-12-09":
         _name: Bridge Day
       # Non-working days for tourism purposes (2018-2019)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-923-2017-287145/texto
-      '2018-04-30':
+      "2018-04-30":
         _name: Bridge Day
         type: bank
-      '2018-12-24':
+      "2018-12-24":
         _name: Bridge Day
         type: bank
-      '2018-12-31':
+      "2018-12-31":
         _name: Bridge Day
         type: bank
-      '2019-07-08':
+      "2019-07-08":
         _name: Bridge Day
         type: bank
-      '2019-08-19':
+      "2019-08-19":
         _name: Bridge Day
         type: bank
-      '2019-10-14':
+      "2019-10-14":
         _name: Bridge Day
         type: bank
       # Bridge holidays for tourism purpose (2020)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-717-2019-330204/texto
-      '2020-03-23':
+      "2020-03-23":
         _name: Bridge Day
-      '2020-07-10':
+      "2020-07-10":
         _name: Bridge Day
-      '2020-12-07':
+      "2020-12-07":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2021)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-947-2020-344620/texto
-      '2021-05-24':
+      "2021-05-24":
         _name: Bridge Day
-      '2021-10-08':
+      "2021-10-08":
         _name: Bridge Day
-      '2021-11-22':
+      "2021-11-22":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2022)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-789-2021-356678/texto
-      '2022-10-07':
+      "2022-10-07":
         _name: Bridge Day
-      '2022-11-21':
+      "2022-11-21":
         _name: Bridge Day
-      '2022-12-09':
+      "2022-12-09":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2023)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-789-2021-356678/texto
-      '2023-05-26':
+      "2023-05-26":
         _name: Bridge Day
-      '2023-06-19':
+      "2023-06-19":
         _name: Bridge Day
-      '2023-10-13':
+      "2023-10-13":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2024)
       # @source https://www.boletinoficial.gob.ar/detalleAviso/primera/301434/20231229
-      '2024-04-01':
+      "2024-04-01":
         _name: Bridge Day
-      '2024-06-21':
+      "2024-06-21":
         _name: Bridge Day
-      '2024-10-11':
+      "2024-10-11":
         _name: Bridge Day
       # Non-working days for tourism purpose (2025)
       # @source https://www.boletinoficial.gob.ar/detalleAviso/primera/317188/20241121
-      '2025-05-02':
+      "2025-05-02":
         _name: Bridge Day
         type: bank
-      '2025-08-15':
+      "2025-08-15":
         _name: Bridge Day
         type: bank
-      '2025-11-21':
+      "2025-11-21":
         _name: Bridge Day
         type: bank
 

@@ -228,15 +228,15 @@ holidays:
       #       name: Macerata
       #     PU:
       #       name: Pesaro and Urbino
-      '62':
+      "62":
         name: Lazio
         regions:
-      #     FR:
-      #       name: Frosinone
-      #     LT:
-      #       name: Latina
-      #     RI:
-      #       name: Rieti
+          #     FR:
+          #       name: Frosinone
+          #     LT:
+          #       name: Latina
+          #     RI:
+          #       name: Rieti
           RM:
             names:
               it: Roma
