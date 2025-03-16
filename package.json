@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.24.0",
+  "version": "3.24.1",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -93,6 +93,7 @@
     "Lukas Eipert <git@leipert.io>",
     "M <m@ecmascript.tv>",
     "Martin Humeník <humenik.martin@gmail.com>",
+    "Martin Leimser <martin.leimser@gantner.com>",
     "Mauro Braggio <m.braggio@e-time.it>",
     "Matthias Lösch <mlo@codiac.de>",
     "Nancy <nancy@transit.app>",

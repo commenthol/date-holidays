@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.24.1](https://github.com/commenthol/date-holidays/compare/3.24.0...3.24.1) (2025-03-16)
+
+- fix(LI): correct spelling of Liechtenstein [a4631b7e](https://github.com/commenthol/date-holidays/commit/a4631b7e5e8f540e13120a5c40d3e08f83ea488e)
+
 ## [3.24.0](https://github.com/commenthol/date-holidays/compare/3.23.22...3.24.0) (2025-03-08)
 
 - feat(SA): Add Saudi Arabia holidays [494349f3](https://github.com/commenthol/date-holidays/commit/494349f387f08d387e63251c007fcb8b46605338)
