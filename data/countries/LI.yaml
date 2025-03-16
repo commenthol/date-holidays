@@ -3,8 +3,8 @@ holidays:
   # @source http://www.llv.li/files/apo/Feiertage-und-dienstfreie-Tage-LLV.pdf
   LI:
     names:
-      de: Lichtenstein
-      en: Lichtenstein
+      de: Liechtenstein
+      en: Liechtenstein
     dayoff: sunday
     langs:
       - de
