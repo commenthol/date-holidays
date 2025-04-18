@@ -159,6 +159,13 @@ holidays:
             name:
               en: New Brunswick Day
               fr: Jour de Nouveau Brunswick
+          # @attrib https://en.wikipedia.org/wiki/Family_Day_(Canada)
+          3rd monday after 02-01:
+            name:
+              en: Family Day
+              fr: Fête de la famille
+            active:
+              - from: 2018
       NL:
         name: Newfoundland and Labrador
         zones:
