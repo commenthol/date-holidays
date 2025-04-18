@@ -94,8 +94,8 @@
     "start": "2025-08-31T22:00:00.000Z",
     "end": "2025-09-01T22:00:00.000Z",
     "name": "Deň Ústavy",
-    "type": "public",
-    "rule": "09-01",
+    "type": "observance",
+    "rule": "09-01 since 2024",
     "_weekday": "Mon"
   },
   {

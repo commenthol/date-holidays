@@ -40,8 +40,11 @@ holidays:
         name:
           sk: Výročie Slovenského národného povstania
           en: Slovak National Uprising anniversary
-      09-01:
+      09-01 since 1994 and prior to 2024:
         _name: Constitution Day
+      09-01 since 2024:
+        _name: Constitution Day
+        type: observance
       09-15:
         name:
           sk: Sviatok Panny Márie Sedembolestnej
