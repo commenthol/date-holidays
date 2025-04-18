@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.24.2](https://github.com/commenthol/date-holidays/compare/3.24.1...3.24.2) (2025-04-18)
+
+- Merge branch 'sk-constitution-day' [58bdda13](https://github.com/commenthol/date-holidays/commit/58bdda1372073b71fafbebf833d94f05524612de)
+- fix(SK): constitution day is not public holiday [0230bc64](https://github.com/commenthol/date-holidays/commit/0230bc64596e69041e1f6582e9361d8244e80426)
+- fix(CA-NB, #506): family day [c5f95f30](https://github.com/commenthol/date-holidays/commit/c5f95f30f0b1dea140678e3bdd3e9494c65bd29d)
+
 ## [3.24.1](https://github.com/commenthol/date-holidays/compare/3.24.0...3.24.1) (2025-03-16)
 
 - fix(LI): correct spelling of Liechtenstein [a4631b7e](https://github.com/commenthol/date-holidays/commit/a4631b7e5e8f540e13120a5c40d3e08f83ea488e)
