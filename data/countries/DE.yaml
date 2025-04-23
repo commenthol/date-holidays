@@ -118,6 +118,8 @@ holidays:
             _name: easter
           easter 49:
             _name: easter 49
+          easter 60:
+            _name: easter 60
           10-31:
             _name: Reformation Day
       BE:
