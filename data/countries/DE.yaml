@@ -204,13 +204,9 @@ holidays:
             active:
               - from: 2018-01-01
       HE:
-        # @source http://www.rv.hessenrecht.hessen.de/cgi-bin/lexsoft/capi/hessen.cgi/export_pdf?docid=169523,1&hideVersionDate=1&shortTitleFileName=1&showVersionInfo=1&displayConfig=0&exportLawlist=1&customFooter=Hessische%20Gesetze%20und%20Verwaltungsvorschriften%20in%20Zusammenarbeit%20mit%20Wolters%20Kluwer%20Deutschland%20GmbH&at=1&pid=UAN_nv_3470
+        # @source https://www.rv.hessenrecht.hessen.de/bshe/document/jlr-FeiertGHE1952rahmen
         name: Hessen
         days:
-          easter:
-            _name: easter
-          easter 49:
-            _name: easter 49
           easter 60:
             _name: easter 60
       HH:
