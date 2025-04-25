@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2020-01-26 00:00:00",
+    "start": "2020-01-25T18:30:00.000Z",
+    "end": "2020-01-26T18:30:00.000Z",
+    "name": "Republic Day",
+    "type": "public",
+    "note": "Celebrates adoption of Constitution",
+    "rule": "01-26",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-03-23 00:00:00",
+    "start": "2020-03-22T18:30:00.000Z",
+    "end": "2020-03-23T18:30:00.000Z",
+    "name": "Shaheed Diwas",
+    "type": "public",
+    "note": "Martyrdom day of Bhagat Singh, Rajguru and Sukhdev",
+    "rule": "03-23",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-09T18:30:00.000Z",
+    "end": "2020-04-10T18:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-04-14 00:00:00",
+    "start": "2020-04-13T18:30:00.000Z",
+    "end": "2020-04-14T18:30:00.000Z",
+    "name": "Ambedkar Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Dr. B. R. Ambedkar",
+    "rule": "04-14",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2020-08-15 00:00:00",
+    "start": "2020-08-14T18:30:00.000Z",
+    "end": "2020-08-15T18:30:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "note": "Marks freedom from British rule",
+    "rule": "08-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2020-10-02 00:00:00",
+    "start": "2020-10-01T18:30:00.000Z",
+    "end": "2020-10-02T18:30:00.000Z",
+    "name": "Gandhi Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Mahatma Gandhi",
+    "rule": "10-02",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-24T18:30:00.000Z",
+    "end": "2020-12-25T18:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "note": "Recognized as a public holiday",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]

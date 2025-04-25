@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2018-01-26 00:00:00",
+    "start": "2018-01-25T18:30:00.000Z",
+    "end": "2018-01-26T18:30:00.000Z",
+    "name": "Republic Day",
+    "type": "public",
+    "note": "Celebrates adoption of Constitution",
+    "rule": "01-26",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-03-30 00:00:00",
+    "start": "2018-03-29T18:30:00.000Z",
+    "end": "2018-03-30T18:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-04-14 00:00:00",
+    "start": "2018-04-13T18:30:00.000Z",
+    "end": "2018-04-14T18:30:00.000Z",
+    "name": "Ambedkar Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Dr. B. R. Ambedkar",
+    "rule": "04-14",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-07-13 00:00:00",
+    "start": "2018-07-12T18:30:00.000Z",
+    "end": "2018-07-13T18:30:00.000Z",
+    "name": "Bhanu Jayanti / Martyrs' Day",
+    "type": "public",
+    "note": "Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir",
+    "rule": "07-13",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2018-08-15 00:00:00",
+    "start": "2018-08-14T18:30:00.000Z",
+    "end": "2018-08-15T18:30:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "note": "Marks freedom from British rule",
+    "rule": "08-15",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2018-10-02 00:00:00",
+    "start": "2018-10-01T18:30:00.000Z",
+    "end": "2018-10-02T18:30:00.000Z",
+    "name": "Gandhi Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Mahatma Gandhi",
+    "rule": "10-02",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-12-25 00:00:00",
+    "start": "2018-12-24T18:30:00.000Z",
+    "end": "2018-12-25T18:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "note": "Recognized as a public holiday",
+    "rule": "12-25",
+    "_weekday": "Tue"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2019-01-26 00:00:00",
+    "start": "2019-01-25T18:30:00.000Z",
+    "end": "2019-01-26T18:30:00.000Z",
+    "name": "Republic Day",
+    "type": "public",
+    "note": "Celebrates adoption of Constitution",
+    "rule": "01-26",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-04-14 00:00:00",
+    "start": "2019-04-13T18:30:00.000Z",
+    "end": "2019-04-14T18:30:00.000Z",
+    "name": "Ambedkar Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Dr. B. R. Ambedkar",
+    "rule": "04-14",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T18:30:00.000Z",
+    "end": "2019-04-19T18:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-04-30 00:00:00",
+    "start": "2019-04-29T18:30:00.000Z",
+    "end": "2019-04-30T18:30:00.000Z",
+    "name": "Basava Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Basavanna",
+    "rule": "04-30",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-14T18:30:00.000Z",
+    "end": "2019-08-15T18:30:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "note": "Marks freedom from British rule",
+    "rule": "08-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-09-17 00:00:00",
+    "start": "2019-09-16T18:30:00.000Z",
+    "end": "2019-09-17T18:30:00.000Z",
+    "name": "Hyderabad-Karnataka Liberation Day",
+    "type": "public",
+    "note": "Liberation from Nizam's rule",
+    "rule": "09-17",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2019-10-02 00:00:00",
+    "start": "2019-10-01T18:30:00.000Z",
+    "end": "2019-10-02T18:30:00.000Z",
+    "name": "Gandhi Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Mahatma Gandhi",
+    "rule": "10-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-11-01 00:00:00",
+    "start": "2019-10-31T18:30:00.000Z",
+    "end": "2019-11-01T18:30:00.000Z",
+    "name": "Karnataka Formation Day",
+    "type": "public",
+    "note": "Formation day of Karnataka",
+    "rule": "11-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-11-08 00:00:00",
+    "start": "2019-11-07T18:30:00.000Z",
+    "end": "2019-11-08T18:30:00.000Z",
+    "name": "Kanakadasa Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Kanakadasa",
+    "rule": "11-08",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T18:30:00.000Z",
+    "end": "2019-12-25T18:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "note": "Recognized as a public holiday",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]

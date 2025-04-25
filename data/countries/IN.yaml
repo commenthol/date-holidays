@@ -1,0 +1,468 @@
+holidays:
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_India
+  IN:
+    names:
+      en: India
+      hi: भारत
+      ta: இந்தியா
+    langs:
+      - en
+      - hi
+      - ta
+    zones:
+      - Asia/Kolkata
+    dayoff: sunday
+    days:
+      01-26:
+        name:
+          en: Republic Day
+          hi: गणतंत्र दिवस
+          ta: குடியரசு தினம்
+        note: Celebrates adoption of Constitution
+      04-14:
+        name:
+          en: Ambedkar Jayanti
+          hi: अम्बेडकर जयंती
+          ta: அம்பேத்கர் ஜெயந்தி
+        note: Birth anniversary of Dr. B. R. Ambedkar
+      easter -2:
+        _name: easter -2
+      08-15:
+        _name: Independence Day
+        note: Marks freedom from British rule
+      10-02:
+        name:
+          en: Gandhi Jayanti
+          hi: गांधी जयंती
+          ta: காந்தி ஜெயந்தி
+        note: Birth anniversary of Mahatma Gandhi
+      12-25:
+        _name: 12-25
+        note: Recognized as a public holiday
+    states:
+      AN:
+        name: Andaman and Nicobar Islands
+        days: {}
+      AP:
+        name: Andhra Pradesh
+        days:
+          04-05:
+            name:
+              en: Babu Jagjivan Ram Jayanti
+              hi: बाबू जगजीवन राम जयंती
+              ta: பாபு ஜக்ஜீவன் ராம் ஜெயந்தி
+            type: observance
+            note: Birth anniversary of Babu Jagjivan Ram
+          11-01:
+            name:
+              en: Formation Day
+              hi: स्थापना दिवस
+              ta: உருவான நாள்
+            note: Formation/Liberation day
+      AR:
+        name: Arunachal Pradesh
+        days:
+          01-01:
+            _name: 01-01
+          02-20:
+            name:
+              en: State Day
+              hi: राज्य दिवस
+              ta: மாநில தினம்
+            note: Arunachal Pradesh State Day
+          12-01:
+            name:
+              en: Indigenous Faith Day
+              hi: स्वदेशी आस्था दिवस
+              ta: பழங்குடி நம்பிக்கை தினம்
+            type: observance
+            note: Celebrates indigenous beliefs
+      AS:
+        name: Assam
+        days:
+          01-23:
+            name:
+              en: Netaji Subhas Chandra Bose Jayanti
+              hi: नेताजी सुभाष चंद्र बोस जयंती
+              ta: நேதாஜி சுபாஷ் சந்திர போஸ் ஜெயந்தி
+            note: Birth anniversary of Netaji Subhas Chandra Bose
+          01-31:
+            name:
+              en: Me-Dam-Me-Phi
+              hi: मे-डाम-मे-फी
+              ta: மே-டாம்-மே-பி
+            type: observance
+            note: Ancestor worship festival of Ahom community
+          05-01:
+            _name: 05-01
+      BR:
+        name: Bihar
+        days:
+          03-22:
+            name:
+              en: Bihar Day
+              hi: बिहार दिवस
+              ta: பீகார் தினம்
+            note: Formation day of Bihar
+          05-01:
+            _name: 05-01
+      CH:
+        name: Chandigarh
+        days:
+          01-05:
+            name:
+              en: Guru Gobind Singh Jayanti
+              hi: गुरु गोबिंद सिंह जयंती
+              ta: குரு கோபிந்த் சிங் ஜெயந்தி
+            note: Birth anniversary of the 10th Sikh Guru
+      CT:
+        name: Chhattisgarh
+        days:
+          11-01:
+            name:
+              en: Formation Day
+              hi: स्थापना दिवस
+              ta: உருவான நாள்
+            note: Formation day of Chhattisgarh
+          12-18:
+            name:
+              en: Guru Ghasidas Jayanti
+              hi: गुरु घासीदास जयंती
+              ta: குரு காசிதாஸ் ஜெயந்தி
+            note: Birth anniversary of Guru Ghasidas
+      DD:
+        name: Daman and Diu
+        days:
+          12-19:
+            name:
+              en: Goa Liberation Day
+              hi: गोवा मुक्ति दिवस
+              ta: கோவா விடுதலை தினம்
+            note: Liberation from Portuguese rule
+      DL:
+        name: Delhi
+        days: {}
+      DN:
+        name: Dadra and Nagar Haveli
+        days: {}
+      GA:
+        name: Goa
+        days:
+          12-03:
+            name:
+              en: Feast of St. Francis Xavier
+              hi: संत फ्रांसिस जेवियर का उत्सव
+              ta: புனித பிரான்சிஸ் சேவியர் விழா
+            note: Celebration of Goa's patron saint
+          12-19:
+            name:
+              en: Goa Liberation Day
+              hi: गोवा मुक्ति दिवस
+              ta: கோவா விடுதலை தினம்
+            note: Liberation from Portuguese rule
+      GJ:
+        name: Gujarat
+        days:
+          05-01:
+            name:
+              en: Gujarat Day
+              hi: குஜராத் दिवस
+              ta: குஜராத் தினம்
+            note: Formation day of Gujarat
+          10-31:
+            name:
+              en: Sardar Vallabhbhai Patel Jayanti
+              hi: सरदार वल्लभभाई पटेल जयंती
+              ta: சர்தார் வல்லபாய் படேல் ஜெயந்தி
+            note: Birth anniversary of Sardar Vallabhbhai Patel
+      HP:
+        name: Himachal Pradesh
+        days:
+          01-25:
+            name:
+              en: State Day
+              hi: राज्य दिवस
+              ta: மாநில தினம்
+            note: Himachal Pradesh State Day
+          04-15:
+            name:
+              en: Himachal Day
+              hi: हिमाचल दिवस
+              ta: இமாச்சல தினம்
+            note: Formation day celebration
+          05-09:
+            name:
+              en: Maharana Pratap Jayanti
+              hi: महाराणा प्रताप जयंती
+              ta: மகாராணா பிரதாப் ஜெயந்தி
+            note: Birth anniversary of Maharana Pratap
+          10-07:
+            name:
+              en: Maharishi Valmiki Jayanti
+              hi: महर्षि वाल्मीकि जयंती
+              ta: மகரிஷி வால்மீகி ஜெயந்தி
+            note: Birth anniversary of Maharishi Valmiki
+      HR:
+        name: Haryana
+        days:
+          01-05:
+            name:
+              en: Guru Gobind Singh Jayanti
+              hi: गुरु गोबिंद सिंह जयंती
+              ta: குரு கோபிந்த் சிங் ஜெயந்தி
+            note: Birth anniversary of the 10th Sikh Guru
+          07-31:
+            name:
+              en: Martyrdom Day of Shaheed Udham Singh
+              hi: शहीद उधम सिंह का शहीदी दिवस
+              ta: தியாகி உத்தம் சிங் தியாக தினம்
+            note: Martyrdom day of Shaheed Udham Singh
+          09-22:
+            name:
+              en: Maharaja Agrasen Jayanti
+              hi: महाराजा अग्रसेन जयंती
+              ta: மகாராஜா அக்ரசேன் ஜெயந்தி
+            note: Birth anniversary of Maharaja Agrasen
+          11-01:
+            name:
+              en: Formation Day
+              hi: स्थापना दिवस
+              ta: உருவான நாள்
+            note: Formation day of Haryana
+          12-26:
+            name:
+              en: Shaheed Udham Singh Jayanti
+              hi: शहीद उधम सिंह जयंती
+              ta: தியாகி உத்தம் சிங் ஜெயந்தி
+            note: Birth anniversary of Shaheed Udham Singh
+      JK:
+        name: Jammu and Kashmir
+        days:
+          07-13:
+            name:
+              en: Bhanu Jayanti / Martyrs' Day
+              hi: भानु जयंती / शहीद दिवस
+              ta: பானு ஜெயந்தி / தியாகிகள் தினம்
+            note: Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir
+      KA:
+        name: Karnataka
+        days:
+          04-30:
+            name:
+              en: Basava Jayanti
+              hi: बसव जयंती
+              ta: பசவ ஜெயந்தி
+            note: Birth anniversary of Basavanna
+          09-17:
+            name:
+              en: Hyderabad-Karnataka Liberation Day
+              hi: हैदराबाद-कर्नाटक मुक्ति दिवस
+              ta: ஐதராபாத்-கர்நாடகா விடுதலை தினம்
+            note: Liberation from Nizam's rule
+          11-01:
+            name:
+              en: Karnataka Formation Day
+              hi: कर्नाटक स्थापना दिवस
+              ta: கர்நாடகா உருவான நாள்
+            note: Formation day of Karnataka
+          11-08:
+            name:
+              en: Kanakadasa Jayanti
+              hi: कनकदास जयंती
+              ta: கனகதாச ஜெயந்தி
+            note: Birth anniversary of Kanakadasa
+      KL:
+        name: Kerala
+        days:
+          04-21:
+            name:
+              en: Vaisakhi
+              hi: वैसाखी
+              ta: வைகாசி
+            note: Harvest festival and Sikh New Year
+          05-01:
+            _name: 05-01
+          11-01:
+            name:
+              en: Kerala Formation Day
+              hi: केरल स्थापना दिवस
+              ta: கேரளா உருவான நாள்
+            note: Formation day of Kerala
+      LD:
+        name: Lakshadweep
+        days: {}
+      MH:
+        name: Maharashtra
+        days:
+          05-01:
+            name:
+              en: Maharashtra Day
+              hi: महाराष्ट्र दिवस
+              ta: மகாராஷ்டிரா தினம்
+            note: Formation day of Maharashtra
+      ML:
+        name: Meghalaya
+        days:
+          06-15:
+            name:
+              en: YMA Day
+              hi: वाईएमए दिवस
+              ta: ஒய்எம்ஏ தினம்
+            note: Young Mizo Association Day
+          07-13:
+            name:
+              en: Bhanu Jayanti / Martyrs' Day
+              hi: भानु जयंती / शहीद दिवस
+              ta: பானு ஜெயந்தி / தியாகிகள் தினம்
+            note: Birth anniversary of Bhanubhakta Acharya in Sikkim; Commemorates people killed in 1931 protests in Jammu and Kashmir
+          11-23:
+            name:
+              en: Seng Kut Snem
+              hi: सेंग कुट स्नेम
+              ta: செங் குட் ஸ்னெம்
+            note: Celebrates Khasi heritage
+      MN:
+        name: Manipur
+        days:
+          08-13:
+            name:
+              en: Patriots' Day
+              hi: देशभक्त दिवस
+              ta: தேசபக்தர்கள் தினம்
+            note: Commemorates the 1891 Anglo-Manipur War
+      MP:
+        name: Madhya Pradesh
+        days: {}
+      MZ:
+        name: Mizoram
+        days:
+          06-30:
+            name:
+              en: Remna Ni
+              hi: रेमना नि
+              ta: ரெம்னா நி
+            note: Mizoram Peace Accord Day
+          07-06:
+            name:
+              en: MHIP Day
+              hi: एमएचआईपी दिवस
+              ta: எம்எச்ஐபி தினம்
+            note: Mizo Women's Association Day
+      NL:
+        name: Nagaland
+        days:
+          12-01:
+            name:
+              en: Indigenous Faith Day
+              hi: स्वदेशी आस्था दिवस
+              ta: பழங்குடி நம்பிக்கை தினம்
+            note: Celebrates indigenous beliefs
+      OR:
+        name: Odisha
+        days:
+          04-01:
+            name:
+              en: Odisha Day
+              hi: ओडिशा दिवस
+              ta: ஒடிசா தினம்
+            note: Formation day of Odisha
+      PB:
+        name: Punjab
+        days:
+          03-23:
+            name:
+              en: Shaheed Diwas
+              hi: शहीद दिवस
+              ta: தியாகி தினம்
+            note: Martyrdom day of Bhagat Singh, Rajguru and Sukhdev
+      PY:
+        name: Puducherry
+        days:
+          08-16:
+            name:
+              en: De Jure Transfer Day
+              hi: डी ज्यूरे ट्रांसफर डे
+              ta: சட்டப்படி மாற்ற தினம்
+            note: Marks the transfer of Puducherry to India
+      RJ:
+        name: Rajasthan
+        days:
+          05-08:
+            name:
+              en: Rabindra Jayanti
+              hi: रवींद्र जयंती
+              ta: ரவீந்திர ஜெயந்தி
+            note: Birth anniversary of Rabindranath Tagore
+          05-09:
+            name:
+              en: Maharana Pratap Jayanti
+              hi: महाराणा प्रताप जयंती
+              ta: மகாராணா பிரதாப் ஜெயந்தி
+            note: Birth anniversary of Maharana Pratap
+      SK:
+        name: Sikkim
+        days:
+          05-16:
+            name:
+              en: State Day
+              hi: राज्य दिवस
+              ta: மாநில தினம்
+            note: Sikkim State Day
+      TG:
+        name: Telangana
+        days:
+          06-02:
+            name:
+              en: Telangana Formation Day
+              hi: तेलंगाना स्थापना दिवस
+              ta: தெலுங்கானா உருவான நாள்
+            note: Formation day of Telangana
+      TN:
+        name: Tamil Nadu
+        days:
+          05-01:
+            _name: 05-01
+      TR:
+        name: Tripura
+        days:
+          04-15:
+            name:
+              en: Himachal Day
+              hi: हिमाचल दिवस
+              ta: இமாச்சல தினம்
+            note: Formation day celebration
+      UP:
+        name: Uttar Pradesh
+        days: {}
+      UT:
+        name: Uttarakhand
+        days: {}
+      WB:
+        name: West Bengal
+        days:
+          01-12:
+            name:
+              en: Swami Vivekananda Jayanti
+              hi: स्वामी विवेकानंद जयंती
+              ta: சுவாமி விவேகானந்தர் ஜெயந்தி
+            note: Birth anniversary of Swami Vivekananda
+          01-23:
+            name:
+              en: Netaji Subhas Chandra Bose Jayanti
+              hi: नेताजी सुभाष चंद्र बोस जयंती
+              ta: நேதாஜி சுபாஷ் சந்திர போஸ் ஜெயந்தி
+            note: Birth anniversary of Netaji Subhas Chandra Bose
+          04-15:
+            name:
+              en: Bengali New Year
+              hi: बांग्ला नव वर्ष
+              ta: வங்க புத்தாண்டு
+            note: Bengali New Year celebration
+          05-01:
+            _name: 05-01
+          05-08:
+            name:
+              en: Rabindra Jayanti
+              hi: रवींद्र जयंती
+              ta: ரவீந்திர ஜெயந்தி
+            note: Birth anniversary of Rabindranath Tagore

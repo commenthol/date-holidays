@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2019-01-12 00:00:00",
+    "start": "2019-01-11T18:30:00.000Z",
+    "end": "2019-01-12T18:30:00.000Z",
+    "name": "Swami Vivekananda Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Swami Vivekananda",
+    "rule": "01-12",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-01-23 00:00:00",
+    "start": "2019-01-22T18:30:00.000Z",
+    "end": "2019-01-23T18:30:00.000Z",
+    "name": "Netaji Subhas Chandra Bose Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Netaji Subhas Chandra Bose",
+    "rule": "01-23",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-01-26 00:00:00",
+    "start": "2019-01-25T18:30:00.000Z",
+    "end": "2019-01-26T18:30:00.000Z",
+    "name": "Republic Day",
+    "type": "public",
+    "note": "Celebrates adoption of Constitution",
+    "rule": "01-26",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2019-04-14 00:00:00",
+    "start": "2019-04-13T18:30:00.000Z",
+    "end": "2019-04-14T18:30:00.000Z",
+    "name": "Ambedkar Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Dr. B. R. Ambedkar",
+    "rule": "04-14",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2019-04-15 00:00:00",
+    "start": "2019-04-14T18:30:00.000Z",
+    "end": "2019-04-15T18:30:00.000Z",
+    "name": "Bengali New Year",
+    "type": "public",
+    "note": "Bengali New Year celebration",
+    "rule": "04-15",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2019-04-19 00:00:00",
+    "start": "2019-04-18T18:30:00.000Z",
+    "end": "2019-04-19T18:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2019-05-01 00:00:00",
+    "start": "2019-04-30T18:30:00.000Z",
+    "end": "2019-05-01T18:30:00.000Z",
+    "name": "Labour Day",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-05-08 00:00:00",
+    "start": "2019-05-07T18:30:00.000Z",
+    "end": "2019-05-08T18:30:00.000Z",
+    "name": "Rabindra Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Rabindranath Tagore",
+    "rule": "05-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-08-15 00:00:00",
+    "start": "2019-08-14T18:30:00.000Z",
+    "end": "2019-08-15T18:30:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "note": "Marks freedom from British rule",
+    "rule": "08-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-10-02 00:00:00",
+    "start": "2019-10-01T18:30:00.000Z",
+    "end": "2019-10-02T18:30:00.000Z",
+    "name": "Gandhi Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Mahatma Gandhi",
+    "rule": "10-02",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-12-25 00:00:00",
+    "start": "2019-12-24T18:30:00.000Z",
+    "end": "2019-12-25T18:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "note": "Recognized as a public holiday",
+    "rule": "12-25",
+    "_weekday": "Wed"
+  }
+]
