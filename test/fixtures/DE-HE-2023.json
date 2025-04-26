@@ -76,7 +76,7 @@
     "start": "2023-04-08T22:00:00.000Z",
     "end": "2023-04-09T22:00:00.000Z",
     "name": "Ostersonntag",
-    "type": "public",
+    "type": "observance",
     "rule": "easter",
     "_weekday": "Sun"
   },
@@ -121,7 +121,7 @@
     "start": "2023-05-27T22:00:00.000Z",
     "end": "2023-05-28T22:00:00.000Z",
     "name": "Pfingstsonntag",
-    "type": "public",
+    "type": "observance",
     "rule": "easter 49",
     "_weekday": "Sun"
   },
