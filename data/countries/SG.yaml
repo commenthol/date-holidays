@@ -142,6 +142,9 @@ holidays:
       # https://www.mom.gov.sg/employment-practices/public-holidays
       "2024-05-22":
         _name: Vesak
+      # https://www.mom.gov.sg/employment-practices/public-holidays#Year-2025
+      "2025-05-12":
+        _name: Vesak
       # Deepavali
       # date if sunday then next monday
       "2000-10-26":
