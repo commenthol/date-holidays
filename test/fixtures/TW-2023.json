@@ -85,18 +85,18 @@
     "date": "2023-02-05 00:00:00",
     "start": "2023-02-04T16:00:00.000Z",
     "end": "2023-02-05T16:00:00.000Z",
-    "name": "元宵節",
+    "name": "觀光節",
     "type": "observance",
-    "rule": "chinese 01-0-15",
+    "rule": "chinese 01-0-15 #1",
     "_weekday": "Sun"
   },
   {
     "date": "2023-02-05 00:00:00",
     "start": "2023-02-04T16:00:00.000Z",
     "end": "2023-02-05T16:00:00.000Z",
-    "name": "觀光節",
+    "name": "元宵節",
     "type": "observance",
-    "rule": "chinese 01-0-15 #1",
+    "rule": "chinese 01-0-15",
     "_weekday": "Sun"
   },
   {
@@ -185,18 +185,18 @@
     "date": "2023-05-04 00:00:00",
     "start": "2023-05-03T16:00:00.000Z",
     "end": "2023-05-04T16:00:00.000Z",
-    "name": "保生大帝誕辰",
+    "name": "文藝節",
     "type": "observance",
-    "rule": "chinese 03-0-15",
+    "rule": "05-04",
     "_weekday": "Thu"
   },
   {
     "date": "2023-05-04 00:00:00",
     "start": "2023-05-03T16:00:00.000Z",
     "end": "2023-05-04T16:00:00.000Z",
-    "name": "文藝節",
+    "name": "保生大帝誕辰",
     "type": "observance",
-    "rule": "05-04",
+    "rule": "chinese 03-0-15",
     "_weekday": "Thu"
   },
   {
@@ -248,18 +248,18 @@
     "date": "2023-06-30 00:00:00",
     "start": "2023-06-29T16:00:00.000Z",
     "end": "2023-06-30T16:00:00.000Z",
-    "name": "城隍爺誕辰",
+    "name": "關公誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13 #1",
+    "rule": "chinese 05-0-13",
     "_weekday": "Fri"
   },
   {
     "date": "2023-06-30 00:00:00",
     "start": "2023-06-29T16:00:00.000Z",
     "end": "2023-06-30T16:00:00.000Z",
-    "name": "關公誕辰",
+    "name": "城隍爺誕辰",
     "type": "observance",
-    "rule": "chinese 05-0-13",
+    "rule": "chinese 05-0-13 #1",
     "_weekday": "Fri"
   },
   {
