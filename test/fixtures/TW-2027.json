@@ -75,18 +75,18 @@
     "date": "2027-02-20 00:00:00",
     "start": "2027-02-19T16:00:00.000Z",
     "end": "2027-02-20T16:00:00.000Z",
-    "name": "元宵節",
+    "name": "觀光節",
     "type": "observance",
-    "rule": "chinese 01-0-15",
+    "rule": "chinese 01-0-15 #1",
     "_weekday": "Sat"
   },
   {
     "date": "2027-02-20 00:00:00",
     "start": "2027-02-19T16:00:00.000Z",
     "end": "2027-02-20T16:00:00.000Z",
-    "name": "觀光節",
+    "name": "元宵節",
     "type": "observance",
-    "rule": "chinese 01-0-15 #1",
+    "rule": "chinese 01-0-15",
     "_weekday": "Sat"
   },
   {
@@ -269,28 +269,19 @@
     "date": "2027-06-17 00:00:00",
     "start": "2027-06-16T16:00:00.000Z",
     "end": "2027-06-17T16:00:00.000Z",
-    "name": "城隍爺誕辰",
-    "type": "observance",
-    "rule": "chinese 05-0-13 #1",
-    "_weekday": "Thu"
-  },
-  {
-    "date": "2027-06-17 00:00:00",
-    "start": "2027-06-16T16:00:00.000Z",
-    "end": "2027-06-17T16:00:00.000Z",
     "name": "關公誕辰",
     "type": "observance",
     "rule": "chinese 05-0-13",
     "_weekday": "Thu"
   },
   {
-    "date": "2027-08-08 00:00:00",
-    "start": "2027-08-07T16:00:00.000Z",
-    "end": "2027-08-08T16:00:00.000Z",
-    "name": "七夕",
+    "date": "2027-06-17 00:00:00",
+    "start": "2027-06-16T16:00:00.000Z",
+    "end": "2027-06-17T16:00:00.000Z",
+    "name": "城隍爺誕辰",
     "type": "observance",
-    "rule": "chinese 07-0-07",
-    "_weekday": "Sun"
+    "rule": "chinese 05-0-13 #1",
+    "_weekday": "Thu"
   },
   {
     "date": "2027-08-08 00:00:00",
@@ -299,6 +290,15 @@
     "name": "父親節",
     "type": "observance",
     "rule": "08-08",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2027-08-08 00:00:00",
+    "start": "2027-08-07T16:00:00.000Z",
+    "end": "2027-08-08T16:00:00.000Z",
+    "name": "七夕",
+    "type": "observance",
+    "rule": "chinese 07-0-07",
     "_weekday": "Sun"
   },
   {
