@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.24.3](https://github.com/commenthol/date-holidays/compare/3.24.2...3.24.3) (2025-05-12)
+
+- fix(VA): new pope leo xiv [c01eb7d3](https://github.com/commenthol/date-holidays/commit/c01eb7d3123d52080f877fb986b3f2832609a383)
+- fix(SG): Vesak Day 2025 [046f571d](https://github.com/commenthol/date-holidays/commit/046f571d4d992261f86cbd380235f082fa36749d)
+- fix(DE-HE): Remove Easter and Pentecost Sundays from DE-HE [0ec41ec5](https://github.com/commenthol/date-holidays/commit/0ec41ec567ae1183907e5a6fcabec9106feae38e)
+
 ## [3.24.2](https://github.com/commenthol/date-holidays/compare/3.24.1...3.24.2) (2025-04-18)
 
 - Merge branch 'sk-constitution-day' [58bdda13](https://github.com/commenthol/date-holidays/commit/58bdda1372073b71fafbebf833d94f05524612de)
