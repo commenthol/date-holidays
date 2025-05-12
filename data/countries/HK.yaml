@@ -1,12 +1,16 @@
 holidays:
   HK:
     # sources:
+    #   - https://www.gov.hk/en/about/abouthk/holiday/2025.htm
+    #   - https://www.gov.hk/en/about/abouthk/holiday/2024.htm
+    #   - https://www.gov.hk/en/about/abouthk/holiday/2023.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2022.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2021.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2020.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2019.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2018.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2017.htm
+    #   - https://www.gov.hk/en/about/abouthk/holiday/2016.htm
     names:
       zh: 香港
       en: Hong Kong
@@ -17,76 +21,135 @@ holidays:
       - Asia/Hong_Kong
     dayoff: sunday
     days:
-      01-01 and if Sunday then next Monday:
-        substitute: true
-        _name: 01-01
+      01-01 not on Sunday:
         name:
+          en: The first day of January
           zh: 一月一日
-      chinese 01-0-01 and if Saturday then next Tuesday:
+      substitutes 01-01 if Sunday then next Monday:
         name:
-          en: Lunar New Year
+          en: The day following the first day of January
+          zh: 一月一日翌日
+      chinese 01-0-01 not on Sunday:
+        name:
+          en: Lunar New Year’s Day
           zh: 農曆年初一
-      chinese 01-0-02 and if Saturday then next Monday:
+      chinese 01-0-02 not on Sunday:
         name:
-          en: The second day of the Lunar New Year
+          en: The second day of Lunar New Year
           zh: 農曆年初二
-      chinese 01-0-03 and if Saturday then next Monday:
+      chinese 01-0-03 not on Sunday:
         name:
-          en: The third day of the Lunar New Year
+          en: The third day of Lunar New Year
           zh: 農曆年初三
-      chinese 5-01 solarterm and if Sunday then next Monday:
+      substitutes chinese 01-0-01 if Sunday then next Wednesday:
         name:
-          en: Qingming Festival
+          en: The fourth day of Lunar New Year
+          zh: 農曆年初四
+      substitutes chinese 01-0-02 if Sunday then next Tuesday:
+        name:
+          en: The fourth day of Lunar New Year
+          zh: 農曆年初四
+      substitutes chinese 01-0-03 if Sunday then next Monday:
+        name:
+          en: The fourth day of Lunar New Year
+          zh: 農曆年初四
+      chinese 5-01 solarterm not on Sunday:
+        name:
+          en: Ching Ming Festival
           zh: 清明節
+      substitutes chinese 5-01 solarterm if Sunday then next Monday:
+        name:
+          en: The day following Ching Ming Festival
+          zh: 清明節翌日
       easter -2:
-        _name: easter -2
+        name:
+          en: Good Friday
+          zh: 耶穌受難節
       easter -1:
-        _name: easter -1
-      easter:
-        _name: easter
+        name:
+          en: The day following Good Friday
+          zh: 耶穌受難節翌日
       easter 1:
-        _name: easter 1
+        name:
+          en: Easter Monday
+          zh: 復活節星期一
         disable:
           # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
-          - "2021-04-05"
-        enable:
-          - "2021-04-06"
-      05-01 and if Sunday then next Monday:
-        substitute: true
-        _name: 05-01
-      chinese 04-0-08 and if Sunday then next Monday:
+          - '2021-04-05'
+      # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
+      '2021-04-06':
+        name:
+          en: The day following Easter Monday
+          zh: 復活節星期一翌日
+      05-01 not on Sunday:
+        name:
+          en: Labour Day
+          zh: 勞動節
+      substitutes 05-01 if Sunday then next Monday:
+        name:
+          en: The day following Labour Day
+          zh: 勞動節翌日
+      chinese 04-0-08 not on Sunday:
         name:
           en: Birthday of the Buddha
           zh: 佛誕
-      chinese 05-0-05:
+      substitutes chinese 04-0-08 if Sunday then next Monday:
         name:
-          en: Dragon Boat Festival
-          zh: 端午节
-      07-01 and if Sunday then next Monday:
-        substitute: true
+          en: The day following Birthday of the Buddha
+          zh: 佛誕翌日
+      chinese 05-0-05 not on Sunday:
+        name:
+          en: Tuen Ng Festival
+          zh: 端午節
+      substitutes chinese 05-0-05 if Sunday then next Monday:
+        name:
+          en: The day following Tuen Ng Festival
+          zh: 端午節翌日
+      07-01 not on Sunday:
         name:
           en: Hong Kong Special Administrative Region Establishment Day
           zh: 香港特別行政區成立紀念日
-      chinese 08-0-16 and if Sunday then next Monday if is public holiday then next day omit Saturday, Sunday:
-        substitute: true
+      substitutes 07-01 if Sunday then next Monday:
+        name:
+          en: The day following Hong Kong Special Administrative Region Establishment Day
+          zh: 香港特別行政區成立紀念日翌日
+      chinese 08-0-16 not on Sunday:
         name:
           en: The day following the Chinese Mid-Autumn Festival
           zh: 中秋節翌日
-      10-01 and if Sunday then next Monday:
-        substitute: true
+      substitutes chinese 08-0-16 if Sunday then next Monday:
+        name:
+          en: The second day following the Chinese Mid-Autumn Festival
+          zh: 中秋節後第二日
+      10-01 not on Sunday:
         name:
           en: National Day
           zh: 國慶日
-      chinese 09-0-09 and if Sunday then next Monday:
-        substitute: true
+      substitutes 10-01 if Sunday then next Monday:
+        name:
+          en: The day following National Day
+          zh: 國慶日翌日
+      chinese 09-0-09 not on Sunday:
         name:
           en: Chung Yeung Festival
-          zh: 重阳节
-      12-25 and if Sunday then next Monday:
-        substitute: true
-        _name: 12-25
-      12-26 and if Sunday then next Monday if Monday then next Tuesday:
-        substitute: true
+          zh: 重陽節
+      substitutes chinese 09-0-09 if Sunday then next Monday:
+        name:
+          en: The day following Chung Yeung Festival
+          zh: 重陽節翌日
+      12-25 not on Sunday:
+        name:
+          en: Christmas Day
+          zh: 聖誕節
+      12-26 not on Sunday:
         name:
           en: The first weekday after Christmas Day
-          zh: 圣诞节后的第一个工作日
+          zh: 聖誕節後第一個周日
+      substitutes 12-25 if Sunday then next Tuesday: # i.e. 12-25 on Sunday
+        name:
+          en: The second weekday after Christmas Day
+          zh: 聖誕節後第二個周日
+      substitutes 12-26 if Sunday then next Monday: # i.e. 12-25 on Saturday, 12-26 on Sunday
+        name:
+          en: The first weekday after Christmas Day
+          zh: 聖誕節後第一個周日

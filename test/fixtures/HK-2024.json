@@ -5,7 +5,7 @@
     "end": "2024-01-01T16:00:00.000Z",
     "name": "一月一日",
     "type": "public",
-    "rule": "01-01 and if Sunday then next Monday",
+    "rule": "01-01 not on Sunday",
     "_weekday": "Mon"
   },
   {
@@ -14,17 +14,8 @@
     "end": "2024-02-10T16:00:00.000Z",
     "name": "農曆年初一",
     "type": "public",
-    "rule": "chinese 01-0-01 and if Saturday then next Tuesday",
+    "rule": "chinese 01-0-01 not on Sunday",
     "_weekday": "Sat"
-  },
-  {
-    "date": "2024-02-11 00:00:00",
-    "start": "2024-02-10T16:00:00.000Z",
-    "end": "2024-02-11T16:00:00.000Z",
-    "name": "農曆年初二",
-    "type": "public",
-    "rule": "chinese 01-0-02 and if Saturday then next Monday",
-    "_weekday": "Sun"
   },
   {
     "date": "2024-02-12 00:00:00",
@@ -32,16 +23,16 @@
     "end": "2024-02-12T16:00:00.000Z",
     "name": "農曆年初三",
     "type": "public",
-    "rule": "chinese 01-0-03 and if Saturday then next Monday",
+    "rule": "chinese 01-0-03 not on Sunday",
     "_weekday": "Mon"
   },
   {
     "date": "2024-02-13 00:00:00",
     "start": "2024-02-12T16:00:00.000Z",
     "end": "2024-02-13T16:00:00.000Z",
-    "name": "農曆年初一",
+    "name": "農曆年初四",
     "type": "public",
-    "rule": "chinese 01-0-01 and if Saturday then next Tuesday",
+    "rule": "substitutes chinese 01-0-02 if Sunday then next Tuesday",
     "_weekday": "Tue"
   },
   {
@@ -63,15 +54,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2024-03-31 00:00:00",
-    "start": "2024-03-30T16:00:00.000Z",
-    "end": "2024-03-31T16:00:00.000Z",
-    "name": "复活节",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2024-04-01 00:00:00",
     "start": "2024-03-31T16:00:00.000Z",
     "end": "2024-04-01T16:00:00.000Z",
@@ -86,16 +68,16 @@
     "end": "2024-04-04T16:00:00.000Z",
     "name": "清明節",
     "type": "public",
-    "rule": "chinese 5-01 solarterm and if Sunday then next Monday",
+    "rule": "chinese 5-01 solarterm not on Sunday",
     "_weekday": "Thu"
   },
   {
     "date": "2024-05-01 00:00:00",
     "start": "2024-04-30T16:00:00.000Z",
     "end": "2024-05-01T16:00:00.000Z",
-    "name": "劳动节",
+    "name": "勞動節",
     "type": "public",
-    "rule": "05-01 and if Sunday then next Monday",
+    "rule": "05-01 not on Sunday",
     "_weekday": "Wed"
   },
   {
@@ -104,16 +86,16 @@
     "end": "2024-05-15T16:00:00.000Z",
     "name": "佛誕",
     "type": "public",
-    "rule": "chinese 04-0-08 and if Sunday then next Monday",
+    "rule": "chinese 04-0-08 not on Sunday",
     "_weekday": "Wed"
   },
   {
     "date": "2024-06-10 00:00:00",
     "start": "2024-06-09T16:00:00.000Z",
     "end": "2024-06-10T16:00:00.000Z",
-    "name": "端午节",
+    "name": "端午節",
     "type": "public",
-    "rule": "chinese 05-0-05",
+    "rule": "chinese 05-0-05 not on Sunday",
     "_weekday": "Mon"
   },
   {
@@ -122,7 +104,7 @@
     "end": "2024-07-01T16:00:00.000Z",
     "name": "香港特別行政區成立紀念日",
     "type": "public",
-    "rule": "07-01 and if Sunday then next Monday",
+    "rule": "07-01 not on Sunday",
     "_weekday": "Mon"
   },
   {
@@ -131,7 +113,7 @@
     "end": "2024-09-18T16:00:00.000Z",
     "name": "中秋節翌日",
     "type": "public",
-    "rule": "chinese 08-0-16 and if Sunday then next Monday if is public holiday then next day omit Saturday, Sunday",
+    "rule": "chinese 08-0-16 not on Sunday",
     "_weekday": "Wed"
   },
   {
@@ -140,16 +122,16 @@
     "end": "2024-10-01T16:00:00.000Z",
     "name": "國慶日",
     "type": "public",
-    "rule": "10-01 and if Sunday then next Monday",
+    "rule": "10-01 not on Sunday",
     "_weekday": "Tue"
   },
   {
     "date": "2024-10-11 00:00:00",
     "start": "2024-10-10T16:00:00.000Z",
     "end": "2024-10-11T16:00:00.000Z",
-    "name": "重阳节",
+    "name": "重陽節",
     "type": "public",
-    "rule": "chinese 09-0-09 and if Sunday then next Monday",
+    "rule": "chinese 09-0-09 not on Sunday",
     "_weekday": "Fri"
   },
   {
@@ -158,16 +140,16 @@
     "end": "2024-12-25T16:00:00.000Z",
     "name": "聖誕節",
     "type": "public",
-    "rule": "12-25 and if Sunday then next Monday",
+    "rule": "12-25 not on Sunday",
     "_weekday": "Wed"
   },
   {
     "date": "2024-12-26 00:00:00",
     "start": "2024-12-25T16:00:00.000Z",
     "end": "2024-12-26T16:00:00.000Z",
-    "name": "圣诞节后的第一个工作日",
+    "name": "聖誕節後第一個周日",
     "type": "public",
-    "rule": "12-26 and if Sunday then next Monday if Monday then next Tuesday",
+    "rule": "12-26 not on Sunday",
     "_weekday": "Thu"
   }
 ]
