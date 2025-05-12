@@ -32,7 +32,7 @@
     "end": "2019-03-13T23:00:00.000Z",
     "name": "Anniversario dell'Elezione del Santo Padre",
     "type": "public",
-    "rule": "03-13",
+    "rule": "03-13 since 2013 and prior to 2026",
     "_weekday": "Wed"
   },
   {
@@ -60,7 +60,7 @@
     "name": "San Giorgio - Onomastico del Santo Padre",
     "type": "public",
     "note": "Name day of Pope Francis (Jorge Mario Bergoglio)",
-    "rule": "04-23",
+    "rule": "04-23 since 2013 and prior to 2026",
     "_weekday": "Tue"
   },
   {
