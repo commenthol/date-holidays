@@ -58,7 +58,7 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-
+      # Pope John Paul II
       10-16:
         name:
           en: Anniversary of the election of Pope John Paul II
@@ -74,33 +74,34 @@ holidays:
         active:
           - from: 1978
             to: 2005
-
-      04-19:
+      # Pope Benedict XVI
+      04-19 since 2005 and prior to 2013:
         name:
           en: Anniversary of the election of Pope Benedict XVI
           it: Anniversario dell'Elezione del Santo Padre
-        active:
-          - from: 2005
-            to: 2013
-      "03-19#1":
+      03-19 since 2005 and prior to 2013:
         name:
           en: Saint Joseph - Name day of the Holy Father
           it: San Giuseppe - Onomastico del Santo Padre
         note: Name day of Pope Benedict XVI (Josef Ratzinger)
-        active:
-          - from: 2005
-            to: 2013
-
-      03-13:
+      # Pope Francis
+      03-13 since 2013 and prior to 2026:
         name:
           en: Anniversary of the election of Pope Francis
           it: Anniversario dell'Elezione del Santo Padre
-        active:
-          - from: 2013
-      04-23:
+      04-23 since 2013 and prior to 2026:
         name:
           en: Saint George - Name day of the Holy Father
           it: San Giorgio - Onomastico del Santo Padre
         note: Name day of Pope Francis (Jorge Mario Bergoglio)
-        active:
-          - from: 2013
+      # Pope Leo XIV
+      05-08 since 2026:
+        name:
+          en: Anniversary of the election of Pope Leo XIV
+          it: Anniversario dell'Elezione del Santo Padre
+      09-17 since 2025:
+        name:
+          en: Saint Robert Bellarmine - Name day of the Holy Father
+          it: San Roberto Bellarmino - Onomastico del Santo Padre
+        note: Name day of Pope Leo XIV (Robert Francis Prevost)
+            
