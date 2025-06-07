@@ -1,6 +1,40 @@
-# @source https://www.hrsd.gov.sa/sites/default/files/2025-02/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%88%D9%85%D9%84%D8%AD%D9%82%D8%A7%D8%AA%D9%87%D8%A7.pdf المادة (24)
+# @source https://www.hrsd.gov.sa/sites/default/files/2025-02/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%88%D9%85%D9%84%D8%AD%D9%82%D8%A7%D8%AA%D9%87%D8%A7.pdf
 # @attrib https://en.wikipedia.org/wiki/Saudi_Founding_Day
 # @attrib https://en.wikipedia.org/wiki/Saudi_National_Day
+#
+# Past Eid holiday dates for the private and non-profit sectors.
+# Note: These are historical records for reference.
+#
+# 2021 Eid al-Fitr (from 2021-05-12 to 2021-05-15)
+# @source https://al-ain.com/article/eid-al-fitr-2021-in-saudi-arabia
+#
+# 2021 Eid al-Adha (from 2021-07-19 to 2021-07-22)
+# @source https://www.okaz.com.sa/news/local/2075063
+#
+# 2022 Eid al-Fitr (from 2022-05-01 to 2022-05-04)
+# @source https://ajel.sa/local/human-resources-announces-eid-al-fitr-vacation-dates-for-the-private-and-non-profit-sectors
+#
+# 2022 Eid al-Adha (from 2022-07-08 to 2022-07-11)
+# @source https://ajel.sa/thehour/eid-al-adha-holidays-2022-learn-about-the-bank-holiday-and-the-date-of-return-to-work
+#
+# 2023 Eid al-Fitr (from 2023-04-21 to 2023-04-24)
+# @source https://ajel.sa/local/9pu448axfr
+#
+# 2023 Eid al-Adha (from 2023-06-27 to 2023-06-30)
+# @source https://ajel.sa/local/siaxfw5hmo
+#
+# 2024 Eid al-Fitr (from 2024-04-09 to 2024-04-12)
+# @source https://www.okaz.com.sa/news/local/2158038
+#
+# 2024 Eid al-Adha (from 2024-06-15 to 2024-06-18)
+# @source https://sahmnews.com.sa/2024/06/09/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D9%85%D9%88%D8%B9%D8%AF-%D8%A5%D8%AC/
+#
+# 2025 Eid al-Fitr (from 2025-03-30 to 2025-04-02)
+# @source https://sahmnews.com.sa/2025/03/11/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A5%D8%AC%D8%A7%D8%B2%D8%A9-%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%81%D8%B7%D8%B1-%D9%84/
+#
+# 2025 Eid al-Adha (from 2025-06-05 to 2025-06-08)
+# @source https://www.dostor.org/5096235
+
 holidays:
   SA:
     names:
@@ -21,7 +55,7 @@ holidays:
         name:
           ar: "اليوم الوطني"
           en: National Day
-      29 Ramadan P4D:
+      30 Ramadan P4D:
         _name: 1 Shawwal
       9 Dhu al-Hijjah P4D:
         _name: 10 Dhu al-Hijjah
