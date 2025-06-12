@@ -25,21 +25,6 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26840-207258/texto
-      "2013-01-31":
-        name:
-          en: Bicentennial of the Assembly of the Year XIII
-          es: Bicentenario de la Asamblea General Constituyente de 1813
-      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26837-207405/texto
-      "2013-02-20":
-        name:
-          en: Bicentennial of the Battle of Salta
-          es: Bicentenario de la Batalla de Salta
-      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26721-191835/texto
-      "2012-02-27":
-        name:
-          en: Bicentennial of the Creation and First Oath of Allegiance to the Argentine Flag
-          es: Bicentenario de la creación y primera jura de la bandera argentina
       # Abolished in 1976
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-21329-65453/texto
       # Reintroduced in 2010
@@ -99,16 +84,6 @@ holidays:
           - "2020-03-31"
       05-01:
         _name: 05-01
-      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-615-2010-166825/texto
-      "2010-05-24":
-        name:
-          en: National Holiday for the Bicentennial of the May Revolution
-          es: Feriado Nacional por el Bicentenario de la Revolución de Mayo
-      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-42-2022-360018/texto
-      "2022-05-18":
-        name:
-          en: National Census 2022
-          es: Censo Nacional 2022
       05-25:
         name:
           en: Day of the First National Government
@@ -217,11 +192,6 @@ holidays:
         enable:
           # @source https://www.argentina.gob.ar/normativa/nacional/decreto-521-2011-181754/texto
           - "2011-08-22"
-      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26763-201915/texto
-      "2012-09-24":
-        name:
-          en: Bicentennial of the Battle of Tucumán
-          es: Bicentenario de la Batalla de Tucumán
       # Abolished in 1976
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-21329-65453/texto
       # Reintroduced in 1982
@@ -278,11 +248,6 @@ holidays:
           es: Día del Respeto a la Diversidad Cultural
         active:
           - from: "2017-01-24"
-      # @source https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1159-2010-173748/texto
-      "2010-10-27":
-        name:
-          en: National Census 2010
-          es: Censo Nacional 2010
       # Introduced in 2010
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1584-2010-174389/texto
       4th monday in November:
@@ -320,6 +285,63 @@ holidays:
       "12-31 12:00":
         _name: 12-31
         type: optional
+      # Special public holiday
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-615-2010-166825/texto
+      "2010-05-24":
+        name:
+          en: National Holiday for the Bicentennial of the May Revolution
+          es: Feriado Nacional por el Bicentenario de la Revolución de Mayo
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26721-191835/texto
+      "2012-02-27":
+        name:
+          en: Bicentennial of the Creation and First Oath of Allegiance to the Argentine Flag
+          es: Bicentenario de la creación y primera jura de la bandera argentina
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26763-201915/texto
+      "2012-09-24":
+        name:
+          en: Bicentennial of the Battle of Tucumán
+          es: Bicentenario de la Batalla de Tucumán
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26840-207258/texto
+      "2013-01-31":
+        name:
+          en: Bicentennial of the Assembly of the Year XIII
+          es: Bicentenario de la Asamblea General Constituyente de 1813
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-26837-207405/texto
+      "2013-02-20":
+        name:
+          en: Bicentennial of the Battle of Salta
+          es: Bicentenario de la Batalla de Salta
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-842-2022-376857/texto
+      "2022-12-20":
+        name:
+          en: National Holiday for the World Football Champions in the FIFA World Cup QATAR 2022
+          es: Feriado Nacional de los Campeones Mundiales de Fútbol en la Copa Mundial de la FIFA CATAR 2022
+      # National Census
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-22307-202349
+      "1980-10-22":
+        name:
+          en: National Census 1980
+          es: Censo Nacional 1980
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-788-1991-6092
+      "1991-05-15":
+        name:
+          en: National Census 1991
+          es: Censo Nacional 1991
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1154-2001-68781/texto
+      "2001-11-17":
+        name:
+          en: National Census 2001
+          es: Censo Nacional 2001
+      # @source https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1159-2010-173748/texto
+      "2010-10-27":
+        name:
+          en: National Census 2010
+          es: Censo Nacional 2010
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-42-2022-360018/texto
+      "2022-05-18":
+        name:
+          en: National Census 2022
+          es: Censo Nacional 2022
       # Bridge holidays for tourism purpose (2011-2013)
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1585-2010-174391/texto
       "2011-03-25":
@@ -393,7 +415,7 @@ holidays:
       "2022-12-09":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2023)
-      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-789-2021-356678/texto
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-764-2022-375264/texto
       "2023-05-26":
         _name: Bridge Day
       "2023-06-19":
@@ -401,7 +423,7 @@ holidays:
       "2023-10-13":
         _name: Bridge Day
       # Bridge holidays for tourism purpose (2024)
-      # @source https://www.boletinoficial.gob.ar/detalleAviso/primera/301434/20231229
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-106-2023-395689/texto
       "2024-04-01":
         _name: Bridge Day
       "2024-06-21":
@@ -409,7 +431,7 @@ holidays:
       "2024-10-11":
         _name: Bridge Day
       # Non-working days for tourism purpose (2025)
-      # @source https://www.boletinoficial.gob.ar/detalleAviso/primera/317188/20241121
+      # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1027-2024-406417/texto
       "2025-05-02":
         _name: Bridge Day
         type: bank
