@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.24.4](https://github.com/commenthol/date-holidays/compare/3.24.3...3.24.4) (2025-06-12)
+
+- fix(HK): yaml liniting [22b41c15](https://github.com/commenthol/date-holidays/commit/22b41c15a6c9fc603c9360f21c7a8ec6ceab162d)
+- fix(SA): Correct Eid al-Fitr dates and update test fixtures [5aca765d](https://github.com/commenthol/date-holidays/commit/5aca765dab6bf20c2ae337223dcde6ec829a69e2)
+- feat(AR): Add one-off holidays [8cbd51b3](https://github.com/commenthol/date-holidays/commit/8cbd51b3a687f53badd4a96165af437ce1d425b9)
+- fix(JP):Changed from Noel to Christmas [116d3dcf](https://github.com/commenthol/date-holidays/commit/116d3dcf9bc97c5e5fccc63c68a85541d1a114f4)
+- fix(HK): Fix Hong Kong holidays [9ec080c4](https://github.com/commenthol/date-holidays/commit/9ec080c4ce68e0d6b77e53b6444345bcc0cdc70d)
+
 ## [3.24.3](https://github.com/commenthol/date-holidays/compare/3.24.2...3.24.3) (2025-05-12)
 
 - fix(VA): new pope leo xiv [c01eb7d3](https://github.com/commenthol/date-holidays/commit/c01eb7d3123d52080f877fb986b3f2832609a383)
