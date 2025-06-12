@@ -75,9 +75,9 @@ holidays:
           zh: 復活節星期一
         disable:
           # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
-          - '2021-04-05'
+          - "2021-04-05"
       # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
-      '2021-04-06':
+      "2021-04-06":
         name:
           en: The day following Easter Monday
           zh: 復活節星期一翌日
