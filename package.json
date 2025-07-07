@@ -162,7 +162,7 @@
   },
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
-  "types": "./types",
+  "types": "./types/index.d.ts",
   "bin": {
     "holidays2json": "scripts/holidays2json.cjs"
   },
