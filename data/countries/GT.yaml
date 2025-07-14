@@ -42,10 +42,109 @@ holidays:
       "12-31 12:00":
         _name: 12-31
     states:
+    # Cada departamento y municipio se identifica por medio de un código de 2 y 4 digitos:
+    # @source: https://www.ine.gob.gt/sistema/uploads/2016/10/28/0NiM1ouoHaN67SRO2IzXZ5RNI7FeyHpn.xls
+    # Cada municipio tiene una feria patronal que por decreto del artículo 127 del código de trabajo, es un asueto oficial para tal municipio:
+    # @source: https://aprende.guatemala.com/cultura-guatemalteca/fiestas-patronales/las-ferias-patronales-en-los-22-departamentos-de-guatemala/
       01:
-        names:
-          es: Ciudad de Guatemala
-          en: Guatemala City
-        days:
-          08-15:
-            _name: 08-15
+        name: Guatemala
+        regions:
+          0101:
+            name: Guatemala
+            days:
+              08-15:
+                _name: 08-15
+          0102:
+            name: Santa Catarina Pinula
+            days:
+              11-25:
+                name:
+                  es: Santa Catarina de Alejandría
+          0103:
+            name: San José Pinula
+            days:
+              03-19:
+                name:
+                  es: San José Obrero
+          0104:
+            name: San José del Golfo
+            days:
+              03-19:
+                name:
+                  es: San José Obrero
+          0105:
+            name: Palencia
+            days:
+              04-27:
+                name:
+                  es: San Benito de Palermo
+          0106:
+            name: Chinautla
+            days:
+              05-03:
+                name:
+                  es: Santa Cruz
+          0107:
+            name: San Pedro Ayampuc
+            days:
+              easter -44:
+                name:
+                  es: Primer viernes de Cuaresma
+          0108:
+            name: Mixco
+            days:
+              08-04:
+                name:
+                  es: Santo Domingo de Guzmán
+          0109:
+            name: San Pedro Sacatepéquez
+            days:
+              06-29:
+                name:
+                  es: San Pedro Apóstol
+          0110:
+            name: San Juan Sacatepéquez
+            days:
+              06-24:
+                name:
+                  es: San Juan Bautista
+          0111:
+            name: San Raimundo
+            days:
+              01-23:
+                name:
+                  es: San Raymundo Peñafort
+          0112:
+            name: San Pedro y San Pablo
+            days:
+              06-29:
+                _name: 06-29
+          0113:
+            name: Fraijanes
+            days:
+              02-02:
+                name:
+                  es: Virgen de la Candelaria y Sagrado Corazón de Jesús
+          0114:
+            name: Amatitlán
+            days:
+              05-03:
+                name:
+                  es: Santa Cruz
+          0115:
+            name: Villa Nueva
+            days:
+              12-08:
+                _name: 12-08
+          0116:
+            name: Villa Canales
+            days:
+              03-25:
+                name:
+                  es: San José Obrero
+          0117:
+            name: San Miguel Petapa
+            days:
+              09-29:
+                name:
+                  es: San Miguel Arcángel
