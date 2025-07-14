@@ -2,6 +2,7 @@ holidays:
   # @source http://ww2.oj.gob.gt/estadisticalaboral/Leyes%20en%20Materia%20de%20Trabajo%20y%20Prevision%20Social/Leyes%20Nacionales%20en%20Materia%20de%20Trabajo%20y%20Prevision%20Social/63298%20DECRETO%20DEL%20CONGRESO%2042-2010%20Ley%20que%20Promueve%20el%20Turismo%20Interno.pdf
   # @source http://ww2.oj.gob.gt/es/QueEsOJ/EstructuraOJ/UnidadesAdministrativas/CentroAnalisisDocumentacionJudicial/cds/CDs%20codigos/CODIGO_TRABAJO/codigo.html
   # Guatemala CODIGO DE TRABAJO Artículo 127.  Son días de asueto con goce de salario
+  # @source https://www.sib.gob.gt/web/sib/entidades_supervisadas/calendario-de-asuetos
   GT:
     names:
       es: Guatemala
@@ -14,6 +15,21 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      02-11:
+        # reference: https://aprende.guatemala.com/cultura-guatemalteca/civismo/la-monja-blanca-flor-nacional-de-guatemala/
+        name:
+          es: Día de la Monja Blanca
+          en: White Nun Day
+        type: observance
+      02-20:
+        # reference: https://conap.gob.gt/dia-nacional-de-la-marimba/
+        name:
+          es: Día de la Marimba
+          en: Marimba Day
+        type: observance
+      03-08:
+        _name: 03-08
+        type: observance
       easter -3:
         _name: easter -3
       easter -2:
@@ -25,16 +41,48 @@ holidays:
         type: observance
       05-01:
         _name: 05-01
+      05-10:
+        _name: Mothers Day
+        type: optional
+      05-30:
+        # reference: https://dca.gob.gt/noticias-guatemala-diario-centro-america/dia-nacional-del-popol-vuh/
+        name:
+          es: Día Nacional del Popol Vuh
+          en: Popol Vuh Day
+        type: observance
+      06-17:
+        _name: Fathers Day
+        type: optional
+      06-25:
+        # reference: https://www.congreso.gob.gt/noticias_congreso/13811/2025/4
+        name:
+          es: Día del Maestro
+          en: Teacher's Day
+        type: observance
       06-30 if tuesday then previous monday if wednesday,thursday then next friday:
         name:
           es: Día de las Fuerzas Armadas
           en: Army Day
+      07-01 if tuesday then previous friday if saturday then previous friday if sunday then next monday:
+        name:
+          es: Día del Empleado
+Bancario
+          en: Bank Employee Day
+        type: bank
       09-15:
         _name: Independence Day
+      10-12 if saturday then previous friday if sunday then next monday:
+        name:
+          es: Día de la Raza
+          en: Day of Race
+        type: bank
       10-20:
         _name: Revolution Day
       11-01:
         _name: 11-01
+      11-02:
+        _name: 11-02
+        type: observance
       "12-24 12:00":
         _name: 12-24
       12-25:
