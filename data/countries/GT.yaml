@@ -63,10 +63,9 @@ holidays:
         name:
           es: Día de las Fuerzas Armadas
           en: Army Day
-      07-01 if tuesday then previous friday if saturday then previous friday if sunday then next monday:
+      07-01 if tuesday,saturday then previous friday if sunday then next monday:
         name:
-          es: Día del Empleado
-Bancario
+          es: Día del Empleado Bancario
           en: Bank Employee Day
         type: bank
       09-15:
