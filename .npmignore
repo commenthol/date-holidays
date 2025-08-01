@@ -9,9 +9,11 @@ docs/
 gen/
 tmp/
 data/countries/*.todo
-scripts/addtree.js
-scripts/attributions.js
-scripts/tree.js
+scripts/addtree.cjs
+scripts/attributions.cjs
+scripts/gitlog.cjs
+scripts/tree.cjs
+types/index.tst.ts
 Makefile
 TODO.md
 CONTRIBUTING.md
@@ -21,5 +23,6 @@ CONTRIBUTING.md
 .*
 package-lock.json
 yarn.lock
-webpack.config.cjs
 commitlint.config.cjs
+rollup.config.mjs
+webpack.config.cjs

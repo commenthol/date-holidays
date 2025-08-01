@@ -150,9 +150,9 @@
   "type": "module",
   "exports": {
     ".": {
+      "types": "./types/index.d.ts",
       "import": "./src/index.js",
-      "require": "./lib/index.cjs",
-      "types": "./types/index.d.ts"
+      "require": "./lib/index.cjs"
     },
     "./data": {
       "import": "./src/data.js",
@@ -162,7 +162,7 @@
   },
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
-  "types": "./types",
+  "types": "./types/index.d.ts",
   "bin": {
     "holidays2json": "scripts/holidays2json.cjs"
   },
@@ -184,9 +184,9 @@
     "doc:tree": "node scripts/addtree.cjs",
     "lint": "eslint --fix --ext .js,.cjs,.yaml .",
     "prepublishOnly": "npm run all",
-    "test": "npm-run-all test:ci",
+    "test": "npm-run-all test:*",
     "test:ci": "mocha",
-    "test:ts": "dtslint types",
+    "test:ts": "tstyche",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
     "webpack:analyze": "webpack",
@@ -250,7 +250,6 @@
     "@commitlint/config-conventional": "^18.6.3",
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^9.2.1",
-    "dtslint": "^4.2.1",
     "eslint": "^8.57.1",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.31.0",
@@ -264,7 +263,7 @@
     "npm-run-all": "^4.1.5",
     "rimraf": "^6.0.1",
     "rollup": "^2.79.2",
-    "typescript": "^5.8.3",
+    "tstyche": "^4.1.0",
     "watch-run": "^1.2.5",
     "webpack": "^5.99.5",
     "webpack-bundle-analyzer": "^4.10.2",

@@ -65,7 +65,7 @@ declare module 'date-holidays' {
       type: HolidayType;
       /** the holiday rule - use for references */
       rule: string;
-      /** holiday is a substritute day */
+      /** holiday is a substitute day */
       substitute?: boolean;
     }
   }
@@ -102,8 +102,8 @@ declare module 'date-holidays' {
      */
     setHoliday(rule: string, opts: HolidaysTypes.HolidayOptions | string): boolean;
     /**
-     * get all holidays for `year` with names using prefered `language`
-     * @param [year] - if omitted current year is choosen
+     * get all holidays for `year` with names using preferred `language`
+     * @param [year] - if omitted current year is chosen
      * @param [language] - ISO 639-1 code for language
      * @returns of found holidays in given year sorted by Date:
      */
