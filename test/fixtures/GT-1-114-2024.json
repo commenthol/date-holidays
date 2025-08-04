@@ -30,7 +30,7 @@
     "date": "2024-03-08 00:00:00",
     "start": "2024-03-08T06:00:00.000Z",
     "end": "2024-03-09T06:00:00.000Z",
-    "name": "International Women's Day",
+    "name": "Día de la Mujer",
     "type": "observance",
     "rule": "03-08",
     "_weekday": "Fri"
@@ -75,7 +75,7 @@
     "date": "2024-05-01 00:00:00",
     "start": "2024-05-01T06:00:00.000Z",
     "end": "2024-05-02T06:00:00.000Z",
-    "name": "Día del trabajador",
+    "name": "Día del Trabajador",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Wed"
@@ -111,7 +111,7 @@
     "date": "2024-06-17 00:00:00",
     "start": "2024-06-17T06:00:00.000Z",
     "end": "2024-06-18T06:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Día del Padre",
     "type": "optional",
     "rule": "06-17",
     "_weekday": "Mon"
