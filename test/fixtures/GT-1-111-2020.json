@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2020-01-01 00:00:00",
+    "start": "2020-01-01T06:00:00.000Z",
+    "end": "2020-01-02T06:00:00.000Z",
+    "name": "Año Nuevo",
+    "type": "public",
+    "rule": "01-01",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2020-01-23 00:00:00",
+    "start": "2020-01-23T06:00:00.000Z",
+    "end": "2020-01-24T06:00:00.000Z",
+    "name": "San Raymundo Peñafort",
+    "type": "public",
+    "rule": "01-23",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-02-11 00:00:00",
+    "start": "2020-02-11T06:00:00.000Z",
+    "end": "2020-02-12T06:00:00.000Z",
+    "name": "Día de la Monja Blanca",
+    "type": "observance",
+    "rule": "02-11",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2020-02-20 00:00:00",
+    "start": "2020-02-20T06:00:00.000Z",
+    "end": "2020-02-21T06:00:00.000Z",
+    "name": "Día de la Marimba",
+    "type": "observance",
+    "rule": "02-20",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-03-08 00:00:00",
+    "start": "2020-03-08T06:00:00.000Z",
+    "end": "2020-03-09T06:00:00.000Z",
+    "name": "International Women's Day",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-04-09 00:00:00",
+    "start": "2020-04-09T06:00:00.000Z",
+    "end": "2020-04-10T06:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-04-10 00:00:00",
+    "start": "2020-04-10T06:00:00.000Z",
+    "end": "2020-04-11T06:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-04-11 00:00:00",
+    "start": "2020-04-11T06:00:00.000Z",
+    "end": "2020-04-12T06:00:00.000Z",
+    "name": "Sabado Santo",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2020-04-12 00:00:00",
+    "start": "2020-04-12T06:00:00.000Z",
+    "end": "2020-04-13T06:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-05-01 00:00:00",
+    "start": "2020-05-01T06:00:00.000Z",
+    "end": "2020-05-02T06:00:00.000Z",
+    "name": "Día del trabajador",
+    "type": "public",
+    "rule": "05-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-05-10 00:00:00",
+    "start": "2020-05-10T06:00:00.000Z",
+    "end": "2020-05-11T06:00:00.000Z",
+    "name": "Día de la Madre",
+    "type": "optional",
+    "rule": "05-10",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-05-30 00:00:00",
+    "start": "2020-05-30T06:00:00.000Z",
+    "end": "2020-05-31T06:00:00.000Z",
+    "name": "Día Nacional del Popol Vuh",
+    "type": "observance",
+    "rule": "05-30",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2020-06-17 00:00:00",
+    "start": "2020-06-17T06:00:00.000Z",
+    "end": "2020-06-18T06:00:00.000Z",
+    "name": "Father's Day",
+    "type": "optional",
+    "rule": "06-17",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2020-06-25 00:00:00",
+    "start": "2020-06-25T06:00:00.000Z",
+    "end": "2020-06-26T06:00:00.000Z",
+    "name": "Día del Maestro",
+    "type": "observance",
+    "rule": "06-25",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-06-29 00:00:00",
+    "start": "2020-06-29T06:00:00.000Z",
+    "end": "2020-06-30T06:00:00.000Z",
+    "name": "Día de las Fuerzas Armadas",
+    "type": "public",
+    "rule": "06-30 if tuesday then previous monday if wednesday,thursday then next friday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-07-01 00:00:00",
+    "start": "2020-07-01T06:00:00.000Z",
+    "end": "2020-07-02T06:00:00.000Z",
+    "name": "Día del Empleado Bancario",
+    "type": "bank",
+    "rule": "07-01 if tuesday,saturday then previous friday if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2020-09-15 00:00:00",
+    "start": "2020-09-15T06:00:00.000Z",
+    "end": "2020-09-16T06:00:00.000Z",
+    "name": "Día de la Independencia",
+    "type": "public",
+    "rule": "09-15",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2020-10-12 00:00:00",
+    "start": "2020-10-12T06:00:00.000Z",
+    "end": "2020-10-13T06:00:00.000Z",
+    "name": "Día de la Raza",
+    "type": "bank",
+    "rule": "10-12 if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-10-20 00:00:00",
+    "start": "2020-10-20T06:00:00.000Z",
+    "end": "2020-10-21T06:00:00.000Z",
+    "name": "Día de la Revolución",
+    "type": "public",
+    "rule": "10-20",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2020-11-01 00:00:00",
+    "start": "2020-11-01T06:00:00.000Z",
+    "end": "2020-11-02T06:00:00.000Z",
+    "name": "Todos los Santos",
+    "type": "public",
+    "rule": "11-01",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2020-11-02 00:00:00",
+    "start": "2020-11-02T06:00:00.000Z",
+    "end": "2020-11-03T06:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "observance",
+    "rule": "11-02",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-12-24 12:00:00",
+    "start": "2020-12-24T18:00:00.000Z",
+    "end": "2020-12-25T06:00:00.000Z",
+    "name": "Nochebuena",
+    "type": "public",
+    "rule": "12-24 12:00",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2020-12-25 00:00:00",
+    "start": "2020-12-25T06:00:00.000Z",
+    "end": "2020-12-26T06:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2020-12-31 12:00:00",
+    "start": "2020-12-31T18:00:00.000Z",
+    "end": "2021-01-01T06:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "public",
+    "rule": "12-31 12:00",
+    "_weekday": "Thu"
+  }
+]
