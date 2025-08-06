@@ -89,10 +89,10 @@ holidays:
       "12-31 12:00":
         _name: 12-31
     states:
-    # Cada departamento y municipio se identifica por medio de un código de 2 y 4 digitos:
-    # @source: https://www.ine.gob.gt/sistema/uploads/2016/10/28/0NiM1ouoHaN67SRO2IzXZ5RNI7FeyHpn.xls
-    # Cada municipio tiene una feria patronal que por decreto del artículo 127 del código de trabajo, es un asueto oficial para tal municipio:
-    # @source: https://aprende.guatemala.com/cultura-guatemalteca/fiestas-patronales/las-ferias-patronales-en-los-22-departamentos-de-guatemala/
+      # Cada departamento y municipio se identifica por medio de un código de 2 y 4 digitos:
+      # @source: https://www.ine.gob.gt/sistema/uploads/2016/10/28/0NiM1ouoHaN67SRO2IzXZ5RNI7FeyHpn.xls
+      # Cada municipio tiene una feria patronal que por decreto del artículo 127 del código de trabajo, es un asueto oficial para tal municipio:
+      # @source: https://aprende.guatemala.com/cultura-guatemalteca/fiestas-patronales/las-ferias-patronales-en-los-22-departamentos-de-guatemala/
       01:
         name: Guatemala
         regions:

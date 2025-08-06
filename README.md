@@ -332,6 +332,24 @@ Countries: 198
 ├── GQ: República de Guinea Ecuatorial
 ├── GR: Ελλάδα
 ├── GT: Guatemala
+│   └── 1: Guatemala
+│       ├── 101: Guatemala
+│       ├── 102: Santa Catarina Pinula
+│       ├── 103: San José Pinula
+│       ├── 104: San José del Golfo
+│       ├── 105: Palencia
+│       ├── 106: Chinautla
+│       ├── 107: San Pedro Ayampuc
+│       ├── 108: Mixco
+│       ├── 109: San Pedro Sacatepéquez
+│       ├── 110: San Juan Sacatepéquez
+│       ├── 111: San Raimundo
+│       ├── 112: San Pedro y San Pablo
+│       ├── 113: Fraijanes
+│       ├── 114: Amatitlán
+│       ├── 115: Villa Nueva
+│       ├── 116: Villa Canales
+│       └── 117: San Miguel Petapa
 ├── GU: Guam
 ├── GW: Guiné-Bissau
 ├── GY: Guyana

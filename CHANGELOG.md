@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.25.0](https://github.com/commenthol/date-holidays/compare/3.24.4...3.25.0) (2025-08-06)
+
+- fix: added missing spanish translations for some holidays and fixed syntax for spanish labor day. [3919ae32](https://github.com/commenthol/date-holidays/commit/3919ae32cc68953a343b8171c5a97db60cb51887)
+- chore: generated required files. [038477f3](https://github.com/commenthol/date-holidays/commit/038477f3203c7025ff511645877726625bafad8c)
+- fix: syntax [1009ebec](https://github.com/commenthol/date-holidays/commit/1009ebec243411e5f5e758fdc98ec01b00cc7454)
+- feat: added other types of holidays [058958ce](https://github.com/commenthol/date-holidays/commit/058958ce299a05375565c50bd984738586b60fcc)
+- fix: added sources, correct information and holidays of the Guatemalan state [d4e7e990](https://github.com/commenthol/date-holidays/commit/d4e7e990d7979efbcb6a4556b513fd9e75c245f4)
+- fix: added missing holiday for the Guatemala city state and updated source links [895cdcb4](https://github.com/commenthol/date-holidays/commit/895cdcb441dc5362c82574a37159af361bb0da9f)
+- update npmignore [2457ecea](https://github.com/commenthol/date-holidays/commit/2457eceaf4be081f301c02173ca2b44404b0ee27)
+- clean up [e4e0f98e](https://github.com/commenthol/date-holidays/commit/e4e0f98e4e14b70ba23665b0c745a74ceac93b02)
+- fix npmignore [baf9465c](https://github.com/commenthol/date-holidays/commit/baf9465c17d1c7f89be28a1ff4400c72405cb14e)
+- update [6d96748c](https://github.com/commenthol/date-holidays/commit/6d96748c68bd55177491f22d879126e08c3d2d7e)
+- clean up [2aef53c0](https://github.com/commenthol/date-holidays/commit/2aef53c0ed1cff600aeaff380b7de1fee38f2250)
+- chore: use TSTyche to test types [e51f93b4](https://github.com/commenthol/date-holidays/commit/e51f93b456819851f8f1d59e848f5985cd7195f6)
+- ci: add node 24 to ci workflow [49128891](https://github.com/commenthol/date-holidays/commit/49128891c747b9099e8bd937bd414f75b0b542c3)
+
 ## [3.24.4](https://github.com/commenthol/date-holidays/compare/3.24.3...3.24.4) (2025-06-12)
 
 - fix(HK): yaml liniting [22b41c15](https://github.com/commenthol/date-holidays/commit/22b41c15a6c9fc603c9360f21c7a8ec6ceab162d)
