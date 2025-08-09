@@ -10,12 +10,12 @@ If you like to add or change data please take a look at [holidays.yaml specifica
 
 1. Fork the project
 2. Create a branch for your changes
-3. Build the project:
+3. Create Json file and build the project:
    ```
-   npm run build
+   npm run yaml && npm run build
    ```
 4. Modify the yaml file for the country your changes apply in `./data/countries/<code>.yaml` for holiday data and/or `./data/names.yaml` for translations as appropriate
-5. Generate the Json file from the yaml files with
+5. Generate the new Json file from the yaml files with
    ```
    npm run yaml
    ```
