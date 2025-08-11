@@ -216,7 +216,7 @@ holidays:
           - America/Yellowknife
           - America/Inuvik
         days:
-          06-21:
+          06-21 since 2001:
             name:
               en: National Indigenous Peoples Day
               fr: Journée nationale des Autochthones
@@ -313,3 +313,7 @@ holidays:
             name:
               en: Discovery Day
               fr: Jour de la Découverte
+          06-21 since 2017:
+            name:
+              en: National Indigenous Peoples Day
+              fr: Journée nationale des Autochthones
