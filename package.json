@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.25.0",
+  "version": "3.25.1",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -71,6 +71,7 @@
     "Humam Aziz Romdhoni <anaktampan@live.com>",
     "Ing.Norante <eppedema@gmail.com>",
     "Jack Zhang <18542127+jk1z@users.noreply.github.com>",
+    "jackbonaguro-dandy <john.bonaguro@meetdandy.com>",
     "JAlexander <roodrallec@users.noreply.github.com>",
     "James Dixon <jim.w.dixon@gmail.com>",
     "Jani Šumak <jani.sumak@inova.si>",

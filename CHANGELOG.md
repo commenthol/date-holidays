@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.25.1](https://github.com/commenthol/date-holidays/compare/3.25.0...3.25.1) (2025-08-14)
+
+- fix(CA): add nipd for yukon, add start year for both yt and nt [283c99a2](https://github.com/commenthol/date-holidays/commit/283c99a258d455982c8d60a51ed396649f1056cf)
+
 ## [3.25.0](https://github.com/commenthol/date-holidays/compare/3.24.4...3.25.0) (2025-08-06)
 
 - fix: added missing spanish translations for some holidays and fixed syntax for spanish labor day. [3919ae32](https://github.com/commenthol/date-holidays/commit/3919ae32cc68953a343b8171c5a97db60cb51887)
