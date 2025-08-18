@@ -102,6 +102,15 @@
     "date": "2021-08-02 00:00:00",
     "start": "2021-08-02T03:00:00.000Z",
     "end": "2021-08-03T03:00:00.000Z",
+    "name": "Civic Holiday",
+    "type": "public",
+    "rule": "1st monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-08-02 00:00:00",
+    "start": "2021-08-02T03:00:00.000Z",
+    "end": "2021-08-03T03:00:00.000Z",
     "name": "Natal Day",
     "type": "public",
     "rule": "monday after 08-01",

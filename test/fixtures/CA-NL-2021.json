@@ -122,7 +122,7 @@
     "end": "2021-08-03T02:30:00.000Z",
     "name": "Civic Holiday",
     "type": "public",
-    "rule": "monday after 08-01",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {

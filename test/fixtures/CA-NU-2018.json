@@ -104,7 +104,7 @@
     "end": "2018-08-07T04:00:00.000Z",
     "name": "Civic Holiday",
     "type": "public",
-    "rule": "monday after 08-01",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
