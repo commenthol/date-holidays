@@ -73,7 +73,7 @@ holidays:
         name:
           en: Canada Day
           fr: Fête du Canada
-      monday after 08-01:
+      1st monday in August:
         name:
           en: Civic Holiday
           fr: Premier lundi d’août
@@ -150,12 +150,16 @@ holidays:
             name:
               en: Louis Riel Day
               fr: Journée Louis Riel
+          1st monday in August:
+            name:
+              en: Terry Fox Day
+              fr: Journée Terry Fox
       NB:
         name: New Brunswick
         zones:
           - America/Moncton
         days:
-          monday after 08-01:
+          1st monday in August:
             name:
               en: New Brunswick Day
               fr: Jour de Nouveau Brunswick
