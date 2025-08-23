@@ -114,7 +114,7 @@ holidays:
           easter 1:
             _name: easter 1
             type: optional
-          monday after 08-01:
+          1st monday in August:
             name:
               en: Heritage Day
               fr: Fête du patrimoine
@@ -210,7 +210,7 @@ holidays:
             name:
               en: Heritage Day
               fr: Fête du Patrimoine
-          monday after 08-01:
+          1st monday in August:
             name:
               en: Natal Day
               fr: Jour de la Fondation
@@ -313,7 +313,7 @@ holidays:
         days:
           easter 1:
             _name: easter 1
-          3rd monday after 08-01:
+          3rd monday in August:
             name:
               en: Discovery Day
               fr: Jour de la Découverte
