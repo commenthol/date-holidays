@@ -28,7 +28,7 @@ holidays:
       06-01:
         name:
           en: Children's Day
-          zh: 六一儿童节
+          zh: 儿童节
         note: Children below the age of 14
       08-01 12:00:
         name:
@@ -49,8 +49,8 @@ holidays:
           zh: 国庆节
       chinese 01-0-00: # Spring Festival Eve
         name:
-          en: Spring Festival
-          zh: 春节
+          en: New Year's Eve
+          zh: 除夕
       chinese 01-0-01: # 1st day of 1st lunar month
         name:
           en: Spring Festival
