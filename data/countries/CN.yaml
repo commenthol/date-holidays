@@ -15,12 +15,19 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      03-08 12:00:
-        _name: 03-08
-        note: Women
+      02-14:
+        name:
+          en: Valentine's Day
+          zh: 情人节
+      03-08:
+        name:
+          en: Women's Day
+          zh: 妇女节
       05-01:
-        _name: 05-01
-      05-04 12:00:
+        name:
+          en: Labour Day
+          zh: 劳动节
+      05-04:
         name:
           en: Youth Day
           zh: 青年节
@@ -28,7 +35,7 @@ holidays:
       06-01:
         name:
           en: Children's Day
-          zh: 六一儿童节
+          zh: 儿童节
         note: Children below the age of 14
       08-01 12:00:
         name:
@@ -39,38 +46,62 @@ holidays:
         name:
           en: National Day
           zh: 国庆节
-      10-02:
+      10-31:
         name:
-          en: National Day
-          zh: 国庆节
-      10-03:
+          en: Halloween
+          zh: 万圣节
+      12-24:
         name:
-          en: National Day
-          zh: 国庆节
+          en: Christmas Eve
+          zh: 平安夜
+      12-25:
+        name:
+          en: Christmas
+          zh: 圣诞节
       chinese 01-0-00: # Spring Festival Eve
         name:
-          en: Spring Festival
-          zh: 春节
+          en: New Year's Eve
+          zh: 除夕
       chinese 01-0-01: # 1st day of 1st lunar month
         name:
           en: Spring Festival
           zh: 春节
-      chinese 01-0-02:
+      chinese 01-0-15:
         name:
-          en: Spring Festival
-          zh: 春节
+          en: Lantern Festival
+          zh: 元宵节
       chinese 5-01 solarterm: # Tomb-Sweeping Day
         name:
           en: Qingming Festival
-          zh: 清明节 清明節
+          zh: 清明节
       chinese 05-0-05: # 5th day of 5th lunar month
         name:
           en: Dragon Boat Festival
           zh: 端午节
+      chinese 07-0-07:
+        name:
+          en: Double Seven Festival
+          zh: 七夕
       chinese 08-0-15: # 15th day of 8th lunar month
         name:
           en: Mid-Autumn Festival
           zh: 中秋节
+      chinese 09-0-09:
+        name:
+          en: Double Ninth Festival
+          zh: 重阳节
+      chinese 12-0-08:
+        name:
+          en: Laba Festival
+          zh: 腊八节
+      chinese 12-0-23:
+        name:
+          en: Xiao Nian(north)
+          zh: 小年北
+      chinese 12-0-24:
+        name:
+          en: Xiao Nian(south)
+          zh: 小年南
       "2021-01-02":
         _name: 01-01
       "2021-01-03":
