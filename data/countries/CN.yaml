@@ -78,7 +78,7 @@ holidays:
         name:
           en: Dragon Boat Festival
           zh: 端午节
-      chinese 07-0-7:
+      chinese 07-0-07:
         name:
           en: Double Seven Festival
           zh: 七夕
@@ -86,10 +86,22 @@ holidays:
         name:
           en: Mid-Autumn Festival
           zh: 中秋节
-      chinese 12-0-8:
+      chinese 09-0-09:
+        name:
+          en: Double Ninth Festival
+          zh: 重阳节
+      chinese 12-0-08:
         name:
           en: Laba Festival
           zh: 腊八节
+      chinese 12-0-23:
+        name:
+          en: Xiao Nian(north)
+          zh: 小年北
+      chinese 12-0-24:
+        name:
+          en: Xiao Nian(south)
+          zh: 小年南
       "2021-01-02":
         _name: 01-01
       "2021-01-03":
