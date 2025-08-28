@@ -23,6 +23,10 @@ holidays:
         name:
           en: Women's Day
           zh: 妇女节
+      04-01:
+        name:
+          en: April Fool's Day
+          zh: 愚人节
       05-01:
         name:
           en: Labour Day
