@@ -86,6 +86,10 @@ holidays:
         name:
           en: Double Seven Festival
           zh: 七夕
+      chinese 07-0-15:
+        name:
+          en: Hungry Ghost Festival
+          zh: 中元节
       chinese 08-0-15: # 15th day of 8th lunar month
         name:
           en: Mid-Autumn Festival
