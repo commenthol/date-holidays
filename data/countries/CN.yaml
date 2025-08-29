@@ -28,9 +28,7 @@ holidays:
           en: April Fool's Day
           zh: 愚人节
       05-01:
-        name:
-          en: Labour Day
-          zh: 劳动节
+        _name: 05-01
       05-04:
         name:
           en: Youth Day
