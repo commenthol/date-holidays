@@ -14,45 +14,56 @@ holidays:
       - Asia/Urumqi
     days:
       01-01:
+        substitute: true
         _name: 01-01
       02-14:
         name:
           en: Valentine's Day
           zh: 情人节
+        type: observance
       03-08:
         name:
           en: Women's Day
           zh: 妇女节
+        type: observance
       04-01:
         name:
           en: April Fool's Day
           zh: 愚人节
+        type: observance
       05-01:
+        substitute: true
         _name: 05-01
       05-04:
         name:
           en: Youth Day
           zh: 青年节
+        type: observance
         note: Youth from the age of 14 to 28
       2nd Sunday in May:
         _name: Mothers Day
         name:
           zh: 母亲节
+        type: observance
       06-01:
         name:
           en: Children's Day
           zh: 儿童节
+        type: observance
         note: Children below the age of 14
      3rd Sunday in June:
         _name: Fathers Day
         name:
           zh: 父亲节
+        type: observance
       08-01:
         name:
           en: Army Day
           zh: 建军节
+        type: observance
         note: Military personnel in active service
       10-01:
+        substitute: true
         name:
           en: National Day
           zh: 国庆节
@@ -60,19 +71,24 @@ holidays:
         name:
           en: Halloween
           zh: 万圣节
+        type: observance
       12-24:
         name:
           en: Christmas Eve
           zh: 平安夜
+        type: observance
       12-25:
         name:
           en: Christmas
           zh: 圣诞节
+        type: observance
       chinese 01-0-00: # Spring Festival Eve
+        substitute: true
         name:
           en: New Year's Eve
           zh: 除夕
       chinese 01-0-01: # 1st day of 1st lunar month
+        substitute: true
         name:
           en: Spring Festival
           zh: 春节
@@ -80,11 +96,14 @@ holidays:
         name:
           en: Lantern Festival
           zh: 元宵节
+        type: observance
       chinese 5-01 solarterm: # Tomb-Sweeping Day
+        substitute: true
         name:
           en: Qingming Festival
           zh: 清明节
       chinese 05-0-05: # 5th day of 5th lunar month
+        substitute: true
         name:
           en: Dragon Boat Festival
           zh: 端午节
@@ -92,11 +111,14 @@ holidays:
         name:
           en: Double Seven Festival
           zh: 七夕
+        type: observance
       chinese 07-0-15:
         name:
           en: Hungry Ghost Festival
           zh: 中元节
+        type: observance
       chinese 08-0-15: # 15th day of 8th lunar month
+        substitute: true
         name:
           en: Mid-Autumn Festival
           zh: 中秋节
@@ -104,18 +126,22 @@ holidays:
         name:
           en: Double Ninth Festival
           zh: 重阳节
+        type: observance
       chinese 12-0-08:
         name:
           en: Laba Festival
           zh: 腊八节
+        type: observance
       chinese 12-0-23:
         name:
           en: Xiao Nian(north)
           zh: 小年北
+        type: observance
       chinese 12-0-24:
         name:
           en: Xiao Nian(south)
           zh: 小年南
+        type: observance
       "2021-01-02":
         _name: 01-01
       "2021-01-03":
