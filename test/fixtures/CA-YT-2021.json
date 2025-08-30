@@ -122,7 +122,7 @@
     "end": "2021-08-17T07:00:00.000Z",
     "name": "Discovery Day",
     "type": "public",
-    "rule": "3rd monday after 08-01",
+    "rule": "3rd monday in August",
     "_weekday": "Mon"
   },
   {

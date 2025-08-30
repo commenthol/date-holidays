@@ -102,18 +102,9 @@
     "date": "2028-08-07 00:00:00",
     "start": "2028-08-07T03:00:00.000Z",
     "end": "2028-08-08T03:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2028-08-07 00:00:00",
-    "start": "2028-08-07T03:00:00.000Z",
-    "end": "2028-08-08T03:00:00.000Z",
     "name": "Natal Day",
     "type": "public",
-    "rule": "monday after 08-01",
+    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
