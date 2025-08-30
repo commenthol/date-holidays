@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.25.2](https://github.com/commenthol/date-holidays/compare/3.25.1...3.25.2) (2025-08-30)
+
+- fix(CA): add Terry Fox Day for MB, use matching date patterns for all Civic Holidays [4f0ef9af](https://github.com/commenthol/date-holidays/commit/4f0ef9af42e29acf20e71f9e4861b4e5cd80fdd3)
+- fix(CA): date for SK day [cb201501](https://github.com/commenthol/date-holidays/commit/cb2015011f658bd52a696b77edfe8058fabb0dba)
+
 ## [3.25.1](https://github.com/commenthol/date-holidays/compare/3.25.0...3.25.1) (2025-08-14)
 
 - fix(CA): add nipd for yukon, add start year for both yt and nt [283c99a2](https://github.com/commenthol/date-holidays/commit/283c99a258d455982c8d60a51ed396649f1056cf)
