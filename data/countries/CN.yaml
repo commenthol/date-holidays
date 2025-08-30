@@ -34,11 +34,19 @@ holidays:
           en: Youth Day
           zh: 青年节
         note: Youth from the age of 14 to 28
+      2nd Sunday in May:
+        _name: Mothers Day
+        name:
+          zh: 母亲节
       06-01:
         name:
           en: Children's Day
           zh: 儿童节
         note: Children below the age of 14
+     3rd Sunday in June:
+        _name: Fathers Day
+        name:
+          zh: 父亲节
       08-01:
         name:
           en: Army Day
