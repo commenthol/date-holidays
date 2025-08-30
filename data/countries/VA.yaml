@@ -25,16 +25,26 @@ holidays:
           it: Anniversario della istituzione dello Stato della Città del Vaticano
       03-19:
         _name: 03-19
+      easter -3:
+        _name: easter -3
+      easter -2:
+        _name: easter -2
+      easter -1:
+        _name: easter -1
+      easter:
+        _name: easter
       easter 1:
         _name: easter 1
+      easter 2:
+        name:
+          en: In Albis Tuesday
+          it: Martedì in Albis
       easter 39:
         _name: easter 39
-        active:
-          - to: 2009
+      easter 49:
+        _name: easter 49
       easter 60:
         _name: easter 60
-        active:
-          - to: 2009
       05-01:
         _name: 05-01
         name:
@@ -42,22 +52,34 @@ holidays:
           it: San Giuseppe lavoratore
       06-29:
         _name: 06-29
+      08-14:
+        name:
+          en: Summer holiday
+          it: Summer holiday
       08-15:
         _name: 08-15
         name:
           it: Assunzione di Maria in Cielo
-      09-08:
+      08-16:
         name:
-          en: Nativity of Mary
-          it: Festa della natività della madonna
+          en: Summer holiday
+          it: Summer holiday
       11-01:
         _name: 11-01
+      11-02:
+        _name: 11-02
       12-08:
         _name: 12-08
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
+      12-27:
+        name:
+          en: St. John
+          it: San Giovanni
+      12-31:
+        _name: 12-31
       # Pope John Paul II
       10-16:
         name:
