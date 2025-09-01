@@ -27,32 +27,12 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2015-05-04 12:00:00",
-    "start": "2015-05-04T04:00:00.000Z",
-    "end": "2015-05-04T16:00:00.000Z",
-    "name": "青年节",
-    "type": "public",
-    "note": "Youth from the age of 14 to 28",
-    "rule": "05-04 12:00",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2015-06-20 00:00:00",
     "start": "2015-06-19T16:00:00.000Z",
     "end": "2015-06-20T16:00:00.000Z",
     "name": "端午节",
     "type": "public",
     "rule": "chinese 05-0-05",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2015-08-01 12:00:00",
-    "start": "2015-08-01T04:00:00.000Z",
-    "end": "2015-08-01T16:00:00.000Z",
-    "name": "建军节",
-    "type": "public",
-    "note": "Military personnel in active service",
-    "rule": "08-01 12:00",
     "_weekday": "Sat"
   },
   {
