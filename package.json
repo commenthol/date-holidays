@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.25.2",
+  "version": "3.26.0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -49,6 +49,7 @@
     "David Álvarez Navarro <david16an@gmail.com>",
     "Diego Henrique Oliveira <contato@diegoholiveira.com>",
     "Dominik Bruhn <dominik@menlo79.com>",
+    "DrunkenCloud <drunkencloud99@gmail.com>",
     "Edwyn McMillan <codemcmillan@gmail.com>",
     "Emanuel Hoogeveen <emanuel@medweb.nl>",
     "Erlend Ellingsen <erlend.ame@gmail.com>",
@@ -95,6 +96,7 @@
     "Kristjan ESPERANTO <35647502+KristjanESPERANTO@users.noreply.github.com>",
     "Leonidas Villeneuve <leonidas@leonidasv.com>",
     "Long Nguyen <olragon@users.noreply.github.com>",
+    "Lorenzo Breda <lorenzo.breda@net.va>",
     "Lukas Eipert <git@leipert.io>",
     "M <m@ecmascript.tv>",
     "Martin Humeník <humenik.martin@gmail.com>",

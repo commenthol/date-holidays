@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.26.0](https://github.com/commenthol/date-holidays/compare/3.25.2...3.26.0) (2025-09-10)
+
+- docs: add license attribution [cec9f31c](https://github.com/commenthol/date-holidays/commit/cec9f31ce9bc2c075248360093ffce0fefee99ce)
+- feat(IN): Added Nation Wide Holidays in India as per Greporian Calendar [5c8c5d23](https://github.com/commenthol/date-holidays/commit/5c8c5d230f4833d8b1a0a416c004fcc4aa763266)
+- fix(VA): Improved Vatican holidays. [37d10568](https://github.com/commenthol/date-holidays/commit/37d1056825c9dd26c5d43f3c7bd107f70e1af8c0)
+
 ## [3.25.2](https://github.com/commenthol/date-holidays/compare/3.25.1...3.25.2) (2025-08-30)
 
 - fix(CA): add Terry Fox Day for MB, use matching date patterns for all Civic Holidays [4f0ef9af](https://github.com/commenthol/date-holidays/commit/4f0ef9af42e29acf20e71f9e4861b4e5cd80fdd3)
