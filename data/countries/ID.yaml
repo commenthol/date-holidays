@@ -39,6 +39,10 @@ holidays:
         _name: 1 Muharram
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
+        disable:
+          - '2025-09-04'
+        enable:
+          - '2025-09-05'        
       27 Rajab:
         _name: 27 Rajab
       1 Shawwal:
