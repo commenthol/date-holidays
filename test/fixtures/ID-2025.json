@@ -126,13 +126,13 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2025-09-04 00:00:00 -0600",
-    "start": "2025-09-03T11:00:00.000Z",
-    "end": "2025-09-04T11:00:00.000Z",
+    "date": "2025-09-05 00:00:00",
+    "start": "2025-09-04T17:00:00.000Z",
+    "end": "2025-09-05T17:00:00.000Z",
     "name": "Maulid Nabi Muhammad",
     "type": "public",
     "rule": "12 Rabi al-awwal",
-    "_weekday": "Thu"
+    "_weekday": "Fri"
   },
   {
     "date": "2025-12-25 00:00:00",
