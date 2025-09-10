@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.26.1](https://github.com/commenthol/date-holidays/compare/3.26.0...3.26.1) (2025-09-10)
+
+- fix(ID): move Maulid Nabi Muhammad date [ccbb54d3](https://github.com/commenthol/date-holidays/commit/ccbb54d3016ca3ab78c368d8178062dfdc42e00c)
+
 ## [3.26.0](https://github.com/commenthol/date-holidays/compare/3.25.2...3.26.0) (2025-09-10)
 
 - docs: add license attribution [cec9f31c](https://github.com/commenthol/date-holidays/commit/cec9f31ce9bc2c075248360093ffce0fefee99ce)
