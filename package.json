@@ -190,6 +190,7 @@
     "doc:tree": "node scripts/addtree.cjs",
     "lint": "eslint --fix --ext .js,.cjs,.yaml .",
     "prepublishOnly": "npm run all",
+    "fixtures": "mocha test/all.mocha.js --writetests --countries",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
     "test:ts": "tstyche",
