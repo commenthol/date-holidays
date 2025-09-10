@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2026-01-26 00:00:00",
+    "start": "2026-01-25T18:30:00.000Z",
+    "end": "2026-01-26T18:30:00.000Z",
+    "name": "Republic Day",
+    "type": "public",
+    "note": "Celebrates adoption of Constitution",
+    "rule": "01-26",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-04-03 00:00:00",
+    "start": "2026-04-02T18:30:00.000Z",
+    "end": "2026-04-03T18:30:00.000Z",
+    "name": "Good Friday",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-04-14 00:00:00",
+    "start": "2026-04-13T18:30:00.000Z",
+    "end": "2026-04-14T18:30:00.000Z",
+    "name": "Ambedkar Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Dr. B. R. Ambedkar",
+    "rule": "04-14",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-05-16 00:00:00",
+    "start": "2026-05-15T18:30:00.000Z",
+    "end": "2026-05-16T18:30:00.000Z",
+    "name": "State Day",
+    "type": "public",
+    "note": "Sikkim State Day",
+    "rule": "05-16",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-08-15 00:00:00",
+    "start": "2026-08-14T18:30:00.000Z",
+    "end": "2026-08-15T18:30:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "note": "Marks freedom from British rule",
+    "rule": "08-15",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-10-02 00:00:00",
+    "start": "2026-10-01T18:30:00.000Z",
+    "end": "2026-10-02T18:30:00.000Z",
+    "name": "Gandhi Jayanti",
+    "type": "public",
+    "note": "Birth anniversary of Mahatma Gandhi",
+    "rule": "10-02",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2026-12-25 00:00:00",
+    "start": "2026-12-24T18:30:00.000Z",
+    "end": "2026-12-25T18:30:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "note": "Recognized as a public holiday",
+    "rule": "12-25",
+    "_weekday": "Fri"
+  }
+]
