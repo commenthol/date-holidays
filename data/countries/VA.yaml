@@ -68,7 +68,7 @@ holidays:
         _name: 11-01
       11-02:
         # _name: 11-02 # TODO allow language specific overrides in parser
-        name: 
+        name:
           it: Commemorazione dei fedeli defunti
           en: All Souls' Day
       12-08:

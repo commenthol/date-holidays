@@ -56,7 +56,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 198
+Countries: 199
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -372,6 +372,42 @@ Countries: 198
 ├── IE: Ireland
 ├── IL: מְדִינַת יִשְׂרָאֵל
 ├── IM: Isle of Man
+├── IN: India
+│   ├── AN: Andaman and Nicobar Islands
+│   ├── AP: Andhra Pradesh
+│   ├── AR: Arunachal Pradesh
+│   ├── AS: Assam
+│   ├── BR: Bihar
+│   ├── CH: Chandigarh
+│   ├── CT: Chhattisgarh
+│   ├── DD: Daman and Diu
+│   ├── DL: Delhi
+│   ├── DN: Dadra and Nagar Haveli
+│   ├── GA: Goa
+│   ├── GJ: Gujarat
+│   ├── HP: Himachal Pradesh
+│   ├── HR: Haryana
+│   ├── JK: Jammu and Kashmir
+│   ├── KA: Karnataka
+│   ├── KL: Kerala
+│   ├── LD: Lakshadweep
+│   ├── MH: Maharashtra
+│   ├── ML: Meghalaya
+│   ├── MN: Manipur
+│   ├── MP: Madhya Pradesh
+│   ├── MZ: Mizoram
+│   ├── NL: Nagaland
+│   ├── OR: Odisha
+│   ├── PB: Punjab
+│   ├── PY: Puducherry
+│   ├── RJ: Rajasthan
+│   ├── SK: Sikkim
+│   ├── TG: Telangana
+│   ├── TN: Tamil Nadu
+│   ├── TR: Tripura
+│   ├── UP: Uttar Pradesh
+│   ├── UT: Uttarakhand
+│   └── WB: West Bengal
 ├── IR: جمهوری اسلامی ایران
 ├── IS: Ísland
 ├── IT: Italia
