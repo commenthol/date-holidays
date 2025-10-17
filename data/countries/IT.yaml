@@ -1,6 +1,6 @@
 holidays:
   # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Italien
-  # @attrib https://www.quirinale.it/elementi/141022
+  # @source https://www.quirinale.it/elementi/141022
   IT:
     names:
       it: Italia

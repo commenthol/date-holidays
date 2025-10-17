@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.26.2](https://github.com/commenthol/date-holidays/compare/3.26.1...3.26.2) (2025-10-17)
+
+- fix(IT): add San Francesco holiday [20f8342c](https://github.com/commenthol/date-holidays/commit/20f8342c92ffbbaf63e9d00238e46973cc00a5c8)
+- fix(SK): update Slovakia's timezone and holiday observances (new legislation) [e8b4c6f5](https://github.com/commenthol/date-holidays/commit/e8b4c6f56a85d79ee71f397e8bceae845fe78978)
+
 ## [3.26.1](https://github.com/commenthol/date-holidays/compare/3.26.0...3.26.1) (2025-09-10)
 
 - fix(ID): move Maulid Nabi Muhammad date [ccbb54d3](https://github.com/commenthol/date-holidays/commit/ccbb54d3016ca3ab78c368d8178062dfdc42e00c)
