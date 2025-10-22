@@ -31,7 +31,7 @@
     "start": "2020-04-11T22:00:00.000Z",
     "end": "2020-04-12T22:00:00.000Z",
     "name": "Veľká noc",
-    "type": "observance",
+    "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
   },
