@@ -120,7 +120,7 @@
     "date": "2028-05-25 00:00:00",
     "start": "2028-05-24T22:00:00.000Z",
     "end": "2028-05-25T22:00:00.000Z",
-    "name": "Kristi himmelfärds dag",
+    "name": "Kristi himmelfärdsdag",
     "type": "public",
     "rule": "easter 39",
     "_weekday": "Thu"

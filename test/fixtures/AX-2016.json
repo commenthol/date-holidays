@@ -66,7 +66,7 @@
     "date": "2016-05-05 00:00:00",
     "start": "2016-05-04T21:00:00.000Z",
     "end": "2016-05-05T21:00:00.000Z",
-    "name": "Kristi himmelfärds dag",
+    "name": "Kristi himmelfärdsdag",
     "type": "public",
     "rule": "easter 39",
     "_weekday": "Thu"
