@@ -51,9 +51,20 @@ holidays:
           it: Festa Nazionale 2011
           en: National Day 2011
     states:
-      # '21':
-      #   name: Piedmont
-      #   regions:
+      "21":
+        name: Piedmont
+        regions:
+          TO:
+            name:
+              # @source https://en.wikipedia.org/wiki/Turin
+              it: Torino
+              en: Turin
+            days:
+              06-24:
+                name:
+                  it: San Giovanni
+                  en: Saint John
+                note: patron saint of Turin
       #     AL:
       #       name: Alessandria
       #     AT:
@@ -99,6 +110,7 @@ holidays:
                 name:
                   it: Sant'Ambrogio
                   en: Saint Ambrose
+                note: patron saint of Milan
           # MN:
           #   name: Mantua
           # PV:
@@ -251,6 +263,7 @@ holidays:
                 name:
                   it: Santi Pietro e Paolo
                   en: Saints Peter and Paul
+                note: patron saints of Rome
       #     VT:
       #       name: Viterbo
       # '65':
@@ -319,9 +332,20 @@ holidays:
       #       name: Reggio Calabria
       #     VV:
       #       name: Vibo Valentia
-      # '82':
-      #   name: Sicily
-      #   regions:
+      "82":
+        name: Sicily
+        regions:
+          PA:
+            names:
+              it: Palermo
+              en: Palermo
+            days:
+              07-15:
+                name:
+                  # @source https://it.wikipedia.org/wiki/Festa_di_santa_Rosalia
+                  it: Santa Rosalia
+                  en: Saint Rosalia
+                note: patron saint of Palermo
       #     AG:
       #       name: Agrigento
       #     CL:
@@ -332,8 +356,6 @@ holidays:
       #       name: Enna
       #     ME:
       #       name: Messina
-      #     PA:
-      #       name: Palermo
       #     RG:
       #       name: Ragusa
       #     SR:
