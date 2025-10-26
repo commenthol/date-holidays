@@ -85,7 +85,7 @@
     "start": "2025-04-19T22:00:00.000Z",
     "end": "2025-04-20T22:00:00.000Z",
     "name": "Påskdagen",
-    "type": "observance",
+    "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
   },
