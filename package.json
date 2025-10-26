@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.26.2",
+  "version": "3.26.3",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -47,6 +47,7 @@
     "Cristóbal Berríos <crisberrios@uc.cl>",
     "Daichan <daichi.yasuda@asbloom.me>",
     "damon02 <damon@teqplay.nl>",
+    "David Hedlund <davidhedlund@users.noreply.github.com>",
     "David Álvarez Navarro <david16an@gmail.com>",
     "Diego Henrique Oliveira <contato@diegoholiveira.com>",
     "Dominik Bruhn <dominik@menlo79.com>",

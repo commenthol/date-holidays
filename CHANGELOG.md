@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.26.3](https://github.com/commenthol/date-holidays/compare/3.26.2...3.26.3) (2025-10-26)
+
+- test(AX,SE): fix fixtures for Kristi himmelfärdsdag name update [5771e2cf](https://github.com/commenthol/date-holidays/commit/5771e2cfaa4a2ae0fcc55a0bb351fdffca5bf30a)
+- docs(IT): add new states [abcbbaeb](https://github.com/commenthol/date-holidays/commit/abcbbaeb5fdc1db12e23ac28f46e68b5e18b3b44)
+- fix(SK): easter has never been observance [9dcd7ab5](https://github.com/commenthol/date-holidays/commit/9dcd7ab50029e2c4d3c830d419a55d0ff25aaa5d)
+- fix(IT): add Santa Rosalia and San Giovanni [7d1fbac8](https://github.com/commenthol/date-holidays/commit/7d1fbac80ecf78a9a39ebbf0c6f0c97edab0c272)
+- fix(AX,SE): Update names.yaml: replaced `sv: Kristi himmelfärds dag` with `sv: Kristi himmelfärdsdag` [d4c6cc9a](https://github.com/commenthol/date-holidays/commit/d4c6cc9a4ea981b51744035fbf66588fad629a08)
+
 ## [3.26.2](https://github.com/commenthol/date-holidays/compare/3.26.1...3.26.2) (2025-10-17)
 
 - fix(IT): add San Francesco holiday [20f8342c](https://github.com/commenthol/date-holidays/commit/20f8342c92ffbbaf63e9d00238e46973cc00a5c8)
