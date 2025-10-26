@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.26.4](https://github.com/commenthol/date-holidays/compare/3.26.3...3.26.4) (2025-10-26)
+
+- fix(KR): fixtures for Korean Thanksgiving [8f594246](https://github.com/commenthol/date-holidays/commit/8f5942460e4f3f087e3e337c277c66a527385fc7)
+- fix(KR): Change start date of Korean ThanksGiving Day [9c4cd143](https://github.com/commenthol/date-holidays/commit/9c4cd14320247f7d1a4140ddd20cba52a2b7d403)
+
 ## [3.26.3](https://github.com/commenthol/date-holidays/compare/3.26.2...3.26.3) (2025-10-26)
 
 - test(AX,SE): fix fixtures for Kristi himmelfärdsdag name update [5771e2cf](https://github.com/commenthol/date-holidays/commit/5771e2cfaa4a2ae0fcc55a0bb351fdffca5bf30a)
