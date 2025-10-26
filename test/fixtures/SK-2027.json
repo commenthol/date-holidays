@@ -31,7 +31,7 @@
     "start": "2027-03-27T23:00:00.000Z",
     "end": "2027-03-28T22:00:00.000Z",
     "name": "Veľká noc",
-    "type": "observance",
+    "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
   },
