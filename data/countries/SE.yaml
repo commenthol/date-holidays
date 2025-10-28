@@ -47,7 +47,6 @@ holidays:
         _name: easter -2
       easter:
         _name: easter
-        type: observance
       easter -1:
         _name: easter -1
         type: observance
