@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.26.5](https://github.com/commenthol/date-holidays/compare/3.26.4...3.26.5) (2025-10-28)
+
+- fix(SE): Change Påskdagen from observance to public holiday [338b5a96](https://github.com/commenthol/date-holidays/commit/338b5a966aa22bc5641fa90ffdc00096a1b1c889)
+
 ## [3.26.4](https://github.com/commenthol/date-holidays/compare/3.26.3...3.26.4) (2025-10-26)
 
 - fix(KR): fixtures for Korean Thanksgiving [8f594246](https://github.com/commenthol/date-holidays/commit/8f5942460e4f3f087e3e337c277c66a527385fc7)
