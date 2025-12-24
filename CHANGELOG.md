@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.26.6](https://github.com/commenthol/date-holidays/compare/3.26.5...3.26.6) (2025-12-24)
+
+- fix(SE,#565): Correct Marie Bebådelsedag and Sveriges nationaldag dates [15ddbccb](https://github.com/commenthol/date-holidays/commit/15ddbccbf688a88f783b38efc8e12e85d23c9620)
+- fix(HK): correct "The day following Easter Monday" for 2026 [05111066](https://github.com/commenthol/date-holidays/commit/05111066d0357d53123acd0d6c6dc8e706427cdb)
+
 ## [3.26.5](https://github.com/commenthol/date-holidays/compare/3.26.4...3.26.5) (2025-10-28)
 
 - fix(SE): Change Påskdagen from observance to public holiday [338b5a96](https://github.com/commenthol/date-holidays/commit/338b5a966aa22bc5641fa90ffdc00096a1b1c889)
