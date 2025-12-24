@@ -1,6 +1,7 @@
 holidays:
   HK:
     # sources:
+    #   - https://www.gov.hk/en/about/abouthk/holiday/2026.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2025.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2024.htm
     #   - https://www.gov.hk/en/about/abouthk/holiday/2023.htm
@@ -76,8 +77,13 @@ holidays:
         disable:
           # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
           - "2021-04-05"
+          - "2026-04-06"
       # As the day following Ching Ming Festival and Easter Monday fall on the same day, the next following day that is not itself a general holiday will be observed as an additional general holiday.
       "2021-04-06":
+        name:
+          en: The day following Easter Monday
+          zh: 復活節星期一翌日
+      "2026-04-07":
         name:
           en: The day following Easter Monday
           zh: 復活節星期一翌日
