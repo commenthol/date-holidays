@@ -29,7 +29,8 @@ holidays:
         name:
           sv: Vasaloppet
         type: observance
-      03-25:
+      # @source https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/
+      03-25 prior to 1990:
         name:
           sv: Marie Bebådelsedag
           en: Annunciation Day
@@ -70,10 +71,16 @@ holidays:
       sunday before 06-01:
         _name: Mothers Day
         type: observance
-      06-06:
+      # @attrib https://sv.wikipedia.org/wiki/Sveriges_nationaldag#Svenska_flaggans_dag
+      06-06 since 2005:
         name:
           sv: Sveriges nationaldag
           en: National Day
+      06-06 since 1983 prior to 2005:
+        name:
+          sv: Sveriges nationaldag
+          en: National Day
+        type: observance
       friday after 06-19:
         name:
           sv: Midsommarafton
