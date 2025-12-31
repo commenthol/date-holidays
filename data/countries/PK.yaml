@@ -1,0 +1,46 @@
+holidays:
+  PK:
+    names:
+      en: Pakistan
+    langs: []
+    zones:
+      - Asia/Karachi
+    dayoff: sunday
+    days:
+      02-05:
+        type: observance
+        name:
+          en: Kashmir Solidarity Day
+      03-23:
+        type: observance
+        name:
+          en: Pakistan Day
+      02-01:
+        type: observance
+        name:
+          en: Labour Day
+      08-14:
+        type: observance
+        name:
+          en: Independence Day of Pakistan
+      12-25:
+        type: observance
+        name:
+          en: Quaid-e-Azam's Birthday
+    # states:
+    #   BA:
+    #     name: Balochistan
+    #   GB:
+    #     name: Gilgit-Baltistan
+    #   IS:
+    #     name: Islamabad
+    #   JK:
+    #     name: Azad Kashmir
+    #   KP:
+    #     name: Khyber Pakhtunkhwa
+    #   PB:
+    #     name: Punjab
+    #   SD:
+    #     name: Sindh
+    #   TA:
+    #     name: Federally Administered Tribal Areas
