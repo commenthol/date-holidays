@@ -13,7 +13,7 @@
     "start": "2029-01-05T23:00:00.000Z",
     "end": "2029-01-06T23:00:00.000Z",
     "name": "Zjavenie Pána",
-    "type": "observance",
+    "type": "public",
     "rule": "01-06",
     "_weekday": "Sat"
   },
@@ -49,8 +49,8 @@
     "start": "2029-04-30T22:00:00.000Z",
     "end": "2029-05-01T22:00:00.000Z",
     "name": "Sviatok práce",
-    "type": "observance",
-    "rule": "05-01 since 2025",
+    "type": "public",
+    "rule": "05-01",
     "_weekday": "Tue"
   },
   {
@@ -59,7 +59,7 @@
     "end": "2029-05-08T22:00:00.000Z",
     "name": "Deň víťazstva nad fašizmom",
     "type": "observance",
-    "rule": "05-08 since 2025",
+    "rule": "05-08 since 2026",
     "_weekday": "Tue"
   },
   {
@@ -76,8 +76,8 @@
     "start": "2029-07-04T22:00:00.000Z",
     "end": "2029-07-05T22:00:00.000Z",
     "name": "Sviatok svätého Cyrila a Metoda",
-    "type": "observance",
-    "rule": "07-05 since 2025",
+    "type": "public",
+    "rule": "07-05",
     "_weekday": "Thu"
   },
   {
@@ -85,8 +85,8 @@
     "start": "2029-08-28T22:00:00.000Z",
     "end": "2029-08-29T22:00:00.000Z",
     "name": "Výročie Slovenského národného povstania",
-    "type": "observance",
-    "rule": "08-29 since 2025",
+    "type": "public",
+    "rule": "08-29",
     "_weekday": "Wed"
   },
   {
@@ -104,7 +104,7 @@
     "end": "2029-09-15T22:00:00.000Z",
     "name": "Sviatok Panny Márie Sedembolestnej",
     "type": "observance",
-    "rule": "09-15 since 2025",
+    "rule": "09-15 since 2026",
     "_weekday": "Sat"
   },
   {
@@ -112,8 +112,8 @@
     "start": "2029-10-31T23:00:00.000Z",
     "end": "2029-11-01T23:00:00.000Z",
     "name": "Sviatok všetkých svätých",
-    "type": "observance",
-    "rule": "11-01 since 2025",
+    "type": "public",
+    "rule": "11-01",
     "_weekday": "Thu"
   },
   {
