@@ -49,7 +49,6 @@ holidays:
         type: observance
       easter 60:
         _name: easter 60
-        type: optional
       06-12:
         name:
           pt: Dia dos Namorados
