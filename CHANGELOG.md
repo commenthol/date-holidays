@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.26.7](https://github.com/commenthol/date-holidays/compare/3.26.6...3.26.7) (2026-01-25)
+
+- fix(SK): update License attributions [a840072a](https://github.com/commenthol/date-holidays/commit/a840072ab8cabf6ce5ca1c80b88da49b7961d010)
+- fix(SK): Slovakia public holidays aligned with the legislation changes from 2025 [2a755261](https://github.com/commenthol/date-holidays/commit/2a755261d87a21e3f4a4b685d0daedd07a8d02ee)
+
 ## [3.26.6](https://github.com/commenthol/date-holidays/compare/3.26.5...3.26.6) (2025-12-24)
 
 - fix(SE,#565): Correct Marie Bebådelsedag and Sveriges nationaldag dates [15ddbccb](https://github.com/commenthol/date-holidays/commit/15ddbccbf688a88f783b38efc8e12e85d23c9620)
