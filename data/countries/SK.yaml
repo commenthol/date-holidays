@@ -1,4 +1,5 @@
-# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Slovakia
+# @source https://nbs.sk/o-narodnej-banke/sviatky-v-sr/
+# @attrib https://cs.wikipedia.org/wiki/St%C3%A1tn%C3%AD_sv%C3%A1tky_Slovenska
 holidays:
   SK:
     names:
@@ -16,23 +17,19 @@ holidays:
           sk: Deň vzniku Slovenskej republiky
       01-06:
         _name: 01-06
-        type: observance
       easter -2:
         _name: easter -2
       easter:
         _name: easter
       easter 1:
         _name: easter 1
-      05-01 since 2025:
+      05-01:
         _name: 05-01
-        type: observance
-      05-01 prior to 2025:
-        _name: 05-01
-      05-08 prior to 2025:
+      05-08 prior to 2026:
         name:
           sk: Deň víťazstva nad fašizmom
           en: Day of victory over fascism
-      05-08 since 2025:
+      05-08 since 2026:
         name:
           sk: Deň víťazstva nad fašizmom
           en: Day of victory over fascism
@@ -40,43 +37,30 @@ holidays:
       2nd sunday in May:
         _name: Mothers Day
         type: observance
-      07-05 prior to 2025:
+      07-05:
         name:
           sk: Sviatok svätého Cyrila a Metoda
           en: Saints Cyril and Methodius Day
-      07-05 since 2025:
-        name:
-          sk: Sviatok svätého Cyrila a Metoda
-          en: Saints Cyril and Methodius Day
-        type: observance
-      08-29 prior to 2025:
+      08-29:
         name:
           sk: Výročie Slovenského národného povstania
           en: Slovak National Uprising anniversary
-      08-29 since 2025:
-        name:
-          sk: Výročie Slovenského národného povstania
-          en: Slovak National Uprising anniversary
-        type: observance
       09-01 since 1994 and prior to 2024:
         _name: Constitution Day
       09-01 since 2024:
         _name: Constitution Day
         type: observance
-      09-15 prior to 2025:
+      09-15 prior to 2026:
         name:
           sk: Sviatok Panny Márie Sedembolestnej
           en: Day of Our Lady of the Seven Sorrows
-      09-15 since 2025:
+      09-15 since 2026:
         name:
           sk: Sviatok Panny Márie Sedembolestnej
           en: Day of Our Lady of the Seven Sorrows
         type: observance
-      11-01 prior to 2025:
+      11-01:
         _name: 11-01
-      11-01 since 2025:
-        _name: 11-01
-        type: observance
       11-17 prior to 2025:
         name:
           sk: Deň boja za slobodu a demokraciu
