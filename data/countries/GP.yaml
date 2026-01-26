@@ -1,3 +1,4 @@
+# @source https://www.guadeloupe.gouv.fr/layout/set/print/Outils/Liens-utiles/Folder/Professionnels-Toutes-les-demarches#!/particuliers/page/F2405
 # @attrib https://fr.wikipedia.org/wiki/Guadeloupe#C%C3%A9l%C3%A9brations,_festivit%C3%A9s_et_jours_f%C3%A9ri%C3%A9s
 # @source https://www.public-holidays.us/FR_FR_2021_Guadeloupe
 holidays:
@@ -19,5 +20,7 @@ holidays:
         _name: Abolition of Slavery
       07-21:
         name:
-          fr: Jour de Victor Shoelcher
-          en: Victor Shoelcher Day
+          fr: Jour de Victor Schoelcher
+          en: Victor Schoelcher Day
+        type: optional
+        note: Government offices closed
