@@ -49,9 +49,9 @@
     "start": "2029-02-24T16:00:00.000Z",
     "end": "2029-02-25T16:00:00.000Z",
     "name": "EDSA Revolution Anniversary",
-    "type": "optional",
-    "note": "Non-working Day",
-    "rule": "02-25",
+    "type": "observance",
+    "note": "Special working day",
+    "rule": "02-25 since 2024",
     "_weekday": "Sun"
   },
   {
