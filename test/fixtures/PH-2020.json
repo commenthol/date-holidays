@@ -51,7 +51,7 @@
     "name": "EDSA Revolution Anniversary",
     "type": "optional",
     "note": "Non-working Day",
-    "rule": "02-25",
+    "rule": "02-25 since 2002 prior to 2024",
     "_weekday": "Tue"
   },
   {

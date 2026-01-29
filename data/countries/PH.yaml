@@ -30,12 +30,19 @@ holidays:
         name:
           en: Lantern Festival
           fil: Piyesta ng mga Parol Tsino
-      02-25:
+      # @attrib https://en.wikipedia.org/wiki/People_Power_Revolution#Commemoration
+      02-25 since 2002 prior to 2024:
         name:
           en: EDSA Revolution Anniversary
           fil: Anibersaryo ng Rebolusyon sa EDSA
         type: optional
         note: Non-working Day
+      02-25 since 2024:
+        name:
+          en: EDSA Revolution Anniversary
+          fil: Anibersaryo ng Rebolusyon sa EDSA
+        type: observance
+        note: Special working day
       easter -3:
         _name: easter -3
       easter -2:
