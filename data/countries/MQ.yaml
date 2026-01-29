@@ -1,3 +1,4 @@
+# @source https://www.martinique.gouv.fr/Vous-etes/Association#!/particuliers/page/F2405
 # @source https://www.public-holidays.us/FR_FR_2021_Martinique
 # @source https://www.joursferies.fr/pays/martinique.php
 holidays:
@@ -19,4 +20,6 @@ holidays:
       07-21:
         name:
           fr: Jour de Victor Schoelcher
-          en: Victor Shoelcher Day
+          en: Victor Schoelcher Day
+        type: optional
+        note: Government offices closed
