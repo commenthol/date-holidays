@@ -77,7 +77,7 @@
     "end": "2028-04-25T14:00:00.000Z",
     "name": "Anzac Day",
     "type": "public",
-    "rule": "04-25 if sunday then next monday",
+    "rule": "04-25 and if saturday,sunday then next monday",
     "_weekday": "Tue"
   },
   {
