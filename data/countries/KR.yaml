@@ -13,7 +13,7 @@ holidays:
       01-01:
         _name: 01-01
       # 1st day of 1st lunar month
-      korean 01-0-01 P3D:
+      korean 12-0-31 P3D:
         name:
           en: Korean New Year
           ko: 설날
