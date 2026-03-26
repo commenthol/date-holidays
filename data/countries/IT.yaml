@@ -34,10 +34,10 @@ holidays:
           en: Republic Day
       08-15:
         _name: 08-15
-      10-04 since 2026:
-        name:
-          it: San Francesco d'Assisi
-          en: Francis of Assisi
+      #10-04 since 2026:
+      #  name:
+      #    it: San Francesco d'Assisi
+      #    en: Francis of Assisi
       11-01:
         _name: 11-01
       12-08:
