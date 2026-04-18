@@ -40,7 +40,8 @@ holidays:
       1st monday in August:
         name:
           en: Farmers' Day
-      04-28 and if sunday then next monday:
+      # @source https://www.lusakatimes.com/2021/07/07/april-28-declared-holiday-in-honour-of-the-late-dr-kaunda/
+      04-28 since 2022 and if sunday then next monday:
         substitute: true
         name:
           en: Kenneth Kaunda Day

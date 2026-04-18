@@ -93,10 +93,20 @@
     "date": "2015-10-18 00:00:00",
     "start": "2015-10-17T22:00:00.000Z",
     "end": "2015-10-18T22:00:00.000Z",
-    "name": "National day of Prayers",
+    "name": "National Day of Prayer, Fasting and Reconciliation",
     "type": "public",
-    "rule": "2015-10-18",
+    "rule": "10-18 and if sunday then next monday",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2015-10-19 00:00:00",
+    "start": "2015-10-18T22:00:00.000Z",
+    "end": "2015-10-19T22:00:00.000Z",
+    "name": "National Day of Prayer, Fasting and Reconciliation (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10-18 and if sunday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2015-10-24 00:00:00",

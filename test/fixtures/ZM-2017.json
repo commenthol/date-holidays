@@ -110,6 +110,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2017-10-18 00:00:00",
+    "start": "2017-10-17T22:00:00.000Z",
+    "end": "2017-10-18T22:00:00.000Z",
+    "name": "National Day of Prayer, Fasting and Reconciliation",
+    "type": "public",
+    "rule": "10-18 and if sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
     "date": "2017-10-24 00:00:00",
     "start": "2017-10-23T22:00:00.000Z",
     "end": "2017-10-24T22:00:00.000Z",
