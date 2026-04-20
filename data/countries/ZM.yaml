@@ -22,8 +22,21 @@ holidays:
           en: Youth Day
       easter -2:
         _name: easter -2
+      # @source https://zambialii.org/akn/zm/act/1964/14/eng@1996-12-31
+      easter -1:
+        name:
+          en: Holy Saturday
+      # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Zambia
+      easter:
+        _name: easter
       easter 1:
         _name: easter 1
+      # @source https://zambialii.org/akn/zm/act/si/2021/72/eng@2021-08-20/source
+      # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Zambia
+      04-28 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Kenneth Kaunda Day
       05-01 and if sunday then next monday:
         substitute: true
         _name: 05-01
@@ -40,9 +53,12 @@ holidays:
       1st monday in August:
         name:
           en: Farmers' Day
-      "2015-10-18":
+      # @source https://zambiahighcommission.ca/wp/the-national-day-flyer/
+      # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Zambia
+      10-18 and if sunday then next monday:
+        substitute: true
         name:
-          en: National day of Prayers
+          en: National Day of Prayer
       10-24 and if sunday then next monday:
         substitute: true
         _name: Independence Day
