@@ -36,6 +36,24 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2027-03-27 00:00:00",
+    "start": "2027-03-26T22:00:00.000Z",
+    "end": "2027-03-27T22:00:00.000Z",
+    "name": "Holy Saturday",
+    "type": "public",
+    "rule": "easter -1",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2027-03-28 00:00:00",
+    "start": "2027-03-27T22:00:00.000Z",
+    "end": "2027-03-28T22:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2027-03-29 00:00:00",
     "start": "2027-03-28T22:00:00.000Z",
     "end": "2027-03-29T22:00:00.000Z",
@@ -43,6 +61,15 @@
     "type": "public",
     "rule": "easter 1",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2027-04-28 00:00:00",
+    "start": "2027-04-27T22:00:00.000Z",
+    "end": "2027-04-28T22:00:00.000Z",
+    "name": "Kenneth Kaunda Day",
+    "type": "public",
+    "rule": "04-28 and if sunday then next monday",
+    "_weekday": "Wed"
   },
   {
     "date": "2027-05-01 00:00:00",
@@ -87,6 +114,15 @@
     "name": "Farmers' Day",
     "type": "public",
     "rule": "1st monday in August",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2027-10-18 00:00:00",
+    "start": "2027-10-17T22:00:00.000Z",
+    "end": "2027-10-18T22:00:00.000Z",
+    "name": "National Day of Prayer",
+    "type": "public",
+    "rule": "10-18 and if sunday then next monday",
     "_weekday": "Mon"
   },
   {
