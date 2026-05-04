@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.28.0",
+  "version": "3.28.1",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -262,7 +262,7 @@
   "dependencies": {
     "date-holidays-parser": "^3.4.7",
     "js-yaml": "^4.1.1",
-    "lodash": "^4.17.23",
+    "lodash": "^4.18.1",
     "prepin": "^1.0.3"
   },
   "devDependencies": {
