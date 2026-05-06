@@ -67,7 +67,8 @@
     "start": "2015-05-03T22:00:00.000Z",
     "end": "2015-05-04T22:00:00.000Z",
     "name": "Florian",
-    "type": "public",
+    "type": "observance",
+    "note": "Da der St. Florian aber in Oberösterreich eine besondere Bedeutung als Patron einhält, gilt er dort als Landesfeiertag und ist offiziell schulfrei. Für Arbeitnehmer:innen gilt er jedoch als normaler Arbeitstag.",
     "rule": "05-04",
     "_weekday": "Mon"
   },

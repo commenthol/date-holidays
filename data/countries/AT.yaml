@@ -96,6 +96,8 @@ holidays:
           05-04:
             name:
               de-at: Florian
+            type: observance
+            note: Da der St. Florian aber in Oberösterreich eine besondere Bedeutung als Patron einhält, gilt er dort als Landesfeiertag und ist offiziell schulfrei. Für Arbeitnehmer:innen gilt er jedoch als normaler Arbeitstag.
       "5":
         names:
           de: Land Salzburg
