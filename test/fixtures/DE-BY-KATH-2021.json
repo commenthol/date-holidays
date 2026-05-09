@@ -162,20 +162,11 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2021-08-08 00:00:00",
-    "start": "2021-08-07T22:00:00.000Z",
-    "end": "2021-08-08T22:00:00.000Z",
-    "name": "Augsburger Friedensfest",
-    "type": "public",
-    "rule": "08-08",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2021-08-15 00:00:00",
     "start": "2021-08-14T22:00:00.000Z",
     "end": "2021-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "observance",
+    "type": "public",
     "rule": "08-15",
     "_weekday": "Sun"
   },

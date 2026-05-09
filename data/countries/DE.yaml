@@ -164,6 +164,7 @@ holidays:
           11-01:
             _name: 11-01
       BY:
+        # @source https://www.gesetze-bayern.de/Content/Document/BayFTG-1
         name: Bayern
         days:
           01-06:
@@ -175,6 +176,7 @@ holidays:
             _name: easter 60
           08-15:
             _name: 08-15
+            type: observance
           11-01:
             _name: 11-01
           wednesday before 11-23:
@@ -188,6 +190,14 @@ holidays:
                 name:
                   de: Augsburger Friedensfest
                   en: Augsburg Peace Festival
+          KATH:
+            names:
+              de: Überwiegend katholische Gemeinden
+              en: Predominantly catholic communities
+            days:
+              08-15:
+                _name: 08-15
+                type: public
           EVANG:
             names:
               de: Überwiegend evangelische Gemeinden
