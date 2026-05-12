@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Belize
+  # @attrib https://www.pressoffice.gov.bz/public-and-bank-holidays-2026/
   BZ:
     names:
       en: Belize
@@ -11,9 +12,12 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      01-15 if sunday then next monday:
+        name:
+          en: George Price Day
       03-09 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday:
         name:
-          en: Baron Bliss Day
+          en: National Heroes and Benefactor Day
       easter -2:
         _name: easter -2
       easter -1:
@@ -25,17 +29,17 @@ holidays:
         _name: easter 1
       05-01 if sunday then next monday:
         _name: 05-01
-      05-24 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday:
+      08-01 if sunday then next monday:
         name:
-          en: Commonwealth Day, Sovereign's Day
+          en: Emancipation Day
       09-10 if sunday then next monday:
         name:
-          en: Saint George's Caye Day, National Day
+          en: St. George's Caye Day
       09-21 if sunday then next monday:
         _name: Independence Day
       10-12 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday:
         name:
-          en: Day of the Americas
+          en: Indigenous People’s Resistance Day
       11-19 if sunday then next monday:
         name:
           en: Garifuna Settlement Day
