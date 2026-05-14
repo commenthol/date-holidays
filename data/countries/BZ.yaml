@@ -1,6 +1,6 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Belize
-  # @attrib https://www.pressoffice.gov.bz/public-and-bank-holidays-2026/
+  # @source https://www.pressoffice.gov.bz/public-and-bank-holidays-2026/
   BZ:
     names:
       en: Belize
