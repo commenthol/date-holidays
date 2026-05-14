@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.29.0](https://github.com/commenthol/date-holidays/compare/3.28.0...3.29.0) (2026-05-14)
+
+- fix(BZ): change attribution to source [433a44e2](https://github.com/commenthol/date-holidays/commit/433a44e29eae4d7d968460acfba11433c37253c8)
+- fix(BZ): create fixtures [5042567f](https://github.com/commenthol/date-holidays/commit/5042567f6c607176b8c62294acc428177750910a)
+- docs: update LICENSE and README [336e0d0a](https://github.com/commenthol/date-holidays/commit/336e0d0a46fd68b25da4b9650eb9cf51e01b661a)
+- fix(BZ): Add Belize Holidays [bf460605](https://github.com/commenthol/date-holidays/commit/bf46060508b2c63a8cf6b821d43ea1c270f47956)
+- feat(KZ): add Kazakhstan public holidays [19140f91](https://github.com/commenthol/date-holidays/commit/19140f91ebf90e8753cd940ff5088e8f7fa283d9)
+- fix(UA): split Easter and Trinity Monday carry-over by period [5eeae20b](https://github.com/commenthol/date-holidays/commit/5eeae20baa811f8a07a8e5d1196715b3a066b671)
+- feat(JE): add Summer Bank Holiday to Jersey holidays [78ddf36a](https://github.com/commenthol/date-holidays/commit/78ddf36a5c27cbe98925f1455bb6f105efb371d7)
+- feat(DE): model BY Assumption Day via KATH region [7c7cd571](https://github.com/commenthol/date-holidays/commit/7c7cd57144d45dfc917de1a0b490ef4952e2a0f4)
+- fix(AT): convert florian from public to observance [22eff697](https://github.com/commenthol/date-holidays/commit/22eff69762da3b9b1e014fd62c3d8c90ffb20ff4)
+
 ## [3.28.0](https://github.com/commenthol/date-holidays/compare/3.27.0...3.28.0) (2026-05-03)
 
 - fix(MU): simplify rules for Hindu holidays (2020–2050) [4f56de17](https://github.com/commenthol/date-holidays/commit/4f56de17a361d45ee7f0cd70f82924818d390bf6)
