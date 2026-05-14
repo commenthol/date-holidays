@@ -93,9 +93,9 @@ holidays:
           ru: День Республики
           en: Republic Day
         active:
-          - from: '1995-01-01'
-            to: '2009-12-31'
-          - from: '2022-01-01'
+          - from: "1995-01-01"
+            to: "2009-12-31"
+          - from: "2022-01-01"
       12-01 and if saturday,sunday then next monday since 2012 and prior to 2022:
         substitute: true
         name:

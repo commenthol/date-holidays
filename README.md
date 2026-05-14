@@ -57,7 +57,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 203
+Countries: 204
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -242,8 +242,8 @@ Countries: 203
 │   ├── BW: Baden-Württemberg
 │   ├── BY: Bayern
 │   │   ├── A: Stadt Augsburg
-│   │   ├── EVANG: Überwiegend evangelische Gemeinden
-│   │   └── KATH: Überwiegend katholische Gemeinden
+│   │   ├── KATH: Überwiegend katholische Gemeinden
+│   │   └── EVANG: Überwiegend evangelische Gemeinden
 │   ├── HB: Hansestadt Bremen
 │   ├── HE: Hessen
 │   ├── HH: Hansestadt Hamburg
@@ -433,6 +433,7 @@ Countries: 203
 ├── KN: St. Kitts & Nevis
 ├── KR: 대한민국
 ├── KY: Cayman Islands
+├── KZ: Қазақстан
 ├── LC: St. Lucia
 ├── LI: Liechtenstein
 ├── LK: ශ්‍රී ලංකාව
