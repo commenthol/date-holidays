@@ -1,0 +1,154 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Kazakhstan
+# @source https://egov.kz/cms/en/articles/holidays-calend
+holidays:
+  KZ:
+    names:
+      kk: Қазақстан
+      ru: Казахстан
+      en: Kazakhstan
+    dayoff: sunday
+    langs:
+      - kk
+      - ru
+    zones:
+      - Asia/Almaty
+      - Asia/Qyzylorda
+      - Asia/Aqtobe
+      - Asia/Aqtau
+      - Asia/Atyrau
+      - Asia/Oral
+    days:
+      01-01 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 01-01
+      01-02 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        _name: 01-01
+      01-07:
+        name:
+          kk: Рождество Христово
+          ru: Рождество Христово
+          en: Orthodox Christmas
+      03-08 and if saturday,sunday then next monday:
+        substitute: true
+        _name: 03-08
+      03-15 and if saturday,sunday then next monday since 2026:
+        substitute: true
+        name:
+          kk: Конституция күні
+          ru: День Конституции
+          en: Constitution Day
+      03-21 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        name:
+          kk: Наурыз мейрамы
+          ru: Наурыз мейрамы
+          en: Nauryz
+      03-22 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        name:
+          kk: Наурыз мейрамы
+          ru: Наурыз мейрамы
+          en: Nauryz
+      03-23 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        name:
+          kk: Наурыз мейрамы
+          ru: Наурыз мейрамы
+          en: Nauryz
+      05-01 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          kk: Қазақстан халқының бірлігі күні
+          ru: День единства народа Казахстана
+          en: People's Unity Day
+      05-07 and if saturday,sunday then next monday since 2013:
+        substitute: true
+        name:
+          kk: Отан Қорғаушы күні
+          ru: День Защитника Отечества
+          en: Defender of the Fatherland Day
+      05-09 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          kk: Жеңіс күні
+          ru: День Победы
+          en: Victory Day
+      07-06 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          kk: Астана күні
+          ru: День столицы
+          en: Capital City Day
+      08-30 and if saturday,sunday then next monday prior to 2026:
+        substitute: true
+        name:
+          kk: Конституция күні
+          ru: День Конституции
+          en: Constitution Day
+      10-25 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          kk: Республика күні
+          ru: День Республики
+          en: Republic Day
+        active:
+          - from: '1995-01-01'
+            to: '2009-12-31'
+          - from: '2022-01-01'
+      12-01 and if saturday,sunday then next monday since 2012 and prior to 2022:
+        substitute: true
+        name:
+          kk: Тұңғыш Президент күні
+          ru: День Первого Президента
+          en: First President's Day
+      12-16 and if saturday then next monday if sunday then next tuesday:
+        substitute: true
+        name:
+          kk: Тәуелсіздік күні
+          ru: День независимости
+          en: Independence Day
+      12-17 and if saturday then next monday if sunday then next tuesday prior to 2022:
+        substitute: true
+        name:
+          kk: Тәуелсіздік күні
+          ru: День независимости
+          en: Independence Day
+      10 Dhu al-Hijjah:
+        name:
+          kk: Құрбан айт
+          ru: Курбан-айт
+          en: Eid al-Adha
+    # states:
+    #   AKM:
+    #     name: Akmola
+    #   AKT:
+    #     name: Aktobe
+    #   ALA:
+    #     name: Almaty
+    #   ALM:
+    #     name: Almaty Region
+    #   AST:
+    #     name: Astana
+    #   ATY:
+    #     name: Atyrau
+    #   KAR:
+    #     name: Karagandy
+    #   KUS:
+    #     name: Kostanay
+    #   KZY:
+    #     name: Kyzylorda
+    #   MAN:
+    #     name: Mangystau
+    #   PAV:
+    #     name: Pavlodar
+    #   SEV:
+    #     name: North Kazakhstan
+    #   VOS:
+    #     name: East Kazakhstan
+    #   YUZ:
+    #     name: South Kazakhstan
+    #   ZAP:
+    #     name: West Kazakhstan
+    #   ZHA:
+    #     name: Jambyl

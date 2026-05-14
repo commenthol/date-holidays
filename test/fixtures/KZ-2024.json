@@ -1,0 +1,157 @@
+[
+  {
+    "date": "2024-01-01 00:00:00",
+    "start": "2023-12-31T18:00:00.000Z",
+    "end": "2024-01-01T18:00:00.000Z",
+    "name": "Жаңа жыл",
+    "type": "public",
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-01-02 00:00:00",
+    "start": "2024-01-01T18:00:00.000Z",
+    "end": "2024-01-02T18:00:00.000Z",
+    "name": "Жаңа жыл",
+    "type": "public",
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-01-07 00:00:00",
+    "start": "2024-01-06T18:00:00.000Z",
+    "end": "2024-01-07T18:00:00.000Z",
+    "name": "Рождество Христово",
+    "type": "public",
+    "rule": "01-07",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-03-08 00:00:00",
+    "start": "2024-03-07T19:00:00.000Z",
+    "end": "2024-03-08T19:00:00.000Z",
+    "name": "Халықаралық әйелдер күні",
+    "type": "public",
+    "rule": "03-08 and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-21 00:00:00",
+    "start": "2024-03-20T19:00:00.000Z",
+    "end": "2024-03-21T19:00:00.000Z",
+    "name": "Наурыз мейрамы",
+    "type": "public",
+    "rule": "03-21 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-03-22 00:00:00",
+    "start": "2024-03-21T19:00:00.000Z",
+    "end": "2024-03-22T19:00:00.000Z",
+    "name": "Наурыз мейрамы",
+    "type": "public",
+    "rule": "03-22 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-03-23 00:00:00",
+    "start": "2024-03-22T19:00:00.000Z",
+    "end": "2024-03-23T19:00:00.000Z",
+    "name": "Наурыз мейрамы",
+    "type": "public",
+    "rule": "03-23 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-03-25 00:00:00",
+    "start": "2024-03-24T19:00:00.000Z",
+    "end": "2024-03-25T19:00:00.000Z",
+    "name": "Наурыз мейрамы (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "03-23 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-05-01 00:00:00",
+    "start": "2024-04-30T19:00:00.000Z",
+    "end": "2024-05-01T19:00:00.000Z",
+    "name": "Қазақстан халқының бірлігі күні",
+    "type": "public",
+    "rule": "05-01 and if saturday,sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2024-05-07 00:00:00",
+    "start": "2024-05-06T19:00:00.000Z",
+    "end": "2024-05-07T19:00:00.000Z",
+    "name": "Отан Қорғаушы күні",
+    "type": "public",
+    "rule": "05-07 and if saturday,sunday then next monday since 2013",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2024-05-09 00:00:00",
+    "start": "2024-05-08T19:00:00.000Z",
+    "end": "2024-05-09T19:00:00.000Z",
+    "name": "Жеңіс күні",
+    "type": "public",
+    "rule": "05-09 and if saturday,sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2024-06-16 00:00:00 -0600",
+    "start": "2024-06-15T13:00:00.000Z",
+    "end": "2024-06-16T13:00:00.000Z",
+    "name": "Құрбан айт",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2024-07-06 00:00:00",
+    "start": "2024-07-05T19:00:00.000Z",
+    "end": "2024-07-06T19:00:00.000Z",
+    "name": "Астана күні",
+    "type": "public",
+    "rule": "07-06 and if saturday,sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2024-07-08 00:00:00",
+    "start": "2024-07-07T19:00:00.000Z",
+    "end": "2024-07-08T19:00:00.000Z",
+    "name": "Астана күні (substitute day)",
+    "type": "public",
+    "substitute": true,
+    "rule": "07-06 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2024-08-30 00:00:00",
+    "start": "2024-08-29T19:00:00.000Z",
+    "end": "2024-08-30T19:00:00.000Z",
+    "name": "Конституция күні",
+    "type": "public",
+    "rule": "08-30 and if saturday,sunday then next monday prior to 2026",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-10-25 00:00:00",
+    "start": "2024-10-24T19:00:00.000Z",
+    "end": "2024-10-25T19:00:00.000Z",
+    "name": "Республика күні",
+    "type": "public",
+    "rule": "10-25 and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2024-12-16 00:00:00",
+    "start": "2024-12-15T19:00:00.000Z",
+    "end": "2024-12-16T19:00:00.000Z",
+    "name": "Тәуелсіздік күні",
+    "type": "public",
+    "rule": "12-16 and if saturday then next monday if sunday then next tuesday",
+    "_weekday": "Mon"
+  }
+]
