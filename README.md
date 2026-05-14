@@ -57,7 +57,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 204
+Countries: 205
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -481,6 +481,7 @@ Countries: 204
 ├── NA: Namibia
 ├── NC: Nouvelle-Calédonie
 ├── NE: République du Niger
+├── NF: Norfolk Island
 ├── NG: Nigeria
 ├── NI: Nicaragua
 ├── NL: Nederland
