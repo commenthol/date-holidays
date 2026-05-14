@@ -55,7 +55,7 @@ holidays:
         name: Piedmont
         regions:
           TO:
-            name:
+            names:
               # @source https://en.wikipedia.org/wiki/Turin
               it: Torino
               en: Turin
