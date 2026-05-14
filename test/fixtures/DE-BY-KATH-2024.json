@@ -166,7 +166,7 @@
     "start": "2024-08-14T22:00:00.000Z",
     "end": "2024-08-15T22:00:00.000Z",
     "name": "Mariä Himmelfahrt",
-    "type": "observance",
+    "type": "public",
     "rule": "08-15",
     "_weekday": "Thu"
   },

@@ -242,7 +242,8 @@ Countries: 203
 │   ├── BW: Baden-Württemberg
 │   ├── BY: Bayern
 │   │   ├── A: Stadt Augsburg
-│   │   └── EVANG: Überwiegend evangelische Gemeinden
+│   │   ├── EVANG: Überwiegend evangelische Gemeinden
+│   │   └── KATH: Überwiegend katholische Gemeinden
 │   ├── HB: Hansestadt Bremen
 │   ├── HE: Hessen
 │   ├── HH: Hansestadt Hamburg
