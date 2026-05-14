@@ -28,10 +28,26 @@ holidays:
         substitute: true
       03-08 and if saturday, sunday then next monday:
         _name: 03-08
-      orthodox and if sunday then next monday:
+      orthodox and if sunday then next monday since 1995 and prior to 1998:
         _name: orthodox
-      orthodox 49 and if sunday then next monday:
+        substitute: true
+      orthodox since 1991 and prior to 1995:
+        _name: orthodox
+      orthodox since 1998 and prior to 2000:
+        _name: orthodox
+      orthodox and if sunday then next monday since 2000:
+        _name: orthodox
+        substitute: true
+      orthodox 49 and if sunday then next monday since 1995 and prior to 1998:
         _name: easter 49
+        substitute: true
+      orthodox 49 since 1991 and prior to 1995:
+        _name: easter 49
+      orthodox 49 since 1998 and prior to 2000:
+        _name: easter 49
+      orthodox 49 and if sunday then next monday since 2000:
+        _name: easter 49
+        substitute: true
       05-01 and if saturday, sunday then next tuesday:
         _name: 05-01
         substitute: true
