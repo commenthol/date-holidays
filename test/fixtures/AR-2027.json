@@ -75,7 +75,7 @@
     "date": "2027-05-25 00:00:00",
     "start": "2027-05-25T03:00:00.000Z",
     "end": "2027-05-26T03:00:00.000Z",
-    "name": "Primer Gobierno Patrio",
+    "name": "Día de la Revolución de Mayo",
     "type": "public",
     "rule": "05-25",
     "_weekday": "Tue"
@@ -84,18 +84,18 @@
     "date": "2027-06-20 00:00:00",
     "start": "2027-06-20T03:00:00.000Z",
     "end": "2027-06-21T03:00:00.000Z",
-    "name": "Día de la Bandera",
+    "name": "Paso a la Inmortalidad del General D. Manuel Belgrano",
     "type": "public",
-    "rule": "06-20",
+    "rule": "06-20 #2",
     "_weekday": "Sun"
   },
   {
     "date": "2027-06-21 00:00:00",
     "start": "2027-06-21T03:00:00.000Z",
     "end": "2027-06-22T03:00:00.000Z",
-    "name": "Día Paso a la Inmortalidad del General Martín Miguel de Güemes",
+    "name": "Paso a la Inmortalidad del General Don Martín Miguel de Güemes",
     "type": "public",
-    "rule": "06-17 if tuesday,wednesday then previous monday if thursday then next monday",
+    "rule": "06-17 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -138,7 +138,7 @@
     "date": "2027-12-08 00:00:00",
     "start": "2027-12-08T03:00:00.000Z",
     "end": "2027-12-09T03:00:00.000Z",
-    "name": "La inmaculada concepción",
+    "name": "Inmaculada Concepción de María",
     "type": "public",
     "rule": "12-08",
     "_weekday": "Wed"
