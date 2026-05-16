@@ -5,13 +5,13 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
     inputs:
       ref:
-        description: 'Tag, or commit SHA to checkout (optional)'
+        description: "Tag, or commit SHA to checkout (optional)"
         required: false
 
 env:
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ 24 ]
+        node: [24]
     name: Node ${{ matrix.node }}
     steps:
       - uses: actions/checkout@v4
