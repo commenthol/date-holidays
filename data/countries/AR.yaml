@@ -120,9 +120,14 @@ holidays:
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-12361-232587/texto
       # Made fixed (non-movable) in 1991
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24023-422/texto
+      # Holiday name changed in 1995
+      # Note: the norm does not explicitly say "renamed"; this is inferred from
+      # the wording shift between Ley 12.361 ("Día de la Bandera") and
+      # Ley 24.445 Art. 4 ("paso a la inmortalidad del General Manuel Belgrano").
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       # Became fixed again in 2010
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1584-2010-174389/texto
-      06-20:
+      "06-20 #1":
         name:
           en: National Flag Day
           es: Día de la Bandera
@@ -131,6 +136,12 @@ holidays:
             to: "1988-05-23"
           - from: "1991-12-18"
             to: "1995-01-10"
+      "06-20 #2":
+        name:
+          en: Anniversary of the Passing to Immortality of General Manuel Belgrano
+          es: Paso a la Inmortalidad del General D. Manuel Belgrano
+        active:
+          # Fixed-date form resumes in 2010; name change itself is modeled from 1995.
           - from: "2010-11-03"
       # Made movable in 1988
       # @source https://biblioteca.afip.gob.ar/dcp/LEY_C_023555_1988_04_28
@@ -145,8 +156,8 @@ holidays:
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       3rd monday in June:
         name:
-          en: National Flag Day
-          es: Día de la Bandera
+          en: Anniversary of the Passing to Immortality of General Manuel Belgrano
+          es: Paso a la Inmortalidad del General D. Manuel Belgrano
         active:
           - from: "1995-01-11"
             to: "2010-11-02"
