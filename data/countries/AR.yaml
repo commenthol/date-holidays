@@ -285,7 +285,9 @@ holidays:
       # Introduced in 1995
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       12-08:
-        _name: 12-08
+        name:
+          en: Immaculate Conception of Mary
+          es: Inmaculada Concepción de María
         active:
           - from: "1995-01-11"
       "12-24 12:00":
