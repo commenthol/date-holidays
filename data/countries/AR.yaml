@@ -1,7 +1,6 @@
 holidays:
-  # @source http://www.mininterior.gov.ar/tramitesyservicios/feriados.php
-  # @source https://www.argentina.gob.ar/interior/feriados-nacionales-2021
-  # @source https://www.argentina.gob.ar/interior/feriados-nacionales-2022
+  # @source https://www.argentina.gob.ar/feriados
+  # @source https://www.argentina.gob.ar/jefatura/feriados-nacionales-2026
   AR:
     names:
       es: Argentina
