@@ -316,6 +316,23 @@ holidays:
         name:
           en: National Holiday for the World Football Champions in the FIFA World Cup QATAR 2022
           es: Feriado Nacional de los Campeones Mundiales de Fútbol en la Copa Mundial de la FIFA CATAR 2022
+      # 2026 non-working days for tourism purposes
+      # @source https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-164-2025-421799
+      "2026-03-23":
+        name:
+          en: Tourism Purposes Non-Working Day
+          es: Día no laborable con fines turísticos
+        type: optional
+      "2026-07-10":
+        name:
+          en: Tourism Purposes Non-Working Day
+          es: Día no laborable con fines turísticos
+        type: optional
+      "2026-12-07":
+        name:
+          en: Tourism Purposes Non-Working Day
+          es: Día no laborable con fines turísticos
+        type: optional
       # National Census
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-22307-202349
       "1980-10-22":
