@@ -33,4 +33,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install --ignore-scripts
+      - run: npm run yaml
+      - run: npm run lint
       - run: npm run ci
