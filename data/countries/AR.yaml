@@ -109,7 +109,7 @@ holidays:
             to: "2000-12-15"
       # introduced in 2016
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-27258-262574
-      06-17 if tuesday,wednesday then previous monday if thursday then next monday:
+      06-17 if tuesday,wednesday then previous monday if thursday,friday then next monday:
         name:
           en: Anniversary of the Passing to Immortality of General Martín Miguel de Güemes
           es: Paso a la Inmortalidad del General Don Martín Miguel de Güemes
