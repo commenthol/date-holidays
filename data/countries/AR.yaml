@@ -86,8 +86,8 @@ holidays:
         _name: 05-01
       05-25:
         name:
-          en: Day of the First National Government
-          es: Primer Gobierno Patrio
+          en: Day of the May Revolution
+          es: Día de la Revolución de Mayo
       # Holiday moved from 04-02 in 1984
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-901-1984-65455
       06-10:
