@@ -227,7 +227,7 @@ holidays:
             active:
               - from: 2018-01-01
       MV:
-        name: Mecklenburg Vorpommern
+        name: Mecklenburg-Vorpommern
         days:
           # @source https://www.dokumentation.landtag-mv.de/parldok/dokument/52063/viertes_gesetz_zur_aenderung_des_feiertagsgesetzes_mecklenburg_vorpommern.pdf
           03-08 since 2023:
