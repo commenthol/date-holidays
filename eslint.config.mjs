@@ -11,7 +11,8 @@ export default defineConfig([
         'coverage/**',
         'dist/**',
         'lib/**',
-        'src/data.js'
+        'src/data.js',
+        'pnpm-lock.yaml'
     ]),
     {
         files: ['**/*.js', '**/*.mjs'],
