@@ -1,5 +1,7 @@
 holidays:
-  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_Belgien
+  # @source https://www.emploi.belgique.be/fr/themes/international/detachement/conditions-de-travail-respecter-en-cas-de-detachement-en-2
+  # @source https://www.werk.belgie.be/nl/themas/internationaal/detachering/na-te-leven-arbeidsvoorwaarden-geval-van-detachering-naar-3
+  # @attrib https://nl.wikipedia.org/wiki/Feestdagen_in_Belgi%C3%AB
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Belgium
   BE:
     names:
@@ -29,23 +31,35 @@ holidays:
         _name: easter
         type: observance
       easter 1:
-        _name: easter 1
+        name:
+          fr: Lundi de Pâques
+          nl: Paasmaandag
+          de: Ostermontag
       05-01:
         _name: 05-01
       2nd sunday in May:
         _name: Mothers Day
         type: observance
       easter 39:
-        _name: easter 39
+        name:
+          nl: Hemelvaartsdag
+          fr: Ascension
+          de: Christi Himmelfahrt
       easter 49:
         _name: easter 49
         type: observance
       easter 50:
-        _name: easter 50
+        name:
+          fr: Lundi de Pentecôte
+          nl: Pinkstermaandag
+          de: Pfingstmontag
       07-21:
         _name: National Holiday
       08-15:
-        _name: 08-15
+        name:
+          fr: Assomption
+          nl: Tenhemelopneming
+          de: Mariä Himmelfahrt
       11-01:
         _name: 11-01
       11-02:
