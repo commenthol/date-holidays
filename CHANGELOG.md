@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.30.0](https://github.com/commenthol/date-holidays/compare/3.29.0...3.30.0) (2026-05-20)
+
+- docs: update license attribution and README [43cbd5f9](https://github.com/commenthol/date-holidays/commit/43cbd5f94fbdc347343b9d3423a3b6a26bda7159)
+- chore: exclude pnpm-lock.yaml from yaml linting [44708cf6](https://github.com/commenthol/date-holidays/commit/44708cf62dff950cf235b7e7cf253303c7dfd1a0)
+- fix(DE): correct spelling of Mecklenburg-Vorpommern [a27b0c09](https://github.com/commenthol/date-holidays/commit/a27b0c09a341a262504d29265a5c5b131e587ac1)
+- feat(PK): add Pakistan public holidays [6728368c](https://github.com/commenthol/date-holidays/commit/6728368c39f278d967794bf6f84b91433616042c)
+- chore(AR): regenerate AR fixtures after holiday updates [69578d29](https://github.com/commenthol/date-holidays/commit/69578d295e12863aeaee0769d0bb447ec144466c)
+- fix(AR): include Friday in June 17 moving rule [0113669e](https://github.com/commenthol/date-holidays/commit/0113669e06514577a0afeee1cba83361aff1e232)
+- chore(AR): update top-level holiday sources [4ab7f5dd](https://github.com/commenthol/date-holidays/commit/4ab7f5dd010d68179de7dcbafa73748f00005a4c)
+- fix(AR): align Dec 8 holiday naming [101880b1](https://github.com/commenthol/date-holidays/commit/101880b10574f60dd5dc6e79354c1e33c00f7aaf)
+- fix(AR): split June 20 name by legal periods [ddf39f64](https://github.com/commenthol/date-holidays/commit/ddf39f64283b59c3c335214ca71e67de34b0680c)
+- fix(AR): use official Güemes holiday name [74e94e4a](https://github.com/commenthol/date-holidays/commit/74e94e4a6f43acf01cbf88ceaf54e46583076db3)
+- fix(AR): add 2026 tourism non-working days [f5731abf](https://github.com/commenthol/date-holidays/commit/f5731abfad4096b4482913426e82fa0743b99e48)
+- fix(AR): align May 25 holiday name with official source [22c35cb0](https://github.com/commenthol/date-holidays/commit/22c35cb080f544ed8e11592a8d57839edc8b7965)
+- chore: update actions/checkout and actions/setup-node to v6 [3df9f0d4](https://github.com/commenthol/date-holidays/commit/3df9f0d4c9b9f0aca6325962fe746b0891a55a86)
+- chore: add linting step to CI workflow [01d43967](https://github.com/commenthol/date-holidays/commit/01d439679d2f6585cf73149d05559ad179aa6949)
+- refactor: handle new linting issues after ESLint update [b3591d81](https://github.com/commenthol/date-holidays/commit/b3591d81c62a5e1667dde56e2d6bd9c40906980b)
+- chore: modernize ESLint setup [b5ff61e5](https://github.com/commenthol/date-holidays/commit/b5ff61e5b6d659972781c511dcf5de8ae268a904)
+- fix(IT): IT.21.TO region name [3689bf51](https://github.com/commenthol/date-holidays/commit/3689bf5109b2c3a0ace69d9132927f3553f2cf12)
+- docs(NF): Update README [59e3dc28](https://github.com/commenthol/date-holidays/commit/59e3dc284127ea33a26a3e7e070ead78f689fb2b)
+- feat(NF,#294): Add Norfolk Island [1e86866f](https://github.com/commenthol/date-holidays/commit/1e86866f072dc96e8c7825eb3447586d97c3363b)
+
 ## [3.29.0](https://github.com/commenthol/date-holidays/compare/3.28.0...3.29.0) (2026-05-14)
 
 - fix(BZ): change attribution to source [433a44e2](https://github.com/commenthol/date-holidays/commit/433a44e29eae4d7d968460acfba11433c37253c8)
