@@ -1,8 +1,0 @@
-node_modules
-examples/browser/index.js
-coverage/
-attic/
-dist/
-lib/
-tmp/
-data/holidays.js

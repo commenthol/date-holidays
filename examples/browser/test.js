@@ -74,7 +74,7 @@
         Object.entries(options).reduce((a, [value, label]) => {
           a.push(h(
             'option',
-            { value, selected: value == selected }, // eslint-disable-line eqeqeq
+            { value, selected: value == selected },
             label
           ))
           return a
@@ -156,7 +156,7 @@
       const filename = [g.year, n.country, n.state, n.region, g.language].filter(Boolean).join('-') + '.ics'
       download(filename, g.holidays, isFullDay)
     }
-    const handleFullday = (ev) => {
+    const handleFullday = () => {
       g.isFullDay = isFullDay = !isFullDay
     }
     return h('p',

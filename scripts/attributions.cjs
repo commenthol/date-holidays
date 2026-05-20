@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint
-   key-spacing: 0
- */
-
 const fs = require('fs')
 const path = require('path')
 
