@@ -57,7 +57,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 205
+Countries: 206
 ├── AD: Andorra
 │   └── 07: Andorra la Vella
 ├── AE: دولة الإمارات العربية المتحدة
@@ -518,6 +518,14 @@ Countries: 205
 │   └── CUS: Cuzco
 ├── PF: Polynésie française
 ├── PH: Philippines
+├── PK: پاکستان
+│   ├── BA: Balochistan
+│   ├── GB: Gilgit-Baltistan
+│   ├── IS: Islamabad
+│   ├── JK: Azad Kashmir
+│   ├── KP: Khyber Pakhtunkhwa
+│   ├── PB: Punjab
+│   └── SD: Sindh
 ├── PL: Polska
 ├── PM: St. Pierre & Miquelon
 ├── PR: Puerto Rico
