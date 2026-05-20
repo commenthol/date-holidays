@@ -1,0 +1,54 @@
+holidays:
+  # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2017/2017_09_29%20Gazette%20No.%2099.pdf 2018
+  # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2018_06_29%20Gazette%20No.%2026.pdf 2019
+  # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2019_07_05%20Gazette%20No.%2030.pdf 2020
+  # @source http://www.norfolkislander.com/images/2020_07_31_Gazette_No._35.pdf 2021
+  # @source http://www.norfolkisland.gov.nf/sites/default/files/docs/NIRC/Gazettes/2021_07_09%20Gazette%20No.%2029.pdf 2022
+  NF:
+    names:
+      en: Norfolk Island
+    dayoff: sunday
+    langs:
+      - en
+    zones:
+      - Pacific/Norfolk
+    _days: AU
+    days:
+      2nd monday in March: false
+      03-06 and if saturday,sunday then next monday:
+        name:
+          en: Foundation Day
+        type: public
+      easter: false
+      04-25 if sunday then next monday: false
+      "2020-04-27": false
+      04-25:
+        name:
+          en: Anzac Day
+      easter -1: false
+      monday after 05-27: false
+      06-08 if saturday,sunday then next monday:
+        substitute: true
+        name:
+          en: Anniversary (Bounty) Day
+        type: public
+      2nd monday in June: false
+      # FIXME: twice "is public holiday then" results in infinite recursion; needs fix in parser
+      # Monday after 2nd saturday in June prior to 2022-09-09 if is public holiday then next monday:
+      Monday after 2nd saturday in June prior to 2022-09-09:
+        substitute: true
+        name:
+          en: Queen's Birthday
+      # "2nd monday in June #1": false
+      Monday after 2nd saturday in June since 2022-09-09 if is public holiday then next monday:
+        name:
+          en: King's Birthday
+      1st monday in October: false
+      2nd monday in October:
+        name:
+          en: Norfolk Island Agricultural Show
+        type: public
+      Wednesday before 12-01:
+        name:
+          en: Thanksgiving Day
+        type: public
