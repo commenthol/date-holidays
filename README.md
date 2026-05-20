@@ -247,7 +247,7 @@ Countries: 205
 │   ├── HB: Hansestadt Bremen
 │   ├── HE: Hessen
 │   ├── HH: Hansestadt Hamburg
-│   ├── MV: Mecklenburg Vorpommern
+│   ├── MV: Mecklenburg-Vorpommern
 │   ├── NI: Niedersachsen
 │   ├── NW: Nordrhein-Westfalen
 │   ├── RP: Rheinland-Pfalz
