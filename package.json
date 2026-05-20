@@ -277,7 +277,7 @@
     "@eslint/js": "^10.0.1",
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^9.2.1",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.0",
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-n": "^18.0.1",
     "eslint-plugin-promise": "^7.3.0",
@@ -290,7 +290,7 @@
     "rollup": "^2.80.0",
     "tstyche": "^4.3.0",
     "watch-run": "^1.2.5",
-    "webpack": "^5.106.2",
+    "webpack": "^5.107.0",
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4"
   },
