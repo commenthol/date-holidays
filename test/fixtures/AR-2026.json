@@ -27,6 +27,15 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2026-03-23 00:00:00",
+    "start": "2026-03-23T03:00:00.000Z",
+    "end": "2026-03-24T03:00:00.000Z",
+    "name": "Día no laborable con fines turísticos",
+    "type": "optional",
+    "rule": "2026-03-23",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2026-03-24 00:00:00",
     "start": "2026-03-24T03:00:00.000Z",
     "end": "2026-03-25T03:00:00.000Z",
@@ -75,7 +84,7 @@
     "date": "2026-05-25 00:00:00",
     "start": "2026-05-25T03:00:00.000Z",
     "end": "2026-05-26T03:00:00.000Z",
-    "name": "Primer Gobierno Patrio",
+    "name": "Día de la Revolución de Mayo",
     "type": "public",
     "rule": "05-25",
     "_weekday": "Mon"
@@ -84,18 +93,18 @@
     "date": "2026-06-15 00:00:00",
     "start": "2026-06-15T03:00:00.000Z",
     "end": "2026-06-16T03:00:00.000Z",
-    "name": "Día Paso a la Inmortalidad del General Martín Miguel de Güemes",
+    "name": "Paso a la Inmortalidad del General Don Martín Miguel de Güemes",
     "type": "public",
-    "rule": "06-17 if tuesday,wednesday then previous monday if thursday then next monday",
+    "rule": "06-17 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
     "date": "2026-06-20 00:00:00",
     "start": "2026-06-20T03:00:00.000Z",
     "end": "2026-06-21T03:00:00.000Z",
-    "name": "Día de la Bandera",
+    "name": "Paso a la Inmortalidad del General D. Manuel Belgrano",
     "type": "public",
-    "rule": "06-20",
+    "rule": "06-20 #2",
     "_weekday": "Sat"
   },
   {
@@ -106,6 +115,15 @@
     "type": "public",
     "rule": "07-09",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2026-07-10 00:00:00",
+    "start": "2026-07-10T03:00:00.000Z",
+    "end": "2026-07-11T03:00:00.000Z",
+    "name": "Día no laborable con fines turísticos",
+    "type": "optional",
+    "rule": "2026-07-10",
+    "_weekday": "Fri"
   },
   {
     "date": "2026-08-17 00:00:00",
@@ -135,10 +153,19 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2026-12-07 00:00:00",
+    "start": "2026-12-07T03:00:00.000Z",
+    "end": "2026-12-08T03:00:00.000Z",
+    "name": "Día no laborable con fines turísticos",
+    "type": "optional",
+    "rule": "2026-12-07",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2026-12-08 00:00:00",
     "start": "2026-12-08T03:00:00.000Z",
     "end": "2026-12-09T03:00:00.000Z",
-    "name": "La inmaculada concepción",
+    "name": "Inmaculada Concepción de María",
     "type": "public",
     "rule": "12-08",
     "_weekday": "Tue"

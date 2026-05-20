@@ -1,7 +1,6 @@
 holidays:
-  # @source http://www.mininterior.gov.ar/tramitesyservicios/feriados.php
-  # @source https://www.argentina.gob.ar/interior/feriados-nacionales-2021
-  # @source https://www.argentina.gob.ar/interior/feriados-nacionales-2022
+  # @source https://www.argentina.gob.ar/feriados
+  # @source https://www.argentina.gob.ar/jefatura/feriados-nacionales-2026
   AR:
     names:
       es: Argentina
@@ -86,8 +85,8 @@ holidays:
         _name: 05-01
       05-25:
         name:
-          en: Day of the First National Government
-          es: Primer Gobierno Patrio
+          en: Day of the May Revolution
+          es: Día de la Revolución de Mayo
       # Holiday moved from 04-02 in 1984
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-901-1984-65455
       06-10:
@@ -109,20 +108,25 @@ holidays:
           - from: "1988-05-18"
             to: "2000-12-15"
       # introduced in 2016
-      # @source https://www.argentina.gob.ar/normativa/nacional/ley-27258-262574/texto
-      06-17 if tuesday,wednesday then previous monday if thursday then next monday:
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-27258-262574
+      06-17 if tuesday,wednesday then previous monday if thursday,friday then next monday:
         name:
           en: Anniversary of the Passing to Immortality of General Martín Miguel de Güemes
-          es: Día Paso a la Inmortalidad del General Martín Miguel de Güemes
+          es: Paso a la Inmortalidad del General Don Martín Miguel de Güemes
         active:
           - from: "2016-06-11"
       # Introduced in 1938
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-12361-232587/texto
       # Made fixed (non-movable) in 1991
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24023-422/texto
+      # Holiday name changed in 1995
+      # Note: the norm does not explicitly say "renamed"; this is inferred from
+      # the wording shift between Ley 12.361 ("Día de la Bandera") and
+      # Ley 24.445 Art. 4 ("paso a la inmortalidad del General Manuel Belgrano").
+      # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       # Became fixed again in 2010
       # @source https://www.argentina.gob.ar/normativa/nacional/decreto-1584-2010-174389/texto
-      06-20:
+      "06-20 #1":
         name:
           en: National Flag Day
           es: Día de la Bandera
@@ -131,6 +135,12 @@ holidays:
             to: "1988-05-23"
           - from: "1991-12-18"
             to: "1995-01-10"
+      "06-20 #2":
+        name:
+          en: Anniversary of the Passing to Immortality of General Manuel Belgrano
+          es: Paso a la Inmortalidad del General D. Manuel Belgrano
+        active:
+          # Fixed-date form resumes in 2010; name change itself is modeled from 1995.
           - from: "2010-11-03"
       # Made movable in 1988
       # @source https://biblioteca.afip.gob.ar/dcp/LEY_C_023555_1988_04_28
@@ -145,8 +155,8 @@ holidays:
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       3rd monday in June:
         name:
-          en: National Flag Day
-          es: Día de la Bandera
+          en: Anniversary of the Passing to Immortality of General Manuel Belgrano
+          es: Paso a la Inmortalidad del General D. Manuel Belgrano
         active:
           - from: "1995-01-11"
             to: "2010-11-02"
@@ -274,7 +284,9 @@ holidays:
       # Introduced in 1995
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-24445-782/texto
       12-08:
-        _name: 12-08
+        name:
+          en: Immaculate Conception of Mary
+          es: Inmaculada Concepción de María
         active:
           - from: "1995-01-11"
       "12-24 12:00":
@@ -316,6 +328,23 @@ holidays:
         name:
           en: National Holiday for the World Football Champions in the FIFA World Cup QATAR 2022
           es: Feriado Nacional de los Campeones Mundiales de Fútbol en la Copa Mundial de la FIFA CATAR 2022
+      # 2026 non-working days for tourism purposes
+      # @source https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-164-2025-421799
+      "2026-03-23":
+        name:
+          en: Tourism Purposes Non-Working Day
+          es: Día no laborable con fines turísticos
+        type: optional
+      "2026-07-10":
+        name:
+          en: Tourism Purposes Non-Working Day
+          es: Día no laborable con fines turísticos
+        type: optional
+      "2026-12-07":
+        name:
+          en: Tourism Purposes Non-Working Day
+          es: Día no laborable con fines turísticos
+        type: optional
       # National Census
       # @source https://www.argentina.gob.ar/normativa/nacional/ley-22307-202349
       "1980-10-22":
