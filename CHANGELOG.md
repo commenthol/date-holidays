@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.30.1](https://github.com/commenthol/date-holidays/compare/3.30.0...3.30.1) (2026-05-20)
+
+- docs: update license attributions [acc0f600](https://github.com/commenthol/date-holidays/commit/acc0f600d13bfca42d18467595ec5263fcfd24fc)
+- fix(BE): use Belgian holiday names and update sources [d1b6df26](https://github.com/commenthol/date-holidays/commit/d1b6df26c5b5f6bf6a16e1fbeff85094155394b5)
+
 ## [3.30.0](https://github.com/commenthol/date-holidays/compare/3.29.0...3.30.0) (2026-05-20)
 
 - docs: update license attribution and README [43cbd5f9](https://github.com/commenthol/date-holidays/commit/43cbd5f94fbdc347343b9d3423a3b6a26bda7159)
