@@ -1,0 +1,65 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Pakistan
+# @attrib https://ur.wikipedia.org/wiki/%D8%AA%D8%B9%D8%B7%DB%8C%D9%84%D8%A7%D8%AA_%D9%BE%D8%A7%DA%A9%D8%B3%D8%AA%D8%A7%D9%86
+holidays:
+  PK:
+    names:
+      en: Pakistan
+      ur: پاکستان
+    langs:
+      - ur
+    zones:
+      - Asia/Karachi
+    dayoff: sunday
+    days:
+      02-05:
+        name:
+          en: Kashmir Day
+          ur: یومِ یکجہتیِ کشمیر
+      03-23:
+        name:
+          en: Pakistan Day
+          ur: یومِ پاکستان
+      05-01:
+        _name: 05-01
+      05-28:
+        name:
+          en: Youm-e-Takbeer
+          ur: یومِ تکبیر
+      08-14:
+        name:
+          en: Independence Day
+          ur: یومِ آزادی
+      11-09:
+        name:
+          en: Iqbal Day
+          ur: یومِ اقبال
+      12-25:
+        name:
+          en: Quaid-e-Azam Day
+          ur: یومِ قائدِاعظم
+      # Islamic holidays
+      9 Muharram P2D:
+        name:
+          en: Ashura
+          ur: عاشورہ
+      12 Rabi al-awwal:
+        _name: 12 Rabi al-awwal
+      1 Shawwal P3D:
+        _name: 1 Shawwal
+      10 Dhu al-Hijjah P3D:
+        _name: 10 Dhu al-Hijjah
+    states:
+      BA:
+        name: Balochistan
+      GB:
+        name: Gilgit-Baltistan
+      IS:
+        name: Islamabad
+      JK:
+        name: Azad Kashmir
+      KP:
+        name: Khyber Pakhtunkhwa
+      PB:
+        name: Punjab
+      SD:
+        name: Sindh
