@@ -219,7 +219,7 @@
     "webpack": "webpack",
     "webpack:analyze": "webpack",
     "yaml": "node scripts/holidays2json.cjs",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "commitlint": {
     "extends": [
