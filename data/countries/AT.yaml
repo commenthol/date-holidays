@@ -25,6 +25,7 @@ holidays:
         type: observance
       easter:
         _name: easter
+        type: observance
       easter 1:
         _name: easter 1
       05-01:
@@ -37,6 +38,7 @@ holidays:
         _name: easter 39
       easter 49:
         _name: easter 49
+        type: observance
       easter 50:
         _name: easter 50
       easter 60:
