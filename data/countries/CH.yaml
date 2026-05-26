@@ -3,7 +3,7 @@ holidays:
   # @source https://www.ch.ch/de/ferien-und-feiertage/
   # @source https://www.ejpd.admin.ch/dam/data/bj/publiservice/service/zivilprozessrecht/kant-feiertage.pdf
   # @attrib https://fr.wikipedia.org/wiki/Jours_f%C3%A9ri%C3%A9s_en_Suisse
-  # @attrib https://de.m.wikipedia.org/wiki/Feiertage_in_der_Schweiz
+  # @attrib https://de.wikipedia.org/wiki/Feiertage_in_der_Schweiz
   # @source https://fr.wikipedia.org/wiki/Berchtoldstag
   CH:
     names:

@@ -105,7 +105,7 @@ holidays:
 - `<region_code_?>` is a short code representing the region (any ascii based string)
 
 For country codes check: <br>  
-<https://en.m.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
+<https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
 
 For country codes / divisions / subdivisions - ISO 3166-2: <br>
 <http://www.unicode.org/cldr/charts/30/supplemental/territory_subdivisions.html>
