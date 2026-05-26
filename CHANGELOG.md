@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.30.2](https://github.com/commenthol/date-holidays/compare/3.30.1...3.30.2) (2026-05-26)
+
+- fix(AT): set Easter and Pentecost Sundays to observance [b28c6207](https://github.com/commenthol/date-holidays/commit/b28c6207f2cf9bf1c181961eea8b98011685e2ff)
+- chore(hooks): run lint on pre-commit [5fab9015](https://github.com/commenthol/date-holidays/commit/5fab901572b35930724e45b813c016ab25290ed2)
+- chore(hooks): call commitlint directly [16250716](https://github.com/commenthol/date-holidays/commit/16250716c400f43c159342138798d2b3b62e028a)
+- chore(commitlint): centralize rules in config [323b9d40](https://github.com/commenthol/date-holidays/commit/323b9d4026ea601348b6085f765024bde7253c71)
+- chore(husky): use modern prepare command [7b607d60](https://github.com/commenthol/date-holidays/commit/7b607d607d7308dbcceb708f4f3bcdf835ad593a)
+- chore(hooks): drop deprecated husky.sh sourcing [7ac3b077](https://github.com/commenthol/date-holidays/commit/7ac3b0770c1bdf51f4397b7c13d15c0aace92d53)
+
 ## [3.30.1](https://github.com/commenthol/date-holidays/compare/3.30.0...3.30.1) (2026-05-20)
 
 - docs: update license attributions [acc0f600](https://github.com/commenthol/date-holidays/commit/acc0f600d13bfca42d18467595ec5263fcfd24fc)
