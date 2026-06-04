@@ -37,6 +37,8 @@ holidays:
           en: Sacred Heart
       monday after 06-29:
         _name: 06-29
+      monday after 07-09:
+        _name: 07-09
       07-20:
         _name: Independence Day
       08-07:
