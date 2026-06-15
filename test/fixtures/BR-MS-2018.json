@@ -11,11 +11,38 @@
   {
     "date": "2018-02-10 00:00:00",
     "start": "2018-02-10T03:00:00.000Z",
+    "end": "2018-02-12T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT48H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2018-02-12 00:00:00",
+    "start": "2018-02-12T03:00:00.000Z",
+    "end": "2018-02-13T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "bank",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2018-02-13 00:00:00",
+    "start": "2018-02-13T03:00:00.000Z",
+    "end": "2018-02-14T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "bank",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2018-02-14 00:00:00",
+    "start": "2018-02-14T03:00:00.000Z",
     "end": "2018-02-14T17:00:00.000Z",
     "name": "Carnaval",
     "type": "optional",
-    "rule": "easter -50 PT110H",
-    "_weekday": "Sat"
+    "rule": "easter -46 PT14H",
+    "_weekday": "Wed"
   },
   {
     "date": "2018-03-30 00:00:00",
@@ -67,7 +94,7 @@
     "start": "2018-05-31T04:00:00.000Z",
     "end": "2018-06-01T04:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "bank",
     "rule": "easter 60",
     "_weekday": "Thu"
   },

@@ -11,11 +11,38 @@
   {
     "date": "2026-02-14 00:00:00",
     "start": "2026-02-14T03:00:00.000Z",
+    "end": "2026-02-16T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT48H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2026-02-16 00:00:00",
+    "start": "2026-02-16T03:00:00.000Z",
+    "end": "2026-02-17T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "bank",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2026-02-17 00:00:00",
+    "start": "2026-02-17T03:00:00.000Z",
+    "end": "2026-02-18T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "bank",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2026-02-18 00:00:00",
+    "start": "2026-02-18T03:00:00.000Z",
     "end": "2026-02-18T17:00:00.000Z",
     "name": "Carnaval",
     "type": "optional",
-    "rule": "easter -50 PT110H",
-    "_weekday": "Sat"
+    "rule": "easter -46 PT14H",
+    "_weekday": "Wed"
   },
   {
     "date": "2026-03-18 00:00:00",
@@ -76,7 +103,7 @@
     "start": "2026-06-04T03:00:00.000Z",
     "end": "2026-06-05T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "bank",
     "rule": "easter 60",
     "_weekday": "Thu"
   },
