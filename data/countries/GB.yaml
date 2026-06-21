@@ -64,7 +64,6 @@ holidays:
         name:
           en: Queen’s Platinum Jubilee
       # @source https://www.gov.uk/government/news/bank-holiday-announced-for-her-majesty-queen-elizabeth-iis-state-funeral-on-monday-19-september
-      # @source https://gov.gg/monarch
       "2022-09-19":
         name:
           en: Queen Elizabeth's Funeral Day
