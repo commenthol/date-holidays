@@ -32,7 +32,27 @@ holidays:
         name:
           pt: Dia de Tiradentes
           en: Tiradentes' Day
-      easter -50 PT110H:
+      easter -50 PT48H:
+        name:
+          pt: Carnaval
+          en: Carnival
+        type: optional
+      # Carnival Monday & Tuesday — national bank holidays (banks closed) per
+      # Resolução CMN nº 4.880, art. 6. Modeled as two separate days because
+      # Carnival Tuesday is also a state public holiday in Rio de Janeiro
+      # (states.RJ, easter -47), which overrides this national entry.
+      # @source https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4880
+      easter -48:
+        name:
+          pt: Carnaval
+          en: Carnival
+        type: bank
+      easter -47:
+        name:
+          pt: Carnaval
+          en: Carnival
+        type: bank
+      easter -46 PT14H:
         name:
           pt: Carnaval
           en: Carnival
@@ -47,9 +67,10 @@ holidays:
       2nd sunday in May:
         _name: Mothers Day
         type: observance
+      # @source https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4880
       easter 60:
         _name: easter 60
-        type: optional
+        type: bank
       06-12:
         name:
           pt: Dia dos Namorados

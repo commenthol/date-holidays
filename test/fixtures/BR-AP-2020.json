@@ -11,11 +11,38 @@
   {
     "date": "2020-02-22 00:00:00",
     "start": "2020-02-22T03:00:00.000Z",
+    "end": "2020-02-24T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "optional",
+    "rule": "easter -50 PT48H",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2020-02-24 00:00:00",
+    "start": "2020-02-24T03:00:00.000Z",
+    "end": "2020-02-25T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "bank",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2020-02-25 00:00:00",
+    "start": "2020-02-25T03:00:00.000Z",
+    "end": "2020-02-26T03:00:00.000Z",
+    "name": "Carnaval",
+    "type": "bank",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2020-02-26 00:00:00",
+    "start": "2020-02-26T03:00:00.000Z",
     "end": "2020-02-26T17:00:00.000Z",
     "name": "Carnaval",
     "type": "optional",
-    "rule": "easter -50 PT110H",
-    "_weekday": "Sat"
+    "rule": "easter -46 PT14H",
+    "_weekday": "Wed"
   },
   {
     "date": "2020-03-19 00:00:00",
@@ -77,7 +104,7 @@
     "start": "2020-06-11T03:00:00.000Z",
     "end": "2020-06-12T03:00:00.000Z",
     "name": "Corpo de Deus",
-    "type": "optional",
+    "type": "bank",
     "rule": "easter 60",
     "_weekday": "Thu"
   },
