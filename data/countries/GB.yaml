@@ -402,26 +402,26 @@ holidays:
         days:
           03-17:
             name:
-              en: "St Patrick's Day"
+              en: "St Patrick’s Day"
           substitutes 03-17 if saturday then next monday:
             substitute: true
             name:
-              en: "St Patrick's Day"
+              en: "St Patrick’s Day"
           substitutes 03-17 if sunday then next monday:
             substitute: true
             name:
-              en: "St Patrick's Day"
+              en: "St Patrick’s Day"
           07-12:
             name:
-              en: "Battle of the Boyne, Orangemen’s Day"
+              en: "Battle of the Boyne (Orangemen’s Day)"
           substitutes 07-12 if saturday then next monday:
             substitute: true
             name:
-              en: Battle of the Boyne
+              en: "Battle of the Boyne (Orangemen’s Day)"
           substitutes 07-12 if sunday then next monday:
             substitute: true
             name:
-              en: Battle of the Boyne
+              en: "Battle of the Boyne (Orangemen’s Day)"
           1st monday before 09-01:
             name:
               en: Summer bank holiday
