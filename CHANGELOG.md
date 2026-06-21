@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.31.0](https://github.com/commenthol/date-holidays/compare/3.30.2...3.31.0) (2026-06-21)
+
+- feat(BR): add bank holidays for Carnival and Corpus Christi [e3c6fd82](https://github.com/commenthol/date-holidays/commit/e3c6fd829b53ab6a38c4e1bd6c0b06ed45635ccc)
+- chore: replace mobile Wikipedia URLs with universal ones [69726b93](https://github.com/commenthol/date-holidays/commit/69726b9309be226c2148f7976fa4485cead0f2b9)
+
 ## [3.30.2](https://github.com/commenthol/date-holidays/compare/3.30.1...3.30.2) (2026-05-26)
 
 - fix(AT): set Easter and Pentecost Sundays to observance [b28c6207](https://github.com/commenthol/date-holidays/commit/b28c6207f2cf9bf1c181961eea8b98011685e2ff)
