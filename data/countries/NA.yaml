@@ -1,6 +1,6 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Namibia
-  # @source http://www.gov.na/holidays
+  # @source https://www.un.int/namibia/namibia/national-holidays
   NA:
     names:
       en: Namibia
@@ -58,6 +58,6 @@ holidays:
       12-26:
         _name: 12-26
         name:
-          en: Day of Goodwill
+          en: Family Day
       substitutes 12-26 if sunday then next monday:
         name: Public Holiday
