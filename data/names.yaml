@@ -19,7 +19,7 @@ names:
       bs: Novogodisnji dan
       ca: Any nou
       cz: Nový rok
-      da: Nytår
+      da: Nytårsdag
       de: Neujahr
       el: Πρωτοχρονιά
       es: Año Nuevo
@@ -351,7 +351,7 @@ names:
       bg: Бъдни вечер
       bs: Badnji dan
       cz: Štědrý den
-      da: Juleaften
+      da: Juleaftensdag
       de: Heiliger Abend
       es: Nochebuena
       et: jõululaupäev
@@ -627,7 +627,7 @@ names:
       bg: Великден
       bs: Vaskrs
       cz: Velikonoční neděle
-      da: Påskesøndag
+      da: Påskedag
       de: Ostersonntag
       el: Πάσχα
       es: Pascua

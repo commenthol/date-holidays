@@ -3,7 +3,7 @@
     "date": "2024-01-01 00:00:00",
     "start": "2023-12-31T23:00:00.000Z",
     "end": "2024-01-01T23:00:00.000Z",
-    "name": "Nytår",
+    "name": "Nytårsdag",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Mon"
@@ -39,7 +39,7 @@
     "date": "2024-03-31 00:00:00",
     "start": "2024-03-30T23:00:00.000Z",
     "end": "2024-03-31T22:00:00.000Z",
-    "name": "Påskesøndag",
+    "name": "Påskedag",
     "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
@@ -59,7 +59,7 @@
     "end": "2024-05-01T22:00:00.000Z",
     "name": "1. maj",
     "type": "observance",
-    "note": "Full holiday for blue collar workers",
+    "note": "Not a public holiday; full day off for blue collar workers only",
     "rule": "05-01",
     "_weekday": "Wed"
   },
@@ -105,7 +105,7 @@
     "end": "2024-06-05T22:00:00.000Z",
     "name": "Grundlovsdag",
     "type": "observance",
-    "note": "Shops are closed",
+    "note": "Not a public holiday; shops closed by law",
     "rule": "06-05",
     "_weekday": "Wed"
   },
@@ -113,9 +113,9 @@
     "date": "2024-12-24 00:00:00",
     "start": "2024-12-23T23:00:00.000Z",
     "end": "2024-12-24T23:00:00.000Z",
-    "name": "Juleaften",
+    "name": "Juleaftensdag",
     "type": "observance",
-    "note": "Shops are closed",
+    "note": "Not a public holiday; shops closed by law",
     "rule": "12-24",
     "_weekday": "Tue"
   },
