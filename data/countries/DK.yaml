@@ -34,14 +34,16 @@ holidays:
       05-01:
         _name: 05-01
         type: observance
-        note: Full holiday for blue collar workers
+        note: Not a public holiday; full day off for blue collar workers only
+        # @source https://cphpost.dk/2025-05-01/life-in-denmark/what-happens-on-the-1st-of-may/
       2nd sunday in May:
         _name: Mothers Day
         type: observance
       06-05:
         _name: Constitution Day
         type: observance
-        note: Shops are closed
+        note: Not a public holiday; shops closed by law
+        # @source https://www.retsinformation.dk/eli/lta/2019/515
       easter 49:
         _name: easter 49
       easter 50:
@@ -49,7 +51,8 @@ holidays:
       12-24:
         _name: 12-24
         type: observance
-        note: Shops are closed
+        note: Not a public holiday; shops closed by law
+        # @source https://www.retsinformation.dk/eli/lta/2019/515
       12-25:
         _name: 12-25
       12-26:
