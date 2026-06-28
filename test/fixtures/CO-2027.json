@@ -108,6 +108,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2027-07-12 00:00:00",
+    "start": "2027-07-12T05:00:00.000Z",
+    "end": "2027-07-13T05:00:00.000Z",
+    "name": "La virgen de Chiquinquirá",
+    "type": "public",
+    "rule": "monday after 07-09 since 2026",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2027-07-20 00:00:00",
     "start": "2027-07-20T05:00:00.000Z",
     "end": "2027-07-21T05:00:00.000Z",
