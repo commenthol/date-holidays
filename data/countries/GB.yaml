@@ -64,7 +64,6 @@ holidays:
         name:
           en: Queen’s Platinum Jubilee
       # @source https://www.gov.uk/government/news/bank-holiday-announced-for-her-majesty-queen-elizabeth-iis-state-funeral-on-monday-19-september
-      # @source https://gov.gg/monarch
       "2022-09-19":
         name:
           en: Queen Elizabeth's Funeral Day
@@ -402,26 +401,26 @@ holidays:
         days:
           03-17:
             name:
-              en: "St Patrick's Day"
+              en: "St Patrick’s Day"
           substitutes 03-17 if saturday then next monday:
             substitute: true
             name:
-              en: "St Patrick's Day"
+              en: "St Patrick’s Day"
           substitutes 03-17 if sunday then next monday:
             substitute: true
             name:
-              en: "St Patrick's Day"
+              en: "St Patrick’s Day"
           07-12:
             name:
-              en: "Battle of the Boyne, Orangemen’s Day"
+              en: "Battle of the Boyne (Orangemen’s Day)"
           substitutes 07-12 if saturday then next monday:
             substitute: true
             name:
-              en: Battle of the Boyne
+              en: "Battle of the Boyne (Orangemen’s Day)"
           substitutes 07-12 if sunday then next monday:
             substitute: true
             name:
-              en: Battle of the Boyne
+              en: "Battle of the Boyne (Orangemen’s Day)"
           1st monday before 09-01:
             name:
               en: Summer bank holiday
@@ -552,7 +551,7 @@ holidays:
           1st monday before 09-01:
             name:
               en: Summer bank holiday
-        regions: {}
+        # regions:
         # AGY:
         #   name: Anglesey
         # BGE:
