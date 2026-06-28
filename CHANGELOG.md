@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.32.0](https://github.com/commenthol/date-holidays/compare/3.31.0...3.32.0) (2026-06-28)
+
+- chore(github-actions): add node@26 and pin actions to hash commits [55232316](https://github.com/commenthol/date-holidays/commit/552323166e32fd473bfeb1ba09be068b47b55cdb)
+- fix(CO): fix yaml linter issue [fc1f97f2](https://github.com/commenthol/date-holidays/commit/fc1f97f2b987c5f51d87d53407d58d53ee5236b6)
+- fix(NA): update holiday source URL and correct name for December 26 [d3a11e43](https://github.com/commenthol/date-holidays/commit/d3a11e4381b0d549315b149388adeb1135b79c5b)
+- feat(CO): Add new colombian holiday monday after 07-09 [baf3e801](https://github.com/commenthol/date-holidays/commit/baf3e80175bec4d21f9528dd3168d157d3569790)
+- chore(GB): update fixtures [8660a541](https://github.com/commenthol/date-holidays/commit/8660a541c4a743fdcc983fadc6f95345f0ecd013)
+- fix(GB): remove dead gov.gg source URL [2331a5c3](https://github.com/commenthol/date-holidays/commit/2331a5c3a0cd77e5066acad79ef96a23e663d6ab)
+- fix(GB): align names with GOV.UK sources [03a324b3](https://github.com/commenthol/date-holidays/commit/03a324b3006198dd0c2f081b967d005842e8e87b)
+- chore(GB): hormonize regions format [40ce8737](https://github.com/commenthol/date-holidays/commit/40ce87371bf421daaff13ed432814b05e27c5296)
+
 ## [3.31.0](https://github.com/commenthol/date-holidays/compare/3.30.2...3.31.0) (2026-06-21)
 
 - feat(BR): add bank holidays for Carnival and Corpus Christi [e3c6fd82](https://github.com/commenthol/date-holidays/commit/e3c6fd829b53ab6a38c4e1bd6c0b06ed45635ccc)
