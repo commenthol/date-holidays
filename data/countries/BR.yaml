@@ -230,14 +230,45 @@ holidays:
             type: public
             active:
               - from: 1995-12-04
-      # ES:
-      #   name: Espírito Santo
-      #  zones:
-      #    - America/Sao_Paulo
-      # GO:
-      #   name: Goiás
-      #  zones:
-      #    - America/Sao_Paulo
+      ES:
+        name: Espírito Santo
+        # Data Magna do Estado: feriado estadual desde a Lei 11.010/2019.
+        # @attrib https://g1.globo.com/es/espirito-santo/noticia/2025/04/26/saiba-o-que-funciona-e-nao-funciona-no-feriado-de-nossa-senhora-da-penha-no-es.ghtml
+        zones:
+          - America/Sao_Paulo
+        days:
+          # "segunda-feira, oito dias depois do domingo de Páscoa"
+          easter 8:
+            name:
+              pt: Dia de Nossa Senhora da Penha
+            type: public
+            active:
+              - from: 2019-07-04
+      GO:
+        name: Goiás
+        sources:
+          - https://legisla.casacivil.go.gov.br/pesquisa_legislacao/100979/lei-20756
+        zones:
+          - America/Sao_Paulo
+        days:
+          07-26:
+            name:
+              pt: Fundação da Cidade de Goiás
+          10-24:
+            name:
+              pt: Lançamento da pedra fundamental de Goiânia
+        regions:
+          GOIANIA:
+            name: Goiânia
+            # Padroeira de Goiânia, feriado municipal pela Lei 701/1956.
+            # @source https://goias.gov.br/juceg/feriado-municipal-devido-ao-dia-de-nossa-senhora-auxiliadora-padroeira-do-municipio-de-goiania/
+            days:
+              05-24:
+                name:
+                  pt: Nossa Senhora Auxiliadora
+                type: public
+                active:
+                  - from: 1956-08-30
       MA:
         name: Maranhão
         zones:
