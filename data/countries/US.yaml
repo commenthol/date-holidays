@@ -260,6 +260,12 @@ holidays:
           3rd monday in February:
             name:
               en: Washington-Lincoln Day
+          1st monday in October:
+            name:
+              en: Frances Xavier Cabrini Day
+            active:
+              - from: "2020-01-01"
+            # @source HB20-1031 (2020) https://leg.colorado.gov/bills/hb20-1031
           2nd monday in October:
             type: observance
       CT:
