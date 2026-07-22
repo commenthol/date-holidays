@@ -21,14 +21,35 @@ holidays:
         name:
           en: Independence Movement Day
           ko: 3·1절
+      substitutes 03-01 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Independence Movement Day
+          ko: 3·1절
+        active:
+          - from: "2021-01-01"
       05-05:
         name:
           en: Children's Day
           ko: 어린이날
+      substitutes 05-05 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Children's Day
+          ko: 어린이날
+        active:
+          - from: "2014-01-01"
       korean 4-0-8:
         name:
           en: Buddha's Birthday
           ko: 석가탄신일
+      substitutes korean 4-0-8 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Buddha's Birthday
+          ko: 석가탄신일
+        active:
+          - from: "2023-01-01"
       06-06:
         name:
           en: Memorial Day
@@ -43,10 +64,24 @@ holidays:
         name:
           en: Constitution Day
           ko: 제헌절
+      substitutes 07-17 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Constitution Day
+          ko: 제헌절
+        active:
+          - from: "2026-01-01"
       08-15:
         name:
           en: Liberation Day
           ko: 광복절
+      substitutes 08-15 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Liberation Day
+          ko: 광복절
+        active:
+          - from: "2021-01-01"
       korean 8-0-14 P3D:
         name:
           en: Korean Thanksgiving
@@ -55,12 +90,261 @@ holidays:
         name:
           en: National Foundation Day
           ko: 개천절
+      substitutes 10-03 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: National Foundation Day
+          ko: 개천절
+        active:
+          - from: "2021-01-01"
       10-09:
         name:
           en: Hangul Day
           ko: 한글날
+      substitutes 10-09 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Hangul Day
+          ko: 한글날
+        active:
+          - from: "2021-01-01"
       12-25:
         _name: 12-25
+      substitutes 12-25 if Saturday,Sunday then next Monday:
+        _name: 12-25
+        substitute: true
+        active:
+          - from: "2023-01-01"
+      # Seollal substitute holidays (Sunday overlap, or overlap with another public
+      # holiday on a weekday) can't use the generic weekend-substitute pattern above:
+      # the underlying `korean 01-0-01 P3D` 3-day span is anchored at 당일 (1st lunar
+      # day) instead of 전날, so it omits 전날 and includes an extra day past 다음날 --
+      # a rule keyed off that span would trigger on the wrong day. Anchored here at the
+      # real (corrected) 전날/당일/다음날 dates instead, computed per year. Chuseok is
+      # anchored correctly already (`korean 8-0-14` = the day before Chuseok) but still
+      # needs explicit entries below for the rare cases where it overlaps another
+      # holiday. Covers 2014-2050; needs extending past that.
+      # @source https://github.com/commenthol/date-holidays/issues/640
+      "substitutes 2014-09-07 if Sunday then next Wednesday": # -> 2014-09-10
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2015-09-27 if Sunday then next Tuesday": # -> 2015-09-29
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2016-02-07 if Sunday then next Wednesday": # -> 2016-02-10
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2017-01-29 if Sunday then next Monday": # -> 2017-01-30
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2017-10-03 if Tuesday then next Friday": # -> 2017-10-06
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2018-09-23 if Sunday then next Wednesday": # -> 2018-09-26
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2020-01-26 if Sunday then next Monday": # -> 2020-01-27
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2022-09-11 if Sunday then next Monday": # -> 2022-09-12
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2023-01-22 if Sunday then next Tuesday": # -> 2023-01-24
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2024-02-11 if Sunday then next Monday": # -> 2024-02-12
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2025-05-05 if Monday then next Tuesday": # -> 2025-05-06
+        substitute: true
+        name:
+          en: Children's Day
+          ko: 어린이날
+      "substitutes 2025-05-05 if Monday then next Tuesday #1": # -> 2025-05-06
+        substitute: true
+        name:
+          en: Buddha's Birthday
+          ko: 석가탄신일
+      "substitutes 2025-10-05 if Sunday then next Wednesday": # -> 2025-10-08
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2027-02-07 if Sunday then next Tuesday": # -> 2027-02-09
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2028-10-03 if Tuesday then next Thursday": # -> 2028-10-05
+        substitute: true
+        name:
+          en: National Foundation Day
+          ko: 개천절
+      "substitutes 2028-10-03 if Tuesday then next Thursday #1": # -> 2028-10-05
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2029-09-23 if Sunday then next Monday": # -> 2029-09-24
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2030-02-03 if Sunday then next Tuesday": # -> 2030-02-05
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2032-09-19 if Sunday then next Tuesday": # -> 2032-09-21
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2033-01-30 if Sunday then next Wednesday": # -> 2033-02-02
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2034-02-19 if Sunday then next Tuesday": # -> 2034-02-21
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2035-09-16 if Sunday then next Tuesday": # -> 2035-09-18
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2036-01-27 if Sunday then next Wednesday": # -> 2036-01-30
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2036-10-03 if Friday then next Monday": # -> 2036-10-06
+        substitute: true
+        name:
+          en: National Foundation Day
+          ko: 개천절
+      "substitutes 2036-10-03 if Friday then next Monday #1": # -> 2036-10-06
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2036-10-05 if Sunday then next Tuesday": # -> 2036-10-07
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2037-02-15 if Sunday then next Tuesday": # -> 2037-02-17
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2038-09-12 if Sunday then next Wednesday": # -> 2038-09-15
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2039-01-23 if Sunday then next Wednesday": # -> 2039-01-26
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2039-10-02 if Sunday then next Tuesday": # -> 2039-10-04
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2039-10-03 if Monday then next Wednesday": # -> 2039-10-05
+        substitute: true
+        name:
+          en: National Foundation Day
+          ko: 개천절
+      "substitutes 2039-10-03 if Monday then next Wednesday #1": # -> 2039-10-05
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2040-02-12 if Sunday then next Tuesday": # -> 2040-02-14
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2042-09-28 if Sunday then next Tuesday": # -> 2042-09-30
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2044-01-31 if Sunday then next Monday": # -> 2044-02-01
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2044-05-05 if Thursday then next Friday": # -> 2044-05-06
+        substitute: true
+        name:
+          en: Children's Day
+          ko: 어린이날
+      "substitutes 2044-05-05 if Thursday then next Friday #1": # -> 2044-05-06
+        substitute: true
+        name:
+          en: Buddha's Birthday
+          ko: 석가탄신일
+      "substitutes 2045-09-24 if Sunday then next Wednesday": # -> 2045-09-27
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2046-09-16 if Sunday then next Monday": # -> 2046-09-17
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2047-01-27 if Sunday then next Monday": # -> 2047-01-28
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
+      "substitutes 2047-10-03 if Thursday then next Monday": # -> 2047-10-07
+        substitute: true
+        name:
+          en: National Foundation Day
+          ko: 개천절
+      "substitutes 2047-10-03 if Thursday then next Monday #1": # -> 2047-10-07
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2049-09-12 if Sunday then next Monday": # -> 2049-09-13
+        substitute: true
+        name:
+          en: Korean Thanksgiving
+          ko: 추석
+      "substitutes 2050-01-23 if Sunday then next Tuesday": # -> 2050-01-25
+        substitute: true
+        name:
+          en: Korean New Year
+          ko: 설날
     # states:
     #   11:
     #     name: Seoul

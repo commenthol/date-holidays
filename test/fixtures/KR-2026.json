@@ -27,6 +27,16 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2026-03-02 00:00:00",
+    "start": "2026-03-01T15:00:00.000Z",
+    "end": "2026-03-02T15:00:00.000Z",
+    "name": "3·1절 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 03-01 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2026-05-05 00:00:00",
     "start": "2026-05-04T15:00:00.000Z",
     "end": "2026-05-05T15:00:00.000Z",
@@ -43,6 +53,16 @@
     "type": "public",
     "rule": "korean 4-0-8",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2026-05-25 00:00:00",
+    "start": "2026-05-24T15:00:00.000Z",
+    "end": "2026-05-25T15:00:00.000Z",
+    "name": "석가탄신일 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes korean 4-0-8 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2026-06-06 00:00:00",
@@ -72,6 +92,16 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2026-08-17 00:00:00",
+    "start": "2026-08-16T15:00:00.000Z",
+    "end": "2026-08-17T15:00:00.000Z",
+    "name": "광복절 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 08-15 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2026-09-24 00:00:00",
     "start": "2026-09-23T15:00:00.000Z",
     "end": "2026-09-26T15:00:00.000Z",
@@ -88,6 +118,16 @@
     "type": "public",
     "rule": "10-03",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2026-10-05 00:00:00",
+    "start": "2026-10-04T15:00:00.000Z",
+    "end": "2026-10-05T15:00:00.000Z",
+    "name": "개천절 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 10-03 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2026-10-09 00:00:00",
