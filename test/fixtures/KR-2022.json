@@ -81,6 +81,16 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2022-09-12 00:00:00",
+    "start": "2022-09-11T15:00:00.000Z",
+    "end": "2022-09-12T15:00:00.000Z",
+    "name": "추석 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 2022-09-11 if Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2022-10-03 00:00:00",
     "start": "2022-10-02T15:00:00.000Z",
     "end": "2022-10-03T15:00:00.000Z",
@@ -97,6 +107,16 @@
     "type": "public",
     "rule": "10-09",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2022-10-10 00:00:00",
+    "start": "2022-10-09T15:00:00.000Z",
+    "end": "2022-10-10T15:00:00.000Z",
+    "name": "한글날 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 10-09 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2022-12-25 00:00:00",

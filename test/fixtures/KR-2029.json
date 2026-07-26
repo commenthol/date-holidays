@@ -36,6 +36,16 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2029-05-07 00:00:00",
+    "start": "2029-05-06T15:00:00.000Z",
+    "end": "2029-05-07T15:00:00.000Z",
+    "name": "어린이날 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 05-05 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2029-05-20 00:00:00",
     "start": "2029-05-19T15:00:00.000Z",
     "end": "2029-05-20T15:00:00.000Z",
@@ -43,6 +53,16 @@
     "type": "public",
     "rule": "korean 4-0-8",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2029-05-21 00:00:00",
+    "start": "2029-05-20T15:00:00.000Z",
+    "end": "2029-05-21T15:00:00.000Z",
+    "name": "석가탄신일 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes korean 4-0-8 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2029-06-06 00:00:00",
@@ -79,6 +99,16 @@
     "type": "public",
     "rule": "korean 8-0-14 P3D",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2029-09-24 00:00:00",
+    "start": "2029-09-23T15:00:00.000Z",
+    "end": "2029-09-24T15:00:00.000Z",
+    "name": "추석 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 2029-09-23 if Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2029-10-03 00:00:00",

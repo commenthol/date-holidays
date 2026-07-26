@@ -18,6 +18,16 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2027-02-09 00:00:00",
+    "start": "2027-02-08T15:00:00.000Z",
+    "end": "2027-02-09T15:00:00.000Z",
+    "name": "설날 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 2027-02-07 if Sunday then next Tuesday",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2027-03-01 00:00:00",
     "start": "2027-02-28T15:00:00.000Z",
     "end": "2027-03-01T15:00:00.000Z",
@@ -63,6 +73,16 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2027-07-19 00:00:00",
+    "start": "2027-07-18T15:00:00.000Z",
+    "end": "2027-07-19T15:00:00.000Z",
+    "name": "제헌절 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 07-17 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2027-08-15 00:00:00",
     "start": "2027-08-14T15:00:00.000Z",
     "end": "2027-08-15T15:00:00.000Z",
@@ -70,6 +90,16 @@
     "type": "public",
     "rule": "08-15",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2027-08-16 00:00:00",
+    "start": "2027-08-15T15:00:00.000Z",
+    "end": "2027-08-16T15:00:00.000Z",
+    "name": "광복절 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 08-15 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2027-09-14 00:00:00",
@@ -90,6 +120,16 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2027-10-04 00:00:00",
+    "start": "2027-10-03T15:00:00.000Z",
+    "end": "2027-10-04T15:00:00.000Z",
+    "name": "개천절 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 10-03 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2027-10-09 00:00:00",
     "start": "2027-10-08T15:00:00.000Z",
     "end": "2027-10-09T15:00:00.000Z",
@@ -99,6 +139,16 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2027-10-11 00:00:00",
+    "start": "2027-10-10T15:00:00.000Z",
+    "end": "2027-10-11T15:00:00.000Z",
+    "name": "한글날 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 10-09 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2027-12-25 00:00:00",
     "start": "2027-12-24T15:00:00.000Z",
     "end": "2027-12-25T15:00:00.000Z",
@@ -106,5 +156,15 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2027-12-27 00:00:00",
+    "start": "2027-12-26T15:00:00.000Z",
+    "end": "2027-12-27T15:00:00.000Z",
+    "name": "기독탄신일 (대체공휴일)",
+    "type": "public",
+    "substitute": true,
+    "rule": "substitutes 12-25 if Saturday,Sunday then next Monday",
+    "_weekday": "Mon"
   }
 ]
