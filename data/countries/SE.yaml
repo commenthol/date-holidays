@@ -1,4 +1,5 @@
 holidays:
+  # @source https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/
   # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Schweden
   # @attrib https://sv.wikipedia.org/wiki/Helgdagar_i_Sverige
   SE:
@@ -74,11 +75,11 @@ holidays:
       # @attrib https://sv.wikipedia.org/wiki/Sveriges_nationaldag#Svenska_flaggans_dag
       06-06 since 2005:
         name:
-          sv: Sveriges nationaldag
+          sv: nationaldagen
           en: National Day
       06-06 since 1983 prior to 2005:
         name:
-          sv: Sveriges nationaldag
+          sv: nationaldagen
           en: National Day
         type: observance
       friday after 06-19:

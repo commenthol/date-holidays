@@ -57,7 +57,7 @@ names:
       sl: Novo leto
       sq: Viti i Ri
       sr: Нова година
-      sv: Nyårsdagen
+      sv: nyårsdagen
       sw: Mwaka mpya
       th: วันขึ้นปีใหม่
       ti: ሓዲሽ ዓመት
@@ -90,7 +90,7 @@ names:
       pl: Święto Trzech Króli
       pt: Epifania do Senhor
       sk: Zjavenie Pána
-      sv: Trettondedag jul
+      sv: trettondedag jul
       ti: ጥምቀት
       vi: Lễ Hiển Linh
   02-02:
@@ -197,7 +197,7 @@ names:
       sl: Praznik dela
       sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
-      sv: Första Maj
+      sv: första maj
       ti: የላብ አደሮች ቀን
       uk: День міжнародної солідарності трудящих
       vi: Quốc tế Lao động
@@ -286,7 +286,7 @@ names:
       sk: Sviatok všetkých svätých
       sq: Të gjitha Saints
       sr: Сви Свети
-      sv: Alla Helgons dag
+      sv: alla helgons dag
       vi: Lễ Các Thánh
   11-02:
     name:
@@ -424,7 +424,7 @@ names:
       sl: Božič
       sq: Krishtlindja
       sr: Католички Божић
-      sv: Juldagen
+      sv: juldagen
       sw: Krismasi
       ti: ልደት
       uk: Різдво Христове
@@ -460,7 +460,7 @@ names:
       pl: Drugi dzień Bożego Narodzenia
       ro: A doua zi de Crăciun
       sk: Druhý sviatok vianočný
-      sv: Annandag jul
+      sv: annandag jul
       vi: Ngày tặng quà
   12-31:
     name:
@@ -597,7 +597,7 @@ names:
       sk: Veľkonočný piatok
       sq: E Premtja e Madhe
       sr: Католички Велики петак
-      sv: Långfredagen
+      sv: långfredagen
       sw: Ijumaa Kuu
       ta: புனித வெள்ளி
       vi: Thứ sáu Tuần Thánh
@@ -655,7 +655,7 @@ names:
       sl: Velika noč
       sq: Pashkët Katolike
       sr: Католички Васкрс
-      sv: Påskdagen
+      sv: påskdagen
       sw: Pasaka
       vi: Lễ Phục Sinh
       zh: 复活节
@@ -691,7 +691,7 @@ names:
       sk: Veľkonočný pondelok
       sl: Velikonočni ponedeljek
       sr: Католички Васкрсни понедељак
-      sv: Annandag påsk
+      sv: annandag påsk
       sw: Jumatatu ya Pasaka
       vi: Thứ hai phục sinh
       zh: 復活節星期一
@@ -714,7 +714,7 @@ names:
       no: Kristi himmelfartsdag
       pap: Dia di Asuncion
       ro: Ziua Eroilor
-      sv: Kristi himmelfärdsdag
+      sv: Kristi himmelsfärdsdag
       vi: Lễ Thăng Thiên
   easter 49: # Pentecost / Whit Sunday
     name:
@@ -738,7 +738,7 @@ names:
       pl: Zielone Świątki
       ro: Rusaliile
       sl: Binkošti
-      sv: Pingstdagen
+      sv: pingstdagen
       uk: Трійця
       vi: Lễ Chúa Thánh Thần Hiện Xuống
   easter 50: # Whit Monday
