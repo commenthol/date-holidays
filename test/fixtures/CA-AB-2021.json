@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2021-04-04 00:00:00",
-    "start": "2021-04-04T06:00:00.000Z",
-    "end": "2021-04-05T06:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2021-04-05 00:00:00",
     "start": "2021-04-05T06:00:00.000Z",
     "end": "2021-04-06T06:00:00.000Z",
@@ -160,14 +151,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Sat"
-  },
-  {
-    "date": "2021-12-26 00:00:00",
-    "start": "2021-12-26T07:00:00.000Z",
-    "end": "2021-12-27T07:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sun"
   }
 ]

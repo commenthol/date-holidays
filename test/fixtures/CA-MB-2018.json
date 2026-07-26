@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2018-04-01 00:00:00",
-    "start": "2018-04-01T05:00:00.000Z",
-    "end": "2018-04-02T05:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2018-05-13 00:00:00",
     "start": "2018-05-13T05:00:00.000Z",
     "end": "2018-05-14T05:00:00.000Z",
@@ -103,7 +94,7 @@
     "start": "2018-08-06T05:00:00.000Z",
     "end": "2018-08-07T05:00:00.000Z",
     "name": "Terry Fox Day",
-    "type": "public",
+    "type": "optional",
     "rule": "1st monday in August",
     "_weekday": "Mon"
   },
@@ -139,7 +130,7 @@
     "start": "2018-11-11T06:00:00.000Z",
     "end": "2018-11-12T06:00:00.000Z",
     "name": "Remembrance Day",
-    "type": "public",
+    "type": "optional",
     "rule": "11-11",
     "_weekday": "Sun"
   },
@@ -151,14 +142,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2018-12-26 00:00:00",
-    "start": "2018-12-26T06:00:00.000Z",
-    "end": "2018-12-27T06:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Wed"
   }
 ]

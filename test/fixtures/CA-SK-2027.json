@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2027-03-28 00:00:00",
-    "start": "2027-03-28T06:00:00.000Z",
-    "end": "2027-03-29T06:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2027-05-09 00:00:00",
     "start": "2027-05-09T06:00:00.000Z",
     "end": "2027-05-10T06:00:00.000Z",
@@ -151,14 +142,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Sat"
-  },
-  {
-    "date": "2027-12-26 00:00:00",
-    "start": "2027-12-26T06:00:00.000Z",
-    "end": "2027-12-27T06:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sun"
   }
 ]

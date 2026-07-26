@@ -45,15 +45,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2019-04-21 00:00:00",
-    "start": "2019-04-21T07:00:00.000Z",
-    "end": "2019-04-22T07:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2019-04-22 00:00:00",
     "start": "2019-04-22T07:00:00.000Z",
     "end": "2019-04-23T07:00:00.000Z",
@@ -105,15 +96,6 @@
     "name": "Canada Day",
     "type": "public",
     "rule": "07-01",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2019-08-05 00:00:00",
-    "start": "2019-08-05T07:00:00.000Z",
-    "end": "2019-08-06T07:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
     "_weekday": "Mon"
   },
   {
@@ -169,14 +151,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2019-12-26 00:00:00",
-    "start": "2019-12-26T08:00:00.000Z",
-    "end": "2019-12-27T08:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Thu"
   }
 ]

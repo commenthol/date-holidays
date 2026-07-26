@@ -45,15 +45,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2017-04-16 00:00:00",
-    "start": "2017-04-16T07:00:00.000Z",
-    "end": "2017-04-17T07:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-17T07:00:00.000Z",
     "end": "2017-04-18T07:00:00.000Z",
@@ -108,15 +99,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2017-08-07 00:00:00",
-    "start": "2017-08-07T07:00:00.000Z",
-    "end": "2017-08-08T07:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2017-08-21 00:00:00",
     "start": "2017-08-21T07:00:00.000Z",
     "end": "2017-08-22T07:00:00.000Z",
@@ -169,14 +151,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2017-12-26 00:00:00",
-    "start": "2017-12-26T08:00:00.000Z",
-    "end": "2017-12-27T08:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Tue"
   }
 ]

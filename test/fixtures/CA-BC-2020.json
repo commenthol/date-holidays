@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2020-04-12 00:00:00",
-    "start": "2020-04-12T07:00:00.000Z",
-    "end": "2020-04-13T07:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2020-05-10 00:00:00",
     "start": "2020-05-10T07:00:00.000Z",
     "end": "2020-05-11T07:00:00.000Z",
@@ -102,7 +93,7 @@
     "date": "2020-08-03 00:00:00",
     "start": "2020-08-03T07:00:00.000Z",
     "end": "2020-08-04T07:00:00.000Z",
-    "name": "Civic Holiday",
+    "name": "British Columbia Day",
     "type": "public",
     "rule": "1st monday in August",
     "_weekday": "Mon"
@@ -151,14 +142,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2020-12-26 00:00:00",
-    "start": "2020-12-26T08:00:00.000Z",
-    "end": "2020-12-27T08:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sat"
   }
 ]

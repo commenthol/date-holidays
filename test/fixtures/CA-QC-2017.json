@@ -46,20 +46,11 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2017-04-16 00:00:00",
-    "start": "2017-04-16T04:00:00.000Z",
-    "end": "2017-04-17T04:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2017-04-17 00:00:00",
     "start": "2017-04-17T04:00:00.000Z",
     "end": "2017-04-18T04:00:00.000Z",
     "name": "Easter Monday",
-    "type": "public",
+    "type": "optional",
     "note": "Either Good Friday or Easter Monday, at the employer’s option",
     "rule": "easter 1",
     "_weekday": "Mon"
@@ -110,15 +101,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2017-08-07 00:00:00",
-    "start": "2017-08-07T04:00:00.000Z",
-    "end": "2017-08-08T04:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2017-09-04 00:00:00",
     "start": "2017-09-04T04:00:00.000Z",
     "end": "2017-09-05T04:00:00.000Z",
@@ -146,15 +128,6 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2017-11-11 00:00:00",
-    "start": "2017-11-11T04:00:00.000Z",
-    "end": "2017-11-12T04:00:00.000Z",
-    "name": "Remembrance Day",
-    "type": "public",
-    "rule": "11-11",
-    "_weekday": "Sat"
-  },
-  {
     "date": "2017-12-25 00:00:00",
     "start": "2017-12-25T04:00:00.000Z",
     "end": "2017-12-26T04:00:00.000Z",
@@ -162,14 +135,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Mon"
-  },
-  {
-    "date": "2017-12-26 00:00:00",
-    "start": "2017-12-26T04:00:00.000Z",
-    "end": "2017-12-27T04:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Tue"
   }
 ]

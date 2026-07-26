@@ -57,15 +57,9 @@ holidays:
         type: observance
       easter -2:
         _name: easter -2
-      easter:
-        _name: easter
       2nd sunday after 05-01:
         _name: Mothers Day
         type: observance
-      monday before 05-25:
-        name:
-          en: Victoria Day
-          fr: Fête de la Reine
       3rd sunday after 06-01:
         _name: Fathers Day
         type: observance
@@ -73,10 +67,6 @@ holidays:
         name:
           en: Canada Day
           fr: Fête du Canada
-      1st monday in August:
-        name:
-          en: Civic Holiday
-          fr: Premier lundi d’août
       1st monday in September:
         _name: 05-01
       # @source https://www.canada.ca/en/canadian-heritage/campaigns/national-day-truth-reconciliation.html
@@ -87,23 +77,13 @@ holidays:
           fr: Journée nationale de la vérité et de la réconciliation
         type: observance
         note: Not a paid statutory holiday in all provinces and territories; Only federally-regulated employers governed by the Canada Labour Code are required to give their employees a paid day off work
-      2nd monday after 10-01:
-        name:
-          en: Thanksgiving
-          fr: Action de grâce
       10-31 18:00:
         name:
           en: Halloween
           fr: l'Halloween
         type: observance
-      11-11:
-        name:
-          en: Remembrance Day
-          fr: Jour du Souvenir
       12-25:
         _name: 12-25
-      12-26:
-        _name: 12-26
     states:
       AB:
         name: Alberta
@@ -114,6 +94,10 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           easter 1:
             _name: easter 1
             type: optional
@@ -122,6 +106,14 @@ holidays:
               en: Heritage Day
               fr: Fête du patrimoine
             type: optional
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       BC:
         name: British Columbia
@@ -131,6 +123,21 @@ holidays:
           - America/Creston
           - America/Dawson_Creek
         days:
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
+          1st monday in August:
+            name:
+              en: British Columbia Day
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           2nd monday after 02-01:
             name:
               en: Family Day
@@ -154,10 +161,24 @@ holidays:
             name:
               en: Louis Riel Day
               fr: Journée Louis Riel
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           1st monday in August:
             name:
               en: Terry Fox Day
               fr: Journée Terry Fox
+            type: optional
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
+            type: optional
       NB:
         name: New Brunswick
         zones:
@@ -167,6 +188,10 @@ holidays:
             name:
               en: New Brunswick Day
               fr: Jour de Nouveau Brunswick
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           # @attrib https://en.wikipedia.org/wiki/Family_Day_(Canada)
           3rd monday after 02-01:
             name:
@@ -181,6 +206,10 @@ holidays:
           - America/St_Johns
           - America/Goose_Bay
         days:
+          # @source https://www.assembly.nl.ca/legislation/sr/annualstatutes/RSN1990/S15.c90.htm
+          07-01:
+            name:
+              en: Memorial Day
           03-17:
             name:
               en: Saint Patrick's Day
@@ -201,6 +230,8 @@ holidays:
               en: Orangemen's Day
               fr: Fête des orangistes
             type: optional
+          # @source https://www.assembly.nl.ca/legislation/sr/annualstatutes/RSN1990/S15.c90.htm
+          1st monday in August: false
           11-11:
             name:
               en: Armistice Day
@@ -219,16 +250,45 @@ holidays:
             name:
               en: Natal Day
               fr: Jour de la Fondation
+            type: optional
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
       NT:
         name: Northwest Territories
         zones:
           - America/Yellowknife
           - America/Inuvik
         days:
+          1st monday in August:
+            name:
+              en: Civic Holiday
+              fr: Premier lundi d’août
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
+          # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
+          easter: false
+          # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
+          easter 1:
+            _name: easter 1
           06-21 since 2001:
             name:
               en: National Indigenous Peoples Day
               fr: Journée nationale des Autochthones
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
+          12-26:
+            _name: 12-26
       NU:
         name: Nunavut
         zones:
@@ -239,10 +299,26 @@ holidays:
           - America/Atikokan
           - America/Cambridge_Bay
         days:
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
+          1st monday in August:
+            name:
+              en: Civic Holiday
+              fr: Premier lundi d’août
           07-09:
             name:
               en: Nunavut Day
             type: bank
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       "ON":
         name: Ontario
@@ -258,8 +334,29 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           easter 1:
             _name: easter 1
+          1st monday in August:
+            name:
+              en: Civic Holiday
+              fr: Premier lundi d’août
+            type: optional
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
+            type: optional
+          # @source https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays
+          12-26:
+            _name: 12-26
           09-30 since 2021: false
       PE:
         name: Prince Edward Island
@@ -275,6 +372,10 @@ holidays:
             name:
               en: Gold Cup Parade Day
               fr: "Défilé de la Coupe d'or"
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
       QC:
@@ -287,9 +388,12 @@ holidays:
           easter -2:
             _name: easter -2
             note: Either Good Friday or Easter Monday, at the employer’s option
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           easter 1:
             _name: easter 1
+            type: optional
             note: Either Good Friday or Easter Monday, at the employer’s option
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           monday before 05-25:
             name:
               en: National Patriots' Day
@@ -298,7 +402,14 @@ holidays:
             name:
               en: National Holiday
               fr: Fête nationale du Québec
-          monday after 08-01: false
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
+          11-11: false
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
+          12-26: false
           09-30 since 2021: false
       SK:
         name: Saskatchewan
@@ -311,9 +422,21 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           1st monday in August:
             name:
               en: Saskatchewan Day
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       YT:
         name: Yukon
@@ -323,10 +446,22 @@ holidays:
         days:
           easter 1:
             _name: easter 1
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           3rd monday in August:
             name:
               en: Discovery Day
               fr: Jour de la Découverte
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           06-21 since 2017:
             name:
               en: National Indigenous Peoples Day

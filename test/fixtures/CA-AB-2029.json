@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2029-04-01 00:00:00",
-    "start": "2029-04-01T06:00:00.000Z",
-    "end": "2029-04-02T06:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2029-04-02 00:00:00",
     "start": "2029-04-02T06:00:00.000Z",
     "end": "2029-04-03T06:00:00.000Z",
@@ -160,14 +151,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2029-12-26 00:00:00",
-    "start": "2029-12-26T07:00:00.000Z",
-    "end": "2029-12-27T07:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Wed"
   }
 ]

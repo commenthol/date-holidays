@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2016-03-27 00:00:00",
-    "start": "2016-03-27T04:00:00.000Z",
-    "end": "2016-03-28T04:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2016-03-28 00:00:00",
     "start": "2016-03-28T04:00:00.000Z",
     "end": "2016-03-29T04:00:00.000Z",
@@ -112,7 +103,7 @@
     "start": "2016-08-01T04:00:00.000Z",
     "end": "2016-08-02T04:00:00.000Z",
     "name": "Civic Holiday",
-    "type": "public",
+    "type": "optional",
     "rule": "1st monday in August",
     "_weekday": "Mon"
   },
@@ -148,7 +139,7 @@
     "start": "2016-11-11T05:00:00.000Z",
     "end": "2016-11-12T05:00:00.000Z",
     "name": "Remembrance Day",
-    "type": "public",
+    "type": "optional",
     "rule": "11-11",
     "_weekday": "Fri"
   },

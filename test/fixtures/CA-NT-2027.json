@@ -45,13 +45,13 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2027-03-28 00:00:00",
-    "start": "2027-03-28T06:00:00.000Z",
-    "end": "2027-03-29T06:00:00.000Z",
-    "name": "Easter Sunday",
+    "date": "2027-03-29 00:00:00",
+    "start": "2027-03-29T06:00:00.000Z",
+    "end": "2027-03-30T06:00:00.000Z",
+    "name": "Easter Monday",
     "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
+    "rule": "easter 1",
+    "_weekday": "Mon"
   },
   {
     "date": "2027-05-09 00:00:00",

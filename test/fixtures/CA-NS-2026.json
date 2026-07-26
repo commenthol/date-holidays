@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2026-04-05 00:00:00",
-    "start": "2026-04-05T03:00:00.000Z",
-    "end": "2026-04-06T03:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2026-05-10 00:00:00",
     "start": "2026-05-10T03:00:00.000Z",
     "end": "2026-05-11T03:00:00.000Z",
@@ -70,15 +61,6 @@
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
-  },
-  {
-    "date": "2026-05-18 00:00:00",
-    "start": "2026-05-18T03:00:00.000Z",
-    "end": "2026-05-19T03:00:00.000Z",
-    "name": "Victoria Day",
-    "type": "public",
-    "rule": "monday before 05-25",
-    "_weekday": "Mon"
   },
   {
     "date": "2026-06-21 00:00:00",
@@ -103,7 +85,7 @@
     "start": "2026-08-03T03:00:00.000Z",
     "end": "2026-08-04T03:00:00.000Z",
     "name": "Natal Day",
-    "type": "public",
+    "type": "optional",
     "rule": "1st monday in August",
     "_weekday": "Mon"
   },
@@ -125,15 +107,6 @@
     "note": "Not a paid statutory holiday in all provinces and territories; Only federally-regulated employers governed by the Canada Labour Code are required to give their employees a paid day off work",
     "rule": "09-30 since 2021",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2026-10-12 00:00:00",
-    "start": "2026-10-12T03:00:00.000Z",
-    "end": "2026-10-13T03:00:00.000Z",
-    "name": "Thanksgiving",
-    "type": "public",
-    "rule": "2nd monday after 10-01",
-    "_weekday": "Mon"
   },
   {
     "date": "2026-10-31 18:00:00",
@@ -161,14 +134,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2026-12-26 00:00:00",
-    "start": "2026-12-26T04:00:00.000Z",
-    "end": "2026-12-27T04:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sat"
   }
 ]

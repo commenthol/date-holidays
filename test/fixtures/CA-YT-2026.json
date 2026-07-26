@@ -45,15 +45,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2026-04-05 00:00:00",
-    "start": "2026-04-05T07:00:00.000Z",
-    "end": "2026-04-06T07:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2026-04-06 00:00:00",
     "start": "2026-04-06T07:00:00.000Z",
     "end": "2026-04-07T07:00:00.000Z",
@@ -106,15 +97,6 @@
     "type": "public",
     "rule": "07-01",
     "_weekday": "Wed"
-  },
-  {
-    "date": "2026-08-03 00:00:00",
-    "start": "2026-08-03T07:00:00.000Z",
-    "end": "2026-08-04T07:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
-    "_weekday": "Mon"
   },
   {
     "date": "2026-08-17 00:00:00",
@@ -179,14 +161,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2026-12-26 00:00:00",
-    "start": "2026-12-26T07:00:00.000Z",
-    "end": "2026-12-27T07:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sat"
   }
 ]

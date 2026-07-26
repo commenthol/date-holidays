@@ -45,15 +45,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2015-04-05 00:00:00",
-    "start": "2015-04-05T04:00:00.000Z",
-    "end": "2015-04-06T04:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-10T04:00:00.000Z",
     "end": "2015-05-11T04:00:00.000Z",
@@ -61,15 +52,6 @@
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
-  },
-  {
-    "date": "2015-05-18 00:00:00",
-    "start": "2015-05-18T04:00:00.000Z",
-    "end": "2015-05-19T04:00:00.000Z",
-    "name": "Victoria Day",
-    "type": "public",
-    "rule": "monday before 05-25",
-    "_weekday": "Mon"
   },
   {
     "date": "2015-06-21 00:00:00",
@@ -90,30 +72,12 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2015-08-03 00:00:00",
-    "start": "2015-08-03T04:00:00.000Z",
-    "end": "2015-08-04T04:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2015-09-07 00:00:00",
     "start": "2015-09-07T04:00:00.000Z",
     "end": "2015-09-08T04:00:00.000Z",
     "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2015-10-12 00:00:00",
-    "start": "2015-10-12T04:00:00.000Z",
-    "end": "2015-10-13T04:00:00.000Z",
-    "name": "Thanksgiving",
-    "type": "public",
-    "rule": "2nd monday after 10-01",
     "_weekday": "Mon"
   },
   {
@@ -126,15 +90,6 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2015-11-11 00:00:00",
-    "start": "2015-11-11T05:00:00.000Z",
-    "end": "2015-11-12T05:00:00.000Z",
-    "name": "Remembrance Day",
-    "type": "public",
-    "rule": "11-11",
-    "_weekday": "Wed"
-  },
-  {
     "date": "2015-12-25 00:00:00",
     "start": "2015-12-25T05:00:00.000Z",
     "end": "2015-12-26T05:00:00.000Z",
@@ -142,14 +97,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2015-12-26 00:00:00",
-    "start": "2015-12-26T05:00:00.000Z",
-    "end": "2015-12-27T05:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sat"
   }
 ]

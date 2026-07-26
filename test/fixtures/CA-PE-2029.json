@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2029-04-01 00:00:00",
-    "start": "2029-04-01T04:00:00.000Z",
-    "end": "2029-04-02T04:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2029-04-02 00:00:00",
     "start": "2029-04-02T04:00:00.000Z",
     "end": "2029-04-03T04:00:00.000Z",
@@ -79,15 +70,6 @@
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
-  },
-  {
-    "date": "2029-05-21 00:00:00",
-    "start": "2029-05-21T04:00:00.000Z",
-    "end": "2029-05-22T04:00:00.000Z",
-    "name": "Victoria Day",
-    "type": "public",
-    "rule": "monday before 05-25",
-    "_weekday": "Mon"
   },
   {
     "date": "2029-06-17 00:00:00",
@@ -108,15 +90,6 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2029-08-06 00:00:00",
-    "start": "2029-08-06T04:00:00.000Z",
-    "end": "2029-08-07T04:00:00.000Z",
-    "name": "Civic Holiday",
-    "type": "public",
-    "rule": "1st monday in August",
-    "_weekday": "Mon"
-  },
-  {
     "date": "2029-08-17 00:00:00",
     "start": "2029-08-17T04:00:00.000Z",
     "end": "2029-08-18T04:00:00.000Z",
@@ -132,15 +105,6 @@
     "name": "Labour Day",
     "type": "public",
     "rule": "1st monday in September",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2029-10-08 00:00:00",
-    "start": "2029-10-08T04:00:00.000Z",
-    "end": "2029-10-09T04:00:00.000Z",
-    "name": "Thanksgiving",
-    "type": "public",
-    "rule": "2nd monday after 10-01",
     "_weekday": "Mon"
   },
   {
@@ -169,14 +133,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Tue"
-  },
-  {
-    "date": "2029-12-26 00:00:00",
-    "start": "2029-12-26T05:00:00.000Z",
-    "end": "2029-12-27T05:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Wed"
   }
 ]

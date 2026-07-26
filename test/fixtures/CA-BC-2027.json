@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2027-03-28 00:00:00",
-    "start": "2027-03-28T07:00:00.000Z",
-    "end": "2027-03-29T07:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2027-05-09 00:00:00",
     "start": "2027-05-09T07:00:00.000Z",
     "end": "2027-05-10T07:00:00.000Z",
@@ -102,7 +93,7 @@
     "date": "2027-08-02 00:00:00",
     "start": "2027-08-02T07:00:00.000Z",
     "end": "2027-08-03T07:00:00.000Z",
-    "name": "Civic Holiday",
+    "name": "British Columbia Day",
     "type": "public",
     "rule": "1st monday in August",
     "_weekday": "Mon"
@@ -161,14 +152,5 @@
     "type": "public",
     "rule": "12-25",
     "_weekday": "Sat"
-  },
-  {
-    "date": "2027-12-26 00:00:00",
-    "start": "2027-12-26T08:00:00.000Z",
-    "end": "2027-12-27T08:00:00.000Z",
-    "name": "Boxing Day",
-    "type": "public",
-    "rule": "12-26",
-    "_weekday": "Sun"
   }
 ]

@@ -54,15 +54,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2025-04-20 00:00:00",
-    "start": "2025-04-20T04:00:00.000Z",
-    "end": "2025-04-21T04:00:00.000Z",
-    "name": "Easter Sunday",
-    "type": "public",
-    "rule": "easter",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2025-04-21 00:00:00",
     "start": "2025-04-21T04:00:00.000Z",
     "end": "2025-04-22T04:00:00.000Z",
@@ -112,7 +103,7 @@
     "start": "2025-08-04T04:00:00.000Z",
     "end": "2025-08-05T04:00:00.000Z",
     "name": "Civic Holiday",
-    "type": "public",
+    "type": "optional",
     "rule": "1st monday in August",
     "_weekday": "Mon"
   },
@@ -148,7 +139,7 @@
     "start": "2025-11-11T05:00:00.000Z",
     "end": "2025-11-12T05:00:00.000Z",
     "name": "Remembrance Day",
-    "type": "public",
+    "type": "optional",
     "rule": "11-11",
     "_weekday": "Tue"
   },
