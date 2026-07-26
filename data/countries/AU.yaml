@@ -311,7 +311,7 @@ holidays:
           1st tuesday in November:
             name:
               en: Melbourne Cup
-		  # @source https://www.vic.gov.au/school-term-dates-and-holidays-victoria
+          # @source https://www.vic.gov.au/school-term-dates-and-holidays-victoria
           "2026-04-03 P17D":
             name:
               en: Term 1 holidays
