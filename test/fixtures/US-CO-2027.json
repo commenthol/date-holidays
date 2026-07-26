@@ -146,6 +146,15 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2027-10-04 00:00:00",
+    "start": "2027-10-04T06:00:00.000Z",
+    "end": "2027-10-05T06:00:00.000Z",
+    "name": "Frances Xavier Cabrini Day",
+    "type": "public",
+    "rule": "1st monday in October",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2027-10-11 00:00:00",
     "start": "2027-10-11T06:00:00.000Z",
     "end": "2027-10-12T06:00:00.000Z",
