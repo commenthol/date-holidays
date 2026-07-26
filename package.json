@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.33.0",
+  "version": "3.34.0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -61,6 +61,7 @@
     "Filip Staffa <fstaffa@cimpress.com>",
     "Florian SALEUR <dev.daedalus@gmail.com>",
     "Francesco Ansanelli <f.ansanelli@solution-g.com>",
+    "g1mn <16727837+g1mn@users.noreply.github.com>",
     "Gabor Borus <gabor.borus@gmail.com>",
     "gborri <giovanni.borri@gmail.com>",
     "Agus Condro <guzzchangx2@gmail.com>",

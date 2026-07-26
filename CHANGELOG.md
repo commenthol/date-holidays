@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.34.0](https://github.com/commenthol/date-holidays/compare/3.33.0...3.34.0) (2026-07-26)
+
+- feat(KR): add substitute holiday (대체공휴일) support [a3270345](https://github.com/commenthol/date-holidays/commit/a3270345d0ffed64e51e928f0dc00b5fb0ffe2b5)
+- feat(US): add Frances Xavier Cabrini Day for Colorado [0ffbfcc1](https://github.com/commenthol/date-holidays/commit/0ffbfcc1ef50fbfd3cced8f4148d9db5cb3f2550)
+- fix(se): normalize names; fix himmelsfärdsdag typo [299db6aa](https://github.com/commenthol/date-holidays/commit/299db6aa33da7625b58df23a42abdd703c609d97)
+- test(ca): refresh holiday fixtures [8971459d](https://github.com/commenthol/date-holidays/commit/8971459de0c8e472cf26220e0bd518a74a3b75f2)
+- fix(ca): scope Thanksgiving by province [6232f7e4](https://github.com/commenthol/date-holidays/commit/6232f7e4727c4d23c86e66067122d1e2463d172b)
+- fix(ca): scope Victoria Day by province [284c321a](https://github.com/commenthol/date-holidays/commit/284c321a24d7728674ac3b482dfaff27a8b94c39)
+- fix(ca): remove national Easter Sunday [bb649d3c](https://github.com/commenthol/date-holidays/commit/bb649d3cd963e58a0e00f8b0083d2ccc10319337)
+- fix(ca): scope Remembrance Day by province [e2ce7b2d](https://github.com/commenthol/date-holidays/commit/e2ce7b2d62e960d12aaf1c5b0a9a3707287a23b8)
+- fix(ca): scope August holiday by province [4900d13e](https://github.com/commenthol/date-holidays/commit/4900d13efec54af1af796256db013f0a3cad272d)
+- fix(ca): scope Boxing Day to ON and NT [cf32e15b](https://github.com/commenthol/date-holidays/commit/cf32e15b2f49c98a119ce3f4232d437c5ab22511)
+- fix(ca): align provincial holiday overrides [d4eee9f2](https://github.com/commenthol/date-holidays/commit/d4eee9f20067382ef2614c6912398a13747f63d0)
+
 ## [3.33.0](https://github.com/commenthol/date-holidays/compare/3.32.0...3.33.0) (2026-07-11)
 
 - fix(BR): fix source for holiday in Espírito Santo [0c83b026](https://github.com/commenthol/date-holidays/commit/0c83b026ebaec5373de1c605f7dfeda4a9b8cb33)
