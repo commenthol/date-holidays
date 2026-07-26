@@ -496,6 +496,14 @@ holidays:
         zones:
           - America/Chicago
         days:
+          # Mardi Gras is state-wide, not just New Orleans: state employees do not
+          # work it (R.S. 1:55 B(1)(a)) and it is a legal holiday in the parishes
+          # listed in R.S. 1:55 A(3) once declared by ordinance, plus in all
+          # municipalities. https://legis.la.gov/Legis/Law.aspx?d=74097
+          easter -47:
+            _name: easter -47
+            name:
+              en: Mardi Gras
           easter -2:
             _name: easter -2
           tuesday after 1st monday in November in even years:
@@ -504,11 +512,6 @@ holidays:
         regions:
           NO:
             name: New Orleans
-            days:
-              easter -47:
-                _name: easter -47
-                name:
-                  en: Mardi Gras
       ME:
         name: Maine
         zones:
