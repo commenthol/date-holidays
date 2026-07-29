@@ -3,7 +3,7 @@
     "date": "2020-01-01 00:00:00",
     "start": "2019-12-31T22:00:00.000Z",
     "end": "2020-01-01T22:00:00.000Z",
-    "name": "Uudenvuodenpäivä",
+    "name": "uudenvuodenpäivä",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Wed"
@@ -12,7 +12,7 @@
     "date": "2020-01-06 00:00:00",
     "start": "2020-01-05T22:00:00.000Z",
     "end": "2020-01-06T22:00:00.000Z",
-    "name": "Loppiainen",
+    "name": "loppiainen",
     "type": "public",
     "rule": "01-06",
     "_weekday": "Mon"
@@ -21,7 +21,7 @@
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-09T21:00:00.000Z",
     "end": "2020-04-10T21:00:00.000Z",
-    "name": "Pitkäperjantai",
+    "name": "pitkäperjantai",
     "type": "public",
     "rule": "easter -2",
     "_weekday": "Fri"
@@ -30,7 +30,7 @@
     "date": "2020-04-12 00:00:00",
     "start": "2020-04-11T21:00:00.000Z",
     "end": "2020-04-12T21:00:00.000Z",
-    "name": "Pääsiäispäivä",
+    "name": "pääsiäispäivä",
     "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
@@ -39,7 +39,7 @@
     "date": "2020-04-13 00:00:00",
     "start": "2020-04-12T21:00:00.000Z",
     "end": "2020-04-13T21:00:00.000Z",
-    "name": "2. pääsiäispäivä",
+    "name": "toinen pääsiäispäivä",
     "type": "public",
     "rule": "easter 1",
     "_weekday": "Mon"
@@ -48,7 +48,7 @@
     "date": "2020-05-01 00:00:00",
     "start": "2020-04-30T21:00:00.000Z",
     "end": "2020-05-01T21:00:00.000Z",
-    "name": "Vappu",
+    "name": "vappu",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Fri"
@@ -66,7 +66,7 @@
     "date": "2020-05-21 00:00:00",
     "start": "2020-05-20T21:00:00.000Z",
     "end": "2020-05-21T21:00:00.000Z",
-    "name": "Helatorstai",
+    "name": "helatorstai",
     "type": "public",
     "rule": "easter 39",
     "_weekday": "Thu"
@@ -75,7 +75,7 @@
     "date": "2020-05-31 00:00:00",
     "start": "2020-05-30T21:00:00.000Z",
     "end": "2020-05-31T21:00:00.000Z",
-    "name": "Helluntaipäivä",
+    "name": "helluntaipäivä",
     "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
@@ -84,7 +84,7 @@
     "date": "2020-06-19 00:00:00",
     "start": "2020-06-18T21:00:00.000Z",
     "end": "2020-06-19T21:00:00.000Z",
-    "name": "Juhannusaatto",
+    "name": "juhannusaatto",
     "type": "bank",
     "rule": "friday after 06-19",
     "_weekday": "Fri"
@@ -93,7 +93,7 @@
     "date": "2020-06-20 00:00:00",
     "start": "2020-06-19T21:00:00.000Z",
     "end": "2020-06-20T21:00:00.000Z",
-    "name": "Juhannuspäivä",
+    "name": "juhannuspäivä",
     "type": "public",
     "rule": "saturday after 06-20",
     "_weekday": "Sat"
@@ -102,7 +102,7 @@
     "date": "2020-10-31 00:00:00",
     "start": "2020-10-30T22:00:00.000Z",
     "end": "2020-10-31T22:00:00.000Z",
-    "name": "Pyhäinpäivä",
+    "name": "pyhäinpäivä",
     "type": "public",
     "rule": "saturday after 10-31",
     "_weekday": "Sat"
@@ -120,7 +120,7 @@
     "date": "2020-12-06 00:00:00",
     "start": "2020-12-05T22:00:00.000Z",
     "end": "2020-12-06T22:00:00.000Z",
-    "name": "Itsenäisyyspäivä",
+    "name": "itsenäisyyspäivä",
     "type": "public",
     "rule": "12-06",
     "_weekday": "Sun"
@@ -129,7 +129,7 @@
     "date": "2020-12-24 00:00:00",
     "start": "2020-12-23T22:00:00.000Z",
     "end": "2020-12-24T22:00:00.000Z",
-    "name": "Jouluaatto",
+    "name": "jouluaatto",
     "type": "bank",
     "rule": "12-24",
     "_weekday": "Thu"
@@ -138,7 +138,7 @@
     "date": "2020-12-25 00:00:00",
     "start": "2020-12-24T22:00:00.000Z",
     "end": "2020-12-25T22:00:00.000Z",
-    "name": "Joulupäivä",
+    "name": "joulupäivä",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Fri"
@@ -147,7 +147,7 @@
     "date": "2020-12-26 00:00:00",
     "start": "2020-12-25T22:00:00.000Z",
     "end": "2020-12-26T22:00:00.000Z",
-    "name": "2. joulupäivä",
+    "name": "tapaninpäivä",
     "type": "public",
     "rule": "12-26",
     "_weekday": "Sat"
