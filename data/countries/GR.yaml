@@ -19,9 +19,7 @@ holidays:
           el: Καθαρά Δευτέρα
           en: Ash Sunday
       03-25:
-        name:
-          el: Ευαγγελισμός, Εθνική Εορτή
-          en: Annunciation, Anniversary of 1821 Revolution
+        _name: 03-25
       orthodox -2:
         _name: easter -2
       orthodox:

@@ -24,9 +24,7 @@ holidays:
           el: Καθαρά Δευτέρα
           en: Clean Monday
       03-25:
-        name:
-          el: Ευαγγελισμός, Εθνική Εορτή
-          en: Annunciation, Anniversary of 1821 Revolution
+        _name: 03-25
       04-01:
         name:
           en: Cyprus National Day
