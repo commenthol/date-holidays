@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.34.1](https://github.com/commenthol/date-holidays/compare/3.34.0...3.34.1) (2026-08-02)
+
+- fix(FI): change attribution to source [1c3e8a94](https://github.com/commenthol/date-holidays/commit/1c3e8a947480cee0ee117383775c5b7bb18c3c1b)
+- fix(fi): use official Finnish holiday names [35577e6c](https://github.com/commenthol/date-holidays/commit/35577e6c15f3064d12943216b9bf941370def9d3)
+- fix(no): use consistent capitalization for Christmas holidays [5e2da902](https://github.com/commenthol/date-holidays/commit/5e2da902e34e6cdb5adce3808b70dbb6b7c530ac)
+- fix(US): Mardi Gras is a Louisiana state holiday, not New Orleans only [bc609d3b](https://github.com/commenthol/date-holidays/commit/bc609d3b27aa86db8357871241f3cebcae4c2030)
+
 ## [3.34.0](https://github.com/commenthol/date-holidays/compare/3.33.0...3.34.0) (2026-07-26)
 
 - feat(KR): add substitute holiday (대체공휴일) support [a3270345](https://github.com/commenthol/date-holidays/commit/a3270345d0ffed64e51e928f0dc00b5fb0ffe2b5)
