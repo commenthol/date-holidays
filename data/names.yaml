@@ -24,7 +24,7 @@ names:
       el: Πρωτοχρονιά
       es: Año Nuevo
       et: uusaasta
-      fi: Uudenvuodenpäivä
+      fi: uudenvuodenpäivä
       fil: Araw ng Bagong Taon
       fo: Nýggjársdagur
       # fr: Jour de l'An
@@ -76,7 +76,7 @@ names:
       es: Día de los Reyes Magos
       # es: Epifanía del Señor
       et: kolmekuningapäev
-      fi: Loppiainen
+      fi: loppiainen
       fr: l'Épiphanie
       el: Θεοφάνεια
       hr: Bogojavljenje, Sveta tri kralja
@@ -171,7 +171,7 @@ names:
       el: Εργατική Πρωτομαγιά
       es: Día del Trabajador
       et: kevadpüha
-      fi: Vappu
+      fi: vappu
       fil: Araw ng mga Manggagawa
       fr: Fête du travail
       hr: Praznik rada
@@ -269,7 +269,7 @@ names:
       bs: Dita e të gjithë Shenjtorëve
       de: Allerheiligen
       es: Todos los Santos
-      fi: Pyhäinpäivä
+      fi: pyhäinpäivä
       fil: Undás; Todos los Santos; Araw ng mga Santo
       fr: Toussaint
       hr: Svi sveti
@@ -356,7 +356,7 @@ names:
       es: Nochebuena
       et: jõululaupäev
       fo: Jólaaftan
-      fi: Jouluaatto
+      fi: jouluaatto
       fil: Bisperas ng Pasko
       fr: Veille de Noël
       hr: Badnji dan
@@ -393,7 +393,7 @@ names:
       el: Χριστούγεννα
       es: Navidad
       et: esimene jõulupüha
-      fi: Joulupäivä
+      fi: joulupäivä
       fil: Araw ng Pasko
       fo: Fyrsti jóladagur
       fr: Noël
@@ -442,7 +442,7 @@ names:
       el: Δεύτερη μέρα των Χριστουγέννων
       es: San Esteban
       et: teine jõulupüha
-      fi: 2. joulupäivä
+      fi: tapaninpäivä
       fo: Fyrsti gerandisdagur eftir jóladag
       fr: Lendemain de Noël
       # fr: Saint Etienne
@@ -570,7 +570,7 @@ names:
       da: Langfredag
       de: Karfreitag
       es: Viernes Santo
-      fi: Pitkäperjantai
+      fi: pitkäperjantai
       fil: Biyernes Santo
       fo: Langafríggjadagur
       fr: Vendredi saint
@@ -632,7 +632,7 @@ names:
       el: Πάσχα
       es: Pascua
       et: lihavõtted
-      fi: Pääsiäispäivä
+      fi: pääsiäispäivä
       fil: Pasko ng Pagkabuhay
       fo: Páskadagur
       fr: Pâques
@@ -669,7 +669,7 @@ names:
       de: Ostermontag
       el: Δευτέρα του Πάσχα
       es: Lunes de Pascua
-      fi: 2. pääsiäispäivä
+      fi: toinen pääsiäispäivä
       fo: Annar páskadagur
       fr: Lundi de Pâques
       ge: აღდგომის ორშაბათი
@@ -701,7 +701,7 @@ names:
       da: Kristi Himmelfartsdag
       de: Christi Himmelfahrt
       es: La Asunción
-      fi: Helatorstai
+      fi: helatorstai
       fo: Kristi Himmalsferðardagur
       fr: Ascension
       id: Kenaikan Yesus Kristus
@@ -724,7 +724,7 @@ names:
       el: Πεντηκοστή
       es: Pentecostés
       et: nelipühade 1. püha
-      fi: Helluntaipäivä
+      fi: helluntaipäivä
       fo: Hvítusunnudagur
       fr: Pentecôte
       hu: Pünkösdvasárnap
@@ -1066,7 +1066,7 @@ names:
       de: Unabhängigkeitstag
       es: Día de la Independencia
       et: iseseisvuspäev
-      fi: Itsenäisyyspäivä
+      fi: itsenäisyyspäivä
       fil: Araw ng Kalayaan
       fr: Jour de l'Indépendance
       hr: Dan neovisnosti
@@ -1081,7 +1081,7 @@ names:
       ro: Ziua Independentei
       sq: Dita e Pavarësisë
       sr: Дан независности
-      sv: Självständighetsdagen
+      sv: självständighetsdagen
       sw: Siku ya uhuru
       ti: መዓልቲ ናጽነት
       uk: День Незалежності
