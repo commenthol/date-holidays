@@ -75,7 +75,7 @@
     "date": "2025-08-07 00:00:00",
     "start": "2025-08-07T00:00:00.000Z",
     "end": "2025-08-08T00:00:00.000Z",
-    "name": "Jour de l'Indépendance",
+    "name": "Jour de l’Indépendance",
     "type": "public",
     "rule": "08-07 since 1960",
     "_weekday": "Thu"
