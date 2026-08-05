@@ -45,6 +45,16 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2026-06-07 00:00:00",
+    "start": "2026-06-07T05:00:00.000Z",
+    "end": "2026-06-08T05:00:00.000Z",
+    "name": "Batalla de Arica y Día de la Bandera",
+    "type": "public",
+    "note": "Established as a national holiday by Ley 31788 (2023); first observed in 2024",
+    "rule": "06-07 since 2024",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2026-06-29 00:00:00",
     "start": "2026-06-29T05:00:00.000Z",
     "end": "2026-06-30T05:00:00.000Z",
@@ -52,6 +62,16 @@
     "type": "public",
     "rule": "06-29",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2026-07-23 00:00:00",
+    "start": "2026-07-23T05:00:00.000Z",
+    "end": "2026-07-24T05:00:00.000Z",
+    "name": "Día de la Fuerza Aérea del Perú",
+    "type": "public",
+    "note": "Established as a national holiday by Ley 31822 (2023)",
+    "rule": "07-23 since 2023",
+    "_weekday": "Thu"
   },
   {
     "date": "2026-07-28 00:00:00",
@@ -70,6 +90,16 @@
     "type": "public",
     "rule": "07-29",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2026-08-06 00:00:00",
+    "start": "2026-08-06T05:00:00.000Z",
+    "end": "2026-08-07T05:00:00.000Z",
+    "name": "Batalla de Junín",
+    "type": "public",
+    "note": "Established as a national holiday by Ley 31530 (2022)",
+    "rule": "08-06 since 2022",
+    "_weekday": "Thu"
   },
   {
     "date": "2026-08-30 00:00:00",
@@ -106,6 +136,16 @@
     "type": "public",
     "rule": "12-08",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2026-12-09 00:00:00",
+    "start": "2026-12-09T05:00:00.000Z",
+    "end": "2026-12-10T05:00:00.000Z",
+    "name": "Batalla de Ayacucho",
+    "type": "public",
+    "note": "Established as a national holiday by Ley 31381 (2021); first observed in 2022",
+    "rule": "12-09 since 2022",
+    "_weekday": "Wed"
   },
   {
     "date": "2026-12-25 00:00:00",
