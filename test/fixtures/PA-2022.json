@@ -83,6 +83,24 @@
     "_weekday": "Thu"
   },
   {
+    "date": "2022-11-04 00:00:00",
+    "start": "2022-11-04T05:00:00.000Z",
+    "end": "2022-11-05T05:00:00.000Z",
+    "name": "Día de la Bandera",
+    "type": "observance",
+    "rule": "11-04",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-11-05 00:00:00",
+    "start": "2022-11-05T05:00:00.000Z",
+    "end": "2022-11-06T05:00:00.000Z",
+    "name": "Día de Colón",
+    "type": "public",
+    "rule": "11-05 and if sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2022-11-10 00:00:00",
     "start": "2022-11-10T05:00:00.000Z",
     "end": "2022-11-11T05:00:00.000Z",
@@ -108,6 +126,15 @@
     "type": "public",
     "rule": "12-08 and if sunday then next monday",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-20 00:00:00",
+    "start": "2022-12-20T05:00:00.000Z",
+    "end": "2022-12-21T05:00:00.000Z",
+    "name": "Día de Duelo Nacional",
+    "type": "public",
+    "rule": "12-20 and if sunday then next monday",
+    "_weekday": "Tue"
   },
   {
     "date": "2022-12-25 00:00:00",

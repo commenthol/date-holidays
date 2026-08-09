@@ -2,6 +2,7 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Panama
   # @attrib https://es.wikipedia.org/wiki/Anexo:Festividades_y_celebraciones#Panam.C3.A1
   # @source http://www.legalinfo-panama.com/legislacion/laboral/codtrabA1.pdf
+  # @source https://www.organojudicial.gob.pa/cendoj/documentacion-cendoj/ordenamiento-juridico/area-jurisdiccional/contencioso-administrativo/otras-leyes/ley-291-de-2022-que-adopta-medidas-de-concientizacion-nacional-sobre-el-20-de-diciembre-de-1989
   PA:
     names:
       es: Panamá
@@ -38,6 +39,16 @@ holidays:
         name:
           en: Separation Day (from Columbia)
           es: Día de la Separación (de Colombia)
+      11-04:
+        name:
+          en: Flag Day
+          es: Día de la Bandera
+        type: observance
+      11-05 and if sunday then next monday:
+        substitute: true
+        name:
+          en: Colón Day
+          es: Día de Colón
       11-10 and if sunday then next monday:
         substitute: true
         name:
@@ -48,6 +59,13 @@ holidays:
       12-08 and if sunday then next monday:
         substitute: true
         _name: Mothers Day
+      12-20 and if sunday then next monday:
+        substitute: true
+        active:
+          - from: "2022-03-31"
+        name:
+          en: National Mourning Day
+          es: Día de Duelo Nacional
       12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25
