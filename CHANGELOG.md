@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.35.0](https://github.com/commenthol/date-holidays/compare/3.34.1...3.35.0) (2026-08-14)
+
+- fix(IT): align holiday names with official sources [0c83bc5d](https://github.com/commenthol/date-holidays/commit/0c83bc5dea3bfae5fb853b8effd649a22fe2ea1a)
+- fix(FR): normalize French holiday apostrophes [cf521a8c](https://github.com/commenthol/date-holidays/commit/cf521a8cf2f36db09f0947e30f6f39ee74d9aeab)
+- feat(PA): add Colón Day, National Mourning Day and Flag Day [8eba12bd](https://github.com/commenthol/date-holidays/commit/8eba12bdb6557fbb494c2718b5c7c80fb5e6ef77)
+- feat(PE): add 4 missing national holidays [d7011c3e](https://github.com/commenthol/date-holidays/commit/d7011c3e91ad2a7e27da344a9f2de5d28e0619c9)
+- feat(AU-VIC): added Victorian School holidays for 2026 [363e0e4e](https://github.com/commenthol/date-holidays/commit/363e0e4e5b5d96a1a4f3a29951ef2bd9c2053d6c)
+
 ## [3.34.1](https://github.com/commenthol/date-holidays/compare/3.34.0...3.34.1) (2026-08-02)
 
 - fix(FI): change attribution to source [1c3e8a94](https://github.com/commenthol/date-holidays/commit/1c3e8a947480cee0ee117383775c5b7bb18c3c1b)
