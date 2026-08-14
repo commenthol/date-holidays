@@ -21,12 +21,30 @@ holidays:
         _name: easter
       05-01:
         _name: 05-01
+      # @source https://busquedas.elperuano.pe/dispositivo/NL/2187453-1
+      06-07 since 2024:
+        name:
+          en: Battle of Arica and Flag Day
+          es: Batalla de Arica y Día de la Bandera
+        note: Established as a national holiday by Ley 31788 (2023); first observed in 2024
       06-29:
         _name: 06-29
+      # @source https://busquedas.elperuano.pe/dispositivo/NL/2194316-1
+      07-23 since 2023:
+        name:
+          en: Peruvian Air Force Day
+          es: Día de la Fuerza Aérea del Perú
+        note: Established as a national holiday by Ley 31822 (2023)
       07-28:
         _name: Independence Day
       07-29:
         _name: Independence Day
+      # @source https://busquedas.elperuano.pe/dispositivo/NL/2089960-2
+      08-06 since 2022:
+        name:
+          en: Battle of Junín
+          es: Batalla de Junín
+        note: Established as a national holiday by Ley 31530 (2022)
       08-30:
         name:
           en: Santa Rosa de Lima
@@ -39,6 +57,12 @@ holidays:
         _name: 11-01
       12-08:
         _name: 12-08
+      # @source https://busquedas.elperuano.pe/dispositivo/NL/2026913-1
+      12-09 since 2022:
+        name:
+          en: Battle of Ayacucho
+          es: Batalla de Ayacucho
+        note: Established as a national holiday by Ley 31381 (2021); first observed in 2022
       12-25:
         _name: 12-25
     regions:
