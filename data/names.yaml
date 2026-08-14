@@ -81,8 +81,7 @@ names:
       el: Θεοφάνεια
       hr: Bogojavljenje, Sveta tri kralja
       hu: Vízkereszt
-      it: Befana
-      # it: Epifania
+      it: Epifania
       is: Þrettándinn
       lb: Dräikinneksdag
       nl: Driekoningen
@@ -178,7 +177,7 @@ names:
       hu: A munka ünnepe
       hy: Աշխատանքի օր
       id: Hari Buruh Internasional
-      it: Festa del Lavoro
+      it: Festa del lavoro
       is: Hátíðisdagur Verkamanna
       lb: Éischte Mee
       lt: Tarptautinė darbo diena
@@ -249,8 +248,7 @@ names:
       fr: Assomption
       el: Κοίμηση της Θεοτόκου
       hr: Velika Gospa
-      it: Ferragosto
-      # it: Assunzione di Maria Virgine
+      it: Assunzione di Maria
       lb: Léiffrawëschdag
       lt: Žolinė
       mg: Asompsiona
@@ -401,7 +399,7 @@ names:
       hu: Karácsony
       hy: Սուրբ Ծնունդ
       id: Hari Raya Natal
-      it: Natale
+      it: Natale di Gesù
       is: Jóladagur
       jp: クリスマス
       kl: juullerujussuaq
