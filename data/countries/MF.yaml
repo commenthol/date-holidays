@@ -13,6 +13,4 @@ holidays:
     _days: FR
     days:
       05-27:
-        name:
-          fr: Abolition de l'esclavage
-          en: abolition of slavery
+        _name: Abolition of Slavery

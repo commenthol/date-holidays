@@ -48,7 +48,7 @@
     "date": "2023-06-27 00:00:00",
     "start": "2023-06-26T21:00:00.000Z",
     "end": "2023-06-27T21:00:00.000Z",
-    "name": "Jour de l'Indépendance",
+    "name": "Jour de l’Indépendance",
     "type": "public",
     "rule": "06-27 since 1977",
     "_weekday": "Tue"
