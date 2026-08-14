@@ -311,6 +311,31 @@ holidays:
           1st tuesday in November:
             name:
               en: Melbourne Cup
+          # @source https://www.vic.gov.au/school-term-dates-and-holidays-victoria
+          "2026-04-03 P17D":
+            name:
+              en: Term 1 holidays
+            active:
+              - from: "2026-01-01"
+            type: school
+          "2026-06-27 P17D":
+            name:
+              en: Term 2 holidays
+            active:
+              - from: "2026-01-01"
+            type: school
+          "2026-09-19 P17D":
+            name:
+              en: Term 3 holidays
+            active:
+              - from: "2026-01-01"
+            type: school
+          "2026-12-19 P40D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2026-01-01"
+            type: school
       # @source https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a639.html
       # @source https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147326.html
       WA:
