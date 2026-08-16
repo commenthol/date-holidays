@@ -1,5 +1,6 @@
 holidays:
-  # @source http://www.mic.gov.to/news-today/press-releases/7066-tonga-public-holidays-for-2018-
+  # @source https://pmo.gov.to/tonga-public-holidays-for-2026/
+  # @attrib https://en.wikipedia.org/wiki/Culture_of_Tonga#Public_holidays
   TO:
     names:
       to: Puleʻanga Fakatuʻi ʻo Tonga
@@ -26,16 +27,16 @@ holidays:
       07-04:
         name:
           en: Official Birthday of His Majesty King Tupou VI
-      09-17 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
+      09-17:
         name:
           en: Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala
-      11-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
+      11-04 if thursday,friday,saturday,sunday then next monday if tuesday,wednesday then previous monday:
         _name: Constitution Day
         name:
           en: Constitutional Day
       12-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday:
         name:
-          en: Tupou I Day
+          en: Anniversary of the Coronation of H.M. King George Tupou I
       12-25:
         _name: 12-25
       12-26:

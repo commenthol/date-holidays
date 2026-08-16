@@ -59,7 +59,7 @@
     "end": "2029-09-17T11:00:00.000Z",
     "name": "Birthday of His Royal Highness The Crown Prince Tupotoʻa-ʻUlukalala",
     "type": "public",
-    "rule": "09-17 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
+    "rule": "09-17",
     "_weekday": "Mon"
   },
   {
@@ -68,14 +68,14 @@
     "end": "2029-11-05T11:00:00.000Z",
     "name": "Constitutional Day",
     "type": "public",
-    "rule": "11-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
+    "rule": "11-04 if thursday,friday,saturday,sunday then next monday if tuesday,wednesday then previous monday",
     "_weekday": "Mon"
   },
   {
     "date": "2029-12-03 00:00:00",
     "start": "2029-12-02T11:00:00.000Z",
     "end": "2029-12-03T11:00:00.000Z",
-    "name": "Tupou I Day",
+    "name": "Anniversary of the Coronation of H.M. King George Tupou I",
     "type": "public",
     "rule": "12-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Mon"
@@ -84,7 +84,7 @@
     "date": "2029-12-04 00:00:00",
     "start": "2029-12-03T11:00:00.000Z",
     "end": "2029-12-04T11:00:00.000Z",
-    "name": "Tupou I Day",
+    "name": "Anniversary of the Coronation of H.M. King George Tupou I",
     "type": "public",
     "rule": "12-04 if thursday,friday,saturday,sunday then next monday and if tuesday then previous monday",
     "_weekday": "Tue"
