@@ -189,7 +189,7 @@ holidays:
             # @source: https://www.statistik.bayern.de/statistik/gebiet_bevoelkerung/zensus/
             # @source: https://www.br.de/nachrichten/bayern/mariae-himmelfahrt-wo-heuer-feiertag-ist-und-wo-nicht,VSGOlgV
             _days:
-              - DEhttps://www.stmi.bayern.de/staat-und-verfassung/feiertage/
+              - DE
               - states
               - BY
               - regions
