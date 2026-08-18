@@ -21,7 +21,7 @@
     "date": "2020-04-10 00:00:00",
     "start": "2020-04-09T22:00:00.000Z",
     "end": "2020-04-10T22:00:00.000Z",
-    "name": "Veľkonočný piatok",
+    "name": "Veľký piatok",
     "type": "public",
     "rule": "easter -2",
     "_weekday": "Fri"
