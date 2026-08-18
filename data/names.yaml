@@ -54,7 +54,7 @@ names:
       pt: Ano Novo
       ro: Anul nou
       ru: Новый год
-      sl: Novo leto
+      sl: novo leto
       sq: Viti i Ri
       sr: Нова година
       sv: nyårsdagen
@@ -193,7 +193,7 @@ names:
       pt: Dia do trabalhador
       ro: Ziua muncii
       sk: Sviatok práce
-      sl: Praznik dela
+      sl: praznik dela
       sq: Dita Ndërkombëtare e Punonjësve
       sr: Празник рада
       sv: första maj
@@ -419,7 +419,7 @@ names:
       ro: Crăciunul
       ru: Рождество Христово
       sk: Prvý sviatok vianočný
-      sl: Božič
+      sl: božič
       sq: Krishtlindja
       sr: Католички Божић
       sv: juldagen
@@ -650,7 +650,7 @@ names:
       pt: Páscoa
       ro: Paștele
       sk: Veľká noc
-      sl: Velika noč
+      sl: velikonočna nedelja
       sq: Pashkët Katolike
       sr: Католички Васкрс
       sv: påskdagen
@@ -687,7 +687,7 @@ names:
       pl: Drugi dzień Wielkanocy
       ro: A doua zi de Pasti
       sk: Veľkonočný pondelok
-      sl: Velikonočni ponedeljek
+      sl: velikonočni ponedeljek
       sr: Католички Васкрсни понедељак
       sv: annandag påsk
       sw: Jumatatu ya Pasaka
@@ -735,7 +735,7 @@ names:
       mk: Духовден
       pl: Zielone Świątki
       ro: Rusaliile
-      sl: Binkošti
+      sl: binkošti
       sv: pingstdagen
       uk: Трійця
       vi: Lễ Chúa Thánh Thần Hiện Xuống
