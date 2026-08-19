@@ -12,7 +12,7 @@
     "date": "2027-01-05 12:00:00",
     "start": "2027-01-05T11:00:00.000Z",
     "end": "2027-01-05T23:00:00.000Z",
-    "name": "Trettondagsafton",
+    "name": "trettondagsafton",
     "type": "optional",
     "rule": "01-05 12:00",
     "_weekday": "Tue"
@@ -30,7 +30,7 @@
     "date": "2027-01-13 00:00:00",
     "start": "2027-01-12T23:00:00.000Z",
     "end": "2027-01-13T23:00:00.000Z",
-    "name": "Tjugondag Knut",
+    "name": "tjugondag Knut",
     "type": "observance",
     "rule": "01-13",
     "_weekday": "Wed"
@@ -48,7 +48,7 @@
     "date": "2027-03-25 00:00:00",
     "start": "2027-03-24T23:00:00.000Z",
     "end": "2027-03-25T23:00:00.000Z",
-    "name": "Skärtorsdagen",
+    "name": "skärtorsdagen",
     "type": "observance",
     "rule": "easter -3",
     "_weekday": "Thu"
@@ -66,7 +66,7 @@
     "date": "2027-03-27 00:00:00",
     "start": "2027-03-26T23:00:00.000Z",
     "end": "2027-03-27T23:00:00.000Z",
-    "name": "Påskafton",
+    "name": "påskafton",
     "type": "observance",
     "rule": "easter -1",
     "_weekday": "Sat"
@@ -93,7 +93,7 @@
     "date": "2027-04-30 12:00:00",
     "start": "2027-04-30T10:00:00.000Z",
     "end": "2027-04-30T22:00:00.000Z",
-    "name": "Valborgsmässoafton",
+    "name": "valborgsmässoafton",
     "type": "optional",
     "rule": "04-30 12:00",
     "_weekday": "Fri"
@@ -120,7 +120,7 @@
     "date": "2027-05-15 00:00:00",
     "start": "2027-05-14T22:00:00.000Z",
     "end": "2027-05-15T22:00:00.000Z",
-    "name": "Pingstafton",
+    "name": "pingstafton",
     "type": "observance",
     "rule": "easter 48",
     "_weekday": "Sat"
@@ -138,7 +138,7 @@
     "date": "2027-05-17 00:00:00",
     "start": "2027-05-16T22:00:00.000Z",
     "end": "2027-05-17T22:00:00.000Z",
-    "name": "Annandag pingst",
+    "name": "annandag pingst",
     "type": "observance",
     "rule": "easter 50",
     "_weekday": "Mon"
@@ -165,7 +165,7 @@
     "date": "2027-06-25 00:00:00",
     "start": "2027-06-24T22:00:00.000Z",
     "end": "2027-06-25T22:00:00.000Z",
-    "name": "Midsommarafton",
+    "name": "midsommarafton",
     "type": "bank",
     "rule": "friday after 06-19",
     "_weekday": "Fri"
@@ -174,7 +174,7 @@
     "date": "2027-06-26 00:00:00",
     "start": "2027-06-25T22:00:00.000Z",
     "end": "2027-06-26T22:00:00.000Z",
-    "name": "Midsommardagen",
+    "name": "midsommardagen",
     "type": "public",
     "rule": "saturday after 06-20",
     "_weekday": "Sat"
@@ -183,7 +183,7 @@
     "date": "2027-11-05 12:00:00",
     "start": "2027-11-05T11:00:00.000Z",
     "end": "2027-11-05T23:00:00.000Z",
-    "name": "Allhelgonaafton",
+    "name": "allhelgonaafton",
     "type": "optional",
     "rule": "friday after 10-30 12:00",
     "_weekday": "Fri"
@@ -237,7 +237,7 @@
     "date": "2027-12-24 00:00:00",
     "start": "2027-12-23T23:00:00.000Z",
     "end": "2027-12-24T23:00:00.000Z",
-    "name": "Julafton",
+    "name": "julafton",
     "type": "bank",
     "rule": "12-24",
     "_weekday": "Fri"
@@ -264,7 +264,7 @@
     "date": "2027-12-31 00:00:00",
     "start": "2027-12-30T23:00:00.000Z",
     "end": "2027-12-31T23:00:00.000Z",
-    "name": "Nyårsafton",
+    "name": "nyårsafton",
     "type": "bank",
     "rule": "12-31",
     "_weekday": "Fri"
