@@ -1,4 +1,6 @@
-# @source http://www.sparhallen.ax/oppettider
+# @source https://almanakka.helsinki.fi/sv/flagg-och-festdagar
+# @source https://www.regeringen.ax/alandsk-lagstiftning/alex/199241
+# @attrib https://sv.wikipedia.org/wiki/Flaggdagar_i_Finland
 holidays:
   AX:
     names:
@@ -18,6 +20,12 @@ holidays:
         name:
           sv: Ålands demilitariseringsdag
           en: Demilitarization Day
+        type: observance
+      sunday before May:
+        name:
+          sv: Ålands flaggas dag
+          en: Åland Flag Day
+        type: observance
       easter -2:
         _name: easter -2
       easter:
@@ -34,16 +42,17 @@ holidays:
         type: observance
       06-09:
         name:
-          sv: Självstyrelsedagen
+          sv: Ålands självstyrelsedag
           en: Autonomy Day
+        type: observance
       friday after 06-19:
         name:
-          sv: Midsommarafton
+          sv: midsommarafton
           en: Midsummer Eve
         type: bank
       saturday after 06-20:
         name:
-          sv: Midsommardagen
+          sv: midsommardagen
           en: Midsummer Day
       12-06:
         _name: Independence Day
