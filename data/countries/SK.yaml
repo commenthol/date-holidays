@@ -1,5 +1,6 @@
 # @source https://nbs.sk/o-narodnej-banke/sviatky-v-sr/
-# @attrib https://cs.wikipedia.org/wiki/St%C3%A1tn%C3%AD_sv%C3%A1tky_Slovenska
+# @source https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/1993/241
+# @attrib https://sk.wikipedia.org/wiki/Zoznam_sviatkov_na_Slovensku
 holidays:
   SK:
     names:
@@ -21,6 +22,7 @@ holidays:
         _name: easter -2
       easter:
         _name: easter
+        type: observance
       easter 1:
         _name: easter 1
       05-01:
