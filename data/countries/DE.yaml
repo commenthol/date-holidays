@@ -185,6 +185,15 @@ holidays:
         regions:
           A:
             name: Stadt Augsburg
+            # @source: https://www.stmi.bayern.de/staat-und-verfassung/feiertage/
+            # @source: https://www.statistik.bayern.de/statistik/gebiet_bevoelkerung/zensus/
+            # @source: https://www.br.de/nachrichten/bayern/mariae-himmelfahrt-wo-heuer-feiertag-ist-und-wo-nicht,VSGOlgV
+            _days:
+              - DE
+              - states
+              - BY
+              - regions
+              - KATH
             days:
               08-08:
                 name:
