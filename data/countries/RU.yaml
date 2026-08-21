@@ -1,7 +1,9 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Russia
   # @attrib https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8
-  # @source http://government.ru/docs/43282/
+  # @source https://www.consultant.ru/document/cons_doc_LAW_34683/
+  # @note ConsultantPlus provides the current legal basis in Article 112 of the
+  # Labour Code.
   RU:
     names:
       ru: Россия
@@ -51,19 +53,556 @@ holidays:
           en: Defender of the Fatherland Day
       03-08 and if sunday then next monday:
         _name: 03-08
+      "2022-03-07":
+        # @source http://government.ru/docs/43282/
+        name:
+          ru: Выходной день (перенос с 5 марта)
+          en: Day off (transferred from March 5)
       05-01:
         name:
           ru: День весны и труда
           en: Spring and Labour Day
+      "2022-05-02":
+        # @source http://government.ru/docs/43282/
+        name:
+          ru: Выходной день (перенос с 1 мая)
+          en: Day off (transferred from May 1)
+      "2022-05-03":
+        # @source http://government.ru/docs/43282/
+        name:
+          ru: Выходной день (перенос с 1 января)
+          en: Day off (transferred from January 1)
       05-09:
         name:
           ru: День Победы
           en: Victory Day
+      "2022-05-10":
+        # @source http://government.ru/docs/43282/
+        name:
+          ru: Выходной день (перенос с 2 января)
+          en: Day off (transferred from January 2)
       06-12:
         name:
           ru: День России
           en: Russia Day
+      "2022-06-13":
+        # @source http://government.ru/docs/43282/
+        name:
+          ru: Выходной день (перенос с 12 июня)
+          en: Day off (transferred from June 12)
       11-04:
         name:
           ru: День народного единства
           en: Unity Day
+    states:
+      AD:
+        # @source https://base.garant.ru/32301928/
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/9f7de563bfb8fdaee26bb9dce54c3a5a8edc603b/
+        # @note Law No. 168-1 of 1995, Articles 1, 2 and 4. The date of Uraza-Bayram
+        # is set annually by the Head of the Republic of Adygea and is represented
+        # here using the 1 Shawwal calendar rule.
+        names:
+          ru: Республика Адыгея
+          en: Republic of Adygea
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          orthodox 9:
+            name:
+              ru: День поминовения усопших (Радоница)
+              en: Day of Remembrance of the Departed (Radonitsa)
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          10-05:
+            name:
+              ru: День образования Республики Адыгея
+              en: Republic of Adygea Formation Day
+      AL:
+        names:
+          ru: Республика Алтай
+          en: Altai Republic
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/606b4fbbb3b203f14dfd290e5f978234091779ff/
+        # @note Law of the Altai Republic No. 11-11 of 24 April 2003. Chaga-Bairam
+        # is set annually and is therefore not represented as a fixed date here.
+        days:
+          07-03:
+            name:
+              ru: День образования Республики Алтай
+              en: Day of the Formation of the Altai Republic
+      BA:
+        names:
+          ru: Республика Башкортостан
+          en: Republic of Bashkortostan
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/65a1445987c15580f01d25ab58cf04524a8ad03b/
+        # @note Law No. ВС-10/21, Article 1. The dates of Uraza-Bayram and
+        # Kurban-Bayram are announced annually by the Government of Bashkortostan.
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          10-11:
+            name:
+              ru: День Республики Башкортостан
+              en: Republic of Bashkortostan Day
+      BEL:
+        names:
+          ru: Белгородская область
+          en: Belgorod Oblast
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/c9f3f25be7f3fffd95f1628bec8ce84128889d4a/
+        days:
+          07-12:
+            name:
+              ru: День Прохоровского поля - Третьего ратного поля России
+              en: Prokhorovka Field Day - Russia's Third Military Field
+      BRY:
+        names:
+          ru: Брянская область
+          en: Bryansk Oblast
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/e539bb6764bd7582d3053b323b985445bd34cd6d/
+        days:
+          "2026-04-21":
+            name:
+              ru: Радоница - день особого поминовения усопших
+              en: Radonitsa - Day of Special Remembrance of the Departed
+      BU:
+        names:
+          ru: Республика Бурятия
+          en: Republic of Buryatia
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/c7213c4d4c1e5017a2f4c7c9e8913458d5b3ab06/
+        # @note Sagaalgan is announced annually. The 2026 date is recorded as
+        # a one-time entry and must be updated when the next decree is issued.
+        days:
+          "2026-02-18":
+            name:
+              ru: Праздник Белого месяца «Сагаалган»
+              en: White Month Festival (Sagaalgan)
+      CE:
+        names:
+          ru: Чеченская Республика
+          en: Chechen Republic
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/9de9015cf717b99f52f397d169b86017e8d255a1/
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          03-23:
+            name:
+              ru: День Конституции Чеченской Республики
+              en: Constitution Day of the Chechen Republic
+          04-16:
+            name:
+              ru: День мира в Чеченской Республике
+              en: Peace Day in the Chechen Republic
+      CR:
+        names:
+          ru: Республика Крым
+          en: Republic of Crimea
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/4f5d66b33cb89bfdb0348b8c51c3657e1abb69da/
+        # @note ConsultantPlus lists the fixed reunification day; other holidays
+        # in the regional overview are announced annually.
+        days:
+          03-18:
+            name:
+              ru: День воссоединения Крыма с Россией
+              en: Day of the Reunification of Crimea with Russia
+          orthodox 1:
+            name:
+              ru: Светлое Христово Воскресение (Пасха)
+              en: Orthodox Easter
+          orthodox 50:
+            name:
+              ru: День Святой Троицы
+              en: Trinity Sunday
+          1 Shawwal:
+            name:
+              ru: Ораза-байрам
+              en: Uraza-Bayram
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+      CU:
+        names:
+          ru: Чувашская Республика
+          en: Chuvash Republic
+        # @source https://base.garant.ru/17575596/
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/59db596602e0803ee37fffd65fa687928c2985c7/
+        # @note Law of the Chuvash Republic No. 4 of 4 May 2000 on the state holiday
+        # of the Chuvash Republic.
+        days:
+          06-24:
+            name:
+              ru: День Чувашской Республики
+              en: Day of the Chuvash Republic
+      DA:
+        names:
+          ru: Республика Дагестан
+          en: Republic of Dagestan
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/8845347f87b354f7c48fac94e39cb599bfe900ed/
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          orthodox 1:
+            name:
+              ru: Светлое Христово Воскресение (Пасха)
+              en: Orthodox Easter
+          orthodox 9:
+            name:
+              ru: День особого поминовения усопших - Радоница
+              en: Day of Special Remembrance of the Departed (Radonitsa)
+          07-26:
+            name:
+              ru: День Конституции Республики Дагестан
+              en: Constitution Day of the Republic of Dagestan
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          09-15:
+            name:
+              ru: День единства народов Дагестана
+              en: Day of Unity of the Peoples of Dagestan
+      IN:
+        names:
+          ru: Республика Ингушетия
+          en: Republic of Ingushetia
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/7b722288c585dafcee0b4b233b9f3f068a2f6a22/
+        days:
+          1 Shawwal:
+            name:
+              ru: Ид аль-Фитр (Мархаш)
+              en: Eid al-Fitr (Markhash)
+          10 Dhu al-Hijjah:
+            name:
+              ru: Ид аль-Адха (Г1урба)
+              en: Eid al-Adha (Ghurba)
+      IRK:
+        names:
+          ru: Иркутская область
+          en: Irkutsk Oblast
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/71989184ae73e2039e0b766e378c8808dac2a0ab/
+        # @note The Unity Day is regional. Sagaalgan is listed separately by
+        # ConsultantPlus only for parts of the oblast and is not included here.
+        days:
+          "2026-04-21":
+            name:
+              ru: Единый День памяти
+              en: Unity Day of Remembrance
+      KB:
+        names:
+          ru: Кабардино-Балкарская Республика
+          en: Kabardino-Balkar Republic
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/308e8a38058a4091eda992b350497e35d705898b/
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          orthodox 9:
+            name:
+              ru: Радоница - день особого поминовения усопших
+              en: Day of Special Remembrance of the Departed (Radonitsa)
+          03-28:
+            name:
+              ru: День возрождения балкарского народа
+              en: Day of the Revival of the Balkar People
+          05-21:
+            name:
+              ru: День памяти адыгов (черкесов) - жертв Русско-Кавказской войны
+              en: Day of Remembrance of the Adyghe (Circassian) Victims of the Russian-Caucasian War
+          09-01:
+            name:
+              ru: День государственности Кабардино-Балкарской Республики
+              en: Statehood Day of the Kabardino-Balkar Republic
+          09-20:
+            name:
+              ru: День адыгов (черкесов)
+              en: Adyghe (Circassian) Day
+      KC:
+        names:
+          ru: Карачаево-Черкесская Республика
+          en: Karachay-Cherkess Republic
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/64baaa3f8ac58efb0d577f5d26a82432cb95e989/
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          orthodox 9:
+            name:
+              ru: День памяти усопших - Радоница
+              en: Day of Remembrance of the Departed (Radonitsa)
+          05-03:
+            name:
+              ru: День возрождения карачаевского народа
+              en: Day of the Revival of the Karachay People
+      KDA:
+        names:
+          ru: Краснодарский край
+          en: Krasnodar Krai
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/170afe7ffa94203407b9bbb77462643e27ecf905/
+        days:
+          "2026-04-21":
+            name:
+              ru: День поминовения усопших (Радоница)
+              en: Radonitsa - Day of Remembrance of the Departed
+      KL:
+        names:
+          ru: Республика Калмыкия
+          en: Republic of Kalmykia
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/2ac6b66480bb2de1b2d8c0b9e3de70b2902857e3/
+        # @note ConsultantPlus confirms the fixed dates 07-05 and 12-28. The
+        # other national holidays are announced annually.
+        days:
+          "2026-02-18":
+            name:
+              ru: Цаган Сар
+              en: Tsagan Sar
+          07-05:
+            name:
+              ru: День Республики Калмыкия
+              en: Republic of Kalmykia Day
+          "2026-05-31":
+            name:
+              ru: День рождения Будды Шакьямуни
+              en: Birthday of Buddha Shakyamuni
+          "2024-12-25":
+            name:
+              ru: Зул
+              en: Zul
+          "2025-12-14":
+            name:
+              ru: Зул
+              en: Zul
+          12-28:
+            name:
+              ru: День памяти жертв депортации калмыцкого народа
+              en: Day of Remembrance of the Victims of the Deportation of the Kalmyk People
+      KO:
+        names:
+          ru: Республика Коми
+          en: Republic of Komi
+        # @source https://base.garant.ru/27306563/
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/4d9862fdf891e74c7a30f87db2a4ecfe29282e69/
+        # @note Law of the Republic of Komi No. 30-RZ of 5 May 2014 establishing the
+        # Day of the Republic of Komi.
+        days:
+          08-22:
+            name:
+              ru: День Республики Коми
+              en: Republic of Komi Day
+      KR:
+        names:
+          ru: Республика Карелия
+          en: Republic of Karelia
+        # @source https://gov10.ru/karelia/symbolics/day/
+        days:
+          06-08:
+            name:
+              ru: День Республики Карелии
+              en: Republic of Karelia Day
+      MR:
+        names:
+          ru: Республика Мордовия
+          en: Republic of Mordovia
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/87596d1a0e056cda954262dd16aba8f421524283/
+        # @note One-time non-working day announced by the Head of Mordovia for 2026.
+        days:
+          "2026-08-05":
+            name:
+              ru: День 25-летия канонизации святого праведного воина Феодора Ушакова
+              en: 25th Anniversary of the Canonization of Righteous Warrior Fyodor Ushakov
+      NO:
+        names:
+          ru: Республика Северная Осетия - Алания
+          en: Republic of North Ossetia-Alania
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/96ba3c1223d6b1bc4f43a58ca34d7d8a68520107/
+        # @note The non-working date is announced annually. The 2026 date is
+        # recorded as a one-time entry and must be updated for subsequent years.
+        days:
+          "2026-11-23":
+            name:
+              ru: Первый понедельник праздника Уастырджи (Джеоргуыба)
+              en: First Monday of the Uastyrdzhi (Djeorguiba) Festival
+      OMS:
+        names:
+          ru: Омская область
+          en: Omsk Oblast
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/51617f42a9215dc452319a3bee939bcf646295ba/
+        # @note The 2026 date was established by a governor's decree.
+        days:
+          "2026-04-21":
+            name:
+              ru: Радоница - день особого поминовения усопших
+              en: Radonitsa - Day of Special Remembrance of the Departed
+      PNZ:
+        names:
+          ru: Пензенская область
+          en: Penza Oblast
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/425727dd31487d291448681f5a0233f8a3ccf8e2/
+        days:
+          "2026-04-21":
+            name:
+              ru: Единый день поминовения усопших
+              en: Unified Day of Remembrance of the Departed
+      SA:
+        names:
+          ru: Республика Саха (Якутия)
+          en: Sakha (Yakutia) Republic
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/2476436f19abd07f975216fd567e0f1e7c247bd6/
+        # @note The annual Ысыах date is fixed by regional law but its treatment
+        # is subject to the applicable regional calendar decision.
+        days:
+          04-27:
+            name:
+              ru: День Республики Саха (Якутия)
+              en: Republic of Sakha (Yakutia) Day
+          06-21:
+            name:
+              ru: День национального праздника Ысыах
+              en: Ysyakh National Holiday
+      SAR:
+        names:
+          ru: Саратовская область
+          en: Saratov Oblast
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/f831fb832469f18268a6b1b0931f70bb902e4ecb/
+        days:
+          "2026-04-21":
+            name:
+              ru: Радоница - день особого поминовения усопших
+              en: Radonitsa - Day of Special Remembrance of the Departed
+      SEV:
+        names:
+          ru: город Севастополь
+          en: Sevastopol
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/44e87f16fa21ad3201a5e43887c014fac17951fd/
+        # @note These regional holidays apply to employees of organizations
+        # funded by the subject's budget.
+        days:
+          03-18:
+            name:
+              ru: День возвращения города Севастополя в Россию
+              en: Day of Sevastopol's Return to Russia
+          06-14:
+            name:
+              ru: День основания города Севастополя
+              en: Sevastopol City Foundation Day
+      STA:
+        names:
+          ru: Ставропольский край
+          en: Stavropol Krai
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/6b738550497998a10eb8a2c3934ae72a174ccc34/
+        days:
+          "2026-04-21":
+            name:
+              ru: День поминовения усопших (Радоница)
+              en: Radonitsa - Day of Remembrance of the Departed
+      TA:
+        names:
+          ru: Республика Татарстан
+          en: Republic of Tatarstan
+        # @source https://gossov.tatarstan.ru/tat/documents/pasport_zak?law_pass_id=532
+        # @note Law of the Republic of Tatarstan on public and memorial days,
+        # professional holidays and other significant dates. The dates of
+        # Uraza-Bayram and Kurban-Bayram are set annually.
+        days:
+          1 Shawwal:
+            name:
+              ru: Ураза-байрам
+              en: Uraza-Bayram
+          10 Dhu al-Hijjah:
+            name:
+              ru: Курбан-байрам
+              en: Kurban-Bayram
+          08-30:
+            name:
+              ru: День Республики Татарстан
+              en: Republic of Tatarstan Day
+          11-06:
+            name:
+              ru: День Конституции Республики Татарстан
+              en: Constitution Day of the Republic of Tatarstan
+      TY:
+        names:
+          ru: Республика Тыва
+          en: Republic of Tuva
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/816b7bc04eae9d7785c753c3e99d0d547f3ea74d/
+        # Shagaa and Naadym are announced annually. The Constitution Day date
+        # was moved from May 6 to May 8 in 2026.
+        days:
+          "2024-02-10":
+            name:
+              ru: Шагаа
+              en: Shagaa
+          "2025-03-01":
+            name:
+              ru: Шагаа
+              en: Shagaa
+          "2026-02-18":
+            name:
+              ru: Шагаа
+              en: Shagaa
+          "2024-05-06":
+            name:
+              ru: День Конституции Республики Тыва
+              en: Constitution Day of the Republic of Tuva
+          "2025-05-06":
+            name:
+              ru: День Конституции Республики Тыва
+              en: Constitution Day of the Republic of Tuva
+          "2026-05-08":
+            name:
+              ru: День Конституции Республики Тыва
+              en: Constitution Day of the Republic of Tuva
+          "2024-07-19":
+            name:
+              ru: Наадым
+              en: Naadym
+          "2025-07-18":
+            name:
+              ru: Наадым
+              en: Naadym
+          "2026-07-24":
+            name:
+              ru: Наадым
+              en: Naadym
+          08-15:
+            name:
+              ru: День Республики Тыва
+              en: Republic of Tuva Day
+      ZAB:
+        names:
+          ru: Забайкальский край
+          en: Zabaykalsky Krai
+        # @source https://www.consultant.ru/document/cons_doc_LAW_311098/4bec7535feb05cdf1585b6dd48c7394f96fa268e/
+        # @note Sagaalgan is announced annually. The 2026 date is recorded as
+        # a one-time entry and must be updated when the next decree is issued.
+        days:
+          "2026-02-18":
+            name:
+              ru: Праздник Белого месяца "Сагаалган"
+              en: White Month Festival (Sagaalgan)
