@@ -1,10 +1,7 @@
 holidays:
-  # @source http://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/public_holidays_in_ireland.html
-  # @source https://www.bpfi.ie/wp-content/uploads/2017/10/Bank20Holidays202017-20.pdf
-  #
-  # Note that the "Bank of Ireland" is not the official national bank playes a
-  # somewhat similar role (https://en.wikipedia.org/wiki/Bank_of_Ireland#Role_as_government_banker).
-  # @source https://personalbanking.bankofireland.com/app/uploads/2018/11/OMI021897-CHRISTMAS-2018-CAMPAIGN-Opening-Hours-A1-Generic_v3.v2-compressed.pdf
+  # @source https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/public-holidays/
+  # @source https://www.irishstatutebook.ie/eli/1997/act/20/enacted/en/html
+  # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Republic_of_Ireland
   IE:
     names:
       en: Ireland
@@ -16,8 +13,9 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      # Official Rule: First Monday in February, or 1 February if the date falls on a Friday
       02-01 if Tuesday,Wednesday,Thursday,Saturday,Sunday then next Monday since 2023:
+        # Official Rule: First Monday in February, or 1 February if the date falls on a Friday
+        # @source https://www.irishstatutebook.ie/eli/2023/act/8/enacted/en/html
         name:
           en: St. Brigid’s Day
       03-17:
@@ -36,11 +34,12 @@ holidays:
         type: bank
       easter:
         _name: easter
+        type: observance
       easter 1:
         _name: easter 1
       1st monday in May:
         name:
-          en: May Day
+          en: First Monday in May
       1st monday in June:
         name:
           en: First Monday in June
@@ -49,18 +48,18 @@ holidays:
           en: First Monday in August
       1st Monday before 11-01:
         name:
-          en: October Bank Holiday
+          en: Last Monday in October
           type: bank
       12-25:
         _name: 12-25
       12-26:
         _name: 12-26
         name:
-          en: St. Stephen's Day
+          en: St. Stephen’s Day
       12-26 and if saturday then next monday if sunday then next monday:
         _name: 12-26
         name:
-          en: St. Stephen's Day
+          en: St. Stephen’s Day
         substitute: true
         type: bank
       3rd sunday in June:
