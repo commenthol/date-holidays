@@ -68,6 +68,7 @@ holidays:
           11-11:
             name:
               de-at: Martinstag
+            type: observance
       "2":
         names:
           de: Kärnten
@@ -79,6 +80,7 @@ holidays:
           10-10:
             name:
               de-at: Tag der Volksabstimmung
+            type: observance
       "3":
         names:
           de: Niederösterreich
@@ -108,6 +110,7 @@ holidays:
           09-24:
             name:
               de-at: Rupert
+            type: observance
       "6":
         names:
           de: Steiermark

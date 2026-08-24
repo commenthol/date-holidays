@@ -130,7 +130,7 @@
     "start": "2028-11-10T23:00:00.000Z",
     "end": "2028-11-11T23:00:00.000Z",
     "name": "Martinstag",
-    "type": "public",
+    "type": "observance",
     "rule": "11-11",
     "_weekday": "Sat"
   },
