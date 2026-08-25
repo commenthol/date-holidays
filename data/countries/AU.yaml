@@ -312,29 +312,165 @@ holidays:
             name:
               en: Melbourne Cup
           # @source https://www.vic.gov.au/school-term-dates-and-holidays-victoria
+          # 2026
           "2026-04-03 P17D":
             name:
               en: Term 1 holidays
             active:
               - from: "2026-01-01"
             type: school
-          "2026-06-27 P17D":
+          "2026-06-27 P16D":
             name:
               en: Term 2 holidays
             active:
               - from: "2026-01-01"
             type: school
-          "2026-09-19 P17D":
+          "2026-09-19 P16D":
             name:
               en: Term 3 holidays
             active:
               - from: "2026-01-01"
             type: school
-          "2026-12-19 P40D":
+          # have to split the holidays over two entries - block doesn't wrap over end of year boundry
+          "2026-12-19 P12D":
             name:
               en: Term 4 holidays
             active:
               - from: "2026-01-01"
+            type: school
+          "2027-01-01 P27D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2026-01-01"
+            type: school
+          # 2027
+          "2027-03-26 P17D":
+            name:
+              en: Term 1 holidays
+            active:
+              - from: "2027-01-01"
+            type: school
+          "2027-06-26 P16D":
+            name:
+              en: Term 2 holidays
+            active:
+              - from: "2027-01-01"
+            type: school
+          "2027-09-18 P16D":
+            name:
+              en: Term 3 holidays
+            active:
+              - from: "2027-01-01"
+            type: school
+          # have to split the holidays over two entries - block doesn't wrap over end of year boundry
+          "2027-12-18 P13D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2027-01-01"
+            type: school
+          "2028-01-01 P27D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2027-01-01"
+            type: school
+          # 2028
+          "2028-04-01 P17D":
+            name:
+              en: Term 1 holidays
+            active:
+              - from: "2028-01-01"
+            type: school
+          "2028-07-01 P16D":
+            name:
+              en: Term 2 holidays
+            active:
+              - from: "2028-01-01"
+            type: school
+          "2028-09-23 P16D":
+            name:
+              en: Term 3 holidays
+            active:
+              - from: "2028-01-01"
+            type: school
+          # have to split the holidays over two entries - block doesn't wrap over end of year boundry
+          "2028-12-22 P9D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2028-01-01"
+            type: school
+          "2029-01-01 P29D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2028-01-01"
+            type: school
+          # 2029
+          "2029-03-30 P17D":
+            name:
+              en: Term 1 holidays
+            active:
+              - from: "2029-01-01"
+            type: school
+          "2029-06-30 P16D":
+            name:
+              en: Term 2 holidays
+            active:
+              - from: "2029-01-01"
+            type: school
+          "2029-09-22 P16D":
+            name:
+              en: Term 3 holidays
+            active:
+              - from: "2029-01-01"
+            type: school
+          # have to split the holidays over two entries - block doesn't wrap over end of year boundry
+          "2029-12-22 P9D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2029-01-01"
+            type: school
+          "2030-01-01 P29D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2029-01-01"
+            type: school
+          # 2030
+          "2030-04-06 P17D":
+            name:
+              en: Term 1 holidays
+            active:
+              - from: "2030-01-01"
+            type: school
+          "2030-06-29 P16D":
+            name:
+              en: Term 2 holidays
+            active:
+              - from: "2030-01-01"
+            type: school
+          "2030-09-21 P16D":
+            name:
+              en: Term 3 holidays
+            active:
+              - from: "2030-01-01"
+            type: school
+          # have to split the holidays over two entries - block doesn't wrap over end of year boundry
+          "2030-12-21 P10D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2030-01-01"
+            type: school
+          "2031-01-01 P27D":
+            name:
+              en: Term 4 holidays
+            active:
+              - from: "2030-01-01"
             type: school
       # @source https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a639.html
       # @source https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147326.html
