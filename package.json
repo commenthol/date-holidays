@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.35.0",
+  "version": "3.36.0",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -22,6 +22,7 @@
   ],
   "contributors": [
     "0xflotus <0xflotus@gmail.com>",
+    "abhijeet117 <abhijeetkumarsah92@gmail.com>",
     "Adam Otradovec <adam.otradovec@seznam.cz>",
     "Adminy <adminy@users.noreply.github.com>",
     "Agus Condro <guzzchangx2@gmail.com>",
@@ -29,6 +30,7 @@
     "Alex Fernández <alexfernandeznpm@gmail.com>",
     "Alexandru Pislariu <57287326+AlexandruPislariu@users.noreply.github.com>",
     "AlinaA <alinaa874@gmail.com>",
+    "Aljosha Vieth <mail@aljoshavieth.de>",
     "amalgame21 <93383215+amalgame21@users.noreply.github.com>",
     "Artem Yagutyan <artem.yagutyan@gmail.com>",
     "Artur Kraft <arkraft@users.noreply.github.com>",
@@ -164,6 +166,7 @@
     "Wayne Parrott <wayne.parrott@reblcorp.com>",
     "Wésley Queiroz <wesleycoder@gmail.com>",
     "westn <westn89@gmail.com>",
+    "Will Bamford <will.bamford@moonpig.com>",
     "William Mizuta <william.mizuta@gmail.com>",
     "William Santos <william@MacBook-Pro-de-William-2.local>",
     "Yannick <yannick.franssen@outlook.com>",

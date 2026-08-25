@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.36.0](https://github.com/commenthol/date-holidays/compare/3.35.0...3.36.0) (2026-08-25)
+
+- docs: update license attributions and county info [2430f847](https://github.com/commenthol/date-holidays/commit/2430f847bbde8aa8563f8beb02aea661b3453360)
+- fix(AT): type Martinstag, Tag der Volksabstimmung and Rupert as observance [ee99da74](https://github.com/commenthol/date-holidays/commit/ee99da74f0c5f097497f075ac2a4a94bc831559e)
+- fix(IE): update holidays and source references [b78cff00](https://github.com/commenthol/date-holidays/commit/b78cff00d2683416d9c1c4de61b0e2414faf0fc6)
+- feat(RU): add regional holiday coverage [4a54d720](https://github.com/commenthol/date-holidays/commit/4a54d720c6d8a01f86b7d095157f96cb353c2f46)
+- fix(RO): align Romanian holiday labels [54f782ef](https://github.com/commenthol/date-holidays/commit/54f782ef409aefb325ef43a8c9ace58836328910)
+- fix(SE): align holiday name casing with law [6885774b](https://github.com/commenthol/date-holidays/commit/6885774b7b835d934c06225437f4e50c9f74ee57)
+- fix(AX): use official Finnish/Åland sources, fix flag day types and casing [c2572c01](https://github.com/commenthol/date-holidays/commit/c2572c0124d62b744ce7bdfad2311c92e0d24eb7)
+- fix(SK): mark Easter Sunday as observance, not a statutory holiday [a3d48516](https://github.com/commenthol/date-holidays/commit/a3d4851676d9ff4ef5dba711642aca09e76e86d5)
+- fix(SI): fix Slovenian capitalization + align wording with gov.si [50943688](https://github.com/commenthol/date-holidays/commit/50943688f057171cd7c122889e866e95bfa7b998)
+- fix(SK): use official law and sk-wiki as sources, fix Good Friday name [f6e8a5f9](https://github.com/commenthol/date-holidays/commit/f6e8a5f947427d25f7c2be163952303feeb16724)
+- fix(DE-BY-A): Make augsburg catholic In Bavaria [cd6a57b2](https://github.com/commenthol/date-holidays/commit/cd6a57b21c22eb7fa5082511d4d5983d34abe623)
+- fix(TO): align holidays with official source [d303e094](https://github.com/commenthol/date-holidays/commit/d303e09462a1b659974627a642d20850453dabdb)
+- fix(AU-VIC) adjusting 2026 end dates [451a065b](https://github.com/commenthol/date-holidays/commit/451a065b3f1e2a15691cc40318775a141c9e6638)
+
 ## [3.35.0](https://github.com/commenthol/date-holidays/compare/3.34.1...3.35.0) (2026-08-14)
 
 - fix(IT): align holiday names with official sources [0c83bc5d](https://github.com/commenthol/date-holidays/commit/0c83bc5dea3bfae5fb853b8effd649a22fe2ea1a)
