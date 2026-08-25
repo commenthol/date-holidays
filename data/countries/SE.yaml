@@ -16,14 +16,14 @@ holidays:
         _name: 01-01
       01-05 12:00:
         name:
-          sv: Trettondagsafton
+          sv: trettondagsafton
           en: Twelfth Night
         type: optional
       01-06:
         _name: 01-06
       01-13:
         name:
-          sv: Tjugondag Knut
+          sv: tjugondag Knut
           en: Saint Knut's Day
         type: observance
       1st sunday in March:
@@ -33,13 +33,13 @@ holidays:
       # @source https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/
       03-25 prior to 1990:
         name:
-          sv: Marie Bebådelsedag
+          sv: Marie bebådelsedag
           en: Annunciation Day
           lat: Annuntiatio Mariæ
         type: observance
       04-30 12:00:
         name:
-          sv: Valborgsmässoafton
+          sv: valborgsmässoafton
           en: Walpurgis Night
         type: optional
       easter -3:
@@ -60,7 +60,7 @@ holidays:
         _name: easter 39
       easter 48:
         name:
-          sv: Pingstafton
+          sv: pingstafton
           en: Whitsun Eve
         type: observance
       easter 49:
@@ -84,18 +84,18 @@ holidays:
         type: observance
       friday after 06-19:
         name:
-          sv: Midsommarafton
+          sv: midsommarafton
           en: Midsummer Eve
           fi: Juhannusaatto
         type: bank
       saturday after 06-20:
         name:
-          sv: Midsommardagen
+          sv: midsommardagen
           en: Midsummer Day
           fi: Juhannuspäivä
       friday after 10-30 12:00:
         name:
-          sv: Allhelgonaafton
+          sv: allhelgonaafton
           en: Halloween
         type: optional
       saturday after 10-31:

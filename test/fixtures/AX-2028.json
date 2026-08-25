@@ -129,7 +129,7 @@
     "date": "2028-12-24 12:00:00",
     "start": "2028-12-24T10:00:00.000Z",
     "end": "2028-12-24T22:00:00.000Z",
-    "name": "Julafton",
+    "name": "julafton",
     "type": "bank",
     "rule": "12-24 12:00",
     "_weekday": "Sun"
@@ -156,7 +156,7 @@
     "date": "2028-12-31 12:00:00",
     "start": "2028-12-31T10:00:00.000Z",
     "end": "2028-12-31T22:00:00.000Z",
-    "name": "Nyårsafton",
+    "name": "nyårsafton",
     "type": "bank",
     "rule": "12-31 12:00",
     "_weekday": "Sun"

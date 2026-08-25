@@ -372,7 +372,7 @@ names:
       sk: Štedrý deň
       sq: Nata e Krishtlindjes
       sr: Бадњи дан
-      sv: Julafton
+      sv: julafton
       vi: Đêm Giáng Sinh
   12-25:
     name:
@@ -482,7 +482,7 @@ names:
       no: Nyttårsaften
       pl: Sylwester
       pt: Véspera de Ano Novo
-      sv: Nyårsafton
+      sv: nyårsafton
       th: วันสิ้นปี
       vi: Đêm giao thừa
 
@@ -556,7 +556,7 @@ names:
       nl: Witte Donderdag
       no: Skjærtorsdag
       pl: Wielki Czwartek
-      sv: Skärtorsdagen
+      sv: skärtorsdagen
       vi: Thứ năm Tuần Thánh
   easter -2: # Good Friday
     name:
@@ -615,7 +615,7 @@ names:
       nl: Dag voor Pasen
       no: Påskeaften
       pl: Wielka Sobota
-      sv: Påskafton
+      sv: påskafton
       vi: Thứ bảy Tuần Thánh
       zh: 耶穌受難節翌日
   easter: # Easter
@@ -757,7 +757,7 @@ names:
       nl: Tweede pinksterdag
       no: Andre pinsedag
       ro: A doua zi de Rusalii
-      sv: Annandag pingst
+      sv: annandag pingst
   easter 60: # Corpus Christi
     name:
       en: Corpus Christi
