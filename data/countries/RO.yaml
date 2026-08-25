@@ -1,4 +1,5 @@
 holidays:
+  # @attrib https://ro.wikipedia.org/wiki/S%C4%83rb%C4%83tori_publice_%C3%AEn_Rom%C3%A2nia
   # @attrib https://de.wikipedia.org/wiki/Feiertage_in_Rum%C3%A4nien
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Romania
   # @source http://www.dreptonline.ro/legislatie/codul_muncii.php
@@ -22,7 +23,7 @@ holidays:
           en: Epiphany
       01-07:
         name:
-          ro: Sfântul Ion
+          ro: Sfântul Ioan Botezătorul
           en: Saint John the Baptist
       01-24:
         name:

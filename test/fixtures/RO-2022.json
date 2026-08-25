@@ -21,7 +21,7 @@
     "date": "2022-01-07 00:00:00",
     "start": "2022-01-06T22:00:00.000Z",
     "end": "2022-01-07T22:00:00.000Z",
-    "name": "Sfântul Ion",
+    "name": "Sfântul Ioan Botezătorul",
     "type": "public",
     "rule": "01-07",
     "_weekday": "Fri"
@@ -66,7 +66,7 @@
     "date": "2022-04-25 00:00:00",
     "start": "2022-04-24T21:00:00.000Z",
     "end": "2022-04-25T21:00:00.000Z",
-    "name": "A doua zi de Pasti",
+    "name": "A doua zi de Paști",
     "type": "public",
     "rule": "orthodox 1",
     "_weekday": "Mon"
