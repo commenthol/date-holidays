@@ -1,3 +1,4 @@
+# @source https://www.gov.si/teme/drzavni-prazniki-in-dela-prosti-dnevi/
 # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Slovenia
 holidays:
   SI:
@@ -42,7 +43,7 @@ holidays:
         _name: easter 1
       04-27:
         name:
-          sl: Dan upora proti okupatorju
+          sl: dan upora proti okupatorju
           en: Day of Uprising Against Occupation
       05-01:
         _name: 05-01
@@ -60,14 +61,14 @@ holidays:
         _name: easter 49
       06-08:
         name:
-          sl: Dan Primoža Trubarja
+          sl: dan Primoža Trubarja
           en: Primož Trubar Day
         type: observance
         active:
           - from: 2010
       06-25:
         name:
-          sl: Dan državnosti
+          sl: dan državnosti
           en: Statehood Day
         active:
           - from: 1991
@@ -77,39 +78,39 @@ holidays:
           - from: 1992
       08-17:
         name:
-          sl: Združitev prekmurskih Slovencev z matičnim narodom
+          sl: združitev prekmurskih Slovencev z matičnim narodom
           en: Unification of Prekmurje Slovenes with the Mother Nation
         type: observance
         active:
           - from: 2006
       09-15:
         name:
-          sl: Vrnitev Primorske k matični domovini
+          sl: priključitev Primorske k matični domovini
           en: Return of Primorska to the Motherland
         type: observance
         active:
           - from: 2005
       09-23:
         name:
-          sl: Dan slovenskega športa
+          sl: dan slovenskega športa
           en: Slovenian Sports Day
         type: observance
         active:
           - from: 2020
       10-25:
         name:
-          sl: Dan suverenosti
+          sl: dan suverenosti
           en: Sovereignty Day
         type: observance
         active:
           - from: 2015
       10-31:
         name:
-          sl: Dan reformacije
+          sl: dan reformacije
           en: Reformation Day
       11-01:
         name:
-          sl: Dan spomina na mrtve
+          sl: dan spomina na mrtve
           en: Day of Remembrance for the Dead
       11-11:
         name:
@@ -118,7 +119,7 @@ holidays:
         type: observance
       11-23:
         name:
-          sl: Dan Rudolfa Maistra
+          sl: dan Rudolfa Maistra
           en: Rudolf Maister Day
         type: observance
         active:
@@ -135,7 +136,7 @@ holidays:
           - from: 1991
       12-26:
         name:
-          sl: Dan samostojnosti in enotnosti
+          sl: dan samostojnosti in enotnosti
           en: Independence and Unity Day
     # regions:
     # '001':
