@@ -99,13 +99,31 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2025-08-01 00:00:00",
-    "start": "2025-07-31T22:00:00.000Z",
-    "end": "2025-08-04T22:00:00.000Z",
-    "name": "Andorra La Vella Festival",
+    "date": "2025-06-21 00:00:00",
+    "start": "2025-06-20T22:00:00.000Z",
+    "end": "2025-06-21T22:00:00.000Z",
+    "name": "Festa del poble d'Encamp",
     "type": "public",
-    "rule": "1st friday in August P4D since 2024 and prior to 2026",
-    "_weekday": "Fri"
+    "rule": "06-21 since 2025 and prior to 2026",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2025-06-22 00:00:00",
+    "start": "2025-06-21T22:00:00.000Z",
+    "end": "2025-06-22T22:00:00.000Z",
+    "name": "Festa del poble d'Encamp",
+    "type": "public",
+    "rule": "06-22 since 2025 and prior to 2026",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2025-06-23 00:00:00",
+    "start": "2025-06-22T22:00:00.000Z",
+    "end": "2025-06-23T22:00:00.000Z",
+    "name": "Festa del poble d'Encamp",
+    "type": "public",
+    "rule": "06-23 since 2025 and prior to 2026",
+    "_weekday": "Mon"
   },
   {
     "date": "2025-08-15 00:00:00",
