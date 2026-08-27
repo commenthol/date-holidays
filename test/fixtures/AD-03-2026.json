@@ -99,13 +99,31 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2026-08-01 00:00:00",
-    "start": "2026-07-31T22:00:00.000Z",
-    "end": "2026-08-03T22:00:00.000Z",
-    "name": "Andorra La Vella Festival",
+    "date": "2026-06-20 00:00:00",
+    "start": "2026-06-19T22:00:00.000Z",
+    "end": "2026-06-20T22:00:00.000Z",
+    "name": "Festa del poble d'Encamp",
     "type": "public",
-    "rule": "1st saturday in August P3D since 2026 and prior to 2027",
+    "rule": "06-20 since 2026 and prior to 2027",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2026-06-21 00:00:00",
+    "start": "2026-06-20T22:00:00.000Z",
+    "end": "2026-06-21T22:00:00.000Z",
+    "name": "Festa del poble d'Encamp",
+    "type": "public",
+    "rule": "06-21 since 2026 and prior to 2027",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2026-06-22 00:00:00",
+    "start": "2026-06-21T22:00:00.000Z",
+    "end": "2026-06-22T22:00:00.000Z",
+    "name": "Festa del poble d'Encamp",
+    "type": "public",
+    "rule": "06-22 since 2026 and prior to 2027",
+    "_weekday": "Mon"
   },
   {
     "date": "2026-08-15 00:00:00",

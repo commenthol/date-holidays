@@ -38,8 +38,27 @@ holidays:
         _name: 12-25
       12-26:
         _name: 12-26
-      easter -47:
+      easter -48 prior to 2024:
+        # Official labour calendars: Carnival was on Monday from 2015 through 2023.
+        # @source https://www.bopa.ad/Documents/Detall?doc=ga26066012
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD20171019_12_42_34
+        # @source https://www.bopa.ad/Documents/Detall?doc=GH20151023_09_22_50
+        # @source https://www.bopa.ad/Documents/Detall?doc=GV20161103_14_45_19
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD20181108_11_02_50
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD20191114_12_42_27
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD20201126_14_59_33
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD20211022_10_11_30
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD20221028_08_59_02
+        _name: easter -48
+      02-20 since 2024 and prior to 2025:
+        # Official labour calendar: Carnival was on Tuesday, 20 February 2024.
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD_2023_10_26_10_31_01
         _name: easter -47
+      easter -48 since 2025:
+        # Official labour calendars: Carnival was on Monday in 2025 and 2026.
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD_2024_10_24_14_36_16
+        # @source https://www.bopa.ad/Documents/Detall?doc=GD_2025_10_02_16_24_12
+        _name: easter -48
       "easter -3 14:00":
         type: bank
         _name: easter -3
@@ -47,17 +66,64 @@ holidays:
         _name: easter -2
       easter:
         _name: easter
+        type: observance
       easter 1:
         _name: easter 1
       easter 49:
         _name: easter 49
+        type: observance
       easter 50:
         _name: easter 50
     regions:
       # '02':
       #   name: Canillo
-      # '03':
-      #   name: Encamp
+      "03":
+        name: Encamp
+        days:
+          # Official Comú calendars published by the Comú and in BOPA for 2024-2026.
+          # @source https://www.comuencamp.ad/actualitat/noticies/encamp-es-prepara-per-celebrar-la-festa-del-poble-2024-amb-els-concerts-de-buhos-els-catarres-i-despistaos-com-a-caps-de-cartell
+          # @source https://www.bopa.ad/Documents/Detall?doc=QEH_2024_11_27_10_29_49
+          # @source https://www.bopa.ad/Documents/Detall?doc=QEV_2025_11_21_09_39_06
+          06-21 since 2024 and prior to 2025:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-22 since 2024 and prior to 2025:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-23 since 2024 and prior to 2025:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-24 since 2024 and prior to 2025:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-21 since 2025 and prior to 2026:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-22 since 2025 and prior to 2026:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-23 since 2025 and prior to 2026:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-20 since 2026 and prior to 2027:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-21 since 2026 and prior to 2027:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
+          06-22 since 2026 and prior to 2027:
+            name:
+              en: Encamp Town Festival
+              ca: Festa del poble d'Encamp
       # '04':
       #   name: La Massana
       # '05':
@@ -67,7 +133,16 @@ holidays:
       "07":
         name: Andorra la Vella
         days:
-          1st saturday in August P3D:
+          1st friday in August P4D since 2024 and prior to 2026:
+            # Official Comú announcements confirm the 2024 and 2025 Festa Major periods.
+            # @source https://www.andorralavella.ad/comu/?q=noticia/l%E2%80%99arrossada-popular-el-gran-premi-d%E2%80%99andr%C3%B2mines-i-els-concerts-punts-forts-de-la-festa-major
+            # @source https://www.andorralavella.ad/comu/?q=noticia/els-gegants-d%E2%80%99andorra-la-vella-pregoners-de-la-festa-major-amb-motiu-del-seu-40%C3%A8-aniversari
+            name:
+              en: Andorra La Vella Festival
+              ca: Andorra La Vella Festival
+          1st saturday in August P3D since 2026 and prior to 2027:
+            # Official Comú announcement confirms the 2026 Festa Major period.
+            # @source https://www.andorralavella.ad/comu/?q=noticia/hysteriofunk-seran-els-pregoners-de-la-festa-major-en-reconeixement-als-seus-30-anys-de
             name:
               en: Andorra La Vella Festival
               ca: Andorra La Vella Festival
