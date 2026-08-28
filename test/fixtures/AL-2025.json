@@ -5,7 +5,7 @@
     "end": "2025-01-01T23:00:00.000Z",
     "name": "Viti i Ri",
     "type": "public",
-    "rule": "01-01 and if sunday then next tuesday",
+    "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Wed"
   },
   {
@@ -14,7 +14,7 @@
     "end": "2025-01-02T23:00:00.000Z",
     "name": "Festa e Vitit të Ri",
     "type": "public",
-    "rule": "01-02 and if sunday then next monday",
+    "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Thu"
   },
   {
@@ -50,7 +50,7 @@
     "end": "2025-03-14T23:00:00.000Z",
     "name": "Dita e Verës",
     "type": "public",
-    "rule": "03-14 and if sunday then next monday",
+    "rule": "03-14 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -59,8 +59,18 @@
     "end": "2025-03-22T23:00:00.000Z",
     "name": "Dita e Sulltan Nevruzit",
     "type": "public",
-    "rule": "03-22 and if sunday then next monday",
+    "rule": "03-22 and if saturday,sunday then next monday",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2025-03-24 00:00:00",
+    "start": "2025-03-23T23:00:00.000Z",
+    "end": "2025-03-24T23:00:00.000Z",
+    "name": "Dita e Sulltan Nevruzit (ditë zëvendësuese)",
+    "type": "public",
+    "substitute": true,
+    "rule": "03-22 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2025-03-30 00:00:00 -0600",
@@ -122,7 +132,7 @@
     "end": "2025-05-01T22:00:00.000Z",
     "name": "Dita Ndërkombëtare e Punonjësve",
     "type": "public",
-    "rule": "05-01 and if sunday then next monday",
+    "rule": "05-01 and if saturday,sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -149,7 +159,7 @@
     "end": "2025-10-19T22:00:00.000Z",
     "name": "Dita e Nënë Terezës",
     "type": "public",
-    "rule": "10-19 and if sunday then next monday",
+    "rule": "10-19 and if saturday,sunday then next monday",
     "_weekday": "Sun"
   },
   {
@@ -159,7 +169,7 @@
     "name": "Dita e Nënë Terezës (ditë zëvendësuese)",
     "type": "public",
     "substitute": true,
-    "rule": "10-19 and if sunday then next monday",
+    "rule": "10-19 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -177,7 +187,7 @@
     "end": "2025-11-28T23:00:00.000Z",
     "name": "Dita e Pavarësisë",
     "type": "public",
-    "rule": "11-28 and if sunday then next monday",
+    "rule": "11-28 and if saturday,sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -186,8 +196,18 @@
     "end": "2025-11-29T23:00:00.000Z",
     "name": "Dita e Çlirimit",
     "type": "public",
-    "rule": "11-29 and if sunday then next monday",
+    "rule": "11-29 and if saturday,sunday then next monday",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2025-12-01 00:00:00",
+    "start": "2025-11-30T23:00:00.000Z",
+    "end": "2025-12-01T23:00:00.000Z",
+    "name": "Dita e Çlirimit (ditë zëvendësuese)",
+    "type": "public",
+    "substitute": true,
+    "rule": "11-29 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2025-12-08 00:00:00",
@@ -195,7 +215,7 @@
     "end": "2025-12-08T23:00:00.000Z",
     "name": "Dita Kombëtare e Rinisë",
     "type": "public",
-    "rule": "12-08 and if sunday then next monday",
+    "rule": "12-08 and if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -213,7 +233,7 @@
     "end": "2025-12-25T23:00:00.000Z",
     "name": "Krishtlindja",
     "type": "public",
-    "rule": "12-25 and if sunday then next monday",
+    "rule": "12-25 and if saturday,sunday then next monday",
     "_weekday": "Thu"
   }
 ]

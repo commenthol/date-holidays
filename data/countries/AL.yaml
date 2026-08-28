@@ -1,4 +1,5 @@
 holidays:
+  # @source https://www.bankofalbania.org/Shtypi/Kalendari_i_festave_zyrtare_2026/
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Albania
   AL:
     names:
@@ -11,10 +12,10 @@ holidays:
     zones:
       - Europe/Tirane
     days:
-      01-01 and if sunday then next tuesday:
+      01-01 and if saturday then next monday if sunday then next tuesday:
         _name: 01-01
         substitute: true
-      01-02 and if sunday then next monday:
+      01-02 and if saturday then next monday if sunday then next tuesday:
         name:
           sq: Festa e Vitit të Ri
           en: New Year Holiday
@@ -32,12 +33,12 @@ holidays:
       03-08:
         _name: Mothers Day
         type: observance
-      03-14 and if sunday then next monday:
+      03-14 and if saturday,sunday then next monday:
         name:
           sq: Dita e Verës
           en: Summer Day
         substitute: true
-      03-22 and if sunday then next monday:
+      03-22 and if saturday,sunday then next monday:
         name:
           sq: Dita e Sulltan Nevruzit
           en: Sultan Nevruz's Day
@@ -61,7 +62,7 @@ holidays:
         name:
           sq: Pashkët Ortodokse
           en: Orthodox Easter
-      05-01 and if sunday then next monday:
+      05-01 and if saturday,sunday then next monday:
         _name: 05-01
         substitute: true
       06-01:
@@ -69,7 +70,7 @@ holidays:
           sq: Dita Ndërkombëtare e Fëmijëve
           en: Children's Day
         type: observance
-      10-19 and if sunday then next monday:
+      10-19 and if saturday,sunday then next monday:
         name:
           sq: Dita e Nënë Terezës
           en: Mother Teresa Day
@@ -81,13 +82,13 @@ holidays:
           sq: Dita e Alfabetit
           en: Alphabet Day
         type: observance
-      11-28 and if sunday then next monday:
+      11-28 and if saturday,sunday then next monday:
         _name: Independence Day
         substitute: true
-      11-29 and if sunday then next monday:
+      11-29 and if saturday,sunday then next monday:
         _name: Liberation Day
         substitute: true
-      12-08 and if sunday then next monday:
+      12-08 and if saturday,sunday then next monday:
         name:
           sq: Dita Kombëtare e Rinisë
           en: Youth Day
@@ -97,7 +98,7 @@ holidays:
       12-24:
         _name: 12-24
         type: bank
-      12-25 and if sunday then next monday:
+      12-25 and if saturday,sunday then next monday:
         _name: 12-25
         substitute: true
       1 Shawwal:
