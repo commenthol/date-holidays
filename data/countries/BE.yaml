@@ -119,8 +119,8 @@ holidays:
         days:
           07-11:
             name:
-              de: Festtag der Wallonischen Region
-              fr: Fête de la Région wallonne
+              de: Feiertag der Flämischen Gemeinschaft
+              fr: Fête de la Communauté flamande
               nl: Feestdag van de Vlaamse Gemeenschap
               en: Day of the Flemish Community
             type: observance
