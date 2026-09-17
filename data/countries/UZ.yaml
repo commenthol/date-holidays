@@ -1,0 +1,99 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Uzbekistan
+# @source https://lex.uz/docs/6257288
+holidays:
+  UZ:
+    names:
+      uz: Oʻzbekiston
+      ru: Узбекистан
+      en: Uzbekistan
+    dayoff: sunday
+    langs:
+      - uz
+      - ru
+    zones:
+      - Asia/Samarkand
+      - Asia/Tashkent
+    days:
+      01-01 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Yangi yil bayrami
+          ru: Новый год
+          en: New Year's Day
+      03-08 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Xalqaro xotin-qizlar kuni
+          ru: Международный женский день
+          en: International Women's Day
+      03-21 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Navroʻz bayrami
+          ru: Праздник Навруз
+          en: Nowruz
+      05-09 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Xotira va qadrlash kuni
+          ru: День памяти и почестей
+          en: Day of Memory and Honour
+      09-01 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Mustaqillik kuni
+          ru: День независимости
+          en: Independence Day
+      10-01 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Oʻqituvchi va murabbiylar kuni
+          ru: День учителя и наставника
+          en: Teachers and Mentors Day
+      12-08 and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Konstitutsiya kuni
+          ru: День Конституции
+          en: Constitution Day
+      1 Shawwal and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Roʻza hayiti
+          ru: Руза хайит
+          en: Eid al-Fitr
+      10 Dhu al-Hijjah and if saturday,sunday then next monday:
+        substitute: true
+        name:
+          uz: Qurbon hayiti
+          ru: Курбан хайит
+          en: Eid al-Adha
+    # states:
+    #   AN:
+    #     name: Andijan
+    #   BU:
+    #     name: Bukhara
+    #   FA:
+    #     name: Fergana
+    #   JI:
+    #     name: Jizzakh
+    #   NG:
+    #     name: Namangan
+    #   NW:
+    #     name: Navoiy
+    #   QA:
+    #     name: Qashqadaryo
+    #   QR:
+    #     name: Karakalpakstan
+    #   SA:
+    #     name: Samarqand
+    #   SI:
+    #     name: Sirdaryo
+    #   SU:
+    #     name: Surxondaryo
+    #   TK:
+    #     name: Tashkent
+    #   TO:
+    #     name: Tashkent Province
+    #   XO:
+    #     name: Xorazm

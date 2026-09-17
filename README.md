@@ -57,7 +57,7 @@ If you are missing holidays from your country, state, region please consider
 <!-- !tree -->
 
 ```
-Countries: 206
+Countries: 207
 ├── AD: Andorra
 │   ├── 03: Encamp
 │   └── 07: Andorra la Vella
@@ -664,6 +664,7 @@ Countries: 206
 │   ├── WI: Wisconsin
 │   └── WY: Wyoming
 ├── UY: Uruguay
+├── UZ: Oʻzbekiston
 ├── VA: Stato della Città del Vaticano
 ├── VC: St. Vincent & Grenadines
 ├── VE: Venezuela
