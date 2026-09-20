@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.37.0](https://github.com/commenthol/date-holidays/compare/3.36.1...3.37.0) (2026-09-20)
+
+- feat(data): add public holidays for Uzbekistan (UZ) [36405e7c](https://github.com/commenthol/date-holidays/commit/36405e7c163a9d603fd349955e98e04749510d3a)
+- docs: updated links in README [3197e742](https://github.com/commenthol/date-holidays/commit/3197e74282642ed865f7ab5805eec66478d8921a)
+
 ## [3.36.1](https://github.com/commenthol/date-holidays/compare/3.36.0...3.36.1) (2026-09-06)
 
 - docs: update country list [3477a3d7](https://github.com/commenthol/date-holidays/commit/3477a3d7fd1b18740406a4256250dfcba330cb48)
