@@ -815,11 +815,10 @@ See [Holidays API][] for further information.
 
 ## Data
 
-All data for the holidays of the different countries is contained in
-[`./data/holidays.json`](./data/holidays.json). For changing holiday data edit the appropriate country in `./data/countries`.
-Any details on structure and
-available grammar for holiday attribution is described in
-[holidays.yaml specification][].
+All data for the holidays of the different countries is contained in [`./data`](./data). For
+changing holiday data edit the appropriate country in [`./data/countries`](./data/countries). Any
+details on structure and available grammar for holiday attribution is described in [holidays.yaml
+specification][].
 
 <a name="custom"></a>
 
@@ -876,13 +875,12 @@ Please take a look at `./webpack.config.js`. To further reduce size consider cus
 
 This project also runs in all modern browsers. See `./examples/browser`
 
-| Browser | Version | Notes                        |
-| ------- | :-----: | ---------------------------- |
-| Chrome  | >=45    |                              |
-| Firefox | >=45    |                              |
-| Safari  | >=10    |                              |
-| Edge    | >=13    |                              |
-| IE      | >=11    | needs polyfill `core-js/es6` |
+| Browser | Version |
+| ------- | :-----: |
+| Chrome  | >=45    |
+| Firefox | >=45    |
+| Safari  | >=10    |
+| Edge    | >=13    |
 
 Please do not forget to set the correct charset!
 
