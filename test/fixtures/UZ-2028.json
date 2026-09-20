@@ -1,0 +1,113 @@
+[
+  {
+    "date": "2028-01-01 00:00:00",
+    "start": "2027-12-31T19:00:00.000Z",
+    "end": "2028-01-01T19:00:00.000Z",
+    "name": "Yangi yil bayrami",
+    "type": "public",
+    "rule": "01-01 and if saturday,sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-01-03 00:00:00",
+    "start": "2028-01-02T19:00:00.000Z",
+    "end": "2028-01-03T19:00:00.000Z",
+    "name": "Yangi yil bayrami (koʻchirilgan kun)",
+    "type": "public",
+    "substitute": true,
+    "rule": "01-01 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-02-26 00:00:00 -0600",
+    "start": "2028-02-25T13:00:00.000Z",
+    "end": "2028-02-26T13:00:00.000Z",
+    "name": "Roʻza hayiti",
+    "type": "public",
+    "rule": "1 Shawwal and if saturday,sunday then next monday",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2028-02-28 00:00:00 -0600",
+    "start": "2028-02-27T13:00:00.000Z",
+    "end": "2028-02-28T13:00:00.000Z",
+    "name": "Roʻza hayiti (koʻchirilgan kun)",
+    "type": "public",
+    "substitute": true,
+    "rule": "1 Shawwal and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-03-08 00:00:00",
+    "start": "2028-03-07T19:00:00.000Z",
+    "end": "2028-03-08T19:00:00.000Z",
+    "name": "Xalqaro xotin-qizlar kuni",
+    "type": "public",
+    "rule": "03-08 and if saturday,sunday then next monday",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2028-03-21 00:00:00",
+    "start": "2028-03-20T19:00:00.000Z",
+    "end": "2028-03-21T19:00:00.000Z",
+    "name": "Navroʻz bayrami",
+    "type": "public",
+    "rule": "03-21 and if saturday,sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-05-05 00:00:00 -0600",
+    "start": "2028-05-04T13:00:00.000Z",
+    "end": "2028-05-05T13:00:00.000Z",
+    "name": "Qurbon hayiti",
+    "type": "public",
+    "rule": "10 Dhu al-Hijjah and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-05-09 00:00:00",
+    "start": "2028-05-08T19:00:00.000Z",
+    "end": "2028-05-09T19:00:00.000Z",
+    "name": "Xotira va qadrlash kuni",
+    "type": "public",
+    "rule": "05-09 and if saturday,sunday then next monday",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2028-09-01 00:00:00",
+    "start": "2028-08-31T19:00:00.000Z",
+    "end": "2028-09-01T19:00:00.000Z",
+    "name": "Mustaqillik kuni",
+    "type": "public",
+    "rule": "09-01 and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2028-10-01 00:00:00",
+    "start": "2028-09-30T19:00:00.000Z",
+    "end": "2028-10-01T19:00:00.000Z",
+    "name": "Oʻqituvchi va murabbiylar kuni",
+    "type": "public",
+    "rule": "10-01 and if saturday,sunday then next monday",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2028-10-02 00:00:00",
+    "start": "2028-10-01T19:00:00.000Z",
+    "end": "2028-10-02T19:00:00.000Z",
+    "name": "Oʻqituvchi va murabbiylar kuni (koʻchirilgan kun)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10-01 and if saturday,sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2028-12-08 00:00:00",
+    "start": "2028-12-07T19:00:00.000Z",
+    "end": "2028-12-08T19:00:00.000Z",
+    "name": "Konstitutsiya kuni",
+    "type": "public",
+    "rule": "12-08 and if saturday,sunday then next monday",
+    "_weekday": "Fri"
+  }
+]
