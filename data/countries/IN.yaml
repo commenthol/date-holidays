@@ -39,6 +39,22 @@ holidays:
       12-25:
         _name: 12-25
         note: Recognized as a public holiday
+              1 Shawwal:
+        name:
+          en: Eid al-Fitr
+          hi: ईद-उल-फ़ित्र
+      10 Dhu al-Hijjah:
+        name:
+          en: Eid al-Adha
+          hi: ईद-उल-अज़हा
+      10 Muharram:
+        name:
+          en: Muharram
+          hi: मुहर्रम
+      12 Rabi al-awwal:
+        name:
+          en: Milad-un-Nabi
+          hi: मिलाद-उन-नबी
     states:
       AN:
         name: Andaman and Nicobar Islands
