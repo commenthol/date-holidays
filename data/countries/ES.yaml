@@ -298,6 +298,18 @@ holidays:
             type: observance
           easter 1:
             _name: easter 1
+          # @source: https://web.archive.org/web/20261009074206/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=710235
+          # Regional holiday only in 2011 (Ordre TRE/309/2010), 2016 (Ordre EMO/168/2015)
+          # and 2022 (Ordre EMT/138/2021).
+          easter 50:
+            _name: easter 50
+            active:
+              - from: "2011-01-01"
+                to: "2012-01-01"
+              - from: "2016-01-01"
+                to: "2017-01-01"
+              - from: "2022-01-01"
+                to: "2023-01-01"
           substitutes 05-01 if Saturday, Sunday then next Monday:
             substitute: true
             _name: 05-01
@@ -310,11 +322,45 @@ holidays:
             names:
               ca: Barcelona
               es: Barcelona
+            # @source: https://web.archive.org/web/20261009073820/https://analisi.transparenciacatalunya.cat/Treball/Calendari-de-festes-locals-a-Catalunya/b4eh-r8up/about_data (2012-2014)
+            # @source: https://web.archive.org/web/20261009074112/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=676282 (2015)
+            # @source: https://web.archive.org/web/20261009074206/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=710235 (2016)
+            # @source: https://web.archive.org/web/20261009074302/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=769997 (2017)
+            # @source: https://web.archive.org/web/20261009074434/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=804379 (2018)
+            # @source: https://web.archive.org/web/20261009074503/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=837669 (2019)
+            # @source: https://web.archive.org/web/20261009074556/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=864486 (2020)
+            # @source: https://web.archive.org/web/20250408234026/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=887990 (2021)
+            # @source: https://web.archive.org/web/20261009074728/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=915823 (2022)
+            # @source: https://web.archive.org/web/20230306181634/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=946309 (2023)
+            # @source: https://web.archive.org/web/20251029111341/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=974872 (2024)
+            # @source: https://web.archive.org/web/20250104133137/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1003280 (2025)
+            # @source: https://web.archive.org/web/20251220145400/https://dogc.gencat.cat/ca/document-del-dogc/?documentId=1032232 (2026)
             days:
-              09-24:
+              # Local holiday since 2012; 2011 included as it was a regional holiday that year.
+              # Moved a week later in the municipal election years 2015 and 2023.
+              easter 50:
+                _name: easter 50
+                active:
+                  - from: "2011-01-01"
+                disable:
+                  - "2015-05-25"
+                  - "2023-05-29"
+                enable:
+                  - "2015-06-01"
+                  - "2023-06-05"
+              09-24 if sunday then next monday:
                 name:
                   ca: Mare de Déu de la Mercè
                   es: Nuestra Señora de la Merced
+              # Replacement days in years when Whit Monday was a regional holiday.
+              2016-02-12:
+                name:
+                  ca: Santa Eulàlia
+                  es: Santa Eulalia
+              2022-09-26:
+                name:
+                  ca: Mare de Déu de la Mercè (trasllat)
+                  es: Nuestra Señora de la Merced (traslado)
       EX:
         name: Extremadura
         days:
