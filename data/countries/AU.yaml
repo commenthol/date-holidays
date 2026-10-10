@@ -303,11 +303,23 @@ holidays:
               - from: "2022-09-09"
           1st monday in October: false
           # introduced in 2015-08
-          # @source http://www.gazette.vic.gov.au/gazette/Gazettes2015
+          # @source http://www.gazette.vic.gov.au/gazette/Gazettes2015/GG2015S229.pdf
+          # @source https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2020
+          # @source https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2022
           1st friday before October:
             name:
               en: AFL Grand Final Friday
             note: Date might differ as dependent on AFL schedule
+            active:
+              - from: "2015-01-01"
+            disable:
+              - "2015-09-25"
+              - "2020-09-25"
+              - "2022-09-30"
+            enable:
+              - "2015-10-02"
+              - "2020-10-23"
+              - "2022-09-23"
           1st tuesday in November:
             name:
               en: Melbourne Cup
