@@ -29,17 +29,6 @@ holidays:
       03-08:
         _name: 03-08
         type: observance
-      # @attrib https://nl.wikipedia.org/wiki/Carnaval
-      easter -49 P3D:
-        name:
-          nl: Carnaval
-          en: Carnival
-          de: Karneval
-          fr: Carnaval
-          es: Carnaval
-          it: Carnevale
-          pt: Carnaval
-        type: observance
       # @attrib https://nl.wikipedia.org/wiki/Aswoensdag
       easter -46:
         _name: easter -46
@@ -312,6 +301,17 @@ holidays:
           01-06:
             _name: 01-06
             type: observance
+          # @attrib https://nl.wikipedia.org/wiki/Carnaval
+          easter -49 P3D:
+            name:
+              nl: Carnaval
+              en: Carnival
+              de: Karneval
+              fr: Carnaval
+              es: Carnaval
+              it: Carnevale
+              pt: Carnaval
+            type: observance
       NB:
         names:
           nl: Noord-Brabant
@@ -324,6 +324,17 @@ holidays:
           # @attrib https://nl.wikipedia.org/wiki/Driekoningen
           01-06:
             _name: 01-06
+            type: observance
+          # @attrib https://nl.wikipedia.org/wiki/Carnaval
+          easter -49 P3D:
+            name:
+              nl: Carnaval
+              en: Carnival
+              de: Karneval
+              fr: Carnaval
+              es: Carnaval
+              it: Carnevale
+              pt: Carnaval
             type: observance
       NH:
         names:
