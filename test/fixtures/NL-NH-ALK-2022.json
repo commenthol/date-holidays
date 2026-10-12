@@ -9,6 +9,15 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2022-02-14 00:00:00",
+    "start": "2022-02-13T23:00:00.000Z",
+    "end": "2022-02-14T23:00:00.000Z",
+    "name": "Valentijnsdag",
+    "type": "observance",
+    "rule": "02-14",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2022-02-27 00:00:00",
     "start": "2022-02-26T23:00:00.000Z",
     "end": "2022-03-01T23:00:00.000Z",
@@ -25,6 +34,15 @@
     "type": "observance",
     "rule": "easter -46",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2022-03-08 00:00:00",
+    "start": "2022-03-07T23:00:00.000Z",
+    "end": "2022-03-08T23:00:00.000Z",
+    "name": "Internationale Vrouwendag",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Tue"
   },
   {
     "date": "2022-04-14 00:00:00",
@@ -70,6 +88,15 @@
     "type": "public",
     "rule": "04-27 if sunday then previous saturday since 2014",
     "_weekday": "Wed"
+  },
+  {
+    "date": "2022-05-01 00:00:00",
+    "start": "2022-04-30T22:00:00.000Z",
+    "end": "2022-05-01T22:00:00.000Z",
+    "name": "Dag van de Arbeid",
+    "type": "observance",
+    "rule": "05-01",
+    "_weekday": "Sun"
   },
   {
     "date": "2022-05-04 00:00:00",
@@ -135,12 +162,39 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2022-06-25 00:00:00",
+    "start": "2022-06-24T22:00:00.000Z",
+    "end": "2022-06-25T22:00:00.000Z",
+    "name": "Veteranendag",
+    "type": "observance",
+    "rule": "saturday before 07-01 since 2009",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2022-07-01 00:00:00",
+    "start": "2022-06-30T22:00:00.000Z",
+    "end": "2022-07-01T22:00:00.000Z",
+    "name": "Ketikoti",
+    "type": "observance",
+    "rule": "07-01",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2022-09-20 00:00:00",
     "start": "2022-09-19T22:00:00.000Z",
     "end": "2022-09-20T22:00:00.000Z",
     "name": "Prinsjesdag",
     "type": "observance",
     "rule": "3rd tuesday in September",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-10-04 00:00:00",
+    "start": "2022-10-03T22:00:00.000Z",
+    "end": "2022-10-04T22:00:00.000Z",
+    "name": "Dierendag",
+    "type": "observance",
+    "rule": "10-04",
     "_weekday": "Tue"
   },
   {
@@ -151,6 +205,33 @@
     "type": "observance",
     "rule": "10-08",
     "_weekday": "Sat"
+  },
+  {
+    "date": "2022-10-31 00:00:00",
+    "start": "2022-10-30T23:00:00.000Z",
+    "end": "2022-10-31T23:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "rule": "10-31",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-01 00:00:00",
+    "start": "2022-10-31T23:00:00.000Z",
+    "end": "2022-11-01T23:00:00.000Z",
+    "name": "Allerheiligen",
+    "type": "observance",
+    "rule": "11-01",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-11-02 00:00:00",
+    "start": "2022-11-01T23:00:00.000Z",
+    "end": "2022-11-02T23:00:00.000Z",
+    "name": "Allerzielen",
+    "type": "observance",
+    "rule": "11-02",
+    "_weekday": "Wed"
   },
   {
     "date": "2022-11-11 00:00:00",
@@ -177,6 +258,15 @@
     "name": "Koninkrijksdag",
     "type": "observance",
     "rule": "12-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-12-15 00:00:00",
+    "start": "2022-12-14T23:00:00.000Z",
+    "end": "2022-12-15T23:00:00.000Z",
+    "name": "Naturalisatiedag",
+    "type": "observance",
+    "rule": "12-15 if sunday then next monday since 2008",
     "_weekday": "Thu"
   },
   {
