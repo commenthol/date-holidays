@@ -21,6 +21,25 @@ holidays:
     days:
       01-01:
         _name: 01-01
+      # @attrib https://nl.wikipedia.org/wiki/Carnaval
+      easter -49 P3D:
+        name:
+          nl: Carnaval
+          en: Carnival
+          de: Karneval
+          fr: Carnaval
+          es: Carnaval
+          it: Carnevale
+          pt: Carnaval
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Aswoensdag
+      easter -46:
+        _name: easter -46
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Witte_Donderdag
+      easter -3:
+        _name: easter -3
+        type: observance
       # @source https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/goede-vrijdag-vrije-dag
       easter -2:
         _name: easter -2
