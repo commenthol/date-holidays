@@ -1,4 +1,7 @@
 # @attrib https://fr.wikipedia.org/wiki/B%C3%A9nin#F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s
+# @source https://sgg.gouv.bj/doc/loi-90-019/
+# @source https://sgg.gouv.bj/doc/loi-97-031/
+# @source https://sgg.gouv.bj/doc/loi-2024-32/
 holidays:
   BJ:
     names:
@@ -12,39 +15,86 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      01-10:
         name:
-          fr: Fête du Vodoun
+          fr: Fête du Nouvel An
+      01-10 since 1998 and prior to 2025:
+        name:
+          fr: Fête annuelle des religions traditionnelles
+          en: Vodoun Festival
+      Thursday before 2nd Friday after 01-01 since 2025:
+        name:
+          fr: Fête annuelle des religions traditionnelles
+          en: Vodoun Festival
+      2nd Friday in January since 2025:
+        name:
+          fr: Fête annuelle des religions traditionnelles
+          en: Vodoun Festival
+      01-16:
+        name:
+          fr: Journée de Souvenir
+          en: Remembrance Day
+        type: observance
+      02-28:
+        name:
+          fr: Journée de la Souveraineté du Peuple
+          en: People’s Sovereignty Day
+        type: observance
+      03-08:
+        _name: 03-08
+        name:
+          fr: Journée de la Femme
+        type: observance
       easter:
         _name: easter
         type: observance
       easter 1:
         _name: easter 1
+        name:
+          fr: Lundi de Pâques
       easter 39:
         _name: easter 39
+        name:
+          fr: Jour de l’Ascension
       easter 49:
         _name: easter 49
         type: observance
       easter 50:
         _name: easter 50
+        name:
+          fr: Lundi de Pentecôte
       05-01:
         _name: 05-01
+        name:
+          fr: Fête du Travail
       08-01:
         _name: Independence Day
         name:
           fr: Fête Nationale
+          en: National Day
       08-15:
         _name: 08-15
+        name:
+          fr: Jour de l’Assomption
       11-01:
         _name: 11-01
+        name:
+          fr: Jour de la Toussaint
       12-25:
         _name: 12-25
+        name:
+          fr: Jour de la Noël
       1 Shawwal:
         _name: 1 Shawwal
+        name:
+          fr: Jour du Ramadan
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
+        name:
+          fr: Jour de la Tabaski
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
+        name:
+          fr: Journée Maouloud
     # states:
     # AK:
     #   name: Atakora
