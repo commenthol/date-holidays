@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.38.0](https://github.com/commenthol/date-holidays/compare/3.37.0...3.38.0) (2026-10-24)
+
+- docs: update supported countries [9cc2413e](https://github.com/commenthol/date-holidays/commit/9cc2413e514c71dc2147b02e9740c916b13bb6b5)
+- fix(BJ): apply law 2024-32 and use the legal holiday names [a10c1588](https://github.com/commenthol/date-holidays/commit/a10c15887efa14fb51395e148019679e246c3462)
+- feat(NL): Carnaval in Limburg and Noord-Brabant only [e851f1f9](https://github.com/commenthol/date-holidays/commit/e851f1f9eacc36144f8efade8eccd905782385c6)
+- Merge branch 'nl-observances' into nl-carnaval-regional [96d1504b](https://github.com/commenthol/date-holidays/commit/96d1504b12a7bc338918f2baa5467f04fd3e1d09)
+- feat(NL): add observances, and Driekoningen in Limburg and Noord-Brabant [e5779472](https://github.com/commenthol/date-holidays/commit/e5779472a33752d06419702a0c8f0ba7055553fe)
+- feat(NL): add Carnaval, Aswoensdag and Witte Donderdag [6b113567](https://github.com/commenthol/date-holidays/commit/6b113567caa4a42ffc132c6ed28df5ed92039e30)
+- fix(AU-TAS): add Easter Sunday from 2027 and move New Year's Day to Monday [9145a8fb](https://github.com/commenthol/date-holidays/commit/9145a8fb6fbc5b8c25a4d23aed7db6230ab4f392)
+- fix(AU-VIC): correct AFL Grand Final Friday for 2015, 2020 and 2022 [91ddbfa5](https://github.com/commenthol/date-holidays/commit/91ddbfa55f4847c21a797928b34a71e5fbab9971)
+- fix(ES): add Whit Monday and moved dates for Barcelona, Whit Monday for Catalonia [d5dc68bd](https://github.com/commenthol/date-holidays/commit/d5dc68bd7cb3c57c41bd97db777a4ab8bc099aae)
+- fix(GR): correct English names and move May Day 2024 [9bfd64aa](https://github.com/commenthol/date-holidays/commit/9bfd64aa3e069f854736d7e2e922cbda66e2dea8)
+- fix(RO): add start years for holidays introduced since 2012 [b97832ec](https://github.com/commenthol/date-holidays/commit/b97832eceb6b75f3d1d60111e3e4b1c1d6deed86)
+- fix(HR): align Croatian holiday names with legal wording [8a37e73e](https://github.com/commenthol/date-holidays/commit/8a37e73e3472b381cbf4f18b49d95ccc5ddae540)
+
 ## [3.37.0](https://github.com/commenthol/date-holidays/compare/3.36.1...3.37.0) (2026-09-20)
 
 - feat(data): add public holidays for Uzbekistan (UZ) [36405e7c](https://github.com/commenthol/date-holidays/commit/36405e7c163a9d603fd349955e98e04749510d3a)
