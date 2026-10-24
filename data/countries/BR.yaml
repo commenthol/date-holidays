@@ -43,19 +43,13 @@ holidays:
       # (states.RJ, easter -47), which overrides this national entry.
       # @source https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=4880
       easter -48:
-        name:
-          pt: Carnaval
-          en: Carnival
+        _name: Carnival
         type: bank
       easter -47:
-        name:
-          pt: Carnaval
-          en: Carnival
+        _name: Carnival
         type: bank
       easter -46 PT14H:
-        name:
-          pt: Carnaval
-          en: Carnival
+        _name: Carnival
         type: optional
       easter -2:
         _name: easter -2

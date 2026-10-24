@@ -18,9 +18,7 @@ holidays:
         _name: 01-06
         type: observance
       easter -48:
-        name:
-          en: Carnival
-          es: Carnaval
+        _name: Carnival
         type: observance
       easter -47:
         _name: easter -47

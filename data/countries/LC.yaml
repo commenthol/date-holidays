@@ -30,8 +30,7 @@ holidays:
       # 12-16/7/19
       # 15-22/7/21
       1st Friday after 07-10 P4D:
-        name:
-          en: Carnival
+        _name: Carnival
       08-01:
         name:
           en: Emancipation Day

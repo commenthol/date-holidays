@@ -1022,6 +1022,17 @@ names:
       de: Buß- und Bettag
       en: Day of Prayer and Repentance
       nl: Dag van gebed en bekering
+  Carnival:
+    name:
+      en: Carnival
+      de: Karneval
+      es: Carnaval
+      fr: Carnaval
+      it: Carnevale
+      nl: Carnaval
+      no: Fastelavn
+      pt: Carnaval
+      sl: Pust
   Constitution Day:
     name:
       en: Constitution Day
