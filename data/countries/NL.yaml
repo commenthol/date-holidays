@@ -303,14 +303,7 @@ holidays:
             type: observance
           # @attrib https://nl.wikipedia.org/wiki/Carnaval
           easter -49 P3D:
-            name:
-              nl: Carnaval
-              en: Carnival
-              de: Karneval
-              fr: Carnaval
-              es: Carnaval
-              it: Carnevale
-              pt: Carnaval
+            _name: Carnival
             type: observance
       NB:
         names:
@@ -327,14 +320,7 @@ holidays:
             type: observance
           # @attrib https://nl.wikipedia.org/wiki/Carnaval
           easter -49 P3D:
-            name:
-              nl: Carnaval
-              en: Carnival
-              de: Karneval
-              fr: Carnaval
-              es: Carnaval
-              it: Carnevale
-              pt: Carnaval
+            _name: Carnival
             type: observance
       NH:
         names:

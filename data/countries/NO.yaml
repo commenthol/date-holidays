@@ -41,9 +41,7 @@ holidays:
           en: Birthday of King Harald V
         type: observance
       easter -49:
-        name:
-          no: Fastelavn
-          en: Carnival
+        _name: Carnival
         type: observance
       easter -46:
         _name: easter -46

@@ -23,13 +23,9 @@ holidays:
           nl: Koningsdag
           en: King's Day
       04-30 if Sunday then next Tuesday prior to 2017:
-        name:
-          nl: Carnaval
-          en: Carnival
+        _name: Carnival
       04-30 if Saturday then previous Friday if Sunday then next Tuesday since 2017:
-        name:
-          nl: Carnaval
-          en: Carnival
+        _name: Carnival
       05-01 if Sunday then next Monday:
         _name: 05-01
       easter 39:

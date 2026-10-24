@@ -33,9 +33,7 @@ holidays:
           en: St. George's Day
         type: observance
       easter -49:
-        name:
-          sl: Pust
-          en: Carnival
+        _name: Carnival
         type: observance
       easter:
         _name: easter

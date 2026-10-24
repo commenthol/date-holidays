@@ -27,9 +27,7 @@ holidays:
         _name: 03-19
         type: observance
       easter -48:
-        name:
-          en: Carnival
-          es: Carnaval
+        _name: Carnival
       easter -47:
         _name: easter -47
       easter -6 P7D:
