@@ -21,16 +21,13 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      # @attrib https://nl.wikipedia.org/wiki/Carnaval
-      easter -49 P3D:
-        name:
-          nl: Carnaval
-          en: Carnival
-          de: Karneval
-          fr: Carnaval
-          es: Carnaval
-          it: Carnevale
-          pt: Carnaval
+      # @attrib https://nl.wikipedia.org/wiki/Valentijnsdag
+      02-14:
+        _name: 02-14
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Internationale_Vrouwendag
+      03-08:
+        _name: 03-08
         type: observance
       # @attrib https://nl.wikipedia.org/wiki/Aswoensdag
       easter -46:
@@ -79,6 +76,10 @@ holidays:
           es: Día de la Reina
           it: Giorno della Regina
           pt: Dia da Rainha
+      # @attrib https://nl.wikipedia.org/wiki/Dag_van_de_Arbeid
+      05-01:
+        _name: 05-01
+        type: observance
       # @attrib https://nl.wikipedia.org/wiki/Nationale_Dodenherdenking
       05-04:
         name:
@@ -129,6 +130,38 @@ holidays:
       3rd sunday in June:
         _name: Fathers Day
         type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Nederlandse_Veteranendag
+      06-29 since 2005 and prior to 2009:
+        name:
+          nl: Veteranendag
+          en: Veterans' Day
+          de: Veteranentag
+          fr: Journée des anciens combattants
+          es: Día de los veteranos
+          it: Giornata dei veterani
+          pt: Dia dos Veteranos
+        type: observance
+      saturday before 07-01 since 2009:
+        name:
+          nl: Veteranendag
+          en: Veterans' Day
+          de: Veteranentag
+          fr: Journée des anciens combattants
+          es: Día de los veteranos
+          it: Giornata dei veterani
+          pt: Dia dos Veteranos
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Ketikoti
+      07-01:
+        name:
+          nl: Ketikoti
+          en: Ketikoti – Abolition of slavery
+          de: Ketikoti – Abschaffung der Sklaverei
+          fr: Ketikoti – Abolition de l’esclavage
+          es: Ketikoti – Abolición de la esclavitud
+          it: Ketikoti – abolizione della schiavitù
+          pt: Ketikoti – Abolição da escravatura
+        type: observance
       # @attrib https://nl.wikipedia.org/wiki/Prinsessedag
       08-31 since 1885 and prior to 1891:
         name:
@@ -160,6 +193,29 @@ holidays:
           it: Giornata del bilancio
           pt: Dia do Príncipe
         type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Dierendag
+      10-04:
+        _name: 10-04
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Halloween
+      10-31:
+        name:
+          nl: Halloween
+          en: Halloween
+          de: Halloween
+          fr: Halloween
+          es: Halloween
+          it: Halloween
+          pt: Halloween
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Allerheiligen
+      11-01:
+        _name: 11-01
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Allerzielen
+      11-02:
+        _name: 11-02
+        type: observance
       11-11:
         _name: 11-11
         type: observance
@@ -184,6 +240,17 @@ holidays:
           es: Día del Reino
           it: Giorno del Regno
           pt: Dia do Reino
+        type: observance
+      # @attrib https://nl.wikipedia.org/wiki/Naturalisatiedag
+      12-15 if sunday then next monday since 2008:
+        name:
+          nl: Naturalisatiedag
+          en: Naturalisation Day
+          de: Einbürgerungstag
+          fr: Journée de la naturalisation
+          es: Día de la naturalización
+          it: Giorno della naturalizzazione
+          pt: Dia da Naturalização
         type: observance
       12-25:
         _name: 12-25
@@ -221,6 +288,54 @@ holidays:
                   es: Alivio del asedio de Groninga
                   it: Assedio revocato di Groninga
                 type: observance
+      LI:
+        names:
+          nl: Limburg
+          en: Limburg
+          de: Limburg
+          fr: Limbourg
+          es: Limburgo
+          it: Limburgo
+        days:
+          # @attrib https://nl.wikipedia.org/wiki/Driekoningen
+          01-06:
+            _name: 01-06
+            type: observance
+          # @attrib https://nl.wikipedia.org/wiki/Carnaval
+          easter -49 P3D:
+            name:
+              nl: Carnaval
+              en: Carnival
+              de: Karneval
+              fr: Carnaval
+              es: Carnaval
+              it: Carnevale
+              pt: Carnaval
+            type: observance
+      NB:
+        names:
+          nl: Noord-Brabant
+          en: North Brabant
+          de: Nordbrabant
+          fr: Brabant-Septentrional
+          es: Brabante Septentrional
+          it: Brabante Settentrionale
+        days:
+          # @attrib https://nl.wikipedia.org/wiki/Driekoningen
+          01-06:
+            _name: 01-06
+            type: observance
+          # @attrib https://nl.wikipedia.org/wiki/Carnaval
+          easter -49 P3D:
+            name:
+              nl: Carnaval
+              en: Carnival
+              de: Karneval
+              fr: Carnaval
+              es: Carnaval
+              it: Carnevale
+              pt: Carnaval
+            type: observance
       NH:
         names:
           nl: Noord-Holland
