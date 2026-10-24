@@ -5,7 +5,7 @@
     "end": "2028-01-03T13:00:00.000Z",
     "name": "New Year's Day",
     "type": "public",
-    "rule": "01-01 if saturday then next monday if sunday then next tuesday",
+    "rule": "01-01 if saturday,sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -34,6 +34,15 @@
     "type": "public",
     "rule": "easter -2",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2028-04-16 00:00:00",
+    "start": "2028-04-15T14:00:00.000Z",
+    "end": "2028-04-16T14:00:00.000Z",
+    "name": "Easter Sunday",
+    "type": "public",
+    "rule": "easter",
+    "_weekday": "Sun"
   },
   {
     "date": "2028-04-17 00:00:00",
