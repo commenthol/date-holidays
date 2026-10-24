@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://el.wikipedia.org/wiki/Επίσημες_αργίες_στην_Ελλάδα
+  # @source https://ypergasias.gov.gr/domna-michailidou-tin-triti-7-maiou-metatithetai-i-argia-tis-protomagias/
   GR:
     names:
       el: Ελλάδα
@@ -17,7 +18,7 @@ holidays:
       orthodox -48:
         name:
           el: Καθαρά Δευτέρα
-          en: Ash Sunday
+          en: Clean Monday
       03-25:
         name:
           el: Ευαγγελισμός, Εθνική Εορτή
@@ -30,6 +31,12 @@ holidays:
         _name: easter 1
       05-01:
         _name: 05-01
+        # May Day is moved by decision of the Ministry of Labour when it falls
+        # in Holy Week or on Easter; 2024: decision 15102/2024 (ΦΕΚ Β' 1406/04.03.2024)
+        disable:
+          - "2024-05-01"
+        enable:
+          - "2024-05-07"
       orthodox 49:
         _name: easter 49
       orthodox 50:
@@ -40,9 +47,9 @@ holidays:
       08-15:
         _name: 08-15
       10-28:
-        _name: National Holiday
         name:
           el: Επέτειος του Όχι
+          en: Ohi Day
       12-25:
         _name: 12-25
       12-26:
