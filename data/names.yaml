@@ -31,7 +31,7 @@ names:
       fr: Nouvel An
       ge: ახალი წელი
       hr: Nova godina
-      hu: Újév
+      hu: újév
       hy: Ամանոր
       id: Hari tahun baru
       it: Capodanno
@@ -81,7 +81,7 @@ names:
       el: Θεοφάνεια
       # @source https://narodne-novine.nn.hr/eli/sluzbeni/2019/110/2212
       hr: Bogojavljenje ili Sveta tri kralja
-      hu: Vízkereszt
+      hu: vízkereszt
       it: Epifania
       is: Þrettándinn
       lb: Dräikinneksdag
@@ -106,7 +106,7 @@ names:
       en: Valentine's Day
       de: Valentinstag
       fr: Saint-Valentin
-      hu: Valentin nap
+      hu: Valentin-nap
       lb: Vältesdag
       nl: Valentijnsdag
       no: Valentinsdag
@@ -122,7 +122,7 @@ names:
       de: Internationaler Frauentag
       fr: Journée internationale des femmes
       ge: ქალთა საერთაშორისო დღე
-      hu: Nemzetközi nőnap
+      hu: nemzetközi nőnap
       hy: Կանանց տոն
       kk: Халықаралық әйелдер күні
       lb: Internationale Fraendag
@@ -152,7 +152,7 @@ names:
     name:
       en: April Fools' Day
       de: 1. April
-      hu: Bolondok napja
+      hu: bolondok napja
       nl: 1 April
       no: Aprilsnarr
       sq: Dita e Gënjeshtrave
@@ -175,7 +175,7 @@ names:
       fil: Araw ng mga Manggagawa
       fr: Fête du travail
       hr: Praznik rada
-      hu: A munka ünnepe
+      hu: a munka ünnepe
       hy: Աշխատանքի օր
       id: Hari Buruh Internasional
       it: Festa del lavoro
@@ -272,7 +272,7 @@ names:
       fil: Undás; Todos los Santos; Araw ng mga Santo
       fr: Toussaint
       hr: Svi sveti
-      hu: Mindenszentek
+      hu: mindenszentek
       it: Ognissanti
       # it: Tutti i Santi
       lb: Allerhellegen
@@ -296,7 +296,7 @@ names:
       fil: Araw ng mga Kaluluwa
       fr: Fête des morts
       hr: Dušni dan
-      hu: Halottak napja
+      hu: halottak napja
       it: Commemorazione dei defunti
       lb: Allerséilen
       nl: Allerzielen
@@ -315,7 +315,7 @@ names:
     name:
       en: Saint Martin
       de: Sankt Martin (Faschingsbeginn)
-      hu: Márton nap
+      hu: Márton-nap
       nl: Sint-Maarten
       vi: Lễ thánh Martin
   12-06:
@@ -359,7 +359,7 @@ names:
       fil: Bisperas ng Pasko
       fr: Veille de Noël
       hr: Badnji dan
-      hu: Szenteste
+      hu: szenteste
       is: Aðfangadagur
       kl: juulliaraq
       lb: Hellegowend
@@ -397,7 +397,7 @@ names:
       fo: Fyrsti jóladagur
       fr: Noël
       hr: Božić
-      hu: Karácsony
+      hu: karácsony
       hy: Սուրբ Ծնունդ
       id: Hari Raya Natal
       it: Natale di Gesù
@@ -447,7 +447,7 @@ names:
       # fr: Saint Etienne
       # @source https://narodne-novine.nn.hr/eli/sluzbeni/2019/110/2212
       hr: Sveti Stjepan
-      hu: Karácsony másnapja
+      hu: karácsony másnapja
       it: Santo Stefano
       is: Annar í jólum
       kl: juullip aappaa
@@ -507,7 +507,7 @@ names:
       de: Faschingsdienstag
       # de: Fastnacht
       hr: Pokladni utorak
-      hu: Húshagyó kedd
+      hu: húshagyó kedd
       nl: Vastenavond
       pl: Ostatki
       pt: Carnaval
@@ -518,7 +518,7 @@ names:
       de: Aschermittwoch
       es: Miercoles de Ceniza
       fr: Mercredi des Cendres
-      hu: Hamvazószerda
+      hu: hamvazószerda
       it: Ceneri
       is: Öskudagur
       lb: Äschermëttwoch
@@ -533,7 +533,7 @@ names:
       en: Palm Sunday
       de: Palmsonntag
       es: Domingo de Ramos
-      hu: Virágvasárnap
+      hu: virágvasárnap
       it: Domenica delle Palme
       is: Pálmasunnudagur
       lb: Pällemsonndeg
@@ -579,7 +579,7 @@ names:
       ge: წითელი პარასკევი
       hi: गुड फ्राइडे
       hr: Veliki petak
-      hu: Nagypéntek
+      hu: nagypéntek
       id: Wafat Yesus Kristus
       it: Venerdì santo
       is: Föstudagurinn langi
@@ -611,7 +611,7 @@ names:
       fil: Sabado de Gloria
       fr: Samedi saint
       ge: დიდი შაბათი
-      hu: Nagyszombat
+      hu: nagyszombat
       it: Sabato santo
       lb: Karsamschdeg
       nl: Dag voor Pasen
@@ -638,7 +638,7 @@ names:
       fr: Pâques
       ge: აღდგომა
       hr: Uskrs
-      hu: Húsvétvasárnap
+      hu: húsvétvasárnap
       it: Domenica di Pasqua
       is: Páskadagur
       kl: poorskip-ullua
@@ -674,7 +674,7 @@ names:
       fr: Lundi de Pâques
       ge: აღდგომის ორშაბათი
       hr: Uskršnji ponedjeljak
-      hu: Húsvéthétfő
+      hu: húsvéthétfő
       it: Lunedì dell’Angelo
       is: Annar í páskum
       kl: poorskip-aappaa
@@ -727,7 +727,7 @@ names:
       fi: helluntaipäivä
       fo: Hvítusunnudagur
       fr: Pentecôte
-      hu: Pünkösdvasárnap
+      hu: pünkösdvasárnap
       it: Pentecoste
       is: Hvítasunnudagur
       kl: piinsip ullua
@@ -750,7 +750,7 @@ names:
       es: Lunes de Pentecostés
       fo: Annar hvítusunnudagur
       fr: Lundi de Pentecôte
-      hu: Pünkösdhétfő
+      hu: pünkösdhétfő
       is: Annar í hvítasunnu
       it: Lunedì di Pentecoste
       kl: piinsip aappaa
@@ -1117,7 +1117,7 @@ names:
       fi: Äitienpäivä
       fr: Fête des Mères
       hr: Majčin dan
-      hu: Anyák napja
+      hu: anyák napja
       hy: Ցեղասպանության զոհերի հիշատակի օր
       is: Mæðradagurinn
       it: Festa della mamma
@@ -1137,7 +1137,7 @@ names:
       de: Nationalfeiertag
       es: Fiesta Nacional
       fr: Fête nationale
-      hu: Nemzeti ünnep
+      hu: nemzeti ünnep
       el: εθνική επέτειος
       lb: Nationalfeierdag
       nl: Nationale feestdag
