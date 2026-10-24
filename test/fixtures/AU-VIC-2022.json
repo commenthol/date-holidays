@@ -117,9 +117,9 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2022-09-30 00:00:00",
-    "start": "2022-09-29T14:00:00.000Z",
-    "end": "2022-09-30T14:00:00.000Z",
+    "date": "2022-09-23 00:00:00",
+    "start": "2022-09-22T14:00:00.000Z",
+    "end": "2022-09-23T14:00:00.000Z",
     "name": "AFL Grand Final Friday",
     "type": "public",
     "note": "Date might differ as dependent on AFL schedule",
