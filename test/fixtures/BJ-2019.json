@@ -3,7 +3,7 @@
     "date": "2019-01-01 00:00:00",
     "start": "2018-12-31T23:00:00.000Z",
     "end": "2019-01-01T23:00:00.000Z",
-    "name": "Nouvel An",
+    "name": "Fête du Nouvel An",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Tue"
@@ -12,10 +12,37 @@
     "date": "2019-01-10 00:00:00",
     "start": "2019-01-09T23:00:00.000Z",
     "end": "2019-01-10T23:00:00.000Z",
-    "name": "Fête du Vodoun",
+    "name": "Fête annuelle des religions traditionnelles",
     "type": "public",
-    "rule": "01-10",
+    "rule": "01-10 since 1998 and prior to 2025",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2019-01-16 00:00:00",
+    "start": "2019-01-15T23:00:00.000Z",
+    "end": "2019-01-16T23:00:00.000Z",
+    "name": "Journée de Souvenir",
+    "type": "observance",
+    "rule": "01-16",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2019-02-28 00:00:00",
+    "start": "2019-02-27T23:00:00.000Z",
+    "end": "2019-02-28T23:00:00.000Z",
+    "name": "Journée de la Souveraineté du Peuple",
+    "type": "observance",
+    "rule": "02-28",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2019-03-08 00:00:00",
+    "start": "2019-03-07T23:00:00.000Z",
+    "end": "2019-03-08T23:00:00.000Z",
+    "name": "Journée de la Femme",
+    "type": "observance",
+    "rule": "03-08",
+    "_weekday": "Fri"
   },
   {
     "date": "2019-04-21 00:00:00",
@@ -39,7 +66,7 @@
     "date": "2019-05-01 00:00:00",
     "start": "2019-04-30T23:00:00.000Z",
     "end": "2019-05-01T23:00:00.000Z",
-    "name": "Fête du travail",
+    "name": "Fête du Travail",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Wed"
@@ -48,7 +75,7 @@
     "date": "2019-05-30 00:00:00",
     "start": "2019-05-29T23:00:00.000Z",
     "end": "2019-05-30T23:00:00.000Z",
-    "name": "Ascension",
+    "name": "Jour de l’Ascension",
     "type": "public",
     "rule": "easter 39",
     "_weekday": "Thu"
@@ -57,7 +84,7 @@
     "date": "2019-06-04 00:00:00 -0600",
     "start": "2019-06-03T17:00:00.000Z",
     "end": "2019-06-04T17:00:00.000Z",
-    "name": "Fête de fin du Ramadan",
+    "name": "Jour du Ramadan",
     "type": "public",
     "rule": "1 Shawwal",
     "_weekday": "Tue"
@@ -93,7 +120,7 @@
     "date": "2019-08-11 00:00:00 -0600",
     "start": "2019-08-10T17:00:00.000Z",
     "end": "2019-08-11T17:00:00.000Z",
-    "name": "Fête du mouton",
+    "name": "Jour de la Tabaski",
     "type": "public",
     "rule": "10 Dhu al-Hijjah",
     "_weekday": "Sun"
@@ -102,7 +129,7 @@
     "date": "2019-08-15 00:00:00",
     "start": "2019-08-14T23:00:00.000Z",
     "end": "2019-08-15T23:00:00.000Z",
-    "name": "Assomption",
+    "name": "Jour de l’Assomption",
     "type": "public",
     "rule": "08-15",
     "_weekday": "Thu"
@@ -111,7 +138,7 @@
     "date": "2019-11-01 00:00:00",
     "start": "2019-10-31T23:00:00.000Z",
     "end": "2019-11-01T23:00:00.000Z",
-    "name": "Toussaint",
+    "name": "Jour de la Toussaint",
     "type": "public",
     "rule": "11-01",
     "_weekday": "Fri"
@@ -120,7 +147,7 @@
     "date": "2019-11-09 00:00:00 -0600",
     "start": "2019-11-08T17:00:00.000Z",
     "end": "2019-11-09T17:00:00.000Z",
-    "name": "Mawlid",
+    "name": "Journée Maouloud",
     "type": "public",
     "rule": "12 Rabi al-awwal",
     "_weekday": "Sat"
@@ -129,7 +156,7 @@
     "date": "2019-12-25 00:00:00",
     "start": "2019-12-24T23:00:00.000Z",
     "end": "2019-12-25T23:00:00.000Z",
-    "name": "Noël",
+    "name": "Jour de la Noël",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Wed"
