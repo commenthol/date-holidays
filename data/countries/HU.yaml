@@ -1,5 +1,7 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Hungary
+  # @source https://net.jogtar.hu/jogszabaly?docid=A1200001.TV
+  # @source https://net.jogtar.hu/jogszabaly?docid=A1100425.ATV
   HU:
     names:
       hu: Magyarország
@@ -15,12 +17,12 @@ holidays:
         type: public
       02-01:
         name:
-          hu: A köztársaság emléknapja
+          hu: a köztársaság emléknapja
           en: Memorial Day of the Republic
         type: observance
       02-25:
         name:
-          hu: A kommunista diktatúrák áldozatainak emléknapja
+          hu: a kommunista diktatúrák áldozatainak emléknapja
           en: Memorial Day for the Victims of the Communist Dictatorships
         type: observance
       03-08:
@@ -34,7 +36,7 @@ holidays:
       04-16:
         name:
           en: Memorial Day for the Victims of the Holocaust
-          hu: A holokauszt áldozatainak emléknapja
+          hu: a holokauszt áldozatainak emléknapja
         type: observance
       easter -2:
         _name: easter -2
@@ -56,7 +58,7 @@ holidays:
       05-21:
         name:
           en: National Defense Day
-          hu: Honvédelmi nap
+          hu: honvédelmi nap
         type: observance
       easter 49:
         _name: easter 49
@@ -67,12 +69,12 @@ holidays:
       06-04:
         name:
           en: Day of National Unity
-          hu: A nemzeti összetartozás napja
+          hu: a nemzeti összetartozás napja
         type: observance
       06-19:
         name:
           en: Day of the Independent Hungary
-          hu: A független Magyarország napja
+          hu: a független Magyarország napja
         type: observance
       08-20:
         name:
@@ -82,7 +84,7 @@ holidays:
       10-06:
         name:
           en: Memorial Day for the Martyrs of Arad
-          hu: Az aradi vértanúk emléknapja
+          hu: az aradi vértanúk emléknapja
         type: observance
       10-23:
         name:
