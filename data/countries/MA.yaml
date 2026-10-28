@@ -2,6 +2,8 @@
 # @source https://www.amb-maroc.fr/_maroc/fetes_Nationales_j_feries.html
 # @source https://publicholidays.africa/morocco/fr/2020-dates/
 # @source https://maroc-diplomatique.net/le-calendrier-des-jours-feries-au-maroc-en-2020/
+# @source https://www.reuters.com/world/africa/morocco-declares-start-amazigh-year-national-holiday-2023-05-03/
+# @source https://www.hespress.com/%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%AA%D8%B5%D8%A7%D8%AF%D9%82-%D8%B9%D9%84%D9%89-%D8%B9%D8%B7%D9%84%D8%A9-%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-1687194.html
 # @attrib https://fr.wikipedia.org/wiki/F%C3%AAtes_et_jours_f%C3%A9ri%C3%A9s_au_Maroc
 
 holidays:
@@ -25,6 +27,11 @@ holidays:
           fr: Manifeste de l'indépendance
           ar: "ذكرى تقديم وثيقة الاستقلال"
           en: Anniversary of the Independence Manifesto
+      01-14 since 2024:
+        name:
+          fr: Nouvel An amazigh
+          ar: "رأس السنة الأمازيغية"
+          en: Amazigh New Year
       05-01:
         _name: 05-01
       07-30:
@@ -47,6 +54,11 @@ holidays:
           fr: Journée de la jeunesse
           ar: "عيد الشباب"
           en: Youth Day
+      10-31 since 2026:
+        name:
+          fr: Fête de l'Unité
+          ar: "عيد الوحدة"
+          en: Unity Day
       11-06:
         name:
           fr: La Marche verte
