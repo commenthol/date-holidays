@@ -3,7 +3,7 @@
     "date": "2015-01-01 00:00:00",
     "start": "2014-12-31T11:00:00.000Z",
     "end": "2015-01-01T11:00:00.000Z",
-    "name": "New Year’s Day",
+    "name": "New Year's Day",
     "type": "public",
     "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Thu"
@@ -12,7 +12,7 @@
     "date": "2015-01-02 00:00:00",
     "start": "2015-01-01T11:00:00.000Z",
     "end": "2015-01-02T11:00:00.000Z",
-    "name": "Day after New Year’s Day",
+    "name": "Day after New Year's Day",
     "type": "public",
     "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Fri"
@@ -85,7 +85,7 @@
     "date": "2015-06-01 00:00:00",
     "start": "2015-05-31T12:00:00.000Z",
     "end": "2015-06-01T12:00:00.000Z",
-    "name": "Queen’s Birthday",
+    "name": "Queen's Birthday",
     "type": "public",
     "rule": "1st monday in June prior to 2023",
     "_weekday": "Mon"
