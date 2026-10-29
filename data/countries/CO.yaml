@@ -27,6 +27,7 @@ holidays:
         _name: easter
       05-01:
         _name: 05-01
+      # @source https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4954
       easter 43:
         _name: easter 39
       easter 64:
