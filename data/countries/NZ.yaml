@@ -176,7 +176,7 @@ holidays:
               en: Christchurch Show Day
             note: May differ in parts of North Canterbury
         regions:
-          Timaru: # South Canterbury
+          TIMARU: # South Canterbury
             name: Timaru District
             days:
               friday after 2nd tuesday in November: false
@@ -297,7 +297,7 @@ holidays:
             name:
               en: Provincial anniversary day
         regions:
-          Buller:
+          BULLER:
             name: Buller district
             days:
               12-01 if tuesday,wednesday,thursday then previous monday if friday,saturday,sunday then next monday: false
