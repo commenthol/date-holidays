@@ -50,7 +50,7 @@ holidays:
         substitute: true
         _name: 12-26
     states:
-      Aitutaki:
+      AITUTAKI:
         names:
           en: Aitutaki
         days:
@@ -58,7 +58,7 @@ holidays:
             substitute: true
             name:
               en: Aitutaki Gospel Day
-      Atiu:
+      ATIU:
         names:
           en: Atiu
         days:
@@ -66,7 +66,7 @@ holidays:
             substitute: true
             name:
               en: Atiu Gospel Day
-      Mangaia:
+      MANGAIA:
         names:
           en: Mangaia
         days:
@@ -74,7 +74,7 @@ holidays:
             substitute: true
             name:
               en: Mangaia Gospel Day
-      Manihiki:
+      MANIHIKI:
         names:
           en: Manihiki
         days:
@@ -82,7 +82,7 @@ holidays:
             substitute: true
             name:
               en: Manihiki Gospel Day
-      Mitiaro:
+      MITIARO:
         names:
           en: Mitiaro
         days:
@@ -90,7 +90,7 @@ holidays:
             substitute: true
             name:
               en: Mitiaro Gospel Day
-      Palmerston:
+      PALMERSTON:
         names:
           en: Palmerston
         days:
@@ -98,7 +98,7 @@ holidays:
             substitute: true
             name:
               en: Palmerston Gospel Day
-      Penrhyn:
+      PENRHYN:
         names:
           en: Penrhyn
         days:
@@ -106,7 +106,7 @@ holidays:
             substitute: true
             name:
               en: Penrhyn Gospel Day
-      Pukapuka:
+      PUKAPUKA:
         names:
           en: Pukapuka
         days:
@@ -114,7 +114,7 @@ holidays:
             substitute: true
             name:
               en: Pukapuka Gospel Day
-      Rakahanga:
+      RAKAHANGA:
         names:
           en: Rakahanga
         days:
@@ -122,7 +122,7 @@ holidays:
             substitute: true
             name:
               en: Rakahanga Gospel Day
-      Rarotonga:
+      RAROTONGA:
         names:
           en: Rarotonga
         days:

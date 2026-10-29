@@ -211,16 +211,16 @@ Countries: 207
 │   └── JU: Canton du Jura
 ├── CI: République de Côte d'Ivoire
 ├── CK: Cook Islands
-│   ├── Aitutaki: Aitutaki
-│   ├── Atiu: Atiu
-│   ├── Mangaia: Mangaia
-│   ├── Manihiki: Manihiki
-│   ├── Mitiaro: Mitiaro
-│   ├── Palmerston: Palmerston
-│   ├── Penrhyn: Penrhyn
-│   ├── Pukapuka: Pukapuka
-│   ├── Rakahanga: Rakahanga
-│   └── Rarotonga: Rarotonga
+│   ├── AITUTAKI: Aitutaki
+│   ├── ATIU: Atiu
+│   ├── MANGAIA: Mangaia
+│   ├── MANIHIKI: Manihiki
+│   ├── MITIARO: Mitiaro
+│   ├── PALMERSTON: Palmerston
+│   ├── PENRHYN: Penrhyn
+│   ├── PUKAPUKA: Pukapuka
+│   ├── RAKAHANGA: Rakahanga
+│   └── RAROTONGA: Rarotonga
 ├── CL: Chile
 │   ├── AP: Arica y Parinacota
 │   ├── BI: Biobío
@@ -503,7 +503,7 @@ Countries: 207
 │   ├── AUK: Auckland Province
 │   ├── BOP: Bay of Plenty
 │   ├── CAN: Canterbury
-│   │   └── Timaru: Timaru District
+│   │   └── TIMARU: Timaru District
 │   ├── CIT: Chatham Islands
 │   ├── GIS: Gisborne
 │   ├── HKB: Hawke's Bay
@@ -518,7 +518,7 @@ Countries: 207
 │   ├── WKO: Waikato
 │   ├── WGN: Wellington Province
 │   └── WTC: Westland
-│       └── Buller: Buller district
+│       └── BULLER: Buller district
 ├── PA: Panamá
 ├── PE: Perú
 │   └── CUS: Cuzco
