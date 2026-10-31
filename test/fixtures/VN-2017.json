@@ -9,10 +9,19 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2017-01-09 00:00:00",
+    "start": "2017-01-08T17:00:00.000Z",
+    "end": "2017-01-09T17:00:00.000Z",
+    "name": "Ngày truyền thống học sinh, sinh viên Việt Nam",
+    "type": "observance",
+    "rule": "01-09",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-01-20 00:00:00",
     "start": "2017-01-19T17:00:00.000Z",
     "end": "2017-01-20T17:00:00.000Z",
-    "name": "Ông Táo chầu trời",
+    "name": "Tết ông Công, ông Táo",
     "type": "observance",
     "rule": "vietnamese 12-0-23",
     "_weekday": "Fri"
@@ -20,9 +29,19 @@
   {
     "date": "2017-01-27 00:00:00",
     "start": "2017-01-26T17:00:00.000Z",
+    "end": "2017-01-27T17:00:00.000Z",
+    "name": "Giao thừa tết Nguyên đán",
+    "type": "observance",
+    "rule": "1 day before vietnamese 1-0-1",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2017-01-27 00:00:00",
+    "start": "2017-01-26T17:00:00.000Z",
     "end": "2017-01-31T17:00:00.000Z",
-    "name": "Giao thừa Tết Nguyên Đán",
+    "name": "Kỳ nghỉ tết Nguyên đán",
     "type": "public",
+    "note": "The five-day holiday period may vary according to annual announcements and the employer's chosen schedule.",
     "rule": "1 day before vietnamese 1-0-1 P5D",
     "_weekday": "Fri"
   },
@@ -30,7 +49,7 @@
     "date": "2017-01-28 00:00:00",
     "start": "2017-01-27T17:00:00.000Z",
     "end": "2017-01-28T17:00:00.000Z",
-    "name": "Tết Nguyên Đán",
+    "name": "Tết Nguyên đán",
     "type": "public",
     "rule": "vietnamese 1-0-1",
     "_weekday": "Sat"
@@ -39,7 +58,7 @@
     "date": "2017-02-01 00:00:00",
     "start": "2017-01-31T17:00:00.000Z",
     "end": "2017-02-01T17:00:00.000Z",
-    "name": "Chiến thắng Ngọc Hồi - Đống Đa",
+    "name": "Chiến thắng Ngọc Hồi – Đống Đa",
     "type": "observance",
     "rule": "vietnamese 1-0-5",
     "_weekday": "Wed"
@@ -48,7 +67,7 @@
     "date": "2017-02-03 00:00:00",
     "start": "2017-02-02T17:00:00.000Z",
     "end": "2017-02-03T17:00:00.000Z",
-    "name": "Ngày thành lập Đảng",
+    "name": "Ngày thành lập Đảng Cộng sản Việt Nam",
     "type": "observance",
     "rule": "02-03",
     "_weekday": "Fri"
@@ -57,25 +76,70 @@
     "date": "2017-02-11 00:00:00",
     "start": "2017-02-10T17:00:00.000Z",
     "end": "2017-02-11T17:00:00.000Z",
-    "name": "Tết Nguyên Tiêu",
+    "name": "Tết Nguyên tiêu",
     "type": "observance",
     "rule": "vietnamese 1-0-15",
     "_weekday": "Sat"
   },
   {
+    "date": "2017-02-27 00:00:00",
+    "start": "2017-02-26T17:00:00.000Z",
+    "end": "2017-02-27T17:00:00.000Z",
+    "name": "Ngày Thầy thuốc Việt Nam",
+    "type": "observance",
+    "rule": "02-27",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2017-03-08 00:00:00",
     "start": "2017-03-07T17:00:00.000Z",
     "end": "2017-03-08T17:00:00.000Z",
-    "name": "Quốc tế Phụ nữ",
+    "name": "Ngày Quốc tế Phụ nữ",
     "type": "observance",
     "rule": "03-08",
     "_weekday": "Wed"
   },
   {
+    "date": "2017-03-26 00:00:00",
+    "start": "2017-03-25T17:00:00.000Z",
+    "end": "2017-03-26T17:00:00.000Z",
+    "name": "Ngày thành lập Đoàn TNCS Hồ Chí Minh",
+    "type": "observance",
+    "rule": "03-26",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2017-03-27 00:00:00",
+    "start": "2017-03-26T17:00:00.000Z",
+    "end": "2017-03-27T17:00:00.000Z",
+    "name": "Ngày Thể thao Việt Nam",
+    "type": "observance",
+    "rule": "03-27",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2017-03-30 00:00:00",
+    "start": "2017-03-29T17:00:00.000Z",
+    "end": "2017-03-30T17:00:00.000Z",
+    "name": "Tết Hàn thực",
+    "type": "observance",
+    "rule": "vietnamese 3-0-3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-04-04 00:00:00",
+    "start": "2017-04-03T17:00:00.000Z",
+    "end": "2017-04-04T17:00:00.000Z",
+    "name": "Ngày bắt đầu tiết Thanh minh",
+    "type": "observance",
+    "rule": "vietnamese 5-01 solarterm",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2017-04-06 00:00:00",
     "start": "2017-04-05T17:00:00.000Z",
     "end": "2017-04-06T17:00:00.000Z",
-    "name": "Giỗ tổ Hùng Vương",
+    "name": "Giỗ Tổ Hùng Vương",
     "type": "public",
     "rule": "vietnamese 3-0-10",
     "_weekday": "Thu"
@@ -86,14 +150,14 @@
     "end": "2017-04-21T17:00:00.000Z",
     "name": "Ngày Sách Việt Nam",
     "type": "observance",
-    "rule": "04-21",
+    "rule": "04-21 prior to 2022",
     "_weekday": "Fri"
   },
   {
     "date": "2017-04-30 00:00:00",
     "start": "2017-04-29T17:00:00.000Z",
     "end": "2017-04-30T17:00:00.000Z",
-    "name": "Ngày Giải phóng miền Nam",
+    "name": "Ngày Giải phóng miền Nam, thống nhất đất nước",
     "type": "public",
     "rule": "04-30",
     "_weekday": "Sun"
@@ -102,7 +166,7 @@
     "date": "2017-05-01 00:00:00",
     "start": "2017-04-30T17:00:00.000Z",
     "end": "2017-05-01T17:00:00.000Z",
-    "name": "Quốc tế Lao động",
+    "name": "Ngày Quốc tế Lao động",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Mon"
@@ -111,7 +175,7 @@
     "date": "2017-05-07 00:00:00",
     "start": "2017-05-06T17:00:00.000Z",
     "end": "2017-05-07T17:00:00.000Z",
-    "name": "Ngày Chiến thắng Điện Biện Phủ",
+    "name": "Ngày Chiến thắng Điện Biên Phủ",
     "type": "observance",
     "rule": "05-07",
     "_weekday": "Sun"
@@ -120,7 +184,7 @@
     "date": "2017-05-10 00:00:00",
     "start": "2017-05-09T17:00:00.000Z",
     "end": "2017-05-10T17:00:00.000Z",
-    "name": "Lễ Phật đản",
+    "name": "Đại lễ Phật đản",
     "type": "observance",
     "rule": "vietnamese 4-0-15",
     "_weekday": "Wed"
@@ -147,10 +211,19 @@
     "date": "2017-06-01 00:00:00",
     "start": "2017-05-31T17:00:00.000Z",
     "end": "2017-06-01T17:00:00.000Z",
-    "name": "Ngày quốc tế Thiếu nhi",
+    "name": "Ngày Quốc tế Thiếu nhi",
     "type": "observance",
     "rule": "06-01",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2017-06-21 00:00:00",
+    "start": "2017-06-20T17:00:00.000Z",
+    "end": "2017-06-21T17:00:00.000Z",
+    "name": "Ngày Báo chí cách mạng Việt Nam",
+    "type": "observance",
+    "rule": "06-21",
+    "_weekday": "Wed"
   },
   {
     "date": "2017-06-28 00:00:00",
@@ -165,16 +238,25 @@
     "date": "2017-07-27 00:00:00",
     "start": "2017-07-26T17:00:00.000Z",
     "end": "2017-07-27T17:00:00.000Z",
-    "name": "Ngày Thương Binh Liệt Sĩ",
+    "name": "Ngày Thương binh – Liệt sĩ",
     "type": "observance",
     "rule": "07-27",
     "_weekday": "Thu"
   },
   {
+    "date": "2017-07-28 00:00:00",
+    "start": "2017-07-27T17:00:00.000Z",
+    "end": "2017-07-28T17:00:00.000Z",
+    "name": "Ngày thành lập Công đoàn Việt Nam",
+    "type": "observance",
+    "rule": "07-28",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2017-08-19 00:00:00",
     "start": "2017-08-18T17:00:00.000Z",
     "end": "2017-08-19T17:00:00.000Z",
-    "name": "Ngày cách mạng Tháng Tám",
+    "name": "Ngày Cách mạng tháng Tám",
     "type": "observance",
     "rule": "08-19",
     "_weekday": "Sat"
@@ -183,7 +265,7 @@
     "date": "2017-09-02 00:00:00",
     "start": "2017-09-01T17:00:00.000Z",
     "end": "2017-09-02T17:00:00.000Z",
-    "name": "Quốc khánh",
+    "name": "Ngày Quốc khánh",
     "type": "public",
     "rule": "09-02",
     "_weekday": "Sat"
@@ -192,10 +274,19 @@
     "date": "2017-09-05 00:00:00",
     "start": "2017-09-04T17:00:00.000Z",
     "end": "2017-09-05T17:00:00.000Z",
-    "name": "Rằm Tháng Bảy, Vu Lan",
+    "name": "Rằm tháng Bảy – Lễ Vu lan",
     "type": "observance",
     "rule": "vietnamese 7-0-15",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-10-02 00:00:00",
+    "start": "2017-10-01T17:00:00.000Z",
+    "end": "2017-10-02T17:00:00.000Z",
+    "name": "Ngày Khuyến học Việt Nam",
+    "type": "observance",
+    "rule": "10-02",
+    "_weekday": "Mon"
   },
   {
     "date": "2017-10-04 00:00:00",
@@ -210,10 +301,19 @@
     "date": "2017-10-10 00:00:00",
     "start": "2017-10-09T17:00:00.000Z",
     "end": "2017-10-10T17:00:00.000Z",
-    "name": "Ngày giải phóng Thủ Đô",
+    "name": "Ngày Giải phóng Thủ đô",
     "type": "observance",
     "rule": "10-10",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2017-10-13 00:00:00",
+    "start": "2017-10-12T17:00:00.000Z",
+    "end": "2017-10-13T17:00:00.000Z",
+    "name": "Ngày Doanh nhân Việt Nam",
+    "type": "observance",
+    "rule": "10-13",
+    "_weekday": "Fri"
   },
   {
     "date": "2017-10-20 00:00:00",
@@ -225,6 +325,24 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2017-11-09 00:00:00",
+    "start": "2017-11-08T17:00:00.000Z",
+    "end": "2017-11-09T17:00:00.000Z",
+    "name": "Ngày Pháp luật Việt Nam",
+    "type": "observance",
+    "rule": "11-09",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2017-11-18 00:00:00",
+    "start": "2017-11-17T17:00:00.000Z",
+    "end": "2017-11-18T17:00:00.000Z",
+    "name": "Ngày hội Đại đoàn kết toàn dân tộc",
+    "type": "observance",
+    "rule": "11-18",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2017-11-20 00:00:00",
     "start": "2017-11-19T17:00:00.000Z",
     "end": "2017-11-20T17:00:00.000Z",
@@ -234,12 +352,30 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2017-11-23 00:00:00",
+    "start": "2017-11-22T17:00:00.000Z",
+    "end": "2017-11-23T17:00:00.000Z",
+    "name": "Ngày Di sản văn hóa Việt Nam",
+    "type": "observance",
+    "rule": "11-23",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2017-12-22 00:00:00",
     "start": "2017-12-21T17:00:00.000Z",
     "end": "2017-12-22T17:00:00.000Z",
-    "name": "Ngày hội Quốc phòng Toàn dân",
+    "name": "Ngày thành lập Quân đội nhân dân Việt Nam / Ngày hội Quốc phòng toàn dân",
     "type": "observance",
     "rule": "12-22",
     "_weekday": "Fri"
+  },
+  {
+    "date": "2017-12-26 00:00:00",
+    "start": "2017-12-25T17:00:00.000Z",
+    "end": "2017-12-26T17:00:00.000Z",
+    "name": "Ngày Dân số Việt Nam",
+    "type": "observance",
+    "rule": "12-26",
+    "_weekday": "Tue"
   }
 ]

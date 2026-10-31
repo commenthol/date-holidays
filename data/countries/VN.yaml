@@ -1,5 +1,5 @@
 # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Vietnam
-# @source http://www.moj.gov.vn/vbpq/Lists/Vn%20bn%20php%20lut/View_Detail.aspx?ItemID=27800 Article 115 Labour Code
+# @source https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/45.signed.pdf Articles 111-112, Labour Code 2019
 holidays:
   VN:
     names:
@@ -17,42 +17,91 @@ holidays:
       vietnamese 1-0-1:
         name:
           en: Vietnamese New Year
-          vi: Tết Nguyên Đán
+          vi: Tết Nguyên đán
+      # @source https://baochinhphu.vn/bo-noi-vu-thong-bao-lich-nghi-tet-am-lich-va-nghi-le-quoc-khanh-nam-2026-102251017095507785.htm
       1 day before vietnamese 1-0-1 P5D:
         name:
           en: Vietnamese New Year Holidays
-          vi: Giao thừa Tết Nguyên Đán
+          vi: Kỳ nghỉ tết Nguyên đán
+        note: The five-day holiday period may vary according to annual announcements and the employer's chosen schedule.
+      1 day before vietnamese 1-0-1:
+        name:
+          en: Vietnamese New Year's Eve
+          vi: Giao thừa tết Nguyên đán
+        type: observance
       vietnamese 3-0-10:
         name:
           en: Hung Kings Commemorations
-          vi: Giỗ tổ Hùng Vương
+          vi: Giỗ Tổ Hùng Vương
       04-30:
         name:
           en: Day of liberating the South for national reunification
-          vi: Ngày Giải phóng miền Nam
+          vi: Ngày Giải phóng miền Nam, thống nhất đất nước
       05-01:
         _name: 05-01
+        name:
+          vi: Ngày Quốc tế Lao động
       09-02:
         name:
           en: National Day
-          vi: Quốc khánh
+          vi: Ngày Quốc khánh
+      # @source https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-28-2026-qh16-ve-phat-trien-van-hoa-viet-nam-119260508142130402.htm
+      # Resolution 28/2026/QH16 took effect on 2026-07-01.
+      11-24 since 2026:
+        name:
+          en: Vietnam Culture Day
+          vi: Ngày Văn hóa Việt Nam
+        type: public
+      # @source https://baochinhphu.vn/nhieu-hoat-dong-ky-niem-60-nam-ngay-hoc-sinh-sinh-vien-10230395.htm
+      01-09:
+        name:
+          en: Vietnamese Students' Day
+          vi: Ngày truyền thống học sinh, sinh viên Việt Nam
+        type: observance
       02-03:
         name:
           en: Communist Party of Viet Nam Foundation Anniversary
-          vi: Ngày thành lập Đảng
+          vi: Ngày thành lập Đảng Cộng sản Việt Nam
+        type: observance
+      # @source https://baochinhphu.vn/trao-tang-ban-sao-thu-ho-chu-tich-gui-nganh-y-te-102235142.htm
+      02-27:
+        name:
+          en: Vietnamese Doctors' Day
+          vi: Ngày Thầy thuốc Việt Nam
         type: observance
       03-08:
         _name: 03-08
+        name:
+          vi: Ngày Quốc tế Phụ nữ
         type: observance
-      04-21:
+      # @source https://thanglong.chinhphu.vn/khat-vong-thanh-nien-thu-do-ky-niem-95-nam-ngay-thanh-lap-doan-tncs-ho-chi-minh-103260322121139536.htm
+      03-26:
+        name:
+          en: Ho Chi Minh Communist Youth Union Foundation Anniversary
+          vi: Ngày thành lập Đoàn TNCS Hồ Chí Minh
+        type: observance
+      # @source https://tdtt.gov.vn/chi-dao-dieu-hanh/hoat-dong-nganh/id/14317/67-nam-chang-duong-phat-trien-cua-the-thao-viet-nam
+      03-27:
+        name:
+          en: Vietnam Sports Day
+          vi: Ngày Thể thao Việt Nam
+        type: observance
+      04-21 prior to 2022:
         name:
           en: Vietnam Book Day
           vi: Ngày Sách Việt Nam
         type: observance
+      # @source https://baochinhphu.vn/to-chuc-ngay-sach-va-van-hoa-doc-viet-nam-102303345.htm
+      # Decision 1862/QD-TTg took effect on 2021-11-04, after Book Day in 2021.
+      04-21 since 2022:
+        name:
+          en: Vietnam Book and Reading Culture Day
+          vi: Ngày Sách và Văn hóa đọc Việt Nam
+        type: observance
       05-07:
         name:
           en: Dien Bien Phu Victory Day
-          vi: Ngày Chiến thắng Điện Biện Phủ
+          vi: Ngày Chiến thắng Điện Biên Phủ
         type: observance
       05-19:
         name:
@@ -62,7 +111,13 @@ holidays:
       06-01:
         name:
           en: International Children's Day
-          vi: Ngày quốc tế Thiếu nhi
+          vi: Ngày Quốc tế Thiếu nhi
+        type: observance
+      # @source https://vpcp.chinhphu.vn/hop-bao-chinh-phu-thuong-ky-thang-5-nguoi-phat-ngon-cua-chinh-phu-chuc-mung-bao-chi-nhan-ngay-21-6-115260603202542885.htm
+      06-21:
+        name:
+          en: Vietnam Revolutionary Press Day
+          vi: Ngày Báo chí cách mạng Việt Nam
         type: observance
       06-28:
         name:
@@ -72,47 +127,101 @@ holidays:
       07-27:
         name:
           en: Remembrance Day
-          vi: Ngày Thương Binh Liệt Sĩ
+          vi: Ngày Thương binh – Liệt sĩ
+        type: observance
+      # @source https://congdoanvietnam.vn/chi-dao-dieu-hanh-cua-tt/huong-dan-tuyen-truyen-ky-niem-97-nam-ngay-thanh-lap-cong-doan-viet-nam-40533.tld
+      07-28:
+        name:
+          en: Vietnam Trade Union Foundation Anniversary
+          vi: Ngày thành lập Công đoàn Việt Nam
         type: observance
       08-19:
         name:
           en: August Revolution Commemoration Day
-          vi: Ngày cách mạng Tháng Tám
+          vi: Ngày Cách mạng tháng Tám
+        type: observance
+      # @source https://chinhphu.vn/default.aspx?docid=77498&pageid=27160
+      10-02:
+        name:
+          en: Vietnam Learning Promotion Day
+          vi: Ngày Khuyến học Việt Nam
         type: observance
       10-10:
         name:
           en: Capital Liberation Day
-          vi: Ngày giải phóng Thủ Đô
+          vi: Ngày Giải phóng Thủ đô
+        type: observance
+      # @source https://vccinews.com/upload/file/tv.pdf
+      10-13:
+        name:
+          en: Vietnamese Entrepreneurs' Day
+          vi: Ngày Doanh nhân Việt Nam
         type: observance
       10-20:
         name:
           en: Vietnamese Women's Day
           vi: Ngày Phụ nữ Việt Nam
         type: observance
+      # @source https://tcdcpl.moj.gov.vn/qt/tintuc/Pages/dien-dan-cong-tac-tu-phap.aspx?ItemID=65
+      11-09:
+        name:
+          en: Vietnam Law Day
+          vi: Ngày Pháp luật Việt Nam
+        type: observance
+      # @source https://codam.hatinh.gov.vn/vi/bai-viet/lich-su-ra-doi-ngay-hoi-dai-doan-ket-toan-dan-toc
+      11-18:
+        name:
+          en: Great National Unity Day
+          vi: Ngày hội Đại đoàn kết toàn dân tộc
+        type: observance
       11-20:
         name:
           en: Vietnamese Teacher's Day
           vi: Ngày Nhà giáo Việt Nam
         type: observance
+      # @source https://chinhphu.vn/default.aspx?docid=14374&pageid=27160
+      11-23:
+        name:
+          en: Vietnam Cultural Heritage Day
+          vi: Ngày Di sản văn hóa Việt Nam
+        type: observance
       12-22:
         name:
-          en: National Defence Day
-          vi: Ngày hội Quốc phòng Toàn dân
+          en: Vietnam People's Army Foundation Anniversary / National Defence Day
+          vi: Ngày thành lập Quân đội nhân dân Việt Nam / Ngày hội Quốc phòng toàn dân
+        type: observance
+      # @source https://vnpa.moh.gov.vn/lich-su-phat-trien/
+      12-26:
+        name:
+          en: Vietnam Population Day
+          vi: Ngày Dân số Việt Nam
         type: observance
       vietnamese 1-0-5:
         name:
           en: Victory of Ngọc Hồi-Đống Đa
-          vi: Chiến thắng Ngọc Hồi - Đống Đa
+          vi: Chiến thắng Ngọc Hồi – Đống Đa
         type: observance
       vietnamese 1-0-15:
         name:
           en: Lantern Festival
-          vi: Tết Nguyên Tiêu
+          vi: Tết Nguyên tiêu
+        type: observance
+      # @source https://baoxuan.vov.vn/doi-song/tiet-thanh-minh-2026-nen-tao-mo-vao-ngay-nao-nhung-luu-y-khi-di-tao-mo-post1277838.vov
+      vietnamese 5-01 solarterm:
+        name:
+          en: Start of Thanh Minh Solar Term
+          vi: Ngày bắt đầu tiết Thanh minh
+        type: observance
+      # @source https://vtv.vn/doi-song/cac-bai-van-khan-tet-han-thuc-20240409102728224.htm
+      vietnamese 3-0-3:
+        name:
+          en: Cold Food Festival
+          vi: Tết Hàn thực
         type: observance
       vietnamese 4-0-15:
         name:
           en: Buddha's Birthday
-          vi: Lễ Phật đản
+          vi: Đại lễ Phật đản
         type: observance
       vietnamese 5-0-5:
         name:
@@ -121,8 +230,8 @@ holidays:
         type: observance
       vietnamese 7-0-15:
         name:
-          en: Ghost Festival
-          vi: Rằm Tháng Bảy, Vu Lan
+          en: Seventh Lunar Month Full Moon / Vu Lan Festival
+          vi: Rằm tháng Bảy – Lễ Vu lan
         type: observance
       vietnamese 8-0-15:
         name:
@@ -131,8 +240,8 @@ holidays:
         type: observance
       vietnamese 12-0-23:
         name:
-          en: Kitchen guardians
-          vi: Ông Táo chầu trời
+          en: Kitchen Gods' Day
+          vi: Tết ông Công, ông Táo
         type: observance
     # regions:
     #   01:
