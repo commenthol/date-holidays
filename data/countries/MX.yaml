@@ -50,13 +50,13 @@ holidays:
           - from: 2006-01-18
       03-21:
         name:
-          en: Benito Juárez's birthday
+          en: Benito Juárez’s birthday
           es: Natalicio de Benito Juárez
         active:
           - to: 2006-12-31
       3rd monday in March:
         name:
-          en: Benito Juárez's birthday
+          en: Benito Juárez’s birthday
           es: Natalicio de Benito Juárez
         active:
           - from: 2007-01-01

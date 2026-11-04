@@ -16,10 +16,10 @@ holidays:
         substitute: true
         _name: 05-01
         name:
-          en: Worker's Day
+          en: Worker’s Day
       05-27:
         name:
-          en: Children's Day
+          en: Children’s Day
           type: school
       05-29 prior to 2018:
         name:

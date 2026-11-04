@@ -29,11 +29,11 @@ holidays:
           es: Día de las Glorias Navales
       06-21 since 2021 prior to 2022:
         name:
-          en: Indigenous People's Day
+          en: Indigenous People’s Day
           es: Día de los Pueblos Indígenas
       june solstice in America/Santiago since 2022:
         name:
-          en: Indigenous People's Day
+          en: Indigenous People’s Day
           es: Día de los Pueblos Indígenas
       06-29 if tuesday, wednesday, thursday then previous monday if friday then next monday:
         _name: 06-29
@@ -94,7 +94,7 @@ holidays:
             days:
               08-20:
                 name:
-                  en: Nativity of Liberator Bernardo O'Higgins
+                  en: Nativity of Liberator Bernardo O’Higgins
                   es: Nacimiento del Prócer de la Independencia
                 active:
                   - to: "2017-08-19"
@@ -106,7 +106,7 @@ holidays:
             days:
               08-20:
                 name:
-                  en: Nativity of Liberator Bernardo O'Higgins
+                  en: Nativity of Liberator Bernardo O’Higgins
                   es: Nacimiento del Prócer de la Independencia
                 active:
                   - from: "2017-08-19"

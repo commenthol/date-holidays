@@ -3,7 +3,7 @@
     "date": "2018-01-01 00:00:00",
     "start": "2018-01-01T05:00:00.000Z",
     "end": "2018-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Mon"
@@ -48,7 +48,7 @@
     "date": "2018-05-13 00:00:00",
     "start": "2018-05-13T04:00:00.000Z",
     "end": "2018-05-14T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -102,7 +102,7 @@
     "date": "2018-10-12 00:00:00",
     "start": "2018-10-12T04:00:00.000Z",
     "end": "2018-10-13T04:00:00.000Z",
-    "name": "National Heroes' Day",
+    "name": "National Heroes’ Day",
     "type": "public",
     "rule": "10-12 and if saturday,sunday then next monday",
     "_weekday": "Fri"

@@ -3,7 +3,7 @@
     "date": "2027-01-01 00:00:00",
     "start": "2027-01-01T04:00:00.000Z",
     "end": "2027-01-02T04:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Fri"
@@ -21,7 +21,7 @@
     "date": "2027-02-14 00:00:00",
     "start": "2027-02-14T04:00:00.000Z",
     "end": "2027-02-15T04:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sun"
@@ -59,7 +59,7 @@
     "date": "2027-05-09 00:00:00",
     "start": "2027-05-09T04:00:00.000Z",
     "end": "2027-05-10T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
@@ -68,7 +68,7 @@
     "date": "2027-05-24 00:00:00",
     "start": "2027-05-24T04:00:00.000Z",
     "end": "2027-05-25T04:00:00.000Z",
-    "name": "National Patriots' Day",
+    "name": "National Patriots’ Day",
     "type": "public",
     "rule": "monday before 05-25",
     "_weekday": "Mon"
@@ -77,7 +77,7 @@
     "date": "2027-06-20 00:00:00",
     "start": "2027-06-20T04:00:00.000Z",
     "end": "2027-06-21T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday after 06-01",
     "_weekday": "Sun"

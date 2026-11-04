@@ -3,7 +3,7 @@
     "date": "2015-01-01 00:00:00",
     "start": "2014-12-31T22:00:00.000Z",
     "end": "2015-01-01T22:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Thu"
@@ -21,7 +21,7 @@
     "date": "2015-03-03 00:00:00",
     "start": "2015-03-02T22:00:00.000Z",
     "end": "2015-03-03T22:00:00.000Z",
-    "name": "Martyrs' Day",
+    "name": "Martyrs’ Day",
     "type": "public",
     "rule": "03-03 and if saturday,sunday then next monday",
     "_weekday": "Tue"
@@ -93,7 +93,7 @@
     "date": "2015-10-15 00:00:00",
     "start": "2015-10-14T22:00:00.000Z",
     "end": "2015-10-15T22:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "public",
     "rule": "10-15 and if saturday,sunday then next monday",
     "_weekday": "Thu"

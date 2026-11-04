@@ -3,7 +3,7 @@
     "date": "2023-01-01 00:00:00",
     "start": "2022-12-31T22:00:00.000Z",
     "end": "2023-01-01T22:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Sun"
@@ -21,7 +21,7 @@
     "date": "2023-03-08 00:00:00",
     "start": "2023-03-07T22:00:00.000Z",
     "end": "2023-03-08T22:00:00.000Z",
-    "name": "International Women's Day",
+    "name": "International Women’s Day",
     "type": "public",
     "rule": "03-08",
     "_weekday": "Wed"
@@ -57,7 +57,7 @@
     "date": "2023-07-03 00:00:00",
     "start": "2023-07-02T22:00:00.000Z",
     "end": "2023-07-03T22:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "1st monday in July",
     "_weekday": "Mon"
@@ -102,7 +102,7 @@
     "date": "2023-12-31 00:00:00",
     "start": "2023-12-30T22:00:00.000Z",
     "end": "2023-12-31T22:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "public",
     "rule": "12-31",
     "_weekday": "Sun"

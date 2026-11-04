@@ -3,7 +3,7 @@
     "date": "2016-01-01 00:00:00",
     "start": "2015-12-31T16:00:00.000Z",
     "end": "2016-01-01T16:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Fri"
@@ -57,7 +57,7 @@
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-07T16:00:00.000Z",
     "end": "2016-05-08T16:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2016-09-04 00:00:00",
     "start": "2016-09-03T16:00:00.000Z",
     "end": "2016-09-04T16:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "1st sunday in September",
     "_weekday": "Sun"
@@ -84,7 +84,7 @@
     "date": "2016-09-26 00:00:00",
     "start": "2016-09-25T16:00:00.000Z",
     "end": "2016-09-26T16:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "Queen’s Birthday",
     "type": "public",
     "note": "Might be on a different day; is proclaimed by Governor",
     "rule": "monday before October",

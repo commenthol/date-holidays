@@ -3,7 +3,7 @@
     "date": "2021-01-01 00:00:00",
     "start": "2021-01-01T06:00:00.000Z",
     "end": "2021-01-02T06:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Fri"
@@ -84,7 +84,7 @@
     "date": "2021-09-10 00:00:00",
     "start": "2021-09-10T06:00:00.000Z",
     "end": "2021-09-11T06:00:00.000Z",
-    "name": "St. George's Caye Day",
+    "name": "St. George’s Caye Day",
     "type": "public",
     "rule": "09-10 if sunday then next monday",
     "_weekday": "Fri"

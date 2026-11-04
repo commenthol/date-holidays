@@ -22,7 +22,7 @@ holidays:
       01-20:
         name:
           az: Qara Yanvar
-          en: Martyrs' Day
+          en: Martyrs’ Day
         type: observance
       03-08 and if saturday,sunday then next monday:
         substitute: true

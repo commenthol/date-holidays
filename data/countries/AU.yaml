@@ -79,12 +79,12 @@ holidays:
               en: Reconciliation Day
           2nd monday in June:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "2nd monday in June #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             active:
               - from: "2022-09-09"
           1st monday in October:
@@ -111,12 +111,12 @@ holidays:
               - from: "2026-04-25"
           2nd monday in June:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "2nd monday in June #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             active:
               - from: "2022-09-09"
           1st monday in August:
@@ -148,12 +148,12 @@ holidays:
               en: May Day
           2nd monday in June:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "2nd monday in June #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             active:
               - from: "2022-09-09"
           1st monday in August:
@@ -195,7 +195,7 @@ holidays:
           2nd monday in June: false
           1st monday in October:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "1st monday in October #1":
@@ -220,12 +220,12 @@ holidays:
               en: Adelaide Cup Day
           2nd monday in June:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "2nd monday in June #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             active:
               - from: "2022-09-09"
           1st monday in October:
@@ -274,12 +274,12 @@ holidays:
             note: Public Service employees or contract dependent
           2nd monday in June:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "2nd monday in June #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             active:
               - from: "2022-09-09"
           1st monday in October: false
@@ -298,12 +298,12 @@ holidays:
               en: Labour Day
           2nd monday in June:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             active:
               - to: "2022-09-08"
           "2nd monday in June #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             active:
               - from: "2022-09-09"
           1st monday in October: false
@@ -517,13 +517,13 @@ holidays:
           2nd monday in June: false
           monday before October:
             name:
-              en: Queen's Birthday
+              en: Queen’s Birthday
             note: Might be on a different day; is proclaimed by Governor
             active:
               - to: "2022-09-08"
           "monday before October #1":
             name:
-              en: King's Birthday
+              en: King’s Birthday
             note: Might be on a different day; is proclaimed by Governor
             active:
               - from: "2022-09-09"

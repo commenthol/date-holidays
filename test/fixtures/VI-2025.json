@@ -3,7 +3,7 @@
     "date": "2025-01-01 00:00:00",
     "start": "2025-01-01T04:00:00.000Z",
     "end": "2025-01-02T04:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Wed"
@@ -30,7 +30,7 @@
     "date": "2025-02-14 00:00:00",
     "start": "2025-02-14T04:00:00.000Z",
     "end": "2025-02-15T04:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Fri"
@@ -39,7 +39,7 @@
     "date": "2025-02-17 00:00:00",
     "start": "2025-02-17T04:00:00.000Z",
     "end": "2025-02-18T04:00:00.000Z",
-    "name": "President's Day",
+    "name": "President’s Day",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -111,7 +111,7 @@
     "date": "2025-05-11 00:00:00",
     "start": "2025-05-11T04:00:00.000Z",
     "end": "2025-05-12T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -129,7 +129,7 @@
     "date": "2025-06-15 00:00:00",
     "start": "2025-06-15T04:00:00.000Z",
     "end": "2025-06-16T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -255,7 +255,7 @@
     "date": "2025-12-31 00:00:00",
     "start": "2025-12-31T04:00:00.000Z",
     "end": "2026-01-01T04:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Wed"

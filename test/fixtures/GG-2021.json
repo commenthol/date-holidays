@@ -3,7 +3,7 @@
     "date": "2021-01-01 00:00:00",
     "start": "2021-01-01T00:00:00.000Z",
     "end": "2021-01-02T00:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Fri"
@@ -12,7 +12,7 @@
     "date": "2021-03-14 00:00:00",
     "start": "2021-03-14T00:00:00.000Z",
     "end": "2021-03-15T00:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "easter -21",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2021-06-20 00:00:00",
     "start": "2021-06-19T23:00:00.000Z",
     "end": "2021-06-20T23:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"

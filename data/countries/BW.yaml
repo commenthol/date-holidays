@@ -14,7 +14,7 @@ holidays:
         note: except mining industy
       01-02:
         name:
-          en: New Year's Holiday
+          en: New Year’s Holiday
         note: except mining industy
       substitutes 01-02 if monday then next tuesday:
         name:

@@ -23,7 +23,7 @@ holidays:
       02-18:
         name:
           is: Konudagur
-          en: Woman's Day
+          en: Woman’s Day
         type: observance
       easter -48:
         name:
@@ -65,7 +65,7 @@ holidays:
       1st sunday in June:
         name:
           is: Sjómannadagurinn
-          en: The Seamen's Day
+          en: The Seamen’s Day
         type: observance
       06-17:
         name:
@@ -90,7 +90,7 @@ holidays:
       12-23:
         name:
           is: Þorláksmessa
-          en: St Þorlákur's Day
+          en: St Þorlákur’s Day
         type: observance
       "12-24 13:00 if sunday then 00:00":
         _name: 12-24

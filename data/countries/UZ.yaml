@@ -19,13 +19,13 @@ holidays:
         name:
           uz: Yangi yil bayrami
           ru: Новый год
-          en: New Year's Day
+          en: New Year’s Day
       03-08 and if saturday,sunday then next monday:
         substitute: true
         name:
           uz: Xalqaro xotin-qizlar kuni
           ru: Международный женский день
-          en: International Women's Day
+          en: International Women’s Day
       03-21 and if saturday,sunday then next monday:
         substitute: true
         name:

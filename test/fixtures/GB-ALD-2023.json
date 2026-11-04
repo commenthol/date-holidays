@@ -3,7 +3,7 @@
     "date": "2023-01-01 00:00:00",
     "start": "2023-01-01T00:00:00.000Z",
     "end": "2023-01-02T00:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Sun"
@@ -12,7 +12,7 @@
     "date": "2023-01-02 00:00:00",
     "start": "2023-01-02T00:00:00.000Z",
     "end": "2023-01-03T00:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "substitutes 01-01 if sunday then next monday",
@@ -22,7 +22,7 @@
     "date": "2023-03-19 00:00:00",
     "start": "2023-03-19T00:00:00.000Z",
     "end": "2023-03-20T00:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "easter -21",
     "_weekday": "Sun"
@@ -67,7 +67,7 @@
     "date": "2023-05-08 00:00:00",
     "start": "2023-05-07T23:00:00.000Z",
     "end": "2023-05-08T23:00:00.000Z",
-    "name": "King Charles III's Coronation",
+    "name": "King Charles III’s Coronation",
     "type": "public",
     "rule": "2023-05-08",
     "_weekday": "Mon"
@@ -85,7 +85,7 @@
     "date": "2023-06-18 00:00:00",
     "start": "2023-06-17T23:00:00.000Z",
     "end": "2023-06-18T23:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"

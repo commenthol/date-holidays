@@ -19,7 +19,7 @@ holidays:
           en: Decoration Day
       03-15:
         name:
-          en: J. J. Robert's Day
+          en: J. J. Robert’s Day
       2nd Friday in April:
         name:
           en: Fast and Prayer Day
@@ -36,7 +36,7 @@ holidays:
           en: Thanksgiving
       11-29:
         name:
-          en: William Tubman's Birthday
+          en: William Tubman’s Birthday
       12-25:
         _name: 12-25
     # states:

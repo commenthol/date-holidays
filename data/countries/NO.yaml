@@ -109,7 +109,7 @@ holidays:
       1st sunday in November:
         name:
           no: Allehelgensaften
-          en: All Saints' Day
+          en: All Saints’ Day
         type: observance
       2nd sunday in November:
         _name: Fathers Day

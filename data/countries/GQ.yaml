@@ -33,7 +33,7 @@ holidays:
         substitute: true
         name:
           es: Natalicio de Teodoro Obiang
-          en: President's Day
+          en: President’s Day
       08-03 and if sunday then next monday:
         substitute: true
         name:

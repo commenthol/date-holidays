@@ -18,7 +18,7 @@ holidays:
         _name: 01-01
       substitutes 01-01 if sunday then next monday:
         name:
-          en: New Year's Day (substitutes)
+          en: New Year’s Day (substitutes)
           es: Año Nuevo (substituto)
       01-22:
         name:
@@ -44,7 +44,7 @@ holidays:
           es: Martes de Carnaval
       03-19:
         name:
-          en: Father's Day
+          en: Father’s Day
           es: Día del Padre
         type: observance
       03-23:
@@ -59,7 +59,7 @@ holidays:
         _name: easter -2
       04-12:
         name:
-          en: Children's Day
+          en: Children’s Day
           es: Día del Niño
         type: observance
       05-01:
@@ -71,12 +71,12 @@ holidays:
           es: Día del Trabajo (substituto)
       05-27:
         name:
-          en: Mother's Day
+          en: Mother’s Day
           es: Día de la Madre
         type: observance
       06-06:
         name:
-          en: Teacher's Day
+          en: Teacher’s Day
           es: Día del Maestro
         type: observance
       easter 60:
@@ -104,13 +104,13 @@ holidays:
         type: observance
       09-21:
         name:
-          en: Student's Day
+          en: Student’s Day
           es: Día del Estudiante
         type: observance
       10-11:
         name:
           es: Día de la Mujer Boliviana
-          en: Bolivian Woman's Day
+          en: Bolivian Woman’s Day
         type: observance
       11-01:
         _name: 11-01

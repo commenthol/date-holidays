@@ -3,7 +3,7 @@
     "date": "2022-01-01 00:00:00",
     "start": "2021-12-31T23:00:00.000Z",
     "end": "2022-01-01T23:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Sat"
@@ -39,7 +39,7 @@
     "date": "2022-05-01 00:00:00",
     "start": "2022-04-30T23:00:00.000Z",
     "end": "2022-05-01T23:00:00.000Z",
-    "name": "Worker's Day",
+    "name": "Worker’s Day",
     "type": "public",
     "rule": "05-01 and if Saturday then next Monday",
     "_weekday": "Sun"
@@ -57,7 +57,7 @@
     "date": "2022-05-27 00:00:00",
     "start": "2022-05-26T23:00:00.000Z",
     "end": "2022-05-27T23:00:00.000Z",
-    "name": "Children's Day",
+    "name": "Children’s Day",
     "type": "public",
     "rule": "05-27",
     "_weekday": "Fri"
@@ -138,7 +138,7 @@
     "date": "2022-12-31 00:00:00",
     "start": "2022-12-30T23:00:00.000Z",
     "end": "2022-12-31T23:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Sat"

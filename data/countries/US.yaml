@@ -50,14 +50,14 @@ holidays:
           es: Natalicio de Martin Luther King, Jr.
       3rd monday in February:
         name:
-          en: Washington's Birthday
+          en: Washington’s Birthday
           es: Día de los Presidentes
       02-14:
         _name: 02-14
         type: observance
       03-17:
         name:
-          en: St. Patrick's Day
+          en: St. Patrick’s Day
         type: observance
       easter:
         _name: easter
@@ -150,7 +150,7 @@ holidays:
               en: Confederate Memorial Day
           1st monday in June:
             name:
-              en: Jefferson Davis' birthday
+              en: Jefferson Davis’ birthday
       AK:
         name: Alaska
         zones:
@@ -163,10 +163,10 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
           monday before April:
             name:
-              en: Seward's Day
+              en: Seward’s Day
           # @source https://gov.alaska.gov/Walker/press-room/full-proclamation.html?pr=7296
           # @source http://time.com/4070797/alaska-indigenous-peoples-day/
           # @source https://www.alaskapublic.org/2017/06/28/governor-walker-signs-law-recognizing-indigenous-peoples-day-in-alaska/
@@ -177,7 +177,7 @@ holidays:
               - to: "2017-01-01"
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2017-01-01"
           10-18:
@@ -194,7 +194,7 @@ holidays:
               en: Dr. Martin Luther King Jr./ Civil Rights Day
           3rd monday in February:
             name:
-              en: Lincoln/Washington Presidents' Day
+              en: Lincoln/Washington Presidents’ Day
       AR:
         name: Arkansas
         zones:
@@ -202,10 +202,10 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: Dr. Martin Luther King Jr./Robert E. Lee's Birthdays
+              en: Dr. Martin Luther King Jr./Robert E. Lee’s Birthdays
           3rd monday in February:
             name:
-              en: George Washington's Birthday/Daisy Gatson Bates Day
+              en: George Washington’s Birthday/Daisy Gatson Bates Day
           12-24:
             _name: 12-24
       CA:
@@ -217,7 +217,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           2nd monday in October: false
           02-15:
             type: observance
@@ -275,7 +275,7 @@ holidays:
         days:
           02-12:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
           easter -2:
             _name: easter -2
       DE:
@@ -305,7 +305,7 @@ holidays:
             # https://www.cnn.com/2021/10/11/us/indigenous-peoples-day-2021-states-trnd/index.html
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2019-10-09"
       FL:
@@ -314,7 +314,7 @@ holidays:
           # @source https://dos.fl.gov/communications/press-releases/2026/icymi-governor-ron-desantis-announces-statewide-commemoration-of-america-s-250th-birthday
           "2026-02-16":
             name:
-              en: Commemoration of America's 250th Birthday
+              en: Commemoration of America’s 250th Birthday
           2nd monday in October: false
           3rd monday in February: false
           02-15:
@@ -355,7 +355,7 @@ holidays:
               - from: "2016-01-01"
           "friday after 4th thursday in November #1":
             name:
-              en: Robert E. Lee's Birthday
+              en: Robert E. Lee’s Birthday
             note: General Lee was born on 1807-01-19 but this holiday was traditionally observed the day after Thanksgiving.
             active:
               - to: "2016-01-01"
@@ -368,11 +368,11 @@ holidays:
 
           12-24:
             name:
-              en: Washington's Birthday
+              en: Washington’s Birthday
           substitutes 12-24 if wednesday then next friday:
             substitute: true
             name:
-              en: Washington's Birthday
+              en: Washington’s Birthday
       HI:
         # @source http://dhrd.hawaii.gov/state-observed-holidays/
         # @source https://dhrd.hawaii.gov/wp-content/uploads/2012/10/State-Holidays-2016-2017.pdf
@@ -382,7 +382,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           03-26 and if saturday then previous friday if sunday then next monday:
             substitute: true
             name:
@@ -411,7 +411,7 @@ holidays:
               en: "Martin Luther King, Jr./ Idaho Human Rights Day"
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
       IL:
         name: Illinois
         zones:
@@ -419,7 +419,7 @@ holidays:
         days:
           02-12:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
           1st monday in March:
             name:
               en: Casimir Pulaski Day
@@ -451,7 +451,7 @@ holidays:
               en: Election Day
           friday after 4th thursday in November:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
       IA:
         name: Iowa
         zones:
@@ -459,7 +459,7 @@ holidays:
         days:
           02-12:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
           # https://www.desmoinesregister.com/story/news/2018/10/08/iowa-indigenous-peoples-day-columbus-day-kim-reynolds/1565615002/
           2nd monday in October:
             name:
@@ -468,7 +468,7 @@ holidays:
               - to: "2018-10-07"
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2018-10-08"
       KS:
@@ -519,14 +519,14 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Washington's Birthday/President's Day
+              en: Washington’s Birthday/President’s Day
           3rd monday in April:
             name:
-              en: Patriots' Day
+              en: Patriots’ Day
           # https://www.maine.gov/governor/mills/news/governor-mills-recognizes-indigenous-peoples-day-2021-10-11
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2019-04-26"
       MD:
@@ -536,7 +536,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
           friday before 1st monday before 06-01 since 2009 and prior to 2016:
             name:
               en: Service Reduction Day
@@ -553,7 +553,7 @@ holidays:
               en: Evacuation Day
           3rd monday in April:
             name:
-              en: Patriots' Day
+              en: Patriots’ Day
           06-17:
             name:
               en: Bunker Hill Day
@@ -575,7 +575,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Washington's and Lincoln's Birthday
+              en: Washington’s and Lincoln’s Birthday
           # @source https://www.aol.com/article/lifestyle/2017/10/09/here-are-some-of-the-states-and-cities-celebrating-indigenous-peoples-day-instead-of-columbus-day/23237097/
           2nd monday in October:
             name:
@@ -584,7 +584,7 @@ holidays:
               - to: "2017-01-01"
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2017-01-01"
       MS:
@@ -594,7 +594,7 @@ holidays:
         days:
           3rd monday in January:
             name:
-              en: Martin Luther King's and Robert E. Lee's Birthdays
+              en: Martin Luther King’s and Robert E. Lee’s Birthdays
           monday before 05-01:
             name:
               en: Confederate Memorial Day
@@ -605,7 +605,7 @@ holidays:
         days:
           02-12:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
           05-08:
             name:
               en: Truman Day
@@ -616,7 +616,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Lincoln's and Washington's Birthday
+              en: Lincoln’s and Washington’s Birthday
           tuesday after 1st monday in November:
             name:
               en: Election Day
@@ -632,7 +632,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
           friday before 05-01:
             name:
               en: Arbor Day
@@ -648,7 +648,7 @@ holidays:
           # @source https://www.reviewjournal.com/news/2017-legislature/nevada-may-soon-recognize-indigenous-peoples-day/
           08-09:
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2017-01-01"
             type: observance
@@ -668,7 +668,7 @@ holidays:
               en: Martin Luther King, Jr./ Civil Rights Day
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
           2nd monday in October:
             type: observance
           tuesday after 1st monday in November in even years:
@@ -684,7 +684,7 @@ holidays:
         days:
           02-12:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
           3rd monday in February:
             name:
               en: Presidents Day
@@ -701,11 +701,11 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           # https://www.governor.state.nm.us/2020/10/12/gov-issues-statement-as-new-mexico-celebrates-indigenous-peoples-day/
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2019-04-01"
           friday after 4th thursday in November:
@@ -718,7 +718,7 @@ holidays:
         days:
           02-12:
             name:
-              en: Lincoln's Birthday
+              en: Lincoln’s Birthday
           02-15:
             name:
               en: Susan B. Anthony Day
@@ -750,7 +750,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
       OH:
         name: Ohio
         zones:
@@ -767,7 +767,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           friday after 4th thursday in November:
             name:
               en: Day after Thanksgiving
@@ -787,7 +787,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           06-14:
             name:
               en: Flag Day
@@ -817,7 +817,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           # @source https://www.argusleader.com/story/davidmontgomery/2014/10/13/native-american-day/17194651/
           2nd monday in October:
             name:
@@ -837,7 +837,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
           easter -2:
             _name: easter -2
           12-24:
@@ -857,7 +857,7 @@ holidays:
             note: state agencies are partially staffed
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           03-02:
             name:
               en: Texas Independence Day
@@ -912,7 +912,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
           1st tuesday in March:
             name:
               en: Town Meeting Day
@@ -927,7 +927,7 @@ holidays:
               - to: "2017-09-01"
           "2nd monday in October #1":
             name:
-              en: Indigenous Peoples' Day
+              en: Indigenous Peoples’ Day
             active:
               - from: "2017-09-01"
       VA:
@@ -951,7 +951,7 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: Presidents' Day
+              en: Presidents’ Day
       WV:
         name: West Virginia
         zones:
@@ -962,13 +962,13 @@ holidays:
               en: Susan B. Anthony Day
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day
           06-20:
             name:
               en: West Virginia Day
           4th friday in November:
             name:
-              en: Lincoln's Day
+              en: Lincoln’s Day
       WI:
         name: Wisconsin
         zones:
@@ -991,4 +991,4 @@ holidays:
         days:
           3rd monday in February:
             name:
-              en: President's Day
+              en: President’s Day

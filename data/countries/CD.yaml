@@ -46,7 +46,7 @@ holidays:
         substitute: true
         name:
           fr: Fête des parents
-          en: Parents' Day
+          en: Parents’ Day
       12-25 and if sunday then next monday:
         substitute: true
         _name: 12-25

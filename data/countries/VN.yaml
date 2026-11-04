@@ -56,12 +56,12 @@ holidays:
         type: observance
       05-19:
         name:
-          en: President Ho Chi Minh's Birthday
+          en: President Ho Chi Minh’s Birthday
           vi: Ngày sinh Chủ tịch Hồ Chí Minh
         type: observance
       06-01:
         name:
-          en: International Children's Day
+          en: International Children’s Day
           vi: Ngày quốc tế Thiếu nhi
         type: observance
       06-28:
@@ -86,12 +86,12 @@ holidays:
         type: observance
       10-20:
         name:
-          en: Vietnamese Women's Day
+          en: Vietnamese Women’s Day
           vi: Ngày Phụ nữ Việt Nam
         type: observance
       11-20:
         name:
-          en: Vietnamese Teacher's Day
+          en: Vietnamese Teacher’s Day
           vi: Ngày Nhà giáo Việt Nam
         type: observance
       12-22:
@@ -111,7 +111,7 @@ holidays:
         type: observance
       vietnamese 4-0-15:
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           vi: Lễ Phật đản
         type: observance
       vietnamese 5-0-5:

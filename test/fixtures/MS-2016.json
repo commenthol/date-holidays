@@ -3,7 +3,7 @@
     "date": "2016-01-01 00:00:00",
     "start": "2016-01-01T04:00:00.000Z",
     "end": "2016-01-02T04:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if Saturday then next Monday if Sunday then next Tuesday",
     "_weekday": "Fri"
@@ -12,7 +12,7 @@
     "date": "2016-03-17 00:00:00",
     "start": "2016-03-17T04:00:00.000Z",
     "end": "2016-03-18T04:00:00.000Z",
-    "name": "Saint Patrick's Day",
+    "name": "Saint Patrick’s Day",
     "type": "public",
     "rule": "03-17 and if Saturday, Sunday then next Monday",
     "_weekday": "Thu"
@@ -57,7 +57,7 @@
     "date": "2016-06-13 00:00:00",
     "start": "2016-06-13T04:00:00.000Z",
     "end": "2016-06-14T04:00:00.000Z",
-    "name": "Queen's Birthday Celebration",
+    "name": "Queen’s Birthday Celebration",
     "type": "public",
     "rule": "2nd Monday after 06-02",
     "_weekday": "Mon"

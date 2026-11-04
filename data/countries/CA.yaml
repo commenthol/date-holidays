@@ -212,12 +212,12 @@ holidays:
               en: Memorial Day
           03-17:
             name:
-              en: Saint Patrick's Day
+              en: Saint Patrick’s Day
               fr: Jour de la Saint-Patrick
             type: optional
           04-23:
             name:
-              en: Saint George's Day
+              en: Saint George’s Day
               fr: Jour de St. George
             type: optional
           06-24:
@@ -227,7 +227,7 @@ holidays:
             type: optional
           07-12:
             name:
-              en: Orangemen's Day
+              en: Orangemen’s Day
               fr: Fête des orangistes
             type: optional
           # @source https://www.assembly.nl.ca/legislation/sr/annualstatutes/RSN1990/S15.c90.htm
@@ -396,7 +396,7 @@ holidays:
           # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           monday before 05-25:
             name:
-              en: National Patriots' Day
+              en: National Patriots’ Day
               fr: Journée nationale des patriotes
           06-24:
             name:

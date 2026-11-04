@@ -16,7 +16,7 @@ holidays:
     days:
       01-01:
         name:
-          en: New Year's Day
+          en: New Year’s Day
           si: නව වසර
           ta: புத்தாண்டு தினம்
         type: public
@@ -118,7 +118,7 @@ holidays:
         type: public
       08-26:
         name:
-          en: Milad-Un-Nabi (Holy Prophet's Birthday)
+          en: Milad-Un-Nabi (Holy Prophet’s Birthday)
           si: මිලාද්-උන්-නබි (නබි නායකතුමාගේ උපන් දිනය)
           ta: மீலாது நபி (நபி பெருமானின் பிறந்த தினம்)
         type: public

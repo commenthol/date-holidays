@@ -66,7 +66,7 @@
     "date": "2029-05-13 00:00:00",
     "start": "2029-05-12T22:00:00.000Z",
     "end": "2029-05-13T22:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"

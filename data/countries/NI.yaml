@@ -30,7 +30,7 @@ holidays:
         type: observance
       06-01:
         name:
-          en: Children's Day
+          en: Children’s Day
           es: Día del niño
       06-23:
         _name: Fathers Day

@@ -18,12 +18,12 @@ holidays:
       01-21:
         name:
           pl: Dzień Babci
-          en: Grandmother's Day
+          en: Grandmother’s Day
         type: observance
       01-22:
         name:
           pl: Dzień Dziadka
-          en: Grandfather's Day
+          en: Grandfather’s Day
         type: observance
       02-14:
         _name: 02-14
@@ -57,12 +57,12 @@ holidays:
       03-10:
         name:
           pl: Dzień Mężczyzny
-          en: Men's Day
+          en: Men’s Day
         type: observance
       03-21:
         name:
           pl: Pierwszy Dzień Wiosny / Dzień Wagarowicza
-          en: First Day of Spring / Truant's Day
+          en: First Day of Spring / Truant’s Day
         type: observance
       03-24 since 2018:
         name:
@@ -133,7 +133,7 @@ holidays:
       06-01:
         name:
           pl: Dzień Dziecka
-          en: Children's Day
+          en: Children’s Day
         type: observance
       06-12 since 2017:
         name:
@@ -175,7 +175,7 @@ holidays:
       09-30:
         name:
           pl: Dzień Chłopaka
-          en: Boy's Day
+          en: Boy’s Day
         type: observance
       10-19 since 2018:
         name:

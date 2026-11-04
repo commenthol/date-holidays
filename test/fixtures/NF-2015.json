@@ -3,7 +3,7 @@
     "date": "2015-01-01 00:00:00",
     "start": "2014-12-31T12:30:00.000Z",
     "end": "2015-01-01T12:30:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Thu"
@@ -57,7 +57,7 @@
     "date": "2015-05-10 00:00:00",
     "start": "2015-05-09T12:30:00.000Z",
     "end": "2015-05-10T12:30:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2015-06-15 00:00:00",
     "start": "2015-06-14T12:30:00.000Z",
     "end": "2015-06-15T12:30:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "Queen’s Birthday",
     "type": "public",
     "rule": "Monday after 2nd saturday in June prior to 2022-09-09",
     "_weekday": "Mon"
@@ -84,7 +84,7 @@
     "date": "2015-09-06 00:00:00",
     "start": "2015-09-05T12:30:00.000Z",
     "end": "2015-09-06T12:30:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "1st sunday in September",
     "_weekday": "Sun"

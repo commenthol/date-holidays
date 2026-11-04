@@ -19,7 +19,7 @@ holidays:
       01-09 and if sunday then next monday:
         substitute: true
         name:
-          en: Martyrs' Day
+          en: Martyrs’ Day
           es: Día de los Mártires Caídos en la Gesta Patriótica
       easter -48:
         _name: easter -48

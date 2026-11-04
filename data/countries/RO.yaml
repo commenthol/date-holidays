@@ -16,7 +16,7 @@ holidays:
       01-01 P2DT:
         name:
           ro: Anul nou
-          en: New Year's Day
+          en: New Year’s Day
       # Public holiday since 2024 (Law 52/2023)
       # @source https://legislatie.just.ro/Public/DetaliiDocumentAfis/265498
       01-06:
@@ -44,7 +44,7 @@ holidays:
       03-08:
         name:
           ro: Ziua Mamei
-          en: Mother's Day
+          en: Mother’s Day
         type: observance
       # Public holiday since 2018 (Law 64/2018)
       # @source https://legislatie.just.ro/Public/DetaliiDocumentAfis/198708
@@ -75,7 +75,7 @@ holidays:
       06-01:
         name:
           ro: Ziua Copilului
-          en: Children's Day
+          en: Children’s Day
         active:
           - from: "2017-01-01"
       06-26:
@@ -95,7 +95,7 @@ holidays:
       11-30:
         name:
           ro: Sfântul Andrei
-          en: St Andrew's Day
+          en: St Andrew’s Day
         active:
           - from: "2012-01-01"
       12-01:

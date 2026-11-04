@@ -45,7 +45,7 @@ holidays:
         name: Public Holiday
       08-26:
         name:
-          en: Heroes' Day
+          en: Heroes’ Day
       substitutes 08-26 if sunday then next monday:
         name: Public Holiday
       12-10:

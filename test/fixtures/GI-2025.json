@@ -3,7 +3,7 @@
     "date": "2025-01-01 00:00:00",
     "start": "2024-12-31T23:00:00.000Z",
     "end": "2025-01-01T23:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Wed"
@@ -21,7 +21,7 @@
     "date": "2025-03-30 00:00:00",
     "start": "2025-03-29T23:00:00.000Z",
     "end": "2025-03-30T22:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "easter -21",
     "_weekday": "Sun"
@@ -84,7 +84,7 @@
     "date": "2025-06-15 00:00:00",
     "start": "2025-06-14T22:00:00.000Z",
     "end": "2025-06-15T22:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -93,7 +93,7 @@
     "date": "2025-06-16 00:00:00",
     "start": "2025-06-15T22:00:00.000Z",
     "end": "2025-06-16T22:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "Queen’s Birthday",
     "type": "public",
     "rule": "monday before 06-20",
     "_weekday": "Mon"

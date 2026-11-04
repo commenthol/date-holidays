@@ -3,7 +3,7 @@
     "date": "2020-01-01 00:00:00",
     "start": "2020-01-01T06:00:00.000Z",
     "end": "2020-01-02T06:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Wed"
@@ -21,7 +21,7 @@
     "date": "2020-02-14 00:00:00",
     "start": "2020-02-14T06:00:00.000Z",
     "end": "2020-02-15T06:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Fri"
@@ -57,7 +57,7 @@
     "date": "2020-05-10 00:00:00",
     "start": "2020-05-10T06:00:00.000Z",
     "end": "2020-05-11T06:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2020-06-21 00:00:00",
     "start": "2020-06-21T06:00:00.000Z",
     "end": "2020-06-22T06:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday after 06-01",
     "_weekday": "Sun"

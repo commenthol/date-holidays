@@ -3,7 +3,7 @@
     "date": "2016-01-01 00:00:00",
     "start": "2016-01-01T05:00:00.000Z",
     "end": "2016-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Fri"
@@ -21,7 +21,7 @@
     "date": "2016-02-14 00:00:00",
     "start": "2016-02-14T05:00:00.000Z",
     "end": "2016-02-15T05:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sun"
@@ -30,7 +30,7 @@
     "date": "2016-02-15 00:00:00",
     "start": "2016-02-15T05:00:00.000Z",
     "end": "2016-02-16T05:00:00.000Z",
-    "name": "President's Day",
+    "name": "President’s Day",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -48,7 +48,7 @@
     "date": "2016-03-17 00:00:00",
     "start": "2016-03-17T04:00:00.000Z",
     "end": "2016-03-18T04:00:00.000Z",
-    "name": "St. Patrick's Day",
+    "name": "St. Patrick’s Day",
     "type": "observance",
     "rule": "03-17",
     "_weekday": "Thu"
@@ -84,7 +84,7 @@
     "date": "2016-05-08 00:00:00",
     "start": "2016-05-08T04:00:00.000Z",
     "end": "2016-05-09T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -102,7 +102,7 @@
     "date": "2016-06-19 00:00:00",
     "start": "2016-06-19T04:00:00.000Z",
     "end": "2016-06-20T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -192,7 +192,7 @@
     "date": "2016-11-25 00:00:00",
     "start": "2016-11-25T05:00:00.000Z",
     "end": "2016-11-26T05:00:00.000Z",
-    "name": "Lincoln's Day",
+    "name": "Lincoln’s Day",
     "type": "public",
     "rule": "4th friday in November",
     "_weekday": "Fri"
@@ -229,7 +229,7 @@
     "date": "2016-12-31 00:00:00",
     "start": "2016-12-31T05:00:00.000Z",
     "end": "2017-01-01T05:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Sat"

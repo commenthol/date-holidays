@@ -3,7 +3,7 @@
     "date": "2027-01-01 00:00:00",
     "start": "2027-01-01T05:00:00.000Z",
     "end": "2027-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Fri"
@@ -21,7 +21,7 @@
     "date": "2027-02-14 00:00:00",
     "start": "2027-02-14T05:00:00.000Z",
     "end": "2027-02-15T05:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sun"
@@ -30,7 +30,7 @@
     "date": "2027-02-15 00:00:00",
     "start": "2027-02-15T05:00:00.000Z",
     "end": "2027-02-16T05:00:00.000Z",
-    "name": "Washington's Birthday",
+    "name": "Washington’s Birthday",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -66,7 +66,7 @@
     "date": "2027-04-19 00:00:00",
     "start": "2027-04-19T04:00:00.000Z",
     "end": "2027-04-20T04:00:00.000Z",
-    "name": "Patriots' Day",
+    "name": "Patriots’ Day",
     "type": "public",
     "rule": "3rd monday in April",
     "_weekday": "Mon"
@@ -84,7 +84,7 @@
     "date": "2027-05-09 00:00:00",
     "start": "2027-05-09T04:00:00.000Z",
     "end": "2027-05-10T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -130,7 +130,7 @@
     "date": "2027-06-20 00:00:00",
     "start": "2027-06-20T04:00:00.000Z",
     "end": "2027-06-21T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -240,7 +240,7 @@
     "date": "2027-12-31 00:00:00",
     "start": "2027-12-31T05:00:00.000Z",
     "end": "2028-01-01T05:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
@@ -250,7 +250,7 @@
     "date": "2027-12-31 00:00:00",
     "start": "2027-12-31T05:00:00.000Z",
     "end": "2028-01-01T05:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Fri"

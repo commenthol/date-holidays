@@ -20,7 +20,7 @@ holidays:
       01-15:
         name:
           es: Día del Maestro
-          en: Teacher's Day
+          en: Teacher’s Day
         type: optional
         note: teachers only
       03-19:

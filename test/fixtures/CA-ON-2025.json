@@ -3,7 +3,7 @@
     "date": "2025-01-01 00:00:00",
     "start": "2025-01-01T05:00:00.000Z",
     "end": "2025-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Wed"
@@ -21,7 +21,7 @@
     "date": "2025-02-14 00:00:00",
     "start": "2025-02-14T05:00:00.000Z",
     "end": "2025-02-15T05:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Fri"
@@ -66,7 +66,7 @@
     "date": "2025-05-11 00:00:00",
     "start": "2025-05-11T04:00:00.000Z",
     "end": "2025-05-12T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
@@ -84,7 +84,7 @@
     "date": "2025-06-15 00:00:00",
     "start": "2025-06-15T04:00:00.000Z",
     "end": "2025-06-16T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday after 06-01",
     "_weekday": "Sun"

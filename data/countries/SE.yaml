@@ -24,7 +24,7 @@ holidays:
       01-13:
         name:
           sv: tjugondag Knut
-          en: Saint Knut's Day
+          en: Saint Knut’s Day
         type: observance
       1st sunday in March:
         name:
@@ -108,7 +108,7 @@ holidays:
       11-11:
         name:
           sv: Mårtensgås
-          en: Saint Martin's Day
+          en: Saint Martin’s Day
         type: observance
       12-10:
         name:
@@ -118,7 +118,7 @@ holidays:
       12-13:
         name:
           sv: Luciadagen
-          en: Saint Lucy's Day
+          en: Saint Lucy’s Day
         type: observance
       12-24:
         _name: 12-24

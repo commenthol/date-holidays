@@ -34,7 +34,7 @@ holidays:
       05-06:
         name:
           bg: Гергьовден
-          en: St. George's Day
+          en: St. George’s Day
       05-07:
         name:
           bg: Ден на радиото и телевизията
@@ -53,7 +53,7 @@ holidays:
       11-01:
         name:
           bg: Ден на народните будители
-          en: Revival Leaders' Day
+          en: Revival Leaders’ Day
         type: school
       12-24:
         _name: 12-24

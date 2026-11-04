@@ -30,7 +30,7 @@ holidays:
       04-23:
         name:
           sl: Jurjevanje
-          en: St. George's Day
+          en: St. George’s Day
         type: observance
       easter -49:
         _name: Carnival
@@ -113,7 +113,7 @@ holidays:
       11-11:
         name:
           sl: Martinovanje
-          en: St. Martin's Day
+          en: St. Martin’s Day
         type: observance
       11-23:
         name:

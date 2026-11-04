@@ -3,7 +3,7 @@
     "date": "2022-01-01 00:00:00",
     "start": "2022-01-01T00:00:00.000Z",
     "end": "2022-01-02T00:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if Saturday, Sunday then next Monday",
     "_weekday": "Sat"
@@ -12,7 +12,7 @@
     "date": "2022-01-03 00:00:00",
     "start": "2022-01-03T00:00:00.000Z",
     "end": "2022-01-04T00:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if Saturday, Sunday then next Monday",
