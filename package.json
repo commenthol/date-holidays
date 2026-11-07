@@ -246,7 +246,7 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.4.7",
+    "date-holidays-parser": "~3.4.7",
     "js-yaml": "^5.5.0",
     "lodash": "^4.18.1",
     "prepin": "^1.0.3"
