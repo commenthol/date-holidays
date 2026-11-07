@@ -3,7 +3,7 @@
     "date": "2021-01-01 00:00:00",
     "start": "2021-01-01T09:00:00.000Z",
     "end": "2021-01-02T09:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Fri"
@@ -21,7 +21,7 @@
     "date": "2021-02-14 00:00:00",
     "start": "2021-02-14T09:00:00.000Z",
     "end": "2021-02-15T09:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sun"
@@ -30,7 +30,7 @@
     "date": "2021-02-15 00:00:00",
     "start": "2021-02-15T09:00:00.000Z",
     "end": "2021-02-16T09:00:00.000Z",
-    "name": "President's Day",
+    "name": "President’s Day",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -39,7 +39,7 @@
     "date": "2021-03-17 00:00:00",
     "start": "2021-03-17T08:00:00.000Z",
     "end": "2021-03-18T08:00:00.000Z",
-    "name": "St. Patrick's Day",
+    "name": "St. Patrick’s Day",
     "type": "observance",
     "rule": "03-17",
     "_weekday": "Wed"
@@ -48,7 +48,7 @@
     "date": "2021-03-29 00:00:00",
     "start": "2021-03-29T08:00:00.000Z",
     "end": "2021-03-30T08:00:00.000Z",
-    "name": "Seward's Day",
+    "name": "Seward’s Day",
     "type": "public",
     "rule": "monday before April",
     "_weekday": "Mon"
@@ -84,7 +84,7 @@
     "date": "2021-05-09 00:00:00",
     "start": "2021-05-09T08:00:00.000Z",
     "end": "2021-05-10T08:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -121,7 +121,7 @@
     "date": "2021-06-20 00:00:00",
     "start": "2021-06-20T08:00:00.000Z",
     "end": "2021-06-21T08:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -158,7 +158,7 @@
     "date": "2021-10-11 00:00:00",
     "start": "2021-10-11T08:00:00.000Z",
     "end": "2021-10-12T08:00:00.000Z",
-    "name": "Indigenous Peoples' Day",
+    "name": "Indigenous Peoples’ Day",
     "type": "public",
     "rule": "2nd monday in October #1",
     "_weekday": "Mon"
@@ -240,7 +240,7 @@
     "date": "2021-12-31 00:00:00",
     "start": "2021-12-31T09:00:00.000Z",
     "end": "2022-01-01T09:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
@@ -250,7 +250,7 @@
     "date": "2021-12-31 00:00:00",
     "start": "2021-12-31T09:00:00.000Z",
     "end": "2022-01-01T09:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Fri"

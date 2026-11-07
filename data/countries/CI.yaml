@@ -2,8 +2,8 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Ivory_Coast
   CI:
     names:
-      fr: République de Côte d'Ivoire
-      en: Republic of Côte d'Ivoire
+      fr: République de Côte d’Ivoire
+      en: Republic of Côte d’Ivoire
     langs:
       - fr
       - en

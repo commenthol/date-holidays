@@ -61,7 +61,7 @@ holidays:
         name:
           kk: Қазақстан халқының бірлігі күні
           ru: День единства народа Казахстана
-          en: People's Unity Day
+          en: People’s Unity Day
       05-07 and if saturday,sunday then next monday since 2013:
         substitute: true
         name:
@@ -101,7 +101,7 @@ holidays:
         name:
           kk: Тұңғыш Президент күні
           ru: День Первого Президента
-          en: First President's Day
+          en: First President’s Day
       12-16 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         name:

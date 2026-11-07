@@ -72,7 +72,7 @@ holidays:
           fr: Fête du Roi
           nl: Koningsdag
           de: Festtag des Königs
-          en: King's Feast
+          en: King’s Feast
         type: observance
       12-06:
         _name: 12-06
@@ -126,7 +126,7 @@ holidays:
               fr: Fête du Roi
               nl: Koningsdag
               de: Festtag des Königs
-              en: King's Feast
+              en: King’s Feast
             type: observance
             note: day-off for employees of the flemish government
           12-26:

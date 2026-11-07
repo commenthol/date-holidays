@@ -4,7 +4,7 @@ holidays:
   BD:
     names:
       bn: গণপ্রজাতন্ত্রী বাংলাদেশ
-      en: People's Republic of Bangladesh
+      en: People’s Republic of Bangladesh
     langs:
       - bn
     zones:
@@ -17,11 +17,11 @@ holidays:
       bengali-revised 11-9:
         name:
           bn: শহীদ দিবস
-          en: Language Martyrs' Day
+          en: Language Martyrs’ Day
       bengali-revised 12-3:
         name:
           bn: মুজিব জয়ন
-          en: Mujib's Birthday & Children's Day
+          en: Mujib’s Birthday & Children’s Day
       bengali-revised 12-12:
         name:
           bn: স্বাধীনতা দিবস
@@ -29,7 +29,7 @@ holidays:
       bengali-revised 1-1:
         name:
           bn: পহেলা বৈশাখ
-          en: Bengali New Year's Day
+          en: Bengali New Year’s Day
       bengali-revised 1-18:
         _name: 05-01
         name:
@@ -56,7 +56,7 @@ holidays:
       05-19:
         name:
           bn: বুদ্ধ পূর্ণিমা
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
         enable:
           - "2016-05-21"
           - "2017-05-10"

@@ -3,7 +3,7 @@
     "date": "2029-01-01 00:00:00",
     "start": "2028-12-31T22:00:00.000Z",
     "end": "2029-01-01T22:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if saturday,sunday then next monday",
     "_weekday": "Mon"
@@ -30,7 +30,7 @@
     "date": "2029-03-03 00:00:00",
     "start": "2029-03-02T22:00:00.000Z",
     "end": "2029-03-03T22:00:00.000Z",
-    "name": "Martyrs' Day",
+    "name": "Martyrs’ Day",
     "type": "public",
     "rule": "03-03 and if saturday,sunday then next monday",
     "_weekday": "Sat"
@@ -39,7 +39,7 @@
     "date": "2029-03-05 00:00:00",
     "start": "2029-03-04T22:00:00.000Z",
     "end": "2029-03-05T22:00:00.000Z",
-    "name": "Martyrs' Day",
+    "name": "Martyrs’ Day",
     "type": "public",
     "rule": "03-03 and if saturday,sunday then next monday",
     "_weekday": "Mon"
@@ -102,7 +102,7 @@
     "date": "2029-10-15 00:00:00",
     "start": "2029-10-14T22:00:00.000Z",
     "end": "2029-10-15T22:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "public",
     "rule": "10-15 and if saturday,sunday then next monday",
     "_weekday": "Mon"

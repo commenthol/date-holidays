@@ -34,7 +34,7 @@ holidays:
         _name: 05-01
         name:
           pt: Dia Internacional dos Trabalhadores
-          en: Workers' Day
+          en: Workers’ Day
       substitutes 05-01 if sunday then next monday:
         _name: Public Holiday
       1st sunday in May:

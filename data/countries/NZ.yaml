@@ -19,7 +19,7 @@ holidays:
       01-02 and if saturday then next monday if sunday then next tuesday:
         substitute: true
         name:
-          en: Day after New Year's Day
+          en: Day after New Year’s Day
       02-06 and if saturday,sunday then next monday:
         substitute: true
         name:
@@ -38,10 +38,10 @@ holidays:
       # @source https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/
       1st monday in June prior to 2023:
         name:
-          en: Queen's Birthday
+          en: Queen’s Birthday
       1st monday in June since 2023:
         name:
-          en: King's Birthday
+          en: King’s Birthday
       4th monday in October:
         _name: 05-01
       12-25 and if saturday then next monday if sunday then next tuesday:
@@ -202,7 +202,7 @@ holidays:
               en: Provincial anniversary day
       HKB:
         names:
-          en: Hawke's Bay
+          en: Hawke’s Bay
           mi: Te Matau-a-Māui
         days:
           # Friday before Labour Day

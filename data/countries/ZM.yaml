@@ -33,13 +33,13 @@ holidays:
           en: African Freedom Day
       1st monday in July:
         name:
-          en: Heroes' Day
+          en: Heroes’ Day
       tuesday after 1st monday in July:
         name:
           en: Unity Day
       1st monday in August:
         name:
-          en: Farmers' Day
+          en: Farmers’ Day
       # @source https://www.lusakatimes.com/2021/07/07/april-28-declared-holiday-in-honour-of-the-late-dr-kaunda/
       04-28 since 2022 and if sunday then next monday:
         substitute: true

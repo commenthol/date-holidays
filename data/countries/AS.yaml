@@ -15,7 +15,7 @@ holidays:
     days:
       3rd monday in February:
         name:
-          en: Washington's Birthday
+          en: Washington’s Birthday
       # Saint Patrick's Day is not observed
       03-17: false
       04-15 if friday then next monday if saturday,sunday then next tuesday: false
@@ -25,7 +25,7 @@ holidays:
         substitute: true
       07-16:
         name:
-          en: Manu'a Cession Day
+          en: Manu’a Cession Day
         type: optional
         note: Goverment offices closed
       2nd sunday in October:

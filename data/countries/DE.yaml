@@ -18,7 +18,7 @@ holidays:
       easter -52:
         name:
           de: Weiberfastnacht
-          en: Women's Carnival Day
+          en: Women’s Carnival Day
         type: observance
       easter -48:
         name:
@@ -315,7 +315,7 @@ holidays:
             # @source https://www.thueringer-landtag.de/service/presse/pressemitteilungen/weltkindertag-am-20-september-wird-gesetzlicher-feiertag/
             name:
               de: Weltkindertag
-              en: International Children's Day
+              en: International Children’s Day
             active:
               - from: 2019
           10-31:

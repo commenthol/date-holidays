@@ -27,7 +27,7 @@ holidays:
       03-03:
         name:
           ge: დედის დღე
-          en: Mother's Day
+          en: Mother’s Day
       03-08:
         _name: 03-08
       04-09:
@@ -57,7 +57,7 @@ holidays:
       08-28:
         name:
           ge: მარიამობა
-          en: Saint Mary's Day
+          en: Saint Mary’s Day
       10-14:
         name:
           ge: სვეტიცხოვლობა
@@ -65,4 +65,4 @@ holidays:
       11-23:
         name:
           ge: გიორგობა
-          en: Saint George's Day
+          en: Saint George’s Day

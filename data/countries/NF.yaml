@@ -38,11 +38,11 @@ holidays:
       Monday after 2nd saturday in June prior to 2022-09-09:
         substitute: true
         name:
-          en: Queen's Birthday
+          en: Queen’s Birthday
       # "2nd monday in June #1": false
       Monday after 2nd saturday in June since 2022-09-09 if is public holiday then next monday:
         name:
-          en: King's Birthday
+          en: King’s Birthday
       1st monday in October: false
       2nd monday in October:
         name:

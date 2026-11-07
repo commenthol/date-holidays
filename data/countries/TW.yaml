@@ -18,7 +18,7 @@ holidays:
           en: Founding of the Republic of China
       chinese 01-0-00:
         name:
-          en: Chinese New Year's Eve
+          en: Chinese New Year’s Eve
           zh: 農曆除夕
       chinese 01-0-01:
         name:
@@ -48,7 +48,7 @@ holidays:
       04-04 and if Sunday then next Monday:
         substitute: true
         name:
-          en: Children's Day
+          en: Children’s Day
           zh: 兒童節
       chinese 5-01 solarterm and if Sunday then next Monday:
         substitute: true
@@ -73,7 +73,7 @@ holidays:
       # observed
       02-04:
         name:
-          en: Farmer's Day
+          en: Farmer’s Day
           zh: 農民節
         type: observance
       03-08:
@@ -118,7 +118,7 @@ holidays:
         type: observance
       09-01:
         name:
-          en: Journalist' Day
+          en: Journalist’ Day
           zh: 記者節
         type: observance
       09-03:
@@ -128,7 +128,7 @@ holidays:
         type: observance
       09-28:
         name:
-          en: Teachers' Day
+          en: Teachers’ Day
           zh: 孔子誕辰紀念日
         type: observance
       10-21:
@@ -143,7 +143,7 @@ holidays:
         type: observance
       11-12:
         name:
-          en: Sun Yat-sen's Birthday
+          en: Sun Yat-sen’s Birthday
           zh: 國父誕辰紀念日
         note: Also Doctors' Day and Cultural Renaissance Day
         type: observance
@@ -169,37 +169,37 @@ holidays:
         type: observance
       chinese 02-0-02:
         name:
-          en: Earth God's Birthday
+          en: Earth God’s Birthday
           zh: 土地公誕辰
         type: observance
       chinese 02-0-19:
         name:
-          en: Kuan Yin's Birthday
+          en: Kuan Yin’s Birthday
           zh: 觀音誕辰
         type: observance
       chinese 03-0-15:
         name:
-          en: God of Medicine's Birthday
+          en: God of Medicine’s Birthday
           zh: 保生大帝誕辰
         type: observance
       chinese 03-0-23:
         name:
-          en: Matsu's Birthday
+          en: Matsu’s Birthday
           zh: 媽祖誕辰
         type: observance
       chinese 04-0-08:
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           zh: 佛誕日
         type: observance
       chinese 05-0-13:
         name:
-          en: Kuan Kung's Birthday
+          en: Kuan Kung’s Birthday
           zh: 關公誕辰
         type: observance
       "chinese 05-0-13 #1":
         name:
-          en: Cheng Huang's Birthday
+          en: Cheng Huang’s Birthday
           zh: 城隍爺誕辰
         type: observance
       chinese 07-0-07:

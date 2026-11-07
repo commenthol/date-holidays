@@ -34,7 +34,7 @@ holidays:
           en: Emancipation Day
       09-10 if sunday then next monday:
         name:
-          en: St. George's Caye Day
+          en: St. George’s Caye Day
       09-21 if sunday then next monday:
         _name: Independence Day
       10-12 if friday,saturday,sunday then next monday if tuesday,wednesday,thursday then previous monday:

@@ -160,13 +160,13 @@ holidays:
         note: Day marked by the Knesset
       9 Av if Saturday then next Sunday:
         name:
-          en: Tisha B'Av, fast
+          en: Tisha BʾAv, fast
           he: תשעה באב
         type: observance
         note: Optional paid leave, business as usual except places of public entertainment
       15 Av:
         name:
-          en: Tu B'Av (Fifteenth of Av)
+          en: Tu BʾAv (Fifteenth of Av)
           he: ט"ו באב
         type: observance
       "2015-03-17":

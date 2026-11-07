@@ -3,7 +3,7 @@
     "date": "2017-01-01 00:00:00",
     "start": "2017-01-01T06:00:00.000Z",
     "end": "2017-01-02T06:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Sun"
@@ -12,7 +12,7 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-02T06:00:00.000Z",
     "end": "2017-01-03T06:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
@@ -31,7 +31,7 @@
     "date": "2017-02-12 00:00:00",
     "start": "2017-02-12T06:00:00.000Z",
     "end": "2017-02-13T06:00:00.000Z",
-    "name": "Lincoln's Birthday",
+    "name": "Lincoln’s Birthday",
     "type": "public",
     "rule": "02-12",
     "_weekday": "Sun"
@@ -40,7 +40,7 @@
     "date": "2017-02-14 00:00:00",
     "start": "2017-02-14T06:00:00.000Z",
     "end": "2017-02-15T06:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Tue"
@@ -49,7 +49,7 @@
     "date": "2017-02-20 00:00:00",
     "start": "2017-02-20T06:00:00.000Z",
     "end": "2017-02-21T06:00:00.000Z",
-    "name": "Washington's Birthday",
+    "name": "Washington’s Birthday",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -58,7 +58,7 @@
     "date": "2017-03-17 00:00:00",
     "start": "2017-03-17T05:00:00.000Z",
     "end": "2017-03-18T05:00:00.000Z",
-    "name": "St. Patrick's Day",
+    "name": "St. Patrick’s Day",
     "type": "observance",
     "rule": "03-17",
     "_weekday": "Fri"
@@ -94,7 +94,7 @@
     "date": "2017-05-14 00:00:00",
     "start": "2017-05-14T05:00:00.000Z",
     "end": "2017-05-15T05:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -112,7 +112,7 @@
     "date": "2017-06-18 00:00:00",
     "start": "2017-06-18T05:00:00.000Z",
     "end": "2017-06-19T05:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -213,7 +213,7 @@
     "date": "2017-12-31 00:00:00",
     "start": "2017-12-31T06:00:00.000Z",
     "end": "2018-01-01T06:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Sun"

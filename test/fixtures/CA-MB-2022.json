@@ -3,7 +3,7 @@
     "date": "2022-01-01 00:00:00",
     "start": "2022-01-01T06:00:00.000Z",
     "end": "2022-01-02T06:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Sat"
@@ -21,7 +21,7 @@
     "date": "2022-02-14 00:00:00",
     "start": "2022-02-14T06:00:00.000Z",
     "end": "2022-02-15T06:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Mon"
@@ -57,7 +57,7 @@
     "date": "2022-05-08 00:00:00",
     "start": "2022-05-08T05:00:00.000Z",
     "end": "2022-05-09T05:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
@@ -75,7 +75,7 @@
     "date": "2022-06-19 00:00:00",
     "start": "2022-06-19T05:00:00.000Z",
     "end": "2022-06-20T05:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday after 06-01",
     "_weekday": "Sun"

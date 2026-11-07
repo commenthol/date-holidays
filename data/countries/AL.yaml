@@ -28,7 +28,7 @@ holidays:
       03-07:
         name:
           sq: Dita e Mësuesit
-          en: Teacher's Day
+          en: Teacher’s Day
         type: observance
       03-08:
         _name: Mothers Day
@@ -41,7 +41,7 @@ holidays:
       03-22 and if saturday,sunday then next monday:
         name:
           sq: Dita e Sulltan Nevruzit
-          en: Sultan Nevruz's Day
+          en: Sultan Nevruz’s Day
         substitute: true
       04-01:
         _name: 04-01
@@ -68,7 +68,7 @@ holidays:
       06-01:
         name:
           sq: Dita Ndërkombëtare e Fëmijëve
-          en: Children's Day
+          en: Children’s Day
         type: observance
       10-19 and if saturday,sunday then next monday:
         name:

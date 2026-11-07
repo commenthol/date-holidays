@@ -15,7 +15,7 @@ holidays:
     days:
       01-01:
         name:
-          en: New Year's Day
+          en: New Year’s Day
           fr: Jour de l'an
         type: public
       01-02:
@@ -40,7 +40,7 @@ holidays:
         type: public
       11-01:
         name:
-          en: All Saints' Day
+          en: All Saints’ Day
           fr: Toussaint
         type: public
       11-02:

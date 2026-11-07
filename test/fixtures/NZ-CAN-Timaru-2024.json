@@ -3,7 +3,7 @@
     "date": "2024-01-01 00:00:00",
     "start": "2023-12-31T11:00:00.000Z",
     "end": "2024-01-01T11:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Mon"
@@ -12,7 +12,7 @@
     "date": "2024-01-02 00:00:00",
     "start": "2024-01-01T11:00:00.000Z",
     "end": "2024-01-02T11:00:00.000Z",
-    "name": "Day after New Year's Day",
+    "name": "Day after New Year’s Day",
     "type": "public",
     "rule": "01-02 and if saturday then next monday if sunday then next tuesday",
     "_weekday": "Tue"
@@ -66,7 +66,7 @@
     "date": "2024-06-03 00:00:00",
     "start": "2024-06-02T12:00:00.000Z",
     "end": "2024-06-03T12:00:00.000Z",
-    "name": "King's Birthday",
+    "name": "King’s Birthday",
     "type": "public",
     "rule": "1st monday in June since 2023",
     "_weekday": "Mon"

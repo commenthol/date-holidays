@@ -34,15 +34,15 @@ holidays:
           th: วันฉัตรมงคล
       06-03:
         name:
-          en: Queen Suthida's Birthday
+          en: Queen Suthida’s Birthday
           th: วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดา พัชรสุธาพิมลลักษณ พระบรมราชินี
       07-28:
         name:
-          en: King's Birthday
+          en: King’s Birthday
           th: วันเฉลิมพระชนมพรรษาพระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว
       08-12:
         name:
-          en: The Queen Mother's Birthday
+          en: The Queen Mother’s Birthday
           th: วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง
       10-13:
         name:
@@ -54,7 +54,7 @@ holidays:
           th: วันปิยมหาราช
       12-05:
         name:
-          en: King Bhumibol Adulyadej's Birthday
+          en: King Bhumibol Adulyadej’s Birthday
           th: วันคล้ายวันพระบรมราชสมภพ พระบาทสมเด็จพระบรมชนกาธิเบศร มหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร
       12-10:
         name:

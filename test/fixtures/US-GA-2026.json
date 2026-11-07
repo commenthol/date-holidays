@@ -3,7 +3,7 @@
     "date": "2026-01-01 00:00:00",
     "start": "2026-01-01T05:00:00.000Z",
     "end": "2026-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Thu"
@@ -21,7 +21,7 @@
     "date": "2026-02-14 00:00:00",
     "start": "2026-02-14T05:00:00.000Z",
     "end": "2026-02-15T05:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sat"
@@ -30,7 +30,7 @@
     "date": "2026-03-17 00:00:00",
     "start": "2026-03-17T04:00:00.000Z",
     "end": "2026-03-18T04:00:00.000Z",
-    "name": "St. Patrick's Day",
+    "name": "St. Patrick’s Day",
     "type": "observance",
     "rule": "03-17",
     "_weekday": "Tue"
@@ -76,7 +76,7 @@
     "date": "2026-05-10 00:00:00",
     "start": "2026-05-10T04:00:00.000Z",
     "end": "2026-05-11T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -103,7 +103,7 @@
     "date": "2026-06-21 00:00:00",
     "start": "2026-06-21T04:00:00.000Z",
     "end": "2026-06-22T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -195,7 +195,7 @@
     "date": "2026-12-24 00:00:00",
     "start": "2026-12-24T05:00:00.000Z",
     "end": "2026-12-25T05:00:00.000Z",
-    "name": "Washington's Birthday",
+    "name": "Washington’s Birthday",
     "type": "public",
     "rule": "12-24",
     "_weekday": "Thu"
@@ -213,7 +213,7 @@
     "date": "2026-12-31 00:00:00",
     "start": "2026-12-31T05:00:00.000Z",
     "end": "2027-01-01T05:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Thu"

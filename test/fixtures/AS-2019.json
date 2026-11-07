@@ -3,7 +3,7 @@
     "date": "2019-01-01 00:00:00",
     "start": "2019-01-01T11:00:00.000Z",
     "end": "2019-01-02T11:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Tue"
@@ -21,7 +21,7 @@
     "date": "2019-02-14 00:00:00",
     "start": "2019-02-14T11:00:00.000Z",
     "end": "2019-02-15T11:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Thu"
@@ -30,7 +30,7 @@
     "date": "2019-02-18 00:00:00",
     "start": "2019-02-18T11:00:00.000Z",
     "end": "2019-02-19T11:00:00.000Z",
-    "name": "Washington's Birthday",
+    "name": "Washington’s Birthday",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -66,7 +66,7 @@
     "date": "2019-05-12 00:00:00",
     "start": "2019-05-12T11:00:00.000Z",
     "end": "2019-05-13T11:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -84,7 +84,7 @@
     "date": "2019-06-16 00:00:00",
     "start": "2019-06-16T11:00:00.000Z",
     "end": "2019-06-17T11:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -102,7 +102,7 @@
     "date": "2019-07-16 00:00:00",
     "start": "2019-07-16T11:00:00.000Z",
     "end": "2019-07-17T11:00:00.000Z",
-    "name": "Manu'a Cession Day",
+    "name": "Manu’a Cession Day",
     "type": "optional",
     "note": "Goverment offices closed",
     "rule": "07-16",
@@ -203,7 +203,7 @@
     "date": "2019-12-31 00:00:00",
     "start": "2019-12-31T11:00:00.000Z",
     "end": "2020-01-01T11:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Tue"
@@ -212,7 +212,7 @@
     "date": "2019-12-31 12:00:00",
     "start": "2019-12-31T23:00:00.000Z",
     "end": "2020-01-01T11:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "bank",
     "rule": "12-31 12:00",
     "_weekday": "Tue"

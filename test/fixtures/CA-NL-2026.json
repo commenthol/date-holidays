@@ -3,7 +3,7 @@
     "date": "2026-01-01 00:00:00",
     "start": "2026-01-01T03:30:00.000Z",
     "end": "2026-01-02T03:30:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Thu"
@@ -21,7 +21,7 @@
     "date": "2026-02-14 00:00:00",
     "start": "2026-02-14T03:30:00.000Z",
     "end": "2026-02-15T03:30:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sat"
@@ -30,7 +30,7 @@
     "date": "2026-03-17 00:00:00",
     "start": "2026-03-17T02:30:00.000Z",
     "end": "2026-03-18T02:30:00.000Z",
-    "name": "Saint Patrick's Day",
+    "name": "Saint Patrick’s Day",
     "type": "optional",
     "rule": "03-17",
     "_weekday": "Tue"
@@ -48,7 +48,7 @@
     "date": "2026-04-23 00:00:00",
     "start": "2026-04-23T02:30:00.000Z",
     "end": "2026-04-24T02:30:00.000Z",
-    "name": "Saint George's Day",
+    "name": "Saint George’s Day",
     "type": "optional",
     "rule": "04-23",
     "_weekday": "Thu"
@@ -57,7 +57,7 @@
     "date": "2026-05-10 00:00:00",
     "start": "2026-05-10T02:30:00.000Z",
     "end": "2026-05-11T02:30:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday after 05-01",
     "_weekday": "Sun"
@@ -66,7 +66,7 @@
     "date": "2026-06-21 00:00:00",
     "start": "2026-06-21T02:30:00.000Z",
     "end": "2026-06-22T02:30:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday after 06-01",
     "_weekday": "Sun"
@@ -93,7 +93,7 @@
     "date": "2026-07-12 00:00:00",
     "start": "2026-07-12T02:30:00.000Z",
     "end": "2026-07-13T02:30:00.000Z",
-    "name": "Orangemen's Day",
+    "name": "Orangemen’s Day",
     "type": "optional",
     "rule": "07-12",
     "_weekday": "Sun"

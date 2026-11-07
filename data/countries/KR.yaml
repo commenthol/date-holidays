@@ -30,23 +30,23 @@ holidays:
           - from: "2021-01-01"
       05-05:
         name:
-          en: Children's Day
+          en: Children’s Day
           ko: 어린이날
       substitutes 05-05 if Saturday,Sunday then next Monday:
         substitute: true
         name:
-          en: Children's Day
+          en: Children’s Day
           ko: 어린이날
         active:
           - from: "2014-01-01"
       korean 4-0-8:
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           ko: 석가탄신일
       substitutes korean 4-0-8 if Saturday,Sunday then next Monday:
         substitute: true
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           ko: 석가탄신일
         active:
           - from: "2023-01-01"
@@ -178,12 +178,12 @@ holidays:
       "substitutes 2025-05-05 if Monday then next Tuesday": # -> 2025-05-06
         substitute: true
         name:
-          en: Children's Day
+          en: Children’s Day
           ko: 어린이날
       "substitutes 2025-05-05 if Monday then next Tuesday #1": # -> 2025-05-06
         substitute: true
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           ko: 석가탄신일
       "substitutes 2025-10-05 if Sunday then next Wednesday": # -> 2025-10-08
         substitute: true
@@ -303,12 +303,12 @@ holidays:
       "substitutes 2044-05-05 if Thursday then next Friday": # -> 2044-05-06
         substitute: true
         name:
-          en: Children's Day
+          en: Children’s Day
           ko: 어린이날
       "substitutes 2044-05-05 if Thursday then next Friday #1": # -> 2044-05-06
         substitute: true
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           ko: 석가탄신일
       "substitutes 2045-09-24 if Sunday then next Wednesday": # -> 2045-09-27
         substitute: true

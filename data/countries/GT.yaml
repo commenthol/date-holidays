@@ -57,7 +57,7 @@ holidays:
         # reference: https://www.congreso.gob.gt/noticias_congreso/13811/2025/4
         name:
           es: Día del Maestro
-          en: Teacher's Day
+          en: Teacher’s Day
         type: observance
       06-30 if tuesday then previous monday if wednesday,thursday then next friday:
         name:

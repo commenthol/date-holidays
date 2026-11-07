@@ -18,7 +18,7 @@ holidays:
           en: John Chilembwe Day
       03-03 and if saturday,sunday then next monday:
         name:
-          en: Martyrs' Day
+          en: Martyrs’ Day
       easter -2:
         _name: easter -2
       easter:

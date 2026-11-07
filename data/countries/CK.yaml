@@ -20,7 +20,7 @@ holidays:
       01-02 and if Saturday then next Monday if Monday, Sunday then next Tuesday:
         substitute: true
         name:
-          en: Day after New Year's Day
+          en: Day after New Year’s Day
       04-25:
         name:
           en: Anzac Day
@@ -30,7 +30,7 @@ holidays:
         _name: easter 1
       1st Monday in June: # #k
         name:
-          en: Queen's Birthday
+          en: Queen’s Birthday
         # same day as observed in NZ
       1st Friday in July:
         name:

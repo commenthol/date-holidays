@@ -24,13 +24,13 @@ holidays:
         name:
           mg: Andro iraisam-pirenena ho an'ny vehivavy
           fr: Journée internationale de la femme
-          en: International Women's Day
+          en: International Women’s Day
         note: only for women
       03-29:
         name:
           mg: Martioran'ny tolona tamin'ny 1947
           fr: Commémoration des martyrs de l'insurrection de 1947.
-          en: Martyrs' Day
+          en: Martyrs’ Day
       easter:
         _name: easter
       easter 1:

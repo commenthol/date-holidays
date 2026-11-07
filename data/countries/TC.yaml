@@ -23,10 +23,10 @@ holidays:
         _name: easter 1
       1st Monday before 06-01:
         name:
-          en: National Heroes' Day
+          en: National Heroes’ Day
       2nd Monday after 06-02:
         name:
-          en: Queen's Birthday
+          en: Queen’s Birthday
       1st Monday in August:
         name:
           en: Emancipation Day

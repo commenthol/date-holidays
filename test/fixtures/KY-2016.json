@@ -3,7 +3,7 @@
     "date": "2016-01-01 00:00:00",
     "start": "2016-01-01T05:00:00.000Z",
     "end": "2016-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if Saturday, Sunday then next Monday",
     "_weekday": "Fri"
@@ -66,7 +66,7 @@
     "date": "2016-06-13 00:00:00",
     "start": "2016-06-13T05:00:00.000Z",
     "end": "2016-06-14T05:00:00.000Z",
-    "name": "Queen's Birthday",
+    "name": "Queen’s Birthday",
     "type": "public",
     "rule": "2016-06-13",
     "_weekday": "Mon"

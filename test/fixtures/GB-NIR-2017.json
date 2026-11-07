@@ -3,7 +3,7 @@
     "date": "2017-01-01 00:00:00",
     "start": "2017-01-01T00:00:00.000Z",
     "end": "2017-01-02T00:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Sun"
@@ -12,7 +12,7 @@
     "date": "2017-01-02 00:00:00",
     "start": "2017-01-02T00:00:00.000Z",
     "end": "2017-01-03T00:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "substitutes 01-01 if sunday then next monday",
@@ -31,7 +31,7 @@
     "date": "2017-03-26 00:00:00",
     "start": "2017-03-26T00:00:00.000Z",
     "end": "2017-03-26T23:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "easter -21",
     "_weekday": "Sun"
@@ -85,7 +85,7 @@
     "date": "2017-06-18 00:00:00",
     "start": "2017-06-17T23:00:00.000Z",
     "end": "2017-06-18T23:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"

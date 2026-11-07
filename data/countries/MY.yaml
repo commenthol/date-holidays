@@ -41,7 +41,7 @@ holidays:
         _name: 05-01
       1st Monday in June:
         name:
-          en: Yang di-Pertuan Agong's Birthday
+          en: Yang di-Pertuan Agong’s Birthday
           ms: Hari Keputeraan Yang di-Pertuan Agong
       08-31:
         _name: Independence Day
@@ -192,7 +192,7 @@ holidays:
           01-01: false
           03-23:
             name:
-              en: Sultan of Johor's Birthday
+              en: Sultan of Johor’s Birthday
               ms: Hari Keputeraan Sultan Johor
           # Islamic
           1 Ramadan:
@@ -232,7 +232,7 @@ holidays:
           01-01: false
           3rd Sunday in June:
             name:
-              en: Sultan of Kedah's Birthday
+              en: Sultan of Kedah’s Birthday
               ms: Hari Keputeraan Sultan Kedah
           # Islamic
           27 Rajab:
@@ -274,11 +274,11 @@ holidays:
             _name: 10 Dhu al-Hijjah
           11-11:
             name:
-              en: Sultan of Kelantan's Birthday
+              en: Sultan of Kelantan’s Birthday
               ms: Hari Keputeraan Sultan Kelantan
           11-12:
             name:
-              en: Sultan of Kelantan's Birthday
+              en: Sultan of Kelantan’s Birthday
               ms: Hari Keputeraan Sultan Kelantan
       "04":
         name: Malacca
@@ -289,7 +289,7 @@ holidays:
               ms: Hari Perisytiharan Bandar Melaka sebagai Bandaraya Bersejarah
           08-24:
             name:
-              en: Melaka State Governor's Birthday
+              en: Melaka State Governor’s Birthday
               ms: Hari Jadi Yang di-Pertua Negeri Melaka
           # Islamic
           1 Ramadan:
@@ -300,7 +300,7 @@ holidays:
         days:
           01-14:
             name:
-              en: Yang di-Pertuan Besar of Negeri Sembilan's Birthday
+              en: Yang di-Pertuan Besar of Negeri Sembilan’s Birthday
               ms: Hari Keputeraan Yang di-Pertuan Besar Negeri Sembilan
           # Islamic
           27 Rajab:
@@ -339,7 +339,7 @@ holidays:
               ms: Hari Hol Pahang
           07-30:
             name:
-              en: Sultan of Pahang's Birthday
+              en: Sultan of Pahang’s Birthday
               ms: Hari Keputeraan Sultan Pahang
       "07":
         name: Penang
@@ -350,7 +350,7 @@ holidays:
               id: Hari Ulang Tahun Perisytiharan Tapak Warisan Dunia
           2nd Saturday in July:
             name:
-              en: Penang State Governor's Birthday
+              en: Penang State Governor’s Birthday
               ms: Hari Jadi Yang di-Pertua Negeri Pulau Pinang
           # Thaipusam
           # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
@@ -381,7 +381,7 @@ holidays:
         days:
           1st Friday in November:
             name:
-              en: Sultan of Perak's Birthday
+              en: Sultan of Perak’s Birthday
               ms: Hari Keputeraan Sultan Perak
           # Thaipusam
           # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
@@ -413,7 +413,7 @@ holidays:
           01-01: false
           07-17:
             name:
-              en: Raja of Perlis's Birthday
+              en: Raja of Perlis’s Birthday
               id: Hari Keputeraan Raja Perlis
           # Islamic
           27 Rajab:
@@ -425,7 +425,7 @@ holidays:
         days:
           12-11:
             name:
-              en: Sultan of Selangor's Birthday
+              en: Sultan of Selangor’s Birthday
               id: Hari Keputeraan Sultan Selangor
           # Thaipusam
           # @source https://www.drikpanchang.com/festivals/thaipusam/tamil-thaipusam-date.html?year=2016
@@ -461,7 +461,7 @@ holidays:
               ms: Hari Ulang Tahun Pertabalan Sultan Terengganu
           04-26:
             name:
-              en: Sultan of Terengganu's Birthday
+              en: Sultan of Terengganu’s Birthday
               ms: Hari Keputeraan Sultan Terengganu
           # Islamic
           27 Rajab:
@@ -485,7 +485,7 @@ holidays:
               ms: Pesta Kaamatan
           1st Saturday in October:
             name:
-              en: Sabah State Governor's Birthday
+              en: Sabah State Governor’s Birthday
               ms: Hari Jadi Yang di-Pertua Negeri Sabah
           12-24:
             _name: 12-24
@@ -527,7 +527,7 @@ holidays:
               ms: Hari Kemerdekaan Sarawak
           2nd Saturday in October:
             name:
-              en: Sarawak State Governor's Birthday
+              en: Sarawak State Governor’s Birthday
               ms: Hari Jadi Yang di-Pertua Negeri Sarawak
           # Islamic
           17 Ramadan: false

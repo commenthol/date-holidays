@@ -3,7 +3,7 @@
     "date": "2015-01-01 00:00:00",
     "start": "2014-12-31T23:00:00.000Z",
     "end": "2015-01-01T23:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Thu"
@@ -48,7 +48,7 @@
     "date": "2015-05-01 00:00:00",
     "start": "2015-04-30T23:00:00.000Z",
     "end": "2015-05-01T23:00:00.000Z",
-    "name": "Worker's Day",
+    "name": "Worker’s Day",
     "type": "public",
     "rule": "05-01 and if Saturday then next Monday",
     "_weekday": "Fri"
@@ -57,7 +57,7 @@
     "date": "2015-05-27 00:00:00",
     "start": "2015-05-26T23:00:00.000Z",
     "end": "2015-05-27T23:00:00.000Z",
-    "name": "Children's Day",
+    "name": "Children’s Day",
     "type": "public",
     "rule": "05-27",
     "_weekday": "Wed"
@@ -147,7 +147,7 @@
     "date": "2015-12-31 00:00:00",
     "start": "2015-12-30T23:00:00.000Z",
     "end": "2015-12-31T23:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Thu"

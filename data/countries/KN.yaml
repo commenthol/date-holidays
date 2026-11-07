@@ -38,7 +38,7 @@ holidays:
       09-16 and if Sunday then next Monday:
         substitute: true
         name:
-          en: National Heroes' Day
+          en: National Heroes’ Day
       09-19 if Sunday then next Monday:
         substitute: true
         _name: Independence Day

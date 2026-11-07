@@ -3,7 +3,7 @@
     "date": "2021-01-01 00:00:00",
     "start": "2021-01-01T05:00:00.000Z",
     "end": "2021-01-02T05:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Fri"
@@ -21,7 +21,7 @@
     "date": "2021-02-14 00:00:00",
     "start": "2021-02-14T05:00:00.000Z",
     "end": "2021-02-15T05:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Sun"
@@ -30,7 +30,7 @@
     "date": "2021-02-15 00:00:00",
     "start": "2021-02-15T05:00:00.000Z",
     "end": "2021-02-16T05:00:00.000Z",
-    "name": "President's Day",
+    "name": "President’s Day",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -48,7 +48,7 @@
     "date": "2021-03-17 00:00:00",
     "start": "2021-03-17T04:00:00.000Z",
     "end": "2021-03-18T04:00:00.000Z",
-    "name": "St. Patrick's Day",
+    "name": "St. Patrick’s Day",
     "type": "observance",
     "rule": "03-17",
     "_weekday": "Wed"
@@ -84,7 +84,7 @@
     "date": "2021-05-09 00:00:00",
     "start": "2021-05-09T04:00:00.000Z",
     "end": "2021-05-10T04:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -121,7 +121,7 @@
     "date": "2021-06-20 00:00:00",
     "start": "2021-06-20T04:00:00.000Z",
     "end": "2021-06-21T04:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -212,7 +212,7 @@
     "date": "2021-11-26 00:00:00",
     "start": "2021-11-26T05:00:00.000Z",
     "end": "2021-11-27T05:00:00.000Z",
-    "name": "Lincoln's Day",
+    "name": "Lincoln’s Day",
     "type": "public",
     "rule": "4th friday in November",
     "_weekday": "Fri"
@@ -249,7 +249,7 @@
     "date": "2021-12-31 00:00:00",
     "start": "2021-12-31T05:00:00.000Z",
     "end": "2022-01-01T05:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
@@ -259,7 +259,7 @@
     "date": "2021-12-31 00:00:00",
     "start": "2021-12-31T05:00:00.000Z",
     "end": "2022-01-01T05:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Fri"

@@ -44,7 +44,7 @@ holidays:
       10-12 and if saturday,sunday then next monday:
         substitute: true
         name:
-          en: National Heroes' Day
+          en: National Heroes’ Day
       12-25:
         _name: 12-25
       12-26:

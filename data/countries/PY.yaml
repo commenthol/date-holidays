@@ -21,7 +21,7 @@ holidays:
         enable:
           - "2017-02-27"
         name:
-          en: Heroes' Day
+          en: Heroes’ Day
           es: Dia de los héroes
       easter -3:
         _name: easter -3
@@ -29,7 +29,7 @@ holidays:
         _name: easter -2
       04-30:
         name:
-          en: Teacher's Day
+          en: Teacher’s Day
           es: Día del Maestro
         type: optional
         note: Affects educational institutions

@@ -67,7 +67,7 @@ holidays:
       02-23 and if sunday then next monday:
         substitute: true
         name:
-          en: Emperor's Birthday
+          en: Emperor’s Birthday
           jp: 天皇誕生日
         active:
           - from: 2020-01-01
@@ -94,7 +94,7 @@ holidays:
           jp: 結婚の儀
       04-29:
         name:
-          en: Emperor's Birthday
+          en: Emperor’s Birthday
           jp: 天皇誕生日
         active:
           - from: 1948-07-20
@@ -102,7 +102,7 @@ holidays:
       substitutes 04-29 and if sunday then next monday:
         substitute: true
         name:
-          en: Emperor's Birthday
+          en: Emperor’s Birthday
           jp: 天皇誕生日
         active:
           - from: 1973-04-12
@@ -124,7 +124,7 @@ holidays:
           - from: 2007-01-01
       "2019-04-30":
         name:
-          en: Citizens' Holiday
+          en: Citizens’ Holiday
           jp: 国民の休日
       "2019-05-01":
         name:
@@ -132,7 +132,7 @@ holidays:
           jp: 即位の日
       "2019-05-02":
         name:
-          en: Citizens' Holiday
+          en: Citizens’ Holiday
           jp: 国民の休日
       05-03:
         _name: Constitution Day
@@ -149,7 +149,7 @@ holidays:
           - from: 2007-01-01
       05-04 not on sunday, monday:
         name:
-          en: Citizens' Holiday
+          en: Citizens’ Holiday
           jp: 国民の休日
         active:
           - from: 1986-01-01
@@ -163,12 +163,12 @@ holidays:
           - from: 2007-01-01
       05-05:
         name:
-          en: Children's Day
+          en: Children’s Day
           jp: こどもの日
       substitutes 05-05 if sunday then next monday:
         substitute: true
         name:
-          en: Children's Day
+          en: Children’s Day
           jp: こどもの日
         active:
           - from: 1973-04-12
@@ -243,7 +243,7 @@ holidays:
           - from: 2003-01-01
       09-22 if 09-21 and 09-23 is public holiday:
         name:
-          en: Citizens' Holiday
+          en: Citizens’ Holiday
           jp: 国民の休日
       september equinox in +09:00:
         name:
@@ -335,7 +335,7 @@ holidays:
       12-23 and if sunday then next monday:
         substitute: true
         name:
-          en: Emperor's Birthday
+          en: Emperor’s Birthday
           jp: 天皇誕生日
         active:
           - from: 1989-01-01

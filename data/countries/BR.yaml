@@ -31,7 +31,7 @@ holidays:
       04-21:
         name:
           pt: Dia de Tiradentes
-          en: Tiradentes' Day
+          en: Tiradentes’ Day
       easter -50 PT48H:
         name:
           pt: Carnaval
@@ -68,7 +68,7 @@ holidays:
       06-12:
         name:
           pt: Dia dos Namorados
-          en: Lovers' Day
+          en: Lovers’ Day
         type: observance
       2nd sunday in August:
         _name: Fathers Day
@@ -355,7 +355,7 @@ holidays:
               06-24:
                 name:
                   pt: São João
-                  en: Saint John's Day
+                  en: Saint John’s Day
                 type: public
               07-16:
                 name:

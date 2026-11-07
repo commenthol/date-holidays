@@ -50,7 +50,7 @@ holidays:
       04-27 if sunday then previous saturday since 2014:
         name:
           nl: Koningsdag
-          en: King's Day
+          en: King’s Day
           de: Königstag
           fr: Fête du Roi
           es: Día del Rey
@@ -60,7 +60,7 @@ holidays:
       04-30 if sunday then next monday since 1949 and prior to 1980:
         name:
           nl: Koninginnedag
-          en: Queen's Day
+          en: Queen’s Day
           de: Königinnentag
           fr: Fête de la Reine
           es: Día de la Reina
@@ -70,7 +70,7 @@ holidays:
       04-30 if sunday then previous saturday since 1980 and prior to 2014:
         name:
           nl: Koninginnedag
-          en: Queen's Day
+          en: Queen’s Day
           de: Königinnentag
           fr: Fête de la Reine
           es: Día de la Reina
@@ -134,7 +134,7 @@ holidays:
       06-29 since 2005 and prior to 2009:
         name:
           nl: Veteranendag
-          en: Veterans' Day
+          en: Veterans’ Day
           de: Veteranentag
           fr: Journée des anciens combattants
           es: Día de los veteranos
@@ -144,7 +144,7 @@ holidays:
       saturday before 07-01 since 2009:
         name:
           nl: Veteranendag
-          en: Veterans' Day
+          en: Veterans’ Day
           de: Veteranentag
           fr: Journée des anciens combattants
           es: Día de los veteranos
@@ -176,7 +176,7 @@ holidays:
       08-31 since 1891 and prior to 1949:
         name:
           nl: Koninginnedag
-          en: Queen's Day
+          en: Queen’s Day
           de: Königinnentag
           fr: Fête de la Reine
           es: Día de la Reina
@@ -186,7 +186,7 @@ holidays:
       3rd tuesday in September:
         name:
           nl: Prinsjesdag
-          en: Prince's Day
+          en: Prince’s Day
           de: Prinzentag
           fr: Journée budgétaire
           es: Día del presupuesto
@@ -223,7 +223,7 @@ holidays:
       12-05:
         name:
           nl: Sinterklaasavond
-          en: St Nicholas' Eve
+          en: St Nicholas’ Eve
           de: Nikolausabend
           fr: Soirée Saint-Nicolas
           es: Noche de Sinterklaas

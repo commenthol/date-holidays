@@ -10,7 +10,7 @@ names:
   # fix day names
   01-01:
     name:
-      en: New Year's Day
+      en: New Year’s Day
       am: እንቁጣጣሽ
       ar: عيد رأس السنة
       az: Yeni il
@@ -103,7 +103,7 @@ names:
       vi: Lễ Đức Mẹ dâng Chúa Giêsu trong đền thánh
   02-14:
     name:
-      en: Valentine's Day
+      en: Valentine’s Day
       de: Valentinstag
       fr: Saint-Valentin
       hu: Valentin-nap
@@ -115,7 +115,7 @@ names:
       vi: Lễ tình nhân
   03-08:
     name:
-      en: International Women's Day
+      en: International Women’s Day
       az: Qadınlar günü
       be: Мiжнародны жаночы дзень
       bg: Ден на жената
@@ -150,7 +150,7 @@ names:
       vi: Kính Thánh Giuse
   04-01:
     name:
-      en: April Fools' Day
+      en: April Fools’ Day
       de: 1. April
       hu: bolondok napja
       nl: 1 April
@@ -264,7 +264,7 @@ names:
       vi: Đức Mẹ Lên Trời
   11-01:
     name:
-      en: All Saints' Day
+      en: All Saints’ Day
       bs: Dita e të gjithë Shenjtorëve
       de: Allerheiligen
       es: Todos los Santos
@@ -289,7 +289,7 @@ names:
       vi: Lễ Các Thánh
   11-02:
     name:
-      en: All Souls' Day
+      en: All Souls’ Day
       de: Allerseelen
       es: Día de los Difuntos
       et: hingedepäev
@@ -464,7 +464,7 @@ names:
       vi: Ngày tặng quà
   12-31:
     name:
-      en: New Year's Eve
+      en: New Year’s Eve
       da: Nytårsaften
       de: Silvester
       es: Fin del Año
@@ -855,7 +855,7 @@ names:
       sq: Mevludi
   27 Rajab: # Laylat al-Mi'raj (Muhammad's Ascension to Heaven)
     name:
-      en: Laylat al-Mi'raj
+      en: Laylat al-Miʿraj
       ar: الإسراء والمعراج
       bs: Lejletul Mi'radž
       id: Maulid Nabi Muhammad
@@ -865,7 +865,7 @@ names:
       tr: Miraç Gecesi
   15 Shaban: # Laylat al-Bara'at (Bara'at Night)
     name:
-      en: Laylat al-Bara'at
+      en: Laylat al-Baraʾat
       ar: ليلة البراءة
       bs: Lejletul berat
       nl: Nacht van de Lotsbezegeling (Lailat-ul-Baraat)
@@ -1055,7 +1055,7 @@ names:
       vi: Ngày pháp luật
   Fathers Day:
     name:
-      en: Father's Day
+      en: Father’s Day
       et: isadepäev
       fi: Isänpäivä
       fr: Fête des Pères
@@ -1107,7 +1107,7 @@ names:
       vi: Ngày Thống nhất
   Mothers Day:
     name:
-      en: Mother's Day
+      en: Mother’s Day
       cz: Den matek
       da: Mors Dag
       de: Muttertag

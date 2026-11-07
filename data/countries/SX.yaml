@@ -21,7 +21,7 @@ holidays:
       04-27:
         name:
           nl: Koningsdag
-          en: King's Day
+          en: King’s Day
       04-30 if Sunday then next Tuesday prior to 2017:
         _name: Carnival
       04-30 if Saturday then previous Friday if Sunday then next Tuesday since 2017:

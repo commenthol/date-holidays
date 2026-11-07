@@ -40,7 +40,7 @@ holidays:
       05-01:
         _name: 05-01
         name:
-          en: Workers' Day
+          en: Workers’ Day
       substitutes 05-01 if sunday then next monday:
         name:
           en: Public Holiday
@@ -58,7 +58,7 @@ holidays:
         type: observance
       08-09:
         name:
-          en: National Women's Day
+          en: National Women’s Day
       substitutes 08-09 if sunday then next monday:
         name:
           en: Public Holiday

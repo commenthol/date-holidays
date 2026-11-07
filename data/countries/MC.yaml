@@ -15,7 +15,7 @@ holidays:
       01-27 and if sunday then next monday:
         substitute: true
         name:
-          en: Saint Devota's Day
+          en: Saint Devota’s Day
           fr: Sainte Dévote
       easter -2:
         _name: easter -2
@@ -43,7 +43,7 @@ holidays:
       11-19 and if sunday then next monday:
         substitute: true
         name:
-          en: H.S.H. the Sovereign Prince's Day
+          en: H.S.H. the Sovereign Prince’s Day
           fr: La Fête du Prince
       12-08:
         _name: 12-08

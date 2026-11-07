@@ -3,7 +3,7 @@
     "date": "2020-01-01 00:00:00",
     "start": "2019-12-31T14:00:00.000Z",
     "end": "2020-01-01T14:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Wed"
@@ -21,7 +21,7 @@
     "date": "2020-02-14 00:00:00",
     "start": "2020-02-13T14:00:00.000Z",
     "end": "2020-02-14T14:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Fri"
@@ -75,7 +75,7 @@
     "date": "2020-05-10 00:00:00",
     "start": "2020-05-09T14:00:00.000Z",
     "end": "2020-05-10T14:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -93,7 +93,7 @@
     "date": "2020-06-21 00:00:00",
     "start": "2020-06-20T14:00:00.000Z",
     "end": "2020-06-21T14:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -157,7 +157,7 @@
     "date": "2020-11-02 00:00:00",
     "start": "2020-11-01T14:00:00.000Z",
     "end": "2020-11-02T14:00:00.000Z",
-    "name": "All Souls' Day",
+    "name": "All Souls’ Day",
     "type": "public",
     "rule": "11-02",
     "_weekday": "Mon"
@@ -229,7 +229,7 @@
     "date": "2020-12-31 00:00:00",
     "start": "2020-12-30T14:00:00.000Z",
     "end": "2020-12-31T14:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Thu"

@@ -3,7 +3,7 @@
     "date": "2022-01-01 00:00:00",
     "start": "2022-01-01T11:00:00.000Z",
     "end": "2022-01-02T11:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if sunday then next monday if saturday then previous friday",
     "_weekday": "Sat"
@@ -21,7 +21,7 @@
     "date": "2022-02-14 00:00:00",
     "start": "2022-02-14T11:00:00.000Z",
     "end": "2022-02-15T11:00:00.000Z",
-    "name": "Valentine's Day",
+    "name": "Valentine’s Day",
     "type": "observance",
     "rule": "02-14",
     "_weekday": "Mon"
@@ -30,7 +30,7 @@
     "date": "2022-02-21 00:00:00",
     "start": "2022-02-21T11:00:00.000Z",
     "end": "2022-02-22T11:00:00.000Z",
-    "name": "Washington's Birthday",
+    "name": "Washington’s Birthday",
     "type": "public",
     "rule": "3rd monday in February",
     "_weekday": "Mon"
@@ -76,7 +76,7 @@
     "date": "2022-05-08 00:00:00",
     "start": "2022-05-08T11:00:00.000Z",
     "end": "2022-05-09T11:00:00.000Z",
-    "name": "Mother's Day",
+    "name": "Mother’s Day",
     "type": "observance",
     "rule": "2nd sunday in May",
     "_weekday": "Sun"
@@ -94,7 +94,7 @@
     "date": "2022-06-19 00:00:00",
     "start": "2022-06-19T11:00:00.000Z",
     "end": "2022-06-20T11:00:00.000Z",
-    "name": "Father's Day",
+    "name": "Father’s Day",
     "type": "observance",
     "rule": "3rd sunday in June",
     "_weekday": "Sun"
@@ -131,7 +131,7 @@
     "date": "2022-07-16 00:00:00",
     "start": "2022-07-16T11:00:00.000Z",
     "end": "2022-07-17T11:00:00.000Z",
-    "name": "Manu'a Cession Day",
+    "name": "Manu’a Cession Day",
     "type": "optional",
     "note": "Goverment offices closed",
     "rule": "07-16",
@@ -242,7 +242,7 @@
     "date": "2022-12-31 00:00:00",
     "start": "2022-12-31T11:00:00.000Z",
     "end": "2023-01-01T11:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "observance",
     "rule": "12-31",
     "_weekday": "Sat"
@@ -251,7 +251,7 @@
     "date": "2022-12-31 12:00:00",
     "start": "2022-12-31T23:00:00.000Z",
     "end": "2023-01-01T11:00:00.000Z",
-    "name": "New Year's Eve",
+    "name": "New Year’s Eve",
     "type": "bank",
     "rule": "12-31 12:00",
     "_weekday": "Sat"

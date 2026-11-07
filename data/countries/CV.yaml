@@ -20,7 +20,7 @@ holidays:
       01-20:
         name:
           pt: Dia dos Heróis Nacionais
-          en: Heroes' Day
+          en: Heroes’ Day
       easter -47:
         _name: easter -47
       easter -46:
@@ -35,7 +35,7 @@ holidays:
       06-01:
         name:
           pt: Dia das Crianças
-          en: Children's Day
+          en: Children’s Day
       07-05:
         _name: Independence Day
       08-15:

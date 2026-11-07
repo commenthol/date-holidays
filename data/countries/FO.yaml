@@ -43,14 +43,14 @@ holidays:
       07-28 12:00 if sunday then 00:00:
         name:
           da: Sankt Olavsaften
-          en: St.Olav's Eve
+          en: St.Olav’s Eve
         note: half-day holiday for some workers' unions
         type: observance
       07-29:
         name:
           fo: Ólavsøka
           da: Sankt Olavs Dag
-          en: St.Olav's Day
+          en: St.Olav’s Day
         note: full holiday for most workers' unions
         type: observance
       12-24:

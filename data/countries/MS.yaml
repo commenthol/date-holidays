@@ -16,7 +16,7 @@ holidays:
       03-17 and if Saturday, Sunday then next Monday:
         substitute: true
         name:
-          en: Saint Patrick's Day
+          en: Saint Patrick’s Day
       easter -2:
         _name: easter -2
       easter 1:
@@ -27,7 +27,7 @@ holidays:
         _name: easter 50
       2nd Monday after 06-02:
         name:
-          en: Queen's Birthday Celebration
+          en: Queen’s Birthday Celebration
       08-01 if Saturday, Sunday then next Monday:
         name:
           en: Emancipation Day

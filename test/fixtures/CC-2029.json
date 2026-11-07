@@ -3,7 +3,7 @@
     "date": "2029-01-01 00:00:00",
     "start": "2028-12-31T17:30:00.000Z",
     "end": "2029-01-01T17:30:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01",
     "_weekday": "Mon"

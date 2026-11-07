@@ -105,12 +105,12 @@ holidays:
         type: observance
       05-19:
         name:
-          en: President Ho Chi Minh's Birthday
+          en: President Ho Chi Minh’s Birthday
           vi: Ngày sinh Chủ tịch Hồ Chí Minh
         type: observance
       06-01:
         name:
-          en: International Children's Day
+          en: International Children’s Day
           vi: Ngày Quốc tế Thiếu nhi
         type: observance
       # @source https://vpcp.chinhphu.vn/hop-bao-chinh-phu-thuong-ky-thang-5-nguoi-phat-ngon-cua-chinh-phu-chuc-mung-bao-chi-nhan-ngay-21-6-115260603202542885.htm
@@ -159,7 +159,7 @@ holidays:
         type: observance
       10-20:
         name:
-          en: Vietnamese Women's Day
+          en: Vietnamese Women’s Day
           vi: Ngày Phụ nữ Việt Nam
         type: observance
       # @source https://tcdcpl.moj.gov.vn/qt/tintuc/Pages/dien-dan-cong-tac-tu-phap.aspx?ItemID=65
@@ -176,7 +176,7 @@ holidays:
         type: observance
       11-20:
         name:
-          en: Vietnamese Teacher's Day
+          en: Vietnamese Teacher’s Day
           vi: Ngày Nhà giáo Việt Nam
         type: observance
       # @source https://chinhphu.vn/default.aspx?docid=14374&pageid=27160
@@ -220,7 +220,7 @@ holidays:
         type: observance
       vietnamese 4-0-15:
         name:
-          en: Buddha's Birthday
+          en: Buddha’s Birthday
           vi: Đại lễ Phật đản
         type: observance
       vietnamese 5-0-5:

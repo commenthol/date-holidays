@@ -3,7 +3,7 @@
     "date": "2028-01-01 00:00:00",
     "start": "2028-01-01T04:00:00.000Z",
     "end": "2028-01-02T04:00:00.000Z",
-    "name": "New Year's Day",
+    "name": "New Year’s Day",
     "type": "public",
     "rule": "01-01 and if Saturday then next Monday if Sunday then next Tuesday",
     "_weekday": "Sat"
@@ -12,7 +12,7 @@
     "date": "2028-01-03 00:00:00",
     "start": "2028-01-03T04:00:00.000Z",
     "end": "2028-01-04T04:00:00.000Z",
-    "name": "New Year's Day (substitute day)",
+    "name": "New Year’s Day (substitute day)",
     "type": "public",
     "substitute": true,
     "rule": "01-01 and if Saturday then next Monday if Sunday then next Tuesday",
@@ -22,7 +22,7 @@
     "date": "2028-03-17 00:00:00",
     "start": "2028-03-17T04:00:00.000Z",
     "end": "2028-03-18T04:00:00.000Z",
-    "name": "Saint Patrick's Day",
+    "name": "Saint Patrick’s Day",
     "type": "public",
     "rule": "03-17 and if Saturday, Sunday then next Monday",
     "_weekday": "Fri"
@@ -67,7 +67,7 @@
     "date": "2028-06-12 00:00:00",
     "start": "2028-06-12T04:00:00.000Z",
     "end": "2028-06-13T04:00:00.000Z",
-    "name": "Queen's Birthday Celebration",
+    "name": "Queen’s Birthday Celebration",
     "type": "public",
     "rule": "2nd Monday after 06-02",
     "_weekday": "Mon"
