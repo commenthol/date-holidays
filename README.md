@@ -209,7 +209,7 @@ Countries: 207
 │   ├── NE: Canton de Neuchâtel
 │   ├── GE: Canton de Genève
 │   └── JU: Canton du Jura
-├── CI: République de Côte d'Ivoire
+├── CI: République de Côte d’Ivoire
 ├── CK: Cook Islands
 │   ├── Aitutaki: Aitutaki
 │   ├── Atiu: Atiu
@@ -506,7 +506,7 @@ Countries: 207
 │   │   └── Timaru: Timaru District
 │   ├── CIT: Chatham Islands
 │   ├── GIS: Gisborne
-│   ├── HKB: Hawke's Bay
+│   ├── HKB: Hawke’s Bay
 │   ├── MBH: Marlborough
 │   ├── MWT: Manawatu-Wanganui
 │   ├── NSN: Nelson
