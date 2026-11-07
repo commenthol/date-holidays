@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.38.1](https://github.com/commenthol/date-holidays/compare/3.38.0...3.38.1) (2026-11-07)
+
+- chore: bin date-holiday-parser to patch version [88d4f713](https://github.com/commenthol/date-holidays/commit/88d4f7139b2661da4ac08cd11e67440294a05b75)
+- chore: update gh-actions [e515117f](https://github.com/commenthol/date-holidays/commit/e515117fc69b7d2fc1aa2e9e4917b8d8c09a9f86)
+- fix(NZ,CK): rebase to fix fixtures [dbea3226](https://github.com/commenthol/date-holidays/commit/dbea32268906b8562f8d8876006339e8c2e06499)
+- fix(CK,NZ): upper-case state and region keys so their rules apply [77a306b8](https://github.com/commenthol/date-holidays/commit/77a306b838047b0a13f5193f06731c32b12f4749)
+- docs: fix country, region names [950df651](https://github.com/commenthol/date-holidays/commit/950df651401537610d5e2788535221682a1127e4)
+- fix(#695): License statement to (ISC AND CC-BY-SA-4.0) [77d4326d](https://github.com/commenthol/date-holidays/commit/77d4326d58471177e9a43e1f55776dca345a4bfe)
+- Merge branch 'master' into apostrophes [581bc0c1](https://github.com/commenthol/date-holidays/commit/581bc0c1ef3396dbf06d3a204cf5c04fa1e2c44c)
+- chore: remove eslint-plugins [a8a423fd](https://github.com/commenthol/date-holidays/commit/a8a423fd6db1794f7d3fa3aa94e481aebc2b668a)
+- fix(locales): normalize apostrophe forms [d49f55cb](https://github.com/commenthol/date-holidays/commit/d49f55cb611d16aa102174378cd6caf8db914e6a)
+- test(VN): remove dedicated holiday test suite [36cec93d](https://github.com/commenthol/date-holidays/commit/36cec93d4c42b2012f6ef171099e140cbcbb027c)
+- fix(VN): standardize and expand Vietnam holidays [2f9d50f5](https://github.com/commenthol/date-holidays/commit/2f9d50f58169ba7947ccc21cacea7cdb68687a19)
+- fix(names): use Ascensión del Señor for Ascension Day in Spanish [443a37ce](https://github.com/commenthol/date-holidays/commit/443a37ce4057c22a02173f533025a527c9fbf080)
+- fix(MA): add Amazigh New Year and Unity Day [3e9fee34](https://github.com/commenthol/date-holidays/commit/3e9fee340c57d098730bba1435f8055b8adfdca9)
+- fix(HU): align holiday names with Hungarian orthography [15712a53](https://github.com/commenthol/date-holidays/commit/15712a53ce73a8a5a90b337ed670597e0d89f1a7)
+- fix(names): add Carnival as name reference [6f7fd3fe](https://github.com/commenthol/date-holidays/commit/6f7fd3fe3c17986599485bf652861938ecc08d89)
+
 ## [3.38.0](https://github.com/commenthol/date-holidays/compare/3.37.0...3.38.0) (2026-10-24)
 
 - docs: update supported countries [9cc2413e](https://github.com/commenthol/date-holidays/commit/9cc2413e514c71dc2147b02e9740c916b13bb6b5)
