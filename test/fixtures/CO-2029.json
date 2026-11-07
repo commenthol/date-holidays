@@ -75,7 +75,7 @@
     "date": "2029-05-14 00:00:00",
     "start": "2029-05-14T05:00:00.000Z",
     "end": "2029-05-15T05:00:00.000Z",
-    "name": "La Asunción",
+    "name": "Ascensión del Señor",
     "type": "public",
     "rule": "easter 43",
     "_weekday": "Mon"
