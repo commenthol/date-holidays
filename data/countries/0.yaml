@@ -1,6 +1,6 @@
 #
 # @author commenthol
-# @license CC-BY-SA-3
+# @license CC-BY-SA-4.0
 #
 # For country codes check:
 # <https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains>
@@ -29,4 +29,4 @@
 
 version: "2017-01-01"
 
-license: CC-BY-SA-3
+license: CC-BY-SA-4.0
