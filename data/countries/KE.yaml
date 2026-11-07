@@ -27,10 +27,22 @@ holidays:
         name:
           sw: Siku ya Madaraka
           en: Madaraka Day
+      # Renamed Mazingira Day by the Statute Law (Miscellaneous Amendments) Act, 2024 (No. 3 of 2024)
+      # @source https://kenyalaw.org/akn/ke/act/1912/21/eng@2024-04-26
+      # @source https://www.the-star.co.ke/news/2024-04-24-october-10-utamaduni-day-renamed-mazingira-day
       10-10 and if sunday then next monday:
         substitute: true
         name:
+          sw: Siku ya Mazingira
+          en: Mazingira Day
+        active:
+          - from: 2024-01-01
+      "10-10 and if sunday then next monday #1":
+        substitute: true
+        name:
           en: Moi Day
+        active:
+          - to: 2024-01-01
       10-20 and if sunday then next monday:
         substitute: true
         name:
