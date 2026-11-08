@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.39.1](https://github.com/commenthol/date-holidays/compare/3.39.0...3.39.1) (2026-11-08)
+
+- fix(PL): align holiday names with Polish law [84ec954f](https://github.com/commenthol/date-holidays/commit/84ec954fac921210f581dfc6dbe50adb916b5839)
+- fix(MA): official names and announced Islamic dates [ece11dd2](https://github.com/commenthol/date-holidays/commit/ece11dd23479697a1e2f59cdffecd8e004d56807)
+- fix(KE): rename 10 October to Mazingira Day from 2024 [c7bd5bb7](https://github.com/commenthol/date-holidays/commit/c7bd5bb7b62dd2b487162261543467f3c1df2c7a)
+
 ## [3.39.0](https://github.com/commenthol/date-holidays/compare/3.38.1...3.39.0) (2026-11-08)
 
 - feat(types): generate TypeScript declarations [2e575b60](https://github.com/commenthol/date-holidays/commit/2e575b60f2655b560803df462c6329fec62b47fa)
