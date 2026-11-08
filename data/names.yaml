@@ -415,7 +415,7 @@ names:
       nl: Kerstmis
       no: Første juledag
       pap: Dia Pasco di Nascimento
-      pl: Pierwszy dzień Bożego Narodzenia
+      pl: pierwszy dzień Bożego Narodzenia
       pt: Natal
       ro: Crăciunul
       ru: Рождество Христово
@@ -457,7 +457,7 @@ names:
       nl: Tweede kerstdag
       no: Andre juledag
       pap: Di dos Dia Pasco di Nascimento
-      pl: Drugi dzień Bożego Narodzenia
+      pl: drugi dzień Bożego Narodzenia
       ro: A doua zi de Crăciun
       sk: Druhý sviatok vianočný
       sv: annandag jul
@@ -648,7 +648,7 @@ names:
       nl: Pasen
       no: Første påskedag
       pap: Dia Pasco di Resureccion
-      pl: Niedziela Wielkanocna
+      pl: pierwszy dzień Wielkiej Nocy
       pt: Páscoa
       ro: Paștele
       sk: Veľká noc
@@ -686,7 +686,7 @@ names:
       nl: Tweede paasdag
       no: Andre påskedag
       pap: Di dos Dia Pasco di Resureccion
-      pl: Drugi dzień Wielkanocy
+      pl: drugi dzień Wielkiej Nocy
       ro: A doua zi de Paști
       sk: Veľkonočný pondelok
       sl: velikonočni ponedeljek
@@ -735,7 +735,7 @@ names:
       nl: Pinksteren
       no: Første pinsedag
       mk: Духовден
-      pl: Zielone Świątki
+      pl: pierwszy dzień Zielonych Świątek
       ro: Rusaliile
       sl: binkošti
       sv: pingstdagen
@@ -769,7 +769,7 @@ names:
       it: Corpus Domini
       hr: Tijelovo
       nl: Sacramentsdag
-      pl: Dzień Bożego Ciała
+      pl: dzień Bożego Ciała
       pt: Corpo de Deus
       vi: Lễ Mình và Máu Thánh Chúa Kitô
   julian 01-01:
