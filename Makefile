@@ -9,9 +9,9 @@ data/holidays.json: data/countries/*.yaml data/names.yaml
 	npm run yaml
 
 lib: src/*
-	npm run transpile
+	npm run build
 
-test: v12. v14. v15.
+test: v24. v26.
 
 v%:
 	n $@; \

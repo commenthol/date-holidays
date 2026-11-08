@@ -7,15 +7,16 @@ import HolidaysParser from 'date-holidays-parser'
 
 import { data } from './data.js'
 
+/** @typedef {import('date-holidays-parser').Location} Location */
+/** @typedef {import('date-holidays-parser').HolidayOptions} HolidayOptions */
+
 /**
  * @class
- * @param {String|Object} country - if object use `{ country: {String}, state: {String}, region: {String} }`
- * @param {String} [state] - specifies state
- * @param {String} [region] - specifies region
- * @param {Object} [opts] - options
- * @param {Array|String} opts.languages - set language(s) with ISO 639-1 shortcodes
- * @param {String} opts.timezone - set timezone
- * @param {Array} opts.types - holiday types to consider
+ * @param {object} data - holiday data object - see data/holidays.json
+ * @param {string|Location} [country] - country code or location object
+ * @param {string} [state] - specifies state
+ * @param {string} [region] - specifies region
+ * @param {HolidayOptions} [opts] - options
  * @example
  * ```js
  * new Holiday('US', 'la', 'no') // is the same as
