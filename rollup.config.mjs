@@ -1,10 +1,12 @@
 export default {
-  input: './src/index.js',
+  input: "./src/index.js",
   output: {
-    dir: 'lib',
-    format: 'cjs',
-    entryFileNames: '[name].cjs',
+    dir: "lib",
+    format: "cjs",
+    interop: "auto",
+    entryFileNames: "[name].cjs",
+    exports: "auto",
     preserveModules: true,
-    exports: 'auto'
-  }
-}
+    preserveModulesRoot: "src",
+  },
+};
