@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.39.0](https://github.com/commenthol/date-holidays/compare/3.38.1...3.39.0) (2026-11-08)
+
+- feat(types): generate TypeScript declarations [2e575b60](https://github.com/commenthol/date-holidays/commit/2e575b60f2655b560803df462c6329fec62b47fa)
+- feat: date-holidays-parser update [07bcfc27](https://github.com/commenthol/date-holidays/commit/07bcfc2724db463908e162e60f413634b9838f43)
+- test: update timezone changes in fixtures [063344c5](https://github.com/commenthol/date-holidays/commit/063344c5b7fe4484b21483d2e1933b8332a54724)
+
 ## [3.38.1](https://github.com/commenthol/date-holidays/compare/3.38.0...3.38.1) (2026-11-07)
 
 - chore: bin date-holiday-parser to patch version [88d4f713](https://github.com/commenthol/date-holidays/commit/88d4f7139b2661da4ac08cd11e67440294a05b75)
