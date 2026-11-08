@@ -113,7 +113,7 @@
     "date": "2028-03-21 00:00:00",
     "start": "2028-03-20T23:00:00.000Z",
     "end": "2028-03-21T23:00:00.000Z",
-    "name": "Pierwszy Dzień Wiosny / Dzień Wagarowicza",
+    "name": "pierwszy dzień wiosny / Dzień Wagarowicza",
     "type": "observance",
     "rule": "03-21",
     "_weekday": "Tue"
@@ -180,7 +180,7 @@
     "date": "2028-04-16 00:00:00",
     "start": "2028-04-15T22:00:00.000Z",
     "end": "2028-04-16T22:00:00.000Z",
-    "name": "Niedziela Wielkanocna",
+    "name": "pierwszy dzień Wielkiej Nocy",
     "type": "public",
     "rule": "easter",
     "_weekday": "Sun"
@@ -189,7 +189,7 @@
     "date": "2028-04-17 00:00:00",
     "start": "2028-04-16T22:00:00.000Z",
     "end": "2028-04-17T22:00:00.000Z",
-    "name": "Drugi dzień Wielkanocy",
+    "name": "drugi dzień Wielkiej Nocy",
     "type": "public",
     "rule": "easter 1",
     "_weekday": "Mon"
@@ -216,7 +216,7 @@
     "date": "2028-05-01 00:00:00",
     "start": "2028-04-30T22:00:00.000Z",
     "end": "2028-05-01T22:00:00.000Z",
-    "name": "Święto Państwowe; Święto Pracy",
+    "name": "Święto Państwowe",
     "type": "public",
     "rule": "05-01",
     "_weekday": "Mon"
@@ -281,7 +281,7 @@
     "date": "2028-06-04 00:00:00",
     "start": "2028-06-03T22:00:00.000Z",
     "end": "2028-06-04T22:00:00.000Z",
-    "name": "Zielone Świątki",
+    "name": "pierwszy dzień Zielonych Świątek",
     "type": "public",
     "rule": "easter 49",
     "_weekday": "Sun"
@@ -300,7 +300,7 @@
     "date": "2028-06-15 00:00:00",
     "start": "2028-06-14T22:00:00.000Z",
     "end": "2028-06-15T22:00:00.000Z",
-    "name": "Dzień Bożego Ciała",
+    "name": "dzień Bożego Ciała",
     "type": "public",
     "rule": "easter 60",
     "_weekday": "Thu"
@@ -420,7 +420,7 @@
     "date": "2028-12-25 00:00:00",
     "start": "2028-12-24T23:00:00.000Z",
     "end": "2028-12-25T23:00:00.000Z",
-    "name": "Pierwszy dzień Bożego Narodzenia",
+    "name": "pierwszy dzień Bożego Narodzenia",
     "type": "public",
     "rule": "12-25",
     "_weekday": "Mon"
@@ -429,7 +429,7 @@
     "date": "2028-12-26 00:00:00",
     "start": "2028-12-25T23:00:00.000Z",
     "end": "2028-12-26T23:00:00.000Z",
-    "name": "Drugi dzień Bożego Narodzenia",
+    "name": "drugi dzień Bożego Narodzenia",
     "type": "public",
     "rule": "12-26",
     "_weekday": "Tue"
