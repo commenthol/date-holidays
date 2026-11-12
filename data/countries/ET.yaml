@@ -12,11 +12,14 @@ holidays:
     zones:
       - Africa/Nairobi
     days:
-      01-06 in non-leap years:
+      julian 12-25:
         _name: 12-25
-      01-07 in leap years:
-        _name: 12-25
-      01-19:
+      # 11 Ter = julian 01-06, or 01-07 if year % 4 = 0 (after Pagume 6)
+      julian 01-06 in odd years:
+        _name: 01-06
+      julian 01-06 every 4 years since 1902:
+        _name: 01-06
+      julian 01-07 every 4 years since 1904:
         _name: 01-06
       03-02:
         name:
@@ -34,15 +37,23 @@ holidays:
         name:
           am: ደርግ የወደቀበት ቀን
           en: Derg Downfall Day
-      09-11 in non-leap years:
+      # 1 Meskerem = julian 08-29, or 08-30 if year % 4 = 3 (after Pagume 6)
+      julian 08-29 in even years:
         _name: 01-01
-      09-12 in leap years:
+      julian 08-29 every 4 years since 1901:
         _name: 01-01
-      09-27 in non-leap years:
+      julian 08-30 every 4 years since 1903:
+        _name: 01-01
+      # 17 Meskerem = julian 09-14, or 09-15 if year % 4 = 3
+      julian 09-14 in even years:
         name:
           am: ብርሐነ-መስቀል
           en: Finding of the True Cross
-      09-28 in leap years:
+      julian 09-14 every 4 years since 1901:
+        name:
+          am: ብርሐነ-መስቀል
+          en: Finding of the True Cross
+      julian 09-15 every 4 years since 1903:
         name:
           am: ብርሐነ-መስቀል
           en: Finding of the True Cross
