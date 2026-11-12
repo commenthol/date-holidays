@@ -23,7 +23,7 @@
     "end": "2029-01-19T21:00:00.000Z",
     "name": "ጥምቀት",
     "type": "public",
-    "rule": "julian 01-06",
+    "rule": "julian 01-06 in odd years",
     "_weekday": "Fri"
   },
   {
@@ -131,7 +131,7 @@
     "end": "2029-09-11T21:00:00.000Z",
     "name": "ግዕዝ አዲስ ዓመት",
     "type": "public",
-    "rule": "09-11 in non-leap years",
+    "rule": "julian 08-29 every 4 years since 1901",
     "_weekday": "Tue"
   },
   {
@@ -140,7 +140,7 @@
     "end": "2029-09-27T21:00:00.000Z",
     "name": "Meskel",
     "type": "public",
-    "rule": "09-27 in non-leap years",
+    "rule": "julian 09-14 every 4 years since 1901",
     "_weekday": "Thu"
   },
   {
