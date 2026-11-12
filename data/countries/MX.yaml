@@ -73,6 +73,13 @@ holidays:
         type: observance
       09-16:
         _name: Independence Day
+      # LFT art. 74 VII, reformed DOF 2024-09-30
+      10-01 every 6 years since 2024:
+        name:
+          en: Change of Federal Government
+          es: Transmisión del Poder Ejecutivo Federal
+        active:
+          - from: 2024-10-01
       11-02:
         _name: 11-02
         type: bank
@@ -88,6 +95,8 @@ holidays:
         name:
           en: Change of Federal Government
           es: Transmisión del Poder Ejecutivo Federal
+        active:
+          - to: 2024-10-01
       12-12:
         name:
           en: Day of the Virgin of Guadalupe
