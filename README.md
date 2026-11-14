@@ -844,7 +844,7 @@ Alternatively you may use the `--omit` option.
 Manually use
 
 ```bash
-./scripts/holidays2json --pick US,CA,MX
+node ./scripts/holidays2json.js --pick US,CA,MX
 ```
 
 > **NOTE:** There are some countries which depend on data of others which
@@ -876,7 +876,7 @@ Please take a look at `./webpack.config.js`. To further reduce size consider cus
 
 ## Browser
 
-This project also runs in all modern browsers. See `./examples/browser`
+This project also runs in all modern browsers. See `./examples/browser`. The browser export uses the Temporal timezone adapter, so browsers must support `Temporal` or load a polyfill before the bundle.
 
 | Browser | Version |
 | ------- | :-----: |

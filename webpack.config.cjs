@@ -56,7 +56,7 @@ function createConfig (options) {
     entry: {
       'date.holidays': [
         // '@babel/polyfill',
-        './src/index.js'
+        './src/browser.js'
       ]
     },
     output: {
@@ -68,6 +68,7 @@ function createConfig (options) {
       libraryTarget: options.target[0]
     },
     resolve: {
+      conditionNames: ['browser', '...'],
       // mainFields: ['browser', 'main', 'module']
     },
     optimization: {

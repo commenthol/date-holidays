@@ -6,4 +6,12 @@
 /** @typedef {import('date-holidays-parser').HolidayMap} HolidayMap */
 /** @typedef {import('date-holidays-parser').HolidayType} HolidayType */
 
-export { Holidays as default } from "./Holidays.js";
+import { momentTimezoneAdapter } from 'caldate/moment-timezone'
+import { HolidaysBase } from './Holidays.js'
+
+class Holidays extends HolidaysBase {
+  /** @type {import('caldate').TimezoneAdapter} */
+  static defaultTimezoneAdapter = momentTimezoneAdapter
+}
+
+export default Holidays

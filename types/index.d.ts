@@ -21,6 +21,10 @@ declare module 'date-holidays' {
        * default ['observance', 'optional', 'school', 'bank', 'public']
        */
       types?: HolidayType[];
+      /** Calendar plugins enabled for this instance; omitted enables all built-ins. */
+      plugins?: import('date-holidays-parser').CalendarPlugin<unknown>[];
+      /** Timezone conversion implementation; defaults to moment-timezone in Node and Temporal in browsers. */
+      timezoneAdapter?: import('caldate').TimezoneAdapter;
     }
 
     export interface ActiveRange {
