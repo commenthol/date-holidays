@@ -5,7 +5,7 @@
     "end": "2026-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
-    "rule": "01-01",
+    "rule": "01-01 if saturday then previous friday if sunday then next monday",
     "_weekday": "Thu"
   },
   {
@@ -59,17 +59,17 @@
     "end": "2026-05-02T05:00:00.000Z",
     "name": "Día del Trabajador",
     "type": "public",
-    "rule": "05-01",
+    "rule": "05-01 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
     "_weekday": "Fri"
   },
   {
-    "date": "2026-05-24 00:00:00",
-    "start": "2026-05-24T05:00:00.000Z",
-    "end": "2026-05-25T05:00:00.000Z",
+    "date": "2026-05-25 00:00:00",
+    "start": "2026-05-25T05:00:00.000Z",
+    "end": "2026-05-26T05:00:00.000Z",
     "name": "Batalla del Pichincha",
     "type": "public",
-    "rule": "05-24",
-    "_weekday": "Sun"
+    "rule": "05-24 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2026-07-24 00:00:00",
@@ -86,7 +86,7 @@
     "end": "2026-08-11T05:00:00.000Z",
     "name": "Día del Primer Grito de Independencia de Quito",
     "type": "public",
-    "rule": "08-10",
+    "rule": "08-10 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
     "_weekday": "Mon"
   },
   {
@@ -95,7 +95,7 @@
     "end": "2026-10-10T05:00:00.000Z",
     "name": "Independencia de Guayaquil",
     "type": "public",
-    "rule": "10-09",
+    "rule": "10-09 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
     "_weekday": "Fri"
   },
   {
@@ -113,7 +113,7 @@
     "end": "2026-11-03T05:00:00.000Z",
     "name": "Día de los Difuntos",
     "type": "public",
-    "rule": "11-02",
+    "rule": "11-02 if wednesday then next friday if saturday then previous friday if sunday then next tuesday",
     "_weekday": "Mon"
   },
   {
@@ -122,7 +122,7 @@
     "end": "2026-11-04T05:00:00.000Z",
     "name": "Independencia de Cuenca",
     "type": "public",
-    "rule": "11-03",
+    "rule": "11-03 if wednesday then previous monday if saturday then previous thursday if sunday then next monday",
     "_weekday": "Tue"
   },
   {
@@ -140,7 +140,7 @@
     "end": "2026-12-26T05:00:00.000Z",
     "name": "Navidad",
     "type": "public",
-    "rule": "12-25",
+    "rule": "12-25 if saturday then previous friday if sunday then next monday",
     "_weekday": "Fri"
   },
   {
