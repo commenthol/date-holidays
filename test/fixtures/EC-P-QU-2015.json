@@ -130,7 +130,7 @@
     "start": "2015-12-06T05:00:00.000Z",
     "end": "2015-12-07T05:00:00.000Z",
     "name": "Aniversario de la fundación de Quito",
-    "type": "observance",
+    "type": "public",
     "rule": "12-06",
     "_weekday": "Sun"
   },

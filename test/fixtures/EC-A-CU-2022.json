@@ -1,0 +1,146 @@
+[
+  {
+    "date": "2022-02-28 00:00:00",
+    "start": "2022-02-28T05:00:00.000Z",
+    "end": "2022-03-01T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "rule": "easter -48",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-03-01 00:00:00",
+    "start": "2022-03-01T05:00:00.000Z",
+    "end": "2022-03-02T05:00:00.000Z",
+    "name": "Carnaval",
+    "type": "public",
+    "rule": "easter -47",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2022-04-11 00:00:00",
+    "start": "2022-04-11T05:00:00.000Z",
+    "end": "2022-04-12T05:00:00.000Z",
+    "name": "Fundación de Cuenca",
+    "type": "public",
+    "rule": "04-12 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-04-14 00:00:00",
+    "start": "2022-04-14T05:00:00.000Z",
+    "end": "2022-04-15T05:00:00.000Z",
+    "name": "Jueves Santo",
+    "type": "public",
+    "rule": "easter -3",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-04-15 00:00:00",
+    "start": "2022-04-15T05:00:00.000Z",
+    "end": "2022-04-16T05:00:00.000Z",
+    "name": "Viernes Santo",
+    "type": "public",
+    "rule": "easter -2",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-04-17 00:00:00",
+    "start": "2022-04-17T05:00:00.000Z",
+    "end": "2022-04-18T05:00:00.000Z",
+    "name": "Pascua",
+    "type": "observance",
+    "rule": "easter",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-05-02 00:00:00",
+    "start": "2022-05-02T05:00:00.000Z",
+    "end": "2022-05-03T05:00:00.000Z",
+    "name": "Día del Trabajador",
+    "type": "public",
+    "rule": "05-01 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-05-23 00:00:00",
+    "start": "2022-05-23T05:00:00.000Z",
+    "end": "2022-05-24T05:00:00.000Z",
+    "name": "Batalla del Pichincha",
+    "type": "public",
+    "rule": "05-24 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-07-24 00:00:00",
+    "start": "2022-07-24T05:00:00.000Z",
+    "end": "2022-07-25T05:00:00.000Z",
+    "name": "El Natalicio de Simón Bolívar",
+    "type": "observance",
+    "rule": "07-24",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2022-08-12 00:00:00",
+    "start": "2022-08-12T05:00:00.000Z",
+    "end": "2022-08-13T05:00:00.000Z",
+    "name": "Día del Primer Grito de Independencia de Quito",
+    "type": "public",
+    "rule": "08-10 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-10-10 00:00:00",
+    "start": "2022-10-10T05:00:00.000Z",
+    "end": "2022-10-11T05:00:00.000Z",
+    "name": "Independencia de Guayaquil",
+    "type": "public",
+    "rule": "10-09 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-10-31 00:00:00",
+    "start": "2022-10-31T05:00:00.000Z",
+    "end": "2022-11-01T05:00:00.000Z",
+    "name": "Dia de La Bandera",
+    "type": "observance",
+    "rule": "10-31",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-11-03 00:00:00",
+    "start": "2022-11-03T05:00:00.000Z",
+    "end": "2022-11-04T05:00:00.000Z",
+    "name": "Independencia de Cuenca",
+    "type": "public",
+    "rule": "11-03 if wednesday then previous monday if saturday then previous thursday if sunday then next monday",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2022-11-04 00:00:00",
+    "start": "2022-11-04T05:00:00.000Z",
+    "end": "2022-11-05T05:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "public",
+    "rule": "11-02 if wednesday then next friday if saturday then previous friday if sunday then next tuesday",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2022-12-26 00:00:00",
+    "start": "2022-12-26T05:00:00.000Z",
+    "end": "2022-12-27T05:00:00.000Z",
+    "name": "Navidad",
+    "type": "public",
+    "rule": "12-25 if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2022-12-31 00:00:00",
+    "start": "2022-12-31T05:00:00.000Z",
+    "end": "2023-01-01T05:00:00.000Z",
+    "name": "Fin del Año",
+    "type": "observance",
+    "rule": "12-31",
+    "_weekday": "Sat"
+  }
+]

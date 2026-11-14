@@ -130,8 +130,8 @@
     "start": "2019-12-06T05:00:00.000Z",
     "end": "2019-12-07T05:00:00.000Z",
     "name": "Aniversario de la fundación de Quito",
-    "type": "observance",
-    "rule": "12-06",
+    "type": "public",
+    "rule": "12-06 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
     "_weekday": "Fri"
   },
   {

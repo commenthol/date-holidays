@@ -270,8 +270,12 @@ Countries: 207
 ├── DO: República Dominicana
 ├── DZ: الجمهورية الجزائرية الديمقراطية الشعبية
 ├── EC: Ecuador
-│   └── P: Pichincha
-│       └── QU: Quito
+│   ├── P: Pichincha
+│   │   └── QU: Quito
+│   ├── A: Azuay
+│   │   └── CU: Cuenca
+│   └── G: Guayas
+│       └── GU: Guayaquil
 ├── EE: Eesti
 ├── EG: جمهورية مصر العربية
 ├── EH: الجمهورية العربية الصحراوية الديمقراطية
