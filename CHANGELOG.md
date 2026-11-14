@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.39.2](https://github.com/commenthol/date-holidays/compare/3.39.1...3.39.2) (2026-11-14)
+
+- fix(KY,MX): Constitution Day on first Monday in July; Oct 1 transfer of power since 2024 [bab03d7b](https://github.com/commenthol/date-holidays/commit/bab03d7bdffc51cd90344003d3e9a596327efec1)
+- fix(ET,ER): follow the Ethiopian calendar for Genna, Timket, Enkutatash and Meskel [f104680c](https://github.com/commenthol/date-holidays/commit/f104680c059536bd4260e75bdca1adedf88fe89b)
+- fix(KR): start Seollal on the day before the lunar new year [fa119e17](https://github.com/commenthol/date-holidays/commit/fa119e17f3bcf17856a7a301e67c6981c2010e96)
+- fix(EC): Independence of Guayaquil is on October 9 [d17965f2](https://github.com/commenthol/date-holidays/commit/d17965f2a03f4ab437b36aa02b1555f41bbeab5b)
+- fix(CY): correct Cyprus public holidays [5ce0fefd](https://github.com/commenthol/date-holidays/commit/5ce0fefd912759ab880bbc606c7ba81074c69f4b)
+- fix(JE): use "Spring Bank Holiday" name [13351a55](https://github.com/commenthol/date-holidays/commit/13351a558937ea75eb5f903ba0034a18c3213ac2)
+- fix(NA): use holiday names from Public Holidays Act [aed1f2ee](https://github.com/commenthol/date-holidays/commit/aed1f2ee75466248bd996dc4c96311ef8ad08bfc)
+
 ## [3.39.1](https://github.com/commenthol/date-holidays/compare/3.39.0...3.39.1) (2026-11-08)
 
 - fix(PL): align holiday names with Polish law [84ec954f](https://github.com/commenthol/date-holidays/commit/84ec954fac921210f581dfc6dbe50adb916b5839)
