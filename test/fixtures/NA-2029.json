@@ -84,7 +84,7 @@
     "date": "2029-08-26 00:00:00",
     "start": "2029-08-25T22:00:00.000Z",
     "end": "2029-08-26T22:00:00.000Z",
-    "name": "Heroes’ Day",
+    "name": "Heroes Day",
     "type": "public",
     "rule": "08-26",
     "_weekday": "Sun"
@@ -102,7 +102,7 @@
     "date": "2029-12-10 00:00:00",
     "start": "2029-12-09T22:00:00.000Z",
     "end": "2029-12-10T22:00:00.000Z",
-    "name": "Human Rights Day",
+    "name": "Day of the Namibian Women and International Human Rights Day",
     "type": "public",
     "rule": "12-10",
     "_weekday": "Mon"

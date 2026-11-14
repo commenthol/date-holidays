@@ -1,6 +1,8 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Namibia
   # @source https://www.un.int/namibia/namibia/national-holidays
+  # @source https://www.lac.org.na/laws/annoSTAT/Public%20Holidays%20Act%2026%20of%201990.pdf
+  # @source https://www.lac.org.na/laws/2004/3348.pdf
   NA:
     names:
       en: Namibia
@@ -45,12 +47,12 @@ holidays:
         name: Public Holiday
       08-26:
         name:
-          en: Heroes’ Day
+          en: Heroes Day
       substitutes 08-26 if sunday then next monday:
         name: Public Holiday
       12-10:
         name:
-          en: Human Rights Day
+          en: Day of the Namibian Women and International Human Rights Day
       substitutes 12-10 if sunday then next monday:
         name: Public Holiday
       12-25:
