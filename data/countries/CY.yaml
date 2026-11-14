@@ -17,11 +17,6 @@ holidays:
       orthodox -48:
         name:
           el: Καθαρά Δευτέρα
-          en: Ash Sunday
-        type: observance
-      orthodox -47:
-        name:
-          el: Καθαρά Δευτέρα
           en: Clean Monday
       03-25:
         name:
@@ -41,6 +36,10 @@ holidays:
         _name: 05-01
       orthodox 49:
         _name: easter 49
+      orthodox 50:
+        _name: easter 50
+        name:
+          en: Kataklysmos
       2nd sunday in May:
         _name: Mothers Day
         type: observance
