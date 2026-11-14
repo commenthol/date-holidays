@@ -73,24 +73,6 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2021-07-05 00:00:00",
-    "start": "2021-07-05T04:00:00.000Z",
-    "end": "2021-07-06T04:00:00.000Z",
-    "name": "Carnival Monday",
-    "type": "public",
-    "rule": "1st Monday in July",
-    "_weekday": "Mon"
-  },
-  {
-    "date": "2021-07-06 00:00:00",
-    "start": "2021-07-06T04:00:00.000Z",
-    "end": "2021-07-07T04:00:00.000Z",
-    "name": "Carnival Tuesday",
-    "type": "public",
-    "rule": "Tuesday after 1st Monday in July",
-    "_weekday": "Tue"
-  },
-  {
     "date": "2021-08-01 00:00:00",
     "start": "2021-08-01T04:00:00.000Z",
     "end": "2021-08-02T04:00:00.000Z",
@@ -108,6 +90,24 @@
     "substitute": true,
     "rule": "08-01 and if Sunday then next Monday",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2021-09-06 00:00:00",
+    "start": "2021-09-06T04:00:00.000Z",
+    "end": "2021-09-07T04:00:00.000Z",
+    "name": "Carnival Monday",
+    "type": "public",
+    "rule": "1st Monday in July",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-09-07 00:00:00",
+    "start": "2021-09-07T04:00:00.000Z",
+    "end": "2021-09-08T04:00:00.000Z",
+    "name": "Carnival Tuesday",
+    "type": "public",
+    "rule": "Tuesday after 1st Monday in July",
+    "_weekday": "Tue"
   },
   {
     "date": "2021-10-27 00:00:00",

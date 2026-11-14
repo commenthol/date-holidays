@@ -32,14 +32,14 @@ holidays:
         name:
           en: Carnival Monday
         disable:
-          - "2021-06-05"
+          - "2021-07-05"
         enable:
           - "2021-09-06"
       Tuesday after 1st Monday in July:
         name:
           en: Carnival Tuesday
         disable:
-          - "2021-06-06"
+          - "2021-07-06"
         enable:
           - "2021-09-07"
       08-01 and if Sunday then next Monday:
