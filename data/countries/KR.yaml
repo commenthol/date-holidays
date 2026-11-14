@@ -12,8 +12,8 @@ holidays:
     days:
       01-01:
         _name: 01-01
-      # 1st day of 1st lunar month
-      korean 01-0-01 P3D:
+      # the day before, the 1st day and the 2nd day of the 1st lunar month
+      1 day before korean 01-0-01 P3D:
         name:
           en: Korean New Year
           ko: 설날
@@ -117,13 +117,10 @@ holidays:
           - from: "2023-01-01"
       # Seollal substitute holidays (Sunday overlap, or overlap with another public
       # holiday on a weekday) can't use the generic weekend-substitute pattern above:
-      # the underlying `korean 01-0-01 P3D` 3-day span is anchored at 당일 (1st lunar
-      # day) instead of 전날, so it omits 전날 and includes an extra day past 다음날 --
-      # a rule keyed off that span would trigger on the wrong day. Anchored here at the
-      # real (corrected) 전날/당일/다음날 dates instead, computed per year. Chuseok is
-      # anchored correctly already (`korean 8-0-14` = the day before Chuseok) but still
-      # needs explicit entries below for the rare cases where it overlaps another
-      # holiday. Covers 2014-2050; needs extending past that.
+      # the substitute day depends on which of 전날/당일/다음날 falls on the Sunday or
+      # the other holiday, so it is anchored here at those dates, computed per year.
+      # Chuseok (`korean 8-0-14` = the day before Chuseok) also needs explicit
+      # entries below for the rare cases where it overlaps another holiday. Covers 2014-2050; needs extending past that.
       # @source https://github.com/commenthol/date-holidays/issues/640
       "substitutes 2014-09-07 if Sunday then next Wednesday": # -> 2014-09-10
         substitute: true
