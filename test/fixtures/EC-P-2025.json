@@ -5,7 +5,7 @@
     "end": "2025-01-02T05:00:00.000Z",
     "name": "Año Nuevo",
     "type": "public",
-    "rule": "01-01",
+    "rule": "01-01 if saturday then previous friday if sunday then next monday",
     "_weekday": "Wed"
   },
   {
@@ -54,22 +54,22 @@
     "_weekday": "Sun"
   },
   {
-    "date": "2025-05-01 00:00:00",
-    "start": "2025-05-01T05:00:00.000Z",
-    "end": "2025-05-02T05:00:00.000Z",
+    "date": "2025-05-02 00:00:00",
+    "start": "2025-05-02T05:00:00.000Z",
+    "end": "2025-05-03T05:00:00.000Z",
     "name": "Día del Trabajador",
     "type": "public",
-    "rule": "05-01",
-    "_weekday": "Thu"
+    "rule": "05-01 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Fri"
   },
   {
-    "date": "2025-05-24 00:00:00",
-    "start": "2025-05-24T05:00:00.000Z",
-    "end": "2025-05-25T05:00:00.000Z",
+    "date": "2025-05-23 00:00:00",
+    "start": "2025-05-23T05:00:00.000Z",
+    "end": "2025-05-24T05:00:00.000Z",
     "name": "Batalla del Pichincha",
     "type": "public",
-    "rule": "05-24",
-    "_weekday": "Sat"
+    "rule": "05-24 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Fri"
   },
   {
     "date": "2025-07-24 00:00:00",
@@ -81,22 +81,22 @@
     "_weekday": "Thu"
   },
   {
-    "date": "2025-08-10 00:00:00",
-    "start": "2025-08-10T05:00:00.000Z",
-    "end": "2025-08-11T05:00:00.000Z",
+    "date": "2025-08-11 00:00:00",
+    "start": "2025-08-11T05:00:00.000Z",
+    "end": "2025-08-12T05:00:00.000Z",
     "name": "Día del Primer Grito de Independencia de Quito",
     "type": "public",
-    "rule": "08-10",
-    "_weekday": "Sun"
+    "rule": "08-10 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Mon"
   },
   {
-    "date": "2025-10-09 00:00:00",
-    "start": "2025-10-09T05:00:00.000Z",
-    "end": "2025-10-10T05:00:00.000Z",
+    "date": "2025-10-10 00:00:00",
+    "start": "2025-10-10T05:00:00.000Z",
+    "end": "2025-10-11T05:00:00.000Z",
     "name": "Independencia de Guayaquil",
     "type": "public",
-    "rule": "10-09",
-    "_weekday": "Thu"
+    "rule": "10-09 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday",
+    "_weekday": "Fri"
   },
   {
     "date": "2025-10-31 00:00:00",
@@ -108,22 +108,22 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2025-11-02 00:00:00",
-    "start": "2025-11-02T05:00:00.000Z",
-    "end": "2025-11-03T05:00:00.000Z",
-    "name": "Día de los Difuntos",
-    "type": "public",
-    "rule": "11-02",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2025-11-03 00:00:00",
     "start": "2025-11-03T05:00:00.000Z",
     "end": "2025-11-04T05:00:00.000Z",
     "name": "Independencia de Cuenca",
     "type": "public",
-    "rule": "11-03",
+    "rule": "11-03 if wednesday then previous monday if saturday then previous thursday if sunday then next monday",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2025-11-04 00:00:00",
+    "start": "2025-11-04T05:00:00.000Z",
+    "end": "2025-11-05T05:00:00.000Z",
+    "name": "Día de los Difuntos",
+    "type": "public",
+    "rule": "11-02 if wednesday then next friday if saturday then previous friday if sunday then next tuesday",
+    "_weekday": "Tue"
   },
   {
     "date": "2025-12-25 00:00:00",
@@ -131,7 +131,7 @@
     "end": "2025-12-26T05:00:00.000Z",
     "name": "Navidad",
     "type": "public",
-    "rule": "12-25",
+    "rule": "12-25 if saturday then previous friday if sunday then next monday",
     "_weekday": "Thu"
   },
   {

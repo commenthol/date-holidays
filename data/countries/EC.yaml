@@ -11,8 +11,19 @@ holidays:
       - America/Guayaquil
       - Pacific/Galapagos
     days:
+      # Since 2017, rest days move to make long weekends: Tuesday to the previous Monday,
+      # Wednesday or Thursday to Friday, Saturday to the previous Friday and Sunday to the
+      # next Monday. January 1, December 25 and Carnival only move from the weekend.
+      # November 2 and 3 follow the rules for consecutive holidays (General Provision One).
+      # @source https://files.eluniverso.com/archivos/2017/05/ro-sup-906-ref-serv-pub-cod-tra-20-12-2016.pdf
       01-01:
         _name: 01-01
+        active:
+          - to: "2016-12-31"
+      01-01 if saturday then previous friday if sunday then next monday:
+        _name: 01-01
+        active:
+          - from: "2017-01-01"
       easter -48:
         _name: Carnival
       easter -47:
@@ -26,10 +37,24 @@ holidays:
         type: observance
       05-01:
         _name: 05-01
+        active:
+          - to: "2016-12-31"
+      05-01 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+        _name: 05-01
+        active:
+          - from: "2017-01-01"
       05-24:
         name:
           en: The Battle of Pichincha
           es: Batalla del Pichincha
+        active:
+          - to: "2016-12-31"
+      05-24 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+        name:
+          en: The Battle of Pichincha
+          es: Batalla del Pichincha
+        active:
+          - from: "2017-01-01"
       07-24:
         name:
           en: The Birthday of Simón Bolívar
@@ -39,10 +64,26 @@ holidays:
         name:
           en: Declaration of Independence of Quito
           es: Día del Primer Grito de Independencia de Quito
+        active:
+          - to: "2016-12-31"
+      08-10 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+        name:
+          en: Declaration of Independence of Quito
+          es: Día del Primer Grito de Independencia de Quito
+        active:
+          - from: "2017-01-01"
       10-09:
         name:
           en: Independence of Guayaquil
           es: Independencia de Guayaquil
+        active:
+          - to: "2016-12-31"
+      10-09 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+        name:
+          en: Independence of Guayaquil
+          es: Independencia de Guayaquil
+        active:
+          - from: "2017-01-01"
       10-31:
         name:
           en: Flag Day
@@ -50,12 +91,32 @@ holidays:
         type: observance
       11-02:
         _name: 11-02
+        active:
+          - to: "2016-12-31"
+      11-02 if wednesday then next friday if saturday then previous friday if sunday then next tuesday:
+        _name: 11-02
+        active:
+          - from: "2017-01-01"
       11-03:
         name:
           en: Independence of Cuenca
           es: Independencia de Cuenca
+        active:
+          - to: "2016-12-31"
+      11-03 if wednesday then previous monday if saturday then previous thursday if sunday then next monday:
+        name:
+          en: Independence of Cuenca
+          es: Independencia de Cuenca
+        active:
+          - from: "2017-01-01"
       12-25:
         _name: 12-25
+        active:
+          - to: "2016-12-31"
+      12-25 if saturday then previous friday if sunday then next monday:
+        _name: 12-25
+        active:
+          - from: "2017-01-01"
       12-31:
         _name: 12-31
         type: observance
