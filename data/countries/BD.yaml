@@ -14,7 +14,7 @@ holidays:
       - friday
       - saturday
     days:
-      bengali-revised 11-9:
+      02-21:
         name:
           bn: শহীদ দিবস
           en: Language Martyrs’ Day
@@ -39,7 +39,7 @@ holidays:
         name:
           bn: জাতীয় শোক দিবস
           en: National Mourning Day
-      bengali-revised 9-2:
+      12-16:
         name:
           bn: বিজয় দিবস
           en: Victory Day
@@ -102,7 +102,7 @@ holidays:
           - "2019-10-08"
           - "2020-10-08"
 
-      bengali-revised 9-11:
+      12-25:
         _name: 12-25
 
       03-25:
