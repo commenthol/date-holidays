@@ -20,6 +20,10 @@ holidays:
         note: Women
       05-01:
         _name: 05-01
+      05-02:
+        _name: 05-01
+        active:
+          - from: "2025-01-01"
       05-04 12:00:
         name:
           en: Youth Day
@@ -51,6 +55,10 @@ holidays:
         name:
           en: Spring Festival
           zh: 春节
+        active:
+          - from: "2008-01-01"
+            to: "2014-01-01"
+          - from: "2025-01-01"
       chinese 01-0-01: # 1st day of 1st lunar month
         name:
           en: Spring Festival
@@ -59,6 +67,13 @@ holidays:
         name:
           en: Spring Festival
           zh: 春节
+      chinese 01-0-03:
+        name:
+          en: Spring Festival
+          zh: 春节
+        active:
+          - to: "2008-01-01"
+          - from: "2014-01-01"
       chinese 5-01 solarterm: # Tomb-Sweeping Day
         name:
           en: Qingming Festival
