@@ -121,6 +121,9 @@ holidays:
         _name: 12-31
         type: observance
     states:
+      # Each canton rests on its creation date, and local holidays move like national ones
+      # (Ley Orgánica del Servicio Público, Disposición General Cuarta, as amended in 2016).
+      # @source https://files.eluniverso.com/archivos/2017/05/ro-sup-906-ref-serv-pub-cod-tra-20-12-2016.pdf
       P:
         name: Pichincha
         regions:
@@ -131,9 +134,32 @@ holidays:
                 name:
                   en: Foundation of Quito
                   es: Aniversario de la fundación de Quito
-                type: observance
-      # A:
-      #   name: Azuay
+                active:
+                  - to: "2016-12-31"
+              12-06 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+                name:
+                  en: Foundation of Quito
+                  es: Aniversario de la fundación de Quito
+                active:
+                  - from: "2017-01-01"
+      A:
+        name: Azuay
+        regions:
+          CU:
+            name: Cuenca
+            days:
+              04-12:
+                name:
+                  en: Foundation of Cuenca
+                  es: Fundación de Cuenca
+                active:
+                  - to: "2016-12-31"
+              04-12 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+                name:
+                  en: Foundation of Cuenca
+                  es: Fundación de Cuenca
+                active:
+                  - from: "2017-01-01"
       # B:
       #   name: Bolívar
       # C:
@@ -144,8 +170,24 @@ holidays:
       #   name: Esmeraldas
       # F:
       #   name: Cañar
-      # G:
-      #   name: Guayas
+      G:
+        name: Guayas
+        regions:
+          GU:
+            name: Guayaquil
+            days:
+              07-25:
+                name:
+                  en: Foundation of Guayaquil
+                  es: Fundación de Guayaquil
+                active:
+                  - to: "2016-12-31"
+              07-25 if tuesday then previous monday if wednesday,thursday then next friday if saturday then previous friday if sunday then next monday:
+                name:
+                  en: Foundation of Guayaquil
+                  es: Fundación de Guayaquil
+                active:
+                  - from: "2017-01-01"
       # H:
       #   name: Chimborazo
       # I:
