@@ -2,6 +2,7 @@ holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_the_Dominican_Republic
   # @source http://www.ministeriodetrabajo.gob.do/index.php/noticias/item/ministerio-de-trabajo-publica-calendario-de-dias-feriados-del-ano-2016
   # @source http://docs.republica-dominicana.justia.com/nacionales/leyes/ley-139-97.pdf
+  # @source https://presidencia.gob.do/noticias/ministerio-de-trabajo-reitera-feriado-del-dia-de-la-constitucion-se-cambia-para-el-lunes-4
   DO:
     names:
       es: República Dominicana
@@ -40,7 +41,7 @@ holidays:
         name:
           es: Nuestra Señora de las Mercedes
           en: Our Lady of las Mercedes
-      11-06 if tuesday,wednesday,thursday,friday,saturday then next monday:
+      11-06 if tuesday,wednesday then previous monday if thursday,friday then next monday:
         _name: Constitution Day
       12-25:
         _name: 12-25

@@ -90,12 +90,12 @@
     "_weekday": "Tue"
   },
   {
-    "date": "2019-11-11 00:00:00",
-    "start": "2019-11-11T04:00:00.000Z",
-    "end": "2019-11-12T04:00:00.000Z",
+    "date": "2019-11-04 00:00:00",
+    "start": "2019-11-04T04:00:00.000Z",
+    "end": "2019-11-05T04:00:00.000Z",
     "name": "Día de la Constitución",
     "type": "public",
-    "rule": "11-06 if tuesday,wednesday,thursday,friday,saturday then next monday",
+    "rule": "11-06 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
