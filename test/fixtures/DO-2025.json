@@ -95,7 +95,7 @@
     "end": "2025-11-11T04:00:00.000Z",
     "name": "Día de la Constitución",
     "type": "public",
-    "rule": "11-06 if tuesday,wednesday,thursday,friday,saturday then next monday",
+    "rule": "11-06 if tuesday,wednesday then previous monday if thursday,friday then next monday",
     "_weekday": "Mon"
   },
   {
