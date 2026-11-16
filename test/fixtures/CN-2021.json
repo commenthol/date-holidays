@@ -27,6 +27,83 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2021-01-05 00:00:00",
+    "start": "2021-01-04T16:00:00.000Z",
+    "end": "2021-01-05T16:00:00.000Z",
+    "name": "小寒",
+    "type": "observance",
+    "rule": "chinese 23-01 solarterm",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-01-10 00:00:00",
+    "start": "2021-01-09T16:00:00.000Z",
+    "end": "2021-01-10T16:00:00.000Z",
+    "name": "中国人民警察节",
+    "type": "observance",
+    "note": "State Council approval 2020 (国函〔2020〕98号); not a day off",
+    "rule": "01-10",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-01-20 00:00:00",
+    "start": "2021-01-19T16:00:00.000Z",
+    "end": "2021-01-20T16:00:00.000Z",
+    "name": "大寒",
+    "type": "observance",
+    "rule": "chinese 24-01 solarterm",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-01-20 00:00:00",
+    "start": "2021-01-19T16:00:00.000Z",
+    "end": "2021-01-20T16:00:00.000Z",
+    "name": "腊八节",
+    "type": "observance",
+    "note": "National ICH \"Laba Festival customs\" (2021, Ⅹ-174); not a day off",
+    "rule": "chinese 12-0-08",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-02-03 00:00:00",
+    "start": "2021-02-02T16:00:00.000Z",
+    "end": "2021-02-03T16:00:00.000Z",
+    "name": "立春",
+    "type": "observance",
+    "rule": "chinese 1-01 solarterm",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-02-04 00:00:00",
+    "start": "2021-02-03T16:00:00.000Z",
+    "end": "2021-02-04T16:00:00.000Z",
+    "name": "小年",
+    "type": "observance",
+    "note": "North China on the 23rd, South China often on the 24th; not yet on the national ICH list",
+    "rule": "chinese 12-0-23",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-02-07 00:00:00",
+    "start": "2021-02-06T16:00:00.000Z",
+    "end": "2021-02-07T16:00:00.000Z",
+    "name": "二七纪念日",
+    "type": "observance",
+    "note": "京汉铁路工人大罢工纪念日; 放假办法第五条; not a day off",
+    "rule": "02-07",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-02-11 00:00:00",
+    "start": "2021-02-10T16:00:00.000Z",
+    "end": "2021-02-11T16:00:00.000Z",
+    "name": "除夕",
+    "type": "observance",
+    "note": "Part of the Spring Festival; not a day off",
+    "rule": "chinese 01-0-00 #1",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2021-02-12 00:00:00",
     "start": "2021-02-11T16:00:00.000Z",
     "end": "2021-02-12T16:00:00.000Z",
@@ -82,6 +159,34 @@
     "_weekday": "Wed"
   },
   {
+    "date": "2021-02-18 00:00:00",
+    "start": "2021-02-17T16:00:00.000Z",
+    "end": "2021-02-18T16:00:00.000Z",
+    "name": "雨水",
+    "type": "observance",
+    "rule": "chinese 2-01 solarterm",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-02-26 00:00:00",
+    "start": "2021-02-25T16:00:00.000Z",
+    "end": "2021-02-26T16:00:00.000Z",
+    "name": "元宵节",
+    "type": "observance",
+    "note": "National ICH list (2008, Ⅹ-71); not a day off",
+    "rule": "chinese 01-0-15",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-05 00:00:00",
+    "start": "2021-03-04T16:00:00.000Z",
+    "end": "2021-03-05T16:00:00.000Z",
+    "name": "惊蛰",
+    "type": "observance",
+    "rule": "chinese 3-01 solarterm",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2021-03-08 12:00:00",
     "start": "2021-03-08T04:00:00.000Z",
     "end": "2021-03-08T16:00:00.000Z",
@@ -92,10 +197,39 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-03-12 00:00:00",
+    "start": "2021-03-11T16:00:00.000Z",
+    "end": "2021-03-12T16:00:00.000Z",
+    "name": "植树节",
+    "type": "observance",
+    "note": "NPC Standing Committee resolution 1979; 放假办法第五条; not a day off",
+    "rule": "03-12",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-03-14 00:00:00",
+    "start": "2021-03-13T16:00:00.000Z",
+    "end": "2021-03-14T16:00:00.000Z",
+    "name": "龙抬头",
+    "type": "observance",
+    "note": "Folk festival; not yet on the national ICH list",
+    "rule": "chinese 02-0-02",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-03-20 00:00:00",
+    "start": "2021-03-19T16:00:00.000Z",
+    "end": "2021-03-20T16:00:00.000Z",
+    "name": "春分",
+    "type": "observance",
+    "rule": "chinese 4-01 solarterm",
+    "_weekday": "Sat"
+  },
+  {
     "date": "2021-04-03 00:00:00",
     "start": "2021-04-02T16:00:00.000Z",
     "end": "2021-04-03T16:00:00.000Z",
-    "name": "清明节 清明節",
+    "name": "清明节",
     "type": "public",
     "rule": "2021-04-03",
     "_weekday": "Sat"
@@ -104,7 +238,7 @@
     "date": "2021-04-04 00:00:00",
     "start": "2021-04-03T16:00:00.000Z",
     "end": "2021-04-04T16:00:00.000Z",
-    "name": "清明节 清明節",
+    "name": "清明节",
     "type": "public",
     "rule": "chinese 5-01 solarterm",
     "_weekday": "Sun"
@@ -113,10 +247,49 @@
     "date": "2021-04-05 00:00:00",
     "start": "2021-04-04T16:00:00.000Z",
     "end": "2021-04-05T16:00:00.000Z",
-    "name": "清明节 清明節",
+    "name": "清明节",
     "type": "public",
     "rule": "2021-04-05",
     "_weekday": "Mon"
+  },
+  {
+    "date": "2021-04-14 00:00:00",
+    "start": "2021-04-13T16:00:00.000Z",
+    "end": "2021-04-14T16:00:00.000Z",
+    "name": "上巳节",
+    "type": "observance",
+    "note": "Folk festival; national ICH item is \"March 3\" of ethnic groups; Han Shangsi is not separately listed",
+    "rule": "chinese 03-0-03",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-04-15 00:00:00",
+    "start": "2021-04-14T16:00:00.000Z",
+    "end": "2021-04-15T16:00:00.000Z",
+    "name": "全民国家安全教育日",
+    "type": "observance",
+    "note": "National Security Law, Art. 14; not a day off",
+    "rule": "04-15",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-04-20 00:00:00",
+    "start": "2021-04-19T16:00:00.000Z",
+    "end": "2021-04-20T16:00:00.000Z",
+    "name": "谷雨",
+    "type": "observance",
+    "rule": "chinese 6-01 solarterm",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-04-24 00:00:00",
+    "start": "2021-04-23T16:00:00.000Z",
+    "end": "2021-04-24T16:00:00.000Z",
+    "name": "中国航天日",
+    "type": "observance",
+    "note": "State Council approval 2016 (国函〔2016〕50号); not a day off",
+    "rule": "04-24",
+    "_weekday": "Sat"
   },
   {
     "date": "2021-05-01 00:00:00",
@@ -175,14 +348,121 @@
     "_weekday": "Wed"
   },
   {
+    "date": "2021-05-05 00:00:00",
+    "start": "2021-05-04T16:00:00.000Z",
+    "end": "2021-05-05T16:00:00.000Z",
+    "name": "立夏",
+    "type": "observance",
+    "rule": "chinese 7-01 solarterm",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-05-10 00:00:00",
+    "start": "2021-05-09T16:00:00.000Z",
+    "end": "2021-05-10T16:00:00.000Z",
+    "name": "中国品牌日",
+    "type": "observance",
+    "note": "State Council approval 2017 (国函〔2017〕51号); not a day off",
+    "rule": "05-10",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-05-12 00:00:00",
+    "start": "2021-05-11T16:00:00.000Z",
+    "end": "2021-05-12T16:00:00.000Z",
+    "name": "全国防灾减灾日",
+    "type": "observance",
+    "note": "State Council approval 2009; not a day off",
+    "rule": "05-12 #1",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-05-12 00:00:00",
+    "start": "2021-05-11T16:00:00.000Z",
+    "end": "2021-05-12T16:00:00.000Z",
+    "name": "护士节",
+    "type": "observance",
+    "note": "International Nurses Day; 放假办法第五条; not a day off",
+    "rule": "05-12",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-05-16 00:00:00",
+    "start": "2021-05-15T16:00:00.000Z",
+    "end": "2021-05-16T16:00:00.000Z",
+    "name": "全国助残日",
+    "type": "observance",
+    "note": "Law on the Protection of Persons with Disabilities, Art. 14; not a day off",
+    "rule": "3rd Sunday in May",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-19 00:00:00",
+    "start": "2021-05-18T16:00:00.000Z",
+    "end": "2021-05-19T16:00:00.000Z",
+    "name": "中国旅游日",
+    "type": "observance",
+    "note": "State Council approval 2011; not a day off",
+    "rule": "05-19",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-05-21 00:00:00",
+    "start": "2021-05-20T16:00:00.000Z",
+    "end": "2021-05-21T16:00:00.000Z",
+    "name": "小满",
+    "type": "observance",
+    "rule": "chinese 8-01 solarterm",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-05-30 00:00:00",
+    "start": "2021-05-29T16:00:00.000Z",
+    "end": "2021-05-30T16:00:00.000Z",
+    "name": "五卅纪念日",
+    "type": "observance",
+    "note": "五卅运动纪念日; 放假办法第五条; not a day off",
+    "rule": "05-30",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-05-30 00:00:00",
+    "start": "2021-05-29T16:00:00.000Z",
+    "end": "2021-05-30T16:00:00.000Z",
+    "name": "全国科技工作者日",
+    "type": "observance",
+    "note": "State Council approval 2016 (国函〔2016〕194号); not a day off",
+    "rule": "05-30 #1",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2021-06-01 00:00:00",
     "start": "2021-05-31T16:00:00.000Z",
     "end": "2021-06-01T16:00:00.000Z",
-    "name": "六一儿童节",
+    "name": "儿童节",
     "type": "public",
     "note": "Children below the age of 14",
     "rule": "06-01",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2021-06-05 00:00:00",
+    "start": "2021-06-04T16:00:00.000Z",
+    "end": "2021-06-05T16:00:00.000Z",
+    "name": "芒种",
+    "type": "observance",
+    "rule": "chinese 9-01 solarterm",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-06-12 00:00:00",
+    "start": "2021-06-11T16:00:00.000Z",
+    "end": "2021-06-12T16:00:00.000Z",
+    "name": "文化和自然遗产日",
+    "type": "observance",
+    "note": "State Council 2006; renamed in 2017; not a day off",
+    "rule": "2nd Saturday in June",
+    "_weekday": "Sat"
   },
   {
     "date": "2021-06-12 00:00:00",
@@ -212,6 +492,73 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2021-06-21 00:00:00",
+    "start": "2021-06-20T16:00:00.000Z",
+    "end": "2021-06-21T16:00:00.000Z",
+    "name": "夏至",
+    "type": "observance",
+    "rule": "chinese 10-01 solarterm",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-06-25 00:00:00",
+    "start": "2021-06-24T16:00:00.000Z",
+    "end": "2021-06-25T16:00:00.000Z",
+    "name": "全国土地日",
+    "type": "observance",
+    "note": "State Council decision 1991; not a day off",
+    "rule": "06-25",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-07-01 00:00:00",
+    "start": "2021-06-30T16:00:00.000Z",
+    "end": "2021-07-01T16:00:00.000Z",
+    "name": "建党纪念日",
+    "type": "observance",
+    "note": "Established by the CPC Central Committee in 1941; not a statutory holiday",
+    "rule": "07-01",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-07-07 00:00:00",
+    "start": "2021-07-06T16:00:00.000Z",
+    "end": "2021-07-07T16:00:00.000Z",
+    "name": "七七抗战纪念日",
+    "type": "observance",
+    "note": "全民族抗战爆发纪念日; 放假办法第五条; not a day off",
+    "rule": "07-07",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-07-07 00:00:00",
+    "start": "2021-07-06T16:00:00.000Z",
+    "end": "2021-07-07T16:00:00.000Z",
+    "name": "小暑",
+    "type": "observance",
+    "rule": "chinese 11-01 solarterm",
+    "_weekday": "Wed"
+  },
+  {
+    "date": "2021-07-11 00:00:00",
+    "start": "2021-07-10T16:00:00.000Z",
+    "end": "2021-07-11T16:00:00.000Z",
+    "name": "中国航海日",
+    "type": "observance",
+    "note": "State Council approval 2005 (国函〔2005〕34号); not a day off",
+    "rule": "07-11",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-07-22 00:00:00",
+    "start": "2021-07-21T16:00:00.000Z",
+    "end": "2021-07-22T16:00:00.000Z",
+    "name": "大暑",
+    "type": "observance",
+    "rule": "chinese 12-01 solarterm",
+    "_weekday": "Thu"
+  },
+  {
     "date": "2021-08-01 12:00:00",
     "start": "2021-08-01T04:00:00.000Z",
     "end": "2021-08-01T16:00:00.000Z",
@@ -220,6 +567,123 @@
     "note": "Military personnel in active service",
     "rule": "08-01 12:00",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2021-08-07 00:00:00",
+    "start": "2021-08-06T16:00:00.000Z",
+    "end": "2021-08-07T16:00:00.000Z",
+    "name": "立秋",
+    "type": "observance",
+    "rule": "chinese 13-01 solarterm",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-08-08 00:00:00",
+    "start": "2021-08-07T16:00:00.000Z",
+    "end": "2021-08-08T16:00:00.000Z",
+    "name": "全民健身日",
+    "type": "observance",
+    "note": "State Council approval 2009; not a day off",
+    "rule": "08-08",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-08-14 00:00:00",
+    "start": "2021-08-13T16:00:00.000Z",
+    "end": "2021-08-14T16:00:00.000Z",
+    "name": "七夕节",
+    "type": "observance",
+    "note": "National ICH list (2006, Ⅹ-4); not a day off",
+    "rule": "chinese 07-0-07",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-08-19 00:00:00",
+    "start": "2021-08-18T16:00:00.000Z",
+    "end": "2021-08-19T16:00:00.000Z",
+    "name": "中国医师节",
+    "type": "observance",
+    "note": "State Council approval 2017 (国函〔2017〕136号); not a day off",
+    "rule": "08-19",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-08-22 00:00:00",
+    "start": "2021-08-21T16:00:00.000Z",
+    "end": "2021-08-22T16:00:00.000Z",
+    "name": "中元节",
+    "type": "observance",
+    "note": "National ICH list (2008, Ⅹ-122); not a day off",
+    "rule": "chinese 07-0-15",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-08-23 00:00:00",
+    "start": "2021-08-22T16:00:00.000Z",
+    "end": "2021-08-23T16:00:00.000Z",
+    "name": "处暑",
+    "type": "observance",
+    "rule": "chinese 14-01 solarterm",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-09-03 00:00:00",
+    "start": "2021-09-02T16:00:00.000Z",
+    "end": "2021-09-03T16:00:00.000Z",
+    "name": "中国人民抗日战争胜利纪念日",
+    "type": "observance",
+    "note": "NPC Standing Committee decision 2014; 放假办法第五条; not a day off",
+    "rule": "09-03",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-09-05 00:00:00",
+    "start": "2021-09-04T16:00:00.000Z",
+    "end": "2021-09-05T16:00:00.000Z",
+    "name": "中华慈善日",
+    "type": "observance",
+    "note": "Charity Law, Art. 7; not a day off",
+    "rule": "09-05",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-09-07 00:00:00",
+    "start": "2021-09-06T16:00:00.000Z",
+    "end": "2021-09-07T16:00:00.000Z",
+    "name": "白露",
+    "type": "observance",
+    "rule": "chinese 15-01 solarterm",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-09-10 00:00:00",
+    "start": "2021-09-09T16:00:00.000Z",
+    "end": "2021-09-10T16:00:00.000Z",
+    "name": "教师节",
+    "type": "observance",
+    "note": "NPC Standing Committee decision 1985; 放假办法第五条; not a day off",
+    "rule": "09-10",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-09-18 00:00:00",
+    "start": "2021-09-17T16:00:00.000Z",
+    "end": "2021-09-18T16:00:00.000Z",
+    "name": "九一八纪念日",
+    "type": "observance",
+    "note": "放假办法第五条; not a day off",
+    "rule": "09-18",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-09-18 00:00:00",
+    "start": "2021-09-17T16:00:00.000Z",
+    "end": "2021-09-18T16:00:00.000Z",
+    "name": "全民国防教育日",
+    "type": "observance",
+    "note": "NPC Standing Committee decision 2001; not a day off",
+    "rule": "3rd Saturday in September",
+    "_weekday": "Sat"
   },
   {
     "date": "2021-09-19 00:00:00",
@@ -248,6 +712,35 @@
     "type": "public",
     "rule": "chinese 08-0-15",
     "_weekday": "Tue"
+  },
+  {
+    "date": "2021-09-23 00:00:00",
+    "start": "2021-09-22T16:00:00.000Z",
+    "end": "2021-09-23T16:00:00.000Z",
+    "name": "中国农民丰收节",
+    "type": "observance",
+    "note": "State Council approval 2018; not a day off",
+    "rule": "chinese 16-01 solarterm #1",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-09-23 00:00:00",
+    "start": "2021-09-22T16:00:00.000Z",
+    "end": "2021-09-23T16:00:00.000Z",
+    "name": "秋分",
+    "type": "observance",
+    "rule": "chinese 16-01 solarterm",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-09-30 00:00:00",
+    "start": "2021-09-29T16:00:00.000Z",
+    "end": "2021-09-30T16:00:00.000Z",
+    "name": "烈士纪念日",
+    "type": "observance",
+    "note": "NPC Standing Committee decision 2014; not a day off",
+    "rule": "09-30",
+    "_weekday": "Thu"
   },
   {
     "date": "2021-10-01 00:00:00",
@@ -312,5 +805,140 @@
     "type": "public",
     "rule": "2021-10-07",
     "_weekday": "Thu"
+  },
+  {
+    "date": "2021-10-08 00:00:00",
+    "start": "2021-10-07T16:00:00.000Z",
+    "end": "2021-10-08T16:00:00.000Z",
+    "name": "寒露",
+    "type": "observance",
+    "rule": "chinese 17-01 solarterm",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-10-14 00:00:00",
+    "start": "2021-10-13T16:00:00.000Z",
+    "end": "2021-10-14T16:00:00.000Z",
+    "name": "重阳节",
+    "type": "observance",
+    "note": "National ICH list (2006, Ⅹ-6); also Senior Citizens' Day since 2013; not a day off",
+    "rule": "chinese 09-0-09",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-10-17 00:00:00",
+    "start": "2021-10-16T16:00:00.000Z",
+    "end": "2021-10-17T16:00:00.000Z",
+    "name": "国家扶贫日",
+    "type": "observance",
+    "note": "State Council decision 2014; not a day off",
+    "rule": "10-17",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-10-23 00:00:00",
+    "start": "2021-10-22T16:00:00.000Z",
+    "end": "2021-10-23T16:00:00.000Z",
+    "name": "霜降",
+    "type": "observance",
+    "rule": "chinese 18-01 solarterm",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-11-05 00:00:00",
+    "start": "2021-11-04T16:00:00.000Z",
+    "end": "2021-11-05T16:00:00.000Z",
+    "name": "寒衣节",
+    "type": "observance",
+    "note": "Folk festival; not yet on the national ICH list",
+    "rule": "chinese 10-0-01",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-11-07 00:00:00",
+    "start": "2021-11-06T16:00:00.000Z",
+    "end": "2021-11-07T16:00:00.000Z",
+    "name": "立冬",
+    "type": "observance",
+    "rule": "chinese 19-01 solarterm",
+    "_weekday": "Sun"
+  },
+  {
+    "date": "2021-11-08 00:00:00",
+    "start": "2021-11-07T16:00:00.000Z",
+    "end": "2021-11-08T16:00:00.000Z",
+    "name": "记者节",
+    "type": "observance",
+    "note": "State Council approval 2000; 放假办法第五条; not a day off",
+    "rule": "11-08",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-11-19 00:00:00",
+    "start": "2021-11-18T16:00:00.000Z",
+    "end": "2021-11-19T16:00:00.000Z",
+    "name": "下元节",
+    "type": "observance",
+    "note": "Folk festival; not yet on the national ICH list",
+    "rule": "chinese 10-0-15",
+    "_weekday": "Fri"
+  },
+  {
+    "date": "2021-11-22 00:00:00",
+    "start": "2021-11-21T16:00:00.000Z",
+    "end": "2021-11-22T16:00:00.000Z",
+    "name": "小雪",
+    "type": "observance",
+    "rule": "chinese 20-01 solarterm",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-02 00:00:00",
+    "start": "2021-12-01T16:00:00.000Z",
+    "end": "2021-12-02T16:00:00.000Z",
+    "name": "全国交通安全日",
+    "type": "observance",
+    "note": "State Council approval 2012 (国函〔2012〕195号); not a day off",
+    "rule": "12-02",
+    "_weekday": "Thu"
+  },
+  {
+    "date": "2021-12-04 00:00:00",
+    "start": "2021-12-03T16:00:00.000Z",
+    "end": "2021-12-04T16:00:00.000Z",
+    "name": "国家宪法日",
+    "type": "observance",
+    "note": "NPC Standing Committee decision 2014; not a day off",
+    "rule": "12-04",
+    "_weekday": "Sat"
+  },
+  {
+    "date": "2021-12-07 00:00:00",
+    "start": "2021-12-06T16:00:00.000Z",
+    "end": "2021-12-07T16:00:00.000Z",
+    "name": "大雪",
+    "type": "observance",
+    "rule": "chinese 21-01 solarterm",
+    "_weekday": "Tue"
+  },
+  {
+    "date": "2021-12-13 00:00:00",
+    "start": "2021-12-12T16:00:00.000Z",
+    "end": "2021-12-13T16:00:00.000Z",
+    "name": "南京大屠杀死难者国家公祭日",
+    "type": "observance",
+    "note": "NPC Standing Committee decision 2014; not a day off",
+    "rule": "12-13",
+    "_weekday": "Mon"
+  },
+  {
+    "date": "2021-12-21 00:00:00",
+    "start": "2021-12-20T16:00:00.000Z",
+    "end": "2021-12-21T16:00:00.000Z",
+    "name": "冬至",
+    "type": "observance",
+    "note": "Traditional festival in many regions",
+    "rule": "chinese 22-01 solarterm",
+    "_weekday": "Tue"
   }
 ]
