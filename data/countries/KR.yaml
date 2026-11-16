@@ -28,6 +28,20 @@ holidays:
           ko: 3·1절
         active:
           - from: "2021-01-01"
+      # Labour Day became a public holiday from 2026
+      # @source https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19193
+      # @source https://www.mpm.go.kr/mpm/comm/newsPress/newsPressRelease/?cntId=4250&mode=view
+      05-01 since 2026:
+        name:
+          en: Labour Day
+          ko: 노동절
+      substitutes 05-01 if Saturday,Sunday then next Monday:
+        substitute: true
+        name:
+          en: Labour Day
+          ko: 노동절
+        active:
+          - from: "2026-01-01"
       05-05:
         name:
           en: Children’s Day
