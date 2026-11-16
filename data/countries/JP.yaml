@@ -343,6 +343,16 @@ holidays:
       12-25:
         _name: 12-25
         type: observance
+      12-29:
+        name:
+          en: Year-end Holiday
+          jp: 年末休暇
+        type: optional
+      12-30:
+        name:
+          en: Year-end Holiday
+          jp: 年末休暇
+        type: optional
       12-31:
         _name: 12-31
         type: bank
