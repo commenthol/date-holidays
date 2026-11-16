@@ -1,6 +1,8 @@
 holidays:
   # @attrib https://id.wikipedia.org/wiki/Hari_libur_nasional_di_Indonesia
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Indonesia
+  # @source https://www.setneg.go.id/baca/index/inilah_skb_3_menteri_libur_nasional_dan_cuti_bersama_2026
+  # @source https://web.archive.org/web/20260917182154/https://setneg.go.id/baca/index/inilah_skb_3_menteri_libur_nasional_dan_cuti_bersama_2027
   ID:
     names:
       en: Indonesia
@@ -22,6 +24,13 @@ holidays:
           id: Tahun Baru Imlek
       easter -2:
         _name: easter -2
+      # Keputusan Presiden Nomor 8 Tahun 2024
+      easter:
+        name:
+          en: Easter Sunday
+          id: Kebangkitan Yesus Kristus
+        active:
+          - from: 2024
       05-01:
         _name: 05-01
       easter 39:
@@ -37,20 +46,44 @@ holidays:
       # Islamic
       1 Muharram:
         _name: 1 Muharram
+      # Dates moved below follow the SKB 3 Menteri for each year.
       12 Rabi al-awwal:
         _name: 12 Rabi al-awwal
         disable:
           - "2025-09-04"
+          - "2027-08-14"
         enable:
           - "2025-09-05"
+          - "2027-08-15"
       27 Rajab:
+        _name: 27 Rajab
+        # 27 Rajab falls twice in 2027; only the December date differs from the SKB.
+        disable:
+          - "2027-12"
+      "2027-12-26":
         _name: 27 Rajab
       1 Shawwal:
         _name: 1 Shawwal
+        disable:
+          - "2026-03-20"
+          - "2027-03-09"
+        enable:
+          - "2026-03-21"
+          - "2027-03-10"
       2 Shawwal:
         _name: 1 Shawwal
+        disable:
+          - "2026-03-21"
+          - "2027-03-10"
+        enable:
+          - "2026-03-22"
+          - "2027-03-11"
       10 Dhu al-Hijjah:
         _name: 10 Dhu al-Hijjah
+        disable:
+          - "2027-05-16"
+        enable:
+          - "2027-05-17"
       # Nyepi
       # @attrib https://en.wikipedia.org/wiki/Nyepi
       "2009-03-26":
