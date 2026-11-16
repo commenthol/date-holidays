@@ -32,7 +32,7 @@ holidays:
       06-01:
         name:
           en: Children’s Day
-          zh: 六一儿童节
+          zh: 儿童节
         note: Children below the age of 14
       08-01 12:00:
         name:
@@ -51,14 +51,24 @@ holidays:
         name:
           en: National Day
           zh: 国庆节
-      chinese 01-0-00: # Spring Festival Eve
+      chinese 01-0-00: # Chinese New Year's Eve
         name:
-          en: Spring Festival
-          zh: 春节
+          en: Chinese New Year's Eve
+          zh: 除夕
+        note: Part of the Spring Festival
         active:
           - from: "2008-01-01"
             to: "2014-01-01"
           - from: "2025-01-01"
+      "chinese 01-0-00 #1": # Chinese New Year's Eve, no day off 2014-2024
+        name:
+          en: Chinese New Year's Eve
+          zh: 除夕
+        type: observance
+        note: Part of the Spring Festival; not a day off
+        active:
+          - from: "2014-01-01"
+            to: "2025-01-01"
       chinese 01-0-01: # 1st day of 1st lunar month
         name:
           en: Spring Festival
@@ -77,7 +87,7 @@ holidays:
       chinese 5-01 solarterm: # Tomb-Sweeping Day
         name:
           en: Qingming Festival
-          zh: 清明节 清明節
+          zh: 清明节
       chinese 05-0-05: # 5th day of 5th lunar month
         name:
           en: Dragon Boat Festival
@@ -86,6 +96,454 @@ holidays:
         name:
           en: Mid-Autumn Festival
           zh: 中秋节
+
+      # --- Observances (not days off) ---
+      # National memorial days, theme days, traditional festivals and solar terms.
+      # @source https://www.gov.cn/zhengce/zhengceku/202411/content_6986381.htm
+      # @source https://www.ihchina.cn/project.html
+      # @source https://www.mct.gov.cn/whzx/bnsj/dwwhllj/201612/t20161214_773196.html
+
+      # @source https://www.gov.cn/zhengce/content/2020-07/21/content_5528614.htm
+      01-10:
+        name:
+          en: Chinese People's Police Day
+          zh: 中国人民警察节
+        type: observance
+        note: State Council approval 2020 (国函〔2020〕98号); not a day off
+        active:
+          - from: "2021-01-01"
+      02-07:
+        name:
+          en: February 7th Memorial Day
+          zh: 二七纪念日
+        type: observance
+        note: 京汉铁路工人大罢工纪念日; 放假办法第五条; not a day off
+      03-12:
+        name:
+          en: National Tree Planting Day
+          zh: 植树节
+        type: observance
+        note: NPC Standing Committee resolution 1979; 放假办法第五条; not a day off
+        active:
+          - from: "1979-01-01"
+      # @source https://www.gov.cn/zhengce/2015-07/01/content_2893902.htm
+      04-15:
+        name:
+          en: National Security Education Day
+          zh: 全民国家安全教育日
+        type: observance
+        note: National Security Law, Art. 14; not a day off
+        active:
+          - from: "2016-01-01"
+      # @source https://www.gov.cn/zhengce/content/2016-03/21/content_5055835.htm
+      04-24:
+        name:
+          en: China Space Day
+          zh: 中国航天日
+        type: observance
+        note: State Council approval 2016 (国函〔2016〕50号); not a day off
+        active:
+          - from: "2016-01-01"
+      # @source https://www.gov.cn/zhengce/zhengceku/2017-05/02/content_5190380.htm
+      05-10:
+        name:
+          en: China Brand Day
+          zh: 中国品牌日
+        type: observance
+        note: State Council approval 2017 (国函〔2017〕51号); not a day off
+        active:
+          - from: "2017-01-01"
+      05-12:
+        name:
+          en: Nurses' Day
+          zh: 护士节
+        type: observance
+        note: International Nurses Day; 放假办法第五条; not a day off
+      "05-12 #1":
+        name:
+          en: National Disaster Prevention and Reduction Day
+          zh: 全国防灾减灾日
+        type: observance
+        note: State Council approval 2009; not a day off
+        active:
+          - from: "2009-01-01"
+      05-19:
+        name:
+          en: China Tourism Day
+          zh: 中国旅游日
+        type: observance
+        note: State Council approval 2011; not a day off
+        active:
+          - from: "2011-01-01"
+      05-30:
+        name:
+          en: May 30th Movement Memorial Day
+          zh: 五卅纪念日
+        type: observance
+        note: 五卅运动纪念日; 放假办法第五条; not a day off
+      # @source https://www.gov.cn/zhengce/content/2016-12/13/content_5147397.htm
+      "05-30 #1":
+        name:
+          en: National Science and Technology Workers' Day
+          zh: 全国科技工作者日
+        type: observance
+        note: State Council approval 2016 (国函〔2016〕194号); not a day off
+        active:
+          - from: "2017-01-01"
+      06-25:
+        name:
+          en: National Land Day
+          zh: 全国土地日
+        type: observance
+        note: State Council decision 1991; not a day off
+        active:
+          - from: "1991-01-01"
+      07-01:
+        name:
+          en: Anniversary of the Founding of the Communist Party of China
+          zh: 建党纪念日
+        type: observance
+        note: Established by the CPC Central Committee in 1941; not a statutory holiday
+      07-07:
+        name:
+          en: July 7th Incident Memorial Day
+          zh: 七七抗战纪念日
+        type: observance
+        note: 全民族抗战爆发纪念日; 放假办法第五条; not a day off
+      # @source https://www.gov.cn/zhengce/content/2008-03/28/content_1191.htm
+      07-11:
+        name:
+          en: China Maritime Day
+          zh: 中国航海日
+        type: observance
+        note: State Council approval 2005 (国函〔2005〕34号); not a day off
+        active:
+          - from: "2005-01-01"
+      08-08:
+        name:
+          en: National Fitness Day
+          zh: 全民健身日
+        type: observance
+        note: State Council approval 2009; not a day off
+        active:
+          - from: "2009-01-01"
+      # @source http://www.npc.gov.cn/npc/c2/c30834/202306/t20230628_430329.html
+      08-15:
+        name:
+          en: National Ecology Day
+          zh: 全国生态日
+        type: observance
+        note: NPC Standing Committee decision 2023; not a day off
+        active:
+          - from: "2023-01-01"
+      # @source https://www.gov.cn/zhengce/zhengceku/2017-11/20/content_5241021.htm
+      08-19:
+        name:
+          en: Chinese Doctors' Day
+          zh: 中国医师节
+        type: observance
+        note: State Council approval 2017 (国函〔2017〕136号); not a day off
+        active:
+          - from: "2018-01-01"
+      # @source http://www.npc.gov.cn/zgrdw/npc/xinwen/lfgz/lfdt/2014-02/28/content_1832448.htm
+      09-03:
+        name:
+          en: Victory Day of the Chinese People's War of Resistance Against Japanese Aggression
+          zh: 中国人民抗日战争胜利纪念日
+        type: observance
+        note: NPC Standing Committee decision 2014; 放假办法第五条; not a day off
+      # @source https://www.gov.cn/zhengce/2016-03/19/content_5055467.htm
+      09-05:
+        name:
+          en: China Charity Day
+          zh: 中华慈善日
+        type: observance
+        note: Charity Law, Art. 7; not a day off
+        active:
+          - from: "2016-01-01"
+      09-10:
+        name:
+          en: Teachers' Day
+          zh: 教师节
+        type: observance
+        note: NPC Standing Committee decision 1985; 放假办法第五条; not a day off
+        active:
+          - from: "1985-01-01"
+      09-18:
+        name:
+          en: September 18th Incident Memorial Day
+          zh: 九一八纪念日
+        type: observance
+        note: 放假办法第五条; not a day off
+      # @source http://www.npc.gov.cn/zgrdw/npc/lfzt/rlyw/2017-12/27/content_2035501.htm
+      09-30:
+        name:
+          en: Martyrs' Day
+          zh: 烈士纪念日
+        type: observance
+        note: NPC Standing Committee decision 2014; not a day off
+        active:
+          - from: "2014-01-01"
+      10-17:
+        name:
+          en: National Poverty Relief Day
+          zh: 国家扶贫日
+        type: observance
+        note: State Council decision 2014; not a day off
+        active:
+          - from: "2014-01-01"
+      11-08:
+        name:
+          en: Journalists' Day
+          zh: 记者节
+        type: observance
+        note: State Council approval 2000; 放假办法第五条; not a day off
+        active:
+          - from: "2000-01-01"
+      # @source https://www.gov.cn/zhengce/content/2012-11/21/content_3357.htm
+      12-02:
+        name:
+          en: National Traffic Safety Day
+          zh: 全国交通安全日
+        type: observance
+        note: State Council approval 2012 (国函〔2012〕195号); not a day off
+        active:
+          - from: "2012-01-01"
+      # @source http://www.npc.gov.cn/npc/c1773/c2518/gjxfr/gjxfr002/201912/t20191203_256312.html
+      12-04:
+        name:
+          en: National Constitution Day
+          zh: 国家宪法日
+        type: observance
+        note: NPC Standing Committee decision 2014; not a day off
+        active:
+          - from: "2014-01-01"
+      12-13:
+        name:
+          en: National Memorial Day for Nanjing Massacre Victims
+          zh: 南京大屠杀死难者国家公祭日
+        type: observance
+        note: NPC Standing Committee decision 2014; not a day off
+        active:
+          - from: "2014-01-01"
+      # @source https://www.gov.cn/guoqing/2021-10/29/content_5647618.htm
+      3rd Sunday in May:
+        name:
+          en: National Day for Helping the Disabled
+          zh: 全国助残日
+        type: observance
+        note: Law on the Protection of Persons with Disabilities, Art. 14; not a day off
+        active:
+          - from: "1991-01-01"
+      # @source https://www.gov.cn/gongbao/content/2001/content_61077.htm
+      3rd Saturday in September:
+        name:
+          en: National Defense Education Day
+          zh: 全民国防教育日
+        type: observance
+        note: NPC Standing Committee decision 2001; not a day off
+        active:
+          - from: "2001-01-01"
+      # @source https://www.gov.cn/gongbao/content/2006/content_185117.htm
+      2nd Saturday in June:
+        name:
+          en: Cultural and Natural Heritage Day
+          zh: 文化和自然遗产日
+        type: observance
+        note: State Council 2006; renamed in 2017; not a day off
+        active:
+          - from: "2006-01-01"
+
+      # Traditional festivals from the national ICH list
+      chinese 01-0-15:
+        name:
+          en: Lantern Festival
+          zh: 元宵节
+        type: observance
+        note: National ICH list (2008, Ⅹ-71); not a day off
+      chinese 02-0-02:
+        name:
+          en: Dragon Head-raising Festival
+          zh: 龙抬头
+        type: observance
+        note: Folk festival; not yet on the national ICH list
+      chinese 03-0-03:
+        name:
+          en: Shangsi Festival
+          zh: 上巳节
+        type: observance
+        note: Folk festival; national ICH item is "March 3" of ethnic groups; Han Shangsi is not separately listed
+      chinese 07-0-07:
+        name:
+          en: Qixi Festival
+          zh: 七夕节
+        type: observance
+        note: National ICH list (2006, Ⅹ-4); not a day off
+      chinese 07-0-15:
+        name:
+          en: Zhongyuan Festival
+          zh: 中元节
+        type: observance
+        note: National ICH list (2008, Ⅹ-122); not a day off
+      chinese 09-0-09:
+        name:
+          en: Chongyang Festival
+          zh: 重阳节
+        type: observance
+        note: National ICH list (2006, Ⅹ-6); also Senior Citizens' Day since 2013; not a day off
+      chinese 10-0-01:
+        name:
+          en: Winter Clothing Festival
+          zh: 寒衣节
+        type: observance
+        note: Folk festival; not yet on the national ICH list
+      chinese 10-0-15:
+        name:
+          en: Xiayuan Festival
+          zh: 下元节
+        type: observance
+        note: Folk festival; not yet on the national ICH list
+      chinese 12-0-08:
+        name:
+          en: Laba Festival
+          zh: 腊八节
+        type: observance
+        note: National ICH "Laba Festival customs" (2021, Ⅹ-174); not a day off
+      chinese 12-0-23:
+        name:
+          en: Little New Year
+          zh: 小年
+        type: observance
+        note: North China on the 23rd, South China often on the 24th; not yet on the national ICH list
+
+      # 24 solar terms: national ICH (2006, Ⅹ-68); UNESCO 2016.
+      # Qingming (solar term 5) is already a public holiday above.
+      chinese 1-01 solarterm:
+        name:
+          en: Start of Spring
+          zh: 立春
+        type: observance
+      chinese 2-01 solarterm:
+        name:
+          en: Rain Water
+          zh: 雨水
+        type: observance
+      chinese 3-01 solarterm:
+        name:
+          en: Awakening of Insects
+          zh: 惊蛰
+        type: observance
+      chinese 4-01 solarterm:
+        name:
+          en: Spring Equinox
+          zh: 春分
+        type: observance
+      chinese 6-01 solarterm:
+        name:
+          en: Grain Rain
+          zh: 谷雨
+        type: observance
+      chinese 7-01 solarterm:
+        name:
+          en: Start of Summer
+          zh: 立夏
+        type: observance
+      chinese 8-01 solarterm:
+        name:
+          en: Grain Full
+          zh: 小满
+        type: observance
+      chinese 9-01 solarterm:
+        name:
+          en: Grain in Ear
+          zh: 芒种
+        type: observance
+      chinese 10-01 solarterm:
+        name:
+          en: Summer Solstice
+          zh: 夏至
+        type: observance
+      chinese 11-01 solarterm:
+        name:
+          en: Minor Heat
+          zh: 小暑
+        type: observance
+      chinese 12-01 solarterm:
+        name:
+          en: Major Heat
+          zh: 大暑
+        type: observance
+      chinese 13-01 solarterm:
+        name:
+          en: Start of Autumn
+          zh: 立秋
+        type: observance
+      chinese 14-01 solarterm:
+        name:
+          en: End of Heat
+          zh: 处暑
+        type: observance
+      chinese 15-01 solarterm:
+        name:
+          en: White Dew
+          zh: 白露
+        type: observance
+      chinese 16-01 solarterm:
+        name:
+          en: Autumn Equinox
+          zh: 秋分
+        type: observance
+      # @source https://www.gov.cn/zhengce/zhengceku/2018-06/21/content_5300129.htm
+      "chinese 16-01 solarterm #1":
+        name:
+          en: Chinese Farmers' Harvest Festival
+          zh: 中国农民丰收节
+        type: observance
+        note: State Council approval 2018; not a day off
+        active:
+          - from: "2018-01-01"
+      chinese 17-01 solarterm:
+        name:
+          en: Cold Dew
+          zh: 寒露
+        type: observance
+      chinese 18-01 solarterm:
+        name:
+          en: Frost's Descent
+          zh: 霜降
+        type: observance
+      chinese 19-01 solarterm:
+        name:
+          en: Start of Winter
+          zh: 立冬
+        type: observance
+      chinese 20-01 solarterm:
+        name:
+          en: Minor Snow
+          zh: 小雪
+        type: observance
+      chinese 21-01 solarterm:
+        name:
+          en: Major Snow
+          zh: 大雪
+        type: observance
+      chinese 22-01 solarterm:
+        name:
+          en: Winter Solstice
+          zh: 冬至
+        type: observance
+        note: Traditional festival in many regions
+      chinese 23-01 solarterm:
+        name:
+          en: Minor Cold
+          zh: 小寒
+        type: observance
+      chinese 24-01 solarterm:
+        name:
+          en: Major Cold
+          zh: 大寒
+        type: observance
+
       "2021-01-02":
         _name: 01-01
       "2021-01-03":
@@ -110,11 +568,11 @@ holidays:
       "2021-04-03":
         name:
           en: Qingming Festival
-          zh: 清明节 清明節
+          zh: 清明节
       "2021-04-05":
         name:
           en: Qingming Festival
-          zh: 清明节 清明節
+          zh: 清明节
       "2021-05-02":
         _name: 05-01
         note: Work on Sun April 25 and Sat May 8.
