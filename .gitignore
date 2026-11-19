@@ -10,7 +10,7 @@ lib/
 *.log
 *.tgz
 *.sh
-.eslintcache
+.codegraph
 .idea/
 .DS_Store
 

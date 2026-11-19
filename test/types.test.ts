@@ -1,9 +1,12 @@
 import Holidays, { type HolidaysTypes } from 'date-holidays';
+import { EasterCalendarPlugin } from 'date-holidays-parser/plugins/EasterCalendarPlugin';
 
 type Equal<T, U> = (<V>() => V extends T ? 1 : 2) extends (<V>() => V extends U ? 1 : 2) ? true : false;
 const expectType = <T extends true>() => {};
 
 const hd = new Holidays('AD');
+const pluginOptions: HolidaysTypes.Options = { plugins: [EasterCalendarPlugin] };
+new Holidays('AD', pluginOptions);
 
 const initResult = hd.init('US');
 expectType<Equal<typeof initResult, void>>();

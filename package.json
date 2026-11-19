@@ -1,6 +1,6 @@
 {
   "name": "date-holidays",
-  "version": "3.39.2",
+  "version": "4.0.0-1",
   "description": "worldwide holidays",
   "keywords": [
     "holidays",
@@ -195,6 +195,7 @@
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
+      "browser": "./src/browser.js",
       "import": "./src/index.js",
       "require": "./lib/index.cjs"
     },
@@ -208,13 +209,21 @@
   "module": "./src/index.js",
   "types": "./types/index.d.ts",
   "bin": {
-    "holidays2json": "scripts/holidays2json.cjs"
+    "holidays2json": "scripts/holidays2json.js"
   },
   "directories": {
     "lib": "lib",
     "doc": "docs",
     "test": "test"
   },
+  "files": [
+    "data",
+    "dist",
+    "lib",
+    "scripts/holidays2json.js",
+    "src",
+    "types"
+  ],
   "scripts": {
     "all": "run-s clean build lint test doc:tree doc:attrib webpack",
     "build": "run-s yaml build:only",
@@ -226,16 +235,15 @@
     "clean:modules": "rimraf node_modules",
     "doc:attrib": "node scripts/attributions.cjs",
     "doc:tree": "node scripts/addtree.cjs",
+    "fixtures": "mocha test/all.mocha.js --writetests --countries",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "fixtures": "mocha test/all.mocha.js --writetests --countries",
     "test": "mocha",
+    "types": "tsc -p tsconfig.json && tsc -p tsconfig.test.json",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
     "webpack:analyze": "webpack",
-    "yaml": "node scripts/holidays2json.cjs",
-    "prepare": "husky",
-    "types": "tsc -p tsconfig.json && tsc -p tsconfig.test.json"
+    "yaml": "node scripts/holidays2json.js"
   },
   "browserslist": [
     "> 1%",
@@ -248,23 +256,20 @@
     "reporter": "dot"
   },
   "dependencies": {
-    "date-holidays-parser": "^3.7.0",
+    "caldate": "^3.0.0-0",
+    "date-holidays-parser": "^4.0.0-0",
     "js-yaml": "^5.5.0",
-    "lodash": "^4.18.1",
-    "prepin": "^1.0.3"
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
     "@babel/core": "^8.1.0",
     "@babel/preset-env": "^8.0.7",
-    "@commitlint/cli": "^21.2.4",
-    "@commitlint/config-conventional": "^21.2.4",
     "@eslint/js": "^10.0.1",
     "@mocha/contributors": "git+https://github.com/commenthol/contributors.git#semver:1.1.0-0",
     "babel-loader": "^10.1.1",
     "eslint": "^10.14.0",
     "eslint-plugin-yml": "^3.10.0",
     "globals": "^17.14.0",
-    "husky": "^9.1.7",
     "mocha": "^12.0.3",
     "npm-run-all2": "^9.0.4",
     "rimraf": "^6.1.4",
@@ -276,6 +281,6 @@
     "webpack-cli": "^7.3.1"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=26.0.0"
   }
 }
