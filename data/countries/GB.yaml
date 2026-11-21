@@ -470,6 +470,10 @@ holidays:
             name:
               en: January 2nd
           easter 1: false
+          # @source https://www.gov.uk/bank-holidays
+          "2026-06-15":
+            name:
+              en: World Cup bank holiday
           1st monday in August:
             name:
               en: Summer bank holiday
