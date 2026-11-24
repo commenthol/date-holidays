@@ -1,5 +1,6 @@
 holidays:
   # @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Turkey
+  # @source https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf (Law No. 2429)
   TR:
     names:
       tr: Türkiye
@@ -22,6 +23,9 @@ holidays:
         name:
           en: Labour and Solidarity Day
           tr: Emek ve Dayanışma Günü
+        # added by Law No. 5892, in force since 2009-04-27
+        active:
+          - from: "2009-01-01"
       05-19:
         name:
           en: Commemoration of Atatürk, Youth and Sports Day
@@ -30,15 +34,25 @@ holidays:
         name:
           en: Democracy and National Unity Day
           tr: Demokrasi ve Millî Birlik Günü
+        # added by Law No. 6752, in force since 2016-10-29
+        active:
+          - from: "2017-01-01"
       08-30:
         name:
           en: Victory Day
           tr: Zafer Bayramı
+      # Republic Day starts on October 28th at 13:00 (Law No. 2429, Art. 1)
+      10-28 13:00 PT11H:
+        name:
+          en: Republic Day
+          tr: Cumhuriyet Bayramı
       10-29:
         name:
           en: Republic Day
           tr: Cumhuriyet Bayramı
-      1 Shawwal PT90H:
+      # Islamic holidays start on the evening before; Ramazan Bayramı lasts
+      # until the end of its 3rd day, Kurban Bayramı until the end of its 4th day
+      1 Shawwal PT78H:
         _name: 1 Shawwal
-      10 Dhu al-Hijjah PT114H:
+      10 Dhu al-Hijjah PT102H:
         _name: 10 Dhu al-Hijjah
