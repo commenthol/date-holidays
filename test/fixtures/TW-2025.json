@@ -45,24 +45,6 @@
     "_weekday": "Fri"
   },
   {
-    "date": "2025-02-01 00:00:00",
-    "start": "2025-01-31T16:00:00.000Z",
-    "end": "2025-02-01T16:00:00.000Z",
-    "name": "農曆年初四",
-    "type": "public",
-    "rule": "chinese 01-0-04",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2025-02-02 00:00:00",
-    "start": "2025-02-01T16:00:00.000Z",
-    "end": "2025-02-02T16:00:00.000Z",
-    "name": "农历新年假期",
-    "type": "public",
-    "rule": "chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday",
-    "_weekday": "Sun"
-  },
-  {
     "date": "2025-02-04 00:00:00",
     "start": "2025-02-03T16:00:00.000Z",
     "end": "2025-02-04T16:00:00.000Z",
@@ -95,7 +77,7 @@
     "end": "2025-02-28T16:00:00.000Z",
     "name": "228和平紀念日",
     "type": "public",
-    "rule": "02-28 and if Sunday then next Monday",
+    "rule": "02-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Fri"
   },
   {
@@ -144,21 +126,21 @@
     "_weekday": "Sat"
   },
   {
-    "date": "2025-04-04 00:00:00",
-    "start": "2025-04-03T16:00:00.000Z",
-    "end": "2025-04-04T16:00:00.000Z",
+    "date": "2025-04-03 00:00:00",
+    "start": "2025-04-02T16:00:00.000Z",
+    "end": "2025-04-03T16:00:00.000Z",
     "name": "兒童節",
     "type": "public",
-    "rule": "04-04 and if Sunday then next Monday",
-    "_weekday": "Fri"
+    "rule": "1 day before chinese 5-01 solarterm and if Saturday then previous Friday if Sunday then next Tuesday",
+    "_weekday": "Thu"
   },
   {
     "date": "2025-04-04 00:00:00",
     "start": "2025-04-03T16:00:00.000Z",
     "end": "2025-04-04T16:00:00.000Z",
-    "name": "淸明節",
+    "name": "民族掃墓節 / 清明節",
     "type": "public",
-    "rule": "chinese 5-01 solarterm and if Sunday then next Monday",
+    "rule": "chinese 5-01 solarterm and if Saturday then previous Thursday if Sunday then next Monday",
     "_weekday": "Fri"
   },
   {
@@ -217,12 +199,22 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2025-05-30 00:00:00",
+    "start": "2025-05-29T16:00:00.000Z",
+    "end": "2025-05-30T16:00:00.000Z",
+    "name": "端午節 (更换日)",
+    "type": "public",
+    "substitute": true,
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2025-05-31 00:00:00",
     "start": "2025-05-30T16:00:00.000Z",
     "end": "2025-05-31T16:00:00.000Z",
     "name": "端午節",
     "type": "public",
-    "rule": "chinese 05-0-05 and if Sunday then next Monday",
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Sat"
   },
   {
@@ -301,10 +293,20 @@
     "date": "2025-09-28 00:00:00",
     "start": "2025-09-27T16:00:00.000Z",
     "end": "2025-09-28T16:00:00.000Z",
-    "name": "孔子誕辰紀念日",
-    "type": "observance",
-    "rule": "09-28",
+    "name": "孔子誕辰紀念日 / 教師節",
+    "type": "public",
+    "rule": "09-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Sun"
+  },
+  {
+    "date": "2025-09-29 00:00:00",
+    "start": "2025-09-28T16:00:00.000Z",
+    "end": "2025-09-29T16:00:00.000Z",
+    "name": "孔子誕辰紀念日 / 教師節 (更换日)",
+    "type": "public",
+    "substitute": true,
+    "rule": "09-28 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Mon"
   },
   {
     "date": "2025-10-06 00:00:00",
@@ -312,7 +314,7 @@
     "end": "2025-10-06T16:00:00.000Z",
     "name": "中秋節",
     "type": "public",
-    "rule": "chinese 08-0-15 and if Sunday then next Monday",
+    "rule": "chinese 08-0-15 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -321,7 +323,7 @@
     "end": "2025-10-10T16:00:00.000Z",
     "name": "國慶日 / 雙十節",
     "type": "public",
-    "rule": "10-10 and if Sunday then next Monday",
+    "rule": "10-10 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Fri"
   },
   {
@@ -334,12 +336,22 @@
     "_weekday": "Tue"
   },
   {
+    "date": "2025-10-24 00:00:00",
+    "start": "2025-10-23T16:00:00.000Z",
+    "end": "2025-10-24T16:00:00.000Z",
+    "name": "臺灣光復暨金門古寧頭大捷紀念日 (更换日)",
+    "type": "public",
+    "substitute": true,
+    "rule": "10-25 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2025-10-25 00:00:00",
     "start": "2025-10-24T16:00:00.000Z",
     "end": "2025-10-25T16:00:00.000Z",
-    "name": "臺灣光復節",
-    "type": "observance",
-    "rule": "10-25",
+    "name": "臺灣光復暨金門古寧頭大捷紀念日",
+    "type": "public",
+    "rule": "10-25 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Sat"
   },
   {
@@ -384,8 +396,8 @@
     "start": "2025-12-24T16:00:00.000Z",
     "end": "2025-12-25T16:00:00.000Z",
     "name": "行憲紀念日",
-    "type": "observance",
-    "rule": "12-25",
+    "type": "public",
+    "rule": "12-25 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Thu"
   }
 ]

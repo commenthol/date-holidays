@@ -10,12 +10,31 @@ holidays:
       - Asia/Taipei
     dayoff: ""
     days:
+      # @source https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020095
+      # Commemoration Days and Holidays Implementation Act (紀念日及節日實施條例),
+      # in force since 2025-05-28
+      # @source https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020033
+      # Regulations on the Implementation of Memorial Days and Holidays (紀念日及節日實施辦法),
+      # repealed 2025-06-06. Art. 5-1, in force since 2015: a holiday on a Saturday is
+      # observed on the previous working day, on a Sunday on the next working day; days of
+      # Chinese New Year on a weekend are observed on the working days after the holiday.
+      # @source https://data.gov.tw/dataset/14718
+      # Government office calendars of the DGPA (行政院人事行政總處), used to check
+      # the rules for 2017-2027. Extra days off which are made up on a Saturday
+      # (調整放假) are not included.
       01-01 and if Saturday then previous Friday if Sunday then next Monday:
         substitute: true
         _name: 01-01
         name:
           zh: 中華民國開國紀念日 / 元旦
           en: Founding of the Republic of China
+      # Since 2025-05-28 the holiday starts on the day before New Year's Eve
+      1 day before chinese 01-0-00:
+        name:
+          en: Day before Chinese New Year’s Eve
+          zh: 小年夜
+        active:
+          - from: "2025-05-28"
       chinese 01-0-00:
         name:
           en: Chinese New Year’s Eve
@@ -24,10 +43,6 @@ holidays:
         name:
           en: Chinese New Year
           zh: 農曆年初一
-      chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday:
-        name:
-          en: Chinese New Year Holiday
-          zh: 农历新年假期
       chinese 01-0-02:
         name:
           en: The second day of the Chinese New Year
@@ -36,40 +51,127 @@ holidays:
         name:
           en: The third day of the Chinese New Year
           zh: 農曆年初三
-      chinese 01-0-04:
+      # Days of the Chinese New Year holiday on a Saturday or Sunday are observed on the
+      # working days after the holiday. The holiday is a block of 4 days (5 days since
+      # 2025-05-28) which ends on the 3rd day, so the weekday of the 3rd day gives the
+      # substitute days.
+      substitutes chinese 01-0-03 if Monday then next Tuesday if Tuesday then next Wednesday if Wednesday then next Thursday if Saturday then next Monday if Sunday then next Monday:
+        substitute: true
         name:
-          en: The forth day of the Chinese New Year
-          zh: 農曆年初四
-      02-28 and if Sunday then next Monday:
+          en: Chinese New Year
+          zh: 春節
+        active:
+          - to: "2025-05-28"
+      substitutes chinese 01-0-03 if Monday then next Wednesday if Tuesday then next Thursday if Sunday then next Tuesday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          zh: 春節
+        active:
+          - to: "2025-05-28"
+      substitutes chinese 01-0-03 if Monday then next Tuesday if Tuesday then next Wednesday if Wednesday then next Thursday if Thursday then next Friday if Saturday then next Monday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          zh: 春節
+        active:
+          - from: "2025-05-28"
+      substitutes chinese 01-0-03 if Monday then next Wednesday if Tuesday then next Thursday if Wednesday then next Friday if Sunday then next Tuesday:
+        substitute: true
+        name:
+          en: Chinese New Year
+          zh: 春節
+        active:
+          - from: "2025-05-28"
+      02-28 and if Saturday then previous Friday if Sunday then next Monday:
         substitute: true
         name:
           en: Peace Memorial Day
           zh: 228和平紀念日
-      04-04 and if Sunday then next Monday:
+      # Children's Day (04-04) is observed the day before Tomb Sweeping Day when both fall
+      # on the same day, or the day after when that day is a Thursday. Tomb Sweeping Day
+      # is on April 4 or 5, so Children's Day is always the day before it, except in the
+      # Thursday case, which is moved with disable/enable (Tomb Sweeping Day on Thursday,
+      # April 4 in 2013-2100). On a Saturday the previous
+      # Friday is a day off; on a Sunday the next Monday is Tomb Sweeping Day, so the
+      # substitute is the Tuesday.
+      1 day before chinese 5-01 solarterm and if Saturday then previous Friday if Sunday then next Tuesday:
         substitute: true
+        disable:
+          - "2013-04-03"
+          - "2024-04-03"
+          - "2041-04-03"
+          - "2052-04-03"
+          - "2058-04-03"
+          - "2069-04-03"
+          - "2075-04-03"
+          - "2080-04-03"
+          - "2086-04-03"
+          - "2097-04-03"
+        enable:
+          - "2013-04-05"
+          - "2024-04-05"
+          - "2041-04-05"
+          - "2052-04-05"
+          - "2058-04-05"
+          - "2069-04-05"
+          - "2075-04-05"
+          - "2080-04-05"
+          - "2086-04-05"
+          - "2097-04-05"
         name:
           en: Children’s Day
           zh: 兒童節
-      chinese 5-01 solarterm and if Sunday then next Monday:
+      # On a Saturday, the previous Friday is Children's Day, so the substitute is the
+      # Thursday
+      chinese 5-01 solarterm and if Saturday then previous Thursday if Sunday then next Monday:
         substitute: true
         name:
           en: Tomb Sweeping Day
-          zh: 淸明節
-      chinese 05-0-05 and if Sunday then next Monday:
+          zh: 民族掃墓節 / 清明節
+      "05-01 and if Saturday then previous Friday if Sunday then next Monday #1":
+        substitute: true
+        _name: 05-01
+        name:
+          zh: 勞動節
+        active:
+          - from: "2025-05-28"
+      chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday:
         substitute: true
         name:
           en: Dragon Boat Festival
           zh: 端午節
-      chinese 08-0-15 and if Sunday then next Monday:
+      chinese 08-0-15 and if Saturday then previous Friday if Sunday then next Monday:
         substitute: true
         name:
           en: Mid-Autumn Festival
           zh: 中秋節
-      10-10 and if Sunday then next Monday:
+      09-28 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Confucius’ Birthday / Teachers’ Day
+          zh: 孔子誕辰紀念日 / 教師節
+        active:
+          - from: "2025-05-28"
+      10-10 and if Saturday then previous Friday if Sunday then next Monday:
         substitute: true
         name:
           en: National Day / Double Tenth Day
           zh: 國慶日 / 雙十節
+      10-25 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Taiwan Retrocession and Guningtou Victory Day
+          zh: 臺灣光復暨金門古寧頭大捷紀念日
+        active:
+          - from: "2025-05-28"
+      12-25 and if Saturday then previous Friday if Sunday then next Monday:
+        substitute: true
+        name:
+          en: Constitution Day
+          zh: 行憲紀念日
+        active:
+          - from: "2025-05-28"
       # observed
       02-04:
         name:
@@ -96,6 +198,8 @@ holidays:
           zh: 勞動節
         type: observance
         note: private sector
+        active:
+          - to: "2025-05-28"
       05-04:
         name:
           en: Literary Day
@@ -131,6 +235,8 @@ holidays:
           en: Teachers’ Day
           zh: 孔子誕辰紀念日
         type: observance
+        active:
+          - to: "2025-05-28"
       10-21:
         name:
           en: Overseas Chinese Day
@@ -141,6 +247,8 @@ holidays:
           en: Taiwan Retrocession Day
           zh: 臺灣光復節
         type: observance
+        active:
+          - to: "2025-05-28"
       11-12:
         name:
           en: Sun Yat-sen’s Birthday
@@ -157,6 +265,8 @@ holidays:
           en: Constitution Day
           zh: 行憲紀念日
         type: observance
+        active:
+          - to: "2025-05-28"
       chinese 01-0-15:
         name:
           en: Lantern Festival

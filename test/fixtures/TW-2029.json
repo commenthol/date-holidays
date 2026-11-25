@@ -18,6 +18,15 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2029-02-11 00:00:00",
+    "start": "2029-02-10T16:00:00.000Z",
+    "end": "2029-02-11T16:00:00.000Z",
+    "name": "小年夜",
+    "type": "public",
+    "rule": "1 day before chinese 01-0-00",
+    "_weekday": "Sun"
+  },
+  {
     "date": "2029-02-12 00:00:00",
     "start": "2029-02-11T16:00:00.000Z",
     "end": "2029-02-12T16:00:00.000Z",
@@ -57,19 +66,11 @@
     "date": "2029-02-16 00:00:00",
     "start": "2029-02-15T16:00:00.000Z",
     "end": "2029-02-16T16:00:00.000Z",
-    "name": "農曆年初四",
+    "name": "春節 (更换日)",
     "type": "public",
-    "rule": "chinese 01-0-04",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-03 if Monday then next Tuesday if Tuesday then next Wednesday if Wednesday then next Thursday if Thursday then next Friday if Saturday then next Monday if Sunday then next Monday",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2029-02-17 00:00:00",
-    "start": "2029-02-16T16:00:00.000Z",
-    "end": "2029-02-17T16:00:00.000Z",
-    "name": "农历新年假期",
-    "type": "public",
-    "rule": "chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday",
-    "_weekday": "Sat"
   },
   {
     "date": "2029-02-27 00:00:00",
@@ -95,7 +96,7 @@
     "end": "2029-02-28T16:00:00.000Z",
     "name": "228和平紀念日",
     "type": "public",
-    "rule": "02-28 and if Sunday then next Monday",
+    "rule": "02-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -144,21 +145,21 @@
     "_weekday": "Mon"
   },
   {
-    "date": "2029-04-04 00:00:00",
-    "start": "2029-04-03T16:00:00.000Z",
-    "end": "2029-04-04T16:00:00.000Z",
+    "date": "2029-04-03 00:00:00",
+    "start": "2029-04-02T16:00:00.000Z",
+    "end": "2029-04-03T16:00:00.000Z",
     "name": "兒童節",
     "type": "public",
-    "rule": "04-04 and if Sunday then next Monday",
-    "_weekday": "Wed"
+    "rule": "1 day before chinese 5-01 solarterm and if Saturday then previous Friday if Sunday then next Tuesday",
+    "_weekday": "Tue"
   },
   {
     "date": "2029-04-04 00:00:00",
     "start": "2029-04-03T16:00:00.000Z",
     "end": "2029-04-04T16:00:00.000Z",
-    "name": "淸明節",
+    "name": "民族掃墓節 / 清明節",
     "type": "public",
-    "rule": "chinese 5-01 solarterm and if Sunday then next Monday",
+    "rule": "chinese 5-01 solarterm and if Saturday then previous Thursday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -175,9 +176,8 @@
     "start": "2029-04-30T16:00:00.000Z",
     "end": "2029-05-01T16:00:00.000Z",
     "name": "勞動節",
-    "type": "observance",
-    "note": "private sector",
-    "rule": "05-01 and if Saturday then previous Friday if Sunday then next Monday",
+    "type": "public",
+    "rule": "05-01 and if Saturday then previous Friday if Sunday then next Monday #1",
     "_weekday": "Tue"
   },
   {
@@ -226,12 +226,22 @@
     "_weekday": "Sun"
   },
   {
+    "date": "2029-06-15 00:00:00",
+    "start": "2029-06-14T16:00:00.000Z",
+    "end": "2029-06-15T16:00:00.000Z",
+    "name": "端午節 (更换日)",
+    "type": "public",
+    "substitute": true,
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2029-06-16 00:00:00",
     "start": "2029-06-15T16:00:00.000Z",
     "end": "2029-06-16T16:00:00.000Z",
     "name": "端午節",
     "type": "public",
-    "rule": "chinese 05-0-05 and if Sunday then next Monday",
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Sat"
   },
   {
@@ -298,21 +308,31 @@
     "_weekday": "Mon"
   },
   {
+    "date": "2029-09-21 00:00:00",
+    "start": "2029-09-20T16:00:00.000Z",
+    "end": "2029-09-21T16:00:00.000Z",
+    "name": "中秋節 (更换日)",
+    "type": "public",
+    "substitute": true,
+    "rule": "chinese 08-0-15 and if Saturday then previous Friday if Sunday then next Monday",
+    "_weekday": "Fri"
+  },
+  {
     "date": "2029-09-22 00:00:00",
     "start": "2029-09-21T16:00:00.000Z",
     "end": "2029-09-22T16:00:00.000Z",
     "name": "中秋節",
     "type": "public",
-    "rule": "chinese 08-0-15 and if Sunday then next Monday",
+    "rule": "chinese 08-0-15 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Sat"
   },
   {
     "date": "2029-09-28 00:00:00",
     "start": "2029-09-27T16:00:00.000Z",
     "end": "2029-09-28T16:00:00.000Z",
-    "name": "孔子誕辰紀念日",
-    "type": "observance",
-    "rule": "09-28",
+    "name": "孔子誕辰紀念日 / 教師節",
+    "type": "public",
+    "rule": "09-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Fri"
   },
   {
@@ -321,7 +341,7 @@
     "end": "2029-10-10T16:00:00.000Z",
     "name": "國慶日 / 雙十節",
     "type": "public",
-    "rule": "10-10 and if Sunday then next Monday",
+    "rule": "10-10 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -346,9 +366,9 @@
     "date": "2029-10-25 00:00:00",
     "start": "2029-10-24T16:00:00.000Z",
     "end": "2029-10-25T16:00:00.000Z",
-    "name": "臺灣光復節",
-    "type": "observance",
-    "rule": "10-25",
+    "name": "臺灣光復暨金門古寧頭大捷紀念日",
+    "type": "public",
+    "rule": "10-25 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Thu"
   },
   {
@@ -384,8 +404,8 @@
     "start": "2029-12-24T16:00:00.000Z",
     "end": "2029-12-25T16:00:00.000Z",
     "name": "行憲紀念日",
-    "type": "observance",
-    "rule": "12-25",
+    "type": "public",
+    "rule": "12-25 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Tue"
   }
 ]

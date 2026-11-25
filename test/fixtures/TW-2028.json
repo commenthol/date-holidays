@@ -9,6 +9,15 @@
     "_weekday": "Sat"
   },
   {
+    "date": "2028-01-24 00:00:00",
+    "start": "2028-01-23T16:00:00.000Z",
+    "end": "2028-01-24T16:00:00.000Z",
+    "name": "小年夜",
+    "type": "public",
+    "rule": "1 day before chinese 01-0-00",
+    "_weekday": "Mon"
+  },
+  {
     "date": "2028-01-25 00:00:00",
     "start": "2028-01-24T16:00:00.000Z",
     "end": "2028-01-25T16:00:00.000Z",
@@ -43,24 +52,6 @@
     "type": "public",
     "rule": "chinese 01-0-03",
     "_weekday": "Fri"
-  },
-  {
-    "date": "2028-01-29 00:00:00",
-    "start": "2028-01-28T16:00:00.000Z",
-    "end": "2028-01-29T16:00:00.000Z",
-    "name": "農曆年初四",
-    "type": "public",
-    "rule": "chinese 01-0-04",
-    "_weekday": "Sat"
-  },
-  {
-    "date": "2028-01-30 00:00:00",
-    "start": "2028-01-29T16:00:00.000Z",
-    "end": "2028-01-30T16:00:00.000Z",
-    "name": "农历新年假期",
-    "type": "public",
-    "rule": "chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday",
-    "_weekday": "Sun"
   },
   {
     "date": "2028-02-04 00:00:00",
@@ -104,7 +95,7 @@
     "end": "2028-02-28T16:00:00.000Z",
     "name": "228和平紀念日",
     "type": "public",
-    "rule": "02-28 and if Sunday then next Monday",
+    "rule": "02-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -144,21 +135,21 @@
     "_weekday": "Wed"
   },
   {
-    "date": "2028-04-04 00:00:00",
-    "start": "2028-04-03T16:00:00.000Z",
-    "end": "2028-04-04T16:00:00.000Z",
+    "date": "2028-04-03 00:00:00",
+    "start": "2028-04-02T16:00:00.000Z",
+    "end": "2028-04-03T16:00:00.000Z",
     "name": "兒童節",
     "type": "public",
-    "rule": "04-04 and if Sunday then next Monday",
-    "_weekday": "Tue"
+    "rule": "1 day before chinese 5-01 solarterm and if Saturday then previous Friday if Sunday then next Tuesday",
+    "_weekday": "Mon"
   },
   {
     "date": "2028-04-04 00:00:00",
     "start": "2028-04-03T16:00:00.000Z",
     "end": "2028-04-04T16:00:00.000Z",
-    "name": "淸明節",
+    "name": "民族掃墓節 / 清明節",
     "type": "public",
-    "rule": "chinese 5-01 solarterm and if Sunday then next Monday",
+    "rule": "chinese 5-01 solarterm and if Saturday then previous Thursday if Sunday then next Monday",
     "_weekday": "Tue"
   },
   {
@@ -184,9 +175,8 @@
     "start": "2028-04-30T16:00:00.000Z",
     "end": "2028-05-01T16:00:00.000Z",
     "name": "勞動節",
-    "type": "observance",
-    "note": "private sector",
-    "rule": "05-01 and if Saturday then previous Friday if Sunday then next Monday",
+    "type": "public",
+    "rule": "05-01 and if Saturday then previous Friday if Sunday then next Monday #1",
     "_weekday": "Mon"
   },
   {
@@ -222,7 +212,7 @@
     "end": "2028-05-28T16:00:00.000Z",
     "name": "端午節",
     "type": "public",
-    "rule": "chinese 05-0-05 and if Sunday then next Monday",
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Sun"
   },
   {
@@ -232,7 +222,7 @@
     "name": "端午節 (更换日)",
     "type": "public",
     "substitute": true,
-    "rule": "chinese 05-0-05 and if Sunday then next Monday",
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -311,9 +301,9 @@
     "date": "2028-09-28 00:00:00",
     "start": "2028-09-27T16:00:00.000Z",
     "end": "2028-09-28T16:00:00.000Z",
-    "name": "孔子誕辰紀念日",
-    "type": "observance",
-    "rule": "09-28",
+    "name": "孔子誕辰紀念日 / 教師節",
+    "type": "public",
+    "rule": "09-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Thu"
   },
   {
@@ -322,7 +312,7 @@
     "end": "2028-10-03T16:00:00.000Z",
     "name": "中秋節",
     "type": "public",
-    "rule": "chinese 08-0-15 and if Sunday then next Monday",
+    "rule": "chinese 08-0-15 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Tue"
   },
   {
@@ -331,7 +321,7 @@
     "end": "2028-10-10T16:00:00.000Z",
     "name": "國慶日 / 雙十節",
     "type": "public",
-    "rule": "10-10 and if Sunday then next Monday",
+    "rule": "10-10 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Tue"
   },
   {
@@ -347,9 +337,9 @@
     "date": "2028-10-25 00:00:00",
     "start": "2028-10-24T16:00:00.000Z",
     "end": "2028-10-25T16:00:00.000Z",
-    "name": "臺灣光復節",
-    "type": "observance",
-    "rule": "10-25",
+    "name": "臺灣光復暨金門古寧頭大捷紀念日",
+    "type": "public",
+    "rule": "10-25 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -394,8 +384,8 @@
     "start": "2028-12-24T16:00:00.000Z",
     "end": "2028-12-25T16:00:00.000Z",
     "name": "行憲紀念日",
-    "type": "observance",
-    "rule": "12-25",
+    "type": "public",
+    "rule": "12-25 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Mon"
   }
 ]
