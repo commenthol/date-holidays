@@ -57,18 +57,20 @@
     "date": "2018-02-19 00:00:00",
     "start": "2018-02-18T16:00:00.000Z",
     "end": "2018-02-19T16:00:00.000Z",
-    "name": "農曆年初四",
+    "name": "春節 (更换日)",
     "type": "public",
-    "rule": "chinese 01-0-04",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-03 if Monday then next Tuesday if Tuesday then next Wednesday if Wednesday then next Thursday if Saturday then next Monday if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
     "date": "2018-02-20 00:00:00",
     "start": "2018-02-19T16:00:00.000Z",
     "end": "2018-02-20T16:00:00.000Z",
-    "name": "农历新年假期",
+    "name": "春節 (更换日)",
     "type": "public",
-    "rule": "chinese 01-0-01 if Monday then next Friday if Tuesday then next Saturdayif Wednesday then next Sunday if Thursday then next Monday if Friday then next Tuesday if Saturday then next Wednesday if Sunday then next Thursday",
+    "substitute": true,
+    "rule": "substitutes chinese 01-0-03 if Monday then next Wednesday if Tuesday then next Thursday if Sunday then next Tuesday",
     "_weekday": "Tue"
   },
   {
@@ -77,7 +79,7 @@
     "end": "2018-02-28T16:00:00.000Z",
     "name": "228和平紀念日",
     "type": "public",
-    "rule": "02-28 and if Sunday then next Monday",
+    "rule": "02-28 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
@@ -140,7 +142,7 @@
     "end": "2018-04-04T16:00:00.000Z",
     "name": "兒童節",
     "type": "public",
-    "rule": "04-04 and if Sunday then next Monday",
+    "rule": "1 day before chinese 5-01 solarterm and if Saturday then previous Friday if Sunday then next Tuesday",
     "_weekday": "Wed"
   },
   {
@@ -156,9 +158,9 @@
     "date": "2018-04-05 00:00:00",
     "start": "2018-04-04T16:00:00.000Z",
     "end": "2018-04-05T16:00:00.000Z",
-    "name": "淸明節",
+    "name": "民族掃墓節 / 清明節",
     "type": "public",
-    "rule": "chinese 5-01 solarterm and if Sunday then next Monday",
+    "rule": "chinese 5-01 solarterm and if Saturday then previous Thursday if Sunday then next Monday",
     "_weekday": "Thu"
   },
   {
@@ -231,7 +233,7 @@
     "end": "2018-06-18T16:00:00.000Z",
     "name": "端午節",
     "type": "public",
-    "rule": "chinese 05-0-05 and if Sunday then next Monday",
+    "rule": "chinese 05-0-05 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -303,7 +305,7 @@
     "end": "2018-09-24T16:00:00.000Z",
     "name": "中秋節",
     "type": "public",
-    "rule": "chinese 08-0-15 and if Sunday then next Monday",
+    "rule": "chinese 08-0-15 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Mon"
   },
   {
@@ -321,7 +323,7 @@
     "end": "2018-10-10T16:00:00.000Z",
     "name": "國慶日 / 雙十節",
     "type": "public",
-    "rule": "10-10 and if Sunday then next Monday",
+    "rule": "10-10 and if Saturday then previous Friday if Sunday then next Monday",
     "_weekday": "Wed"
   },
   {
